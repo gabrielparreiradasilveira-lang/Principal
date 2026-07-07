@@ -4,15 +4,15 @@ Transforme PDFs em apresentações automaticamente! ✨
 
 ## O que foi criado?
 
-Dois scripts para converter PDF em apresentações:
+Três scripts para converter PDF em apresentações:
 
-### 1️⃣ **pdf_to_slides.py** (Recomendado)
+### 1️⃣ **pdf_to_slides.py** (Rápido & Simples)
 Gera arquivo PowerPoint (.pptx) que você pode editar depois
 
 **Vantagens:**
 - ✅ Sem necessidade de autenticação
 - ✅ Rápido e simples
-- ✅ Arquivo PPTX editável no PowerPoint/Google Slides
+- ✅ Arquivo PPTX editável
 - ✅ Preserva todo o texto do PDF
 
 **Como usar:**
@@ -25,7 +25,29 @@ python pdf_to_slides.py seu_documento.pdf
 seu_documento_converted.pptx
 ```
 
-### 2️⃣ **pdf_to_google_slides.py** (Avançado)
+### 2️⃣ **pdf_to_google_slides_template.py** ⭐ (RECOMENDADO)
+Clona seu template Google Slides e preenche com conteúdo do PDF
+
+**Vantagens:**
+- ✅ Mantém suas cores, fontes e layout
+- ✅ Salva direto no Google Drive
+- ✅ Pronto para usar, sem edições manuais
+- ✅ Tema idêntico ao que você faz manualmente
+
+**Como usar:**
+```bash
+python pdf_to_google_slides_template.py seu_documento.pdf credentials.json
+```
+
+**Resultado:**
+```
+Novo arquivo no Google Drive com seu template!
+🔗 https://docs.google.com/presentation/d/[ID]/edit
+```
+
+📋 **Setup:** Veja `GOOGLE_SETUP_GUIDE.md`
+
+### 3️⃣ **pdf_to_google_slides.py** (Avançado)
 Cria apresentação diretamente no Google Slides (requer autenticação)
 
 **Para usar:**
@@ -38,7 +60,40 @@ python pdf_to_google_slides.py seu_documento.pdf credentials.json
 
 ---
 
-## ⚡ Uso Rápido
+## ⚡ Uso Rápido - Opção Recomendada (Google Slides com Template)
+
+### Passo 1: Setup Google (uma única vez)
+```bash
+# Veja o guia completo em: GOOGLE_SETUP_GUIDE.md
+# Resumo:
+# 1. Crie projeto no Google Cloud Console
+# 2. Ative Google Slides e Google Drive APIs
+# 3. Crie Service Account e baixe credentials.json
+# 4. Compartilhe seu template com o email da Service Account
+```
+
+### Passo 2: Colocar credentials.json na pasta
+```
+Principal/
+├── pdf_to_google_slides_template.py
+├── credentials.json  ← Arquivo baixado
+└── documento.pdf
+```
+
+### Passo 3: Executar converter
+```bash
+python pdf_to_google_slides_template.py documento.pdf credentials.json
+```
+
+### Passo 4: Resultado!
+✅ Apresentação criada no Google Drive
+✅ Com seu template (cores, fontes, layout)
+✅ Conteúdo preenchido automaticamente
+✅ Pronta para usar!
+
+---
+
+## ⚡ Uso Rápido - Alternativa (PowerPoint local)
 
 ### Passo 1: Instalar dependências (primeira vez)
 ```bash
