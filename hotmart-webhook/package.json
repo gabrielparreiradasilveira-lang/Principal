@@ -1,0 +1,9 @@
+{
+  "name": "hotmart-webhook",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Webhook da Hotmart que libera/revoga acesso de alunos no Firestore do app Simulados TopInvest.",
+  "dependencies": {
+    "firebase-admin": "^12.1.0"
+  }
+}
