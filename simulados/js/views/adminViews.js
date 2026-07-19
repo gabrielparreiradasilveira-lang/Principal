@@ -3,6 +3,7 @@ import {
   createCertification,
   deleteCertification,
   listQuestions,
+  getQuestionsByIds,
   createQuestion,
   updateQuestion,
   deleteQuestion,
@@ -12,6 +13,9 @@ import {
   updateExam,
   deleteExam,
   listAllAttempts,
+  listStudents,
+  grantAccess,
+  revokeAccess,
 } from "../db.js";
 import { escapeHtml, formatDate } from "../utils.js";
 import { navigate } from "../router.js";
@@ -98,8 +102,10 @@ export async function renderAdminCertificacoes(root) {
     <div class="max-w-3xl mx-auto py-8">
       ${adminNav("admin/certificacoes")}
       <h1 class="text-2xl font-bold text-slate-800 mb-6">Certificações</h1>
+      <p class="text-sm text-slate-500 mb-4">O acesso de um aluno a uma certificação é liberado automaticamente pela compra na Hotmart (ver README) ou manualmente na página <a href="#/admin/alunos" class="text-indigo-600 font-medium">Alunos</a>.</p>
       <form id="new-cert" class="flex gap-2 mb-6">
         <input name="name" required placeholder="Ex: CPA-20, CPA-10, CEA..." class="flex-1 border border-slate-300 rounded-lg px-3 py-2" />
+        <input name="checkoutUrl" placeholder="Link de compra na Hotmart (opcional)" class="flex-1 border border-slate-300 rounded-lg px-3 py-2" />
         <button class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-4 rounded-lg">Adicionar</button>
       </form>
       <div class="bg-white rounded-xl shadow divide-y">
@@ -108,7 +114,10 @@ export async function renderAdminCertificacoes(root) {
             .map(
               (c) => `
           <div class="p-4 flex items-center justify-between">
-            <span class="font-medium text-slate-800">${escapeHtml(c.name)}</span>
+            <div>
+              <span class="font-medium text-slate-800">${escapeHtml(c.name)}</span>
+              ${c.checkoutUrl ? `<a href="${escapeHtml(c.checkoutUrl)}" target="_blank" class="block text-xs text-indigo-600">${escapeHtml(c.checkoutUrl)}</a>` : `<span class="block text-xs text-slate-400">Sem link de compra cadastrado</span>`}
+            </div>
             <button data-id="${c.id}" class="del-cert text-red-600 text-sm font-medium">Excluir</button>
           </div>
         `
@@ -122,7 +131,7 @@ export async function renderAdminCertificacoes(root) {
   root.querySelector("#new-cert").addEventListener("submit", async (e) => {
     e.preventDefault();
     const fd = new FormData(e.target);
-    await createCertification(fd.get("name"));
+    await createCertification(fd.get("name"), fd.get("checkoutUrl"));
     renderAdminCertificacoes(root);
   });
   root.querySelectorAll(".del-cert").forEach((btn) =>
@@ -135,11 +144,15 @@ export async function renderAdminCertificacoes(root) {
 }
 
 /* ---------------- Questões ---------------- */
+const TYPE_LABEL = { simples: "Simples", mae: "Estudo de caso", arvore: "Árvore de decisão" };
+const TYPE_BADGE = { simples: "bg-slate-100 text-slate-600", mae: "bg-violet-50 text-violet-600", arvore: "bg-amber-50 text-amber-700" };
+
 export async function renderAdminQuestoes(root) {
   root.innerHTML = `<div class="max-w-4xl mx-auto py-8">${adminNav("admin/questoes")}<p class="text-slate-500">Carregando...</p></div>`;
   const certs = await listCertifications();
   const filterId = root.dataset.certFilter || certs[0]?.id || "";
-  const questions = filterId ? await listQuestions(filterId) : [];
+  // "filha" nunca aparece solta na lista: só existe pendurada em uma "mae".
+  const questions = filterId ? (await listQuestions(filterId)).filter((q) => q.type !== "filha") : [];
 
   root.innerHTML = `
     <div class="max-w-4xl mx-auto py-8">
@@ -165,7 +178,12 @@ export async function renderAdminQuestoes(root) {
           <div class="bg-white rounded-xl shadow p-4">
             <div class="flex items-start justify-between gap-3">
               <div class="flex-1">
-                ${q.module ? `<span class="inline-block text-xs font-semibold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded mb-1">${escapeHtml(q.module)}</span>` : ""}
+                <div class="flex gap-2 mb-1">
+                  <span class="inline-block text-xs font-semibold px-2 py-0.5 rounded ${TYPE_BADGE[q.type || "simples"]}">${TYPE_LABEL[q.type || "simples"]}</span>
+                  ${q.module ? `<span class="inline-block text-xs font-semibold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded">${escapeHtml(q.module)}</span>` : ""}
+                  ${q.type === "mae" ? `<span class="text-xs text-slate-400">${(q.childIds || []).length} pergunta(s)</span>` : ""}
+                  ${q.type === "arvore" ? `<span class="text-xs text-slate-400">${(q.steps || []).length} interação(ões)</span>` : ""}
+                </div>
                 <p class="text-slate-800 text-sm">${escapeHtml(q.statement)}</p>
               </div>
               <div class="flex gap-2 shrink-0">
@@ -192,56 +210,175 @@ export async function renderAdminQuestoes(root) {
   });
 
   root.querySelectorAll(".edit-q").forEach((btn) =>
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click", async () => {
       const q = questions.find((x) => x.id === btn.dataset.id);
-      showQuestionForm(root.querySelector("#q-form-slot"), filterId, q, () => renderAdminQuestoes(root));
+      await showQuestionForm(root.querySelector("#q-form-slot"), filterId, q, () => renderAdminQuestoes(root));
     })
   );
   root.querySelectorAll(".del-q").forEach((btn) =>
     btn.addEventListener("click", async () => {
-      if (!confirm("Excluir esta questão?")) return;
+      if (!confirm("Excluir esta questão? (se for um estudo de caso, as perguntas filhas também serão excluídas)")) return;
+      const q = questions.find((x) => x.id === btn.dataset.id);
+      if (q?.type === "mae") {
+        for (const childId of q.childIds || []) await deleteQuestion(childId);
+      }
       await deleteQuestion(btn.dataset.id);
       renderAdminQuestoes(root);
     })
   );
 }
 
-function showQuestionForm(slot, certificationId, question, onSaved) {
-  const opts = question?.options || ["", "", "", ""];
+/* ---- Bloco de alternativas reutilizável (questão simples / cada filha / cada passo da árvore) ---- */
+function optionsBlockHtml(prefix, options, correctIndex) {
+  const opts = options?.length ? options : ["", ""];
+  return `
+    <div class="opts-wrap space-y-2" data-prefix="${prefix}">
+      ${opts
+        .map(
+          (o, i) => `
+        <div class="flex items-center gap-2 opt-row">
+          <input type="radio" name="${prefix}-correctIndex" ${correctIndex === i ? "checked" : ""} required />
+          <input type="text" name="${prefix}-opt" value="${escapeHtml(o)}" required placeholder="Alternativa ${i + 1}" class="flex-1 border border-slate-300 rounded-lg px-3 py-2 text-sm" />
+          <button type="button" class="remove-opt text-red-400 text-xs px-1">✕</button>
+        </div>
+      `
+        )
+        .join("")}
+    </div>
+    <button type="button" class="add-opt text-indigo-600 text-xs font-semibold mt-2" data-prefix="${prefix}">+ Adicionar alternativa</button>
+  `;
+}
+
+function videoFieldsHtml(prefix, question) {
+  return `
+    <div class="grid grid-cols-2 gap-3">
+      <div>
+        <label class="block text-xs font-medium text-slate-500 mb-1">Vídeo-explicação (URL, opcional)</label>
+        <input name="${prefix}-videoUrl" value="${escapeHtml(question?.videoUrl || "")}" placeholder="https://youtube.com/..." class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm" />
+      </div>
+      <div>
+        <label class="block text-xs font-medium text-slate-500 mb-1">Professor (opcional)</label>
+        <input name="${prefix}-videoProfessor" value="${escapeHtml(question?.videoProfessor || "")}" class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm" />
+      </div>
+    </div>
+  `;
+}
+
+function childCardHtml(index, child) {
+  return `
+    <div class="border border-violet-200 rounded-lg p-4 mb-3 child-card" data-index="${index}">
+      <input type="hidden" name="child-${index}-id" value="${child?.id || ""}" />
+      <div class="flex items-center justify-between mb-2">
+        <span class="text-xs font-bold text-violet-600 uppercase tracking-wide">Pergunta filha ${index + 1}</span>
+        <button type="button" class="remove-child text-red-500 text-xs font-semibold">Remover</button>
+      </div>
+      <div class="space-y-3">
+        <textarea name="child-${index}-statement" required rows="2" placeholder="Pergunta referente ao caso acima..." class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm">${escapeHtml(child?.statement || "")}</textarea>
+        ${optionsBlockHtml(`child-${index}`, child?.options, child?.correctIndex)}
+        <textarea name="child-${index}-explanation" rows="2" placeholder="Explicação do gabarito (opcional)" class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm">${escapeHtml(child?.explanation || "")}</textarea>
+        ${videoFieldsHtml(`child-${index}`, child)}
+      </div>
+    </div>
+  `;
+}
+
+function stepCardHtml(index, step) {
+  return `
+    <div class="border border-amber-200 rounded-lg p-4 mb-3 step-card" data-index="${index}">
+      <div class="flex items-center justify-between mb-2">
+        <span class="text-xs font-bold text-amber-700 uppercase tracking-wide">Interação ${index + 1}</span>
+        <button type="button" class="remove-step text-red-500 text-xs font-semibold">Remover</button>
+      </div>
+      <div class="space-y-3">
+        <textarea name="step-${index}-statement" required rows="2" placeholder="O que acontece nesta etapa / pergunta ao aluno..." class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm">${escapeHtml(step?.statement || "")}</textarea>
+        ${optionsBlockHtml(`step-${index}`, step?.options, step?.correctIndex)}
+      </div>
+    </div>
+  `;
+}
+
+function typeFieldsHtml(type, question, children) {
+  if (type === "mae") {
+    const kids = children || [];
+    return `
+      <div>
+        <label class="block text-sm font-medium text-slate-700 mb-1">Contexto / situação do caso</label>
+        <textarea name="statement" required rows="3" placeholder="Ex: Paula, 35 anos, é empresária do setor de tecnologia..." class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm">${escapeHtml(question?.statement || "")}</textarea>
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-slate-700 mb-2">Perguntas sobre este caso</label>
+        <div id="children-wrap" data-count="${kids.length}">
+          ${kids.map((c, i) => childCardHtml(i, c)).join("")}
+        </div>
+        <button type="button" id="add-child" class="text-violet-600 text-xs font-semibold">+ Adicionar pergunta filha</button>
+      </div>
+    `;
+  }
+  if (type === "arvore") {
+    const steps = question?.steps || [];
+    return `
+      <div>
+        <label class="block text-sm font-medium text-slate-700 mb-1">Situação inicial</label>
+        <textarea name="statement" required rows="3" placeholder="Descreva o cenário que dá início às interações..." class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm">${escapeHtml(question?.statement || "")}</textarea>
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-slate-700 mb-2">Interações em sequência</label>
+        <div id="steps-wrap" data-count="${steps.length}">
+          ${steps.map((s, i) => stepCardHtml(i, s)).join("")}
+        </div>
+        <button type="button" id="add-step" class="text-amber-700 text-xs font-semibold">+ Adicionar interação</button>
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-slate-700 mb-1">Acertos necessários para considerar aprovado neste item</label>
+        <input type="number" min="1" name="requiredCorrect" value="${question?.requiredCorrect ?? steps.length ?? 1}" class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm" />
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-slate-700 mb-1">Explicação geral (opcional)</label>
+        <textarea name="explanation" rows="2" class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm">${escapeHtml(question?.explanation || "")}</textarea>
+      </div>
+      ${videoFieldsHtml("root", question)}
+    `;
+  }
+  // simples
+  return `
+    <div>
+      <label class="block text-sm font-medium text-slate-700 mb-1">Enunciado</label>
+      <textarea name="statement" required rows="3" class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm">${escapeHtml(question?.statement || "")}</textarea>
+    </div>
+    <div>
+      <label class="block text-sm font-medium text-slate-700 mb-1">Alternativas (marque a correta)</label>
+      ${optionsBlockHtml("root", question?.options, question?.correctIndex)}
+    </div>
+    <div>
+      <label class="block text-sm font-medium text-slate-700 mb-1">Explicação do gabarito (opcional)</label>
+      <textarea name="explanation" rows="2" class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm">${escapeHtml(question?.explanation || "")}</textarea>
+    </div>
+    ${videoFieldsHtml("root", question)}
+  `;
+}
+
+async function showQuestionForm(slot, certificationId, question, onSaved) {
+  const type = question?.type || "simples";
+  let children = [];
+  if (type === "mae" && question?.childIds?.length) {
+    children = await getQuestionsByIds(question.childIds);
+    children.sort((a, b) => (question.childIds.indexOf(a.id) - question.childIds.indexOf(b.id)));
+  }
+
   slot.innerHTML = `
     <div class="bg-white rounded-xl shadow p-5 mb-6 border-2 border-indigo-100">
       <h3 class="font-semibold text-slate-800 mb-4">${question ? "Editar questão" : "Nova questão"}</h3>
       <form id="q-form" class="space-y-4">
+        <div class="flex gap-4">
+          <label class="text-sm flex items-center gap-1.5"><input type="radio" name="type" value="simples" ${type === "simples" ? "checked" : ""} /> Simples</label>
+          <label class="text-sm flex items-center gap-1.5"><input type="radio" name="type" value="mae" ${type === "mae" ? "checked" : ""} /> Estudo de caso (mãe/filha)</label>
+          <label class="text-sm flex items-center gap-1.5"><input type="radio" name="type" value="arvore" ${type === "arvore" ? "checked" : ""} /> Árvore de decisão</label>
+        </div>
         <div>
           <label class="block text-sm font-medium text-slate-700 mb-1">Módulo / Tema (opcional)</label>
           <input name="module" value="${escapeHtml(question?.module || "")}" placeholder="Ex: Fundos de Investimento" class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm" />
         </div>
-        <div>
-          <label class="block text-sm font-medium text-slate-700 mb-1">Enunciado</label>
-          <textarea name="statement" required rows="3" class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm">${escapeHtml(question?.statement || "")}</textarea>
-        </div>
-        <div>
-          <label class="block text-sm font-medium text-slate-700 mb-1">Alternativas (marque a correta)</label>
-          <div id="opts-wrap" class="space-y-2">
-            ${opts
-              .map(
-                (o, i) => `
-              <div class="flex items-center gap-2">
-                <input type="radio" name="correctIndex" value="${i}" ${question?.correctIndex === i ? "checked" : ""} required />
-                <input type="text" name="opt-${i}" value="${escapeHtml(o)}" required placeholder="Alternativa ${i + 1}" class="flex-1 border border-slate-300 rounded-lg px-3 py-2 text-sm" />
-              </div>
-            `
-              )
-              .join("")}
-          </div>
-          <div class="flex gap-3 mt-2">
-            <button type="button" id="add-opt" class="text-indigo-600 text-xs font-semibold">+ Adicionar alternativa</button>
-          </div>
-        </div>
-        <div>
-          <label class="block text-sm font-medium text-slate-700 mb-1">Explicação do gabarito (opcional)</label>
-          <textarea name="explanation" rows="2" class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm">${escapeHtml(question?.explanation || "")}</textarea>
-        </div>
+        <div id="type-fields">${typeFieldsHtml(type, question, children)}</div>
         <div class="flex gap-3">
           <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-5 py-2 rounded-lg text-sm">Salvar</button>
           <button type="button" id="cancel-q" class="text-slate-500 text-sm font-medium">Cancelar</button>
@@ -250,46 +387,151 @@ function showQuestionForm(slot, certificationId, question, onSaved) {
     </div>
   `;
 
-  let optCount = opts.length;
-  slot.querySelector("#add-opt").addEventListener("click", () => {
-    const wrap = slot.querySelector("#opts-wrap");
-    const div = document.createElement("div");
-    div.className = "flex items-center gap-2";
-    div.innerHTML = `
-      <input type="radio" name="correctIndex" value="${optCount}" required />
-      <input type="text" name="opt-${optCount}" required placeholder="Alternativa ${optCount + 1}" class="flex-1 border border-slate-300 rounded-lg px-3 py-2 text-sm" />
-    `;
-    wrap.appendChild(div);
-    optCount++;
+  const form = slot.querySelector("#q-form");
+
+  form.querySelectorAll('input[name="type"]').forEach((radio) => {
+    radio.addEventListener("change", () => {
+      slot.querySelector("#type-fields").innerHTML = typeFieldsHtml(radio.value, null, []);
+    });
+  });
+
+  // Delegação de eventos para tudo que é dinâmico (alternativas, filhas, interações)
+  form.addEventListener("click", (e) => {
+    if (e.target.matches(".add-opt")) {
+      const prefix = e.target.dataset.prefix;
+      const wrap = form.querySelector(`.opts-wrap[data-prefix="${prefix}"]`);
+      const div = document.createElement("div");
+      div.className = "flex items-center gap-2 opt-row";
+      div.innerHTML = `
+        <input type="radio" name="${prefix}-correctIndex" required />
+        <input type="text" name="${prefix}-opt" required placeholder="Nova alternativa" class="flex-1 border border-slate-300 rounded-lg px-3 py-2 text-sm" />
+        <button type="button" class="remove-opt text-red-400 text-xs px-1">✕</button>
+      `;
+      wrap.appendChild(div);
+    }
+    if (e.target.matches(".remove-opt")) {
+      const row = e.target.closest(".opt-row");
+      if (row.parentElement.querySelectorAll(".opt-row").length > 2) row.remove();
+      else alert("A questão precisa de pelo menos 2 alternativas.");
+    }
+    if (e.target.matches("#add-child")) {
+      const wrap = form.querySelector("#children-wrap");
+      const idx = Number(wrap.dataset.count || 0);
+      wrap.insertAdjacentHTML("beforeend", childCardHtml(idx, null));
+      wrap.dataset.count = idx + 1;
+    }
+    if (e.target.matches(".remove-child")) {
+      e.target.closest(".child-card").remove();
+    }
+    if (e.target.matches("#add-step")) {
+      const wrap = form.querySelector("#steps-wrap");
+      const idx = Number(wrap.dataset.count || 0);
+      wrap.insertAdjacentHTML("beforeend", stepCardHtml(idx, null));
+      wrap.dataset.count = idx + 1;
+    }
+    if (e.target.matches(".remove-step")) {
+      e.target.closest(".step-card").remove();
+    }
   });
 
   slot.querySelector("#cancel-q").addEventListener("click", () => (slot.innerHTML = ""));
 
-  slot.querySelector("#q-form").addEventListener("submit", async (e) => {
+  form.addEventListener("submit", async (e) => {
     e.preventDefault();
-    const fd = new FormData(e.target);
-    const options = [];
-    let i = 0;
-    while (fd.has(`opt-${i}`)) {
-      options.push(fd.get(`opt-${i}`));
-      i++;
-    }
-    const data = {
-      certificationId,
-      module: fd.get("module") || "",
-      statement: fd.get("statement"),
-      options,
-      correctIndex: Number(fd.get("correctIndex")),
-      explanation: fd.get("explanation") || "",
-    };
-    if (question) {
-      await updateQuestion(question.id, data);
+    const selectedType = form.querySelector('input[name="type"]:checked').value;
+    const fd = new FormData(form);
+    const module = fd.get("module") || "";
+
+    if (selectedType === "mae") {
+      const oldChildIds = new Set(question?.childIds || []);
+      const childCards = Array.from(form.querySelectorAll(".child-card"));
+      const newChildIds = [];
+      for (const card of childCards) {
+        const idx = card.dataset.index;
+        const existingId = card.querySelector(`[name="child-${idx}-id"]`).value || null;
+        const { options, correctIndex } = extractOptions(card, `child-${idx}`);
+        const childData = {
+          certificationId,
+          type: "filha",
+          module,
+          statement: card.querySelector(`[name="child-${idx}-statement"]`).value,
+          options,
+          correctIndex,
+          explanation: card.querySelector(`[name="child-${idx}-explanation"]`).value || "",
+          videoUrl: card.querySelector(`[name="child-${idx}-videoUrl"]`).value || "",
+          videoProfessor: card.querySelector(`[name="child-${idx}-videoProfessor"]`).value || "",
+        };
+        if (existingId) {
+          await updateQuestion(existingId, childData);
+          newChildIds.push(existingId);
+          oldChildIds.delete(existingId);
+        } else {
+          const ref = await createQuestion(childData);
+          newChildIds.push(ref.id);
+        }
+      }
+      // Filhas que foram removidas no formulário: excluir do banco também.
+      for (const removedId of oldChildIds) await deleteQuestion(removedId);
+
+      const maeData = {
+        certificationId,
+        type: "mae",
+        module,
+        statement: form.querySelector('[name="statement"]').value,
+        childIds: newChildIds,
+      };
+      if (question) await updateQuestion(question.id, maeData);
+      else await createQuestion(maeData);
+    } else if (selectedType === "arvore") {
+      const steps = Array.from(form.querySelectorAll(".step-card")).map((card) => {
+        const idx = card.dataset.index;
+        const { options, correctIndex } = extractOptions(card, `step-${idx}`);
+        return { statement: card.querySelector(`[name="step-${idx}-statement"]`).value, options, correctIndex };
+      });
+      const data = {
+        certificationId,
+        type: "arvore",
+        module,
+        statement: fd.get("statement"),
+        steps,
+        requiredCorrect: Number(fd.get("requiredCorrect") || steps.length || 1),
+        explanation: fd.get("explanation") || "",
+        videoUrl: fd.get("root-videoUrl") || "",
+        videoProfessor: fd.get("root-videoProfessor") || "",
+      };
+      if (question) await updateQuestion(question.id, data);
+      else await createQuestion(data);
     } else {
-      await createQuestion(data);
+      const { options, correctIndex } = extractOptions(form, "root");
+      const data = {
+        certificationId,
+        type: "simples",
+        module,
+        statement: fd.get("statement"),
+        options,
+        correctIndex,
+        explanation: fd.get("explanation") || "",
+        videoUrl: fd.get("root-videoUrl") || "",
+        videoProfessor: fd.get("root-videoProfessor") || "",
+      };
+      if (question) await updateQuestion(question.id, data);
+      else await createQuestion(data);
     }
+
     slot.innerHTML = "";
     onSaved();
   });
+}
+
+// Lê um bloco de alternativas (opts-wrap[data-prefix]) dentro de `scopeEl` e retorna { options, correctIndex }.
+function extractOptions(scopeEl, prefix) {
+  const wrap = scopeEl.querySelector(`.opts-wrap[data-prefix="${prefix}"]`);
+  const optionInputs = Array.from(wrap.querySelectorAll(`input[name="${prefix}-opt"]`));
+  const radios = Array.from(wrap.querySelectorAll(`input[name="${prefix}-correctIndex"]`));
+  const options = optionInputs.map((el) => el.value);
+  const checkedRadio = radios.find((r) => r.checked);
+  const correctIndex = checkedRadio ? radios.indexOf(checkedRadio) : 0;
+  return { options, correctIndex };
 }
 
 /* ---------------- Simulados ---------------- */
@@ -358,7 +600,7 @@ export async function renderAdminSimulados(root) {
 }
 
 async function showExamForm(slot, certificationId, exam, onSaved) {
-  const questions = await listQuestions(certificationId);
+  const questions = (await listQuestions(certificationId)).filter((q) => q.type !== "filha");
   const selectedIds = new Set(exam?.questionIds || []);
 
   slot.innerHTML = `
@@ -399,7 +641,11 @@ async function showExamForm(slot, certificationId, exam, onSaved) {
                   (q) => `
               <label class="flex items-start gap-2 p-3 text-sm cursor-pointer hover:bg-slate-50">
                 <input type="checkbox" name="qid" value="${q.id}" ${selectedIds.has(q.id) ? "checked" : ""} class="mt-1" />
-                <span>${escapeHtml(q.statement)}</span>
+                <span>
+                  <span class="inline-block text-[10px] font-semibold px-1.5 py-0.5 rounded mr-1 ${TYPE_BADGE[q.type || "simples"]}">${TYPE_LABEL[q.type || "simples"]}</span>
+                  ${escapeHtml(q.statement)}
+                  ${q.type === "mae" ? `<span class="text-slate-400"> (${(q.childIds || []).length} perguntas)</span>` : ""}
+                </span>
               </label>
             `
                 )
@@ -444,41 +690,73 @@ async function showExamForm(slot, certificationId, exam, onSaved) {
 /* ---------------- Alunos ---------------- */
 export async function renderAdminAlunos(root) {
   root.innerHTML = `<div class="max-w-4xl mx-auto py-8">${adminNav("admin/alunos")}<p class="text-slate-500">Carregando...</p></div>`;
-  const attempts = await listAllAttempts();
+  const [attempts, students, certs] = await Promise.all([listAllAttempts(), listStudents(), listCertifications()]);
 
   const byUser = {};
+  students.forEach((s) => {
+    byUser[s.id] = {
+      id: s.id,
+      name: s.name || s.email,
+      deviceSwitchCount: s.deviceSwitchCount || 0,
+      purchasedCertifications: s.purchasedCertifications || [],
+      attempts: [],
+    };
+  });
   attempts.forEach((a) => {
-    const key = a.userId;
-    (byUser[key] ||= { name: a.userName, attempts: [] }).attempts.push(a);
+    (byUser[a.userId] ||= { id: a.userId, name: a.userName, deviceSwitchCount: 0, purchasedCertifications: [], attempts: [] }).attempts.push(a);
   });
 
   root.innerHTML = `
     <div class="max-w-4xl mx-auto py-8">
       ${adminNav("admin/alunos")}
-      <h1 class="text-2xl font-bold text-slate-800 mb-6">Desempenho dos alunos</h1>
+      <h1 class="text-2xl font-bold text-slate-800 mb-6">Alunos e acesso</h1>
       <div class="space-y-4">
         ${
           Object.values(byUser)
             .map((u) => {
-              const avg = Math.round(u.attempts.reduce((s, a) => s + a.scorePercent, 0) / u.attempts.length);
+              const avg = u.attempts.length ? Math.round(u.attempts.reduce((s, a) => s + a.scorePercent, 0) / u.attempts.length) : null;
               return `
             <div class="bg-white rounded-xl shadow p-4">
               <div class="flex items-center justify-between mb-2">
-                <p class="font-semibold text-slate-800">${escapeHtml(u.name)}</p>
-                <p class="text-sm font-bold ${avg >= 70 ? "text-emerald-600" : "text-red-600"}">Média: ${avg}%</p>
+                <p class="font-semibold text-slate-800">${escapeHtml(u.name)} ${u.deviceSwitchCount > 1 ? `<span class="text-xs font-medium text-amber-600 bg-amber-50 px-2 py-0.5 rounded align-middle">${u.deviceSwitchCount} trocas de dispositivo</span>` : ""}</p>
+                ${avg !== null ? `<p class="text-sm font-bold ${avg >= 70 ? "text-emerald-600" : "text-red-600"}">Média: ${avg}%</p>` : `<p class="text-xs text-slate-400">Sem tentativas ainda</p>`}
               </div>
-              <div class="text-xs text-slate-500 space-y-1">
+              <div class="text-xs text-slate-500 space-y-1 mb-3">
                 ${u.attempts
                   .slice(0, 5)
                   .map((a) => `<div>${escapeHtml(a.examTitle)} — ${a.scorePercent}% — ${formatDate(a.finishedAt)}</div>`)
                   .join("")}
               </div>
+              <div class="border-t border-slate-100 pt-3">
+                <p class="text-xs font-semibold text-slate-500 mb-2">Acesso liberado:</p>
+                <div class="flex flex-wrap gap-3">
+                  ${certs
+                    .map(
+                      (c) => `
+                    <label class="flex items-center gap-1.5 text-xs text-slate-700">
+                      <input type="checkbox" class="access-toggle" data-user="${u.id}" data-cert="${c.id}" ${u.purchasedCertifications.includes(c.id) ? "checked" : ""} />
+                      ${escapeHtml(c.name)}
+                    </label>
+                  `
+                    )
+                    .join("") || `<span class="text-xs text-slate-400">Cadastre uma certificação primeiro.</span>`}
+                </div>
+              </div>
             </div>
           `;
             })
-            .join("") || `<p class="text-slate-500">Nenhuma tentativa registrada ainda.</p>`
+            .join("") || `<p class="text-slate-500">Nenhum aluno cadastrado ainda.</p>`
         }
       </div>
     </div>
   `;
+
+  root.querySelectorAll(".access-toggle").forEach((cb) => {
+    cb.addEventListener("change", async () => {
+      cb.disabled = true;
+      if (cb.checked) await grantAccess(cb.dataset.user, cb.dataset.cert);
+      else await revokeAccess(cb.dataset.user, cb.dataset.cert);
+      cb.disabled = false;
+    });
+  });
 }

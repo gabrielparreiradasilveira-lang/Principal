@@ -11,25 +11,53 @@ import {
   where,
   orderBy,
   serverTimestamp,
+  arrayUnion,
+  arrayRemove,
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
 /* ---------------- Certificações ---------------- */
-// Ex: { name: "CPA-20" }
+// { name: "CPA-20", checkoutUrl: "https://pay.hotmart.com/..." (opcional) }
 export async function listCertifications() {
   const snap = await getDocs(query(collection(db, "certifications"), orderBy("name")));
   return snap.docs.map((d) => ({ id: d.id, ...d.data() }));
 }
 
-export async function createCertification(name) {
-  return addDoc(collection(db, "certifications"), { name, createdAt: serverTimestamp() });
+export async function createCertification(name, checkoutUrl) {
+  return addDoc(collection(db, "certifications"), { name, checkoutUrl: checkoutUrl || "", createdAt: serverTimestamp() });
+}
+
+export async function updateCertification(id, data) {
+  return updateDoc(doc(db, "certifications", id), data);
 }
 
 export async function deleteCertification(id) {
   return deleteDoc(doc(db, "certifications", id));
 }
 
+/* ---------------- Acesso do aluno por certificação ---------------- */
+// users/{uid}.purchasedCertifications: string[] de certificationId liberados.
+// Concedido automaticamente pelo webhook da Hotmart (ver /hotmart-webhook), ou manualmente pelo admin.
+export function hasAccess(profile, certificationId) {
+  return !!profile?.purchasedCertifications?.includes(certificationId);
+}
+
+export async function grantAccess(uid, certificationId) {
+  return updateDoc(doc(db, "users", uid), { purchasedCertifications: arrayUnion(certificationId) });
+}
+
+export async function revokeAccess(uid, certificationId) {
+  return updateDoc(doc(db, "users", uid), { purchasedCertifications: arrayRemove(certificationId) });
+}
+
 /* ---------------- Questões ---------------- */
-// { certificationId, module, statement, options: [string,...], correctIndex, explanation, difficulty }
+// type: "simples" | "mae" | "filha" | "arvore"
+// Simples:  { certificationId, module, statement, options, correctIndex, explanation, videoUrl, videoProfessor }
+// Mãe:      { certificationId, module, type:"mae", statement (contexto), childIds: [questionId,...] }
+// Filha:    { certificationId, module, type:"filha", parentId, statement, options, correctIndex, explanation, videoUrl, videoProfessor }
+// Árvore:   { certificationId, module, type:"arvore", statement (situação inicial),
+//             steps: [{ statement, options, correctIndex }], requiredCorrect, explanation, videoUrl, videoProfessor }
+// Só questões "simples", "mae" e "arvore" aparecem soltas na lista de seleção de um simulado;
+// "filha" só existe pendurada em uma "mae" (via childIds) e é resolvida com getQuestionsByIds.
 export async function listQuestions(certificationId) {
   let q = collection(db, "questions");
   if (certificationId) {
@@ -46,6 +74,20 @@ export async function getQuestionsByIds(ids) {
     if (snap.exists()) results.push({ id: snap.id, ...snap.data() });
   }
   return results;
+}
+
+// Para questões tipo "mae", busca e anexa as questões-filha (na ordem de childIds) em `.children`.
+export async function expandWithChildren(questions) {
+  const result = [];
+  for (const q of questions) {
+    if (q.type === "mae" && q.childIds?.length) {
+      const children = await getQuestionsByIds(q.childIds);
+      result.push({ ...q, children });
+    } else {
+      result.push(q);
+    }
+  }
+  return result;
 }
 
 export async function createQuestion(data) {

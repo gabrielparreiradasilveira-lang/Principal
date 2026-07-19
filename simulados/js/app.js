@@ -12,6 +12,24 @@ import {
 
 const app = document.getElementById("app");
 const navBar = document.getElementById("navbar");
+const deviceBanner = document.getElementById("device-banner");
+
+function renderDeviceBanner() {
+  if (!state.deviceWarning) {
+    deviceBanner.innerHTML = "";
+    return;
+  }
+  deviceBanner.innerHTML = `
+    <div class="bg-amber-50 border-b border-amber-200 text-amber-800 text-sm px-4 py-2 flex items-center justify-between max-w-5xl mx-auto">
+      <span>⚠ Detectamos acesso a esta conta a partir de um novo dispositivo. Se não foi você, troque sua senha.</span>
+      <button id="dismiss-device-warning" class="font-semibold ml-3">Entendi</button>
+    </div>
+  `;
+  document.getElementById("dismiss-device-warning")?.addEventListener("click", () => {
+    state.deviceWarning = false;
+    renderDeviceBanner();
+  });
+}
 
 function renderNav() {
   if (!state.user) {
@@ -86,6 +104,7 @@ setNotFound(async () => {
 let started = false;
 onStateChange(() => {
   renderNav();
+  renderDeviceBanner();
   if (!started) {
     started = true;
     startRouter(); // first call after auth state is known, avoids redirect flicker
