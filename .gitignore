@@ -33,3 +33,7 @@ yarn-error.log*
 # Temporary files
 *.tmp
 .claude/settings.local.json
+
+# Python
+__pycache__/
+*.pyc
