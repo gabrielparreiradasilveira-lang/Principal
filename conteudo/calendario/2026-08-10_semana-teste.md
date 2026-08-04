@@ -17,3 +17,17 @@ Sequência de pilares: EDU, ENT, EDU, CONF, VEN, ENT, CONF — nenhum pilar se r
 
 ## Observação de rigor técnico
 O post de 12/08 (Questão Comentada, suitability) precisa de revisão do Gabriel antes de publicar — norma sensível, conforme regra de qualidade da skill.
+
+## Status de produção
+
+| Data | Material | Status |
+|---|---|---|
+| 10/08 | Copy + 10 slides de carrossel | ✅ Pronto |
+| 11/08 | Roteiro de reel | ✅ Pronto |
+| 12/08 | Copy + 10 slides de carrossel | ⚠️ Pronto, **bloqueado para revisão técnica** (suitability) |
+| 13/08 | Copy + 1 imagem de story | ✅ Pronto (conferir Selic vigente antes de postar) |
+| 14/08 | Copy + 10 slides de carrossel | ✅ Pronto |
+| 15/08 | Roteiro de reel | ⚠️ **Bloqueado**: estatística do hook é ilustrativa, precisa de dado real com fonte antes de publicar |
+| 16/08 | Copy + 1 imagem estática | ✅ Pronto — ângulo institucional/geral, sem usar o Gabriel como case pessoal |
+
+Todos os assets ficam em `conteudo/posts/AAAA-MM-DD/`. Pipeline de geração de imagem em `conteudo/scripts/` (`base.py` + um script por post).

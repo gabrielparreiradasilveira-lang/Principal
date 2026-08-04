@@ -164,8 +164,22 @@ def slide_capa(titulo, subtitulo, num=1, total=1):
     _draw_dot_rows(draw, [30, 62])
     _draw_dot_rows(draw, [H - 62, H - 30])
 
-    draw_text_wrapped(draw, titulo, W // 2, H // 2 - 90, font(F_BLACK, 72), PRETO, 860, "center", 1.2)
-    draw_text_wrapped(draw, subtitulo, W // 2, H // 2 + 70, font(F_MED, 34), CINZA_ESCURO, 780, "center", 1.3)
+    # Centraliza o bloco título+subtítulo dinamicamente conforme o nº de linhas,
+    # para não sobrepor quando o título tem 3 linhas em vez de 2.
+    titulo_font = font(F_BLACK, 72)
+    subtitulo_font = font(F_MED, 34)
+    titulo_lines = wrap_text(titulo, titulo_font, 860, draw)
+    titulo_line_h = int((draw.textbbox((0, 0), "Ág", font=titulo_font)[3]) * 1.2)
+    titulo_h = titulo_line_h * len(titulo_lines)
+    subtitulo_lines = wrap_text(subtitulo, subtitulo_font, 780, draw)
+    subtitulo_line_h = int((draw.textbbox((0, 0), "Ág", font=subtitulo_font)[3]) * 1.3)
+    subtitulo_h = subtitulo_line_h * len(subtitulo_lines)
+
+    gap = 30
+    start_y = H // 2 - (titulo_h + gap + subtitulo_h) // 2
+
+    end_y = draw_text_wrapped(draw, titulo, W // 2, start_y, titulo_font, PRETO, 860, "center", 1.2)
+    draw_text_wrapped(draw, subtitulo, W // 2, end_y + gap, subtitulo_font, CINZA_ESCURO, 780, "center", 1.3)
     draw.text((W // 2, H - 100), "› Deslize para aprender ›", font=font(F_REG, 26), fill=CINZA_MEDIO, anchor="mm")
     draw.text((W - 40, H - 40), HANDLE, font=font(F_REG, 26), fill=CINZA_ESCURO, anchor="rs")
 
@@ -184,4 +198,49 @@ def slide_cta(titulo, cta_texto, num, total):
     draw.text((W // 2, H - 100), "Salva esse post ›", font=font(F_BOLD, 32), fill=VERDE_MENTA, anchor="mm")
     draw.text((W - 40, H - 40), HANDLE, font=font(F_REG, 26), fill=(255, 255, 255, 180), anchor="rs")
 
+    return img
+
+
+# ── Story (formato vertical 1080x1920, distinto do carrossel 1080x1350) ──
+SW, SH = 1080, 1920
+
+
+def slide_story(tag, titulo, corpo, rodape=None):
+    img = Image.new("RGB", (SW, SH), CINZA_CLARO)
+    draw = ImageDraw.Draw(img)
+
+    # Barra de progresso superior (padrão único de story, sem numeração/dots)
+    for x in range(SW):
+        t = x / SW
+        r = int(VERDE_ESCURO[0] + (VERDE_CLARO[0] - VERDE_ESCURO[0]) * t)
+        g = int(VERDE_ESCURO[1] + (VERDE_CLARO[1] - VERDE_ESCURO[1]) * t)
+        b = int(VERDE_ESCURO[2] + (VERDE_CLARO[2] - VERDE_ESCURO[2]) * t)
+        draw.line([(x, 0), (x, 14)], fill=(r, g, b))
+
+    rounded_rect(draw, [SW // 2 - 170, 160, SW // 2 + 170, 216], 28, VERDE_BG)
+    draw.text((SW // 2, 188), tag, font=font(F_MED, 26), fill=VERDE_ESCURO, anchor="mm")
+
+    y = draw_text_wrapped(draw, titulo, SW // 2, 420, font(F_BLACK, 62), VERDE_ESCURO, 880, "center", 1.25)
+    draw_text_wrapped(draw, corpo, SW // 2, y + 50, font(F_MED, 36), CINZA_ESCURO, 820, "center", 1.35)
+
+    if rodape:
+        draw.text((SW // 2, SH - 220), rodape, font=font(F_BOLD, 30), fill=VERDE_ESCURO, anchor="mm")
+
+    draw.text((SW - 50, SH - 60), HANDLE, font=font(F_REG, 28), fill=CINZA_MEDIO, anchor="rs")
+    return img
+
+
+# ── Imagem estática (post avulso 1080x1350, sem numeração/dots de carrossel) ──
+def slide_static(tag, titulo, corpo):
+    img = Image.new("RGB", (W, H), CINZA_CLARO)
+    draw = ImageDraw.Draw(img)
+    add_top_bar(draw)
+
+    rounded_rect(draw, [W // 2 - 150, 130, W // 2 + 150, 186], 26, VERDE_BG)
+    draw.text((W // 2, 158), tag, font=font(F_MED, 24), fill=VERDE_ESCURO, anchor="mm")
+
+    y = draw_text_wrapped(draw, titulo, W // 2, 340, font(F_BLACK, 56), VERDE_ESCURO, 880, "center", 1.25)
+    draw_text_wrapped(draw, corpo, W // 2, y + 50, font(F_MED, 34), CINZA_ESCURO, 840, "center", 1.35)
+
+    add_handle(draw)
     return img
