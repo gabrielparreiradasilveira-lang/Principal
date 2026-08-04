@@ -124,7 +124,7 @@ def main():
     salvar(
         slide_cta(
             "Salva esse post.",
-            "Suitability cai em praticamente\ntoda prova ANBIMA\n(CPA-10, CPA-20, CEA).",
+            "Suitability cai em praticamente\ntoda prova ANBIMA\n(CPA, C-Pro R, C-Pro I).",
             10,
             TOTAL,
         ),

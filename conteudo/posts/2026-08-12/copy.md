@@ -74,6 +74,6 @@ Cliente de varejo se recusa a atualizar o suitability. O que o distribuidor deve
 
 Regra geral pra guardar: suitability não existe pra travar o cliente. Existe pra travar a recomendação sem base.
 
-Salva esse post — suitability cai em praticamente toda prova ANBIMA (CPA-10, CPA-20, CEA).
+Salva esse post — suitability cai em praticamente toda prova ANBIMA (CPA, C-Pro R, C-Pro I).
 
-#suitability #anbima #cpa20 #cpa10 #cea #questaocomentada #certificacaofinanceira #mercadofinanceiro
+#suitability #anbima #cpa #cpro #questaocomentada #certificacaofinanceira #mercadofinanceiro

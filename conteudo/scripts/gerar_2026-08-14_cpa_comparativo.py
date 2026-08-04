@@ -1,6 +1,7 @@
 """
-Gera o carrossel de 14/08/2026 — Comparativo CPA-10 x CPA-20.
+Gera o carrossel de 14/08/2026 — Comparativo C-Pro R x C-Pro I.
 Baseado no copy validado em conteudo/posts/2026-08-14/copy.md
+Reescrito em 04/08 — nomenclatura ANBIMA vigente desde jan/2026 (CPA-10/CPA-20/CEA descontinuadas).
 """
 import os
 import sys
@@ -38,21 +39,21 @@ def slide_conteudo(num, linhas, tag=None):
 def main():
     salvar(
         slide_capa(
-            "CPA-10 ou CPA-20:\numa te deixa\nestagnado.",
+            "C-Pro R ou C-Pro I:\nescolher errado trava\nsua especialização.",
             "Comparativo pra você decidir com base certa.",
         ),
         1,
     )
 
     slides_texto = [
-        (2, ["Muita gente escolhe pelo nome.", "\"CPA-20 parece mais completa.\"", "Escolhe sem saber pra que serve."], "PROBLEMA"),
-        (3, ["Escolha errada = prova mais difícil", "pra um mercado que você", "nem quer atuar."], "CONSEQUÊNCIA"),
-        (4, ["Foco em produtos simples de varejo.", "Fundos abertos, renda fixa,", "previdência básica."], "O QUE É CPA-10"),
-        (5, ["Escopo mais amplo: private,", "produtos estruturados,", "mercado de capitais."], "O QUE É CPA-20"),
-        (6, ["CPA-10: quem vai atender", "varejo simples.", "CPA-20: quem mira private,", "gerência, produtos complexos."], "PRA QUEM SERVE"),
-        (7, ["Quem escolhe pelo cargo que quer,", "não pelo \"nome mais bonito\",", "estuda menos e erra menos."], "RESULTADO"),
-        (8, ["A pergunta não é qual é mais difícil.", "É qual abre a porta que você quer."], "GUINADA"),
-        (9, ["Ainda em dúvida entre as duas?", "Isso trava carreira, não só prova."], "FECHAMENTO"),
+        (2, ["Depois da CPA, todo mundo trava", "na escolha entre as duas C-Pro.", "Escolhe pelo nome, não pelo que faz."], "PROBLEMA"),
+        (3, ["Vira especialista errado", "pro público errado.", "Tempo de estudo jogado fora."], "CONSEQUÊNCIA"),
+        (4, ["Foco em relacionamento com o cliente", "e recomendação de carteira.", "Pré-requisito: ter a CPA."], "O QUE É C-PRO R"),
+        (5, ["Foco em produtos complexos,", "gestão de risco, investimentos", "alternativos. Também exige a CPA."], "O QUE É C-PRO I"),
+        (6, ["C-Pro R: quem quer atender e", "recomendar carteira pro cliente.", "C-Pro I: quem quer ser especialista", "técnico em produto."], "PRA QUEM SERVE"),
+        (7, ["Quem escolhe pelo cargo que quer,", "não pelo \"nome mais completo\",", "estuda menos e erra menos."], "RESULTADO"),
+        (8, ["A pergunta não é qual é mais completa.", "É qual combina com o que você", "quer fazer no dia a dia."], "GUINADA"),
+        (9, ["Ainda em dúvida entre as duas?", "Isso trava especialização, não só prova."], "FECHAMENTO"),
     ]
     for num, linhas, tag in slides_texto:
         salvar(slide_conteudo(num, linhas, tag), num)

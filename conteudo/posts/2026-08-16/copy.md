@@ -17,9 +17,10 @@ Por trás de cada decisão de carteira tem um comitê de investimentos, complian
 
 É por isso que a regulação exige tanta camada: comitê, gestor responsável, gestor reserva, compliance independente. Ninguém decide sozinho, e ninguém decide sem deixar rastro.
 
-Quem estuda pra CPA-20 ou CGE encontra essas camadas na prova — mas é bom entender o porquê delas existirem antes de decorar o nome de cada uma.
+Quem estuda pra C-Pro R, C-Pro I ou CGE encontra essas camadas na prova — mas é bom entender o porquê delas existirem antes de decorar o nome de cada uma.
 
 #gestordefundos #mercadofinanceiro #anbima #cga #cge #bastidores #educacaofinanceira
 
 ## Pendências antes de publicar
 - Nenhuma revisão técnica sensível — descrição institucional geral da governança de gestão de fundos, sem uso do Gabriel como case pessoal.
+- Nomenclatura vigente desde jan/2026 (C-Pro R, C-Pro I substituindo CPA-20/CEA) — conferido no site oficial ANBIMA Edu.

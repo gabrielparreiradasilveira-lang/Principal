@@ -2,12 +2,12 @@
 Pilar: ENT · Formato: Reel · Objetivo: compartilhamento/comparação nos comentários
 
 ## ⚠️ ATENÇÃO: estatística não verificada
-O número "12%" usado no hook é **ilustrativo**, criado para estruturar o roteiro — não vem de pesquisa real. **Não publicar sem antes substituir por um dado com fonte confirmada** (pesquisa própria com alunos, dado de plataforma de ensino, ou remover o número e trocar por uma pergunta aberta tipo "quanto tempo por dia você estuda pra CPA-20?"). Publicar estatística fabricada como fato quebra a credibilidade da conta — é a coisa errada a fazer mesmo sendo conteúdo de ENT/alcance.
+O número "12%" usado no hook é **ilustrativo**, criado para estruturar o roteiro — não vem de pesquisa real. **Não publicar sem antes substituir por um dado com fonte confirmada** (pesquisa própria com alunos, dado de plataforma de ensino, ou remover o número e trocar por uma pergunta aberta tipo "quanto tempo por dia você estuda pra CPA?"). Publicar estatística fabricada como fato quebra a credibilidade da conta — é a coisa errada a fazer mesmo sendo conteúdo de ENT/alcance.
 
 ## Roteiro (com timestamp + direção visual/áudio)
 
 **0:00–0:03 — HOOK**
-Texto na tela: "Quanto tempo por dia você estuda pra CPA-20?"
+Texto na tela: "Quanto tempo por dia você estuda pra CPA?"
 Falado: "A resposta da maioria vai te surpreender."
 Áudio: batida curta, corte seco.
 
@@ -29,7 +29,7 @@ Texto na tela: "Comenta 👇"
 
 ## Legenda
 
-Quanto tempo por dia você estuda pra CPA-20? A resposta da maioria vai te surpreender. 👇
+Quanto tempo por dia você estuda pra CPA? A resposta da maioria vai te surpreender. 👇
 
 [Completar com o dado real depois de validado — não usar número sem fonte]
 
@@ -37,7 +37,8 @@ Estudar pouco todo dia bate estudar muito de uma vez só. Não é sobre quantas 
 
 Comenta aqui quanto tempo você estuda por dia. Sem julgamento.
 
-#cpa20 #anbima #certificacaofinanceira #rotinadeestudos #concurseiro #mercadofinanceiro
+#cpa #anbima #certificacaofinanceira #rotinadeestudos #concurseiro #mercadofinanceiro
 
 ## Pendências antes de publicar
 - **Bloqueante:** substituir a estatística ilustrativa por dado real com fonte, ou remover o número e manter só a pergunta aberta.
+- Nomenclatura vigente desde jan/2026 (CPA substitui CPA-10/CPA-20/CEA) — conferido no site oficial ANBIMA Edu.

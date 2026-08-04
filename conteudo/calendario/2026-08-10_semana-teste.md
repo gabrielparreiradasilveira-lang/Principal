@@ -5,11 +5,11 @@ Modelo B (diário, 7 posts/semana, formato livre por ideia). Gerado para validar
 | Data | Dia | Pilar | Categoria | Formato | Hook | Ideia (motivo de existir) |
 |---|---|---|---|---|---|---|
 | 10/08 | Seg | EDU | Tradução de Jargão | Carrossel | "Come-cotas não é imposto extra. É antecipação." | Termo mais mal-entendido por quem começa em fundos — mata a objeção nº1 contra investir em fundos de renda fixa. |
-| 11/08 | Ter | ENT | Mito vs. Verdade do Mercado | Reel | "Quem tem CPA-20 sabe mais que quem tem CFP. Mito." | Desmonta a crença de que certificação mais avançada = mais completa; gera discordância nos comentários. |
+| 11/08 | Ter | ENT | Mito vs. Verdade do Mercado | Reel | "Quem tem C-Pro R sabe mais que quem tem CFP. Mito." | Desmonta a crença de que certificação mais avançada = mais completa; gera discordância nos comentários. |
 | 12/08 | Qua | EDU | Questão Comentada | Carrossel | "Essa questão reprovou 6 em cada 10 no simulado." | Questão padrão FGV sobre suitability, gabarito comentado alternativa por alternativa. |
 | 13/08 | Qui | CONF | Economia no Dia a Dia | Story | "Selic subiu. Isso muda sua reserva de emergência." | Traduz a notícia da semana (Selic) para decisão prática do seguidor — CTA para DM. |
-| 14/08 | Sex | VEN | Comparativo de Certificações | Carrossel | "CPA-10 ou CPA-20: uma te deixa estagnado." | Conteúdo de decisão para quem está escolhendo por qual certificação começar — puxa para mentoria/simulado. |
-| 15/08 | Sáb | ENT | Números que Ninguém Te Conta | Reel | "Só 12% de quem presta CPA-20 estuda mais de 1h/dia." | Estatística que gera compartilhamento e comparação entre seguidores nos comentários. |
+| 14/08 | Sex | VEN | Comparativo de Certificações | Carrossel | "C-Pro R ou C-Pro I: escolher errado trava sua especialização." | Conteúdo de decisão para quem já tem a CPA e precisa escolher a especialização — puxa para mentoria/simulado. |
+| 15/08 | Sáb | ENT | Números que Ninguém Te Conta | Reel | "Só 12% de quem presta a CPA estuda mais de 1h/dia." | Estatística que gera compartilhamento e comparação entre seguidores nos comentários. |
 | 16/08 | Dom | CONF | Bastidores da Carreira de Gestor | Imagem estática | "O dia que quase saí da gestora por um erro de marcação." | Humaniza, mostra erro real já cometido — constrói credibilidade sem parecer perfeito. |
 
 ## Checagem da regra dos 3 dias

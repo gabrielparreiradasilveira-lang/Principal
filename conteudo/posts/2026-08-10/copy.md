@@ -61,7 +61,7 @@ Todo maio e novembro seu fundo "perde" cotas e muita gente acha que é imposto a
 
 Quem entende isso não vende fundo no dia do come-cotas por pânico. Fica com a estratégia.
 
-Isso cai na prova (CPA-10, CPA-20, CEA) e cai na sua carteira, se você não souber.
+Isso cai na prova (CPA, C-Pro R, C-Pro I) e cai na sua carteira, se você não souber.
 
 Salva esse post pra lembrar disso no próximo come-cotas.
 
