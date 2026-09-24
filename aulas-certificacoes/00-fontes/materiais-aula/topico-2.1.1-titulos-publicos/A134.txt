@@ -1,0 +1,128 @@
+<<<PÁGINA 1>>>
+Títulos Públicos Negociados no
+Mercado Interno
+
+<<<PÁGINA 2>>>
+Títulos Pós Fixados
+→ LFT:
+●
+Tem como indexador a taxa Selic OVER;
+●
+Lançado em 01/07/2000 e tem seu valor corrigido diariamente pela taxa Selic Over;
+●
+Indicado para Objetivos de Curto Prazo;
+●
+Menor volatilidade, risco preponderante de crédito;
+●
+Nome Popular: Tesouro Selic
+
+<<<PÁGINA 3>>>
+Títulos Pré Fixados
+→ LTN:
+●
+Título Preﬁxado;
+●
+Valor do Vencimento sempre R$ 1.000,00;
+●
+Indicado para Objetivos de Médio Prazo;
+●
+Apresentam Marcação a Mercado, risco de volatilidade;
+●
+Nome Popular: Tesouro Preﬁxado;
+→ NTN-F:
+●
+Título Preﬁxado com cupom de juros;
+○
+Cupom de Juros é de 10% a.a ou 4,88%a.s;
+●
+Valor do Vencimento sempre R$ 1.000,00;
+●
+Indicado para Objetivos de Médio Prazo;
+●
+Apresentam Marcação a Mercado, menor risco de volatilidade se comparado a LTN;
+●
+Nome Popular: Tesouro Preﬁxado com Juros Semestrais;
+
+<<<PÁGINA 4>>>
+Títulos Híbridos (Atrelados a Inﬂação)
+→ NTN-b Principal:
+●
+Título Preﬁxado com a correção do valor principal pela inﬂação;
+●
+Valor Inicial de R$ 1.000,00 sendo corrigido desde 15/07/2000 pelo IPCA;
+●
+Indicado para Objetivos de Longo Prazo;
+●
+Apresentam Marcação a Mercado, risco de volatilidade devido ao vencimento longo;
+●
+Nome Popular: Tesouro IPCA+;
+→ NTN-b:
+●
+Título Preﬁxado com a correção do valor principal pela inﬂação;
+○
+Cupom de Juros é de 6% a.a ou 2,96%a.s;
+●
+Valor Inicial de R$ 1.000,00 sendo corrigido desde 15/07/2000 pelo IPCA;
+●
+Indicado para Objetivos de Longo Prazo;
+●
+Apresentam Marcação a Mercado, risco de volatilidade devido ao vencimento longo, 
+menor risco em relação a NTN-b principal devido sua menor duration;
+●
+Nome Popular: Tesouro IPCA+ com juros semestrais;
+
+<<<PÁGINA 5>>>
+→ Renda+:
+●
+Título Preﬁxado com a correção do valor principal pela inﬂação;
+●
+Valor Inicial de R$ 1.000,00 sendo corrigido desde 15/07/2000 pelo IPCA;
+●
+Indicado para Complementar a Aposentadoria;
+●
+Apresentam Marcação a Mercado, risco de volatilidade devido ao vencimento longo;
+●
+Nome do título é o início do pagamento. Exemplo:
+○
+Renda+ 2040:
+■
+Amortização dos Juros + Principal em 240 Meses (20 anos);
+■
+Início do Pagamento da Rentabilidade em 15/01/2040;
+■
+Vencimento do Título é o último Pagamento 15/12/2059;
+●
+Apresenta carência de resgate de 60 dias mesmo com a garantia da recompra pelo 
+tesouro direto;
+Títulos Híbridos (Atrelados a Inﬂação)
+
+<<<PÁGINA 6>>>
+→ Educa+:
+●
+Título Preﬁxado com a correção do valor principal pela inﬂação;
+●
+Valor Inicial de R$ 1.000,00 sendo corrigido desde 15/07/2000 pelo IPCA;
+●
+Indicado para Custear Estudos em Ensino Superior;
+●
+Apresentam Marcação a Mercado, risco de volatilidade devido ao vencimento longo;
+●
+Nome do título é o início do pagamento. Exemplo:
+○
+Educa+ 2040:
+■
+Amortização dos Juros + Principal em 60 Meses (5 anos);
+■
+Início do Pagamento da Rentabilidade em 15/01/2040;
+■
+Vencimento do Título é o último Pagamento 15/12/2044;
+●
+Apresenta carência de resgate de 60 dias mesmo com a garantia da recompra pelo 
+tesouro direto;
+Títulos Híbridos (Atrelados a Inﬂação)
+
+<<<PÁGINA 7>>>
+→ Risco de Crédito;
+→ Risco de Mercado;
+→ Risco de Liquidez;
+Riscos dos Títulos Públicos

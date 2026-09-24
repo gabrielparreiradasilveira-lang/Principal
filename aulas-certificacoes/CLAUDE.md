@@ -35,6 +35,16 @@ Leia esse arquivo antes de produzir qualquer aula, questão, roteiro ou slide.
 2. **Apostila** → como explicar (conteúdo técnico base).
 3. **Norma/órgão oficial** → validação de números, regras e vigência.
 
+## Checagem obrigatória antes de cada entrega (pedido do professor)
+
+1. Listar os subitens do PD informados no pedido (ou extraídos do `PD-*.txt`).
+2. Conferir **subitem por subitem** se os PDFs enviados cobrem o conteúdo; conferir também a apostila.
+3. **Informar ao professor** antes de escrever: o que falta nos PDFs, o que está desatualizado ou errado,
+   e o que está no material mas fora do PD — e **perguntar como proceder** (completar pela norma/apostila,
+   aguardar PDF, incluir como nota, retirar).
+4. Novidades normativas ou de produto fora do PD (ex.: título novo) entram só como **nota de atualização**,
+   salvo decisão contrária do professor.
+
 ## Formato de saída (padrão de entrega)
 
 Toda aula entregue segue o formato de

@@ -1,0 +1,163 @@
+<<<PÁGINA 1>>>
+Estrutura dos Títulos 
+Públicos Federais
+Estruturação por Rentabilidade 
+dos Títulos Públicos
+Classificação em três tipos distintos: pós-
+fixados, prefixados e híbridos, cada um 
+com características específicas e níveis de 
+risco diferentes para o investidor.
+Classifica títulos pela forma de juros: índice 
+de mercado, taxa fixa ou combinação com 
+inflação.
+Cada tipo implica diferentes 
+previsibilidade, risco e mecanismos de 
+correção.
+Objetivo da distinção: explicar 
+características, riscos e exemplos práticos 
+de cada categoria de título público federal 
+no mercado.
+Relacionar características técnicas aos 
+tipos de título para orientar escolhas.
+Explicar precificação, impacto de juros e 
+influência de prazos e índices.
+Impactos da escolha do tipo de 
+rentabilidade sobre rendimento e 
+segurança percebida pelo investidor ao 
+longo do prazo contratado.
+A escolha altera previsibilidade do retorno 
+e exposição à volatilidade.
+Pós-fixados reduzem risco de marcação 
+negativa; prefixados exigem manutenção 
+até vencimento; híbridos protegem da 
+inflação.
+Títulos Pós-fixados: Tesouro Selic 
+ e suas características principais
+Definição e nomenclatura: Tesouro Selic no 
+Tesouro Direto e Letra Financeira do 
+Tesouro  no mercado interbancário, 
+identificada pelo "T" no final da sigla.
+Conhecido como Tesouro Selic (Tesouro 
+Direto) ou LFT no mercado interbancário.
+A sigla com "T" identifica natureza pós-
+fixada.
+Rentabilidade e vínculo à taxa Selic Over: 
+remuneração atrelada à taxa efetiva de 
+mercado, tipicamente 0,10% abaixo da 
+meta definida pelo COPOM.
+Remuneração acompanha a taxa Selic 
+Over, variando diariamente.
+Rentabilidade exata só se confirma ao 
+longo do período investido.
+Mecanismo de acumulação, histórico e 
+exemplo de valor acumulado até o 
+presente em títulos Selic.
+Valor é atualizado diariamente conforme a 
+taxa de mercado.
+Histórico e ajustes diários compõem a 
+acumulação do capital.
+Segurança percebida e disponibilidade de 
+vencimentos, incluindo regra de 721 dias 
+para alíquota mínima de IR.
+Considerado o título mais seguro por 
+menor impacto de marcação a mercado.
+Há vencimentos variados; prazos acima de 
+721 dias permitem alíquota de IR reduzida.
+Títulos Prefixados e o 
+mecanismo de precificação e 
+risco
+Definição e funcionamento básico: taxa 
+fixa garantida apenas se mantida até a 
+data de vencimento do título.
+Oferece taxa fixa conhecida na compra.
+A taxa é garantida apenas se o título for 
+mantido até o vencimento.
+Mecanismo de precificação: valor de face 
+fixo descontado pela taxa prefixada e pelo 
+tempo restante até vencimento.
+Preço é o valor presente do fluxo fixo 
+futuro descontado pela taxa contratada.
+No mercado secundário, preço reflete a 
+diferença entre taxa contratada e taxa 
+atual.
+Risco de mercado : impacto de variações 
+nas taxas de juros sobre o preço 
+secundário do título.
+Subida de juros reduz o preço; queda de 
+juros aumenta o preço.
+Marcação a mercado é o principal risco ao 
+vender antes do vencimento.
+Relação entre prazo e prêmio: títulos 
+longos apresentam maior risco e 
+geralmente taxas mais elevadas para 
+compensar o investidor.
+Prazos mais longos aumentam 
+sensibilidade a juros.
+Prazo maior costuma vir com taxa 
+prefixada mais alta como compensação.
+Títulos Híbridos: Tesouro IPCA+  
+e proteção contra a inflação
+Características e composição da 
+rentabilidade: taxa prefixada mais variação 
+do IPCA para proteger poder de compra.
+Combina taxa real fixa com correção pelo 
+IPCA.
+Busca preservar poder de compra e 
+entregar ganho real.
+Valor Nominal Atualizado  e função na 
+correção pela inflação do título híbrido.
+VNA atualiza o principal conforme o IPCA.
+Serve de base para cálculo da correção do 
+capital e juros.
+Mecanismo de precificação: preço de 
+compra é valor presente do VNA projetado 
+descontado pela taxa prefixada.
+Preço é o valor presente do VNA futuro 
+descontado pela taxa real acordada.
+A inflação corrige o fluxo; a taxa fixa define 
+o ganho real.
+Exemplo de título híbrido: Tesouro IPCA+ 
+2045 with remuneração composta por 
+IPCA mais taxa prefixada conhecida.
+Ilustra estrutura híbrida de correção por 
+IPCA mais taxa real prefixada.
+Estruturação por Forma de 
+Pagamento dos Títulos Públicos
+Modelo "Bullet": recebimento do principal 
+e todos os juros acumulados em único 
+pagamento no vencimento.
+Pagamento único no vencimento: 
+principal + juros acumulados.
+Fluxo simples: aporte inicial e resgate final.
+Modelo com cupom de juros : pagamentos 
+periódicos de juros e pagamento do 
+principal no vencimento.
+Pagamentos periódicos (geralmente 
+semestrais) de juros e devolução do 
+principal no vencimento.
+Gera múltiplos fluxos de caixa para 
+reinvestimento.
+Exemplos de títulos com cupom: NTN-F e 
+NTN-B com juros semestrais e taxas 
+nominais específicas.
+NTN-F: prefixado com juros semestrais.
+NTN-B: IPCA+ com juros semestrais.
+Novos Títulos: Renda+ e Educa+ 
+com estrutura de pagamento 
+específica
+Estrutura geral dos novos títulos: fase de 
+acumulação, período de carência e 
+pagamentos mensais subsequentes.
+Combinam acumulação, carência e 
+pagamentos mensais programados.
+Projetados para objetivos de longo prazo.
+Renda+: foco em geração de renda na 
+aposentadoria, com pagamentos mensais 
+por vinte anos após carência prevista.
+Destinado à renda na aposentadoria com 
+pagamentos mensais por 20 anos.
+Educa+: foco em custear educação com 
+pagamentos mensais por cinco anos após 
+a fase de acumulação e carência.
+Destinado ao financiamento da educação 
+com pagamentos mensais por 5 anos.
