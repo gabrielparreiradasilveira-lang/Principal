@@ -35,6 +35,29 @@ Leia esse arquivo antes de produzir qualquer aula, questão, roteiro ou slide.
 2. **Apostila** → como explicar (conteúdo técnico base).
 3. **Norma/órgão oficial** → validação de números, regras e vigência.
 
+## Formato de saída (padrão de entrega)
+
+Toda aula entregue segue o formato de
+`modelos/REFERENCIA-aula-cpa-1.1.4-1.1.5-autorreguladores-fgc-spb.md` (aula-referência aprovada),
+com o esqueleto em `modelos/modelo-aula-7-etapas.md`. Em caso de dúvida de layout, tom ou densidade, **copie a referência**.
+
+Características obrigatórias do padrão:
+- Cabeçalho: `# Aula [CERT] — [Tema]` + linha `data · @Boss · Roteiro integrado · duração`.
+- **Identificação e alinhamento** com: parágrafo de escopo (itens do PD + módulo), tabela **Checagem de escopo**
+  (Subitem do PD | Fonte de origem | Tratamento), tabela **Cronograma** (tempo por etapa e por tópico)
+  e tabela **Correções feitas na fonte** (# | Fonte | O material diz | O correto | Fonte oficial).
+- Tempo em minutos no título de cada etapa e de cada tópico (`## 1. Fala de abertura — 3 min`).
+- Abertura, metáfora e case em **blockquote** (`>`), como fala pronta.
+- Metáfora com nome (`### Metáfora: o condomínio`) e tabela de correspondência técnica.
+- Tópicos 3.X separados por `---`; subseções usadas: O que é · Como funciona · (Exemplo prático) ·
+  O que a prova pode confundir · Frase de fixação · Alinhamento ao PD. Tabelas sempre que houver regras, números ou comparações.
+- Frases de fixação em **negrito** dentro de blockquote.
+- Questão: linha única `Certificação · Competência · Nível`; **4 alternativas (A–D)**; justificativa de cada incorreta.
+- Revisão final com **Quadro de emergência em tabela** (Tema | Regra-chave).
+- Fontes consolidadas no fim em **Referências oficiais e status** (lista numerada, `Último acesso`, status em negrito);
+  o que não foi confirmado aparece como "não confirmado nesta sessão" — nunca inventado.
+- Duração padrão: 30–40 min, salvo pedido diferente.
+
 ## Onde salvar
 
 - Fontes recebidas (PDF, planilha, PD, normas): `00-fontes/`

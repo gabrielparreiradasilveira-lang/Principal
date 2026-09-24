@@ -1,147 +1,177 @@
-# Aula NN — [Tema]
+# Aula [CERTIFICAÇÃO] — [Tema]
 
-## Identificação
+[Mmm DD, AAAA] · @Boss · Roteiro integrado · [duração] min
 
-| Campo | Preenchimento |
-|---|---|
-| Certificação | [CPA / C-PRO-I / C-PRO-R / CPA-20 / CEA / CFP / CFG / CGA / CGE] |
-| Módulo | [Módulo do Programa Detalhado] |
-| Item / subitem | [Item e subitem oficiais] |
-| Objetivo da aula | [O que o aluno será capaz de fazer ao final] |
-| Nível do público | [Iniciante / Intermediário / Avançado] |
-| Duração estimada | [min] |
-| Fontes consultadas | [PD versão/data, planilha, normas] |
+<!--
+MODELO DE ENTREGA. Formato espelhado de:
+modelos/REFERENCIA-aula-cpa-1.1.4-1.1.5-autorreguladores-fgc-spb.md
+Na dúvida sobre tom, densidade ou layout, siga a aula de referência.
+-->
 
-## Matriz de alinhamento
+## Identificação e alinhamento
 
-| Tópico do Programa Detalhado | Apostila (págs.) | Seção da aula | Fonte oficial / status |
-|---|---|---|---|
-| [Item — tópico oficial] | [APOSTILA-XXX p. N–M] | 3.1 | [Fonte — status] |
-| [Item — tópico oficial] | [APOSTILA-XXX p. N–M] | 3.2 | [Fonte — status] |
+Aula única de [duração] minutos que cobre os itens **[X.X.X Nome do item]** e **[X.X.X Nome do item]** do Programa Detalhado [CERTIFICAÇÃO] (ANBIMA, vigência 01/01/2026), Módulo [N].
 
----
+### Checagem de escopo
 
-## 1. Fala de abertura — [tempo estimado]
+| Subitem do PD | Fonte de origem | Tratamento |
+| --- | --- | --- |
+| [X.X.X.X Nome] | [APOSTILA-XXX p. N–M] | [Conferido / Conferido, com correções / Itens fora do PD retirados] |
 
-[Texto completo, pronto para ser falado.]
+### Cronograma
+
+| Etapa | Tempo |
+| --- | --- |
+| 1. Fala de abertura | [3] min |
+| 2. Metáfora central | [3] min |
+| 3. Tópicos ([Tópico A] [n] · [Tópico B] [n] · …) | [n] min |
+| 4. Por que cai na prova | [4] min |
+| 5. Case | [3] min |
+| 6. Questão comentada | [3] min |
+| 7. Revisão final | [2] min |
+| **Total** | **[n] min** |
+
+### Correções feitas na fonte
+
+<!-- Só quando a apostila/material estiver errado, desatualizado ou fora do PD. Sem correções: "Nenhuma correção necessária." -->
+
+| # | Fonte | O material diz | O correto | Fonte oficial |
+| --- | --- | --- | --- | --- |
+| 1 | [APOSTILA-XXX p. N] | [Afirmação original] | [Versão correta, em **negrito** o que muda] | [Órgão — ato] |
+
+## 1. Fala de abertura — [3] min
+
+> [Perguntas/provocações concretas, em fala pronta, parágrafos curtos.]
+>
+> [Situação cotidiana ligada ao tema.]
+>
+> [Antecipação: "As respostas estão nesta aula…" com os conceitos em **negrito**.]
 
 ### Objetivo da abertura
-[O que deve despertar no aluno.]
+
+[Uma frase.]
 
 ### Conexão com o Programa Detalhado
-[Item oficial correspondente.]
 
----
+[CERTIFICAÇÃO X.X.X e X.X.X.]
 
-## 2. Introdução com metáfora central — [tempo estimado]
+## 2. Metáfora central — [3] min
 
-### Metáfora
-[Texto da associação.]
+### Metáfora: [nome curto]
+
+> [Texto da metáfora, em fala, com cada elemento ligado a um conceito em **negrito**.]
 
 ### Correspondência técnica
+
 | Elemento da metáfora | Correspondência técnica |
 | --- | --- |
-| [Elemento visual] | [Conceito técnico] |
+| [Elemento] | [Conceito] |
 
 ### Frase de fixação
-> [Frase curta para memorizar.]
 
----
+> **[Frase curta que amarra a metáfora aos conceitos.]**
 
-## 3. Explicação dos tópicos do Programa Detalhado — [tempo estimado]
+## 3. Explicação dos tópicos — [n] min
 
-### 3.1 [Nome exato ou fiel do tópico]
+### 3.1 [Nome do tópico] — [n] min
 
 #### O que é
-[Definição técnica objetiva.]
+
+[Definição técnica objetiva, termos-chave em **negrito**.]
 
 #### Como funciona
-[Sequência causal ou mecanismo.]
 
-#### Onde aparece
-[Produto, instituição, operação, decisão ou situação de mercado.]
+[Mecanismo. Preferir tabela quando houver regras, pilares, limites ou comparações.]
+
+| [Critério] | [Coluna] | [Coluna] |
+| --- | --- | --- |
+| [ ] | [ ] | [ ] |
 
 #### Exemplo prático
-[Exemplo numérico, operacional ou cotidiano.]
+
+<!-- Opcional quando o tópico pedir cálculo ou caso: resolver passo a passo em bullets. -->
 
 #### O que a prova pode confundir
-[Diferenças, funções, responsabilidades, características ou exceções.]
+
+- **[A] ≠ [B]:** [diferença.]
 
 #### Frase de fixação
-> [Resumo curto e memorizável.]
 
-#### Alinhamento ao Programa Detalhado
-[Item, subitem e certificação.]
+> **[Frase.]**
 
-#### Fonte e status
-[Órgão — tipo do ato — número — data — título resumido — link direto — último acesso: AAAA-MM-DD — status.]
+#### Alinhamento ao PD
 
-<!-- Repetir o bloco 3.X para cada tópico oficial. -->
+[CERTIFICAÇÃO X.X.X.X.]
 
 ---
 
-## 4. Por que isso cai na prova? — [tempo estimado]
+### 3.2 [Nome do tópico] — [n] min
+
+<!-- Repetir a estrutura. Separar tópicos com --- -->
+
+## 4. Por que isso cai na prova? — [4] min
 
 ### Explicação estratégica
-[Por que o assunto é relevante para a certificação.]
+
+[Como a prova cobra o tema: quem é quem, números, aplicação em casos.]
 
 ### Pontos de atenção
-1. [Ponto de atenção + explicação.]
-2. [Ponto de atenção + explicação.]
-3. [Ponto de atenção + explicação.]
+
+1. [Ponto.]
+2. [Ponto.]
+3. [Ponto.]
 
 ### Comparações que a prova pode explorar
+
 | Conceito A | Conceito B | Diferença decisiva |
-|---|---|---|
+| --- | --- | --- |
 | [A] | [B] | [Diferença] |
 
 ### Palavras-chave da prova
-- [Palavra-chave]: [efeito na interpretação.]
+
+- **"[termo]"**: [o que indica.]
 
 ### Pegadinhas
-- [Pegadinha]: [correção.]
+
+- "[Afirmação falsa típica.]" **Errado:** [correção.]
 
 ### Frase de fixação
-> [Regra curta para a prova.]
 
----
+> **[Regra curta para a prova.]**
 
-## 5. Case / Storytelling — [tempo estimado]
+## 5. Case — [3] min
 
 ### Situação
-[História completa e concreta.]
+
+> [Personagem, carteira/situação com valores, evento que dispara a decisão.]
 
 ### Conceitos aplicados
-| Elemento do case | Conceito da aula | Função no caso |
-|---|---|---|
-| [Elemento] | [Conceito] | [Função] |
+
+| [Elemento do case] | [Conceito/proteção/regra] | [Resultado] |
+| --- | --- | --- |
+| [ ] | [ ] | [ ] |
 
 ### Análise passo a passo
-1. [Primeiro evento ou decisão.]
-2. [Segundo evento ou decisão.]
-3. [Consequência financeira, operacional ou regulatória.]
+
+1. [Passo.]
+2. [Passo.]
+3. [Consequência / lição.]
 
 ### Síntese do case
-[Conclusão em linguagem simples e técnica.]
+
+[Conclusão em uma ou duas frases.]
 
 ### Frase de fixação
-> [Frase que conecta o caso ao tema.]
 
----
+> **[Pergunta ou regra que o aluno leva para a prova.]**
 
-## 6. Questão final comentada
+## 6. Questão final comentada — [3] min
 
-### Certificação
-[Certificação provável.]
-
-### Competência avaliada
-[Competência ou item do Programa Detalhado.]
-
-### Nível
-[Fácil, Médio ou Difícil.]
+**Certificação:** [CERT] · **Competência:** [X.X.X.X Tema] · **Nível:** [Fácil/Médio/Difícil]
 
 ### Questão
-[Enunciado contextualizado e claro.]
+
+[Enunciado contextualizado.]
 
 A) [Alternativa]
 
@@ -151,63 +181,65 @@ C) [Alternativa]
 
 D) [Alternativa]
 
-E) [Alternativa, quando aplicável]
-
 ### Ponto-chave do enunciado
-[Condição ou palavra que decide a resposta.]
+
+[Palavras que decidem a resposta.]
 
 ### Gabarito
+
 **Alternativa [letra].**
 
 ### Comentário da alternativa correta
-[Explicação técnica e objetiva.]
+
+[Explicação técnica.]
 
 ### Por que as demais estão incorretas?
-- **A:** [Justificativa específica.]
-- **B:** [Justificativa específica.]
-- **C:** [Justificativa específica.]
-- **D:** [Justificativa específica.]
-- **E:** [Justificativa específica, se houver.]
+
+- **[Letra]:** [justificativa específica.]
 
 ### Armadilhas e macetes
-- [Armadilha 1.]
-- [Armadilha 2.]
+
+- [Armadilha.]
 
 ### Referência
-[Programa Detalhado, documento oficial ou norma aplicável.]
 
----
+[Norma/fonte oficial; Programa Detalhado [CERT], item X.X.X.X.]
 
-## 7. Revisão final
+## 7. Revisão final — [2] min
 
 ### Resumo em cinco pontos
-1. [Ponto essencial.]
-2. [Ponto essencial.]
-3. [Ponto essencial.]
-4. [Ponto essencial.]
-5. [Ponto essencial.]
+
+1. [Ponto.]
+2. [Ponto.]
+3. [Ponto.]
+4. [Ponto.]
+5. [Ponto.]
 
 ### Quadro de emergência
-[Versão extremamente resumida para consulta rápida.]
+
+| Tema | Regra-chave |
+| --- | --- |
+| [Tema] | [Regra em poucas palavras, separadas por ·] |
 
 ### Cadeia lógica
-> [conceito] → [mecanismo] → [aplicação] → [regra] → [decisão]
+
+> [conceito] → [mecanismo] → [aplicação] → [regra]
 
 ### Diferenças que não podem ser confundidas
-- [A] ≠ [B]: [diferença.]
+
+- **[A] ≠ [B]:** [diferença.]
 
 ### Frase central da aula
-> [Uma frase que reconecta o tema inteiro.]
+
+> **[Frase que retoma a metáfora e o tema inteiro.]**
 
 ### Próximo passo de estudo
-[Exercício, leitura, revisão ou simulado recomendado.]
 
----
+[Exercício ou revisão recomendada.]
 
-## Referências oficiais
+## Referências oficiais e status
 
-- [Órgão — tipo do ato/documento — número — data — título resumido — link direto — último acesso: AAAA-MM-DD — status]
+Último acesso: [AAAA-MM-DD].
 
-## Pendências de verificação
-
-- [Item] — Status: não confirmado — verificar na fonte oficial indicada.
+1. ANBIMA — Programa Detalhado [CERT] — vigência 01/01/2026 — itens [X.X.X] — [Programas Detalhados ANBIMA](https://www.anbima.com.br/pt_br/especial/pds-certificacoes-distribuicao.htm). **Em vigor.**
+2. [Órgão] — [tipo do ato] [número/ano] — [título resumido] — [link, se confirmado]. **[Em vigor / Revogada / Alterada / Descontinuado em DD/MM/AAAA / Status: não confirmado nesta sessão].**

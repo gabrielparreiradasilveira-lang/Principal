@@ -4,7 +4,8 @@ Aulas prontas para ensinar, alinhadas ao **Programa Detalhado ANBIMA**, para as 
 CPA, C-PRO-I, C-PRO-R, CPA-20, CEA, CFP, CFG, CGA e CGE.
 
 Regras completas: [`PROMPT_MESTRE_CERTPASS.md`](PROMPT_MESTRE_CERTPASS.md).
-Modelo de aula: [`modelos/modelo-aula-7-etapas.md`](modelos/modelo-aula-7-etapas.md).
+Padrão de entrega: [`modelos/REFERENCIA-aula-cpa-1.1.4-1.1.5-autorreguladores-fgc-spb.md`](modelos/REFERENCIA-aula-cpa-1.1.4-1.1.5-autorreguladores-fgc-spb.md) (aula-referência aprovada).
+Esqueleto para preencher: [`modelos/modelo-aula-7-etapas.md`](modelos/modelo-aula-7-etapas.md).
 
 ## Estrutura
 
