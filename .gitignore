@@ -33,3 +33,6 @@ yarn-error.log*
 # Temporary files
 *.tmp
 .claude/settings.local.json
+
+# PDF com marca d'agua contendo dados pessoais (nome, e-mail, CPF): manter só local
+aulas-certificacoes/00-fontes/materiais-aula/A3439-SUSEP.pdf
