@@ -1,0 +1,1332 @@
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+1  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+2  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BOAS-VINDAS 
+ 
+Este é o programa detalhado da CPA (Certificado Profissional Anbima), 
+certificação que passa a ser o requisito obrigatório de entrada no mercado 
+financeiro. 
+A CPA é direcionada a pessoas em início de carreira e oferece a base 
+necessária sobre produtos financeiros. Com ela, é possível atuar em 
+atividades comerciais, no contato inicial com clientes e na prestação de 
+informações primárias sobre produtos e serviços. 
+Após a CPA, as pessoas com essa certificação poderão evoluir para as 
+certificações de distribuição: C-Pro R (Certificado Profissional Anbima de 
+Relacionamento) e C-Pro I (Certificado Profissional Anbima de 
+Investimento). 
+ 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+3  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+ 
+ 
+ 
+ 
+Sumário 
+ 
+ 
+ 
+ 
+1. Estrutura e dinâmica do sistema financeiro nacional ........................................ 4 
+2.Produtos do mercado financeiro ...................................................................... 11 
+3. Relacionamento com o cliente  (prospecção, atendimento e suporte) .......... 20 
+4. Inovação e desenvolvimento de mercado ....................................................... 27 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+4  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+1. Estrutura e dinâmica do sistema financeiro nacional  
+Proporção: 20% 
+ 
+1.1. Sistema financeiro nacional. 
+1.1.1. Órgãos normativos. 
+1.1.1.1. Características, funções e objetivos. 
+1.1.1.1.1. Conselho Monetário Nacional (CMN). 
+1.1.1.1.2. Conselho Nacional de Seguros Privados (CNSP). 
+1.1.1.1.3. Conselho Nacional de Previdência Complementar (CNPC). 
+1.1.2. Supervisão. 
+1.1.2.1. Características, funções e objetivos. 
+1.1.2.1.1. Banco Central (BC). 
+1.1.2.1.2. Comissão de Valores Mobiliários (CVM). 
+1.1.2.1.3. Superintendência de Seguros Privados (SUSEP). 
+1.1.2.1.4. Superintendência Nacional de Previdência Complementar 
+(PREVIC). 
+1.1.3. Operadores e participantes do sistema. 
+1.1.3.1. Características, funções e objetivos. 
+1.1.3.1.1. Bancos e caixas econômicas. 
+1.1.3.1.2. Cooperativas de crédito e banco cooperativo. 
+1.1.3.1.3. Instituições de pagamento. 
+1.1.3.1.4. Administradoras de consórcios. 
+1.1.3.1.5. Corretoras e distribuidoras. 
+1.1.3.1.6. Fintechs. 
+1.1.3.1.7. Sociedades de crédito, financiamento e investimento. 
+1.1.3.1.8. Companhias hipotecárias. 
+1.1.3.1.9. Agências de fomento. 
+1.1.3.1.10. Sociedades de crédito à pessoa microempreendedora e à 
+empresa de pequeno porte. 
+1.1.3.1.11. Sociedade de Crédito Imobiliário (SCI). 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+5  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+1.1.3.1.12. B3 S/A – Brasil, bolsa e balcão. 
+1.1.3.1.13. Seguradoras e resseguradoras. 
+1.1.3.1.14. Entidades Abertas de Previdência Complementar (EAPC). 
+1.1.3.1.15. Sociedades de capitalização. 
+1.1.3.1.16. Entidades Fechadas de Previdência Complementar (EFPC) 
+(Fundos de pensão). 
+1.1.3.1.17. Corretoras de seguros. 
+1.1.4. 
+Autorreguladores e demais participantes do mercado. 
+1.1.4.1. Anbima. 
+1.1.4.2. Apimec, Planejar e Ancord. 
+1.1.4.3. Fundo Garantidor de Créditos (FGC) e Fundo Garantidor do 
+Cooperativismo de Crédito (FGCCoop). 
+1.1.5. 
+Sistema Brasileiro de Pagamentos (SBP). 
+1.2. 
+Política econômica.  
+1.2.1. Fluxo circular da renda. 
+1.2.1.1. 
+Principais componentes do fluxo circular de renda (famílias, 
+empresas, mercado e governo) e os impactos de suas decisões/ações 
+sobre a economia. 
+1.2.2. Mercado financeiro e suas subdivisões. 
+1.2.2.1. 
+Mercado monetário. 
+1.2.2.2. 
+Mercado cambial. 
+1.2.2.3. 
+Mercado de crédito. 
+1.2.2.4. 
+Mercado de capitais. 
+1.2.3. Política fiscal. 
+1.2.3.1. 
+Conceito e objetivos. 
+1.2.3.2. 
+Modelos e funções da política fiscal.  
+1.2.3.3. 
+Relações entre política fiscal, dívida pública, inflação, taxa de 
+juros e investimentos. 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+6  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+1.2.3.4. 
+Financiamento do Governo (Lei de Responsabilidade fiscal e 
+equilíbrio das contas públicas). 
+1.2.4. Política monetária. 
+1.2.4.1. 
+Política monetária expansionista e contracionista. 
+1.2.4.2. 
+Instrumentos de política monetária: open market, redesconto e 
+depósito compulsório. 
+1.2.4.3. 
+Principais canais de transmissão. 
+1.2.4.4. 
+Influência dos instrumentos e decisões de política monetária nas 
+taxas de juros de curto e longo prazo, nos preços dos ativos 
+financeiros, na inflação e na atividade econômica. 
+1.2.4.5. 
+Copom (atribuições, relação com a política monetária e o 
+impacto de suas decisões na atividade econômica e no mercado 
+financeiro). 
+1.2.4.6. 
+Regime de metas para a inflação e expectativas inflacionárias. 
+1.2.4.7. 
+A relação entre a meta Selic, a taxa Selic, a taxa do CDI e suas 
+definições. 
+1.2.5. Política cambial. 
+1.2.5.1. 
+Definição e objetivos da política cambial. 
+1.2.5.2. 
+Conceito de regimes de taxas de câmbio, cupom cambial e 
+reservas internacionais. 
+1.2.5.3. 
+Relação entre cupom cambial e investimentos. 
+1.2.5.4. 
+Swap cambial. 
+1.2.5.5. 
+Taxa de câmbio nominal e real, taxa PTAX, câmbio turismo e 
+câmbio comercial. 
+1.2.6. Principais indicadores econômicos e de mercado. 
+1.2.6.1. 
+Definição de PIB e seus principais componentes. 
+1.2.6.2. 
+Definições e aplicações de IPCA, IGP-M, IPA e IPC-Fipe e como se 
+relacionam. 
+1.2.6.3. 
+Taxa de desemprego e seu impacto na economia. 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+7  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+1.2.6.4. 
+Taxa básica de juros (Selic), Taxa DI e Taxa Referencial (TR). 
+1.2.7. Risco de liquidez, crédito e mercado. 
+1.3. Operações do mercado financeiro. 
+1.3.1. Taxa de juros nominal e taxa de juros real: como se relacionam e 
+conceito de indexador. 
+1.3.2. Capitalização simples versus capitalização composta: conceito, 
+desconto, equivalência e proporcionalidade.  
+1.3.3. Principais diferenças do efeito dos juros versus tempo de alocação dos 
+ativos. 
+1.3.3.1. 
+Pagamento de amortização e juros dos ativos de crédito privado. 
+1.3.3.2. 
+Regime de capitalização em empréstimos e mútuo. 
+1.3.3.2.1. Fluxo de pagamentos: relações e conceitos. 
+1.3.3.2.2. Fluxo de caixa: cupom, amortizações e valores. 
+1.3.3.2.3. Valor Presente, Valor Futuro e Valor Presente Líquido (VPL). 
+1.3.3.3. 
+Taxa de desconto. 
+1.3.3.4. 
+Taxa bruta versus taxa líquida de impostos. 
+1.3.3.5. 
+Amortização. 
+1.3.3.5.1. Prazo médio e vencimento. 
+1.3.3.5.2. Taxa Interna de Retorno (TIR). 
+1.3.3.5.3. Conceito de custo de oportunidade.  
+1.3.3.5.4. Conceito de taxa livre de risco.  
+1.3.3.5.5. Conceito de Custo Médio Ponderado de Capital (CMPC). 
+1.3.3.5.6. Duration versus prazo. 
+1.3.3.5.6.1. Alavancagem financeira, custos de captações (dívidas 
+e/ou capital).  
+1.3.3.6. 
+Retorno histórico e retorno esperado. 
+1.3.3.6.1. De um ativo. 
+1.3.3.6.2. De uma carteira. 
+1.3.4. Taxas de juros. 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+8  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+1.3.4.1. 
+Nominal, efetiva e real (fórmula de Fisher). 
+1.3.4.2. 
+Taxas prefixada e pós-fixada. 
+1.3.4.3. 
+Juros simples e compostos. 
+1.3.5. Taxa de desconto comercial. 
+1.3.6. Prazo de retorno (payback). 
+1.3.7. Sistemas de amortização (SAC e price).  
+1.3.8. Aplicabilidade do desconto bancário na antecipação de recebíveis 
+bancários ou de direitos creditórios. 
+1.3.8.1. 
+Desconto bancário simples. 
+1.4. Regulação e infraestrutura de mercado.  
+1.4.1. Principais Infraestruturas do Mercado Financeiro (IMFs) e função de 
+gatekeepers. 
+1.4.1.1. 
+Sistemas de pagamentos: conceitos, atribuições e exemplos. 
+1.4.1.1.1. Sistema de Pagamentos Brasileiro (SPB). 
+1.4.1.1.2. Sistema de Pagamentos Instantâneos (SPI). 
+1.4.1.2. 
+Sistema de liquidação de títulos: conceitos, atribuições e 
+exemplos. 
+1.4.1.2.1. Sistema Especial de Liquidação e Custódia (Selic). 
+1.4.1.3. 
+Contrapartes centrais: conceitos, atribuições e exemplos. 
+1.4.1.4. 
+Depositários centrais: conceitos, atribuições e exemplos. 
+1.4.1.5. 
+Entidade registradora: conceitos, atribuições e exemplos. 
+1.4.2. Normas e procedimentos adotados pelo Bacen para manter a 
+estabilidade financeira do Brasil. 
+1.4.2.1. 
+Comitê de estabilização financeira (Comef), Depósito 
+Compulsório, Linhas Financeiras de Liquidez (LLI e LLT). 
+1.4.3. Ferramentas utilizadas pelo Bacen para intermediação financeira e suas 
+características. 
+1.4.3.1. 
+Definição de risco sistêmico. 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+9  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+1.4.3.2. 
+Índice de Basileia I, II e III e os principais riscos (liquidez e 
+alavancagem) que as normas e regras buscam evitar para a 
+economia real. 
+1.4.4. Clearings houses e suas principais funções no mercado financeiro. 
+1.4.5. Impactos do risco da contraparte.  
+1.4.6. B3, Selic e suas responsabilidades.  
+1.4.7. Portabilidades de custódia entre instituições. 
+1.4.8. Desintermediação financeira. 
+1.4.9. BSM (supervisão de mercados). 
+1.4.10. Classificação de pessoas investidoras. 
+1.4.10.1. Pessoas investidoras qualificadas, profissionais e não-residentes. 
+1.4.10.1.1. Definições. 
+1.4.10.1.2. Definição do tipo de pessoa investidora e regras de 
+enquadramento, segundo a resolução CVM 30. 
+1.4.11. Lei de Liberdade Econômica lei 13.874/19 (garantia de livre mercado). 
+1.4.12. Autorregulação Anbima. 
+1.4.12.1. Código de distribuição de produtos de investimento. 
+1.4.12.1.1. Objetivo e abrangência (título I, capítulo I). 
+1.4.12.1.2. Princípios gerais de conduta (título II, capítulo III). 
+1.4.12.1.3. Regras gerais de distribuição de produtos de investimento 
+(Título III, Capítulo IV). 
+1.4.12.1.3.1. 
+Conheça sua clientela (capítulo V). 
+1.4.12.1.3.2. 
+Suitability (capítulo VI).  
+1.4.12.1.3.3. 
+Publicidade (capítulo VII). 
+1.4.12.1.3.4. 
+Transparência na remuneração do canal de 
+distribuição (capítulo VIII). 
+1.4.12.1.3.5. 
+Serviços de intermediação no exterior (capítulo X). 
+1.4.12.1.3.6. 
+Transferência de produtos de investimento 
+(capítulo XI). 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+10  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+1.4.12.1.3.7. 
+Apuração de valores de referência (capítulo XII). 
+1.4.12.1.3.8. 
+Distribuição para o private (título IV, capítulo XIV). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+11  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+ 
+2.Produtos do mercado financeiro  
+Proporção: 40% 
+ 
+2.1. Produtos de investimentos. 
+2.1.1. Instrumentos de renda variável e renda fixa. 
+2.1.1.1. 
+Renda fixa. 
+2.1.1.1.1. Títulos públicos federais. 
+2.1.1.1.1.1. NTN-B e NTN-B Principal. 
+2.1.1.1.1.2. LFT. 
+2.1.1.1.1.3. LTN. 
+2.1.1.1.1.4. Plataforma do tesouro direto. 
+2.1.1.1.2. Tesouro prefixado, tesouro Selic, tesouro IPCA+, tesouro 
+educa+, tesouro renda+. 
+2.1.1.1.3. Títulos bancários. 
+2.1.1.1.3.1. Certificado de Depósito Bancário (CDB). 
+2.1.1.1.3.2. Recibo de Depósito Bancário (RDB) e Recibo de Depósito 
+Cooperativo (RDC). 
+2.1.1.1.3.3. Letra de Crédito Imobiliário (LCI). 
+2.1.1.1.3.4. Letra de Crédito do Agronegócio (LCA). 
+2.1.1.1.3.5. Letra de Crédito de Desenvolvimento (LCD). 
+2.1.1.1.4. Debêntures. 
+2.1.1.1.4.1. Debênture de infraestrutura. 
+2.1.1.1.4.2. Debêntures conversíveis e permutáveis. 
+2.1.1.1.5. Certificado Recebível Imobiliário (CRI). 
+2.1.1.1.6. Certificado Recebível do Agronegócio (CRA). 
+2.1.1.1.7. Rating. 
+2.1.1.1.8. Poupança. 
+2.1.1.1.8.1. Importância da poupança no SFH e garantias.  
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+12  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+2.1.1.1.8.2. Custos e tributação. 
+2.1.1.1.8.3. Rentabilidade e riscos. 
+2.1.1.1.8.4. Data de aniversário: conceito e prática. 
+2.1.1.1.9. TR. 
+2.1.1.1.10. TLP. 
+2.1.1.1.11. Tributação de aplicações de renda fixa. 
+2.1.1.1.12. Imposto sobre operações financeiras (IOF). 
+2.1.1.2. 
+Instrumentos de renda variável. 
+2.1.1.2.1. Renda variável (definição). 
+2.1.1.2.2. Ações. 
+2.1.1.2.2.1. 
+Definições e contexto. 
+2.1.1.2.2.1.1. 
+Empresa limitada e empresa S/A. 
+2.1.1.2.2.1.2. 
+S/A aberta versus S/A fechada. 
+2.1.1.2.2.1.3. 
+Empresa listada e não listada. 
+2.1.1.2.2.1.4. 
+Classes: ordinárias, preferenciais, units, 
+BDR´s e bônus de subscrição. 
+2.1.1.2.2.1.5. 
+Capital próprio e de terceiros. 
+2.1.1.2.2.1.6. 
+IPO e OPA. 
+2.1.1.2.2.1.7. 
+Follow on. 
+2.1.1.2.2.1.8. 
+Mercado primário versus secundário. 
+2.1.1.2.2.2. 
+Eventos corporativos. 
+2.1.1.2.2.2.1. Assembleia Geral Extraordinária (AGE). 
+2.1.1.2.2.2.2. Assembleia Geral Ordinária (AGO). 
+2.1.1.2.2.2.3. Dividendos. 
+2.1.1.2.2.2.4. Juros sobre Capital Próprio (JCP). 
+2.1.1.2.2.2.5. Restituição de capital. 
+2.1.1.2.2.2.6. Grupamentos e desdobramentos. 
+2.1.1.2.2.2.7. Bonificação. 
+2.1.1.2.2.2.8. Subscrição. 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+13  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+2.1.1.2.2.3. 
+Índices de mercado: Ibovespa (Índice Bovespa), 
+IBR×100 (Índice Brasil 100) e IBr×50 (Índice Brasil 
+50). 
+2.1.1.2.3. 
+Governança corporativa. 
+2.1.1.2.3.1. 
+Níveis de governança para as empresas. 
+2.1.1.2.3.1.1. 
+Segmentos de listagem. 
+2.1.1.2.3.1.2. 
+Conselho de administração. 
+2.1.1.2.3.1.3. 
+Tag Along, drag along, freefloat. 
+2.1.1.3. 
+Tributação de aplicações de renda variável. 
+2.1.1.3.1. 
+Alíquotas. 
+2.1.1.3.2. 
+Isenções. 
+2.1.1.3.3. 
+Compensação de perdas. 
+2.1.1.3.4. 
+Imposto sobre operações financeiras (IOF). 
+2.1.1.4. 
+Certificado de Operações Estruturadas (COE). 
+2.1.1.4.1. Principais regras e conhecimento da estrutura via 
+derivativos. 
+2.1.1.4.2. Diferentes níveis de risco e garantias de rentabilidade 
+(capital protegido ou capital em risco). 
+2.1.1.4.3. Tributação. 
+2.1.2. Introdução aos fundos de investimento. 
+2.1.2.1. 
+Características, estratégias, composição de carteiras, público-
+alvo e os riscos envolvidos nos fundos. 
+2.1.2.2. 
+Resolução CVM nº 175, parte geral. 
+2.1.2.2.1. Características, constituição e comunicação. 
+2.1.2.2.2. Definição de fundos de investimento. 
+2.1.2.2.3. Conceito de condomínio, constituição e registro na CVM. 
+2.1.2.2.4. Estrutura dos fundos de investimento: divisão em classes e 
+subclasses. 
+2.1.2.2.5. Segregação patrimonial. 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+14  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+2.1.2.2.6. Cotas. 
+2.1.2.2.7. Classes abertas e fechadas. 
+2.1.2.2.8. Emissão. 
+2.1.2.2.9. Subscrição e integralização. 
+2.1.2.2.10. Resgate e amortização. 
+2.1.2.2.11. Distribuição. 
+2.1.2.2.12. Investimento por conta e ordem. 
+2.1.2.2.13. Participação política da pessoa investidora por conta e 
+ordem. 
+2.1.2.2.14. Divulgação de informações. 
+2.1.2.2.15. Envio de comunicações para cotistas. 
+2.1.2.2.16. Divulgação de Informações e resultados. 
+2.1.2.2.17. Divulgação de cota e rentabilidade. 
+2.1.2.2.18. Assembleia de cotistas. 
+2.1.2.2.18.1. Assembleias gerais de cotistas. 
+2.1.2.2.18.2. Assembleias especiais de cotistas. 
+2.1.2.2.19. Prestação de serviços. 
+2.1.2.2.19.1. Serviços essenciais. 
+2.1.2.2.19.2. Funções da administração. 
+2.1.2.2.19.3. Funções da gestão. 
+2.1.2.2.19.4. Negociação de ativos em mercados organizados. 
+2.1.2.2.20. Remuneração. 
+2.1.2.2.20.1. Taxa de administração. 
+2.1.2.2.20.2. Taxa de ingresso. 
+2.1.2.2.20.3. Taxa de saída. 
+2.1.2.2.20.4. Taxa máxima de distribuição. 
+2.1.2.2.20.5. Acordos de remuneração. 
+2.1.2.2.21. Vedações. 
+2.1.2.2.22. Obrigações. 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+15  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+2.1.2.2.23. Normas de conduta. 
+2.1.2.2.24. Encargos. 
+2.1.2.2.25. Patrimônio líquido negativo com limitação de 
+responsabilidade. 
+2.1.2.2.25.1. Responsabilidade limitada de cotistas. 
+2.1.2.2.25.2. Responsabilidade ilimitada de cotistas. 
+2.1.2.2.25.3. Patrimônio líquido negativo. 
+2.1.2.2.25.4. Insolvência da classe de cotas. 
+2.1.2.3. 
+Fundos de Investimento Financeiro (FIF) – Resolução CVM nº 
+175/22, Anexo I. 
+2.1.2.3.1. Prestação de serviços. 
+2.1.2.3.2. Obrigações da pessoa administradora, gestora e custodiante. 
+2.1.2.3.3. Disposições gerais. 
+2.1.2.3.3.1. Vedações. 
+2.1.2.3.4. Distribuição e subscrição. 
+2.1.2.3.5. Carteira. 
+2.1.2.3.5.1. Ativos financeiros no Brasil. 
+2.1.2.3.5.2. Ativos financeiros no exterior. 
+2.1.2.3.5.3. Limites para cada emissor. 
+2.1.2.3.5.4. Limites por modalidade de ativo financeiro. 
+2.1.2.3.5.5. Deveres quanto aos limites de concentração. 
+2.1.2.3.6. Tipificação. 
+2.1.2.3.6.1. Fundos de renda fixa. 
+2.1.2.3.6.2. Fundo de ações. 
+2.1.2.3.6.3. Fundos cambiais. 
+2.1.2.3.6.4. Fundos multimercados. 
+2.1.2.3.6.5. Fundos Incentivados em Infraestrutura (FI-Infra). 
+2.1.2.3.6.6. Fundos destinados à garantia de locação imobiliária. 
+2.1.2.3.6.7. Concentração em crédito privado. 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+16  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+2.1.2.3.7. Investimento em cotas de outros fundos de investimento 
+financeiro. 
+2.1.2.3.8. Exposição ao risco de capital. 
+2.1.2.3.9. Classes restritas. 
+2.1.2.3.10. Encargos. 
+2.1.3. Tributação em fundos de investimento. 
+2.1.3.1. 
+Aplicação das normas tributárias. 
+2.1.3.2. 
+Impostos incidentes sobre rendimentos. 
+2.1.3.2.1. Imposto sobre Operações Financeiras (IOF).  
+2.1.3.2.2. Imposto de Renda (IR). 
+2.1.4. Fundos Imobiliários (FIIs). 
+2.1.4.1. 
+Ambiente de negociação e regime de cotas. 
+2.1.4.2. 
+Risco de liquidez, crédito, vacância e composição de ativos. 
+2.1.4.3. 
+Dinâmica de dividendos e suas regras. 
+2.1.4.4. 
+Taxas, administração e subscrição. 
+2.1.4.5. 
+Fundos de tijolos, fundos de papel e híbridos, principais 
+diferenças. 
+2.1.4.6. 
+Tributação e custos. 
+2.2. Produtos de Previdência Complementar (PGBL E VGBL).  
+2.2.1. Modalidades de planos (PGBL e VGBL). 
+2.2.1.1. 
+PGBL (definição, público-alvo, principais características e 
+utilizações). 
+2.2.1.2. 
+VGBL (definição, público-alvo, principais características e 
+utilizações). 
+2.2.2. Regimes de tributação (progressivo e regressivo). 
+2.2.2.1. 
+Regime progressivo, tributável ou compensável (base de cálculo, 
+alíquotas, aplicação prática da tabela, público-alvo). 
+2.2.2.2. 
+Regime regressivo, definitivo ou exclusivo (base de cálculo, 
+alíquotas, aplicação prática da tabela, público-alvo). 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+17  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+2.2.3. Conceitos técnicos ligados a previdência complementar. 
+2.2.3.1. 
+Fases do produto (contribuição e benefícios). 
+2.2.3.2. 
+Taxa de administração (Conceito, tipos, entrada, saída e forma 
+de cobrança). 
+2.2.3.3. 
+Portabilidade externa e interna (regras e carências). 
+2.2.3.4. 
+Transformação da reserva em renda. 
+2.2.3.4.1. Renda Mensal Vitalícia (RMV). 
+2.2.3.4.2. Renda Mensal Vitalícia com prazo mínimo garantido. 
+2.2.3.4.3. Renda Mensal Vitalícia com reversão a beneficiário indicado. 
+2.2.3.4.4. Renda Mensal Vitalícia reversível para cônjuges com 
+continuidade aos menores. 
+2.2.3.4.5. Renda mensal temporária. 
+2.2.3.4.6. Renda mensal por prazo certo. 
+2.2.3.4.7. Pagamento único. 
+2.3. Produtos de financiamento. 
+2.3.1. Princípios para disponibilização de crédito. 
+2.3.1.1. 
+Rating de crédito, score Serasa, comprovação de renda.  
+2.3.1.2. 
+Diferenças entre empréstimo, financiamento e leasing. 
+2.3.1.3. 
+Utilização do SCR. 
+2.3.2. Cartão de crédito. 
+2.3.2.1. 
+Limites, incidência de juros, regras de pagamento parcial e 
+refinanciamento. 
+2.3.2.2. 
+Cálculos da taxa de refinanciamento de faturas. 
+2.3.3. Cheque especial. 
+2.3.3.1. 
+Data de vencimento, cálculos dos valores de juros e IOF.  
+2.3.4. Crédito consignado. 
+2.3.4.1. 
+Margem de financiamento e desconto.  
+2.3.4.2. 
+Principais vantagens (juros e prazo).  
+2.3.5. Crédito Direto ao Consumidor (CDC). 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+18  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+2.3.5.1. 
+Utilização de bens como garantia. 
+2.3.5.2. 
+Prazos maiores e destinação dos recursos. 
+2.3.6. Crédito imobiliário. 
+2.3.7. Capital de giro. 
+2.3.8. Consórcio. 
+2.4. Serviços bancários. 
+2.4.1. Conta corrente. 
+2.4.1.1. 
+Recebimento de salários. 
+2.4.1.2. 
+Depósitos à vista. 
+2.4.1.2.1. Garantias para depósitos à vista. 
+2.4.1.2.2. Depósito compulsório. 
+2.4.1.3. 
+Boleto bancário. 
+2.4.1.4. 
+Serviços digitais. 
+2.4.1.5. 
+Pagamento Instantâneo Brasileiro (PIX). 
+2.4.1.5.1. Definição e objetivos. 
+2.4.1.5.2. Funcionamento (processo de transferência/Chaves PIX/Custos 
+e tarifas/ liquidação). 
+2.4.1.5.3. Aplicações (transferências e pagamentos). 
+2.4.1.5.4. Pix na pessoa jurídica (pagamentos e recebimentos). 
+2.4.1.6. 
+Tarifas. 
+2.4.1.6.1. Critérios para cobrança de tarifa e direitos a gratuidade. 
+2.4.1.7. 
+Atendimento bancário.  
+2.4.1.7.1. Horários de atendimento, regra para filas, atendimento 
+presencial e dias de não atendimento ao público. 
+2.4.2. Conta internacional. 
+2.4.2.1. 
+Principais facilidades e inovações. 
+2.4.2.2. 
+Cobrança de IOF com diferentes alíquotas. 
+2.4.2.3. 
+Investimento internacional (implicações no imposto renda no 
+Brasil).  
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+19  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+2.4.3. Compra e venda de moeda estrangeira. 
+2.4.3.1. 
+Regras para pessoa correspondente bancária. 
+2.4.3.2. 
+Regras para compra e venda de moeda em instituições 
+financeiras. 
+2.4.3.3. 
+Definição e regras para recompra de moeda estrangeira. 
+2.5. Seguros de vida e patrimoniais. 
+2.5.1. Seguros de vida. 
+2.5.1.1. 
+Vida inteira. 
+2.5.1.2. 
+Vida temporário. 
+2.5.1.3. 
+Tradicional. 
+2.5.2. Seguros patrimoniais. 
+2.5.2.1. 
+Automóveis. 
+2.5.2.2. 
+Residencial. 
+2.5.2.3. 
+Prestamista. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+20  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+ 
+3. Relacionamento com o cliente  
+(prospecção, atendimento e suporte)  
+Proporção: 30% 
+ 
+3.1. Finanças pessoais. 
+3.1.1. Faixa etária versus exposição ao risco versus produtos orientados ao 
+perfil da pessoa investidora. 
+3.1.2. Ciclo de vida da pessoa investidora. 
+3.1.2.1. 
+Acumulação de capital. 
+3.1.2.2. 
+Crescimento patrimonial. 
+3.1.2.3. 
+Preservação de capital. 
+3.1.2.4. 
+Distribuição de renda. 
+3.1.3. Orçamento e fluxo de caixa pessoal ou familiar. 
+3.1.3.1. 
+Educação financeira básica. 
+3.1.3.2. 
+Receitas e despesas pessoais ou familiares (definição da 
+capacidade de poupança). 
+3.1.3.3. 
+Gestão de dívidas e crédito. 
+3.1.3.3.1. Avaliação da melhor dívida em função da necessidade atual 
+do cliente. 
+3.1.3.3.2. Empréstimo e financiamento. 
+3.1.3.3.3. Modalidades de operações de crédito, crédito direto ao 
+consumidor, crédito pessoal e consignado. 
+3.1.3.3.4. Garantias. 
+3.1.3.3.5. Controle de gastos e orçamento. 
+3.1.3.3.6. Financiamento imobiliário e de veículos. 
+3.1.3.3.7. Cartão de crédito e gerenciamento de dívidas. 
+3.1.3.3.8. Empréstimo com garantia e crédito rotativo. 
+3.1.3.3.9. Cheque especial e financiamento estudantil. 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+21  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+3.1.3.3.10. Microcrédito e crédito rural. 
+3.1.3.3.11. Crédito para reforma e construção. 
+3.1.3.3.12. Crédito para energia sustentável. 
+3.1.3.4. 
+Reserva de emergência. 
+3.1.3.4.1. Montante necessário. 
+3.1.3.4.2. Ativos de alta liquidez. 
+3.1.4. Balanço patrimonial pessoal ou familiar. 
+3.1.4.1. 
+Indicadores: liquidez, cobertura de despesas mensais e 
+endividamento. 
+3.1.4.2. 
+Ativos de uso e não uso. 
+3.1.4.3. 
+Patrimônio líquido pessoal. 
+3.1.5. Planejamento familiar ou pessoal. 
+3.1.5.1. 
+Etapas do processo do planejamento financeiro pessoal 
+(objetivos financeiros da clientela, avaliação da situação financeira 
+atual, desenvolvimento do plano de ação, implementação do plano, 
+monitoramento e revisão regular). 
+3.1.5.2. 
+Definição do momento de vida e financeiro da clientela.  
+3.1.5.3. 
+Estabelecimento de metas financeiras. 
+3.1.5.4. 
+Planejamento de investimentos.  
+3.1.5.5. 
+Planejamento de fundo educacional para descendentes. 
+3.1.5.6. 
+Planejamento para aposentadoria (cálculo para independência 
+financeira). 
+3.1.6. Tributação – Conceitos básicos sobre tributação de pessoas físicas. 
+3.1.6.1. 
+Declaração de imposto de renda da pessoa física (conhecimento 
+básico sobre o que deve ser declarado). 
+3.1.6.2. 
+Classificação de rendimentos (visão básica para compreensão dos 
+impactos dos rendimentos dos investimentos na declaração). 
+3.1.6.3. 
+Modelo completo x desconto simplificado (visão básica para 
+compreensão das diferenças entre os modelos).  
+3.2. Orientações financeiras para o cliente. 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+22  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+3.2.1. Tipos de investimento versus tolerância a risco e horizonte de 
+investimento. 
+3.2.2. Gestão financeira. 
+3.2.2.1. 
+Financiamento de emergências (estratégias e produtos). 
+3.2.2.2. 
+Utilização de crédito e gestão de dívidas. 
+3.2.3. Gestão de investimentos. 
+3.2.4. Gestão de risco e seguros. 
+3.3. Classificação das pessoas investidoras. 
+3.3.1. Perfis da pessoa investidora. 
+3.3.2. Adequação de produtos financeiros. 
+3.3.3. Avaliação de risco e retorno. 
+3.3.4. Diversificação de carteira.  
+3.3.5. Pessoa investidora profissional e qualificada. 
+3.4. Regras e condutas aplicáveis para atuação profissional e no relacionamento 
+com o cliente. 
+3.4.1. Código de conduta ética para pessoas candidatas e profissionais com 
+certificação Anbima. 
+3.4.1.1. 
+Os nove princípios éticos. 
+3.4.1.2. 
+Regras gerais de conduta para pessoas candidatas. 
+3.4.1.3. 
+Regras gerais de conduta para profissionais com certificação. 
+3.4.1.4. 
+Deveres profissionais. 
+3.4.2. Suitability e código de distribuição da Anbima. 
+3.4.2.1. 
+Objetivos do código Anbima. 
+3.4.2.2. 
+Documentação e registro de Informações da clientela. 
+3.4.2.3. 
+Ferramentas e metodologias de avaliação de suitability. 
+3.4.2.4. 
+Adequação dos produtos ao perfil da clientela. 
+3.4.2.5. 
+Adequação dos produtos ao objetivo da clientela. 
+3.4.2.6. 
+Monitoramento contínuo da suitability. 
+3.4.2.7. 
+Comunicação clara e transparente com a clientela. 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+23  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+3.4.2.8. 
+Gestão de conflitos de interesses. 
+3.4.3. Ética profissional e atendimento ao cliente. 
+3.4.3.1. 
+Técnicas de atendimento. 
+3.4.3.1.1. Escuta ativa. 
+3.4.3.1.2. Personalização do atendimento. 
+3.4.3.1.3. Solução proativa de problemas. 
+3.4.3.1.4. Educação continuada e conhecimento dos produtos e 
+serviços. 
+3.4.3.1.5. Gerenciamento de expectativas. 
+3.4.3.2. 
+Ética e responsabilidade no atendimento. 
+3.4.3.3. 
+Conflitos de interesses. 
+3.4.3.3.1. Relações pessoais e familiares. 
+3.4.3.3.2. Benefícios e incentivos. 
+3.4.3.3.3. Medidas de gestão de conflitos de interesse. 
+3.4.3.3.3.1. Políticas e procedimentos claros. 
+3.4.3.3.3.1.1. Treinamento e educação. 
+3.4.3.3.3.1.2. Divulgação obrigatória. 
+3.4.3.3.3.1.3. Segregação de funções. 
+3.4.3.3.3.1.4. Revisão e monitoramento contínuos. 
+3.4.3.3.3.1.5. Comitês de ética e compliance. 
+3.4.3.3.3.1.6. Proibição de atividades específicas. 
+3.4.3.3.3.1.7. Relatórios de transparência. 
+3.4.4. Riscos associados à atividade profissional. 
+3.4.4.1. 
+Riscos operacionais. 
+3.4.4.2. 
+Riscos regulatórios. 
+3.4.4.3. 
+Riscos legais. 
+3.4.4.4. 
+Riscos de imagem. 
+3.4.5. Prevenção e Combate à Lavagem de Dinheiro e Combate ao Terrorismo 
+(PLDFT) e fraudes eletrônicas. 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+24  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+3.4.5.1. 
+Legislação e regulamentação aplicável (crime e infração 
+administrativa).  
+3.4.5.2. 
+Responsabilidades administrativa e legal (entidades e pessoas 
+físicas sujeitas à lei e a regulamentação). 
+3.4.5.3. 
+Modelo de abordagem baseada em risco. 
+3.4.5.3.1. Avaliação interna de risco. 
+3.4.5.3.2. Política direcionada às características e riscos relevantes da 
+instituição.  
+3.4.5.3.3. Controle de efetividade das políticas e procedimentos. 
+3.4.5.4. 
+Princípio do “conheça seu cliente” (KYC). 
+3.4.5.4.1. Função do cadastro e implicações de um cadastro 
+desatualizado e análise da capacidade financeira da clientela. 
+3.4.5.4.2. O princípio “conheça seu cliente” como forma de proteção da 
+instituição financeira e do profissional.  
+3.4.6. Lei Geral de Proteção de Dados (LGPD). 
+3.4.6.1. 
+Normativas (lei n° 13.709/2018). 
+3.4.6.2. 
+Conceito. 
+3.4.6.3. 
+Aplicabilidade. 
+3.4.6.4. 
+Confidencialidade de dados no mundo digital e internet. 
+3.4.6.5. 
+Sigilo Bancário (lei complementar nº 105, de 10 de janeiro de 
+2001). 
+3.4.6.6. 
+Registro de operações. 
+3.4.6.7. 
+Operações suspeitas.  
+3.4.6.8. 
+Caracterização.  
+3.4.6.9. 
+Obrigatoriedade de comunicação e controle (instituições, 
+empresas e autoridades competentes). 
+3.4.6.10. Indisponibilidade de bens, direitos e valores em decorrência de 
+resoluções do conselho de segurança das nações unidas. 
+3.4.6.11. Princípio do “conheça sua parceria”. 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+25  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+3.4.7. Dos crimes e dos ilícitos contra o mercado de capitais. 
+3.4.7.1. 
+Crimes contra o mercado de capitais (capítulo VII-B da lei 
+6.385/76). 
+3.4.7.1.1. Manipulação do mercado (art. 27-C). 
+3.4.7.1.2. Uso indevido de informação privilegiada (art. 27-D). 
+3.4.7.1.2.1. Insider trading primário. 
+3.4.7.1.2.2. Insider trading secundário. 
+3.4.7.1.2.3. Repasse de informação privilegiada. 
+3.4.7.1.3. Exercício irregular de cargo, profissão, atividade ou função 
+regulada (art. 27-E). 
+3.4.7.1.4. Omissão imprópria (art. 13, § 2º do Código Penal). 
+3.4.7.2. 
+Ilícitos de mercado (resolução CVM nº 62). 
+3.4.7.2.1. Conceito de tipologia aberta e suas implicações para os 
+profissionais. 
+3.4.7.2.2. Os ilícitos de mercado. 
+3.4.7.2.2.1. Criação de condições artificiais. 
+3.4.7.2.2.1.1. Conceito. 
+3.4.7.2.2.1.2. Money pass. 
+3.4.7.2.2.2. Manipulação de preços. 
+3.4.7.2.2.2.1. Conceito. 
+3.4.7.2.2.2.2. Spoofing. 
+3.4.7.2.2.2.3. Layering. 
+3.4.7.2.2.2.4. Manipulação de benchmark. 
+3.4.7.2.2.3. Operações fraudulentas. 
+3.4.7.2.2.3.1. Conceito. 
+3.4.7.2.2.3.2. Churning. 
+3.4.7.2.2.4. Práticas não equitativas. 
+3.4.7.2.2.4.1. Conceito. 
+3.4.7.2.2.4.2. Insider trading. 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+26  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+3.4.7.2.2.4.3. Front running. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+27  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+ 
+4. Inovação e desenvolvimento de mercado  
+Proporção: 10% 
+ 
+4.1. ESG no mercado financeiro. 
+4.1.1. Conceitos de ESG (Environment, Social e Governance).  
+4.1.2. Aspectos ambientais.  
+4.1.3. Aspectos sociais.  
+4.1.4. Aspectos de governança corporativa.  
+4.2. Introdução aos investimentos ESG.  
+4.2.1. A relação entre ESG e finanças.  
+4.2.2.  Impactos de ESG na indústria de investimentos.  
+4.2.3. Conceitos de investimentos ESG.  
+4.2.4. Produtos ESG. 
+4.2.5. Estratégias de investimento ESG. 
+4.2.6. Avaliação de investimentos ESG. 
+4.2.6.1. 
+Desafios para a evolução dos investimentos ESG.  
+4.2.6.2. 
+Órgãos reguladores e autorreguladores e outros órgãos 
+relacionados a investimento ESG.  
+4.2.6.2.1. Anbima.  
+4.2.6.2.1.1. A autorregulação da Anbima. 
+4.2.6.2.1.2. A regulação CVM 175 (artigo 49). 
+4.2.6.2.2. CVM.  
+4.2.6.2.3. Princípios para Investimentos Responsáveis (PRI). 
+4.3. Identificação dos fundos de investimento sustentável (IS) e fundos que 
+integram questões ESG. 
+4.4. Finanças Descentralizadas (DEFI). 
+4.4.1. Finanças tradicionais versus finanças descentralizadas.  
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+28  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+4.4.2. Vantagens do DEFI.  
+4.4.2.1. 
+Conceito de Blockchain. 
+4.4.3. Smart contracts. 
+4.4.3.1. 
+Conceito Smart contracts. 
+4.4.3.2. 
+Componentes e funcionamento dos Smart contracts.  
+4.4.3.3. 
+Conceito de contratos autoexecutáveis. 
+4.4.3.4. 
+Plataformas de smart contracts.  
+4.4.3.5. 
+Aplicações práticas de smart contracts. 
+4.4.3.6. 
+Aplicação em contratos de empréstimos. 
+4.4.3.7. 
+Exchanges Descentralizadas (DEXs). 
+4.4.3.8. 
+Seguros. 
+4.4.3.8.1. Apólices automatizadas. 
+4.4.3.9. 
+Imobiliário. 
+4.4.3.9.1. Compra e venda de propriedades. 
+4.4.3.10. Governança descentralizada. 
+4.4.3.10.1. Organizações Autônomas Descentralizadas (DAOs). 
+4.4.4. Tokenização.  
+4.4.4.1. 
+Conceito básico. 
+4.4.4.2. 
+Tipos de tokens. 
+4.4.4.3. 
+Benefícios da tokenização. 
+4.4.4.4. 
+Risco e desafios (segurança, regulação e tecnologia). 
+4.4.4.5. 
+Tokenização de ativos financeiros, imóveis e artes. 
+4.4.5. Novas estruturas de mercado para negociações.  
+4.4.5.1. 
+NFT (Non-Fungible Token). 
+4.4.5.2. 
+Stable coins. 
+4.4.5.3. 
+Renda fixa digital. 
+4.4.5.4. 
+ETF bitcoin. 
+4.4.5.5. 
+ETF novas moedas digitais. 
+4.4.5.6. 
+Moeda Digital do Banco Central (CBDC) – DREX. 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+29  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+4.5. Openfinance, open investment e open insurance. 
+4.5.1. Open finance. 
+4.5.1.1. 
+Conceitos e aplicabilidade. 
+4.5.1.1.1. CreditScore.  
+4.5.1.1.2. Vantagens sob a ótica de adimplência financeira. 
+4.5.1.1.3. Novo marco regulatório – Regulação CVM 175 e Resolução 
+Conjunta nº 1 de 2020 entre Bacen e CMN. 
+4.5.2. Consequências no mercado financeiro brasileiro. 
+4.5.3. Open investment. 
+4.5.3.1. 
+Vantagens e desvantagens. 
+4.5.3.2. 
+Resoluções CVM 229, 209 e 210– Portabilidade de Valores 
+Mobiliários.  
+4.5.4. Open Insurance. 
+4.5.4.1. 
+Conceitos. 
+4.5.4.2. 
+Vantagens e desvantagens. 
+4.6. Inteligência Artificial (IA).  
+4.6.1. IA Generativa. 
+4.6.1.1. 
+Conceitos gerais. 
+4.6.1.2. 
+Aplicabilidade. 
+4.6.1.3. 
+Modelos preditivos. 
+4.6.2. IA Regenerativa. 
+4.6.2.1. 
+Conceitos gerais. 
+4.6.2.2. 
+Aplicabilidade. 
+4.6.2.3. 
+Modelos preditivos. 
+4.6.3. Atendimento e suporte à clientela com IA. 
+4.6.3.1. 
+Chatbots.  
+4.6.3.2. 
+Assistentes virtuais. 
+4.7. Fintechs e meios de pagamento. 
+4.7.1. O que são as fintechs de hoje. 
+
+Programa detalhado • CPA              
+ 
+       
+ 
+       
+30  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+4.7.2. Sandbox regulatório (BCB e CVM). 
+4.7.3. Relação com o Open Finance. 
+4.7.4. Regulação. 
+4.7.5. Desintermediação financeira. 
+4.7.6. Meios de pagamento. 
+4.7.6.1. 
+Conceitos. 
+4.7.6.2. 
+Arranjo. 
+4.7.6.3. 
+Adquirente. 
+4.7.6.4. 
+Sub-adquitente. 
+ 
+ 
+ 
+ 

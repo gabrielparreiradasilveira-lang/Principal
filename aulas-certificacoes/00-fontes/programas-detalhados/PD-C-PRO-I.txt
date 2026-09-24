@@ -1,0 +1,1270 @@
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+1  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+2  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BOAS-VINDAS 
+ 
+Este é o programa detalhado da C-Pro I (Certificado Profissional Anbima 
+de Investimento). 
+A C-Pro I foi pensada para profissionais com perfil mais técnico.  
+Por isso, quem obtém essa certificação pode atuar como especialista em 
+produtos de investimento e poderá exercer atividades de orientação e 
+elaboração de carteiras recomendadas, além da assessoria às pessoas que 
+gerenciam conta e demais profissionais de distribuição. Essa pessoa 
+poderá se especializar em classes e ativos específicos.  
+Para obter a C-Pro I é preciso ter obrigatoriamente a CPA (Certificado 
+Profissional Anbima). 
+ 
+ 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+3  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+ 
+ 
+ 
+ 
+ 
+ 
+Sumário 
+ 
+ 
+ 
+ 
+1. Produtos de investimentos .................................................................. 4 
+2. Investimentos alternativos, digitais e no exterior .............................. 20 
+3. Previdência Complementar ............................................................... 26 
+4. Gestão de risco, análise de carteiras e indicadores de performance .. 31 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+4  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+1. Produtos de investimentos  
+Proporção: 40% 
+ 
+1.1. Fundos de Investimento. 
+1.1.1. Definições, constituição e estruturação. 
+1.1.2. Regras de distribuição: regulamento, termo de adesão, termo de ciência 
+de risco, informações complementares, lâmina de informações essenciais, selo 
+Anbima. 
+1.1.3. Responsabilidades de agentes distribuidores e suas obrigações.   
+1.1.4. Tipos de Fundos de Investimentos e suas divisões, classes, subclasses e 
+limites de concentração de ativos, composição das carteiras, público-alvo e 
+riscos envolvidos. 
+1.1.4.1. Fundo de renda fixa. 
+1.1.4.2. Fundo cambial. 
+1.1.4.3. Fundo multimercado. 
+1.1.4.4. Fundo de ações. 
+1.1.4.5. Fundos incentivados. 
+1.1.4.6. Fundos de índice ou Exchange Traded Funds (ETFs) e ETFs ESG. 
+1.1.4.7. Fundos de Investimento ESG. 
+1.1.5. Importância de todas as características que influenciam a indicação de 
+investimento, vantagens, desvantagens e níveis de risco. 
+1.1.6. Diferença entre estratégia ativa e passiva e impactos na carteira de 
+investimento do cliente. 
+1.1.7. Fundos incentivados e infraestrutura, principais características, liquidez e 
+riscos. 
+1.1.8. Tributação, Come-Cotas, IOF e possíveis impactos na recomendação de 
+alocação. 
+1.1.8.1. Taxa de performance (conceito de linha d’água, periodicidade e 
+forma de cobrança). 
+1.1.8.2. Taxa de administração (base de cálculo, periodicidade e forma de 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+5  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+cobrança). 
+1.1.9. Patrimônio líquido negativo: Insolvência de fundos, regras de 
+fechamento e liquidação de ativos.  
+1.2. Resolução CVM Nº 175: Outros tipos de Fundos de Investimento (demais 
+anexos da Resolução CVM Nº 175). 
+1.2.1. Fundo de Investimento Imobiliário (FII). 
+1.2.1.1. Das características e constituição (capítulo II). 
+1.2.1.2. Cotas (capítulo III). 
+1.2.1.3. Regulamento (capítulo IV). 
+1.2.1.4. Assembleia de cotistas (capítulo V). 
+1.2.1.5. Prestação de serviços (capítulo VI). 
+1.2.1.6. Divulgação de informações (capítulo VII). 
+1.2.1.7. Encargos (capítulo IX). 
+1.2.1.8. Transformação, incorporação, fusão e cisão (capítulo X). 
+1.2.1.9. Classes restritas (capítulo XI). 
+1.2.2. Fundo de investimento em participações (FIP). 
+1.2.2.1. Características e constituição (capítulo II). 
+1.2.2.2. Regulamento (capítulo III). 
+1.2.2.3. Classificação (capítulo V). 
+1.2.2.4. Cotas (capítulo VI). 
+1.2.2.5. Assembleia de cotistas (capítulo VII). 
+1.2.2.6. Prestação de serviços (capítulo VIII). 
+1.2.2.7. Encargos (capítulo IX). 
+1.2.2.8. Divulgação de informações (capítulo X). 
+1.2.3. Fundo de Investimento em Direitos Creditórios (FIDC). 
+1.2.3.1. Cotas. 
+1.2.3.1.1. Emissão. 
+1.2.3.1.2. Subscrição e integralização. 
+1.2.3.1.3. Resgate e amortização. 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+6  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+1.2.3.1.4. Distribuição. 
+1.2.3.2. Assembleia de cotistas. 
+1.2.3.3. Prestação de serviços. 
+1.2.3.3.1. Administração. 
+1.2.3.3.2. Gestão. 
+1.2.3.4. Verificação do lastro. 
+1.2.3.5. Encargos. 
+1.2.4. Fundo de investimento em índice de mercado (fundos de índice). 
+1.2.4.1. Das características e constituição (capítulo II). 
+1.2.4.2. Prestação de serviços (capítulo III). 
+1.2.4.3. Cotas (capítulo IV). 
+1.2.4.4. Negociação no mercado secundário (capítulo V). 
+1.2.4.5. Regulamento (capítulo VI). 
+1.2.4.6. Assembleia de cotistas (capítulo VII). 
+1.2.4.7. Divulgação de informações (capítulo VIII). 
+1.2.4.8. Encargos (capítulo XI). 
+1.2.4.9. Incorporação, fusão, cisão, transformação, liquidação e 
+encerramento. 
+1.3. Clubes de investimento. 
+1.3.1. Clubes de investimento versus fundos de investimento. 
+1.3.2. Clubes de investimento em ações: regulamentação, limites de 
+concentração, características operacionais, vantagens e desvantagens para 
+pessoas investidoras frente a outras opções de investimento no mercado 
+acionário e restrições. 
+1.4. Carteira administrada. 
+1.4.1. Conceitos gerais, gestão discricionária e não discricionária e custódia. 
+1.4.2. Principais características e comparação com fundos de investimento e 
+fundos exclusivos.  
+1.5. Tributação. 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+7  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+1.5.1. Tributação em fundos de investimento.  
+1.5.1.1. Aspectos gerais. 
+1.5.1.2. Fato gerador. 
+1.5.1.3. Base de cálculo e alíquotas. 
+1.5.1.4. Agentes responsáveis pelos recolhimentos. 
+1.5.1.5. Isenções e limites de isenção. 
+1.5.2. Imposto de renda nos fundos de renda fixa de curto prazo e de longo 
+prazo. 
+1.5.3. Fundos de renda variável e fundos de investimento imobiliários. 
+1.5.4. Composição das carteiras segundo regras da Receita Federal. 
+1.5.5. “Come-Cotas” (alíquotas, características, datas de incidência, 
+responsabilidade de recolhimento e Impacto para a pessoa investidora). 
+1.5.6. Compensação de perdas no pagamento do IR. 
+1.5.7. IOF nos fundos de renda fixa. 
+1.5.8. Tributação em carteira administrada. 
+1.5.8.1. Aspectos gerais. 
+1.5.8.2. Fato gerador. 
+1.5.8.3. Base de cálculo e alíquotas. 
+1.5.8.4. Agentes responsáveis pelos recolhimentos. 
+1.5.8.5. Isenções e limites de isenção. 
+1.5.8.6. Compensação de perdas no pagamento do IR. 
+1.6. Código Anbima de administração e gestão de recursos de terceiros.  
+1.6.1. Objetivo e abrangência (capítulo I).  
+1.6.2. Princípios gerais de conduta (capítulo III).  
+1.6.3. Administração fiduciária (capítulo IV).  
+1.6.4. Gestão de recursos de terceiros (capítulo V).  
+1.6.4.1. Obrigações gerais da pessoa gestora de recursos de terceiros (seção 
+I) e gestão de crédito privado (seção III).  
+1.6.5. Gestão de risco dos veículos de investimento, gestão de liquidez, limites 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+8  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+de composição e concentração da carteira (capítulos VIII a X).  
+1.6.6. Apreçamento (capítulo XI).  
+1.6.6.1. Princípios (seção I) e provisão de perdas dos direitos creditórios 
+(seção II).  
+1.6.7. Fundos de investimento (capítulo XIII).  
+1.6.7.1. Disposições gerais (seção I).  
+1.6.7.2. Responsabilidade das pessoas prestadoras de serviços (seção II).  
+1.6.7.3. Responsabilidade da pessoa cotista (seção III).  
+1.6.7.4. Regime de insolvência (seção IV).  
+1.6.7.5. Operações de empréstimo (seção V). 
+1.6.7.6. Investimentos em ativos sustentáveis (capítulo XVII).  
+1.6.8. Classificação dos fundos (capítulo XVIII).  
+1.6.9. Publicidade (capítulo XXI).  
+1.7. Instrumentos de renda fixa.  
+1.7.1. Formação das taxas de juros no Brasil.  
+1.7.1.1. A influência das taxas de juros nas empresas e no governo.  
+1.7.1.2. A política monetária, seus instrumentos e o Comitê de Política 
+Monetária (COPOM).  
+1.7.1.3. Investimentos e cenários: relação entre os cenários econômicos e as 
+taxas de juros.  
+1.7.1.4. Caderneta de poupança: principais características em termos de 
+liquidez, rentabilidade, garantias, riscos e tributação.  
+1.7.1.5. Principais características de títulos públicos e privados.  
+1.7.1.5.1. Precificação de títulos públicos e privados.  
+1.7.1.5.2. Preço de mercado: ágio e deságio.  
+1.7.1.5.3. Retorno do investimento.  
+1.7.1.6. Indicadores de renda fixa.  
+1.7.1.6.1. Índice de mercado Anbima (IMA-B, IRF-M e IMA-S).  
+1.7.1.6.2. Índice de duração constante (IDkA) Anbima (segmento prefixado 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+9  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+e segmento IPCA).  
+1.7.1.7. Estrutura temporal das taxas de juros.  
+1.7.1.7.1. Projeção da curva de juros prefixada.  
+1.7.1.7.2. Projeção da curva de cupom cambial (dólar/euro).  
+1.7.1.7.3. Projeção da curva de cupom de IGP-M e IPCA 14.  
+1.7.1.8. Estrutura de negociação do mercado de títulos públicos e privados, 
+leilões e mercado de balcão, negociação no mercado primário e secundário.  
+1.7.1.9. Tesouro Direto: títulos negociados, estrutura, forma de negociação e 
+custos para a pessoa investidora. 
+1.7.2. Nomenclatura dos títulos negociados e adequação dos produtos em 
+função do nível de conhecimento da pessoa investidora e seus objetivos.  
+1.7.2.1. Principais títulos públicos negociados no mercado interno.  
+1.7.2.1.1. Letras do Tesouro Nacional (LTN).  
+1.7.2.1.2. Letras Financeiras do Tesouro (LFT).  
+1.7.2.1.3. Notas do Tesouro Nacional (NTN-B, NTN-B Principal e NTN-F).  
+1.7.2.1.4. Tesouro Renda+ (título do Tesouro Direto).  
+1.7.2.1.5. Tesouro Educa+ (título do Tesouro Direto).  
+1.7.2.2. Principais títulos privados negociados no Sistema Financeiro 
+Nacional.  
+1.7.2.2.1. Certificado de Depósito Bancário (CDB).  
+1.7.2.2.2. Recibo de Depósito Bancário (RDB).  
+1.7.2.2.3. Depósito Interfinanceiro (DI).  
+1.7.2.2.4. Depósito a Prazo com Garantia Especial (DPGE).  
+1.7.2.2.5. Notas Promissórias (NP). 
+1.7.2.2.6. Debêntures e debêntures incentivadas (Lei 12.431/2011) e 
+Debêntures Conversíveis e Permutáveis.  
+1.7.2.2.7. Títulos do segmento imobiliário: Certificado de Recebíveis 
+Imobiliários (CRI), Letras de Crédito Imobiliárias (LCI), Cédula de Crédito 
+Imobiliário (CCI) e Letra Imobiliária Garantida (LIG) e Letra de Crédito de 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+10  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+Desenvolvimento (LCD). 
+1.7.2.2.7.1. Impactos da nova regulação do CMN, expedida em 01 março 
+de 2024, que alterou a Resolução 5.118, referente aos lastros elegíveis 
+para as emissões de CRAs (Certificados de Recebíveis do Agronegócio), 
+CRIs (Certificados de Recebíveis Imobiliários), LCAs e LCIs. 
+1.7.2.2.8. Títulos do segmento agrícola: Letras de Crédito do Agronegócio 
+(LCA), Certificado de Direitos Creditórios do Agronegócio (CDCA), 
+Certificado de Recebíveis do Agronegócio (CRA) e Cédula de Produtor Rural 
+(CPR).  
+1.7.2.2.9. Títulos do segmento ESG. 
+1.7.2.2.9.1. Títulos verdes (green bonds). 
+1.7.2.2.9.2. Títulos sociais (social bonds).  
+1.7.2.2.9.3. Títulos dos Objetivos de Desenvolvimento Sustentável (ODS).  
+1.7.2.2.9.4. Títulos de transição (Climática). 
+1.7.2.2.9.5. Sustainability Linked bonds (SLBs). 
+1.7.2.2.9.5.1. Métricas podem ser usadas em SLBs.  
+1.7.2.2.9.6. Título soberano sustentável do Brasil. 
+1.7.2.2.9.7.  Parecer de segunda opinião dos títulos temáticos ESG. 
+1.7.2.2.10. Letra Financeira (LF).  
+1.7.2.2.11. Letras de Câmbio (LC).  
+1.7.2.3. Operações compromissadas: lastros, riscos para a pessoa investidora 
+em relação aos demais títulos de emissão de instituições financeiras.  
+1.7.2.4. Renda fixa internacional.  
+1.7.2.4.1. Taxas de câmbio: relações de paridade entre as moedas.  
+1.7.2.4.2. Transferência internacional de recursos.  
+1.7.2.4.3. Principais títulos emitidos pelo tesouro dos Estados Unidos: 
+Treasury Bills, Treasury Notes, Treasury Bonds, e TIPS - Treasury Inflation-
+Protected Securities.  
+1.7.2.4.4. Títulos brasileiros no mercado internacional: Global Bonds e 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+11  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+Eurobonds. 
+1.7.2.4.5. Outros títulos: Certificates of Deposit (CD) e Commercial Papers 
+(CP).  
+1.7.2.4.6. Repos (Repurchase Agreements).  
+1.7.2.5. Análise de títulos de renda fixa.  
+1.7.2.5.1. Yield to Maturity, Current Yield e Coupon Rate. 
+1.7.2.5.2. Relação entre prazos dos títulos, taxas de juros, risco de crédito e 
+formação de preços.  
+1.7.2.5.3. Duration de Macaulay e Duration modificada.  
+1.7.2.6. Fundo Garantidor de Crédito (FGC): produtos e serviços que possuem 
+garantia do FGC, limites de cobertura e operacionalização.  
+1.7.2.7. Fundo Garantidor do Cooperativismo (FGCoop): produtos e serviços 
+que possuem garantia do FGCoop, limites de cobertura e operacionalização.  
+1.7.2.8. Índices de renda fixa: IMA geral, IMA geral EX-C, IRF–M, IMA-S e IMA-
+B. 
+1.8. Renda Variável.  
+1.8.1. Ações: tipos, classes e espécies.  
+1.8.2. Certificado de Depósito de Ações (UNITS).  
+1.8.3. Brazilian Depositary Receipts (BDR). 
+1.8.3.1. Patrocinados e não patrocinados.  
+1.8.4. Riscos no mercado acionário.  
+1.8.4.1. Risco de mercado (Volatilidade).  
+1.8.4.2. Risco de liquidez.  
+1.8.5. Mercado de ações.  
+1.8.5.1. Direitos dos acionistas.  
+1.8.5.1.1. Acionistas minoritários.  
+1.8.5.1.2. Tag Along. 
+1.8.5.1.3. Direitos de subscrição, bonificação, desdobramento de ações e 
+grupamentos de ações.  
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+12  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+1.8.5.2. Ganho de capital na valorização das ações e rendimento para 
+pessoas acionistas: dividendos e juros sobre capital próprio. 
+1.8.5.3. Mercado primário e mercado secundário: principais conceitos e 
+funções econômicas, características e formas de negociação. 
+1.8.6. Abertura de capital (Initial Public Offering - IPO), Fechamento de Capital 
+(OPA) e oferta pública de valores mobiliários. 
+1.8.6.1. Distinção entre IPOs, OPAs, FOs (Follow-nos) e Black Trade (BT). 
+1.8.6.2. Principais instituições: funções e principais características.  
+1.8.6.2.1. Banco coordenador.  
+1.8.6.2.2. Agência de Rating.  
+1.8.6.2.3. Agência de rating ESG e provedores de rankings e scores ESG. 
+1.8.6.2.4. Agente fiduciário.  
+1.8.6.2.5. Banco escriturador e mandatário.  
+1.8.6.2.6. Banco liquidante.  
+1.8.6.2.7. Depositário.  
+1.8.6.2.8. Custodiante.  
+1.8.6.2.9. Função do formador de mercado (market maker) e mecanismo 
+de estabilização de preços.  
+1.8.6.3. Subscrição pública de ações: o papel dos principais agentes no 
+processo de underwritting e estrutura de uma operação de IPO.  
+1.8.6.4. Tipos de subscrição: firme, residual (Stand-by) e melhores esforços 
+(Best Efforts).  
+1.8.6.5. Formação de preço na emissão das ações: bookbuilding, preço fixo 
+ou leilão em bolsa.  
+1.8.7. Lei 6.385/1976 – Capítulos III, IV e VI.  
+1.8.8. Código Anbima de ofertas públicas.  
+1.8.8.1. Objetivo e abrangência (capítulo I).  
+1.8.8.2. Princípios gerais de conduta (capítulo II).  
+1.8.8.3. Regras e procedimentos de ofertas públicas.  
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+13  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+1.8.8.3.1. Regras gerais para as ofertas públicas (capítulo III). 
+1.8.8.3.2. Publicidade da oferta (capítulo VI).  
+1.8.8.3.3. Regras gerais de registro das ofertas na Anbima (capítulo VII). 
+1.8.9. Ofertas públicas primárias e secundárias (resolução CVM nº 160 – antigas 
+Instruções CVM nº 400 e nº 476). 
+1.8.9.1. Âmbito, definições e finalidade (art. 1º). 
+1.8.9.2. Definição de atos de distribuição pública (art. 3º, caput, §1º, incisos I, 
+II, III, IV e V). 
+1.8.9.2.1. Material publicitário. 
+1.8.9.2.2. Procura de pessoas investidoras. 
+1.8.9.2.3. Consulta sobre a viabilidade da oferta ou a coleta de intenções 
+de investimento. 
+1.8.9.2.4. Negociação destinada a subscritores ou adquirentes 
+indeterminados. 
+1.8.9.3. Consulta sigilosa as pessoas investidoras profissionais (art. 6º). 
+1.8.9.4. Publicidade (art. 12 e art. 13). 
+1.8.9.5. Prospecto (art. 16, art. 17, caput, § 1º ao 4º.). 
+1.8.9.6. Fatores de risco (art. 19). 
+1.8.9.7. Prospecto preliminar (art. 20). 
+1.8.9.8. Lâmina da oferta (art. 23). 
+1.8.9.9. Responsabilidade sobre as Informações (art. 24). 
+1.8.9.10. Rito de registro automático de distribuição – Emissores e valores 
+mobiliários elegíveis (art. 26). 
+1.8.9.11. Rito de registro ordinário de distribuição - Emissores e valores 
+mobiliários elegíveis (art. 28). 
+1.8.9.12. Lote adicional e lote suplementar (art. 50, Parágrafo único, art. 51). 
+1.8.9.13. Apresentações para pessoas investidoras (art. 60). 
+1.8.9.14. Formação de preço (art. 61, art. 62 e art. 63). 
+1.8.9.15. Adequação do perfil da pessoa investidora e restrições ao 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+14  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+investimento (art. 64). 
+1.8.9.16. Recebimento de reservas (art. 65). 
+1.8.9.17. Efeitos da revogação e da modificação da oferta (art. 68 e art. 69). 
+1.8.9.18. Suspensão e cancelamento da oferta de distribuição (art. 70 e 71). 
+1.8.9.19. Revogação da aceitação (art. 72). 
+1.8.9.20. Distribuição parcial (art. 73 e art. 74). 
+1.8.9.21. Instituições intermediárias (artigos 77, 78, 79, 80, 81 e 82). 
+1.8.9.22. Obrigações do líder (art. 83). 
+1.8.10. Negociação no mercado secundário de ações. 
+1.8.10.1. Bolsas de valores e mercado de balcão. 
+1.8.10.2. Tipos de ordens de negociações. 
+1.8.10.3. Operações a vista, a termo e opções. 
+1.8.11. Índices de bolsa de valores: Índice Bovespa (IBOVESPA), Índice de 
+Sustentabilidade Empresarial (ISE), Índice Brasil (IBrX), Índice de Ações com 
+Governança Corporativa Diferenciada (IGC), Índice Mid Large Cap (MLCX), 
+Índice Small Cap (SMLL), Índice de Energia Elétrica (IEE), Índice Carbono 
+Eficiente B3 (ICO2 B3), Índices de Ações com Tag Along Diferenciado (ITAG B3), 
+Índice de Governança Corporativa Trade (IGCT B3), Índice de Governança 
+Corporativa Novo Mercado (IGC NM B3), Idiversa B3, IDiv (Indice de dividendos 
+B3). 
+1.8.11.1. Metodologias de composição dos índices e uso dos índices em 
+função dos objetivos de investimento das pessoas investidoras.  
+1.8.12. Governança corporativa.  
+1.8.12.1. Conceitos gerais.  
+1.8.12.2. Nível 1, nível 2 e novo mercado da B3: critérios de adesão.  
+1.8.13. Avaliação de investimentos em ações.  
+1.8.13.1. Conceitos gerais: valor nominal, valor patrimonial, valor de mercado 
+e valor de liquidação.  
+1.8.13.2. Lucro por Ação (LPA).  
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+15  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+1.8.13.3. Índice Preço/Lucro (P/L).  
+1.8.13.4. Custo Médio Ponderado de Capital.  
+1.8.13.5. Medidas de fluxo de caixa, incluindo lucro antes de juros, impostos, 
+depreciação e amortização (LAJIDA ou EBITDA).  
+1.8.13.6. Distinções entre análise técnica ou grafista e análise 
+fundamentalista. 
+1.8.13.7. Análise de aspectos ESG. 
+1.8.13.7.1. Informações ESG dos relatórios de sustentabilidade das 
+companhias listadas. 
+1.8.13.7.1.1. Diretrizes para relatórios de sustentabilidade: GRI – Global 
+Reporting Initiative, ISSB S1 e S2, TCFD – Task-force on climate related 
+financial disclosures e SASB – Sustainability Accounting Standards Board. 
+1.8.13.7.2. Informações ESG do formulário de referência (Resolução CVM 
+59)  
+1.8.14. Investimentos em ações no exterior.  
+1.8.14.1. Ações de empresas estrangeiras negociadas nos Estados Unidos e 
+em outros mercados: American Depositary Receipts (ADR) – Níveis 1, 2, 3, 
+144-A e a Global Depositary Receipts (GDR): principais características dos 
+produtos e as diferenças entre os recibos e mercados.  
+1.8.14.2. Índices de bolsa de valores no exterior: S&P 500, Dow Jones, 
+NASDAQ, MSCI World, MSCI Emerging Markets e Euro Stock, DJSI - Dow Jones 
+Sustainability Indices, FTSE4Good, S&P ESG Indices.  
+1.8.15. Clubes de investimento em ações: regulamentação, limites de 
+concentração e características operacionais, vantagens e desvantagens para 
+pessoas investidoras frente a outras opções de investimento no mercado 
+acionário e restrições.  
+1.9. Derivativos.  
+1.9.1. Conceitos gerais de derivativos.  
+1.9.2. Formas de utilização dos contratos derivativos: principais estratégias, os 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+16  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+riscos e suas utilizações.  
+1.9.2.1. Especulação.  
+1.9.2.2. Arbitragem.  
+1.9.2.3. Hedge.  
+1.9.3. Mercados Futuros.  
+1.9.3.1. Conceitos gerais: definições e características operacionais.  
+1.9.3.2. Participantes dos mercados futuros.  
+1.9.3.3. Contratos futuros negociados em bolsas: ações, índices, taxas de 
+juros, taxa de câmbio e commodities, conceito, finalidade, formas de 
+negociação e os riscos envolvidos.  
+1.9.3.3.1. Preços, margens e ajustes: conceitos e impactos na utilização de 
+mercados futuros em função da variação nas condições do mercado.  
+1.9.3.4. Contratos futuros de balcão de negociação de moeda sem entrega 
+física (Non Deliverable Forward – NDF). 
+1.9.3.4.1. Formação de preço e registro em Clearing – B3: vantagens do 
+NDF em relação ao contrato futuro de câmbio.  
+1.9.3.5. Principais estratégias com contratos futuros e os riscos e suas 
+utilizações.  
+1.9.3.5.1. Estratégias de hedge: conceitos e aplicações práticas.  
+1.9.3.5.2. Estratégias de especulação: conceitos e aplicações práticas.  
+1.9.3.5.3. Estratégias de arbitragem: conceitos e aplicações práticas. 
+1.9.4. Mercado de opções.  
+1.9.4.1. Conceitos gerais sobre opções e opções europeias e americanas: 
+características, os riscos e suas utilizações.  
+1.9.4.2. Participantes do mercado de Opções.  
+1.9.4.3. Opções de compra (Call), opções de venda (Put), titular e lançador: 
+definições, características, os riscos e suas utilizações.  
+1.9.4.4. Valor e prêmio das opções. 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+17  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+1.9.4.4.1. Fatores que influenciam o prêmio de uma opção: preço à vista 
+do ativo-objeto, preço de exercício, taxa de juros, tempo até o vencimento 
+e volatilidade do ativo-objeto.  
+1.9.4.4.2. Conceito de modelo binomial.  
+1.9.4.4.3. Conceito de modelo de Black & Scholes. 
+1.9.4.5. Principais estratégias com opções, análise de diagramas e gráficos, 
+riscos das estratégias utilizando opções e suas aplicações mais comuns.  
+1.9.4.5.1. Operação de financiamento. 
+1.9.4.5.2. Box de 2 pontas e 4 pontas.  
+1.9.4.5.3. Straddle e Strangle.  
+1.9.4.5.4. Caps, Floor e Collars. 
+1.9.4.5.5. Opções exóticas (com barreiras). 
+1.9.5. Mercado a termo de ações.  
+1.9.5.1. Conceitos gerais: definições, principais características dos contratos 
+e forma de negociação.  
+1.9.5.2. Principais estratégias com mercado a Termo de Ações: os riscos e 
+formas de utilização do mercado a termo de ações.  
+1.9.6. Swaps.  
+1.9.6.1. Swaps de taxa de juros, moedas e índices de preço: definições; 
+principais características dos contratos e forma de negociação.  
+1.9.6.2. Swaps de Ações ou Equity Swaps: conceito, terminologias e 
+principais características dos contratos e forma de negociação. 
+1.9.7. Tributação em derivativos. 
+1.9.7.1. Mercado à vista. 
+1.9.7.2. Mercado a termo. 
+1.9.7.3. Mercado futuro.  
+1.9.7.4. Opções. 
+1.9.7.5. SWAP. 
+1.9.7.6. COE. 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+18  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+1.9.7.7. Hedge. 
+1.10. Certificado de Operações Estruturadas (COE).  
+1.10.1. Definição e finalidade.  
+1.10.2. Conceito de modalidades: valor nominal protegido e valor nominal em 
+risco. 
+1.10.3. Distribuição via oferta pública: Resolução CVM Nº 8 Cap II; Capítulo III – 
+Prestação de Informações, Seção I – Documento de Informações Essenciais 
+(DIE) e Seção II – Material publicitário e anexo: Documento de Informações 
+Essenciais do Certificado de Operações Estruturadas (DIE-COE).  
+1.10.4. Fatores de risco.  
+1.11. Tributação para pessoas físicas residentes no Brasil.  
+1.11.1. Aspectos gerais.  
+1.11.1.1. Fato gerador.  
+1.11.1.2. Base de cálculo e alíquotas.  
+1.11.1.3. Agentes responsáveis pelos recolhimentos.  
+1.11.1.4. Prazos legais.  
+1.11.1.5. Compensação de perdas.  
+1.11.1.6. Isenções e limites de isenção.  
+1.11.2. Imposto de renda sobre aplicações financeiras de renda fixa, exceto em 
+fundos de investimento. 
+1.11.2.1. Imposto sobre operações financeiras nas aplicações de renda fixa, 
+impacto no rendimento de pessoas investidoras e isenções. 
+1.11.3. Imposto de renda sobre operações realizadas em bolsas de valores, em 
+bolsas de mercadorias e futuros e assemelhadas.  
+1.11.3.1. Tributação das operações com Contratos a Termo de Moedas.  
+1.11.4. Imposto de renda sobre as operações realizadas no exterior em títulos 
+de renda fixa e renda variável. 
+1.11.4.1. Rendimentos e ganho de capital.  
+1.11.4.2. Origem dos recursos.  
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+19  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+1.11.5. Tributação nos clubes de investimento.  
+1.12. Negociação, liquidação e custódia.  
+1.12.1. Sistema especial de liquidação e de custódia – Selic: conceito, funções, 
+benefícios para pessoas investidoras e principais títulos custodiados no Selic: 
+LFT, LTN, NTN-B, NTN-B Principal e NTN-F.  
+1.12.2. Câmara de liquidação, compensação e custódia da B3 S/A (Clearing B3): 
+conceito, funções, principais títulos e operações custodiadas, garantias e 
+benefícios para a pessoa investidora.  
+1.12.3. Conceito e finalidade do Sistema de Pagamento Brasileiro (SPB).  
+1.13. Demais fundos de investimento.       
+1.13.1. Fundos exclusivos. 
+1.13.1.1. Novas regras para incidência de impostos.   
+1.13.1.2. Benefícios para planejamento sucessório e demais características. 
+1.13.1.3. Regras para abertura. 
+1.13.2. Fundos em Participações (FIP). 
+1.13.2.1. Ambiente de custódia, perfil da pessoa investidora, liquidez e 
+prazos. 
+1.13.2.2. Capacidade do FIP na participação da gestão das empresas e as 
+diversas naturezas de investimento. 
+1.13.2.3. Tipos de FIP – Capital semente, empresas emergentes, 
+infraestrutura e multiestratégia, ESG e impacto. 
+1.13.3. Fundos que investem em outros fundos – Fundo de Investimento em 
+Cotas (FIC) e Fundo de Fundos (FoF) 
+1.13.3.1. Regras e funcionamento. 
+1.13.3.2. Custos: todas as possibilidades de cobrança das taxas de 
+administração e performance.  
+ 
+ 
+ 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+20  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+2. Investimentos alternativos, digitais e no exterior  
+Proporção: 15% 
+ 
+2.1. Introdução aos investimentos alternativos. 
+2.1.1. Conceitos e características dos investimentos alternativos.  
+2.1.2. Panorama do mercado de investimentos alternativos no Brasil e no 
+mundo. 
+2.1.3. Aspectos regulatórios e tributários dos investimentos alternativos.  
+2.2. Private equity. 
+2.2.1. Fundamentos do private equity. 
+2.2.2. Estratégias de investimentos em private equity (buyout, leveraged 
+buyout, growth equity, venture capital, investimentos diretos, fundo de 
+fundos, mezzaninos, ESG e impacto).  
+2.2.3. Processo de investimento em private equity. 
+2.2.3.1. Seleção e monitoração de gestor.  
+2.2.3.2. Seleção de ativos.  
+2.2.4. Riscos inerentes a investimentos em private equity (fundos e ativos 
+diretos).  
+2.2.5. Relação entre GPs e LPs durante o ciclo dos fundos.  
+2.2.6. Aspectos jurídicos e tributáveis de FIPs e fundos no exterior.  
+2.2.6.1. Estruturação dos fundos e resolução de conflitos.  
+2.2.7. Etapas de private equity. 
+2.2.7.1. Pre-seed money. 
+2.2.7.2. Seed money.  
+2.2.7.3. Séries A. 
+2.2.7.4. Séries B. 
+2.2.7.5. Inicial Public Offering (IPO). 
+2.2.8. Termos private equity. 
+2.2.8.1. Venture capital. 
+2.2.8.2. Turn around. 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+21  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+2.2.8.3. Spin-Off. 
+2.3. Crédito Privado. 
+2.3.1. Fundamentos do crédito privado e estruturados. 
+2.3.2. Estratégias de investimentos em crédito privado (direct lending, 
+BDCs, CLOs e FIDCs).  
+2.3.3. Processo de investimento em crédito privado.  
+2.3.4. Riscos inerentes a investimentos em crédito privado (fundos e 
+ativos diretos).  
+2.3.5. Aspectos jurídicos e tributáveis de fundos, e no exterior.  
+2.4. FIDCs. 
+2.4.1. Tipos de FIDC. 
+2.4.1.1. Monocedentes e multicedentes. 
+2.4.1.2. Monossacados e multissacados. 
+2.4.1.3. Performados e não performados. 
+2.4.1.4. Classificação Anbima. 
+2.4.2. Das cotas. 
+2.4.2.1. Classificação das cotas. 
+2.4.2.2. Sênior. 
+2.4.2.3. Subordinada preferencial (Mezanino). 
+2.4.2.4. Subordinada ordinária (júnior). 
+2.4.2.5. Tipos de classes. 
+2.4.2.5.1. Classe restrita. 
+2.4.2.5.2. Classe exclusiva. 
+2.4.2.5.3. Classe previdenciária. 
+2.4.2.6. Da emissão de cotas. 
+2.4.2.7. Distribuição de cotas da classe fechada. 
+2.4.2.7.1. Regime aberto. 
+2.4.2.7.2. Regime fechado. 
+2.4.2.8. Subscrição, integralização, resgate e amortização. 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+22  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+2.4.2.9. Resgate e amortização. 
+2.4.3. Da carteira. 
+2.4.3.1. Fundos de investimentos em direitos creditórios. 
+2.4.3.2. Direitos creditórios padronizados. 
+2.4.3.3. Direitos creditórios não padronizados. 
+2.4.3.4. Outros ativos. 
+2.4.3.5. Outras obrigações. 
+2.5. Fundos de investimento em cotas de fundos de investimentos em 
+direitos creditórios. 
+2.5.1. Dos encargos, da liquidação e das penalidades. 
+2.5.2. Da tributação. 
+2.5.2.1. Imposto de Renda Retido na Fonte (IRRF). 
+2.5.2.1.1. Fundos classificados como entidade de investimento. 
+2.5.2.1.2. Fundos classificados como não entidade de investimento. 
+2.6. Investimentos Imobiliários. 
+2.6.1. Fundamentos de investimentos imobiliários. 
+2.6.2. Estratégias de investimentos imobiliários (REITs, CMBS, RMBS, FIIs, 
+investimentos diretos, crédito de recebíveis).   
+2.6.3. Processo de investimento em imóveis e fundos imobiliários.  
+2.6.4. Riscos inerentes a investimentos imóveis e Fundos Imobiliários 
+(fundos e ativos diretos).  
+2.6.5. Aspectos jurídicos e tributáveis de fundos e no exterior.  
+2.6.6. Índice de Fundos de Investimentos imobiliários: IFIX. 
+2.6.7. Fundos de Investimento Imobiliários. 
+2.6.7.1. Fundos de tijolo. 
+2.6.7.2. Fundos de papel. 
+2.6.7.3. Fundos de fundos. 
+2.6.8. Mercado secundário. 
+2.6.9. Tributação de um FII (Pessoa Física e Pessoa Jurídica). 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+23  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+2.6.9.1. Principais indicadores de análise de um FII. 
+2.6.10. Objetivos e perfil de risco para pessoa investidora. 
+2.6.11. Liquidez diária.  
+2.6.12. Governança, transparência e gestão. 
+2.6.13. P/VP. 
+2.6.14. Vacância, pessoas inquilinas e contratos. 
+2.6.15. Qualidade e localização dos imóveis. 
+2.6.16. Tamanho do patrimônio. 
+2.6.17. Diversificação da carteira. 
+2.6.18. Indexadores e benchmarkings. 
+2.6.19. Valorização incluindo proventos. 
+2.6.20. High yield, high grade e middle risk. 
+2.6.21. Alavancagem. 
+2.6.22. Taxas. 
+2.7. Fiagros. 
+2.7.1. Ambiente de negociação e dinâmica de dividendo. 
+2.7.2. A importância dos Fiagros para o Agronegócio e as regras de 
+alocação dos recursos. 
+2.7.3. Aplicações do Fiagro – Projetos ambientais, sustentabilidade, 
+inovação em tecnologia e seus benefícios. 
+2.7.4. Tipos de Fiagro. 
+2.7.4.1. Fiagro – FIDC. 
+2.7.4.2. Fiagro – FII. 
+2.7.4.3. Fiagro – FIP. 
+2.8. Commodities. 
+2.8.1. Fundamentos dos mercados de commodities. 
+2.8.2. Estratégias de investimentos em commodities: investimentos 
+diretos versus ativos financeiros.  
+2.8.3. Riscos inerentes a investimentos em commodities.  
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+24  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+2.9. Instrumentos de investimento no exterior.  
+2.9.1. ADRs (American Depositary Receipts) e BDRs (Brazilian Depositary 
+Receipts) – Níveis, negociação e principais regras. 
+2.9.2. Títulos do tesouro americano.  
+2.9.3. Treasury Bills, Notes, Bonds e TIPS – Prazos e indicadores.  
+2.9.4. Títulos Privados: certificate of deposits, commercial papers, 
+eurobonds e high yield bonds. 
+2.9.5. Hedge Funds, Private Equity, Real Estate Investment Trusts. 
+2.9.6. Tributação para Investimentos Internacionais.  
+2.9.7. Principais indicadores internacionais – Dow Jones, NASDAQ, S&P 
+500, Euro Stock, DAX. 
+2.9.8. Importância no acompanhamento do cenário exterior e quais 
+impactos na recomendação de alocação da pessoa investidora no Brasil. 
+2.10. Criptoativos. 
+2.10.1. Fundamentos dos criptoativos. 
+2.10.2. Tipos de criptoativos. 
+2.10.3. Estratégias de investimentos em criptoativos.  
+2.10.4. Riscos inerentes a investimentos em criptoativos.  
+2.10.5. Mecanismos de oferta primária de ativos digitais. 
+2.10.5.1. Ofertas Iniciais de Moedas Digitais (ICOs). 
+2.10.5.2. Ofertas Iniciais em Exchanges (IEOs). 
+2.10.5.3. Ofertas Iniciais em Exchanges Descentralizadas (IDOs) 
+2.10.6. Airdrops e faucets. 
+2.10.7. Geração de renda em cripto: DeFi, staking e demais ferramentas. 
+2.10.8. Plataformas de empréstimo descentralizados. 
+2.10.9. Exchanges descentralizadas (DEXs).  
+2.10.10. Provedores de liquidez e formadores de mercado automatizados 
+(AMM, na sigla em inglês). 
+2.10.11. Livros de oferta descentralizados. 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+25  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+2.10.12. Yield Farming e Liquidity Mining. 
+2.10.13.  Liquid staking: validando transações sem perder a liquidez.  
+2.10.14. Rendimentos via staking em exchanges e outros serviços. 
+2.11. Estruturação e comercialização de Fundos de Investimento 
+Alternativos. 
+2.11.1. Aspectos regulatórios e legais da estruturação de fundos. 
+2.11.2. Governança e compliance em Fundos de Investimento. 
+2.11.3. Captação de recursos e relacionamento com investidores. 
+2.11.4. Gestão de risco em fundos de investimento. 
+2.11.5. Comunicação sobre os produtos com pessoas investidoras e sobre 
+performance dos fundos.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+26  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+3. Previdência Complementar  
+Proporção: 25%  
+ 
+3.1. Agentes de regulamentação da previdência complementar e legislação 
+vigente. 
+3.1.1. Órgãos reguladores e suas principais atribuições para as previdências 
+abertas.   
+3.1.2. Lei complementar nº 109/2001 e suas principais garantias e fiscalização.  
+3.2. Principais características da previdência privada. 
+3.2.1. A importância do planejamento sucessório e tributário no portfólio e 
+recomendação de alocação da pessoa investidora. 
+3.2.2. Identificação do perfil da pessoa investidora, quando e para quem deve-
+se fazer recomendação de previdência privada complementar. 
+3.2.3. Fatores que impactam a tomada de decisão: qualidade de vida, padrão 
+de vida, capacidade de poupança, estabelecimento de metas para o período de 
+diferimento, doenças pré-existentes.  
+3.2.4. Constituição de reserva para menores, feita por quem patrocina 
+(responsável financeiro). 
+3.2.4.1. Como deve ser calculado o período de diferimento, rentabilidade 
+projetada e retorno esperado. 
+3.2.5. Diferenças entre previdência privada e previdência social. 
+3.2.5.1. Regras para aproveitamento dos benefícios fiscais. 
+3.3. Produto de Vida Gerador de Benefício Livre (VGBL). 
+3.3.1. Utilização do VGBL como ferramenta de acumulação de longo prazo e 
+planejamento de aposentadoria (definição, público-alvo e principais 
+características). 
+3.3.2. Vantagens da acumulação através da previdência complementar 
+(ausência de come cotas e vencimento de papéis, transferência interna para 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+27  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+alteração da política de investimento do fundo, possibilidade de redução de 
+impostos na transmissão de patrimônio). 
+3.3.3. Regras gerais e portabilidade. 
+3.3.4. Nova tributação de imposto de renda e base de cálculo, como é feito e 
+como calcular. 
+3.3.4.1. Fato gerador da cobrança de impostos: resgate e recebimento de 
+benefício, identificação da base de cálculo e como é cobrado. 
+3.3.5. Taxa de carregamento e administração: como é calculado e qual a base 
+de cálculo.  
+3.3.6. Conceito de diferimento e seus limites. 
+3.4. Produto do Plano Gerador de Benefício Livre (PGBL). 
+3.4.1. Regras gerais e portabilidade. 
+3.4.2. Nova tributação de imposto de renda e base de cálculo, como é feito e 
+como calcular. 
+3.4.3. Fato gerador da cobrança de impostos: resgate e recebimento de 
+benefício, identificação da base de cálculo e como é cobrado. 
+3.4.4. Benefícios tributários e como deve ser calculado e os limites de alocação. 
+3.4.5. Taxa de carregamento e administração: como é calculado e qual a base 
+de cálculo.  
+3.4.6. Diferimento fiscal: limites de contribuição, tipos de rendas deferíveis, 
+cálculo do diferimento. 
+3.4.7. Renúncia fiscal atrelada ao regime tributário regressivo. 
+3.4.8. Retroalimentação dos PGBLs regressivos para coleta de novos 
+diferimentos fiscais. 
+3.5. Nova resolução 463 e 464/2024 (decisão de renda). 
+3.6. Tábua atuarial ou biométrica e excedente financeiro. 
+3.7. Tipos de rendas e benefícios. 
+3.7.1. Renda mensal vitalícia.  
+3.7.2. Renda mensal vitalícia reversível ao cônjuge e descendentes menores.  
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+28  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+3.7.3. Renda vitalícia reversível a beneficiário indicado.  
+3.7.4. Renda vitalícia com prazo mínimo garantido.  
+3.7.5. Renda mensal temporária.  
+3.7.6. Renda mensal por prazo certo.  
+3.8. Regimes de tributação.  
+3.8.1. Regime progressivo, tributável ou compensável (base de cálculo, 
+alíquotas, aplicação prática da tabela, público-alvo). 
+3.8.2. Regime regressivo, definitivo ou exclusivo (base de cálculo, alíquotas, 
+aplicação prática da tabela, público-alvo). 
+3.9. Classificação Anbima (renda fixa, balanceado, multimercado, ação e 
+diferentes níveis de riscos). 
+3.10. Rentabilidade dos planos de previdência.  
+3.10.1. Plano de previdência versus fundo de previdência (conceito, cotistas, 
+carências para resgate, carência para portabilidade externa e interna, 
+considerando pessoas investidoras comuns e qualificados). 
+3.10.2. Perfil da pessoa investidora (definição do perfil, direcionamento dos 
+fundos previdenciários por perfil de risco, desenquadramento de risco, 
+resolução 382 CNSP, princípios a serem observados no relacionamento com o 
+cliente, e sobre o uso do cliente oculto na atividade de supervisão da Susep). 
+3.10.3. Escolha do fundo previdenciário durante a fase de acumulação: Renda 
+Fixa, balanceados, multimercados e ações (definições e estratégias de cada 
+macro classe, direcionamento das estratégias de investimento para pessoas 
+investidoras comuns e qualificados). 
+3.10.4. Gestão dos fundos previdenciários: limites de concentrações por classe, 
+mercado e emissor. 
+3.10.5. Estratégias de diversificação do portfólio de previdência complementar 
+(composição com diversos planos e objetivos do cliente). 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+29  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+3.10.6. Revisão periódica da carteira de previdência complementar (revisitar 
+objetivos, valores de acumulação, regime tributário, beneficiários, estratégia 
+de investimentos dos fundos previdenciários). 
+3.11. Regras para composição dos fundos previdenciários. 
+3.11.1. FIE: definição e estratégias permitidas pelo regulatório. 
+3.11.2. Taxa de administração: definição, forma de cobrança e repasses aos 
+gestores. 
+3.11.3. Classificação dos fundos previdenciários: renda fixa, multimercados, 
+balanceados e ações. 
+3.11.4. Limites de concentração para as 4 macros classes, investimentos 
+permitidos no exterior. 
+3.11.5. Pessoas investidoras comuns e qualificados: estratégias permitidas para 
+cada um. 
+3.12. Desacumulação.  
+3.12.1. Estratégias para a utilização da reserva acumulada em um plano de 
+previdência complementar. 
+3.12.2. Tábua biométrica: conceito e utilização. 
+3.12.3. Juros atuarial: definição e forma de aplicação na reserva acumulada. 
+3.12.4. Tipo de renda: escolha do tipo de renda adequado para as necessidades 
+de cada cliente. 
+3.12.5. Excedente financeiro: definição, aplicação prática, forma de repasse ao 
+participante. 
+3.13. Previdência complementar corporativa.  
+3.13.1. Planos corporativos: definição, características e vantagens. 
+3.13.2. Tipos de planos averbados e instituídos: definição, características de 
+cada um, vantagens, modalidades utilizadas em cada tipo de plano (PGBL ou 
+VGBL) e diferenças. 
+3.13.3. Regras de vesting: o que é, quem define, quem regulamenta. 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+30  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+3.13.4. Contribuições para um plano corporativo: parte empresa e parte 
+participante (características e definição). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+31  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+4. Gestão de risco, análise de carteiras e indicadores de 
+performance  
+Proporção: 20% 
+ 
+4.1. Risco, retorno e mercado. 
+4.1.1. Mercado eficiente. 
+4.1.2. Risco e retorno esperados. 
+4.2. Seleção de carteiras e modelo de Markowitz. 
+4.2.1. Retorno esperado de uma carteira até três ativos. 
+4.2.2. Diversificação do risco de uma carteira e o modelo de Markowitz. 
+4.2.3. Ativos com correlação nula. 
+4.2.4. Risco diversificável e risco sistemático (não diversificável). 
+4.2.5. Taxa livre de risco e prêmio pelo risco de mercado. 
+4.2.6. A fronteira eficiente. 
+4.2.7. Escolha da carteira ótima. 
+4.3. Modelo de Precificação de Ativos (CAPM). 
+4.3.1. Reta do mercado de capitais (Capital Market Line – CML) e carteira mais 
+atraente. 
+4.3.2. Reta característica. 
+4.3.2.1. Coeficiente alfa. 
+4.3.2.2. Coeficiente beta: O risco sistemático. 
+4.3.2.3. Risco não sistemático. 
+4.3.3. Reta do mercado de títulos (Security Market Line – SML) 
+4.3.4. Arbitrage Pricing Theory (APT). 
+4.4. Alocação de ativos. 
+4.4.1. Asset allocation: processo e critério de diversificação de produtos de 
+investimento. 
+4.4.2. Definição de classes de ativos e correlação entre os ativos de mesma 
+classe. 
+4.4.3. Critérios de alocação de ativos e rebalanceamento das carteiras. 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+32  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+4.4.4. Alocação estratégica de ativos. 
+4.4.5. Alocação de ativos com pesos constantes. 
+4.4.6. Alocação tática de ativos. 
+4.4.7. Alocação dinâmica de ativos. 
+4.4.8. Alocação de ativos garantida. 
+4.4.9. Alocação integrada de ativos. 
+4.4.10. Alocação de ativos: horizonte de tempo e perfil do investidor, alocação 
+estratégica em função da evolução do tempo do investimento e alocação tática 
+em função de alterações nas condições do mercado. 
+4.5. Gestão de riscos em fundos de investimento e carteiras administradas. 
+4.5.1. Identificação, mensuração e mitigação de riscos quantitativos e 
+qualitativos. 
+4.5.2. Prêmio pelo risco. 
+4.5.2.1. Índice de Sharpe. 
+4.5.2.2. Índice de Treynor. 
+4.5.2.3. Índice de Modigliani. 
+4.5.2.4. Índice de Sortino. 
+4.5.3. Valor em risco de uma carteira – Value at Risk (VAR). 
+4.5.4. Stress Test e cenários de crise. 
+4.5.5. Stop Loss. 
+4.5.6. Back Testing. 
+4.5.7. Tracking Error e Erro Quadrático Médio. 
+4.5.8. Gestão de risco em diferentes classes de ativo. 
+4.6. Rebalanceamento de uma carteira de ativos. 
+4.6.1. Rebalanceamento regular. 
+4.6.2. Rebalanceamento percentual. 
+4.6.3. Estratégias. 
+4.6.3.1. By and Hold. 
+4.6.3.2. Constant Mix. 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+33  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+4.6.3.3. Constant Proportion Portfolio Insurance (CCPI). 
+4.7. Otimização de investimentos nas diversas classes de ativos em função do 
+perfil de investidor. 
+4.7.1. Análise do perfil da pessoa investidora – API – Suitability. 
+4.7.2. Principais pontos analisados. 
+4.7.3. Horizonte de investimento. 
+4.7.4. Preferências declaradas em relação à assunção de risco. 
+4.7.5. Finalidades do investimento. 
+4.7.6. Situação financeira do investidor. 
+4.7.7. Perfis de investidor. 
+4.7.7.1. Conservador. 
+4.7.7.2. Moderado. 
+4.7.7.3. Agressivo. 
+4.8. Atualização da API. 
+4.8.1. API para pessoa jurídica. 
+4.8.2. Restrições do investidor. 
+4.8.2.1. Idade. 
+4.8.2.2. Horizonte de investimento. 
+4.8.2.3. Conhecimento do produto. 
+4.8.2.4. Tolerância ao risco. 
+4.9. Administração e gerenciamento de risco.  
+4.9.1. Risco de taxa de juros: conceitos e aplicação.  
+4.9.2. Duration de macaulay e duration modificada.  
+4.9.3. Convexidade.  
+4.9.4. Imunização.  
+4.9.5. Risco de Liquidez: negociabilidade. 
+4.9.6. Risco de mercado.  
+4.9.7. Risco operacional 
+
+Programa detalhado • C-Pro I              
+ 
+       
+ 
+       
+34  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+4.9.8. Riscos ESG: impactos de eventos negativos de natureza ambiental, social 
+e de governança corporativa. 
+4.9.9. Consequências sobre precificação.  
+4.9.10. Formas de controle de risco. 
+4.9.11. Limites de exposição em relação ao tamanho do mercado e a sua 
+carteira.  
+4.9.12. Planejamento das necessidades de caixa (liquidez).  
+4.9.13. Risco de crédito.  
+4.9.13.1. Definição de solvência e inadimplência.  
+4.9.13.2. Mensuração do risco de crédito.  
+4.9.13.3. Spread de crédito e probabilidade de inadimplência (Impactos 
+sobre a formação de preços).  
+4.9.13.4. Capacidade de pagamento (alavancagem, endividamento, estrutura 
+de capital, geração de caixa).  
+4.9.14. Risco país (risco de crédito de natureza soberana).  
+4.9.14.1. Conceito.  
+4.9.15. Conceito de risco de contraparte. 
+4.9.16. Conceito de risco de liquidação. 
+4.9.17. Riscos de mercado externo: conceito (oscilações na taxa de câmbio, 
+mudanças no cenário macroeconômico mundial, riscos geopolíticos específicos 
+de cada país investido, questões legais, regulatórias e tributárias específicas de 
+um país). 
+4.9.17.1. Classificação de risco.  
+4.9.18. Risco cambial 
+4.9.19. Variação do rating (preço e enquadramento).  
+4.9.20. Consequências sobre a precificação. 
+ 

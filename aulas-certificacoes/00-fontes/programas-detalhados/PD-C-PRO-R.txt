@@ -1,0 +1,819 @@
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+1  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+ 
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+2  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BOAS-VINDAS 
+ 
+Este é o programa detalhado da C-Pro R (Certificado Profissional Anbima 
+de Relacionamento). 
+A C-Pro R é direcionada a pessoas com perfil comercial que atuam com maior 
+profundidade no relacionamento com clientes e no planejamento de 
+investimentos. 
+O foco desta certificação é o relacionamento: compreender o momento do 
+cliente, realizar a análise de perfil da pessoa investidora e apresentar o portfólio 
+de produtos da instituição com mais detalhes, incluindo riscos. 
+Com a C-Pro R, também é possível acompanhar o cliente ao longo do processo 
+de decisão, apoiando escolhas alinhadas ao perfil e aos objetivos.  
+Para obter a C-Pro R é preciso ter obrigatoriamente a CPA (Certificado 
+Profissional Anbima). 
+ 
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+3  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+ 
+ 
+ 
+ 
+ 
+ 
+Sumário 
+ 
+ 
+ 
+ 
+1. Prospecção e relacionamento com a pessoa investidora ..................... 4 
+2. Análise de informações do cliente ....................................................... 9 
+3. Indicação de investimentos ............................................................... 11 
+4. Análise de portfólio e monitoramento da carteira ............................. 21 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+4  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+1. Prospecção e relacionamento com a pessoa investidora  
+Proporção: 20% 
+ 
+1.1. Psicologia e tomada de decisão.  
+1.1.1. Definição da abordagem de finanças comportamentais e comparativa 
+com as finanças tradicionais.  
+1.1.1.1. A pessoa investidora é um ser plenamente racional versus é um 
+ser influenciado por suas emoções e vieses cognitivos.  
+1.1.1.2. A pessoa investidora é avessa aos riscos versus é avesso às perdas. 
+1.1.1.3. A pessoa investidora enxerga sua carteira como um todo 
+(integração de ativos) versus não compreende a diversificação do portfólio 
+(segregação de ativos). 
+1.1.2. Comportamento da pessoa investidora: processos cognitivos e 
+principais heurísticas da pessoa investidora.  
+1.1.2.1. Heurística de representatividade.  
+1.1.2.2. Heurística da disponibilidade.   
+1.1.2.3. Heurística de ancoragem e ajustamento. 
+1.1.2.4. Excesso de confiança.  
+1.1.2.5. Aversão à perda.  
+1.1.3. Comportamento e vieses comportamentais da pessoa investidora.  
+1.1.3.1. Efeitos de estruturação ou efeito Framing.   
+1.1.3.2. Viés de confirmação.  
+1.1.3.3. Viés de auto atribuição.   
+1.1.3.4. Viés do Status Quo.  
+1.1.3.5. Efeito manada.  
+1.1.4. Impacto das emoções no processo decisório.   
+1.1.4.1. Impacto dos temas ESG. 
+1.1.5. Psicologia da pessoa investidora individual versus instituciona.   
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+5  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+1.1.6. Implicações do comportamento da pessoa investidora para o mercado 
+financeiro.  
+1.1.6.1. Volatilidade, bolhas e crises financeiras. 
+1.1.6.2. Arquitetura de escolhas, nudging e sludging: melhora na tomada 
+de decisão, redução da complexidade, desafio da liberdade de escolha e 
+transparência.  
+1.1.7. Uso de aplicativos de apostas (Bets). 
+1.1.7.1. Diferenças entre apostas e investimentos financeiros. 
+1.1.7.2. Tipos de apostas: loteria, apostas esportivas, aplicativos de jogos 
+online. 
+1.1.7.3. Comprometimento do orçamento com apostas online. 
+1.2. Aplicações práticas das finanças comportamentais.  
+1.2.1. Estratégias de investimento baseadas em finanças comportamentais.  
+1.2.2. Gestão de risco e finanças comportamentais.  
+1.2.3. Estratégias para mitigação das heurísticas e vieses comportamentais.  
+1.2.4. Investimentos reais (imóveis, bens móveis, obras de arte, eletrônicos) 
+versus investimentos. 
+1.2.5. Financeiros (moedas, títulos de renda fixa, ativos da bolsa de valores).  
+1.3. Características da pessoa investidora no Brasil. 
+1.3.1. Principais objetivos que fazem as pessoas pouparem recursos para 
+investimento. 
+1.3.2. Destino do dinheiro economizado. 
+1.3.3. Inflação e o dinheiro guardado.  
+1.3.4. Penetração dos bancos digitais versus comportamento da pessoa 
+investidora. 
+1.3.4.1. Por geração. 
+1.3.4.2. Renda.  
+1.3.4.3. Canais e fontes utilizados pelos clientes de bancos digitais para 
+informação sobre melhores investimentos.  
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+6  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+1.3.5. Vantagem de aplicar o dinheiro em produtos financeiros.  
+1.3.6. Motivos que levam o povo brasileiro a não investir. 
+1.3.7. Aposentadoria.  
+1.3.7.1. Reserva financeira de longo prazo. 
+1.3.7.2. Fontes de renda ao se aposentar.  
+1.3.8. Estresse financeiro.  
+1.3.8.1. Principais motivos. 
+1.3.8.2. Impacto dos investimentos.  
+1.3.8.3. Estrato social.  
+1.3.9. Apostas online.  
+1.3.9.1. Público.  
+1.3.9.2. Geração.  
+1.3.9.3. Motivação.  
+1.3.10. Conscientização e educação financeira no processo de 
+relacionamento com a pessoa investidora. 
+1.3.10.1. O papel e a responsabilidade de profissionais certificados. 
+1.3.10.2. A importância dos Finfluencers.  
+1.3.10.3. Desafios e riscos para a pessoa investidora. 
+1.4. Prospecção e habilidades comerciais. 
+1.4.1. Funil de prospecção: conceito e aplicação na atividade profissional.  
+1.4.1.1. Etapas do relacionamento: agendamento de reuniões, realização 
+da reunião com prospect, apresentação da estratégia, ativação do cliente 
+(implementação da estratégia e acompanhamento constante).  
+1.4.1.2. Canais de prospecção: online (redes sociais, webinars/lives), 
+presencial (eventos, cursos e palestras) e parcerias.  
+1.4.1.3. Boas práticas de uso da base pessoal de contatos.  
+1.4.1.4. Indicadores de esforço: número de prospects versus conversão, 
+número de reuniões versus conversão e número de indicações versus 
+conversão.  
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+7  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+1.4.2. Competências essenciais para a abordagem comercial. 
+1.4.2.1. Comunicação assertiva e didática. 
+1.4.2.2. Marketing pessoal. 
+1.4.2.3. Adaptabilidade e flexibilidade. 
+1.4.2.4. Capacidade analítica. 
+1.4.2.5. Proatividade. 
+1.4.2.6. Organização de agenda e dados. 
+1.4.2.7. Ética no atendimento ao cliente e à pessoa investidora. 
+1.5. Coleta de informações da pessoa investidora. 
+1.5.1. Compreensão dos objetivos da pessoa investidora. 
+1.5.1.1. Objetivos de curto prazo. 
+1.5.1.2. Objetivos de médio prazo. 
+1.5.1.3. Objetivos de longo prazo. 
+1.5.2. Definição da situação financeira e conhecimento dos clientes. 
+1.5.2.1. Entendimento do nível de liquidez do cliente: reserva de 
+emergência atual versus ideal.  
+1.5.2.2. Entendimento do nível de conhecimento do cliente: identificação 
+dos tipos de produtos financeiros e experiência com investimentos.  
+1.5.2.3. Entendimento da origem dos recursos e fonte atual de renda ativa. 
+1.5.2.4. Identificação do nível de comprometimento da renda: número de 
+dependentes, custos fixos e variáveis, dívidas e contribuição para 
+previdência. 
+1.6. Regras para o relacionamento com a pessoa investidora e distribuição de 
+produtos de investimento. 
+1.6.1. Código de distribuição Anbima: documento de regras e procedimentos 
+de distribuição de produtos de investimento.  
+1.6.1.1. Objetivo e abrangência (Capítulo I).  
+1.6.1.2. Regras gerais da atividade de distribuição de produtos de 
+investimento (capítulo II, seção I). 
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+8  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+1.6.1.2.1. Divulgação de informações por meios eletrônicos (seção II).  
+1.6.1.2.2. Canais digitais. (seção III). 
+1.6.1.2.3. Remuneração do distribuidor (seção IV). 
+1.6.1.3. Conheça seu cliente (capítulo III).  
+1.6.1.4. Regras gerais do suitability (capítulo IV, seção I).  
+1.6.1.5. Classificação do cliente (seção II).  
+1.6.1.5.1. Classificação dos produtos de investimento. 
+1.6.1.5.2. Classificação de risco (seção III, subseção I).  
+1.6.1.5.3. Categoria de produtos de investimento (subseção II). 
+1.6.1.5.4. Regras gerais de transferência de produtos de investimento 
+(capítulo IX, seção I).  
+1.6.2. Dever de verificação da adequação dos produtos, serviços e operações 
+ao perfil do cliente (resolução CVM nº 30). 
+1.6.3. Princípios e procedimentos a serem adotados no relacionamento com 
+o cliente as pessoas que utilizam produtos e serviços (resolução CMN nº 
+4.949 / 2021). 
+1.6.4. Resolução BCB nº 155 / 2021. 
+1.6.5. Resolução conjunta BCB e CMN de 08/2023. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+9  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+ 
+2. Análise de informações do cliente  
+Proporção: 20% 
+ 
+2.1. Capacidade de poupança da pessoa investidora. 
+2.1.1. Capacidade de renda da pessoa investidora, idade e padrão de vida 
+(definições e elaboração de estratégias que garantam a poupança). 
+2.1.2. Planejamento financeiro com o objetivo de formação de poupança. 
+2.1.3. Capacidade de poupança da sociedade e os impactos nos 
+investimentos do Brasil. 
+2.1.4. Reservas de emergência para diferentes perfis do cliente. 
+2.1.5. Balanço patrimonial pessoal. 
+2.1.5.1. Ativos de uso e não uso. 
+2.1.6. Cobertura de despesas mensais. 
+2.1.7. Indice de poupança. 
+2.2. Liquidez. 
+2.2.1. Definição e conceito de liquidez. 
+2.2.2. Como a liquidez impacta a reserva de emergência e a necessidade de 
+ativos líquidos. 
+2.2.2.1. Liquidez e rentabilidade (quais os impactos para a pessoa 
+investidora). 
+2.2.3. Liquidez corrente. 
+2.2.4. Liquidez seca. 
+2.3. Endividamento.  
+2.3.1. Indicativos de comprometimento de renda.  
+2.3.2. Como é calculado o nível de endividamento do cliente e quais são os 
+impactos para sua saúde financeira. 
+2.3.3. Análise do endividamento do cliente: taxas, tipos de dívidas, prazos. 
+2.4. Análise do perfil do investidor. 
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+10  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+2.4.1. Coleta de informações.  
+2.4.2. Avaliação dos objetivos financeiros. 
+2.4.3. Análise de tolerância ao risco. 
+2.4.4. Horizonte de investimentos. 
+2.4.5. Avaliação da experiência com investimentos. 
+2.4.6. Classificação do perfil (características e tipos de investimentos). 
+2.4.6.1. Conservador. 
+2.4.6.2. Moderado.  
+2.4.6.3. Arrojado. 
+2.4.7. Tipos de pessoas investidoras (classificação). 
+2.4.7.1. Pessoa investidora comum: definição, características, classificação 
+por patrimônio e por certificações de mercado financeiro. 
+2.4.7.2. Pessoa investidora qualificada: definição, características, 
+classificação por patrimônio e por certificações de mercado financeiro. 
+2.4.7.3. Pessoa investidora profissional: definição, características, 
+classificação por patrimônio e por certificações de mercado financeiro. 
+2.4.8. Ciclo de vida da pessoa investidora: objetivos, características e 
+investimentos adequados à fase. 
+2.4.8.1. Fase de acumulação. 
+2.4.8.2. Fase de consolidação/transição. 
+2.4.8.3. Fase de aposentadoria/usufruto. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+11  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+ 
+3. Indicação de investimentos  
+Proporção: 40% 
+ 
+3.1. Asset allocation.  
+3.1.1. Aderência da carteira ao perfil e fase de vida da pessoa investidora. 
+3.1.2. Alocações táticas a partir do momento de mercado. 
+3.1.3. Pilares do processo de alocação de ativos. 
+3.1.4. O poder da diversificação. 
+3.1.5. Definição de classes de ativos e subclasses. 
+3.1.6. Fatores determinantes para o retorno de um portfólio no longo prazo: 
+asset allocation, market timing e escolha de ativos. 
+3.2. Produtos de investimento. 
+3.2.1. Instrumentos de renda fixa. 
+3.2.1.1. Definição e características da renda fixa. 
+3.2.1.1.1. Tipos de riscos: risco de crédito e liquidez. 
+3.2.1.1.2. Principais vantagens da renda fixa na alocação dos diferentes 
+perfis de pessoas investidoras. 
+3.2.1.1.3. Marcação a Mercado (como funciona e quais títulos sofrem 
+variação). 
+3.2.1.1.4. Formas de Remuneração (prefixado e pós fixado).  
+3.2.1.1.5. Principais características do mercado primário e secundário. 
+Efeito da marcação a mercado, duration, prazo e custódia. 
+3.2.1.1.6. Benefícios da pessoa investidora, avaliação de risco e 
+vantagens na liquidez dos ativos. 
+3.2.1.2. Principais títulos públicos e seus indexadores. 
+3.2.1.2.1. Volumes de emissão, trajetória da dívida pública e riscos. 
+3.2.1.3. Emissões bancárias.  
+3.2.1.3.1. Principais papéis emitidos por instituições bancárias: CDBs, 
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+12  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+RDBs, RDC, LCA, LCI, LCD, LF, LC, LH, CRA, CRI, CCI, CDCA e DPGE. 
+3.2.1.3.2. Fundo Garantidor de Crédito (limites e coberturas). 
+3.2.1.3.3. Custódia, diferentes tipos de remuneração, prazos e carências, 
+liquidez, riscos e rating. 
+3.2.1.4. Emissões corporativas. 
+3.2.1.4.1. Principais emissões e variações. 
+3.2.1.4.2. Oferta pública de títulos. 
+3.2.1.4.3. Principais características dos títulos de dívida: prazos, risco de 
+crédito, remuneração, marcação a mercado e seus desdobramentos, 
+duration, cupom. 
+3.2.1.4.4. Tributação dos diferentes títulos. 
+3.2.1.4.5. Rentabilidade líquida de títulos isentos e sujeitos à tributação. 
+3.2.1.4.6. Risco de crédito, liquidez e seus impactos na recomendação de 
+alocação. 
+3.2.1.4.7. Debêntures e suas garantias: quirográfica, subordinada, 
+flutuante, real, fidejussória).  
+3.2.1.4.8. Cláusula de covenants. 
+3.3. Instrumentos de renda variável.  
+3.3.1. Funcionamento do mercado de ações e principais conceitos. 
+3.3.1.1. Mercado primário e mercado secundário de ações. 
+3.3.1.1.1. Initial Public Offering (IPO) e Oferta Pública de Aquisição (OPA): 
+conceito e processos até abertura do capital, precificação dos ativos 
+3.3.1.1.2. Importância do mercado secundário na liquidez dos ativos. 
+3.3.1.2. Tipos de riscos do mercado acionário e seu ambiente de 
+negociação. 
+3.3.1.2.1. Risco de mercado, risco de liquidez, risco de juros, risco 
+cambial, risco país. 
+3.3.1.3. Volatilidade e correlação. 
+3.3.1.4. Mercado a vista, ações ordinárias, preferenciais, nominativas. 
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+13  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+3.3.1.5. Tributação e compensação de perdas. 
+3.3.1.6. Formas de remuneração do mercado acionário: dividendo e JCP. 
+3.3.1.6.1. Definições, regras e tributação para distribuições de dividendos 
+e juros sobre capital próprio. 
+3.3.1.7. Principais características do mercado de aluguel de ações, 
+remunerações e garantias. 
+3.3.1.8. Bônus de subscrição, follon-on, inplit e split: principais conceitos, 
+características e como estes conceitos protegem a pessoa investidora 
+minoritária. 
+3.3.2. Filosofias de investimento em renda variável (day trade, swing trade, 
+buy and hold). 
+3.3.3. Alocação de renda variável na carteira da pessoa investidora. 
+3.3.3.1. Experiência do cliente com renda variável e horizonte de 
+investimento. 
+3.3.3.2. Otimização tributária para pessoa física. 
+3.3.3.3. Principais índices de referência: Ibovespa, IFIX, IDIV, IGC, ISE, IBRX, 
+MLCX e SMLL. 
+3.3.4. Derivativos. 
+3.3.4.1. Principais finalidades do mercado de derivativos. 
+3.3.4.2. Mercado futuro, ativos objeto e garantias. 
+3.3.4.3. Opções, moneyness, swaps. 
+3.3.4.4. Produtos estruturados com base em derivativos: volatilidade, 
+riscos de liquidação, chamada de margem e prazos. 
+3.3.4.5. Principais direitos da pessoa investidora no mercado acionário via 
+derivativos. 
+3.4. Certificado de Operações Estruturadas (COE). 
+3.4.1. Principais regras e conhecimento da estrutura via derivativos. 
+3.4.2. Tributação e compensação de perdas. 
+3.4.3. Diferentes níveis de risco e garantias de rentabilidade (capital 
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+14  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+protegido ou capital em risco). 
+3.4.4. Efeito da marcação a mercado versus prazo.  
+3.4.5. Custos e tributação. 
+3.4.6. Distribuição via oferta pública: resolução CVM Nº 8 Capítulo II; capítulo 
+III (prestação de informações), Seção I documento de informações essenciais 
+(DIE) e Seção II – material publicitário; anexo: documento de informações 
+essenciais do Certificado de Operações Estruturadas (DIE-COE). 
+3.5. Instrumentos de investimento coletivos. 
+3.5.1. Fundos de investimento. 
+3.5.1.1. Principais características. 
+3.5.1.1.1. Regras de distribuição: regulamento, termo de adesão, termo 
+de ciência de risco, informações complementares, lâmina de informações 
+essenciais, selo Anbima. 
+3.5.1.2. Responsabilidades dos agentes distribuidores e suas obrigações.   
+3.5.1.3. Tipos de fundos de investimentos e suas divisões, classes e 
+subclasses.  
+3.5.1.3.1. Fundos de renda fixa, multimercados e renda variável. 
+3.5.1.3.1.1.1. Importância de todas as principais características que 
+influenciam na indicação de investimento, vantagens e desvantagens. 
+3.5.1.3.1.1.2. Diferença entre estratégia ativa e passiva e impactos na 
+carteira de investimento do cliente. 
+3.5.1.3.1.1.3. Limites de concentração, taxa de administração e 
+performance, liquidações, resgate e riscos.   
+3.5.1.3.2. Fundos de investimentos sustentáveis e fundos que integram 
+as questões ESG. 
+3.5.1.3.3. Exchange Traded Fund (ETF). 
+3.5.1.3.3.1. Como é feita a estrutura regime de fundos: ambiente de 
+negociação. 
+3.5.1.3.3.1.1. Tipos de riscos e principais características. 
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+15  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+3.5.1.3.3.1.1.1. Principais tipos de ETFs: segmentado, 
+criptomoedas, internacionais, nacionais e ESG. 
+3.5.1.3.4. Fundo Imobiliário (FIIs). 
+3.5.1.3.4.1. Ambiente de negociação regime de cotas. 
+3.5.1.3.4.2. Risco de liquidez, crédito, vacância e composição de ativos. 
+3.5.1.3.4.3. Dinâmica de dividendos e suas regras. 
+3.5.1.3.4.4. Taxas, administração e subscrição. 
+3.5.1.3.4.5. Fundos de tijolos e fundos de papel, principais diferenças. 
+3.5.1.3.4.6. Tributação e custos. 
+3.5.1.3.5. Fundos incentivados e infraestrutura, principais características, 
+liquidez e riscos. 
+3.5.1.3.6. Tributação, Come-Cotas, IOF e possíveis impactos na 
+recomendação de alocação. 
+3.5.1.3.7. Patrimônio líquido negativo: insolvência de fundos, regras de 
+fechamento e liquidação de ativos.  
+3.5.1.3.8. Demais fundos de investimento, conceitos, características e 
+riscos. 
+3.5.1.3.8.1. Fiagros. 
+3.5.1.3.8.2. Fundos em Direitos Creditórios (FIDC). 
+3.5.1.3.8.3. Fundos exclusivos. 
+3.5.1.3.8.4. FoF’s. 
+3.5.1.3.8.5. Fundos em Participações (FIP). 
+3.5.1.3.8.6. Clubes de investimento. 
+3.5.1.3.8.7. Tributação. 
+3.6. Instrumentos de investimento no exterior. 
+3.6.1. Renda fixa internacional. 
+3.6.1.1. Taxas de câmbio: relações de paridade entre as moedas. 
+3.6.1.2. Transferência internacional de recursos e abertura de conta no 
+exterior versus abertura de conta em USD no Brasil.  
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+16  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+3.6.1.3. Principais títulos emitidos pelo Tesouro Norte-Americano: Treasury 
+Bills, Treasury Notes, Treasury Bonds, e TIPS - Treasury Inflation-Protected 
+Securities.  
+3.6.1.4. Títulos brasileiros, públicos e privado, negociados no mercado 
+internacional: Global Bonds e Eurobonds. 
+3.6.1.5. Outros títulos privados: Certificates of Deposit (CD) e Commercial 
+Papers (CP) Repos (Repurchase Agreements). 
+3.6.2. Investimentos em ações no exterior. 
+3.6.2.1. Ações de empresas estrangeiras negociadas nos Estados Unidos e 
+em outros mercados: American Depositary Receipts (ADR) – Níveis 1, 2, 3 e 
+144-A; Global Depositary Receipts (GDR): principais características dos 
+produtos e as diferenças entre os recibos e mercados. 
+3.6.2.2. Ações do mercado norte americano e forma de negociação. 
+3.6.2.3. Índices de bolsa de valores no exterior: S&P 500, Dow Jones, 
+NASDAQ, MSCI World, MSCI Emerging Markets e Euro Stock. 
+3.6.2.4. Importância no acompanhamento do cenário exterior e quais 
+impactos na recomendação de alocação da pessoa investidora brasileira. 
+3.6.2.5. Tributação para pessoas físicas residentes no Brasil que investem 
+em títulos de renda fixa, valores mobiliários, operações em renda variável e 
+derivativos. 
+3.6.2.5.1. Aspectos gerais. 
+3.6.2.5.2. Fato gerador. 
+3.6.2.5.3. Base de cálculo e alíquotas. 
+3.6.2.5.4. Agentes responsáveis pelos recolhimentos. 
+3.6.2.5.5. Prazos legais. 
+3.6.2.5.6. Obrigações tributárias no Brasil. 
+3.6.2.5.7. Investimento em ativos x empresa offshore. Diferenças na 
+tributação.   
+ 
+ 
+ 
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+17  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+3.7. Produtos de Previdência Complementar. 
+3.7.1. Previdência Social.  
+3.7.1.1. Estrutura de repartição simples do regime de previdência social. 
+3.7.1.2. Conhecer os fatores atuais que influenciam a renda de 
+aposentadoria das pessoas: base média de 100% dos salários, sobreposição 
+com outros benefícios do INSS, tempo de contribuição para homens e 
+mulheres. 
+3.7.1.3. Analisar o estilo de vida do cliente, qual a expectativa de ganhos na 
+aposentadoria com a previdência social e a estimativa do valor de 
+previdência complementar necessário para manutenção do padrão de vida. 
+3.7.2. Previdência complementar.  
+3.7.2.1. Horizonte de tempo adequado para os produtos de previdência 
+complementar. 
+3.7.2.2. Estrutura de capitalização da previdência complementar e suas 
+vantagens em relação à previdência social. 
+3.7.2.3. Os quatro pilares de abordagem da previdência complementar. 
+3.7.2.3.1. Acumulação de Longo Prazo com possibilidade de 
+transformação da reserva em renda. 
+3.7.2.3.2. Planejamento sucessório. 
+3.7.2.3.3. Constituição de reserva para menores feita pelo patrocinador 
+(responsável financeiro). 
+3.7.2.3.4. Planejamento tributário. 
+3.7.3. PGBL.  
+3.7.3.1. Utilização do PGBL como ferramenta de planejamento tributário 
+(condições para utilização, benefícios, forma de declaração no IR, tipo de 
+declaração de IR). 
+3.7.3.2. Diferimento fiscal (limites de contribuição, tipos de rendas 
+deferíveis, cálculo do diferimento). 
+3.7.3.3. Renúncia fiscal atrelada ao regime tributário regressivo. 
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+18  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+3.7.3.4. Retroalimentação dos PGBLs regressivos para coleta de novos 
+diferimentos fiscais. 
+3.7.4. VGBL.  
+3.7.4.1. Utilização do VGBL como ferramenta de acumulação de longo 
+prazo e planejamento de aposentadoria (definição, público-alvo e 
+principais características). 
+3.7.4.2. Vantagens da acumulação através da previdência complementar 
+(ausência de come-cotas e vencimento de papéis, transferência interna 
+para alteração da política de investimento do fundo, possibilidade de 
+redução de impostos na transmissão de patrimônio). 
+3.7.5. Regimes de tributação.  
+3.7.5.1. Regime Progressivo, tributável ou compensável (aplicação prática 
+frente aos objetivos do cliente para os produtos de previdência 
+complementar). 
+3.7.5.2. Regime regressivo, definitivo ou exclusivo (aplicação prática frente 
+aos objetivos do cliente para os produtos de previdência complementar). 
+3.7.6. Conceitos técnicos ligados a previdência complementar.  
+3.7.6.1. Tábua biométrica: conceito e utilização. 
+3.7.6.2. Juro Atuarial: conceito e forma de aplicação. 
+3.7.6.3. Tipos de rendas (impactos nas projeções dos recebimentos 
+mensais). 
+3.7.6.4. Impacto das idades de proponentes e pessoas que receberão 
+continuidade das rendas. 
+3.7.7. Rentabilidade dos planos de previdência.  
+3.7.7.1. Plano de previdência versus fundo de previdência (conceito, 
+cotistas, carências para resgate e carência portabilidade externa e interna, 
+considerando pessoas investidoras comuns e qualificadas). 
+3.7.7.2. Perfil da pessoa investidora – Definição do perfil da pessoa 
+investidora, direcionamento dos fundos previdenciários por perfil de risco, 
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+19  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+desenquadramento de risco, resolução 382 CNSP (princípios a serem 
+observados no relacionamento com o cliente, e sobre o uso do cliente 
+oculto na atividade de supervisão da Susep). 
+3.7.7.3. Escolha do fundo previdenciário durante a fase de acumulação: 
+renda fixa, balanceados, multimercados e ações (definições e estratégias 
+de cada macro classe, direcionamento das estratégias de investimento para 
+pessoas investidoras comuns e qualificados). 
+3.7.7.4. Gestão dos fundos previdenciários: limites de concentrações por 
+classe, mercado e emissor. 
+3.7.7.5. Estratégias de diversificação do portfólio de previdência 
+complementar (composição com diversos planos e objetivos do cliente). 
+3.7.7.6. Revisão periódica da carteira de previdência complementar 
+(revisitar objetivos, valores de acumulação, regime tributário, beneficiários, 
+estratégia de investimentos dos fundos previdenciários). 
+3.7.8. Previdência complementar corporativa.  
+3.7.8.1. Planos corporativos: definição, características e vantagens. 
+3.7.8.2. Tipos de planos averbados e instituídos: definição, características 
+de cada um, vantagens, modalidades utilizadas em cada tipo de plano 
+(PGBL ou VGBL) e diferenças. 
+3.7.8.3. Regras de Vesting: o que é, quem define e quem regulamenta. 
+3.7.8.4. Contribuições para um plano corporativo: parte empresa e parte 
+participante (características e definição). 
+3.8. Criptoativos no contexto da pessoa investidora. 
+3.8.1. Bitcoin. 
+3.8.1.1. Bitcoin e sua adoção tecnológica. 
+3.8.1.2. Descentralização, mineração, consenso e incentivos. 
+3.8.1.3. Blockchain, blocos, transações e hashes: o livro-razão distribuído. 
+3.8.1.4. Principais teses de investimento. 
+3.8.1.5. Bitcoin versus demais criptomoedas. 
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+20  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+3.8.2. Ethereum. 
+3.8.2.1. O Ether como meio de troca na rede. 
+3.8.2.2. Os smart contracts e os aplicativos descentralizados (dapps). 
+3.8.2.3. Oráculos e a informação do mundo físico no mundo virtual. 
+3.8.2.4. Proof-of-work versus Proof-of-stake. 
+3.8.2.5. Principais teses de investimento. 
+3.8.3. Os diferentes tipos de criptoativos que existem no mercado. 
+3.8.3.1. Definindo o conceito de tokens no contexto dos ativos digitais. 
+3.8.3.2. Introdução a utility tokens e security tokens. 
+3.8.3.3. Stablecoins e suas variações. 
+3.8.3.4. NFTs e conceito de fungibilidade. 
+3.8.3.5. Principais subsetores do mercado cripto. 
+3.8.4. Instrumentos de acesso ao mercado. 
+3.8.4.1. Peer-to-peer (P2P) e o mercado desintermediado. 
+3.8.4.2. Exchanges de criptomoedas e seus produtos. 
+3.8.4.3. Fundos, ETFs e carteiras administradas. 
+3.8.4.4. Mercados futuros, opções e demais derivativos de cripto. 
+3.8.5. Criptoativos como investimento: Impactos da inclusão de bitcoin e 
+ether em uma carteira 60/40. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+21  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+ 
+ 
+4. Análise de portfólio e monitoramento da carteira  
+Proporção: 20% 
+ 
+4.1. Boas práticas de rebalanceamento da carteira.  
+4.1.1. Acompanhamento macroeconômico e impacto na carteira do cliente. 
+4.1.1.1. Indicadores de avaliação de políticas monetárias. 
+4.1.1.1.1. Taxa de juros (impacto das mudanças nas taxas de juros sobre 
+o consumo, investimento e inflação). 
+4.1.1.1.2. Oferta monetária (avaliação dos efeitos das políticas de 
+expansão ou contração monetária na liquidez da economia). 
+4.1.1.1.3. Expectativas de inflação (como as políticas monetárias 
+influenciam as expectativas de inflação e as decisões dos agentes 
+econômicos). 
+4.1.1.2. Indicadores de avaliação de políticas fiscais. 
+4.1.1.2.1. Gastos públicos (avaliação dos efeitos dos gastos do governo 
+sobre o crescimento econômico e distribuição de renda). 
+4.1.1.2.2. Carga tributária (impacto das políticas fiscais sobre a atividade 
+econômica e o comportamento dos agentes privados). 
+4.1.1.2.3. Balanço fiscal (análise da sustentabilidade das finanças 
+públicas e da capacidade do governo de cumprir suas obrigações fiscais).  
+4.1.2. Impacto das variações dos indicadores macroeconômicos nos ativos de 
+renda fixa, renda variável e criptoativos. 
+4.1.3. Avaliação periódica da necessidade de mudança do perfil do cliente.  
+4.1.3.1. Estrutura atual versus ideal da estratégia de alocação.  
+4.1.3.2. Indicadores de performance: rentabilidade real, volatilidade, 
+correlação/coeficiente de diversificação.  
+4.1.3.3. Interpretação da análise de portfólio e novas recomendações ao 
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+22  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+cliente. 
+4.1.3.4. Rebalanceamento regular versus percentual da carteira.   
+4.1.3.5. Estratégias dinâmicas de rebalanceamento. 
+4.1.3.5.1. Buy and Hold. 
+4.1.3.5.2. Constant Mix. 
+4.1.3.5.3. Constant Proportion Portfolio Insurance (CPPI). 
+4.2. Planejamento de investimentos para eventos ou novos objetivos.  
+4.2.1. Casamento e união estável.  
+4.2.2.  Fim do casamento por divórcio ou falecimento.  
+4.2.3. Planejamento de descendentes.  
+4.2.4. Mudança para outro país.   
+4.2.5. Outros eventos especiais. 
+4.3. Processo de transferência de custódia.  
+4.3.1. O que é Sistema de Transferência de Valores Mobiliários (STVM) e suas 
+aplicações.  
+4.3.2. Portabilidade de mesma titularidade.  
+4.3.3. Portabilidade entre diferentes titularidades. 
+4.3.4. Tipos de portabilidade: interna e externa. 
+4.3.5. Portabilidade como ferramenta de rebalanceamento de carteiras.  
+4.3.6. Impactos de resgate antecipado de produtos de renda fixa, renda 
+variável e alternativos. 
+4.4. Tributação e impacto no rebalanceamento de carteiras. 
+4.5. Risco de ativos. 
+4.5.1. Ativos livres de riscos e ativos com risco de crédito.  
+4.6. Relação entre risco, retorno e o princípio da dominância entre ativos.  
+4.7. Risco de uma carteira. 
+4.8. Desvio padrão da carteira e o benefício da diversificação.  
+4.9. Relação entre risco, retorno e o princípio da dominância entre carteiras.  
+4.9.1. Beta da carteira e sua interpretação.  
+
+Programa detalhado • C-Pro R              
+ 
+       
+ 
+       
+23  
+Data da elaboração: 02/09/2024 | Versão: 1.2 (revisado em 04/06/2025) 
+Vigência a partir de: 01/01/2026 | Elaborado por: Anbima 
+4.9.2. Risco absoluto e risco relativo.  
+4.9.3. Conceitos sobre risco sistemático e risco não sistemático 
+(diversificável). 
+4.9.4. Medidas de performance: conceito dos indicadores e suas limitações.  
+4.9.5. Índice de Sharpe: original e modificado.  
+4.9.6. Índice de Treynor.  
+ 
+ 
+ 
+ 
