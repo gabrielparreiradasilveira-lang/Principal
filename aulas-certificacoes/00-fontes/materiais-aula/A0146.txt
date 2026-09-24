@@ -1,0 +1,125 @@
+<<<PÁGINA 1>>>
+Transformação da Reserva
+
+<<<PÁGINA 2>>>
+Transformação da Reserva
+
+<<<PÁGINA 3>>>
+Transformação da Reserva em Renda
+→ Após a fase de acumulação, o participante escolhe como converter o saldo acumulado em 
+pagamentos:
+→  O valor da renda é determinado por cálculo atuarial, levando em conta:
+●
+Idade;
+●
+Expectativa de vida;
+●
+Taxa de juros atuarial;
+●
+Tábua biométrica;
+●
+Características do plano escolhido;
+→ A seguradora assume parte ou todo o risco, dependendo do tipo de renda;
+
+<<<PÁGINA 4>>>
+Tipos de Benefícios Possíveis
+→ Tipos de Benefícios Possíveis:
+●
+Renda Mensal Vitalícia;
+●
+Renda Mensal Vitalícia com prazo mínimo garantido;
+●
+Renda Mensal Vitalícia com reversão ao beneficiário;
+●
+Renda Mensal Vitalícia com reversão ao beneficiário com continuidade aos 
+menores;
+●
+Renda Temporária;
+●
+Renda por Prazo Certo;
+●
+Pagamento Único;
+
+<<<PÁGINA 5>>>
+→ Renda Mensal Vitalícia:
+●
+Acaba no falecimento → Não deixa saldo para Beneficiários;
+●
+Paga a maior renda mensal;
+→ Renda Mensal Vitalícia com Prazo Mínimo Garantido:
+●
+Renda Vitalícia com pagamento mínimo de “x” anos. Se o participante morrer antes:
+○
+Beneficiários recebem até completar o período;
+○
+Renda é menor que a vitalícia simples;
+→ Renda Mensal Vitalícia com Reversão a Beneficiário Indicado:
+●
+Após a morte do participante, continua para o indicado:
+○
+Beneficiário indicado no início da renda;
+○
+Quanto maior a reversão, menor a renda;
+→ Renda Mensal Vitalícia Reversível ao Cônjuge com Continuidade aos Menores:
+●
+Renda Vitalícia que reverte ao cônjuge e continua para os filhos até a maioridade;
+●
+Menor renda inicial;
+Rendas Vitalícias
+
+<<<PÁGINA 6>>>
+→ Renda Mensal Temporária:
+●
+Pagamento por tempo determinado ou até o falecimento, o que ocorrer primeiro:
+○
+Se o participante morrer antes do prazo, o pagamento cessa imediatamente;
+○
+Não deixa saldo para herdeiros;
+○
+Renda é maior que as vitalícias;
+→ Renda Por Prazo Certo:
+●
+Pagamento por prazo determinado independentemente da morte:
+○
+Em caso de morte, os beneficiários recebem até completar o período 
+contratado;
+○
+A renda é calculada dividindo o saldo pelo prazo;
+Rendas Temporárias
+
+<<<PÁGINA 7>>>
+→ O participante opta por receber todo o saldo acumulado de uma vez:
+→ Características
+●
+Sem cálculo atuarial;
+●
+Sujeito à tributação conforme o regime escolhido (progressivo ou regressivo);
+●
+Riscos: má gestão do dinheiro;
+Pagamento Único
+
+<<<PÁGINA 8>>>
+Resumo do Klebão
+→ Rendas Vitalícias:
+●
+Vitalícia: dura enquanto viver;
+●
+Vitalícia com prazo mínimo: Garante X anos, passando ao beneficiário;
+●
+Vitalícia com reversão: percentual para beneficiario;
+●
+Reversível ao cônjuge + menores: percentual para o beneficiário estendido aos 
+menores;
+→ Rendas Temporárias:
+●
+Temporária: termina na morte;
+●
+Prazo Certo: continua mesmo após a morte;
+→ Pagamento único:
+●
+Sem cálculo atuarial, só o saque;
+→ Quem assume o risco:
+●
+Vitalícias: Seguradora;
+●
+Temporária / Prazo Certo / Pagamento Único: cliente;

@@ -1,0 +1,138 @@
+<<<PÁGINA 1>>>
+Tributação de Previdência
+Privada
+
+<<<PÁGINA 2>>>
+Tributação da Previdência Privada
+
+<<<PÁGINA 3>>>
+Regimes de Tributação
+→ Regime Definitivo Exclusivo (Regressivo):
+●
+Quanto maior o prazo, menor o imposto;
+→ Regime Compensável (Progressivo):
+●
+Quanto maior a renda, maior a tributação;
+●
+Tem a tabela na prova;
+
+<<<PÁGINA 4>>>
+→ Segue a tabela regressiva:
+Tributação Deﬁnitiva Exclusiva (Regressiva)
+
+<<<PÁGINA 5>>>
+→ Segue a tabela regressiva:
+→ Alíquota máxima em caso de falecimento é de 25%;
+→ Prazo contado para cada aporte;
+→ Técnica de memorização Chico Xavier;
+Tributação Deﬁnitiva Exclusiva (Regressiva)
+Prazo
+Alíquota de IR
+Até 2 anos
+35%
+2 a 4 anos
+30%
+4 a 6 anos
+25%
+6 a 8 anos
+20%
+8 a 10 anos
+15%
+Acima de 10 anos
+10%
+
+<<<PÁGINA 6>>>
+→ O investidor deve fazer o ajuste anual na declaração do Imposto de Renda;
+→ Tem esta tabela na prova:
+→ Incide sobre a transformação em RENDA!
+→ Na tabela compensável, quando há o saque a alíquota será SEMPRE de 15%;
+Tributação Compensável (Progressivo)
+Rendimentos Mensais
+Tributação / Regra Aplicável
+Até R$ 5.000,00
+Isento 
+R$5.000,01 a R$7.000,00
+IR = 1.095,11 – (0,156445 × rendimento). Se resultado ≤ 0 → IR = 0
+Acima de R$ 7.000,00
+Tributação normal da tabela progressiva (alíquota máxima de 27,5%)
+
+<<<PÁGINA 7>>>
+→ Ampliação da Portabilidade:
+●
+Portabilidade de VGBL para VGBL e PGBL para PGBL;
+●
+Prazo mínimo de portabilidade 60 dias;
+●
+É permitido na portabilidade:
+○
+Mudança do Regime Tributário;
+○
+Mudança Fundos dentro de um mesmo plano;
+○
+Mudança Seguradora ou Instituição Financeira;
+○
+Mudança entre Planos Tradicionais e Fundos de Pensão;
+○
+Mudança na Modalidades de Investimento (Fixa, Variável, Multimercado);
+Portabilidade
+
+<<<PÁGINA 8>>>
+Efeito do PGBL da Tributação no IR
+Item
+Com contribuição
+Sem contribuição
+Rendimento Tributável
+R$ 100.000,00
+R$ 100.000,00
+Aporte PGBL (Dedução)
+R$ -12.000,00
+R$ 0,00
+Base de cálculo
+R$ 88.000,00
+R$ 100.000,00
+Alíquota
+27,50%
+27,50%
+Base x Alíquota
+R$ 24.200,00
+R$ 27.500,00
+Parcela a deduzir
+R$ -10.432,32
+R$ -10.432,32
+Diferença
+IR
+R$ 13.767,68
+R$ 17.067,68
+R$ 3.300,00
+Cálculo da diferença
+Dedução (PGBL)
+R$ 12.000,00
+Alíquota
+27,5%
+Diferença
+R$ 3.300,00
+
+<<<PÁGINA 9>>>
+→ Previdência não tem come-cotas → IR só no resgate ou na renda;
+→ Progressivo:
+●
+Segue a tabela do IRPF de 0% a 27,5% (tem a tabela na prova);
+●
+Progressivo faz sentido para quem tem renda menor/deduções;
+●
+É compensável, pode ter ajustes na declaração;
+→ Regressivo:
+●
+Alíquotas caem de 35% → 10% conforme o prazo;
+○
+Mais vantajoso para o longo prazo;
+●
+É definitivo (não entra na declaração);
+●
+Cada aporte tem seu clock individual no regressivo;
+→ Base de cálculo muda conforme o plano:
+●
+PGBL: IR sobre o total;
+●
+VGBL: IR só sobre o rendimento;
+Resumo do Klebão

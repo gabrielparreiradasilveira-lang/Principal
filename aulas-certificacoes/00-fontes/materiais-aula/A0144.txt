@@ -1,0 +1,114 @@
+<<<PÁGINA 1>>>
+Taxas na Previdência Complementar
+
+<<<PÁGINA 2>>>
+Taxas na Previdência Complementar
+
+<<<PÁGINA 3>>>
+Visão Geral das Taxas Que Podem Ser Cobradas
+→ Taxa de administração;
+→ Taxa de carregamento que pode ser cobrada:
+●
+Na entrada;
+●
+Na saída;
+●
+Na portabilidade;
+
+<<<PÁGINA 4>>>
+→ Valor em % cobrado sobre o patrimônio total do plano (FIE);
+●
+Funciona da mesma forma da taxa de administração em um fundo de 
+investimentos;
+→ Tem como objetivo, remunerar serviços do fundo:
+●
+Gestão da carteira;
+●
+Administração;
+●
+Custódia;
+●
+Auditoria;
+●
+Processamento e Infraestrutura;
+→ Cobre a parte de operação do plano;
+Taxa de Administração
+
+<<<PÁGINA 5>>>
+→ Como funciona a cobrança:
+●
+Descontada diariamente do patrimônio (via cálculo da cota);
+○
+Pro Rata Dia;
+○
+Taxa Média de Administração: Entre 0,50% a 2% a.a;
+●
+Reduz a rentabilidade líquida do plano;
+●
+Quanto maior a taxa → menor o valor acumulado no longo prazo;
+→ Taxa de administração tem o maior impacto na rentabilidade a longo prazo;
+Cobrança e Impactos da Taxa de Administração
+
+<<<PÁGINA 6>>>
+Taxa de Carregamento
+→ A taxa de carregamento não é administrativa, é comercial. Ela serve para cobrir:
+●
+Custos de distribuição;
+●
+Comissões de venda;
+●
+Estrutura comercial;
+●
+Intermediação via canais, corretores ou agências;
+→ É a taxa que remunera a parte comercial, enquanto a de administração remunera a parte 
+operacional;
+
+<<<PÁGINA 7>>>
+Tipos de Taxa de Carregamento
+→ Carregamento de Entrada:
+●
+Percentual descontado do aporte no momento da contribuição;
+○
+Ex.: Aporte R$ 1.000 com taxa de entrada de 3% → investe R$ 970;
+→ Carregamento de Saída:
+●
+Percentual descontado no momento do resgate ou portabilidade;
+●
+Sempre cobrado somente sobre o valor do aporte;
+●
+Exe.: Aporte R$ 1.000,00 com taxa de Saída de 3% e rentabilidade de R$ 
+300.00,00 ao final de 5 anos;
+○
+3% Incidem apenas sobre os R$ 1.000,00 no momento da saída;
+→ Pode existir:
+●
+Redução progressiva conforme o crescimento do saldo ou aportes;
+●
+Prazo mínimo (carência) para isenção;
+
+<<<PÁGINA 8>>>
+Resumo do Klebão
+→ Taxa de Administração:
+●
+Cobre os Custos da Operação;
+●
+Cobrada todos os dias, com base anual;
+○
+Valor não é alterável, mesma base para todos os clientes;
+■
+Está no FIE;
+→ Taxa de Carregamento:
+●
+Taxa Comercial. Pode ser cobrada:
+○
+Entrada: Reduz o valor do investimento;
+○
+Saída: É cobrado na saída, após o rendimento;
+■
+SOMENTE sobre o valor do aporte;
+●
+Pode Haver Redução via:
+○
+Carência com prazo mínimo de resgate;
+○
+Valores mínimos investidos;
