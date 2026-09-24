@@ -17,7 +17,12 @@ Leia esse arquivo antes de produzir qualquer aula, questão, roteiro ou slide.
 
 - **Programas Detalhados ANBIMA** (versão 1.2, rev. 04/06/2025, vigência a partir de 01/01/2026):
   `00-fontes/programas-detalhados/` — CPA, C-PRO-I, C-PRO-R (PDF + `.txt` para busca + `INDICE.md`).
-  Usar para **validar a ordem e os tópicos** de cada aula antes de escrever.
+  São a **fonte de conhecimento base** de todo material criado (aulas, questões, roteiros, slides):
+  - definem **escopo, ordem e redação dos tópicos** — títulos das seções 3.X seguem a redação do PD;
+  - antes de escrever, ler no `.txt` o item completo até o último subitem e cobrir **todos** eles;
+  - todo bloco da aula cita o item do PD (ex.: `CPA 1.2.4.2`);
+  - o PD lista *o que* ensinar; o *conteúdo técnico* (definições, números, normas) vem das apostilas
+    e de fontes oficiais (ANBIMA, CVM, BCB, CMN, RFB etc.), conforme a seção 4 do prompt mestre.
 - **Apostilas** (fonte de conteúdo): `00-fontes/apostilas/`.
 
 ## Onde salvar
