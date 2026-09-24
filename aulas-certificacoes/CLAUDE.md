@@ -23,7 +23,17 @@ Leia esse arquivo antes de produzir qualquer aula, questão, roteiro ou slide.
   - todo bloco da aula cita o item do PD (ex.: `CPA 1.2.4.2`);
   - o PD lista *o que* ensinar; o *conteúdo técnico* (definições, números, normas) vem das apostilas
     e de fontes oficiais (ANBIMA, CVM, BCB, CMN, RFB etc.), conforme a seção 4 do prompt mestre.
-- **Apostilas** (fonte de conteúdo): `00-fontes/apostilas/`.
+- **Apostilas CPA, C-PRO-I, C-PRO-R** (rev. mar–abr/2026): `00-fontes/apostilas/` (PDF + `.txt` + `INDICE.md`).
+  São a **fonte de conhecimento principal do conteúdo técnico**: definições, mecanismos, exemplos e números.
+  - localizar o trecho pelo `.txt` (`<<<PÁGINA N>>>` = página do PDF) e citar a página na aula;
+  - apostila **não substitui** o PD: tópico fora do PD não entra; tópico do PD ausente da apostila → fonte oficial;
+  - normas, alíquotas, limites e prazos: conferir vigência na fonte oficial (a apostila pode estar desatualizada);
+    divergência apostila × norma → prevalece a norma e a divergência é registrada em "Pendências de verificação".
+
+### Hierarquia das fontes
+1. **Programa Detalhado** → o que ensinar e em que ordem.
+2. **Apostila** → como explicar (conteúdo técnico base).
+3. **Norma/órgão oficial** → validação de números, regras e vigência.
 
 ## Onde salvar
 

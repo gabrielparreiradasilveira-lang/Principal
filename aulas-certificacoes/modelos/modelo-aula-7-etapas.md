@@ -14,10 +14,10 @@
 
 ## Matriz de alinhamento
 
-| Tópico do Programa Detalhado | Seção da aula | Fonte / status |
-|---|---|---|
-| [Tópico oficial] | 3.1 | [Fonte — status] |
-| [Tópico oficial] | 3.2 | [Fonte — status] |
+| Tópico do Programa Detalhado | Apostila (págs.) | Seção da aula | Fonte oficial / status |
+|---|---|---|---|
+| [Item — tópico oficial] | [APOSTILA-XXX p. N–M] | 3.1 | [Fonte — status] |
+| [Item — tópico oficial] | [APOSTILA-XXX p. N–M] | 3.2 | [Fonte — status] |
 
 ---
 
