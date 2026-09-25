@@ -1,0 +1,162 @@
+<<<PÁGINA 1>>>
+Código Anbima de Distribuição de 
+Produtos de Investimento
+<<<PÁGINA 2>>>
+Código Anbima de Distribuição de Produtos
+<<<PÁGINA 3>>>
+Objetivo e Abrangência (Título I, Cap. I)
+→ Objetivo:
+●
+Garantir que a distribuição de produtos de investimento seja feita com transparência, 
+ética e proteção ao investidor;
+→ Abrangência:
+●
+Aplica-se a todas as instituições associadas à ANBIMA que distribuem produtos 
+financeiros, como:
+○
+Fundos de investimento;
+○
+Títulos públicos e privados;
+○
+Previdência;
+○
+COEs e estruturas similares;
+<<<PÁGINA 4>>>
+Princípios Gerais de Conduta (Título II, Cap. III)
+→ Transparência:
+●
+Informações claras, verdadeiras e completas;
+→ Equidade:
+●
+Tratamento justo entre clientes, sem favorecimento;
+→ Integridade:
+●
+Evitar conflitos de interesse e práticas enganosas;
+→ Diligência:
+●
+Atuação técnica e responsável;
+→ Competência:
+●
+Manter-se atualizado e apto para orientar o investidor;
+ESSÊNCIA: proteger o investidor e fortalecer a credibilidade do mercado.
+<<<PÁGINA 5>>>
+Regras Gerais de Distribuição (Título III, Cap. IV)
+→ A instituição deve avaliar o perfil da clientela, registrar as recomendações, documentar as 
+operações e divulgar informações completas sobre riscos e custos;
+→ Responsabilidades:
+●
+Avaliar a adequação do produto (suitability);
+●
+Manter registros atualizados;
+●
+Garantir que o investidor compreenda o produto;
+→ Exemplo: 
+●
+Vender um COE para um investidor conservador sem explicação adequada viola o 
+código;
+<<<PÁGINA 6>>>
+Conheça sua Clientela (Cap. V)
+→ O princípio “Know Your Client – KYC” exige que o distribuidor conheça:
+●
+Identidade e cadastro completo;
+●
+Situação financeira;
+●
+Objetivos de investimento;
+●
+Experiência e tolerância ao risco.
+→ Objetivo: 
+●
+Prevenir fraudes, lavagem de dinheiro e má recomendação de produtos;
+<<<PÁGINA 7>>>
+Suitability (Cap. VI)
+→ Avaliar se o produto é adequado ao perfil do cliente:
+●
+Conservador → produtos de menor risco (ex: CDB, Tesouro Selic);
+●
+Moderado → fundos multimercados, debêntures;
+●
+Arrojado → ações, COEs com risco de capital;
+→ Processo:
+●
+Coleta de informações (questionário);
+●
+Classificação do perfil;
+●
+Recomendações compatíveis;
+●
+Reavaliação periódica.
+→ Na prova:
+●
+Suitability = adequação do produto ao perfil da pessoa investidora.
+<<<PÁGINA 8>>>
+Publicidade (Cap. VII)
+→ Toda comunicação deve ser:
+●
+Clara e verdadeira;
+●
+Não pode prometer rentabilidade futura;
+●
+Deve apresentar riscos e custos;
+●
+Não pode usar selos ANBIMA de forma indevida;
+→ Exemplo:
+●
+Um banco que anuncia “rentabilidade garantida” em fundo de ações está em desacordo 
+com o código;
+<<<PÁGINA 9>>>
+Transparência na Remuneração (Cap. VIII)
+→ O cliente deve saber como o distribuidor é remunerado:
+●
+Taxa de administração, performance, distribuição e rebates;
+●
+Incentivos comerciais devem ser divulgados e compatíveis com o interesse do cliente;
+→ Essência:
+●
+O investidor precisa saber quanto paga e a quem;
+<<<PÁGINA 10>>>
+Serviços de Intermediação no Exterior (Cap. X)
+→ Distribuição de produtos estrangeiros (fundos offshore, bonds, etc.) só pode ser feita:
+●
+Por instituições habilitadas no Brasil;
+●
+Em conformidade com as normas da CVM;
+●
+Com disclosure claro dos riscos cambiais e jurídicos;
+→ Exemplo:
+●
+Oferecer fundo em dólar sem informar risco cambial é infração;
+<<<PÁGINA 11>>>
+Transf. de Produtos de Investimento (Cap. XI)
+→ A transferência de produtos deve preservar:
+●
+A autenticidade da titularidade;
+●
+A histórico da operação;
+●
+E o dever fiduciário de informar todas as partes;
+→ Na prática:
+●
+Mudar custódia de fundos entre instituições requer autorização e registros atualizados;
+<<<PÁGINA 12>>>
+Apuração de Valores de Referência (Cap. XII)
+→ Define regras para cálculo de preços e rentabilidade dos produtos;
+→ Deve seguir critérios padronizados pela ANBIMA.
+→ Objetivo:
+●
+Evitar manipulação de preços e permitir comparabilidade entre produtos;
+<<<PÁGINA 13>>>
+Distribuição para o Private (Título IV, Cap. XIV)
+→ Voltada a clientes de alta renda e investidores profissionais;
+→ Exige nível maior de transparência, governança e registro das recomendações;
+→ Mesmo no private, é obrigatório o processo de suitability e disclosure de custos;
+<<<PÁGINA 14>>>
+Conclusão e Fixação
+→ 
+A ANBIMA atua por autorregulação voluntária e eficaz;
+●
+O Código de Distribuição garante proteção ao investidor;
+●
+Suitability, publicidade e transparência são pilares centrais;
+●
+A ética e o registro de informações sustentam a confiança do mercado;
