@@ -1,0 +1,174 @@
+<<<PÁGINA 1>>>
+Do CNPJ ao Pregão
+<<<PÁGINA 2>>>
+Do CNPJ ao Pregão
+<<<PÁGINA 3>>>
+Porque as Ações Existem
+→ As ações surgem da necessidade de financiar o crescimento:
+●
+Quando uma empresa atinge certo porte, o crédito bancário já não basta: ela busca 
+o mercado para captar recursos de longo prazo;
+●
+Ações são o meio pelo qual as empresas se capitalizam e os investidores 
+participam do crescimento delas;
+→ As ações transformam poupadores em sócios;
+●
+Coração do mercado de capitais:
+○
+Conectar quem tem dinheiro com quem precisa dele para crescer;
+<<<PÁGINA 4>>>
+As Ações e seu Papel
+→ Ações representam a menor fração do capital social de uma S/A:
+●
+O investidor que compra uma ação se torna sócio e participa dos resultados;
+●
+São ativos de renda variável:
+○
+Dividendos (Lucros após pagamento de impostos);
+○
+JCP (Lucros antes do pagamento de impostos);
+○
+Aluguel de Ações;
+○
+Ganho de Capital;
+<<<PÁGINA 5>>>
+Sociedades Limitadas
+→ A Sociedade Limitada é o modelo mais comum para pequenas e médias empresas;
+→ Características principais:
+●
+O capital é dividido em cotas, e cada sócio responde apenas pelo valor de suas 
+cotas;
+●
+A gestão é simples e feita por contrato social;
+●
+Não há necessidade de assembleias, conselho de administração ou auditoria 
+externa;
+●
+A entrada e saída de sócios dependem da aprovação dos demais, garantindo 
+controle;
+●
+O nome empresarial deve conter a expressão “Ltda.”;
+<<<PÁGINA 6>>>
+Vantagens e Desvantagens das LTDAs
+→ Vantagens:
+●
+Simplicidade;
+●
+Controle concentrado;
+●
+Baixo custo operacional;
+→ Limitações:
+●
+Dificuldade para captar grandes volumes de recursos;
+●
+Menor transparência;
+→ É o modelo ideal para iniciar um negócio, mas não para expandi-lo em larga escala;
+<<<PÁGINA 7>>>
+Sociedades Anônimas
+→ A Sociedade Anônima é regida pela Lei nº 6.404/1976 (Lei das S.A.);
+●
+Voltada a empresas que buscam grande escala e captação de recursos no 
+mercado;
+→ Características principais:
+●
+O capital é dividido em ações, e os proprietários são chamados de acionistas;
+●
+A responsabilidade é limitada ao preço das ações adquiridas;
+●
+A administração é mais complexa, com assembleia, conselho de administração e 
+diretoria executiva;
+●
+Possui estatuto social (em vez de contrato);
+●
+Pode ser aberta ou fechada, conforme o registro na CVM;
+<<<PÁGINA 8>>>
+Tipos de Sociedade Anônima
+→ S/A aberta é mais fiscalizada, divulga balanços e segue padrões contábeis rígidos;
+●
+Possui ações listadas em bolsa de valores;
+→ S/A fechada tem menos transparência, mas mais agilidade nas decisões;
+●
+Não possuem ações listadas em bolsa de valores;
+Tipo
+Características
+Exemplos
+S/A Fechada
+Ações não são listadas em bolsa; negociação restrita entre 
+acionistas; menor exigência de governança.
+Havan S.A., Cacau Show S.A.
+S/A Aberta
+Ações listadas e negociadas publicamente; registro 
+obrigatório na CVM; alta transparência e auditoria;
+Ambev (ABEV3), Petrobras 
+(PETR4), Itaú (ITUB4)
+<<<PÁGINA 9>>>
+SA Aberta x SA Fechada
+→ Empresa listada:
+●
+Possui ações autorizadas para negociação na bolsa (ex: B3);
+●
+Cumpre regras de governança, transparência e auditoria independente;
+●
+Está sujeita à supervisão da CVM e da bolsa;
+○
+Exemplo: Magazine Luiza (MGLU3), Vale (VALE3);
+→ Empresa não listada:
+●
+Pode ser uma S/A fechada, cujas ações não estão disponíveis ao público;
+●
+Negociações ocorrem de forma privada;
+○
+Exemplo: Havan, Cacau Show, Grupo Primo;
+<<<PÁGINA 10>>>
+Capital Próprio x Capital de Terceiros
+→ Há duas formas básicas de captar recursos: capital próprio e capital de terceiros;
+→ Capital Próprio:
+●
+Representa os recursos investidos pelos sócios ou acionistas;
+●
+Não há obrigação de devolução;
+●
+A remuneração depende do lucro obtido;
+○
+Exemplo: emissão de ações ou reinvestimento dos lucros;
+→ Capital de Terceiros:
+●
+Representa recursos obtidos via empréstimos, debêntures ou financiamentos;
+●
+Deve ser devolvido com juros, mesmo se houver prejuízo;
+●
+É considerado alavancagem financeira;
+○
+Exemplo: Empréstimos Bancários;
+<<<PÁGINA 11>>>
+Do zero ao Topo
+1.
+Criação do negócio:
+Abertura do CNPJ como Sociedade Limitada e capital inicial dos sócios;
+2.
+Crescimento:
+ A empresa amplia operações, lucros e necessidade de capital;
+3.
+Transformação em S/A:
+Muda o formato societário e passa a emitir ações;
+4.
+Abertura de capital (S/A aberta):
+Registra-se na CVM e cumpre exigências de transparência e governança;
+5.
+IPO (Initial Public Offering):
+ Primeira oferta pública de ações. A empresa passa a ser listada na bolsa;
+6.
+Negociação em mercado secundário  e Follow-ons:
+ As ações passam a ser trocadas livremente entre investidores e podem haver 
+emissões adicionais para captar novos recursos no futuro;
+<<<PÁGINA 12>>>
+Resumo do Klebão
+→ Ações: frações do capital próprio de uma S/A;
+→ Tipo de Empresas: Ltda. usa cotas; S/A usa ações;
+→ S/A aberta negocia ações publicamente e deve ser registrada na CVM;
+●
+Empresas Listada é a S/A com ações negociadas em bolsa;
+→ Capital próprio vem dos sócios; capital de terceiros, de dívidas;
+→ A transição natural é:
+●
+Ltda. → S/A → S/A Aberta → IPO → Empresa Listada;

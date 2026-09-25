@@ -1,0 +1,146 @@
+<<<PÁGINA 1>>>
+Lançamento e Negociação de Ações
+G
+G
+<<<PÁGINA 2>>>
+Lançamento e Negociação de Ações
+G
+G
+<<<PÁGINA 3>>>
+Ciclo de Capitalização das Empresas
+→ Ciclo de Capitalização das Empresas:
+●
+Captação privada:
+○
+Investidores-anjo e fundos de venture capital;
+●
+Crescimento: 
+○
+Novas rodadas de investimento privado;
+●
+Abertura de capital (IPO): 
+○
+Empresa passa a captar recursos do público;
+●
+Negociação diária: 
+○
+Ações passam a ser negociadas no mercado secundário;
+G
+G
+<<<PÁGINA 4>>>
+O que é um IPO
+→ O IPO (Initial Public Offering) é a primeira vez que uma empresa vende ações ao público 
+em bolsa, tornando-se uma companhia aberta;
+→ Objetivos principais:
+●
+Captar recursos para expansão;
+●
+Dar liquidez aos sócios;
+●
+Aumentar a visibilidade e a credibilidade no mercado;
+→ Exemplo real:
+●
+Nubank (NU) realizou seu IPO em dezembro de 2021, listando ações na NYSE 
+(EUA) e BDRs na B3 (NUBR33);
+G
+G
+<<<PÁGINA 5>>>
+Etapas de um IPO
+→ 
+Etapas de um IPO:
+●
+Preparação:
+○
+Contratação de bancos coordenadores, auditorias e registro na CVM;
+●
+Roadshow:
+○
+Apresentação da empresa a investidores institucionais;
+●
+Precificação:
+○
+Definição do valor da ação;
+●
+Oferta:
+○
+Ações são vendidas no mercado primário;
+●
+Listagem:
+○
+A empresa passa a ter código (ticker) na bolsa;
+G
+G
+<<<PÁGINA 6>>>
+Mercado Primário x Mercado Secundário
+Característica
+Mercado Primário
+Mercado Secundário
+O que ocorre
+Emissão nova de ações
+Negociação entre investidores
+Quem recebe os recursos
+A empresa emissora
+O investidor que vende
+Exemplo prático
+IPO ou Follow-on
+Compra e venda diária na B3
+Ambiente
+CVM autoriza a oferta
+B3 supervisiona as negociações
+G
+G
+<<<PÁGINA 7>>>
+Follow On
+→ Oferta subsequente de ações feita por uma empresa que já abriu capital;
+→ Tipos de follow-on:
+●
+Primário:
+○
+Recursos vão para a empresa (novo aumento de capital);
+●
+Secundário:
+○
+Recursos vão para o acionista que está vendendo ações antigas;
+→ Exemplo: a Petrobras (PETR4) realizou follow-ons em 2012 e 2022, levantando bilhões 
+para reduzir dívida;
+G
+G
+<<<PÁGINA 8>>>
+OPA - Oferta Pública de Aquisição
+→ Operação inversa ao IPO:
+●
+É a compra pública de ações de uma empresa já listada;
+→ Objetivos da OPA:
+●
+Fechar o capital (cancelar registro na CVM);
+●
+Reestruturar o controle acionário;
+●
+Aumentar participação de um acionista;
+G
+G
+<<<PÁGINA 9>>>
+O papel da CVM e da B3
+→ A CVM regula e fiscaliza as ofertas públicas (IPO, Follow-on, OPA):
+●
+A B3 oferece o ambiente de negociação e liquidação;
+●
+Ambas atuam juntas para garantir transparência, acesso e proteção ao investidor;
+→ Fundamentos legais:
+•
+Lei nº 6.385/76
+•
+Lei nº 6.404/76
+•
+Resoluções CVM 160/22 (ofertas públicas) e 85/22 (OPAs).
+G
+G
+<<<PÁGINA 10>>>
+Resumo do Klebão
+→ IPO: empresa abre capital para captar recursos e listar ações;
+→ Primário: Dinheiro para a empresa;
+→ Secundário: Dinheiro vai para o sócio sair da empresa;
+→ Follow-on: nova emissão de ações por empresa já listada.
+→ OPA: aquisição pública de ações (pode fechar capital).
+G
+G
