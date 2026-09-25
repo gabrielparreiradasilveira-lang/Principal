@@ -1,0 +1,94 @@
+<<<PÁGINA 1>>>
+Classiﬁcação de Pessoas Investidoras
+<<<PÁGINA 2>>>
+Classiﬁcação de Pessoas Investidoras
+<<<PÁGINA 3>>>
+Investidor Normal 
+→ Quem é:
+●
+Pessoa física ou jurídica que não atende aos requisitos de qualificado, 
+profissional ou não residente;
+●
+Representa a grande maioria dos investidores de varejo;
+→ Características:
+●
+Menor nível de sofisticação financeira;
+●
+Acesso restrito a produtos padronizados (Tesouro Direto, fundos abertos de 
+varejo, CDBs, LCIs, LCAs etc.);
+●
+Protegidos por regras de transparência, adequação (suitability) e informações 
+obrigatórias;
+→ Exemplo Prático: Patrícia, que possui R$ 50 mil aplicados em CDB e Tesouro Selic, é 
+investidora geral.
+<<<PÁGINA 4>>>
+Investidor Qualiﬁcado
+→ Quem é:
+●
+Pessoa física ou jurídica que possui mais de R$ 1 milhão em aplicações 
+financeiras, com termo de ciência assinado;
+●
+Ou possui certificações reconhecidas (CPro I, CFP, CFA, gestores autorizados 
+pela CVM);
+→ Características:
+●
+Pode acessar produtos com maior complexidade e risco, como:
+○
+Fundos estruturados (FIDC, FII, FIP);
+○
+COEs sem proteção de capital;
+○
+Ofertas restritas (ICVM 476);
+→ Exemplo Prático:
+●
+Werner tem R$ 1,5 milhão investidos em fundos multimercado → qualificado;
+●
+Helena, mesmo com apenas R$ 100 mil aplicados, mas certificada CFP → 
+também qualificada;
+<<<PÁGINA 5>>>
+Investidor Proﬁssional 
+→ Quem é:
+●
+Instituições financeiras e Fundos de investimento;
+●
+Pessoas físicas/jurídicas com mais de R$ 10 milhões aplicados e termo de 
+ciência;
+●
+Gestores, administradores e consultores autorizados pela CVM;
+→ Características
+●
+Têm acesso a todos os produtos do mercado, inclusive os mais arriscados e 
+complexos;
+●
+Presume-se 
+que 
+dispensam 
+proteção 
+adicional 
+de 
+suitability 
+(maior 
+responsabilidade sobre as próprias decisões);
+→ Exemplo Prático
+●
+Kleber, gestor autorizado pela CVM, é automaticamente profissional, mesmo sem 
+patrimônio declarado;
+<<<PÁGINA 6>>>
+Investidor não Residente 
+→ Quem é:
+●
+Pessoa física ou jurídica com residência/sede fora do Brasil;
+→ Características
+●
+Podem investir no mercado brasileiro via:
+○
+Resolução CMN 4.373/2014 (investimento estrangeiro em portfólio);
+○
+Registro no Bacen (RDE-Portfolio);
+○
+Intermediação obrigatória de custodiante local;
+→ Tributação diferenciada em renda fixa e variável;
+→ Exemplo Prático:
+●
+Noah mora em Nova York e aplica em fundos brasileiros via custódia em banco 
+local → não residente;
