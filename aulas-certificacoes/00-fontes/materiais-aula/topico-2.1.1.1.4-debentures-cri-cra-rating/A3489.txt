@@ -1,0 +1,90 @@
+<<<PÁGINA 1>>>
+Rating e a Classiﬁcação de Risco
+
+<<<PÁGINA 2>>>
+Classiﬁcação de Risco
+
+<<<PÁGINA 3>>>
+Rating
+→ Definição: Avaliação de risco de crédito feito por agências especializadas;
+→ Objetivo: Medir a capacidade de o emissor honrar suas obrigações:
+●
+Nota Alta: Menor Retorno;
+●
+Nota Baixa: Maior Retorno;
+→ Tipos:
+●
+Rating Soberano: Países;
+●
+Rating Corporativo: Empresas;
+●
+Rating de Emissões: De um título de dívida específico;
+
+<<<PÁGINA 4>>>
+Principais Agências de Rating
+→ Existem 3 agências com relevância Global:
+●
+Moody’s: Escala de notas de Aaa - C;
+●
+Standard & Poor’s: Escala de notas de AAA a D;
+●
+Fitch Ratings: Escala de notas de AAA a D;
+
+<<<PÁGINA 5>>>
+
+<<<PÁGINA 6>>>
+Rating Risco Soberano
+→ O que é:
+●
+Risco de um país não honrar suas obrigações financeiras;
+●
+Representa o nível de confiança que investidores e credores têm na capacidade de 
+pagamento;
+→ O que as agências avaliam:
+●
+Situação Fiscal: dívida/PIB, déficit público e sustentabilidade de contas;
+●
+Política Econômica: credibilidade do BACEN e previsibilidade fiscal;
+●
+Setor Externo: reservas internacionais e dependência de capital estrangeiro;
+●
+Estabilidade Política e Institucional: segurança jurídica, governabilidade, risco ruptura;
+●
+Histórico de Calote e reestruturações de dívida;
+
+<<<PÁGINA 7>>>
+Rating Corporativo
+→ Como é usado no mercado:
+●
+Bancos e empresas emitem títulos (CDB, debêntures, CRIs, LCIs);
+●
+O rating vai impactar:
+○
+Taxa de Juros Oferecida;
+○
+Exigências e garantias;
+○
+Elegibilidade em fundos de investimento;
+●
+Pontos analisados:
+○
+Situação Financeira: endividamento, liquidez, fluxo de caixa e margens;
+○
+Governança Corporativa: transparência, controle e qualidade de gestão;
+○
+Setor de Atuação: estabilidade, regulação e concorrência;
+○
+Perspectiva de Lucro: previsibilidade de receitas e resiliência em crises;
+○
+Suporte de grupo Econômico: garantias, controladores e estrutura societária;
+
+<<<PÁGINA 8>>>
+Rating Corporativo
+→ Aplicabilidade:
+●
+A empresa Helena Energias S.A vai emitir uma debênture incentivada.
+○
+Fitch atribuiu nota AAA → investidores exigem retorno de 105% do CDI;
+○
+Se o Fitch tivesse atribuído nota BBB → Investidores demandariam um retorno de 
+115% do CDI;

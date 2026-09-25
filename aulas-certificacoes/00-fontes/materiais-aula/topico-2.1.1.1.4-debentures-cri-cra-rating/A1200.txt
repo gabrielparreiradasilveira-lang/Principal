@@ -1,0 +1,95 @@
+<<<PÁGINA 1>>>
+Debêntures e suas Garantias 
+
+<<<PÁGINA 2>>>
+Como funcionam?
+
+<<<PÁGINA 3>>>
+Estrutura de Funcionamento
+→ Debêntures: o elo entre empresas e investidores;
+→ Empresas captam recursos → Investidores recebem juros;
+→ Títulos de dívida corporativa emitidos por Sociedades Anônimas:
+●
+Alternativa ao financiamento bancário;
+
+<<<PÁGINA 4>>>
+Características Principais
+→ Emitidas apenas por Sociedades Anônimas não financeiras;
+→ Prazo: geralmente longo (3 a 10 anos);
+→ Valor nominal definido na emissão;
+→ Remuneração: prefixada, pós-fixada ou híbrida;
+→ Podem prever prêmios vinculados ao desempenho da empresa;
+→ Negociadas no mercado de capitais (CVM/B3);
+●
+Não possuem garantia do FGC;
+
+<<<PÁGINA 5>>>
+Escritura da Emissão
+→ Documento que rege toda a emissão da debênture;
+→ Define:
+●
+Prazo e remuneração;
+●
+Garantias da emissão;
+●
+Possibilidade de conversão ou permuta;
+●
+Direitos e deveres das partes;
+→ Inclui o papel do agente fiduciário, que defende os interesses dos investidores;
+
+<<<PÁGINA 6>>>
+Tipos Garantia
+→ Garantia Real: Bem específico dado em garantia (imóvel, máquina, recebível);
+→ Garantia Flutuante: Bens do ativo circulante, substituíveis pela empresa;
+→ Quirografária: Sem garantia real; investidor entra na fila de credores comuns;
+→ Subordinada: Recebe apenas depois dos credores quirografários;
+
+<<<PÁGINA 7>>>
+Debêntures de Infraestrutura
+→ Criadas pela Lei nº 12.431/2011;
+→ Finalidade: financiar projetos de infraestrutura de longo prazo;
+→ Setores: energia, transporte, telecomunicações, saneamento;
+→ Incentivo fiscal;
+→ Normalmente indexadas ao IPCA ou ao CDI;
+→ Prazos longos, normalmente acima de 5 anos;
+
+<<<PÁGINA 8>>>
+Debêntures Conversíveis
+→ Permitem a conversão em ações da própria empresa emissora;
+●
+Conversão é um direito, e não uma obrigação;
+●
+Conversão deve estar prevista na escritura de emissão e no estatuto social;
+○
+Conversão implica em aumento de capital;
+○
+Pode ocorrer diluição acionária dos antigos sócios;
+→ Vantagem: Possibilidade de ganhar com a valorização das ações;
+→ Risco: Se as ações não valorizarem, pode ser melhor manter a debênture como título de 
+dívida;
+
+<<<PÁGINA 9>>>
+Debêntures Permutáveis
+→ Permitem a troca por ações de outra empresa (coligada ou controlada);
+→ Geralmente emitidas por holdings com subsidiárias listadas em bolsa:
+●
+Exemplo teórico: MRV emite debêntures permutáveis em ações do Banco Inter;
+→ Vantagem: acesso a ações com liquidez de mercado;
+→ Risco: depende da performance de uma empresa diferente da emissora;
+
+<<<PÁGINA 10>>>
+Riscos e Oportunidades
+→ Oportunidades:
+●
+Rentabilidade maior que títulos públicos;
+●
+Diversificação da carteira de investimentos;
+●
+Benefícios fiscais nas debêntures de infraestrutura;
+→ Riscos:
+●
+Risco de crédito (calote da empresa emissora);
+●
+Risco de liquidez (dificuldade de vender no mercado secundário);
+●
+Ausência de proteção do FGC;

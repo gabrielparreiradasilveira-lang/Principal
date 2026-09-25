@@ -1,0 +1,72 @@
+<<<PÁGINA 1>>>
+CRI e CRA
+
+<<<PÁGINA 2>>>
+CRI e CRA
+
+<<<PÁGINA 3>>>
+Conceito de Securitização
+→ Securitização: transformar recebíveis (aluguéis, financiamentos, vendas a prazo, exportações) 
+em títulos negociáveis;
+→ Função: antecipar fluxos de caixa para empresas e criar ativos para investidores;
+→ Base legal: Lei nº 9.514/97 (imobiliária) e Lei nº 11.076/2004 (agronegócio);
+→ Quem emite: Companhias securitizadoras;
+→ Órgão regulador: CVM (valores mobiliários);
+
+<<<PÁGINA 4>>>
+O que é um CRI?
+→ O que é: título de renda fixa emitido por securitizadoras, lastreado em créditos imobiliários;
+→ Lastro: financiamentos habitacionais, recebíveis de aluguéis, vendas de imóveis a prazo, 
+carteiras de crédito imobiliário;
+→ Objetivo: captar recursos para o setor imobiliário;
+→ Benefício ao investidor:
+●
+Fluxo de caixa atrelado à inflação (IPCA) ou CDI;
+●
+Rentabilidade geralmente superior a CDB/LCI;
+●
+Benefício Fiscal;
+
+<<<PÁGINA 5>>>
+O que é um CRA?
+→ O que é: título de renda fixa emitido por securitizadoras, lastreado em créditos do agronegócio;
+→ Lastro: Cédulas de Produto Rural (CPR), duplicatas de cooperativas, contratos de exportação 
+agrícola, recebíveis de indústrias ligadas ao agro;
+→ Objetivo: financiar produtores, cooperativas e tradings do setor agro;
+→ Benefício ao investidor:
+●
+Rentabilidade atrativa, muitas vezes acima da renda fixa bancária;
+●
+Isenção de IR para pessoa física;
+●
+Exposição a um dos setores mais fortes da economia brasileira;
+
+<<<PÁGINA 6>>>
+Estrutura da Emissão
+→ Cedente: empresa que gera os recebíveis;
+→ Securitizadora: transforma os recebíveis em títulos;
+→ Investidor: compra os CRI/CRA;
+→ Agência de Rating: avalia risco de crédito;
+→ B3: mercado de negociação;
+
+<<<PÁGINA 7>>>
+→ Renda fixa privada;
+→ Não possuem cobertura do FGC;
+→ Podem ter:
+●
+Indexadores: CDI, IPCA, prefixado;
+●
+Garantias: hipoteca, alienação fiduciária, penhor de recebíveis;
+→ Tributação:
+●
+Benefício Fiscal;
+●
+PJ paga IR conforme regime tributário;
+Características Importantes
+
+<<<PÁGINA 8>>>
+Riscos dos CRIs e CRAs
+→ Risco de Crédito: inadimplência dos devedores;
+→ Risco de Liquidez: baixa negociação no mercado secundário;
+→ Risco Setorial: crise imobiliária ou agrícola pode afetar os recebíveis;
+→ Risco de Estrutura: falha na securitização ou rating mal atribuído;
