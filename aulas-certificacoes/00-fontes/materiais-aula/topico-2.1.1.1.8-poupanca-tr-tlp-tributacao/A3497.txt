@@ -1,0 +1,132 @@
+<<<PÁGINA 1>>>
+Taxa Referencial e
+Taxa de Longo Prazo
+
+<<<PÁGINA 2>>>
+Taxa Referencial e Taxa de Longo Prazo
+
+<<<PÁGINA 3>>>
+Importância das Taxas de Referência
+→ As taxas de referência servem para dar padronização e previsibilidade a contratos e 
+investimentos:
+●
+Permitem que o governo controle a indexação da economia e defina custos de 
+crédito sustentáveis;
+→ No Brasil, as principais são:
+●
+SELIC: define o custo do dinheiro na economia;
+●
+CDI: reflete o custo do dinheiro entre bancos;
+●
+TR: corrige poupança e contratos habitacionais;
+●
+TLP: orienta o custo de financiamentos do BNDES;
+
+<<<PÁGINA 4>>>
+TR: Taxa Referencial
+→ A Taxa Referencial (TR) foi criada pela Lei nº 8.177/1991:
+●
+Criada durante o Plano Collor II;
+●
+Servir como índice de correção monetária para aplicações e financiamentos;
+→ IMPORTANTE: A TR não reflete a inflação, mas uma taxa de referência derivada das taxas 
+médias de juros de mercado;
+→ Utilizada para:
+●
+Correção da caderneta de poupança;
+●
+Financiamentos Habitacionais;
+●
+Saldo do FGTS;
+
+<<<PÁGINA 5>>>
+Como é Calculada a TR
+→ A TR é calculada a partir da TBF (Taxa Básica Financeira), que representa a média 
+ponderada das taxas de CDBs e RDBs prefixados emitidos pelos maiores bancos;
+→ Etapas do cálculo:
+●
+O Bacen calcula a TBF diária com base nessas taxas;
+○
+Aplica-se um redutor (R) definido pelo CMN, que reduz o efeito da inflação;
+
+<<<PÁGINA 6>>>
+Comportamento da TR
+→ Durante quase uma década, a Taxa Referencial (TR) permaneceu zerada, especialmente 
+entre 2017 e 2021, quando o Brasil viveu um período de juros básicos historicamente baixos 
+(Selic entre 2% e 6% a.a.):
+●
+Nessa época, a TBF (Taxa Básica Financeira) também caiu, e o redutor aplicado na 
+fórmula da TR praticamente anulava o resultado — levando a TR a 0,00% ao mês;
+→ Com a alta expressiva da Selic a partir de 2022, a TBF voltou a subir, e a TR voltou a 
+registrar valores positivos, embora ainda muito inferiores às demais taxas de mercado;
+Período
+Contexto econômico
+Faixa da Selic
+Faixa da TR mensal
+2017–2021
+Juros baixos / estímulo à economia
+2% a 6% a.a.
+0,00%
+2022–2023
+Reação inflacionária global
+10% a 13,75% a.a.
+0,05% a 0,12%
+2024–2025
+Juros altos e inflação controlada
+10,75% a 12% a.a.
+0,10% a 0,15%
+
+<<<PÁGINA 7>>>
+TLP - Taxa de Juros de Longo Prazo
+→ TLP (Taxa de Longo Prazo) foi criada pela Lei nº 13.483/2017, substituindo a antiga TJLP;
+●
+O objetivo foi aproximar o custo dos financiamentos do BNDES das taxas de 
+mercado, tornando a política de crédito mais transparente e previsível;
+→ Antes, a TJLP era definida politicamente:
+●
+Agora, a TLP segue critérios técnicos baseados no mercado;
+
+<<<PÁGINA 8>>>
+→ A TLP é composta por dois componentes:
+●
+Inflação oficial (IPCA):
+○
+Mantém o valor real do financiamento;
+●
+Taxa de Juros de Longo Prazo:
+○
+Derivada do rendimento das NTN-B (Tesouro IPCA+) de 5 anos;
+→ Fórmula simplificada:
+TLP = IPCA + juros reais (NTN-B 5 anos);
+●
+A TLP é recalculada mensalmente e divulgada pelo Bacen;
+Formação da TLP
+
+<<<PÁGINA 9>>>
+Utilização da TLP
+→ A TLP é usada como taxa de referência em:
+●
+Financiamentos do BNDES para empresas e infraestrutura;
+●
+Linhas de crédito de longo prazo de bancos públicos;
+●
+Operações que buscam proteção contra inflação;
+→ Vantagem:
+●
+Reduz subsídios fiscais e melhora a sustentabilidade das contas públicas;
+●
+Torna os financiamentos mais previsíveis para o tomador e para o governo;
+
+<<<PÁGINA 10>>>
+Resumo do Klebão
+→ A TR ainda nasce da TBF, baseada em taxas de CDBs e RDBs prefixados, ajustada para 
+conter a inflação;
+→ A TLP usa o IPCA + juros reais de mercado, refletindo o custo real do dinheiro a longo 
+prazo;
+→ Enquanto a TR é indexador de contratos e poupança, a TLP é taxa-guia de crédito 
+produtivo;
+→ Em resumo:
+●
+TR = referência nominal;
+●
+TLP = referência real;

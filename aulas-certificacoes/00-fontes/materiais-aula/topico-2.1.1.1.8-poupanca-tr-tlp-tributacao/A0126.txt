@@ -1,0 +1,207 @@
+<<<PÁGINA 1>>>
+Tributação de Renda Fixa
+
+<<<PÁGINA 2>>>
+Tributação de Renda Fixa
+
+<<<PÁGINA 3>>>
+IOF - Imposto sobre Operações Financeiras
+→ Base de cálculo:
+●
+Rendimento BRUTO, valor do rendimento;
+→ Fato gerador: ocorre quando o rendimento se torna disponível ao investidor, ou seja:
+●
+No resgate total ou parcial:
+○
+No vencimento;
+○
+Amortizações do título;
+→ Objetivo: Desestimular operações de curtíssimo prazo;
+●
+É cobrado quando o resgate ocorrer antes de 30 dias;
+→ Recolhimento: na fonte pela instituição financeira;
+
+<<<PÁGINA 4>>>
+Tabela Regressiva de IOF
+Dias
+% 
+Dias
+%
+Dias
+%
+1
+96%
+11
+63%
+21
+30%
+2
+93%
+12
+60%
+22
+26%
+3
+90%
+13
+56%
+23
+23%
+4
+86%
+14
+53%
+24
+20%
+5
+83%
+15
+50%
+25
+16%
+6
+80%
+16
+46%
+26
+13%
+7
+76%
+17
+43%
+27
+10%
+8
+73%
+18
+40%
+28
+6%
+9
+70%
+19
+36%
+29
+3%
+10
+66%
+20
+33%
+30
+0%
+
+<<<PÁGINA 5>>>
+Base e Fato Gerador do Imposto de Renda
+→ Base de cálculo:
+●
+Rendimento LÍQUIDO, isto é, a diferença entre o valor resgatado e o valor aplicado;
+→ Fato gerador: ocorre quando o rendimento se torna disponível ao investidor, ou seja:
+●
+No resgate total ou parcial:
+○
+No vencimento;
+○
+Amortizações do título;
+→ Recolhimento:
+●
+O imposto é retido na fonte pela instituição financeira.
+
+<<<PÁGINA 6>>>
+Tabela Regressiva de Imposto de Renda
+→ Tabela Regressiva do Imposto de Renda:
+→ Quanto maior o prazo, menor o imposto;
+Prazo da aplicação
+Alíquota de IR
+Até 180 dias
+22,5%
+De 181 a 360 dias
+20%
+De 361 a 720 dias
+17,5%
+Acima de 720 dias
+15%
+
+<<<PÁGINA 7>>>
+Aplicações que seguem a tabela Regressiva
+→ Títulos Bancários:
+●
+CDB, RDB, LC (Letra de Câmbio) e LF (Letra Financeira);
+→ Títulos Públicos Federais:
+●
+Tesouro Direto (LTN, NTN-F, LFT, NTN-B, NTN-B Principal);
+→ Títulos Corporativos:
+●
+Debêntures não incentivadas e Notas Promissórias de curto prazo;
+→  Outros Instrumentos:
+●
+COE, DPGE e  Títulos de Capitalização (parcela de rendimento);
+
+<<<PÁGINA 8>>>
+Aplicações que seguem a tabela Regressiva
+→  Fundos de Investimento:
+●
+Fundos de Renda Fixa:
+○
+Longo Prazo: Seguem a tabela integral;
+○
+Curto Prazo: Alíquota Mínima de 20%;
+○
+Fundo Multimercado;
+○
+Fundo Cambial;
+■
+Nos fundos de investimento existe a antecipação de IR via come cotas;
+●
+Sempre a menor alíquota do fundo;
+
+<<<PÁGINA 9>>>
+Cobrança do IR em Aplicações Financeiras
+→ O IR é retido na fonte pela instituição financeira no fato gerador:
+●
+No resgate total ou parcial:
+○
+Vencimento;
+○
+Amortizações;
+○
+Resgate Parcial;
+○
+Antecipação via come cotas (último dia útil de maio e novembro);
+■
+O valor antecipado é compensado ao final;
+
+<<<PÁGINA 10>>>
+Aplicações isentas ou Regras Especial
+→ Isentos de IR para pessoas físicas:
+●
+Crédito Imobiliário e Agronegócio:
+○
+CRI e CRA;
+○
+LCI e LCA;
+○
+LIG;
+○
+Caderneta de Poupança;
+●
+Infraestrutura:
+○
+Debêntures incentivadas;
+○
+Fundos de Debêntures Incentivadas;
+○
+Fundos de Infraestrutura;
+
+<<<PÁGINA 11>>>
+Resumo do Klebão
+→ IR na renda fixa: tabela regressiva (22,5% a 15%);
+→ IOF:  apenas até 30 dias
+→ Isenções:
+●
+Imobiliário;
+●
+Agro;
+●
+Infraestrutura;
+→ Fato gerador: momento em que o rendimento é disponibilizado;
+→ Recolhimento: Sempre na fonte;

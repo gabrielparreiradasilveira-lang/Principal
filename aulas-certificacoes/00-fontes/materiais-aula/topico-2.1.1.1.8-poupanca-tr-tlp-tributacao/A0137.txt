@@ -1,0 +1,130 @@
+<<<PÁGINA 1>>>
+Caderneta de Poupança
+
+<<<PÁGINA 2>>>
+Caderneta de Poupança
+
+<<<PÁGINA 3>>>
+O que é a Caderneta de Poupança?
+→ Aplicação de renda fixa com rentabilidade regulada por lei, supervisionada pelo Banco 
+Central;
+→ Isenta de tarifas, de baixo risco e de fácil acesso;
+→ Garantida pelo Fundo Garantidor de Créditos (FGC) até R$ 250 mil por CPF e por 
+instituição;
+→ Indicada para investidores conservadores e reservas de emergência;
+→ Principal Funding do Sistema Financeiro da Habitação;
+
+<<<PÁGINA 4>>>
+O Sistema Financeiro da Habitação
+→ Criado em 1964 para financiar a casa própria, especialmente para famílias de renda média 
+e baixa. Como funciona:
+●
+Bancos e caixas captam recursos via poupança;
+●
+Esses recursos são direcionados a empréstimos imobiliários;
+●
+O SFH define limites de valor, juros máximos e condições de crédito;
+●
+O Bacen e o CMN supervisionam e estabelecem as regras de funcionamento;
+→ Principais características:
+●
+Taxa de juros limitada (~12% a.a. máximo);
+●
+Financiamentos em R$ até 2,25 milhões (após 2025);
+●
+Garantia hipotecária ou alienação fiduciária;
+●
+Financiamentos de longo prazo (até 35 anos).
+○
+Essência: o SFH é o elo que transforma a poupança do investidor em crédito 
+imobiliário.
+
+<<<PÁGINA 5>>>
+A importância do SFH
+→ Principal Funding do SFH. Nova regra (transição até 2027):
+●
+100% da Captação serve de referência para o volume de crédito imobiliário 
+contratado;
+●
+Para usar recursos livres, o banco deve primeiro financiar imóveis;
+●
+80% dos créditos devem seguir regras do SFH;
+●
+Teto de imóvel sobe de R$ 1,5 mi → R$ 2,25 mi;
+
+<<<PÁGINA 6>>>
+→ Estrutura de Funcionamento:
+●
+O cliente deposita recursos na caderneta;
+●
+O banco usa parte para financiar imóveis;
+●
+O rendimento é creditado mensalmente na data de aniversário;
+→ Instituições autorizadas:
+●
+Bancos múltiplos com carteira de poupança;
+●
+Caixas econômicas;
+●
+Associações de poupança e empréstimo (APE);
+Estrutura de Funcionamento
+
+<<<PÁGINA 7>>>
+Rentabilidade
+→ A remuneração VARIA conforme a taxa Selic:
+●
+Selic > 8,5% a.a. → 0,5% a.m. + TR;
+●
+Selic ≤ 8,5% a.a. → 70% da Selic + TR;
+●
+Exemplo:
+○
+Selic 15,00% → 0,5% a.m. + TR;
+○
+Selic 8% → 70% × 8% = 5,6% a.a. + TR;
+→ TR (Taxa Referencial): calculada pelo Bacen, geralmente próxima de zero;
+
+<<<PÁGINA 8>>>
+Data de Aniversário
+→ A poupança rende uma vez por mês, na data de aniversário de cada depósito;
+●
+Cada aporte cria sua própria “data-base”, e o rendimento é calculado sobre o 
+menor saldo do período entre dois aniversários;
+→ Regras Chave:
+●
+Rendimento por depósito: Cada depósito possui sua própria data de aniversário;
+●
+Saque antes do aniversário: Zera o rendimento;
+●
+Depósitos em 29, 30 ou 31: Têm como data de aniversário o dia 1º do mês 
+seguinte;
+●
+Cálculo do rendimento: Rentabilidade mensal sobre o menor saldo do período;
+●
+Vários depósitos, várias datas;
+
+<<<PÁGINA 9>>>
+Custo e Tributação
+→ Custo: Sem tarifas de manutenção ou resgate;
+→ Tributação:
+●
+Isenta de IR e IOF para pessoa física;
+●
+Pessoa jurídica: tributação de 22,50% de IR e rentabilidade trimestral;
+→ IMPORTANTE:
+●
+Caderneta de Poupança é isenta de IR e IOF para Pessoa Física;
+
+<<<PÁGINA 10>>>
+Riscos
+→ Risco de crédito: mitigado pelo FGC (vide regras);
+→ Risco de inflação: rendimento pode ficar abaixo da inflação;
+→ Risco de liquidez: baixo, porém se sacar antes da data de aniversário não obtém 
+rendimento;
+
+<<<PÁGINA 11>>>
+Resumo do Klebão
+→ Poupança é a principal fonte do SFH;
+→ Nova regra (2026 → 2027): 100% da captação referência o crédito habitacional;
+→ Rentabilidade = 0,5% + TR ou 70% Selic + TR;
+→ Isenta de IR e IOF para PF;
