@@ -1,0 +1,148 @@
+<<<PÁGINA 1>>>
+Ferramentas do BACEN para 
+Intermediação Financeira
+<<<PÁGINA 2>>>
+Ferramentas do BACEN para Intermediação
+<<<PÁGINA 3>>>
+O Papel do BACEN na Intermediação
+→ O BACEN não é um intermediário, mas o supervisor prudencial do sistema;
+→ Seu papel é garantir que bancos e instituições financeiras façam a intermediação de forma 
+segura, líquida e estável;
+→ Atua por meio de normas, requerimentos e instrumentos que reduzem riscos e previnem 
+crises;
+<<<PÁGINA 4>>>
+O que é Intermediação Financeira
+→ Intermediação financeira é o processo em que bancos captam recursos de quem tem sobra 
+(poupadores) e emprestam para quem precisa (tomadores);
+●
+Transferência de Recursos entre os Agentes;
+●
+Exemplo: você aplica no CDB → o banco empresta para uma empresa;
+●
+O Bacen cria regras para que esse processo ocorra sem colocar o sistema em risco;
+<<<PÁGINA 5>>>
+Risco Sistêmico
+→ Risco sistêmico é o risco de colapso do sistema financeiro como um todo;
+→ Ocorre quando o problema de uma instituição se espalha para outras;
+→ Exemplo:
+●
+Falência de um grande banco;
+○
+Quebra de confiança;
+■
+Corridas bancárias;
+●
+Retração do crédito;
+→ O Bacen atua evitando o efeito dominó com medidas preventivas;
+<<<PÁGINA 6>>>
+Riscos Prudenciais
+→ Os principais riscos que o Bacen busca controlar:
+●
+Risco de crédito: inadimplência de clientes;
+●
+Risco de liquidez: falta de recursos para honrar obrigações;
+●
+Risco de mercado: variação de taxas de juros, câmbio ou preços;
+●
+Risco de alavancagem: excesso de operações com pouco capital próprio;
+→ O controle desses riscos mantém o sistema sólido e a economia real estável;
+<<<PÁGINA 7>>>
+Ferramentas Prudenciais
+→ As ferramentas do Bacen são chamadas de requerimentos prudenciais;
+●
+Servem para garantir a solidez das instituições financeiras;
+→ Principais ferramentas:
+●
+Patrimônio de Referência (PR);
+●
+Ativos Ponderados pelo Risco (RWA);
+●
+Índice de Basileia;
+●
+Buffers de capital;
+●
+LCR (Liquidez de curto prazo);
+●
+NSFR (Liquidez de longo prazo);
+<<<PÁGINA 8>>>
+Acordos de Basileia
+→ Acordos internacionais criados pelo BIS (Banco de Compensações Internacionais):
+●
+Servem de base para as regras prudenciais seguidas no mundo todo;
+○
+Basileia I (1988): foco no risco de crédito;
+○
+Basileia II (2004): inclui riscos de mercado e operacional;
+○
+Basileia III (2010): fortalece o capital e a liquidez dos bancos;
+<<<PÁGINA 9>>>
+Patrimônio de Referência
+→ Representa o capital próprio efetivo que o banco possui para cobrir perdas e sustentar suas 
+operações: É formado por:
+●
+Nível I: capital principal (ações, lucros retidos);
+●
+Nível II: instrumentos de dívida subordinada e ajustes regulatórios;
+→ Quanto maior o PR, maior a capacidade do banco de absorver choques sem quebrar;
+<<<PÁGINA 10>>>
+Ativos Ponderados pelo Risco
+→ O RWA ou Ativos Ponderados pelo risco ajusta o valor dos ativos conforme o risco de cada 
+operação.
+●
+Empréstimos a empresas arriscadas: alta ponderação;
+●
+Títulos públicos: baixa ponderação;
+→ Exemplo:
+Um ativo de R$ 100 com risco de 50% → RWA = R$ 50;
+→ Serve para medir quanto capital o banco precisa manter em relação ao risco total da sua 
+carteira;
+<<<PÁGINA 11>>>
+Índice de Basileia
+→ Mede a relação entre o PR (capital próprio) e o RWA (risco das operações):
+●
+Fórmula:
+→ No Brasil, o mínimo exigido é 8% + buffers;
+→ Garante que o banco tenha capital suficiente para absorver perdas e manter a confiança do 
+mercado;
+<<<PÁGINA 12>>>
+Buffers de Capital
+→ “Almofadas de segurança” exigidas além do mínimo de Basileia;
+●
+Buffer de conservação: reserva permanente para tempos de estresse;
+●
+Buffer contracíclico: ajustável conforme o ciclo econômico;
+→ Evitam que os bancos parem de emprestar em períodos de crise;
+<<<PÁGINA 13>>>
+Ferramentas de Liquidez
+→ Garantem que os bancos tenham recursos suficientes no curto e longo prazo:
+●
+LCR (Liquidity Coverage Ratio): exige que o banco mantenha ativos líquidos de 
+alta qualidade suficientes para 30 dias de saídas;
+●
+NSFR (Net Stable Funding Ratio): exige fontes de captação estáveis para financiar 
+ativos de longo prazo
+→ Ambos reforçam a capacidade do sistema de enfrentar choques.
+<<<PÁGINA 14>>>
+Medidas Macroprudenciais do BACEN
+→ Além dos requerimentos de Basileia, o Bacen utiliza ferramentas próprias:
+●
+Depósito compulsório: reduz excesso de crédito e controla liquidez;
+●
+LLI e LLT (Linhas Financeiras de Liquidez): fornecem crédito emergencial a 
+instituições sólidas.
+●
+ACCPBrasil: permite financiamento de exportações com segurança.
+→ Todas evitam a propagação de crises e mantêm o sistema funcional;
+<<<PÁGINA 15>>>
+Supervisor Prudencial
+→ O Bacen atua como “pai do sistema financeiro”. Suas funções incluem:
+●
+Monitorar riscos e solvência das instituições;
+●
+Aplicar medidas preventivas;
+●
+Exigir planos de capital e contingência;
+●
+Garantir a estabilidade do sistema financeiro nacional;
+→ IMPORTANTE: O Bacen não intermedeia dinheiro, ele cria as condições para que o 
+sistema funcione com segurança.
