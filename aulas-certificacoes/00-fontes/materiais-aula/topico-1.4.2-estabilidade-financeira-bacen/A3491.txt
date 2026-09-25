@@ -1,0 +1,121 @@
+<<<PÁGINA 1>>>
+Normas e Medidas do BACEN para 
+Estabilidade Financeira
+<<<PÁGINA 2>>>
+Medidas do BACEN para Estabilidade Financeira
+<<<PÁGINA 3>>>
+Papel do BACEN
+→ O Banco Central é o principal responsável por manter o funcionamento estável do Sistema 
+Financeiro Nacional (SFN);
+●
+Seu objetivo é evitar crises que possam afetar os bancos e, consequentemente, 
+toda a economia;
+●
+Principais funções:
+○
+Evitar crises de liquidez no sistema bancário;
+○
+Assegurar a confiança nas instituições financeiras;
+○
+Proteger os depósitos e o crédito do público;
+<<<PÁGINA 4>>>
+Estabilidade Financeira
+→ É a capacidade do sistema financeiro de funcionar normalmente, mesmo diante de 
+choques.
+→ Quando há estabilidade:
+●
+Os bancos mantêm crédito disponível;
+●
+As famílias e empresas conseguem financiar suas atividades;
+●
+O risco de falência em cadeia (risco sistêmico) é reduzido;
+<<<PÁGINA 5>>>
+Instrumentos do BACEN
+→ Para garantir a estabilidade, o Bacen usa instrumentos preventivos e corretivos, como:
+●
+Comitê de Estabilização Financeira (Comef);
+●
+Depósito Compulsório;
+●
+Linhas Financeiras de Liquidez (LLI e LLT);
+→ Esses mecanismos garantem liquidez e confiança no sistema;
+<<<PÁGINA 6>>>
+COMEF
+→ Criado em 2020 após a pandemia de COVID-19;
+→ É um órgão consultivo do Banco Central, responsável por:
+●
+Monitorar riscos ao sistema financeiro;
+●
+Avaliar possíveis crises;
+●
+Propor medidas para preservar a estabilidade;
+→ Atua em conjunto com o Copom (que define juros) e o CMN (que define diretrizes de 
+política monetária e creditícia);
+<<<PÁGINA 7>>>
+Funções do COMEF
+→ Monitoramento:
+●
+Analisa indicadores de risco sistêmico e liquidez bancária;
+→ Orientação:
+●
+Recomenda medidas de estabilização ao Bacen;
+→ Coordenação:
+●
+Integra informações de diversas áreas do sistema financeiro;
+→ IMPORTANTE: O Comef não decide sobre juros ou política monetária;
+●
+Atua na prevenção de crises financeiras;
+<<<PÁGINA 8>>>
+Depósito Compulsório
+→ Parte dos depósitos dos clientes que os bancos são obrigados a manter no Bacen;
+●
+Essa reserva serve como ferramenta de controle de liquidez;
+●
+Exemplo:
+○
+Se o compulsório aumenta → menos dinheiro → reduz a liquidez;
+○
+Se o compulsório diminui → mais crédito disponível → aumenta a liquidez;
+→ Tipos de Depósito Compulsório:
+●
+Depósitos à vista: ~20%;
+○
+Objetivo: Evitar excesso de liquidez imediata;
+●
+Depósitos a prazo: ~20%
+○
+Objetivo: Controlar expansão de crédito;
+●
+Poupança: ~20%;
+○
+Objetivo: Manter estabilidade do sistema habitacional (SFH);
+<<<PÁGINA 9>>>
+→ As Linhas de Liquidez são empréstimos de curto prazo que o Bacen oferece às instituições 
+financeiras em momentos de falta de recursos.
+→ LLI (Linha de Liquidez Imediata):
+●
+Prazo: Curto;
+●
+Público Alvo: Bancos múltiplos, caixas, cooperativas, corretoras e distribuidora
+●
+Finalidade: Suprir falta de caixa no curto prazo;
+→ LLT (Linha de Liquidez de Longo Prazo):
+●
+Prazo: Médio a Longo;
+●
+Público: Bancos e Cooperativas de Crédito;
+●
+Finalidade: Reforço estrutural para garantir crédito contínuo;
+Linhas Financeiras de Liquidez (LDL)
+<<<PÁGINA 10>>>
+Ativos em Garantia
+→ Para acessar as linhas de liquidez, as instituições devem oferecer garantias (colaterais), 
+como:
+●
+Títulos públicos federais;
+●
+Títulos privados com boa classificação de risco;
+●
+Debêntures e CRIs de alta qualidade;
+→ Essas garantias são classificadas pelo rating do ativo e agrupadas em “cestas de ativos” 
+aceitas pelo Bacen;
