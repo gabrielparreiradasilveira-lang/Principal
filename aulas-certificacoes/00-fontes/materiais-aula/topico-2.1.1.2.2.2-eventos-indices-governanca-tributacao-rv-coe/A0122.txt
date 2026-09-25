@@ -1,0 +1,109 @@
+<<<PÁGINA 1>>>
+Tributação de Renda Variável
+<<<PÁGINA 2>>>
+Tributação de Renda Variável
+<<<PÁGINA 3>>>
+IOF - Imposto sobre Operações Financeiras
+→ Renda variável não incide IOF nas operações de compra e venda de ações;
+→ O IOF só aparece em:
+●
+Resgates de renda fixa com prazo < 30 dias (regressivo);
+●
+Operações de câmbio;
+→ Portanto, para a prova:
+●
+Ações, ETFs, FIIs, derivativos = sem incidência de IOF;
+<<<PÁGINA 4>>>
+Varia Conforme o Prazo de Permanência
+→ Operações Comuns:
+●
+Swing Trade: Duração superior a 1 dia;
+●
+15% de IR sobre o ganho de capital;
+○
+Recolhimento pelo próprio investidor.
+●
+IRRF simbólico na fonte (“dedo-duro”):
+○
+0,005% sobre o valor da venda;
+○
+Trata-se de um “adiantamento do imposto devido”;
+●
+Isenções:
+○
+Vendas até R$ 20.000,00;
+<<<PÁGINA 5>>>
+Varia Conforme o Prazo de Permanência
+→ Operações Day Trade:
+●
+Day Trade: Operações com duração inferior a 1 dia;
+●
+20% de IR sobre o ganho de capital;
+○
+Recolhimento pelo próprio investidor.
+●
+IRRF simbólico na fonte (“dedo-duro”):
+○
+1% sobre o lucro;
+○
+Trata-se de um “adiantamento do imposto devido”;
+●
+Isenções:
+○
+Não tem isenções;
+<<<PÁGINA 6>>>
+Compensação de Perdas
+→ Perdas podem ser usadas para reduzir imposto somente dentro da mesma categoria:
+●
+Perdas em operações comuns → compensam lucros em operações comuns;
+●
+Perdas em day trade → compensam lucros em day trade;
+●
+Perdas em FIIs → compensam lucros em FIIs;
+→ Regras gerais:
+●
+Não expiram (podem ser carregadas para sempre);
+●
+Só podem ser usadas se o investidor declarou o prejuízo na declaração anual;
+<<<PÁGINA 7>>>
+Tributação de JCP
+→ O JCP é uma forma de distribuição de resultados dedutível para a empresa, mas tributada 
+para o investidor:
+●
+Alíquota: 15% de IR, retido na fonte pela empresa;
+○
+O valor recebido já chega líquido na conta do investidor.
+→ O JCP deve ser declarado como:
+●
+“Rendimentos Sujeitos à Tributação Exclusiva/Definitiva”.
+●
+JCP não compensa perdas em operações de renda variável;
+<<<PÁGINA 8>>>
+Tributação de Dividendos
+→ Dividendos distribuídos por empresas brasileiras após o lucro líquido e são isentos de IR 
+para o investidor pessoa física:
+●
+Devem ser informados na declaração anual como “Rendimentos Isentos e Não 
+Tributáveis”;
+●
+Dividendos não se confundem com ganho de capital;
+○
+Retenção de 10% para dividendos acima de R$ 50.000,00;
+<<<PÁGINA 9>>>
+Resumo do Klebão
+→ Tributação da Renda Variável
+●
+15% em operações comuns;
+○
+IRRF 0,005% sobre o valor da venda;
+●
+20% em operações de day trade;
+○
+IRRF 1% sobre o lucro;
+→ Isenções
+●
+Vendas até R$ 20.000 no mês (somente operações comuns);
+●
+Dividendos → isentos;
+→ Compensação de Perdas: Perdas não expiram;
+→ IOF: Não existe IOF sobre renda variável;

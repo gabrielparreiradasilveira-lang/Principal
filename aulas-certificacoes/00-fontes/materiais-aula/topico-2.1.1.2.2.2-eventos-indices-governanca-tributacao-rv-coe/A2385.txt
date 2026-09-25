@@ -1,0 +1,147 @@
+<<<PÁGINA 1>>>
+Eventos Corporativos
+<<<PÁGINA 2>>>
+Eventos Corporativos
+<<<PÁGINA 3>>>
+Assembléia Geral Ordinária (AGO)
+→ A Assembleia Geral Ordinária (AGO) é obrigatória uma vez por ano, e deve ocorrer até 
+quatro meses após o encerramento do exercício social;
+→ Principais deliberações da AGO (art. 132 da Lei 6.404/76):
+●
+Aprovação das demonstrações financeiras;
+●
+Destinação do lucro líquido e definição de dividendos;
+●
+Eleição dos membros do conselho de administração;
+●
+Fixação da remuneração dos administradores;
+→ A AGO é o momento de “prestar contas” e decidir como o lucro será distribuído;
+<<<PÁGINA 4>>>
+→ A Assembleia Geral Extraordinária (AGE) é convocada sempre que for necessário deliberar 
+sobre assuntos não tratados na AGO:
+→ Principais deliberações da AGE:
+●
+Aumento ou redução do capital social;
+●
+Fusão, incorporação ou cisão de empresas;
+●
+Alterações no estatuto social;
+●
+Emissão de novas ações ou bônus de subscrição;
+●
+Autorização para grupamentos, desdobramentos ou bonificações;
+Assembléia Geral Extraordinária (AGE)
+<<<PÁGINA 5>>>
+→ O JCP é outra forma de remunerar o acionista, antes do lucro líquido, criada para 
+otimizar a carga tributária da empresa;
+→ Características principais:
+●
+Calculado sobre o patrimônio líquido e limitado à TJLP;
+●
+É dedutível do lucro tributável da empresa;
+●
+Sofre IR retido na fonte de 15% para o investidor pessoa física;
+○
+Tem o mesmo efeito econômico de um dividendo, mas com tratamento fiscal 
+diferente;
+Juros Sobre Capital Próprio (JCP)
+<<<PÁGINA 6>>>
+→ Os dividendos representam a parcela do lucro líquido (após o pagamento de todos os 
+impostos) distribuída aos acionistas de acordo com sua participação acionária:
+→ Regras principais:
+●
+A distribuição é definida na AGO;
+●
+A Lei 6.404/76, art. 202, prevê dividendo mínimo obrigatório de 25% do lucro líquido 
+ajustado;
+●
+Os dividendos são isentos de IR para pessoas físicas;
+Dividendos
+<<<PÁGINA 7>>>
+Boniﬁcação em Ações
+→ A bonificação ocorre quando a empresa transforma parte de seus lucros ou reservas em 
+novas ações distribuídas gratuitamente aos acionistas;
+→ Características:
+●
+O investidor recebe novas ações sem desembolso;
+●
+O patrimônio total não muda (apenas o número de ações);
+●
+Reduz o preço médio por ação, mas mantém o valor total do investimento;
+→ Objetivos:
+●
+Destinação de lucros acumulados (tem limite de acumulação);
+●
+Melhorar a liquidez das ações;
+●
+Equilíbrio de dívida e capital da empresa;
+<<<PÁGINA 8>>>
+Direito de Subscrição
+→ Quando a empresa realiza um aumento de capital, os acionistas têm direito de preferência 
+para comprar as novas ações emitidas;
+→ Características:
+●
+Evita a diluição da participação do investidor;
+●
+O preço de subscrição costuma ser menor que o de mercado;
+●
+O direito pode ser negociado na B3 como um ativo temporário;
+<<<PÁGINA 9>>>
+Calendário Corporativo
+Data
+O que significa
+Data-Com
+Último dia em que o investidor tem direito ao provento.
+Data-Ex
+Primeiro dia em que a ação é negociada sem direito ao provento.
+Data de Pagamento
+Dia em que o valor é efetivamente creditado na conta do investidor.
+<<<PÁGINA 10>>>
+Restituição de Capital
+→ A restituição de capital ocorre quando a empresa reduz seu capital social e devolve parte 
+desse valor aos acionistas;
+→ Pode ocorrer quando:
+●
+A companhia tem excesso de capital e decide devolvê-lo;
+●
+Há redução do número de atividades ou alienação de ativos;
+●
+É feito um encerramento parcial das operações;
+<<<PÁGINA 11>>>
+Grupamentos e Desdobramentos
+→ Dobramento (Inplit):
+●
+Diminui o número de ações, aumentando o preço unitário;
+●
+Corrigir preços muito baixos ou ajustar o lote padrão;
+→ Desdobramento (Split):
+●
+Aumenta o número de ações, reduzindo o preço unitário;
+●
+Tornar a ação mais acessível ao investidor;
+<<<PÁGINA 12>>>
+Resumo do Klebão
+Tema
+Essência
+Dica de Prova
+AGO
+Reunião anual que aprova contas e lucros
+Obrigatória até 4 meses após o exercício
+AGE
+Reúne acionistas para decisões fora da rotina
+Pode alterar estatuto, capital e estrutura
+JCP
+Dedutível p/ empresa, IR de 15%
+Mesma remuneração, mas com vantagem fiscal
+Dividendos
+Parte do lucro distribuída, isenta de IR
+Mínimo legal de 25%
+Bonificação
+Lucro vira novas ações
+Aumenta quantidade, sem desembolso
+Subscrição
+Direito de comprar novas ações
+Protege participação do investidor
+Split / Inplit
+Muda quantidade, não valor
+Split = + ações / Inplit = – ações

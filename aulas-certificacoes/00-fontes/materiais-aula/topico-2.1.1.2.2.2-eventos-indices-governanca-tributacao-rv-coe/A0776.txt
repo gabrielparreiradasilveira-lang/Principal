@@ -1,0 +1,93 @@
+<<<PÁGINA 1>>>
+Índices da Bolsa de Valores
+<<<PÁGINA 2>>>
+Índices da Bolsa de Valores
+<<<PÁGINA 3>>>
+Funções dos Índices Bursáteis
+→ Principais funções:
+●
+Medir o desempenho médio de um conjunto de ações;
+●
+Servir de referência (benchmark) para fundos e carteiras;
+●
+Auxiliar investidores a avaliar risco e retorno da renda variável;
+●
+Indicar o sentimento do mercado (otimismo ou pessimismo);
+→ Na prática:
+●
+Se o Ibovespa cai, significa que a maioria das ações com liquidez relevante caiu 
+também;
+<<<PÁGINA 4>>>
+Ibovespa 
+→ O que o Ibovespa mede:
+●
+Desempenho médio de uma carteira teórica formada pelas ações com maior 
+volume financeiro e liquidez na B3;
+●
+É o indicador mais usado para acompanhar a performance geral da Bolsa;
+●
+Benchmark para fundos de ações, ETFs e comparações de desempenho;
+→ Como ele é calculado
+●
+Base de 100 pontos (ano de 1968);
+●
+A B3 revisa a carteira a cada quatro meses (janeiro, maio e setembro);
+●
+Inclui ações que:
+○
+Estejam entre as mais negociadas em volume financeiro;
+○
+Tenham presença em 95% dos pregões do período;
+○
+Representem aproximadamente 85% do total negociado na Bolsa;
+<<<PÁGINA 5>>>
+→ Mede o desempenho das 100 ações mais negociadas da Bolsa:
+●
+Criado em 1997 pela B3;
+●
+Critério: liquidez e representatividade;
+→ Objetivo: representar um universo mais amplo que o Ibovespa, incluindo ações relevantes;
+→ Exemplo: Empresas de médio e grande porte que movimentam o mercado, mas não estão 
+sempre no Ibovespa;
+IBrX100
+<<<PÁGINA 6>>>
+IBrX50
+→ Mede o desempenho das 50 ações mais líquidas da Bolsa:
+●
+Também criado em 1997;
+●
+Critério: liquidez e negociabilidade;
+→ Uso prático:
+●
+Muito utilizado como benchmark para ETFs e fundos de gestão passiva;
+<<<PÁGINA 7>>>
+Importância dos Índices para o Investidor
+→ Mostram o desempenho agregado do mercado:
+●
+Servem de base para produtos financeiros como ETFs e fundos indexados;
+●
+Permitem comparar resultados (benchmark);
+●
+Indicam a tendência e o humor do mercado;
+→ Exemplo:
+●
+Fundo A rendeu 15% e o Ibovespa 10% → o gestor gerou 5% de alfa;
+●
+Fundo B rendeu 8% → ficou abaixo do mercado;
+<<<PÁGINA 8>>>
+Resumo do Klebão
+→ Índices Bursáteis:
+●
+Índices: = “termômetro” da Bolsa;
+●
+Ibovespa: ~80 ações mais negociadas;
+●
+IBrX 50: 50 ações mais líquidas;
+●
+IBrX 100: 100 ações mais negociadas;
+●
+Atualização: Quadrimestral pela B3;
+●
+Função: Benchmark para fundos e ETFs;
+●
+Cai na prova: função, composição e diferença entre os três índices;

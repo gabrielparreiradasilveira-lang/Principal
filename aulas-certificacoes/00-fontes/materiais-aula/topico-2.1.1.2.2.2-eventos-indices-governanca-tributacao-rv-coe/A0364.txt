@@ -1,0 +1,163 @@
+<<<PÁGINA 1>>>
+Governança Corporativa e
+Proteção do Investidor
+<<<PÁGINA 2>>>
+Governança Corporativa e Proteção do Investidor
+<<<PÁGINA 3>>>
+Importância da Governança Corporativa
+→ Reduz risco para o investidor;
+→ Melhora a qualidade das informações;
+→ Aumenta liquidez e valuation da empresa;
+→ Facilita acesso ao capital (emissões de ações e dívidas);
+→ Ajuda a prevenir fraudes e conflitos societários;
+<<<PÁGINA 4>>>
+Conselho de Administração
+→ Órgão colegiado responsável por definir estratégias e supervisionar a diretoria executiva:
+●
+Atua para equilibrar interesses entre acionistas e gestão;
+●
+Funções típicas:
+○
+Aprovar planos estratégicos;
+○
+Controlar riscos relevantes;
+○
+Nomear/demitir diretores
+○
+Avaliar resultados;
+●
+Em níveis superiores:
+○
+Regras mínimas de independência;
+○
+Mandatos mais claros;
+○
+Maior transparência nas decisões;
+<<<PÁGINA 5>>>
+Composição do Conselho de Administração
+→ Composição do Conselho de Administração:
+●
+Geralmente entre 5 e 11 membros;
+●
+Pode haver conselheiros independentes (não ligados ao controlador);
+●
+Reuniões periódicas com atas divulgadas ao mercado;
+●
+Boas práticas:
+○
+Separação entre Presidente do Conselho e CEO;
+■
+Evitando concentração de poder;
+<<<PÁGINA 6>>>
+Tag Along
+→ Mecanismo de proteção aos acionistas minoritários:
+●
+Quando ocorre venda do controle, o comprador deve oferecer aos minoritários o 
+direito de vender suas ações por um percentual mínimo do preço pago ao 
+controlador;
+●
+Percentuais:
+○
+Lei: 80% para ON;
+○
+N2: 100% ON / 80% PN;
+○
+Novo Mercado: 100% ON;
+■
+Garante tratamento mais justo em caso de mudança de controle;
+<<<PÁGINA 7>>>
+Drag Along
+→ Mecanismo que permite ao acionista controlador obrigar minoritários a vender suas ações 
+em uma oferta de aquisição:
+●
+Usado quando a operação exige que 100% da companhia seja adquirida;
+●
+Protege o controlador e o comprador, pois evita que minoritários impeçam 
+transações;
+<<<PÁGINA 8>>>
+Free Float
+→ Percentual mínimo de ações em circulação no mercado:
+●
+Objetivo:
+○
+Aumentar liquidez e a participação dos investidores;
+●
+Exigências:
+○
+N1, N2 e NM: mínimo de 25% de free float;
+○
+Mercados mais líquidos = maior formação eficiente de preço;
+<<<PÁGINA 9>>>
+Segmentos de Governança da B3
+→ A B3 possui diferentes segmentos de listagem, com exigências crescentes de governança:
+●
+Mercado Tradicional
+○
+Cumpre apenas regras mínimas legais
+●
+Nível 1 (N1):
+○
+Mínimo de 25% de free float;
+○
+Política de divulgação mais estruturada.
+●
+Nível 2 (N2):
+○
+Tag along mínimo de 100% para ON e 80% para PN;
+○
+Arbitragem obrigatória em conflitos societários;
+●
+Novo Mercado:
+○
+Padrão mais elevado de governança da B3;
+○
+Só permite ações ordinárias (ON);
+○
+Tag along 100%;
+○
+Conselho mais estruturado e regras rígidas de transparência;
+<<<PÁGINA 10>>>
+Segmentos de Governança da B3
+Item
+Tradicional
+N1
+N2
+Novo 
+Mercado
+Ações PN
+Permitidas
+Permitidas
+Permitidas
+Não permitido
+Tag Along
+80% ON
+80% ON
+100% ON / 80% PN
+100% ON
+Free Float
+Não há
+≥ 25%
+≥ 25%
+≥ 25%
+Arbitragem
+Não
+Não
+Sim
+Sim
+<<<PÁGINA 11>>>
+Resumo do Klebão
+→ Palavras Chaves da Aula:
+●
+Governança: transparência, equidade, responsabilidade e prestação de contas;
+●
+Novo Mercado: só ON + tag along 100%;
+●
+N2: ON 100%, PN 80%;
+●
+Conselho ≠ diretoria: conselho supervisiona, diretoria executa;
+●
+Tag Along protege minoritário; Drag Along protege controlador;
+●
+Free Float: % mínima de ações em circulação (25%);
+●
+Questões gostam de perguntar diferenças entre NM, N2 e N1;

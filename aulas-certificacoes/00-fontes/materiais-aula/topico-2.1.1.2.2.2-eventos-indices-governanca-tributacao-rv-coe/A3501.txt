@@ -1,0 +1,198 @@
+<<<PÁGINA 1>>>
+COE
+Certiﬁcado de Operações Estruturadas
+<<<PÁGINA 2>>>
+Certiﬁcado de Operações Estruturadas
+<<<PÁGINA 3>>>
+COE - Certiﬁcado de Operações Estruturadas
+→ 
+O COE é um título emitido por instituição financeira:
+●
+Combina renda fixa e derivativos;
+●
+Embalagem estruturada: o banco monta um cenário de retorno usando opções, 
+swaps ou outros derivativos;
+●
+O investidor conhece antes de aplicar:
+○
+Prazos;
+○
+Cenários possíveis;
+○
+Indexadores;
+○
+Proteção ou risco ao capital;
+<<<PÁGINA 4>>>
+Como o COE é Estruturado
+→ Componente de Renda Fixa:
+●
+Compra de um título que garantirá no vencimento a devolução total ou parcial do 
+capital;
+→ Componente Derivativo:
+●
+Uso de opções/derivativos para gerar o ganho variável atrelado ao cenário;
+●
+O banco estrutura a operação dentro do cenário de risco/retorno divulgado no 
+termo de oferta;
+<<<PÁGINA 5>>>
+Principais Regras do COE
+→ Emissão obrigatoriamente por instituição financeira autorizada pelo Bacen;
+●
+Possui prazo determinado (não existe resgate antecipado pelo investidor);
+→ O emissor deve fornecer:
+●
+Cenários de retorno;
+●
+Probabilidade dos cenários (quando aplicável);
+●
+Índice de referência;
+●
+Tipo de capital: protegido ou em risco;
+●
+Derivativos utilizados na estrutura;
+○
+O investidor deve receber o Documento de Informações Essenciais (DIE);
+<<<PÁGINA 6>>>
+COE de Capital Garantido
+→ COE de Capital Garantido:
+●
+Retorno mínimo garantido: o investidor recebe 100% do principal no vencimento;
+●
+Pode ter ganho adicional se o cenário se concretizar;
+●
+Risco do investidor: não participar dos ganhos caso o cenário não aconteça;
+○
+Perda do poder de compra da moeda;
+<<<PÁGINA 7>>>
+COE de Capital Garantido
+→ Exemplo:
+●
+Ativo de Referência: Desempenho do índice S&P 500 (bolsa dos EUA);
+●
+Prazo: 3 anos;
+●
+Capital Protegido: Sim (garantia de receber o valor investido de volta no 
+vencimento, na pior das hipóteses);
+●
+Condição de Ganho: Se o S&P 500 subir, o investidor recebe 80% da valorização 
+total do índice, limitado a um ganho máximo (teto) de 15% sobre o valor investido.
+●
+Condição de Perda: Se o S&P 500 cair, o investidor não perde o capital inicial, 
+recebendo 100% do valor aplicado de volta no vencimento;
+<<<PÁGINA 8>>>
+COE de Capital em Risco
+→ COE de Capital em Risco:
+●
+Não garante devolução integral do valor investido;
+●
+O investidor assume risco de perder parte ou todo o capital dependendo da 
+estrutura;
+●
+Utiliza derivativos mais agressivos: pode oferecer retornos maiores como 
+compensação;
+<<<PÁGINA 9>>>
+→ Exemplo:
+●
+Ativo de referência: Ações da Tesla (TSLA);
+●
+Prazo: 3 anos;
+●
+Participação: 150% da variação positiva;
+●
+Barreira: – 40%;
+●
+Capital: em risco;
+●
+Indexador final: preço da TSLA no vencimento;
+COE de Capital em Risco
+<<<PÁGINA 10>>>
+COE de Capital em Risco
+→ Cenário 1: Tesla + 30%:
+●
+Variação da Tesla: +30%;
+●
+Participação: 150%;
+●
+Retorno do COE: +45%;
+○
+R$ 10.000 → R$ 14.500 no vencimento;
+→ Cenário 2: A ação fica estável:
+●
+Variação: 0%;
+●
+Retorno do COE: 0%, 
+○
+R$ 10.000 → R$ 10.000;
+<<<PÁGINA 11>>>
+COE de Capital em Risco
+→ Cenário 3: A ação cai, mas não toca a barreira (por exemplo –20%):
+●
+Variação: –20%;
+●
+Barreira não foi acionada.
+●
+Retorno segue a variação da Tesla.
+○
+R$ 10.000 → R$ 8.000;
+→  Cenário 4: A ação cai e aciona a barreira (–40% ou mais):
+●
+Variação final da Tesla: –50%;
+●
+Barreira foi acionada → COE “destrava” a perda total do ativo:
+○
+R$ 10.000 → R$ 5.000;
+<<<PÁGINA 12>>>
+Elementos Comuns nos COEs
+→ Elementos Comuns nos COEs:
+●
+Barreiras: níveis que acionam proteção ou perda;
+●
+Participação: percentual de participação na alta (ex: 80% da valorização);
+●
+Cap (teto): limite máximo de ganho;
+●
+Estratégias:
+○
+Neutras: retorno condicionado a estabilidade do preço;
+○
+Direcionais: retorno condicionado à alta ou queda;
+<<<PÁGINA 13>>>
+Tributação do COE
+→ Tributado como Renda Fixa:
+●
+Tabela regressiva de IR:
+●
+Sem IOF regressivo (não tem liquidez antes de 30 dias);
+●
+Não incide come-cotas;
+●
+IR retido na fonte no vencimento;
+Prazo da aplicação
+Alíquota de IR
+Até 180 dias
+22,5%
+De 181 a 360 dias
+20%
+De 361 a 720 dias
+17,5%
+Acima de 720 dias
+15%
+<<<PÁGINA 14>>>
+Resumo do Klebão
+→ Resumo do Klebão:
+●
+COE = estrutura híbrida (RF + derivativos);
+●
+Dois tipos:
+○
+Capital Protegido → não perde o principal;
+○
+Capital em Risco → pode perder dinheiro;
+●
+Não tem FGC, não tem liquidez diária e sempre tem prazo determinado;
+●
+Retornos dependem de cenários pré-definidos;
+●
+Tributação = tabela regressiva da renda fixa, sem come-cotas;
+●
+O investidor deve receber o DIE com cenários e riscos;
