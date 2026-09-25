@@ -1,0 +1,178 @@
+<<<PÁGINA 1>>>
+Regulação e Infraestrutura do Mercado
+<<<PÁGINA 2>>>
+Regulação e Infraestrutura do Mercado
+<<<PÁGINA 3>>>
+O que são as IMF?
+→ São as instituições que garantem que as transações, pagamentos e liquidações ocorram 
+de forma segura e eficiente;
+→ Exemplos:
+●
+Sistema de Pagamentos Brasileiro;
+○
+SPI;
+●
+SELIC (Sistema Especial de Liquidação e Custódia);
+●
+Câmara da B3;
+→ Supervisão:
+●
+Banco Central do Brasil;
+●
+Comissão de Valores Mobiliários (CVM);
+<<<PÁGINA 4>>>
+Função dos Gatekeepers
+→ Os gatekeepers são os “guardiões” da integridade do mercado.
+●
+Eles atuam como intermediários de confiança, garantindo que regras sejam 
+cumpridas;
+→ Principais funções:
+●
+Verificar a regularidade das operações;
+●
+Prevenir fraudes e riscos sistêmicos;
+●
+Assegurar transparência e segurança das transações;
+→ Exemplos: B3, Selic, CETIP (atual B3), CVM e BCB;
+<<<PÁGINA 5>>>
+Sistemas de Pagamentos
+→ O Sistema de Pagamentos é o conjunto de instrumentos, regras e instituições que 
+permitem a transferência de recursos entre pessoas, empresas e governo.
+→ Objetivo: garantir que o dinheiro circule com segurança, rapidez e eficiência;
+→ Abrange cartões, boletos, TED, DOC, Pix, entre outros;
+→ Supervisionado pelo Banco Central;
+<<<PÁGINA 6>>>
+Sistemas de Pagamentos Brasileiro
+→ O SPB é o conjunto de sistemas e instituições que processam pagamentos e 
+transferências no Brasil.
+●
+Criado em 2002, modernizou a liquidação em tempo real;
+●
+Reduz risco sistêmico e garante estabilidade financeira;
+→ Envolve:
+●
+Banco Central (supervisor);
+●
+Instituições financeiras participantes;
+●
+Sistemas como Selic, STR e CIP;
+<<<PÁGINA 7>>>
+SPI - Sistema de Pagamentos Instantâneo
+→ O SPI é a infraestrutura que permite o funcionamento do Pix;
+●
+Criado e operado pelo Banco Central do Brasil;
+→ Principais Características:
+●
+Liquidação instantânea: 24h por dia, 7 dias por semana;
+●
+Operação em tempo real no atacado e no varejo;
+●
+Rápido, seguro e de baixo custo;
+●
+Instrumento da Agenda BC:
+○
+Inovação e Inclusão Financeira;
+<<<PÁGINA 8>>>
+Diferenças entre SPB e o SPI
+Característica
+SPB
+SPI
+Tipo de sistema
+Conjunto amplo de sistemas de pagamento
+Parte específica voltada ao Pix
+Liquidação
+Pode ser em tempo real (STR) ou diferida
+Sempre em tempo real
+Supervisão
+Banco Central
+Banco Central
+Público
+Instituições financeiras e participantes do sistema
+Instituições habilitadas ao Pix
+Exemplo prático
+TED, DOC, boletos
+Pix
+<<<PÁGINA 9>>>
+Sistema de Liquidação de Títulos
+→ O sistema de liquidação é o que garante que títulos e valores mobiliários sejam pagos, 
+entregues e registrados corretamente;
+●
+Atua após as negociações;
+●
+Evita inadimplência e riscos de contraparte;
+→ Exemplos:
+●
+Selic;
+●
+Câmara de Ações da B3;
+●
+Câmara de Derivativos;
+<<<PÁGINA 10>>>
+SELIC - Sistema Especial de Liquidação e Custódia
+→ Sistema administrado pelo Banco Central:
+●
+É onde ficam custodiados os títulos públicos federais;
+→ Funções:
+●
+Registro, custódia e liquidação de títulos públicos;
+●
+Base para cálculo da taxa Selic;
+●
+Liquidação bruta em tempo real (LBTR);
+○
+Criado em 1979 e é parte central do SPB;
+<<<PÁGINA 11>>>
+Contrapartes Centrais (CCP)
+→ As Contrapartes Centrais intermediam operações entre comprador e vendedor, 
+assumindo o risco de crédito das partes.
+●
+Função: garantir a liquidação mesmo que uma das partes não cumpra o acordo;
+●
+Reduz risco de inadimplência e contágio financeiro;
+●
+Exemplo: Câmara de Derivativos da B3;
+●
+Reguladas: CVM e pelo BACEN;
+<<<PÁGINA 12>>>
+Depositários Centrais
+→ Os Depositários Centrais são responsáveis por guardar eletronicamente os ativos 
+financeiros:
+●
+Mantêm o registro da propriedade dos ativos;
+●
+Permitem transferências seguras e rastreáveis;
+●
+Garantem integridade das informações;
+→ Exemplo: 
+●
+B3: Central Depositária de Ações e Renda Fixa;
+<<<PÁGINA 13>>>
+Entidades Registradoras
+→ As Entidades Registradoras registram operações financeiras e contratos (como 
+derivativos, CDBs, LCIs, etc.), dando transparência e rastreabilidade ao mercado;
+●
+Devem ser autorizadas e supervisionadas pelo Banco Central e CVM;
+●
+Ajudam a evitar riscos sistêmicos e duplicidade de operações;
+●
+Exemplos: B3, CETIP, CIP, TAG, BLK;
+<<<PÁGINA 14>>>
+Resumo do Klebão 💜
+Tipo de Infraestrutura
+Função Principal
+Exemplo
+Sistema de Pagamentos
+Transferência de recursos
+SPB, SPI
+Sistema de Liquidação
+Liquidação e custódia de títulos
+Selic
+Contraparte Central
+Garante liquidação mesmo com inadimplência
+Câmara da B3
+Depositário Central
+Guarda eletrônica de ativos
+B3
+Entidade Registradora
+Registro e transparência das operações
+B3, CIP
