@@ -1,0 +1,121 @@
+<<<PÁGINA 1>>>
+Mercado Financeiro e suas 
+Subdivisões
+<<<PÁGINA 2>>>
+Subdivisões do Mercado Financeiro
+<<<PÁGINA 3>>>
+→ Subdivisões:
+●
+Mercado Monetário é o sistema de energia (mantém tudo funcionando);
+●
+Mercado de Crédito é o combustível (viabiliza deslocamento e consumo);
+●
+Mercado de Capitais é o setor de obras (constrói para o amanhã);
+●
+Mercado Cambial é o aeroporto (conecta nossa cidade ao mundo);
+Subdivisões do Mercado Financeiro
+<<<PÁGINA 4>>>
+Mercado Monetário
+→ Objetivo:
+●
+Controlar a liquidez da economia, ajustando a quantidade de dinheiro em circulação;
+→ Como funciona:
+●
+Instituições financeiras emprestam entre si, muitas vezes com prazos de 1 dia;
+→ Instrumentos principais:
+●
+LFT (Tesouro Selic);
+●
+Operações compromissadas;
+●
+Depósitos interfinanceiros (DI);
+→ Participantes:
+●
+Banco Central do Brasil;
+●
+Bancos múltiplos e comerciais;
+●
+Dealers do Bacen.
+→ Impacto econômico:
+●
+Base do sistema de política monetária — afeta a meta Selic, o crédito e a inflação.
+<<<PÁGINA 5>>>
+Mercado de Crédito
+→ Objetivo:
+●
+Viabilizar o acesso a recursos financeiros para consumo, investimento ou capital de giro;
+→ Características:
+●
+Negociação entre clientes e instituições financeiras;
+●
+Prazos de curto a médio;
+●
+Possui risco de inadimplência e cobrança de juros.
+→ Principais produtos:
+●
+Empréstimos pessoais e consignados;
+→ Participantes:
+●
+Bancos comerciais e múltiplos, Cooperativas de crédito, Financeiras e sociedades de crédito;
+→ Riscos envolvidos:
+●
+Inadimplência;
+●
+Juros altos conforme o perfil do tomador;
+●
+Garantias exigidas;
+<<<PÁGINA 6>>>
+Mercado de Capitais
+→ Objetivo:
+●
+Financiar empresas e projetos de longo prazo por meio da venda de valores mobiliários;
+●
+Duas etapas:
+○
+Mercado Primário – emissão de novos títulos (IPO, debêntures);
+○
+Mercado Secundário – compra e venda entre investidores (bolsa);
+→ Principais ativos:
+●
+Ações, Debêntures, Fundos (FIA, FIM, FII), CRI, CRA, BDRs;
+→ Participantes:
+●
+Empresas emissoras;
+●
+Investidores;
+●
+Corretoras e distribuidoras;
+→  Importância:
+●
+Expansão econômica;
+●
+Rentabilidade para investidores;
+●
+Financiamento para inovação;
+<<<PÁGINA 7>>>
+Mercado de Câmbio
+→ Objetivo:
+●
+Permitir a conversão entre moedas e facilitar o comércio exterior;
+→ Características:
+●
+Envolve operações de compra e venda de moedas estrangeiras;
+●
+Influenciado por fatores políticos e econômicos globais;
+→ Modalidades de câmbio:
+●
+Câmbio turismo – usado em viagens;
+●
+Câmbio comercial – usado para exportação/importação;
+●
+PTAX – taxa média usada em contratos.
+→ Instrumentos utilizados:
+●
+Swap cambial (contratos de proteção contra oscilação cambial);
+●
+Reservas internacionais;
+→ Participantes:
+●
+Bacen;
+●
+Bancos autorizados a operar em câmbio e Corretoras de câmbio;

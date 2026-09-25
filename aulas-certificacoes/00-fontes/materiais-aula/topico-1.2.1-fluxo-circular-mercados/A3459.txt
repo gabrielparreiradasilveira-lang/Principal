@@ -1,0 +1,127 @@
+<<<PÁGINA 1>>>
+Fluxo Circular de Renda
+<<<PÁGINA 2>>>
+Fluxo Circular de Renda
+<<<PÁGINA 3>>>
+→ O fluxo circular de renda é um modelo macroeconômico que descreve como a renda e os bens 
+circulam entre os principais agentes econômicos de um país.
+Neste modelo, vamos estudar:
+●
+Famílias: Oferecem trabalho e consomem bens e serviços;
+●
+Empresas: Produzem bens e serviços e contratam fatores de produção;
+●
+Mercado Financeiro: Intermedia poupança e investimento;
+●
+Governo: Arrecada tributos e realiza gastos públicos;
+●
+Setor Externo: Exportações e importações;
+Componentes Principais
+<<<PÁGINA 4>>>
+As Famílias e os Fatores de Produção
+→ As famílias oferecem os chamados fatores de produção:
+●
+🌱 Terra: Recursos naturais;
+●
+💪 Trabalho: Esforço físico e intelectual;
+●
+💰 Capital: Recursos financeiros e tecnológicos;
+Esses fatores são remunerados com renda, que retorna às famílias na forma de salários, juros, 
+aluguéis e lucros.
+→ As famílias utilizam a renda recebida de duas formas:
+●
+Consumo (C): Compra de bens e serviços;
+●
+Poupança: Dinheiro não consumido, que pode ser aplicado no sistema financeiro;
+→ A demanda por bens e serviços gera o faturamento das empresas, realimentando o ciclo;
+→ O consumo (c) é um dos componentes fundamentais do Produto Interno Bruto (PIB);
+<<<PÁGINA 5>>>
+O papel das Firmas
+→ As empresas são responsáveis por transformar fatores de produção em produtos e serviços. Com a 
+receita obtida pelas vendas, elas:
+●
+Pagam salários e insumos;
+●
+Distribuem lucros;
+●
+Investem em capital produtivo. Exemplo:
+○
+Máquinas;
+○
+Tecnologia;
+○
+Instalações;
+■
+Investimentos (i);
+→ O investimento (I) é um dos componentes fundamentais do Produto Interno Bruto (PIB);
+<<<PÁGINA 6>>>
+Mercado Financeiro
+→ O sistema financeiro conecta poupadores e investidores:
+●
+As famílias que poupam direcionam recursos para os bancos e o mercado de capitais;
+●
+As empresas acessam esses recursos para financiar seus investimentos;
+●
+O governo pode emitir títulos para financiar déficits;
+○
+A intermediação financeira mantém o fluxo econômico em movimento;
+<<<PÁGINA 7>>>
+Governo: Tributos e Gastos
+→ O governo arrecada tributos das famílias e empresas, e utiliza esses recursos para:
+●
+Pagar servidores e benefícios sociais;
+●
+Investir em infraestrutura e políticas públicas;
+●
+Comprar bens e serviços do setor privado;
+→ Gasto do Governo (G) também é um componente do PIB;
+<<<PÁGINA 8>>>
+Resto do Mundo - Mercado Externo
+→ O Brasil exporta e importa bens, serviços e capitais:
+●
+Exportações (X): Entrada de renda no país;
+●
+Importações (M): Saída de recursos;
+→ A diferença entre exportações e importações impacta diretamente o PIB:
+●
+PIB = 𝐶 + 𝐼 + 𝐺 + (𝑋 − 𝑀);
+<<<PÁGINA 9>>>
+Impacto das Decisões na Economia
+Agente Econômico
+Quando AUMENTA sua atuação
+Quando DIMINUI sua atuação
+Famílias (Consumo)
+↑ Demanda → ↑ PIB
+↑ Emprego
+↑ Inflação
+↑ Importações
+↓ Demanda → ↓ PIB
+↓ Emprego
+↓ Inflação
+↓ Arrecadação - Risco de recessão
+Empresas (Investimento)
+↑ Produção
+↑ Emprego
+↑ Crédito - Estímulo ao crescimento
+↓ Expansão - Estagnação
+↓ Menor inovação
+↑ Desemprego
+Governo (Gastos)
+↑ Serviços Públicos
+↑ Crescimento
+↑ Inflação
+↑ Dívida pública
+↓ Serviços públicos
+↓ Estímulo
+↑ Desemprego
+↓ Crescimento
+Setor Externo (Exportações / 
+Importações)
+↑ Exportações 
+↑ Moeda estrangeira - Valorização cambial
+↑ PIB
+↑ Reservas
+↑ Importações 
+↓ Déficit comercial - Desvalorização Cambial
+↓ Produção nacional
+↓ PIB
