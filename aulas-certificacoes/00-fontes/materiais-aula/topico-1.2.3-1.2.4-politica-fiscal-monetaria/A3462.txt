@@ -1,0 +1,199 @@
+<<<PÁGINA 1>>>
+Financiamento Público e a LRF
+<<<PÁGINA 2>>>
+Financiamento Público e a LRF
+<<<PÁGINA 3>>>
+Leis de Financiamento Público
+→ Plano Plurianual (PPA):
+●
+Horizonte: 4 anos (médio-longo prazo);
+●
+Conteúdo: programas, ações estruturantes, alocação de investimentos, impacto por região;
+●
+Exemplo prático: construção de uma rodovia em etapas ao longo de 4 anos;
+→ Lei de Diretrizes Orçamentárias (LDO):
+●
+Horizonte: anual, transita entre PPA e LOA;
+●
+Conteúdo: Metas fiscais (primária e nominal), Priorização de programas, Critérios para 
+emendas parlamentares, Regra de contingenciamento em caso de desvio fiscal;
+→ Lei Orçamentária Anual (LOA):
+●
+Horizonte: anual, ferramenta de execução;
+●
+Função: traduzir metas em compromissos financeiros executáveis;
+●
+Conteúdo: Detalhamento de receitas/despesas; Classificação funcional, por ações, 
+programas; Emendas e créditos suplementares;
+<<<PÁGINA 4>>>
+→ Atualizada em 2023, ampliando foco para “regime fiscal sustentável”:
+●
+Entes Obrigados: União, Estados (e DF) e Municípios;
+→ Objetivos:
+●
+Equilíbrio das Contas;
+●
+Controle de Despesas;
+●
+Transparência;
+●
+Disciplina fiscal;
+Leis de Responsabilidade Fiscal (LRF)
+<<<PÁGINA 5>>>
+Limites de Pessoal e Dívida
+→ Gasto com Pessoal (Regra da LRF):
+●
+União: limite de 50% da Receita Corrente Líquida (RCL);
+●
+Estados e Municípios: limite de 60% da RCL;
+○
+Ultrapassar 95% desses limites: acionam-se alertas obrigatórios do Tribunal de Contas;
+○
+Se ultrapassar o teto: o ente fica proibido de:
+■
+Conceder reajuste ou vantagem a servidores;
+■
+Criar novos cargos ou funções;
+■
+Realizar concursos, nomeações ou contratações;
+→ Dívida Pública:
+●
+Deve manter trajetória compatível com a RCL e com a meta de resultado primário;
+●
+Estados e Municípios não podem contrair nova dívida se ultrapassarem os limites definidos;
+→ Atualização relevante:
+●
+Projeto de LC nº 164/2012 (Aprovado em 2024) exclui do cômputo do gasto com pessoal:
+○
+Contratos com organizações sociais (OSs);
+○
+Organizações da sociedade civil de interesse público (OSCIPs);
+○
+Contratos de terceirização e cooperativas;
+<<<PÁGINA 6>>>
+Metas Fiscais e Contingenciamento
+→ Metas Fiscais:
+●
+São definidas anualmente na LDO (Resultado Primário e Nominal);
+●
+A partir de 2024, há um intervalo de tolerância: ±0,25 ponto percentual do PIB;
+→ Contingenciamento:
+●
+Caso as metas fiscais estejam em risco de descumprimento:
+○
+O Poder Executivo é obrigado a bloquear parte dos gastos discricionários em até 30 
+dias (Art. 9º da LRF);
+○
+Esse bloqueio deve ser proporcional à frustração da receita;
+→ Nova Regra do Arcabouço Fiscal:
+●
+Mesmo com frustração de receita, 75% das despesas discricionárias devem ser preservadas 
+para manter a máquina pública funcionando;
+○
+Apenas 25% podem ser objeto de contingenciamento efetivo;
+<<<PÁGINA 7>>>
+Transparência e Responsabilidade
+→ Transparência:
+●
+Obrigatoriedade de publicação dos seguintes relatórios;
+●
+Relatório Resumido de Execução Orçamentária (RREO) – Bimestral;
+●
+Relatório de Gestão Fiscal (RGF) – Trimestral;
+→ Responsabilidade:
+●
+A LRF estabelece punições para o gestor público que:
+○
+Cria despesas sem fonte de custeio;
+○
+Descumpre metas fiscais sem justificativa;
+○
+Manipula indicadores ou omite informações;
+○
+As penalidades podem ser:
+■
+Administrativas: multa, suspensão de transferências voluntárias;
+■
+Criminais: improbidade administrativa;
+■
+Políticas: inelegibilidade ou perda do cargo;
+<<<PÁGINA 8>>>
+Novo Arcabouço Fiscal
+→ Objetivo:
+●
+Substituir o teto de gastos (EC 95/2016) por um modelo mais realista e sustentável, 
+combinando:
+○
+Crescimento controlado de despesas;
+○
+Incentivo ao cumprimento de metas;
+○
+Preservação de investimentos públicos essenciais;
+○
+Chave de mudança;
+○
+Antes: limite rígido → IPCA do ano anterior:
+■
+Agora: limite com crescimento real vinculado ao desempenho fiscal;
+<<<PÁGINA 9>>>
+Regras no Crescimento das Despesas
+→ Regras de crescimento real das despesas primárias:
+●
+Crescimento entre 0,6% e 2,5% ao ano acima da inflação, conforme o cumprimento da meta 
+de resultado primário;
+●
+Como funciona:
+○
+Se a meta não for cumprida:
+■
+O crescimento fica limitado a 0,60% real;
+○
+Se a meta fiscal for cumprida:
+■
+A despesa pode crescer até o teto de 2,5% real;
+Se a meta não for cumprida:
+→ Importante:
+●
+Essa regra estimula o cumprimento das metas, pois oferece maior margem de gasto para o 
+ano seguinte;
+<<<PÁGINA 10>>>
+Regras do Investimento Excedente
+→ Nova possibilidade:
+●
+Se o governo obtiver superávit primário acima da meta, poderá aplicar até 6,5% desse 
+excesso em investimentos;
+●
+Condições:
+○
+Os recursos devem ser usados para:
+■
+Obras públicas em andamento;
+■
+Projetos com impacto social ou econômico direto;
+→ Objetivo:
+●
+Evitar o “engessamento” total do orçamento e garantir retorno produtivo ao resultado fiscal 
+positivo;
+<<<PÁGINA 11>>>
+→ O “Arcabouço Fiscal” determina que o governo deve preservar no mínimo 75% das depesas 
+discricionárias, ou seja, só pode bloquear 25% desse total;
+→ Suponha:
+●
+Despesas discricionárias totais do governo: 226 bilhões;
+●
+Frustração de Receita: 100 bilhões;
+●
+Contingenciamento total necessário para atingir a meta: 100 bilhões;
+○
+Contingenciamento Máximo Permitido 25% → 56,5 bilhões;
+○
+Saldo de 43,5 Bilhões o governo deve:
+■
+Cancelar renúncias fiscais;
+■
+Aumento de receitas extraordinárias (dividendos, concessões, leilões);
+■
+Revisão de Meta fiscal;
+■
+Revisão de despesas obrigatórias;
+Exemplo do Cálculo de Contingenciamento
