@@ -1,0 +1,69 @@
+<<<PÁGINA 1>>>
+Taxa de Desconto Comercial e PayBack
+
+<<<PÁGINA 2>>>
+Análise de Negócio
+
+<<<PÁGINA 3>>>
+Conceito de Desconto Comercial
+→ Taxa aplicada sobre o valor nominal de um título para calcular o valor descontado na 
+antecipação de recebíveis;
+●
+Base: valor futuro do título;
+●
+Mais simples, mas pode superestimar o custo em prazos longos;
+Fórmula: 𝐷 = 𝑁 × 𝑖 × 𝑛
+●
+Onde:
+○
+D = Desconto;
+○
+N = Valor nominal;
+○
+i = Taxa de desconto;
+○
+n = Prazo (anos ou fração);
+
+<<<PÁGINA 4>>>
+Exemplo de Desconto Comercial
+→ Valor da Duplicata: R$ 50.000,00;
+→ Prazo: 90 dias (3 meses);
+→ Taxa: 3% ao mês;
+Cálculo do Desconto: 𝐷 = 𝑁 × 𝑖 × 𝑛
+
+<<<PÁGINA 5>>>
+Exemplo de Desconto Comercial
+→ Valor da Duplicata: R$ 50.000,00;
+→ Prazo: 90 dias (3 meses);
+→ Taxa: 3% ao mês;
+Cálculo do Desconto: 𝐷 = 𝑁 × 𝑖 × 𝑛
+→ Valor Líquido Recebido Hoje: R$ 45.500,00
+●
+Custo de R$ 4.500,00 para ter o dinheiro na data de hoje;
+
+<<<PÁGINA 6>>>
+Conceito de Payback
+→ Tempo necessário para recuperar o capital investido via fluxos de caixa do projeto;
+→ Fórmula Simples:
+
+<<<PÁGINA 7>>>
+Exemplo de Payback
+→ Máquina de Café Gaggia: R$ 30.000,00;
+→ Lucro Líquido extra: R$ 5.000,00 por mês;
+→ Qual o prazo do Payback?
+
+<<<PÁGINA 8>>>
+Exemplo de Payback
+→ Máquina de Café Gaggia: R$ 30.000,00;
+→ Lucro Líquido extra: R$ 5.000,00 por mês;
+→ Qual o prazo do Payback?
+→ O investimento se paga em 6 meses.
+
+<<<PÁGINA 9>>>
+Integração dos Conceitos
+→ O custo de antecipação do recurso, é de R$ 4.500,00. Restando R$ 45.500,00;
+→ Compra a máquina à vista por R$ 30.000,00;
+→ Lucro Líquido extra: R$ 5.000,00 por mês;
+→ Sobra de R$ 15.500,00 de caixa;
+→ A máquina se paga em 6 meses gerando um incremento de lucro de R$ 5.000,00 
+mensais;

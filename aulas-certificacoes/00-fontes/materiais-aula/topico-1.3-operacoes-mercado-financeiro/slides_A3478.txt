@@ -1,0 +1,48 @@
+<<<PÁGINA 1>>>
+Sistemas de Amortização
+
+<<<PÁGINA 2>>>
+Sistemas de Amortização
+
+<<<PÁGINA 3>>>
+ SAC - Sistema de Amortização Constante 
+
+<<<PÁGINA 4>>>
+ SAC - Sistema de Amortização Constante 
+→ Como o nome sugere, nesse modelo o valor da amortização é sempre o mesmo;   
+●
+Para obter o valor da amortização precisamos apenas dividir o valor do saldo 
+devedor pelo número de parcelas; 
+●
+Os juros incidem sobre o saldo devedor, que diminui com às  amortizações; 
+→ Dessa forma o valor da parcela também reduz durante o tempo;
+
+<<<PÁGINA 5>>>
+ SAC - Sistema de Amortização Constante 
+Imagine um empréstimo de R$ 100.000,00 com prazo de 5 anos, que será pago em 10 
+parcelas semestrais com taxa de juros de 30% ao ano.
+ 
+
+<<<PÁGINA 6>>>
+→ Valor da amortização = 100.000 / 10 = 10.000;
+→ Como são juros compostos, precisamos encontrar a taxa equivalente;
+●
+Taxa equivalente ao semestre = 1,30^0,50 = 14,018%;
+●
+Os juros incidem sobre o saldo devedor atual;
+ SAC - Sistema de Amortização Constante 
+
+<<<PÁGINA 7>>>
+Encontrar o valor de uma parcela na SAC 
+→ Para encontrar uma determinada parcela através do sistema SAC, utilizaremos a 
+seguinte fórmula.
+
+<<<PÁGINA 8>>>
+Encontrar o valor de uma parcela na SAC 
+→ Qual é o valor da parcela 7 do nosso financiamento? 
+
+<<<PÁGINA 9>>>
+ Exercício com Tabela SAC 
+Considere um empréstimo de R$100.000,00 a ser pago em dez prestações mensais, taxa 
+de juro de 2% ao mês, pelo sistema de amortização constante (SAC). A segunda prestação 
+vai ser igual a:

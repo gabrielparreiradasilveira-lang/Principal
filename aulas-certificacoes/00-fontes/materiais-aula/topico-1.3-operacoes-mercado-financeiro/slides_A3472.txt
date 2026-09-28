@@ -1,0 +1,145 @@
+<<<PÁGINA 1>>>
+Estudo das Taxas de Juros
+
+<<<PÁGINA 2>>>
+Estudo das Taxas de Juros
+
+<<<PÁGINA 3>>>
+Juros Simples x Juros Compostos
+
+<<<PÁGINA 4>>>
+→ Juros Simples são calculados sobre o capital inicial;
+●
+Utilizado para desconto comercial. cheques e cálculos didáticos;
+→ Capitalização:
+●
+Juros não se acumulam ao longo do prazo;
+●
+Simples multiplicação do prazo pelo % dos juros;
+●
+Simples: J = C × i × t;
+→ Taxa Proporcional:
+●
+Aplica-se somente em juros simples;
+●
+Varia proporcionalmente ao tempo;
+●
+Exemplo: 2% ao mês → 24% ao ano (2 × 12);
+Juros Simples
+
+<<<PÁGINA 5>>>
+Juros Compostos
+→ Juros Compostos são calculados sobre os juros acumulados:
+●
+Utilizado em aplicações financeiras e empréstimos bancários;
+→ Capitalização:
+●
+Aplicável com juros compostos;
+●
+Juros acumulam ao longo do tempo;
+●
+Capitalização: FV = PV (1+i)^t;
+●
+Descapitalização: PV = FV / (1+i)^t;
+→ Taxa Equivalente:
+●
+Aplica-se em juros compostos (Juros se Acumulam sobre Juros);
+●
+Não é proporcional, precisa ser convertida;
+●
+Taxa Equivalente (composta): i₂ = (1 + i₁)^(n₂/n₁) – 1;
+
+<<<PÁGINA 6>>>
+→ A taxa efetiva:
+●
+É a taxa realmente obtida após a capitalização dos juros compostos;
+●
+Considera o efeito dos juros sobre juros;
+●
+É usada para comparar produtos financeiros com diferentes periodicidades;
+○
+Qual a taxa efetiva anual de 1% ao mês?
+■
+Ie = (1 + i)^n-1
+Taxa Efetiva nos Juros Compostos
+
+<<<PÁGINA 7>>>
+Testando Juros Simples
+→ Patrícia aplicou R$ 5.000,00 em um título que rende 2% ao mês sob regime de juros 
+simples, durante 10 meses. Qual será o montante ao final do período?
+→ Werner antecipou uma duplicata no valor de R$ 5.000,00, com vencimento para 90 dias. 
+O banco ofereceu um desconto bancário simples comercial de 3% ao mês. Qual o valor 
+líquido que Werner receberá hoje?
+
+<<<PÁGINA 8>>>
+Testando Juros Compostos
+→ Patrícia aplicou R$ 5.000,00 em um título que rende 2% ao mês sob regime de juros 
+compostos, durante 10 meses. Qual será o montante ao final do período?
+→ Werner antecipou uma duplicata no valor de R$ 5.000,00, com vencimento para 90 dias. 
+O banco ofereceu um desconto composto de 3% ao mês. Qual o valor líquido que Werner 
+receberá hoje?
+
+<<<PÁGINA 9>>>
+Taxa Nominal x Taxa Real
+
+<<<PÁGINA 10>>>
+→ Taxa Nominal:
+●
+Taxa declarada ou contratual sem considerar a frequência da capitalização;
+●
+Não representa a rentabilidade real do período total nem a inflação;
+●
+Usada para indicar taxas em contratos, propagandas ou comunicados bancários;
+→ Taxa Real:
+●
+Representa o ganho de poder de compra;
+●
+Desconta o efeito da inflação da taxa nominal ou efetiva;
+●
+Mostra quanto o investidor realmente ganhou acima da inflação;
+●
+Fórmula de Fischer:
+Taxa Nominal x Taxa Real
+
+<<<PÁGINA 11>>>
+→ Patrícia investiu em um CDB com rentabilidade efetiva de 14% ao ano. No mesmo 
+período, a inflação oficial medida pelo IPCA foi de 5,5%. Qual foi a taxa real de retorno do 
+investimento?
+Exercitando a Taxa Real
+
+<<<PÁGINA 12>>>
+Analisando as Taxas
+
+<<<PÁGINA 13>>>
+Taxa Pré, Pós e “Hibrida”
+→ A taxa de juros Pré Fixada já é conhecida e definida no momento da aplicação ou 
+contrato:
+●
+O investidor sabe exatamente quanto receberá no vencimento;
+○
+Exemplo: Tesouro Prefixado 2027 pagando 10,50% a.a;
+→ Na taxa de juros Pós Fixada, o rendimento está atrelado a um indexador: 
+●
+O valor exato do rendimento só será conhecido no vencimento;
+●
+Não garante rentabilidade nominal fixa;
+○
+Exemplos: CDB que paga 100% do CDI;
+→ Uma taxa “híbrida” combina uma parte prefixada com uma parte pós-fixada:
+●
+Usada principalmente para proteger o poder de compra e garantir retorno real;
+○
+Exemplos: Tesouro IPCA+ 2035: paga 5,50% a.a. + variação do IPCA;
+
+<<<PÁGINA 14>>>
+Taxa Bruta e Taxa Líquida
+→ Taxa Bruta: 
+●
+É o rendimento total antes da dedução de impostos e taxas:
+○
+Exemplo: Um CDB rende 12% a.a. → essa é a taxa bruta;
+→ Taxa Líquida:
+●
+É o rendimento real recebido pelo investidor, já descontado o IR e outras taxas:
+○
+Fórmula: Taxa Líquida = Taxa Bruta x (1 - Alíquota do IR);

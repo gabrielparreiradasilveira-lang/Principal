@@ -1,0 +1,82 @@
+<<<PÁGINA 1>>>
+Análise de Investimento
+
+<<<PÁGINA 2>>>
+→ Fluxo de Pagamentos é a forma contratual de como um fluxo de caixa deve ser;
+→ Fluxo de caixa, é o comportamento efetivo e a ferramenta utilizada para analisar as 
+entradas e saídas de um empréstimo ou investimento;
+→ Como analisar um fluxo de caixa?
+●
+Valor Presente (VP ou PV);
+●
+Valor Futuro (VF ou FV);
+●
+Valor Presente Líquido (VPL ou NPV);
+●
+Taxa de Desconto;
+Fluxo de Pagamentos e Fluxo de Caixa
+
+<<<PÁGINA 3>>>
+→ Valor Presente (VP) ou Present Value (PV):
+●
+É o valor de hoje de um fluxo de caixa;
+→ Valor Futuro (VF) ou Future Value (FV):
+●
+É o valor de uma quantia aplicada hoje alcançará no futuro, com base em uma 
+taxa de juros;
+→ n:
+●
+É o símbolo que representa o tempo (prazo). Do inglês number of periods;
+→ i:
+●
+É o símbolo que representa a taxa de juros. Do inglês interest rate;
+Valor Presente e Valor Futuro
+
+<<<PÁGINA 4>>>
+Teclas usadas na HP12c
+
+<<<PÁGINA 5>>>
+Análise de Investimentos
+→ Vou te emprestar R$ 1.000,00 no dia 20/12/2026 e você se compromete a pagar em 12 
+parcelas de R$ 100,00 cada no dia 10 de cada mês a partir de 10/01/2027.
+
+<<<PÁGINA 6>>>
+→ É a taxa usada para trazer valores futuros a valor presente:
+→ Tipos:
+●
+Taxa Livre de Risco: 
+○
+No brasil, geralmente Selic Meta (15%);
+●
+Custo de Oportunidade:
+○
+Comparação com outro investimento de baixo risco;
+○
+CDB de grandes instituições financeiras;
+●
+Taxa Mínima de Atratividade:
+○
+Definida pelo investidor como benchmark;
+Taxa de Desconto
+
+<<<PÁGINA 7>>>
+→ O VPL é a diferença entre o valor presente dos fluxos futuros e do valor investido;
+→ Todos os valores do fluxo de caixa a valor presente para uma comparação real:
+●
+VPL > 0 → Gera valor, deve-se investir;
+●
+VPL = 0 → Indiferente;
+●
+VPL < 0 → Não gera valor, deve-se procurar outra alternativa;
+VPL - Valor Presente Líquido
+
+<<<PÁGINA 8>>>
+Teclas usadas na HP12c
+
+<<<PÁGINA 9>>>
+→ Vamos analisar um caso real de investimento. Jeperscleiton é corretor de imóveis e lhe 
+faz uma proposta de investimento de um imóvel de lançamento que deve valorizar 30% 
+quando estiver pronto (garantia de recompra no 37 mês). O valor do imóvel, é de R$ 
+500.000,00 hoje e as condições de pagamento são uma entrada de 20%, 36 vezes de R$ 
+11.150,00. Considerando a taxa SELIC em 15% ao ano, esse é um investimento rentável?
+Valor Presente Líquido

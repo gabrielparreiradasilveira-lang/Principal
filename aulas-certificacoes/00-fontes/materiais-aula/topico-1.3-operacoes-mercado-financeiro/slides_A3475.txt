@@ -1,0 +1,163 @@
+<<<PÁGINA 1>>>
+Amortização, Retorno e Custo de 
+Capital
+
+<<<PÁGINA 2>>>
+TIR - Taxa Interna de Retorno
+→ A Taxa Interna de Retorno (TIR) é a taxa de desconto que zera o Valor Presente Líquido 
+(VPL) de um investimento;
+●
+É a rentabilidade percentual anual média do projeto ou título com base em seus 
+fluxos de caixa;
+→ Interpretação da TIR:
+●
+TIR > CMPC → investimento gera valor;
+●
+TIR = CMPC → empate;
+●
+TIR < CMPC → projeto destrói valor;
+
+<<<PÁGINA 3>>>
+→ Prazo Médio (Prazo Médio Ponderado de Pagamento - PMPP):
+●
+Representa o tempo médio em que o investidor receberá os fluxos de caixa;
+●
+O Prazo Médio está relacionado a liquidez do ativo;
+○
+Quanto maior o prazo médio, maior o risco de mercado e a sensibilidade à 
+taxa de juros;
+○
+É a base para o cálculo de Duration;
+→ Fórmula do Prazo Médio Ponderado:
+Prazo Médio de Vencimento
+
+<<<PÁGINA 4>>>
+CMPC - Custo Médio Ponderado de Capital
+→ É o custo médio que a empresa ou investidor paga para financiar seus projetos, 
+considerando dívida e capital próprio;
+→ Porque é importante:
+●
+Esse é o mínimo que um projeto deve render para não dar prejuízo;
+●
+Serve como taxa de corte para aprovar ou rejeitar projetos ou investimentos;
+●
+É o "custo do dinheiro" da empresa;
+
+<<<PÁGINA 5>>>
+→ A amortização é a redução periódica da dívida por meio de pagamentos programados de 
+principal;
+→ Tipos mais comuns de Amortização:
+●
+Amortização periódica;
+●
+Amortização única (ex: bullet);
+→ Importância:
+●
+Define a estrutura do fluxo de caixa, afeta:
+○
+Risco;
+○
+Liquidez;
+○
+Retorno;
+Amortização
+
+<<<PÁGINA 6>>>
+→ Kleber, analista de investimentos de uma holding imobiliária, está avaliando um projeto que exige um investimento 
+inicial de R$ 500.000,00. O projeto prevê:
+●
+Recebimento de R$ 200.000,00 no primeiro ano, R$ 225.000,00 no segundo e no terceiro ano.
+A estrutura de capital da holding é composta por:
+●
+60% de capital próprio, com exigência de retorno de 17% ao ano;
+●
+40% de capital de terceiros, com custo de 12% ao ano;
+●
+Alíquota de IR sobre a dívida: 34%;
+1)
+Como é o desenho do fluxo de caixa de amortização do projeto?
+Aprendendo na Prática
+
+<<<PÁGINA 7>>>
+→ Kleber, analista de investimentos de uma holding imobiliária, está avaliando um projeto que exige um investimento 
+inicial de R$ 500.000,00. O projeto prevê:
+●
+Recebimento de R$ 200.000,00 no primeiro ano, R$ 225.000,00 no segundo e no terceiro ano.
+A estrutura de capital da holding é composta por:
+●
+60% de capital próprio, com exigência de retorno de 17% ao ano;
+●
+40% de capital de terceiros, com custo de 12% ao ano;
+●
+Alíquota de IR sobre a dívida: 34%;
+1)
+Como é o desenho do fluxo de caixa de amortização do projeto?
+2)
+Qual o prazo médio de recebimento dos fluxos?
+Aprendendo na Prática
+
+<<<PÁGINA 8>>>
+→ Kleber, analista de investimentos de uma holding imobiliária, está avaliando um projeto que exige um investimento 
+inicial de R$ 500.000,00. O projeto prevê:
+●
+Recebimento de R$ 200.000,00 no primeiro ano, R$ 225.000,00 no segundo e no terceiro ano.
+A estrutura de capital da holding é composta por:
+●
+60% de capital próprio, com exigência de retorno de 17% ao ano;
+●
+40% de capital de terceiros, com custo de 12% ao ano;
+●
+Alíquota de IR sobre a dívida: 34%;
+1)
+Como é o desenho do fluxo de caixa de amortização do projeto?
+2)
+Qual o prazo médio de recebimento dos fluxos?
+3)
+Qual a TIR deste projeto?
+Aprendendo na Prática
+
+<<<PÁGINA 9>>>
+→ Kleber, analista de investimentos de uma holding imobiliária, está avaliando um projeto que exige um investimento 
+inicial de R$ 500.000,00. O projeto prevê:
+●
+Recebimento de R$ 200.000,00 no primeiro ano, R$ 225.000,00 no segundo e no terceiro ano.
+A estrutura de capital da holding é composta por:
+●
+60% de capital próprio, com exigência de retorno de 17% ao ano;
+●
+40% de capital de terceiros, com custo de 12% ao ano;
+●
+Alíquota de IR sobre a dívida: 34%;
+1)
+Como é o desenho do fluxo de caixa de amortização do projeto?
+2)
+Qual o prazo médio de recebimento dos fluxos?
+3)
+Qual a TIR deste projeto?
+4)
+Qual é o CMPC da holding?
+Aprendendo na Prática
+
+<<<PÁGINA 10>>>
+→ Kleber, analista de investimentos de uma holding imobiliária, está avaliando um projeto que exige um investimento 
+inicial de R$ 500.000,00. O projeto prevê:
+●
+Recebimento de R$ 200.000,00 no primeiro ano, R$ 225.000,00 no segundo e no terceiro ano.
+A estrutura de capital da holding é composta por:
+●
+60% de capital próprio, com exigência de retorno de 17% ao ano;
+●
+40% de capital de terceiros, com custo de 12% ao ano;
+●
+Alíquota de IR sobre a dívida: 34%;
+1)
+Como é o desenho do fluxo de caixa de amortização do projeto?
+2)
+Qual o prazo médio de recebimento dos fluxos?
+3)
+Qual a TIR deste projeto?
+4)
+Qual é o CMPC da holding?
+5)
+O projeto é viável?
+Aprendendo na Prática

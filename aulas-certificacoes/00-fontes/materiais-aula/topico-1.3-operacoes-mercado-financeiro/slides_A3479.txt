@@ -1,0 +1,75 @@
+<<<PÁGINA 1>>>
+Tabela Price ou
+Sistema Francês
+
+<<<PÁGINA 2>>>
+Sistema Price ou Francês
+
+<<<PÁGINA 3>>>
+Tabela Price 
+→ Valor da Parcela é Fixa:
+●
+Tabela Price;
+●
+Sistema de Amortização Francês; 
+●
+Sistema de Prestação Constante;
+→ Principais Usos da Tabela Price:
+●
+Financiamento de automóveis, eletrodomésticos, crédito pessoal… 
+→ É mais “caro” para o tomador de crédito; 
+→ Menor vantagem de se antecipar as parcelas;
+
+<<<PÁGINA 4>>>
+Tabela Price 
+→ Neste modelo, as amortizações são crescentes e os juros decrescentes; 
+→ O valor da amortização cresce e o valor dos juros diminui ao longo do tempo onde a 
+soma dos juros e amortização será sempre a mesma; 
+
+<<<PÁGINA 5>>>
+Fórmula Tabela Price
+→ Para encontrar o valor da parcela utilizamos a seguinte fórmula: 
+Onde:
+●
+PMT → valor da parcela (o que se paga todo mês);
+●
+PV → valor financiado (principal da dívida);
+●
+i → taxa de juros por período;
+●
+n → número total de parcelas;
+
+<<<PÁGINA 6>>>
+Porque complicar?
+Dada uma taxa de 30% ao ano, encontre qual a taxa ao semestre. Vamos fazer a 
+simulação de um financiamento de R$ 100.000,00 com a sua amortização em 10 semestres 
+e então responda: 
+1) Qual é o valor da prestação? 
+2) Qual o saldo devedor após o pagamento da primeira prestação?
+
+<<<PÁGINA 7>>>
+Tabela Price
+
+<<<PÁGINA 8>>>
+Exemplo Prático
+(11168) - Uma família possuía um imóvel financiado a uma taxa de 9,5% ao ano (CET) pela 
+tabela Price para um prazo de 173 meses, com saldo devedor de R$ 490.000,00. A essa 
+família foi oferecida uma portabilidade de financiamento imobiliário a uma taxa de 7,5% ao 
+ano (CET). Considerando um refinanciamento pela tabela Price, qual será a economia 
+mensal na parcela destinada ao pagamento do novo financiamento em relação ao antigo?
+a) R$ 368,13 
+b) R$ 491,12 
+c) R$ 522,76 
+d) R$ 604,11 
+
+<<<PÁGINA 9>>>
+Exemplo Prático
+(11168) - Uma família possuía um imóvel financiado a uma taxa de 9,5% ao ano (CET) pela 
+tabela Price para um prazo de 173 meses, com saldo devedor de R$ 490.000,00. A essa 
+família foi oferecida uma portabilidade de financiamento imobiliário a uma taxa de 7,5% ao 
+ano (CET). Considerando um refinanciamento pela tabela Price, qual será a economia 
+mensal na parcela destinada ao pagamento do novo financiamento em relação ao antigo?
+a) R$ 368,13 
+b) R$ 491,12 
+c) R$ 522,76 
+d) R$ 604,11 

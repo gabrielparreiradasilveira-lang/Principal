@@ -1,0 +1,96 @@
+<<<PÁGINA 1>>>
+Tempo, Alavancagem e Risco
+
+<<<PÁGINA 2>>>
+Marcação a Mercado x Marcação na Curva
+
+<<<PÁGINA 3>>>
+Duration
+
+<<<PÁGINA 4>>>
+Alavancagem
+
+<<<PÁGINA 5>>>
+Retorno Histórico x Retorno Esperado
+
+<<<PÁGINA 6>>>
+Duration x Prazo
+→ Prazo:
+●
+Tempo total até o vencimento do título.
+→ Duration:
+●
+Prazo médio ponderado dos fluxos de caixa;
+●
+Mede a sensibilidade do preço à variação na taxa de juros;
+→ Exemplo comparativo:
+●
+Título com cupons → menor duration (pagamentos antes do vencimento);
+●
+Título sem cupons → maior duration (tudo no fim);
+→ Duration é onde o dinheiro “pesa mais” no tempo;
+
+<<<PÁGINA 7>>>
+Alavancagem
+→ Alavancagem: É investir mais do que se tem, usando dinheiro emprestado;
+●
+Em vez de aplicar R$ 10 mil com seus próprios recursos, você toma outros R$ 90 
+mil emprestados e investe R$ 100 mil no total;
+→ Efeitos:
+●
+Potencializa lucros: 
+○
+Se o ativo subir 10%, você lucra R$ 10 mil com apenas R$ 10 mil investidos:
+■
++100% de retorno;
+●
+Amplifica perdas: 
+○
+Se cair 10%, você perde R$ 10 mil:
+■
+Perde tudo o que tinha;
+
+<<<PÁGINA 8>>>
+Retorno Histórico
+→ É o retorno efetivamente realizado por um ativo em um determinado período no 
+passado. Serve para:
+●
+Avaliar o comportamento passado do ativo;
+●
+Observar consistência de performance;
+●
+Calcular métricas como média, volatilidade, Sharpe etc;
+
+<<<PÁGINA 9>>>
+Retorno Esperado
+→ É a expectativa de retorno futuro, calculada com base em cenários possíveis, 
+probabilidades e modelos estatísticos ou fundamentalistas:
+●
+Usa projeções, dados históricos e premissas de mercado;
+●
+Serve como base para decisões de investimento;
+●
+Pode ser muito diferente do retorno histórico;
+
+<<<PÁGINA 10>>>
+Retorno Esperado de um Ativo x Carteira
+→ Retorno Esperado de um Ativo:
+●
+É a estimativa de ganho futuro baseada exclusivamente nas características de 
+um único investimento:
+○
+Riscos concentrados: Empresa pode quebrar;
+○
+Setor pode ser impactado;
+○
+Excesso de otimismo ou ruído de mercado;
+→ Retorno Esperado de uma Carteira:
+●
+É a média ponderada dos retornos esperados de vários ativos, considerando 
+quanto cada um representa na composição da carteira.
+○
+Redução do risco total (diversificação);
+○
+Compensação de perdas com ganhos de outros ativos;
+○
+Possibilidade de manter retorno similar com risco menor;

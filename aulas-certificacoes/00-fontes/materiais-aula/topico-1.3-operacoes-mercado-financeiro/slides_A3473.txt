@@ -1,0 +1,76 @@
+<<<PÁGINA 1>>>
+Fluxo de Caixa e Fluxo de Pagamentos
+
+<<<PÁGINA 2>>>
+Fluxo de Caixa e Fluxo de Pagamentos
+
+<<<PÁGINA 3>>>
+Fluxo de Caixa e Fluxo de Pagamentos
+→ Fluxo de Pagamentos:
+●
+É o cronograma contratual de pagamentos futuros, sejam entradas (recebíveis) 
+ou saídas (obrigações);
+●
+Características:
+○
+Representa valores acordados em contrato;
+○
+Define quando e quanto será pago ou recebido;
+○
+Utilizado em títulos de crédito, empréstimos e financiamentos;
+→ Fluxo de Caixa:
+●
+É o registro real das entradas e saídas financeiras de uma empresa ou investidor 
+ao longo do tempo;
+●
+Características:
+○
+Mostra o que de fato aconteceu;
+○
+Pode incluir receitas, pagamentos, investimentos, tributos;
+
+<<<PÁGINA 4>>>
+→ Fluxo de caixa de um empréstimo de R$ 1.000,00 a ser pago em 12 parcelas de R$ 
+100,00;
+Fluxo de Caixa
+
+<<<PÁGINA 5>>>
+Títulos Com Amortização e Sem Amortização
+
+<<<PÁGINA 6>>>
+Títulos Com Amortização e Sem Amortização
+→ Títulos sem Cupom (Bullet):
+●
+Títulos que não pagam nada durante o período da aplicação. O investidor 
+recebe tudo no vencimento: principal + juros;
+●
+Como funciona: A aplicação cresce de forma composta até o final;
+●
+Exemplos no Brasil:
+○
+Tesouro Prefixado (LTN);
+○
+LIGs com pagamento único;
+○
+CDBs de prazo fechado sem liquidez intermediária;
+
+<<<PÁGINA 7>>>
+Títulos Com Amortização e Sem Amortização
+→ Títulos Com Cupom:
+●
+Títulos que pagam juros periodicamente ao investidor durante o prazo da 
+aplicação, normalmente em intervalos semestrais ou anuais;
+●
+Como funciona:  O investidor recebe parte dos juros contratados em datas fixas 
+(ex: R$ 50 a cada 6 meses);
+○
+No vencimento, o investidor recebe o principal de volta (caso seja bullet) ou 
+a última parcela de amortização (caso seja amortizante);
+●
+Exemplos no Brasil:
+○
+Debêntures com pagamento de cupom;
+○
+CRI/CRA com juros semestrais;
+○
+Tesouro IPCA+ com juros semestrais:
