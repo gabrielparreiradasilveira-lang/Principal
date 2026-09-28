@@ -1,0 +1,82 @@
+<<<PÁGINA 1>>>
+Instrumentos de Política Monetária
+<<<PÁGINA 2>>>
+Instrumentos de Política Monetária
+<<<PÁGINA 3>>>
+Instrumentos de Política Monetária
+→ Os instrumentos são o “como” da política monetária:
+●
+A Selic Meta é o alvo;
+●
+Para alcançá-la, o Bacen usa instrumentos operacionais, que influenciam:
+○
+A liquidez do sistema bancário: Open Market;
+○
+As taxas de juros praticadas: Redesconto;
+○
+O volume de crédito na economia: Depósito Compulsório;
+<<<PÁGINA 4>>>
+Open Market
+<<<PÁGINA 5>>>
+Open Market
+→ É o instrumento mais utilizado;
+●
+O Bacen compra ou vende títulos públicos federais no mercado aberto para regular a liquidez 
+da economia;
+○
+Expansionista: Compra de títulos → Injeta dinheiro na economia;
+○
+Contracionista: Venda de títulos → Retira dinheiro do sistema;
+○
+Essas operações ocorrem no Sistema Selic com os Dealers:
+■
+Acesso Direto ao Mercado;
+■
+Maior Reputação;
+■
+Antecipação de Movimentos do Mercado;
+■
+Participação nas Políticas Monetárias;
+■
+Aumento de Relações Institucionais;
+<<<PÁGINA 6>>>
+Redesconto
+<<<PÁGINA 7>>>
+Redesconto
+→ O redesconto é uma linha de crédito emergencial que o Bacen oferece às instituições financeiras que 
+enfrentam dificuldades temporárias de liquidez;
+→ Tipos de Redesconto:
+●
+Redesconto de liquidez: usado em situações sistêmicas ou crises de confiança;
+●
+Redesconto de estímulo: usado estrategicamente para influenciar o crédito;
+→ Efeitos na Política Monetária:
+●
+Expansionista: Redução da taxa de juros facilita o redesconto, ou seja, menos juros, mais 
+crédito, mais atividade econômica;
+●
+Contracionista: Aumento da taxa de juros restringe redesconto, ou seja, juros altos, menos 
+crédito, menos liquidez, consequente freio na economia;
+<<<PÁGINA 8>>>
+Depósito Compulsório
+<<<PÁGINA 9>>>
+Depósito Compulsório
+→ O depósito compulsório é o percentual obrigatório dos depósitos dos clientes que os bancos devem 
+manter no Bacen, sem poder emprestar ou investir;
+●
+Essa exigência regula quanto dinheiro os bancos podem multiplicar via crédito, influenciando 
+diretamente a base monetária e a alavancagem bancária;
+→ Tipos de Depósito Compulsório:
+●
+Sobre depósitos à vista (alta liquidez);
+●
+Sobre depósitos a prazo (como CDBs);
+●
+Sobre caderneta de poupança;
+→ Efeitos na Política Monetária:
+●
+Expansionista: A redução do compulsório libera mais recursos, os bancos emprestam mais 
+e estimula economia;
+●
+Contracionista: O aumento do compulsório retém recursos, o que freia o crédito e ajuda a 
+conter inflação;

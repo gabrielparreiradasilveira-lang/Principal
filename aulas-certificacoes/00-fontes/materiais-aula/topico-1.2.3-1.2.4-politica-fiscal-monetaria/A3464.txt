@@ -1,0 +1,217 @@
+<<<PÁGINA 1>>>
+Copom e a Taxa Selic
+<<<PÁGINA 2>>>
+Copom e a Taxa Selic
+<<<PÁGINA 3>>>
+Ano
+Taxa Selic (% ao ano)
+Presidente / Partido
+2010
+10.75
+Lula (PT)
+2011
+11.0
+Dilma (PT)
+2012
+7.25
+Dilma (PT)
+2013
+10.0
+Dilma (PT)
+2014
+11.75
+Dilma (PT)
+2015
+14.25
+Dilma (PT)
+2016
+13.75
+Temer (MDB)
+2017
+7.0
+Temer (MDB)
+2018
+6.5
+Bolsonaro (PL)
+2019
+4.5
+Bolsonaro (PL)
+2020
+2.0
+Bolsonaro (PL)
+2021
+9.25
+Bolsonaro (PL)
+2022
+13.75
+Lula (PT)
+2023
+11.75
+Lula (PT)
+2024
+11.75
+Lula (PT)
+2025
+15.0
+Lula (PT)
+<<<PÁGINA 4>>>
+O que é e para que serve a Taxa Selic?
+→ O que é a Taxa Selic?
+●
+A Selic é a taxa básica de juros da economia brasileira;
+●
+O nome vem do sistema onde ela é apurada: Sistema Especial de Liquidação e Custódia;
+→ Para que serve a Selic?
+●
+A Selic é usada como referência para todas as outras taxas de juros do país;
+○
+Financiamentos e empréstimos bancários;
+○
+Rentabilidade de investimentos pós-fixados;
+○
+Custo da rolagem da dívida pública;
+→ A taxa Selic afeta diretamente a remuneração dos títulos públicos;
+●
+Por consequência, afeta o custo da dívida pública do Brasil;
+○
+Piso do custo de capital da economia brasileira;
+<<<PÁGINA 5>>>
+Impacto da Selic na Meta de Inﬂação
+→ O principal uso da Selic é como instrumento da política monetária, para controlar a inflação dentro das 
+metas definidas pelo CMN:
+●
+Quando a inflação está alta, o Bacen eleva a Selic para:
+○
+Desestimular o consumo e o crédito;
+○
+Reduzir a demanda agregada;
+○
+Reduzir a pressão sobre os preços;
+●
+Quando a inflação está baixa ou a economia desacelera, o Bacen reduz a Selic para:
+○
+Estimular o consumo, o crédito e o investimento;
+○
+Aumentar a demanda e incentivar a produção;
+→ A Taxa Selic Meta, é utilizada para cumprir as metas de inflação determinadas pelo CMN;
+<<<PÁGINA 6>>>
+Selic Meta, Selic Over e o CDI
+→ Selic Meta: Alvo da política monetária:
+●
+É a taxa básica de juros definida pelo Copom como instrumento de controle da inflação;
+●
+É anunciada nas reuniões do Copom (a cada 45 dias);
+●
+Serve como referência para toda a economia;
+○
+“Selic Meta é o que o Bacen quer que o mercado pratique”;
+→ Selic Over: Taxa real do mercado interbancário:
+●
+A Selic Over é a taxa efetiva média ponderada dos empréstimos de um dia entre os bancos;
+●
+Varia levemente em torno da Selic Meta, refletindo condições reais de liquidez;
+○
+“Selic Over é o que os bancos realmente pagam entre si”
+→ CDI: Espelho da Selic Over no mercado privado:
+●
+O CDI (Certificado de Depósito Interbancário) é muito semelhante à Selic Over, mas:
+○
+Refere-se a operações entre bancos com lastro em títulos privados (CDI), e não em 
+títulos públicos;
+○
+Serve como referência para investimentos pós-fixados (CDB, LCI, LCA, Fundos DI etc.)
+■
+“CDI é o que o investidor vê no extrato. Ele anda colado na Selic Over.”
+<<<PÁGINA 7>>>
+Quadro Comparativo
+Característica
+Selic Meta
+Selic Over
+CDI
+O que é?
+Meta definida pelo Copom
+Taxa média dos empréstimos 
+interbancários com títulos 
+públicos
+Taxa média dos empréstimos 
+interbancários com títulos 
+privados
+Quem define?
+Copom (Banco Central)
+Mercado bancário + Bacen
+Mercado bancário
+Periodicidade
+Atualizada a cada 45 dias
+Diária
+Diária
+Finalidade
+Controlar a inflação
+Reflete a liquidez da economia
+Indexador de investimentos
+Onde é usada?
+Política monetária
+Referência do Bacen
+CDB, LCI, LCA, Fundos DI
+Diferença entre elas
+Objetivo macro
+Execução prática
+Reflexo no mercado privado
+<<<PÁGINA 8>>>
+De onde vem a taxa Selic Meta
+<<<PÁGINA 9>>>
+COPOM - Comitê de Política Monetária
+O COPOM é uma reunião!
+<<<PÁGINA 10>>>
+COPOM - Comitê de Política Monetária
+→ COPOM foi criado em 20 de Junho de 1.996:
+●
+Dar maior transparência a decisão da taxa de juros;
+○
+As quatro etapas mais importantes são:
+■
+Preparação para Reunião: Ampla coleta de dados sobre a economia;
+■
+1º Dia de Reunião: Reunião Aberta para discutir as tendências do 
+mercado;
+■
+2º Dia de Reunião: Reunião Fechada  e aprofundada onde os membros 
+do COPOM votam, e o presidente tem voto de qualidade;
+■
+Divulgação: A decisão é imediatamente divulgada ao público, 
+detalhando as análises;
+●
+Periodicidade fixa;
+○
+As reuniões acontecem aproximadamente a cada 45 dias (8 vezes por 
+ano), o calendário é divulgado no segundo semestre do ano anterior;
+<<<PÁGINA 11>>>
+COPOM
+→
+Ficou regulamentado que caso as metas de inflação não sejam cumpridas, será 
+necessário que o presidente do BACEN envie uma carta aberta direcionada ao 
+Ministro da Fazenda (Ministério da Economia);
+→
+Ela deverá justificar os motivos pelo não cumprimento das metas inflacionárias, 
+levantando quais serão as nova medidas adotadas para o retorno da inflação ao 
+centro da meta estabelecida;
+<<<PÁGINA 12>>>
+COPOM - Comitê de Política Monetária
+→ A diretoria do COPOM é composta pelo presidente que detém o voto de qualidade 
+(ou voto de minerva) e mais oito diretorias conforme disposto abaixo:
+●
+DIRAD: Diretoria de Administração;
+●
+DIREX: Diretoria de Assuntos Internacionais e de Gestão de Recursos Corporativos;
+●
+DIFIS: Diretoria de Fiscalização;
+●
+DIORF: Diretoria de Organização do Sistema Financeiro e controle de Operações de 
+Crédito Rural;
+●
+DIPEC: Diretoria de Política Econômica;
+●
+DIPOM: Diretoria de Política Monetária;
+●
+DINOR: Diretoria de Regulação;
+●
+DIREC: Diretoria de Relacionamento Institucional e Cidadania.

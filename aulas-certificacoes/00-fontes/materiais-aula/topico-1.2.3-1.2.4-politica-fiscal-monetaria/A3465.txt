@@ -1,0 +1,125 @@
+<<<PÁGINA 1>>>
+Canais de Transmissão da Política 
+Monetária
+<<<PÁGINA 2>>>
+→ A Selic meta é definida pelo Copom, com reuniões a cada 45 dias;
+●
+A Taxa Selic influencia todas as taxas de juros da economia:
+○
+Custo do crédito bancário;
+○
+Rentabilidade dos investimentos;
+○
+Financiamentos públicos e privados;
+○
+Como essa influência se espalha pela economia?
+👉 É aí que entram os canais de transmissão...
+O papel da SELIC Meta
+<<<PÁGINA 3>>>
+Canais de Transmissão da Política Monetária
+<<<PÁGINA 4>>>
+→ 
+Canal 
+da 
+Taxa 
+de 
+Juros;
+→ Canal das Expectativas;
+→ Canal do Crédito;
+→ Canal do Preço dos Ativos;
+→ Canal do Câmbio;
+Os 5 Canais de Transmissão
+<<<PÁGINA 5>>>
+Canal da Taxa de Juros
+→ Como funciona o canal:
+●
+A alteração da Selic impacta as demais taxas de juros da economia, influenciando decisões 
+de consumo, investimento e poupança;
+→ Política Contracionista (Selic ↑):
+●
+Curto prazo: aumenta o custo do crédito, desestimula consumo e investimento;
+●
+Longo prazo: reduz pressões inflacionárias, pode desacelerar o crescimento econômico;
+→ Política Expansionista (Selic ↓):
+●
+Curto prazo: barateia o crédito, incentiva consumo e investimento;
+●
+Longo prazo: pode pressionar a inflação se houver excesso de demanda;
+Exemplo: Quando a taxa SELIC vai de 2,00% para 15% encarece o financiamento de imóveis e veículos 
+rapidamente, inibindo a demanda agregada;
+<<<PÁGINA 6>>>
+Canal das Expectativas
+→ Como funciona o canal:
+●
+A decisão do Bacen altera as expectativas de inflação, crescimento e juros futuros, o que 
+impacta decisões antecipadamente;
+→ Política Contracionista (Selic ↑):
+●
+Curto prazo: sinal de controle da inflação → melhora da confiança em estabilidade;
+●
+Longo prazo: fortalece a credibilidade da autoridade monetária;
+→ Política Expansionista (Selic ↓):
+●
+Curto prazo: aumenta a confiança na retomada da atividade econômica;
+●
+Longo prazo: pode desancorar expectativas se parecer leniente com a inflação;
+Exemplo: quando o Copom sinalizou corte de juros após sequência de aumentos, o mercado 
+imediatamente precificou queda da inflação futura, fazendo a curva de juros recuar antes mesmo da 
+medida ser efetivada.
+<<<PÁGINA 7>>>
+Canal do Crédito
+→ Como funciona o canal:
+●
+A Selic afeta a oferta de crédito dos bancos e a demanda das famílias e empresas, 
+interferindo diretamente na liquidez da economia;
+→ Política Contracionista (Selic ↑):
+●
+Curto prazo: bancos se tornam mais restritivos; menos crédito disponível;
+●
+Longo prazo: famílias e empresas ajustam seus níveis de endividamento;
+→ Política Expansionista (Selic ↓):
+●
+Curto prazo: aumenta a concessão de crédito e impulsiona consumo e investimento;
+●
+Longo prazo: pode haver aumento da inadimplência se o crescimento for desordenado;
+Exemplo: Com a elevação da Selic de 2,00%, para 15% temos uma potencial queda de 70% dos 
+financiamentos de veículos. Aproximadamente redução de 5% a 10% de procura a cada aumento de 1% 
+da taxa Selic;
+<<<PÁGINA 8>>>
+Canal dos Ativos
+→ Como funciona o canal:
+●
+Alterações na Selic mudam a atratividade dos ativos de renda fixa, impactando diretamente os 
+preços de ativos financeiros e imobiliários;
+→ Política Contracionista (Selic ↑):
+●
+Curto prazo: os investidores migram da bolsa para a renda fixa → queda nos preços das ações;
+●
+Longo prazo: empresas têm maior custo de captação → impacto nos lucros e no valuation;
+→ Política Expansionista (Selic ↓):
+●
+Curto prazo: ativos de risco se tornam mais atrativos → valorização da bolsa;
+●
+Longo prazo: facilita captação das empresas e impulsiona o mercado de capitais;
+Exemplo: quando a Selic caiu para 2% em 2020, o Ibovespa se valorizou mais de 30% em 12 meses, 
+puxado por fluxo para renda variável em busca de maior retorno.
+<<<PÁGINA 9>>>
+Canal do Câmbio
+→ Como funciona o canal:
+●
+Mudanças na Selic influenciam os fluxos de capital estrangeiro, afetando a taxa de câmbio e, por 
+consequência, os preços dos produtos importados e exportados;
+→ Política Contracionista (Selic ↑):
+●
+Curto prazo: atrai capital estrangeiro → real se valoriza → produtos importados mais baratos;
+●
+Longo prazo: controle da inflação via câmbio, mas risco para exportadores;
+→Política Expansionista (Selic ↓):
+●
+Curto prazo: saída de capital → desvalorização do real → inflação via importados;
+●
+Longo prazo: exportações se tornam mais competitivas → possível superávit comercial;
+Exemplo: Em 2023, mesmo com Selic elevada (13,75%), o dólar subiu para R$ 5,40 devido à piora na 
+percepção de risco fiscal e incerteza política. Já em 2016, quando a Selic foi de 14,25% para 13,75% e o 
+governo retomou medidas de austeridade, o dólar recuou de R$ 4,00 para R$ 3,20, mostrando que o canal 
+cambial depende da combinação entre juros e credibilidade.
