@@ -376,7 +376,7 @@ Ao **vender títulos**, o BC **recebe dinheiro** dos bancos e **retira liquidez*
 
 ### Referência
 
-APOSTILA-CPA p. 105–112; Decreto 12.079/2024; Programa Detalhado CPA, item 1.2.4.
+PDFs A3465 e A3466; Decreto 12.079/2024; Programa Detalhado CPA, item 1.2.4.
 
 ## 7. Revisão final — 2 min
 
