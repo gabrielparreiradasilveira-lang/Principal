@@ -1,0 +1,63 @@
+<<<PÁGINA 1>>>
+Cupom Cambial e os Investimentos
+
+<<<PÁGINA 2>>>
+Cupom Cambial
+
+<<<PÁGINA 3>>>
+Cupom Cambial
+→ O Cupom Cambial é a remuneração, em dólares, dos reais aplicados no Brasil;
+●
+Ele é calculado a partir da diferença entre a cotação futura e a cotação à vista do 
+dólar:
+
+<<<PÁGINA 4>>>
+Analogia com Juros Compostos
+→ Podemos usar na HP sempre a metodologia dos juros compostos onde:
+●
+PV → Dólar Spot (Dólar à vista);
+●
+FV → Dólar Forward (Dólar a prazo);
+●
+i → Taxa de Juros → Cupom Cambial;
+●
+n → Prazo → tempo em dias;
+
+<<<PÁGINA 5>>>
+Cupom Cambial
+→ Considere a condição de mercado Abaixo:
+●
+Dólar Forward = R$ 3,23333 USD;
+●
+Dólar Spot = R$ 3,13333 USD;
+●
+Taxa Livre de Risco = 8% a.a;
+●
+Vencimento de 63 dias úteis (base 252 dias) e 90 dias corridos (base 360 dias)?
+Qual é o cupom cambial dessa operação?
+
+<<<PÁGINA 6>>>
+Cupom Cambial
+→ Qual seria a taxa forward do dólar, considerando um prazo a decorrer de 90 dias corridos 
+(63 DU) para o seu vencimento, tendo a taxa spot está em R$ 4,02/US$, um cupom 
+cambial está em 2,00% ao ano e a taxa livre de risco brasil em 4,5% ao ano?
+
+<<<PÁGINA 7>>>
+O que o Cupom Cambial revela…
+→ O cupom cambial mostra:
+●
+A atratividade do Brasil para o investidor estrangeiro;
+●
+A relação entre juros locais e expectativa cambial;
+●
+O risco-Brasil implícito no mercado futuro;
+●
+O custo de hedge cambial para empresas e fundos;
+→ Temos a seguinte interpretação:
+●
+CC > taxa livre de risco →  Atrativo investir no Brasil;
+●
+CC ≈ taxa livre de risco → Neutro;
+●
+CC < taxa livre de risco → Desvantajoso – fuga de capital provável;
+

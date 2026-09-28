@@ -1,0 +1,134 @@
+<<<PÁGINA 1>>>
+Reservas Internacionais e Swap 
+Cambial
+
+<<<PÁGINA 2>>>
+Reservas Internacionais e Swap Cambial
+
+<<<PÁGINA 3>>>
+Reservas Internacionais
+→ Ativos financeiros em moeda estrangeira sob controle do Banco Central, utilizados para 
+garantir a estabilidade da economia brasileira frente ao mercado internacional;
+→ Objetivos:
+●
+Pagar dívidas externas;
+●
+Financiar importações essenciais (combustível, remédios);
+●
+Atuar em momentos de crise para conter alta do dólar;
+●
+Inspirar confiança nos investidores internacionais;
+
+<<<PÁGINA 4>>>
+Reservas Internacionais
+→ Reservas estimadas do BACEN:
+●
+Total estimado:
+○
+US$ 343,9 bilhões;
+●
+Alocação por moeda:
+○
+78,5% em dólares (USD);
+○
+5,3% em renminbi (CNY);
+○
+5,2% em euro (EUR);
+○
+3,7% em libras (GBP);
+○
+1,7% em iene (JPY);
+○
+3,5% em ouro;
+
+<<<PÁGINA 5>>>
+Reservas Internacionais
+Conceito na Economia Real
+Analogia na Família Stumpf
+Real: moeda do país
+Stumpf: moeda interna usada dentro de casa
+Dólar: moeda internacional
+Real: moeda usada fora de casa (comprar pizza, viajar etc.)
+Reservas Internacionais
+Cofre com reais que a família guarda para emergências
+Crise cambial
+A pizza aumentou de preço e o filho não tem reais suficientes
+Venda de Reservas
+Pai abre o cofre e entrega reais para pagar a pizza
+Swap Cambial
+Pai faz um contrato: “se a pizza subir, eu te compenso”
+Estabilidade do câmbio
+Filho fica tranquilo, mesmo com variação no preço externo
+
+<<<PÁGINA 6>>>
+→ Funções Estratégicas:
+●
+Proteção cambial: evitar que o dólar venha a disparar;
+●
+Liquidez internacional: pagar compromissos com o exterior;
+●
+Credibilidade: atrai investidores e reduz o risco-país;
+●
+Segurança: reserva para crises sistêmicas ou fuga de capitais;
+Porque manter Reservas?
+
+<<<PÁGINA 7>>>
+Swap Cambial
+→ Operação feita pelo Banco Central no mercado futuro para simular a venda de dólares, 
+sem movimentar as reservas reais;
+→ Como funciona:
+●
+BC “vende” contratos cambiais;
+●
+Recebe CDI (juros locais);
+●
+Entrega proteção cambial (dólar futuro);
+●
+Não há entrega física de dólar. É uma operação sintética (Mercado Derivativos);
+
+<<<PÁGINA 8>>>
+Swap Cambial na Prática
+→ Dólar em Forte Subida:
+●
+Oferece o Swap Cambial Tradicional:
+○
+Vende Dólar Futuro;
+→ Dólar em Forte Queda:
+●
+Oferece o Swap Cambial Reverso:
+○
+Compra Dólar Futuro;
+
+<<<PÁGINA 9>>>
+Swap Cambial x Reservas Internacionais
+Característica
+Swap Cambial
+Venda de Reservas
+Moeda real envolvida?
+❌ Não
+✅ Sim (dólar físico)
+Impacto imediato no caixa?
+❌ Não
+✅ Sim
+Efetividade no curto prazo?
+✅ Alta (expectativa)
+✅ Alta (real)
+Usado com frequência?
+✅ Sim (primeiro passo)
+⚠ Moderado (caso necessário)
+
+<<<PÁGINA 10>>>
+Caso Real
+→ Pandemia em 2020:
+●
+Dólar chegou a R$ 5,90;
+●
+Banco Central usou:
+○
+Venda direta de reservas;
+○
+Swaps Cambiais;
+●
+Resultado: Acomodou as expectativas do mercado sem esvaziar as reservas 
+internacionais;
+

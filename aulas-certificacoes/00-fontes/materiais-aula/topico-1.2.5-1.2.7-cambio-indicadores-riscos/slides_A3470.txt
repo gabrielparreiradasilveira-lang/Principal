@@ -1,0 +1,125 @@
+<<<PÁGINA 1>>>
+PIB e Indicadores de Inﬂação
+
+<<<PÁGINA 2>>>
+PIB e Indicadores de Inﬂação
+
+<<<PÁGINA 3>>>
+PIB - Produto Interno Bruto
+→ PIB: o retrato do que o país produz:
+●
+Soma de todos os bens e serviços finais produzidos em um país durante um 
+período;
+                          Componentes principais: PIB = C + I + G + (X - M)
+Onde:
+●
+C = Consumo das famílias;
+●
+I = Investimentos;
+●
+G = Gastos do governo;
+●
+X = Exportações;
+●
+M = Importações;
+
+<<<PÁGINA 4>>>
+PIB - Produto Interno Bruto
+→ Por que o PIB importa?
+●
+Crescimento do PIB → mais empregos, mais crédito, mais investimentos;
+●
+Queda do PIB → recessão, demissões, retração do mercado;
+Atenção:
+Alta do PIB com inflação pode indicar superaquecimento;
+
+<<<PÁGINA 5>>>
+Inﬂação
+→ Inflação é o aumento generalizado e contínuo dos preços de bens e serviços em uma 
+economia ao longo do tempo corroendo o poder de compra da moeda;
+→ Tipos de Inflação:
+●
+Demanda: Consumo cresce mais rápido que a produção, economia aquecida;
+●
+Custos: Aumento dos custos de produção, alta no preço do dólar e petróleo;
+●
+Inercial: Reajuste automático com base em índices passados, contratos indexados;
+●
+Importada: Alta nos preços internacionais, elevação no preço de commodities;
+●
+Estrutural: gargalos na economia, falta de infraestrutura logística para escoamento;
+
+<<<PÁGINA 6>>>
+→ O IPCA é o índice oficial da inflação brasileira – base para o Banco Central decidir a Selic;
+→ IGP-M é mais volátil, pois reflete diretamente o preço do atacado e oscilações do dólar e commodities;
+→ O IPA é o maior responsável pela volatilidade do IGP-M – variações do boi gordo, soja, minério impactam 
+fortemente;
+→ O IPC-Fipe é importante regionalmente, sendo usado em contratos na cidade de São Paulo;
+Índices Inﬂacionários
+Índice
+Responsável
+Peso
+Usos Comuns
+Cobertura
+Volatilidade Dólar
+IPCA
+IBGE
+100% consumidor
+Meta de inflação, reajustes 
+federais
+Capitais + 
+metropolitanas
+Baixa a média
+IGP-M
+FGV
+60% IPA, 30% IPC, 
+10% INCC
+Aluguéis, energia, contratos
+Nacional
+Alta
+IPA-M
+FGV
+100% produtor 
+(atacado)
+Custo de produção, previsão 
+da inflação
+Nacional
+Altíssima
+IPC-Fipe
+FIPE
+100% consumidor
+Dissídios coletivos em SP
+São Paulo
+Baixa
+
+<<<PÁGINA 7>>>
+→ IPCA:
+●
+Reajuste de salários federais, aposentadorias e benefícios;
+●
+Índice oficial de inflação, Base da Política Monetária;
+→ IGP-M:
+●
+Reajuste de contratos de aluguel e planos de saúde;
+●
+Tradição contratual mesmo com maior volatilidade;
+→ IPA:
+●
+Cálculo para reajustes industriais;
+●
+Reflete os custos do produtor no atacado;
+→ IPC-FIPE:
+●
+Reajuste de acordos coletivos em SP;
+●
+Reflete a realidade da capital paulistana;
+Onde cada Índice Afeta sua Vida
+
+<<<PÁGINA 8>>>
+→ Inflação afeta:
+●
+Taxa de Juros;
+●
+Taxa de Desemprego;
+Próximos Capítulos…
+

@@ -1,0 +1,102 @@
+<<<PÁGINA 1>>>
+Taxa de Juros e Desemprego
+
+<<<PÁGINA 2>>>
+Relembrando…
+
+<<<PÁGINA 3>>>
+Taxa de Juros
+→ Quando o BACEN sobe a Selic temos (Política Contracionista):
+●
+Crédito mais caro;
+●
+Consumo e investimento caem;
+●
+Empresas reduzem produção;
+●
+Aumenta o desemprego;
+→ Quando o BACEN reduz a Selic temos (Política Expansionista):
+●
+Crédito mais barato;
+●
+Consumo e investimento aumentam;
+●
+Empresas aumentam a produção;
+●
+Diminui o desemprego;
+
+<<<PÁGINA 4>>>
+Taxa SELIC
+→ Selic Meta: definida pelo Copom (instrumento da política monetária);
+→ Selic Over: taxa efetiva praticada nas operações com títulos públicos;
+●
+Controla a inflação, mas afeta o PIB e o emprego;
+→ Direção para Atender o Regime de Metas de Inflação:
+●
+Decreto nº 3.088/99 e Resolução CMN nº 4.944/21;
+
+<<<PÁGINA 5>>>
+CDI - Certiﬁcado de Depósito Interbancário
+→ CDI (Certificado de Depósito Interbancário):
+●
+Título emitido por bancos para empréstimos entre si, lastreado em títulos públicos;
+●
+A Taxa DI (ou CDI) é a média diária desses empréstimos;
+●
+Utilizado com indexador de remuneração para:
+○
+Títulos de Renda Fixa: CDBs, LCIs, LCAs, Fundos DI, LFs;
+→ Relação com a SELIC:
+●
+A Taxa CDI costuma acompanhar a Selic Over;
+●
+Quando a Selic cai ou sobe, o CDI também muda;
+
+<<<PÁGINA 6>>>
+→ A Taxa Referencial (TR) é uma taxa de referência criada em 1991 para combater a 
+hiperinflação;
+●
+Calculada pelo Banco Central com base nas taxas médias dos CDBs dos 30 maiores 
+bancos;
+→ Onde a TR é utilizada:
+●
+Caderneta de Poupança: Remuneração + TR;
+●
+FGTS: corrigido por 3% ao ano + TR;
+●
+Correção de Saldo devedor de Financiamentos Imobiliários;
+→ Observação:
+●
+Desde 2017, a TR tem sido praticamente zerada por conta da forma de cálculo;
+TR - Taxa Referencial
+
+<<<PÁGINA 7>>>
+Taxa de Desemprego
+→ O que é: percentual da População Economicamente Ativa (PEA) que está sem emprego, 
+mas procura trabalho:
+●
+PEA: pessoas com 14 anos ou mais que estão trabalhando ou buscando trabalho;
+●
+Responsável: IBGE;
+●
+Método de cálculo:
+
+<<<PÁGINA 8>>>
+Efeitos da Taxa de Desemprego
+→ As variações da taxa de desemprego podem ser:
+●
+Cíclicas: acompanha recessão/expansão do PIB;
+●
+Estrutural: descompasso de habilidades e demanda;
+●
+Friccional: transição entre empregos (curto prazo);
+→ Consequências econômicas:
+●
+Reduz consumo e demanda agregada;
+●
+Aumenta gastos públicos com:
+○
+Seguros;
+○
+Assistência social;
+
