@@ -1,0 +1,1841 @@
+<<<PÁGINA 1>>>
+Roteiro de Aula — 4.7 Fintechs e meios de 
+pagamento
+Identificação e escopo
+• Certificação: CPA — Certificado Profissional ANBIMA.
+• Módulo: 4 — Produtos do mercado financeiro.
+• Item: 4.7 — Fintechs e meios de pagamento.
+• Subitens cobertos exatamente:
+• 4.7.1 — Fintechs de hoje;
+• 4.7.2 — Sandbox regulatório BCB e CVM;
+• 4.7.3 — Relação com Open Finance;
+• 4.7.4 — Regulação;
+• 4.7.5 — Desintermediação financeira;
+• 4.7.6 — Meios de pagamento;
+• 4.7.6.1 — Conceitos;
+• 4.7.6.2 — Arranjo;
+• 4.7.6.3 — Adquirente;
+• 4.7.6.4 — Subadquirente.
+• Programa Detalhado: CPA-ANBIMA, versão 1.2, revisada em 04/06/2025, com vigência 
+a partir de 01/01/2026, conforme a pesquisa consolidada.
+• Duração estimada: 90 a 110 minutos, com pausas curtas de fixação.
+• Público: candidato CPA, com linguagem literal, linear e acessível para TEA/TDAH.
+• Delimitação: o roteiro explica a arquitetura econômica, operacional e regulatória de 
+fintechs e pagamentos. Não transforma prática de mercado em regra jurídica. Não usa 
+questões reais. Quando houver alteração normativa recente, prevalece o texto vigente 
+do órgão competente; a ressalva é registrada.
+Nomenclatura do edital: a pesquisa consolidada registra que o PDF da ANBIMA 
+apresenta a grafia “Sub-adquitente”. Esta grafia é normalizada neste roteiro para 
+subadquirente. A nomenclatura normativa atual do Banco Central é subcredenciador. 
+Portanto: subadquirente = expressão corrente de mercado; subcredenciador = termo 
+normativo preferencial.
+
+<<<PÁGINA 2>>>
+1. Fala de abertura — aproximadamente 5 
+minutos
+Imagine duas empresas com aplicativos parecidos. As duas oferecem cartão, pagamento 
+por celular e uma conta digital. Uma é banco. A outra é instituição de pagamento. Uma 
+terceira empresa usa tecnologia para conectar lojistas a uma adquirente. Uma quarta inicia 
+um Pix a partir da conta que o cliente mantém em outro banco.
+Todas podem ser chamadas de fintechs no mercado. Mas elas não têm necessariamente a 
+mesma autorização, a mesma função, o mesmo risco ou o mesmo supervisor.
+Agora pense em uma compra simples. O cliente aproxima o cartão. O lojista recebe a 
+confirmação. O dinheiro passa por uma cadeia de regras, participantes, autorização, 
+captura, compensação e liquidação. O cartão é apenas o instrumento. A bandeira não é 
+automaticamente o emissor. O adquirente não é o banco do cliente. O subadquirente não é 
+necessariamente uma instituição de pagamento. O iniciador não guarda o dinheiro.
+A pergunta central desta aula é:
+Ao final, você deverá conseguir:
+1. identificar o que é uma fintech e separar rótulo de mercado de categoria jurídica;
+2. diferenciar fintech, banco, instituição financeira e instituição de pagamento;
+3. explicar a finalidade e os limites dos sandboxes do BCB e da CVM;
+4. relacionar fintechs, APIs, consentimento e Open Finance;
+5. reconhecer o papel de CMN, BCB e CVM na regulação;
+6. explicar desintermediação financeira sem confundi-la com desregulação;
+7. desenhar a cadeia de um pagamento com cartão e de um Pix;
+8. diferenciar arranjo, instrumento, conta, emissor, adquirente, subadquirente, 
+participante e usuário final.
+[ESCREVA]
+Plain Text
+ATIVIDADE → FUNÇÃO → AUTORIZAÇÃO → REGRA → DECISÃO
+[FALE]
+Quem faz o quê, em qual ponto da cadeia, com qual autorização e sob qual regra?
+
+<<<PÁGINA 3>>>
+Sempre que a questão trouxer um nome comercial, não comece pelo nome. Comece pela 
+atividade efetivamente exercida.
+Objetivo da abertura
+Mostrar que tecnologia, aplicativo e marca não bastam para identificar o enquadramento 
+jurídico. A resolução da questão depende da atividade, da posição na cadeia, da 
+autorização e do órgão competente.
+Frase de fixação
+2. Metáfora central — aproximadamente 5 
+minutos
+Metáfora: uma cidade com ruas, regras, veículos e postos 
+de controle
+Imagine que um pagamento é uma viagem dentro de uma cidade.
+• A cidade é o ecossistema financeiro e de pagamentos.
+• As ruas e os sinais são o arranjo e suas regras.
+• O veículo é o instrumento de pagamento: cartão, boleto, celular ou procedimento 
+eletrônico.
+• A garagem de origem é a conta do pagador.
+• O destino é a conta ou instituição do recebedor.
+• O emissor fornece ou administra o veículo do pagador.
+• O adquirente habilita o estabelecimento de destino.
+• O subcredenciador, chamado subadquirente no mercado, pode habilitar o recebedor 
+por uma camada especializada.
+• O instituidor organiza as regras e a marca da rede.
+• O iniciador pode comandar a viagem a pedido do usuário, sem ser dono da garagem e 
+sem transportar o dinheiro consigo.
+• O BCB e a CVM exercem competências de regulação e supervisão em seus respectivos 
+Na prova, identifique primeiro a função; só depois identifique o nome da empresa.
+
+<<<PÁGINA 4>>>
+perímetros.
+• O sandbox é uma faixa de teste controlada. Não é uma licença para dirigir em qualquer 
+estrada.
+• O Open Finance é uma estrada padronizada para compartilhar dados e serviços com 
+autorização do usuário.
+Frase de impacto
+Atenção técnica: limite da metáfora
+A metáfora serve para localizar funções. Ela não significa que cada entidade exerça apenas 
+uma atividade. Uma mesma instituição pode desempenhar mais de uma modalidade, 
+desde que a autorização e as regras aplicáveis permitam. Também não significa que 
+sandbox, Open Finance ou tecnologia eliminem o controle regulatório.
+[DESENHE]
+Plain Text
+Elemento visual
+Conceito técnico
+O que não se deve concluir
+Ruas e sinais
+Arranjo de pagamento
+Não é o cartão nem a empresa 
+isolada
+Veículo
+Instrumento de pagamento
+Não é a conta
+Garagem de origem
+Conta do pagador
+Não é o arranjo
+Posto que habilita o destino
+Adquirente/credenciador
+Não é o emissor
+Habilitador especializado
+Subadquirente/subcredenciado
+r
+Não é automaticamente IP
+Regras da cidade
+Lei, normas e regulamentos
+Não são uma promessa de 
+rentabilidade
+Faixa de teste
+Sandbox
+Não é autorização definitiva
+Estrada de dados autorizados
+Open Finance
+Não é acesso irrestrito a todos 
+os dados
+O pagamento parece uma viagem simples, mas a prova pergunta quem construiu a 
+estrada, quem dirige, quem autorizou e quem recebe.
+
+<<<PÁGINA 5>>>
+REGRAS DA REDE
+      ↓
+PAGADOR → INSTRUMENTO/ORDEM → PARTICIPANTES → RECEBEDOR
+      ↓                         ↓
+   EMISSOR                 AUTORIZAÇÃO, RISCO,
+                           COMPENSAÇÃO E LIQUIDAÇÃO
+[FIXE]
+O meio de pagamento é uma cadeia. O instrumento é apenas uma parte da cadeia.
+3. Explicação dos tópicos
+3.1. 4.7 — Visão geral de fintechs e meios de pagamento
+O que é
+Fintech é um rótulo econômico e mercadológico para empresa ou modelo de negócio que 
+usa tecnologia de modo intenso para inovar, oferecer, distribuir, intermediar ou aprimorar 
+serviços financeiros.
+Meio de pagamento é a solução ampla que permite iniciar, autorizar, processar, 
+compensar quando aplicável e liquidar uma transação entre pagador e recebedor. Ele 
+envolve instrumento, contas, canais, participantes, regras e infraestrutura.
+Não existe uma licença única chamada “licença fintech”. A qualificação jurídica depende 
+da atividade realizada. Uma fintech pode ser:
+• instituição financeira, como uma SCD ou SEP;
+• instituição de pagamento, como emissora, credenciadora ou iniciadora;
+• participante de arranjo;
+• prestadora de tecnologia;
+• parceira de instituição autorizada;
+• empresa sujeita à CVM, SUSEP ou a mais de um perímetro regulatório.
+Função e objetivo
+A tecnologia pode reduzir fricção, automatizar tarefas, ampliar canais, usar APIs e dados, 
+melhorar a experiência, apoiar concorrência e inclusão financeira. Esses são potenciais 
+
+<<<PÁGINA 6>>>
+objetivos econômicos e regulatórios. Não são promessas de menor preço, aprovação de 
+crédito, segurança absoluta ou ausência de intermediários.
+Como funciona
+A lógica geral é:
+1. a empresa identifica uma necessidade financeira;
+2. usa tecnologia, dados, APIs, automação ou plataforma;
+3. conecta usuários e provedores ou executa uma atividade regulada;
+4. aplica autenticação, segurança, prevenção a fraude e controles;
+5. processa, encaminha ou liquida a operação dentro do perímetro aplicável;
+6. recebe remuneração permitida, como tarifa, comissão, spread ou assinatura.
+Onde aparece
+Aparece em pagamentos, contas, crédito, iniciação de pagamentos, gestão financeira, 
+investimentos, câmbio, seguros, infraestrutura, análise de dados e serviços de tecnologia.
+Exemplo prático
+Uma empresa oferece um aplicativo que reúne informações financeiras do cliente 
+mediante consentimento e permite iniciar um Pix a partir da instituição onde a conta está 
+mantida. Se for iniciadora autorizada, ela comanda a ordem, mas não gerencia a conta nem 
+detém os fundos.
+O que a prova pode confundir
+• Fintech ≠ banco: fintech é rótulo de negócio; banco é instituição financeira.
+• Fintech ≠ IP: fintech pode ser IP, mas também pode ser IF, prestadora de tecnologia ou 
+parceira.
+• Tecnologia ≠ autorização: usar aplicativo, inteligência artificial ou API não cria licença.
+• Supervisão ≠ garantia: ser autorizado ou supervisionado não significa garantia de 
+rentabilidade ou cobertura universal.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+Fintech descreve tecnologia e modelo de negócio; a autorização depende da 
+atividade.
+
+<<<PÁGINA 7>>>
+Item 4.7 — Fintechs e meios de pagamento. O conceito geral organiza os subitens 4.7.1 a 
+4.7.6.4.
+Fonte e status
+• Status: conceito econômico/institucional; não é categoria jurídica única.
+• Fonte: Banco Central — Fintechs.
+• Base legal relacionada: Lei nº 12.865/2013 e Lei nº 4.595/1964.
+• Ressalva: o nome comercial não substitui consulta à autorização e ao perímetro 
+regulatório.
+3.2. 4.7.1 — Fintechs de hoje
+O que é
+Fintech de hoje é a empresa ou modelo de negócio que combina serviços financeiros com 
+uso intensivo de software, dados, APIs, plataformas digitais e automação. O termo pode 
+abranger empresas com naturezas jurídicas diferentes.
+A definição econômica não responde, sozinha, às perguntas jurídicas. Para classificar uma 
+fintech, pergunte:
+1. Qual serviço ela presta?
+2. Ela movimenta recursos, concede crédito, emite instrumento ou apenas fornece 
+tecnologia?
+3. É instituição autorizada?
+4. Qual órgão é competente?
+5. Ela atua diretamente ou por parceria?
+Função e objetivo
+As fintechs podem:
+• simplificar canais e operações;
+• automatizar análise, cadastro e atendimento;
+• reduzir tempo e burocracia;
+• facilitar acesso a pagamentos e crédito;
+• ampliar concorrência e personalização;
+• criar novos modelos de distribuição;
+
+<<<PÁGINA 8>>>
+• oferecer infraestrutura para instituições reguladas.
+Como funciona
+O rótulo “fintech” é colocado sobre um modelo tecnológico. A camada jurídica vem 
+depois da identificação da atividade.
+Plain Text
+TECNOLOGIA E MODELO DE NEGÓCIO
+              ↓
+ATIVIDADE EFETIVA
+              ↓
+ENQUADRAMENTO JURÍDICO
+              ↓
+AUTORIZAÇÃO E SUPERVISÃO
+Fintech x banco
+IP x instituição financeira
+Instituição de pagamento — IP: pessoa jurídica que presta serviços de pagamento no 
+âmbito de um ou mais arranjos. Pode gerir conta de pagamento, emitir instrumento, 
+credenciar recebedor ou iniciar transação, conforme a modalidade. Não é instituição 
+Critério
+Fintech
+Banco
+Natureza
+Rótulo 
+econômico/mercadológico
+Instituição financeira, 
+conforme a lei e a autorização
+Tecnologia
+Geralmente intensa
+Pode operar digitalmente ou 
+por canais físicos
+Crédito
+Pode não oferecer; pode 
+oferecer por SCD, SEP ou banco
+Pode realizar operações 
+autorizadas
+Pagamentos
+Pode ser IP, banco, iniciadora 
+ou prestadora
+Pode prestar pagamentos 
+quando autorizado e aderente 
+ao arranjo
+Autorização
+Depende da atividade
+Depende da categoria e do 
+serviço bancário
+Pergunta correta
+“Qual atividade e qual veículo 
+jurídico?”
+“Qual modalidade bancária e 
+qual autorização?”
+
+<<<PÁGINA 9>>>
+financeira e não pode exercer atividades privativas de instituição financeira, como conceder 
+empréstimos e financiamentos como atividade própria da IP.
+Instituição financeira — IF: pessoa jurídica pública ou privada cuja atividade principal ou 
+acessória seja coletar, intermediar ou aplicar recursos financeiros próprios ou de terceiros, 
+ou custodiar valores de terceiros, conforme o art. 17 da Lei nº 4.595/1964.
+Fintechs de crédito: SCD e SEP
+• SCD — Sociedade de Crédito Direto: instituição financeira que realiza operações de 
+crédito por plataforma eletrônica, com recursos próprios dentro do regime aplicável.
+• SEP — Sociedade de Empréstimo entre Pessoas: instituição financeira que 
+intermedeia empréstimos entre credores e devedores por plataforma eletrônica.
+A SCD e a SEP são exemplos importantes porque mostram que uma fintech pode ser 
+instituição financeira. Já uma fintech de pagamentos pode ser IP, sem ser banco.
+Exemplo prático
+Uma mesma marca comercial oferece três serviços por empresas diferentes do grupo:
+• uma IP emissora de moeda eletrônica mantém conta pré-paga;
+• uma instituição financeira concede crédito;
+• uma empresa tecnológica fornece o aplicativo e o suporte.
+A marca é uma só. As naturezas jurídicas e responsabilidades podem ser diferentes.
+Confusões prováveis e pegadinhas
+1. “Toda fintech é banco.” Errado. Fintech é rótulo econômico.
+IP
+IF
+Núcleo: serviços de pagamento
+Núcleo: intermediação, coleta, aplicação ou 
+custódia de recursos, conforme a licença
+Não é IF
+É categoria jurídica da Lei nº 4.595/1964
+Não pode exercer atividade privativa de IF
+Pode exercer atividades financeiras 
+autorizadas
+Regulação e supervisão pelo BCB
+Regulação e supervisão pelo BCB, conforme a 
+categoria
+Não integra o SFN como instituição financeira
+Integra o regime das instituições financeiras
+
+<<<PÁGINA 10>>>
+2. “Toda fintech é IP.” Errado. Pode ser IF, SCD, SEP, prestadora ou parceira.
+3. “Toda conta digital é conta corrente bancária.” Errado. Pode ser conta de 
+pagamento.
+4. “Toda empresa que usa API participa do Open Finance.” Errado. Participação 
+depende de autorização, modalidade e regras.
+5. “Empresa autorizada pelo BCB tem FGC em qualquer produto.” Errado. A proteção 
+depende do produto e do enquadramento.
+6. “Uma IP pode conceder empréstimos porque tem aplicativo.” Errado. O aplicativo 
+não altera o limite legal.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+Subitem 4.7.1 — Fintechs de hoje.
+Fonte e status
+• Status: definição econômica/institucional; a qualificação jurídica depende da atividade.
+• Fontes: BCB — Fintechs; BCB — Instituições de pagamento; Lei nº 4.595/1964.
+• Normas relacionadas: Resolução BCB nº 80, em versão indicada pela pesquisa como 
+vigente e atualizada em 06/11/2025.
+• Ressalva: páginas informativas antigas podem mencionar normas de crédito 
+revogadas ou substituídas. Para regra atual, prevalece o texto normativo vigente.
+Comando de lousa/tela
+[ESCREVA]
+Plain Text
+FINTECH ≠ LICENÇA
+FINTECH = TECNOLOGIA + SERVIÇO/MODELO
+ATIVIDADE → VEÍCULO JURÍDICO → AUTORIZAÇÃO → SUPERVISOR
+[PARE E PERGUNTE]
+Se uma empresa apenas fornece software para uma instituição autorizada, ela se torna 
+automaticamente um banco ou uma IP?
+A fintech é identificada pela atividade e pelo veículo jurídico, não pelo aplicativo.
+
+<<<PÁGINA 11>>>
+[FIXE]
+Não. A parceria e a tecnologia não alteram automaticamente a natureza jurídica da 
+empresa.
+3.3. 4.7.2 — Sandbox regulatório BCB e CVM
+O que é
+Sandbox regulatório é ambiente experimental, controlado, delimitado e monitorado no 
+qual uma autoridade permite testar, por período determinado, projeto inovador sujeito a 
+condições, limites e salvaguardas. Pode haver dispensas específicas de requisitos, 
+conforme o regime da autoridade.
+Não é:
+• licença definitiva;
+• salvo-conduto;
+• imunidade contra fiscalização;
+• autorização para operar fora do projeto;
+• garantia de sucesso comercial;
+• dispensa geral de proteção do usuário, segurança, sigilo, integridade ou prevenção a 
+ilícitos.
+Função e objetivo
+O sandbox aproxima inovação e supervisão. Ele permite que a autoridade observe um 
+modelo mais maduro em ambiente controlado, aprenda com o teste e avalie 
+aperfeiçoamentos regulatórios.
+Objetivos possíveis:
+• estimular inovação e diversidade de modelos;
+• promover concorrência e inclusão;
+• aumentar eficiência e reduzir custos;
+• melhorar segurança e qualidade;
+• proteger usuários e investidores;
+• aperfeiçoar a supervisão e a regulação.
+Como funciona o sandbox do BCB
+
+<<<PÁGINA 12>>>
+O sandbox do BCB alcança inovações dentro da competência do BCB e do CMN, 
+especialmente no Sistema Financeiro Nacional e no Sistema de Pagamentos Brasileiro.
+Fluxo didático:
+1. o BCB define o ciclo ou o ato aplicável;
+2. a entidade apresenta o projeto, riscos, maturidade e mitigadores;
+3. ocorre seleção conforme os critérios do ciclo;
+4. o projeto recebe autorização temporária e condicionada;
+5. são definidos limites, obrigações, clientes, volume e plano de descontinuidade;
+6. o BCB monitora o teste;
+7. ao final, pode haver descontinuidade, pedido de autorização definitiva ou 
+aperfeiçoamento regulatório.
+A base indicada pela pesquisa consolidada inclui a Resolução CMN nº 4.865/2020, a 
+Resolução BCB nº 29/2020, regras de governança do CESB e o ato específico do primeiro 
+ciclo. O Ciclo 1 foi iniciado em 2021 e está documentado pelo BCB. Não se deve afirmar a 
+existência de novo ciclo aberto sem ato oficial de convocação.
+Como funciona o sandbox da CVM
+O sandbox da CVM alcança inovações em atividades reguladas do mercado de capitais e de 
+valores mobiliários.
+Fluxo didático:
+1. a CVM recebe propostas em processo de admissão;
+2. o Comitê de Sandbox analisa e recomenda;
+3. o Colegiado da CVM decide;
+4. o participante recebe autorização temporária e condicionada;
+5. podem ser concedidas dispensas específicas, limites e salvaguardas;
+6. a CVM monitora o teste;
+7. a autorização pode ser mantida, ajustada, encerrada ou substituída por outro 
+enquadramento.
+A Resolução CVM nº 29/2021 é a referência normativa vigente indicada pela pesquisa e 
+revogou a Instrução CVM nº 626/2020. Essa revogação é uma pegadinha de status.
+BCB x CVM
+
+<<<PÁGINA 13>>>
+Sandbox x autorização definitiva
+Exemplo prático
+Uma empresa propõe um serviço de pagamento inovador que ainda não se encaixa 
+perfeitamente no modelo tradicional. Ela não pode anunciar que “entrou no sandbox, 
+Ponto
+Sandbox BCB
+Sandbox CVM
+Competência material
+SFN e SPB; inovação financeira 
+e de pagamentos
+Mercado de capitais e valores 
+mobiliários
+Autoridade
+BCB, com diretrizes do CMN e 
+governança do CESB
+CVM, com Comitê de Sandbox e 
+decisão do Colegiado
+Autorização
+Temporária, delimitada e 
+monitorada
+Temporária, condicionada, 
+com dispensas específicas e 
+salvaguardas
+Exemplo de tema
+Pagamentos, crédito e modelos 
+financeiros
+Tokenização ou atividade 
+regulada de valores mobiliários
+Resultado
+Descontinuidade, autorização 
+definitiva ou ajuste regulatório
+Continuidade, encerramento 
+ou outro enquadramento, 
+conforme ato individual
+Confusão
+Não é licença permanente
+Não é incubadora nem salvo-
+conduto
+Sandbox
+Autorização definitiva
+Teste delimitado
+Operação conforme o regime permanente 
+aplicável
+Prazo determinado
+Vigência conforme a autorização/regra 
+correspondente
+Limites e salvaguardas individualizados
+Perímetro ordinário da licença
+Projeto monitorado
+Atividade regular autorizada
+Pode terminar sem continuidade
+Não depende do sucesso de um teste 
+específico
+
+<<<PÁGINA 14>>>
+logo tem licença ampla”. O correto é dizer que recebeu autorização experimental dentro 
+de condições, limites e prazo definidos pela autoridade competente.
+Confusões prováveis e pegadinhas
+• Sandbox BCB e sandbox CVM são iguais. Não. A competência material é diferente.
+• Sandbox é autorização definitiva. Não. É teste temporário e condicionado.
+• Sandbox elimina todas as regras. Não. Limites, segurança, atendimento e proteção 
+continuam relevantes.
+• Resolução CVM 626 é vigente. Não. A pesquisa consolidada registra sua revogação 
+pela Resolução CVM 29/2021.
+• O prazo de um ciclo do BCB vale para qualquer sandbox futuro. Não. Prazos 
+dependem do marco e do ato específico.
+• LIFT é sandbox. Não. O BCB diferencia laboratório de desenvolvimento e ambiente de 
+teste regulatório.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+Subitem 4.7.2 — Sandbox regulatório BCB e CVM.
+Fonte e status
+• BCB: Sandbox Regulatório.
+• BCB/CMN: Resolução CMN nº 4.865/2020; Resolução BCB nº 29/2020; Resolução BCB nº 
+50/2020, específica do Ciclo 1 conforme a pesquisa.
+• CVM: Sandbox Regulatório; Resolução CVM nº 29/2021.
+• Status: Resolução CVM 29 em vigor; Instrução CVM 626 revogada; Ciclo 1 do BCB 
+documentado como histórico. Novo ciclo ou nova admissão devem ser confirmados por 
+ato oficial específico.
+Comando de lousa/tela
+[DESENHE]
+Plain Text
+Sandbox é teste com autorização limitada; não é licença definitiva.
+
+<<<PÁGINA 15>>>
+INOVAÇÃO → PROJETO → LIMITES → TESTE → MONITORAMENTO → RESULTADO
+[CIRCULE]
+Plain Text
+TESTE ≠ LICENÇA PERMANENTE
+3.4. 4.7.3 — Relação com Open Finance
+O que é
+Open Finance é o compartilhamento padronizado de dados e serviços por abertura e 
+integração de sistemas. O compartilhamento ocorre entre instituições participantes, em 
+escopo regulado e com consentimento do cliente.
+Open Finance é uma estrutura regulada e permanente. Não é sandbox. Não é arranjo de 
+pagamento. Não é acesso público a todos os dados bancários.
+Função e objetivo
+O Open Finance busca:
+• incentivar inovação;
+• promover concorrência;
+• aumentar a eficiência do SFN e do SPB;
+• promover cidadania financeira;
+• reduzir assimetria informacional e custo de troca;
+• permitir novos serviços e novas experiências.
+Consentimento: mecanismo obrigatório
+O consentimento deve ser:
+• livre;
+• informado;
+• prévio;
+• inequívoco;
+• eletrônico;
+
+<<<PÁGINA 16>>>
+• destinado a finalidade determinada;
+• identificado quanto ao cliente, instituição, dados ou serviços e período aplicável;
+• revogável conforme as regras do sistema.
+O consentimento não pode ser presumido, pré-marcado ou obtido de modo genérico. A 
+Resolução vigente, conforme a pesquisa consolidada, exige prazo compatível com a 
+finalidade. Não transforme a referência histórica de “até 12 meses” de determinados 
+glossários em prazo universal para qualquer fluxo.
+Participantes e papéis
+Somente instituições autorizadas e supervisionadas pelo BCB participam como instituições 
+do Open Finance, conforme a modalidade e as regras de participação. A participação pode 
+ser obrigatória ou voluntária em hipóteses normativas.
+Relação com fintechs
+Uma fintech autorizada pode atuar, conforme a modalidade, como receptora, transmissora, 
+detentora de conta ou iniciadora. APIs padronizadas reduzem a necessidade de integrações 
+bilaterais e facilitam novos serviços.
+Uma fintech não autorizada pode fornecer tecnologia ou atuar em parceria nos casos 
+permitidos. Essa parceria não a transforma automaticamente em participante regulado, 
+não cria autorização para iniciar pagamentos e não afasta as responsabilidades da 
+instituição autorizada.
+Open Finance x Open Banking
+Papel
+Função
+Ponto decisivo
+Instituição transmissora
+Compartilha dados autorizados
+Não compartilha sem 
+consentimento válido
+Instituição receptora
+Solicita e recebe dados
+Deve usar o escopo autorizado
+Instituição detentora da conta
+Mantém a conta do cliente
+Autentica e executa a 
+movimentação
+Instituição iniciadora
+Inicia a transação a pedido do 
+cliente
+Não gerencia a conta nem 
+detém os fundos
+Instituição parceira não 
+autorizada
+Pode prestar tecnologia em 
+hipóteses normativas
+A parceria não a transforma 
+automaticamente em 
+participante
+
+<<<PÁGINA 17>>>
+Iniciação de pagamento no Open Finance
+Fluxo visual:
+Plain Text
+1. CLIENTE ESCOLHE O INICIADOR
+             ↓
+2. DEFINE VALOR, PAGADOR E RECEBEDOR
+             ↓
+3. INICIADOR ENCAMINHA O FLUXO
+             ↓
+4. CLIENTE É REDIRECIONADO OU SEGUE FLUXO REGULADO
+             ↓
+5. INSTITUIÇÃO DETENTORA AUTENTICA
+             ↓
+6. CLIENTE CONFIRMA
+             ↓
+7. DETENTORA EXECUTA O PAGAMENTO
+             ↓
+8. INICIADOR NÃO FICA COM O DINHEIRO
+Exemplo prático
+O cliente abre o aplicativo de uma fintech iniciadora e escolhe pagar por Pix. A conta está 
+em outro banco. O iniciador apresenta a ordem, o cliente autentica e confirma no ambiente 
+ou fluxo permitido da instituição detentora, e o banco executa o pagamento. A fintech 
+iniciadora não se torna dona da conta nem custodiante dos recursos.
+Open Finance
+Open Banking
+Conceito ampliado de compartilhamento de 
+dados e serviços financeiros
+Conceito inicial mais concentrado no núcleo 
+bancário
+Pode abranger contas, crédito, câmbio, 
+credenciamento, investimentos, seguros, 
+previdência e iniciação, conforme o escopo 
+normativo
+Nome associado à etapa inicial da agenda de 
+compartilhamento bancário
+É a denominação abrangente do marco 
+brasileiro atual
+Não significa acesso irrestrito nem uma regra 
+paralela
+Depende de consentimento, autenticação, 
+confirmação, segurança e APIs
+Não deve ser usado como sinônimo de 
+compartilhamento sem controle
+
+<<<PÁGINA 18>>>
+Confusões prováveis e pegadinhas
+• Open Finance é acesso irrestrito. Não. Há consentimento, escopo e finalidade.
+• A fintech pode guardar a senha do banco para iniciar o pagamento. Não. A 
+regulação limita o armazenamento de credenciais suficientes para autenticação.
+• Iniciador é a instituição que detém os recursos. Não. A detentora mantém a conta; o 
+iniciador comanda a ordem.
+• Qualquer fintech participa do Open Finance. Não. É necessário enquadramento e 
+participação conforme as regras.
+• Open Finance é arranjo. Não. Open Finance é compartilhamento padronizado de 
+dados e serviços.
+• Open Finance elimina bancos. Não. A instituição detentora da conta continua 
+relevante para autenticação e execução.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+Subitem 4.7.3 — Relação com Open Finance.
+Fonte e status
+• BCB: Open Finance; Participantes do Open Finance; Segurança no Open Finance.
+• Norma: Resolução Conjunta BCB/CMN nº 1/2020, texto compilado; Resolução BCB nº 
+32/2020.
+• Status: marco normativo vigente com alterações posteriores; conferir a versão 
+compilada e atos mais recentes na data da prova. Glossários operacionais não 
+substituem a norma.
+Comando de lousa/tela
+[ESCREVA]
+Plain Text
+CONSENTIMENTO → AUTENTICAÇÃO → CONFIRMAÇÃO → EXECUÇÃO
+[SUBLINHE]
+Open Finance abre dados e serviços com consentimento; não abre a conta sem 
+controle.
+
+<<<PÁGINA 19>>>
+Plain Text
+INICIADOR: NÃO GERENCIA A CONTA + NÃO DETÉM OS FUNDOS
+3.5. 4.7.4 — Regulação
+O que é
+A regulação de fintechs e meios de pagamento não está concentrada em uma “Lei das 
+Fintechs”. Ela é uma arquitetura formada por lei, normas do CMN, atos do BCB, regras dos 
+arranjos, requisitos de autorização, supervisão, proteção do usuário, segurança, prevenção 
+a fraudes e prevenção a ilícitos.
+Função e objetivo
+A regulação procura equilibrar inovação e segurança. Entre os objetivos associados à Lei nº 
+12.865/2013 estão:
+• interoperabilidade;
+• solidez e eficiência;
+• acesso não discriminatório;
+• competição;
+• liberdade de escolha;
+• segurança;
+• proteção dos interesses econômicos;
+• privacidade;
+• transparência;
+• confiabilidade e qualidade;
+• inclusão financeira.
+Como funciona: quem faz o quê
+Grupo
+Entidade
+Função didática
+Diretrizes e normas gerais
+CMN
+Estabelece diretrizes dentro de 
+sua competência
+
+<<<PÁGINA 20>>>
+Base normativa essencial
+• Lei nº 12.865/2013: arranjos, instituições de pagamento, contas, instrumentos e 
+competências do BCB.
+• Lei nº 4.595/1964: conceito de instituição financeira e regime do Sistema Financeiro 
+Nacional.
+• Resolução BCB nº 80: constituição e funcionamento de instituições de pagamento e 
+modalidades, conforme versão vigente indicada na pesquisa.
+• Resolução BCB nº 150: regras dos arranjos integrantes do SPB e critérios regulatórios, 
+conforme versão vigente.
+• Resolução BCB nº 522/2025: alterações na Resolução BCB nº 150, com reforço de 
+riscos, monitoramento, liquidação centralizada e transparência.
+• Resolução Conjunta nº 1/2020: base do Open Finance, com alterações posteriores.
+Arranjo e IP na regulação
+A Lei nº 12.865/2013 define arranjo como conjunto de regras e procedimentos do serviço de 
+pagamento ao público, aceito por mais de um recebedor e acessível diretamente pelos 
+usuários finais pagador e recebedor.
+A mesma lei define instituição de pagamento como pessoa jurídica que, aderindo a arranjo, 
+presta serviços como gestão de conta, emissão de instrumento, credenciamento, execução 
+ou facilitação de instrução, remessa ou conversão de moeda eletrônica.
+Regulação, autorização e 
+supervisão de pagamentos
+BCB
+Disciplina arranjos e IPs, 
+autoriza quando aplicável, 
+fiscaliza e exerce vigilância
+Mercado de capitais
+CVM
+Regula e fiscaliza valores 
+mobiliários e atividades do 
+mercado de capitais
+Operação
+IFs, IPs e participantes
+Executam serviços e participam 
+das cadeias
+Autorregulação educacional
+ANBIMA
+Estrutura o programa da 
+certificação; não substitui BCB, 
+CMN ou CVM
+Normatizar não é operar. Supervisionar não é prestar o serviço ao cliente.
+
+<<<PÁGINA 21>>>
+A IP não é instituição financeira e não pode realizar atividade privativa de IF, como 
+conceder empréstimos e financiamentos sob a simples autorização de IP.
+Resolução BCB nº 522/2025: ressalva importante
+A pesquisa consolidada informa que a Resolução BCB nº 522/2025 está vigente e alterou a 
+Resolução BCB nº 150. Ela reforçou, entre outros pontos:
+• gerenciamento centralizado de riscos;
+• monitoramento de subcredenciadores;
+• liquidação centralizada;
+• transparência;
+• controles contra fraude e ilícitos;
+• responsabilidade final do instituidor dentro do escopo normativo aplicável.
+A nota oficial do BCB informa período de adaptação para alterações dos regulamentos e 
+implementação de participação integral de subcredenciadores na liquidação centralizada. 
+Portanto:
+Esse período de adaptação não é revogação da norma, prazo universal de repasse 
+comercial ou garantia pública ao recebedor.
+Regulação x supervisão x autorização
+Norma vigente não significa que todos os arranjos tenham concluído imediatamente 
+a adaptação operacional.
+Termo
+Significado
+Exemplo
+Regulação
+Criação de regras dentro da 
+competência legal
+Resolução do CMN ou do BCB
+Autorização
+Permissão específica para 
+exercer atividade regulada
+IP autorizada em determinada 
+modalidade
+Supervisão
+Acompanhamento, fiscalização 
+e medidas dentro da 
+competência
+BCB supervisiona IP
+Participação
+Adesão a arranjo ou 
+ecossistema conforme regras
+Participante de arranjo
+
+<<<PÁGINA 22>>>
+Exemplo prático
+Uma plataforma é chamada de fintech e oferece pagamento, crédito e investimento. A 
+classificação não será feita pela palavra fintech. Será necessário separar:
+• pagamento: BCB e regras de IP/arranjo;
+• crédito: instituição autorizada e regime aplicável;
+• valores mobiliários: CVM, se a atividade estiver em seu perímetro;
+• tecnologia: contrato e responsabilidades da prestadora.
+Confusões prováveis e pegadinhas
+• BCB regula tudo que se chama fintech. Não. A competência depende da atividade.
+• CVM regula qualquer pagamento. Não. O pagamento varejista comum está no 
+perímetro BCB/CMN, salvo componente específico de valores mobiliários.
+• IP e IF são sinônimos porque ambas podem ser supervisionadas pelo BCB. Não.
+• Resolução antiga continua vigente porque aparece em FAQ. Não necessariamente. 
+Deve-se conferir o normativo atual.
+• Resolução BCB 522 foi apenas proposta. A pesquisa consolidada a registra como 
+publicada e vigente, com transição operacional.
+• Supervisão é garantia de solvência, rentabilidade ou cobertura do FGC. Não.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+Subitem 4.7.4 — Regulação.
+Fonte e status
+• Lei nº 12.865/2013 — em vigor, conforme a pesquisa consolidada.
+• Lei nº 4.595/1964 — base do conceito de IF.
+• Resolução BCB nº 80 — versão indicada como vigente e atualizada em 06/11/2025.
+Garantia
+Proteção específica prevista 
+em norma, produto ou fundo
+Não presumir pelo simples fato 
+de haver supervisão
+A atividade escolhe o perímetro regulatório; o nome fintech não escolhe o regulador.
+
+<<<PÁGINA 23>>>
+• Resolução BCB nº 150 — versão indicada como vigente e atualizada em 12/11/2025.
+• Resolução BCB nº 522/2025 e nota oficial — vigente, com período de adaptação 
+informado pelo BCB.
+Comando de lousa/tela
+[ESCREVA]
+Plain Text
+CMN = DIRETRIZES
+BCB = PAGAMENTOS, IPs, ARRANJOS E SUPERVISÃO DENTRO DA COMPETÊNCIA
+CVM = MERCADO DE CAPITAIS
+[FALE]
+O BCB pode editar atos técnicos dentro de sua competência. Isso não elimina a distinção 
+entre órgão normativo, entidade supervisora e operador.
+3.6. 4.7.5 — Desintermediação financeira
+O que é
+Desintermediação financeira é um conceito econômico que descreve a redução, 
+substituição ou reconfiguração de intermediários tradicionais entre quem possui recursos e 
+quem precisa de financiamento ou serviço.
+Não é uma definição legal geral de fintech, IP, arranjo, Open Finance ou subadquirente. Não 
+é uma licença. Não é sinônimo de desregulação.
+Função e objetivo
+A desintermediação pode:
+• ampliar fontes de financiamento;
+• aproximar investidores e tomadores;
+• reduzir custos de busca e transação;
+• aumentar concorrência;
+• permitir conexão por plataformas;
+• modificar a dependência do balanço bancário tradicional.
+
+<<<PÁGINA 24>>>
+Ela também pode redistribuir riscos de crédito, liquidez, informação, operação e proteção. 
+Não significa automaticamente menor custo ou menor risco.
+Como funciona
+Na intermediação tradicional, uma instituição pode captar e aplicar recursos ou conceder 
+crédito em seu próprio balanço, transformando prazos e riscos.
+Na desintermediação, parte do financiamento ou da conexão pode migrar para mercado, 
+plataforma ou financiamento mais direto. Ainda podem existir intermediários de 
+informação, distribuição, registro, custódia, liquidação, pagamento e compliance.
+Plain Text
+INTERMEDIAÇÃO TRADICIONAL
+POUPADOR → INSTITUIÇÃO → TOMADOR
+DESINTERMEDIAÇÃO ECONÔMICA PARCIAL
+INVESTIDOR → PLATAFORMA/MERCADO/INFRAESTRUTURA → EMISSOR/TOMADOR
+Exemplo prático
+Uma empresa capta por emissão de valores mobiliários e investidores compram esses 
+títulos por meio das infraestruturas e intermediários autorizados do mercado de capitais, 
+em vez de contratar empréstimo bancário. O crédito bancário pode ser parcialmente 
+substituído, mas continuam existindo regras, distribuição, registro, custódia e liquidação.
+Fintech não é sinônimo de desintermediação
+• Uma fintech de pagamentos pode apenas executar uma transação.
+• Uma SEP é fintech de crédito, mas intermedeia credores e tomadores.
+• Uma plataforma pode conectar partes e ainda intermediar informação, tecnologia e 
+cobrança.
+• Open Finance pode reduzir assimetria e custo de troca, mas não elimina a instituição 
+detentora da conta.
+Desintermediação x desregulação
+Desintermediação
+Desregulação
+Conceito econômico
+Mudança ou redução de regras regulatórias
+Trata da estrutura da intermediação
+Trata do conjunto de normas
+
+<<<PÁGINA 25>>>
+Confusões prováveis e pegadinhas
+• Desintermediação significa fim de todos os intermediários. Não.
+• Desintermediação é ausência de regulação. Não.
+• Toda fintech desintermedia. Não.
+• Open Finance é desintermediação jurídica. Não. Pode produzir efeitos econômicos 
+de competição e redução de dependência.
+• SEP é ausência de intermediário. Não. A SEP intermedeia credores e devedores.
+• Plataforma significa financiamento direto sem intermediário. Não necessariamente.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+Subitem 4.7.5 — Desintermediação financeira.
+Fonte e status
+• Status: conceito econômico; não foi identificada definição legal autônoma nas fontes 
+consolidadas.
+• Fontes relacionadas: BCB — Fintechs; BCB — Instituições de pagamento; BCB — 
+Relatório de Estabilidade Financeira.
+• Ressalva: não atribuir ao termo percentual, autorização, isenção ou promessa de 
+redução de juros.
+Comando de lousa/tela
+[ESCREVA]
+Plain Text
+Pode ocorrer com regulação preservada
+Depende de ato normativo e autoridade 
+competente
+Não cria licença
+Não significa necessariamente inovação
+Pode reconfigurar intermediários
+Pode alterar obrigações ou restrições
+Desintermediação muda a posição dos intermediários; não apaga automaticamente 
+a infraestrutura nem a regulação.
+
+<<<PÁGINA 26>>>
+DESINTERMEDIAÇÃO ≠ DESREGULAÇÃO
+DESINTERMEDIAÇÃO = REDUÇÃO/RECONFIGURAÇÃO DE ELOS ECONÔMICOS
+3.7. 4.7.6 — Meios de pagamento
+O que é
+Meios de pagamento são as formas, os instrumentos, os canais, as contas, as instituições, 
+os arranjos e as infraestruturas que permitem executar uma transação entre pagador e 
+recebedor.
+Não há uma definição legal única e autônoma de “meio de pagamento” na Lei nº 
+12.865/2013. A disciplina é construída pelas categorias de serviço de pagamento, arranjo, 
+IP, IF participante, instrumento, conta, moeda eletrônica, usuários finais e liquidação.
+Função e objetivo
+Um meio de pagamento deve permitir que o pagador ordene ou disponibilize valor e que o 
+recebedor aceite e receba o valor, com segurança, informação, autenticação, prevenção a 
+fraude e liquidação conforme as regras aplicáveis.
+Como funciona
+A cadeia ampla pode ser visualizada assim:
+Plain Text
+PAGADOR
+  ↓ inicia com instrumento ou ordem
+EMISSOR / INSTITUIÇÃO DETENTORA
+  ↓ autoriza, autentica ou disponibiliza o instrumento
+ARRANJO E REGRAS
+  ↓ organizam participantes, riscos e liquidação
+CREDENCIADOR / ADQUIRENTE
+  ↓ habilita o recebedor e captura/encaminha
+SUBCREDENCIADOR / SUBADQUIRENTE, SE HOUVER
+  ↓ habilita exclusivamente o recebedor, conforme o fluxo
+RECEBEDOR
+  ↓ recebe na instituição domicílio/conta indicada
+LIQUIDAÇÃO
+Onde aparece
+
+<<<PÁGINA 27>>>
+• cartão de crédito e débito;
+• Pix;
+• boleto;
+• transferências;
+• contas pré-pagas e pós-pagas;
+• pagamentos por celular, QR Code ou procedimento eletrônico.
+Exemplo prático
+No cartão, o instrumento é o cartão. A rede de regras é o arranjo. Quem emitiu o cartão é o 
+emissor. Quem habilitou a loja é o adquirente. Se uma plataforma habilitou a loja por uma 
+camada intermediária, pode ser subcredenciadora. A loja e o cliente são usuários finais.
+No Pix, a chave ou o QR Code ajudam a identificar ou iniciar o pagamento, mas não são, 
+isoladamente, o arranjo inteiro, a conta ou a instituição.
+Confusões prováveis e pegadinhas
+• Cartão = conta. Não. Cartão é instrumento.
+• Bandeira = emissor. Não necessariamente. A bandeira geralmente se relaciona ao 
+instituidor do arranjo.
+• Adquirente = emissor. Não.
+• Subadquirente = adquirente. Não. O ponto decisivo é a posição na liquidação e o 
+alcance da habilitação.
+• Meio de pagamento = arranjo. Não. Meio é a cadeia ampla; arranjo é a camada de 
+regras.
+• Conta de pagamento = conta corrente. Não automaticamente.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+Subitem 4.7.6 — Meios de pagamento. Os conceitos detalhados aparecem nos subitens 
+4.7.6.1 a 4.7.6.4.
+Fonte e status
+O instrumento inicia; o arranjo organiza; as instituições executam; a liquidação 
+conclui.
+
+<<<PÁGINA 28>>>
+• Lei nº 12.865/2013.
+• BCB — Arranjos de pagamento.
+• BCB — Instituições de pagamento.
+• Status: síntese funcional baseada em categorias legais e regulamentares vigentes; não 
+tratar “meio de pagamento” como licença.
+3.8. 4.7.6.1 — Conceitos
+3.8.1. Instrumento de pagamento
+Definição
+É o dispositivo ou conjunto de procedimentos acordado entre o usuário final e o prestador 
+do serviço, usado para iniciar uma transação.
+Função
+Permitir que o pagador manifeste a ordem de pagamento ou que o recebedor aceite a 
+operação.
+Mecanismo
+O usuário usa cartão, boleto, telefone celular, QR Code ou procedimento eletrônico. O 
+instrumento transmite ou dispara a ordem. As demais instituições e o arranjo processam o 
+fluxo.
+Exemplo
+Cartão de débito, cartão de crédito, boleto e telefone celular podem funcionar como 
+instrumentos, conforme o serviço e as regras aplicáveis.
+Confusão provável
+Instrumento ≠ conta. O cartão inicia a operação; a conta registra e movimenta a relação 
+financeira quando houver uma conta envolvida.
+Pegadinha
+Pix, chave Pix ou QR Code não devem ser tratados, isoladamente, como se fossem sempre a 
+conta, o arranjo ou a instituição.
+Alinhamento
+
+<<<PÁGINA 29>>>
+4.7.6.1 — Conceitos.
+Fonte e status
+• Fonte: Lei nº 12.865/2013; BCB — Instituições de pagamento.
+• Status: conceito legal/regulamentar vigente conforme a pesquisa consolidada.
+3.8.2. Conta de pagamento
+Definição
+É a conta de registro individualizado, mantida em nome do usuário final, usada para 
+executar transações de pagamento.
+Pode ser:
+• pré-paga: o recurso é aportado antes da transação;
+• pós-paga: a transação se baseia em obrigação previamente assumida, conforme a 
+modalidade.
+Função
+Registrar e permitir a movimentação de pagamentos, transferências, compras, saques e 
+aportes, conforme o produto e a autorização.
+Mecanismo
+O usuário mantém uma relação de registro com a instituição. A transação é lançada, 
+executada e atualizada na conta segundo as regras do serviço.
+Exemplo
+Uma carteira digital pode manter conta de pagamento pré-paga para o cliente. Isso não 
+transforma automaticamente a carteira em conta corrente bancária.
+Confusão provável
+Conta de pagamento ≠ conta de depósito bancário. Ambas podem participar de 
+pagamentos, mas têm naturezas e regimes diferentes.
+Pegadinha
+O simples fato de haver saldo em aplicativo não prova que exista conta bancária. A natureza 
+depende da entidade, do contrato e do enquadramento.
+
+<<<PÁGINA 30>>>
+Alinhamento
+4.7.6.1 — Conceitos.
+Fonte e status
+• Fonte: Lei nº 12.865/2013; BCB — Instituições de pagamento; BCB — Diferença entre 
+conta bancária e conta de pagamento pré-paga.
+• Status: conceito vigente; a proteção de recursos não deve ser confundida com FGC.
+3.8.3. Usuário final e participante
+Definição
+• Usuário final: pessoa natural ou jurídica que utiliza o serviço de pagamento como 
+pagador ou recebedor.
+• Participante: instituição ou entidade que exerce função profissional dentro do arranjo 
+ou ecossistema, como instituidor, emissor, credenciador, subcredenciador ou iniciador.
+Função
+O usuário final ordena, paga, recebe ou aceita o serviço. O participante fornece a 
+infraestrutura, o serviço ou a função regulada.
+Mecanismo
+O usuário final acessa diretamente o serviço; o participante executa uma etapa da cadeia 
+segundo o contrato, o regulamento do arranjo e a norma aplicável.
+Exemplo
+Na compra com cartão:
+• consumidor = usuário final pagador;
+• lojista = usuário final recebedor;
+• emissor, adquirente e subcredenciador = participantes;
+• instituidor = responsável pelo arranjo e sua marca, quando aplicável.
+Confusão provável
+O lojista não é adquirente apenas porque recebe pagamentos. O lojista é usuário final 
+recebedor. O adquirente é quem o habilita e participa da liquidação como credor perante o 
+emissor.
+
+<<<PÁGINA 31>>>
+Pegadinha
+“Participante” não significa automaticamente instituição financeira ou instituição de 
+pagamento. A categoria e a autorização dependem da função exercida.
+Alinhamento
+4.7.6.1 — Conceitos.
+Fonte e status
+• Fonte: Lei nº 12.865/2013; Resolução BCB nº 150, conforme versão vigente indicada 
+pela pesquisa.
+• Status: conceito vigente; função e alcance devem ser lidos com o regulamento 
+aplicável.
+3.8.4. Cadeia de pagamento com cartão
+Definição
+É a sequência de funções que permite ao pagador utilizar o instrumento e ao recebedor 
+receber o valor.
+Função
+Separar autorização, aceitação, captura, processamento, risco, compensação e liquidação.
+Mecanismo visual
+Plain Text
+[1] PAGADOR
+     │ usa cartão
+     ▼
+[2] EMISSOR
+     │ verifica instrumento, limite/saldo e risco
+     ▼
+[3] ARRANJO / INSTITUIDOR
+     │ aplica regras, marca, padrões e governança
+     ▼
+[4] ADQUIRENTE / CREDENCIADOR
+     │ captura e encaminha a venda; habilita o lojista
+     ▼
+[5] SUBCREDENCIADOR, SE HOUVER
+     │ camada de habilitação do recebedor
+     ▼
+
+<<<PÁGINA 32>>>
+[6] RECEBEDOR / LOJISTA
+     │ usuário final recebedor
+     ▼
+[7] COMPENSAÇÃO E LIQUIDAÇÃO
+     │ crédito na instituição domicílio/conta indicada
+     ▼
+[8] RECEBIMENTO
+Exemplo
+O cliente compra R$ 100 em uma loja. Ele usa o cartão como instrumento. O emissor 
+analisa e autoriza ou recusa. O adquirente captura e encaminha. O arranjo define regras. O 
+recebedor é habilitado e recebe conforme o fluxo de liquidação. Se uma subcredenciadora 
+trouxe o lojista, isso não a torna emissora.
+Confusões prováveis
+• Autorização não é liquidação.
+• Adquirente não é emissor.
+• Bandeira não é necessariamente emissor.
+• Subcredenciador não é automaticamente credor perante o emissor.
+Pegadinha
+A palavra “maquininha” designa um canal ou equipamento de aceitação. Ela não 
+responde sozinha qual entidade é emissora, adquirente ou subcredenciadora.
+Alinhamento
+4.7.6.1 — Conceitos, em conexão com 4.7.6.2 — Arranjo, 4.7.6.3 — Adquirente e 4.7.6.4 
+— Subadquirente.
+Fonte e status
+• Fonte: BCB — Instituições de pagamento; BCB — Arranjos de pagamento; Resolução 
+BCB nº 80 e Resolução BCB nº 150.
+• Status: cadeia funcional; etapas concretas variam por arranjo, instrumento, contrato e 
+norma vigente.
+3.8.5. Cadeia de pagamento por Pix
+Definição
+
+<<<PÁGINA 33>>>
+Pix é um serviço de pagamento instantâneo com regras e infraestrutura próprias. Nesta 
+aula, ele é usado como exemplo de cadeia de pagamento, sem confundir chave, QR Code, 
+conta, arranjo e instituição.
+Função
+Permitir transferência ou pagamento entre pagador e recebedor com execução conforme 
+as regras, autenticação e infraestrutura aplicáveis.
+Mecanismo visual: Pix tradicional
+Plain Text
+[1] PAGADOR
+     │ escolhe chave, QR Code ou dados do recebedor
+     ▼
+[2] INSTITUIÇÃO DO PAGADOR
+     │ autentica e confirma a ordem
+     ▼
+[3] INFRAESTRUTURA E REGRAS DO PIX
+     │ encaminham e liquidam a transação
+     ▼
+[4] INSTITUIÇÃO DO RECEBEDOR
+     │ recebe a ordem e credita conforme as regras
+     ▼
+[5] RECEBEDOR
+Mecanismo visual: Pix iniciado no Open Finance
+Plain Text
+CLIENTE ESCOLHE A FINTECH INICIADORA
+              ↓
+INICIADOR APRESENTA A ORDEM
+              ↓
+CLIENTE AUTENTICA E CONFIRMA NA INSTITUIÇÃO DETENTORA
+              ↓
+DETENTORA EXECUTA O PIX
+              ↓
+RECEBEDOR É CREDITADO
+INICIADOR ≠ CUSTODIANTE
+INICIADOR ≠ DETENTOR DA CONTA
+
+<<<PÁGINA 34>>>
+Exemplo
+O cliente usa o aplicativo de uma fintech iniciadora para pagar um QR Code. A conta está 
+em outro banco. A fintech conduz a iniciação; o banco detentor autentica e executa a 
+movimentação; o recebedor recebe na instituição correspondente.
+Confusões prováveis
+• Chave Pix = conta. Não necessariamente. A chave identifica uma conta no fluxo, mas 
+não é a conta em si.
+• QR Code = arranjo completo. Não. É recurso de iniciação/identificação.
+• Fintech iniciadora = banco do cliente. Não.
+• Iniciador = custodiante. Não.
+Pegadinha
+O iniciador não pode usar a autorização de uma transação para alterar o valor, o recebedor 
+ou a finalidade. O escopo é a ordem autorizada pelo cliente.
+Alinhamento
+4.7.6.1 — Conceitos, em conexão com 4.7.3 — Relação com Open Finance.
+Fonte e status
+• BCB — Open Finance.
+• BCB — Participantes do Open Finance.
+• Resolução Conjunta nº 1/2020 e Resolução BCB nº 32, conforme versões vigentes 
+indicadas pela pesquisa.
+• Status: regras técnicas e operacionais podem ser atualizadas; conferir manuais e atos 
+vigentes.
+Frase de fixação do subitem 4.7.6.1
+3.9. 4.7.6.2 — Arranjo
+O que é
+Conta registra; instrumento inicia; arranjo organiza; participante executa; usuário 
+final paga ou recebe.
+
+<<<PÁGINA 35>>>
+Arranjo de pagamento é o conjunto de regras e procedimentos que disciplina a 
+prestação de determinado serviço de pagamento ao público, aceito por mais de um 
+recebedor, com acesso direto pelos usuários finais pagador e recebedor.
+Arranjo não é:
+• o cartão;
+• a conta;
+• o aplicativo;
+• a empresa de tecnologia;
+• a bandeira isoladamente;
+• a instituição de pagamento.
+Função e objetivo
+O arranjo organiza a rede e estabelece regras para:
+• adesão e participação;
+• aceitação do instrumento;
+• autorização e processamento;
+• segurança e prevenção a fraudes;
+• gestão de riscos;
+• interoperabilidade;
+• tarifas e transparência;
+• compensação e liquidação;
+• responsabilidades e tratamento de falhas;
+• continuidade do serviço.
+Como funciona
+Plain Text
+INSTITUIDOR
+   ↓ cria/organiza regras e marca, quando aplicável
+ARRANJO
+   ↓ define participação, riscos, segurança e liquidação
+EMISSOR ↔ CREDENCIADOR ↔ SUBCREDENCIADOR, SE HOUVER
+   ↓
+USUÁRIOS FINAIS: PAGADOR E RECEBEDOR
+
+<<<PÁGINA 36>>>
+O instituidor do arranjo é a pessoa jurídica responsável pelo arranjo e, quando aplicável, 
+pelo uso da marca associada. Uma bandeira pode exercer esse papel. O instituidor não é 
+automaticamente o emissor, o adquirente ou o detentor da conta.
+Arranjo aberto x fechado
+A classificação depende da estrutura jurídica e operacional. Não se deve concluir pela 
+aparência do aplicativo.
+Exemplo prático
+Em um arranjo de cartão:
+• o instituidor organiza a rede e a marca;
+• o emissor disponibiliza o cartão ao pagador;
+• o credenciador habilita o lojista;
+• o subcredenciador pode habilitar exclusivamente o recebedor;
+• o recebedor e o pagador são usuários finais;
+• as regras disciplinam autorização, risco, liquidação e disputas.
+Confusões prováveis e pegadinhas
+• Arranjo = bandeira. A bandeira pode ser a marca do instituidor, mas arranjo é o 
+conjunto de regras e procedimentos.
+• Arranjo = cartão. O cartão é instrumento.
+• Arranjo = conta. A conta registra e executa transações.
+• Arranjo aberto = sem regras. Não. Há critérios de participação.
+• Arranjo fechado = ilegal ou não regulado. Não necessariamente.
+• Instituidor = emissor. Não automaticamente.
+Arranjo aberto
+Arranjo fechado
+Instituições podem participar se atenderem 
+aos critérios do regulamento
+Atividades podem ficar concentradas na 
+estrutura definida pela norma e pelo arranjo
+Maior abertura de participação e 
+interoperabilidade, conforme regras
+Estrutura mais concentrada
+Continua sujeito a regras e supervisão 
+aplicáveis
+Não significa ausência de regulação
+
+<<<PÁGINA 37>>>
+Frase de fixação
+Alinhamento ao Programa Detalhado
+Subitem 4.7.6.2 — Arranjo.
+Fonte e status
+• Base legal: Lei nº 12.865/2013, especialmente as definições de arranjo e instituidor.
+• BCB: Arranjos de pagamento.
+• Normas: Resolução BCB nº 150 e Resolução BCB nº 522/2025.
+• Status: Resolução BCB nº 150 em versão indicada como vigente; alterações da 
+Resolução BCB nº 522 devem ser consideradas. Critérios de integração ao SPB e 
+exclusões dependem do texto normativo vigente.
+Comando de lousa/tela
+[ESCREVA]
+Plain Text
+ARRANJO = REGRAS + PROCEDIMENTOS + PARTICIPANTES + LIQUIDAÇÃO
+INSTITUIDOR = RESPONSÁVEL PELO ARRANJO/MARCA, QUANDO APLICÁVEL
+3.10. 4.7.6.3 — Adquirente
+O que é
+Adquirente é o nome usual de mercado para o credenciador. Na modalidade de 
+instituição de pagamento descrita pela Resolução BCB nº 80, credenciador é a instituição 
+que não gerencia conta de pagamento, habilita o recebedor para aceitar instrumento 
+emitido por instituição de pagamento ou instituição financeira participante do mesmo 
+arranjo e participa da liquidação como credor perante o emissor.
+“Adquirente” e “credenciador” apontam para a mesma função econômica quando o 
+fluxo corresponde à definição normativa. A palavra de mercado não cria uma categoria 
+jurídica diferente.
+Arranjo é a rede de regras; o instituidor é quem responde pela organização dessa 
+rede.
+
+<<<PÁGINA 38>>>
+Função e objetivo
+A adquirente conecta o estabelecimento recebedor ao arranjo e aos demais participantes. 
+Permite aceitar cartões ou outros instrumentos, captura e encaminha a transação e 
+participa da liquidação conforme as regras do arranjo.
+Como funciona
+Plain Text
+PAGADOR USA O INSTRUMENTO
+          ↓
+EMISSOR ANALISA E AUTORIZA OU RECUSA
+          ↓
+ADQUIRENTE CAPTURA E ENCAMINHA A TRANSAÇÃO
+          ↓
+ARRANJO APLICA REGRAS, RISCOS E PROCEDIMENTOS
+          ↓
+ADQUIRENTE PARTICIPA DA LIQUIDAÇÃO COMO CREDOR PERANTE O EMISSOR
+          ↓
+RECEBEDOR É CREDITADO NA INSTITUIÇÃO DOMICÍLIO
+Autorização, compensação e liquidação são etapas diferentes. A autorização responde 
+se a operação pode prosseguir. A compensação organiza direitos e obrigações quando 
+aplicável. A liquidação efetiva a transferência financeira entre os participantes.
+Adquirente x emissor
+Adquirente x subadquirente
+Adquirente/credenciador
+Emissor
+Atua no lado do recebedor
+Atua no lado do pagador
+Habilita o lojista
+Emite ou disponibiliza o instrumento
+Captura e encaminha a venda
+Autoriza ou recusa conforme saldo, limite e 
+risco
+É credor perante o emissor na liquidação
+Responde pelo fluxo do instrumento emitido
+Não gerencia conta de pagamento na 
+modalidade de credenciador
+Pode gerenciar conta pré-paga ou pós-paga, 
+conforme a modalidade
+
+<<<PÁGINA 39>>>
+O credenciador habilita o recebedor e ocupa a posição de credor perante o emissor na 
+liquidação. O subcredenciador ou subadquirente habilita exclusivamente o recebedor e 
+não ocupa essa posição de credor perante o emissor. Esta é a diferença decisiva.
+Exemplo prático
+Uma loja contrata uma adquirente para aceitar cartão. O cliente utiliza cartão emitido por 
+banco ou IP. A adquirente viabiliza a captura, encaminha a transação e participa da 
+liquidação. A bandeira organiza o arranjo e a marca, mas não se torna automaticamente a 
+adquirente. A loja é usuário final recebedor.
+Confusões prováveis e pegadinhas
+1. Adquirente é a bandeira. Não. A bandeira pode ser instituidora; adquirente é 
+credenciador.
+2. Adquirente emite o cartão. Não. Quem emite é o emissor.
+3. Adquirente gerencia a conta do pagador. Não, na modalidade normativa de 
+credenciador.
+4. Adquirente é sempre instituição financeira. Não. Pode ser IP credenciadora ou 
+instituição financeira autorizada.
+5. Adquirente e subadquirente são sinônimos. Não. A posição na liquidação é diferente.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+Subitem 4.7.6.3 — Adquirente.
+Fonte e status
+• Resolução BCB nº 80 — modalidade de credenciador.
+• BCB — Instituições de pagamento.
+• BCB — FAQ: o que são as credenciadoras?.
+• Lei nº 12.865/2013.
+• Status: “credenciador” é a nomenclatura normativa; “adquirente” é termo de 
+mercado. A Resolução BCB nº 522/2025 alterou regras de arranjos, riscos e liquidação.
+Adquirente habilita o recebedor e é credor perante o emissor na liquidação; emissor 
+atende o pagador.
+
+<<<PÁGINA 40>>>
+Comando de lousa/tela
+[DESENHE]
+Plain Text
+EMISSOR → PAGADOR
+ADQUIRENTE → RECEBEDOR
+ARRANJO → REGRAS DOS DOIS LADOS
+[CIRCULE]
+Plain Text
+ADQUIRENTE = CREDOR PERANTE O EMISSOR NA LIQUIDAÇÃO
+3.11. 4.7.6.4 — Subadquirente
+Nomenclatura antes da definição
+O edital consultado apresenta a grafia “Sub-adquitente”. Neste roteiro, a grafia foi 
+corrigida para subadquirente.
+A terminologia normativa atual do Banco Central é subcredenciador. Assim, 
+subadquirente é a expressão usual de mercado e subcredenciador é o termo normativo 
+preferencial. A equivalência só deve ser aplicada quando a empresa efetivamente cumprir a 
+função normativa.
+O que é
+Subcredenciador é o participante do arranjo que habilita exclusivamente o usuário final 
+recebedor para aceitar instrumento de pagamento emitido por instituição financeira ou 
+instituição de pagamento participante do mesmo arranjo, sem participar da liquidação 
+como credor perante o emissor.
+A palavra exclusivamente e a ausência de posição de credor perante o emissor são os dois 
+pontos mais importantes.
+Função e objetivo
+O subadquirente pode aproximar pequenos lojistas, vendedores ou recebedores do 
+arranjo. No mercado, pode oferecer cadastro, checkout, API, captura, apoio antifraude, 
+
+<<<PÁGINA 41>>>
+conciliação e suporte. Essas são funções operacionais típicas; a qualificação jurídica 
+depende do fluxo real, contrato, adesão ao arranjo e normas aplicáveis.
+Como funciona
+Plain Text
+LOJISTA/RECEBEDOR
+        ↑ é habilitado por
+SUBCREDENCIADOR / SUBADQUIRENTE
+        ↑ se conecta a
+CREDENCIADOR / ADQUIRENTE
+        ↔
+INSTITUIDOR, REGRAS DO ARRANJO E EMISSOR
+O subcredenciador cadastra e habilita o recebedor, mas não se torna emissor, credenciador 
+ou instituição financeira apenas por isso. A liquidação ocorre segundo o regime do arranjo, 
+inclusive a liquidação centralizada quando exigida.
+Subadquirente x adquirente
+Subadquirente x IP
+Subcredenciador é papel de participante de arranjo. Não é modalidade de IP 
+automaticamente. Se também exercer atividade reservada a IP, a análise regulatória muda. 
+O nome comercial não decide.
+Subadquirente/subcredenciador
+Adquirente/credenciador
+Habilita exclusivamente o usuário final 
+recebedor
+Habilita o recebedor dentro da função de 
+credenciamento
+Não é credor perante o emissor na liquidação
+Participa da liquidação como credor perante 
+o emissor
+Pode oferecer camada comercial e 
+tecnológica
+Mantém a função de credenciamento e 
+conexão com o arranjo
+Não é modalidade de IP apenas por ser 
+subcredenciador
+Credenciador é modalidade de IP quando 
+exercido nessa forma
+Ser subadquirente não cria automaticamente autorização para emitir, gerenciar 
+conta, iniciar transação ou conceder crédito.
+
+<<<PÁGINA 42>>>
+Exemplo prático
+Um marketplace reúne pequenos vendedores, cadastra-os, oferece checkout e integra a 
+aceitação de cartão. Se habilita os vendedores recebedores dentro do arranjo, pode 
+assumir a função de subcredenciador. Se apenas fornece software, sem habilitar o 
+recebedor nem participar do fluxo de aceitação, não deve ser classificado 
+automaticamente assim.
+Resolução BCB nº 522/2025: atenção para o status
+A pesquisa consolidada informa que a Resolução BCB nº 522/2025 está vigente e alterou a 
+Resolução BCB nº 150. Ela reforçou gerenciamento centralizado de riscos, monitoramento 
+de subcredenciadores, liquidação centralizada e transparência. O BCB informou período de 
+adaptação para regulamentos e implementação da participação integral de 
+subcredenciadores na liquidação centralizada dos arranjos sujeitos ao regime.
+Esse período não é prazo universal de repasse comercial, garantia pública, FGC ou 
+revogação da norma. Também não se deve confundir liquidação centralizada com repasse 
+contratual ao lojista.
+Confusões prováveis e pegadinhas
+1. Subadquirente é adquirente menor. O critério decisivo é não ser credor perante o 
+emissor e habilitar exclusivamente o recebedor.
+2. Subadquirente é emissor. Não. Ele habilita o recebedor.
+3. Subadquirente é iniciador. Não. Iniciador comanda transação do pagador sem deter 
+fundos.
+4. Subadquirente é automaticamente IP. Não.
+5. Gateway é sempre subadquirente. Não. Gateway é rótulo de mercado; analise o fluxo.
+6. Liquidação centralizada é repasse ao lojista. Não.
+7. Responsabilidade do instituidor é cobertura do FGC. Não. É responsabilidade 
+regulatória dentro do arranjo.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+Subitem 4.7.6.4 — Subadquirente.
+Subadquirente habilita exclusivamente o recebedor; não é credor perante o emissor 
+na liquidação.
+
+<<<PÁGINA 43>>>
+Fonte e status
+• Resolução BCB nº 150.
+• Resolução BCB nº 522/2025.
+• BCB — nota oficial sobre a Resolução BCB nº 522.
+• BCB — FAQ: o que são os subcredenciadores?.
+• Status: subcredenciador é a nomenclatura normativa; subadquirente é a expressão de 
+mercado. Resolução BCB nº 522 vigente, com adaptação operacional informada 
+oficialmente.
+• Ressalva: marketplace, gateway, facilitador e processador exigem análise do fluxo real. 
+O nome comercial não determina o enquadramento.
+Comando de lousa/tela
+[ESCREVA]
+Plain Text
+SUBCREDENCIADOR:
+HABILITA EXCLUSIVAMENTE O RECEBEDOR
+NÃO É CREDOR PERANTE O EMISSOR
+[PARE E PERGUNTE]
+Qual palavra decide a primeira parte da definição?
+[FIXE]
+Exclusivamente.
+4. Por que isso cai na prova? — foco 
+atencional
+Explicação estratégica
+O tema é cobrado por associação entre nome, função, posição na cadeia, autorização, 
+supervisor e limite operacional. Leia o enunciado nesta ordem: qual serviço é prestado; 
+quem é usuário final; quem é participante; quem mantém a conta ou os fundos; quem 
+habilita o recebedor; quem é credor perante o emissor na liquidação; qual autoridade é 
+competente; e se a regra é vigente, transitória, histórica ou apenas prática de mercado.
+
+<<<PÁGINA 44>>>
+Mapa de palavras-chave
+Comparações críticas
+Se o enunciado mencionar...
+Pense primeiro em...
+Tecnologia aplicada a serviço financeiro
+Fintech, mas procure a atividade efetiva
+Conta pré-paga
+IP emissora de moeda eletrônica
+Habilitar lojista
+Credenciador/adquirente ou subcredenciador
+Credor perante o emissor
+Credenciador/adquirente
+Habilita exclusivamente o recebedor
+Subcredenciador/subadquirente
+Inicia ordem sem deter fundos
+Iniciador
+Conjunto de regras e procedimentos
+Arranjo
+Dispositivo/procedimento que inicia
+Instrumento
+Registro individualizado
+Conta de pagamento
+Consentimento, API e integração
+Open Finance
+Teste temporário e monitorado
+Sandbox
+Mercado de capitais e valores mobiliários
+CVM
+Pagamentos e SPB
+BCB/CMN
+Redução ou reconfiguração de intermediários
+Desintermediação econômica
+A
+B
+Diferença decisiva
+Fintech
+Banco
+Fintech é rótulo econômico; 
+banco é instituição financeira
+Fintech
+IP
+Fintech pode ser IP, mas não é 
+IP automaticamente
+IP
+IF
+IP presta pagamentos; IF exerce 
+atividades financeiras 
+autorizadas
+
+<<<PÁGINA 45>>>
+Pegadinhas prioritárias
+1. Fintech não é licença única.
+2. IP não é banco.
+3. IP não pode conceder empréstimos ou financiamentos como atividade privativa de IF.
+4. SCD e SEP são IFs, embora sejam fintechs.
+5. Sandbox não é licença definitiva.
+6. Open Finance exige consentimento, autenticação e confirmação.
+7. Iniciador não gerencia conta e não detém fundos.
+8. Arranjo não é cartão, conta ou bandeira isolada.
+Arranjo
+Instrumento
+Arranjo é regra e rede; 
+instrumento inicia
+Arranjo
+Conta
+Arranjo organiza; conta registra
+Instituidor
+Emissor
+Instituidor organiza; emissor 
+fornece o instrumento
+Emissor
+Adquirente
+Emissor atende pagador; 
+adquirente habilita recebedor
+Adquirente
+Subadquirente
+Adquirente é credor na 
+liquidação; subadquirente não
+Participante
+Usuário final
+Participante presta função; 
+usuário paga ou recebe
+Open Finance
+Open Banking
+Open Finance é escopo 
+ampliado; Open Banking é 
+denominação inicial
+Sandbox
+Autorização definitiva
+Sandbox é teste temporário e 
+condicionado
+Sandbox BCB
+Sandbox CVM
+BCB: SFN/SPB; CVM: mercado 
+de capitais
+Desintermediação
+Desregulação
+Econômica versus normativa
+Liquidação
+Repasse comercial
+Infraestrutura/regra versus 
+contrato
+
+<<<PÁGINA 46>>>
+9. Adquirente é credenciador; subadquirente é subcredenciador quando a função 
+corresponder.
+10. Subcredenciador habilita exclusivamente o recebedor e não é credor perante o emissor.
+11. Supervisão não é garantia de FGC ou rentabilidade.
+[FIXE]
+5. Case / Storytelling — aproximadamente 
+10 minutos
+A compra de Ana em uma loja de bairro
+Ana compra um computador na loja Conecta. Ela usa cartão de crédito em uma 
+maquininha. A loja foi cadastrada por uma plataforma chamada PontePay. Em outro 
+momento, Ana usa um aplicativo de fintech iniciadora para pagar um fornecedor por Pix, a 
+partir da conta mantida em outro banco.
+Análise da compra com cartão
+• Ana: usuária final pagadora; usa o cartão como instrumento.
+• Emissor: banco ou IP que disponibilizou o cartão; atua no lado do pagador.
+• Instituidor/bandeira: organiza o arranjo, a marca e as regras, quando aplicável.
+• Loja Conecta: usuária final recebedora; precisa ser habilitada.
+• Adquirente: credenciadora que habilita a loja e é credora perante o emissor na 
+liquidação.
+• PontePay: pode ser subcredenciadora/subadquirente se habilita exclusivamente a loja 
+e participa do fluxo; não é automaticamente emissora, IP ou adquirente.
+• Liquidação: segue as regras do arranjo, com crédito na instituição domicílio ou conta 
+indicada.
+Análise do Pix no Open Finance
+1. Ana escolhe a fintech iniciadora.
+2. A fintech apresenta a ordem.
+A palavra decisiva está quase sempre na função ou na posição na liquidação.
+
+<<<PÁGINA 47>>>
+3. Ana autentica e confirma conforme o fluxo autorizado.
+4. O banco detentor da conta executa o Pix.
+5. O recebedor é creditado.
+6. A fintech iniciadora não detém fundos nem gerencia a conta.
+Quadro do case
+Síntese do case
+A classificação não vem do aplicativo, da marca ou da aparência da tela. Vem da função 
+exercida, da posição na cadeia, do contrato, da autorização e da norma vigente.
+6. Questão final inédita comentada — nível 
+médio/alto
+Elemento
+Conceito
+Função
+Ana
+Usuária final pagadora
+Usa o instrumento ou ordena o 
+Pix
+Loja
+Usuária final recebedora
+Aceita e recebe
+Banco/IP do cartão
+Emissor
+Disponibiliza o instrumento
+Bandeira
+Instituidor/arranjo
+Organiza regras e marca
+Adquirente
+Credenciador
+Habilita recebedor e é credor 
+na liquidação
+PontePay
+Subcredenciador, se cumprir a 
+função
+Habilita exclusivamente 
+recebedor
+Banco detentor
+Detentora da conta
+Mantém a conta e executa o Pix
+Fintech iniciadora
+Iniciador
+Comanda a ordem sem deter 
+fundos
+Cartão
+Instrumento
+Inicia a transação
+No pagamento, o nome comercial apresenta; a função, a autorização e a liquidação 
+classificam.
+
+<<<PÁGINA 48>>>
+Certificação
+CPA.
+Competência
+Item 4.7 e subitens 4.7.1 a 4.7.6.4.
+Enunciado
+Uma empresa de tecnologia cadastra pequenos lojistas, habilita-os exclusivamente para 
+aceitar cartão e encaminha as transações a uma credenciadora. Ela não emite o cartão, não 
+mantém a conta do pagador e não participa da liquidação como credora perante o emissor.
+Em outro serviço, uma fintech autorizada como iniciadora, mediante consentimento 
+eletrônico específico, comanda um Pix a partir da conta mantida em outra instituição. A 
+fintech não detém os fundos.
+Considerando as definições e ressalvas regulatórias, assinale a alternativa correta.
+A) A primeira empresa é o emissor do cartão; a segunda é a instituição detentora da conta.
+B) A primeira empresa é a bandeira do arranjo; a segunda é uma adquirente.
+C) A primeira empresa pode ser subcredenciadora, também chamada subadquirente no 
+mercado, pois habilita exclusivamente o recebedor sem ser credora perante o emissor; a 
+segunda é iniciadora, que comanda o Pix sem gerenciar a conta nem deter os fundos.
+D) A primeira empresa é necessariamente uma instituição financeira; a segunda é IP 
+emissora de moeda eletrônica.
+E) A primeira empresa é necessariamente IP credenciadora; a segunda é um sandbox 
+regulatório.
+Ponto-chave
+“Habilita exclusivamente o recebedor”, “não é credora perante o emissor” e 
+“iniciadora sem deter os fundos”.
+Gabarito
+Alternativa C.
+Justificativa da correta
+A primeira empresa contém os elementos centrais do subcredenciador, termo normativo 
+para o que o mercado chama de subadquirente: habilita exclusivamente o usuário final 
+recebedor e não participa da liquidação como credora perante o emissor. A segunda é 
+
+<<<PÁGINA 49>>>
+iniciadora de transação de pagamento, que comanda a ordem sem gerenciar a conta 
+nem deter os fundos.
+Alternativas incorretas
+• A — incorreta: checkout não é emissão. Emissor disponibiliza o instrumento ao 
+pagador. Iniciar Pix não transforma a fintech em detentora da conta.
+• B — incorreta: a bandeira/instituidor organiza arranjo e marca. Iniciar Pix não é 
+adquirência.
+• C — correta: corresponde exatamente às funções e aos elementos decisivos do 
+enunciado.
+• D — incorreta: subcredenciador não é automaticamente IF; iniciador não mantém 
+recursos nem é emissor de moeda eletrônica por definição.
+• E — incorreta: participante de arranjo não é automaticamente IP; sandbox é ambiente 
+de teste temporário, não qualquer solução inovadora.
+Armadilhas e macetes
+1. Subadquirente: “exclusivamente recebedor” + “não credor perante emissor”.
+2. Adquirente: “credor perante emissor na liquidação”.
+3. Iniciador: “comanda a ordem” + “não gerencia conta” + “não detém fundos”.
+4. Emissor: fornece o instrumento ao pagador.
+5. Instituidor: organiza arranjo e marca.
+Questão inédita criada para este roteiro; não reproduz questão real.
+7. Revisão final
+Resumo em cinco pontos
+1. Fintech não é licença: é rótulo econômico; o enquadramento depende da atividade e 
+do veículo jurídico.
+2. Pagamento é cadeia: instrumento inicia; arranjo organiza; emissor atende pagador; 
+adquirente habilita recebedor e é credor perante emissor; subadquirente habilita 
+exclusivamente recebedor; iniciador comanda ordem sem deter fundos.
+3. Open Finance é consentimento controlado: compartilha dados e serviços por 
+integração padronizada; não é acesso irrestrito nem arranjo.
+
+<<<PÁGINA 50>>>
+4. Sandbox é teste limitado: BCB atua em SFN/SPB; CVM atua no mercado de capitais; 
+nenhum equivale a licença definitiva.
+5. Desintermediação não é desregulação: é conceito econômico de redução ou 
+reconfiguração de intermediários.
+Quadro de emergência
+Plain Text
+FINTECH = TECNOLOGIA + MODELO; NÃO É LICENÇA ÚNICA
+IP ≠ IF
+ARRANJO = REGRAS; INSTRUMENTO = INICIA; CONTA = REGISTRA
+EMISSOR → PAGADOR E INSTRUMENTO
+ADQUIRENTE → RECEBEDOR + CREDOR PERANTE EMISSOR
+SUBADQUIRENTE → RECEBEDOR EXCLUSIVAMENTE; NÃO CREDOR PERANTE EMISSOR
+INICIADOR → ORDENA PAGAMENTO; NÃO GERENCIA CONTA; NÃO DETÉM FUNDOS
+OPEN FINANCE = CONSENTIMENTO + AUTENTICAÇÃO + CONFIRMAÇÃO
+SANDBOX = TESTE TEMPORÁRIO E MONITORADO
+DESINTERMEDIAÇÃO ≠ DESREGULAÇÃO
+Cadeia lógica
+Diferenças críticas
+• Fintech ≠ banco: fintech é modelo/rótulo; banco é instituição financeira.
+• Fintech ≠ IP: fintech pode ser IP, IF, SCD, SEP, prestadora ou parceira.
+• IP ≠ IF: IP presta pagamentos; IF exerce atividades financeiras autorizadas.
+Conceito → mecanismo → aplicação → regra → decisãoFintech → tecnologia 
+aplicada a uma atividade → identificar veículo e autorização → classificar função e 
+supervisor.Meio de pagamento → pagador inicia e recebedor aceita → arranjo, 
+emissor, adquirente, subcredenciador e liquidação → Lei nº 12.865/2013 e normas 
+BCB/CMN → identificar quem emite, habilita, inicia e liquida.Open Finance → 
+consentimento integra dados/serviços → fintech receptora ou iniciadora → 
+autorização, finalidade, escopo e segurança → verificar se a entidade é participante 
+e qual papel exerce.Sandbox → projeto inovador controlado → teste com limites e 
+monitoramento → autorização temporária e condicionada → não tratar como licença 
+definitiva.Desintermediação → redução ou reconfiguração econômica de elos → 
+plataforma, mercado ou conexão direta → não elimina regulação → não confundir 
+com desregulação.
+
+<<<PÁGINA 51>>>
+• Arranjo ≠ instrumento: arranjo são regras; instrumento inicia.
+• Arranjo ≠ conta: arranjo organiza; conta registra.
+• Instituidor ≠ emissor: instituidor organiza; emissor fornece instrumento.
+• Emissor ≠ adquirente: emissor atende pagador; adquirente habilita recebedor.
+• Adquirente ≠ subadquirente: adquirente é credor na liquidação; subadquirente não.
+• Participante ≠ usuário final: participante presta função; usuário paga ou recebe.
+• Open Finance ≠ Open Banking: Open Finance é estrutura ampliada; Open Banking é 
+denominação inicial.
+• Sandbox ≠ autorização definitiva: teste temporário não é licença permanente.
+• Sandbox BCB ≠ sandbox CVM: BCB trata de SFN/SPB; CVM, de mercado de capitais.
+• Desintermediação ≠ desregulação: econômica versus normativa.
+• Liquidação centralizada ≠ repasse comercial: infraestrutura/regra versus contrato.
+Frase central
+Próximo passo de estudo
+1. Reproduza de memória os fluxos de cartão e Pix iniciado por Open Finance.
+2. Responda: quem emite, habilita, inicia, mantém a conta e é credor na liquidação?
+3. Resolva novamente a questão final sem consultar o gabarito.
+4. Revise as versões vigentes das Resoluções BCB nº 80 e nº 150 na data da prova.
+5. Releia as fontes oficiais de Open Finance e sandbox, observando alterações, revogações 
+e atos de convocação.
+Referências oficiais
+Último acesso indicado para esta versão: 2026-09-09. Em caso de conflito, prevalece a 
+fonte normativa vigente.
+1. ANBIMA — Programa Detalhado CPA — versão 1.2, revisão 04/06/2025, vigência 
+01/01/2026. PDF.
+Em fintechs e meios de pagamento, o nome comercial chama atenção, mas a função, 
+a autorização e a posição na cadeia definem a resposta correta.
+
+<<<PÁGINA 52>>>
+2. Planalto — Lei nº 12.865/2013. Arranjos e instituições de pagamento.
+3. Planalto — Lei nº 4.595/1964. Instituições financeiras.
+4. BCB — Fintechs. Página oficial.
+5. BCB — Instituições de pagamento. Página oficial.
+6. BCB — Arranjos de pagamento. Página oficial.
+7. BCB — Resolução BCB nº 80. Normativo.
+8. BCB — Resolução BCB nº 150. Normativo.
+9. BCB — Resolução BCB nº 522/2025 e nota oficial. Normativo e nota.
+10. BCB — Credenciadoras e subcredenciadores. Credenciadoras e subcredenciadores.
+11. BCB — Open Finance e participantes. Open Finance, participantes e segurança.
+12. BCB/CMN — Resolução Conjunta nº 1/2020. Texto compilado.
+13. BCB — Resolução BCB nº 32/2020. Requisitos técnicos do Open Finance.
+14. BCB — Sandbox Regulatório e normas do BCB/CMN. Sandbox, Resolução CMN nº 
+4.865/2020, Resolução BCB nº 29/2020 e Resolução BCB nº 50/2020.
+15. CVM — Sandbox Regulatório e Resolução CVM nº 29/2021. Página e normativo.
+16. BCB — Relatório de Estabilidade Financeira. PDF.
+Observações normativas
+1. Fonte normativa vigente prevalece: leis, resoluções vigentes e atos oficiais 
+prevalecem sobre FAQs, glossários, apostilas antigas ou linguagem comercial.
+2. Subadquirente: a grafia do edital foi normalizada de “Sub-adquitente” para 
+subadquirente. O termo normativo atual é subcredenciador.
+3. Resolução BCB nº 522/2025: vigente, com medidas de adaptação operacional; não 
+confundir transição com revogação, consulta pública, prazo universal de repasse ou 
+garantia do FGC.
+4. Resoluções BCB nº 80 e nº 150: consultar sempre a versão vigente na data da prova e 
+considerar alterações posteriores.
+5. Open Finance: a norma vigente prevalece sobre formulações históricas de glossários; 
+consentimento é específico, informado, prévio, inequívoco e revogável conforme o 
+marco aplicável.
+6. Sandbox: o Ciclo 1 do BCB e o primeiro processo da CVM são históricos documentados. 
+Novo ciclo ou nova admissão devem ser confirmados por ato oficial.
+
+<<<PÁGINA 53>>>
+7. Desintermediação: conceito econômico; não é licença, isenção, percentual ou 
+promessa de eliminação de bancos e intermediários.
+8. Garantias: supervisão não significa garantia de rentabilidade, solvência, FGC ou 
+ausência de risco. Conta de pagamento não deve ser apresentada como 
+automaticamente coberta pelo FGC.
+9. Classificação por função: marketplace, gateway, processador, facilitador, adquirente, 
+subadquirente e fintech podem ser usados comercialmente. A classificação jurídica 
+depende da função efetiva, contrato, arranjo e autorização.
+Checklist de validação
+Item 4.7 e todos os subitens solicitados cobertos.
+Sete etapas obrigatórias preservadas na ordem.
+Conceitos com definição, função, mecanismo, exemplo, confusão, pegadinha, 
+alinhamento e fonte/status.
+Cadeias visuais de cartão e Pix incluídas.
+Diferenças críticas solicitadas incluídas.
+Grafia “sub-adquitente” normalizada e nomenclatura normativa registrada.
+Questão inédita com cinco alternativas e justificativa individual de todas.
+Resumo, quadro de emergência, cadeia lógica, frase central, próximo passo, referências 
+e observações normativas incluídos.
+Fim do roteiro.

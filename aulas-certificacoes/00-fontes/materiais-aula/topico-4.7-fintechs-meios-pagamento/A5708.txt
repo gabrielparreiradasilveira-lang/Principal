@@ -1,0 +1,113 @@
+<<<PÁGINA 1>>>
+Fintechs e meios de pagamentos
+
+<<<PÁGINA 2>>>
+Introdução
+→  As fintechs fazem parte da mudança drástica do mercado financeiro brasileiro, junto com o 
+Open Finance.
+→  Fintechs são empresas que utilizam tecnologia para oferecer serviços financeiros de forma 
+mais rápida, barata, simples e escalável do que instituições financeiras tradicionais:
+●
+Foco na experiência do usuário (UX);
+●
+Majoritariamente digitais, ou 100% digitais;
+●
+Diminuição do custo operacional, com a desintermediação;
+→  Se diferenciam em tipos: investimentos, crédito, pagamentos,
+seguros, cripto, entre outras.
+
+<<<PÁGINA 3>>>
+Sandbox Regulatório (BACEN e CVM)
+→ O Sandbox Regulatório é um ambiente experimental criado pelo regulador para que 
+empresas inovadoras possam testar modelos de negócios financeiros com regras flexibilizadas, 
+mas com supervisão.
+→ CVM 626: regulamenta o funcionamento do sandbox regulatório para fomentar o mercado de 
+capitais.
+→ Resolução BCB n° 77: regulamenta o sandbox regulatório 
+para as IFs brasileiras.
+
+<<<PÁGINA 4>>>
+Regulação das Fintechs
+→ BACEN: supervisiona as fintechs de pagamento, crédito e IFs;
+→ CVM: regula fintechs de investimento (corretoras).
+→ SUSEP: regula as insurtechs (seguradoras).
+
+<<<PÁGINA 5>>>
+Meios de pagamento
+→ Meios de pagamento são os instrumentos, regras e infraestruturas que permitem transferir 
+dinheiro entre pagadores e recebedores.
+→ Principais meios de pagamentos do Brasil:
+●
+PIX;
+●
+Cartão de Crédito e Débito;
+●
+Boleto;
+●
+Transferências Bancárias (TED/DOC);
+●
+Carteiras Digitais (Apple Pay/Google Pay).
+
+<<<PÁGINA 6>>>
+Meios de pagamento
+→ Arranjo de pagamento: é o conjunto de regras, procedimentos e participantes que permitem a 
+execução de um determinado meio de pagamento.
+●
+Arranjo Visa (cartões Visa);
+●
+Arranjo Mastercard;
+●
+Arranjo Elo;
+●
+Arranjo PIX (definido pelo Banco Central).
+
+<<<PÁGINA 7>>>
+Meios de pagamento - Adquirente
+→ O adquirente é a empresa que captura, autoriza e liquida pagamentos feitos com cartões em 
+nome do lojista.
+●
+Adquirente faz a ponte entre o lojista, bandeira do cartão e banco emissor
+→ Função do adquirente: 
+●
+Processa a transação.
+●
+Analisa riscos de fraude.
+●
+Procura o banco emissor para autorizar a compra.
+●
+Liquida o valor final para o lojista.
+●
+Oferece a maquininha (POS) ou meios online.
+
+<<<PÁGINA 8>>>
+Meios de pagamento - Subadquirente
+→ O subadquirente é uma empresa que atua entre o lojista e o adquirente, simplificando o 
+acesso do lojista ao sistema de pagamentos.
+→ Funções do subadquirente: 
+●
+Facilita a entrada de pequenos lojistas no mercado;
+●
+Oferece integração tecnológica (e-commerce, QR Code, checkout online);
+●
+Repasse financeiro: dinheiro do adquirente → subadquirente → lojista.
+→ Diferença entre adquirente e subadquirente:
+●
+Adquirente: processa e liquida a transação.
+●
+Subadquirente: facilita e repassa, mas depende do adquirente.
+
+<<<PÁGINA 9>>>
+Meios de pagamento
+→ Pagamento com cartão tradicional:
+●
+Cliente → Bandeira → Emissor → Adquirente → Subadquirente (às vezes) → Lojista
+→ Pagamento com PIX
+●
+Cliente → Instituição de Pagamento → Lojista
+
+<<<PÁGINA 10>>>
+
+<<<PÁGINA 11>>>
+MAPA MENTAL
+●
+●
