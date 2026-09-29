@@ -1,0 +1,1797 @@
+<<<PÁGINA 1>>>
+Roteiro de Aula — Inteligência Artificial no 
+mercado financeiro
+IA generativa, IA regenerativa, modelos preditivos, 
+chatbots e assistentes virtuais
+Identificação e escopo
+• Certificação: CPA ANBIMA
+• Módulo: 4. Inovação e desenvolvimento de mercado
+• Item: 4.6. Inteligência Artificial (IA)
+• Subitens:
+• 4.6.1. IA Generativa;
+• 4.6.1.1. Conceitos gerais;
+• 4.6.1.2. Aplicabilidade;
+• 4.6.1.3. Modelos preditivos;
+• 4.6.2. IA Regenerativa;
+• 4.6.2.1. Conceitos gerais;
+• 4.6.2.2. Aplicabilidade;
+• 4.6.2.3. Modelos preditivos;
+• 4.6.3. Atendimento e suporte à clientela com IA;
+• 4.6.3.1. Chatbots;
+• 4.6.3.2. Assistentes virtuais.
+• Programa Detalhado: CPA ANBIMA, versão 1.2, revisado em 04/06/2025, com vigência 
+a partir de 01/01/2026. 1
+• Duração estimada: 90 minutos.
+• Formato: roteiro de aula, teleprompter, lousa/tela, case, questão comentada e revisão 
+de prova.
+• Data de referência das fontes: 12/09/2026.
+• Delimitação: o material apresenta fundamentos, aplicações e riscos de IA no 
+atendimento e no mercado financeiro. Não substitui políticas internas, avaliação 
+
+<<<PÁGINA 2>>>
+jurídica, governança de modelos, regras de proteção de dados, controles de segurança 
+ou processos de suitability.
+Nota técnica obrigatória sobre “IA regenerativa”
+O Programa Detalhado da CPA inclui expressamente o item 4.6.2. IA Regenerativa, mas 
+não apresenta, no próprio programa, uma definição técnica detalhada. 1
+Nas fontes oficiais consultadas para esta aula, foi localizada ampla orientação sobre IA 
+generativa, governança, riscos, modelos e uso responsável, mas não uma definição 
+normativa brasileira consolidada de IA regenerativa. 2 3 4
+Por isso, o material utiliza a seguinte abordagem didática:
+Essa interpretação é compatível com o uso técnico emergente do termo em fontes 
+secundárias, que associam regenerative AI a adaptação contínua, autoaperfeiçoamento, 
+otimização e autorreparo. 5
+Regra para a prova: memorize a presença do termo no edital, mas não invente uma 
+definição normativa, um órgão regulador específico ou uma obrigação legal específica que 
+o edital não trouxe.
+1. Fala de abertura — 5 minutos
+Imagine que um cliente envie uma mensagem ao banco às 23h40:
+O sistema pode responder imediatamente, bloquear temporariamente o cartão, registrar a 
+ocorrência e encaminhar o caso para um funcionário.
+Agora imagine uma segunda tarefa. O banco precisa analisar milhões de transações e 
+identificar quais possuem maior probabilidade de fraude.
+Essa tarefa não é igual à primeira.
+• Na primeira, a tecnologia conversa, interpreta a solicitação e ajuda no atendimento.
+• Na segunda, um modelo analisa dados e estima a probabilidade de um evento.
+IA regenerativa é tratada como um conceito emergente de sistemas capazes de 
+adaptar, otimizar ou reparar seu funcionamento com base em feedback e mudanças 
+no ambiente. Não é apresentada como uma categoria regulatória consolidada nem 
+como sinônimo automático de IA generativa.
+“Meu cartão foi utilizado em uma compra que eu não reconheço. O que devo fazer?”
+
+<<<PÁGINA 3>>>
+• Em uma terceira situação, o sistema recebe feedback sobre seus erros, ajusta seu 
+funcionamento e melhora o fluxo operacional.
+Essas três situações parecem semelhantes porque todas utilizam inteligência artificial. 
+Porém, elas respondem a perguntas diferentes:
+A ANBIMA destaca que a IA generativa pode automatizar tarefas, aumentar produtividade, 
+apoiar detecção de fraude, gerar relatórios, auxiliar o atendimento e produzir análise 
+preditiva. Ao mesmo tempo, chama atenção para riscos de dados incorretos, vieses, erros 
+de automação, falta de transparência e exposição indevida de dados. 2
+A pergunta central da aula é:
+Ao final, o aluno deverá identificar a função da tecnologia, escolher o modelo adequado e 
+reconhecer quando a decisão precisa de supervisão humana.
+Frase de fixação
+Comando de lousa/tela
+[ESCREVA]
+Plain Text
+IA no mercado financeiro
+Cria?     → generativa
+Prevê?    → preditiva
+Adapta?   → regenerativa
+Pergunta
+Tipo de solução predominante
+“O que posso responder ou criar para o 
+cliente?”
+IA generativa ou sistema conversacional
+“O que provavelmente acontecerá?”
+Modelo preditivo
+“Como posso adaptar ou otimizar o próprio 
+funcionamento?”
+Conceito emergente de IA regenerativa
+A IA cria conteúdo, prevê eventos, adapta sistemas ou apenas conversa com o 
+cliente?
+Gerativa cria; preditiva estima; regenerativa adapta; chatbot conversa; assistente 
+ajuda a executar.
+
+<<<PÁGINA 4>>>
+Conversa? → chatbot
+Ajuda?    → assistente virtual
+[PARE E PERGUNTE]
+Um sistema que prevê a probabilidade de fraude está necessariamente gerando um texto 
+ou uma imagem?
+Resposta esperada: não. A previsão de fraude é uma tarefa preditiva. O sistema pode até 
+usar IA generativa para explicar o resultado ao funcionário, mas o cálculo da probabilidade 
+pertence ao modelo preditivo.
+2. Introdução com metáfora central — 5 
+minutos
+Metáfora: a agência financeira com cinco funcionários 
+digitais
+Imagine uma agência financeira com cinco funcionários especializados.
+1. O redator: cria textos, resumos, explicações e respostas.
+2. O analista de risco: estima probabilidades e identifica padrões.
+3. O engenheiro de manutenção: observa falhas, aprende com feedback e ajusta 
+processos.
+4. O atendente do balcão: responde perguntas padronizadas.
+5. O assistente pessoal: acompanha a solicitação, consulta sistemas e sugere os 
+próximos passos.
+Cada funcionário tem uma função diferente. O fato de todos usarem computadores não 
+transforma suas atribuições em uma única atividade.
+Funcionário da metáfora
+Conceito técnico
+Pergunta respondida
+Redator
+IA generativa
+“Que conteúdo pode ser 
+criado?”
+Analista de risco
+Modelo preditivo
+“Qual evento é mais 
+provável?”
+Engenheiro de manutenção
+IA regenerativa, no sentido 
+emergente adotado
+“Como o sistema pode se 
+adaptar ou se reparar?”
+
+<<<PÁGINA 5>>>
+Correspondência visual
+[DESENHE] cinco caixas em sequência:
+Plain Text
+CRIAR → PREVER → ADAPTAR → CONVERSAR → ASSISTIR
+Frase de impacto
+Atenção técnica: limite da analogia
+A metáfora separa funções. Ela não significa que um produto real terá cinco modelos 
+independentes. Uma solução pode combinar:
+• um modelo preditivo para identificar fraude;
+• um modelo generativo para redigir a explicação;
+• um chatbot para receber a pergunta;
+• um assistente para consultar ferramentas;
+• mecanismos de feedback para monitorar e melhorar o processo.
+Também não se deve concluir que um sistema que combina várias técnicas se torna 
+automaticamente “regenerativo”. A classificação depende do funcionamento real, do 
+ciclo de feedback e do nível de adaptação.
+3. Explicação dos tópicos
+3.1 Inteligência Artificial: visão geral
+O que é
+Atendente do balcão
+Chatbot
+“Como responder à pergunta 
+do cliente?”
+Assistente pessoal
+Assistente virtual
+“Como ajudar o usuário a 
+concluir uma tarefa?”
+O nome da tecnologia não basta. A pergunta do negócio define o modelo adequado.
+
+<<<PÁGINA 6>>>
+Inteligência Artificial é o conjunto de técnicas e sistemas computacionais capazes de 
+executar tarefas que normalmente exigiriam capacidades associadas à inteligência 
+humana, como reconhecer padrões, interpretar linguagem, classificar informações, gerar 
+conteúdo, fazer previsões e apoiar decisões.
+No mercado financeiro, a IA costuma operar sobre grandes volumes de dados e pode 
+apoiar atividades como:
+• análise de risco;
+• prevenção e detecção de fraude;
+• atendimento ao cliente;
+• automação de processos;
+• análise de documentos;
+• geração de relatórios;
+• personalização de serviços;
+• monitoramento de operações;
+• suporte à decisão de investimento;
+• controles de conformidade.
+Função e objetivo
+A IA não possui um objetivo financeiro universal. Seu objetivo é definido pelo sistema, 
+pelos dados, pelos critérios de treinamento e pela finalidade de negócio.
+Um modelo pode ser criado para:
+• classificar uma transação como potencialmente fraudulenta;
+• prever o risco de inadimplência;
+• resumir um relatório;
+• responder a uma dúvida;
+• recomendar uma próxima ação;
+• detectar uma anomalia;
+• encaminhar uma solicitação para atendimento humano.
+Como funciona em linguagem simples
+Uma cadeia básica de IA pode ser representada assim:
+Plain Text
+
+<<<PÁGINA 7>>>
+Dados → treinamento → modelo → entrada nova → saída → avaliação humana
+A saída pode ser:
+• uma classe;
+• uma probabilidade;
+• uma previsão numérica;
+• um texto;
+• uma imagem;
+• uma recomendação;
+• uma ação executada por meio de ferramenta.
+O que a IA não garante
+A utilização de IA não garante:
+• ausência de erro;
+• ausência de viés;
+• explicabilidade completa;
+• rentabilidade;
+• aprovação de crédito;
+• detecção perfeita de fraude;
+• atendimento correto em todas as situações;
+• conformidade automática com a legislação.
+A ANBIMA recomenda governança, transparência, segurança, responsabilização, 
+participação humana e abordagem baseada em riscos durante o ciclo de vida dos sistemas 
+de IA. 3
+Frase de fixação
+3.2 IA Generativa — conceitos gerais
+3.2.1 O que é
+IA é uma ferramenta orientada por finalidade, dados, modelo, controles e 
+supervisão.
+
+<<<PÁGINA 8>>>
+IA generativa é a classe de sistemas capaz de gerar novos conteúdos a partir de padrões 
+aprendidos em dados de treinamento e de uma instrução, solicitação ou entrada do 
+usuário.
+O conteúdo gerado pode ser:
+• texto;
+• imagem;
+• áudio;
+• vídeo;
+• código;
+• resumo;
+• tradução;
+• resposta conversacional;
+• dado sintético.
+O NIST define seu perfil de IA generativa como uma aplicação do AI Risk Management 
+Framework voltada ao desenho, desenvolvimento, uso e avaliação confiável e responsável 
+de sistemas generativos. 4
+A IBM diferencia IA generativa de IA preditiva pelo resultado principal: a generativa cria 
+conteúdo novo; a preditiva estima eventos ou resultados futuros. 6
+3.2.2 Modelo, prompt e inferência
+A operação pode ser simplificada em quatro etapas:
+1. o modelo é treinado com dados;
+2. o usuário fornece um prompt ou entrada;
+3. o modelo calcula uma saída estatisticamente provável;
+4. o usuário avalia, revisa e utiliza a saída dentro dos controles aplicáveis.
+Prompt é a instrução fornecida ao sistema. Um prompt pode pedir uma classificação, um 
+resumo, uma explicação ou uma resposta para um cliente.
+Inferência é a fase em que o modelo utiliza os parâmetros aprendidos para produzir uma 
+saída diante de uma nova entrada.
+3.2.3 Modelos fundacionais e LLMs
+Um modelo fundacional é treinado em grandes bases de dados e pode ser adaptado para 
+várias tarefas.
+
+<<<PÁGINA 9>>>
+Um LLM, ou large language model, é um modelo de linguagem de grande escala 
+especializado em tarefas relacionadas à linguagem. Ele estima sequências prováveis de 
+tokens e pode produzir respostas, resumos, classificações e transformações de texto.
+O LLM não “pensa” como uma pessoa no sentido humano. Ele processa entradas e gera 
+saídas com base em padrões estatísticos aprendidos e em instruções fornecidas pelo 
+sistema.
+3.2.4 Alucinação
+Alucinação é a produção de uma resposta que parece plausível, mas contém informação 
+incorreta, inventada ou não sustentada pelos dados disponíveis.
+No mercado financeiro, uma alucinação pode:
+• citar uma regra inexistente;
+• informar um prazo incorreto;
+• inventar uma rentabilidade;
+• atribuir características erradas a um produto;
+• apresentar uma recomendação sem base suficiente;
+• afirmar que uma operação foi realizada quando não foi.
+A resposta bem redigida não é necessariamente resposta correta.
+3.2.5 RAG e base de conhecimento
+RAG, ou retrieval-augmented generation, é uma arquitetura em que o sistema consulta 
+documentos, bases de dados ou uma base de conhecimento antes de gerar a resposta.
+O fluxo é:
+Plain Text
+Pergunta → busca em fonte autorizada → contexto recuperado → resposta gerada
+O RAG pode reduzir respostas desatualizadas ou desconectadas da base institucional, mas 
+não elimina todos os riscos. A fonte pode estar incompleta, o sistema pode recuperar o 
+documento errado ou o modelo pode interpretar o contexto de maneira inadequada.
+3.2.6 Aplicabilidade da IA generativa no mercado financeiro
+A ANBIMA apresenta aplicações como automação de tarefas, aumento de produtividade, 
+detecção de fraude, análise de sentimento, análise preditiva, relatórios automatizados, 
+auditoria, consultoria automatizada e apoio à gestão de carteiras. 2
+
+<<<PÁGINA 10>>>
+3.2.7 O que a prova pode confundir
+• IA generativa não é sinônimo de qualquer IA. Ela se caracteriza pela geração de 
+conteúdo.
+• Gerar uma resposta não significa decidir corretamente.
+• LLM não é necessariamente modelo preditivo de mercado. Ele prevê tokens ou 
+sequências de linguagem; isso é diferente de prever preço, inadimplência ou fraude.
+• RAG não garante verdade. Ele melhora o acesso ao contexto, mas exige fontes e 
+validação.
+• Automação não elimina responsabilidade. A instituição continua responsável pela 
+governança e pelos controles.
+Frase de fixação
+Área
+Aplicação generativa
+Controle necessário
+Atendimento
+Rascunho de respostas, 
+resumo de conversas e 
+explicação de procedimentos.
+Revisão de respostas críticas, 
+identificação do cliente e 
+escalonamento.
+Relatórios
+Produção de primeira versão 
+de relatórios e atas.
+Conferência de números, 
+fontes e informações materiais.
+Compliance
+Resumo de normas e 
+comparação de documentos.
+Validação por área responsável 
+e registro da fonte.
+Produtos
+Explicação de características, 
+riscos e custos.
+Conteúdo aprovado e 
+linguagem não enganosa.
+Pesquisa
+Resumo de documentos 
+públicos e análise textual.
+Verificação de fontes e data de 
+referência.
+Desenvolvimento
+Sugestão de código e testes.
+Revisão de segurança e 
+qualidade.
+Back-office
+Extração de dados de 
+documentos e geração de 
+instruções.
+Reconciliação, trilha de 
+auditoria e aprovação.
+Educação financeira
+Explicações adaptadas ao nível 
+de conhecimento do cliente.
+Clareza, limites e ausência de 
+recomendação indevida.
+
+<<<PÁGINA 11>>>
+Alinhamento ao Programa Detalhado
+• 4.6.1. IA Generativa.
+• 4.6.1.1. Conceitos gerais.
+• 4.6.1.2. Aplicabilidade.
+Fonte e status
+A definição técnica foi apoiada em fontes do NIST, IBM e ANBIMA. 2 4 6
+• Status: tecnologia em uso e em expansão no mercado.
+• Regra: as orientações da ANBIMA são guias de boas práticas e não substituem a 
+legislação aplicável ou políticas internas.
+3.3 IA Generativa — modelos preditivos
+3.3.1 A distinção central
+A IA generativa e os modelos preditivos podem aparecer na mesma solução, mas possuem 
+objetivos diferentes.
+3.3.2 Um LLM também faz previsão?
+IA generativa produz conteúdo novo; a qualidade da saída depende do modelo, dos 
+dados, do contexto e da revisão.
+Dimensão
+IA generativa
+Modelo preditivo
+Pergunta
+“Que conteúdo pode ser 
+criado?”
+“Qual resultado é mais 
+provável?”
+Saída
+Texto, imagem, áudio, código 
+ou resumo.
+Probabilidade, classe, previsão 
+numérica ou pontuação.
+Exemplo financeiro
+Resumo de uma análise de 
+crédito.
+Probabilidade de 
+inadimplência.
+Critério de avaliação
+Coerência, utilidade, 
+factualidade e segurança.
+Acurácia, precisão, recall, 
+calibração e estabilidade.
+Risco típico
+Alucinação e conteúdo 
+incorreto.
+Falso positivo, falso negativo, 
+viés e drift.
+
+<<<PÁGINA 12>>>
+Sim, em sentido técnico, um LLM prevê a próxima unidade provável de linguagem, como 
+um token. Porém, isso não transforma o LLM em um modelo preditivo financeiro.
+A expressão modelo preditivo, no contexto de negócios, normalmente se refere a um 
+modelo que utiliza dados para estimar uma variável ou evento de interesse, como:
+• probabilidade de inadimplência;
+• probabilidade de fraude;
+• risco de churn;
+• demanda por crédito;
+• probabilidade de conversão;
+• expectativa de sinistro;
+• risco de atraso;
+• classificação de uma operação.
+3.3.3 Como integrar os dois tipos
+Uma arquitetura possível é:
+Plain Text
+Modelo preditivo → calcula risco de fraude
+        ↓
+IA generativa → explica o resultado em linguagem simples
+        ↓
+Chatbot/assistente → comunica e encaminha a ação
+Exemplo:
+• o modelo preditivo classifica uma transação como risco elevado;
+• a IA generativa redige um resumo para o analista;
+• o assistente virtual solicita confirmação ao cliente;
+• o funcionário decide se o caso será bloqueado ou investigado.
+O texto gerado não deve substituir o cálculo do risco. Ele apenas traduz ou organiza o 
+resultado.
+3.3.4 Modelos preditivos mais comuns
+Classificação
+A classificação atribui uma categoria a uma observação.
+
+<<<PÁGINA 13>>>
+Exemplos:
+• fraude ou não fraude;
+• cliente adimplente ou inadimplente;
+• transação normal ou suspeita;
+• atendimento simples ou complexo.
+Regressão
+A regressão estima um valor numérico.
+Exemplos:
+• perda esperada;
+• valor de demanda de crédito;
+• receita provável;
+• tempo estimado para atendimento;
+• valor de uma variável financeira.
+Séries temporais
+Modelos de séries temporais usam a ordem cronológica dos dados para estimar padrões 
+futuros.
+Exemplos:
+• volume de transações;
+• demanda por atendimento;
+• fluxo de caixa operacional;
+• volatilidade ou indicadores de mercado.
+Detecção de anomalias
+A detecção de anomalias identifica observações que se afastam do padrão esperado.
+Exemplos:
+• movimentação incompatível com o histórico;
+• acesso em local incomum;
+• comportamento de pagamento atípico;
+• alteração repentina na utilização de um produto.
+
+<<<PÁGINA 14>>>
+3.3.5 Cuidados com modelos preditivos
+Um modelo preditivo não deve ser avaliado apenas por sua acurácia média. Também é 
+necessário verificar:
+• qualidade e representatividade dos dados;
+• estabilidade ao longo do tempo;
+• falsos positivos;
+• falsos negativos;
+• calibração das probabilidades;
+• viés contra grupos específicos;
+• explicabilidade suficiente para a finalidade;
+• possibilidade de revisão humana;
+• atualização e monitoramento;
+• impacto financeiro e reputacional.
+A LGPD assegura ao titular o direito de solicitar revisão de decisões tomadas unicamente 
+com base em tratamento automatizado que afetem seus interesses, inclusive decisões de 
+perfil de crédito, e prevê informações claras sobre critérios e procedimentos utilizados. 7
+3.3.6 O que a prova pode confundir
+• Um modelo preditivo não precisa produzir texto.
+• Uma saída probabilística não é certeza.
+• Um score não é a mesma coisa que uma decisão final.
+• A IA generativa pode explicar a previsão, mas não deve inventar o fundamento.
+• Mais dados não significam automaticamente melhor modelo.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.6.1.3. Modelos preditivos.
+Fonte e status
+A distinção entre IA generativa e preditiva foi validada na fonte técnica da IBM e 
+contextualizada pela ANBIMA. 2 6
+Preditivo estima o evento; generativo explica ou cria o conteúdo.
+
+<<<PÁGINA 15>>>
+• Status: conceito técnico consolidado em aplicações de ciência de dados.
+• Cautela: exemplos de mercado não constituem garantia de desempenho ou 
+recomendação de uso.
+3.4 IA Regenerativa — conceitos gerais
+3.4.1 O que é, na abordagem desta aula
+Para fins didáticos, IA regenerativa é o conceito emergente de sistemas que não apenas 
+geram conteúdo ou fazem previsões, mas que também utilizam observação, feedback e 
+adaptação para melhorar o próprio funcionamento, corrigir falhas ou otimizar processos ao 
+longo do tempo.
+A palavra “regenerativa” sugere um ciclo de reconstrução, adaptação ou recuperação.
+Plain Text
+Observar → detectar problema → corrigir/adaptar → testar → aprender com o resul
+3.4.2 O termo não é sinônimo de generativa
+3.4.3 O que não se deve afirmar
+Não se deve afirmar que:
+• todo sistema que aprende com feedback é automaticamente regenerativo;
+• todo agente autônomo possui autorreparo;
+IA generativa
+IA regenerativa, como conceito emergente
+Cria novo conteúdo.
+Adapta, otimiza ou repara o sistema ou 
+processo.
+Pode responder a um prompt.
+Usa feedback e mudanças no ambiente.
+A saída pode ser texto, imagem ou código.
+A saída pode ser ajuste de parâmetro, rota, 
+processo ou comportamento.
+O modelo costuma ser atualizado por ciclos 
+definidos.
+O sistema busca adaptação contínua ou 
+recorrente, conforme a arquitetura.
+Foco na produção.
+Foco na adaptação e resiliência.
+
+<<<PÁGINA 16>>>
+• o sistema aprende continuamente sem governança;
+• a IA pode alterar seus próprios controles sem autorização;
+• a adaptação elimina a necessidade de supervisão humana;
+• o termo possui a mesma padronização de “IA generativa”.
+Um sistema pode possuir memória, registrar feedback ou passar por novo treinamento sem 
+ser capaz de reparar o próprio funcionamento.
+3.4.4 Componentes possíveis
+Uma arquitetura adaptativa pode combinar:
+• aprendizado por reforço;
+• aprendizagem online;
+• algoritmos evolutivos;
+• detecção de anomalias;
+• monitoramento de desempenho;
+• mecanismos de fallback;
+• reconfiguração controlada;
+• testes automatizados;
+• feedback humano;
+• retreinamento periódico;
+• limites de risco;
+• aprovação para mudanças materiais.
+3.4.5 Aprendizagem contínua não é ausência de governança
+Um modelo pode ser atualizado continuamente, mas isso aumenta a necessidade de 
+controles.
+A instituição deve saber:
+• quais dados alimentaram a atualização;
+• quem autorizou a mudança;
+• qual versão está em produção;
+• quais métricas foram alteradas;
+• quais limites não podem ser ultrapassados;
+
+<<<PÁGINA 17>>>
+• como reverter a versão;
+• como investigar um erro;
+• como preservar a trilha de auditoria.
+A ANBIMA recomenda governança ao longo de todo o ciclo de vida dos sistemas de IA, 
+incluindo definição de papéis, responsabilidades, transparência, segurança, conformidade, 
+avaliação de riscos e participação humana. 3
+3.4.6 Exemplo didático
+Um sistema de atendimento apresenta aumento de erros em solicitações de portabilidade.
+Uma solução adaptativa pode:
+1. detectar o aumento do erro;
+2. identificar que um formulário foi alterado;
+3. ajustar o fluxo de interpretação;
+4. testar a nova configuração em ambiente controlado;
+5. monitorar o resultado;
+6. encaminhar o caso para aprovação humana quando o impacto for material.
+A parte “regenerativa” está no ciclo de detecção, adaptação e recuperação. A resposta 
+textual ao cliente pode ser gerada por IA generativa, mas isso é outra função.
+3.4.7 O que a prova pode confundir
+• “Regenerativa” não deve ser automaticamente tratada como “generativa”.
+• Adaptação não significa autonomia irrestrita.
+• Feedback não significa retreinamento instantâneo.
+• Memória de conversa não significa mudança dos parâmetros do modelo.
+• Autorremediação técnica não elimina a responsabilidade da instituição.
+• O edital menciona o tema, mas não fornece uma taxonomia regulatória detalhada.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.6.2. IA Regenerativa.
+Regenerativa não é a IA que apenas cria; é o ciclo que observa, adapta e melhora sob 
+controle.
+
+<<<PÁGINA 18>>>
+• 4.6.2.1. Conceitos gerais.
+Fonte e status
+• Fonte primária do escopo: Programa Detalhado CPA. 1
+• Fonte de governança: Guia da ANBIMA e NIST. 3 4
+• Fonte secundária de definição emergente: TechTarget. 5
+• Status do termo: conceito emergente e não confirmado como categoria normativa 
+consolidada nas fontes oficiais consultadas.
+3.5 IA Regenerativa — aplicabilidade
+3.5.1 Aplicações possíveis no mercado financeiro
+O uso de IA regenerativa, na interpretação emergente adotada nesta aula, estaria associado 
+a sistemas que precisam lidar com mudanças, falhas e ambientes dinâmicos.
+Aplicação
+Ciclo adaptativo
+Limite necessário
+Fraude
+Detectar novo padrão, atualizar 
+alerta e monitorar falso 
+positivo.
+Mudanças não podem 
+bloquear clientes 
+indiscriminadamente.
+Cibersegurança
+Identificar comportamento 
+anômalo, conter ameaça e 
+ajustar controles.
+Ações críticas precisam de 
+autorização e plano de 
+reversão.
+Atendimento
+Detectar perguntas não 
+resolvidas, atualizar base e 
+melhorar roteamento.
+Respostas críticas devem ser 
+escaladas para humanos.
+Crédito
+Monitorar deterioração da 
+performance e reavaliar 
+modelo.
+Critérios devem ser 
+documentados e não 
+discriminatórios.
+Operações
+Detectar falha, acionar 
+contingência e reorganizar a 
+fila.
+Preservar continuidade, 
+integridade e rastreabilidade.
+Compliance
+Identificar novas tipologias de 
+risco e atualizar regras de 
+monitoramento.
+Mudança de regra precisa ser 
+validada pela área competente.
+Carteiras
+Simular cenários e ajustar 
+parâmetros dentro de limites.
+Não confundir adaptação com 
+autorização para operar sem 
+
+<<<PÁGINA 19>>>
+3.5.2 Exemplo de ciclo operacional
+Plain Text
+1. Monitorar o ambiente
+2. Detectar desvio ou falha
+3. Estimar impacto
+4. Propor ajuste
+5. Testar o ajuste
+6. Aprovar ou rejeitar
+7. Implantar de forma controlada
+8. Medir o resultado
+9. Reverter se necessário
+Esse fluxo diferencia uma adaptação governada de uma alteração automática e invisível.
+3.5.3 IA regenerativa e resiliência operacional
+Resiliência é a capacidade de continuar funcionando, absorver perturbações e recuperar-se 
+de falhas.
+Sistemas adaptativos podem apoiar a resiliência por meio de:
+• redundância de serviços;
+• rotas alternativas;
+• detecção rápida de indisponibilidade;
+• priorização de atendimentos;
+• contenção de incidentes;
+• recuperação de configurações;
+• monitoramento de degradação.
+A resiliência não significa que o sistema nunca falhará. Significa que a organização possui 
+capacidade de detectar, responder, recuperar e aprender com a falha.
+3.5.4 IA regenerativa e sustentabilidade
+supervisão.
+Continuidade
+Reconfigurar rotas após 
+indisponibilidade de serviço.
+Testar segurança e manter 
+controles de acesso.
+
+<<<PÁGINA 20>>>
+A palavra “regenerativa” pode ser usada em discussões de sustentabilidade, mas isso 
+não significa que toda IA regenerativa seja automaticamente sustentável.
+Um sistema pode otimizar o uso de recursos ou reduzir desperdícios, mas também pode 
+consumir grande quantidade de energia e infraestrutura computacional.
+A análise precisa separar:
+• objetivo tecnológico: adaptar, otimizar ou reparar;
+• impacto ambiental: consumo de energia, hardware e dados;
+• objetivo de negócio: reduzir custos, melhorar serviço ou reduzir risco.
+3.5.5 Riscos específicos
+Drift de dados
+O comportamento dos dados muda em relação ao período de treinamento.
+Exemplo: o padrão de fraude de dezembro não é igual ao padrão de fraude de março.
+Drift de conceito
+A relação entre as variáveis e o evento de interesse muda.
+Exemplo: uma característica que antes indicava fraude deixa de ter o mesmo significado 
+após uma mudança no comportamento dos fraudadores.
+Feedback defeituoso
+O sistema aprende com informações incompletas, enviesadas ou incorretas.
+Loop de automação
+O sistema toma uma ação, observa a própria ação como dado e reforça um 
+comportamento inadequado.
+Mudança não autorizada
+O sistema adapta parâmetros sem validação, trilha de auditoria ou possibilidade de 
+reversão.
+Instabilidade
+O modelo melhora uma métrica e piora outra, como reduzir fraude aparente ao custo de 
+bloquear clientes legítimos.
+
+<<<PÁGINA 21>>>
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.6.2.2. Aplicabilidade.
+Fonte e status
+A aplicabilidade é uma síntese didática baseada no conceito emergente e em práticas de 
+governança e risco da ANBIMA e do NIST. 3 4 5
+• Status: aplicações potenciais e práticas de engenharia; não representam autorização 
+regulatória automática.
+3.6 IA Regenerativa — modelos preditivos
+3.6.1 A função do modelo preditivo no ciclo regenerativo
+O modelo preditivo pode funcionar como um sensor dentro de um sistema adaptativo.
+Ele pode estimar:
+• probabilidade de falha;
+• probabilidade de fraude;
+• risco de degradação;
+• chance de abandono do cliente;
+• aumento de demanda;
+• necessidade de capacidade computacional;
+• risco de descumprimento de prazo;
+• desvio em relação ao comportamento normal.
+O modelo preditivo não é, sozinho, a parte regenerativa. Ele fornece informação para o 
+ciclo de decisão e adaptação.
+Plain Text
+Modelo preditivo
+        ↓
+estimativa de risco ou falha
+Aplicação regenerativa exige ciclo de feedback, limites, testes, monitoramento e 
+reversibilidade.
+
+<<<PÁGINA 22>>>
+        ↓
+regra de decisão
+        ↓
+adaptação controlada
+        ↓
+novo monitoramento
+3.6.2 Modelo preditivo como sensor
+3.6.3 Arquitetura segura
+Uma arquitetura mínima deveria conter:
+1. modelo preditivo: estima o risco;
+2. limite: define quando a ação é permitida;
+3. política: determina a resposta possível;
+4. aprovação: exige humano em situações críticas;
+5. registro: documenta entrada, saída e decisão;
+6. monitoramento: acompanha desempenho e impactos;
+7. rollback: permite retornar à versão anterior.
+3.6.4 Exemplo no atendimento
+Um modelo preditivo estima que determinada conversa possui alta probabilidade de 
+envolver reclamação regulatória.
+O sistema pode:
+Etapa
+Pergunta
+Exemplo
+Observar
+O que está acontecendo?
+A taxa de erro do chatbot 
+aumentou?
+Prever
+O que provavelmente 
+acontecerá?
+A fila de atendimento ficará 
+congestionada?
+Decidir
+Qual resposta é permitida?
+Redirecionar para outro canal.
+Adaptar
+O que deve mudar?
+Ajustar roteamento ou 
+capacidade.
+Validar
+A mudança funcionou?
+Comparar erro antes e depois.
+
+<<<PÁGINA 23>>>
+• classificar o caso como prioritário;
+• evitar uma resposta automática mais arriscada;
+• encaminhar o cliente para atendimento humano;
+• registrar a origem do alerta;
+• medir se o encaminhamento reduziu o erro.
+O modelo não deve decidir sozinho que o cliente está errado. Ele deve apoiar o processo 
+dentro dos limites definidos.
+3.6.5 O que a prova pode confundir
+• Um modelo preditivo é componente possível de um sistema regenerativo, não 
+sinônimo dele.
+• Prever falha não significa reparar automaticamente a falha.
+• Aprender com feedback não significa ignorar governança.
+• Um sistema adaptativo não pode alterar qualquer regra de risco sem controle.
+• Uma previsão pode estar errada e precisa ser monitorada.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.6.2.3. Modelos preditivos.
+Fonte e status
+A estrutura é uma aplicação didática de modelos preditivos e governança de IA, com apoio 
+da distinção técnica entre modelos generativos e preditivos e das boas práticas da ANBIMA.
+3 6
+• Status: conceito técnico aplicado; não constitui definição normativa de IA regenerativa.
+3.7 Atendimento e suporte à clientela com IA
+3.7.1 Objetivo
+No sistema regenerativo, o modelo preditivo percebe o risco; o ciclo controlado 
+decide como adaptar.
+
+<<<PÁGINA 24>>>
+O atendimento com IA busca aumentar disponibilidade, velocidade, consistência e 
+capacidade de personalização do suporte.
+A tecnologia pode ajudar a:
+• responder perguntas frequentes;
+• localizar informações;
+• orientar o cliente em etapas de serviço;
+• resumir o histórico de atendimento;
+• classificar a demanda;
+• encaminhar o caso;
+• apoiar o funcionário humano;
+• acompanhar o cumprimento de prazos;
+• gerar registros e relatórios.
+3.7.2 Princípio central
+A ANBIMA destaca a necessidade de participação humana, transparência, explicabilidade, 
+robustez, segurança e responsabilidade no uso de IA por organizações do mercado 
+financeiro. 3
+3.7.3 Jornada de atendimento com IA
+Plain Text
+Cliente pergunta
+      ↓
+Sistema identifica intenção
+      ↓
+Consulta base autorizada
+      ↓
+Gera ou seleciona resposta
+      ↓
+Verifica risco e necessidade de autenticação
+      ↓
+Responde ou encaminha
+      ↓
+Registra o atendimento
+A IA pode ampliar o atendimento; ela não elimina a necessidade de 
+responsabilidade, segurança e escalonamento humano.
+
+<<<PÁGINA 25>>>
+      ↓
+Monitora qualidade e incidentes
+3.7.4 Níveis de complexidade
+Quanto maior o impacto financeiro, patrimonial, jurídico ou reputacional, maior deve ser a 
+exigência de autenticação, registro, supervisão e possibilidade de atendimento humano.
+3.7.5 Riscos no atendimento
+• respostas inventadas;
+• interpretação errada da intenção;
+• vazamento de dados;
+• autenticação insuficiente;
+• exposição de informações a terceiros;
+• discriminação no direcionamento;
+• bloqueios incorretos;
+• recomendações inadequadas;
+• falsa impressão de que o atendimento é humano;
+• dificuldade de acesso a uma pessoa;
+• perda de contexto;
+• ausência de trilha de auditoria;
+Nível
+Tipo de atendimento
+Exemplo
+1
+Informação pública
+Horário de atendimento e 
+canais oficiais.
+2
+Informação de produto
+Características, custos, riscos e 
+documentos aprovados.
+3
+Consulta autenticada
+Situação de solicitação ou 
+saldo, conforme controles.
+4
+Movimentação
+Alteração, resgate, contratação 
+ou ordem.
+5
+Reclamação ou decisão sensível
+Fraude, crédito, contestação, 
+suitability ou denúncia.
+
+<<<PÁGINA 26>>>
+• automação de reclamações sem tratamento adequado.
+3.7.6 Controles mínimos
+• identificar quando o usuário está interagindo com IA, quando essa informação for 
+relevante;
+• limitar a IA às fontes autorizadas;
+• proteger dados pessoais e credenciais;
+• exigir autenticação adequada para informações privadas;
+• evitar que o chatbot peça senha completa ou código de autenticação em canal 
+inadequado;
+• registrar a conversa e as ações realizadas;
+• permitir escalonamento para atendente humano;
+• revisar respostas de alto impacto;
+• monitorar taxa de erro e reclamações;
+• testar cenários adversariais;
+• manter plano de indisponibilidade;
+• controlar fornecedores terceirizados;
+• documentar responsabilidades.
+A LGPD exige princípios como finalidade, adequação, necessidade, qualidade dos dados, 
+transparência, segurança, prevenção, não discriminação, responsabilização e prestação de 
+contas. 7
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.6.3. Atendimento e suporte à clientela com IA.
+Fonte e status
+A estrutura de atendimento e os controles foram organizados com base no Guia da ANBIMA, 
+no NIST, na LGPD e nas fontes técnicas de assistentes e chatbots. 3 4 7 8
+3.8 Chatbots
+Atendimento com IA precisa ser útil para o cliente e controlável pela instituição.
+
+<<<PÁGINA 27>>>
+3.8.1 O que é
+Chatbot é um sistema de conversação que interage com o usuário por texto ou voz e 
+fornece respostas, orientações ou encaminhamentos.
+Um chatbot pode ser:
+• baseado em regras;
+• baseado em recuperação de respostas;
+• baseado em modelos de linguagem;
+• híbrido, combinando regras, busca, modelos preditivos e IA generativa.
+3.8.2 Chatbot baseado em regras
+O sistema segue fluxos previamente definidos.
+Plain Text
+Usuário escolhe 1 → saldo
+Usuário escolhe 2 → cartão
+Usuário escolhe 3 → atendimento humano
+Vantagens:
+• previsibilidade;
+• facilidade de auditoria;
+• controle do conteúdo;
+• menor risco de geração livre.
+Limitações:
+• baixa flexibilidade;
+• dificuldade com linguagem espontânea;
+• necessidade de manutenção de muitos fluxos;
+• incapacidade de lidar bem com solicitações fora do roteiro.
+3.8.3 Chatbot com IA generativa
+O sistema interpreta linguagem natural e gera respostas mais flexíveis.
+Vantagens:
+• compreensão de perguntas variadas;
+
+<<<PÁGINA 28>>>
+• respostas mais naturais;
+• capacidade de resumir;
+• personalização de linguagem;
+• suporte a múltiplos canais.
+Riscos:
+• alucinação;
+• resposta fora da política institucional;
+• vazamento de dados;
+• instrução maliciosa do usuário;
+• alteração indevida do sentido da pergunta;
+• excesso de confiança na resposta.
+3.8.4 Chatbot no mercado financeiro
+Aplicações possíveis:
+• dúvidas sobre produtos;
+• consulta a canais oficiais;
+• segunda via de documentos;
+• acompanhamento de solicitação;
+• bloqueio inicial por suspeita de fraude;
+• abertura de chamado;
+• educação financeira;
+• triagem de demanda;
+• encaminhamento para especialista.
+3.8.5 O que o chatbot não deve fazer sem controles adequados
+• divulgar dados de outro cliente;
+• solicitar credenciais completas em mensagem comum;
+• criar promessa de rentabilidade;
+• recomendar produto sem avaliar adequação;
+• confirmar uma operação não realizada;
+• alterar dados sensíveis sem autenticação;
+
+<<<PÁGINA 29>>>
+• negar reclamação apenas porque o sistema classificou o cliente como de baixo valor;
+• impedir o acesso ao atendimento humano em situação sensível.
+3.8.6 Chatbot ≠ assistente virtual
+O chatbot é principalmente uma interface conversacional. O assistente virtual é uma 
+aplicação mais ampla que pode conversar, consultar informações, sugerir ações, organizar 
+tarefas e interagir com ferramentas.
+Um assistente virtual pode conter um chatbot. Porém, nem todo chatbot possui as 
+capacidades de um assistente virtual.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.6.3.1. Chatbots.
+Fonte e status
+A definição e as aplicações de chatbots foram alinhadas às descrições técnicas de IA 
+generativa, atendimento e assistentes virtuais. 6 8
+• Status: tecnologia consolidada e amplamente utilizada em atendimento.
+3.9 Assistentes virtuais
+3.9.1 O que é
+Assistente virtual é uma aplicação de IA que entende instruções em linguagem natural e 
+ajuda o usuário a obter informações, tomar próximos passos ou executar tarefas dentro de 
+capacidades e permissões definidas.
+Um assistente pode:
+• responder;
+• resumir;
+• recomendar uma próxima etapa;
+• preencher campos;
+• consultar uma base;
+Chatbot é a porta de conversa; a capacidade de agir depende das ferramentas, 
+permissões e controles conectados a ele.
+
+<<<PÁGINA 30>>>
+• abrir um chamado;
+• acompanhar uma solicitação;
+• encaminhar o cliente;
+• usar APIs ou ferramentas autorizadas.
+A IBM diferencia assistentes de agentes de IA: assistentes são normalmente reativos e 
+dependem da orientação do usuário; agentes tendem a planejar e executar ações com 
+maior autonomia. 8
+3.9.2 Componentes
+Um assistente virtual pode reunir:
+• interface conversacional;
+• modelo de linguagem;
+• memória de contexto;
+• base de conhecimento;
+• mecanismo de busca;
+• APIs;
+• autenticação;
+• regras de negócio;
+• motor de workflow;
+• registro de auditoria;
+• mecanismo de escalonamento.
+3.9.3 Exemplo de jornada
+O cliente diz:
+O assistente pode:
+1. identificar a intenção;
+2. autenticar o cliente;
+3. consultar o status do protocolo;
+4. verificar se existe pendência documental;
+5. explicar a pendência em linguagem simples;
+“Quero saber por que meu pedido de portabilidade ainda não foi concluído.”
+
+<<<PÁGINA 31>>>
+6. oferecer o canal correto para envio;
+7. registrar a interação;
+8. encaminhar ao humano se houver contestação ou exceção.
+3.9.4 Assistente virtual e suporte a investimentos
+O assistente pode ajudar a:
+• explicar conceitos de renda fixa e fundos;
+• resumir documentos;
+• organizar informações fornecidas pelo cliente;
+• apresentar diferenças entre produtos;
+• recordar que custos, riscos e liquidez precisam ser avaliados;
+• encaminhar para profissional habilitado quando a demanda ultrapassar informação 
+primária.
+A existência de um assistente não autoriza automaticamente recomendação ou execução 
+de investimento. O sistema deve respeitar o processo da instituição, os perfis de cliente, os 
+controles de suitability, as regras de publicidade e as responsabilidades profissionais 
+aplicáveis.
+3.9.5 Assistente virtual e autonomia
+Capacidade de chamar uma ferramenta não significa autonomia ilimitada.
+É necessário distinguir:
+Quanto maior o impacto da ação, maior a necessidade de confirmação, autenticação, 
+limites, registro e supervisão.
+Situação
+Característica
+Resposta
+Sistema informa ou explica.
+Sugestão
+Sistema propõe uma ação para o usuário ou 
+funcionário avaliar.
+Ação assistida
+Sistema executa após confirmação e 
+controles.
+Ação autônoma
+Sistema executa conforme política e 
+permissões sem nova confirmação.
+
+<<<PÁGINA 32>>>
+3.9.6 Assistente virtual ≠ agente autônomo
+Um assistente virtual geralmente aguarda a solicitação do usuário, sugere ações e opera 
+em tarefas definidas.
+Um agente de IA pode receber um objetivo, dividir a tarefa em etapas, escolher 
+ferramentas e executar ações com maior autonomia.
+Essa distinção não é um subitem autônomo do edital, mas ajuda a evitar a seguinte 
+confusão:
+3.9.7 Controles de um assistente financeiro
+• limite de escopo;
+• autenticação do cliente;
+• segregação entre informação e movimentação;
+• aprovação para ações de alto impacto;
+• validação de dados antes da execução;
+• confirmação clara do cliente;
+• bloqueio de instruções ambíguas;
+• registro de comandos e respostas;
+• proteção contra prompt injection;
+• monitoramento de alucinações;
+• atendimento humano;
+• contingência;
+• avaliação de fornecedores;
+• testes periódicos.
+A ANBIMA destaca que, ao adquirir sistemas de IA de terceiros, a organização deve avaliar o 
+fornecedor, os termos contratuais, privacidade, proteção de dados, segurança e 
+responsabilidades entre as partes. 3 Em 2026, a ANBIMA também divulgou o Gaig, guia 
+para avaliação do risco de fornecedores de IA generativa, com etapas de risco inerente, 
+avaliação do terceiro, risco residual e requisitos de governança e transparência. 9
+Frase de fixação
+Um assistente pode usar ferramentas sem possuir autorização para decidir e 
+executar tudo sozinho.
+
+<<<PÁGINA 33>>>
+Alinhamento ao Programa Detalhado
+• 4.6.3.2. Assistentes virtuais.
+Fonte e status
+A diferenciação entre assistentes e agentes, suas limitações e os controles foi apoiada pela 
+IBM, pela ANBIMA e pela LGPD. 3 7 8 9
+• Status: tecnologia aplicada em atendimento, operações e suporte.
+• Cautela: maior autonomia aumenta a necessidade de governança, não reduz.
+4. Por que isso cai na prova? — 10 minutos
+Explicação estratégica
+O tema tende a ser cobrado por diferenciações. A banca pode apresentar uma situação 
+prática e pedir que o aluno identifique a tecnologia predominante.
+A pergunta decisiva é:
+• Se a saída principal é conteúdo novo, pense em IA generativa.
+• Se a saída principal é probabilidade ou estimativa, pense em modelo preditivo.
+• Se a função principal é adaptação, otimização ou autorreparo baseado em feedback, 
+pense no conceito de IA regenerativa, com a ressalva de que o termo é emergente.
+• Se a solução responde em conversa, pense em chatbot.
+• Se a solução ajuda a concluir tarefas e pode consultar ferramentas, pense em 
+assistente virtual.
+Pontos de atenção
+1. IA generativa cria conteúdo.
+2. Modelo preditivo estima eventos, classes ou valores.
+Assistente virtual entende, orienta e pode usar ferramentas; a instituição define os 
+limites da ação.
+Qual é a saída principal do sistema?
+
+<<<PÁGINA 34>>>
+3. IA regenerativa, na interpretação adotada, adapta ou otimiza o sistema com 
+feedback.
+4. Chatbot conversa.
+5. Assistente virtual conversa, orienta e pode executar tarefas autorizadas.
+6. Uma solução pode combinar as cinco funções.
+7. Combinação de tecnologias não elimina a necessidade de classificar a função 
+predominante.
+8. A IA generativa pode produzir alucinações.
+9. Modelos preditivos podem sofrer viés, drift, falso positivo e falso negativo.
+10. Sistemas adaptativos precisam de limites, monitoramento, versão e 
+reversibilidade.
+11. Atendimento automático não elimina o acesso a suporte humano em situações 
+críticas.
+12. A instituição continua responsável por governança, segurança, proteção de dados 
+e qualidade.
+Comparações críticas
+A
+B
+Diferença decisiva
+IA generativa
+Modelo preditivo
+Cria conteúdo; estima eventos 
+ou resultados.
+IA generativa
+IA regenerativa
+Gera conteúdo; adapta ou 
+otimiza o sistema com 
+feedback.
+IA preditiva
+IA regenerativa
+Produz estimativa; integra um 
+ciclo de adaptação e controle.
+Chatbot
+Assistente virtual
+Conversa e responde; ajuda a 
+obter informação ou concluir 
+tarefas.
+Assistente virtual
+Agente autônomo
+Aguarda orientação e opera 
+com limites; pode planejar e 
+agir com maior autonomia.
+Memória de conversa
+Aprendizagem contínua
+Retém contexto; altera ou 
+adapta o sistema com base em 
+feedback e governança.
+
+<<<PÁGINA 35>>>
+Palavras-chave
+• “criar texto, imagem, áudio ou código”: IA generativa.
+• “probabilidade, risco, previsão, score ou classificação”: modelo preditivo.
+• “feedback, adaptação, autorreparo, otimização contínua”: IA regenerativa, no 
+sentido emergente adotado.
+• “pergunta frequente, menu, resposta automática”: chatbot.
+• “consultar sistemas, organizar tarefa, sugerir próximo passo”: assistente virtual.
+• “alucinação”: resposta plausível, mas incorreta ou inventada.
+• “drift”: mudança no comportamento dos dados ou na relação entre variáveis e 
+resultado.
+• “supervisão humana”: mecanismo de controle e escalonamento, não mero enfeite.
+• “revisão de decisão automatizada”: atenção à LGPD e aos direitos do titular.
+• “fornecedor de IA”: due diligence, contrato, segurança, privacidade e risco residual.
+Pegadinhas
+1. “Toda IA é generativa.”
+• Correção: IA é um campo amplo. Generativa é uma classe voltada à criação de 
+conteúdo.
+2. “Todo modelo que usa previsão é um modelo preditivo financeiro.”
+• Correção: um LLM prevê tokens de linguagem; isso não equivale a prever 
+inadimplência, fraude ou preço.
+3. “IA regenerativa é apenas outro nome para IA generativa.”
+• Correção: o edital usa os dois termos separadamente. Nesta aula, regenerativa é 
+tratada como conceito emergente de adaptação, otimização e autorreparo, sem 
+RAG
+Treinamento do modelo
+Recupera contexto de fontes; 
+altera parâmetros ou processo 
+de treinamento.
+Probabilidade
+Certeza
+Estimativa; não garantia.
+Automação
+Responsabilidade
+Execução tecnológica; 
+obrigação de governança 
+permanece.
+
+<<<PÁGINA 36>>>
+definição normativa consolidada.
+4. “Se o sistema aprende com feedback, pode alterar qualquer regra sozinho.”
+• Correção: adaptação deve ocorrer dentro de limites, testes, governança, registro e 
+possibilidade de reversão.
+5. “Chatbot e assistente virtual são exatamente a mesma coisa.”
+• Correção: chatbot é principalmente uma interface conversacional; assistente pode 
+integrar contexto, ferramentas e tarefas.
+6. “A presença de IA generativa garante resposta correta.”
+• Correção: a tecnologia pode alucinar e precisa de validação.
+7. “A resposta do chatbot substitui o processo de atendimento.”
+• Correção: clientes com questões sensíveis precisam de escalonamento, 
+autenticação, registro e atendimento humano quando necessário.
+8. “RAG elimina o risco de erro.”
+• Correção: RAG melhora o contexto, mas depende da qualidade da fonte, da 
+recuperação e da interpretação.
+9. “Modelo preditivo decide sozinho.”
+• Correção: o modelo produz estimativa; a decisão é definida por regras, políticas e 
+responsabilidades.
+10. “Automação transfere a responsabilidade para o fornecedor.”
+• Correção: a instituição precisa avaliar fornecedor, contrato, segurança, dados, 
+governança e risco residual.
+11. “Memória é o mesmo que treinamento contínuo.”
+• Correção: memória pode apenas preservar contexto ou preferências; treinamento 
+ou adaptação do modelo é outra operação.
+12. “Um assistente pode movimentar a carteira apenas porque o cliente pediu em 
+linguagem natural.”
+• Correção: pedidos com impacto financeiro exigem autenticação, confirmação, 
+regras, permissões e controles da instituição.
+Comando de lousa/tela
+[ESCREVA]
+Plain Text
+
+<<<PÁGINA 37>>>
+SAÍDA PRINCIPAL
+Conteúdo novo  → generativa
+Probabilidade  → preditiva
+Adaptação      → regenerativa*
+Conversa       → chatbot
+Tarefa         → assistente
+*conceito emergente conforme o edital
+[CIRCULE] as palavras conteúdo , probabilidade , adaptação , conversa e tarefa .
+[FIXE]
+5. Case / Storytelling — 12 minutos
+Situação: Banco Horizonte Digital
+O Banco Horizonte Digital quer modernizar o atendimento, reduzir fraudes e melhorar o 
+acompanhamento de reclamações.
+O projeto possui cinco componentes:
+1. um chatbot no aplicativo;
+2. um assistente virtual para atendentes;
+3. um modelo preditivo de fraude;
+4. uma solução generativa para elaborar respostas e resumos;
+5. um ciclo adaptativo de monitoramento e melhoria dos fluxos.
+Parte 1 — Chatbot
+A cliente Marina pergunta:
+O chatbot identifica a intenção, apresenta o procedimento de contestação e informa os 
+canais oficiais.
+Análise
+A prova apresenta a situação; você identifica a função principal.
+“Como faço para contestar uma compra que não reconheço?”
+
+<<<PÁGINA 38>>>
+• A função principal é conversacional.
+• O sistema atua como chatbot.
+• Como o caso envolve fraude, o fluxo deve exigir autenticação adequada e oferecer 
+encaminhamento.
+• A resposta precisa utilizar informação institucional validada.
+• O chatbot não deve pedir senha completa ou código de autenticação de forma insegura.
+Parte 2 — Modelo preditivo
+O banco analisa milhões de transações. O modelo classifica determinadas operações com 
+alta probabilidade de fraude.
+Análise
+• A função principal é estimar a probabilidade de um evento.
+• Trata-se de modelo preditivo.
+• O resultado pode gerar alerta, bloqueio temporário ou encaminhamento, conforme a 
+política.
+• O modelo pode apresentar falso positivo e falso negativo.
+• O banco deve monitorar viés, estabilidade e impacto sobre clientes legítimos.
+Parte 3 — IA generativa
+O analista recebe o alerta e pede ao sistema:
+Análise
+• A IA generativa pode produzir o resumo e o rascunho da mensagem.
+• O modelo não deve inventar dados que não estejam na base.
+• O analista deve verificar o conteúdo antes de enviá-lo.
+• A explicação deve diferenciar fatos disponíveis de inferências.
+• A resposta não deve afirmar que a fraude foi comprovada se existe apenas uma 
+suspeita.
+“Resuma os dados da transação, explique por que o alerta foi gerado e prepare uma 
+mensagem clara para a cliente.”
+
+<<<PÁGINA 39>>>
+Parte 4 — Assistente virtual
+O funcionário pergunta:
+O assistente consulta os sistemas autorizados e apresenta a situação.
+Análise
+• O assistente entende a solicitação, consulta ferramentas e organiza o próximo passo.
+• Ele é mais amplo que um chatbot de perguntas frequentes.
+• A consulta exige controle de acesso.
+• A sugestão não é necessariamente uma decisão final.
+• O funcionário deve confirmar a informação e seguir a política institucional.
+Parte 5 — Ciclo adaptativo
+Após dois meses, o banco identifica aumento de erros quando clientes utilizam gírias ou 
+descrevem a compra de forma incompleta.
+O sistema de monitoramento detecta a degradação. A equipe:
+1. coleta exemplos autorizados e anonimizados;
+2. identifica a causa provável;
+3. ajusta a intenção e as perguntas de esclarecimento;
+4. testa a melhoria em ambiente controlado;
+5. compara erros antes e depois;
+6. aprova a mudança;
+7. implanta de forma gradual;
+8. acompanha os resultados;
+9. mantém uma versão anterior para reversão.
+Análise
+Esse ciclo representa a aplicação didática do conceito emergente de IA regenerativa. O 
+elemento central não é a criação de uma mensagem. É a capacidade de detectar 
+degradação e melhorar o processo com feedback sob governança.
+“Consulte o protocolo da Marina, verifique se há documentos pendentes e sugira o 
+próximo passo.”
+
+<<<PÁGINA 40>>>
+Conceitos aplicados
+Síntese técnica
+O Banco Horizonte não tem “uma IA”. Ele possui uma arquitetura com funções diferentes:
+Plain Text
+Cliente
+  ↓
+Chatbot
+  ↓
+Assistente / sistemas
+  ↓
+Modelo preditivo
+  ↓
+IA generativa para explicação
+  ↓
+Humano responsável
+  ↓
+Monitoramento e adaptação controlada
+A tecnologia adequada é definida pela tarefa. A governança deve acompanhar todas as 
+Elemento do case
+Conceito
+Função
+App que responde à Marina
+Chatbot
+Conversar e orientar.
+Classificação de alta 
+probabilidade de fraude
+Modelo preditivo
+Estimar risco.
+Resumo e rascunho de 
+mensagem
+IA generativa
+Criar conteúdo.
+Consulta a protocolo e sistemas
+Assistente virtual
+Ajudar a executar tarefa 
+autorizada.
+Detecção e correção de 
+degradação
+IA regenerativa, no sentido 
+emergente
+Adaptar e otimizar o processo.
+Funcionário que verifica o envio
+Supervisão humana
+Validar saída e 
+responsabilidade.
+Registro de dados, versões e 
+decisões
+Governança
+Permitir auditoria e reversão.
+
+<<<PÁGINA 41>>>
+etapas.
+[PARE E PERGUNTE]
+O fato de a IA generativa preparar uma mensagem para Marina significa que ela comprovou 
+a fraude?
+Resposta: não. A IA generativa produziu conteúdo a partir dos dados disponíveis. A 
+classificação de risco veio do modelo preditivo e a confirmação da fraude depende do 
+procedimento institucional e da análise do caso.
+6. Questão final comentada
+Certificação
+CPA ANBIMA.
+Competência
+4.6.1. IA Generativa; 4.6.1.3. Modelos preditivos; 4.6.2. IA Regenerativa; 4.6.3. Atendimento e 
+suporte à clientela com IA; 4.6.3.1. Chatbots; 4.6.3.2. Assistentes virtuais.
+Nível
+Médio para difícil.
+Enunciado
+Uma instituição financeira utiliza cinco componentes em sua jornada de atendimento:
+I. um sistema que produz respostas textuais e resumos a partir de instruções dos 
+funcionários;
+II. um modelo que estima a probabilidade de uma transação ser fraudulenta;
+III. um fluxo que identifica degradação do atendimento, testa ajustes, implanta mudanças 
+gradualmente e mantém possibilidade de reversão;
+IV. uma interface que responde a dúvidas frequentes dos clientes;
+V. uma aplicação que consulta sistemas autorizados, organiza informações e sugere o 
+próximo passo ao funcionário.
+
+<<<PÁGINA 42>>>
+Considerando os conceitos de inteligência artificial aplicáveis ao mercado financeiro, 
+assinale a alternativa correta.
+A) O componente I é um modelo preditivo, porque toda geração de texto representa 
+previsão financeira; o componente II é IA generativa, porque cria um alerta de fraude.
+B) O componente I é IA generativa; o componente II é um modelo preditivo; o componente 
+III pode ser associado ao conceito emergente de IA regenerativa, desde que exista 
+feedback, adaptação e governança; o componente IV é um chatbot; e o componente V é um 
+assistente virtual.
+C) O componente III é necessariamente IA generativa, porque todo sistema que aprende 
+com seus erros produz conteúdo novo; o componente IV é um assistente virtual, pois 
+qualquer chatbot pode executar todas as tarefas do banco.
+D) O componente V pode executar qualquer movimentação financeira apenas com a 
+solicitação escrita do funcionário, pois assistentes virtuais não precisam de autenticação, 
+confirmação ou supervisão humana.
+E) A utilização de IA generativa elimina a necessidade de revisão humana, desde que o 
+sistema utilize uma base de documentos institucionais por meio de RAG.
+Ponto-chave
+A questão exige identificar a função principal de cada componente e reconhecer que IA 
+generativa, modelo preditivo, IA regenerativa, chatbot e assistente virtual podem coexistir 
+na mesma arquitetura.
+Gabarito
+Alternativa B.
+Justificativa da correta
+A alternativa B está correta.
+• O componente I cria texto e resumos. Portanto, corresponde à IA generativa.
+• O componente II estima a probabilidade de fraude. Portanto, corresponde a um 
+modelo preditivo.
+• O componente III observa desempenho, utiliza feedback, adapta o sistema, testa 
+mudanças e mantém reversibilidade. Essa descrição é compatível com o conceito 
+emergente de IA regenerativa utilizado nesta aula, sem tratá-lo como categoria 
+normativa consolidada.
+
+<<<PÁGINA 43>>>
+• O componente IV é uma interface de conversação voltada a dúvidas frequentes. 
+Portanto, é um chatbot.
+• O componente V consulta sistemas, organiza informações e sugere próximos passos. 
+Portanto, é um assistente virtual.
+A distinção entre geração de conteúdo e previsão de resultados é essencial. A ANBIMA 
+também destaca que sistemas de IA precisam de governança, transparência, segurança e 
+responsabilidade. 2 3
+Alternativas incorretas
+• A: incorreta. O componente I é generativo porque produz conteúdo. O componente II é 
+preditivo porque estima a probabilidade de fraude. O fato de o resultado ser chamado 
+de “alerta” não transforma o modelo em generativo.
+• B: correta. A alternativa classifica cada componente pela função principal e acrescenta 
+a condição de feedback e governança para o conceito emergente de IA regenerativa.
+• C: incorreta. Aprender com erros e adaptar processos não significa necessariamente 
+gerar conteúdo novo. Além disso, chatbot e assistente virtual não são sinônimos. Um 
+chatbot pode ser limitado a respostas e fluxos de conversação.
+• D: incorreta. Um assistente virtual opera dentro de permissões e controles. 
+Movimentações financeiras exigem autenticação, confirmação, regras de negócio, 
+registro e supervisão conforme o risco e o processo institucional.
+• E: incorreta. RAG pode fornecer contexto de documentos autorizados, mas não elimina 
+alucinações, falhas de recuperação, erros de interpretação ou necessidade de revisão 
+humana em respostas relevantes.
+Armadilhas e macetes
+• Criar conteúdo ≠ prever fraude.
+• Feedback e adaptação ≠ geração de texto.
+• Chatbot ≠ assistente virtual.
+• RAG ≠ garantia de verdade.
+• Automação ≠ ausência de responsabilidade.
+• Assistente com ferramenta ≠ autorização ilimitada.
+7. Revisão final
+
+<<<PÁGINA 44>>>
+Resumo em cinco pontos
+1. IA generativa cria novos conteúdos, como textos, imagens, áudios, vídeos, código, 
+resumos e respostas.
+2. Modelos preditivos estimam probabilidades, classes, valores ou eventos futuros; eles 
+não precisam gerar texto.
+3. IA regenerativa é um termo do edital tratado nesta aula como conceito emergente de 
+adaptação, otimização e autorreparo por meio de feedback, sempre com governança e 
+limites.
+4. Chatbots são interfaces conversacionais; assistentes virtuais são aplicações mais 
+amplas que podem orientar, consultar sistemas e ajudar a executar tarefas autorizadas.
+5. Em serviços financeiros, a IA deve ser combinada com proteção de dados, segurança, 
+transparência, revisão humana, rastreabilidade, controle de fornecedores e 
+possibilidade de escalonamento.
+Quadro de emergência
+Plain Text
+IA GENERATIVA
+→ cria conteúdo
+→ texto, imagem, áudio, vídeo, código
+→ risco: alucinação
+MODELO PREDITIVO
+→ estima probabilidade, classe ou valor
+→ fraude, crédito, demanda, churn
+→ riscos: viés, drift, falso positivo e falso negativo
+IA REGENERATIVA*
+→ observa, adapta, otimiza e recupera
+→ usa feedback e monitoramento
+→ exige limites, testes e reversibilidade
+CHATBOT
+→ conversa e responde
+→ pode ser baseado em regras ou IA
+ASSISTENTE VIRTUAL
+→ conversa + contexto + ferramentas
+→ orienta e ajuda a executar tarefas autorizadas
+
+<<<PÁGINA 45>>>
+*conceito emergente; não confundir automaticamente com IA generativa
+Cadeia lógica
+Diferenças críticas
+• IA generativa ≠ IA preditiva: criar conteúdo é diferente de estimar eventos.
+• IA generativa ≠ IA regenerativa: gerar conteúdo é diferente de adaptar ou reparar o 
+funcionamento.
+• IA regenerativa ≠ aprendizagem sem controle: feedback exige governança, limites e 
+reversibilidade.
+• Modelo preditivo ≠ decisão final: o modelo estima; regras e responsáveis decidem.
+• Chatbot ≠ assistente virtual: o chatbot conversa; o assistente pode integrar contexto, 
+sistemas e tarefas.
+• Assistente virtual ≠ autorização ilimitada: ferramentas e permissões definem o que 
+pode ser feito.
+• RAG ≠ treinamento contínuo: RAG recupera contexto; treinamento altera o modelo ou 
+seus parâmetros.
+• Memória ≠ aprendizagem: reter contexto não significa atualizar o modelo.
+• Probabilidade ≠ certeza: estimativa de risco pode conter erros.
+• Automação ≠ transferência de responsabilidade: a instituição continua responsável 
+pelo uso adequado.
+• Resposta bem escrita ≠ resposta correta: toda saída relevante precisa de validação 
+proporcional ao risco.
+• Conceito do edital ≠ categoria regulatória: a menção à IA regenerativa não autoriza 
+inventar uma norma específica.
+Frase central da aula
+Conceito → mecanismo → aplicação → regra → decisãoTipo de saída → 
+funcionamento do modelo → uso financeiro → governança e proteção de dados → 
+nível de autonomia permitido.
+A IA generativa cria, a preditiva estima, a regenerativa adapta, o chatbot conversa e 
+o assistente ajuda a executar; em todos os casos, a governança continua humana e 
+
+<<<PÁGINA 46>>>
+Próximo passo de estudo
+1. Repetir o quadro de emergência sem consultar o material.
+2. Classificar dez situações como generativas, preditivas, regenerativas, chatbot ou 
+assistente.
+3. Revisar os riscos: alucinação, viés, drift, falso positivo, falso negativo, vazamento e falta 
+de supervisão.
+4. Memorizar a distinção: conteúdo → generativa; probabilidade → preditiva; adaptação → 
+regenerativa .
+5. Resolver a questão final explicando por que cada alternativa está errada.
+6. Revisar os princípios da LGPD relacionados a finalidade, necessidade, transparência, 
+segurança, não discriminação e revisão de decisões automatizadas.
+7. Repetir a regra: maior autonomia exige maior controle.
+Anexo A — Roteiro operacional de 
+lousa/tela
+Regras de utilização
+• [ESCREVA]: registrar palavra, frase ou definição.
+• [DESENHE]: construir setas, caixas, ciclos e fluxos.
+• [CIRCULE]: destacar a palavra decisiva.
+• [SUBLINHE]: marcar a diferença essencial.
+• [CONECTE]: demonstrar a relação causal.
+• [FALE]: utilizar a fala sugerida.
+• [PARE E PERGUNTE]: testar a compreensão antes de responder.
+• [FIXE]: repetir a frase que deve permanecer visível.
+• [APAGUE]: retirar elementos provisórios.
+• [MANTENHA]: conservar elementos que serão reutilizados.
+• [TRANSIÇÃO]: conectar um bloco ao seguinte.
+institucional.
+
+<<<PÁGINA 47>>>
+ETAPA 1 — Título e pergunta-problema
+[ESCREVA NO TOPO]
+Plain Text
+INTELIGÊNCIA ARTIFICIAL NO MERCADO FINANCEIRO
+[ESCREVA NO CENTRO]
+Plain Text
+A IA cria, prevê, adapta ou apenas conversa?
+[FALE]
+A mesma instituição pode usar diferentes tecnologias para tarefas diferentes. Hoje vamos 
+identificar a função principal de cada solução.
+[PARE E PERGUNTE]
+Qual é a diferença entre produzir uma resposta e prever a probabilidade de fraude?
+[ESCREVA NO CANTO E MANTENHA]
+Plain Text
+SAÍDA PRINCIPAL → CLASSIFICA A TECNOLOGIA
+ETAPA 2 — Espinha dorsal
+[DESENHE]
+Plain Text
+CRIAR → PREVER → ADAPTAR → CONVERSAR → ASSISTIR
+[FIXE]
+ETAPA 3 — IA generativa
+[ESCREVA]
+Gerativa cria; preditiva estima; regenerativa adapta; chatbot conversa; assistente 
+ajuda.
+
+<<<PÁGINA 48>>>
+Plain Text
+IA GENERATIVA
+entrada/prompt → modelo → conteúdo novo
+[DESENHE] quatro saídas:
+Plain Text
+texto | imagem | áudio | código
+[FALE]
+A IA generativa cria conteúdo novo com base em padrões aprendidos. A resposta pode 
+parecer correta e ainda conter erro.
+[ESCREVA ABAIXO]
+Plain Text
+Risco: alucinação
+Controle: fonte + revisão + governança
+[PARE E PERGUNTE]
+RAG elimina a necessidade de conferir a resposta?
+Resposta: não. RAG fornece contexto, mas o sistema ainda pode recuperar a fonte errada 
+ou interpretar o conteúdo de forma incorreta.
+ETAPA 4 — Modelo preditivo
+[APAGUE] somente as saídas da etapa anterior. [MANTENHA] a palavra SAÍDA PRINCIPAL .
+[ESCREVA]
+Plain Text
+MODELO PREDITIVO
+entrada de dados → probabilidade / classe / valor
+[DESENHE]
+Plain Text
+Dados históricos → modelo → risco de fraude
+
+<<<PÁGINA 49>>>
+[CIRCULE] probabilidade .
+[FALE]
+Previsão não é certeza. Um modelo pode errar e precisa ser monitorado.
+[FIXE]
+ETAPA 5 — IA regenerativa
+[ESCREVA]
+Plain Text
+IA REGENERATIVA*
+observar → feedback → adaptar → testar → melhorar
+*conceito emergente do edital
+[DESENHE] um ciclo circular com cinco etapas.
+[FALE]
+O termo aparece separadamente no programa da CPA. Como não há definição normativa 
+consolidada nas fontes oficiais consultadas, vamos tratá-lo com prudência como um 
+conceito emergente de adaptação, otimização e autorreparo.
+[CIRCULE] feedback , testar e melhorar .
+[PARE E PERGUNTE]
+Se o sistema recebe feedback, ele pode alterar qualquer regra sozinho?
+Resposta: não. Alterações precisam de limites, testes, aprovação proporcional ao risco, 
+registro e reversibilidade.
+ETAPA 6 — Comparação principal
+[ESCREVA]
+Plain Text
+GENERATIVA  → cria conteúdo
+PREDITIVA   → estima resultado
+REGENERATIVA→ adapta sistema
+[SUBLINHE] os verbos cria , estima e adapta .
+Preditivo estima; não garante.
+
+<<<PÁGINA 50>>>
+ETAPA 7 — Chatbot
+[ESCREVA]
+Plain Text
+CHATBOT
+conversa + resposta + encaminhamento
+[DESENHE]
+Plain Text
+Cliente → pergunta → chatbot → resposta ou humano
+[FALE]
+Chatbot é a porta de conversa. Ele pode ser baseado em regras ou em IA generativa.
+[ESCREVA]
+Plain Text
+Não confundir:
+chatbot ≠ atendimento sem limites
+ETAPA 8 — Assistente virtual
+[ESCREVA]
+Plain Text
+ASSISTENTE VIRTUAL
+conversa + contexto + ferramentas + tarefa autorizada
+[DESENHE]
+Plain Text
+Usuário → instrução → assistente → sistema autorizado → próximo passo
+[FALE]
+
+<<<PÁGINA 51>>>
+O assistente pode consultar sistemas e organizar tarefas. A capacidade de agir depende das 
+permissões e dos controles.
+[CIRCULE] tarefa autorizada .
+[FIXE]
+ETAPA 9 — Atendimento seguro
+[ESCREVA]
+Plain Text
+ATENDIMENTO COM IA
+utilidade + segurança + transparência + humano
+[CONECTE]
+Plain Text
+IA → dados → resposta → ação → registro → revisão
+[FALE]
+O atendimento deve proteger o cliente, limitar a resposta às fontes autorizadas, exigir 
+autenticação adequada e permitir escalonamento humano em casos sensíveis.
+ETAPA 10 — Revisão rápida
+[APAGUE O QUADRO]
+[ESCREVA NO TOPO]
+Plain Text
+REVISÃO — INTELIGÊNCIA ARTIFICIAL
+[ESCREVA]
+Plain Text
+1. O que cria conteúdo?     Generativa.
+2. O que estima risco?      Preditivo.
+3. O que adapta?            Regenerativa*.
+Maior autonomia exige maior controle.
+
+<<<PÁGINA 52>>>
+4. O que conversa?          Chatbot.
+5. O que ajuda na tarefa?   Assistente.
+6. O que nunca some?        Governança.
+[PARE E PERGUNTE]
+• IA generativa é igual a modelo preditivo?
+• Chatbot é igual a assistente virtual?
+• Memória é igual a treinamento contínuo?
+• RAG elimina a revisão humana?
+• Probabilidade é certeza?
+• A automação elimina responsabilidade?
+[FIXE]
+Referências oficiais e técnicas
+[1] ANBIMA — Programa detalhado CPA — versão 1.2, revisado em 04/06/2025, vigência a 
+partir de 01/01/2026 — último acesso em 12/09/2026
+[2] ANBIMA — Oportunidades e riscos da IA generativa para o mercado financeiro — 2023 — 
+último acesso em 12/09/2026
+[3] ANBIMA — Guia orientativo: boas práticas para o uso de sistemas de inteligência 
+artificial nos mercados financeiro e de capitais — último acesso em 12/09/2026
+[4] NIST — Artificial Intelligence Risk Management Framework: Generative Artificial 
+Intelligence Profile — NIST AI 600-1 — publicado em 26/07/2024 e atualizado em 08/04/2026 
+— último acesso em 12/09/2026
+[5] TechTarget — Generative AI vs. regenerative AI: key differences explored — 01/08/2025 — 
+fonte secundária para o conceito emergente — último acesso em 12/09/2026
+[6] IBM Think — Generative AI vs. predictive AI: what’s the difference? — último acesso em 
+12/09/2026
+[7] Planalto — Lei nº 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — texto 
+atualizado — último acesso em 12/09/2026
+[8] IBM Think — AI agents vs. AI assistants — último acesso em 12/09/2026
+[9] ANBIMA — Guia para avaliação de IA generativa é novo passo na agenda de inovação da 
+ANBIMA — 10/03/2026 — último acesso em 12/09/2026
+A função da tecnologia é definida pela saída principal e pelos limites de uso.
+
+<<<PÁGINA 53>>>
+Observações normativas e metodológicas
+1. O Programa Detalhado da CPA é a fonte primária para o escopo dos tópicos. Ele inclui IA 
+Generativa e IA Regenerativa como itens distintos. 1
+2. O programa não apresenta definição detalhada de IA regenerativa. As fontes oficiais 
+consultadas apresentam orientações robustas sobre IA generativa, governança, riscos, 
+transparência, segurança e participação humana, mas não uma taxonomia normativa 
+brasileira consolidada de IA regenerativa. 2 3 4
+3. O material usa uma definição operacional prudente para fins didáticos: IA regenerativa 
+é associada a adaptação, otimização, autorreparo e feedback. A definição não deve ser 
+tratada como texto normativo oficial.
+4. A ANBIMA é uma entidade de autorregulação e representação do mercado. Seus guias 
+orientativos não substituem a lei, a regulação estatal ou as políticas internas da 
+instituição.
+5. A LGPD é aplicável conforme o tratamento de dados realizado e as bases legais 
+pertinentes. Consentimento não é a única hipótese legal de tratamento; a análise 
+depende do caso concreto.
+6. A capacidade de uma IA gerar uma resposta não significa autorização para recomendar, 
+contratar, movimentar recursos ou tomar decisão final em nome da instituição.
+7. Os exemplos financeiros são didáticos. Não representam promessa de eficiência, menor 
+custo, maior rentabilidade ou aprovação de crédito.
+8. Último acesso às fontes: 12/09/2026.
+Checklist de validação do material
+Programa Detalhado, versão e vigência identificados.
+Item 4.6 e todos os subitens solicitados cobertos.
+IA generativa definida e aplicada ao mercado financeiro.
+Modelos preditivos diferenciados de modelos generativos.
+IA regenerativa tratada com ressalva sobre a ausência de definição normativa 
+consolidada.
+Aplicabilidade da IA regenerativa explicada por ciclo de feedback e governança.
+Chatbots diferenciados de assistentes virtuais.
+
+<<<PÁGINA 54>>>
+Atendimento com IA relacionado a autenticação, segurança, escalonamento e 
+supervisão humana.
+Alucinação, viés, drift, falso positivo, falso negativo e vazamento de dados explicados.
+Case de mercado incluído.
+Questão inédita com cinco alternativas e justificativa individual incluída.
+Roteiro operacional de lousa/tela incluído.
+Resumo em cinco pontos, quadro de emergência, cadeia lógica, diferenças críticas, 
+frase central e próximo estudo incluídos.
+Fontes oficiais e técnicas registradas com URLs diretas e data de acesso.
+Nenhuma questão real foi copiada.
+Nenhuma promessa de rentabilidade ou autorização automática de operação foi 
+apresentada.
+Material finalizado para uso em aula.
