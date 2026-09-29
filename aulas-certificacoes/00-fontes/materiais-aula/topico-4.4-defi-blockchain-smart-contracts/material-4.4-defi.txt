@@ -1,0 +1,1959 @@
+<<<PÁGINA 1>>>
+Roteiro de Aula — DeFi, Blockchain e 
+Smart Contracts
+Finanças descentralizadas, contratos inteligentes e 
+plataformas programáveis
+Identificação e escopo
+• Certificação: CPA ANBIMA.
+• Módulo: 4. Inovação e desenvolvimento de mercado.
+• Item: 4.4. Finanças Descentralizadas (DeFi).
+• Subitens solicitados:
+• 4.4.1. Finanças tradicionais versus finanças descentralizadas;
+• 4.4.2. Vantagens do DeFi;
+• 4.4.2.1. Conceito de Blockchain;
+• 4.4.3. Smart contracts;
+• 4.4.3.1. Conceito de smart contracts;
+• 4.4.3.2. Componentes e funcionamento dos smart contracts;
+• 4.4.3.3. Conceito de contratos autoexecutáveis;
+• 4.4.3.4. Plataformas de smart contracts.
+• Programa Detalhado: CPA ANBIMA, versão 1.2, revisado em 04/06/2025, com vigência 
+a partir de 01/01/2026. 1
+• Duração estimada: 90 minutos.
+• Formato: roteiro de aula, teleprompter, lousa/tela, case, questão comentada e revisão.
+• Data de referência das fontes: 12/09/2026.
+• Delimitação: o material explica a arquitetura conceitual de DeFi, blockchain e smart 
+contracts. Não constitui recomendação de aquisição de criptoativos, utilização de 
+protocolo, conexão de carteira, assinatura de transação ou execução de operação 
+financeira.
+Nota técnica sobre a grafia
+
+<<<PÁGINA 2>>>
+O Programa Detalhado utiliza a grafia DEFI. A grafia técnica mais utilizada no mercado é 
+DeFi, abreviação de Decentralized Finance, ou Finanças Descentralizadas. Neste 
+material, serão utilizadas as formas DeFi e finanças descentralizadas.
+Nota técnica sobre o alcance do termo DeFi
+DeFi não é apenas um produto. É um ecossistema de serviços financeiros construídos sobre 
+redes blockchain e protocolos programáveis. A ANBIMA descreve DeFi como a utilização de 
+blockchain e contratos inteligentes para oferecer serviços financeiros descentralizados, 
+reduzindo a dependência de intermediários tradicionais. 2
+A palavra descentralizada não significa necessariamente ausência total de pessoas, 
+empresas ou concentração de poder. O BIS destaca a possibilidade de uma “ilusão de 
+descentralização”, porque protocolos precisam de governança e alguns mecanismos 
+podem concentrar poder. 3
+Portanto, a formulação tecnicamente segura é:
+1. Fala de abertura — 5 minutos
+Imagine duas pessoas que desejam realizar um empréstimo.
+Na estrutura tradicional, elas normalmente dependem de uma instituição financeira. Essa 
+instituição analisa o cliente, define regras, registra a operação, administra o contrato, 
+controla os pagamentos e aplica as consequências do inadimplemento.
+Agora imagine uma estrutura em que as regras do empréstimo estão escritas em código. O 
+tomador deposita uma garantia digital. O protocolo verifica os critérios. Se a condição for 
+atendida, os recursos são liberados. Se a garantia cair abaixo do limite, o sistema pode 
+executar uma liquidação conforme as regras programadas.
+A pergunta central é:
+A resposta exige cuidado.
+O protocolo pode reduzir a necessidade de determinados intermediários. Porém, 
+continuam existindo elementos como:
+DeFi busca executar serviços financeiros por meio de protocolos automatizados em 
+blockchain, reduzindo a dependência de intermediários centrais; isso não elimina 
+automaticamente governança, concentração, riscos ou responsabilidades.
+Se o contrato está escrito em código e executado em uma blockchain, onde estão o 
+banco, o gerente e o cartório?
+
+<<<PÁGINA 3>>>
+• desenvolvedores;
+• validadores da rede;
+• operadores de oráculos;
+• mecanismos de governança;
+• interfaces de acesso;
+• provedores de liquidez;
+• pontes entre redes;
+• usuários que assumem o risco de interagir com o código.
+A ANBIMA incluiu DeFi no Programa CPA porque o profissional precisa reconhecer novas 
+formas de prestação de serviços financeiros, explicar a lógica de blockchain e diferenciar 
+um contrato inteligente de um contrato jurídico tradicional. 1 2
+A aula seguirá esta cadeia:
+Plain Text
+Finanças tradicionais
+        ↓ comparação
+Finanças descentralizadas
+        ↓ infraestrutura
+Blockchain
+        ↓ programação
+Smart contract
+        ↓ automatização
+Contrato autoexecutável
+        ↓ implementação
+Plataformas de smart contracts
+Objetivo da abertura
+Ao final, o aluno deverá conseguir identificar:
+• a diferença estrutural entre finanças tradicionais e DeFi;
+• as principais vantagens e limitações do DeFi;
+• o papel da blockchain;
+• os componentes de um smart contract;
+• o significado de contrato autoexecutável;
+• as principais plataformas e suas diferenças de arquitetura.
+
+<<<PÁGINA 4>>>
+Frase de fixação
+Comando de lousa/tela
+[ESCREVA]
+Plain Text
+DEFI
+serviço financeiro → protocolo + blockchain + smart contract
+[PARE E PERGUNTE]
+A existência de um smart contract significa que não existem riscos de crédito, liquidez, 
+tecnologia ou governança?
+Resposta esperada: não. O smart contract automatiza regras, mas pode conter falhas, 
+depender de dados externos, sofrer ataques, enfrentar congestionamento e operar com 
+ativos voláteis.
+2. Introdução com metáfora central — 5 
+minutos
+Metáfora: a máquina financeira programável
+Imagine uma máquina automática de venda.
+A máquina recebe uma entrada, verifica as condições e entrega uma saída:
+Plain Text
+Produto escolhido + pagamento correto → produto liberado
+A máquina não precisa de um funcionário para interpretar cada compra. Ela segue regras 
+previamente definidas.
+Um smart contract funciona de maneira semelhante, mas em uma rede blockchain:
+Plain Text
+DeFi substitui parte da intermediação por protocolo, código e rede; não transforma 
+risco em segurança.
+
+<<<PÁGINA 5>>>
+Transação válida + condições atendidas → estado atualizado
+A diferença é que o smart contract pode:
+• custodiar tokens;
+• transferir ativos digitais;
+• calcular juros ou taxas;
+• verificar garantias;
+• trocar tokens;
+• registrar propriedade digital;
+• executar pagamentos;
+• participar de outro protocolo.
+Correspondência da metáfora
+Frase de impacto
+Atenção técnica: limite da analogia
+Elemento da máquina
+Conceito técnico
+Entrada do usuário
+Transação assinada digitalmente
+Programa da máquina
+Código do smart contract
+Estoque ou saldo interno
+Estado armazenado na blockchain
+Sensor de preço ou condição
+Regra do protocolo ou oráculo
+Verificação
+Execução determinística pelos nós
+Saída
+Mudança de estado, transferência ou evento
+Custo de funcionamento
+Taxa de transação, gas ou unidade 
+computacional
+Registro da operação
+Blockchain
+Smart contract não é um contrato que entende intenções; é código que executa 
+regras programadas.
+
+<<<PÁGINA 6>>>
+A máquina de venda parece simples e previsível. Um protocolo DeFi pode ser muito mais 
+complexo. Ele pode envolver múltiplos contratos, tokens, oráculos, pontes, governança, 
+liquidação e dependência de outras redes.
+A analogia serve para visualizar a lógica “entrada → condição → saída”. Ela não significa 
+que todo smart contract seja simples, seguro ou juridicamente equivalente a um contrato 
+tradicional.
+3. Explicação dos tópicos
+3.1 Finanças tradicionais versus finanças 
+descentralizadas
+O que são finanças tradicionais
+Finanças tradicionais são serviços financeiros prestados dentro de uma estrutura 
+institucional. Nessa estrutura, instituições autorizadas ou reguladas exercem funções como:
+• captação;
+• crédito;
+• custódia;
+• intermediação;
+• liquidação;
+• compensação;
+• administração de recursos;
+• gestão de riscos;
+• identificação e monitoramento de clientes;
+• cumprimento de regras legais e regulatórias.
+A relação normalmente ocorre entre o cliente e uma entidade identificável, com contratos, 
+procedimentos internos, atendimento, controles, registros e possibilidade de 
+responsabilização institucional.
+O que é DeFi
+DeFi é o ecossistema de serviços financeiros que utiliza protocolos automatizados em redes 
+blockchain, frequentemente com smart contracts, para viabilizar atividades como:
+
+<<<PÁGINA 7>>>
+• empréstimos;
+• trocas de ativos digitais;
+• provisão de liquidez;
+• derivativos;
+• gestão automatizada;
+• stablecoins;
+• pagamentos;
+• seguros paramétricos;
+• aplicações de rendimento;
+• governança por tokens.
+O BIS descreve DeFi como serviços financeiros sem intermediários centralizados, operados 
+por protocolos automatizados em blockchains e apoiados por stablecoins para facilitar 
+transferências. 3
+Comparação estrutural
+Dimensão
+Finanças tradicionais
+DeFi
+Intermediação
+Instituições centrais executam 
+e controlam etapas.
+Protocolos e smart contracts 
+automatizam etapas.
+Acesso
+Normalmente depende de 
+conta, cadastro e autorização 
+institucional.
+Pode ser permissionless em 
+redes públicas, mas depende 
+de carteira e conexão à rede.
+Identificação
+Cliente identificado por 
+procedimentos institucionais.
+Endereço blockchain pode ser 
+pseudônimo; identificação 
+pode ocorrer em pontos de 
+entrada e saída.
+Registro
+Base de dados institucional, 
+sistemas de compensação e 
+registros legais.
+Registro distribuído em 
+blockchain.
+Regras
+Contrato jurídico, política 
+interna e regulação.
+Código, regras do protocolo, 
+governança e legislação 
+aplicável.
+Custódia
+Pode estar com banco, 
+corretora, custodiante ou 
+instituição.
+Pode ocorrer por autocustódia 
+ou por smart contract; a chave 
+privada é crítica.
+
+<<<PÁGINA 8>>>
+A diferença decisiva
+A diferença não é simplesmente “banco versus tecnologia”. A diferença é o local em que 
+as regras e as operações são executadas.
+• Nas finanças tradicionais, parte relevante do processo está em instituições, sistemas 
+privados e contratos jurídicos.
+• No DeFi, parte relevante do processo está em protocolos, código, blockchain e carteiras 
+digitais.
+O que a prova pode confundir
+DeFi não significa “sem intermediação nenhuma”
+Existe redução da intermediação central em algumas atividades, mas podem existir 
+intermediários ou pontos de concentração.
+Descentralizado não significa “sem governança”
+Protocolos precisam tomar decisões sobre atualizações, parâmetros, incentivos, listagem 
+de ativos e resposta a incidentes.
+Liquidação
+Executada por infraestruturas e 
+participantes especializados.
+Pode ocorrer on-chain após 
+validação da rede.
+Horário
+Depende do funcionamento do 
+mercado e das instituições.
+Protocolos podem operar 
+continuamente, sujeitos à 
+disponibilidade da rede.
+Risco operacional
+Falhas de instituição, processo, 
+sistemas e pessoas.
+Falhas de código, oráculo, 
+governança, rede, carteira e 
+ponte.
+Governança
+Conselho, diretoria, políticas e 
+autoridades.
+Pode envolver 
+desenvolvedores, tokens de 
+governança, multisigs e 
+comunidades.
+Reversão
+Pode existir intervenção, 
+contestação ou procedimento 
+de correção.
+Transações confirmadas 
+podem ser difíceis ou 
+impossíveis de reverter.
+Responsabilidade
+Em geral há entidade 
+identificável e canais 
+institucionais.
+Pode ser difusa ou distribuída 
+entre diferentes participantes.
+
+<<<PÁGINA 9>>>
+Blockchain não é sinônimo de DeFi
+Blockchain é infraestrutura tecnológica. DeFi é uma aplicação financeira possível sobre 
+essa infraestrutura.
+Plain Text
+Blockchain → tecnologia de registro e execução
+DeFi       → aplicação financeira descentralizada
+Código não substitui toda a lei
+Um protocolo pode executar código automaticamente. Isso não resolve, por si só, 
+competência regulatória, proteção do consumidor, prevenção à lavagem de dinheiro, 
+tributação, responsabilidade civil ou classificação jurídica do ativo.
+Exemplo prático
+Um cliente utiliza uma plataforma para trocar um token por outro:
+1. conecta a carteira;
+2. escolhe os ativos;
+3. aprova a interação com o protocolo;
+4. assina a transação;
+5. paga a taxa da rede;
+6. o smart contract calcula a operação;
+7. a blockchain valida a transação;
+8. os saldos são atualizados.
+Não há necessariamente uma corretora central segurando os ativos durante toda a 
+operação. Porém, o cliente continua exposto a código, liquidez, preço, taxa de rede, 
+carteira, governança e risco de execução.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.4. Finanças Descentralizadas (DeFi).
+• 4.4.1. Finanças tradicionais versus finanças descentralizadas.
+Finanças tradicionais concentram a execução em instituições; DeFi distribui a 
+execução entre rede, código e participantes.
+
+<<<PÁGINA 10>>>
+Fonte e status
+• Fonte primária do escopo: Programa Detalhado CPA, versão 1.2, vigência a partir de 
+01/01/2026. 1
+• Fonte institucional: ANBIMA, explicação sobre DeFi e contratos inteligentes. 2
+• Fonte técnica e prudencial: BIS, análise de descentralização, governança e riscos. 3
+• Status: conceito tecnológico e financeiro em uso; a classificação jurídica depende da 
+atividade, do ativo e dos participantes envolvidos.
+3.2 Vantagens do DeFi
+3.2.1 Acesso ampliado
+Protocolos públicos podem permitir que qualquer pessoa com conexão à rede e carteira 
+compatível interaja com o serviço, sem passar por um processo tradicional de abertura de 
+conta no protocolo.
+Isso pode ampliar o acesso geográfico e reduzir barreiras de entrada.
+Limite: acesso técnico não é igual a inclusão financeira efetiva. O usuário precisa ter 
+conectividade, conhecimento, carteira, recursos para pagar taxas e capacidade de 
+administrar riscos.
+3.2.2 Disponibilidade contínua
+Protocolos em redes públicas podem operar de forma contínua, sem depender do horário 
+de uma agência ou de uma janela operacional centralizada.
+Limite: a disponibilidade depende da rede, da interface, do protocolo, do 
+congestionamento e da manutenção de componentes externos.
+3.2.3 Transparência e auditabilidade
+Em uma blockchain pública, transações e contratos podem ser observados, rastreados e 
+analisados por qualquer participante, conforme o grau de transparência da rede.
+Isso pode facilitar:
+• auditoria de movimentações;
+• acompanhamento de saldos do protocolo;
+• verificação de regras públicas;
+• monitoramento de eventos;
+
+<<<PÁGINA 11>>>
+• análise de reservas e garantias on-chain.
+Limite: transparência do código não significa que o código seja compreensível por todos. 
+Além disso, endereços podem ser pseudônimos e dados fora da blockchain podem não ser 
+verificáveis diretamente.
+3.2.4 Programabilidade
+Smart contracts permitem transformar regras financeiras em código executável.
+Exemplos:
+• liberar empréstimo quando uma garantia atingir determinado critério;
+• cobrar taxa automaticamente;
+• trocar ativos conforme parâmetros definidos;
+• liquidar posições em caso de insuficiência de garantia;
+• pagar seguro quando um evento verificável ocorrer;
+• distribuir remuneração conforme regras do protocolo.
+3.2.5 Composabilidade
+Composabilidade é a capacidade de um protocolo interagir com outro protocolo como se 
+fossem componentes combináveis.
+Uma aplicação pode:
+1. receber um token;
+2. depositá-lo em outro protocolo;
+3. utilizar o recibo recebido como garantia;
+4. realizar uma nova operação;
+5. distribuir o resultado ao usuário.
+Essa lógica é frequentemente descrita como “money legos”, ou blocos financeiros 
+combináveis.
+Limite: a composição também compõe riscos. Uma falha em um protocolo pode se 
+propagar para outros que dependem dele.
+3.2.6 Autocustódia e controle direto
+O usuário pode manter o controle dos ativos por meio de sua própria carteira, sem entregar 
+necessariamente a chave privada a uma instituição central.
+
+<<<PÁGINA 12>>>
+Limite: autocustódia transfere responsabilidade para o usuário. Perda da chave, assinatura 
+maliciosa ou interação com contrato vulnerável pode causar perda irreversível.
+3.2.7 Redução de etapas e automação
+Ao programar regras em smart contracts, é possível reduzir etapas manuais, conciliações e 
+dependências de operações intermediárias.
+Limite: automação reduz intervenção em algumas etapas, mas não elimina a necessidade 
+de desenvolvimento, auditoria, governança, monitoramento e suporte.
+3.2.8 Inovação e novos modelos
+DeFi permite experimentar formas de:
+• empréstimo colateralizado;
+• provisão de liquidez;
+• negociação automatizada;
+• pagamentos programáveis;
+• derivativos on-chain;
+• seguros paramétricos;
+• governança por tokens;
+• gestão automatizada de estratégias.
+Quadro de vantagens e limites
+Vantagem potencial
+O que pode melhorar
+Limite ou risco correspondente
+Acesso ampliado
+Entrada global e menor 
+barreira institucional.
+Exclusão digital, fraude e 
+dificuldade técnica.
+Operação contínua
+Disponibilidade 24/7.
+Congestionamento, 
+indisponibilidade e taxas 
+variáveis.
+Transparência
+Rastreamento de transações e 
+regras.
+Código difícil de interpretar e 
+pseudonimato.
+Programabilidade
+Execução automática de regras.
+Bug, exploit e rigidez do código.
+Composabilidade
+Integração entre protocolos.
+Contágio de riscos e 
+dependência entre sistemas.
+
+<<<PÁGINA 13>>>
+O que a prova pode confundir
+• Vantagem potencial não é garantia de resultado.
+• Transparência não é sinônimo de segurança.
+• Autocustódia não é proteção automática.
+• Operação 24/7 não significa taxa baixa ou liquidez permanente.
+• Automação não elimina risco de código.
+• Composabilidade pode aumentar eficiência e também aumentar interdependência.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.4.2. Vantagens do DeFi.
+Fonte e status
+As vantagens foram organizadas com base na explicação da ANBIMA, no estudo do BIS e na 
+documentação técnica das plataformas. 2 3 5 6
+• Status: vantagens potenciais, não promessas de desempenho.
+3.3 Conceito de blockchain
+3.3.1 Definição
+Blockchain é uma tecnologia de registro distribuído em que registros transacionais são 
+organizados em blocos e cada bloco é vinculado criptograficamente ao anterior.
+Autocustódia
+Controle direto da chave e dos 
+ativos.
+Perda de chave e 
+responsabilidade individual.
+Menos etapas
+Liquidação e automação mais 
+diretas.
+Não elimina governança, 
+compliance ou risco de 
+mercado.
+Inovação
+Novos produtos e modelos de 
+negócio.
+Incerteza regulatória e risco de 
+experimentação.
+DeFi pode ampliar acesso, transparência, programabilidade e automação; cada 
+vantagem vem acompanhada de um risco próprio.
+
+<<<PÁGINA 14>>>
+O NIST descreve blockchain como um livro-razão compartilhado, resistente à adulteração, 
+no qual os registros são agrupados em blocos e ligados por mecanismos criptográficos. 4
+A página oficial do Governo Digital define blockchain como um livro-razão distribuído pelos 
+nós de uma rede, com transações organizadas em blocos encadeados e características de 
+resistência à adulteração. 5
+3.3.2 Componentes fundamentais
+Nós
+Nós são computadores que participam da rede. Eles podem armazenar cópias do livro-
+razão, validar transações ou participar do mecanismo de consenso, conforme o desenho da 
+blockchain.
+Transações
+Transações são mensagens assinadas digitalmente que solicitam uma mudança de estado, 
+como transferir um ativo ou chamar uma função de um smart contract.
+Blocos
+Blocos agrupam transações e outros metadados. Eles são adicionados à cadeia segundo 
+regras de validação e consenso.
+Hash
+Hash é o resultado de uma função criptográfica aplicada a dados. Uma pequena alteração 
+nos dados tende a produzir um resultado diferente.
+O hash do bloco anterior é utilizado para criar o encadeamento entre blocos.
+Consenso
+Consenso é o mecanismo pelo qual a rede chega a uma decisão sobre quais transações e 
+blocos serão aceitos.
+Exemplos de mecanismos:
+• Proof of Work;
+• Proof of Stake;
+• variações de consenso baseado em validadores;
+• mecanismos permissionados definidos pelo operador da rede.
+Chaves criptográficas
+
+<<<PÁGINA 15>>>
+A chave privada é utilizada para assinar transações. A chave pública e o endereço permitem 
+identificar o destino ou a origem criptográfica da operação.
+Atenção: endereço não é a mesma coisa que identidade civil. Uma rede pública pode 
+registrar endereços e transações sem revelar automaticamente o nome real da pessoa.
+3.3.3 Como uma transação é registrada
+Plain Text
+1. Usuário prepara a transação
+2. Usuário assina com a chave privada
+3. Transação é transmitida à rede
+4. Nós verificam regras básicas
+5. Validadores ou mineradores incluem a transação em bloco
+6. A rede alcança consenso
+7. O bloco é acrescentado ao histórico
+8. O estado da rede é atualizado
+3.3.4 Integridade não é perfeição
+Blockchain pode aumentar a resistência à alteração posterior de registros, mas não garante 
+que o dado originalmente inserido esteja correto.
+A distinção é:
+Plain Text
+Integridade do registro ≠ veracidade do dado de origem
+Se alguém registra informação falsa em uma blockchain, a rede pode preservar a falsidade 
+com grande integridade técnica.
+3.3.5 Imutabilidade com precisão
+É comum ouvir que blockchain é “imutável”. A formulação mais precisa é:
+Podem existir:
+• reorganizações da cadeia;
+• correções por nova transação;
+• atualizações de contratos;
+Registros confirmados são resistentes à adulteração e difíceis de modificar sem 
+deixar evidências, conforme o mecanismo, a governança e a segurança da rede.
+
+<<<PÁGINA 16>>>
+• mecanismos de governança;
+• redes permissionadas com administradores;
+• perda ou comprometimento de chaves;
+• ataques à infraestrutura.
+3.3.6 Tipos de blockchain
+A classificação precisa considerar acesso à leitura, acesso à escrita e participação no 
+consenso.
+O Governo Digital também apresenta classificações de redes públicas e privadas, 
+permissionadas e não permissionadas. 5
+3.3.7 Blockchain ≠ banco de dados convencional
+Os dois podem armazenar dados, mas possuem arquiteturas e objetivos diferentes.
+Tipo
+Acesso à rede
+Consenso
+Pública não permissionada
+Participação aberta conforme 
+regras do protocolo.
+Aberto aos participantes 
+elegíveis.
+Pública permissionada
+Leitura ou transação pode ser 
+ampla.
+Apenas nós autorizados 
+validam.
+Privada permissionada
+Acesso restrito a participantes.
+Validadores autorizados.
+Rede de consórcio
+Operada por grupo de 
+entidades.
+Regras acordadas entre 
+membros.
+Blockchain
+Banco de dados convencional
+Registro compartilhado entre nós.
+Controle normalmente concentrado em uma 
+organização.
+Consenso entre participantes.
+Administrador central define escrita e acesso.
+Histórico encadeado.
+Estrutura definida pelo sistema de banco de 
+dados.
+Assinaturas e validação distribuída.
+Autenticação e autorização centralizadas ou 
+federadas.
+Pode permitir execução de código on-chain.
+Código normalmente executado na aplicação 
+ou no servidor.
+
+<<<PÁGINA 17>>>
+3.3.8 O que a prova pode confundir
+• Blockchain é tecnologia; DeFi é aplicação financeira.
+• Blockchain não é necessariamente pública.
+• Blockchain não garante que o dado seja verdadeiro.
+• Hash não é criptografia reversível para esconder o conteúdo.
+• Consenso não é unanimidade de todos os participantes.
+• Registro distribuído não significa que todos os nós tenham exatamente as mesmas 
+permissões.
+• Imutabilidade não significa impossibilidade absoluta de qualquer mudança.
+Exemplo prático
+Uma transferência de token ocorre em uma rede pública:
+1. a carteira prepara a transação;
+2. a chave privada assina a mensagem;
+3. a rede verifica o saldo e a assinatura;
+4. o contrato do token valida a transferência;
+5. a transação é incluída em um bloco;
+6. o estado do saldo do remetente e do destinatário é atualizado.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.4.2.1. Conceito de Blockchain.
+Fonte e status
+• NIST, conceito de blockchain e registro resistente à adulteração. 4
+• Governo Digital, página institucional atualizada em 19/06/2026. 5
+Alterações podem ser difíceis de reverter.
+Administrador pode alterar, corrigir ou 
+apagar conforme permissões.
+Blockchain é o livro-razão distribuído; o smart contract é o código que pode operar 
+sobre esse livro-razão.
+
+<<<PÁGINA 18>>>
+• Status: tecnologia consolidada em aplicações distribuídas; características exatas 
+dependem da arquitetura da rede.
+3.4 Smart contracts — conceito
+3.4.1 Definição técnica
+Smart contract é um programa composto por código e dados, ou estado, implantado em 
+uma rede blockchain e executado pelos nós da rede conforme regras determinísticas.
+O NIST define smart contract como uma coleção de código e dados implantada por 
+transações assinadas criptograficamente; sua execução ocorre nos nós da rede e os 
+resultados são registrados na blockchain. 7
+Na documentação do Ethereum, um smart contract é descrito como um programa que roda 
+na blockchain, com funções e estado em um endereço específico. 8 9
+3.4.2 Definição didática
+3.4.3 O nome pode induzir a erro
+Smart contract não é necessariamente:
+• um contrato jurídico completo;
+• um documento escrito em linguagem natural;
+• uma pessoa jurídica;
+• uma inteligência artificial;
+• um contrato capaz de interpretar intenção;
+• uma garantia de que o resultado é justo;
+• uma garantia de que o código está correto.
+O termo “contract” indica que o código pode formalizar e executar regras de uma 
+relação. A equivalência jurídica depende do ordenamento, do caso concreto, das partes e 
+da atividade desenvolvida.
+3.4.4 Função de um smart contract
+O smart contract pode:
+Smart contract é código implantado na blockchain que recebe entradas, verifica 
+condições e produz efeitos conforme regras programadas.
+
+<<<PÁGINA 19>>>
+• armazenar estado;
+• verificar assinaturas;
+• aplicar permissões;
+• calcular valores;
+• transferir tokens;
+• emitir ou queimar tokens;
+• bloquear e liberar ativos;
+• registrar eventos;
+• interagir com outro contrato;
+• executar regras de liquidação;
+• governar parâmetros de um protocolo.
+3.4.5 Onde aparece
+Smart contracts podem aparecer em:
+• exchanges descentralizadas;
+• protocolos de empréstimos;
+• stablecoins;
+• tokenização;
+• seguros paramétricos;
+• DAOs;
+• jogos blockchain;
+• NFTs;
+• custódia programável;
+• pagamentos condicionais;
+• pontes entre redes.
+Os últimos itens pertencem a tópicos posteriores do Programa CPA, mas ajudam a 
+contextualizar o papel do smart contract.
+3.4.6 O que a prova pode confundir
+• Smart contract não é smart porque pensa; ele é programável.
+• Smart contract não precisa utilizar inteligência artificial.
+
+<<<PÁGINA 20>>>
+• Smart contract não é necessariamente autoexecutável em qualquer condição; ele 
+precisa receber uma transação ou evento que dispare a execução, salvo arquiteturas 
+auxiliares.
+• O código pode executar perfeitamente uma regra mal escrita.
+• “Código executado” não é sinônimo de “contrato juridicamente válido em qualquer 
+situação”.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.4.3. Smart contracts.
+• 4.4.3.1. Conceito Smart contracts.
+Fonte e status
+• NIST, glossário de smart contract. 7
+• Ethereum, documentação técnica de smart contracts. 8 9
+• Status: conceito técnico consolidado; efeitos jurídicos dependem do caso concreto e da 
+jurisdição aplicável.
+3.5 Componentes e funcionamento dos smart contracts
+3.5.1 Código
+O código contém as instruções que definem o que o contrato pode fazer.
+Exemplos de funções:
+•
+depositar ;
+•
+sacar ;
+•
+transferir ;
+•
+trocar ;
+•
+liquidar ;
+•
+votar ;
+•
+emitir ;
+Smart contract é código mais estado em blockchain; ele não é um contrato jurídico 
+inteligente no sentido humano.
+
+<<<PÁGINA 21>>>
+•
+pausar .
+As funções podem possuir condições, permissões e limites.
+3.5.2 Estado
+Estado é o conjunto de dados armazenados pelo contrato.
+Pode incluir:
+• saldo de cada endereço;
+• quantidade total de tokens;
+• taxa vigente;
+• garantia depositada;
+• dívida do usuário;
+• prazo;
+• endereço do administrador;
+• status de pausa;
+• votos registrados.
+Na documentação Solidity, um contrato reúne código, por meio de funções, e dados, por 
+meio de variáveis de estado, em um endereço da blockchain. 10
+3.5.3 Endereço do contrato
+Depois de implantado, o contrato possui um endereço na blockchain. Usuários e outros 
+contratos interagem com esse endereço por meio de transações ou chamadas.
+O endereço não é necessariamente controlado por uma pessoa. O comportamento decorre 
+do código, das permissões e da arquitetura de atualização.
+3.5.4 Funções
+Funções definem operações que podem ser chamadas.
+Podem:
+• apenas consultar dados;
+• alterar estado;
+• transferir ativos;
+• interagir com outro contrato;
+• exigir assinatura ou autorização;
+
+<<<PÁGINA 22>>>
+• exigir pagamento de taxa.
+3.5.5 Transação
+Uma transação é uma mensagem assinada digitalmente que solicita uma ação na rede.
+Em uma rede como Ethereum, o usuário assina a transação e paga gas para que a rede 
+processe a execução. 9 10
+3.5.6 Máquina virtual
+A máquina virtual é o ambiente que interpreta ou executa o código do contrato conforme 
+as regras da blockchain.
+No Ethereum, a Ethereum Virtual Machine, ou EVM, executa o bytecode do contrato.
+Em outras plataformas, a arquitetura pode ser diferente. Solana utiliza programas 
+compilados para sBPF; Cardano utiliza scripts validadores no modelo eUTXO. 11 12
+3.5.7 Nós e consenso
+Os nós executam ou verificam a transação. A rede precisa alcançar consenso sobre o 
+resultado.
+Em uma execução determinística, nós honestos devem chegar ao mesmo resultado para a 
+mesma transação e para o mesmo estado anterior.
+Essa necessidade limita o tipo de informação que o contrato pode consultar diretamente.
+3.5.8 Gas ou custo computacional
+Executar código consome recursos da rede. O mecanismo de gas ou unidade 
+computacional serve para:
+• medir o trabalho executado;
+• limitar loops ou operações excessivas;
+• remunerar validadores ou operadores;
+• reduzir abuso computacional;
+• estabelecer o custo de uma interação.
+O usuário pode pagar uma taxa mesmo quando a execução falha, dependendo da rede e do 
+ponto em que ocorreu o erro.
+3.5.9 Oráculos
+
+<<<PÁGINA 23>>>
+Smart contracts não conseguem consultar diretamente qualquer evento do mundo real 
+sem um mecanismo de entrada de dados.
+Um oráculo fornece dados externos para o contrato, como:
+• preço de um ativo;
+• cotação cambial;
+• temperatura;
+• resultado esportivo;
+• índice econômico;
+• ocorrência de um evento segurado.
+O oráculo cria uma ponte entre o mundo off-chain e o mundo on-chain.
+Plain Text
+Mundo real → oráculo → blockchain → smart contract
+3.5.10 Interfaces e carteiras
+O usuário normalmente interage com uma aplicação ou carteira. Essa interface prepara a 
+transação e apresenta as funções do contrato.
+A interface não é necessariamente o contrato.
+A distinção é importante:
+Plain Text
+Interface = porta de entrada
+Smart contract = código que executa a regra
+Blockchain = registro e infraestrutura de consenso
+Carteira = ferramenta de assinatura e gestão de chaves
+3.5.11 Eventos e registros
+Contratos podem emitir eventos para que aplicações acompanhem ações como:
+• depósito;
+• saque;
+• troca;
+• pagamento;
+
+<<<PÁGINA 24>>>
+• liquidação;
+• voto;
+• alteração de parâmetro.
+O evento auxilia o monitoramento, mas não substitui a leitura completa do estado e da 
+transação.
+3.5.12 Composabilidade entre contratos
+Um contrato pode chamar outro contrato. Isso permite construir protocolos modulares.
+Exemplo:
+Plain Text
+Contrato A: recebe depósito
+      ↓
+Contrato B: troca o ativo
+      ↓
+Contrato C: registra a posição
+      ↓
+Contrato D: calcula a distribuição
+A composabilidade aumenta a capacidade de inovação, mas também aumenta a superfície 
+de ataque e a dependência de componentes externos.
+3.5.13 Fluxo completo de funcionamento
+Plain Text
+1. Desenvolvedor escreve o código
+2. Código é compilado para a linguagem da plataforma
+3. O contrato é implantado por uma transação
+4. A rede registra o contrato em um endereço
+5. Usuário conecta uma carteira
+6. Usuário escolhe uma função
+7. Carteira monta e assina a transação
+8. Usuário paga a taxa de execução
+9. Nós verificam e executam o código
+10. Consenso confirma o resultado
+11. Estado e eventos são registrados
+12. A interface atualiza a informação
+3.5.14 Exemplo de empréstimo colateralizado
+
+<<<PÁGINA 25>>>
+1. O usuário deposita um ativo como garantia.
+2. O contrato registra o depósito no estado.
+3. O protocolo consulta o valor da garantia por meio de oráculo.
+4. O usuário solicita o empréstimo.
+5. O contrato verifica o limite de garantia.
+6. O contrato libera os tokens do empréstimo.
+7. O estado registra dívida e garantia.
+8. O usuário paga juros e principal.
+9. O contrato libera a garantia após a quitação.
+10. Se a garantia atingir um limite de liquidação, o contrato executa a regra programada.
+3.5.15 Riscos técnicos
+• erro de lógica;
+• vulnerabilidade de reentrância;
+• controle de acesso inadequado;
+• manipulação de oráculo;
+• falha de atualização;
+• erro de integração;
+• ponte comprometida;
+• ataque à interface;
+• congestionamento;
+• front-running ou ordem adversa de transações;
+• perda da chave privada;
+• aprovação de token excessiva;
+• dependência de administrador ou multisig;
+• risco de governança.
+A documentação do Ethereum destaca que contratos podem depender de oráculos para 
+dados externos e que interações podem ser irreversíveis. 9
+O que a prova pode confundir
+• Código e estado são componentes diferentes.
+
+<<<PÁGINA 26>>>
+• Oráculo não é o mesmo que validador da blockchain.
+• Carteira assina; ela não necessariamente executa a regra do protocolo.
+• Gas é custo de processamento; não é necessariamente juros ou tarifa bancária.
+• A blockchain confirma o resultado; ela não garante que o contrato esteja bem 
+programado.
+• Interface amigável não elimina risco do contrato subjacente.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.4.3.2. Componentes e funcionamento dos Smart contracts.
+Fonte e status
+• NIST, definição de código, dados, nós e resultados registrados. 7
+• Solidity, funções, estado, transações e gas. 10
+• Ethereum, execução, oráculos e limitações. 9
+• Solana e Cardano, arquiteturas alternativas. 11 12
+• Status: fundamentos técnicos de plataformas blockchain; detalhes variam entre redes.
+3.6 Conceito de contratos autoexecutáveis
+3.6.1 Definição
+Contrato autoexecutável é aquele em que, uma vez satisfeitas condições programadas, a 
+execução do resultado ocorre automaticamente pelo código, sem que uma pessoa precise 
+interpretar e realizar manualmente cada etapa.
+A lógica pode ser resumida como:
+Plain Text
+Se condição A e condição B forem verdadeiras,
+então executar resultado C.
+Código define a regra; estado guarda a situação; transação dispara a função; nós 
+executam; consenso registra o resultado.
+
+<<<PÁGINA 27>>>
+3.6.2 Exemplo da máquina de venda
+Plain Text
+Selecionar produto + pagar preço correto → liberar produto
+No smart contract:
+Plain Text
+Garantia suficiente + assinatura válida → liberar empréstimo
+3.6.3 Autoexecutável não significa espontâneo
+O contrato normalmente precisa de uma transação, chamada ou mecanismo externo para 
+iniciar a execução.
+Portanto, é importante diferenciar:
+• autoexecução: a regra é executada automaticamente depois que o gatilho ocorre;
+• execução espontânea: o contrato agiria sem qualquer transação ou disparo externo.
+A segunda ideia não deve ser presumida.
+Em muitas redes, alguém precisa enviar a transação que chama a função. Esse participante 
+pode ser:
+• o usuário;
+• um operador de automação;
+• um bot;
+• um keeper;
+• um serviço de infraestrutura;
+• outro smart contract.
+3.6.4 Autoexecutável não significa autônomo em tudo
+O contrato segue as regras codificadas. Ele não possui vontade, consciência ou capacidade 
+geral de interpretação.
+Ele não decide que uma situação é “justa” ou “razoável” se essa avaliação não tiver 
+sido traduzida em regra computável.
+3.6.5 Autoexecução e contrato jurídico
+
+<<<PÁGINA 28>>>
+A expressão “contrato autoexecutável” é técnica e funcional. Ela descreve a execução 
+automática do código.
+Não se deve concluir automaticamente que:
+• o código substituiu todos os requisitos de um contrato jurídico;
+• o usuário renunciou a todos os direitos;
+• a operação não pode ser contestada juridicamente;
+• a transação é válida em qualquer jurisdição;
+• o código prevalece sempre sobre a lei.
+3.6.6 Vantagens da autoexecução
+• menor dependência de intervenção manual;
+• execução padronizada;
+• previsibilidade de regras explícitas;
+• redução de tempo em determinadas etapas;
+• rastreabilidade da operação;
+• possibilidade de liquidação programada;
+• menor necessidade de reconciliação entre sistemas, quando todos usam a mesma rede.
+3.6.7 Limitações da autoexecução
+• rigidez diante de situações não previstas;
+• dificuldade de reversão;
+• execução de erros de programação;
+• dependência de oráculos;
+• necessidade de transação disparadora;
+• custos de gas;
+• risco de congestionamento;
+• conflito entre resultado do código e expectativa do usuário;
+• necessidade de governança para atualização ou pausa.
+3.6.8 O que a prova pode confundir
+• Autoexecutável não significa que o contrato execute sem qualquer transação.
+• Autoexecutável não significa que seja juridicamente irreversível.
+
+<<<PÁGINA 29>>>
+• Autoexecutável não significa livre de intermediários técnicos.
+• Autoexecutável não significa que o sistema é inteligente ou possui IA.
+• Automação não significa ausência de risco.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.4.3.3. Conceito de contratos autoexecutáveis.
+Fonte e status
+• Ethereum, lógica “if this then that”, execução automática, previsibilidade e limites. 8 
+9
+• NIST, execução do código pelos nós e registro do resultado. 7
+• Status: conceito técnico de automação on-chain; equivalência jurídica depende do 
+caso concreto.
+3.7 Plataformas de smart contracts
+3.7.1 O que é uma plataforma
+Uma plataforma de smart contracts é uma blockchain ou infraestrutura blockchain que 
+permite implantar e executar programas ou scripts capazes de interagir com ativos e dados 
+da rede.
+Uma plataforma oferece, conforme sua arquitetura:
+• mecanismo de consenso;
+• ambiente de execução;
+• linguagem ou formato de programação;
+• modelo de contas ou UTXOs;
+• estrutura de taxas;
+• regras de finalização;
+• possibilidade de atualização;
+• ferramentas para desenvolvedores;
+Contrato autoexecutável executa automaticamente a regra codificada quando o 
+gatilho é atendido; ele não interpreta o mundo como um juiz.
+
+<<<PÁGINA 30>>>
+• mecanismos de interoperabilidade.
+3.7.2 Ethereum
+Ethereum é uma plataforma de smart contracts baseada em contas e na EVM.
+Características didáticas:
+• contratos são programas implantados em endereços;
+• funções podem ser chamadas por transações;
+• o estado é mantido na rede;
+• a execução consome gas;
+• contratos podem interagir entre si;
+• Solidity e Vyper são linguagens utilizadas no ecossistema;
+• a composabilidade é uma característica relevante.
+A documentação do Ethereum destaca que smart contracts funcionam como programas na 
+blockchain e podem chamar outros contratos, formando componentes combináveis. 9
+3.7.3 Solana
+Na Solana, a documentação utiliza o termo programs para o código executável 
+armazenado on-chain.
+Características:
+• programas contêm bytecode executável sBPF;
+• programas são stateless;
+• o estado mutável é mantido em contas de dados separadas;
+• instruções são enviadas aos programas;
+• programas podem ser atualizáveis se houver autoridade de atualização;
+• a execução possui modelo próprio de unidades computacionais.
+A Solana não deve ser explicada como se tivesse exatamente a mesma arquitetura da 
+Ethereum. O termo “smart contract” pode ser usado de forma ampla, mas tecnicamente 
+a plataforma descreve seus componentes como programas e contas. 11
+3.7.4 Cardano
+Cardano utiliza o modelo eUTXO, uma extensão do modelo de saídas de transações não 
+gastas.
+Características:
+
+<<<PÁGINA 31>>>
+• smart contracts funcionam como scripts validadores;
+• o script aprova ou rejeita uma transação;
+• o estado fica associado a UTXOs e dados;
+• há separação entre parte on-chain e parte off-chain;
+• o validador é determinístico;
+• a execução não inicia ações por vontade própria; ele valida a transação proposta.
+A documentação da Cardano ressalta que, em seu modelo, smart contracts são 
+validadores, não atores autônomos. 12
+3.7.5 Avalanche C-Chain
+A Avalanche possui a C-Chain, uma instância compatível com a Ethereum Virtual Machine. 
+Isso permite utilizar ferramentas e aplicações compatíveis com o ecossistema EVM, 
+enquanto a rede utiliza o consenso da família Avalanche.
+Características didáticas:
+• compatibilidade com EVM;
+• possibilidade de executar aplicações e contratos do ecossistema Ethereum com 
+adaptações;
+• consenso da Avalanche;
+• uso de AVAX para taxas e participação na rede, conforme as regras da plataforma;
+• foco em finalização e desempenho da rede.
+A documentação oficial da Avalanche descreve a C-Chain como uma instância da EVM e 
+destaca a separação entre camada de aplicação e camada de consenso. 13
+3.7.6 Comparação de plataformas
+Plataforma
+Modelo ou ambiente
+Elemento técnico de 
+destaque
+Atenção para a prova
+Ethereum
+Contas + EVM
+Funções, estado, gas e 
+composabilidade.
+Não confundir gas 
+com juros.
+Solana
+Programas sBPF + 
+contas de dados
+Programas stateless e 
+estado separado.
+Não presumir 
+arquitetura idêntica à 
+EVM.
+
+<<<PÁGINA 32>>>
+3.7.7 EVM e compatibilidade
+EVM-compatible significa que uma rede consegue executar contratos ou ferramentas 
+compatíveis com o ambiente Ethereum Virtual Machine, em algum grau.
+Isso não significa que:
+• a rede seja Ethereum;
+• tenha o mesmo consenso;
+• tenha as mesmas taxas;
+• tenha a mesma segurança;
+• tenha a mesma liquidez;
+• tenha a mesma governança;
+• o contrato seja automaticamente seguro em qualquer rede.
+3.7.8 Linguagens e compilação
+O desenvolvedor escreve o código em uma linguagem adequada à plataforma. O código 
+pode ser compilado para o formato que a máquina virtual ou o ambiente de execução 
+consegue processar.
+A existência de uma linguagem conhecida não elimina:
+• risco de bug;
+• risco de vulnerabilidade;
+• necessidade de auditoria;
+• necessidade de testes;
+• risco de dependência externa;
+• risco de atualização.
+3.7.9 Plataformas não são protocolos DeFi
+Cardano
+eUTXO + scripts 
+validadores
+Validator aprova ou 
+rejeita transação.
+Smart contract não 
+age como ator 
+autônomo.
+Avalanche C-Chain
+EVM + consenso 
+Avalanche
+Compatibilidade EVM 
+com consenso próprio.
+Compatibilidade de 
+execução não significa 
+mesma rede ou 
+mesmo consenso.
+
+<<<PÁGINA 33>>>
+Essa distinção é essencial:
+Plain Text
+Plataforma blockchain → infraestrutura de execução
+Protocolo DeFi       → aplicação financeira sobre a infraestrutura
+Smart contract       → código que implementa regras do protocolo
+Ethereum pode hospedar milhares de protocolos. Um protocolo DeFi pode operar em mais 
+de uma rede. Uma aplicação pode ser implantada em diferentes plataformas com 
+adaptações.
+3.7.10 O que a prova pode confundir
+• Plataforma não é o mesmo que aplicação.
+• Ethereum não é sinônimo de toda blockchain.
+• EVM é ambiente de execução, não um protocolo DeFi.
+• Solana chama seus contratos de programas e utiliza arquitetura própria.
+• Cardano usa validadores e eUTXO; não se deve copiar a explicação baseada em contas 
+sem ressalva.
+• Avalanche C-Chain é compatível com EVM, mas possui consenso da Avalanche.
+• Taxas, finalização, linguagens e modelos de estado variam entre plataformas.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.4.3.4. Plataformas de smart contracts.
+Fonte e status
+• Ethereum, smart contracts e EVM. 9
+• Solana, programs e sBPF. 11
+• Cardano, smart contracts, validadores e eUTXO. 12
+• Avalanche, consenso e C-Chain compatível com EVM. 13
+• Status: plataformas e arquiteturas tecnológicas em evolução; detalhes técnicos podem 
+mudar com atualizações de rede.
+Plataforma define o ambiente; protocolo define o serviço; smart contract 
+implementa as regras.
+
+<<<PÁGINA 34>>>
+3.8 Limites regulatórios e prudenciais necessários para a 
+prova
+Embora o pedido esteja concentrado em DeFi e smart contracts, a prova pode apresentar 
+uma alternativa que confunda tecnologia com autorização regulatória.
+3.8.1 A tecnologia não define sozinha a natureza jurídica
+Um ativo, token ou operação não deixa de estar sujeito à análise jurídica apenas porque 
+utiliza blockchain ou smart contract.
+A CVM afirma, no Parecer de Orientação nº 40/2022, que certos criptoativos podem se 
+enquadrar como valores mobiliários conforme suas características e que a análise depende 
+do caso concreto. 14
+3.8.2 A Lei nº 14.478/2022
+A Lei nº 14.478/2022 estabelece diretrizes para a prestação de serviços de ativos virtuais e a 
+regulamentação das prestadoras de serviços de ativos virtuais. A lei também preserva a 
+competência da CVM em relação aos valores mobiliários e exclui do conceito de ativo 
+virtual as representações de ativos cuja emissão, escrituração, negociação ou liquidação 
+esteja prevista em lei ou regulamento, como valores mobiliários e ativos financeiros. 15
+A lei não transforma toda atividade DeFi em uma atividade automaticamente autorizada ou 
+automaticamente proibida. A análise depende da atividade, do ativo, dos participantes, da 
+forma de oferta e da legislação aplicável.
+3.8.3 Pegadinha regulatória
+Plain Text
+Blockchain ≠ autorização
+DeFi ≠ ausência de regulação
+Smart contract ≠ contrato jurídico universal
+Código executado ≠ risco eliminado
+3.8.4 Frase de fixação
+A tecnologia explica como a operação funciona; a regulação analisa o que a 
+atividade representa.
+
+<<<PÁGINA 35>>>
+4. Por que isso cai na prova? — 10 minutos
+Explicação estratégica
+O tema é cobrado principalmente por diferenciações conceituais e por situações práticas.
+A banca pode descrever:
+• uma instituição centralizada e pedir a classificação como finanças tradicionais;
+• um protocolo automatizado em blockchain e pedir a classificação como DeFi;
+• blocos encadeados e consenso e pedir o conceito de blockchain;
+• código implantado com funções e estado e pedir o conceito de smart contract;
+• uma regra executada após determinada condição e pedir o conceito de contrato 
+autoexecutável;
+• plataformas com modelos diferentes e pedir a associação correta.
+A palavra decisiva costuma estar no mecanismo:
+Palavra do enunciado
+Conceito provável
+Banco, corretora, custódia institucional, 
+autorização central
+Finanças tradicionais
+Protocolo aberto, carteira, liquidez on-chain, 
+token, código
+DeFi
+Livro-razão distribuído, blocos, hash, 
+consenso
+Blockchain
+Funções, estado, endereço, código 
+implantado
+Smart contract
+Condição satisfeita, execução automática, 
+regra programada
+Contrato autoexecutável
+EVM, gas, funções e contas
+Ethereum ou plataforma EVM
+Programas sBPF, contas de dados e stateless
+Solana
+eUTXO, validator script, datum e redeemer
+Cardano
+EVM com consenso Avalanche, C-Chain
+Avalanche C-Chain
+
+<<<PÁGINA 36>>>
+Pontos de atenção
+1. DeFi reduz a dependência de intermediários centrais, mas não significa ausência 
+absoluta de intermediação ou governança.
+2. Blockchain é infraestrutura; DeFi é aplicação financeira.
+3. Blockchain preserva o registro; não garante a verdade do dado inserido.
+4. Smart contract é código e estado implantado na rede.
+5. Funções alteram ou consultam o estado.
+6. Transações são assinadas e podem exigir taxas de execução.
+7. Nós executam ou verificam o código conforme as regras da rede.
+8. Consenso registra o resultado aceito.
+9. Oráculos levam dados externos para o ambiente on-chain.
+10. Contrato autoexecutável depende de condição programada e de um gatilho de 
+execução.
+11. Autoexecução não é sinônimo de contrato jurídico completo.
+12. Ethereum, Solana, Cardano e Avalanche possuem arquiteturas diferentes.
+13. EVM-compatible não significa Ethereum.
+14. Vantagens do DeFi são potenciais, não garantias.
+15. A classificação jurídica depende da atividade e do ativo, não apenas da tecnologia.
+Comparações críticas
+A
+B
+Diferença decisiva
+Finanças tradicionais
+DeFi
+Instituição centralizada versus 
+protocolo e rede programável.
+Blockchain
+DeFi
+Infraestrutura de registro 
+versus aplicação financeira.
+Blockchain
+Smart contract
+Livro-razão distribuído versus 
+código executado sobre a rede.
+Smart contract
+Contrato jurídico
+Código determinístico versus 
+instrumento jurídico e 
+interpretação humana.
+Contrato autoexecutável
+Execução espontânea
+Execução após gatilho versus 
+ação sem qualquer disparo 
+
+<<<PÁGINA 37>>>
+Palavras-chave
+• “sem intermediário central”: DeFi, com a ressalva de governança e pontos de 
+concentração.
+• “livro-razão distribuído”: blockchain.
+• “blocos ligados por hash”: blockchain.
+• “código e estado”: smart contract.
+• “função”: operação que pode consultar ou alterar o estado.
+• “gas”: custo de execução ou recurso computacional.
+• “oráculo”: ponte de dados externos para o contrato.
+• “if this then that”: lógica condicional de execução automática.
+externo.
+Carteira
+Smart contract
+Ferramenta de assinatura 
+versus código que executa 
+regras.
+Oráculo
+Validador
+Entrada de dados externos 
+versus participação na 
+validação/consenso da rede.
+Gas
+Juros
+Custo computacional da rede 
+versus remuneração ou custo 
+financeiro do crédito.
+Ethereum
+EVM-compatible
+Rede específica versus 
+compatibilidade com um 
+ambiente de execução.
+Plataforma
+Protocolo
+Infraestrutura blockchain 
+versus aplicação construída 
+sobre ela.
+Transparência
+Segurança
+Visibilidade do registro/código 
+versus resistência a falhas e 
+ataques.
+Autocustódia
+Proteção institucional
+Controle de chaves pelo 
+usuário versus proteção e 
+procedimentos de uma 
+instituição.
+
+<<<PÁGINA 38>>>
+• “EVM”: Ethereum e redes compatíveis.
+• “programas sBPF”: Solana.
+• “eUTXO e validator script”: Cardano.
+• “C-Chain compatível com EVM”: Avalanche.
+• “composabilidade”: protocolos que interagem como componentes.
+• “autocustódia”: usuário mantém controle da chave privada.
+• “governança por token”: votação ou decisão por participantes que possuem tokens 
+de governança.
+Pegadinhas
+1. “DeFi elimina todos os intermediários.”
+• Correção: reduz a dependência de intermediários centrais em certas etapas, mas 
+pode haver governança, validadores, oráculos, interfaces, pontes e concentração de 
+poder.
+2. “Blockchain é um sistema exclusivamente financeiro.”
+• Correção: é uma tecnologia de registro distribuído que pode ter aplicações em 
+diferentes setores.
+3. “Blockchain garante a veracidade de qualquer informação.”
+• Correção: aumenta a resistência à adulteração do registro; não garante que o dado 
+inserido seja verdadeiro.
+4. “Smart contract é inteligência artificial.”
+• Correção: smart contract é código programado. Pode incorporar modelos externos, 
+mas não é automaticamente IA.
+5. “Todo smart contract é um contrato jurídico.”
+• Correção: o termo técnico descreve código executável; os efeitos jurídicos 
+dependem do caso concreto.
+6. “Contrato autoexecutável age sozinho sem transação.”
+• Correção: geralmente é necessário um gatilho, chamada, transação, bot ou 
+mecanismo de automação.
+7. “O contrato interpreta eventos externos diretamente.”
+• Correção: normalmente precisa de oráculos para receber dados off-chain.
+8. “Gas é juros do empréstimo.”
+
+<<<PÁGINA 39>>>
+• Correção: gas é custo de processamento da rede; juros são remuneração ou custo 
+financeiro da operação.
+9. “EVM-compatible significa Ethereum.”
+• Correção: significa compatibilidade com o ambiente de execução, não identidade 
+de rede.
+10. “Código público é código seguro.”
+• Correção: transparência facilita auditoria, mas vulnerabilidades também podem ser 
+exploradas.
+11. “Autocustódia elimina risco de custódia.”
+• Correção: pode reduzir dependência de custodiante, mas aumenta a 
+responsabilidade pela chave e pela assinatura.
+12. “Transação confirmada pode sempre ser estornada.”
+• Correção: em muitas redes, a reversão é difícil ou depende de nova transação, 
+governança ou intervenção específica.
+13. “DeFi não possui risco de crédito.”
+• Correção: pode haver risco de inadimplência, insuficiência de garantia, liquidação, 
+stablecoin e contraparte econômica.
+14. “Smart contract elimina risco operacional.”
+• Correção: desloca e transforma riscos; pode haver erro de código, oráculo, rede, 
+chave, ponte e atualização.
+15. “Toda operação em blockchain está fora da competência da CVM.”
+• Correção: a CVM analisa o enquadramento do criptoativo e da operação conforme 
+suas características.
+Comando de lousa/tela
+[ESCREVA]
+Plain Text
+INFRAESTRUTURA → APLICAÇÃO → CÓDIGO → EXECUÇÃO
+blockchain     → DeFi       → smart contract → autoexecução
+[CIRCULE] infraestrutura , aplicação , código e execução .
+[FIXE]
+Não confunda a rede, o protocolo, o contrato e a operação.
+
+<<<PÁGINA 40>>>
+5. Case / Storytelling — 12 minutos
+Situação: Protocolo Aurora
+O Protocolo Aurora é uma aplicação DeFi criada para permitir empréstimos colateralizados 
+com tokens digitais.
+O projeto utiliza uma rede blockchain pública e possui os seguintes elementos:
+• uma carteira do usuário;
+• um smart contract de depósito;
+• um smart contract de empréstimo;
+• um oráculo de preços;
+• um token utilizado como garantia;
+• uma regra de liquidação;
+• uma interface web;
+• validadores da blockchain;
+• um mecanismo de governança.
+Etapa 1 — Depósito da garantia
+A cliente Beatriz conecta sua carteira ao protocolo e deposita tokens como garantia.
+A carteira prepara uma transação. Beatriz verifica a operação e assina com sua chave 
+privada.
+Análise
+• A carteira é o instrumento de assinatura.
+• A transação é uma mensagem assinada.
+• O smart contract registra a garantia no estado.
+• A blockchain registra o resultado após a validação e o consenso.
+• A operação pode exigir pagamento de gas.
+Etapa 2 — Solicitação do empréstimo
+
+<<<PÁGINA 41>>>
+Beatriz solicita um empréstimo. O smart contract verifica se a garantia atende ao limite 
+programado.
+Se a condição for satisfeita, o contrato libera os tokens do empréstimo.
+Plain Text
+garantia suficiente + transação válida → empréstimo liberado
+Análise
+• Existe lógica condicional.
+• A execução é automática depois do gatilho.
+• O contrato não precisa de um gerente para autorizar manualmente cada operação.
+• Isso não significa que a operação seja sem risco.
+Etapa 3 — Oráculo
+O valor da garantia muda. O smart contract não consulta diretamente uma bolsa ou site 
+externo. Ele recebe um preço fornecido por um oráculo.
+Análise
+• O oráculo faz a ponte entre dados off-chain e o contrato.
+• Se o preço do oráculo estiver errado ou for manipulado, a liquidação pode ser 
+inadequada.
+• A blockchain pode registrar corretamente o preço informado pelo oráculo, mesmo que 
+o preço esteja errado.
+Etapa 4 — Liquidação
+O valor da garantia cai abaixo do limite. O contrato executa a regra de liquidação após 
+receber a transação ou chamada que dispara a função.
+Análise
+• A liquidação é autoexecutável no sentido de que segue o código.
+• Ela não ocorre porque o contrato “entendeu” o mercado.
+• Ela ocorre porque a condição programada foi satisfeita segundo o dado fornecido ao 
+contrato.
+
+<<<PÁGINA 42>>>
+• A execução pode ser irreversível ou difícil de reverter.
+Etapa 5 — Governança
+Os participantes votam sobre a alteração de uma taxa do protocolo.
+Análise
+• O protocolo possui governança.
+• Isso demonstra que DeFi não significa ausência de coordenação.
+• A governança pode ser distribuída, mas tokens e mecanismos de voto podem 
+concentrar poder.
+• A alteração pode depender de um contrato de governança, um multisig ou uma 
+autoridade de atualização.
+Etapa 6 — Plataforma
+O Protocolo Aurora é implantado em uma rede compatível com EVM.
+Análise
+• A rede é a plataforma de execução.
+• O protocolo é a aplicação financeira.
+• O smart contract é o código que implementa as regras.
+• A compatibilidade com EVM não transforma a rede em Ethereum.
+Conceitos aplicados
+Elemento do case
+Conceito
+Função
+Rede pública
+Blockchain
+Registro distribuído, validação 
+e consenso.
+Aplicação de empréstimo
+DeFi
+Serviço financeiro executado 
+por protocolo.
+Carteira de Beatriz
+Carteira
+Gestão de chaves e assinatura.
+Código do empréstimo
+Smart contract
+Regras, funções e estado.
+Valor de mercado da garantia
+Dado externo
+Informação que precisa chegar 
+ao ambiente on-chain.
+
+<<<PÁGINA 43>>>
+Síntese técnica
+O case não representa “um banco sem funcionários”. Ele representa uma arquitetura 
+financeira programável com diferentes camadas:
+Plain Text
+Usuário e carteira
+        ↓ assina
+Transação
+        ↓ chama
+Smart contract
+        ↓ lê dados
+Oráculo
+        ↓ executa
+Regra automática
+        ↓ registra
+Blockchain e consenso
+        ↓ coordena
+Governança
+[PARE E PERGUNTE]
+Se a blockchain registrou o preço fornecido pelo oráculo, isso prova que o preço estava 
+correto?
+Resposta: não. A blockchain prova ou preserva o registro da informação que recebeu. A 
+qualidade do dado depende do oráculo e de seus controles.
+[PARE E PERGUNTE]
+Provedor de preços
+Oráculo
+Ponte entre mundo externo e 
+blockchain.
+Regra de liquidação
+Contrato autoexecutável
+Execução condicional 
+programada.
+Validadores
+Participantes da rede
+Verificação e consenso.
+Votação de taxas
+Governança
+Decisão sobre parâmetros do 
+protocolo.
+Rede EVM-compatible
+Plataforma
+Ambiente de execução do 
+contrato.
+
+<<<PÁGINA 44>>>
+Se a liquidação ocorreu automaticamente, isso significa que não existiu nenhum gatilho 
+externo?
+Resposta: não. Em geral, a execução precisa de uma transação ou chamada que acione a 
+função, mesmo que a decisão siga regras automáticas.
+6. Questão final comentada
+Certificação
+CPA ANBIMA.
+Competência
+4.4.1. Finanças tradicionais versus finanças descentralizadas; 4.4.2. Vantagens do DeFi; 
+4.4.2.1. Blockchain; 4.4.3.1 a 4.4.3.4. Smart contracts, componentes, contratos 
+autoexecutáveis e plataformas.
+Nível
+Médio para difícil.
+Enunciado
+Uma plataforma de empréstimos utiliza uma rede blockchain pública. O usuário deposita 
+tokens como garantia por meio de uma carteira, assina uma transação e solicita um 
+empréstimo. O código do protocolo registra o estado da garantia, consulta um preço 
+fornecido por um oráculo e libera os recursos quando as condições programadas são 
+atendidas. Se a garantia cair abaixo de determinado limite, o protocolo pode executar a 
+liquidação conforme as regras codificadas.
+Sobre essa situação, assinale a alternativa correta.
+A) A plataforma não é DeFi, porque qualquer operação de crédito exige um banco 
+centralizado; além disso, a carteira substitui o smart contract na execução das regras.
+B) A blockchain garante que o preço fornecido pelo oráculo é verdadeiro, pois todos os nós 
+validam a informação externa antes de registrá-la.
+C) O smart contract é um conjunto de código e dados implantado na blockchain; a carteira 
+assina a transação; o oráculo fornece informação externa; e a liquidação pode ser 
+
+<<<PÁGINA 45>>>
+autoexecutável quando o gatilho programado é atendido, sem que isso elimine riscos 
+técnicos ou jurídicos.
+D) A autoexecução significa que o smart contract toma iniciativa sem necessidade de 
+transação ou chamada externa e que o resultado é necessariamente equivalente a uma 
+decisão judicial.
+E) Como a plataforma utiliza blockchain pública e código aberto, a operação está 
+automaticamente fora da competência de qualquer órgão regulador e não possui risco de 
+governança.
+Ponto-chave
+A alternativa correta precisa distinguir carteira, blockchain, smart contract, oráculo e 
+contrato autoexecutável, além de reconhecer que DeFi não elimina riscos ou análise 
+regulatória.
+Gabarito
+Alternativa C.
+Justificativa da correta
+A alternativa C está correta.
+• O smart contract é composto por código e dados ou estado implantados em uma rede 
+blockchain.
+• A carteira auxilia o usuário a controlar chaves e assinar a transação.
+• O oráculo fornece dados externos que o contrato não consegue obter diretamente.
+• A liquidação pode ocorrer conforme uma regra programada quando o gatilho é 
+atendido.
+• A automação não elimina risco de código, oráculo, rede, liquidez, governança, custódia 
+ou enquadramento jurídico.
+Essa distinção é compatível com as definições técnicas do NIST, da documentação 
+Ethereum e com a abordagem de riscos do BIS. 3 7 9
+Alternativas incorretas
+• A: incorreta. A estrutura descrita é compatível com DeFi. DeFi pode prestar serviços 
+financeiros por meio de protocolos automatizados em blockchain, reduzindo a 
+
+<<<PÁGINA 46>>>
+dependência de intermediários centrais. A carteira assina a transação; ela não substitui 
+o smart contract.
+• B: incorreta. A blockchain pode validar o registro e a execução conforme as regras da 
+rede, mas não garante que a informação externa fornecida pelo oráculo seja 
+verdadeira. A qualidade do dado depende do oráculo.
+• C: correta. A alternativa separa corretamente os componentes e apresenta a 
+autoexecução com a ressalva de que riscos técnicos e jurídicos permanecem.
+• D: incorreta. A autoexecução normalmente depende de transação, chamada, bot, 
+keeper ou mecanismo de automação que dispare a função. Além disso, execução 
+automática não equivale necessariamente a decisão judicial ou contrato jurídico 
+completo.
+• E: incorreta. A utilização de blockchain não cria imunidade regulatória. A CVM pode 
+analisar o enquadramento de criptoativos conforme suas características, e a Lei nº 
+14.478/2022 estabelece diretrizes para serviços de ativos virtuais sem eliminar a 
+competência da CVM sobre valores mobiliários. 14 15
+Armadilhas e macetes
+• Carteira assina; contrato executa.
+• Oráculo informa; blockchain registra.
+• Smart contract aplica regras; não interpreta intenções.
+• Autoexecução exige condição e gatilho.
+• Código público não significa código seguro.
+• Blockchain não cria isenção regulatória.
+7. Revisão final
+Resumo em cinco pontos
+1. DeFi utiliza blockchain, protocolos e smart contracts para oferecer serviços financeiros 
+com menor dependência de intermediários centrais.
+2. Blockchain é um livro-razão distribuído, com registros organizados em blocos e 
+vinculados criptograficamente, validado por regras de consenso.
+3. Smart contract é código mais estado implantado na blockchain, com funções que 
+podem consultar ou alterar dados.
+
+<<<PÁGINA 47>>>
+4. Contrato autoexecutável aplica automaticamente uma regra programada quando a 
+condição e o gatilho de execução são atendidos.
+5. Plataformas possuem arquiteturas diferentes: Ethereum utiliza EVM e gas; Solana 
+utiliza programs sBPF e contas de dados; Cardano utiliza eUTXO e scripts validadores; 
+Avalanche C-Chain é compatível com EVM e utiliza consenso da Avalanche.
+Quadro de emergência
+Plain Text
+DEFI
+→ serviço financeiro por protocolo
+→ usa blockchain + smart contracts
+→ reduz dependência de intermediário central
+→ não elimina governança nem riscos
+BLOCKCHAIN
+→ livro-razão distribuído
+→ blocos + hash + consenso + nós
+→ registro resistente à adulteração
+→ não garante que o dado de origem seja verdadeiro
+SMART CONTRACT
+→ código + estado
+→ funções + endereço + transação
+→ executado pelos nós
+→ pode depender de oráculos
+AUTOEXECUTÁVEL
+→ condição programada + gatilho
+→ execução automática da regra
+→ não significa ação espontânea
+→ não é automaticamente contrato jurídico completo
+PLATAFORMAS
+→ Ethereum: EVM + contas + gas
+→ Solana: programs sBPF + contas de dados
+→ Cardano: eUTXO + validator scripts
+→ Avalanche C-Chain: EVM + consenso Avalanche
+Cadeia lógica
+DeFi → protocolo financeiro → blockchain → smart contract → condição programada 
+
+<<<PÁGINA 48>>>
+Diferenças críticas
+• Finanças tradicionais ≠ DeFi: instituição centralizada ≠ protocolo e rede 
+programável.
+• Blockchain ≠ DeFi: infraestrutura ≠ aplicação financeira.
+• Blockchain ≠ smart contract: livro-razão ≠ código executável.
+• Smart contract ≠ contrato jurídico: código determinístico ≠ instrumento jurídico 
+completo.
+• Autoexecução ≠ espontaneidade: execução após gatilho ≠ ação sem transação.
+• Carteira ≠ smart contract: carteira assina ≠ contrato executa.
+• Oráculo ≠ validador: dado externo ≠ consenso da rede.
+• Gas ≠ juros: custo computacional ≠ remuneração financeira.
+• Transparência ≠ segurança: código visível ≠ código sem vulnerabilidade.
+• Autocustódia ≠ proteção institucional: controle de chave ≠ suporte e 
+responsabilidade de custodiante.
+• EVM-compatible ≠ Ethereum: compatibilidade de execução ≠ identidade de rede.
+• Plataforma ≠ protocolo: ambiente de execução ≠ serviço financeiro.
+Frase central da aula
+Próximo passo de estudo
+1. Reproduzir o fluxo de uma transação DeFi sem consultar o material.
+2. Explicar em uma frase a diferença entre blockchain e smart contract.
+3. Memorizar a sequência: carteira assina → contrato executa → nós validam → consenso registra .
+4. Comparar Ethereum, Solana, Cardano e Avalanche em uma tabela própria.
+5. Resolver novamente a questão final, justificando todas as alternativas.
+6. Criar três exemplos de vantagens e três riscos correspondentes.
+7. Revisar a distinção: autoexecutável não significa espontâneo nem juridicamente 
+→ execução automática → registro on-chain → riscos e governança.
+DeFi usa blockchain e smart contracts para programar serviços financeiros; a 
+automação reduz etapas, mas não elimina risco, governança ou análise regulatória.
+
+<<<PÁGINA 49>>>
+universal.
+8. Revisar a distinção regulatória: tecnologia não determina sozinha a natureza jurídica 
+do ativo ou da operação.
+Anexo A — Roteiro operacional de 
+lousa/tela
+Regras de utilização
+• [ESCREVA]: registrar palavra, frase ou definição.
+• [DESENHE]: construir setas, caixas e fluxos.
+• [CIRCULE]: destacar a palavra que decide a questão.
+• [SUBLINHE]: marcar a distinção essencial.
+• [CONECTE]: indicar causalidade.
+• [FALE]: utilizar a fala sugerida.
+• [PARE E PERGUNTE]: testar a compreensão.
+• [FIXE]: repetir a frase de memorização.
+• [APAGUE]: remover elementos provisórios.
+• [MANTENHA]: preservar elementos que serão reutilizados.
+• [TRANSIÇÃO]: conectar blocos.
+ETAPA 1 — Título e pergunta-problema
+[ESCREVA NO TOPO, CENTRALIZADO]
+Plain Text
+DEFI, BLOCKCHAIN E SMART CONTRACTS
+[ESCREVA NO CENTRO]
+Plain Text
+Se o contrato é código, quem executa a operação?
+
+<<<PÁGINA 50>>>
+[FALE]
+A resposta passa por quatro camadas: o usuário assina, o contrato executa, os nós validam 
+e a blockchain registra.
+[PARE E PERGUNTE]
+A blockchain é o serviço financeiro ou a infraestrutura que registra e executa as regras?
+Resposta: é a infraestrutura; o serviço financeiro é implementado por protocolos DeFi.
+[ESCREVA NO CANTO E MANTENHA]
+Plain Text
+carteira → contrato → nós → consenso → registro
+[FIXE]
+ETAPA 2 — Espinha dorsal
+[DESENHE]
+Plain Text
+Finanças tradicionais
+          ↓ comparação
+DeFi
+          ↓ infraestrutura
+Blockchain
+          ↓ programação
+Smart contract
+          ↓ condição
+Autoexecução
+          ↓ implementação
+Plataformas
+ETAPA 3 — Tradicional versus DeFi
+[ESCREVA] duas colunas:
+Plain Text
+TRADICIONAL              DEFI
+instituição              protocolo
+Não confunda rede, protocolo, contrato e operação.
+
+<<<PÁGINA 51>>>
+conta/cadastro           carteira
+sistema privado          blockchain
+contrato + processo      código + governança
+intervenção central      execução programável
+[FALE]
+A comparação não deve ser feita como “seguro versus inseguro”. Cada modelo possui 
+controles, riscos e responsabilidades diferentes.
+[CIRCULE] instituição e protocolo .
+[FIXE]
+ETAPA 4 — Vantagens e limites
+[ESCREVA]
+Plain Text
+VANTAGENS POTENCIAIS
+acesso | 24/7 | transparência | programabilidade | composabilidade | autocustódi
+[DESENHE] abaixo de cada vantagem uma seta para o limite:
+Plain Text
+acesso → exclusão digital
+transparência → código difícil
+programabilidade → bug
+composabilidade → contágio de risco
+autocustódia → perda de chave
+24/7 → congestionamento/taxa
+[FALE]
+Vantagem potencial não é garantia. Toda eficiência pode criar uma nova exposição.
+ETAPA 5 — Blockchain
+[APAGUE] somente a lista de vantagens. [MANTENHA] as duas colunas como referência.
+[ESCREVA]
+Plain Text
+DeFi reduz a dependência do intermediário central; não elimina toda coordenação.
+
+<<<PÁGINA 52>>>
+BLOCKCHAIN
+livro-razão distribuído
+blocos + hash + consenso + nós
+[DESENHE]
+Plain Text
+[Bloco 1] —hash→ [Bloco 2] —hash→ [Bloco 3]
+[FALE]
+Cada bloco referencia o anterior. Se um dado é alterado, o encadeamento apresenta 
+inconsistência. Isso aumenta a resistência à adulteração, mas não garante que o dado 
+inserido seja verdadeiro.
+[CIRCULE] livro-razão distribuído .
+[PARE E PERGUNTE]
+Blockchain garante a veracidade do dado de origem?
+Resposta: não. Ela protege o registro conforme a rede; a qualidade do dado depende da 
+origem e dos mecanismos de entrada.
+[FIXE]
+ETAPA 6 — Smart contract
+[ESCREVA]
+Plain Text
+SMART CONTRACT
+código + estado + funções + endereço
+[DESENHE]
+Plain Text
+transação assinada → função → condição → novo estado
+[FALE]
+Integridade do registro não é veracidade do dado.
+
+<<<PÁGINA 53>>>
+O contrato é um programa implantado na rede. Ele recebe uma chamada, verifica regras e 
+altera ou consulta o estado.
+[CIRCULE] código + estado .
+[FIXE]
+ETAPA 7 — Componentes
+[ESCREVA] em sequência:
+Plain Text
+código
+estado
+funções
+transação
+nós
+consenso
+gas
+oráculo
+[CONECTE]
+Plain Text
+mundo externo → oráculo → contrato → blockchain
+[FALE]
+O contrato não lê sozinho o mundo externo. O oráculo leva dados para o ambiente on-
+chain.
+[PARE E PERGUNTE]
+Oráculo e validador são a mesma coisa?
+Resposta: não. Oráculo fornece dados externos; validador participa da aceitação e do 
+consenso da rede.
+ETAPA 8 — Autoexecução
+[ESCREVA]
+Plain Text
+Carteira assina; contrato executa.
+
+<<<PÁGINA 54>>>
+SE condição for atendida
+E houver gatilho
+ENTÃO executar regra
+[DESENHE] uma máquina de venda:
+Plain Text
+pagamento correto → produto liberado
+E depois traduza:
+Plain Text
+garantia suficiente → crédito liberado
+[FALE]
+Autoexecução significa que o código aplica a regra automaticamente após o gatilho. Não 
+significa que o contrato tenha vontade própria ou equivalência jurídica universal.
+[CIRCULE] condição e gatilho .
+[FIXE]
+ETAPA 9 — Plataformas
+[ESCREVA]
+Plain Text
+Ethereum   → EVM + gas
+Solana     → programs sBPF + contas
+Cardano    → eUTXO + validator scripts
+Avalanche  → C-Chain + EVM + consenso Avalanche
+[FALE]
+As plataformas podem executar smart contracts, mas não funcionam do mesmo modo. O 
+modelo de estado, a linguagem, o consenso, as taxas e a finalização variam.
+[SUBLINHE] EVM , sBPF , eUTXO e C-Chain .
+Autoexecutável não significa espontâneo.
+
+<<<PÁGINA 55>>>
+ETAPA 10 — Revisão final
+[APAGUE O QUADRO]
+[ESCREVA NO TOPO]
+Plain Text
+REVISÃO — DEFI E SMART CONTRACTS
+[ESCREVA]
+Plain Text
+1. Serviço por protocolo?       DeFi.
+2. Livro-razão distribuído?     Blockchain.
+3. Código + estado?              Smart contract.
+4. Condição + gatilho?           Autoexecução.
+5. Dado externo?                 Oráculo.
+6. Ambiente de execução?         Plataforma.
+7. Quem assina?                  Carteira.
+8. Quem valida?                  Nós/validadores.
+[PARE E PERGUNTE]
+• DeFi elimina toda governança?
+• Blockchain garante que o dado é verdadeiro?
+• Carteira executa o smart contract?
+• Oráculo é validador?
+• Autoexecução ocorre sem gatilho?
+• EVM-compatible é igual a Ethereum?
+• Código aberto é código seguro?
+• Tecnologia cria isenção regulatória?
+[FIXE]
+Referências oficiais e técnicas
+[1] ANBIMA — Programa Detalhado CPA — versão 1.2, revisado em 04/06/2025, vigência a 
+partir de 01/01/2026 — último acesso: 12/09/2026
+Carteira assina → contrato executa → nós validam → consenso registra.
+
+<<<PÁGINA 56>>>
+[2] ANBIMA — Programa de estudos CPA, C-Pro I e C-Pro R — seção 4.4 DeFi — último 
+acesso: 12/09/2026
+[3] Bank for International Settlements — DeFi risks and the decentralisation illusion — 2021 
+— último acesso: 12/09/2026
+[4] NIST — Blockchain — definição de livro-razão distribuído, blocos, hashes e consenso — 
+último acesso: 12/09/2026
+[5] Governo Digital — Blockchain — conceito, tipos de redes, contratos inteligentes e 
+aplicações — atualizado em 19/06/2026 — último acesso: 12/09/2026
+[6] ESMA — Decentralised Finance: A categorisation of smart contracts — 11/10/2023 — 
+último acesso: 12/09/2026
+[7] NIST CSRC — Smart contract — definição de código, dados, implantação, execução pelos 
+nós e registro do resultado — último acesso: 12/09/2026
+[8] Ethereum.org — Introduction to smart contracts — lógica condicional, execução 
+automática, previsibilidade, registro público e limitações — atualizado em 01/07/2026 — 
+último acesso: 12/09/2026
+[9] Ethereum.org — Introduction to smart contracts for developers — contas, transações, 
+gas, composabilidade, oráculos e limitações — atualizado em 25/02/2026 — último acesso: 
+12/09/2026
+[10] Solidity — Introduction to Smart Contracts — código, funções, estado, transações, gas e 
+armazenamento — último acesso: 12/09/2026
+[11] Solana — Programs — código executável on-chain, sBPF, programas stateless, contas e 
+atualização — último acesso: 12/09/2026
+[12] Cardano Developers — Smart Contracts — eUTXO, validator scripts, datum, redeemer, 
+contexto, execução on-chain e off-chain — atualizado em 31/07/2026 — último acesso: 
+12/09/2026
+[13] Avalanche — Snowman Consensus — consenso, validadores, finalização e C-Chain 
+compatível com EVM — último acesso: 12/09/2026
+[14] CVM — Parecer de Orientação nº 40, de 11/10/2022 — criptoativos e valores mobiliários 
+— último acesso: 12/09/2026
+[15] Planalto — Lei nº 14.478, de 21/12/2022 — diretrizes para serviços de ativos virtuais e 
+prestadoras — texto consultado em 12/09/2026
+Observações normativas e metodológicas
+1. O Programa Detalhado CPA é a fonte primária para o escopo. O documento inclui, além 
+dos subitens solicitados, os itens 4.4.3.5 a 4.4.3.10.1, que não foram desenvolvidos 
+integralmente porque não constaram no pedido. 1
+2. DeFi é tratado como tecnologia e modelo de organização de serviços financeiros. A 
+existência de um protocolo DeFi não determina, sozinha, o enquadramento jurídico do 
+
+<<<PÁGINA 57>>>
+ativo, da operação ou dos participantes.
+3. A CVM utiliza análise baseada nas características do criptoativo e da operação. O 
+Parecer de Orientação nº 40 não deve ser lido como uma lista taxativa de todos os casos 
+futuros. 14
+4. A Lei nº 14.478/2022 estabelece diretrizes para serviços de ativos virtuais e preserva a 
+competência da CVM sobre valores mobiliários. O material não presume qual órgão 
+autoriza qualquer atividade específica sem análise normativa própria. 15
+5. A afirmação “sem intermediários” foi tratada com ressalva. Protocolos DeFi podem 
+depender de governança, desenvolvedores, validadores, oráculos, interfaces, pontes e 
+provedores de infraestrutura. 3
+6. Blockchain oferece resistência à adulteração do registro, mas não garante a verdade 
+dos dados de entrada. 4 5
+7. Smart contract e contrato autoexecutável são conceitos técnicos. Não foi afirmado que 
+todo smart contract seja um contrato jurídico completo ou que toda execução 
+automática seja irreversível em termos jurídicos.
+8. As plataformas podem mudar sua arquitetura, linguagem, taxas, regras de atualização e 
+mecanismos de consenso. A comparação deve ser entendida como referência didática 
+na data de acesso.
+9. Os exemplos de DeFi são hipotéticos e não constituem indicação de protocolo, ativo 
+digital, carteira, plataforma ou estratégia de investimento.
+10. Último acesso às fontes: 12/09/2026.
+Checklist de validação do material
+Certificação, módulo, item, subitens, versão e vigência identificados.
+Finanças tradicionais versus DeFi explicado.
+Vantagens potenciais e limites correspondentes explicados.
+Conceito de blockchain explicado.
+Smart contracts definidos.
+Componentes e funcionamento detalhados.
+Contratos autoexecutáveis diferenciados de execução espontânea e contrato jurídico.
+Plataformas Ethereum, Solana, Cardano e Avalanche C-Chain comparadas.
+Carteira, transação, nós, consenso, gas, oráculo, interface e estado diferenciados.
+
+<<<PÁGINA 58>>>
+Riscos de código, oráculo, governança, liquidez, chave, rede e regulamentação 
+incluídos.
+Case de empréstimo colateralizado incluído.
+Questão inédita com cinco alternativas e justificativa individual incluída.
+Roteiro operacional de lousa/tela incluído.
+Resumo em cinco pontos, quadro de emergência, cadeia lógica, diferenças críticas, 
+frase central e próximo estudo incluídos.
+Referências oficiais e técnicas com URLs diretas e data de acesso incluídas.
+Nenhuma questão real foi copiada.
+Nenhuma operação financeira foi realizada ou recomendada.
+Material pronto para uso em aula.
