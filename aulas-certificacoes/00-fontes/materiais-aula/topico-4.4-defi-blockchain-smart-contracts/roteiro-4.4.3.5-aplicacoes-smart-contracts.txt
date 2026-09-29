@@ -1,0 +1,2074 @@
+<<<PÁGINA 1>>>
+Roteiro de Aula — Aplicações Práticas de 
+Smart Contracts
+Empréstimos, DEXs, seguros, imobiliário, governança e 
+DAOs
+Identificação e escopo
+• Certificação: CPA ANBIMA.
+• Módulo: 4. Inovação e desenvolvimento de mercado.
+• Item: 4.4.3. Smart contracts.
+• Subitens:
+• 4.4.3.5. Aplicações práticas de smart contracts;
+• 4.4.3.6. Aplicação em contratos de empréstimos;
+• 4.4.3.7. Exchanges Descentralizadas (DEXs);
+• 4.4.3.8. Seguros;
+• 4.4.3.8.1. Apólices automatizadas;
+• 4.4.3.9. Imobiliário;
+• 4.4.3.9.1. Compra e venda de propriedades;
+• 4.4.3.10. Governança descentralizada;
+• 4.4.3.10.1. Organizações Autônomas Descentralizadas (DAOs).
+• Programa Detalhado: CPA ANBIMA, versão 1.2, revisada em 04/06/2025, com vigência a 
+partir de 01/01/2026. 1
+• Duração estimada: 120 minutos.
+• Formato: roteiro de aula, teleprompter, lousa/tela, case, questão comentada e revisão.
+• Data de referência das fontes: 13/09/2026.
+• Delimitação: o material explica aplicações tecnológicas e seus limites regulatórios. Não 
+constitui recomendação de investimento, indicação de protocolo, orientação para 
+conectar carteira, assinar transação ou contratar produto financeiro, securitário ou 
+imobiliário.
+
+<<<PÁGINA 2>>>
+Nota técnica de escopo
+A ANBIMA incluiu os tópicos solicitados no bloco de DeFi e smart contracts. O Programa 
+Detalhado apresenta os temas como aplicações práticas de uma tecnologia. Ele não 
+transforma cada aplicação em autorização regulatória, produto padronizado ou garantia de 
+funcionamento. 1
+A sequência lógica da aula será:
+Plain Text
+Smart contract
+      ↓
+aplicação financeira
+      ↓
+regra programada
+      ↓
+dado ou condição
+      ↓
+execução automática
+      ↓
+risco técnico + risco jurídico + governança
+Distinção central da aula
+1. Fala de abertura — 7 minutos
+Imagine que uma pessoa queira tomar um empréstimo, trocar um token, contratar um 
+seguro, comprar participação econômica em um imóvel ou votar na utilização de uma 
+tesouraria coletiva.
+Em uma estrutura tradicional, cada atividade depende de contratos, instituições, registros, 
+sistemas internos, pessoas responsáveis e procedimentos de controle.
+Agora imagine que parte dessas regras esteja escrita em código e armazenada em uma 
+blockchain.
+O código poderia:
+• liberar um empréstimo quando a garantia atingir o limite exigido;
+Smart contract automatiza uma regra. Ele não substitui automaticamente a lei, o 
+regulador, o registro público, a seguradora, a instituição financeira ou a 
+responsabilidade das partes.
+
+<<<PÁGINA 3>>>
+• trocar um token por outro usando uma reserva de liquidez;
+• pagar uma cobertura quando um índice climático alcançar determinado gatilho;
+• liberar uma etapa de pagamento após uma condição documental;
+• distribuir recursos de uma tesouraria após votação.
+A pergunta da aula é:
+Essa é a pergunta que evita a principal confusão do tema.
+O código pode automatizar uma regra verificável. Porém, ele não resolve sozinho:
+• a validade jurídica da operação;
+• a qualidade do dado externo;
+• a propriedade do ativo;
+• a autorização regulatória;
+• a proteção do consumidor;
+• a responsabilidade por erro;
+• a governança do protocolo;
+• a reversão de uma execução equivocada.
+O NIST define smart contract como uma coleção de código e dados implantada em uma 
+rede blockchain. Os nós executam o contrato, devem chegar ao mesmo resultado e 
+registram o resultado na blockchain. 2
+A ANBIMA explica que contratos inteligentes podem aplicar automaticamente 
+consequências quando condições predeterminadas são atendidas. A publicação também 
+destaca ganhos potenciais de eficiência, tempo, transparência e menor intervenção 
+humana, mas alerta que um erro de programação pode gerar problemas relevantes. 3
+Objetivo da abertura
+Ao final da aula, o aluno deverá conseguir:
+• reconhecer aplicações práticas de smart contracts;
+• explicar a lógica de um empréstimo DeFi;
+• diferenciar DEX, AMM, pool de liquidez, LP, price impact e slippage;
+• explicar impermanent loss sem confundi-la com taxa ou perda operacional;
+• diferenciar seguro tradicional, seguro paramétrico e apólice automatizada;
+Quando o código executa a operação, o que foi automatizado e o que continua 
+dependendo de pessoas, instituições, registros e leis?
+
+<<<PÁGINA 4>>>
+• explicar por que tokenização imobiliária não transfere automaticamente o domínio do 
+imóvel;
+• distinguir governança descentralizada, votação e execução;
+• definir DAO e identificar riscos de concentração de poder.
+Frase de fixação
+Comando de lousa/tela
+[ESCREVA]
+Plain Text
+SMART CONTRACT
+regra codificada + condição verificável + execução on-chain
+[PARE E PERGUNTE]
+Se um código executou corretamente, isso significa que a operação era juridicamente 
+válida?
+Resposta esperada: não. Execução técnica e validade jurídica são dimensões diferentes.
+2. Introdução com metáfora central — 7 
+minutos
+Metáfora: a máquina de regras financeiras
+Imagine uma máquina automática.
+Ela recebe uma entrada, verifica uma condição e produz uma saída:
+Plain Text
+Entrada + condição atendida → saída programada
+Exemplo simples:
+Plain Text
+O código automatiza a execução; o contexto jurídico, econômico e operacional 
+continua existindo.
+
+<<<PÁGINA 5>>>
+Pagamento correto + produto disponível → produto liberado
+Agora substitua a máquina por um smart contract:
+Plain Text
+Garantia suficiente + preço válido → empréstimo liberado
+Ou:
+Plain Text
+Índice climático acima do gatilho → pagamento paramétrico iniciado
+Ou ainda:
+Plain Text
+Quórum atingido + maioria aprovada → proposta executada
+Correspondência da metáfora
+Elemento visual
+Conceito técnico
+Máquina
+Smart contract e infraestrutura blockchain
+Entrada
+Transação, assinatura ou dado externo
+Sensor
+Oráculo ou fonte de dados
+Regra interna
+Código do contrato
+Estoque
+Estado on-chain e reservas do protocolo
+Botão de acionamento
+Chamada de função ou transação
+Saída
+Transferência, liquidação, pagamento ou 
+mudança de estado
+Livro de registros
+Blockchain
+Manual de emergência
+Governança, pausa, multisig ou 
+procedimento jurídico
+
+<<<PÁGINA 6>>>
+Limite da metáfora
+Uma máquina de venda opera em um ambiente controlado. Um smart contract pode 
+depender de:
+• preços de mercado;
+• sensores;
+• outras blockchains;
+• interfaces;
+• liquidez;
+• validadores;
+• administradores;
+• chaves privadas;
+• registros públicos;
+• decisões de governança.
+Por isso, a máquina ajuda a entender a lógica de automação, mas não significa que a 
+operação seja simples, segura ou juridicamente autossuficiente.
+Frase de impacto
+3. Explicação dos tópicos
+3.1 Aplicações práticas de smart contracts
+O que é
+Aplicação prática de smart contract é o uso de código implantado em blockchain para 
+executar ou registrar uma regra em uma atividade concreta.
+A regra precisa ser traduzida para critérios verificáveis por máquina.
+Exemplo de regra humana:
+Essa frase é vaga para um computador.
+Smart contract é uma máquina de regras. Se a entrada estiver errada ou a regra 
+estiver mal escrita, a execução automática pode acelerar o erro.
+“Pague quando a condição econômica estiver suficientemente protegida.”
+
+<<<PÁGINA 7>>>
+Ela precisaria ser convertida em algo semelhante a:
+Plain Text
+Se o valor da garantia ≥ limite mínimo
+E a assinatura for válida
+E a transação estiver dentro do prazo
+Então liberar o ativo
+Função e objetivo
+Smart contracts podem automatizar:
+• transferência de tokens;
+• custódia programável;
+• distribuição de receitas;
+• liquidação de posições;
+• cobrança de taxas;
+• pagamentos condicionais;
+• empréstimos;
+• trocas de ativos;
+• seguros paramétricos;
+• governança;
+• registros de eventos;
+• emissão e movimentação de tokens.
+Como funciona
+Plain Text
+1. Definir participantes e ativos
+2. Transformar regras em código
+3. Implantar o contrato
+4. Receber uma transação ou dado
+5. Verificar condição e permissões
+6. Atualizar o estado
+7. Registrar o resultado
+O contrato não precisa de inteligência humana para interpretar a regra. Ele executa a lógica 
+
+<<<PÁGINA 8>>>
+previamente programada.
+Aplicações práticas por função
+Aplicação em liquidação atômica
+A liquidação atômica ocorre quando as etapas de uma operação são executadas de forma 
+coordenada, reduzindo o intervalo entre entrega e pagamento.
+Exemplo:
+Plain Text
+Pagamento validado + ativo digital disponível
+                     ↓
+entrega do ativo e pagamento na mesma lógica
+Isso pode reduzir o risco de uma parte entregar antes de receber. Porém, a operação 
+precisa estar juridicamente estruturada e ambos os ativos precisam ser controláveis pelo 
+ambiente tecnológico.
+Função
+Exemplo
+Resultado possível
+Transferência condicionada
+Escrow digital
+Pagamento liberado após 
+condição.
+Empréstimo
+Colateral e dívida on-chain
+Crédito, juros e liquidação 
+programados.
+Troca
+DEX e AMM
+Conversão de um token em 
+outro.
+Seguro
+Índice climático
+Pagamento após gatilho 
+paramétrico.
+Imobiliário
+Fluxo de aquisição ou renda
+Coordenação de pagamentos e 
+direitos representados.
+Governança
+Votação de tesouraria
+Execução de decisão aprovada.
+Tokenização
+Direitos ou ativos 
+representados
+Transferência programável do 
+token.
+Compliance operacional
+Regra de elegibilidade
+Bloqueio ou autorização 
+conforme condição.
+
+<<<PÁGINA 9>>>
+Oráculos
+O smart contract não conhece diretamente tudo o que ocorre fora da blockchain.
+Ele pode não saber, sozinho:
+• o preço de um imóvel;
+• a ocorrência de uma chuva;
+• a existência de um dano;
+• o status de uma matrícula;
+• a cotação de um ativo em outra infraestrutura;
+• o atraso de um voo;
+• a identidade civil de uma pessoa.
+Um oráculo leva dados externos para o contrato.
+Plain Text
+Mundo externo → oráculo → smart contract → execução
+O oráculo cria uma ponte, mas também cria riscos de:
+• autenticidade;
+• integridade;
+• disponibilidade;
+• atraso;
+• manipulação;
+• concentração em um único fornecedor.
+Exemplo prático
+Um contrato de escrow para compra de um ativo digital pode prever:
+1. comprador deposita o valor;
+2. vendedor deposita o ativo;
+3. contrato verifica os dois depósitos;
+4. contrato libera simultaneamente o pagamento e o ativo;
+5. se o prazo vencer sem a segunda condição, aplica a regra prevista.
+O que a prova pode confundir
+
+<<<PÁGINA 10>>>
+• Smart contract não é necessariamente contrato jurídico.
+• Automação não elimina responsabilidade.
+• Blockchain não garante que o dado externo seja verdadeiro.
+• Oráculo não é o mesmo que validador da rede.
+• Registro on-chain não é automaticamente registro público oficial.
+• Código aberto não significa código sem vulnerabilidade.
+• Execução automática não significa que a regra seja economicamente justa.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.4.3.5. Aplicações práticas de smart contracts.
+Fonte e status
+A ANBIMA apresenta smart contracts como programas que executam automaticamente 
+condições predeterminadas e registra aplicações em empréstimos, investimento, 
+transferência de fundos e operações com bens físicos ou digitais. 3
+• Status: aplicação tecnológica e prática de mercado; o enquadramento jurídico 
+depende do ativo, da atividade e do caso concreto.
+3.2 Aplicação em contratos de empréstimos
+O que é
+É o uso de smart contracts para automatizar etapas de um empréstimo, como:
+• depósito da garantia;
+• liberação do crédito;
+• cálculo de juros;
+• atualização da dívida;
+• recebimento de pagamentos;
+• liberação do colateral;
+O smart contract executa o que foi programado, não o que as partes imaginaram 
+sem traduzir em regra.
+
+<<<PÁGINA 11>>>
+• liquidação da posição.
+Em protocolos DeFi, o empréstimo costuma ser executado com ativos digitais e regras 
+programadas. Em uma operação tradicional, o smart contract pode ser apenas uma 
+camada tecnológica conectada a contratos, instituições e registros jurídicos.
+Função e objetivo
+O objetivo é transformar as regras de crédito em condições verificáveis.
+Plain Text
+Colateral válido + limite disponível + transação autorizada
+                              ↓
+                       crédito liberado
+Como funciona em um protocolo DeFi
+1. O usuário deposita um ativo como garantia.
+2. O protocolo registra o depósito no estado.
+3. Um oráculo informa o preço do ativo, quando necessário.
+4. O protocolo calcula a capacidade de endividamento.
+5. O usuário solicita o empréstimo.
+6. O contrato libera o ativo emprestado.
+7. A dívida e os juros são atualizados.
+8. O usuário pode pagar parte ou a totalidade da dívida.
+9. Após a quitação, a garantia pode ser liberada.
+10. Se a garantia perder valor suficiente, ocorre o risco de liquidação segundo os 
+parâmetros do protocolo.
+Colateral e sobrecolateralização
+Colateral é o ativo dado como garantia.
+Sobrecolateralização ocorre quando o valor da garantia supera o valor do empréstimo.
+Exemplo didático:
+Plain Text
+Garantia: 100
+Empréstimo: 60
+
+<<<PÁGINA 12>>>
+Relação inicial dívida/garantia: 60%
+Esse mecanismo pode reduzir o risco de perda para o protocolo, mas não elimina:
+• volatilidade;
+• risco de liquidação;
+• risco de oráculo;
+• risco de código;
+• risco de liquidez;
+• risco de stablecoin;
+• risco de governança.
+LTV, liquidation threshold e Health Factor
+Esses conceitos não devem ser tratados como sinônimos.
+Na documentação da Aave, o Health Factor é calculado como:
+Plain Text
+Health Factor =
+(valor total do colateral × liquidation threshold médio ponderado)
+÷ valor total emprestado
+Na Aave, Health Factor abaixo de 1 sinaliza risco de liquidação. A própria documentação 
+alerta que não existe um Health Factor universalmente “seguro”, pois o risco depende da 
+Conceito
+Explicação didática
+LTV
+Relação entre o valor da dívida e o valor da 
+garantia, usada para definir quanto pode ser 
+tomado.
+Liquidation threshold
+Limite relacionado à possibilidade de 
+liquidação, definido pelo protocolo e pelo 
+ativo.
+Health Factor
+Métrica dinâmica de segurança da posição 
+em determinados protocolos.
+Liquidation bonus
+Incentivo ou desconto que pode ser atribuído 
+ao liquidante, conforme as regras do 
+protocolo.
+
+<<<PÁGINA 13>>>
+volatilidade e da correlação dos ativos. 4
+Liquidação
+A liquidação ocorre quando a posição deixa de cumprir o nível de segurança definido pelo 
+protocolo.
+Na Aave, um participante pode iniciar uma liquidação quando a posição estiver elegível. O 
+liquidante paga parte da dívida e recebe valor correspondente da garantia, acrescido do 
+bônus previsto pelo protocolo. 4
+Esse mecanismo é específico da Aave e não deve ser transformado em regra geral para todo 
+empréstimo DeFi.
+Exemplo numérico didático
+Suponha:
+• valor da garantia: 10.000 unidades monetárias;
+• liquidation threshold: 80%;
+• valor da dívida: 6.000 unidades monetárias.
+Plain Text
+Health Factor = (10.000 × 80%) ÷ 6.000
+Health Factor = 8.000 ÷ 6.000
+Health Factor = 1,3333
+Se o valor da garantia cair para 7.000, mantendo os demais dados constantes:
+Plain Text
+Health Factor = (7.000 × 80%) ÷ 6.000
+Health Factor = 5.600 ÷ 6.000
+Health Factor = 0,9333
+A posição ficaria abaixo de 1 nesse modelo didático.
+Atenção: o cálculo ilustra a mecânica da Aave. Não é recomendação, não representa todos 
+os protocolos e não deve ser usado como parâmetro universal.
+Oráculo no crédito
+O protocolo precisa de um preço para avaliar a garantia.
+Plain Text
+
+<<<PÁGINA 14>>>
+Preço externo → oráculo → valor da garantia → Health Factor → decisão
+Se o preço estiver atrasado ou errado, o contrato pode:
+• liberar crédito em excesso;
+• impedir uma retirada legítima;
+• liquidar uma posição antes do necessário;
+• não liquidar uma posição que já deveria estar protegida.
+Aplicação em crédito tradicional
+Em uma instituição financeira tradicional, smart contracts podem ajudar em:
+• análise de documentos;
+• liberação condicionada;
+• conciliação de pagamentos;
+• acompanhamento de garantias;
+• eventos de vencimento;
+• distribuição de recebíveis;
+• liquidação entre instituições.
+Isso não significa que o banco desapareça. Podem continuar existindo:
+• instituição autorizada;
+• contrato jurídico;
+• análise de crédito;
+• KYC e prevenção à lavagem de dinheiro;
+• cadastro de garantias;
+• cobrança;
+• atendimento;
+• tratamento de exceções;
+• processo judicial.
+O que a prova pode confundir
+• Sobrecolateralização não existe em todo crédito.
+• LTV não é juros.
+
+<<<PÁGINA 15>>>
+• Health Factor não é score de crédito.
+• Liquidator não é necessariamente banco.
+• Oráculo informa preço, mas não garante sua veracidade.
+• Liquidação automática não elimina risco de preço.
+• Parâmetros da Aave não são regras da ANBIMA, do Banco Central ou de todos os 
+protocolos.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.4.3.6. Aplicação em contratos de empréstimos.
+Fonte e status
+• Aave, Health Factor e liquidação. 4
+• NIST, definição técnica de smart contract. 2
+• Ethereum, execução, gas e oráculos. 5 6
+• Status: Aave é exemplo de protocolo específico. LTV, liquidation threshold, Health 
+Factor, juros e bônus variam por protocolo, rede, ativo e governança.
+3.3 Exchanges Descentralizadas — DEXs
+O que é
+Uma DEX é um protocolo que permite a troca de criptoativos por meio de smart contracts, 
+geralmente sem que uma corretora centralizada mantenha a custódia dos ativos durante 
+toda a operação.
+A Uniswap é um exemplo de DEX baseada em Automated Market Maker, ou AMM. Em vez 
+de utilizar um livro centralizado de ofertas, o protocolo utiliza pools de liquidez. 7
+Atenção: nem toda DEX precisa utilizar exatamente o modelo AMM. DEXs podem usar:
+• AMMs;
+• livros de ofertas on-chain;
+• livros de ofertas off-chain com liquidação on-chain;
+No empréstimo DeFi, a garantia protege o protocolo, o oráculo informa o preço e o 
+smart contract executa as regras.
+
+<<<PÁGINA 16>>>
+• sistemas baseados em intenções;
+• agregadores e roteadores.
+Função e objetivo
+A DEX pode permitir:
+• troca de um token por outro;
+• formação de preço;
+• criação de pools;
+• provisão de liquidez;
+• negociação permissionless, quando o protocolo tiver esse desenho;
+• composição com lending, derivativos e outros protocolos.
+Como funciona um AMM
+Uma pool possui reservas de dois tokens.
+Plain Text
+Pool ETH/USDC
+reserva de ETH + reserva de USDC
+Na formulação clássica de produto constante:
+Plain Text
+x × y = k
+Onde:
+•
+x é a reserva do primeiro token;
+•
+y é a reserva do segundo token;
+•
+k é a constante ou invariante do modelo.
+Quando o usuário troca um token por outro, uma reserva aumenta e a outra diminui. O 
+preço relativo muda.
+Liquidity Provider — LP
+O liquidity provider, ou LP, deposita ativos na pool.
+Em troca, pode receber:
+
+<<<PÁGINA 17>>>
+• participação econômica na pool;
+• taxas de negociação;
+• token que representa a posição;
+• NFT ou posição identificada, conforme a versão do protocolo.
+Na Uniswap v2, a participação é representada por tokens de pool. Nas versões v3 e v4, o 
+provedor pode escolher uma faixa de preço, e a posição possui estrutura diferente. 7
+Swap
+O usuário realiza um swap quando troca um token por outro através da pool.
+Fluxo:
+1. usuário escolhe token de entrada;
+2. usuário escolhe token de saída;
+3. interface consulta uma rota;
+4. usuário aprova o contrato, quando necessário;
+5. usuário define tolerância de slippage;
+6. usuário assina a transação;
+7. a rede executa o contrato;
+8. a pool atualiza as reservas;
+9. usuário recebe o token de saída, se as condições forem atendidas.
+Price impact
+Price impact é a diferença entre o preço médio e o preço de execução causada pelo 
+tamanho da própria negociação em relação à liquidez da pool. 8
+Plain Text
+ordem grande + pool pequena → maior price impact
+ordem pequena + pool profunda → menor price impact
+Slippage
+Slippage é a diferença total entre o preço esperado quando a transação é enviada e o preço 
+efetivo na execução.
+Ela pode incorporar:
+
+<<<PÁGINA 18>>>
+• price impact;
+• movimento de mercado;
+• alterações na pool;
+• tempo de espera;
+• prioridade de transação.
+Não confunda:
+Plain Text
+Price impact = impacto causado pelo tamanho da própria ordem
+Slippage     = diferença total entre expectativa e execução
+Impermanent loss
+Impermanent loss é o custo de oportunidade do LP quando os preços relativos dos tokens 
+mudam, comparado à alternativa de simplesmente manter os tokens fora da pool. 8
+Exemplo visual:
+Plain Text
+Estratégia A: apenas manter os tokens
+Estratégia B: depositar os tokens na pool
+Se os preços relativos mudam:
+valor da Estratégia B pode ficar abaixo da Estratégia A
+O LP pode receber taxas. Essas taxas podem compensar parte ou toda a diferença em 
+determinados cenários, mas não existe garantia de compensação.
+Riscos de uma DEX
+• risco de smart contract;
+• risco de token fraudulento;
+• baixa liquidez;
+• price impact;
+• slippage;
+• impermanent loss;
+• congestionamento;
+
+<<<PÁGINA 19>>>
+• gas elevado;
+• MEV;
+• front-running;
+• ataque sandwich;
+• falha de carteira;
+• perda de chave privada;
+• erro de aprovação;
+• falha de bridge;
+• concentração de governança;
+• risco regulatório.
+DEX versus exchange centralizada
+O que a prova pode confundir
+• DEX não é sinônimo de AMM.
+• AMM não é livro de ofertas.
+• Pool de liquidez não é depósito bancário.
+• LP não é simplesmente investidor passivo sem risco.
+DEX
+Exchange centralizada
+Protocolo e smart contracts.
+Empresa e sistemas centralizados.
+Pode utilizar autocustódia.
+Usuário pode entregar custódia à plataforma.
+AMM, pool ou livro on-chain.
+Livro de ofertas e motor central de 
+negociação.
+Liquidação on-chain.
+Liquidação interna ou em infraestrutura 
+externa.
+Regras públicas no código, quando 
+disponíveis.
+Regras institucionais e sistemas privados.
+Riscos de código, oráculo, rede e carteira.
+Riscos de empresa, custódia, sistemas e 
+contraparte.
+Não elimina governança ou concentração.
+Entidade central identificável.
+
+<<<PÁGINA 20>>>
+• Price impact não é slippage.
+• Slippage não é impermanent loss.
+• Autocustódia não elimina risco.
+• Permissionless não significa autorizado ou regulado.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.4.3.7. Exchanges Descentralizadas (DEXs).
+Fonte e status
+• Uniswap, AMM, pools, LPs, fórmula de produto constante e price impact. 7
+• Uniswap, price impact, slippage e impermanent loss. 8
+• CVM, análise funcional de criptoativos e valores mobiliários. 9
+• Status: Uniswap é exemplo de DEX/AMM. Não generalizar arquitetura, parâmetros ou 
+enquadramento jurídico para todos os protocolos.
+3.4 Seguros
+O que é
+O seguro é uma operação de transferência de risco.
+A Lei nº 15.040/2024 define o contrato de seguro como aquele em que a seguradora, 
+mediante o pagamento do prêmio, garante interesse legítimo do segurado ou do 
+beneficiário contra riscos predeterminados. 10
+A mesma lei determina que somente entidades devidamente autorizadas podem pactuar 
+contratos de seguro. 10
+Função e objetivo
+O seguro busca proteger um interesse legítimo contra um risco previamente delimitado.
+Exemplos de interesses:
+• veículo;
+Na DEX, o usuário negocia com o protocolo; na AMM, o protocolo negocia contra a 
+pool.
+
+<<<PÁGINA 21>>>
+• residência;
+• equipamento;
+• atividade rural;
+• vida;
+• responsabilidade civil;
+• crédito;
+• patrimônio.
+Como funciona no modelo tradicional
+Plain Text
+interesse legítimo
+        ↓
+risk assessment
+        ↓
+prêmio
+        ↓
+apólice e cobertura
+        ↓
+evento coberto
+        ↓
+aviso e regulação do sinistro
+        ↓
+pagamento ou negativa fundamentada
+A tecnologia pode automatizar algumas etapas. Ela não elimina a estrutura contratual, a 
+seguradora, o dever de informação ou a análise jurídica.
+Seguro paramétrico
+No seguro paramétrico, o pagamento pode ser acionado por um índice ou parâmetro 
+previamente definido.
+Exemplos de parâmetros:
+• volume de chuva;
+• velocidade do vento;
+• temperatura;
+• índice de seca;
+• intensidade de terremoto;
+
+<<<PÁGINA 22>>>
+• nível de rio;
+• índice de vegetação.
+A lógica é:
+Plain Text
+índice observado ≥ gatilho contratado → pagamento previsto
+O pagamento não precisa coincidir exatamente com a perda individual.
+Essa diferença cria o risco de base:
+Plain Text
+perda real ≠ pagamento paramétrico
+Pode ocorrer:
+• perda sem atingimento do gatilho;
+• gatilho atingido sem perda equivalente;
+• pagamento inferior à perda;
+• pagamento superior à perda.
+O seguro paramétrico deve ser explicado como modalidade ou estrutura de pagamento 
+baseada em parâmetro objetivo. Ele não deve ser apresentado como pagamento 
+automático de qualquer prejuízo.
+Aplicação de smart contracts em seguros
+O smart contract pode automatizar:
+• registro da apólice;
+• cobrança do prêmio;
+• verificação do índice;
+• aplicação do gatilho;
+• cálculo do pagamento;
+• liberação de recursos;
+• registro dos eventos.
+Um exemplo:
+Plain Text
+
+<<<PÁGINA 23>>>
+Apólice agrícola
++ índice de chuva abaixo do limite
++ fonte de dados válida
++ vigência ativa
+→ pagamento paramétrico
+O que a prova pode confundir
+• Seguro paramétrico não é simplesmente “seguro sem apuração”.
+• Pagamento paramétrico não garante correspondência exata com o dano.
+• Smart contract não é seguradora.
+• Blockchain não substitui apólice.
+• Sandbox regulatório não significa autorização permanente para qualquer produto.
+• Automação não elimina o direito de contestação, a proteção do consumidor ou os 
+requisitos legais.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.4.3.8. Seguros.
+Fonte e status
+• Lei nº 15.040/2024, definição de seguro e exigência de entidade autorizada. 10
+• IAIS e FSI/BIS, descrição de seguro paramétrico, parâmetros, gatilhos, dados e risco de 
+base. 11
+• SUSEP, Sandbox Regulatório e produtos inovadores. 12
+• Status: aplicação tecnológica e securitária depende de produto, contrato, entidade e 
+regulação aplicável.
+3.5 Apólices automatizadas
+O que é
+No seguro paramétrico, o gatilho é objetivo; a indenização pode não ser igual ao 
+dano real.
+
+<<<PÁGINA 24>>>
+Apólice automatizada é uma expressão tecnológica ou de mercado para uma apólice em 
+que parte do fluxo é executada por software, APIs, regras automáticas, smart contracts ou 
+integração de dados.
+Não é uma categoria jurídica autônoma criada pelo Programa CPA ou pela Lei nº 
+15.040/2024.
+Uma apólice pode ser automatizada em partes e continuar sendo um contrato de seguro 
+tradicional.
+Função e objetivo
+A automação pode atuar em:
+• cotação;
+• coleta de informações;
+• subscrição;
+• emissão;
+• cobrança;
+• renovação;
+• endosso;
+• aviso de sinistro;
+• triagem;
+• checagem do índice;
+• cálculo;
+• pagamento.
+Como funciona
+Plain Text
+1. Dados do risco são coletados
+2. Regras de aceitação são aplicadas
+3. Prêmio é calculado
+4. Apólice é emitida em suporte duradouro
+5. Prêmio é cobrado
+6. Evento é recebido ou monitorado
+7. Condição é verificada
+8. Pagamento ou análise é iniciado
+9. Registro e comunicação são produzidos
+
+<<<PÁGINA 25>>>
+Apólice tradicional automatizada
+Exemplo:
+1. cliente informa dados do veículo;
+2. sistema calcula o prêmio;
+3. seguradora aceita o risco;
+4. documento é emitido digitalmente;
+5. pagamento ocorre por débito automático;
+6. aviso de sinistro é enviado por aplicativo;
+7. sistema solicita fotos e documentos;
+8. regulação continua sujeita à apólice e à supervisão humana quando necessária.
+Apólice paramétrica automatizada
+Exemplo:
+1. agricultor contrata cobertura;
+2. apólice define estação ou fonte de dados;
+3. define-se o índice e o gatilho;
+4. oracle recebe o índice;
+5. contrato verifica a condição;
+6. se o gatilho for atendido, o valor previsto é calculado;
+7. pagamento é iniciado conforme a estrutura contratual.
+Limites jurídicos
+A automação não elimina:
+• entidade autorizada;
+• contrato de seguro;
+• interesse legítimo;
+• risco predeterminado;
+• prêmio;
+• documento probatório;
+• clareza de cobertura e exclusões;
+• boa-fé;
+
+<<<PÁGINA 26>>>
+• proteção do consumidor;
+• tratamento de dados;
+• canal de atendimento;
+• correção de erro;
+• possibilidade de disputa.
+Oráculo e apólice automatizada
+O oráculo pode informar o evento. Porém, a origem do dado deve ser analisada.
+Perguntas relevantes:
+• Quem coleta o dado?
+• Qual é a fonte?
+• O dado é público ou privado?
+• Existe redundância?
+• Existe atraso?
+• O sensor pode falhar?
+• O contrato aceita correção?
+• Quem responde por erro?
+• O segurado pode contestar?
+O que a prova pode confundir
+• Apólice digital não é necessariamente apólice automatizada por smart contract.
+• Apólice automatizada não é categoria que substitua o seguro tradicional.
+• Seguro paramétrico não equivale a ausência de risco de base.
+• Oracle não é prova absoluta da realidade.
+• Pagamento automático não elimina regras de cobertura e exclusão.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.4.3.8.1. Apólices automatizadas.
+Apólice automatizada descreve a tecnologia do fluxo; não elimina o contrato de 
+seguro nem a seguradora autorizada.
+
+<<<PÁGINA 27>>>
+Fonte e status
+• Lei nº 15.040/2024. 10
+• IAIS e FSI/BIS, seguro paramétrico. 11
+• SUSEP, Open Insurance e sandbox regulatório. 12
+• Status: expressão tecnológica/mercadológica; não tratá-la como categoria jurídica 
+autônoma sem fonte normativa específica.
+3.6 Imobiliário
+O que é
+No setor imobiliário, smart contracts podem coordenar informações, pagamentos, 
+garantias, distribuição de rendimentos, cessões de direitos, tokens e etapas de uma 
+operação.
+O uso do código não altera automaticamente a natureza jurídica do imóvel ou do direito 
+representado.
+Função e objetivo
+Aplicações possíveis:
+• escrow digital;
+• pagamento condicionado;
+• distribuição de aluguéis;
+• registro de eventos;
+• tokenização de direitos econômicos;
+• gestão de participação em veículo;
+• automação de fluxos de financiamento;
+• governança de ativos coletivos.
+Tokenização imobiliária
+Um token pode representar:
+• direito contratual;
+• participação econômica;
+• recebível;
+
+<<<PÁGINA 28>>>
+• cota de veículo;
+• direito a fluxo de renda;
+• instrumento de dívida;
+• participação societária;
+• outro arranjo definido juridicamente.
+O token não é automaticamente:
+• a matrícula do imóvel;
+• a escritura pública;
+• o título translativo;
+• a propriedade registral;
+• a posse;
+• a garantia real;
+• um valor mobiliário em qualquer hipótese.
+A CVM adota análise funcional para criptoativos. Tokens que representem valores 
+mobiliários tradicionais, certificados de recebíveis tokenizados ou contratos de 
+investimento coletivo ofertados publicamente podem estar sujeitos às regras da CVM. 9
+Como funciona uma aplicação imobiliária
+Plain Text
+direito jurídico definido
+        ↓
+estrutura contratual ou societária
+        ↓
+representação digital
+        ↓
+smart contract
+        ↓
+pagamentos e transferências programadas
+        ↓
+registros e governança
+Oráculos imobiliários
+O contrato pode precisar de dados externos:
+• titularidade;
+
+<<<PÁGINA 29>>>
+• valor do imóvel;
+• regularidade fiscal;
+• existência de ônus;
+• registro de escritura;
+• cumprimento de condição;
+• entrega de documento;
+• ocupação ou vistoria.
+Esses dados precisam ser fornecidos por fontes confiáveis.
+Plain Text
+Cartório ou fonte externa → oracle → smart contract
+O registro on-chain da informação não substitui a fonte jurídica de origem.
+O que a prova pode confundir
+• Token não é automaticamente imóvel.
+• Blockchain não é automaticamente Registro de Imóveis.
+• Tokenização não substitui escritura quando exigida.
+• Transparência técnica não significa propriedade.
+• Liquidez de token não é liquidez do imóvel.
+• Smart contract não substitui diligência imobiliária.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.4.3.9. Imobiliário.
+Fonte e status
+• Código Civil, compra e venda, escritura pública e transferência pelo registro. 13
+• Lei de Registros Públicos, Registro de Imóveis. 14
+• CVM, criptoativos e valores mobiliários. 9
+Tokenizar o direito não é o mesmo que transferir o domínio do imóvel.
+
+<<<PÁGINA 30>>>
+• Status: aplicação tecnológica condicionada ao direito representado e às formalidades 
+do negócio.
+3.7 Compra e venda de propriedades
+O que é
+O Código Civil define compra e venda como o contrato pelo qual uma parte se obriga a 
+transferir o domínio e a outra se obriga a pagar determinado preço em dinheiro. 13
+A compra e venda pura é obrigatória e perfeita quando as partes acordam sobre o objeto e 
+o preço. 13
+Isso não significa que o simples acordo transfira automaticamente a propriedade 
+imobiliária.
+Escritura pública
+Para negócios jurídicos que envolvam direitos reais sobre imóveis de valor superior a trinta 
+vezes o maior salário mínimo vigente, a escritura pública é essencial à validade, salvo 
+disposição legal em contrário. 13
+Registro imobiliário
+A propriedade imobiliária entre vivos é transferida mediante o registro do título translativo 
+no Registro de Imóveis. 13
+Portanto:
+Plain Text
+contrato de compra e venda ≠ propriedade registrada
+A sequência jurídica pode ser resumida assim:
+Plain Text
+acordo sobre objeto e preço
+        ↓
+contrato ou escritura, conforme o caso
+        ↓
+título translativo
+        ↓
+registro no Registro de Imóveis
+
+<<<PÁGINA 31>>>
+        ↓
+transferência da propriedade perante o sistema registral
+Aplicação de smart contract
+O smart contract poderia automatizar uma parte do fluxo:
+1. comprador deposita recursos;
+2. vendedor disponibiliza documentos;
+3. oracle confirma determinada condição;
+4. contrato bloqueia ou libera o pagamento;
+5. documentos são encaminhados para a etapa jurídica;
+6. pagamento é distribuído conforme o contrato;
+7. evento de registro é incorporado ao histórico do sistema.
+O contrato não deve ser descrito como substituto automático do cartório ou do título 
+translativo.
+Compra e venda com financiamento
+Em financiamento imobiliário, a alienação fiduciária pode ser utilizada como garantia.
+A Lei nº 9.514/1997 prevê a transferência da propriedade resolúvel ao credor como garantia 
+de obrigação. A propriedade fiduciária constitui-se mediante registro do contrato no 
+Registro de Imóveis. 15
+O inadimplemento segue procedimentos jurídicos próprios, que não devem ser 
+confundidos com uma simples liquidação automática de um protocolo DeFi.
+LTV imobiliário
+LTV, ou loan-to-value, é a relação entre o saldo devedor e o valor do imóvel oferecido como 
+garantia.
+Plain Text
+LTV = saldo devedor ÷ valor da garantia
+Exemplo:
+• saldo devedor: 300.000;
+• valor do imóvel: 500.000.
+Plain Text
+
+<<<PÁGINA 32>>>
+LTV = 300.000 ÷ 500.000
+LTV = 60%
+LTV não é:
+• taxa de juros;
+• rentabilidade;
+• Health Factor;
+• percentual universal de entrada;
+• garantia de aprovação;
+• regra aplicável a toda operação imobiliária.
+O que a prova pode confundir
+• Compra e venda perfeita não é necessariamente propriedade registrada.
+• Escritura pública e registro têm funções diferentes.
+• Posse não é domínio.
+• Token de participação econômica não é automaticamente imóvel.
+• Alienação fiduciária não é compra e venda simples.
+• LTV não é Health Factor.
+• Liquidação DeFi não substitui execução de garantia imobiliária.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.4.3.9.1. Compra e venda de propriedades.
+Fonte e status
+• Código Civil, arts. 108, 481, 482 e 1.245. 13
+• Lei de Registros Públicos. 14
+• Lei nº 9.514/1997, alienação fiduciária de imóvel. 15
+• Status: regras jurídicas brasileiras vigentes na data de consulta; a aplicação tecnológica 
+não elimina as formalidades legais.
+No imóvel, o código pode coordenar o fluxo; o registro continua sendo decisivo para 
+a propriedade.
+
+<<<PÁGINA 33>>>
+3.8 Governança descentralizada
+O que é
+Governança descentralizada é o processo de tomada de decisões distribuído entre 
+participantes de um protocolo, comunidade ou organização.
+As decisões podem tratar de:
+• taxas;
+• parâmetros de risco;
+• listagem de ativos;
+• incentivos;
+• tesouraria;
+• atualizações de código;
+• pausas emergenciais;
+• contratação de prestadores;
+• uso de reservas;
+• distribuição de recursos.
+Função e objetivo
+O objetivo é permitir que decisões não dependam exclusivamente de uma autoridade 
+central.
+Porém, descentralização não significa ausência total de liderança, governança ou 
+concentração.
+Como funciona
+Plain Text
+proposta
+   ↓
+período de discussão
+   ↓
+votação
+   ↓
+quórum e maioria
+   ↓
+
+<<<PÁGINA 34>>>
+timelock ou período de espera
+   ↓
+execução automática ou por multisig
+Modalidades de voto
+• voto por token;
+• voto por participação;
+• voto por reputação;
+• voto delegado;
+• voto quadrático;
+• voto por membros autorizados;
+• combinação de mecanismos.
+Decisão versus execução
+Essa distinção é essencial:
+Plain Text
+votação aprovada ≠ execução automaticamente realizada
+Após a aprovação, a decisão pode:
+• ser executada automaticamente por smart contract;
+• exigir um timelock;
+• depender de uma multisig;
+• exigir um executor autorizado;
+• depender de uma integração externa;
+• ser impossível se o código não possuir a função correspondente.
+Governança e concentração
+Um protocolo pode parecer distribuído, mas o poder real pode estar concentrado em:
+• poucos detentores de tokens;
+• fundadores;
+• desenvolvedores;
+• delegados;
+
+<<<PÁGINA 35>>>
+• signatários de uma multisig;
+• administrador de upgrade;
+• operador de oracle;
+• provedor de interface;
+• validadores.
+O que a prova pode confundir
+• Governança descentralizada não significa governança igualitária.
+• Voto não é necessariamente execução.
+• Token de governança não é automaticamente participação societária.
+• Multisig reduz dependência de uma única chave, mas concentra poder nos signatários.
+• Timelock pode aumentar previsibilidade, mas não elimina risco.
+• DAO pode possuir partes centralizadas.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.4.3.10. Governança descentralizada.
+Fonte e status
+• Ethereum, DAOs, propostas, votação, delegação, execução e multisig. 16
+• BIS e ESMA, governança e concentração em DeFi. 17 18
+• Status: arquitetura de governança tecnológica; a existência de votação não determina, 
+sozinha, personalidade jurídica ou isenção regulatória.
+3.9 Organizações Autônomas Descentralizadas — DAOs
+O que é
+DAO é a sigla de Decentralized Autonomous Organization, ou Organização Autônoma 
+Descentralizada.
+Governança descentralizada distribui decisões; não garante distribuição igualitária 
+de poder.
+
+<<<PÁGINA 36>>>
+A página oficial do Ethereum descreve DAO como uma organização de propriedade 
+coletiva, orientada por uma missão comum, com regras, tesouraria, propostas e votação 
+apoiadas por blockchain e smart contracts. 16
+Uma definição segura para a CPA é:
+Componentes de uma DAO
+Como funciona
+1. Participante apresenta uma proposta.
+2. A proposta é divulgada para análise.
+3. Participantes elegíveis votam ou delegam seus votos.
+4. O sistema verifica quórum e maioria.
+5. Se aprovada, a proposta entra em período de espera, quando aplicável.
+DAO é uma organização coletiva cuja coordenação, governança e uso de recursos 
+podem ser estruturados por regras codificadas em smart contracts e decisões dos 
+participantes.
+Componente
+Função
+Smart contract de governança
+Define regras de proposta, votação e 
+execução.
+Token ou unidade de participação
+Pode atribuir poder de voto conforme o 
+desenho.
+Tesouraria
+Guarda e movimenta recursos segundo 
+regras.
+Proposta
+Solicita mudança ou ação.
+Votação
+Registra a decisão dos participantes.
+Quórum
+Define participação mínima necessária.
+Maioria
+Define o resultado aprovado.
+Timelock
+Cria intervalo entre aprovação e execução.
+Multisig
+Exige múltiplas assinaturas para executar.
+Executor
+Realiza a transação quando a governança 
+não é totalmente automática.
+
+<<<PÁGINA 37>>>
+6. O smart contract, executor ou multisig executa a decisão.
+7. A blockchain registra a operação.
+Exemplos de aplicação
+• gestão de tesouraria;
+• financiamento de projetos;
+• concessão de grants;
+• desenvolvimento de software;
+• organização de comunidades;
+• caridade;
+• investimento coletivo, sujeito ao enquadramento jurídico aplicável;
+• gestão de protocolo DeFi;
+• propriedade coletiva de ativos digitais ou físicos, com ressalvas jurídicas.
+DAO e token de governança
+Um token de governança pode permitir voto.
+Isso não significa automaticamente que o token seja:
+• uma ação;
+• uma cota de fundo;
+• uma participação societária;
+• um valor mobiliário;
+• um direito sobre imóvel;
+• um direito a fluxo de caixa;
+• uma fração da tesouraria.
+O efeito depende dos direitos efetivamente atribuídos, da estrutura, da oferta e da 
+legislação aplicável.
+DAO e imóvel
+Uma DAO pode votar a aquisição ou a gestão de um imóvel. Porém, a votação não substitui:
+• pessoa ou entidade apta a adquirir;
+• contrato;
+• escritura, quando exigida;
+
+<<<PÁGINA 38>>>
+• título translativo;
+• registro imobiliário;
+• pagamento de tributos;
+• administração do imóvel;
+• responsabilidade perante terceiros.
+Plain Text
+votação da DAO ≠ transferência automática do domínio
+DAO e regulação
+O rótulo DAO não cria imunidade jurídica.
+A atividade pode envolver:
+• valores mobiliários;
+• contrato de investimento coletivo;
+• serviço de ativos virtuais;
+• captação pública;
+• gestão de recursos;
+• proteção do consumidor;
+• prevenção à lavagem de dinheiro;
+• responsabilidade civil;
+• tributação.
+A análise deve considerar a substância da atividade, não apenas o nome da organização.
+O que a prova pode confundir
+• DAO não significa ausência de seres humanos.
+• DAO não significa ausência de administração.
+• DAO não garante voto igualitário.
+• Token de governança não garante propriedade econômica.
+• Votação aprovada pode depender de multisig.
+• Organização on-chain não é automaticamente pessoa jurídica.
+• Tesouraria automatizada pode sofrer ataque ou erro de governança.
+
+<<<PÁGINA 39>>>
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.4.3.10.1. Organizações Autônomas Descentralizadas (DAOs).
+Fonte e status
+• Ethereum, definição, funcionamento e modelos de participação de DAOs. 16
+• OpenZeppelin, governança on-chain. 19
+• BIS e ESMA, descentralização, governança e concentração. 17 18
+• Status: modelo tecnológico e organizacional; a personalidade jurídica e o 
+enquadramento regulatório dependem da jurisdição e da atividade.
+4. Por que isso cai na prova? — 12 minutos
+Explicação estratégica
+A banca pode apresentar uma situação prática e perguntar qual mecanismo está sendo 
+utilizado.
+O aluno precisa identificar:
+1. o ativo;
+2. a regra;
+3. o dado de entrada;
+4. o smart contract;
+5. o gatilho;
+6. o resultado;
+7. o risco;
+8. a diferença entre tecnologia e direito.
+Cadeia de identificação
+DAO organiza decisões por código e votação; não transforma automaticamente a 
+organização em pessoa jurídica nem elimina responsabilidade.
+
+<<<PÁGINA 40>>>
+Plain Text
+Qual é o ativo?
+      ↓
+Qual é a condição?
+      ↓
+Quem fornece o dado?
+      ↓
+Qual contrato executa?
+      ↓
+Quem pode alterar ou reverter?
+      ↓
+Qual direito foi efetivamente transferido?
+Pontos de atenção
+1. Aplicações práticas: smart contracts executam regras objetivas, não intenções vagas.
+2. Empréstimos: garantia, preço, juros e liquidação dependem do protocolo e de seus 
+parâmetros.
+3. DEXs: AMM, pool, LP, price impact, slippage e impermanent loss são conceitos 
+diferentes.
+4. Seguros: smart contract pode automatizar fluxo; a seguradora e a apólice continuam 
+relevantes.
+5. Seguro paramétrico: gatilho objetivo pode não corresponder ao dano real.
+6. Apólice automatizada: é expressão tecnológica, não categoria jurídica autônoma.
+7. Imobiliário: token não é automaticamente propriedade registrada.
+8. Compra e venda: acordo, escritura e registro possuem funções diferentes.
+9. Governança: votação e execução podem ser etapas distintas.
+10. DAOs: descentralização não garante igualdade de poder nem personalidade jurídica.
+11. Oráculos: dados externos continuam sujeitos a erro, manipulação e indisponibilidade.
+12. Regulação: o rótulo DeFi, DEX, token ou DAO não cria isenção automática.
+Comparações críticas
+A
+B
+Diferença decisiva
+Smart contract
+Contrato jurídico
+Código executável ≠ contrato 
+jurídico completo.
+
+<<<PÁGINA 41>>>
+Palavras-chave
+Empréstimo DeFi
+Crédito tradicional
+Protocolo e colateral 
+programado ≠ instituição e 
+contrato tradicional.
+LTV
+Health Factor
+Relação dívida/garantia ≠ 
+métrica dinâmica específica de 
+protocolo.
+AMM
+Livro de ordens
+Pool e fórmula ≠ ordens de 
+compra e venda casadas.
+Price impact
+Slippage
+Impacto da própria ordem ≠ 
+diferença total entre 
+expectativa e execução.
+Slippage
+Impermanent loss
+Risco de execução do trader ≠ 
+custo de oportunidade do LP.
+Seguro paramétrico
+Seguro indenizatório 
+tradicional
+Índice/gatilho objetivo ≠ 
+apuração do dano efetivo.
+Apólice automatizada
+Categoria jurídica
+Tecnologia do fluxo ≠ natureza 
+jurídica do seguro.
+Token imobiliário
+Propriedade imobiliária
+Representação digital ≠ 
+domínio registrado.
+Contrato de compra e venda
+Registro imobiliário
+Obrigações entre partes ≠ 
+transferência registral da 
+propriedade.
+Governança
+Execução
+Decisão aprovada ≠ transação 
+necessariamente realizada.
+DAO
+Pessoa jurídica
+Organização on-chain ≠ 
+personalidade jurídica 
+automática.
+Oráculo
+Validador
+Dado externo ≠ consenso da 
+rede.
+Permissionless
+Sem regulação
+Acesso técnico aberto ≠ 
+autorização jurídica.
+Transparência
+Segurança
+Código visível ≠ ausência de 
+vulnerabilidade.
+
+<<<PÁGINA 42>>>
+• “condição predeterminada”: execução programada.
+• “garantia”: colateral.
+• “Health Factor abaixo de 1”: risco de liquidação na Aave.
+• “pool de dois tokens”: AMM/liquidity pool.
+• “x × y = k”: produto constante em versões clássicas da Uniswap.
+• “ordem grande em relação à liquidez”: price impact.
+• “preço esperado versus preço executado”: slippage.
+• “comparação com apenas manter os ativos”: impermanent loss.
+• “índice e gatilho”: seguro paramétrico.
+• “apólice, prêmio e risco predeterminado”: contrato de seguro.
+• “matrícula, título e registro”: direito imobiliário.
+• “quórum e maioria”: governança.
+• “tesouraria coletiva”: DAO.
+• “delegação”: transferência do poder de voto para representante.
+• “multisig”: múltiplas assinaturas para executar.
+• “timelock”: intervalo entre aprovação e execução.
+• “oracle”: dado externo para o contrato.
+Pegadinhas
+1. “O smart contract garante a validade jurídica da operação.”
+• Correção: o smart contract executa código. A validade jurídica depende do 
+ordenamento, do contrato, das partes e do caso concreto.
+2. “Todo empréstimo DeFi é sem garantia.”
+• Correção: muitos protocolos utilizam sobrecolateralização; a estrutura varia por 
+protocolo.
+3. “LTV é a mesma coisa que Health Factor.”
+• Correção: LTV é uma relação de dívida e garantia; Health Factor é métrica dinâmica 
+de segurança em protocolos específicos.
+4. “DEX sempre usa livro de ordens.”
+• Correção: a Uniswap utiliza AMM e pools; existem outros modelos de DEX.
+5. “Price impact e slippage são sinônimos.”
+
+<<<PÁGINA 43>>>
+• Correção: price impact decorre do tamanho da ordem; slippage é a diferença total 
+entre expectativa e execução.
+6. “Impermanent loss é a mesma coisa que taxa de gas.”
+• Correção: impermanent loss é custo de oportunidade do LP frente a manter os 
+tokens.
+7. “Seguro paramétrico paga exatamente o dano sofrido.”
+• Correção: paga conforme índice, gatilho e estrutura contratual; pode haver risco de 
+base.
+8. “Apólice automatizada é um produto fora da regulação.”
+• Correção: automação tecnológica não cria isenção nem substitui seguradora 
+autorizada.
+9. “Token imobiliário transfere a propriedade do imóvel.”
+• Correção: propriedade imobiliária exige título e registro conforme o direito 
+aplicável.
+10. “A compra e venda perfeita já transfere o imóvel.”
+• Correção: o contrato pode ser perfeito entre as partes, mas a propriedade 
+imobiliária entre vivos depende do registro do título translativo.
+11. “DAO significa que não há administradores.”
+• Correção: pode haver desenvolvedores, multisig, executores, delegados e 
+administradores de atualização.
+12. “Voto aprovado é execução automática.”
+• Correção: depende da arquitetura. Pode exigir timelock, multisig ou executor 
+humano.
+13. “Blockchain torna o dado do oráculo verdadeiro.”
+• Correção: a rede registra o dado recebido; a origem pode estar errada ou 
+manipulada.
+14. “Permissionless significa autorizado.”
+• Correção: acesso técnico aberto não determina autorização regulatória.
+15. “Código aberto significa código seguro.”
+• Correção: transparência facilita auditoria, mas não elimina vulnerabilidades.
+Comando de lousa/tela
+[ESCREVA]
+
+<<<PÁGINA 44>>>
+Plain Text
+TECNOLOGIA ≠ DIREITO
+AUTOMAÇÃO ≠ SEGURANÇA
+TRANSPARÊNCIA ≠ VERACIDADE
+VOTAÇÃO ≠ EXECUÇÃO
+TOKEN ≠ PROPRIEDADE
+[FIXE]
+5. Case / Storytelling — 20 minutos
+Situação: Protocolo Horizonte
+O Protocolo Horizonte reúne seis módulos construídos sobre smart contracts:
+1. módulo de empréstimos;
+2. exchange descentralizada;
+3. seguro paramétrico;
+4. módulo imobiliário;
+5. governança;
+6. tesouraria de uma DAO.
+O objetivo da aula é acompanhar o mesmo ecossistema sem confundir as camadas.
+Etapa 1 — Empréstimo
+Carlos deposita tokens como garantia e solicita um empréstimo.
+O protocolo consulta o preço da garantia por meio de um oráculo. O valor é suficiente para 
+o empréstimo. O contrato registra a posição e libera os recursos.
+Análise
+• Carteira: assina a transação.
+• Smart contract: registra garantia e dívida.
+• Oráculo: fornece o preço.
+• Health Factor: mede a segurança da posição no modelo do protocolo.
+A prova cobra a separação entre o que o código faz e o que a lei exige.
+
+<<<PÁGINA 45>>>
+• Liquidação: pode ocorrer se a posição ficar elegível.
+Pergunta para a turma
+Se o contrato executou a liquidação, quem decidiu que o preço da garantia era aquele?
+Resposta: o protocolo utilizou a fonte de preço definida, normalmente por meio de 
+oráculo. A blockchain não criou o preço do mundo externo.
+Etapa 2 — DEX
+Carlos troca parte do token recebido por uma stablecoin em uma DEX baseada em AMM.
+A operação utiliza uma pool com dois tokens. A ordem é grande em relação à liquidez 
+disponível.
+Análise
+• A ordem altera as reservas.
+• A alteração das reservas muda o preço.
+• O tamanho da ordem provoca price impact.
+• O preço pode mudar antes da execução, causando slippage.
+• A tolerância de slippage pode fazer a transação reverter.
+• O contrato não garante que o preço seja igual ao exibido na interface.
+Pergunta para a turma
+Se Carlos não for um LP, ele sofre impermanent loss?
+Resposta: impermanent loss é o risco associado à posição de liquidez do LP. Carlos, como 
+trader, está exposto principalmente ao preço, ao price impact, ao slippage, ao gas e aos 
+riscos de execução.
+Etapa 3 — Seguro paramétrico
+Carlos também contrata, por meio de uma seguradora autorizada, cobertura agrícola 
+paramétrica. A apólice define chuva mínima durante determinado período e região.
+A fonte de dados informa que o índice ficou abaixo do gatilho.
+Análise
+• A apólice define o risco, o índice, o gatilho, o período e o pagamento.
+
+<<<PÁGINA 46>>>
+• O dado externo é recebido por uma fonte ou oráculo.
+• O sistema verifica a condição.
+• O pagamento previsto pode ser iniciado.
+• O valor não necessariamente corresponde ao prejuízo exato de Carlos.
+Pergunta para a turma
+Se Carlos perdeu 100.000 e recebeu 60.000 conforme a apólice paramétrica, houve 
+necessariamente erro?
+Resposta: não é possível concluir apenas pelo valor. O pagamento depende do índice, do 
+gatilho e do valor contratado. Pode existir risco de base. É necessário analisar a apólice e o 
+evento.
+Etapa 4 — Imobiliário
+A DAO do Protocolo Horizonte deseja adquirir uma sala comercial. Os participantes votam 
+para aprovar a compra.
+O token de governança registra o resultado. Após o quórum, a proposta é aprovada.
+Análise
+• A votação expressa a decisão da governança.
+• A proposta aprovada não transfere automaticamente o domínio.
+• É necessário identificar quem celebra o negócio.
+• É necessário verificar contrato, escritura, título, tributos e registro.
+• O token de governança não é automaticamente a matrícula do imóvel.
+Pergunta para a turma
+A DAO pode votar a compra sem que a votação substitua o Registro de Imóveis?
+Resposta: sim. A votação organiza uma decisão coletiva; a transferência da propriedade 
+segue os requisitos jurídicos aplicáveis.
+Etapa 5 — Governança
+A proposta também altera a taxa cobrada pela DEX.
+O protocolo possui:
+• votação por tokens;
+
+<<<PÁGINA 47>>>
+• quórum mínimo;
+• maioria simples;
+• timelock de 48 horas;
+• multisig de cinco signatários para executar a alteração.
+Análise
+• O token de governança atribui poder segundo as regras.
+• O quórum define a participação mínima.
+• A maioria define a aprovação.
+• O timelock cria uma janela entre decisão e execução.
+• A multisig exige múltiplas assinaturas.
+• O sistema possui governança distribuída, mas ainda possui concentração nos 
+signatários da multisig.
+Etapa 6 — Falha do oráculo
+O oráculo de preço apresenta atraso durante uma queda abrupta do mercado. A garantia 
+de Carlos parece mais valiosa do que realmente é.
+Consequência possível
+• o Health Factor permanece artificialmente alto;
+• a liquidação demora;
+• a dívida fica insuficientemente garantida;
+• o protocolo sofre perda;
+• a governança precisa decidir uma resposta.
+Síntese técnica do case
+Elemento
+O que o código pode fazer
+O que continua dependendo 
+de outras camadas
+Empréstimo
+Registrar garantia, dívida, juros 
+e liquidação.
+Qualidade do preço, direito 
+contratual, usuário e 
+governança.
+
+<<<PÁGINA 48>>>
+Síntese oral
+O Protocolo Horizonte não é uma máquina mágica que substitui o mercado inteiro.
+Ele é uma arquitetura em camadas:
+Plain Text
+usuário e carteira
+        ↓
+transação assinada
+        ↓
+smart contract
+        ↓
+oráculo ou dado externo
+        ↓
+execução programada
+        ↓
+blockchain e consenso
+        ↓
+governança e direito aplicável
+Frase de fechamento do case
+6. Questão final comentada
+Certificação
+DEX
+Calcular swap e atualizar 
+reservas.
+Liquidez, preço externo, gas, 
+carteira e risco de contrato.
+Seguro
+Verificar gatilho e iniciar 
+pagamento.
+Seguradora, apólice, fonte de 
+dados, regulação e contestação.
+Imóvel
+Coordenar pagamento e 
+registro de eventos.
+Escritura, título, cartório, 
+tributos e domínio.
+DAO
+Contar votos e autorizar ações.
+Participação, concentração, 
+execução, responsabilidade e 
+lei.
+A automação diminui algumas etapas manuais, mas não elimina o mundo externo.
+
+<<<PÁGINA 49>>>
+CPA ANBIMA.
+Competência
+4.4.3.5 a 4.4.3.10.1: aplicações práticas de smart contracts, empréstimos, DEXs, seguros, 
+apólices automatizadas, imobiliário, compra e venda de propriedades, governança 
+descentralizada e DAOs.
+Nível
+Difícil.
+Enunciado
+Uma organização chamada Aurora utiliza uma blockchain e um conjunto de smart 
+contracts. O sistema permite que usuários depositem criptoativos como garantia, 
+contratem empréstimos, troquem tokens em uma DEX baseada em AMM, contratem uma 
+cobertura paramétrica e votem sobre a utilização da tesouraria. A organização também 
+possui tokens que representam direitos econômicos vinculados a um empreendimento 
+imobiliário.
+Considerando a estrutura descrita, assinale a alternativa correta.
+A) O smart contract substitui integralmente o contrato jurídico, o Registro de Imóveis e a 
+seguradora, pois a execução on-chain torna a operação automaticamente válida, 
+irreversível e regulatoriamente autorizada.
+B) Em uma DEX baseada em AMM, o usuário negocia contra um livro centralizado de 
+ofertas; price impact é a diferença entre o preço esperado e o preço efetivo; e impermanent 
+loss corresponde ao custo de gas pago pelo trader.
+C) O Health Factor é um parâmetro universal aplicável a qualquer empréstimo financeiro; 
+se estiver acima de 1, o tomador não possui risco de liquidação, independentemente do 
+protocolo, do ativo, do oráculo ou da volatilidade.
+D) A organização pode utilizar smart contracts para programar empréstimos, swaps, 
+pagamentos paramétricos e votação de tesouraria; porém, a execução técnica não elimina 
+riscos de oráculo, liquidez, código ou governança, e tokens imobiliários não transferem 
+automaticamente o domínio do imóvel sem os requisitos jurídicos e registrais aplicáveis.
+E) Como a DAO utiliza votação por tokens, todos os participantes possuem 
+necessariamente o mesmo poder, a decisão aprovada sempre é executada 
+automaticamente e o token de governança equivale a uma participação societária no 
+empreendimento imobiliário.
+
+<<<PÁGINA 50>>>
+Ponto-chave
+A alternativa correta precisa separar:
+• aplicação tecnológica;
+• mecanismo específico de cada protocolo;
+• risco de oráculo e liquidez;
+• execução técnica;
+• validade jurídica;
+• governança;
+• propriedade imobiliária.
+Gabarito
+Alternativa D.
+Justificativa da correta
+A alternativa D está correta.
+Smart contracts podem programar diversas aplicações, incluindo:
+• empréstimos;
+• swaps;
+• pagamentos condicionais;
+• seguros paramétricos;
+• votação e tesouraria.
+Porém:
+• o código não elimina risco de oráculo;
+• a DEX não garante liquidez ou preço;
+• a execução técnica não elimina risco de código;
+• a governança pode concentrar poder;
+• token imobiliário pode representar direitos econômicos, mas não transfere 
+automaticamente o domínio do imóvel;
+• escritura, título, registro e demais requisitos podem continuar necessários.
+
+<<<PÁGINA 51>>>
+Alternativas incorretas
+• A: incorreta. Smart contract é código executável. Ele não substitui automaticamente 
+contrato jurídico, seguradora, Registro de Imóveis, supervisão ou autorização 
+regulatória. A execução on-chain também pode ocorrer com código defeituoso ou 
+dados incorretos.
+• B: incorreta. No modelo AMM da Uniswap, o usuário negocia contra reservas de uma 
+pool, não contra um livro centralizado de ofertas. Price impact é causado pelo tamanho 
+da ordem em relação à liquidez. Slippage é a diferença entre expectativa e execução. 
+Impermanent loss é o custo de oportunidade do LP em relação a simplesmente manter 
+os tokens.
+• C: incorreta. Health Factor é uma métrica específica de protocolos como a Aave. Mesmo 
+acima de 1, a posição continua sujeita a volatilidade, mudança de juros, falhas de 
+oráculo e parâmetros do protocolo. Não existe garantia universal de ausência de 
+liquidação.
+• D: correta. A alternativa identifica as aplicações e preserva os limites técnicos e 
+jurídicos.
+• E: incorreta. Votação por tokens pode concentrar poder nos maiores detentores ou 
+delegados. Decisão aprovada pode depender de timelock, multisig ou executor. Token 
+de governança não equivale automaticamente a participação societária ou domínio 
+imobiliário.
+Armadilhas e macetes
+• Smart contract não substitui automaticamente a lei.
+• AMM não é livro de ofertas.
+• Price impact não é slippage.
+• Slippage não é impermanent loss.
+• Health Factor não é regra universal.
+• Oráculo não é a realidade; é uma fonte de dados.
+• Token imobiliário não é automaticamente propriedade.
+• Voto não é necessariamente execução.
+• DAO não significa poder igualitário.
+7. Revisão final
+
+<<<PÁGINA 52>>>
+Resumo em cinco pontos
+1. Smart contracts automatizam regras codificadas e podem ser aplicados em crédito, 
+trocas, seguros, imóveis e governança.
+2. Empréstimos DeFi usam colateral, oráculos, juros, parâmetros de risco e liquidação 
+programada; LTV e Health Factor não são sinônimos.
+3. DEXs permitem troca de tokens por protocolo; em AMMs, pools e reservas determinam 
+o preço. Price impact, slippage e impermanent loss são conceitos diferentes.
+4. Seguros e apólices automatizadas podem usar dados, índices e smart contracts, mas 
+continuam sujeitos a contrato, seguradora, autorização, proteção do consumidor e 
+risco de base.
+5. Imóveis e DAOs exigem cuidado: token não transfere automaticamente domínio e 
+governança on-chain não garante igualdade de poder, personalidade jurídica ou 
+execução automática.
+Quadro de emergência
+Plain Text
+SMART CONTRACT
+→ código + estado + condição
+→ executa regra programada
+→ não substitui automaticamente a lei
+EMPRÉSTIMO
+→ colateral + dívida + juros + oráculo
+→ LTV ≠ Health Factor
+→ queda do colateral pode gerar liquidação
+DEX / AMM
+→ pool + reservas + fórmula
+→ trader enfrenta price impact e slippage
+→ LP enfrenta impermanent loss
+SEGURO
+→ prêmio + interesse legítimo + risco predeterminado
+→ paramétrico usa índice e gatilho
+→ apólice automatizada não elimina seguradora
+IMOBILIÁRIO
+→ token representa direito possível
+→ contrato ≠ registro
+
+<<<PÁGINA 53>>>
+→ token ≠ domínio automático
+GOVERNANÇA / DAO
+→ proposta + votação + quórum + execução
+→ token ≠ poder igualitário
+→ voto ≠ execução automática
+Cadeia lógica
+Diferenças que não podem ser confundidas
+• Smart contract ≠ contrato jurídico: código não resolve todas as questões legais.
+• LTV ≠ Health Factor: relação dívida/garantia não é métrica dinâmica universal.
+• AMM ≠ livro de ofertas: pool e fórmula não são ordens casadas.
+• Price impact ≠ slippage: impacto da ordem não é toda a diferença de execução.
+• Slippage ≠ impermanent loss: trader e LP enfrentam riscos diferentes.
+• Seguro paramétrico ≠ seguro sem risco de base: gatilho pode divergir da perda real.
+• Apólice automatizada ≠ categoria fora da regulação: tecnologia do fluxo não elimina 
+a seguradora.
+• Token ≠ propriedade imobiliária: representação digital não substitui título e registro.
+• Contrato de compra e venda ≠ transferência registrada: acordo e domínio registral 
+possuem efeitos distintos.
+• Votação ≠ execução: decisão pode depender de timelock, multisig ou executor.
+• DAO ≠ pessoa jurídica automática: organização on-chain não define sozinha 
+personalidade jurídica.
+• Oráculo ≠ validador: fonte externa não é mecanismo de consenso.
+• Permissionless ≠ autorizado: acesso aberto não determina enquadramento jurídico.
+Frase central da aula
+Conceito → mecanismo → aplicação → regra → decisãoSmart contract → código e 
+estado → empréstimo/DEX/seguro/imóvel/DAO → condição programada → resultado 
+técnico com limites jurídicos e riscos.
+Smart contracts ampliam a programação das finanças, mas a automação não 
+elimina risco, governança, responsabilidade, regulação ou formalidades jurídicas.
+
+<<<PÁGINA 54>>>
+Próximo passo de estudo
+1. Explique em uma frase o que um smart contract pode automatizar.
+2. Diferencie LTV, liquidation threshold e Health Factor.
+3. Desenhe uma pool AMM com dois tokens.
+4. Explique price impact, slippage e impermanent loss usando um único exemplo.
+5. Diferencie seguro tradicional, seguro paramétrico e apólice automatizada.
+6. Explique por que tokenização imobiliária não transfere automaticamente a 
+propriedade.
+7. Desenhe o fluxo proposta → votação → quórum → timelock → execução.
+8. Explique por que uma DAO pode ter concentração de poder.
+9. Resolva a questão final justificando todas as alternativas.
+10. Revise a frase: “execução técnica não é sinônimo de validade jurídica.”
+Anexo A — Roteiro operacional de 
+lousa/tela
+Regras de utilização
+• [ESCREVA]: registrar palavra, frase, definição ou lista.
+• [DESENHE]: construir setas, caixas, fluxos ou colunas.
+• [CIRCULE]: destacar palavra decisiva para a prova.
+• [SUBLINHE]: marcar distinção essencial.
+• [CONECTE]: mostrar relação causal.
+• [FALE]: texto sugerido para a exposição.
+• [PARE E PERGUNTE]: testar compreensão antes da resposta.
+• [FIXE]: repetir frase curta de memorização.
+• [APAGUE]: remover elementos provisórios.
+• [MANTENHA]: preservar elemento que será reutilizado.
+• [TRANSIÇÃO]: conectar blocos.
+
+<<<PÁGINA 55>>>
+ETAPA 1 — Título e pergunta-problema
+[ESCREVA NO TOPO]
+Plain Text
+APLICAÇÕES PRÁTICAS DE SMART CONTRACTS
+[ESCREVA NO CENTRO]
+Plain Text
+O que o código automatiza — e o que continua dependendo da lei?
+[PARE E PERGUNTE]
+Código executado significa operação juridicamente válida?
+Resposta: não.
+[ESCREVA NO CANTO E MANTENHA]
+Plain Text
+código → condição → execução → registro
+[FIXE]
+[TRANSIÇÃO]
+Agora vamos aplicar essa lógica a seis áreas diferentes.
+ETAPA 2 — Mapa das aplicações
+[DESENHE]
+Plain Text
+                 SMART CONTRACT
+                       │
+ ┌───────────┬─────────┼──────────┬───────────┬───────────┐
+ crédito    DEX     seguro     imóvel     governança  DAO
+[FALE]
+Execução técnica ≠ validade jurídica.
+
+<<<PÁGINA 56>>>
+A mesma tecnologia pode atuar em aplicações diferentes. O ativo, o dado, o gatilho e a 
+consequência mudam.
+[MANTENHA] o mapa.
+ETAPA 3 — Aplicações práticas
+[ESCREVA]
+Plain Text
+regra humana vaga → condição verificável → ação automática
+[DESENHE]
+Plain Text
+“garantia suficiente”
+          ↓
+valor da garantia ≥ limite
+          ↓
+liberar crédito
+[CIRCULE] condição verificável .
+[FIXE]
+ETAPA 4 — Empréstimos
+[APAGUE] somente o exemplo de regra. [MANTENHA] o mapa geral.
+[ESCREVA]
+Plain Text
+EMPRÉSTIMO
+colateral → preço → Health Factor → liquidação
+[DESENHE]
+Plain Text
+garantia ↓
+   oráculo → valor
+O código executa critérios; não interpreta intenções vagas.
+
+<<<PÁGINA 57>>>
+                ↓
+             dívida
+                ↓
+       Health Factor
+                ↓
+          liquidação?
+[PARE E PERGUNTE]
+LTV e Health Factor são a mesma coisa?
+Resposta: não.
+[FIXE]
+ETAPA 5 — DEX e AMM
+[ESCREVA]
+Plain Text
+DEX / AMM
+pool + reservas + fórmula
+[DESENHE]
+Plain Text
+Pool ETH/USDC
+[ ETH ] + [ USDC ]
+[ESCREVA ABAIXO]
+Plain Text
+x × y = k
+[FALE]
+A pool substitui o livro tradicional de ofertas no modelo AMM. O preço muda conforme as 
+reservas mudam.
+[ESCREVA AO LADO]
+Plain Text
+Garantia protege; oráculo informa; contrato executa.
+
+<<<PÁGINA 58>>>
+ordem grande → price impact
+preço esperado ≠ executado → slippage
+LP + preço relativo muda → impermanent loss
+[CIRCULE] price impact , slippage e impermanent loss .
+[PARE E PERGUNTE]
+Quem enfrenta impermanent loss: o trader ou o LP?
+Resposta: o LP.
+[FIXE]
+ETAPA 6 — Seguros
+[APAGUE] a fórmula da AMM. [MANTENHA] a lista de riscos.
+[ESCREVA]
+Plain Text
+SEGURO
+prêmio + interesse legítimo + risco predeterminado
+[DESENHE]
+Plain Text
+índice externo → oráculo → gatilho → pagamento
+[ESCREVA]
+Plain Text
+paramétrico ≠ dano real necessariamente
+[FALE]
+No seguro paramétrico, o pagamento depende do índice e do gatilho definidos na 
+cobertura. Pode existir risco de base.
+[FIXE]
+Trader enfrenta execução; LP enfrenta posição de liquidez.
+Gatilho objetivo não garante pagamento igual ao dano real.
+
+<<<PÁGINA 59>>>
+ETAPA 7 — Apólices automatizadas
+[ESCREVA]
+Plain Text
+apólice automatizada
+= tecnologia do fluxo
+≠ categoria fora da regulação
+[DESENHE]
+Plain Text
+cotação → emissão → cobrança → evento → análise → pagamento
+[CIRCULE] tecnologia do fluxo .
+[PARE E PERGUNTE]
+O smart contract substitui a seguradora?
+Resposta: não.
+ETAPA 8 — Imobiliário
+[APAGUE] o fluxo do seguro. [MANTENHA] a frase sobre regulação.
+[ESCREVA]
+Plain Text
+TOKEN IMOBILIÁRIO
+pode representar direito econômico
+[DESENHE]
+Plain Text
+contrato → título → registro → propriedade
+[ESCREVA EM VERMELHO OU COM DESTAQUE]
+Plain Text
+token ≠ matrícula
+
+<<<PÁGINA 60>>>
+blockchain ≠ Registro de Imóveis
+[FALE]
+O token pode representar um direito. A propriedade imobiliária depende dos requisitos 
+jurídicos e registrais aplicáveis.
+[FIXE]
+ETAPA 9 — Governança e DAOs
+[ESCREVA]
+Plain Text
+proposta → voto → quórum → timelock → execução
+[DESENHE]
+Plain Text
+DAO
+├── regras
+├── tesouraria
+├── participantes
+├── votação
+└── execução
+[CIRCULE] voto e execução separadamente.
+[PARE E PERGUNTE]
+Toda decisão aprovada é executada automaticamente?
+Resposta: não. Pode depender de timelock, multisig ou executor.
+[ESCREVA ABAIXO]
+Plain Text
+DAO ≠ poder igualitário
+DAO ≠ pessoa jurídica automática
+[FIXE]
+Tokenizar o direito não é transferir automaticamente o domínio.
+Votação distribuída não garante poder distribuído.
+
+<<<PÁGINA 61>>>
+ETAPA 10 — Quadro de pegadinhas
+[APAGUE O QUADRO]
+[ESCREVA NO TOPO]
+Plain Text
+NÃO CONFUNDA
+[ESCREVA]
+Plain Text
+LTV ≠ Health Factor
+AMM ≠ livro de ofertas
+price impact ≠ slippage
+slippage ≠ impermanent loss
+paramétrico ≠ dano real
+apólice automatizada ≠ fora da regulação
+token ≠ propriedade
+voto ≠ execução
+DAO ≠ pessoa jurídica
+[FALE]
+Essas diferenças são mais importantes do que decorar nomes isolados. A banca testa a 
+função de cada elemento.
+ETAPA 11 — Revisão final
+[ESCREVA]
+Plain Text
+SMART CONTRACT
+→ regra codificada
+→ condição verificável
+→ execução automática
+→ riscos permanecem
+[ESCREVA NO CANTO]
+Plain Text
+
+<<<PÁGINA 62>>>
+carteira assina
+contrato executa
+oráculo informa
+rede registra
+governança decide
+lei delimita
+[FIXE]
+Referências oficiais e técnicas
+[1] ANBIMA — Programa Detalhado CPA — versão 1.2, revisada em 04/06/2025, vigência a 
+partir de 01/01/2026 — último acesso: 13/09/2026
+[2] NIST CSRC — Smart contract — definição de código, dados, execução pelos nós e 
+registro do resultado — último acesso: 13/09/2026
+[3] ANBIMA — Contratos inteligentes no coração das DeFi — aplicações, execução 
+automática, eficiência e riscos de software — último acesso: 13/09/2026
+[4] Aave Protocol — Health Factor & Liquidations — fórmula, risco de liquidação e 
+parâmetros específicos do protocolo — último acesso: 13/09/2026
+[5] Ethereum.org — Introduction to smart contracts — funções, estado, transações, gas, 
+composabilidade e limitações — último acesso: 13/09/2026
+[6] Ethereum.org — Oracles — dados off-chain, oracle problem, autenticidade, integridade 
+e disponibilidade — último acesso: 13/09/2026
+[7] Uniswap Developers — How Uniswap Works — AMM, pools, LPs, reservas, x*y=k, swaps e 
+price impact — último acesso: 13/09/2026
+[8] Uniswap Protocol Glossary — AMM, LP, price impact, slippage e impermanent loss — 
+último acesso: 13/09/2026
+[9] CVM — Criptoativos: quando se aplicam as regras da CVM? — atualizado em 06/02/2026 
+— último acesso: 13/09/2026
+[10] Planalto — Lei nº 15.040, de 09/12/2024 — normas de seguro privado, interesse 
+legítimo, riscos predeterminados e entidade autorizada — último acesso: 13/09/2026
+[11] IAIS e BIS/FSI — Uncertain waters: can parametric insurance help bridge NatCat 
+protection gaps? — seguro paramétrico, gatilhos, índices, dados e risco de base — último 
+acesso: 13/09/2026
+[12] SUSEP — Sandbox Regulatório, 2ª edição — inovação, ambiente experimental e linhas 
+de negócio — último acesso: 13/09/2026
+A tecnologia automatiza o processo; o direito delimita o efeito.
+
+<<<PÁGINA 63>>>
+[13] Planalto — Código Civil, Lei nº 10.406/2002 — compra e venda, escritura pública e 
+transferência imobiliária pelo registro — último acesso: 13/09/2026
+[14] Planalto — Lei nº 6.015/1973 — Registros Públicos e Registro de Imóveis — último 
+acesso: 13/09/2026
+[15] Planalto — Lei nº 9.514/1997 — alienação fiduciária de coisa imóvel e constituição pelo 
+registro — último acesso: 13/09/2026
+[16] Ethereum.org — What is a DAO? — organização coletiva, propostas, votação, tesouraria, 
+delegação, execução e multisig — atualizado em 26/06/2026 — último acesso: 13/09/2026
+[17] BIS — DeFi risks and the decentralisation illusion — governança, concentração de 
+poder, interconexão e riscos — último acesso: 13/09/2026
+[18] ESMA — Decentralised Finance in the EU: Developments and risks — camadas, 
+governança, DAOs, concentração e riscos — último acesso: 13/09/2026
+[19] OpenZeppelin — On-chain governance — Governor, votação e execução de governança 
+on-chain — último acesso: 13/09/2026
+Observações normativas e metodológicas
+1. O Programa Detalhado CPA é a fonte de escopo. O conteúdo foi limitado aos subitens 
+solicitados e a conceitos necessários para explicá-los. 1
+2. A expressão “apólice automatizada” foi tratada como descrição 
+tecnológica/mercadológica. Não foi apresentada como categoria jurídica autônoma 
+porque essa definição não foi identificada no Programa CPA ou na Lei nº 15.040/2024.
+3. A Lei nº 15.040/2024 foi utilizada para definir contrato de seguro e exigência de entidade 
+autorizada. Ela prevalece sobre descrições genéricas de mercado. 10
+4. Seguro paramétrico foi explicado com base em orientação técnica internacional sobre 
+índice, gatilho, estrutura de pagamento, dados e risco de base. Essa fonte não é uma 
+norma brasileira. 11
+5. A DEX foi explicada com Uniswap como exemplo de AMM. A fórmula x × y = k , a 
+estrutura de LP e as versões de posição são específicas do modelo e do protocolo. Não 
+foram generalizadas para toda DEX. 7 8
+6. Health Factor, LTV, liquidation threshold e liquidação foram tratados com Aave como 
+exemplo de protocolo. Não são regras universais do crédito, da CPA ou do mercado 
+brasileiro. 4
+7. A propriedade imobiliária foi tratada conforme Código Civil, Lei de Registros Públicos e 
+Lei nº 9.514/1997. Tokenização, blockchain e smart contracts não foram apresentados 
+como substitutos automáticos de escritura, título ou registro. 13 14 15
+
+<<<PÁGINA 64>>>
+8. A CVM adota análise funcional dos criptoativos. Tokens que representem valores 
+mobiliários ou contratos de investimento coletivo ofertados publicamente podem 
+sujeitar-se às regras do mercado de capitais. 9
+9. A existência de DAO, DEX ou protocolo DeFi não foi tratada como prova de autorização, 
+isenção regulatória ou personalidade jurídica.
+10. Nenhum percentual, prazo, autorização ou parâmetro de protocolo foi apresentado 
+como regra geral. Valores e fórmulas foram identificados como exemplos didáticos ou 
+parâmetros específicos da fonte.
+11. Último acesso às fontes: 13/09/2026.
+12. Material educacional. Não substitui norma vigente, prospecto, contrato, parecer 
+jurídico ou recomendação de investimento.
+Checklist de validação do material
+Programa Detalhado, versão, vigência e subitens identificados.
+Aplicações práticas de smart contracts explicadas.
+Empréstimos, colateral, LTV, Health Factor, oráculo e liquidação explicados.
+DEX, AMM, pool, LP, swap e fórmula x*y=k explicados.
+Price impact, slippage e impermanent loss diferenciados.
+Seguros, seguro paramétrico e risco de base explicados.
+Apólices automatizadas diferenciadas de categoria jurídica e seguradora.
+Imobiliário, tokenização, escritura, título e Registro de Imóveis diferenciados.
+Compra e venda de propriedades explicada em sequência jurídica e tecnológica.
+Governança descentralizada, proposta, quórum, votação, timelock e execução 
+explicados.
+DAOs, tokens de governança, tesouraria, delegação e multisig explicados.
+Riscos técnicos, econômicos, jurídicos e de governança incluídos.
+Case integrado com empréstimo, DEX, seguro, imóvel e DAO incluído.
+Questão inédita com cinco alternativas e justificativa individual incluída.
+Roteiro operacional de lousa/tela incluído.
+
+<<<PÁGINA 65>>>
+Resumo, quadro de emergência, cadeia lógica, diferenças críticas e próximo estudo 
+incluídos.
+Referências oficiais e técnicas com URLs diretas e data de acesso incluídas.
+Nenhuma transação, assinatura ou contratação foi realizada.
+Material pronto para uso em aula.

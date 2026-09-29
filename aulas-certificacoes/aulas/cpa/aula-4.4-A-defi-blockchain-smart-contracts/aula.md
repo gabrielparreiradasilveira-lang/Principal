@@ -4,7 +4,7 @@ Sep 29, 2026 · @Boss · Roteiro integrado · 40 min
 
 ## Identificação e alinhamento
 
-Aula A de 2 do item **4.4 Finanças Descentralizadas (DEFI)** do Programa Detalhado CPA (ANBIMA, vigência 01/01/2026), **Módulo 4 — Inovação e desenvolvimento de mercado**. Cobre **4.4.1 a 4.4.3.4**. A Aula B cobre **4.4.3.5 a 4.4.4.5** (aplicações, DAOs e tokenização). Base: **Roteiro de Aula — DeFi, Blockchain e Smart Contracts** (fonte principal, condensado) e **APOSTILA-CPA p. 539–542**.
+Aula A de 3 do item **4.4 Finanças Descentralizadas (DEFI)** do Programa Detalhado CPA (ANBIMA, vigência 01/01/2026), **Módulo 4 — Inovação e desenvolvimento de mercado**. Cobre **4.4.1 a 4.4.3.4**. A Aula B cobre **4.4.3.5 a 4.4.3.10.1** (aplicações e DAOs) e a Aula C cobre **4.4.4** (tokenização). Base: **Roteiro de Aula — DeFi, Blockchain e Smart Contracts** (fonte principal, condensado) e **APOSTILA-CPA p. 539–542**.
 
 ### Checagem de escopo
 
@@ -441,7 +441,7 @@ APOSTILA-CPA p. 539–542; Programa Detalhado CPA, itens 4.4.2.1 e 4.4.3.
 
 ### Próximo passo de estudo
 
-Aula 4.4-B — Aplicações de smart contracts, DAOs e tokenização.
+Aula 4.4-B — Aplicações de smart contracts e DAOs.
 
 ## Referências oficiais e status
 

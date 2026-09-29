@@ -1,0 +1,2135 @@
+<<<PÁGINA 1>>>
+Roteiro de Aula — Tokenização
+Conceito, tipos, benefícios, riscos e aplicações em ativos 
+financeiros, imóveis e artes
+Identificação e escopo
+• Certificação: CPA ANBIMA.
+• Módulo: 4. Inovação e desenvolvimento de mercado.
+• Item: 4.4.4. Tokenização.
+• Subitens:
+• 4.4.4.1. Conceito básico;
+• 4.4.4.2. Tipos de tokens;
+• 4.4.4.3. Benefícios da tokenização;
+• 4.4.4.4. Risco e desafios: segurança, regulação e tecnologia;
+• 4.4.4.5. Tokenização de ativos financeiros, imóveis e artes.
+• Programa Detalhado: CPA ANBIMA, versão 1.2, revisada em 04/06/2025, com vigência a 
+partir de 01/01/2026. 1
+• Duração estimada: 120 minutos.
+• Formato: roteiro de aula, teleprompter, lousa/tela, case, questão comentada e revisão.
+• Continuidade: este material sucede a aula sobre aplicações práticas de smart 
+contracts, DEXs, seguros, imobiliário e DAOs.
+• Data de referência das fontes: 13/09/2026.
+• Delimitação: a aula explica a tokenização como processo tecnológico, econômico e 
+regulatório. Não constitui recomendação de investimento, indicação de aquisição de 
+token, avaliação de projeto, orientação para conectar carteira ou autorização para 
+realizar qualquer operação.
+Nota técnica de escopo
+Tokenização não deve ser ensinada como sinônimo de criptomoeda, blockchain, NFT, valor 
+mobiliário, propriedade imobiliária ou smart contract.
+
+<<<PÁGINA 2>>>
+A cadeia correta é:
+Plain Text
+ativo ou direito
+      ↓
+representação digital
+      ↓
+token
+      ↓
+registro e transferência em DLT
+      ↓
+estrutura contratual e regulatória
+A tecnologia pode representar um ativo ou direito. Ela não define, sozinha, qual é o direito 
+jurídico do titular do token.
+1. Fala de abertura — 7 minutos
+Imagine que uma empresa tenha uma debênture, um imóvel ou uma obra de arte.
+Agora imagine que esse ativo seja representado por unidades digitais registradas em uma 
+rede de tecnologia de registro distribuído.
+Uma pessoa poderia adquirir uma unidade digital e visualizar suas movimentações em 
+uma infraestrutura compartilhada.
+A pergunta central é:
+A resposta é: não necessariamente.
+O token pode representar:
+• um valor mobiliário;
+• uma participação econômica;
+• um recebível;
+• um direito contratual;
+• uma unidade de acesso a produto ou serviço;
+Token é a representação digital. O direito depende do ativo, da estrutura, do 
+contrato e da regulação.
+Comprar um token significa automaticamente ser proprietário do ativo 
+representado?
+
+<<<PÁGINA 3>>>
+• uma obra digital;
+• uma fração econômica;
+• um certificado de procedência;
+• outro direito definido na estrutura da operação.
+Mas o efeito jurídico depende dos direitos efetivamente conferidos.
+A ANBIMA define tokenização como o processo de representar digitalmente o valor 
+econômico e os direitos de um ativo real preexistente ou emitir classes tradicionais de 
+ativos em forma de tokens nativos. 2
+A CVM adota abordagem funcional. Para a Autarquia, a tecnologia, a criptografia ou o uso 
+de DLT não decidem sozinhos se o token é valor mobiliário. A análise considera a essência 
+econômica dos direitos e a função do token no projeto. 3
+Portanto, a aula não começa pela pergunta “qual blockchain foi usada?”.
+A aula começa por estas perguntas:
+1. Qual ativo ou direito está sendo representado?
+2. Quais direitos o token entrega ao titular?
+3. Como o token é oferecido?
+4. Existe remuneração, participação ou expectativa de retorno?
+5. Quem emite, custodia, intermedeia e registra?
+6. Qual órgão regulador pode ter competência?
+7. O token transfere o ativo ou apenas representa um direito econômico?
+Objetivo da abertura
+Ao final da aula, o aluno deverá conseguir:
+• definir tokenização;
+• diferenciar DLT, blockchain, token e ativo subjacente;
+• classificar tokens por função;
+• explicar que as categorias podem se sobrepor;
+• identificar benefícios potenciais sem tratá-los como garantias;
+• reconhecer riscos de segurança, regulação e tecnologia;
+• diferenciar tokenização de ativos financeiros, imóveis e artes;
+• separar representação digital de propriedade jurídica;
+
+<<<PÁGINA 4>>>
+• identificar quando a CVM pode atuar;
+• distinguir a competência do Banco Central sobre prestadoras de serviços de ativos 
+virtuais da competência da CVM sobre valores mobiliários.
+Frase de fixação
+Comando de lousa/tela
+[ESCREVA]
+Plain Text
+TOKENIZAÇÃO ≠ CRIPTOMOEDA
+TOKEN ≠ ATIVO
+TOKEN ≠ PROPRIEDADE AUTOMÁTICA
+[PARE E PERGUNTE]
+Se um token está registrado em blockchain, ele representa automaticamente um valor 
+mobiliário?
+Resposta esperada: não. O enquadramento depende da essência econômica, dos direitos 
+e da forma de oferta.
+2. Introdução com metáfora central — 7 
+minutos
+Metáfora: a etiqueta digital com manual de direitos
+Imagine uma etiqueta digital colocada em uma caixa.
+A etiqueta registra:
+• identificação;
+• quantidade;
+• movimentações;
+• titularidade dentro do sistema;
+• regras de transferência.
+O token mostra a representação digital; o contrato e a lei definem o direito.
+
+<<<PÁGINA 5>>>
+Mas a etiqueta não cria, sozinha, o conteúdo da caixa.
+Para saber o que a pessoa realmente adquiriu, é preciso ler o manual de direitos associado 
+à etiqueta.
+Correspondência da metáfora
+Exemplo 1 — Debênture
+A etiqueta digital pode representar uma debênture.
+A pessoa não comprou simplesmente “um código”. Ela pode ter adquirido os direitos de 
+crédito previstos na escritura, na documentação da emissão e na estrutura regulatória 
+aplicável.
+Exemplo 2 — Imóvel
+A etiqueta pode representar participação econômica em um empreendimento imobiliário.
+Isso não significa automaticamente que a pessoa recebeu a propriedade registral do imóvel.
+Exemplo 3 — Obra de arte
+A etiqueta pode representar um certificado de procedência, uma licença, uma participação 
+econômica ou uma obra digital.
+Isso não prova automaticamente:
+Elemento visual
+Conceito técnico
+Caixa
+Ativo ou direito subjacente
+Etiqueta digital
+Token
+Livro de etiquetas
+DLT ou blockchain
+Manual de direitos
+Contrato, regulamento, lei e documentação
+Troca da etiqueta
+Transferência do token
+Emissor da etiqueta
+Emissor ou estruturador da operação
+Fiscalização
+Órgão regulador competente
+Cadeado
+Custódia, controle de acesso e chave privada
+Certificado externo
+Registro, cartório, depositária ou prova de 
+origem
+
+<<<PÁGINA 6>>>
+• autenticidade da obra física;
+• titularidade do direito autoral;
+• posse do objeto;
+• direito de reprodução;
+• direito de receber receitas.
+Limite da metáfora
+Uma etiqueta física possui relação relativamente simples com a caixa.
+A tokenização pode envolver múltiplas camadas:
+Plain Text
+ativo real
++ documento jurídico
++ custódia
++ emissor
++ token
++ carteira
++ DLT
++ oráculo
++ regulador
+A etiqueta ajuda a visualizar a representação. Ela não substitui a análise jurídica, 
+operacional e regulatória.
+Frase de impacto
+3. Explicação dos tópicos
+3.1 Conceito básico de tokenização
+O que é
+Tokenização é o processo de representar digitalmente o valor econômico e os direitos de 
+um ativo real preexistente ou de emitir classes tradicionais de ativos diretamente em forma 
+Tokenizar é criar uma representação digital; não é apagar a realidade jurídica do 
+ativo.
+
+<<<PÁGINA 7>>>
+de tokens nativos. 2
+A definição possui duas estruturas principais:
+Tokenização de ativo preexistente
+Exemplos:
+• debênture representada em tokens;
+• recebível representado em tokens;
+• fração econômica de empreendimento;
+• participação contratual vinculada a imóvel;
+• certificado digital associado a obra de arte;
+• commodity representada em unidades digitais.
+O ativo continua existindo na realidade jurídica ou material.
+Plain Text
+ativo real ou direito
+        ↓
+representação digital
+        ↓
+token em DLT
+Token nativo
+O token nativo nasce diretamente no ambiente digital.
+Exemplos possíveis:
+• unidade de um protocolo;
+Estrutura
+Característica
+Tokenização de ativo preexistente
+O ativo ou direito continua existindo fora da 
+rede. O token funciona como representação 
+digital vinculada a ele.
+Token nativo
+O ativo é criado diretamente em formato 
+digital dentro da infraestrutura. Ele não 
+precisa ser a representação de um bem físico 
+preexistente.
+
+<<<PÁGINA 8>>>
+• token de acesso a produto digital;
+• ativo digital colecionável;
+• unidade de governança;
+• moeda digital privada;
+• ativo emitido diretamente em uma rede.
+O token nativo também pode adquirir consequências jurídicas. O fato de nascer 
+digitalmente não o torna fora da regulação.
+DLT e blockchain
+DLT significa tecnologia de registro distribuído.
+É uma infraestrutura na qual registros podem ser compartilhados, sincronizados e 
+mantidos por participantes da rede.
+Blockchain é uma forma conhecida de DLT, na qual informações são organizadas em 
+blocos encadeados e validados segundo as regras da rede.
+A relação correta é:
+Plain Text
+DLT = categoria de tecnologia
+Blockchain = uma forma de DLT
+Tokenização = processo de representação digital
+Token = unidade digital criada ou movimentada
+Não são sinônimos.
+Criptoativo e token
+Criptoativo é uma representação digital de valor ou direito contratual, protegida por 
+criptografia, mantida em sistema de registro distribuído e passível de custódia, 
+transferência e negociação eletrônica. 2
+Token é uma forma comum de representar esse criptoativo.
+A definição pode alcançar diferentes funções:
+• pagamento;
+• acesso;
+• representação de ativo;
+• remuneração;
+
+<<<PÁGINA 9>>>
+• governança;
+• participação econômica;
+• certificação;
+• negociação.
+O que o token pode representar
+O token pode representar:
+• valor econômico;
+• direito de crédito;
+• participação econômica;
+• acesso a produto ou serviço;
+• direito de voto;
+• direito a remuneração;
+• certificado de procedência;
+• direito de uso;
+• fração de uma estrutura contratual.
+O token não deve ser analisado apenas pelo nome.
+Fluxo geral de tokenização
+Plain Text
+1. Identificar o ativo ou direito
+2. Definir os direitos do titular
+3. Definir emissor e estrutura jurídica
+4. Criar o token
+5. Registrar o token em DLT
+6. Distribuir ou oferecer o token
+7. Custodiar e transferir
+8. Liquidar pagamentos ou obrigações
+9. Monitorar riscos e conformidade
+Aplicabilidade
+A tokenização pode ser utilizada para:
+• aumentar a programabilidade;
+
+<<<PÁGINA 10>>>
+• registrar eventos;
+• fracionar exposições econômicas;
+• automatizar transferências;
+• conectar ativos a smart contracts;
+• reduzir reconciliação entre bases;
+• criar novos fluxos de distribuição;
+• integrar diferentes tipos de ativos em um ambiente digital.
+Essas são possibilidades. Elas dependem de infraestrutura, governança, demanda, 
+liquidez, regulação e qualidade dos dados.
+Exemplo prático
+Uma empresa emite uma debênture.
+Na estrutura tradicional, os direitos podem ser registrados por instituições e sistemas 
+autorizados.
+Em uma estrutura tokenizada, os registros e transferências podem utilizar uma DLT 
+compatível com a infraestrutura regulada.
+A tokenização não muda automaticamente:
+• o devedor;
+• a remuneração;
+• o vencimento;
+• as garantias;
+• a prioridade do crédito;
+• o risco de crédito;
+• o regime da oferta;
+• o dever de divulgação.
+Ela muda, principalmente, a forma de representação e movimentação.
+O que a prova pode confundir
+• Tokenização não é necessariamente criação de criptomoeda.
+• Tokenização não é simplesmente digitalizar um PDF.
+• DLT não é sinônimo de blockchain.
+• Blockchain não é sinônimo de token.
+
+<<<PÁGINA 11>>>
+• Token não é automaticamente o ativo subjacente.
+• O registro na rede não prova automaticamente que o ativo externo existe ou está 
+regular.
+• Token nativo não significa ausência de enquadramento jurídico.
+• A tecnologia não decide, sozinha, se há valor mobiliário.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.4.4.1. Conceito básico.
+Fonte e status
+• ANBIMA, material introdutório sobre Tokenização de Ativos. 2
+• CVM, Parecer de Orientação CVM 40, abordagem funcional. 3
+• Lei nº 14.478/2022, definição e exclusões de ativo virtual. 4
+• Status: conceito tecnológico e econômico; o enquadramento jurídico depende do 
+ativo, dos direitos, da estrutura e da oferta.
+3.2 Tipos de tokens
+O que é
+Tipos de tokens podem ser organizados conforme a função desempenhada e os direitos 
+associados.
+A CVM adota uma taxonomia funcional inicial com três categorias:
+1. token de pagamento;
+2. token de utilidade;
+3. token referenciado a ativo. 3
+Taxonomia funcional da CVM
+Tokenização transforma valor e direitos em representação digital; ela não define 
+sozinha o conteúdo do direito.
+Tipo
+Função principal
+Exemplo didático
+Atenção regulatória
+
+<<<PÁGINA 12>>>
+Categorias não exclusivas
+As categorias não são exclusivas nem estanques.
+Um mesmo token pode desempenhar mais de uma função.
+Exemplo:
+Plain Text
+Token X
+├── meio de pagamento
+├── acesso a serviço
+└── direito econômico
+Nesse caso, a classificação precisa considerar todas as funções relevantes.
+Token de pagamento
+Busca reproduzir funções típicas de moeda:
+• unidade de conta;
+• meio de troca;
+• reserva de valor.
+A função de pagamento pode existir junto com outras funções.
+Uma moeda digital não se transforma automaticamente em moeda nacional ou moeda 
+estrangeira. A Lei nº 14.478/2022 exclui moeda nacional, moeda estrangeira e moeda 
+eletrônica do conceito de ativo virtual. 4
+Token de pagamento
+Busca replicar funções 
+de moeda: unidade de 
+conta, meio de troca e 
+reserva de valor.
+Criptomoeda utilizada 
+para transferências.
+A função de 
+pagamento não 
+impede análise de 
+outras funções.
+Token de utilidade
+Permite adquirir ou 
+acessar produtos ou 
+serviços.
+Token que dá acesso a 
+uma plataforma.
+O nome “utility” não 
+impede 
+enquadramento 
+diferente se a 
+substância for outra.
+Token referenciado a 
+ativo
+Representa um ou 
+mais ativos tangíveis 
+ou intangíveis.
+Stablecoin, NFT, 
+security token ou ativo 
+tokenizado.
+Pode ou não ser valor 
+mobiliário conforme 
+direitos e estrutura.
+
+<<<PÁGINA 13>>>
+Token de utilidade
+É utilizado para adquirir ou acessar produtos ou serviços.
+Exemplo:
+Plain Text
+Token → acesso a software ou serviço digital
+A característica relevante é a utilidade funcional.
+Mas o rótulo não resolve o caso.
+Se o token também confere expectativa de remuneração, participação em 
+empreendimento ou direito econômico oferecido publicamente, pode haver outra análise 
+regulatória.
+Token referenciado a ativo
+Representa um ou mais ativos tangíveis ou intangíveis.
+A CVM cita como exemplos:
+• security tokens;
+• stablecoins;
+• NFTs;
+• demais ativos objeto de tokenização. 3
+O token referenciado a ativo pode representar:
+• um ativo financeiro;
+• um imóvel;
+• uma obra de arte;
+• recebíveis;
+• uma commodity;
+• um direito contratual;
+• um ativo digital.
+Token e valor mobiliário
+A pergunta correta não é:
+“O token está em blockchain?”
+
+<<<PÁGINA 14>>>
+A pergunta correta é:
+A CVM entende que um token referenciado a ativo pode ou não ser valor mobiliário. A 
+caracterização depende da essência econômica dos direitos conferidos ao titular e da 
+função desempenhada no projeto. 3
+A FAQ da CVM atualizada em 06/02/2026 confirma que a Autarquia pode regular:
+• tokens que representam digitalmente valores mobiliários tradicionais;
+• certificados de recebíveis tokenizados;
+• contratos de investimento coletivo ofertados publicamente. 5
+Roteiro de análise regulatória
+Plain Text
+1. Qual é o ativo ou direito?
+2. O token entrega remuneração ou participação?
+3. Existe expectativa de retorno?
+4. O retorno depende do esforço de terceiros?
+5. Houve oferta pública?
+6. Quem emite e distribui?
+7. Há negociação secundária?
+8. Qual serviço está sendo prestado?
+9. Qual regulador tem competência?
+Competências: CVM e Banco Central
+A Lei nº 14.478/2022 estabelece diretrizes para serviços de ativos virtuais e prestadoras de 
+serviços de ativos virtuais. 4
+A lei exclui de seu regime os ativos representativos de valores mobiliários sujeitos à Lei nº 
+6.385/1976 e declara que não altera as competências da CVM. 4
+O Decreto nº 11.563/2023 atribui ao Banco Central competência para:
+• regular a prestação de serviços de ativos virtuais;
+• regular, autorizar e supervisionar prestadoras de serviços de ativos virtuais. 6
+O mesmo decreto preserva as competências da CVM. 6
+A separação didática é:
+Quais direitos econômicos e jurídicos o token oferece e como ele foi ofertado?
+Situação
+Competência principal a observar
+
+<<<PÁGINA 15>>>
+O que a prova pode confundir
+• Todo token referenciado a ativo é valor mobiliário: incorreto.
+• Nenhum token é valor mobiliário porque é digital: incorreto.
+• A palavra “utility” elimina a CVM: incorreto.
+• O Banco Central regula todos os tokens: incorreto.
+• A CVM regula todos os criptoativos: incorreto.
+• As categorias são mutuamente excludentes: incorreto.
+• O nome comercial resolve a classificação: incorreto.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.4.4.2. Tipos de tokens.
+Fonte e status
+• CVM, Parecer de Orientação CVM 40, taxonomia funcional. 3
+• CVM, FAQ de criptoativos atualizada em 06/02/2026. 5
+• Lei nº 14.478/2022. 4
+• Decreto nº 11.563/2023. 6
+• Status: taxonomia funcional e orientação regulatória; não tratar os rótulos como 
+Prestação de serviços com ativos virtuais 
+dentro do perímetro da Lei nº 14.478/2022
+Banco Central, conforme regulamentação 
+aplicável.
+Token que seja valor mobiliário ou oferta 
+pública de valor mobiliário
+CVM, conforme legislação do mercado de 
+capitais.
+Instituição financeira autorizada usando 
+tecnologia de tokenização
+Regulação aplicável à instituição e à 
+atividade, incluindo regras de segurança, 
+governança e tecnologia.
+Ativo ou direito fora desses perímetros
+Análise do regime específico, contrato e 
+legislação aplicável.
+A classificação é funcional: olhe para os direitos e para a função, não apenas para o 
+nome do token.
+
+<<<PÁGINA 16>>>
+categorias absolutamente fechadas.
+3.3 Benefícios da tokenização
+O que é
+Benefícios da tokenização são ganhos potenciais decorrentes da combinação entre:
+• representação digital;
+• DLT;
+• smart contracts;
+• padronização;
+• automação;
+• interoperabilidade;
+• novas formas de distribuição e liquidação.
+Os benefícios são potenciais.
+Não são garantias de:
+• rentabilidade;
+• liquidez;
+• segurança absoluta;
+• redução automática de custos;
+• propriedade jurídica;
+• ausência de intermediários;
+• proteção regulatória.
+Benefício 1 — Programabilidade
+A programabilidade permite que regras sejam executadas automaticamente por smart 
+contracts.
+Exemplo:
+Plain Text
+Condição A + Condição B
+        ↓
+Pagamento ou transferência automática
+
+<<<PÁGINA 17>>>
+Pode ser utilizada para:
+• pagamentos condicionais;
+• distribuição de rendimentos;
+• cobrança de taxas;
+• bloqueio de transferências;
+• liquidação de operações;
+• controle de elegibilidade.
+Limite: o código executa o que foi programado. Ele não corrige regra mal escrita, dado 
+falso ou direito jurídico mal estruturado.
+Benefício 2 — Liquidação atômica
+Liquidação atômica é a execução coordenada de etapas de uma operação.
+Exemplo:
+Plain Text
+Pagamento validado ↔ ativo liberado
+A operação pode ser desenhada para que uma etapa não ocorra sem a outra.
+O Banco Central aponta a liquidação atômica como potencial redução de risco de 
+contraparte em operações tokenizadas. 7
+Limite: ela não elimina:
+• risco de crédito;
+• risco de liquidez;
+• erro de código;
+• risco de oráculo;
+• risco de rede;
+• risco de custódia;
+• risco de ativo inexistente.
+Benefício 3 — Fonte compartilhada de verdade
+Em estruturas tradicionais, diferentes participantes podem manter bases separadas.
+Isso exige reconciliação.
+
+<<<PÁGINA 18>>>
+Plain Text
+Instituição A → base A
+Instituição B → base B
+Custodiante   → base C
+        ↓
+conciliação e conferência
+Uma DLT pode criar um registro compartilhado por participantes autorizados ou pela 
+própria arquitetura da rede.
+Potenciais ganhos:
+• menos duplicidade;
+• mais rastreabilidade;
+• menor reconciliação;
+• maior visibilidade das movimentações;
+• auditoria mais direta.
+Limite: um registro compartilhado pode registrar um dado errado se a entrada estiver 
+errada.
+Benefício 4 — Multiativos
+Uma infraestrutura DLT pode permitir que ativos de diferentes naturezas sejam tokenizados 
+em um mesmo ambiente.
+Exemplo:
+Plain Text
+moeda digital + debênture + recebível + garantia
+Isso pode facilitar a composição de serviços financeiros.
+Limite: coexistir na mesma infraestrutura não significa que todos os ativos tenham o 
+mesmo regime jurídico.
+Benefício 5 — Fracionamento
+A tokenização pode dividir uma exposição econômica em unidades menores.
+Exemplo:
+Plain Text
+
+<<<PÁGINA 19>>>
+Ativo de valor econômico 1.000.000
+             ↓
+10.000 unidades digitais de 100
+Isso pode reduzir o valor mínimo de acesso.
+Limite: fracionamento não cria demanda. Um token fracionado pode continuar sem 
+liquidez, sem mercado secundário e sem compradores.
+Benefício 6 — Velocidade potencial
+Tokens podem ser transferidos rapidamente dentro de uma rede compatível.
+A velocidade depende de:
+• capacidade da rede;
+• regras de validação;
+• congestionamento;
+• integração;
+• janela de liquidação;
+• controles de compliance;
+• custódia;
+• ativo utilizado no pagamento.
+Portanto:
+Plain Text
+transferência rápida no registro ≠ liquidação completa de qualquer obrigação
+Benefício 7 — Auditabilidade e rastreabilidade
+A DLT pode registrar histórico de operações e permitir rastrear movimentações.
+Isso pode facilitar:
+• auditoria;
+• supervisão;
+• identificação de eventos;
+• conciliação;
+• monitoramento de cadeia de titularidade;
+
+<<<PÁGINA 20>>>
+• investigação de inconsistências.
+Limite: rastreabilidade de transação não é veracidade do ativo.
+Benefício 8 — Interoperabilidade e composability
+A interoperabilidade permite que sistemas diferentes se comuniquem.
+A composability permite reutilizar componentes em novas aplicações.
+Exemplo:
+Plain Text
+registro do ativo
+      ↓
+smart contract de pagamento
+      ↓
+serviço de custódia
+      ↓
+liquidação em moeda digital
+Limite: cada integração cria superfície adicional de risco.
+Benefício 9 — Novos modelos de negócio
+A tokenização pode viabilizar:
+• novos modelos de distribuição;
+• mercados para ativos antes pouco fracionáveis;
+• novos serviços de custódia;
+• novas formas de captação;
+• produtos digitais;
+• estruturas programáveis de pagamento.
+A possibilidade econômica depende de:
+• demanda;
+• regulação;
+• governança;
+• custos;
+• liquidez;
+• proteção do usuário;
+
+<<<PÁGINA 21>>>
+• segurança.
+Quadro: benefício e limite
+O que a prova pode confundir
+• Benefício potencial não é garantia.
+• Fracionamento não é liquidez.
+• Rastreabilidade não é autenticidade.
+• Programabilidade não é inteligência.
+• Liquidação atômica não elimina todos os riscos.
+• Registro compartilhado não significa que todos os dados sejam públicos.
+• Interoperabilidade não significa integração sem vulnerabilidades.
+• Tokenização não elimina necessariamente intermediários.
+Frase de fixação
+Benefício potencial
+Limite necessário
+Programabilidade
+Código pode conter erro.
+Liquidação atômica
+Não elimina risco de contraparte em todos os 
+níveis.
+Fonte compartilhada
+Registro pode receber informação errada.
+Multiativos
+Cada ativo conserva seu regime jurídico.
+Fracionamento
+Não garante liquidez ou retorno.
+Velocidade
+Depende de rede, integração, compliance e 
+liquidação.
+Rastreabilidade
+Não prova autenticidade do ativo externo.
+Menor reconciliação
+Exige governança e interoperabilidade.
+Menor custo potencial
+Segurança, custódia e conformidade 
+continuam custando.
+Novos mercados
+Mercado sem demanda não se torna líquido 
+automaticamente.
+
+<<<PÁGINA 22>>>
+Alinhamento ao Programa Detalhado
+• 4.4.4.3. Benefícios da tokenização.
+Fonte e status
+• Banco Central, Voto BCB 31/2023: programabilidade, liquidação atômica, fonte única de 
+verdade e multiativos. 7
+• ANBIMA, Tokenização de Ativos: eficiência, novos papéis e potenciais impactos. 2
+• B3, material educacional sobre benefícios potenciais. 8
+• Status: benefícios apresentados como potenciais e condicionados; não são promessa 
+de resultado ou garantia de investimento.
+3.4 Riscos e desafios: segurança, regulação e tecnologia
+O que é
+A tokenização cria novas possibilidades, mas também cria novas dependências.
+O risco precisa ser analisado em três dimensões principais:
+Plain Text
+segurança + regulação + tecnologia
+Na prática, também existem riscos:
+• econômicos;
+• operacionais;
+• jurídicos;
+• de mercado;
+• de liquidez;
+• de governança;
+• de proteção de dados.
+3.4.1 Segurança cibernética
+Tokenização pode reduzir fricções; não remove automaticamente os riscos do ativo e 
+da infraestrutura.
+
+<<<PÁGINA 23>>>
+A tokenização pode depender de:
+• blockchain ou DLT;
+• smart contracts;
+• carteiras;
+• chaves privadas;
+• APIs;
+• pontes entre redes;
+• custodiantes;
+• oráculos;
+• interfaces;
+• dispositivos dos usuários;
+• prestadores de serviços.
+Uma falha em qualquer camada pode comprometer a operação.
+Principais riscos de segurança
+• roubo de chave privada;
+• acesso não autorizado;
+• falha de autenticação;
+• código vulnerável;
+• erro de configuração;
+• ataque à interface;
+• fraude de phishing;
+• ataque a oráculo;
+• indisponibilidade;
+• vazamento de dados;
+• falha de integração;
+• ataque à ponte entre redes;
+• comprometimento de custodiante;
+• uso de contrato malicioso.
+3.4.2 Chave privada e custódia
+
+<<<PÁGINA 24>>>
+A posse de uma chave privada pode permitir o controle de ativos digitais.
+Plain Text
+chave privada comprometida → controle pode ser perdido
+Isso não significa que autocustódia seja sempre superior ou inferior à custódia institucional.
+Cada modelo possui riscos:
+3.4.3 Smart contracts
+O smart contract pode automatizar:
+• emissão;
+• transferência;
+• pagamentos;
+• bloqueios;
+• regras de elegibilidade;
+• liquidação.
+Mas o código pode conter:
+• falha lógica;
+• vulnerabilidade de segurança;
+• regra incompleta;
+• parâmetro inadequado;
+• função de atualização mal protegida;
+Modelo
+Riscos relevantes
+Autocustódia
+Perda da chave, phishing, erro do usuário e 
+ausência de recuperação simples.
+Custódia institucional
+Risco de contraparte, falha operacional, 
+insolvência e concentração.
+Multisig
+Reduz dependência de uma chave, mas 
+concentra poder nos signatários.
+Custódia programável
+Depende de código, regras de acesso e 
+governança.
+
+<<<PÁGINA 25>>>
+• dependência de dados externos.
+O Relatório do Piloto Drex registra que a validade jurídica de contratos inteligentes e a 
+forma de atualização desses contratos são temas que exigem tratamento específico. 9
+3.4.4 Oráculos e dados externos
+O token pode existir na rede, mas o ativo subjacente pode depender de informações 
+externas.
+Exemplos:
+• preço de ativo;
+• existência de imóvel;
+• titularidade;
+• autenticidade de obra;
+• quantidade de commodity;
+• evento de crédito;
+• ocorrência de sinistro.
+Plain Text
+dado externo → oráculo → smart contract → resultado
+Se o oráculo informar um dado errado, o contrato pode executar corretamente uma 
+decisão errada.
+3.4.5 Privacidade e proteção de dados
+Registros distribuídos podem favorecer rastreabilidade, mas informações imutáveis ou 
+amplamente replicadas podem gerar desafios de privacidade.
+A LGPD determina que o tratamento de dados pessoais observe, entre outros, os princípios 
+de:
+• finalidade;
+• adequação;
+• necessidade;
+• livre acesso;
+• qualidade dos dados;
+• transparência;
+
+<<<PÁGINA 26>>>
+• segurança;
+• prevenção;
+• não discriminação;
+• responsabilização e prestação de contas. 10
+A LGPD exige medidas técnicas e administrativas de segurança desde a concepção do 
+produto ou serviço. 10
+O desafio é compatibilizar:
+Plain Text
+rastreabilidade e integridade
+                ×
+privacidade e correção de dados
+3.4.6 Escalabilidade
+Escalabilidade é a capacidade de processar maior volume de operações sem perda 
+inadequada de desempenho, segurança ou disponibilidade.
+Problemas possíveis:
+• congestionamento;
+• latência;
+• aumento do custo de transação;
+• filas;
+• limitação de capacidade;
+• dificuldade de integrar sistemas legados;
+• necessidade de mais nós ou infraestrutura.
+O Relatório do Piloto Drex registrou testes de desempenho e tratou escalabilidade como 
+item de continuidade e evolução, não como problema definitivamente resolvido. 9
+3.4.7 Interoperabilidade
+Interoperabilidade é a capacidade de sistemas diferentes se comunicarem.
+A integração pode ocorrer entre:
+• DLTs diferentes;
+• sistemas de custódia;
+
+<<<PÁGINA 27>>>
+• depositárias;
+• registros públicos;
+• instituições financeiras;
+• sistemas de pagamentos;
+• plataformas de negociação.
+Quanto mais integrações, maior pode ser a superfície de ataque e a necessidade de 
+padrões comuns.
+3.4.8 Regulação e competência
+A tokenização pode envolver vários regimes ao mesmo tempo.
+Possíveis temas:
+• valores mobiliários;
+• ofertas públicas;
+• intermediação;
+• custódia;
+• escrituração;
+• depósito centralizado;
+• registro;
+• compensação;
+• liquidação;
+• serviços de ativos virtuais;
+• prevenção à lavagem de dinheiro;
+• proteção do consumidor;
+• proteção de dados;
+• contratos;
+• propriedade imobiliária;
+• direitos autorais.
+A Lei nº 14.478/2022 estabelece diretrizes para serviços de ativos virtuais, incluindo 
+governança, transparência, abordagem baseada em riscos, segurança da informação, 
+proteção de dados, proteção do consumidor e prevenção à lavagem de dinheiro. 4
+Mas a mesma lei não se aplica a ativos representativos de valores mobiliários sujeitos à Lei 
+
+<<<PÁGINA 28>>>
+nº 6.385/1976 e não altera competências da CVM. 4
+3.4.9 Segurança de instituições autorizadas
+A Resolução CMN nº 5.274/2025 alterou o regime da Resolução CMN nº 4.893/2021 para 
+instituições autorizadas a funcionar pelo Banco Central.
+O texto passou a detalhar controles como:
+• autenticação;
+• criptografia;
+• prevenção e detecção de intrusão;
+• prevenção de vazamento;
+• proteção contra software malicioso;
+• rastreabilidade;
+• cópias de segurança;
+• avaliação e correção de vulnerabilidades;
+• controles de acesso;
+• configuração segura;
+• proteção de rede;
+• certificados digitais;
+• segurança de integrações por interfaces eletrônicas. 11
+A resolução também prevê testes de intrusão com periodicidade mínima anual para as 
+instituições abrangidas, com documentação de vulnerabilidades e planos de correção. 11
+Atenção: essa resolução não é uma regra universal para todo token ou projeto de 
+tokenização. Ela se aplica às instituições abrangidas pelo seu regime.
+3.4.10 Risco econômico e de mercado
+Tokenização não elimina o risco do ativo.
+Uma debênture tokenizada continua exposta ao risco do emissor.
+Um imóvel tokenizado continua exposto a:
+• vacância;
+• inadimplência;
+• desvalorização;
+• despesas;
+
+<<<PÁGINA 29>>>
+• risco jurídico;
+• risco de execução.
+Uma obra de arte tokenizada continua exposta a:
+• autenticidade;
+• procedência;
+• conservação;
+• demanda;
+• direitos de reprodução;
+• liquidez.
+3.4.11 Liquidez
+A existência de token não cria automaticamente um mercado secundário.
+A liquidez depende de:
+• compradores;
+• vendedores;
+• infraestrutura de negociação;
+• regras de transferência;
+• informação;
+• custos;
+• confiança;
+• elegibilidade;
+• regulação;
+• custódia.
+Plain Text
+fracionamento ≠ liquidez
+Quadro de risco e resposta
+Risco
+Pergunta de controle
+Chave privada
+Quem controla e recupera o acesso?
+
+<<<PÁGINA 30>>>
+O que a prova pode confundir
+• Blockchain é segurança absoluta: incorreto.
+• Código aberto é código sem risco: incorreto.
+• Imutabilidade resolve privacidade: incorreto.
+• A Lei nº 14.478/2022 regula todo ativo tokenizado: incorreto.
+• Autorização do Banco Central para prestadora autoriza oferta de valor mobiliário: 
+incorreto.
+• Teste em sandbox é autorização permanente: incorreto.
+• Fracionamento garante liquidez: incorreto.
+• Smart contract elimina disputa jurídica: incorreto.
+• Registro on-chain prova autenticidade do ativo externo: incorreto.
+Smart contract
+Houve auditoria, teste e governança de 
+atualização?
+Oráculo
+De onde veio o dado e como pode ser 
+contestado?
+Privacidade
+Quais dados são registrados e por quanto 
+tempo?
+Escalabilidade
+A rede suporta o volume e a latência exigidos?
+Interoperabilidade
+Os sistemas conseguem se comunicar com 
+segurança?
+Regulação
+Qual ativo, serviço, oferta e órgão 
+competente estão envolvidos?
+Liquidez
+Existe mercado secundário e demanda real?
+Custódia
+Quem mantém o ativo e responde por 
+perdas?
+Propriedade
+O token transfere qual direito, por qual 
+instrumento e registro?
+Arte
+Quem garante autenticidade, procedência e 
+direitos autorais?
+Dados pessoais
+O tratamento atende LGPD e medidas de 
+segurança?
+
+<<<PÁGINA 31>>>
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.4.4.4. Risco e desafios: segurança, regulação e tecnologia.
+Fonte e status
+• Lei nº 14.478/2022. 4
+• Decreto nº 11.563/2023. 6
+• Resolução CMN nº 5.274/2025. 11
+• LGPD, Lei nº 13.709/2018. 10
+• Relatório do Piloto Drex — Fase 1. 9
+• Status: normas e desafios foram separados. A regra depende do sujeito, do ativo e da 
+atividade; a tokenização não possui um regime universal único.
+3.5 Tokenização de ativos financeiros, imóveis e artes
+O que é
+O subitem exige aplicar o conceito de tokenização a três grupos:
+1. ativos financeiros;
+2. imóveis;
+3. artes.
+A mesma tecnologia pode ser usada nos três grupos. O direito representado e os riscos são 
+diferentes.
+3.5.1 Ativos financeiros
+Ativos financeiros tokenizados podem incluir:
+• debêntures;
+• recebíveis;
+• contratos de investimento coletivo;
+• títulos públicos em ambiente experimental;
+A tokenização muda a infraestrutura; não elimina o risco do ativo, do contrato, do 
+usuário ou do regulador.
+
+<<<PÁGINA 32>>>
+• cotas ou participações, conforme estrutura;
+• outros direitos financeiros.
+A primeira pergunta é:
+Se a resposta for positiva, a tecnologia não elimina o regime aplicável ao instrumento.
+Debênture tokenizada
+Uma debênture representa uma dívida da companhia emissora perante o titular.
+Se representada por token:
+Plain Text
+dívida da emissora
+        ↓
+representação digital
+        ↓
+token da debênture
+O token não elimina:
+• risco de crédito;
+• remuneração contratada;
+• vencimento;
+• garantias;
+• covenants;
+• deveres de informação;
+• regime de distribuição;
+• custódia ou escrituração quando aplicáveis.
+A tokenização pode modificar a infraestrutura de registro e transferência, mas não 
+transforma automaticamente uma dívida em ativo sem risco.
+Recebíveis tokenizados
+Um recebível é um direito de receber determinado valor no futuro.
+O token pode representar:
+• o recebível;
+• participação em fluxo de recebíveis;
+O token representa um ativo financeiro ou um valor mobiliário já existente?
+
+<<<PÁGINA 33>>>
+• direito contratual;
+• certificado ou estrutura de investimento.
+A análise deve verificar:
+• devedor;
+• origem do recebível;
+• lastro;
+• cessão;
+• remuneração;
+• risco de inadimplência;
+• forma de oferta;
+• direitos do titular;
+• serviço de cobrança;
+• custódia e registros.
+A CVM já orientou o mercado sobre a possibilidade de tokens de recebíveis e tokens de 
+renda fixa serem valores mobiliários conforme a estrutura concreta. 5
+Valor mobiliário tokenizado
+Se o token representa valor mobiliário ou configura contrato de investimento coletivo 
+ofertado publicamente, as regras do mercado de capitais podem incidir.
+A CVM destaca que podem ser aplicáveis regras sobre:
+• emissores;
+• ofertas públicas;
+• divulgação;
+• negociação;
+• intermediação;
+• escrituração;
+• custódia;
+• depósito centralizado;
+• registro;
+• compensação;
+• liquidação. 3
+
+<<<PÁGINA 34>>>
+Exemplo de infraestrutura de mercado
+A B3 divulgou estruturas de tokenização de ativos e contratos de investimento relacionados 
+a crowdfunding.
+A leitura correta é:
+Plain Text
+tecnologia de tokenização
++ plataforma regulada
++ regime jurídico do produto
++ infraestrutura operacional
+Não é correto concluir que todo token financeiro é automaticamente negociado em bolsa 
+ou que toda tokenização dispensa intermediários.
+3.5.2 Imóveis
+A tokenização imobiliária pode representar:
+• participação econômica em empreendimento;
+• recebíveis imobiliários;
+• cotas ou direitos de veículo;
+• direito de uso;
+• fluxo de aluguéis;
+• contrato de investimento coletivo;
+• direito contratual vinculado ao imóvel.
+O token não é automaticamente:
+• matrícula do imóvel;
+• escritura pública;
+• título translativo;
+• propriedade registral;
+• posse;
+• garantia real;
+• autorização para ocupar o imóvel.
+Propriedade imobiliária
+
+<<<PÁGINA 35>>>
+O Código Civil estabelece que a propriedade imobiliária entre vivos se transfere mediante o 
+registro do título translativo no Registro de Imóveis. 12
+A cadeia correta é:
+Plain Text
+acordo e contrato
+        ↓
+título adequado
+        ↓
+registro no Registro de Imóveis
+        ↓
+propriedade perante o sistema registral
+Tokenizar uma participação econômica em um empreendimento é diferente de transferir o 
+domínio do imóvel.
+Perguntas de análise
+• Quem é o proprietário registral?
+• Quem emite o token?
+• O token representa propriedade, crédito ou participação econômica?
+• Há matrícula identificada?
+• Há escritura ou título adequado?
+• Há registro no Registro de Imóveis?
+• Existe risco de ocupação, ônus ou litígio?
+• O token pode ser transferido livremente?
+• O titular recebe aluguel ou apenas expectativa?
+• Qual é a forma de tributação e distribuição?
+3.5.3 Artes
+A tokenização de arte pode ter funções diferentes.
+O token pode representar:
+• obra digital;
+• certificado de procedência;
+• registro de autenticidade declarado;
+• licença de uso;
+
+<<<PÁGINA 36>>>
+• direito de acesso;
+• direito de exposição;
+• participação econômica;
+• fração contratual;
+• item colecionável.
+A análise precisa separar:
+Token de arte não é automaticamente obra de arte
+Um token pode apontar para uma obra, mas o token e a obra são objetos diferentes.
+Plain Text
+token de arte ≠ obra física necessariamente
+NFT ≠ direito autoral automaticamente
+registro on-chain ≠ autenticidade absoluta
+A Lei nº 9.610/1998 protege direitos autorais e estabelece regras próprias sobre utilização 
+de obras. 13
+A transferência de um token não deve ser tratada automaticamente como transferência de 
+todos os direitos autorais, patrimoniais ou morais sobre a obra.
+Elemento
+Pergunta
+Objeto físico
+A obra material existe e onde está?
+Autenticidade
+Quem verificou a autoria e a procedência?
+Posse
+Quem mantém fisicamente a obra?
+Propriedade
+O comprador adquire o objeto ou apenas um 
+direito?
+Direito autoral
+O token inclui reprodução, adaptação ou 
+comunicação pública?
+Receita
+Há direito a royalties ou apenas expectativa?
+Token
+O que exatamente está inscrito no código e 
+no contrato?
+Mercado
+Existe plataforma, comprador e transferência 
+válida?
+
+<<<PÁGINA 37>>>
+Quadro comparativo
+O que a prova pode confundir
+• Debênture tokenizada deixa de ser valor mobiliário: incorreto.
+• Token de recebível tem sempre o mesmo tratamento: incorreto.
+• Token imobiliário é matrícula digital: incorreto.
+• Token de arte é automaticamente direito autoral: incorreto.
+• NFT comprova autenticidade física sem validação externa: incorreto.
+• Fracionar um imóvel cria liquidez garantida: incorreto.
+• A blockchain substitui todos os registros: incorreto.
+• O nome “security token” é suficiente sem análise dos direitos: incorreto.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+• 4.4.4.5. Tokenização de ativos financeiros, imóveis e artes.
+Fonte e status
+• ANBIMA, Tokenização de Ativos. 2
+• CVM, Parecer de Orientação CVM 40 e FAQ atualizada. 3 5
+Ativo
+O que pode ser tokenizado
+O que não deve ser presumido
+Financeiro
+Dívida, recebível, valor 
+mobiliário, participação ou 
+fluxo econômico.
+Ausência de risco de crédito ou 
+dispensa de regulação.
+Imóvel
+Participação, recebível, cota, 
+fluxo, uso ou direito contratual.
+Transferência automática do 
+domínio e da matrícula.
+Arte
+Obra digital, certificado, 
+licença, procedência, acesso ou 
+participação econômica.
+Autenticidade, propriedade 
+física e direitos autorais 
+automáticos.
+O ativo continua tendo sua natureza; a tokenização altera a representação e a 
+infraestrutura.
+
+<<<PÁGINA 38>>>
+• Lei nº 14.478/2022 e Decreto nº 11.563/2023. 4 6
+• Código Civil e Registro de Imóveis. 12
+• Lei de Direitos Autorais. 13
+• B3, exemplos de infraestrutura de ativos tokenizados. 8
+• Status: aplicação depende do ativo, do direito representado, do emissor, da oferta, da 
+custódia e da legislação específica.
+4. Por que isso cai na prova? — 12 minutos
+Explicação estratégica
+Tokenização é um tema de prova baseado em distinções.
+A banca pode apresentar um projeto com nomes sofisticados e perguntar qual é a 
+conclusão correta.
+O aluno deve ignorar o marketing e seguir a sequência:
+Plain Text
+nome do token
+      ↓
+função econômica
+      ↓
+direitos conferidos
+      ↓
+forma de oferta
+      ↓
+ativo e serviço
+      ↓
+regulador e regra
+Pontos de atenção
+1. Tokenização é processo, não classe única de ativo.
+2. DLT e blockchain são infraestrutura; tokenização é representação digital.
+3. As categorias funcionais da CVM não são exclusivas nem estanques.
+4. Token referenciado a ativo pode ou não ser valor mobiliário.
+
+<<<PÁGINA 39>>>
+5. A Lei nº 14.478/2022 não substitui a competência da CVM.
+6. O Banco Central supervisiona prestadoras de serviços de ativos virtuais conforme 
+seu perímetro regulatório.
+7. Benefícios são potenciais, não garantias.
+8. Fracionamento não é liquidez.
+9. Registro na blockchain não comprova sozinho a realidade externa.
+10. Token de imóvel não é automaticamente propriedade registral.
+11. Token de arte não é automaticamente direito autoral ou prova de autenticidade.
+12. Ativo tokenizado conserva riscos econômicos e jurídicos.
+Árvore decisória da prova
+Plain Text
+Existe token?
+     ↓
+Qual é sua função?
+     ↓
+Quais direitos são conferidos?
+     ↓
+Há valor mobiliário ou oferta pública?
+     ↓
+Qual atividade está sendo prestada?
+     ↓
+Qual órgão e qual regra são aplicáveis?
+Comparações críticas
+A
+B
+Diferença decisiva
+Tokenização
+Criação de criptomoeda
+Tokenização é processo de 
+representação; criptomoeda é 
+possível classe/função de ativo.
+DLT
+Tokenização
+DLT é infraestrutura; 
+tokenização é processo.
+Blockchain
+DLT
+Blockchain é uma forma de DLT.
+Token
+Ativo subjacente
+Token é representação; ativo é 
+objeto ou direito representado.
+
+<<<PÁGINA 40>>>
+Palavras-chave
+• “representação digital de valor e direitos”: conceito de tokenização.
+• “ativo real preexistente”: tokenização de ativo existente fora da rede.
+• “token nativo”: classe emitida diretamente em formato digital.
+• “DLT”: tecnologia de registro distribuído.
+• “blockchain”: forma de DLT.
+• “unidade de conta, meio de troca e reserva de valor”: token de pagamento.
+• “acesso a produto ou serviço”: token de utilidade.
+Token referenciado a ativo
+Valor mobiliário
+O primeiro pode ou não ser o 
+segundo.
+Token de utilidade
+Isenção regulatória
+Utilidade não elimina análise 
+da essência econômica.
+Fracionamento
+Liquidez
+Divisão em unidades menores 
+não garante compradores.
+Rastreabilidade
+Autenticidade
+Registro de movimento não 
+prova verdade do ativo externo.
+Debênture tokenizada
+Token de pagamento
+A primeira representa dívida; o 
+segundo busca função 
+monetária.
+Token imobiliário
+Propriedade registrada
+Direito econômico ou 
+contratual não equivale 
+automaticamente ao domínio.
+NFT de arte
+Direito autoral
+Token não transfere 
+automaticamente todos os 
+direitos autorais.
+Smart contract
+Contrato jurídico
+Código executável não resolve 
+sozinho validade e disputas.
+BCB
+CVM
+BCB: prestadoras de serviços 
+de ativos virtuais; CVM: valores 
+mobiliários.
+Sandbox
+Regra geral
+Sandbox é ambiente 
+experimental e condicionado.
+
+<<<PÁGINA 41>>>
+• “ativo tangível ou intangível”: token referenciado a ativo.
+• “não exclusivas nem estanques”: categorias funcionais podem se sobrepor.
+• “essência econômica dos direitos”: critério funcional da CVM.
+• “oferta pública”: possível incidência das regras do mercado de capitais.
+• “programabilidade”: automação por smart contracts.
+• “liquidação atômica”: troca coordenada de tokens.
+• “fonte única de verdade”: registro compartilhado.
+• “multiativos”: ativos de diferentes naturezas na mesma DLT.
+• “fracionamento”: divisão da exposição em unidades menores.
+• “Registro de Imóveis”: ponto decisivo para propriedade imobiliária.
+• “autenticidade e procedência”: cuidado na tokenização de arte.
+Pegadinhas
+1. “Todo token é valor mobiliário.”
+• Correção: o enquadramento depende da essência econômica, dos direitos e da 
+forma de oferta.
+2. “Nenhum token é valor mobiliário porque usa blockchain.”
+• Correção: a tecnologia não afasta a incidência das regras de valores mobiliários.
+3. “Token de utilidade nunca é regulado.”
+• Correção: o nome utility não substitui a análise funcional.
+4. “Token referenciado a ativo sempre é valor mobiliário.”
+• Correção: pode ou não ser, dependendo do caso concreto.
+5. “A Lei nº 14.478/2022 regula valores mobiliários tokenizados.”
+• Correção: a lei exclui representações de valores mobiliários e preserva a 
+competência da CVM.
+6. “Benefício potencial é resultado certo.”
+• Correção: programabilidade, velocidade, custo e liquidez dependem da estrutura.
+7. “Fracionar ativo cria liquidez.”
+• Correção: liquidez depende de mercado, demanda e infraestrutura.
+8. “Blockchain prova autenticidade do objeto físico.”
+• Correção: registra a informação inserida; não substitui verificação externa.
+
+<<<PÁGINA 42>>>
+9. “Token imobiliário é matrícula digital.”
+• Correção: propriedade depende do título e do registro aplicáveis.
+10. “NFT é direito autoral.”
+• Correção: o token pode representar outro direito; o conteúdo contratual precisa ser 
+verificado.
+11. “Sandbox é autorização permanente.”
+• Correção: é ambiente experimental, condicionado e temporário.
+12. “Piloto Drex prova que todos os ativos serão tokenizados.”
+• Correção: piloto demonstra testes e hipóteses; não é regra geral de mercado.
+13. “Banco Central e CVM regulam a mesma coisa.”
+• Correção: competências dependem do ativo, do serviço e do perímetro legal.
+14. “Registro imutável elimina problemas de privacidade.”
+• Correção: imutabilidade pode criar tensão com correção, minimização e direitos de 
+proteção de dados.
+Comando de lousa/tela
+[ESCREVA]
+Plain Text
+NOME DO TOKEN NÃO DECIDE
+DIREITOS + FUNÇÃO + OFERTA DECIDEM
+[FIXE]
+5. Case / Storytelling — 20 minutos
+Situação: Plataforma Atlas Token
+A Plataforma Atlas cria uma infraestrutura DLT para representar três ativos:
+1. uma debênture de uma empresa;
+2. participação econômica em um empreendimento imobiliário;
+Na prova, não siga o nome comercial. Siga a essência econômica.
+
+<<<PÁGINA 43>>>
+3. uma obra de arte digital.
+A plataforma também cria um token de acesso para pagar taxas e pretende oferecer os 
+tokens ao público.
+Etapa 1 — Debênture
+A empresa Atlas Energia emite uma debênture.
+O direito do titular é receber remuneração e principal conforme os documentos da emissão.
+A plataforma representa a debênture por tokens.
+Análise
+• O ativo subjacente é uma dívida.
+• O token representa direitos econômicos definidos na emissão.
+• O nome token não elimina o regime da debênture.
+• A oferta e a negociação precisam ser analisadas.
+• A tecnologia muda a infraestrutura, não elimina o risco de crédito.
+Pergunta para a turma
+O token da debênture se transforma em token de pagamento apenas por estar em 
+blockchain?
+Resposta: não. Sua função principal continua relacionada à representação da dívida, salvo 
+outras funções relevantes.
+Etapa 2 — Empreendimento imobiliário
+A Atlas oferece tokens que prometem ao titular participação no fluxo de aluguéis de um 
+edifício.
+O token não entrega automaticamente uma fração da matrícula do imóvel.
+Análise
+• O direito pode ser participação econômica, recebível ou contrato de investimento.
+• É necessário verificar a estrutura jurídica.
+• Pode haver análise de valor mobiliário se houver oferta pública e expectativa de retorno 
+conforme os critérios aplicáveis.
+• A propriedade do imóvel continua sujeita aos requisitos civis e registrais.
+
+<<<PÁGINA 44>>>
+Pergunta para a turma
+O titular do token pode afirmar automaticamente que é coproprietário do edifício?
+Resposta: não. É necessário verificar o instrumento jurídico e o registro imobiliário.
+Etapa 3 — Obra de arte digital
+A artista Marina cria uma obra digital e emite um NFT.
+A documentação informa que o comprador recebe acesso à obra e certificado de 
+procedência, mas não recebe autorização para reproduzir, comercializar cópias ou explorar 
+a imagem.
+Análise
+• O NFT é uma unidade digital.
+• O comprador recebe os direitos descritos na documentação.
+• O NFT não transfere automaticamente direitos autorais.
+• A autenticidade depende da relação entre a artista, a carteira emissora, a obra e a prova 
+de origem.
+• A transferência do NFT não modifica automaticamente o conteúdo da licença.
+Pergunta para a turma
+O comprador pode reproduzir comercialmente a obra só porque possui o NFT?
+Resposta: não necessariamente. O direito depende do contrato, da licença e da legislação 
+autoral.
+Etapa 4 — Token de acesso
+A Atlas cria o token ATLAS para pagar taxas reduzidas na plataforma.
+O token também é anunciado como ativo que “poderá valorizar conforme o crescimento 
+da empresa”.
+Análise
+• A função inicial parece ser utilidade.
+• A publicidade introduz expectativa de valorização.
+• O token pode desempenhar mais de uma função.
+• O nome utility não resolve o enquadramento.
+
+<<<PÁGINA 45>>>
+• É necessário analisar os direitos, a forma de oferta, a remuneração e o papel do esforço 
+da empresa.
+Pergunta para a turma
+A palavra “utility” impede a análise da CVM?
+Resposta: não. A essência econômica e as características da oferta importam mais do que o 
+nome comercial.
+Etapa 5 — Benefícios esperados
+A Atlas apresenta a tokenização como solução para:
+• fracionar ativos;
+• reduzir custos;
+• aumentar velocidade;
+• permitir negociação 24 horas;
+• eliminar intermediários;
+• garantir liquidez;
+• impedir fraudes.
+Análise crítica
+A linguagem contém promessas que precisam ser qualificadas.
+Afirmação da Atlas
+Análise correta
+Fracionar ativos
+Pode reduzir o valor mínimo, mas não 
+garante liquidez.
+Reduzir custos
+Pode reduzir alguns custos; cria custos de 
+tecnologia, segurança e conformidade.
+Aumentar velocidade
+Pode acelerar registros e transferências; a 
+liquidação completa depende de outras 
+camadas.
+Negociar 24 horas
+Depende do regime, da plataforma, da 
+liquidez e das regras de negociação.
+Eliminar intermediários
+Pode reduzir ou reorganizar intermediários; 
+custódia, compliance e governança 
+permanecem relevantes.
+
+<<<PÁGINA 46>>>
+Etapa 6 — Risco de segurança
+Um funcionário perde a chave administrativa da plataforma.
+A Atlas descobre que o contrato permite atualizar regras sem período de espera.
+Consequências possíveis
+• mudança indevida de parâmetros;
+• bloqueio de transferências;
+• criação de tokens adicionais;
+• alteração de direitos operacionais;
+• perda de confiança;
+• necessidade de resposta de governança;
+• conflito entre imutabilidade e correção.
+Etapa 7 — Conclusão regulatória
+A Atlas precisa separar:
+Plain Text
+estrutura tecnológica
+        ↓
+ativo e direito representado
+        ↓
+função do token
+        ↓
+forma de oferta
+        ↓
+atividade da plataforma
+        ↓
+regulador e regime aplicável
+Garantir liquidez
+Incorreto. Liquidez depende de demanda e 
+mercado.
+Impedir fraudes
+Incorreto. A tecnologia pode reduzir ou 
+rastrear alguns problemas, mas não elimina 
+fraude.
+
+<<<PÁGINA 47>>>
+A conclusão não pode ser obtida apenas pelo nome da tecnologia.
+Síntese do case
+Frase de fechamento do case
+6. Questão final comentada
+Certificação
+CPA ANBIMA.
+Competência
+4.4.4.1 a 4.4.4.5: conceito básico, tipos de tokens, benefícios, riscos e desafios e tokenização 
+de ativos financeiros, imóveis e artes.
+Produto
+Representação
+Direito presumível?
+Ponto 
+regulatório/operacion
+al
+Debênture
+Token financeiro
+Crédito contra emissor.
+Valor mobiliário, 
+oferta, custódia e risco 
+de crédito.
+Edifício
+Token de fluxo 
+econômico
+Direito contratual ou 
+participação.
+Não é 
+automaticamente 
+matrícula ou 
+propriedade.
+Obra digital
+NFT
+Acesso, certificado ou 
+licença conforme 
+documentação.
+Não transfere 
+automaticamente 
+direito autoral ou 
+autenticidade.
+ATLAS
+Token de acesso com 
+promessa de 
+valorização
+Utilidade e possível 
+expectativa 
+econômica.
+Nome “utility” não 
+encerra a análise.
+O mesmo sistema pode conter tokens diferentes; cada token exige análise própria 
+dos direitos, da função e da oferta.
+
+<<<PÁGINA 48>>>
+Nível
+Difícil.
+Enunciado
+Uma plataforma de tecnologia de registro distribuído cria três tokens. O primeiro 
+representa direitos de crédito de uma debênture. O segundo dá ao titular participação 
+econômica nos aluguéis de um empreendimento imobiliário. O terceiro permite acesso a 
+uma plataforma, mas é divulgado como ativo que poderá se valorizar conforme o 
+crescimento da empresa emissora.
+A plataforma afirma que a tokenização garante liquidez, elimina intermediários, comprova 
+a propriedade dos ativos e impede fraudes. Os tokens serão ofertados ao público.
+Considerando o conceito de tokenização, a taxonomia funcional da CVM, os benefícios 
+potenciais e os limites regulatórios, assinale a alternativa correta.
+A) Os três tokens são tokens de utilidade, pois todos são unidades digitais de acesso a uma 
+plataforma baseada em blockchain; por isso, a oferta não pode estar sujeita às regras da 
+CVM.
+B) O uso de DLT transforma automaticamente o primeiro token em criptomoeda, o segundo 
+em propriedade imobiliária e o terceiro em moeda digital, independentemente dos direitos 
+conferidos e da forma de oferta.
+C) O primeiro token pode representar um valor mobiliário sujeito às regras aplicáveis; o 
+segundo não transfere automaticamente a propriedade registral do imóvel; e o terceiro não 
+pode ser classificado apenas pelo nome “utility”, pois a expectativa econômica e a oferta 
+exigem análise funcional.
+D) A tokenização garante liquidez e segurança porque todos os registros em blockchain são 
+imutáveis; portanto, não há risco relevante de chave privada, smart contract, oráculo, 
+governança ou privacidade.
+E) A Lei nº 14.478/2022 atribui ao Banco Central competência sobre qualquer token, 
+inclusive valores mobiliários tokenizados, de modo que a CVM não possui competência 
+quando a oferta ocorre em DLT.
+Ponto-chave
+A alternativa correta precisa reconhecer que:
+• os tokens podem exercer funções diferentes;
+• o enquadramento depende dos direitos e da oferta;
+
+<<<PÁGINA 49>>>
+• o token financeiro pode ser valor mobiliário;
+• token imobiliário não é propriedade automática;
+• o rótulo utility não encerra a análise;
+• os benefícios são potenciais e os riscos permanecem.
+Gabarito
+Alternativa C.
+Justificativa da correta
+A alternativa C está correta.
+O primeiro token representa direitos de crédito de uma debênture. A tecnologia não 
+elimina a natureza econômica do instrumento. Se a estrutura envolver valor mobiliário, 
+oferta pública ou atividade sujeita ao mercado de capitais, as regras aplicáveis continuam 
+relevantes.
+O segundo token representa participação econômica nos aluguéis. Isso não significa, 
+automaticamente, transferência do domínio do imóvel, da matrícula ou da propriedade 
+registral. O efeito depende do instrumento jurídico e dos registros aplicáveis.
+O terceiro token pode possuir função de utilidade, mas a análise não termina no nome 
+“utility”. A expectativa de valorização, os direitos associados, a publicidade, a forma de 
+oferta e a dependência do esforço da empresa podem alterar a análise funcional.
+Alternativas incorretas
+• A: incorreta. Os tokens possuem funções distintas. O primeiro representa uma 
+debênture; o segundo representa um fluxo econômico imobiliário; o terceiro pode 
+acumular utilidade e expectativa econômica. O nome ou a tecnologia não afastam a 
+análise da CVM.
+• B: incorreta. DLT é infraestrutura. Ela não transforma automaticamente um token em 
+criptomoeda, propriedade imobiliária ou moeda digital. O direito depende da 
+estrutura, dos documentos e da legislação.
+• C: correta. A alternativa separa representação digital, natureza do direito, propriedade 
+imobiliária e análise funcional da CVM.
+• D: incorreta. Imutabilidade pode ajudar na integridade do registro, mas não garante 
+liquidez nem elimina riscos de chave privada, código, governança, oráculo, privacidade, 
+integração e fraude na origem do dado.
+
+<<<PÁGINA 50>>>
+• E: incorreta. A Lei nº 14.478/2022 exclui de seu regime os ativos representativos de 
+valores mobiliários sujeitos à Lei nº 6.385/1976 e declara que não altera as 
+competências da CVM. O Decreto nº 11.563/2023 também preserva a competência da 
+CVM.
+Armadilhas e macetes
+• Token financeiro não deixa de ser financeiro porque usa blockchain.
+• Token imobiliário não é automaticamente matrícula.
+• Utility não é blindagem regulatória.
+• Fracionamento não é liquidez.
+• Imutabilidade não é segurança absoluta.
+• Lei nº 14.478/2022 não substitui a CVM para valores mobiliários.
+7. Revisão final
+Resumo em cinco pontos
+1. Tokenização é o processo de representar digitalmente valor econômico e direitos ou 
+emitir ativos nativos em forma de tokens.
+2. Tipos de tokens devem ser analisados por função: pagamento, utilidade e referência a 
+ativo; as categorias podem se sobrepor.
+3. Benefícios como programabilidade, liquidação atômica, fracionamento, 
+rastreabilidade, multiativos e eficiência são potenciais, não garantias.
+4. Riscos permanecem em segurança, código, chaves, oráculos, privacidade, 
+escalabilidade, liquidez, regulação e governança.
+5. Ativos financeiros, imóveis e artes conservam sua natureza jurídica e econômica; 
+token não transfere automaticamente valor mobiliário, propriedade imobiliária, 
+autenticidade ou direitos autorais.
+Quadro de emergência
+Plain Text
+TOKENIZAÇÃO
+= representação digital de valor e direitos
+
+<<<PÁGINA 51>>>
+DLT
+= tecnologia de registro distribuído
+BLOCKCHAIN
+= uma forma de DLT
+TOKEN
+= unidade digital criada ou movimentada
+TIPOS FUNCIONAIS
+pagamento | utilidade | referenciado a ativo
+REGRA DE CLASSIFICAÇÃO
+função + direitos + oferta + essência econômica
+BENEFÍCIOS POTENCIAIS
+programabilidade | liquidação atômica | fracionamento
+rastreabilidade | multiativos | eficiência
+RISCOS
+chave | código | oráculo | privacidade | regulação
+escala | liquidez | governança | direito
+APLICAÇÕES
+financeiro → risco e regra do instrumento
+imóvel → título e registro
+arte → autenticidade, licença e autoria
+Cadeia lógica
+Diferenças que não podem ser confundidas
+• Tokenização ≠ criptomoeda: processo de representação não é uma classe única de 
+ativo.
+• DLT ≠ tokenização: tecnologia de registro é infraestrutura; tokenização é processo.
+• Blockchain ≠ DLT: blockchain é uma forma de DLT.
+• Token ≠ ativo: unidade digital não é automaticamente o objeto ou direito 
+representado.
+Conceito → mecanismo → aplicação → regra → decisãoTokenização → representação 
+digital → token financeiro/imobiliário/artístico → análise dos direitos e da oferta → 
+enquadramento e decisão regulatória.
+
+<<<PÁGINA 52>>>
+• Token de utilidade ≠ isenção regulatória: o nome não decide a substância.
+• Token referenciado a ativo ≠ valor mobiliário automaticamente: pode ou não ser.
+• Benefício potencial ≠ garantia: fracionamento não garante liquidez e rastreabilidade 
+não garante autenticidade.
+• Liquidação atômica ≠ ausência de risco: a operação ainda possui outras camadas de 
+risco.
+• Token imobiliário ≠ propriedade registral: domínio depende de título e registro 
+aplicáveis.
+• NFT ≠ direito autoral automático: o conteúdo da licença precisa ser analisado.
+• Registro on-chain ≠ autenticidade externa: a rede registra o dado inserido.
+• Banco Central ≠ CVM: competência depende do serviço, do ativo e do regime jurídico.
+• Sandbox ≠ autorização permanente: ambiente experimental possui limites e 
+condições.
+• Smart contract ≠ contrato jurídico completo: código não resolve todas as questões 
+de validade e disputa.
+Frase central da aula
+Próximo passo de estudo
+1. Defina tokenização em uma frase.
+2. Explique a diferença entre ativo preexistente tokenizado e token nativo.
+3. Desenhe a relação DLT → blockchain → tokenização → token.
+4. Memorize as três categorias funcionais da CVM.
+5. Explique por que as categorias não são exclusivas nem estanques.
+6. Resolva um exemplo de token referenciado a imóvel e diga qual direito foi realmente 
+conferido.
+7. Liste três benefícios potenciais e três limites correspondentes.
+8. Diferencie fracionamento de liquidez.
+9. Explique por que uma debênture tokenizada continua sujeita ao risco de crédito.
+10. Explique por que um NFT não transfere automaticamente todos os direitos autorais.
+Tokenização muda a forma de representar e movimentar direitos; não muda 
+automaticamente a natureza do ativo, elimina riscos ou substitui a regulação.
+
+<<<PÁGINA 53>>>
+11. Separe competência do Banco Central e competência da CVM.
+12. Resolva a questão final justificando todas as alternativas.
+Anexo A — Roteiro operacional de 
+lousa/tela
+Regras de utilização
+• [ESCREVA]: registrar palavra, frase, definição ou lista.
+• [DESENHE]: construir caixas, setas, diagramas e fluxos.
+• [CIRCULE]: destacar palavra decisiva para a prova.
+• [SUBLINHE]: marcar definição ou distinção essencial.
+• [CONECTE]: mostrar relação causal.
+• [FALE]: texto sugerido para exposição oral.
+• [PARE E PERGUNTE]: testar compreensão antes da resposta.
+• [FIXE]: repetir frase curta e deixar visível.
+• [APAGUE]: remover conteúdo provisório.
+• [MANTENHA]: conservar conteúdo que será reutilizado.
+• [TRANSIÇÃO]: conectar uma etapa à seguinte.
+ETAPA 1 — Título, edital e pergunta-problema
+[ESCREVA NO TOPO, CENTRALIZADO]
+Plain Text
+TOKENIZAÇÃO
+[ESCREVA ABAIXO]
+Plain Text
+CPA — 4.4.4.1 a 4.4.4.5
+[FALE]
+
+<<<PÁGINA 54>>>
+Hoje vamos separar três coisas que parecem iguais, mas não são: ativo, token e direito.
+[ESCREVA NO CENTRO]
+Plain Text
+Comprar um token = comprar o ativo?
+[PARE E PERGUNTE]
+A resposta é sempre sim?
+Resposta: não.
+[ESCREVA NO CANTO SUPERIOR DIREITO E MANTENHA]
+Plain Text
+ativo → direito → token → oferta → regulador
+[FIXE]
+[TRANSIÇÃO]
+Vamos começar pela diferença entre etiqueta digital e ativo.
+ETAPA 2 — Metáfora da etiqueta digital
+[DESENHE]
+Plain Text
+┌───────────────┐
+│ ATIVO / DIREITO│  ← caixa
+└───────────────┘
+        │
+        ↓
+┌───────────────┐
+│ TOKEN         │  ← etiqueta digital
+└───────────────┘
+        │
+        ↓
+┌───────────────┐
+│ DLT / BLOCKCHAIN│ ← livro de registros
+└───────────────┘
+Token é representação. O direito depende da estrutura.
+
+<<<PÁGINA 55>>>
+[FALE]
+A etiqueta registra a representação. O manual de direitos diz o que o titular realmente 
+adquiriu.
+[ESCREVA AO LADO]
+Plain Text
+token ≠ direito automático
+[FIXE]
+ETAPA 3 — Conceito básico
+[APAGUE] somente a frase da pergunta. [MANTENHA] o desenho da etiqueta.
+[ESCREVA]
+Plain Text
+TOKENIZAÇÃO
+representação digital de valor e direitos
+[DESENHE]
+Plain Text
+ATIVO PREEXISTENTE                  TOKEN NATIVO
+ativo fora da rede                  nasce digital
+        ↓                                  ↓
+representação em token              emissão direta em token
+[CIRCULE] ativo preexistente e token nativo .
+[FALE]
+DLT é a infraestrutura. Tokenização é o processo. Token é a unidade digital.
+[ESCREVA]
+Plain Text
+DLT = infraestrutura
+BLOCKCHAIN = forma de DLT
+A etiqueta não cria sozinha o conteúdo da caixa.
+
+<<<PÁGINA 56>>>
+TOKENIZAÇÃO = processo
+TOKEN = unidade digital
+[FIXE]
+ETAPA 4 — Tipos de tokens
+[APAGUE] o desenho do token nativo. [MANTENHA] a relação DLT/blockchain/token.
+[ESCREVA]
+Plain Text
+TAXONOMIA FUNCIONAL DA CVM
+[DESENHE]
+Plain Text
+                 TOKEN
+          ┌────────┼────────┐
+      pagamento  utilidade  referenciado
+                              a ativo
+[ESCREVA AO LADO]
+Plain Text
+categorias não exclusivas nem estanques
+[PARE E PERGUNTE]
+Um token pode ter mais de uma função?
+Resposta: sim.
+[ESCREVA ABAIXO]
+Plain Text
+função + direitos + oferta + essência econômica
+[FIXE]
+Não confunda a estrada, a viagem e o veículo.
+O nome do token não decide. A função e os direitos importam.
+
+<<<PÁGINA 57>>>
+ETAPA 5 — Valor mobiliário e competências
+[APAGUE] a taxonomia detalhada. [MANTENHA] a frase sobre categorias não exclusivas.
+[ESCREVA]
+Plain Text
+TOKEN REFERENCIADO A ATIVO
+pode ou não ser valor mobiliário
+[DESENHE]
+Plain Text
+Token
+  ↓
+quais direitos?
+  ↓
+há remuneração ou participação?
+  ↓
+há oferta pública?
+  ↓
+qual regime?
+[ESCREVA NO CANTO]
+Plain Text
+BCB → prestadoras de serviços de ativos virtuais
+CVM → valores mobiliários
+[FALE]
+A Lei nº 14.478/2022 não altera as competências da CVM. O Decreto nº 11.563/2023 preserva 
+essa separação.
+[FIXE]
+ETAPA 6 — Benefícios potenciais
+[APAGUE] o fluxo regulatório. [MANTENHA] “função + direitos + oferta”.
+Tecnologia não escolhe o regulador. O ativo e a atividade ajudam a definir o 
+perímetro.
+
+<<<PÁGINA 58>>>
+[ESCREVA]
+Plain Text
+BENEFÍCIOS POTENCIAIS
+[DESENHE]
+Plain Text
+programabilidade
+liquidação atômica
+fonte compartilhada
+multiativos
+fracionamento
+rastreabilidade
+[CONECTE] cada benefício a uma seta central com pode facilitar .
+[ESCREVA ABAIXO]
+Plain Text
+pode facilitar ≠ garante
+[FALE]
+A tokenização pode reduzir fricções, mas não garante liquidez, segurança, retorno ou 
+propriedade.
+[PARE E PERGUNTE]
+Fracionar um ativo garante liquidez?
+Resposta: não.
+[FIXE]
+ETAPA 7 — Riscos e desafios
+[APAGUE] os benefícios, deixando apenas pode facilitar ≠ garante . [MANTENHA] a palavra 
+“liquidez”.
+[ESCREVA]
+Plain Text
+Fracionamento não é liquidez.
+
+<<<PÁGINA 59>>>
+RISCOS
+segurança + regulação + tecnologia
+[DESENHE]
+Plain Text
+chave privada → controle
+smart contract → execução
+oráculo → dado externo
+DLT → registro
+regulador → perímetro
+[ESCREVA NO CANTO]
+Plain Text
+registro correto ≠ dado verdadeiro
+[FALE]
+Se o dado de origem estiver errado, a blockchain pode preservar o erro com grande 
+integridade.
+[FIXE]
+ETAPA 8 — Ativos financeiros, imóveis e artes
+[APAGUE] o diagrama de riscos. [ESCREVA]
+Plain Text
+APLICAÇÕES
+financeiro | imóvel | arte
+[DESENHE TRÊS COLUNAS]
+Plain Text
+FINANCEIRO          IMÓVEL             ARTE
+crédito             participação      obra/licença
+A tecnologia pode registrar bem uma informação que entrou errada.
+
+<<<PÁGINA 60>>>
+recebível           aluguel            procedência
+valor mobiliário    direito            autenticidade
+[CIRCULE]
+Plain Text
+financeiro → risco do emissor
+imóvel → registro
+arte → autenticidade e direito autoral
+[PARE E PERGUNTE]
+Token imobiliário é matrícula digital?
+Resposta: não.
+[ESCREVA ABAIXO]
+Plain Text
+token ≠ matrícula
+NFT ≠ direito autoral automático
+[FIXE]
+ETAPA 9 — Case e questão
+[APAGUE O QUADRO]
+[ESCREVA NO TOPO]
+Plain Text
+REVISÃO — PLATAFORMA ATLAS
+[DESENHE]
+Plain Text
+debênture → valor mobiliário possível
+imóvel → direito econômico ≠ domínio automático
+arte → NFT ≠ direito autoral automático
+utility → nome não encerra análise
+O ativo mantém sua natureza; a tokenização muda a representação.
+
+<<<PÁGINA 61>>>
+[PARE E PERGUNTE]
+Qual palavra ou condição decide o enquadramento?
+Resposta: função, direitos, oferta e essência econômica.
+ETAPA 10 — Quadro de emergência
+[APAGUE O QUADRO]
+[ESCREVA NO TOPO]
+Plain Text
+NÃO CONFUNDA
+[ESCREVA]
+Plain Text
+DLT ≠ tokenização
+blockchain ≠ token
+fracionamento ≠ liquidez
+rastreabilidade ≠ autenticidade
+token ≠ propriedade
+NFT ≠ direito autoral
+benefício ≠ garantia
+BCB ≠ CVM
+[FIXE]
+ETAPA 11 — Revisão oral final
+[ESCREVA]
+Plain Text
+TOKENIZAÇÃO
+→ representação digital
+→ função e direitos
+→ benefício potencial
+→ risco persistente
+→ enquadramento
+Função + direitos + oferta + essência econômica.
+
+<<<PÁGINA 62>>>
+[FALE]
+A pergunta final da aula é sempre: o que o titular realmente adquiriu?
+[FIXE]
+Referências oficiais e técnicas
+[1] ANBIMA — Programa Detalhado CPA — versão 1.2, revisada em 04/06/2025, vigência a 
+partir de 01/01/2026 — último acesso: 13/09/2026
+[2] ANBIMA — Tokenização de Ativos: conceitos iniciais e experimentos em curso — material 
+introdutório sobre tokenização, DLT, benefícios e impactos — último acesso: 13/09/2026
+[3] CVM — Parecer de Orientação CVM nº 40, de 11/10/2022 — criptoativos, taxonomia 
+funcional, tokenização e valores mobiliários — último acesso: 13/09/2026
+[4] Planalto — Lei nº 14.478, de 21/12/2022 — diretrizes para serviços de ativos virtuais, 
+exclusões e competências — último acesso: 13/09/2026
+[5] CVM — Criptoativos: quando se aplicam as regras da CVM? — atualizado em 06/02/2026 
+— último acesso: 13/09/2026
+[6] Planalto — Decreto nº 11.563, de 13/06/2023 — competências do Banco Central para 
+serviços de ativos virtuais e ressalva à CVM — último acesso: 13/09/2026
+[7] Banco Central — Voto BCB 31/2023 — tokenização, programabilidade, liquidação 
+atômica, fonte única de verdade, multiativos e benefícios potenciais — último acesso: 
+13/09/2026
+[8] B3 — Tokenização de ativos: o que é, como funciona e quais seus benefícios? — material 
+educacional e de mercado — último acesso: 13/09/2026
+[9] Banco Central — Relatório do Piloto Drex — Fase 1 — tokenização, privacidade, 
+segurança, escalabilidade, governança, integrações e validade jurídica — último acesso: 
+13/09/2026
+[10] Planalto — Lei nº 13.709/2018 — LGPD — princípios de segurança, prevenção, 
+transparência e responsabilização — último acesso: 13/09/2026
+[11] Banco Central — Resolução CMN nº 5.274, de 18/12/2025 — controles de segurança 
+cibernética, vulnerabilidades, integrações e testes de intrusão — último acesso: 13/09/2026
+[12] Planalto — Código Civil — compra e venda, propriedade imobiliária e registro do título 
+translativo — último acesso: 13/09/2026
+[13] Planalto — Lei nº 9.610/1998 — direitos autorais e utilização de obras — último acesso: 
+13/09/2026
+O token não responde sozinho. A estrutura responde.
+
+<<<PÁGINA 63>>>
+[14] CVM — Orientação sobre caracterização de tokens de recebíveis e tokens de renda fixa 
+como valores mobiliários — último acesso: 13/09/2026
+[15] B3 — Tokenização de ativos — infraestrutura e negociação subsequente em estrutura 
+específica — último acesso: 13/09/2026
+Observações normativas e metodológicas
+1. O Programa Detalhado CPA define o escopo dos subitens. As definições e regras foram 
+complementadas por fontes primárias oficiais, principalmente ANBIMA, CVM, Banco 
+Central e Planalto. 1
+2. O material separa norma, orientação regulatória, prática de mercado, experimento 
+e possibilidade tecnológica.
+3. O Parecer de Orientação CVM 40 é orientação da Autarquia. Ele apresenta abordagem 
+funcional e taxonomia inicial; não é autorização geral para tokenização. 3
+4. A tokenização, isoladamente, não define se há valor mobiliário. Direitos, função, oferta, 
+expectativa econômica e estrutura concreta são relevantes. 3 5
+5. A Lei nº 14.478/2022 estabelece diretrizes para serviços de ativos virtuais, mas exclui 
+representações de valores mobiliários sujeitas à Lei nº 6.385/1976 e preserva as 
+competências da CVM. 4
+6. O Decreto nº 11.563/2023 atribui ao Banco Central competência para regular, autorizar 
+e supervisionar prestadoras de serviços de ativos virtuais, sem retirar a competência da 
+CVM. 6
+7. A Resolução CMN nº 5.274/2025 trata da segurança cibernética de instituições 
+autorizadas a funcionar pelo Banco Central. Ela não é uma regra universal para todos os 
+tokens ou projetos de tokenização. 11
+8. O Relatório do Piloto Drex descreve testes e desafios. Não deve ser tratado como prova 
+de que todos os casos de uso estejam em produção, disponíveis ao público ou 
+plenamente regulados. 9
+9. Os benefícios foram apresentados como potenciais. Nenhum benefício tecnológico 
+garante rentabilidade, liquidez, propriedade, autenticidade ou ausência de risco. 7 8
+10. Para imóveis, o token foi diferenciado de escritura, título e registro imobiliário. A 
+transferência da propriedade segue os requisitos jurídicos aplicáveis. 12
+11. Para arte, o token foi diferenciado da obra física, da autenticidade, da posse, da 
+propriedade e dos direitos autorais. A licença e a documentação definem o alcance do 
+direito. 13
+
+<<<PÁGINA 64>>>
+12. Os exemplos de ativos financeiros, imóveis e artes são didáticos. Eles não constituem 
+avaliação de nenhum projeto, emissor, token, plataforma ou oferta.
+13. Último acesso às fontes: 13/09/2026.
+14. Este material é educacional. Não substitui norma vigente, prospecto, contrato, 
+escritura, documento de emissão, parecer jurídico ou recomendação de investimento.
+Checklist de validação do material
+Programa Detalhado, versão, revisão, vigência e subitens identificados.
+Conceito básico de tokenização explicado.
+Token preexistente e token nativo diferenciados.
+DLT, blockchain, token e ativo separados.
+Tipos de tokens conforme taxonomia funcional da CVM incluídos.
+Categorias não exclusivas nem estanques destacadas.
+Distinção entre token referenciado a ativo e valor mobiliário incluída.
+Competências do Banco Central e da CVM separadas.
+Benefícios potenciais e limites correspondentes explicados.
+Riscos de segurança, regulação e tecnologia incluídos.
+Segurança de chaves, smart contracts, oráculos, privacidade e integrações incluída.
+Escalabilidade, interoperabilidade, liquidez e governança incluídas.
+Ativos financeiros, imóveis e artes abordados.
+Token financeiro diferenciado de risco de crédito e valor mobiliário.
+Token imobiliário diferenciado de propriedade registral.
+NFT/arte diferenciado de autenticidade, posse e direitos autorais.
+Case integrado incluído.
+Questão inédita com cinco alternativas e justificativa individual incluída.
+Pegadinhas, palavras-chave e comparações críticas incluídas.
+Roteiro progressivo de lousa/tela incluído.
+Resumo em cinco pontos, quadro de emergência e cadeia lógica incluídos.
+Referências oficiais com URLs diretas e data de acesso incluídas.
+
+<<<PÁGINA 65>>>
+Nenhuma transação, assinatura, conexão de carteira ou oferta foi realizada.
+Material pronto para validação final.
