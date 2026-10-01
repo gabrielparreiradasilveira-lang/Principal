@@ -1,0 +1,1879 @@
+<<<PÁGINA 1>>>
+Roteiro de Aula — Novas Estruturas de 
+Mercado para Negociações
+Identificação e escopo
+• Certificação: CPA — Certificado Profissional ANBIMA.
+• Módulo: 4. Inovação e desenvolvimento de mercado.
+• Item: 4.4. Finanças Descentralizadas (DeFi).
+• Subitem: 4.4.5. Novas estruturas de mercado para negociações.
+• Subitens cobertos: 4.4.5.1 NFT; 4.4.5.2 Stable coins; 4.4.5.3 Renda fixa digital; 4.4.5.4 
+ETF bitcoin; 4.4.5.5 ETF novas moedas digitais; 4.4.5.6 Moeda Digital do Banco Central 
+(CBDC) — DREX.
+• Programa Detalhado: versão 1.2, revisada em 04/06/2025, vigente a partir de 
+01/01/2026 1 .
+• Duração estimada: 100 a 120 minutos.
+• Público: candidatos à CPA, especialmente profissionais em início de carreira no 
+mercado financeiro.
+• Formato: roteiro de fala, base conceitual, comparações, case, questão comentada e 
+lousa/tela progressiva.
+• Data de referência regulatória: 13/09/2026.
+• Delimitação: o material explica conceitos, funcionamento, diferenças, aplicações, 
+riscos e enquadramento institucional. Não recomenda ETFs, criptoativos, stablecoins, 
+emissores ou estratégias de alocação. Não apresenta preços, rentabilidades, tickers ou 
+estatísticas de mercado.
+Mapa de aprendizagem
+Ao final da aula, o aluno deverá ser capaz de:
+Nota de atualização: o Programa Detalhado define o escopo da prova. As definições 
+regulatórias e o status de mercado dependem das fontes oficiais vigentes. Em especial, o 
+Drex deve ser estudado separando quatro níveis: moeda soberana, Plataforma Drex, 
+ativos tokenizados e Piloto Drex.
+<<<PÁGINA 2>>>
+1. Explicar o que é um NFT e por que a não fungibilidade não determina, sozinha, seu 
+enquadramento regulatório.
+2. Diferenciar stablecoin, criptoativo, moeda eletrônica, moeda soberana e CBDC.
+3. Explicar o que significa renda fixa digital e identificar os riscos adicionais introduzidos 
+pela tecnologia.
+4. Diferenciar a cota de um ETF bitcoin do bitcoin diretamente adquirido.
+5. Diferenciar ETF bitcoin de ETF ligado a outras moedas ou criptoativos digitais.
+6. Explicar o Drex como CBDC e separar moeda, plataforma e piloto.
+7. Aplicar uma matriz objetiva para não confundir ativo, produto, veículo, infraestrutura 
+e moeda soberana.
+1. Fala de abertura — 5 minutos
+Imagine que um cliente diga:
+A resposta correta é: não.
+A tecnologia pode ser semelhante, mas a natureza econômica e jurídica de cada estrutura é 
+diferente. Um NFT pode ser um item digital singular. Uma stablecoin pode ser um token 
+privado que busca manter referência de valor. Uma renda fixa digital pode representar uma 
+dívida ou um direito creditório. Um ETF é uma cota de fundo. O Drex é uma moeda digital 
+soberana em desenvolvimento.
+A primeira regra da aula é direta:
+O Programa Detalhado CPA reúne essas estruturas no mesmo item porque elas 
+representam mudanças na forma de emitir, registrar, negociar, liquidar ou acessar ativos 
+financeiros. A prova pode colocar todos os termos na mesma questão para verificar se o 
+candidato sabe separar as categorias.
+Objetivo da abertura
+Construir desde o início a distinção entre seis elementos diferentes:
+• token singular;
+“Professor, eu vi um NFT, uma stablecoin, um ETF de bitcoin, um título de renda fixa 
+digital e o Drex. Tudo isso está em blockchain. Então tudo é a mesma coisa?”
+A tecnologia não define sozinha o produto. A função econômica, os direitos e a 
+estrutura definem o produto.
+<<<PÁGINA 3>>>
+• token privado com referência de valor;
+• título ou crédito representado digitalmente;
+• fundo negociado em bolsa;
+• fundo com exposição a moedas digitais;
+• moeda digital emitida pelo Banco Central.
+Frase de fixação
+2. Introdução com metáfora central — 8 
+minutos
+Metáfora: uma cidade financeira com seis tipos de veículo
+Imagine uma cidade com uma infraestrutura moderna de trânsito. Todos os veículos usam 
+ruas pavimentadas, semáforos e sistemas de registro. Porém, cada veículo tem função, 
+capacidade e regra diferente.
+A cidade representa o mercado financeiro digital. A infraestrutura tecnológica representa 
+a DLT ou blockchain. Os veículos representam as estruturas estudadas.
+Mesmo trilho tecnológico não significa mesmo veículo, mesmo risco ou mesma 
+regulação.
+Veículo visual
+Estrutura técnica
+Pergunta que resolve
+Peça única de museu
+NFT
+O item é único? Quais direitos o 
+token confere?
+Ônibus que tenta manter uma 
+rota de preço
+Stablecoin
+Qual ativo serve de referência? 
+Quem emite e como funciona o 
+resgate?
+Título com registro eletrônico
+Renda fixa digital
+Quem deve? Qual fluxo de 
+pagamento? Quais riscos de 
+crédito e tecnologia?
+Veículo que acompanha uma 
+rota
+ETF bitcoin
+Qual índice ou ativo o fundo 
+busca acompanhar?
+Veículo que acompanha várias 
+rotas digitais
+ETF de novas moedas digitais
+Qual cesta, índice ou exposição 
+está no regulamento?
+<<<PÁGINA 4>>>
+Correspondência técnica
+• A rua não é o veículo. A blockchain não é o ativo.
+• O bilhete do ônibus não é a cidade. A cota do ETF não é o criptoativo subjacente.
+• Uma peça única não é automaticamente um investimento. Um NFT não é 
+automaticamente valor mobiliário.
+• Um veículo que tenta seguir um preço não é dinheiro soberano. Stablecoin não é CBDC.
+• O dinheiro oficial não é um ativo privado. Drex não é bitcoin nem stablecoin.
+Frase de impacto
+Atenção técnica: limite da metáfora
+A metáfora facilita a separação inicial, mas o mercado financeiro não é apenas uma rede de 
+transporte. A classificação jurídica depende de direitos, contratos, oferta, agentes 
+envolvidos e função econômica. A aparência tecnológica não substitui a análise normativa.
+3. Explicação dos tópicos
+3.1. Antes dos subitens: o mapa das categorias
+O que é
+O item 4.4.5 trata de novas formas de estruturar ativos, produtos, moedas e negociações. 
+Para estudar de forma linear, use cinco perguntas:
+1. O que é o objeto? Um token, um título, uma cota de fundo ou moeda?
+2. Quem emite? Uma empresa privada, um fundo, uma instituição financeira ou o Banco 
+Central?
+3. Qual direito o titular possui? Acesso, propriedade digital, remuneração, exposição, 
+pagamento ou liquidação?
+Dinheiro oficial da cidade
+CBDC — Drex
+Quem emite? É moeda 
+soberana ou ativo privado?
+Blockchain pode ser o trilho; o produto é definido pelo que circula sobre o trilho.
+<<<PÁGINA 5>>>
+4. Como ocorre a negociação? Mercado organizado, plataforma privada, registro 
+distribuído ou sistema de liquidação?
+5. Qual é o risco dominante? Crédito, mercado, liquidez, tecnologia, contraparte, 
+custódia ou enquadramento regulatório?
+Matriz principal
+Estrutura
+O que é
+Emissor ou 
+responsável
+Natureza da 
+exposição
+Risco que nã
+pode ser 
+esquecido
+NFT
+Token não fungível
+Projeto, emissor ou 
+plataforma, 
+conforme o caso
+Item ou direito 
+singular
+O token não 
+garante 
+automaticam
+copyright, 
+propriedade
+ou valor mob
+Stablecoin
+Token privado que 
+busca referência 
+de valor
+Emissor ou arranjo 
+privado
+Valor de referência 
+e 
+direito/expectativa 
+de resgate, 
+conforme o 
+desenho
+Perda de par
+reservas, em
+resgate e 
+tecnologia
+Renda fixa digital
+Título, crédito ou 
+fluxo de dívida em 
+formato digital ou 
+tokenizado
+Devedor, emissor, 
+securitizadora ou 
+estrutura 
+contratual
+Crédito e fluxo de 
+pagamentos
+Inadimplênc
+continua pos
+tecnologia 
+acrescenta r
+ETF bitcoin
+Fundo de índice 
+com exposição a 
+bitcoin ou 
+referência 
+relacionada
+Fundo 
+administrado por 
+prestadores 
+regulados
+Exposição indireta 
+por cota
+Volatilidade,
+tracking erro
+liquidez, cus
+estrutura do
+ETF novas moedas 
+digitais
+Fundo de índice ou 
+veículo com 
+exposição a outros 
+criptoativos/cestas
+Fundo e 
+prestadores da 
+estrutura
+Exposição indireta 
+ao índice ou 
+carteira
+Composição
+metodologia
+concentraçã
+subjacente e
+regulatório
+Drex
+CBDC e 
+ecossistema de 
+infraestrutura em 
+desenvolvimento
+Banco Central, 
+com acesso 
+intermediado
+Moeda soberana e 
+liquidação 
+programável
+Privacidade,
+segurança, 
+governança,
+escalabilidad
+status do pilo
+<<<PÁGINA 6>>>
+Confusão provável
+Frase de fixação
+3.2. 4.4.5.1. NFT — Non-Fungible Token
+O que é
+NFT significa Non-Fungible Token, ou token não fungível.
+Fungibilidade é a possibilidade de substituir uma unidade por outra equivalente da mesma 
+espécie, qualidade e quantidade. Uma unidade monetária de determinada moeda pode ser 
+substituída por outra unidade de mesmo valor nominal. Em regra, uma unidade de bitcoin 
+pode ser trocada por outra unidade de bitcoin sem que a identidade específica da unidade 
+seja essencial para o titular.
+Um NFT possui identificação própria e não é automaticamente substituível por outro NFT. 
+Cada token pode ter características, histórico, metadados, direitos e utilidades diferentes.
+A CVM inclui os NFTs como exemplo de token referenciado a ativo. Essa classificação é 
+funcional. Ela não significa que todo NFT seja valor mobiliário. O Parecer de Orientação 
+CVM 40 informa que um token referenciado a ativo pode ou não ser valor mobiliário, 
+conforme a essência econômica dos direitos conferidos e a função do token no projeto 2 .
+O que o NFT pode representar
+Um NFT pode representar, conforme o projeto:
+• obra de arte digital;
+• item de jogo;
+• ingresso ou certificado de acesso;
+• coleção digital;
+• ativo físico ou direito relacionado a ativo físico;
+• certificado de autenticidade;
+• licença de uso;
+Ativo digital ≠ produto de investimento ≠ fundo/ETF ≠ moeda soberana.
+Primeiro classifique o objeto; depois identifique o emissor; só então analise a 
+negociação e o risco.
+<<<PÁGINA 7>>>
+• direito de participação em determinada experiência;
+• registro de um item singular em uma base distribuída.
+A lista é exemplificativa. O rótulo NFT não informa sozinho qual direito jurídico existe.
+Função e objetivo
+A função do NFT pode ser:
+1. Identificação: diferenciar uma unidade de todas as outras.
+2. Registro: manter histórico de emissão e transferências em uma rede.
+3. Acesso: permitir entrada em um serviço, jogo, comunidade ou evento.
+4. Representação: vincular o token a determinado ativo ou direito.
+5. Colecionabilidade: atribuir escassez digital e singularidade.
+6. Governança: permitir voto ou participação, se o projeto assim definir.
+7. Investimento: em alguns projetos, oferecer direitos econômicos cuja estrutura pode 
+atrair a regulação do mercado de valores mobiliários.
+Como funciona
+A sequência básica é:
+1. O emissor ou projeto define o objeto, os direitos e as condições.
+2. Um token é criado ou registrado em uma rede DLT.
+3. O token recebe um identificador único.
+4. Metadados podem indicar imagem, vídeo, texto, endereço de arquivo, atributos ou 
+regras.
+5. A transferência é registrada quando uma transação é validada na rede.
+6. O titular controla o token por meio de uma carteira ou de uma estrutura de custódia.
+7. Os direitos econômicos e jurídicos dependem do contrato, dos termos da emissão, da 
+licença e da legislação aplicável.
+O que o NFT não garante automaticamente
+Um NFT não confere automaticamente:
+• propriedade do objeto físico;
+• direitos autorais sobre uma imagem, música ou vídeo;
+• direito de reprodução comercial;
+<<<PÁGINA 8>>>
+• exclusividade sobre todo o conteúdo representado;
+• participação societária;
+• renda periódica;
+• liquidez;
+• valorização;
+• proteção contra fraude;
+• enquadramento como valor mobiliário.
+O token pode ser autêntico e ainda assim não transferir o copyright. A propriedade do 
+token e a propriedade intelectual são planos diferentes.
+Exemplo prático
+Uma galeria digital emite um NFT que representa uma obra visual. O contrato do projeto 
+informa que o comprador pode exibir a obra em uma galeria virtual, mas não pode 
+reproduzi-la comercialmente.
+Nesse caso:
+• o NFT é singular;
+• o token pode registrar a titularidade ou o controle digital da unidade;
+• a licença de uso é limitada;
+• o comprador não recebe automaticamente os direitos autorais;
+• a existência de mercado secundário não transforma o NFT automaticamente em valor 
+mobiliário.
+Se, porém, o projeto prometer remuneração decorrente do esforço de uma equipe, 
+participar de receitas ou representar direitos econômicos ofertados publicamente, será 
+necessário analisar o possível enquadramento como valor mobiliário.
+O que a prova pode confundir
+Afirmação
+Correção
+“Todo NFT é valor mobiliário.”
+Incorreto. O enquadramento depende dos 
+direitos, da oferta e da essência econômica.
+“Todo NFT é apenas uma imagem.”
+Incorreto. Ele pode representar acesso, 
+direito, item, certificado ou outro ativo.
+“Comprar o NFT transfere automaticamente 
+o copyright.”
+Incorreto. O copyright depende do contrato e 
+da legislação.
+<<<PÁGINA 9>>>
+Frase de fixação
+Alinhamento ao Programa Detalhado
+4.4.5.1. NFT (Non-Fungible Token).
+Fonte e status
+• O Programa Detalhado CPA coloca NFT no item 4.4.5 1 .
+• A CVM adota taxonomia funcional e inclui NFT entre os tokens referenciados a ativo 2 .
+• A CVM informa que a competência incide sobre criptoativos que sejam valores 
+mobiliários, não sobre todo criptoativo apenas por ser digital 3 .
+• Status: enquadramento funcional e caso a caso.
+3.3. 4.4.5.2. Stable coins — Stablecoins
+O que é
+Stablecoin é um ativo digital privado que busca manter seu valor relativamente estável em 
+relação a uma referência. A referência pode ser:
+• uma moeda soberana, como dólar ou real;
+• uma cesta de ativos;
+• uma commodity;
+• outro criptoativo;
+“NFT e bitcoin são a mesma coisa.”
+Incorreto. NFT é não fungível; bitcoin é 
+usualmente tratado como fungível entre 
+unidades equivalentes.
+“Se há preço, há investimento regulado.”
+Incorreto. Preço e especulação não bastam 
+para definir valor mobiliário.
+“A blockchain garante o valor econômico do 
+NFT.”
+Incorreto. A rede pode registrar a 
+transferência, mas não garante preço, 
+autenticidade jurídica integral ou liquidez.
+NFT descreve a singularidade do token; não define sozinho o direito nem a 
+regulação.
+<<<PÁGINA 10>>>
+• uma combinação de reservas e regras de estabilização;
+• um mecanismo algorítmico.
+A palavra “stable” indica um objetivo de estabilidade, não uma garantia absoluta.
+O Banco Central diferencia stablecoins de CBDCs. Stablecoins são, em regra, emissões 
+privadas. CBDCs são moedas digitais emitidas por bancos centrais e representam a moeda 
+soberana 8 .
+Função e objetivo
+A stablecoin pode buscar:
+1. reduzir a volatilidade em relação à referência;
+2. facilitar transferências e liquidações digitais;
+3. funcionar como unidade de negociação em plataformas digitais;
+4. servir como instrumento de liquidez em operações com ativos digitais;
+5. conectar sistemas financeiros tradicionais a redes DLT;
+6. permitir programação de pagamentos, conforme o arranjo.
+Modelos de estabilização
+Modelo
+Como tenta preservar o valor
+Riscos principais
+Referenciada em moeda 
+fiduciária
+Reserva ou ativo de referência 
+mantido por emissor ou 
+estrutura
+Qualidade das reservas, 
+resgate, emissor, custódia e 
+corrida
+Referenciada em ativos
+Reserva composta por ativos 
+financeiros, commodities ou 
+cesta
+Volatilidade dos ativos, 
+liquidez, avaliação e 
+governança
+Colateralizada por criptoativos
+Excesso de garantia em outros 
+criptoativos
+Queda do colateral, liquidação 
+e risco de protocolo
+Algorítmica
+Regras de oferta, demanda e 
+incentivos
+Falha do algoritmo, incentivos 
+insuficientes e perda de 
+paridade
+Híbrida
+Combinação de reserva, 
+colateral e mecanismos de 
+mercado
+Complexidade, transparência, 
+governança e dependência 
+operacional
+<<<PÁGINA 11>>>
+Como funciona
+A sequência depende do modelo, mas normalmente envolve:
+1. emissão ou criação do token;
+2. definição da referência de valor;
+3. manutenção de reservas, colaterais ou regras algorítmicas;
+4. negociação e transferência em rede digital;
+5. eventual resgate ou conversão, se previsto pelo arranjo;
+6. monitoramento de paridade e gestão de liquidez.
+A forma de resgate é essencial. Não basta o emissor declarar que cada token vale uma 
+unidade da referência. É preciso verificar quem pode resgatar, em quais condições, com 
+qual prazo, contra qual ativo e sob qual regime jurídico.
+O que a stablecoin não é automaticamente
+Stablecoin não é automaticamente:
+• moeda legal;
+• depósito bancário;
+• moeda eletrônica;
+• CBDC;
+• valor mobiliário;
+• produto de renda fixa;
+• investimento sem risco;
+• ativo com garantia do Banco Central;
+• ativo com lastro integral e auditado;
+• ativo com resgate imediato.
+A classificação depende do desenho econômico, dos direitos dos titulares, do emissor e das 
+atividades realizadas.
+Riscos
+O risco central é o descolamento da referência, conhecido no mercado como perda de 
+paridade ou de-peg.
+Também devem ser considerados:
+• risco de crédito do emissor;
+<<<PÁGINA 12>>>
+• risco de qualidade ou insuficiência das reservas;
+• risco de liquidez dos ativos de reserva;
+• risco de resgate;
+• risco de contraparte;
+• risco de custódia;
+• risco operacional;
+• risco cibernético;
+• risco de falha do smart contract;
+• risco de governança;
+• risco jurídico;
+• risco de mercado;
+• risco de concentração;
+• risco regulatório.
+Exemplo prático
+Uma empresa privada cria um token que promete manter paridade de 1 para 1 com o real. 
+Ela informa que manterá reservas para atender aos resgates.
+O aluno deve fazer cinco perguntas:
+1. Quem é o emissor?
+2. Que ativos formam as reservas?
+3. Quem verifica as reservas?
+4. Quem tem direito ao resgate?
+5. O que ocorre se muitos titulares resgatarem ao mesmo tempo?
+A existência de uma promessa de paridade não elimina o risco. A stablecoin pode perder a 
+referência se as reservas forem insuficientes, ilíquidas ou inacessíveis.
+Relação com a regulação brasileira
+A Lei nº 14.478/2022 define ativo virtual e estabelece diretrizes para serviços de ativos 
+virtuais. A própria lei exclui moeda nacional, moeda estrangeira, moeda eletrônica e 
+representações de valores mobiliários ou ativos financeiros já submetidos a regime próprio 
+4 .
+A lei também preserva as competências da CVM. Portanto:
+<<<PÁGINA 13>>>
+• o BCB pode atuar sobre prestadoras de serviços de ativos virtuais em seu perímetro;
+• a CVM pode atuar quando o token ou a oferta configurar valor mobiliário;
+• a forma tecnológica não elimina a análise funcional;
+• autorização de um prestador não é garantia do valor ou do resgate de cada stablecoin.
+O que a prova pode confundir
+Frase de fixação
+Alinhamento ao Programa Detalhado
+4.4.5.2. Stable coins.
+Fonte e status
+• O Programa Detalhado separa stablecoins de ETF e CBDC 1 .
+• O BCB diferencia stablecoins privadas de CBDCs 8 .
+• A Lei nº 14.478/2022 está em vigor e estabelece o marco geral de serviços de ativos 
+virtuais, preservando a CVM 4 .
+Confusão
+Correção
+Stablecoin é sempre estável.
+Incorreto. A estabilidade é objetivo, não 
+garantia.
+Stablecoin é CBDC.
+Incorreto. Stablecoin é privada; CBDC é 
+emitida pelo banco central.
+Stablecoin é sempre valor mobiliário.
+Incorreto. O enquadramento depende da 
+estrutura e dos direitos.
+Stablecoin é sempre lastreada em moeda 
+fiduciária.
+Incorreto. Há modelos colateralizados, 
+algorítmicos e híbridos.
+Stablecoin é sempre garantida pelo Banco 
+Central.
+Incorreto. Não há garantia pública 
+automática.
+Se o token vale 1 para 1 no momento, o 
+resgate é garantido.
+Incorreto. Cotação e direito de resgate são 
+questões diferentes.
+Stablecoin busca estabilidade; não promete estabilidade absoluta nem garantia 
+pública.
+<<<PÁGINA 14>>>
+• Status: arranjo privado, com enquadramento dependente da função, do serviço e 
+dos direitos conferidos.
+3.4. 4.4.5.3. Renda fixa digital
+O que é
+Renda fixa digital é uma expressão de mercado para títulos de dívida, direitos creditórios 
+ou fluxos de pagamento emitidos, registrados, distribuídos, negociados ou liquidados por 
+meios digitais, inclusive com tokenização e uso de DLT.
+O termo não cria uma nova categoria jurídica automática. O instrumento continua sendo 
+analisado por sua natureza econômica e por seus direitos.
+A tecnologia pode modificar a forma de emissão, registro, negociação e liquidação. Ela não 
+elimina o risco de o devedor não pagar.
+Distinção principal
+Um token que representa um direito de receber pagamentos pode ser digital e, ao mesmo 
+tempo, estar sujeito às regras aplicáveis ao título, ao valor mobiliário, à securitização, ao 
+crédito ou à oferta pública correspondente.
+Possíveis estruturas
+A renda fixa digital pode envolver:
+• título de dívida registrado digitalmente;
+• debênture ou instrumento de dívida com infraestrutura digital;
+• recebível tokenizado;
+• direito creditório representado por token;
+• operação de securitização com registro ou distribuição digital;
+• depósito ou ativo financeiro representado em ambiente autorizado;
+• emissão nativa digital de obrigação de pagamento.
+A lista é didática. O enquadramento concreto depende do instrumento, do emissor, da 
+oferta, do lastro, da negociação e dos direitos.
+Como funciona
+Digital é a forma de representação e circulação. Renda fixa é a natureza econômica 
+do fluxo de crédito ou dívida.
+<<<PÁGINA 15>>>
+Uma sequência simplificada é:
+1. um devedor ou emissor precisa captar recursos;
+2. o instrumento define principal, remuneração, vencimento, garantias e eventos de 
+pagamento;
+3. a estrutura digital registra o título ou o fluxo de recebíveis;
+4. investidores adquirem o instrumento ou uma representação tokenizada;
+5. pagamentos são processados conforme as condições contratuais;
+6. a liquidação pode ser automatizada ou programada, se o ambiente permitir;
+7. o risco de crédito permanece ligado ao devedor e ao lastro.
+Componentes que precisam ser analisados
+Riscos econômicos tradicionais
+A renda fixa digital conserva os riscos da renda fixa:
+• risco de crédito: o devedor pode atrasar ou não pagar;
+• risco de mercado: a taxa de juros pode alterar o preço antes do vencimento;
+Componente
+Pergunta técnica
+Devedor
+Quem tem obrigação de pagar?
+Emissor
+Quem cria e distribui o instrumento?
+Lastro
+Qual ativo ou fluxo sustenta o pagamento?
+Remuneração
+É prefixada, pós-fixada, híbrida ou variável?
+Vencimento
+Quando o principal deve ser pago?
+Garantias
+Existem garantias reais, fidejussórias ou 
+mecanismos de proteção?
+Liquidação
+Como ocorre a entrega do ativo e o 
+pagamento?
+Custódia
+Quem controla os ativos, tokens ou chaves?
+Tecnologia
+Qual DLT, smart contract ou sistema de 
+registro é usado?
+Regulação
+Qual órgão e qual regime se aplicam?
+<<<PÁGINA 16>>>
+• risco de liquidez: pode não existir comprador no mercado secundário;
+• risco de reinvestimento: pagamentos recebidos podem ser reinvestidos a taxas 
+diferentes;
+• risco de concentração: exposição excessiva a um devedor, setor ou lastro;
+• risco de pré-pagamento ou evento contratual: o fluxo pode mudar conforme as 
+condições do instrumento.
+Riscos tecnológicos adicionais
+A digitalização pode acrescentar:
+• falha de smart contract;
+• erro no código;
+• vulnerabilidade de carteira ou chave privada;
+• falha de custódia;
+• ataque cibernético;
+• indisponibilidade da rede;
+• erro de integração com sistemas legados;
+• problema de oráculo ou de dados externos;
+• perda de dados ou de acesso;
+• risco de governança;
+• dúvida sobre atualização ou reversão de transações;
+• dúvida sobre validade jurídica de contratos autoexecutáveis.
+Relação com a CVM
+A CVM informa que a natureza digital, criptográfica ou baseada em DLT não é suficiente 
+para definir o enquadramento. É necessário analisar os direitos e a essência econômica 2 .
+Tokens de recebíveis ou tokens de renda fixa podem ser valores mobiliários em 
+determinados arranjos, especialmente quando a estrutura configura contrato de 
+investimento coletivo ou representa ativos sujeitos à Lei nº 6.385/1976. O Ofício Circular 
+CVM/SSE 6/2023 é uma orientação técnica para prestadores envolvidos em tokenização e 
+não deve ser lido como autorização geral para qualquer oferta 3 .
+Exemplo prático
+<<<PÁGINA 17>>>
+Uma empresa cria um token que representa o direito de receber parcelas de um conjunto 
+de recebíveis. O investidor compra o token e espera receber remuneração conforme os 
+pagamentos dos devedores.
+A análise não deve parar em “é blockchain”. É necessário perguntar:
+• há oferta pública?
+• o investidor depende do esforço de terceiros?
+• quem seleciona e administra os recebíveis?
+• existe expectativa de remuneração?
+• qual é a natureza dos direitos?
+• quem assume o risco de inadimplência?
+• há registro, custódia e liquidação regulados?
+O que a prova pode confundir
+Frase de fixação
+Alinhamento ao Programa Detalhado
+4.4.5.3. Renda fixa digital.
+Afirmação
+Correção
+Renda fixa digital não tem risco de crédito.
+Incorreto. O devedor pode inadimplir.
+Tokenização transforma dívida em moeda.
+Incorreto. O token pode representar dívida; 
+não se torna moeda por isso.
+Todo token de renda fixa é automaticamente 
+valor mobiliário.
+Incorreto. Depende da estrutura e dos 
+direitos.
+Blockchain elimina a necessidade de 
+contrato.
+Incorreto. O contrato e a definição dos 
+direitos continuam essenciais.
+Remuneração fixa significa pagamento 
+garantido.
+Incorreto. Fixação da remuneração não 
+elimina inadimplência.
+Digitalização elimina risco de liquidez.
+Incorreto. O mercado secundário pode ser 
+limitado.
+Renda fixa digital conserva risco de crédito e adiciona riscos tecnológicos.
+<<<PÁGINA 18>>>
+Fonte e status
+• O Programa Detalhado inclui o tópico como nova estrutura de mercado 1 .
+• O Parecer CVM 40 e o Ofício Circular CVM/SSE 6/2023 orientam a análise funcional de 
+tokens de renda fixa e recebíveis 2 3 .
+• Status: expressão de mercado; o enquadramento jurídico depende da estrutura do 
+instrumento e da oferta.
+3.5. 4.4.5.4. ETF bitcoin
+O que é
+ETF significa Exchange Traded Fund, ou fundo negociado em bolsa. No contexto do edital, 
+ETF bitcoin é um fundo ou classe de fundo cuja política busca oferecer exposição ao bitcoin 
+ou a um índice relacionado ao bitcoin.
+O ponto principal é:
+O Anexo Normativo V da Resolução CVM 175 define fundo de índice como o fundo 
+destinado a aplicar em carteira de ativos financeiros para refletir as variações e a 
+rentabilidade de um índice de referência, por prazo indeterminado 6 .
+Estrutura do ETF
+O investidor compra a cota do fundo. Ele não compra necessariamente o bitcoin 
+diretamente.
+Elemento
+Função
+Cotista
+Compra e vende cotas do fundo
+Fundo
+Reúne patrimônio e mantém a carteira 
+conforme a política de investimento
+Administrador
+Responde pela administração fiduciária do 
+fundo
+Gestor
+Toma decisões de gestão dentro do 
+regulamento
+Custodiante
+Guarda ou controla os ativos conforme a 
+estrutura
+Índice
+Define a referência que o fundo busca 
+acompanhar
+<<<PÁGINA 19>>>
+Características regulatórias do fundo de índice
+O Anexo Normativo V da Resolução CVM 175 estabelece, entre outros pontos, que:
+• o fundo busca refletir um índice de referência;
+• o índice deve ter metodologia objetiva e pública;
+• a classe é aberta;
+• o prazo é indeterminado;
+• as cotas devem ser admitidas à negociação no mercado secundário por entidade 
+administradora de mercado organizado;
+• a denominação deve indicar “Fundo de Índice” e o índice de referência;
+• a carteira pode ser ajustada para manter aderência ao índice, conforme as regras 
+aplicáveis.
+Como funciona
+A sequência didática é:
+1. o investidor envia uma ordem de compra da cota pela corretora;
+2. a cota é negociada no mercado organizado;
+3. o valor da cota oscila conforme a carteira, o índice, a oferta e a demanda;
+4. o fundo mantém exposição conforme sua política;
+5. a rentabilidade do cotista depende da variação da cota, dos custos e da aderência ao 
+índice;
+6. o cotista não precisa administrar diretamente uma carteira digital ou uma chave 
+privada.
+Formas possíveis de exposição
+O ETF pode buscar exposição por diferentes estruturas, conforme o regulamento:
+• aquisição direta dos ativos subjacentes;
+• aquisição de derivativos;
+Mercado organizado
+Permite a negociação das cotas no mercado 
+secundário
+Formador de mercado
+Pode contribuir para a liquidez das cotas, 
+conforme a estrutura
+<<<PÁGINA 20>>>
+• aquisição de contratos futuros;
+• investimento em outro veículo;
+• réplica integral;
+• otimização da carteira;
+• combinação de ativos e instrumentos financeiros.
+Não se deve afirmar que todo ETF bitcoin compra bitcoin à vista. A resposta correta 
+depende dos documentos do fundo.
+ETF bitcoin versus bitcoin diretamente adquirido
+Riscos
+O ETF não elimina:
+• volatilidade do bitcoin;
+• risco de perda de capital;
+• risco de liquidez da cota;
+• spread entre compra e venda;
+Critério
+ETF bitcoin
+Bitcoin diretamente adquirido
+O que o investidor compra
+Cota de fundo
+Unidade ou fração de bitcoin
+Custódia
+Estrutura do fundo e 
+prestadores
+Carteira própria ou custodiante 
+de terceiro
+Chave privada
+Normalmente não é 
+administrada diretamente pelo 
+cotista
+Pode ficar sob controle direto 
+ou de custodiante
+Negociação
+Mercado organizado, conforme 
+disponibilidade
+Plataforma ou mercado de 
+criptoativos
+Exposição
+Indireta, conforme política do 
+fundo
+Direta ao ativo adquirido
+Taxas
+Taxas e despesas do fundo e 
+negociação
+Taxas da plataforma, rede e 
+custódia
+Riscos
+Fundo, índice, aderência, 
+mercado, custódia e subjacente
+Ativo, custódia, chave, 
+plataforma, rede e mercado
+<<<PÁGINA 21>>>
+• tracking error ou diferença de aderência;
+• risco de custódia;
+• risco de contraparte;
+• risco operacional;
+• risco cibernético;
+• risco regulatório;
+• risco cambial, quando aplicável;
+• risco de derivativos, quando utilizados;
+• risco de concentração.
+A B3 explica que ETFs de cripto permitem exposição sem compra direta do ativo, mas 
+continuam sujeitos a volatilidade e riscos regulatórios 7 .
+O que a prova pode confundir
+• ETF bitcoin ≠ bitcoin: um é cota de fundo; o outro é o ativo digital.
+• ETF regulado ≠ rentabilidade garantida: regulação não impede perda de mercado.
+• Liquidez em bolsa ≠ liquidez ilimitada: spread e volume variam.
+• Custódia institucional ≠ ausência de risco: o fundo ainda possui riscos operacionais 
+e de contraparte.
+• Exposição indireta ≠ propriedade direta: o cotista não controla necessariamente os 
+ativos subjacentes.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+4.4.5.4. ETF bitcoin.
+Fonte e status
+• O Programa Detalhado inclui ETF bitcoin entre as novas estruturas 1 .
+• A Resolução CVM 175, Anexo Normativo V, disciplina os fundos de índice 6 .
+• A B3 apresenta a estrutura e os riscos gerais de ETFs de cripto 7 .
+• Status: fundo de índice e produto de investimento; a exposição concreta depende 
+do regulamento e do índice.
+ETF bitcoin é um veículo regulado de exposição; não é o bitcoin em forma de cota.
+<<<PÁGINA 22>>>
+3.6. 4.4.5.5. ETF novas moedas digitais
+O que é
+A expressão ETF novas moedas digitais é o título usado pelo Programa Detalhado. Ela 
+deve ser entendida didaticamente como ETF ou fundo de índice que oferece exposição a 
+moedas digitais ou criptoativos digitais diferentes de bitcoin, ou a uma cesta/índice que 
+inclua esses ativos.
+A expressão do edital não cria uma categoria jurídica autônoma. A análise continua sendo 
+feita com base:
+• na natureza do fundo;
+• no índice de referência;
+• na carteira;
+• no regulamento;
+• na forma de exposição;
+• no mercado de negociação;
+• nos riscos do subjacente.
+Diferença em relação ao ETF bitcoin
+Aspecto
+ETF bitcoin
+ETF de novas moedas digitais
+Referência principal
+Bitcoin ou índice concentrado 
+em bitcoin
+Uma ou mais moedas digitais 
+diferentes de bitcoin, ou cesta
+Diversificação
+Pode ser menor se concentrado 
+em um ativo
+Pode ser maior, mas depende 
+do índice
+Risco
+Forte dependência do bitcoin e 
+da estrutura do fundo
+Riscos de vários ativos, 
+correlação, concentração e 
+seleção da cesta
+Complexidade
+Depende do método de 
+exposição
+Pode aumentar pela 
+quantidade de ativos e regras 
+de rebalanceamento
+Exposição
+Direta ou indireta, conforme o 
+regulamento
+Direta ou indireta, conforme o 
+regulamento
+Questão de prova
+Cota não é bitcoin
+Cesta/índice não é moeda 
+única nem garante 
+<<<PÁGINA 23>>>
+Como funciona
+1. o provedor cria ou seleciona um índice com metodologia definida;
+2. o índice determina composição, pesos e rebalanceamento;
+3. o fundo busca acompanhar o índice;
+4. investidores negociam cotas em mercado organizado;
+5. o preço da cota reflete a carteira, o índice, os custos e as condições de mercado;
+6. a exposição final depende dos ativos e instrumentos permitidos pelo regulamento.
+Diversificação não significa eliminação de risco
+Um ETF com diversos criptoativos pode reduzir a dependência de um único ativo. Porém, 
+ainda pode existir:
+• correlação elevada entre os ativos;
+• concentração em poucos componentes;
+• exposição a um mesmo risco tecnológico;
+• dependência de uma mesma infraestrutura;
+• risco de liquidez dos componentes;
+• risco de metodologia;
+• erro de aderência;
+• risco de rebalanceamento;
+• risco regulatório;
+• risco cambial;
+• risco de custódia ou contraparte.
+Cuidados com o índice
+O candidato deve identificar:
+• quais ativos compõem o índice;
+• qual é o peso de cada ativo;
+• como ocorre o rebalanceamento;
+• quais critérios excluem ou incluem ativos;
+diversificação suficiente
+<<<PÁGINA 24>>>
+• se o índice é replicável;
+• se o fundo utiliza ativos à vista, derivativos ou outros veículos;
+• se a carteira possui limites de concentração;
+• quais custos e riscos aparecem no regulamento.
+O que a prova pode confundir
+Frase de fixação
+Alinhamento ao Programa Detalhado
+4.4.5.5. ETF novas moedas digitais.
+Fonte e status
+• O Programa Detalhado separa ETF bitcoin de ETF novas moedas digitais 1 .
+• O Anexo Normativo V da Resolução CVM 175 disciplina a estrutura geral dos fundos de 
+índice 6 .
+Afirmação
+Correção
+ETF de novas moedas digitais é uma nova 
+moeda.
+Incorreto. É um veículo de investimento em 
+cotas.
+Mais ativos sempre significam menor risco.
+Incorreto. A correlação e a concentração 
+podem permanecer elevadas.
+ETF de várias moedas dá propriedade direta 
+de cada moeda.
+Incorreto. O cotista possui cota do fundo.
+O índice é sempre igual ao retorno do 
+investidor.
+Incorreto. Custos, aderência, negociação e 
+impostos podem produzir diferenças.
+ETF de cripto é uma stablecoin.
+Incorreto. ETF é fundo; stablecoin é token 
+privado que busca referência de valor.
+ETF de cripto é CBDC.
+Incorreto. CBDC é moeda soberana digital; 
+ETF é produto de investimento.
+ETF de novas moedas digitais é uma cesta ou exposição organizada por um fundo; 
+não é uma nova moeda soberana.
+<<<PÁGINA 25>>>
+• A B3 explica que ETFs de cripto podem utilizar moedas digitais ou derivativos, conforme 
+o produto 7 .
+• Status: rótulo didático do edital; produto concreto deve ser analisado pelo 
+regulamento, índice e exposição.
+3.7. 4.4.5.6. Moeda Digital do Banco Central — CBDC — 
+DREX
+O que é CBDC
+CBDC significa Central Bank Digital Currency, ou Moeda Digital de Banco Central.
+É uma representação digital da moeda soberana emitida por um banco central. O Banco 
+Central diferencia CBDCs de criptoativos: criptoativos têm natureza de ativos e não são 
+emitidos por autoridades monetárias; CBDCs são moedas de fato, com funções monetárias 
+8 .
+As funções monetárias clássicas são:
+• meio de troca;
+• unidade de conta;
+• reserva de valor.
+A classificação como CBDC não significa que a moeda seja uma criptomoeda privada. A 
+emissão e a política monetária continuam vinculadas à autoridade monetária.
+O que é o Drex
+Drex é a denominação associada à moeda digital brasileira, anteriormente chamada de 
+Real Digital. O Banco Central descreve o projeto como uma expressão digital do real 
+soberano.
+O Drex deve ser estudado em quatro camadas:
+Camada
+O que significa
+Moeda Drex
+Representação digital soberana do real
+Plataforma Drex
+Infraestrutura para registro, programação e 
+liquidação de operações
+Ativos tokenizados
+Títulos, créditos, depósitos ou outros ativos 
+representados digitalmente
+<<<PÁGINA 26>>>
+Drex versus criptoativo
+Drex versus stablecoin
+Piloto Drex
+Ambiente controlado de testes e 
+desenvolvimento
+Critério
+Drex
+Criptoativo privado
+Emissor
+Banco Central
+Entidade privada, protocolo ou 
+arranjo privado
+Natureza
+Moeda soberana
+Ativo digital, conforme a 
+estrutura
+Mineração
+Não há mineração
+Pode existir mineração ou 
+outro mecanismo de emissão
+Política monetária
+Ligada ao real e ao Banco 
+Central
+Não é determinada pelo Banco 
+Central brasileiro
+Função
+Meio de troca, unidade de 
+conta e reserva de valor no 
+desenho monetário
+Depende do ativo; não 
+necessariamente cumpre as 
+três funções
+Regulação
+Banco Central e marco 
+monetário
+Depende do ativo, do serviço e 
+da competência regulatória
+Volatilidade
+Vinculada ao real soberano
+Pode ser elevada ou depender 
+do arranjo
+Critério
+Drex
+Stablecoin
+Emissão
+Banco Central
+Emissor ou arranjo privado
+Referência
+É a própria expressão digital da 
+moeda soberana
+Busca referência em moeda ou 
+outro ativo
+Garantia pública
+Não é uma promessa privada 
+de paridade; é moeda soberana
+Não existe garantia pública 
+automática
+Estabilidade
+Deriva do fundamento 
+monetário do real
+Depende do lastro, mecanismo 
+e governança
+<<<PÁGINA 27>>>
+Plataforma Drex
+A plataforma usa tecnologia de registro distribuído e foi concebida para permitir operações 
+programáveis com ativos tokenizados.
+No desenho do projeto, a plataforma pode apoiar:
+• registro de ativos;
+• emissão e transferência de representações digitais;
+• liquidação financeira;
+• entrega contra pagamento, conhecida como DvP;
+• contratos inteligentes;
+• integração entre participantes autorizados;
+• programação de condições de pagamento;
+• operações com ativos digitais e tokenizados.
+A plataforma é o trilho operacional. Ela não deve ser confundida com a moeda nem com 
+os ativos negociados.
+Drex de atacado e Drex de varejo
+No Piloto Drex, as operações podem ser liquidadas em Drex de varejo ou Drex de atacado, 
+conforme a natureza da operação 9 .
+Didaticamente:
+• Drex de atacado: relacionado à liquidação entre participantes institucionais 
+autorizados e operações do sistema financeiro.
+• Drex de varejo: relacionado ao uso final por pessoas e empresas, por meio de 
+intermediários autorizados, conforme o desenho do sistema.
+Essa distinção é conceitual no estudo do piloto. Não se deve transformar a descrição do 
+teste em afirmação de que o Drex já está amplamente disponível ao público.
+Piloto Drex
+Resgate
+Acesso conforme o sistema 
+autorizado e desenho oficial
+Depende dos termos do 
+emissor e do arranjo
+Natureza
+CBDC
+Token/ativo privado, sujeito à 
+análise funcional
+<<<PÁGINA 28>>>
+O Piloto Drex é a fase de testes para operações com a moeda digital brasileira. Segundo a 
+página oficial do Banco Central:
+• participam o Banco Central, a CVM, a Secretaria do Tesouro Nacional e instituições 
+autorizadas;
+• usuários finais não são participantes;
+• operações de usuários finais são simuladas;
+• a Fase 1 foi encerrada;
+• a Fase 2 foi encerrada;
+• o relatório da Fase 2 estava em construção na página consultada em 13/09/2026 9 .
+A Fase 1 testou elementos como:
+• privacidade;
+• programabilidade;
+• interoperabilidade;
+• DvP de título público federal;
+• funcionamento de uma DLT multiativo;
+• contratos inteligentes;
+• liquidação condicionada e simultânea.
+Desafios identificados
+O Relatório do Piloto Drex Fase 1 registra temas que exigem desenvolvimento adicional 10:
+1. Escalabilidade: capacidade de processar mais transações e serviços.
+2. Governança: quem pode criar contratos, atualizar serviços e responder por falhas.
+3. Segurança: proteção de nós, contratos, chaves privadas, dados e transações.
+4. Integrações: compatibilidade com sistemas legados e outras plataformas.
+5. Infraestrutura: disponibilidade, continuidade, atualizações e resiliência.
+6. Evolução: migração, correções e atualização de smart contracts.
+7. Regulação: caminho jurídico para emissão, transferência e tokenização.
+8. Validade jurídica: reconhecimento e execução de contratos baseados em código.
+9. Privacidade: equilíbrio entre imutabilidade do registro e proteção de dados.
+O que o Drex não é
+<<<PÁGINA 29>>>
+O Drex não é:
+• bitcoin;
+• stablecoin privada;
+• NFT;
+• ETF;
+• título de renda fixa;
+• ativo especulativo criado por mineração;
+• uma exchange aberta;
+• sinônimo de blockchain pública;
+• prova de disponibilidade geral apenas porque existe um piloto.
+O que a prova pode confundir
+Frase de fixação
+Confusão
+Correção
+Drex é criptomoeda privada.
+Incorreto. É CBDC, moeda soberana digital.
+Drex é stablecoin.
+Incorreto. Stablecoin é privada e busca 
+referência; Drex é a própria expressão digital 
+do real.
+Drex é ETF.
+Incorreto. ETF é fundo; Drex é moeda digital 
+soberana.
+Plataforma Drex é a própria moeda.
+Incorreto. Plataforma é infraestrutura; Drex é 
+a moeda/expressão monetária.
+Piloto Drex é lançamento comercial.
+Incorreto. Piloto é teste restrito.
+Usuário final já participa diretamente do 
+piloto.
+Incorreto. Usuários finais não são 
+participantes do piloto; suas operações são 
+simuladas.
+Drex será minerado.
+Incorreto. A emissão pertence ao Banco 
+Central; não há mineração.
+DLT significa anonimato e ausência de 
+governança.
+Incorreto. Privacidade e governança são 
+desafios centrais.
+<<<PÁGINA 30>>>
+Alinhamento ao Programa Detalhado
+4.4.5.6. Moeda Digital do Banco Central (CBDC) — DREX.
+Fonte e status
+• O Programa Detalhado inclui CBDC — DREX como subitem 1 .
+• O BCB diferencia CBDC, criptoativos e stablecoins 8 .
+• O Piloto Drex permanece descrito como ambiente de testes, com fases encerradas e 
+relatório da Fase 2 em construção na página consultada 9 .
+• Status: CBDC brasileira e plataforma em desenvolvimento/testes; não presumir 
+disponibilidade geral sem anúncio oficial do BCB.
+3.8. Distinção entre ativo, produto, veículo, 
+infraestrutura e moeda
+Esta é a parte mais importante para evitar erros de classificação.
+Frase de fixação
+Drex é moeda soberana digital; Plataforma Drex é infraestrutura; Piloto Drex é teste.
+Categoria
+Pergunta
+Exemplos desta aula
+Ativo digital
+Qual valor ou representação 
+circula digitalmente?
+NFT, bitcoin, ether, stablecoin
+Direito econômico
+O que o titular pode exigir?
+Recebimento, acesso, 
+remuneração, resgate ou uso
+Produto de investimento
+Qual estrutura é oferecida ao 
+investidor?
+Título tokenizado, ETF, 
+contrato de investimento 
+coletivo
+Veículo coletivo
+Quem reúne recursos e 
+administra uma carteira?
+Fundo de índice/ETF
+Infraestrutura
+Onde ocorre registro, 
+programação ou liquidação?
+DLT, blockchain, Plataforma 
+Drex
+Moeda soberana
+Quem emite e sustenta a 
+unidade monetária?
+Real e Drex
+<<<PÁGINA 31>>>
+4. Por que isso cai na prova? — 12 minutos
+Explicação estratégica
+O tema cai porque mistura tecnologia, produtos financeiros, ativos digitais e regulação. A 
+banca pode construir uma alternativa aparentemente moderna, mas juridicamente errada.
+A palavra “digital” pode aparecer em todas as alternativas. Ela não é suficiente para 
+resolver a questão.
+O candidato deve identificar a palavra decisiva:
+• não fungível: NFT;
+• referência de valor: stablecoin;
+• dívida ou fluxo de pagamento: renda fixa digital;
+• fundo e índice: ETF;
+• emissão soberana: CBDC;
+• teste controlado: Piloto Drex;
+• infraestrutura: Plataforma Drex.
+Matriz de decisão para a prova
+Não pergunte apenas “está em blockchain?”. Pergunte “o que é, quem emite, 
+qual direito existe e quem regula?”.
+Se o enunciado disser...
+Pense em...
+Não confunda com...
+unidade singular, item único, 
+autenticidade digital
+NFT
+copyright automático ou valor 
+mobiliário automático
+busca de paridade, reserva, 
+resgate ou ativo de referência
+Stablecoin
+CBDC ou garantia pública
+obrigação de pagamento, 
+devedor, juros, recebíveis
+Renda fixa digital
+moeda ou rentabilidade 
+garantida
+cota, índice, fundo, bolsa, 
+mercado secundário
+ETF bitcoin
+bitcoin direto
+cesta, rebalanceamento, várias 
+moedas digitais
+ETF novas moedas digitais
+nova moeda soberana
+<<<PÁGINA 32>>>
+Comparações críticas
+Palavras-chave
+Banco Central, real soberano, 
+emissão oficial
+CBDC/Drex
+stablecoin ou criptoativo 
+privado
+ambiente de teste, usuários 
+finais simulados
+Piloto Drex
+lançamento comercial
+DLT, registro, liquidação, smart 
+contract
+Plataforma Drex
+moeda Drex propriamente dita
+A
+B
+Diferença decisiva
+NFT
+Criptoativo fungível
+NFT é singular; o fungível é 
+substituível por unidade 
+equivalente
+Stablecoin
+CBDC
+Stablecoin é privada; CBDC é 
+emitida pelo banco central
+Renda fixa digital
+Moeda digital
+Renda fixa representa 
+crédito/dívida; moeda é 
+unidade monetária
+ETF bitcoin
+Bitcoin
+ETF é cota de fundo; bitcoin é o 
+ativo subjacente ou referência
+ETF de moedas digitais
+Stablecoin
+ETF é veículo coletivo; 
+stablecoin é token privado 
+referenciado a valor
+Drex
+Plataforma Drex
+Drex é moeda; plataforma é 
+infraestrutura
+Piloto Drex
+Disponibilidade geral
+Piloto é teste restrito; 
+disponibilidade geral exigiria 
+anúncio oficial
+Ativo digital
+Produto de investimento
+Ativo é o objeto; produto é a 
+estrutura oferecida ao 
+investidor
+<<<PÁGINA 33>>>
+• “Não fungível”: identifica NFT.
+• “Representa um item singular”: aponta para NFT.
+• “Busca paridade”: aponta para stablecoin, mas não garante estabilidade.
+• “Reserva e resgate”: analisar o modelo da stablecoin.
+• “Devedor, juros, vencimento”: renda fixa digital.
+• “Índice, carteira, cota, bolsa”: ETF.
+• “Exposição indireta”: característica do ETF.
+• “Cesta e rebalanceamento”: ETF de novas moedas digitais.
+• “Emissão pelo Banco Central”: CBDC.
+• “Real soberano”: Drex.
+• “Usuários finais não participantes”: Piloto Drex.
+• “Fase de teste”: não confundir com lançamento.
+Pegadinhas recorrentes
+1. Todo NFT é valor mobiliário. Não. O enquadramento depende da essência econômica 
+e dos direitos.
+2. Stablecoin vale sempre exatamente uma unidade da referência. Não. Pode perder 
+paridade.
+3. ETF é compra direta do ativo. Não. O investidor compra a cota do fundo.
+4. Diversificação elimina risco. Não. Pode reduzir concentração, mas não elimina 
+volatilidade ou correlação.
+5. Renda fixa digital não tem inadimplência. Não. O devedor pode não pagar.
+6. Drex é uma stablecoin. Não. É CBDC soberana.
+7. Drex é uma criptomoeda minerável. Não. É emitido pelo Banco Central.
+8. Piloto Drex significa que qualquer pessoa já pode usar o Drex. Não. Piloto é 
+ambiente controlado.
+9. DLT determina a regulação. Não. A função econômica e os direitos são determinantes.
+10. Resolução ou autorização do prestador garante o ativo. Não. Regulação do prestador 
+não equivale a garantia de rentabilidade ou resgate.
+Regra de ouro da aula
+<<<PÁGINA 34>>>
+5. Case / Storytelling — 15 minutos
+Situação: a Plataforma Aurora Digital
+A Plataforma Aurora Digital deseja criar uma área de negociação de ativos digitais. O 
+projeto apresenta seis produtos:
+1. um NFT que representa a entrada em uma exposição virtual;
+2. uma stablecoin privada que busca paridade com o real;
+3. um token que representa recebíveis de uma empresa;
+4. um ETF listado que busca acompanhar o bitcoin;
+5. um ETF listado com cesta de moedas digitais;
+6. uma integração futura com o Piloto Drex para testar liquidação de ativos tokenizados.
+A equipe comercial apresenta todos os produtos como “investimentos em blockchain”. O 
+diretor de compliance interrompe a apresentação e exige uma classificação correta.
+Análise do caso
+Produto 1: NFT de acesso
+O token é único e permite acesso a uma exposição virtual. O contrato não promete 
+remuneração, receita ou participação em empreendimento.
+Classificação didática:
+• NFT;
+• token não fungível;
+• possível token de utilidade ou referenciado a ativo, conforme a função;
+• não é automaticamente valor mobiliário;
+• não confere automaticamente copyright sobre as imagens da exposição.
+Produto 2: stablecoin privada
+A empresa pretende manter uma reserva para permitir resgates em reais. O token busca 
+valer uma unidade de real.
+Nome comercial não substitui classificação econômica.
+<<<PÁGINA 35>>>
+Perguntas necessárias:
+• qual é a composição da reserva?
+• quem guarda os ativos?
+• qual é o direito de resgate?
+• existe auditoria ou verificação?
+• há liquidez suficiente?
+• que regras se aplicam ao emissor e ao serviço?
+Classificação didática:
+• token privado referenciado a ativo;
+• objetivo de estabilidade;
+• risco de perda de paridade;
+• não é Drex;
+• não existe garantia automática do Banco Central.
+Produto 3: token de recebíveis
+O token representa um fluxo de parcelas e é ofertado a investidores. A remuneração 
+depende da gestão dos recebíveis por uma terceira empresa.
+Classificação didática:
+• renda fixa ou crédito em formato digital, conforme a estrutura;
+• existência de risco de crédito e de liquidez;
+• possível enquadramento como valor mobiliário, dependendo da oferta, dos direitos e 
+do esforço de terceiros;
+• a tecnologia não afasta a competência da CVM quando presentes os requisitos legais.
+Produto 4: ETF bitcoin
+O investidor compra cotas na bolsa. O fundo busca acompanhar referência de bitcoin, 
+conforme sua política.
+Classificação didática:
+• fundo de índice;
+• cota negociada em mercado organizado;
+• exposição indireta ao bitcoin ou referência relacionada;
+• risco do ativo subjacente e do fundo;
+<<<PÁGINA 36>>>
+• não é compra direta de bitcoin.
+Produto 5: ETF de novas moedas digitais
+O fundo acompanha um índice com vários criptoativos digitais. O índice tem regras de 
+composição e rebalanceamento.
+Classificação didática:
+• veículo coletivo de investimento;
+• exposição ao índice/cesta;
+• possibilidade de diversificação, sem eliminação de risco;
+• o cotista não possui diretamente cada moeda digital;
+• composição e metodologia precisam ser analisadas.
+Produto 6: integração ao Piloto Drex
+A plataforma pretende participar de testes institucionais para liquidar ativos tokenizados e 
+pagamentos em ambiente controlado.
+Classificação didática:
+• Drex: moeda digital soberana;
+• Plataforma Drex: infraestrutura de registro e liquidação;
+• Piloto Drex: fase de testes;
+• usuários finais não são participantes do piloto;
+• operações simuladas não equivalem a lançamento comercial.
+Conceitos aplicados
+Elemento do case
+Conceito
+Função
+Entrada na exposição virtual
+NFT
+Identificar unidade singular e 
+permitir acesso
+Token com referência ao real
+Stablecoin
+Buscar estabilidade relativa, 
+com risco de perda de paridade
+Parcelas de recebíveis
+Renda fixa digital
+Representar crédito e fluxo de 
+pagamentos
+Fundo ligado ao bitcoin
+ETF bitcoin
+Oferecer exposição indireta por 
+cota
+<<<PÁGINA 37>>>
+Síntese do case
+A Plataforma Aurora não pode usar a palavra “blockchain” como classificação única. Ela 
+precisa separar:
+• o ativo;
+• o direito;
+• o produto;
+• o veículo;
+• a infraestrutura;
+• o emissor;
+• o regulador;
+• o risco principal;
+• o status de disponibilidade.
+6. Questão final comentada — 15 minutos
+Certificação
+CPA — Certificado Profissional ANBIMA.
+Competência
+4.4.5. Novas estruturas de mercado para negociações, com foco nos subitens 4.4.5.1 a 
+4.4.5.6.
+Fundo com cesta de 
+criptoativos
+ETF novas moedas digitais
+Organizar exposição segundo 
+índice
+Liquidação oficial em testes
+Drex/Plataforma/Piloto
+Separar moeda, infraestrutura 
+e ambiente experimental
+A mesma infraestrutura tecnológica pode suportar um token de acesso, um título de 
+crédito, um fundo de índice ou uma moeda soberana. A tecnologia não transforma 
+um no outro.
+<<<PÁGINA 38>>>
+Nível
+Difícil.
+Enunciado
+Uma instituição financeira apresenta a seguinte estrutura para seus clientes:
+• um NFT que permite acesso a uma exposição virtual;
+• uma stablecoin privada que busca manter paridade com o real;
+• um token que representa recebíveis e oferece expectativa de remuneração decorrente 
+da gestão do fluxo por terceiros;
+• um ETF negociado em bolsa que busca acompanhar um índice relacionado ao bitcoin;
+• uma plataforma que participa de testes institucionais do Drex.
+Considerando as características econômicas e regulatórias dessas estruturas, assinale a 
+alternativa correta.
+A) O NFT é automaticamente um valor mobiliário porque pode ser negociado no mercado 
+secundário; a stablecoin é uma CBDC porque busca paridade com o real; e o ETF representa 
+propriedade direta do bitcoin.
+B) O token de recebíveis nunca pode ser valor mobiliário porque utiliza blockchain; o ETF 
+elimina o risco de mercado do bitcoin; e o Piloto Drex representa disponibilidade geral da 
+moeda digital ao público.
+C) O NFT deve ser analisado conforme sua função e os direitos conferidos; a stablecoin é 
+uma emissão privada que pode perder a paridade; o ETF é uma cota de fundo com 
+exposição indireta conforme sua política; e o Piloto Drex não equivale, por si só, à 
+disponibilidade geral.
+D) A stablecoin, o ETF e o Drex são moedas digitais equivalentes, pois os três podem ser 
+transferidos eletronicamente; já o token de recebíveis está fora da competência da CVM por 
+ser registrado em DLT.
+E) O Drex é uma criptomoeda minerável, enquanto o ETF é o próprio índice de moedas 
+digitais; como o NFT é único, ele sempre confere ao comprador os direitos autorais da obra 
+representada.
+Ponto-chave
+A alternativa correta precisa separar:
+• enquadramento funcional do NFT;
+<<<PÁGINA 39>>>
+• emissão privada da stablecoin;
+• cota do ETF versus ativo subjacente;
+• piloto versus disponibilidade geral do Drex.
+Gabarito
+Alternativa C.
+Justificativa da correta
+A alternativa C está correta porque respeita as distinções técnicas fundamentais:
+1. NFT: a não fungibilidade descreve a singularidade do token. Ela não determina 
+automaticamente que o NFT seja valor mobiliário. A análise depende dos direitos 
+conferidos, da oferta e da função econômica do projeto 2 3 .
+2. Stablecoin: é, em regra, uma emissão privada que busca referência de valor. A paridade 
+é um objetivo do arranjo e pode ser perdida; não existe garantia pública automática 8 .
+3. ETF: o investidor adquire uma cota do fundo. A exposição ao bitcoin ou ao índice ocorre 
+conforme a política, a carteira e o regulamento do produto 6 7 .
+4. Piloto Drex: é ambiente controlado de testes. A existência do piloto não significa, por si 
+só, que o Drex esteja disponível de forma geral ao público 9 .
+Alternativas incorretas
+• A: incorreta. A negociação secundária não transforma automaticamente NFT em valor 
+mobiliário. Stablecoin privada não é CBDC. ETF é cota de fundo, não propriedade direta 
+do bitcoin.
+• B: incorreta. Blockchain não afasta o enquadramento jurídico. Um token de recebíveis 
+pode ser valor mobiliário conforme os direitos, a oferta e o esforço de terceiros. ETF não 
+elimina risco de mercado. Piloto não é disponibilidade geral.
+• C: correta. A alternativa separa adequadamente objeto, emissão, veículo e status do 
+piloto.
+• D: incorreta. Transferência eletrônica não torna as estruturas equivalentes. Stablecoin, 
+ETF e Drex têm naturezas distintas. O uso de DLT não afasta automaticamente a 
+competência da CVM.
+• E: incorreta. Drex não é criptomoeda minerável. ETF é fundo/cota, não o índice. NFT 
+não confere automaticamente direitos autorais.
+<<<PÁGINA 40>>>
+Armadilhas e macetes
+• Único não significa automaticamente valor mobiliário.
+• Paridade não significa automaticamente garantia.
+• Cota não significa propriedade direta da carteira.
+• Piloto não significa lançamento comercial.
+• Blockchain não significa ausência de regulação.
+7. Revisão final — 10 minutos
+Resumo em cinco pontos
+1. NFT: token não fungível, singular e funcionalmente classificado; não é 
+automaticamente valor mobiliário, copyright ou propriedade do objeto físico.
+2. Stablecoin: token privado que busca referência de valor; pode perder paridade e não é 
+CBDC nem garantia do Banco Central.
+3. Renda fixa digital: representação ou circulação digital de dívida, crédito ou fluxo de 
+pagamento; conserva risco de crédito, mercado e liquidez e adiciona riscos 
+tecnológicos.
+4. ETF: cota de fundo que oferece exposição a um índice ou carteira; ETF bitcoin e ETF de 
+outras moedas digitais não são compra direta das moedas.
+5. Drex: CBDC brasileira e ecossistema de infraestrutura em desenvolvimento; moeda, 
+Plataforma Drex e Piloto Drex são conceitos diferentes.
+Quadro de emergência
+Plain Text
+NFT       = único
+STABLECOIN = busca paridade privada
+RENDA FIXA DIGITAL = dívida/fluxo de pagamento em formato digital
+ETF       = cota de fundo + exposição ao índice
+DREX      = moeda soberana digital
+ATIVO DIGITAL ≠ PRODUTO DE INVESTIMENTO ≠ FUNDO/ETF ≠ CBDC
+Drex moeda       ≠ Plataforma Drex infraestrutura
+<<<PÁGINA 41>>>
+Piloto Drex      ≠ disponibilidade geral
+ETF cota         ≠ ativo subjacente
+Stablecoin       ≠ garantia de estabilidade
+NFT              ≠ copyright automático
+Cadeia lógica
+Aplicação por estrutura:
+Diferenças que não podem ser confundidas
+• NFT ≠ bitcoin: não fungível versus fungível, em regra.
+• Stablecoin ≠ CBDC: emissão privada versus emissão soberana.
+• Renda fixa digital ≠ dinheiro: crédito/dívida versus unidade monetária.
+• ETF bitcoin ≠ bitcoin: cota de fundo versus ativo digital.
+• ETF de moedas digitais ≠ cesta diretamente custodiada pelo investidor: exposição 
+por veículo coletivo versus propriedade direta.
+• Drex ≠ Plataforma Drex: moeda versus infraestrutura.
+• Piloto Drex ≠ disponibilidade geral: teste versus lançamento.
+Tecnologia → representação ou veículo → direitos econômicos → forma de 
+negociação → risco → regra aplicável → decisão do investidor.
+NFT → token singular → acesso ou representação → mercado secundário possível → 
+risco de direitos e liquidez → análise funcional → não classificar automaticamente.
+Stablecoin → token privado referenciado → busca de paridade → 
+transferência/resgate conforme arranjo → risco de reservas e de-peg → análise do 
+emissor e do serviço → não tratar como CBDC.
+Renda fixa digital → título ou crédito tokenizado → fluxo de pagamento → 
+registro/negociação digital → risco de crédito e tecnologia → análise do instrumento 
+e da oferta → não prometer pagamento.
+ETF → cota de fundo → exposição a índice/carteira → negociação em mercado 
+organizado → risco do fundo e do subjacente → Resolução CVM 175 e documentos do 
+produto → não confundir com compra direta.
+Drex → moeda soberana digital → liquidação e programação → Plataforma 
+Drex/Piloto → risco tecnológico e de governança → BCB e marco monetário → não 
+confundir teste com lançamento.
+<<<PÁGINA 42>>>
+• DLT ≠ produto financeiro: tecnologia de registro versus ativo, veículo ou moeda.
+• Regulação do prestador ≠ garantia do ativo: supervisão do serviço não assegura 
+valor ou rentabilidade.
+Frase central da aula
+Próximo passo de estudo
+1. Reescrever, sem consultar o material, a matriz: NFT | stablecoin | renda fixa digital | 
+ETF | Drex.
+2. Explicar em voz alta a diferença entre ETF bitcoin e bitcoin diretamente adquirido.
+3. Resolver novamente a questão final justificando por que cada alternativa está errada ou 
+correta.
+4. Revisar a sequência do Drex: moeda soberana → plataforma → ativos tokenizados → 
+piloto.
+5. Avançar para o próximo item do Programa Detalhado somente depois de conseguir 
+distinguir ativo, produto, veículo, infraestrutura e moeda.
+Anexo A — Roteiro operacional de 
+lousa/tela
+Bloco 1 — Título e pergunta-problema
+[ESCREVA]
+Plain Text
+4.4.5. NOVAS ESTRUTURAS DE MERCADO
+Tudo que usa blockchain é a mesma coisa?
+[FALE]
+Em novas estruturas de mercado, o candidato não deve classificar pelo nome ou 
+pela tecnologia; deve classificar pela função, pelo direito, pelo emissor e pelo risco.
+<<<PÁGINA 43>>>
+“Não. A tecnologia pode ser semelhante, mas o ativo, o produto, o veículo, a infraestrutura 
+e a moeda podem ser completamente diferentes.”
+[PARE E PERGUNTE]
+“Qual é a diferença entre comprar uma cota de ETF bitcoin e comprar bitcoin 
+diretamente?”
+[FIXE]
+Bloco 2 — Mapa das seis estruturas
+[DESENHE]
+Desenhe seis caixas alinhadas horizontalmente:
+Plain Text
+[NFT] → [Stablecoin] → [Renda fixa digital] → [ETF BTC] → [ETF cesta digital] → 
+[ESCREVA]
+Plain Text
+NFT = único
+Stablecoin = busca paridade
+Renda fixa digital = dívida/fluxo
+ETF = cota + índice
+Drex = moeda soberana digital
+[CIRCULE]
+Circule “único”, “paridade”, “dívida”, “cota” e “soberana”.
+[FALE]
+“Essas cinco palavras ajudam a identificar o conceito dominante de cada estrutura.”
+Bloco 3 — NFT
+[ESCREVA]
+Plain Text
+A cota do ETF não é o ativo subjacente.
+<<<PÁGINA 44>>>
+NFT = Non-Fungible Token
+Não fungível = não substituível automaticamente por unidade equivalente
+[DESENHE]
+Desenhe duas peças:
+Plain Text
+[Peça A única] ≠ [Peça B diferente]
+[FALE]
+“Ser único não significa ser automaticamente valor mobiliário. Também não significa 
+transferir automaticamente copyright ou propriedade do objeto físico.”
+[ESCREVA]
+Plain Text
+NFT ≠ valor mobiliário automático
+NFT ≠ copyright automático
+NFT ≠ propriedade física automática
+[FIXE]
+Bloco 4 — Stablecoin
+[ESCREVA]
+Plain Text
+STABLECOIN
+Token privado → busca referência de valor
+[DESENHE]
+Plain Text
+Token privado → reserva/mecanismo → busca paridade
+                         ↓
+                 pode perder a paridade
+NFT descreve a singularidade; a função define o enquadramento.
+<<<PÁGINA 45>>>
+[FALE]
+“Stablecoin não significa estabilidade absoluta. O risco depende da reserva, do emissor, 
+do resgate, da liquidez e do mecanismo de estabilização.”
+[ESCREVA]
+Plain Text
+Stablecoin ≠ CBDC
+Stablecoin ≠ garantia do BC
+Stablecoin ≠ risco zero
+[PARE E PERGUNTE]
+“Se uma stablecoin tenta valer um real, ela é o Drex?”
+Aguarde a resposta.
+[FIXE]
+Bloco 5 — Renda fixa digital
+[ESCREVA]
+Plain Text
+RENDA FIXA DIGITAL
+Devedor → obrigação de pagamento → investidor
+[DESENHE]
+Plain Text
+[Emissor/devedor] ─── pagamento ───> [Investidor]
+         │
+         └── risco de crédito
++ riscos digitais:
+  código | custódia | chave | cibersegurança | integração
+[FALE]
+“A forma digital não elimina a inadimplência. O devedor continua podendo não pagar.”
+[CIRCULE]
+Stablecoin é privada; CBDC é soberana.
+<<<PÁGINA 46>>>
+Circule “risco de crédito”.
+[FIXE]
+Bloco 6 — ETF bitcoin
+[ESCREVA]
+Plain Text
+ETF = fundo de índice
+Investidor compra COTA
+Cota oferece EXPOSIÇÃO ao índice/carteira
+[DESENHE]
+Plain Text
+Investidor → cota do fundo → carteira/índice → exposição ao bitcoin
+[FALE]
+“A seta não é propriedade direta. O investidor compra a cota. A exposição depende do 
+regulamento.”
+[ESCREVA]
+Plain Text
+ETF BTC ≠ BTC direto
+ETF regulado ≠ risco eliminado
+Bolsa ≠ liquidez ilimitada
+[FIXE]
+Bloco 7 — ETF de novas moedas digitais
+[ESCREVA]
+Plain Text
+Renda fixa digital mantém o risco econômico da dívida e adiciona risco tecnológico.
+ETF é veículo de exposição, não compra direta do ativo.
+<<<PÁGINA 47>>>
+ETF cesta digital
+Índice → composição → pesos → rebalanceamento → cota
+[DESENHE]
+Plain Text
+[Ativo A] + [Ativo B] + [Ativo C]
+             ↓
+          [Índice]
+             ↓
+       [Cota do ETF]
+[FALE]
+“Uma cesta pode reduzir a concentração em um único ativo, mas não elimina volatilidade, 
+correlação, risco de liquidez, tracking error ou risco regulatório.”
+[FIXE]
+Bloco 8 — Drex
+[ESCREVA]
+Plain Text
+DREX = CBDC brasileira
+Moeda soberana digital
+Emitida pelo Banco Central
+Sem mineração
+[DESENHE]
+Desenhe três caixas verticais:
+Plain Text
+[MOEDA DREX]
+       ↓
+[PLATAFORMA DREX]
+       ↓
+[PILOTO DREX]
+Diversificação pode reduzir concentração; não elimina risco.
+<<<PÁGINA 48>>>
+Ao lado de cada caixa, escreva:
+Plain Text
+Moeda soberana
+Infraestrutura
+Teste controlado
+[FALE]
+“Drex é a moeda. Plataforma é o trilho. Piloto é o teste. Não misture os três.”
+[ESCREVA]
+Plain Text
+Piloto ≠ lançamento geral
+Usuário final ≠ participante do piloto
+Operação simulada ≠ operação comercial
+[FIXE]
+Bloco 9 — Matriz final de classificação
+[ESCREVA]
+Plain Text
+PERGUNTAS:
+1. O que é?
+2. Quem emite?
+3. Qual direito existe?
+4. Como negocia?
+5. Qual risco domina?
+[DESENHE]
+Drex é moeda; Plataforma Drex é infraestrutura; Piloto Drex é teste.
+Estrutura
+Palavra-chave
+NFT
+singularidade
+Stablecoin
+referência/paridade
+Renda fixa digital
+dívida/pagamento
+<<<PÁGINA 49>>>
+[FALE]
+“Se a alternativa não responder corretamente a essas perguntas, provavelmente existe 
+uma pegadinha.”
+[APAGUE]
+Apague apenas os exemplos e mantenha a matriz final.
+[MANTENHA]
+Plain Text
+ATIVO ≠ PRODUTO ≠ FUNDO ≠ INFRAESTRUTURA ≠ MOEDA
+Anexo B — Quadro de revisão rápida do 
+professor
+Definições em uma linha
+ETF
+cota/índice
+Drex
+soberania/emissão oficial
+Termo
+Definição operacional para a aula
+NFT
+Token não fungível que identifica ou 
+representa uma unidade singular.
+Stablecoin
+Token privado que busca manter referência 
+de valor em relação a outro ativo.
+Renda fixa digital
+Título, crédito ou fluxo de pagamento 
+representado ou negociado digitalmente.
+ETF bitcoin
+Fundo de índice que oferece exposição ao 
+bitcoin ou a referência relacionada.
+ETF novas moedas digitais
+Fundo de índice que oferece exposição a 
+outras moedas digitais, criptoativos ou cesta/
+índice, conforme o regulamento.
+CBDC
+Moeda digital emitida por banco central.
+<<<PÁGINA 50>>>
+Riscos em uma palavra
+Plain Text
+NFT             → direitos e liquidez
+Stablecoin      → paridade e reservas
+Renda fixa      → crédito
+ETF             → aderência e volatilidade
+Cesta digital   → concentração e correlação
+Drex            → privacidade e governança
+Observações normativas
+1. O Programa Detalhado CPA usado como fonte de escopo é a versão 1.2, revisada em 
+04/06/2025, vigente desde 01/01/2026 1 .
+2. A CVM usa abordagem funcional para classificar tokens. NFT e stablecoin podem ser 
+tokens referenciados a ativo, mas essa classificação não é automática nem determina, 
+sozinha, que o token seja valor mobiliário 2 .
+3. A Lei nº 14.478/2022 está em vigor, estabelece diretrizes para serviços de ativos virtuais 
+e preserva a competência da CVM sobre valores mobiliários 4 .
+4. A autorização ou supervisão de uma prestadora de serviços de ativos virtuais não 
+constitui garantia de rentabilidade, de resgate, de solvência do emissor ou de 
+estabilidade do token.
+5. O Anexo Normativo V da Resolução CVM 175 disciplina fundos de índice. O ETF é tratado 
+neste material por sua estrutura e seus riscos, sem indicação de produto específico 6 
+7 .
+Drex
+Expressão digital soberana do real e 
+ecossistema/plataforma em 
+desenvolvimento.
+Plataforma Drex
+Infraestrutura para registro, programação e 
+liquidação de operações.
+Piloto Drex
+Ambiente controlado para testes 
+institucionais.
+<<<PÁGINA 51>>>
+6. O BCB diferencia CBDC, criptoativos e stablecoins. O Drex é tratado como moeda digital 
+soberana; a Plataforma Drex é infraestrutura e o Piloto Drex é ambiente de testes 8 9 .
+7. Na data de referência de 13/09/2026, a página oficial do Piloto Drex informa que as 
+fases 1 e 2 estão encerradas, com relatório da Fase 2 em construção. Usuários finais não 
+são participantes e suas operações são simuladas 9 .
+8. Não apresentar uma data de lançamento geral do Drex sem nova confirmação oficial do 
+Banco Central.
+9. Para qualquer ETF específico, consultar regulamento, lâmina, índice, composição, 
+método de exposição, custos, riscos e status vigente antes de utilizar o produto como 
+exemplo.
+10. Este material é educacional. Não constitui recomendação, oferta, aconselhamento 
+individual, análise de adequação ou indicação de alocação.
+Referências oficiais e técnicas
+[1] ANBIMA — Programa Detalhado CPA — versão 1.2, revisada em 04/06/2025, vigente 
+desde 01/01/2026 — acesso em 13/09/2026
+[2] CVM — Parecer de Orientação CVM nº 40 — Os CriptoAtivos e o Mercado de Valores 
+Mobiliários — acesso em 13/09/2026
+[3] CVM — FAQ Criptoativos: quando se aplicam as regras da CVM? — atualização de 
+06/02/2026 — acesso em 13/09/2026
+[4] Planalto — Lei nº 14.478/2022 — diretrizes para serviços de ativos virtuais — acesso em 
+13/09/2026
+[5] Planalto — Decreto nº 11.563/2023 — competências do Banco Central sobre prestadoras 
+de serviços de ativos virtuais — acesso em 13/09/2026
+[6] CVM — Resolução CVM 175 — Anexo Normativo V — Fundos de Índice — acesso em 
+13/09/2026
+[7] B3 Educação — ETF de Cripto — exposição, estrutura e riscos — acesso em 13/09/2026
+[8] Banco Central do Brasil — Perguntas e respostas sobre Real Digital/Drex, CBDC, 
+criptoativos e stablecoins — acesso em 13/09/2026
+[9] Banco Central do Brasil — Piloto Drex — participantes, fases, operações simuladas e 
+status — acesso em 13/09/2026
+[10] Banco Central do Brasil — Relatório do Piloto Drex — Fase 1 — desafios de 
+escalabilidade, governança, segurança, integração e regulação — acesso em 13/09/2026
+[11] Banco Central do Brasil — Resolução BCB nº 519/2025 — autorização de sociedades 
+prestadoras de serviços de ativos virtuais — acesso em 13/09/2026
+<<<PÁGINA 52>>>
+[12] Banco Central do Brasil — Resolução BCB nº 521/2025 — operações de ativos virtuais 
+relacionadas a câmbio e capitais internacionais — acesso em 13/09/2026
+[13] Banco Central do Brasil — Drex — Real Digital e Plataforma Drex — acesso em 
+13/09/2026
+[14] Banco Central do Brasil — FAQ sobre lançamento do Drex — acesso em 13/09/2026
+[15] B3 — ETFs de Cripto — página de produtos e negociação — acesso em 13/09/2026
+Fechamento para o professor
+Finalize dizendo:
+[FALE]
+“Se o aluno lembrar de apenas uma sequência, deve lembrar desta: função → direito → 
+emissor → veículo → risco → regulação.”
+[FIM]
+“O mercado financeiro está criando novas formas de representar ativos, organizar 
+exposição e liquidar operações. A prova não exige que você trate tudo como tecnologia. 
+Ela exige que você saiba responder: o que é, quem emite, qual direito existe, como 
+negocia e qual risco permanece.”
+Nova tecnologia muda o trilho. A natureza econômica continua sendo a chave da 
+classificação.
