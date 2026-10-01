@@ -1,0 +1,781 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Manual de Revisão CPA — Módulo 2</title>
+<style>
+@font-face{font-family:Poppins;font-weight:300;src:url(fonts/pop-300.woff2) format('woff2')}
+@font-face{font-family:Poppins;font-weight:400;src:url(fonts/pop-400.woff2) format('woff2')}
+@font-face{font-family:Poppins;font-weight:500;src:url(fonts/pop-500.woff2) format('woff2')}
+@font-face{font-family:Poppins;font-weight:600;src:url(fonts/pop-600.woff2) format('woff2')}
+@font-face{font-family:Poppins;font-weight:700;src:url(fonts/pop-700.woff2) format('woff2')}
+@font-face{font-family:Poppins;font-weight:800;src:url(fonts/pop-800.woff2) format('woff2')}
+:root{
+  --bg:#071020; --bg2:#0A1628; --card:#132A4E; --card2:#1A3260; --line:#22406E;
+  --blue:#2563EB; --blue2:#3B82F6; --muted:#94A3B8; --light:#E8EDF5; --gold:#D4AF6A; --white:#FFFFFF;
+}
+@page{size:A4;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--bg);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{font-family:Poppins,Arial,sans-serif;color:var(--light);font-size:10.3pt;line-height:1.5}
+.page{width:210mm;height:297mm;padding:13mm 14mm 17mm;position:relative;overflow:hidden;background:var(--bg);page-break-after:always;break-after:page}
+.page:last-child{page-break-after:auto;break-after:auto}
+.head{display:flex;justify-content:space-between;align-items:center;margin-bottom:7mm}
+.head img{height:11mm}
+.head .sec{font-size:7.5pt;letter-spacing:.14em;color:var(--muted);text-transform:uppercase;font-weight:500}
+.foot{position:absolute;left:14mm;right:14mm;bottom:8mm;display:flex;justify-content:space-between;font-size:7.5pt;color:var(--muted)}
+.foot b{color:var(--blue2);font-weight:600}
+.kicker{font-size:8pt;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:1.5mm}
+h1{font-size:23pt;line-height:1.18;font-weight:700;color:var(--white);margin-bottom:2.5mm}
+.lead{color:var(--muted);font-size:10.3pt;margin-bottom:5mm;max-width:165mm}
+h2{font-size:12.2pt;font-weight:600;color:var(--white);margin:0 0 2mm;display:flex;align-items:center;gap:2.5mm}
+h2 img{height:6.5mm;width:6.5mm;object-fit:contain}
+.card{background:var(--card);border:1px solid var(--line);border-radius:3mm;padding:4.2mm 4.8mm;margin-bottom:4.5mm}
+.card.dark{background:var(--bg2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:4mm;margin-bottom:4mm}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:3.5mm;margin-bottom:4mm}
+.grid2 .card,.grid3 .card{margin-bottom:0}
+ul{list-style:none}
+li{position:relative;padding-left:4mm;margin-bottom:1.3mm}
+li::before{content:"";position:absolute;left:0;top:2.1mm;width:1.6mm;height:1.6mm;border-radius:50%;background:var(--blue2)}
+b,strong{color:var(--white);font-weight:600}
+.gold{color:var(--gold)}
+.blue{color:var(--blue2)}
+table{width:100%;border-collapse:separate;border-spacing:0;font-size:9.4pt;margin-bottom:4mm;border:1px solid var(--line);border-radius:3mm;overflow:hidden}
+th{background:var(--blue);color:var(--white);font-weight:600;text-align:left;padding:2.2mm 2.8mm;font-size:8.8pt}
+td{padding:2.1mm 2.8mm;border-top:1px solid var(--line);vertical-align:top;background:var(--card)}
+tr:nth-child(even) td{background:var(--card2)}
+td:first-child{font-weight:600;color:var(--white)}
+.box{display:flex;gap:3mm;align-items:flex-start;border-radius:3mm;padding:3.2mm 4mm;margin-bottom:3.5mm}
+.box img{width:7mm;height:7mm;object-fit:contain;flex:none;margin-top:.4mm}
+.box .t{font-size:7.5pt;letter-spacing:.14em;text-transform:uppercase;font-weight:600;margin-bottom:.6mm}
+.trap{background:#241D0E;border:1px solid #5C4A22}
+.trap .t{color:var(--gold)}
+.fix{background:#0F2550;border:1px solid var(--blue)}
+.fix .t{color:var(--blue2)}
+.fix p{color:var(--white);font-weight:600;font-size:10.8pt}
+.note{background:var(--bg2);border:1px dashed var(--line)}
+.note .t{color:var(--muted)}
+.mono{font-variant-numeric:tabular-nums}
+.big{font-size:22pt;font-weight:700;color:var(--white);line-height:1.05}
+.stat .lbl{color:var(--muted);font-size:8.3pt;margin-top:1mm}
+.chip{display:inline-block;background:var(--card2);border:1px solid var(--line);border-radius:10mm;padding:.6mm 3mm;font-size:8pt;margin:0 1.5mm 1.5mm 0;color:var(--light)}
+.flow{display:flex;align-items:center;gap:2mm;flex-wrap:wrap;margin-bottom:4mm}
+.flow .s{background:var(--card);border:1px solid var(--line);border-radius:2.5mm;padding:2mm 3mm;font-weight:600;color:var(--white);font-size:8.8pt}
+.flow .a{color:var(--gold);font-weight:700}
+.q{margin-bottom:4mm}
+.q .opt{margin:1mm 0 0 0;padding-left:6mm;text-indent:-6mm}
+.ans{font-weight:600;color:var(--gold)}
+/* capa */
+.cover{display:flex;flex-direction:column;justify-content:center;padding:22mm 20mm}
+.cover img.logo{height:34mm;align-self:flex-start;margin-bottom:16mm}
+.cover .k{font-size:9pt;letter-spacing:.2em;color:var(--gold);text-transform:uppercase;font-weight:600;margin-bottom:4mm}
+.cover h1{font-size:34pt;line-height:1.1;margin-bottom:6mm}
+.cover .sub{font-size:12pt;color:var(--muted);max-width:150mm;margin-bottom:14mm}
+.cover .pills span{display:inline-block;border:1px solid var(--line);background:var(--card);border-radius:10mm;padding:1.5mm 4mm;margin:0 2mm 2mm 0;font-size:9pt;color:var(--white)}
+.sep{height:1px;background:var(--line);margin:4mm 0}
+.small{font-size:8.2pt;color:var(--muted)}
+.toc td:first-child{width:14mm;color:var(--gold)}
+.center{text-align:center}
+.flow[style*="nowrap"] .s{padding:1.5mm 2mm;font-size:8.6pt}
+.tight td{padding:1.5mm 2.6mm}
+.tight .card{margin-bottom:3.5mm}
+.tight .box{margin-bottom:3mm;padding:2.8mm 4mm}
+</style>
+</head>
+<body>
+
+<!-- 1 CAPA -->
+<section class="page cover">
+  <img class="logo" src="img/image1.png" alt="X8 Educação">
+  <div class="k">Manual de revisão · CPA ANBIMA</div>
+  <h1>Módulo 2<br>Produtos do Mercado Financeiro</h1>
+  <p class="sub">As regras, os números e as pegadinhas que mais caem na prova, organizados para você revisar em blocos curtos.</p>
+  <div class="pills">
+    <span>Investimentos</span><span>Fundos</span><span>Previdência</span><span>Crédito</span><span>Serviços bancários</span><span>Câmbio</span><span>Seguros</span>
+  </div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>1</b></div>
+</section>
+
+<!-- 2 COMO USAR -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">Antes de começar</span></div>
+  <div class="kicker">Como usar este manual</div>
+  <h1>40% da prova está aqui</h1>
+  <p class="lead">O módulo 2 é o de maior peso da CPA. Ele responde a cinco perguntas que todo cliente faz ao profissional certificado.</p>
+  <div class="grid2">
+    <div class="card stat"><div class="big">40%</div><div class="lbl">peso do módulo 2 na prova CPA (Programa Detalhado ANBIMA, vigência 01/01/2026)</div></div>
+    <div class="card stat"><div class="big">5</div><div class="lbl">grandes temas: investir, aposentar, tomar crédito, movimentar e proteger</div></div>
+  </div>
+  <table class="toc">
+    <tr><th>Item</th><th>Pergunta do cliente</th><th>Páginas</th></tr>
+    <tr><td>2.1</td><td>Onde eu invisto? Renda fixa, renda variável, COE, fundos e FII</td><td>3 a 15</td></tr>
+    <tr><td>2.2</td><td>Como me aposento? PGBL e VGBL</td><td>16 e 17</td></tr>
+    <tr><td>2.3</td><td>Como pego dinheiro emprestado? Produtos de financiamento</td><td>18 e 19</td></tr>
+    <tr><td>2.4</td><td>Como movimento meu dinheiro? Serviços bancários e câmbio</td><td>20 a 22</td></tr>
+    <tr><td>2.5</td><td>Como me protejo? Seguros de vida e patrimoniais</td><td>22</td></tr>
+    <tr><td>—</td><td>Quadro de emergência, questões e gabarito</td><td>23 a 25</td></tr>
+  </table>
+  <h2>Os três quadros que se repetem</h2>
+  <div class="box trap"><img src="img/image28.png" alt=""><div><div class="t">Pegadinha</div>A frase que a banca usa para induzir ao erro, e por que ela está errada.</div></div>
+  <div class="box fix"><img src="img/image3.png" alt=""><div><div class="t">Frase de fixação</div><p>Uma frase curta para repetir até memorizar.</p></div></div>
+  <div class="box note"><img src="img/image23.png" alt=""><div><div class="t">Fique de olho</div>Mudança recente ou ponto em que o material de estudo e a norma divergem.</div></div>
+  <div class="card dark"><b>Método:</b> leia a tabela, cubra a coluna da direita e tente responder. Depois, faça as três questões do final e confira o gabarito comentado.</div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>2</b></div>
+</section>
+
+<!-- 3 TÍTULOS PÚBLICOS -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">2.1 · Renda fixa</span></div>
+  <div class="kicker">2.1.1.1.1 · Títulos públicos federais</div>
+  <h1>Títulos públicos: quem rende o quê</h1>
+  <p class="lead">Emitidos pelo Tesouro Nacional para financiar a dívida pública. Saiba ligar o nome técnico ao nome comercial e ao indexador.</p>
+  <table>
+    <tr><th>Título</th><th>Nome no Tesouro Direto</th><th>Rentabilidade</th><th>Cupom</th><th>Volatilidade</th></tr>
+    <tr><td>LFT</td><td>Tesouro Selic</td><td>Taxa Selic</td><td>Não</td><td>Mínima</td></tr>
+    <tr><td>LTN</td><td>Tesouro Prefixado</td><td>Taxa fixa</td><td>Não</td><td>Média</td></tr>
+    <tr><td>NTN-F</td><td>Prefixado com Juros Semestrais</td><td>Taxa fixa</td><td>10% a.a.</td><td>Menor que a LTN</td></tr>
+    <tr><td>NTN-B Principal</td><td>Tesouro IPCA+</td><td>IPCA + taxa real</td><td>Não</td><td>Máxima</td></tr>
+    <tr><td>NTN-B</td><td>IPCA+ com Juros Semestrais</td><td>IPCA + taxa real</td><td>6% a.a.</td><td>Menor que a Principal</td></tr>
+  </table>
+  <div class="grid3">
+    <div class="card"><h2><img src="img/image5.png" alt="">Pós-fixado</h2>LFT acompanha a Selic: é o título <b>mais estável</b>, usado como reserva de emergência.</div>
+    <div class="card"><h2><img src="img/image7.png" alt="">Prefixado</h2>LTN e NTN-F: a taxa é travada. Se os juros do mercado <b>sobem</b>, o preço do título <b>cai</b>.</div>
+    <div class="card"><h2><img src="img/image4.png" alt="">Híbrido</h2>NTN-B: protege da <b>inflação</b>, mas é o que mais oscila antes do vencimento.</div>
+  </div>
+  <h2>Riscos dos títulos públicos</h2>
+  <ul class="card">
+    <li><b>Crédito:</b> o menor do país, porque o emissor é o governo federal.</li>
+    <li><b>Mercado:</b> existe se você vender <b>antes do vencimento</b>; o preço segue a taxa de juros do dia.</li>
+    <li><b>Liquidez:</b> no Tesouro Direto, o Tesouro recompra diariamente, a preço de mercado.</li>
+  </ul>
+  <div class="box trap"><img src="img/image28.png" alt=""><div><div class="t">Pegadinha</div>"Título público tem risco zero." <b>Errado:</b> há risco de mercado se o título for vendido antes do vencimento.</div></div>
+  <div class="box fix"><img src="img/image3.png" alt=""><div><div class="t">Frase de fixação</div><p>Selic é o mais estável; IPCA+ é o que mais oscila; prefixado sofre com alta dos juros.</p></div></div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>3</b></div>
+</section>
+
+<!-- 4 TESOURO DIRETO -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">2.1 · Renda fixa</span></div>
+  <div class="kicker">2.1.1.1.1.4 e 2.1.1.1.2 · Tesouro Direto</div>
+  <h1>Tesouro Direto: o programa do varejo</h1>
+  <p class="lead">O Tesouro Direto não é um título: é o <b>programa</b> que permite à pessoa física comprar títulos públicos pela internet.</p>
+  <table>
+    <tr><th>Regra</th><th>Como funciona</th></tr>
+    <tr><td>Quem pode investir</td><td>Só <b>pessoa física</b>, por meio de um <b>agente de custódia</b> (banco ou corretora habilitados)</td></tr>
+    <tr><td>Limite</td><td>Sem valor mínimo (compra em frações de 0,01 título) · até <b>R$ 2 milhões por mês</b> por CPF</td></tr>
+    <tr><td>Liquidez</td><td>Recompra <b>diária</b> pelo Tesouro, a preço de mercado</td></tr>
+    <tr><td>Taxa de custódia (B3)</td><td><b>0,20% ao ano</b> · Tesouro Selic <b>isento até R$ 10 mil</b></td></tr>
+  </table>
+  <h2>Títulos com finalidade específica</h2>
+  <div class="grid2">
+    <div class="card"><h2><img src="img/image13.png" alt="">Tesouro Educa+</h2>
+      <ul><li>Renda paga em <b>60 meses</b> (5 anos)</li><li>O ano do título é o <b>início</b> dos pagamentos</li><li>Carência de <b>60 dias</b> para recompra</li></ul></div>
+    <div class="card"><h2><img src="img/image4.png" alt="">Tesouro Renda+</h2>
+      <ul><li>Renda paga em <b>240 meses</b> (20 anos)</li><li>O ano do título é o <b>início</b> da renda</li><li>Carência de <b>60 dias</b> para recompra</li></ul></div>
+  </div>
+  <h2>Mercado primário dos títulos</h2>
+  <div class="card">O Tesouro Nacional <b>emite</b> e o Banco Central <b>opera</b> a política monetária com esses títulos. As operações com títulos públicos são registradas e liquidadas no <b>Selic</b> (Sistema Especial de Liquidação e de Custódia), que dá nome à taxa básica.</div>
+  <div class="box trap"><img src="img/image28.png" alt=""><div><div class="t">Pegadinha</div>"Pessoa jurídica pode comprar no Tesouro Direto." <b>Errado:</b> o programa é exclusivo de pessoa física.</div></div>
+  <div class="box fix"><img src="img/image3.png" alt=""><div><div class="t">Frase de fixação</div><p>Tesouro Direto: só PF, R$ 2 milhões por mês, custódia de 0,20% ao ano.</p></div></div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>4</b></div>
+</section>
+
+<!-- 5 TÍTULOS BANCÁRIOS -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">2.1 · Renda fixa</span></div>
+  <div class="kicker">2.1.1.1.3 · Títulos bancários</div>
+  <h1>CDB, RDB e RDC: o investidor empresta ao banco</h1>
+  <p class="lead">Todo título bancário é um contrato de empréstimo: o investidor entrega o dinheiro e a instituição devolve com juros. Três pilares: <b>prazo</b>, <b>risco de crédito</b> e <b>remuneração</b>.</p>
+  <table>
+    <tr><th>Título</th><th>Emissor</th><th>Negociação</th><th>Liquidez</th><th>Garantia</th></tr>
+    <tr><td>CDB</td><td>Bancos comerciais, múltiplos e de investimento</td><td><b>Pode</b> ser negociado no secundário</td><td>Diária ou no vencimento</td><td>FGC</td></tr>
+    <tr><td>RDB</td><td>Bancos</td><td><b>Intransferível</b></td><td>Em regra, no vencimento</td><td>FGC</td></tr>
+    <tr><td>RDC</td><td><b>Cooperativas de crédito</b></td><td>Não negociável</td><td>No vencimento (há versões com carência)</td><td><b>FGCoop</b></td></tr>
+  </table>
+  <h2>Formas de remuneração</h2>
+  <div class="grid3">
+    <div class="card"><b>Prefixada</b><br>Taxa definida na aplicação. Ex.: 12% ao ano.</div>
+    <div class="card"><b>Pós-fixada</b><br>Atrelada a um indicador. Ex.: 100% do CDI.</div>
+    <div class="card"><b>Híbrida</b><br>Taxa fixa + inflação. Ex.: IPCA + 5%.</div>
+  </div>
+  <h2>Risco e retorno</h2>
+  <div class="card">Quanto <b>maior o risco de crédito</b> percebido do banco, <b>maior a taxa</b> que ele precisa pagar para atrair o investidor. O FGC reduz a perda do investidor até o limite, mas <b>não elimina</b> o risco acima dele.</div>
+  <div class="grid2">
+    <div class="card stat"><div class="big">R$ 250 mil</div><div class="lbl">limite do FGC por CPF/CNPJ, por conglomerado financeiro</div></div>
+    <div class="card stat"><div class="big">R$ 1 milhão</div><div class="lbl">teto global por CPF/CNPJ a cada 4 anos</div></div>
+  </div>
+  <div class="box trap"><img src="img/image28.png" alt=""><div><div class="t">Pegadinha</div>"O RDB pode ser vendido a outro investidor antes do vencimento, como o CDB." <b>Errado:</b> o RDB é intransferível.</div></div>
+  <div class="box fix"><img src="img/image3.png" alt=""><div><div class="t">Frase de fixação</div><p>CDB negocia; RDB não; RDC é da cooperativa e tem FGCoop.</p></div></div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>5</b></div>
+</section>
+
+<!-- 6 LETRAS DE CRÉDITO -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">2.1 · Renda fixa</span></div>
+  <div class="kicker">2.1.1.1.3.3 a 2.1.1.1.3.5 · LCI, LCA e LCD</div>
+  <h1>Letras de crédito: o "L" é de lastro</h1>
+  <p class="lead">O banco agrupa empréstimos de um setor e emite um título lastreado neles. A emissão é <b>limitada ao lastro</b> disponível.</p>
+  <div class="grid3">
+    <div class="card"><h2><img src="img/image5.png" alt="">LCI</h2>Lastro em <b>créditos imobiliários</b>. Emitida por bancos e demais instituições autorizadas.</div>
+    <div class="card"><h2><img src="img/image6.png" alt="">LCA</h2>Lastro em <b>créditos do agronegócio</b>. Mesma lógica da LCI.</div>
+    <div class="card"><h2><img src="img/image10.png" alt="">LCD</h2>Emitida por <b>bancos de desenvolvimento</b> (ex.: BNDES), com lastro em infraestrutura, indústria e inovação.</div>
+  </div>
+  <h2>Dupla garantia</h2>
+  <div class="flow"><span class="s">1ª camada: o lastro (carteira de créditos)</span><span class="a">+</span><span class="s">2ª camada: FGC, se o emissor quebrar</span></div>
+  <h2>Prazos mínimos de vencimento</h2>
+  <table>
+    <tr><th>Título</th><th>Sem índice de preços</th><th>Com índice de preços</th></tr>
+    <tr><td>LCI</td><td><b>6 meses</b></td><td>12 meses (atualização anual) · <b>36 meses</b> (atualização mensal)</td></tr>
+    <tr><td>LCA</td><td><b>6 meses</b></td><td><b>12 meses</b></td></tr>
+  </table>
+  <ul class="card">
+    <li>O banco <b>não pode recomprar nem resgatar</b> a LCI ou a LCA antes do prazo mínimo.</li>
+    <li>Rendimento <b>isento de IR</b> para pessoa física (LCI e LCA).</li>
+    <li>O vencimento não pode passar do prazo médio da carteira que serve de lastro (apostila).</li>
+  </ul>
+  <div class="box note"><img src="img/image23.png" alt=""><div><div class="t">Fique de olho</div>Os prazos mínimos mudaram várias vezes desde 2024. Os da tabela valem desde a Res. CMN 5.215/2025.</div></div>
+  <div class="box trap"><img src="img/image28.png" alt=""><div><div class="t">Pegadinha</div>"A LCA não tem FGC porque já tem o lastro." <b>Errado:</b> o lastro e o FGC se somam.</div></div>
+  <div class="box fix"><img src="img/image3.png" alt=""><div><div class="t">Frase de fixação</div><p>Letra de crédito: lastro + FGC + isenção para PF + prazo mínimo.</p></div></div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>6</b></div>
+</section>
+
+<!-- 7 CRÉDITO PRIVADO -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">2.1 · Renda fixa</span></div>
+  <div class="kicker">2.1.1.1.4 a 2.1.1.1.7 · Debêntures, CRI, CRA e rating</div>
+  <h1>Crédito privado: sem FGC</h1>
+  <p class="lead">Quando quem emite não é banco, não há Fundo Garantidor. O investidor depende da saúde do emissor e das garantias do título.</p>
+  <table>
+    <tr><th>Título</th><th>Emissor</th><th>Lastro / natureza</th><th>IR para PF</th></tr>
+    <tr><td>Debênture</td><td><b>S.A.</b> (valor mobiliário)</td><td>Dívida da empresa; regras na escritura</td><td>Tabela regressiva</td></tr>
+    <tr><td>Debênture incentivada</td><td>S.A. (Lei 12.431)</td><td>Projetos de infraestrutura</td><td><b>Isenta</b></td></tr>
+    <tr><td>CRI</td><td><b>Securitizadora</b></td><td>Recebíveis <b>imobiliários</b></td><td><b>Isento</b></td></tr>
+    <tr><td>CRA</td><td><b>Securitizadora</b></td><td>Recebíveis do <b>agronegócio</b></td><td><b>Isento</b></td></tr>
+  </table>
+  <div class="grid2">
+    <div class="card"><h2><img src="img/image2.png" alt="">Debêntures</h2>
+      <ul><li><b>Agente fiduciário</b> representa os debenturistas.</li><li>Garantias: real &gt; flutuante &gt; quirografária &gt; subordinada.</li><li><b>Conversível:</b> vira ação <b>da própria emissora</b>.</li><li><b>Permutável:</b> vira ação <b>de outra empresa</b>.</li></ul></div>
+    <div class="card"><h2><img src="img/image9.png" alt="">CRI e CRA</h2>
+      <ul><li>Nascem da <b>securitização</b>: recebíveis viram título.</li><li>Os recebíveis ficam em <b>patrimônio separado</b> da securitizadora.</li><li>O lastro precisa ser do setor: <b>imobiliário</b> (CRI) ou <b>agro</b> (CRA).</li></ul></div>
+  </div>
+  <h2><img src="img/image11.png" alt="">Rating</h2>
+  <table>
+    <tr><th>Faixa</th><th>Notas (S&amp;P/Fitch · Moody's)</th><th>Leitura</th></tr>
+    <tr><td>Grau de investimento</td><td>AAA a BBB− · Aaa a Baa3</td><td>Menor risco de crédito</td></tr>
+    <tr><td>Grau especulativo</td><td>BB+ para baixo · Ba1 para baixo</td><td>Maior risco: o emissor paga juro maior</td></tr>
+  </table>
+  <div class="box trap"><img src="img/image28.png" alt=""><div><div class="t">Pegadinha</div>"O CRI tem FGC porque é isento de IR." <b>Errado:</b> isenção é tributária; a garantia depende do emissor.</div></div>
+  <div class="box fix"><img src="img/image3.png" alt=""><div><div class="t">Frase de fixação</div><p>Banco tem FGC; empresa e securitizadora não. Nota menor, juro maior.</p></div></div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>7</b></div>
+</section>
+
+<!-- 8 POUPANÇA TR TLP -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">2.1 · Renda fixa</span></div>
+  <div class="kicker">2.1.1.1.8 a 2.1.1.1.10 · Poupança, TR e TLP</div>
+  <h1>Poupança: a regra dupla da Selic</h1>
+  <p class="lead">A poupança é o investimento mais popular do país e financia a habitação (SFH). A rentabilidade depende do nível da Selic.</p>
+  <div class="grid2">
+    <div class="card"><div class="kicker">Selic acima de 8,5% a.a.</div><div class="big">0,5% a.m. + TR</div></div>
+    <div class="card"><div class="kicker">Selic igual ou abaixo de 8,5% a.a.</div><div class="big">70% da Selic + TR</div></div>
+  </div>
+  <table>
+    <tr><th>Tema</th><th>Regra</th></tr>
+    <tr><td>Poupança antiga</td><td>Depósitos até 03/05/2012: sempre 0,5% a.m. + TR. O gatilho da regra nova é a <b>meta</b> Selic</td></tr>
+    <tr><td>Aniversário</td><td><b>Mensal</b>, por depósito. Depósitos nos dias 29, 30 e 31 aniversariam no dia <b>1º</b></td></tr>
+    <tr><td>Saque antes do aniversário</td><td>Sem rendimento no mês sobre o valor sacado</td></tr>
+    <tr><td>Tributação PF</td><td><b>Isenta</b> de IR e de IOF</td></tr>
+    <tr><td>Garantia</td><td>FGC: R$ 250 mil por CPF por conglomerado</td></tr>
+  </table>
+  <div class="grid2">
+    <div class="card"><h2><img src="img/image29.png" alt="">TR</h2>Taxa Referencial. Corrige <b>poupança, SFH e FGTS</b>. Calculada a partir da TBF com um redutor.</div>
+    <div class="card"><h2><img src="img/image10.png" alt="">TLP</h2>Taxa de Longo Prazo do <b>BNDES</b>. É <b>IPCA + juro real da NTN-B de 5 anos</b>. Substituiu a TJLP.</div>
+  </div>
+  <div class="box trap"><img src="img/image28.png" alt=""><div><div class="t">Pegadinha</div>"A poupança rende diariamente." <b>Errado:</b> rende a cada aniversário mensal de cada depósito.</div></div>
+  <div class="box fix"><img src="img/image3.png" alt=""><div><div class="t">Frase de fixação</div><p>Selic acima de 8,5%: 0,5% + TR. Igual ou abaixo: 70% da Selic + TR.</p></div></div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>8</b></div>
+</section>
+
+<!-- 9 TRIBUTAÇÃO RF -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">2.1 · Renda fixa</span></div>
+  <div class="kicker">2.1.1.1.11 e 2.1.1.1.12 · Tributação e IOF</div>
+  <h1>IOF primeiro, IR depois</h1>
+  <p class="lead">Na renda fixa, o imposto cai com o tempo. O IOF pune o curtíssimo prazo; o IR premia quem fica mais tempo.</p>
+  <div class="flow"><span class="s">Rendimento bruto</span><span class="a">→</span><span class="s">desconta o IOF (se &lt; 30 dias)</span><span class="a">→</span><span class="s">aplica o IR</span><span class="a">→</span><span class="s">rendimento líquido</span></div>
+  <div class="grid2">
+    <div class="card"><h2><img src="img/image29.png" alt="">IOF</h2>
+      <ul><li>Só em resgates com <b>menos de 30 dias</b>.</li><li>Tabela regressiva: de <b>96%</b> do rendimento (1º dia) a <b>0%</b> (30º dia).</li><li>No 15º dia, a alíquota é de <b>50%</b>.</li><li>Incide sobre o <b>rendimento</b>, não sobre o valor aplicado.</li></ul></div>
+    <div class="card"><h2><img src="img/image6.png" alt="">Isentos para PF</h2>
+      <span class="chip">Poupança</span><span class="chip">LCI</span><span class="chip">LCA</span><span class="chip">LIG</span><span class="chip">CRI</span><span class="chip">CRA</span><span class="chip">Debênture incentivada</span>
+      <p class="small" style="margin-top:2mm">Para comparar com um tributado: rendimento líquido = bruto × (1 − alíquota).</p></div>
+  </div>
+  <table>
+    <tr><th>Prazo da aplicação</th><th>Alíquota de IR</th></tr>
+    <tr><td>Até 180 dias</td><td class="mono">22,5%</td></tr>
+    <tr><td>De 181 a 360 dias</td><td class="mono">20%</td></tr>
+    <tr><td>De 361 a 720 dias</td><td class="mono">17,5%</td></tr>
+    <tr><td>Acima de 720 dias</td><td class="mono">15%</td></tr>
+  </table>
+  <div class="card dark"><b>Exemplo:</b> CDB com rendimento de R$ 1.000 em 400 dias → IR de 17,5% = R$ 175 → líquido de R$ 825. O IR é <b>retido na fonte</b> pela instituição.</div>
+  <div class="box trap"><img src="img/image28.png" alt=""><div><div class="t">Pegadinha</div>"Depois de 2 anos, a renda fixa fica isenta." <b>Errado:</b> a alíquota cai para 15%, não para zero.</div></div>
+  <div class="box fix"><img src="img/image3.png" alt=""><div><div class="t">Frase de fixação</div><p>IOF até o 29º dia; IR de 22,5% a 15%; isenção só para os listados.</p></div></div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>9</b></div>
+</section>
+
+<!-- 10 RENDA VARIÁVEL -->
+<section class="page tight">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">2.1 · Renda variável</span></div>
+  <div class="kicker">2.1.1.2 · Ações e governança</div>
+  <h1>Renda variável: você vira sócio</h1>
+  <p class="lead">Na renda variável não há remuneração combinada. O retorno depende do resultado da empresa e do preço no mercado.</p>
+  <div class="grid2">
+    <div class="card"><h2><img src="img/image2.png" alt="">Tipos de empresa</h2>
+      <ul><li><b>LTDA:</b> cotas e contrato social. <b>S.A.:</b> ações e estatuto.</li><li><b>Aberta:</b> registrada na CVM. <b>Listada:</b> ações na bolsa.</li><li><b>Capital próprio:</b> sem devolução. <b>Terceiros:</b> dívida com juros.</li></ul></div>
+    <div class="card"><h2><img src="img/image7.png" alt="">Classes de ativos</h2>
+      <ul><li><b>ON</b> (final 3): direito a <b>voto</b>.</li><li><b>PN</b> (finais 4 a 8): <b>prioridade</b> nos dividendos.</li><li><b>Unit</b> (11): pacote de ações. <b>BDR</b> (34): ativo estrangeiro.</li><li><b>Bônus de subscrição:</b> direito de comprar ações novas.</li></ul></div>
+  </div>
+  <table>
+    <tr><th>Oferta</th><th>O que acontece</th></tr>
+    <tr><td>Mercado primário</td><td>Ações <b>novas</b>: o dinheiro vai para a <b>empresa</b></td></tr>
+    <tr><td>Mercado secundário</td><td>Ações existentes: o dinheiro vai para quem <b>vende</b></td></tr>
+    <tr><td>IPO</td><td>Primeira oferta pública de ações</td></tr>
+    <tr><td>Follow-on</td><td>Oferta posterior ao IPO (primária ou secundária)</td></tr>
+    <tr><td>OPA</td><td>Oferta pública de <b>compra</b> de ações (ex.: para fechar o capital)</td></tr>
+  </table>
+  <table>
+    <tr><th>Governança</th><th>Regra-chave</th></tr>
+    <tr><td>Tag along</td><td>Lei: <b>80%</b> do preço para ON · Nível 2: 100% (ON e PN) · Novo Mercado: <b>100%</b></td></tr>
+    <tr><td>Novo Mercado</td><td><b>Só ações ON</b> · câmara de arbitragem · conselho com pelo menos 3 membros</td></tr>
+    <tr><td>Nível 2</td><td>Permite PN · arbitragem · conselho com pelo menos 5 membros</td></tr>
+    <tr><td>Drag along</td><td>Protege o <b>controlador</b>: obriga os minoritários a vender junto</td></tr>
+    <tr><td>Índices</td><td><b>Ibovespa:</b> carteira teórica, revisada a cada 4 meses · <b>IBrX 100</b> e <b>IBrX 50:</b> 100 e 50 ações mais negociadas</td></tr>
+  </table>
+  <div class="box trap"><img src="img/image28.png" alt=""><div><div class="t">Pegadinha</div>"No mercado secundário, a empresa recebe o dinheiro." <b>Errado:</b> recebe só no primário.</div></div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>10</b></div>
+</section>
+
+<!-- 11 EVENTOS E TRIBUTAÇÃO RV -->
+<section class="page tight">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">2.1 · Renda variável</span></div>
+  <div class="kicker">2.1.1.2.2.2 e 2.1.1.3 · Eventos e tributação</div>
+  <h1>Eventos corporativos e imposto na bolsa</h1>
+  <table>
+    <tr><th>Evento</th><th>Regra-chave</th></tr>
+    <tr><td>AGO</td><td>Anual, até 4 meses após o exercício: contas, lucro e eleição</td></tr>
+    <tr><td>AGE</td><td>Quando necessário: estatuto, capital, fusão</td></tr>
+    <tr><td>Dividendo</td><td>Parte do lucro; não dedutível para a empresa</td></tr>
+    <tr><td>JCP</td><td>Dedutível para a empresa; IR retido na fonte</td></tr>
+    <tr><td>Data-com / data-ex</td><td>Último dia <b>com</b> direito / primeiro dia <b>sem</b> direito</td></tr>
+    <tr><td>Desdobramento / grupamento</td><td>Mais ações e preço menor / menos ações e preço maior. Patrimônio <b>não muda</b></td></tr>
+    <tr><td>Bonificação</td><td>Reservas viram ações, sem desembolso</td></tr>
+    <tr><td>Subscrição</td><td>Direito de preferência na compra de ações novas; evita diluição</td></tr>
+  </table>
+  <table>
+    <tr><th>Operação (PF)</th><th>Alíquota</th><th>Detalhe</th></tr>
+    <tr><td>Swing trade (comum)</td><td>15%</td><td><b>Isento</b> se as <b>vendas</b> de ações à vista no mês somarem até <b>R$ 20 mil</b></td></tr>
+    <tr><td>Day trade</td><td>20%</td><td>Sem isenção · IR na fonte de 1% do lucro</td></tr>
+    <tr><td>FII (venda de cotas)</td><td>20%</td><td>Sem a isenção de R$ 20 mil</td></tr>
+    <tr><td>ETF de renda variável e BDR</td><td>15%</td><td>Day trade: 20% · sem a isenção de R$ 20 mil</td></tr>
+  </table>
+  <ul class="card">
+    <li><b>Compensação de prejuízo:</b> só dentro da mesma modalidade (comum com comum, day trade com day trade), sem prazo.</li>
+    <li><b>IOF:</b> alíquota zero nas operações em bolsa.</li>
+    <li><b>Recolhimento:</b> pelo próprio investidor, via DARF, até o último dia útil do mês seguinte.</li>
+  </ul>
+  <div class="box note"><img src="img/image23.png" alt=""><div><div class="t">Fique de olho</div>Desde 2026, dividendos acima de R$ 50 mil por mês, de uma mesma empresa, sofrem retenção de 10%, e o IR do JCP passou a 17,5%.</div></div>
+  <div class="box trap"><img src="img/image28.png" alt=""><div><div class="t">Pegadinha</div>"A isenção de R$ 20 mil é sobre o lucro." <b>Errado:</b> é sobre o total de vendas do mês.</div></div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>11</b></div>
+</section>
+
+<!-- 12 COE -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">2.1 · COE</span></div>
+  <div class="kicker">2.1.1.4 · Certificado de Operações Estruturadas</div>
+  <h1>COE: renda fixa + derivativos</h1>
+  <p class="lead">O COE combina um título de renda fixa com derivativos para entregar um resultado ligado a um cenário (por exemplo, a alta de um índice).</p>
+  <div class="grid2">
+    <div class="card"><h2><img src="img/image11.png" alt="">Capital protegido</h2>Garante a devolução de <b>100% do valor investido no vencimento</b>. O risco é ganhar pouco ou nada.</div>
+    <div class="card"><h2><img src="img/image22.png" alt="">Capital em risco</h2>Pode haver <b>perda de parte</b> do valor investido, na proporção definida no documento.</div>
+  </div>
+  <table>
+    <tr><th>Tema</th><th>Regra</th></tr>
+    <tr><td>Emissor</td><td><b>Só instituição financeira</b></td></tr>
+    <tr><td>Documento</td><td><b>DIE</b> (Documento de Informações Essenciais), com cenários de ganho e perda</td></tr>
+    <tr><td>Liquidez</td><td>Prazo determinado; <b>sem</b> liquidez diária</td></tr>
+    <tr><td>Garantia</td><td><b>Sem FGC</b></td></tr>
+    <tr><td>Tributação</td><td>Tabela regressiva de renda fixa; <b>sem come-cotas</b></td></tr>
+    <tr><td>Normas</td><td>Res. CMN 5.166/2024 e Res. CVM 8/2020</td></tr>
+  </table>
+  <div class="card dark"><b>Como pensar:</b> o COE é uma "receita pronta". A parte de renda fixa garante a base; os derivativos criam a exposição ao cenário. Quanto mais proteção, menor tende a ser o potencial de ganho.</div>
+  <div class="box trap"><img src="img/image28.png" alt=""><div><div class="t">Pegadinha</div>"COE de capital protegido garante rentabilidade." <b>Errado:</b> garante o capital no vencimento, não o ganho.</div></div>
+  <div class="box fix"><img src="img/image3.png" alt=""><div><div class="t">Frase de fixação</div><p>COE: emitido por banco, com DIE, sem FGC e sem liquidez diária.</p></div></div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>12</b></div>
+</section>
+
+<!-- 13 FUNDOS 1 -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">2.1 · Fundos</span></div>
+  <div class="kicker">2.1.2.2 · Resolução CVM 175, parte geral</div>
+  <h1>Fundo é um condomínio</h1>
+  <p class="lead">O fundo é uma comunhão de recursos, constituído como <b>condomínio de natureza especial</b> (Res. CVM 175, art. 4º). Cada investidor tem <b>cotas</b>.</p>
+  <div class="flow"><span class="s">Fundo</span><span class="a">→</span><span class="s">Classes (patrimônio segregado)</span><span class="a">→</span><span class="s">Subclasses</span></div>
+  <div class="grid2">
+    <div class="card"><h2><img src="img/image8.png" alt="">Classes e subclasses</h2>
+      <ul><li>Cada classe tem <b>patrimônio segregado</b>: responde só pelas suas obrigações.</li><li>Todas as classes são da <b>mesma categoria</b> e não podem mudar a tributação.</li><li>Subclasses podem diferir em público, prazos e taxas.</li></ul></div>
+    <div class="card"><h2><img src="img/image2.png" alt="">Serviços essenciais</h2>
+      <ul><li><b>Administrador:</b> estrutura, registros, informações, cálculo da cota.</li><li><b>Gestor:</b> decide a compra e venda dos ativos da carteira.</li><li>O custodiante só cumpre ordens do administrador e do gestor.</li></ul></div>
+  </div>
+  <table>
+    <tr><th>Classe</th><th>Como o investidor sai</th></tr>
+    <tr><td>Aberta</td><td><b>Resgate</b> a qualquer tempo, conforme o regulamento</td></tr>
+    <tr><td>Fechada</td><td><b>Amortização</b>, fim do prazo ou venda das cotas no <b>mercado secundário</b> (ex.: FII)</td></tr>
+  </table>
+  <table>
+    <tr><th>Responsabilidade do cotista</th><th>Se o patrimônio ficar negativo</th></tr>
+    <tr><td>Limitada (prevista no regulamento)</td><td>Perde no máximo o que <b>subscreveu</b>; o administrador fecha a classe para resgates e tem 20 dias para um plano de resolução</td></tr>
+    <tr><td>Ilimitada</td><td>O cotista pode ter de <b>aportar mais recursos</b> para cobrir o rombo</td></tr>
+  </table>
+  <div class="box trap"><img src="img/image28.png" alt=""><div><div class="t">Pegadinha</div>"Fundo de investimento tem garantia do FGC." <b>Errado:</b> fundo não tem FGC, e o aviso é obrigatório no material de divulgação.</div></div>
+  <div class="box fix"><img src="img/image3.png" alt=""><div><div class="t">Frase de fixação</div><p>Fundo é condomínio; classe tem patrimônio segregado; fundo não tem FGC.</p></div></div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>13</b></div>
+</section>
+
+<!-- 14 FUNDOS 2 -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">2.1 · Fundos</span></div>
+  <div class="kicker">2.1.2.2.20 e 2.1.2.3 · Taxas, tipos e limites</div>
+  <h1>Tipos de fundo, limites e taxas</h1>
+  <table>
+    <tr><th>Tipo (Anexo I)</th><th>Regra de composição</th></tr>
+    <tr><td>Renda Fixa</td><td>No mínimo <b>80%</b> em ativos ligados a juros e/ou inflação</td></tr>
+    <tr><td>Ações</td><td>No mínimo <b>67%</b> em ações e ativos equivalentes</td></tr>
+    <tr><td>Cambial</td><td>No mínimo <b>80%</b> em ativos ligados a moeda estrangeira ou cupom cambial</td></tr>
+    <tr><td>Multimercado</td><td>Vários fatores de risco, sem concentração obrigatória</td></tr>
+    <tr><td>"Crédito Privado"</td><td>Sufixo obrigatório quando mais de <b>50%</b> está em crédito privado</td></tr>
+  </table>
+  <table>
+    <tr><th>Limite por emissor</th><th>Máximo do patrimônio</th></tr>
+    <tr><td>Instituição financeira</td><td>20%</td></tr>
+    <tr><td>Companhia aberta</td><td>10%</td></tr>
+    <tr><td>Pessoa física ou empresa não aberta</td><td>5%</td></tr>
+    <tr><td>União Federal ou outro fundo</td><td>Sem limite</td></tr>
+  </table>
+  <div class="grid2">
+    <div class="card"><h2><img src="img/image6.png" alt="">Administração</h2>Percentual ao ano sobre o patrimônio, provisionado <b>diariamente</b>. É cobrada <b>mesmo com prejuízo</b>; a rentabilidade divulgada já vem líquida dela.</div>
+    <div class="card"><h2><img src="img/image7.png" alt="">Performance</h2>Só quando o fundo supera o <b>benchmark</b>, respeitando a <b>linha d'água</b>, no máximo <b>semestral</b>. Vedada em renda fixa, salvo exceções (ex.: público qualificado).</div>
+  </div>
+  <ul class="card">
+    <li><b>Ingresso e saída:</b> cobradas na aplicação e no resgate, se o regulamento prever.</li>
+    <li><b>Taxa máxima de distribuição:</b> remunera os distribuidores; percentual anual do patrimônio.</li>
+  </ul>
+  <div class="box fix"><img src="img/image3.png" alt=""><div><div class="t">Frase de fixação</div><p>Renda fixa 80%, ações 67%, cambial 80%; administração é cobrada mesmo no prejuízo.</p></div></div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>14</b></div>
+</section>
+
+<!-- 15 TRIBUTAÇÃO FUNDOS E FII -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">2.1 · Fundos e FII</span></div>
+  <div class="kicker">2.1.3 e 2.1.4 · Tributação de fundos e FII</div>
+  <h1>Come-cotas: o IR que vem antes</h1>
+  <p class="lead">Como o fundo aberto não tem vencimento, a Receita antecipa parte do IR a cada seis meses, no <b>último dia útil de maio e de novembro</b>.</p>
+  <table>
+    <tr><th>Fundo</th><th>Come-cotas</th><th>IR no resgate</th></tr>
+    <tr><td>Longo prazo</td><td><b>15%</b></td><td>Tabela regressiva até 15%, descontado o já antecipado</td></tr>
+    <tr><td>Curto prazo</td><td><b>20%</b></td><td>22,5% ou 20%</td></tr>
+    <tr><td>Ações</td><td><b>Não tem</b></td><td><b>15%</b>, só no resgate</td></tr>
+  </table>
+  <div class="card dark"><b>Exemplo:</b> cota comprada a R$ 10; no come-cotas de maio vale R$ 11 → recolhe 15% de R$ 1 = R$ 0,15. No resgate, com 159 dias, vale R$ 12 → IR total de 22,5% de R$ 2 = R$ 0,45. Paga agora só a diferença: <b>R$ 0,30 por cota</b>.</div>
+  <ul class="card">
+    <li><b>IOF:</b> nos resgates antes de 30 dias, pela mesma tabela regressiva da renda fixa.</li>
+    <li>O come-cotas é retido pelo <b>administrador</b>, não pelo investidor.</li>
+  </ul>
+  <h2><img src="img/image5.png" alt="">FII: fundo imobiliário</h2>
+  <div class="grid2">
+    <div class="card"><b>Tipos</b><ul style="margin-top:1mm"><li><b>Tijolo:</b> imóveis físicos (aluguel).</li><li><b>Papel:</b> títulos como CRI.</li><li><b>Híbrido:</b> os dois.</li><li>Riscos: <b>vacância</b>, liquidez e crédito.</li></ul></div>
+    <div class="card"><b>Tributação (PF)</b><ul style="margin-top:1mm"><li><b>Rendimento mensal isento</b>, com condições.</li><li><b>Ganho na venda:</b> 20%, pago pelo investidor.</li><li>Prejuízo só compensa com ganho de FII.</li></ul></div>
+  </div>
+  <div class="card"><b>Condições da isenção do rendimento</b> (Lei 11.033, art. 3º): o fundo tem <b>no mínimo 100 cotistas</b>; as cotas são negociadas <b>exclusivamente em bolsa ou balcão organizado</b>; e o investidor tem <b>menos de 10%</b> das cotas e dos rendimentos.</div>
+  <div class="box trap"><img src="img/image28.png" alt=""><div><div class="t">Pegadinha</div>"A alíquota do come-cotas cai com o prazo de permanência." <b>Errado:</b> ela é fixa; o prazo muda só a alíquota final.</div></div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>15</b></div>
+</section>
+
+<!-- 16 PREVIDÊNCIA 1 -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">2.2 · Previdência</span></div>
+  <div class="kicker">2.2.1 e 2.2.2 · PGBL, VGBL e regimes de tributação</div>
+  <h1>PGBL ou VGBL? Depende da declaração</h1>
+  <table>
+    <tr><th></th><th>PGBL</th><th>VGBL</th></tr>
+    <tr><td>Para quem</td><td>Declaração <b>completa</b> do IR</td><td>Declaração simplificada, isentos ou quem já usou os 12%</td></tr>
+    <tr><td>Benefício fiscal</td><td>Deduz até <b>12% da renda bruta tributável</b></td><td>Não deduz</td></tr>
+    <tr><td>IR no resgate</td><td>Sobre o <b>valor total</b></td><td>Só sobre o <b>rendimento</b></td></tr>
+  </table>
+  <div class="grid2">
+    <div class="card"><h2><img src="img/image4.png" alt="">Regressivo</h2>
+      <div class="flow" style="margin:1mm 0 2mm;gap:1.2mm;flex-wrap:nowrap"><span class="s">35%</span><span class="s">30%</span><span class="s">25%</span><span class="s">20%</span><span class="s">15%</span><span class="s">10%</span></div>
+      Cai a cada <b>2 anos</b>, contado <b>por aporte</b>; chega a 10% após 10 anos. É <b>definitivo</b>.</div>
+    <div class="card"><h2><img src="img/image29.png" alt="">Progressivo</h2>Usa a tabela do IRPF. No resgate, retém <b>15% na fonte</b> e o acerto é feito no <b>ajuste anual</b>.</div>
+  </div>
+  <ul class="card">
+    <li>A escolha do regime pode ser feita até o <b>primeiro resgate ou recebimento do benefício</b>.</li>
+    <li>Quem escolhe o regressivo <b>não volta</b> para o progressivo.</li>
+    <li><b>Regressivo</b> é definitivo; <b>progressivo</b> é compensável na declaração.</li>
+  </ul>
+  <div class="box trap"><img src="img/image28.png" alt=""><div><div class="t">Pegadinha</div>"Quem faz a declaração simplificada deve escolher PGBL." <b>Errado:</b> sem dedução, o PGBL só traz IR sobre o total; o indicado é o VGBL.</div></div>
+  <div class="box fix"><img src="img/image3.png" alt=""><div><div class="t">Frase de fixação</div><p>PGBL deduz hoje e paga sobre tudo; VGBL não deduz e paga só sobre o rendimento.</p></div></div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>16</b></div>
+</section>
+
+<!-- 17 PREVIDÊNCIA 2 -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">2.2 · Previdência</span></div>
+  <div class="kicker">2.2.3 · Conceitos técnicos</div>
+  <h1>Fases, taxas, portabilidade e renda</h1>
+  <div class="flow"><span class="s">Acumulação (contribuições)</span><span class="a">→</span><span class="s">Benefício (renda ou pagamento único)</span></div>
+  <div class="grid2">
+    <div class="card"><h2><img src="img/image6.png" alt="">Taxas</h2>
+      <ul><li><b>Administração:</b> % ao ano sobre o <b>patrimônio</b>, diária na cota; é a de maior impacto.</li><li><b>Carregamento:</b> comercial, até <b>10%</b>; na entrada, sobre o aporte; na saída, só sobre os aportes.</li></ul></div>
+    <div class="card"><h2><img src="img/image23.png" alt="">Portabilidade</h2>
+      <ul><li>Sem IR: <b>PGBL → PGBL</b> e <b>VGBL → VGBL</b>.</li><li>Carência de <b>60 dias</b>.</li><li>A entidade que recebe <b>não cobra carregamento</b>.</li></ul></div>
+  </div>
+  <table>
+    <tr><th>Tipo de renda</th><th>Como funciona</th></tr>
+    <tr><td>Vitalícia (RMV)</td><td>Maior renda mensal; nada para a família após a morte</td></tr>
+    <tr><td>Vitalícia com prazo mínimo</td><td>Se o titular morrer antes, a família recebe até completar o prazo</td></tr>
+    <tr><td>Vitalícia com reversão</td><td>Percentual vitalício a um beneficiário; quanto mais reversão, menor a renda</td></tr>
+    <tr><td>Reversível ao cônjuge com continuidade aos menores</td><td>Protege mais pessoas; renda inicial menor</td></tr>
+    <tr><td>Temporária</td><td>Até o fim do prazo ou a morte, o que vier antes</td></tr>
+    <tr><td>Prazo certo</td><td>Prazo fixo; se o titular morrer, continua aos beneficiários</td></tr>
+    <tr><td>Pagamento único</td><td>Tudo de uma vez; o risco de o dinheiro acabar é do participante</td></tr>
+  </table>
+  <div class="box trap"><img src="img/image28.png" alt=""><div><div class="t">Pegadinha</div>"Na portabilidade de PGBL para VGBL não há IR." <b>Errado:</b> a portabilidade é entre planos do mesmo tipo.</div></div>
+  <div class="box fix"><img src="img/image3.png" alt=""><div><div class="t">Frase de fixação</div><p>Quanto mais pessoas a renda protege, menor o valor mensal.</p></div></div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>17</b></div>
+</section>
+
+<!-- 18 CRÉDITO 1 -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">2.3 · Financiamento</span></div>
+  <div class="kicker">2.3.1 a 2.3.3 · Princípios, cartão e cheque especial</div>
+  <h1>Crédito: compare sempre pelo CET</h1>
+  <p class="lead">O <b>Custo Efetivo Total</b> reúne juros, tarifas, tributos e seguros numa taxa anual. Parcela menor não é custo menor.</p>
+  <div class="grid2">
+    <div class="card"><h2><img src="img/image2.png" alt="">Análise de crédito</h2>
+      <ul><li><b>Rating:</b> nota do emissor de dívida, dada por agência.</li><li><b>Score:</b> modelo estatístico; é insumo, não decide sozinho.</li><li><b>Cadastro positivo:</b> histórico de pagamentos em dia.</li><li><b>Garantia</b> reduz a perda, mas não substitui a análise.</li></ul></div>
+    <div class="card"><h2><img src="img/image8.png" alt="">Empréstimo × financiamento</h2>
+      <ul><li><b>Empréstimo:</b> uso <b>livre</b> do dinheiro.</li><li><b>Financiamento:</b> finalidade <b>vinculada</b> a um bem ou serviço.</li><li><b>Leasing:</b> uso do bem; a propriedade é da arrendadora; no fim, comprar, renovar ou devolver.</li></ul></div>
+  </div>
+  <table>
+    <tr><th>Cartão de crédito</th><th>Regra</th></tr>
+    <tr><td>Limite</td><td>Crédito autorizado, não dívida</td></tr>
+    <tr><td>Pagamento parcial</td><td>Leva ao rotativo, ao parcelamento ou à inadimplência</td></tr>
+    <tr><td>Rotativo</td><td>Só até a <b>fatura seguinte</b>; depois, vira parcelamento</td></tr>
+    <tr><td>Teto de juros</td><td>Juros + encargos do rotativo e do parcelamento ≤ <b>100% do valor original</b> da dívida</td></tr>
+  </table>
+  <table>
+    <tr><th>Cheque especial</th><th>Regra</th></tr>
+    <tr><td>O que é</td><td>Limite rotativo ligado à conta corrente</td></tr>
+    <tr><td>Teto de juros</td><td><b>8% ao mês</b> para PF e MEI</td></tr>
+    <tr><td>IOF (PF)</td><td><b>0,0082% ao dia + 0,38%</b> adicional</td></tr>
+  </table>
+  <div class="box trap"><img src="img/image28.png" alt=""><div><div class="t">Pegadinha</div>"Cancelar o limite do cheque especial apaga a dívida." <b>Errado:</b> a dívida já usada continua.</div></div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>18</b></div>
+</section>
+
+<!-- 19 CRÉDITO 2 -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">2.3 · Financiamento</span></div>
+  <div class="kicker">2.3.4 a 2.3.8 · Consignado, CDC, imobiliário, giro e consórcio</div>
+  <h1>Cada produto tem sua "digital"</h1>
+  <p class="lead">Na prova, identifique primeiro o que define o produto: a forma de pagamento, a finalidade ou a contemplação.</p>
+  <table>
+    <tr><th>Produto</th><th>Como identificar</th><th>Número ou regra de prova</th></tr>
+    <tr><td>Consignado</td><td>Parcela <b>descontada na fonte</b> de renda</td><td>Margem: CLT <b>40%</b> (35% + 5% cartão) · INSS <b>45%</b></td></tr>
+    <tr><td>CDC</td><td>Compra de um <b>bem ou serviço</b></td><td>Garantia comum: alienação fiduciária</td></tr>
+    <tr><td>Imobiliário</td><td>Imóvel + prazo longo + garantia</td><td>SFH (casa própria, regras próprias) × SFI (geral)</td></tr>
+    <tr><td>Capital de giro</td><td>Empresa paga antes de receber</td><td>Ciclo de caixa = estocagem + recebimento − pagamento</td></tr>
+    <tr><td>Consórcio</td><td>Grupo + <b>sorteio ou lance</b></td><td>Sem juros, mas com taxa de administração e fundo de reserva</td></tr>
+  </table>
+  <div class="grid2">
+    <div class="card"><h2><img src="img/image6.png" alt="">Margem consignável</h2>Limita a <b>parcela mensal</b>, não o valor liberado. Ex.: renda de R$ 4.000 × 40% = R$ 1.600; com R$ 1.300 já comprometidos, sobra <b>R$ 300 de parcela</b>.</div>
+    <div class="card"><h2><img src="img/image5.png" alt="">Alienação fiduciária</h2>O devedor tem a <b>posse</b> e usa o bem; o credor fica com a <b>propriedade</b> como garantia até a quitação.</div>
+  </div>
+  <div class="card"><b>Consórcio:</b> o crédito só sai na <b>contemplação</b>. O lance é feito depois do sorteio e não garante a contemplação. Taxa de administração <b>não é juros</b>.</div>
+  <div class="box trap"><img src="img/image28.png" alt=""><div><div class="t">Pegadinha</div>"A margem consignável é o valor que o banco libera." <b>Errado:</b> é o limite da parcela mensal.</div></div>
+  <div class="box fix"><img src="img/image3.png" alt=""><div><div class="t">Frase de fixação</div><p>Consignado se reconhece pelo pagamento; CDC, pela finalidade; consórcio, pela contemplação.</p></div></div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>19</b></div>
+</section>
+
+<!-- 20 SERVIÇOS BANCÁRIOS 1 -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">2.4 · Serviços bancários</span></div>
+  <div class="kicker">2.4.1 · Contas, FGC, compulsório, boleto e Pix</div>
+  <h1>Onde o dinheiro mora e como ele circula</h1>
+  <table>
+    <tr><th>Tema</th><th>Regra-chave</th></tr>
+    <tr><td>Conta corrente</td><td>Conta de <b>depósitos à vista</b>: disponível para movimentar; não rende</td></tr>
+    <tr><td>Conta digital</td><td>Expressão popular: descreve o <b>canal</b>, não a natureza da conta</td></tr>
+    <tr><td>Conta-salário</td><td>Só recebe do <b>empregador</b> · sem PJ como titular · sem cheque · portabilidade <b>grátis</b> em até 10 dias úteis</td></tr>
+    <tr><td>FGC</td><td>R$ 250 mil por CPF/CNPJ e conglomerado · R$ 1 milhão a cada 4 anos</td></tr>
+    <tr><td>Compulsório</td><td>Reserva que o banco deixa no Banco Central: <b>não é tarifa</b> do cliente</td></tr>
+    <tr><td>Boleto</td><td>Ordem de pagamento com código de barras; compensado pela Nuclea, <b>não</b> pelo Banco Central; tarifa de emissão <b>não</b> pode ser cobrada de quem paga</td></tr>
+  </table>
+  <h2><img src="img/image10.png" alt="">Pix</h2>
+  <div class="grid3">
+    <div class="card"><b>24 horas, todos os dias</b><br>Pagamento instantâneo regulado pelo Banco Central.</div>
+    <div class="card"><b>SPI liquida</b><br>Liquidação bruta em tempo real. O <b>DICT</b> guarda as chaves.</div>
+    <div class="card"><b>Chaves</b><br>CPF, CNPJ, celular, e-mail ou chave aleatória. Chave não é senha.</div>
+  </div>
+  <div class="grid2">
+    <div class="card stat"><div class="big">R$ 1.000</div><div class="lbl">limite por conta entre 20h e 6h, entre pessoas físicas; aumento só após 24 horas</div></div>
+    <div class="card"><b>Tarifa:</b> pessoa física é isenta <b>em regra</b> (há exceções, como receber por venda comercial); pessoa jurídica <b>pode</b> pagar. MEI segue a regra da PF.</div>
+  </div>
+  <div class="box trap"><img src="img/image28.png" alt=""><div><div class="t">Pegadinha</div>"O Pix é sempre gratuito." <b>Errado:</b> depende do cliente, da finalidade e do canal.</div></div>
+  <div class="box fix"><img src="img/image3.png" alt=""><div><div class="t">Frase de fixação</div><p>Pix é instantâneo, não sempre gratuito; compulsório não é tarifa.</p></div></div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>20</b></div>
+</section>
+
+<!-- 21 TARIFAS E ATENDIMENTO -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">2.4 · Serviços bancários</span></div>
+  <div class="kicker">2.4.1.6 e 2.4.1.7 · Tarifas e atendimento</div>
+  <h1>O que é grátis e quando o banco atende</h1>
+  <div class="grid2">
+    <div class="card"><h2><img src="img/image11.png" alt="">Serviços essenciais (conta)</h2>
+      <ul><li>Cartão de débito</li><li><b>4 saques</b> por mês</li><li><b>2 transferências</b> na mesma instituição por mês</li><li><b>2 extratos</b> por mês (últimos 30 dias)</li><li><b>10 folhas</b> de cheque por mês</li><li>Consultas pela internet e extrato anual</li></ul></div>
+    <div class="card"><h2><img src="img/image29.png" alt="">Para cobrar uma tarifa</h2>
+      <ul><li>Serviço <b>contratado ou autorizado</b> pelo cliente.</li><li>Preço <b>informado antes</b>; aumento com <b>30 dias</b> de aviso (45 no cartão de crédito).</li><li>Serviço <b>efetivamente prestado</b>.</li><li>A franquia vale <b>por conta</b> e <b>não acumula</b> para o mês seguinte.</li></ul></div>
+  </div>
+  <table>
+    <tr><th>Atendimento (Res. CMN 4.880)</th><th>Regra</th></tr>
+    <tr><td>Agências de bancos comerciais, múltiplos com carteira comercial e Caixa</td><td>Mínimo de <b>5 horas seguidas</b>, com atendimento obrigatório das <b>12h às 15h</b> (Brasília)</td></tr>
+    <tr><td>Quarta-feira de Cinzas e 24/12</td><td>Horário especial, com pelo menos <b>2 horas</b></td></tr>
+    <tr><td>Último dia útil do ano</td><td><b>Sem</b> atendimento presencial</td></tr>
+    <tr><td>Dias não úteis</td><td>Sábado, domingo, feriado nacional, segunda e terça de Carnaval e Corpus Christi</td></tr>
+    <tr><td>Fila</td><td>O Banco Central <b>não regula</b>: depende de lei estadual ou municipal</td></tr>
+  </table>
+  <div class="box trap"><img src="img/image28.png" alt=""><div><div class="t">Pegadinha</div>"Toda instituição financeira deve atender das 12h às 15h." <b>Errado:</b> a regra vale para as agências listadas; as demais fixam o horário.</div></div>
+  <div class="box fix"><img src="img/image3.png" alt=""><div><div class="t">Frase de fixação</div><p>4 saques, 2 transferências, 2 extratos, 10 folhas; agência das 12h às 15h.</p></div></div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>21</b></div>
+</section>
+
+<!-- 22 CÂMBIO E SEGUROS -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">2.4 e 2.5 · Câmbio e seguros</span></div>
+  <div class="kicker">2.4.2, 2.4.3 e 2.5 · Conta internacional, câmbio e seguros</div>
+  <h1>Atravessar a fronteira e se proteger</h1>
+  <div class="grid2">
+    <div class="card"><h2><img src="img/image23.png" alt="">Câmbio</h2>
+      <ul><li>Só com <b>instituição autorizada</b> pelo Banco Central (ou correspondente, dentro dos limites).</li><li>Quando <b>você compra</b> dólar, o banco <b>vende</b>: vale a <b>taxa de venda</b>.</li><li><b>Recompra:</b> pela cotação do dia, não pelo preço pago.</li></ul></div>
+    <div class="card"><h2><img src="img/image5.png" alt="">Conta internacional</h2>
+      <ul><li>Conta no exterior <b>não elimina</b> imposto no Brasil.</li><li>Rendimentos de aplicações no exterior: <b>15%</b> no ajuste anual (Lei 14.754/2023).</li><li>Analise sempre: onde está a conta, em que moeda e qual obrigação existe no Brasil.</li></ul></div>
+  </div>
+  <table>
+    <tr><th>IOF câmbio (resposta de prova, pela apostila)</th><th>Alíquota</th></tr>
+    <tr><td>Compra de moeda em espécie, remessas, cartão de débito e pré-pago no exterior</td><td>1,1%</td></tr>
+    <tr><td>Cartão de crédito no exterior</td><td>5,38%</td></tr>
+    <tr><td>Câmbio comercial (exportação e importação) e recompra</td><td>0%</td></tr>
+  </table>
+  <div class="box note"><img src="img/image23.png" alt=""><div><div class="t">Fique de olho</div>Decretos de 2025 alteraram as alíquotas de IOF câmbio, e a vigência está em disputa. Na prova, siga os dados do enunciado.</div></div>
+  <table>
+    <tr><th>Seguro</th><th>Ideia-chave</th></tr>
+    <tr><td>Vida inteira</td><td>Proteção vitalícia + <b>reserva resgatável</b>; prêmio maior</td></tr>
+    <tr><td>Vida temporário</td><td>Proteção <b>por prazo</b>; sem reserva; prêmio menor</td></tr>
+    <tr><td>Automóvel</td><td>Colisão, incêndio, roubo e <b>responsabilidade civil</b></td></tr>
+    <tr><td>Residencial</td><td>Incêndio, vendaval, roubo e danos elétricos</td></tr>
+    <tr><td>Prestamista</td><td>Ligado a um <b>crédito</b>: quita a dívida em morte, invalidez ou desemprego</td></tr>
+  </table>
+  <div class="card dark">Seguros funcionam pelo <b>mutualismo</b> e são regulados pela <b>SUSEP</b>. Previdência protege quem vive muito; seguro de vida protege a família de quem morre cedo.</div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>22</b></div>
+</section>
+
+<!-- 23 QUADRO DE EMERGÊNCIA -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">Revisão final</span></div>
+  <div class="kicker">Quadro de emergência</div>
+  <h1>O módulo 2 em uma página</h1>
+  <table>
+    <tr><th>Tema</th><th>Regra-chave</th></tr>
+    <tr><td>Títulos públicos</td><td>Selic é o mais estável · IPCA+ oscila mais · Tesouro Direto só PF</td></tr>
+    <tr><td>Garantia</td><td>Banco: FGC · cooperativa: FGCoop · empresa, securitizadora e fundo: sem FGC</td></tr>
+    <tr><td>FGC</td><td>R$ 250 mil por CPF/CNPJ e conglomerado · R$ 1 milhão a cada 4 anos</td></tr>
+    <tr><td>Isentos PF</td><td>Poupança · LCI · LCA · LIG · CRI · CRA · debênture incentivada · rendimento de FII (com condições)</td></tr>
+    <tr><td>Renda fixa</td><td>IOF antes de 30 dias · IR 22,5% → 20% → 17,5% → 15%</td></tr>
+    <tr><td>Poupança</td><td>Selic &gt; 8,5%: 0,5% a.m. + TR · ≤ 8,5%: 70% da Selic + TR</td></tr>
+    <tr><td>Bolsa</td><td>15% · day trade 20% · isenção de R$ 20 mil em vendas de ações à vista</td></tr>
+    <tr><td>COE</td><td>Banco emite · DIE · sem FGC · capital protegido ou em risco</td></tr>
+    <tr><td>Fundos</td><td>Condomínio · classes segregadas · RF 80% · Ações 67% · Cambial 80%</td></tr>
+    <tr><td>Come-cotas</td><td>Maio e novembro · 15% longo prazo · 20% curto prazo · ações não tem</td></tr>
+    <tr><td>FII</td><td>Rendimento isento (100 cotistas, bolsa, &lt; 10%) · venda 20%</td></tr>
+    <tr><td>Previdência</td><td>PGBL deduz 12% · regressivo 35% → 10% · portabilidade sem IR</td></tr>
+    <tr><td>Crédito</td><td>CET · rotativo até a próxima fatura · cheque especial 8% a.m.</td></tr>
+    <tr><td>Consignado</td><td>Margem = parcela · CLT 40% · INSS 45%</td></tr>
+    <tr><td>Serviços</td><td>Pix R$ 1.000 à noite · 4 saques e 2 transferências grátis · agência 12h–15h</td></tr>
+    <tr><td>Câmbio</td><td>Instituição autorizada · cliente compra pela taxa de venda · recompra pela cotação do dia</td></tr>
+    <tr><td>Seguros</td><td>Vida inteira acumula · temporário só protege · prestamista quita a dívida</td></tr>
+  </table>
+  <div class="box fix"><img src="img/image3.png" alt=""><div><div class="t">Frase central</div><p>O emissor define a garantia; o prazo define o imposto; a finalidade define o produto.</p></div></div>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>23</b></div>
+</section>
+
+<!-- 24 QUESTÕES -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">Treino</span></div>
+  <div class="kicker">Teste seus conhecimentos</div>
+  <h1>Três questões no padrão da prova</h1>
+  <div class="card q"><b>Questão 1 · Fácil</b> <span class="small">(2.1.3)</span><br>
+    Sobre a tributação de fundos de investimento para pessoa física, é correto afirmar que:
+    <p class="opt">A) o come-cotas ocorre no último dia útil de maio e de novembro, com alíquota de 15% nos fundos de longo prazo e de 20% nos de curto prazo, e os fundos de ações não têm come-cotas.</p>
+    <p class="opt">B) os fundos de ações têm come-cotas semestral de 15%, além do IR no resgate.</p>
+    <p class="opt">C) a alíquota do come-cotas diminui conforme aumenta o prazo de permanência do cotista.</p>
+    <p class="opt">D) o próprio cotista recolhe o come-cotas por DARF, até o último dia útil do mês seguinte.</p></div>
+  <div class="card q"><b>Questão 2 · Média</b> <span class="small">(2.1.1.1.3)</span><br>
+    Um investidor pessoa física compara um CDB e uma LCA não atualizada por índice de preços, ambos do mesmo banco. É correto afirmar que:
+    <p class="opt">A) o CDB é isento de IR para pessoa física, assim como a LCA.</p>
+    <p class="opt">B) a LCA tem isenção de IR para pessoa física, conta com a garantia do FGC e tem prazo mínimo de 6 meses, sem recompra pelo banco antes desse prazo.</p>
+    <p class="opt">C) a LCA não tem garantia do FGC, porque já conta com o lastro em créditos do agronegócio.</p>
+    <p class="opt">D) a LCA pode ser resgatada a qualquer momento, desde que o investidor pague IOF.</p></div>
+  <div class="card q"><b>Questão 3 · Difícil</b> <span class="small">(2.2.1 e 2.2.2)</span><br>
+    Marta faz a declaração completa do IR, contribui para o INSS e tem renda bruta tributável de R$ 200.000 por ano. Ela pretende aplicar R$ 24.000 por ano em previdência e ficar mais de 10 anos no plano. Assinale a alternativa correta:
+    <p class="opt">A) ela deve escolher o VGBL para deduzir os R$ 24.000 da base de cálculo do IR.</p>
+    <p class="opt">B) no PGBL, ela pode deduzir até R$ 24.000 por ano; no regime regressivo, após 10 anos, a alíquota cai a 10% e incide sobre o valor total resgatado.</p>
+    <p class="opt">C) no PGBL, o IR no resgate incide somente sobre os rendimentos, como no VGBL.</p>
+    <p class="opt">D) ela pode escolher o regime regressivo e, se mudar de ideia anos depois, voltar ao progressivo a qualquer momento.</p></div>
+  <p class="small center">Responda antes de virar a página.</p>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>24</b></div>
+</section>
+
+<!-- 25 GABARITO -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">Treino</span></div>
+  <div class="kicker">Gabarito comentado</div>
+  <h1>Confira suas respostas</h1>
+  <div class="card"><b>Questão 1 · <span class="ans">Alternativa A</span></b>
+    <ul style="margin-top:1.5mm"><li><b>A (correta):</b> come-cotas em maio e novembro, de 15% (longo prazo) e 20% (curto prazo); fundo de ações paga 15% só no resgate.</li>
+    <li><b>B:</b> fundos de ações não têm come-cotas.</li>
+    <li><b>C:</b> a alíquota do come-cotas é fixa; o prazo muda só a alíquota final, no resgate.</li>
+    <li><b>D:</b> o recolhimento é na fonte, feito pelo administrador do fundo.</li></ul></div>
+  <div class="card"><b>Questão 2 · <span class="ans">Alternativa B</span></b>
+    <ul style="margin-top:1.5mm"><li><b>B (correta):</b> LCA é isenta de IR para PF, tem FGC e prazo mínimo de 6 meses quando não atualizada por índice de preços; o banco não pode recomprar antes.</li>
+    <li><b>A:</b> o CDB segue a tabela regressiva de IR.</li>
+    <li><b>C:</b> o lastro e o FGC se somam ("dupla garantia").</li>
+    <li><b>D:</b> o banco não pode recomprar nem resgatar a LCA antes do prazo mínimo.</li></ul></div>
+  <div class="card"><b>Questão 3 · <span class="ans">Alternativa B</span></b>
+    <ul style="margin-top:1.5mm"><li><b>B (correta):</b> 12% de R$ 200.000 = R$ 24.000; o regressivo chega a 10% após 10 anos; no PGBL, o IR incide sobre o valor total.</li>
+    <li><b>A:</b> quem permite a dedução é o PGBL.</li>
+    <li><b>C:</b> no PGBL, o IR incide sobre o valor total.</li>
+    <li><b>D:</b> a opção pelo regime regressivo é irretratável.</li></ul></div>
+  <div class="sep"></div>
+  <div class="grid3">
+    <div class="card center"><img src="img/image13.png" alt="" style="height:10mm;margin-bottom:2mm"><br><b>Formação</b></div>
+    <div class="card center"><img src="img/image12.png" alt="" style="height:10mm;margin-bottom:2mm"><br><b>Certificação</b></div>
+    <div class="card center"><img src="img/image8.png" alt="" style="height:10mm;margin-bottom:2mm"><br><b>Carreira</b></div>
+  </div>
+  <p class="small">Conteúdo conferido com o Programa Detalhado CPA (ANBIMA, vigência 01/01/2026), a apostila CPA (rev. abril/2026) e as normas em vigor em 01/10/2026. Regras e alíquotas podem mudar: confira sempre a norma vigente.</p>
+  <div class="foot"><span>X8 Educação · Revisão CPA — Módulo 2</span><b>25</b></div>
+</section>
+
+</body>
+</html>
