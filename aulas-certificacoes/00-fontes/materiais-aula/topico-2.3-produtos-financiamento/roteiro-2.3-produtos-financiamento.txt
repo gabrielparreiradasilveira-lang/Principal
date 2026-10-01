@@ -1,0 +1,1997 @@
+<<<PÁGINA 1>>>
+Roteiro de Aula — 2.3 Produtos de 
+financiamento
+Identificação e escopo
+• Certificação: CPA.
+• Módulo: Produtos de financiamento.
+• Item do edital: 2.3 — Produtos de financiamento.
+• Subitens cobertos: 2.3.1; 2.3.1.1; 2.3.1.2; 2.3.1.3; 2.3.2; 2.3.2.1; 2.3.2.2; 2.3.3; 2.3.3.1.
+• Programa Detalhado: CPA ANBIMA, versão 1.2, revisada em 04/06/2025, vigente para 
+exames a partir de 01/01/2026.
+• Data de corte normativa desta aula: 12/09/2026.
+• Duração estimada: 120 a 150 minutos, incluindo pausas de revisão e a questão final.
+• Público: candidato CPA, com linguagem linear e acessível para TEA/TDAH.
+• Delimitação: entram os produtos e as distinções expressamente solicitados, as regras 
+oficiais necessárias para explicar sua disponibilização, os cálculos didáticos e as 
+ressalvas de contrato, instituição, modalidade e data. Não entram taxas de mercado 
+inventadas, score mínimo universal, percentual universal de renda comprometida, 
+alíquota tributária generalizada ou promessa de aprovação.
+Matriz de cobertura
+Data de corte: regras, atos, decretos, decisões judiciais, interfaces e contratos podem 
+mudar depois de 12/09/2026. Antes de usar este roteiro em nova turma ou em orientação 
+ao cliente, confira a norma oficial vigente.
+Item do edital
+Conteúdo central
+Aplicação didática
+Pegadinha 
+controlada
+Etapa principal
+2.3
+Produtos de 
+financiamento
+Mapa dos 
+produtos e 
+escolha consciente
+Produto de 
+crédito não é 
+sinônimo de uma 
+única taxa ou 
+garantia
+3.1
+<<<PÁGINA 2>>>
+2.3.1
+Princípios para 
+disponibilização 
+de crédito
+Crédito 
+responsável, 
+adequação, 
+transparência e 
+capacidade
+Garantia não 
+substitui análise 
+de risco
+3.2
+2.3.1.1
+Rating, score 
+Serasa e 
+comprovação de 
+renda
+Separar emissor, 
+consumidor, 
+renda e 
+capacidade
+Score alto não 
+garante 
+aprovação; renda 
+comprovada não 
+é folga financeira
+3.3
+2.3.1.2
+Empréstimo, 
+financiamento e 
+leasing
+Destinação, 
+propriedade, uso 
+e opção de 
+compra
+Leasing não é 
+simplesmente 
+financiamento 
+com outro nome
+3.4
+2.3.1.3
+Utilização do SCR
+Registro, consulta, 
+análise e correção
+SCR não é 
+cadastro negativo, 
+score ou decisão 
+automática
+3.5
+2.3.2
+Cartão de crédito
+Fatura, limite, 
+pagamento e 
+financiamento
+Cartão comum 
+não é 
+automaticamente 
+cartão consignado
+3.6
+2.3.2.1
+Limites, juros, 
+pagamento 
+parcial e 
+refinanciamento
+Integral, mínimo, 
+parcial, rotativo e 
+parcelamento
+Cap de 100% 
+limita montante 
+de encargos, não 
+taxa mensal
+3.7
+2.3.2.2
+Cálculos da taxa 
+de 
+refinanciamento
+Juros, taxa 
+nominal/efetiva, 
+Price, CET e cap
+Saldo financiado 
+não é limite nem 
+total automático 
+da fatura
+3.8
+2.3.3
+Cheque especial
+Limite rotativo 
+ligado à conta
+Cheque especial 
+não é empréstimo 
+pessoal
+3.9
+2.3.3.1
+Vencimento, juros 
+e IOF
+Data contratual, 
+saldo diário e 
+tributo
+Vencimento não é 
+fato gerador 
+automático do IOF
+3.10
+<<<PÁGINA 3>>>
+1. Fala de abertura — aproximadamente 5 
+minutos
+Imagine duas pessoas com a mesma renda mensal. Uma recebe um cartão com limite de 
+R$ 8.000. A outra recebe limite de R$ 2.000. Uma delas paga a fatura integralmente. A outra 
+paga apenas parte. Uma possui renda comprovada, mas também tem várias dívidas. A 
+outra tem renda variável, bom histórico e pouca dívida.
+A pergunta é: quem é o melhor risco de crédito?
+A resposta não está em um único número. Não basta olhar a renda. Não basta olhar o score. 
+Não basta ver uma garantia. Não basta consultar o SCR. É necessário entender o produto, a 
+finalidade, o fluxo de pagamento, os custos, a capacidade financeira, os dados permitidos e 
+as regras de proteção do cliente.
+Nesta aula, vamos separar cinco perguntas:
+1. Qual produto está sendo oferecido? Empréstimo, financiamento, leasing, cartão ou 
+cheque especial?
+2. Quem está sendo avaliado? Um emissor de dívida, uma pessoa consumidora ou uma 
+empresa?
+3. Qual informação está sendo usada? Rating, score, renda, cadastro positivo ou SCR?
+4. Quanto custa e como a dívida evolui? Juros, CET, multa, mora, IOF, rotativo ou 
+parcelamento?
+5. Qual decisão é responsável? Aprovar, negar, reduzir limite, renegociar, portar ou 
+orientar o cliente?
+A prova CPA explora justamente as trocas indevidas entre esses conceitos. Se você 
+confundir rating com score, score com SCR, renda com capacidade, limite com saldo 
+devedor, ou juros com CET, a alternativa parecerá correta, mas estará errada.
+Hoje, a regra de estudo será linear: primeiro o conceito; depois o mecanismo; em seguida a 
+aplicação; depois a regra; por fim a decisão.
+[ESCREVA]
+Plain Text
+CONCEITO → MECANISMO → APLICAÇÃO → REGRA → DECISÃO
+[FALE]
+Ao terminar, você deverá conseguir explicar por que uma instituição pode consultar 
+informações de crédito, mas não pode transformar uma consulta em decisão automática; 
+<<<PÁGINA 4>>>
+por que um score alto não promete aprovação; por que o pagamento parcial do cartão 
+pode gerar rotativo; e por que o cheque especial tem regras diferentes do empréstimo 
+pessoal.
+Objetivo da abertura
+Ensinar o aluno a analisar o crédito como uma operação completa: produto, risco, 
+capacidade, custo, informação, garantia, dados e decisão.
+Frase de fixação
+2. Introdução com metáfora central — 
+aproximadamente 5 minutos
+Metáfora: a ponte com pedágio e painel de segurança
+Use uma única imagem mental: o crédito é uma ponte para trazer um recurso do futuro 
+para o presente. A ponte permite atravessar, mas tem condições, custo e risco. O pedágio 
+representa o custo da operação. O painel de segurança reúne os sinais que ajudam a 
+decidir se a travessia é suportável.
+Crédito responsável não é “liberar dinheiro”. É avaliar necessidade, capacidade, 
+risco, custo e consequência antes da contratação.
+Elemento da metáfora
+Conceito técnico
+Correspondência exata
+Ponte
+Produto de crédito
+Leva recursos ao cliente hoje, 
+com devolução futura 
+conforme contrato
+Destino da viagem
+Finalidade
+Livre no empréstimo; vinculada 
+no financiamento; uso do bem 
+no leasing
+Painel de segurança
+Análise de risco
+Usa renda, obrigações, 
+histórico, score, SCR e política 
+da instituição
+Combustível disponível
+Capacidade de pagamento
+Folga financeira depois das 
+despesas e obrigações
+Barreira lateral
+Garantia
+Reduz perda potencial do 
+credor; não substitui 
+<<<PÁGINA 5>>>
+Frase de impacto
+Atenção técnica: limite da metáfora
+A ponte é somente uma imagem didática. Na operação real, cada efeito vem do contrato, 
+da norma aplicável e da modalidade. Uma garantia não assegura aprovação. Um painel de 
+risco não é uma fórmula pública universal. O SCR não é uma lista de “bons” e “maus” 
+clientes. E o pedágio não é apenas a taxa de juros: pode incluir tarifas, tributos, seguros e 
+outros custos.
+[DESENHE]
+Plain Text
+NECESSIDADE → PRODUTO → ANÁLISE → CUSTO → CONTRATO → PAGAMENTO
+                  ↓         ↓          ↓
+              finalidade  risco     CET/encargos
+[FIXE]
+3. Explicação dos tópicos
+automaticamente a capacidade
+Pedágio
+Juros, tarifas, tributos e demais 
+custos
+Compõe o custo da operação; o 
+CET consolida os custos 
+vinculados quando aplicável
+Retrovisor
+SCR
+Mostra responsabilidades de 
+crédito informadas ao sistema; 
+não decide a viagem
+Faixa do cartão
+Fatura e rotativo
+O cliente usa durante o ciclo e 
+precisa escolher como liquidar 
+o saldo
+Faixa de emergência
+Cheque especial
+Limite ligado à conta, usado 
+quando o saldo é insuficiente
+A ponte pode existir, mas a decisão responsável depende de saber para onde o 
+cliente vai, quanto consegue pagar e qual será o pedágio total.
+Metáfora ajuda a visualizar. A definição técnica decide a questão.
+<<<PÁGINA 6>>>
+3.1 2.3 — Produtos de financiamento
+O que é
+Produtos de financiamento são operações pelas quais uma instituição disponibiliza 
+crédito, pagamento diferido ou uso financiado de um recurso, recebendo posteriormente 
+principal, juros e demais custos previstos. O Programa Detalhado CPA usa o item 2.3 para 
+organizar os produtos e as decisões associadas à sua contratação.
+A palavra “financiamento”, em sentido amplo, pode aparecer como título do bloco. Em 
+sentido técnico de produto, porém, financiamento costuma ter finalidade vinculada a um 
+bem, serviço ou segmento. Por isso, o nome comercial não é suficiente: leia a finalidade, o 
+fluxo, a propriedade e o contrato.
+Mapa dos produtos
+Orientação ao professor: em cada subitem, siga a ordem: o que é, função, mecanismo, 
+aplicação, exemplo, confusão provável, fixação e fonte. Faça uma pausa a cada bloco 
+para o aluno repetir a frase de fixação.
+Produto
+Uso principal
+Como o cliente recebe 
+ou utiliza
+Ponto decisivo
+Empréstimo
+Recursos de 
+destinação 
+normalmente livre
+Recebe dinheiro e 
+restitui em fluxo 
+pactuado
+A finalidade não é 
+elemento obrigatório 
+do contrato comum
+Financiamento
+Bem, serviço ou 
+segmento definido
+Crédito ligado ao 
+objeto contratado
+A destinação é 
+vinculada; o bem pode 
+ser garantia, conforme 
+o contrato
+Leasing
+Uso de um bem por 
+prazo contratado
+Arrendadora 
+compra/possui o bem 
+e cede seu uso
+A propriedade 
+permanece com a 
+arrendadora durante o 
+arrendamento
+Cartão de crédito
+Compras, saques e 
+saldo de fatura
+Uso até limite e 
+pagamento posterior
+Fatura e escolha de 
+liquidação 
+determinam o 
+financiamento
+<<<PÁGINA 7>>>
+Função e objetivo
+O objetivo é atender uma necessidade financeira sem ocultar a consequência futura. A 
+instituição deve escolher e oferecer produto compatível com o perfil, a necessidade, os 
+objetivos, a capacidade e as vulnerabilidades do cliente.
+Não existe uma taxa de juros, limite, garantia ou prazo único para todo o item 2.3. Os custos 
+e as condições dependem da modalidade, instituição, contrato, perfil, garantias e 
+legislação aplicável.
+Como funciona a decisão de produto
+1. Identificar a necessidade e a finalidade.
+2. Verificar dados, renda, obrigações e capacidade de pagamento.
+3. Avaliar risco de crédito com os dados permitidos.
+4. Verificar eventual garantia e sua função.
+5. Comparar taxa, CET, prazo, parcelas e consequências do atraso.
+6. Informar o cliente de modo claro.
+7. Formalizar o contrato e acompanhar o pagamento.
+O que a prova pode confundir
+• O item 2.3 não autoriza afirmar que todo produto tem garantia.
+• O nome “financiamento” no anúncio não dispensa verificar a destinação contratual.
+• O limite aprovado não é dívida utilizada.
+• O score ou o SCR não substitui a política de crédito.
+• Juros não são o mesmo que CET.
+Frase de fixação
+Cheque especial
+Cobrir falta 
+momentânea de saldo
+Uso de limite rotativo 
+ligado à conta
+Juros incidem sobre o 
+valor utilizado, 
+segundo contrato e 
+regra aplicável
+Produto de crédito é escolhido pelo conjunto: finalidade, risco, capacidade, custo, 
+garantia e contrato.
+<<<PÁGINA 8>>>
+Alinhamento ao Programa Detalhado
+2.3 — Produtos de financiamento.
+Fonte e status
+• ANBIMA — Programa Detalhado CPA, versão 1.2, vigência a partir de 01/01/2026 — PDF 
+oficial — programa vigente no corte.
+• Banco Central do Brasil — Diferença entre financiamento, empréstimo e leasing — 
+página institucional.
+3.2 2.3.1 — Princípios para disponibilização de crédito
+O que é
+Disponibilizar crédito é oferecer uma operação com responsabilidade de relacionamento, 
+informação e avaliação. A Resolução CMN 4.949/2021 estabelece princípios de ética, 
+responsabilidade, transparência e diligência; convergência de interesses; tratamento justo 
+e equitativo; adequação do produto às necessidades, interesses e objetivos; e informação 
+clara sobre direitos, deveres, responsabilidades, custos, penalidades e riscos.
+Função e objetivo
+A regra evita que o crédito seja vendido apenas como “dinheiro rápido”. A instituição 
+deve ter rotinas coerentes para identificação e qualificação do cliente, concepção e oferta, 
+coleta e manutenção de dados, cobrança, liquidação antecipada e atendimento.
+O público-alvo deve ser considerado conforme as características e a complexidade do 
+produto. O princípio não é uma tabela universal de aprovação. A instituição continua 
+responsável por sua política e decisão.
+Crédito responsável e superendividamento
+O CDC, alterado pela Lei 14.181/2021, reconhece o direito ao crédito responsável e 
+estabelece prevenção e tratamento do superendividamento. Na oferta, devem ser 
+apresentados, conforme o caso:
+• modalidade do crédito;
+• custos e consequências do inadimplemento;
+• CET e taxa efetiva mensal;
+• encargos de atraso;
+<<<PÁGINA 9>>>
+• número e periodicidade das parcelas;
+• identidade e endereço do fornecedor;
+• validade mínima de dois dias da oferta;
+• possibilidade de liquidação antecipada sem ônus, com redução proporcional dos juros 
+e acréscimos.
+É vedado afirmar que o crédito será concluído sem consulta a cadastro ou sem avaliação 
+financeira, ocultar riscos ou pressionar o consumidor, especialmente quando vulnerável.
+Capacidade de pagamento: fórmula didática
+A seguinte fórmula é uma ferramenta de raciocínio, não um percentual legal universal:
+Plain Text
+Folga mensal estimada = renda líquida recorrente validada
+                         − despesas essenciais
+                         − obrigações de crédito existentes
+                         − nova parcela e encargos
+Variáveis:
+•
+renda líquida recorrente validada : entradas que a instituição considera confiáveis e 
+recorrentes;
+•
+despesas essenciais : gastos necessários conforme a análise;
+•
+obrigações existentes : parcelas e compromissos já assumidos;
+•
+nova parcela e encargos : prestação, juros, seguros, tarifas e demais custos aplicáveis.
+Interpretação: renda comprovada informa quanto entra. Capacidade de pagamento avalia 
+quanto sobra e se essa sobra é estável diante do risco e do cenário.
+Não há norma geral consultada que fixe um documento único de renda, uma renda 
+mínima, um percentual universal de comprometimento ou um prazo universal de validade 
+do comprovante. Holerite, declaração de imposto de renda, extrato bancário e 
+autodeclaração podem ser aceitos ou recusados conforme produto, canal, perfil, 
+formalidade da renda e política interna.
+Garantia não é análise de risco
+Elemento
+Pergunta respondida
+O que faz
+O que não faz
+Análise de risco
+“Qual a 
+probabilidade e a 
+Avalia renda, 
+obrigações, 
+Não se reduz a uma 
+única nota
+<<<PÁGINA 10>>>
+Uma garantia pode ser real ou pessoal. A execução pode ser demorada, custosa ou 
+insuficiente. A instituição ainda deve analisar a capacidade quando a norma e a política 
+aplicáveis exigirem.
+Portabilidade e liquidação antecipada como proteção
+Portabilidade é a transferência solicitada pelo cliente para outra instituição. Não é a mesma 
+coisa que renegociação com o credor atual e não é quitação com dinheiro próprio. Em 
+regra, a nova operação não supera o saldo devedor nem o prazo restante; exceções 
+dependem da modalidade e da manifestação formal do devedor.
+A Resolução CMN 5.265/2025 passou a admitir troca de informações por sistema eletrônico 
+autorizado ou infraestrutura Open Finance, com prazos próprios. No corte desta aula, a 
+implementação via Open Finance era gradual e não significava disponibilidade geral para 
+todas as modalidades.
+Na liquidação antecipada, a pessoa física, o MEI, a microempresa e a empresa de pequeno 
+porte têm direito à redução proporcional de juros e acréscimos conforme as regras 
+aplicáveis. O custo exato deve ser calculado sobre o fluxo do contrato; não há fórmula 
+operacional única universal informada pelo BCB para todos os casos.
+CET: primeira visão
+O Custo Efetivo Total consolida, em uma taxa anual, os custos vinculados à operação: 
+amortizações, juros, tarifas, tributos, seguros e demais despesas, inclusive serviços de 
+terceiros contratados pela instituição por conta do tomador, quando aplicável.
+O CET não é apenas a taxa de juros. Também não é promessa de custo final se houver 
+variável futura, atraso ou mudança contratual fora das premissas do cálculo.
+O que a prova pode confundir
+• Garantia ≠ capacidade de pagamento.
+capacidade de 
+pagamento?”
+comportamento, 
+score, SCR, 
+estabilidade e cenário
+Garantia
+“O que pode reduzir 
+a perda se houver 
+inadimplemento?”
+Pode melhorar a 
+recuperação potencial 
+do crédito
+Não prova renda, não 
+elimina risco e não 
+obriga aprovação
+Capacidade de 
+pagamento
+“Existe folga 
+sustentável para a 
+parcela?”
+Compara entradas, 
+saídas e compromissos
+Não é sinônimo de 
+renda bruta
+<<<PÁGINA 11>>>
+• Renda comprovada ≠ folga financeira.
+• CET ≠ juros remuneratórios.
+• Portabilidade ≠ renegociação.
+• Crédito responsável ≠ aprovação automática.
+• O mínimo existencial de R$ 600,00 consta do Decreto 11.150/2022, com redação do 
+Decreto 11.567/2023, mas sua aplicação e a controvérsia judicial devem ser verificadas 
+no caso e na data. Não é um limite universal de concessão.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+2.3.1 — Princípios para disponibilização de crédito.
+Fonte e status
+• Banco Central/CMN — Resolução CMN 4.949/2021 — vigente, com atualização 
+indicada em 20/02/2024 e alteração pela Resolução 5.117 desde 01/03/2024.
+• Planalto — Lei 14.181/2021 — em vigor no corte.
+• Planalto — Decreto 11.150/2022 — texto regulamentar consultado; valor e aplicação 
+sujeitos a verificação judicial/normativa.
+• Banco Central/CMN — Resolução CMN 4.881/2020 — CET — vigente nas hipóteses 
+aplicáveis.
+• Banco Central — FAQ de portabilidade — orientação operacional oficial.
+3.3 2.3.1.1 — Rating de crédito, score Serasa e 
+comprovação de renda
+3.3.1 Rating de crédito
+O que é
+No glossário do Banco Central, rating é a nota atribuída a um emissor de dívida, como país 
+ou empresa, por uma instituição especializada. A nota expressa uma opinião sobre a 
+capacidade e a disposição de honrar pontualmente e integralmente a dívida.
+A instituição pode decidir sobre o crédito; não pode decidir escondendo custo, risco 
+e consequência.
+<<<PÁGINA 12>>>
+Função e aplicação
+O rating é utilizado para avaliar o risco de crédito do emissor. Ele não é, por definição, o 
+score varejista de uma pessoa física.
+Confusão provável
+Se o enunciado falar de país, empresa ou emissor e classificação por instituição 
+especializada, pense em rating. Se falar de nota estatística associada à probabilidade de 
+pagamento de uma pessoa ou operação, pense em score.
+[FIXE]
+3.3.2 Credit scoring e Serasa Score
+O que é
+Credit scoring é um modelo estatístico que considera variáveis e atribui uma nota conforme 
+a operação e o risco estimado. A Serasa descreve seu Score como pontuação de 0 a 1.000 
+que estima a probabilidade de a pessoa pagar contas e compromissos em dia.
+A escala, os fatores, os pesos, os cortes e o método da Serasa são próprios do produto 
+comercial e podem mudar. Não são uma regra universal do CMN, do BCB ou da ANBIMA.
+Como funciona
+De forma conceitual:
+Plain Text
+Score = modelo estatístico(dados permitidos, operação, risco e horizonte)
+Não existe uma fórmula pública única do SFN. O modelo pode permanecer protegido como 
+segredo empresarial. O STJ considerou lícito o credit scoring, mas exige informações claras, 
+precisas e pormenorizadas sobre os dados considerados e suas fontes, preservado o 
+segredo do modelo.
+A empresa credora toma a decisão final conforme sua política, o produto, o valor, o prazo, o 
+risco, a renda, as dívidas, as garantias, o relacionamento e outros critérios permitidos.
+Exemplo
+Rating de emissor ≠ score de consumidor.
+Rating classifica o emissor; score estima comportamento de crédito.
+<<<PÁGINA 13>>>
+Marina tem Score Serasa alto. Porém, sua renda disponível é pequena e ela já possui várias 
+parcelas. O score pode ser um sinal favorável de comportamento, mas não obriga a 
+instituição a aprovar. A decisão pode ser aprovar, negar, reduzir o limite ou oferecer outro 
+produto, desde que respeitados transparência, proteção de dados e não discriminação.
+3.3.3 Comprovação de renda e capacidade de pagamento
+O que é
+Comprovação de renda é a evidência documental ou informacional das entradas 
+financeiras que a instituição decide validar. Capacidade de pagamento é o juízo sobre a 
+folga disponível depois de despesas essenciais, dívidas existentes, parcela nova, encargos, 
+estabilidade e cenários.
+Exemplo numérico didático
+Suponha:
+• renda líquida recorrente validada: R$ 5.000;
+• despesas essenciais: R$ 2.800;
+• obrigações existentes: R$ 1.200;
+• parcela nova e encargos: R$ 700.
+Substituição:
+Plain Text
+Folga = 5.000 − 2.800 − 1.200 − 700
+Folga = R$ 300
+Interpretação: o documento comprova entradas de R$ 5.000, mas a folga estimada depois 
+dos compromissos é de R$ 300. O resultado não é um limite legal nem determina 
+automaticamente aprovação ou negativa. É uma ferramenta didática para mostrar por que 
+renda e capacidade não são sinônimos.
+3.3.4 Score, cadastro positivo, Serasa, SPC e SCR
+Elemento
+O que é
+Informação central
+É decisão automática?
+Rating
+Classificação/opinião 
+sobre emissor de 
+dívida
+Risco do emissor
+Não
+<<<PÁGINA 14>>>
+O cadastro positivo não é sinônimo de cadastro de inadimplentes. O SCR não é o Serasa 
+Score nem o SPC. Serasa e SPC também podem atuar no ecossistema do Cadastro Positivo, 
+mas isso não transforma seus produtos em SCR.
+3.3.5 Direitos sobre dados e decisões automatizadas
+A LGPD exige finalidade, adequação, necessidade, livre acesso, qualidade, transparência, 
+segurança, prevenção, não discriminação e responsabilização. O titular pode, nos termos 
+legais:
+• acessar e corrigir dados;
+• conhecer origem, finalidade e critérios principais;
+• pedir revisão de decisão unicamente automatizada que afete seus interesses, inclusive 
+perfil de crédito;
+• contestar informação inadequada;
+• exercer direitos sem custo nas hipóteses legais.
+O direito de revisão não obriga aprovação nem exige divulgação do segredo comercial do 
+modelo.
+O que a prova pode confundir
+• Rating não classifica necessariamente o consumidor varejista.
+Score Serasa
+Nota de modelo 
+comercial
+Probabilidade 
+estimada de pagar
+Não
+Cadastro positivo
+Banco de dados 
+regulado pela Lei 
+12.414/2011
+Histórico de 
+adimplemento e 
+nota/pontuação 
+possível
+Não
+Serasa/SPC
+Gestores/birôs 
+privados com 
+produtos de crédito e 
+cadastro positivo
+Dados conforme fonte, 
+finalidade e produto
+Não
+SCR
+Sistema regulado e 
+administrado pelo BCB
+Responsabilidades de 
+crédito, limites e 
+situações
+Não
+Decisão de crédito
+Ato da instituição
+Aprovar, negar, limitar, 
+precificar ou orientar
+Sim, mas é 
+responsabilidade da 
+instituição
+<<<PÁGINA 15>>>
+• Score alto não garante aprovação.
+• Score baixo não é veto legal.
+• Score não é cadastro positivo.
+• Cadastro positivo não é SCR.
+• SCR não é cadastro negativo.
+• Comprovação de renda não prova capacidade disponível.
+• Garantia não substitui automaticamente a análise de risco.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+2.3.1.1 — Rating de crédito, score Serasa, comprovação de renda.
+Fonte e status
+• Banco Central — Glossário: rating — definição institucional.
+• STJ — REsp 1.419.697/RS sobre credit scoring — precedente oficial sobre licitude e 
+transparência informacional.
+• Serasa — Score — fonte comercial sobre o próprio produto; não é norma universal.
+• Câmara dos Deputados — Lei 12.414/2011, texto atualizado do Cadastro Positivo — em 
+vigor no corte.
+• Planalto — LGPD, Lei 13.709/2018 — em vigor no corte.
+• ANPD — Direitos dos titulares — orientação institucional.
+3.4 2.3.1.2 — Diferenças entre empréstimo, 
+financiamento e leasing
+3.4.1 Empréstimo
+O que é
+Empréstimo é, em regra, crédito de destinação livre. O cliente recebe recursos e os restitui 
+com juros e demais encargos conforme o contrato.
+Documento mostra entrada; capacidade mostra folga; score é insumo; a instituição 
+decide.
+<<<PÁGINA 16>>>
+Como funciona
+A instituição analisa o cliente e define valor, taxa, prazo, garantia eventual, sistema de 
+amortização e condições de pagamento. Um empréstimo pode ser sem garantia ou com 
+garantia negociada. Não se deve afirmar que todo empréstimo é sem garantia.
+Frase de fixação
+3.4.2 Financiamento
+O que é
+Financiamento é crédito destinado a bem, serviço ou segmento definido no contrato. A 
+instituição pode pagar diretamente o vendedor, acompanhar o objeto e usar o próprio bem 
+como garantia conforme a modalidade.
+Como funciona
+O cliente normalmente adquire o bem, mas a contratação pode sujeitá-lo a garantia 
+específica. Não existe uma garantia obrigatória única para todo financiamento.
+Frase de fixação
+3.4.3 Leasing ou arrendamento mercantil
+O que é
+No leasing, a arrendadora compra ou possui o bem e concede ao arrendatário a posse 
+direta e o uso durante o prazo contratado. A propriedade jurídica permanece com a 
+arrendadora durante o arrendamento.
+Ao final, o contrato prevê opção de compra, renovação ou devolução. A opção de compra é 
+uma faculdade contratual. Pagar valor residual garantido não é, sozinho, exercer a opção 
+de compra.
+A Lei 6.099/1974 exige, entre outros elementos, prazo, contraprestações, opção de compra 
+ou renovação e preço ou critério para a opção.
+Leasing financeiro e operacional
+Empréstimo: o dinheiro é entregue para uma finalidade normalmente livre.
+Financiamento: o crédito acompanha uma finalidade definida.
+<<<PÁGINA 17>>>
+A Resolução CMN 4.977/2021 classifica o leasing como financeiro ou operacional. O leasing 
+financeiro é aquele que não atende aos critérios do operacional.
+Para o leasing operacional, os critérios são cumulativos, incluindo:
+• valor presente dos pagamentos não superior a 90% do custo do bem;
+• prazo efetivo inferior a 75% da vida útil econômica;
+• preço de compra igual ao valor de mercado;
+• ausência de valor residual garantido;
+• bem suficientemente genérico para novo arrendamento;
+• perdas de cancelamento não substancialmente suportadas pela arrendatária.
+No leasing financeiro, os prazos mínimos informados pela norma são de dois anos para 
+bem com vida útil igual ou inferior a cinco anos e três anos para bem com vida útil superior 
+a cinco anos. No leasing operacional, o prazo mínimo é de 90 dias. O prazo é contado da 
+entrega do bem até o vencimento da última contraprestação.
+Comparação direta
+Critério
+Empréstimo
+Financiamento
+Leasing
+Destinação
+Normalmente livre
+Bem, serviço ou 
+segmento definido
+Uso de bem 
+determinado
+Propriedade do bem
+Não é elemento 
+necessário
+Normalmente do 
+cliente, com garantia 
+eventual
+Da arrendadora 
+durante o 
+arrendamento
+Uso do bem
+Se o cliente comprar, 
+usa como proprietário
+Cliente usa o bem 
+financiado conforme 
+contrato
+Arrendatário tem 
+posse direta e uso
+Garantia
+Pode existir ou não
+Pode ser o próprio 
+bem ou outra
+A propriedade da 
+arrendadora estrutura 
+o negócio
+Final do contrato
+Pagamento conforme 
+contrato
+Pagamento e 
+liberação da garantia, 
+conforme contrato
+Comprar, renovar ou 
+devolver, conforme 
+opção
+<<<PÁGINA 18>>>
+3.4.4 CET, contrato e portabilidade
+A Resolução CMN 4.881/2020 exige CET para operações de crédito e leasing financeiro 
+ofertadas ou contratadas com pessoa natural, empresário individual, microempresa ou 
+empresa de pequeno porte, nas hipóteses abrangidas. O contrato deve mostrar custos e 
+condições.
+A portabilidade pode alcançar operações de crédito e leasing financeiro. A operação nova, 
+em regra, não pode superar o saldo devedor e o novo prazo não pode exceder o restante, 
+salvo hipóteses específicas. No leasing, o novo contrato precisa observar os prazos 
+mínimos aplicáveis.
+O que a prova pode confundir
+• Empréstimo não significa ausência obrigatória de garantia.
+• Financiamento não significa garantia obrigatória única.
+• Leasing não transfere automaticamente a propriedade ao usuário.
+• Valor residual garantido não é automaticamente opção de compra exercida.
+• Leasing operacional não é uma locação livre de regras.
+• A portabilidade não garante taxa menor, aprovação ou manutenção do limite.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+2.3.1.2 — Diferenças entre empréstimo, financiamento e leasing.
+Fonte e status
+• Banco Central — Diferença entre financiamento, empréstimo e leasing — página 
+institucional.
+IOF/ISS
+Depende da 
+modalidade e lei
+Depende da 
+modalidade e lei
+FAQ do BCB informa 
+que no leasing não 
+incide IOF e há ISS; 
+conferir contrato e 
+legislação vigente
+Empréstimo olha para o recurso; financiamento olha para a finalidade; leasing olha 
+para o uso com propriedade da arrendadora.
+<<<PÁGINA 19>>>
+• Planalto — Lei 6.099/1974 — lei-base, com dispositivos revogados indicados no texto 
+compilado.
+• Banco Central/CMN — Resolução CMN 4.977/2021 — vigente para o regime de 
+arrendamento mercantil no corte.
+• Banco Central/CMN — Resolução CMN 5.057/2022 e Resolução CMN 5.265/2025 — 
+portabilidade, com alteração vigente e implementação por canal/modalidade.
+• Banco Central — FAQ de leasing — orientação operacional.
+3.5 2.3.1.3 — Utilização do SCR
+O que é
+O Sistema de Informações de Créditos — SCR é administrado pelo Banco Central. Ele 
+recebe informações das instituições obrigadas sobre operações e responsabilidades de 
+crédito, adimplidas ou não.
+Funções
+A Resolução CMN 5.037/2022 atribui ao SCR duas finalidades principais:
+1. fornecer informações ao BCB para monitoramento do crédito e fiscalização do sistema 
+financeiro;
+2. permitir intercâmbio controlado de informações sobre o montante das 
+responsabilidades dos clientes entre instituições e entidades autorizadas.
+O SCR não é uma lista de inadimplentes, não gera score público e não decide 
+automaticamente pela concessão ou recusa de crédito.
+O que pode ser registrado
+Podem entrar, conforme a regulamentação, empréstimos, financiamentos, adiantamentos, 
+leasing, avais, fianças, coobrigações, garantias pessoais, compromissos de crédito não 
+canceláveis unilateralmente, créditos contratados a liberar, créditos baixados como 
+prejuízo, instrumentos de pagamento pós-pagos, operações entre pessoas por plataforma 
+eletrônica e outras operações reconhecidas como crédito.
+A remessa ocorre independentemente de a operação estar adimplida. Assim, o fato de 
+existir no SCR não prova atraso.
+Critério de individualização de R$ 200,00
+<<<PÁGINA 20>>>
+O conjunto das operações do cliente igual ou superior a R$ 200,00 é informado 
+individualmente. O conjunto inferior a R$ 200,00 é informado de forma agregada, conforme 
+o critério operacional indicado na Circular BCB 3.870/2017 e atos relacionados.
+Esse valor é um critério de individualização do SCR. Não é renda mínima, não é valor 
+mínimo universal de crédito e não significa que apenas uma dívida isolada acima de R$ 
+200,00 exista.
+O que aparece no relatório
+O relatório pode mostrar:
+• saldo devedor;
+• modalidade da operação;
+• situação em dia ou vencida;
+• limites de crédito, inclusive cartão e cheque especial;
+• coobrigações;
+• créditos a liberar;
+• histórico das posições mensais.
+O limite disponível não é automaticamente saldo devedor. Um limite de cartão ou cheque 
+especial pode aparecer sem que todo o limite tenha sido utilizado.
+Consulta pelo cliente
+O titular consulta suas informações pelo Registrato, com os requisitos de autenticação 
+informados pelo BCB, como conta Gov.br prata ou ouro e verificação em duas etapas. O 
+relatório próprio e o histórico do titular não são a mesma coisa que uma consulta comercial 
+feita por uma instituição.
+Consulta pela instituição
+A instituição consulta as informações para intercâmbio de responsabilidades conforme a 
+Resolução CMN 5.037/2022. A consulta institucional exige autorização específica do cliente, 
+que deve ser guardada pelo prazo regulamentar. Essa autorização específica não deve ser 
+confundida com consentimento para todo e qualquer tratamento de dados da LGPD.
+A remessa ao SCR pode decorrer de obrigação legal ou regulatória. A consulta institucional, 
+por sua vez, obedece ao requisito específico da regulamentação do SCR.
+Utilização na análise de crédito
+<<<PÁGINA 21>>>
+O SCR pode ser uma fonte para avaliar endividamento, compromissos e situação das 
+operações. A Circular BCB 3.870/2017 determina que a decisão sobre novas operações é 
+exclusiva da instituição, conforme sua política de crédito, independentemente do que 
+conste no SCR.
+Logo:
+Plain Text
+SCR = insumo de informação
+SCR ≠ score
+SCR ≠ cadastro negativo
+SCR ≠ aprovação ou recusa automática
+Correção, pagamento e histórico
+A instituição remetente é responsável pela inclusão, correção, exclusão, identificação de 
+operação sub judice, cumprimento de ordem judicial e fidedignidade do dado.
+Se houver erro, o cliente deve procurar a instituição responsável, depois SAC e Ouvidoria e, 
+se necessário, o BCB. Após a instituição enviar a correção, o dado pode refletir no 
+Registrato em até sete dias corridos, conforme FAQ do BCB.
+Pagar a dívida não apaga as posições passadas. A dívida deixa de aparecer nas posições 
+futuras após o processamento, mas os meses em que ela existia permanecem no histórico. 
+O FAQ do BCB informa ainda regras de exibição para dívidas não pagas após cinco anos. 
+Isso não equivale a prescrição, quitação ou extinção civil da dívida.
+SCR, Cadastro Positivo, Serasa e SPC
+Comparação
+SCR
+Cadastro Positivo / Serasa / 
+SPC
+Administrador
+Banco Central, com remessa 
+das instituições
+Gestores de bancos de dados 
+privados regulados pela Lei 
+12.414/2011
+Foco
+Responsabilidades e operações 
+de crédito, inclusive em dia
+Histórico de adimplemento e 
+informações de crédito 
+conforme a base e o produto
+Pode conter informação 
+favorável?
+Sim; inclui operações em dia
+Sim; o Cadastro Positivo 
+enfatiza 
+pagamentos/adimplemento
+É cadastro negativo?
+Não
+Um birô pode ter produtos de 
+proteção ao crédito, mas o 
+<<<PÁGINA 22>>>
+O que a prova pode confundir
+• SCR não é Serasa Score.
+• SCR não é SPC.
+• SCR não é cadastro restritivo.
+• SCR pode registrar operações em dia.
+• O limiar de R$ 200,00 não é uma franquia de inadimplência.
+• Pagamento não reescreve o histórico passado.
+• Correção de informação não significa apagar dado correto exigido por lei.
+• O BCB administra o sistema, mas não negocia a dívida nem decide o crédito.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+2.3.1.3 — Utilização do SCR.
+Fonte e status
+• Banco Central/CMN — Resolução CMN 5.037/2022 — vigente desde 01/11/2022.
+• Banco Central — SCR — página institucional.
+• Banco Central — Circular BCB 3.870/2017 — ato operacional compilado, sujeito a 
+alterações posteriores.
+• Banco Central — Carta Circular BCB 3.869/2018 — ato operacional compilado, sujeito 
+a alterações posteriores.
+• Banco Central — FAQ do Relatório SCR — orientação atualizada consultada.
+Cadastro Positivo não é 
+cadastro negativo
+Gera decisão automática?
+Não
+Não; score é insumo e a 
+instituição decide
+Consulta
+Cliente pelo Registrato; 
+instituição conforme 
+autorização específica e regras
+Conforme o produto, finalidade 
+e direitos do titular
+O SCR informa responsabilidades; a instituição usa a informação, mas a decisão de 
+crédito continua sendo dela.
+<<<PÁGINA 23>>>
+3.6 2.3.2 — Cartão de crédito
+O que é
+O cartão de crédito pós-pago permite realizar compras, saques ou outras operações até um 
+limite. A instituição consolida lançamentos em uma fatura, com data de fechamento, 
+vencimento, valor total, valor obrigatório e opções de financiamento.
+O cartão não é apenas um meio de pagamento. Quando o cliente não liquida a fatura, surge 
+uma decisão de crédito: pagamento integral, pagamento parcial, rotativo, parcelamento ou 
+inadimplência.
+Estrutura mínima de leitura da fatura
+A Resolução BCB 365/2023 determinou, para a estrutura aplicável, a separação de 
+informações em áreas:
+1. Área de destaque: valor total, vencimento e limite total.
+2. Área de alternativas: valor obrigatório e composição; encargos do período seguinte se 
+pago apenas o obrigatório; opções de financiamento; juros efetivos mensal e anual; CET.
+3. Área complementar: lançamentos, parcelas, juros e encargos segregados, tarifas, 
+limites por operação e saldo futuro consolidado.
+As opções devem permitir comparação e ser ordenadas do menor para o maior total a 
+pagar.
+Regras de informação e notificação
+A emissora deve:
+• oferecer pelo menos três datas de vencimento, com diferença mínima de sete dias, 
+salvo exceções próprias;
+• notificar gratuitamente o vencimento por canal eletrônico com pelo menos dois dias de 
+antecedência;
+• alertar que não pagar o total gera juros e encargos;
+• informar consequências do não pagamento e formas de liquidação ou financiamento;
+• comunicar o início do parcelamento do rotativo;
+• avisar a cobrança de anuidade com pelo menos um mês de antecedência quando 
+houver isenção anterior;
+<<<PÁGINA 24>>>
+• mostrar as operações parceladas em até dois dias úteis da abertura da fatura, conforme 
+a regra aplicável.
+O que a prova pode confundir
+• A fatura total não é o mesmo que pagamento obrigatório.
+• Cartão comum não é cartão consignado.
+• Private label sem financiamento de instituição financeira, em geral, não se submete 
+automaticamente às mesmas regras do cartão bancário.
+• Limite não é saldo devedor.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+2.3.2 — Cartão de crédito.
+Fonte e status
+• Banco Central — Resolução BCB 365/2023 — vigente desde 01/07/2024 nas regras de 
+transparência indicadas.
+• Banco Central — Apresentação das informações na fatura — FAQ oficial.
+• Banco Central — FAQ sobre limite de cartão — FAQ oficial.
+3.7 2.3.2.1 — Limites, juros, pagamento parcial e 
+refinanciamento
+3.7.1 Limite de crédito
+O limite deve ser compatível, no mínimo, com perfil de risco, qualificação e capacidade 
+financeira, vulnerabilidades e demais operações do cliente, inclusive em outras instituições 
+quando aplicável. A instituição deve reavaliar a compatibilidade periodicamente.
+Regras principais:
+• Redução por iniciativa da instituição: comunicação com pelo menos 30 dias de 
+antecedência.
+No cartão, o limite autoriza o uso; a fatura mostra a dívida; a escolha de pagamento 
+define o financiamento.
+<<<PÁGINA 25>>>
+• Redução imediata: possível sem antecedência quando houver deterioração do perfil 
+de risco, com comunicação até o momento da redução.
+• Aumento: exige aprovação prévia do titular a cada evento e comunicação até sua 
+realização.
+• Redução pedida pelo titular: deve ser atendida em até dois dias úteis.
+• Pagamento parcial: não transforma automaticamente limite em saldo devedor; o 
+saldo depende dos lançamentos e da forma de pagamento.
+3.7.2 Pagamento integral
+Pagamento integral até o vencimento liquida a fatura conforme as condições contratadas e 
+evita financiamento sobre o saldo não pago. A opção de valor total deve aparecer 
+inicialmente como opção padrão de pagamento.
+3.7.3 Pagamento mínimo ou obrigatório
+Não há percentual universal a declarar para todo cartão. O valor mínimo ou obrigatório é 
+previsto no contrato e na fatura. A definição ou alteração do percentual deve ser 
+comunicada com pelo menos 30 dias de antecedência.
+O valor obrigatório pode ser composto, conforme a fatura, por saldo rotativo com encargos, 
+parcelas de dívidas anteriores e valor mínimo previsto no contrato.
+Pagar o mínimo não significa pagar a fatura inteira. Também não significa, por si só, 
+contratar parcelamento.
+3.7.4 Pagamento parcial sem parcelamento: crédito rotativo
+Se o titular paga parte da fatura, não paga o total e não contrata parcelamento, o saldo 
+pode aderir ao crédito rotativo, com incidência dos juros e encargos previstos em contrato.
+O saldo rotativo só pode permanecer nessa modalidade até o vencimento da fatura 
+subsequente. Depois, pode ser financiado em linha parcelada, em condições mais 
+vantajosas para o cliente, inclusive quanto aos encargos. É vedado voltar a financiar no 
+rotativo valores já parcelados nessa forma.
+3.7.5 Pagamento abaixo do mínimo: inadimplência
+Não pagar o valor mínimo ou obrigatório caracteriza inadimplência para os efeitos 
+contratuais e regulatórios aplicáveis. Podem incidir os encargos previstos, incluindo juros, 
+multa e juros de mora conforme contrato e legislação.
+A comissão de permanência ou cobrança de juros adicionais punitivos não deve ser 
+presumida como permitida. A cobrança deve obedecer ao regime vigente e ao contrato.
+<<<PÁGINA 26>>>
+3.7.6 Parcelamento da fatura e refinanciamento
+O parcelamento da fatura é uma operação de crédito distinta do rotativo. Ele possui 
+cronograma de parcelas e custo próprio. O uso comercial da palavra “refinanciamento” 
+pode designar essa reorganização, mas a nomenclatura não substitui a leitura do contrato.
+3.7.7 Cap de juros e encargos: 100%
+Para operações de crédito rotativo e parcelamento do saldo devedor da fatura originadas a 
+partir de 03/01/2024, a Lei 14.690/2023 e a Resolução CMN 5.112/2023 limitam o montante 
+acumulado de juros e encargos financeiros abrangidos.
+Fórmula didática:
+Plain Text
+J + E ≤ D₀
+•
+J : juros remuneratórios acumulados;
+•
+E : encargos financeiros abrangidos, como multa, juros de mora, tarifas e comissões 
+incidentes, conforme a regra aplicável;
+Expressão
+Significado didático
+Consequência
+Pagamento mínimo/obrigatório
+Menor valor exigido pela fatura, 
+conforme contrato
+Não liquida o total; pode deixar 
+saldo financiado
+Pagamento parcial
+Qualquer pagamento inferior 
+ao total
+Pode gerar rotativo, 
+parcelamento contratado ou 
+inadimplência, conforme a 
+situação
+Crédito rotativo
+Financiamento temporário do 
+saldo não liquidado
+Fica limitado até o vencimento 
+da fatura seguinte
+Parcelamento da fatura
+Nova operação com parcelas e 
+cronograma
+Deve ser mais vantajosa que o 
+rotativo quando usada para 
+saldo remanescente
+Refinanciamento
+Termo comercial para 
+financiar/reorganizar saldo
+Deve ser interpretado pelas 
+condições efetivas do contrato
+Inadimplência
+Não pagamento do obrigatório 
+ou descumprimento
+Pode gerar encargos e 
+procedimentos previstos
+<<<PÁGINA 27>>>
+•
+D₀ : valor original da operação de rotativo ou parcelamento, apurado quando a nova 
+operação é concedida.
+Consequência:
+Plain Text
+Principal original + juros/encargos abrangidos ≤ 2 × D₀
+Exemplo: se D₀ = R$ 1.000 , o conjunto de juros e encargos sujeitos ao cap não pode superar 
+R$ 1.000. Isso não perdoa o principal e não impede novas compras ou novas operações.
+O cap:
+• não é teto da taxa mensal;
+• não é taxa de 100% ao ano;
+• não se aplica automaticamente a compras parceladas com juros que não sejam 
+financiamento do saldo da fatura;
+• acompanha a operação original quando o rotativo migra para parcelamento;
+• considera o início da contagem no início do rotativo migrado;
+• deve ser demonstrado nas faturas e renegociações conforme a regra.
+3.7.8 Portabilidade do saldo da fatura
+O cliente pode portar o saldo consolidado de operações abertas de rotativo e parcelamento 
+da fatura para outra instituição autorizada, inclusive saldo já parcelado. A instituição 
+original não pode cobrar o custo de troca de informações e efetivação.
+A operação proponente deve ser única e consolidada e não pode superar o saldo 
+informado. A contraproposta da instituição original deve ter, no mínimo, o mesmo prazo da 
+proposta proponente. A portabilidade não garante aprovação, redução da taxa, 
+manutenção do cartão ou novo limite.
+A portabilidade não se aplica ao cartão consignado. No corte desta aula, embora a 
+regulamentação previsse uso de infraestrutura Open Finance, o BCB indicava 
+implementação por modalidades. Não se deve afirmar que toda portabilidade de cartão via 
+Open Finance já estava operacional em 12/09/2026.
+3.7.9 Cartão comum, consignado e private label
+• Cartão pós-pago comum: pagamento pelo cliente, com fatura e limite de crédito.
+• Cartão consignado: possui desconto em folha e regras próprias; não deve ser tratado 
+automaticamente como cartão comum
+<<<PÁGINA 28>>>
+• Private label: cartão de loja; se não houver financiamento por instituição financeira, a 
+regulação específica do BCB pode não incidir da mesma forma.
+O que a prova pode confundir
+• Limite ≠ saldo devedor.
+• Pagamento mínimo ≠ pagamento integral.
+• Pagamento parcial ≠ parcelamento automático.
+• Rotativo ≠ parcelamento.
+• Refinanciamento/renegociação ≠ portabilidade.
+• Cap de 100% ≠ taxa máxima de 100%.
+• Juros ≠ multa ≠ juros de mora ≠ IOF ≠ tarifa.
+• Cartão comum ≠ cartão consignado.
+• Vencimento da fatura ≠ vencimento de outras operações de crédito.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+2.3.2.1 — Limites, incidência de juros, regras de pagamento parcial e refinanciamento.
+Fonte e status
+• Planalto — Lei 14.690/2023, arts. 27 e 28 — em vigor no corte; base legal do limite de 
+juros e encargos.
+• Banco Central/CMN — Resolução CMN 5.112/2023 — vigente; regulamenta a Lei 
+14.690/2023.
+• Banco Central — Resolução BCB 365/2023 — vigente nas regras de fatura e 
+transparência.
+• Banco Central — FAQ: pagamento mínimo e não pagamento — orientação oficial.
+• Banco Central — FAQ: limite de juros e encargos — orientação oficial sobre o cap.
+3.8 2.3.2.2 — Cálculos da taxa de refinanciamento de 
+faturas
+No cartão, pagar menos que o total não é uma única situação: pode ser rotativo, 
+parcelamento ou inadimplência. Leia a fatura e o contrato.
+<<<PÁGINA 29>>>
+3.8.1 Primeiro passo: identificar a base
+Antes de calcular, responda quatro perguntas:
+1. Qual é o valor da fatura?
+2. Quanto foi pago e como o contrato alocou esse pagamento?
+3. Qual é o saldo financiado ou principal da nova operação?
+4. Qual taxa, periodicidade, capitalização, prazo e custo adicional estão no contrato e na 
+fatura?
+Não se deve começar pela taxa. Deve-se começar pelo fluxo de caixa.
+3.8.2 Saldo financiado
+Plain Text
+SF = saldo devedor apurado no vencimento − pagamentos/abatimentos alocados
+•
+SF : saldo financiado;
+•
+saldo devedor apurado : valor que permaneceu devido segundo a fatura;
+•
+pagamentos/abatimentos : valores efetivamente alocados conforme contrato.
+Exemplo: fatura de R
+ 500; sem outros saldos ou encargos já 
+devidos.
+Plain Text
+SF = 1.500 − 500
+SF = R$ 1.000
+Interpretação: R$ 1.000 é o principal didático. Não é o limite e não é necessariamente o 
+saldo final após juros, IOF, tarifa, multa ou mora.
+3.8.3 Juros simples
+Use juros simples somente quando o enunciado ou o contrato determinar essa 
+metodologia.
+Plain Text
+J = P × i × n
+M = P × (1 + i × n)
+1.500;pagamentodeR
+<<<PÁGINA 30>>>
+•
+J : juros;
+•
+P : principal;
+•
+i : taxa por período, em decimal;
+•
+n : número de períodos;
+•
+M : montante.
+Exemplo hipotético: P = R$ 1.000 , i = 5% a.m. = 0,05 , n = 1 mês .
+Plain Text
+J = 1.000 × 0,05 × 1 = R$ 50
+M = 1.000 + 50 = R$ 1.050
+Interpretação: sem outros custos, o juro hipotético de um período é R$ 50.
+3.8.4 Juros compostos
+Plain Text
+J = P × [(1+i)^n − 1]
+M = P × (1+i)^n
+Com P = R$ 1.000 , i = 5% a.m. e n = 3 :
+Plain Text
+M = 1.000 × (1,05)^3
+M = 1.000 × 1,157625
+M ≈ R$ 1.157,63
+J = 1.157,63 − 1.000
+J ≈ R$ 157,63
+Interpretação: juros compostos incidem sobre o saldo acumulado. Não presuma 
+capitalização mensal ou diária sem a informação contratual.
+3.8.5 Taxa nominal e taxa efetiva
+Quando a taxa mensal for efetiva e houver capitalização mensal compatível:
+Plain Text
+i_nominal anual = 12 × i_mensal
+i_efetiva anual = (1 + i_mensal)^12 − 1
+<<<PÁGINA 31>>>
+Para i_mensal = 5% :
+Plain Text
+i_nominal anual = 12 × 0,05 = 60% a.a.
+i_efetiva anual = (1,05)^12 − 1 ≈ 79,59% a.a.
+Interpretação: a taxa efetiva incorpora a capitalização. Essa conversão é apenas do 
+exemplo e não substitui o CET.
+3.8.6 Parcelamento com prestações fixas — sistema Price
+Plain Text
+PMT = P × i / [1 − (1+i)^(-n)]
+Com P = R$ 1.000 , i = 5% a.m. e n = 3 :
+Plain Text
+PMT = 1.000 × 0,05 / [1 − (1,05)^(-3)]
+PMT ≈ R$ 367,21
+Total = 3 × 367,21 ≈ R$ 1.101,63
+Juros ≈ 1.101,63 − 1.000 = R$ 101,63
+O exemplo não inclui automaticamente IOF, tarifas, seguro, mora, arredondamento ou 
+outro custo.
+Teclas HP-12C
+Plain Text
+f CLEAR FIN
+1000 CHS PV
+5 i
+3 n
+FV       → aproximadamente 1.157,63
+Para a prestação fixa:
+Plain Text
+Regra de segurança: não aplique a conversão se a taxa mensal não for efetiva ou se a 
+capitalização e a periodicidade não forem compatíveis.
+<<<PÁGINA 32>>>
+f CLEAR FIN
+1000 PV
+5 i
+3 n
+PMT      → aproximadamente −367,21
+O sinal negativo representa saída de caixa. Confira periodicidade, modo END/BEGIN e 
+convenção de sinais.
+3.8.7 CET pelo fluxo de caixa
+A Resolução CMN 4.881/2020 define o CET pela taxa anual que iguala o crédito líquido ao 
+valor presente dos fluxos futuros:
+Plain Text
+FC₀ = Σ [ FCⱼ / (1 + CET)^((dⱼ − d₀)/365) ]
+Variáveis: FC₀ é o crédito líquido; FCⱼ são amortizações, juros, tarifas, tributos, seguros e 
+outros custos vinculados; d₀ é a data de liberação; dⱼ é a data de cada pagamento.
+Substituição conceitual: para R$ 1.000 liberados e três pagamentos de R$ 367,21 em 30, 60 
+e 90 dias:
+Plain Text
+1.000 = 367,21/(1+CET)^(30/365)
+     + 367,21/(1+CET)^(60/365)
+     + 367,21/(1+CET)^(90/365)
+Resultado: a taxa deve ser resolvida numericamente. O CET oficial depende dos fluxos 
+reais, datas, custos e arredondamentos; o demonstrativo da instituição é a referência 
+operacional.
+Para cartão rotativo e cheque especial, a norma usa parâmetros próprios de 30 dias e limite 
+pactuado no cálculo do CET. Isso é regra do demonstrativo, não autorização para presumir 
+que toda dívida tenha 30 dias.
+3.8.8 IOF, juros, multa, mora e tarifa
+IOF é tributo federal, não juros. O Decreto 6.306/2007 prevê hipóteses de incidência 
+conforme entrega ou colocação do crédito à disposição, liberação de parcelas, 
+adiantamento a depositante, excesso de limite e outras situações.
+Fórmula genérica, sem inventar alíquota:
+<<<PÁGINA 33>>>
+Plain Text
+IOF = componente diário conforme base e alíquota vigente
+    + componente adicional conforme base e alíquota vigente
+3.8.9 Cap de 100% aplicado ao exemplo
+Se D₀ = R$ 1.500 :
+Plain Text
+J + E ≤ D₀
+J + E ≤ R$ 1.500
+Principal + encargos abrangidos ≤ R$ 3.000
+O cap limita o montante de juros e encargos abrangidos sobre o principal original. Não é 
+taxa de 100% ao ano, não perdoa o principal e não alcança automaticamente compras 
+parceladas com juros que não financiem o saldo da fatura.
+O que a prova pode confundir
+• Saldo financiado não é limite.
+• CET não é taxa nominal.
+• Taxa efetiva anual não é taxa nominal anual.
+Custo
+Natureza
+Como tratar
+Juros remuneratórios
+Remuneração do crédito
+Aplicar taxa e capitalização 
+informadas
+Juros de mora
+Encargo do atraso
+Conferir contrato e lei
+Multa
+Penalidade do atraso
+No consumo, multa de mora ≤ 
+2% da prestação
+IOF
+Tributo
+Verificar fato gerador, base e 
+alíquota vigentes
+Tarifa
+Preço de serviço, quando válido
+Não presumir; conferir contrato 
+e tabela
+CET
+Taxa consolidada
+Comparar custos vinculados, 
+não somar como custo 
+separado
+<<<PÁGINA 34>>>
+• IOF não é juros.
+• Multa não é juros de mora.
+• O cap limita montante, não percentual da taxa.
+• Exemplo matemático não cria taxa contratual nacional.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+2.3.2.2 — Cálculos da taxa de refinanciamento de faturas.
+Fonte e status
+• Banco Central/CMN — Resolução CMN 4.881/2020 — CET — vigente nas hipóteses 
+aplicáveis.
+• Banco Central — Calculadora do Cidadão: financiamento com prestações fixas — 
+metodologia de apoio.
+• Planalto — Decreto 6.306/2007 — IOF — texto tributário; conferir enquadramento e 
+data.
+• HP — Manual HP-12C — ferramenta de cálculo, não fonte normativa.
+3.9 2.3.3 — Cheque especial
+O que é
+Cheque especial é limite de crédito rotativo vinculado a conta de depósitos à vista. A dívida 
+nasce do valor utilizado, não da mera existência do limite.
+Como funciona
+1. A instituição disponibiliza ou aprova um limite.
+2. O cliente usa parte do limite para pagamentos, saques, transferências, cheques ou 
+débitos autorizados, conforme contrato.
+3. O saldo da conta fica negativo ou registra utilização do limite.
+4. Os juros incidem sobre o saldo utilizado conforme taxa, ciclo, base de dias e 
+capitalização contratual.
+Calcular refinanciamento é identificar o principal, alinhar taxa e tempo, incluir 
+custos cabíveis e conferir o limite normativo.
+<<<PÁGINA 35>>>
+5. O IOF é apurado conforme a legislação tributária.
+6. Recompor o saldo reduz ou liquida a dívida; cancelar o limite não apaga o saldo já 
+utilizado.
+Pessoa natural e MEI
+Para pessoa natural e MEI, os juros remuneratórios são limitados a 8% efetivos ao mês, 
+conforme a Resolução CMN 4.765/2019. A instituição pode contratar taxa menor. O limite 
+não cria um valor monetário máximo universal.
+Pessoa jurídica
+Para PJ, o teto de 8% da Resolução 4.765 não se aplica da mesma forma. Taxas, tarifas, 
+vencimento, ciclo e encargos dependem do contrato, da tabela de tarifas e da regulação 
+geral. O empresário individual não deve ser enquadrado apenas pelo CNPJ: confira 
+titularidade da conta e do contrato.
+Tarifa de disponibilização: regra histórica e vigente
+O art. 2º original da Resolução 4.765 previa fórmula histórica de 0% até R$ 500 e até 0,25% 
+sobre a parcela acima de R$ 500. Essa cobrança não é vigente para pessoa natural/MEI no 
+corte: o STF declarou o dispositivo inconstitucional na ADI 6.407 e a Resolução CMN 
+4.962/2021 o revogou desde 01/11/2021.
+Cheque especial ≠ empréstimo pessoal
+O que a prova pode confundir
+Critério
+Cheque especial
+Empréstimo pessoal
+Vínculo
+Ligado à conta
+Contrato separado
+Uso
+Rotativo, conforme necessidade
+Valor e prazo definidos
+Juros
+Sobre saldo utilizado
+Sobre saldo da operação
+Vencimento
+Contrato, extrato e ciclo
+Parcelas e datas contratadas
+Regra específica
+PF/MEI: 8% efetivos a.m.
+Não há taxa universal para 
+empréstimo comum
+IOF
+Conforme uso e 
+enquadramento
+Conforme operação e 
+enquadramento
+<<<PÁGINA 36>>>
+• Limite disponível não é saldo utilizado.
+• A tarifa histórica de 0,25% não é regra vigente para PF/MEI.
+• PJ não recebe automaticamente o teto de 8%.
+• Cheque especial não é empréstimo pessoal.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+2.3.3 — Cheque especial.
+Fonte e status
+• Banco Central/CMN — Resolução CMN 4.765/2019, texto compilado — vigente em 
+parte; art. 2º revogado.
+• Banco Central — FAQ de cheque especial — orientação oficial, atualizada em 
+28/08/2024.
+• Banco Central — FAQ sobre teto de 8% — orientação oficial.
+• STF — ADI 6.407: tarifa pela mera disponibilização — decisão oficial.
+3.10 2.3.3.1 — Data de vencimento, cálculos de juros e IOF
+3.10.1 Data de vencimento
+Não existe uma data nacional única de vencimento do cheque especial. A data, o ciclo de 
+apuração, a cobrança, a eventual mora e a data de encerramento dependem do contrato, 
+da conta e do extrato.
+Separe:
+• data de utilização: quando o limite é usado;
+• data de apuração: quando o saldo e encargos são calculados;
+• data de cobrança/débito: quando o lançamento é efetuado;
+• data de vencimento: data contratual de recomposição ou liquidação, quando prevista;
+• data do fato gerador do IOF: evento tributário, não automaticamente o vencimento.
+Cheque especial é limite rotativo ligado à conta; empréstimo pessoal é operação 
+separada com fluxo contratado.
+<<<PÁGINA 37>>>
+3.10.2 Juros sobre o saldo utilizado
+Fórmula geral:
+Plain Text
+J = Σ (saldo devedor diário × fator diário contratual)
+Se o contrato fornecer taxa diária simples i_d :
+Plain Text
+J = Σ(saldo_d × i_d)
+Exemplo hipotético: saldo constante de R$ 1.000 por dez dias, taxa diária de 0,20%:
+Plain Text
+J = 1.000 × 0,0020 × 10
+J = R$ 20
+Resultado: R$ 20 de juros antes de IOF e outros custos. A taxa é apenas hipotética.
+Se o enunciado der taxa efetiva mensal de 8% e pedir taxa diária equivalente, uma 
+conversão possível, somente se compatível com o contrato, é:
+Plain Text
+i_d = (1 + 0,08)^(1/30) − 1
+Não trate 30 dias como calendário universal do cheque especial.
+3.10.3 Teto de 8% efetivos ao mês
+Para pessoa natural e MEI:
+Plain Text
+Taxa efetiva mensal contratada ≤ 8% a.m.
+O teto é efetivo, não nominal. Ele não determina que todos pagarão 8% nem substitui o 
+método de cálculo do contrato.
+3.10.4 IOF
+<<<PÁGINA 38>>>
+Em crédito rotativo sem principal previamente definido, o Decreto 6.306/2007 pode usar o 
+somatório dos saldos devedores diários apurado no último dia de cada mês. Adiantamento 
+a depositante e excesso de limite possuem regras próprias.
+Plain Text
+IOF diário = base tributável × alíquota diária vigente
+IOF adicional = base tributável × alíquota adicional vigente
+IOF total = IOF diário + IOF adicional, quando cabível
+A alíquota e a base dependem do mutuário, modalidade, valor, prazo, data do fato gerador, 
+texto vigente do decreto e decisões aplicáveis. No corte, a pesquisa registrou controvérsia 
+judicial sobre atos de majoração do IOF; esse ponto exige rechecagem antes de uso 
+posterior.
+3.10.5 Exemplo integrado
+Pessoa natural utiliza R$ 1.000 por dez dias, com taxa diária hipotética simples de 0,20%, 
+sem tarifa informada e sem cálculo de IOF por ausência de alíquota e base do caso:
+Plain Text
+J = 1.000 × 0,0020 × 10 = R$ 20
+Saldo + juros = 1.000 + 20 = R$ 1.020
+Resultado: R$ 1.020 antes do IOF e de outros custos válidos. O cálculo real depende do 
+contrato, saldos diários, método, ciclo e tributo.
+3.10.6 HP-12C
+Se o enunciado informar saldo de R$ 1.000, taxa efetiva mensal de 8% e um mês:
+Plain Text
+f CLEAR FIN
+1000 CHS PV
+8 i
+1 n
+FV       → aproximadamente 1.080,00
+Juros: 1.080,00 − 1.000,00 = R$ 80,00 . É simulação de um período; cheque especial real pode 
+usar saldos diários.
+3.10.7 Vencimento da fatura ≠ vencimento do cheque especial
+<<<PÁGINA 39>>>
+O que a prova pode confundir
+• Vencimento não é o mesmo que fato gerador do IOF.
+• Limite disponível não é saldo utilizado.
+• O teto de 8% é efetivo mensal para PF/MEI, não é taxa nominal universal.
+• Não existe data nacional única de vencimento.
+• IOF não é juros nem tarifa.
+• Cancelar o limite não extingue a dívida já utilizada.
+Frase de fixação
+Alinhamento ao Programa Detalhado
+2.3.3.1 — Data de vencimento, cálculos dos valores de juros e IOF.
+Fonte e status
+• Banco Central/CMN — Resolução CMN 4.765/2019 — vigente em parte; art. 2º 
+revogado.
+• Banco Central — FAQ de cheque especial — orientação oficial.
+• Planalto — Decreto 6.306/2007 compilado — regra tributária; conferir data e 
+enquadramento.
+Elemento
+Fatura do cartão
+Cheque especial
+Documento central
+Fatura periódica
+Extrato/contrato da conta
+Vencimento
+Data impressa na fatura
+Data e ciclo previstos para a 
+conta/operação
+Financiamento
+Rotativo ou parcelamento
+Limite rotativo ligado à conta
+Cálculo
+Saldo da fatura e fluxo 
+contratado
+Saldos utilizados e ciclo 
+contratado
+IOF
+Conforme operação e lei 
+tributária
+Conforme uso, adiantamento, 
+excesso e lei tributária
+No cheque especial, o custo nasce do uso do limite: identifique saldo e tempo; 
+depois aplique juros, IOF e contrato.
+<<<PÁGINA 40>>>
+• STF — Decisão sobre majoração do IOF — decisão oficial consultada; reavaliar em 
+uso posterior.
+4. Por que isso cai na prova? — 
+aproximadamente 15 minutos
+4.1 Explicação estratégica
+A alternativa incorreta costuma usar um conceito verdadeiro no contexto errado. Localize 
+primeiro a palavra decisiva:
+1. Emissor ou consumidor? Rating ou score?
+2. Histórico de pagamento ou responsabilidades? Cadastro positivo ou SCR?
+3. Entrada ou folga? Comprovação de renda ou capacidade?
+4. Recurso livre, finalidade vinculada ou uso de bem? Empréstimo, financiamento ou 
+leasing?
+5. Valor autorizado ou usado? Limite ou saldo devedor?
+6. Pagamento abaixo do total? Rotativo, parcelamento ou inadimplência?
+7. Taxa ou custo consolidado? Juros ou CET?
+8. Preço financeiro ou tributo? Juros ou IOF?
+9. Conta com limite ou contrato parcelado? Cheque especial ou empréstimo pessoal?
+10. Data da fatura ou evento tributário? Vencimento ou fato gerador do IOF?
+4.2 Pontos de atenção
+1. Crédito responsável exige adequação, transparência, diligência, tratamento justo e 
+avaliação.
+2. Rating não é score. Score não é decisão de crédito.
+3. Renda comprovada não é capacidade de pagamento.
+4. Garantia reduz perda potencial, mas não elimina risco.
+5. Empréstimo, financiamento e leasing diferem por destinação e propriedade.
+6. SCR registra responsabilidades e pode conter operações em dia.
+7. Pagamento integral liquida; pagamento mínimo não liquida.
+<<<PÁGINA 41>>>
+8. Rotativo é temporário; parcelamento tem cronograma.
+9. O cap de 100% limita encargos acumulados sobre o principal original abrangido.
+10. CET reúne custos; IOF é tributo; multa e mora são encargos de atraso.
+11. Cheque especial é limite rotativo ligado à conta.
+12. Para PF/MEI, os juros remuneratórios do cheque especial têm teto efetivo de 8% ao mês.
+13. Taxas, limites, renda mínima, garantias, tarifas e vencimentos dependem do contrato 
+quando não houver regra específica.
+4.3 Comparações críticas
+A
+B
+Diferença decisiva
+Rating
+Score
+Rating: opinião sobre emissor; 
+score: modelo estatístico de 
+risco
+Score
+SCR
+Score: nota/modelo; SCR: 
+sistema de responsabilidades 
+do BCB
+SCR
+Cadastro positivo
+SCR: operações e 
+responsabilidades; cadastro 
+positivo: histórico de 
+adimplemento
+Comprovação de renda
+Capacidade
+Entrada documentada; folga 
+sustentável após compromissos
+Garantia
+Análise de risco
+Recuperação potencial; 
+probabilidade/capacidade de 
+pagar
+Empréstimo
+Financiamento
+Destinação normalmente livre; 
+destinação vinculada
+Financiamento
+Leasing
+Cliente normalmente adquire; 
+arrendadora mantém 
+propriedade durante o uso
+Limite
+Saldo devedor
+Crédito autorizado; crédito 
+efetivamente utilizado/devido
+Pagamento mínimo
+Pagamento parcial
+Valor contratual obrigatório; 
+qualquer valor abaixo do total
+<<<PÁGINA 42>>>
+4.4 Palavras-chave
+• “Emissor de dívida”: rating.
+• “Modelo estatístico”: score.
+• “Histórico de adimplemento”: cadastro positivo.
+• “Responsabilidades, limites, em dia ou vencidas”: SCR.
+• “Folga depois das parcelas”: capacidade de pagamento.
+• “Bem permanece com arrendadora”: leasing.
+• “Saldo não pago até a fatura seguinte”: rotativo.
+• “Cronograma de parcelas”: parcelamento.
+• “Principal original”: base do cap.
+• “Taxa que consolida custos”: CET.
+• “Tributo”: IOF.
+• “Limite ligado à conta”: cheque especial.
+• “8% efetivos ao mês”: cheque especial de PF/MEI.
+4.5 Pegadinhas
+• Score alto garante aprovação. Correção: é insumo; a credora decide.
+Rotativo
+Parcelamento
+Temporário; cronograma 
+próprio
+Taxa nominal
+Taxa efetiva
+Referência periódica; 
+capitalização incorporada
+Juros
+Multa
+Remuneração; penalidade pelo 
+atraso
+Juros de mora
+IOF
+Encargo do atraso; tributo 
+federal
+CET
+Juros
+Custo consolidado; 
+componente financeiro
+Cartão
+Cheque especial
+Fatura e limite de compras; 
+limite ligado à conta
+Vencimento da fatura
+Vencimento do cheque especial
+Documentos e ciclos diferentes
+<<<PÁGINA 43>>>
+• SCR é cadastro de inadimplentes. Correção: pode mostrar operações em dia.
+• Renda comprovada demonstra capacidade. Correção: capacidade considera 
+despesas, dívidas, parcela e estabilidade.
+• Garantia elimina análise de renda. Correção: reduz perda potencial, não elimina 
+necessariamente a análise.
+• Todo empréstimo não tem garantia. Correção: pode haver garantia contratual.
+• Leasing transfere propriedade no primeiro pagamento. Correção: propriedade 
+permanece com a arrendadora.
+• Pagar qualquer parte é parcelar. Correção: pode ser rotativo, parcelamento ou 
+inadimplência.
+• Cap de 100% é taxa de 100%. Correção: é limite do montante de encargos abrangidos.
+• IOF é juros. Correção: IOF é tributo.
+• Cheque especial tem vencimento nacional único. Correção: depende de contrato e 
+ciclo.
+• Tarifa histórica de 0,25% é atual. Correção: não é regra vigente para PF/MEI.
+• BCB decide se o crédito será aprovado. Correção: a decisão é da instituição.
+4.6 Técnica de prova: cinco passos
+[ESCREVA]
+Plain Text
+1. CIRCULE a modalidade.
+2. SUBLINHE prazo, data e público.
+3. SEPARE valor autorizado de valor utilizado.
+4. IDENTIFIQUE taxa, CET, IOF e encargos.
+5. PROCURE a exceção antes de marcar.
+[FALE]
+A maior armadilha é responder pelo nome comercial. Responda pela estrutura técnica. Se o 
+enunciado diz “pessoa natural”, “MEI”, “rotativo”, “saldo original”, “operação em 
+dia” ou “propriedade da arrendadora”, essas palavras controlam a resposta.
+<<<PÁGINA 44>>>
+5. Case / Storytelling — aproximadamente 
+15 minutos
+Situação: a decisão de Ana, seu cartão e o limite da conta
+Ana é profissional autônoma e tem renda variável. A instituição pede documentos e dados 
+para avaliar sua solicitação.
+Parte 1 — renda, capacidade e risco
+Ana apresenta extratos e declaração de renda. A comprovação registra entradas, mas a 
+instituição verifica também despesas recorrentes, parcelas, limites utilizados e estabilidade.
+Seu Score Serasa é alto. Mesmo assim, a folga estimada é pequena. O score é positivo, mas 
+não garante aprovação.
+A instituição consulta o SCR com a autorização específica exigida. O relatório mostra cartão 
+em dia, financiamento em dia e limite de cheque especial. A existência do limite não 
+significa que Ana deve todo o limite.
+Plain Text
+renda comprovada ≠ capacidade disponível
+score ≠ decisão automática
+SCR ≠ cadastro negativo
+limite ≠ saldo devedor
+Parte 2 — escolha do produto
+Ana quer comprar um equipamento profissional. O gerente apresenta empréstimo de 
+destinação livre, financiamento vinculado ao equipamento e leasing com uso imediato e 
+opção contratual ao final.
+No empréstimo, o recurso é normalmente livre. No financiamento, o crédito está ligado ao 
+equipamento. No leasing, a arrendadora permanece proprietária durante o contrato, e Ana 
+é arrendatária.
+Ana compara CET, custo total, prazo, propriedade, manutenção, seguro, quitação 
+antecipada e consequências do inadimplemento.
+Parte 3 — fatura do cartão
+Ana recebe fatura de R$ 1.500. Paga R$ 500, não contrata parcelamento e não paga o total. 
+Conforme contrato e fatura, os R$ 1.000 remanescentes podem entrar no rotativo, que é 
+<<<PÁGINA 45>>>
+temporário até o vencimento da fatura subsequente.
+Se não pagar o obrigatório, entra em inadimplência com as consequências e encargos 
+previstos. Pagar R$ 500 não significa automaticamente parcelar.
+Se a operação abrangida foi originada a partir de 03/01/2024, o cap de 100% dos juros e 
+encargos aplicáveis deve ser observado sobre o valor original, sem virar taxa máxima.
+Parte 4 — cheque especial
+Ana usa R$ 800 do cheque especial por dez dias. O contrato informa taxa, método e ciclo. 
+Para pessoa natural, os juros remuneratórios têm teto de 8% efetivos ao mês. O IOF é 
+separado dos juros e depende do enquadramento tributário.
+O vencimento do cartão não é automaticamente o vencimento do cheque especial. São 
+produtos distintos.
+Parte 5 — decisão responsável
+O gerente apresenta o CET e os custos. Não promete aprovação sem análise. Explica o risco 
+do pagamento parcial. Informa que uma garantia pode reduzir perda, mas não substitui 
+capacidade. Mostra portabilidade e liquidação antecipada nas hipóteses aplicáveis.
+Ana escolhe o produto que atende à finalidade e cabe na folga, não necessariamente o de 
+menor parcela inicial.
+Análise técnica do case
+Evento
+Conceito
+Função
+Documentos
+Comprovação de renda
+Evidenciar entradas
+Despesas e dívidas
+Capacidade
+Medir folga
+Score alto
+Credit scoring
+Insumo estatístico
+Consulta ao BCB
+SCR
+Informar responsabilidades
+Equipamento
+Financiamento
+Vincular finalidade
+Propriedade da arrendadora
+Leasing
+Ceder uso sem transferência 
+imediata
+R$ 500 pagos
+Pagamento parcial
+Deixar saldo conforme contrato
+R$ 1.000 remanescentes
+Rotativo possível
+Financiar temporariamente
+R$ 800 usados da conta
+Cheque especial
+Usar limite ligado à conta
+<<<PÁGINA 46>>>
+Síntese do case
+Ana não deve perguntar apenas “qual é a taxa?”. Deve perguntar qual é o produto, qual é 
+a finalidade, qual é o saldo utilizado, qual é a taxa efetiva, qual é o CET, o que ocorre no 
+pagamento parcial, qual é o custo do atraso, o que é juros/IOF/tarifa, qual é o vencimento e 
+se pode liquidar ou portar.
+6. Questão final comentada
+Certificação
+CPA.
+Competência
+2.3 Produtos de financiamento, integrando 2.3.1.1, 2.3.1.3, 2.3.2.1, 2.3.2.2 e 2.3.3.1.
+Nível
+Difícil.
+Enunciado
+Em 12/09/2026, uma pessoa natural possui cartão de crédito e cheque especial. Recebeu 
+fatura de R
+ 500 no vencimento, sem contratar parcelamento. Também 
+utilizou R$ 1.000 do cheque especial durante dez dias. Considerando somente as 
+informações do enunciado e as regras estudadas, assinale a alternativa correta.
+A) O pagamento de R$ 500 necessariamente contratou o parcelamento; o saldo de R$ 1.000 
+é o limite disponível; e o cheque especial tem vencimento nacional igual ao da fatura.
+B) Score Serasa alto obriga a instituição a aprovar novo crédito; SCR é cadastro negativo; e 
+o limite do cheque especial é toda a dívida.
+C) O saldo não pago pode permanecer no rotativo apenas até o vencimento da fatura 
+subsequente; o cap de 100% restringe o montante de juros e encargos abrangidos sobre o 
+Custos totais
+CET
+Comparar custos vinculados
+Decisão responsável é comparar o fluxo completo, não apenas a parcela ou o limite 
+anunciado.
+1.500epagouR
+<<<PÁGINA 47>>>
+valor original, não a taxa mensal; para pessoa natural, os juros remuneratórios do cheque 
+especial são limitados a 8% efetivos ao mês; e IOF é tributo distinto dos juros.
+D) O cap de 100% é taxa máxima de 100% ao ano; como o cheque especial está ligado à 
+conta, não há IOF; e o SCR decide automaticamente a aprovação.
+E) Comprovação de renda basta para provar capacidade; garantia substitui análise de risco; 
+e leasing transfere a propriedade ao cliente no início.
+Ponto-chave
+Separar pagamento parcial, rotativo, cap de encargos, teto do cheque especial, IOF e 
+função do SCR.
+Gabarito
+Alternativa C.
+Justificativa da correta
+A alternativa C está correta. O pagamento parcial sem parcelamento pode deixar saldo no 
+rotativo conforme a fatura e o contrato. O rotativo só permanece até o vencimento da fatura 
+subsequente. O cap limita o montante acumulado de juros e encargos abrangidos sobre o 
+valor original; não estabelece taxa mensal ou anual de 100%. Para pessoa natural, o cheque 
+especial tem teto de 8% efetivos ao mês. IOF é tributo e não se confunde com juros.
+Alternativas incorretas
+• A: pagamento parcial não significa necessariamente parcelamento; saldo devedor não 
+é limite disponível; não existe vencimento nacional único do cheque especial.
+• B: score é insumo e não garante aprovação; SCR não é cadastro negativo; limite não é 
+toda a dívida.
+• C: correta pelos motivos acima.
+• D: cap não é taxa anual; cheque especial pode ter IOF conforme operação; SCR não 
+decide automaticamente.
+• E: renda comprovada não equivale a capacidade; garantia não elimina análise; no 
+leasing a propriedade permanece com a arrendadora durante o contrato.
+Armadilhas e macetes
+• “Pagou parte” não significa automaticamente “parcelou”.
+• “100%” no cartão é limite de montante, não taxa anual.
+<<<PÁGINA 48>>>
+• “8% efetivos” é regra do cheque especial de PF/MEI.
+• “SCR” é informação, não score nem decisão.
+• “IOF” é tributo.
+• “Limite” é autorização; saldo devedor é uso efetivo.
+Referências da questão
+• Resolução CMN 4.549/2017, texto consolidado.
+• Lei 14.690/2023.
+• Resolução CMN 4.765/2019.
+• Resolução CMN 5.037/2022 — SCR.
+• Decreto 6.306/2007 — IOF.
+7. Revisão final — aproximadamente 15 
+minutos
+Resumo em cinco pontos
+1. Disponibilização responsável: exige ética, transparência, diligência, tratamento justo, 
+capacidade, risco e informação de custo e consequência.
+2. Dados e risco: rating classifica emissor; score é modelo; renda mostra entradas; 
+capacidade mostra folga; SCR informa responsabilidades; nenhum decide sozinho.
+3. Produtos: empréstimo normalmente tem destinação livre; financiamento tem 
+finalidade vinculada; leasing concede uso com propriedade da arrendadora.
+4. Cartão: limite não é dívida; integral liquida; parcial pode gerar rotativo; parcelamento é 
+distinto; cap de 100% limita montante de juros e encargos abrangidos.
+5. Custos e cheque especial: juros, multa, mora, IOF, tarifa e CET são diferentes; cheque 
+especial é limite ligado à conta; PF/MEI têm teto efetivo de 8% ao mês.
+Quadro de emergência
+Plain Text
+RATING        = emissor de dívida
+SCORE         = modelo estatístico de risco
+<<<PÁGINA 49>>>
+RENDA         = entradas comprovadas
+CAPACIDADE    = folga após despesas e obrigações
+GARANTIA      = reduz perda; não substitui análise
+SCR           = responsabilidades; não é cadastro negativo
+EMPRÉSTIMO    = finalidade normalmente livre
+FINANCIAMENTO = finalidade vinculada
+LEASING       = uso do bem; propriedade da arrendadora durante o contrato
+LIMITE        = autorizado
+SALDO         = utilizado/devido
+INTEGRAL      = liquida a fatura
+PARCIAL       = pode gerar rotativo, parcelamento ou inadimplência
+ROTATIVO      = temporário até fatura seguinte
+PARCELADO     = cronograma e custo próprios
+CAP 100%      = montante de encargos, não taxa de 100% a.a.
+JUROS         = remuneração do crédito
+MORA          = encargo do atraso
+MULTA         = penalidade do atraso
+IOF           = tributo
+TARIFA        = preço de serviço, quando válida
+CET           = custo consolidado em taxa anual
+CHEQUE ESPECIAL = limite rotativo ligado à conta
+8% efetivos/mês = teto para PF/MEI, conforme regra vigente
+VENCIMENTO     = contrato/ciclo; não é automaticamente fato gerador do IOF
+Cadeia lógica
+Cadeias por produto
+Necessidade → produto adequado → análise de renda, capacidade, risco e dados → 
+informação de taxa, CET, encargos e consequências → decisão de contratar, limitar, 
+portar, renegociar ou não contratar.
+Empréstimo: recurso livre → liberação → juros e parcelas → contrato e CET → decisão de 
+pagar e comparar.
+Financiamento: finalidade vinculada → bem/serviço → garantia eventual → fluxo e CET 
+→ decisão de adquirir.
+Leasing: bem da arrendadora → uso pelo arrendatário → contraprestações → comprar, 
+renovar ou devolver → decisão de uso e propriedade.
+<<<PÁGINA 50>>>
+Diferenças críticas
+• Rating ≠ score: emissor versus modelo de risco.
+• Score ≠ SCR: pontuação versus sistema de responsabilidades.
+• SCR ≠ Serasa/SPC: sistema BCB versus gestores e produtos privados.
+• Comprovação de renda ≠ capacidade: entradas versus folga sustentável.
+• Garantia ≠ análise de risco: recuperação potencial versus probabilidade/capacidade.
+• Empréstimo ≠ financiamento ≠ leasing: recurso livre versus finalidade vinculada 
+versus uso com propriedade da arrendadora.
+• Limite ≠ saldo devedor: autorizado versus utilizado.
+• Mínimo ≠ parcial: valor obrigatório versus qualquer valor abaixo do total.
+• Parcial ≠ parcelamento: deixar saldo não significa contratar parcelas.
+• Rotativo ≠ parcelamento: temporário versus cronograma.
+• Refinanciamento ≠ portabilidade: reorganização versus transferência para outra 
+instituição.
+• Taxa nominal ≠ efetiva: referência periódica versus capitalização.
+• Juros ≠ multa ≠ mora ≠ IOF ≠ tarifa: remuneração, penalidade, atraso, tributo e 
+serviço.
+• CET ≠ juros: custo consolidado versus componente.
+• Cheque especial ≠ empréstimo pessoal: limite ligado à conta versus contrato 
+separado.
+• Vencimento da fatura ≠ vencimento do cheque especial: documentos e ciclos 
+diferentes.
+Frase central da aula
+Cartão: limite → compras e fatura → integral, parcial, rotativo ou parcelamento → custos 
+e cap → decisão de liquidar, parcelar ou portar.
+Cheque especial: limite ligado à conta → uso por saldo negativo → juros e IOF → 
+vencimento contratual e recomposição → decisão de utilizar ou buscar crédito 
+estruturado.
+Crédito não é apenas dinheiro disponível: é uma decisão contratual sobre 
+finalidade, capacidade, risco, custo, dados, garantia e consequência.
+<<<PÁGINA 51>>>
+Próximo passo de estudo
+1. Reescreva, sem consultar, as diferenças críticas.
+2. Faça um cálculo de juros compostos do cartão e outro de juros por saldo diário do 
+cheque especial.
+3. Leia uma fatura e circule total, obrigatório, vencimento, limite, taxa efetiva, CET, juros, 
+tarifas e IOF quando houver.
+4. Compare propostas de empréstimo, financiamento e leasing usando custo total, 
+propriedade, garantia e quitação.
+5. Resolva novamente a questão final e justifique cada alternativa.
+Referências oficiais
+1. ANBIMA — Programa Detalhado CPA, versão 1.2, revisão 04/06/2025, vigência 
+01/01/2026 — PDF.
+2. Banco Central/CMN — Resolução 4.949/2021 — relacionamento — ato.
+3. Planalto — Lei 14.181/2021 — crédito responsável e superendividamento — texto.
+4. Planalto — Decreto 11.150/2022 — mínimo existencial — texto.
+5. Banco Central/CMN — Resolução 4.881/2020 — CET — ato.
+6. Banco Central/CMN — Resolução 5.004/2022 — crédito, contrato e DDC — ato.
+7. Banco Central/CMN — Resolução 4.977/2021 — leasing — ato.
+8. Planalto — Lei 6.099/1974 — arrendamento mercantil — texto.
+9. Banco Central/CMN — Resolução 5.037/2022 — SCR — ato.
+10. Banco Central — SCR — página.
+11. Banco Central — Circular 3.870/2017 e Carta Circular 3.869/2018 — SCR — Circular e 
+Carta Circular.
+12. Banco Central — Glossário: rating — página.
+13. Câmara — Lei 12.414/2011 — Cadastro Positivo — texto.
+14. Planalto — LGPD, Lei 13.709/2018 — texto.
+15. STJ — REsp 1.419.697/RS — credit scoring — decisão.
+16. Banco Central — empréstimo, financiamento e leasing — página.
+<<<PÁGINA 52>>>
+17. Banco Central/CMN — Resoluções 5.057/2022 e 5.265/2025 — portabilidade — 5.057 
+e 5.265.
+18. Banco Central — Resolução 4.549/2017 consolidada — rotativo — texto.
+19. Banco Central — Resolução 5.112/2023 e Resolução BCB 365/2023 — cartão — 5.112 
+e 365.
+20. Planalto — Lei 14.690/2023 — cartão e cap — texto.
+21. Planalto — CDC compilado — texto.
+22. Banco Central — FAQ de juros e encargos do cartão — página.
+23. Planalto — Decreto 6.306/2007 — IOF — texto.
+24. Banco Central/CMN — Resolução 4.765/2019 — cheque especial — texto.
+25. Banco Central — FAQ de cheque especial — página.
+26. Banco Central/CMN — Resolução 4.962/2021 — revogação do art. 2º da 4.765 — ato.
+27. STF — ADI 6.407 — tarifa do cheque especial — notícia.
+28. Banco Central — Calculadora do Cidadão — financiamento — metodologia.
+29. Banco Central — tarifas bancárias — página.
+30. STF — IOF e efeitos temporais do Decreto 12.499/2025 — decisão e esclarecimento.
+31. HP — Manual HP-12C — manual.
+Último acesso indicado para esta aula: 12/09/2026.
+Observações normativas e limitações
+1. O Programa Detalhado CPA define o escopo; fontes oficiais definem a regra vigente.
+2. Valores como R
+ 600,00 no mínimo existencial, 8% ao mês no cheque 
+especial, cap de 100%, dois dias, sete dias, cinco anos e outros números têm escopo 
+específico. Não são limites universais de concessão.
+3. Não há documento único de comprovação de renda, renda mínima ou percentual 
+nacional de comprometimento aplicável a todos os produtos.
+4. A escala e o modelo do Serasa Score são comerciais e podem mudar; não são norma 
+universal nem promessa de aprovação.
+5. A Resolução CMN 4.881 tem âmbito específico. Confira exclusões e enquadramento 
+antes de calcular CET.
+6. O cap do cartão limita montante de juros e encargos abrangidos, não a taxa mensal e 
+não necessariamente compras parceladas com juros que não financiam saldo da fatura.
+200,00noSCR,R
+<<<PÁGINA 53>>>
+7. Regras de IOF são sensíveis a data, sujeito, modalidade, decreto e decisão judicial. 
+Rechecar antes de utilizar este material após o corte.
+8. A tarifa histórica de disponibilidade do cheque especial foi separada da regra vigente. 
+Não use o cálculo histórico para PF/MEI.
+9. O vencimento do cheque especial depende do contrato, extrato e ciclo; não há 
+calendário nacional único.
+10. O mínimo existencial de R$ 600,00 é apresentado como valor textual regulamentar, com 
+ressalva de controvérsia judicial e necessidade de rechecagem.
+11. A questão final é inédita e foi criada para este roteiro; não copia questão real.
+Checklist de cobertura
+2.3 — Produtos de financiamento.
+2.3.1 — Princípios para disponibilização de crédito.
+2.3.1.1 — Rating de crédito, score Serasa e comprovação de renda.
+2.3.1.2 — Diferenças entre empréstimo, financiamento e leasing.
+2.3.1.3 — Utilização do SCR.
+2.3.2 — Cartão de crédito.
+2.3.2.1 — Limites, juros, pagamento parcial e refinanciamento.
+2.3.2.2 — Cálculos da taxa de refinanciamento de faturas.
+2.3.3 — Cheque especial.
+2.3.3.1 — Data de vencimento, cálculos de juros e IOF.
+Sete etapas obrigatórias CertPass, em ordem.
+Matriz de cobertura.
+Linguagem literal e linear para TEA/TDAH.
+Tabelas, analogia controlada, comandos de lousa/tela e frases de fixação.
+Fórmulas com variáveis, substituição, resultado e interpretação.
+Teclas HP-12C nos exemplos solicitados.
+Rating ≠ score; score ≠ SCR; renda ≠ capacidade; garantia ≠ análise de risco.
+Empréstimo ≠ financiamento ≠ leasing.
+<<<PÁGINA 54>>>
+Limite ≠ saldo; mínimo ≠ parcial ≠ parcelamento ≠ rotativo ≠ refinanciamento.
+Taxa nominal ≠ efetiva; juros ≠ multa ≠ mora ≠ IOF ≠ tarifa.
+Cheque especial ≠ empréstimo pessoal.
+Vencimento da fatura ≠ vencimento do cheque especial.
+Questão final inédita com cinco alternativas e justificativa individual.
+Resumo em cinco pontos, quadro de emergência, cadeia lógica, diferenças críticas, 
+frase central e próximo passo.
+Referências oficiais, observações normativas e limitações/fatos dependentes de 
+atualização.
+Fechamento do professor
+[FALE]
+[FIXE]
+[FIM]
+Roteiro preparado para uso didático. Não substitui o contrato, a norma vigente, a 
+orientação oficial do órgão competente ou aconselhamento jurídico individual.
+Se você identificar o produto, separar limite de saldo, separar taxa de CET, separar 
+juros de IOF e separar informação de decisão, você controla a maior parte das 
+pegadinhas de 2.3.
+Conceito → mecanismo → aplicação → regra → decisão.
