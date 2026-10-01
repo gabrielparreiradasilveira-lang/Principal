@@ -1,0 +1,1005 @@
+<<<PÁGINA 1>>>
+CPA — Serviços Bancários
+Roteiro operacional de lousa/tela
+Professor: Gabriel
+Certificação: CPA ANBIMA
+Formato: aula desenvolvida progressivamente em lousa ou tela compartilhada, sem slides 
+prontos
+Módulo: 2.4 — Serviços bancários
+Base: Programa Detalhado CPA ANBIMA, versão 1.2, revisada em 04/06/2025, com vigência 
+a partir de 01/01/2026. 1
+1. Ordem oficial do módulo
+A aula deve seguir rigorosamente esta ordem:
+Ideia central: serviços bancários são a infraestrutura que permite receber, guardar, 
+movimentar, pagar, converter e acessar recursos.
+Ordem
+Item
+Conteúdo principal
+1
+2.4.1
+Conta corrente
+2
+2.4.1.1
+Recebimento de salários
+3
+2.4.1.2
+Depósitos à vista
+4
+2.4.1.2.1
+Garantias para depósitos à vista
+5
+2.4.1.2.2
+Depósito compulsório
+6
+2.4.1.3
+Boleto bancário
+7
+2.4.1.4
+Serviços digitais
+8
+2.4.1.5
+Pagamento Instantâneo 
+Brasileiro — Pix
+9
+2.4.1.6
+Tarifas
+10
+2.4.1.7
+Atendimento bancário
+11
+2.4.2
+Conta internacional
+<<<PÁGINA 2>>>
+Espinha dorsal permanente
+[ESCREVA NO CANTO SUPERIOR DIREITO E MANTENHA DURANTE A AULA]
+Convenção de comandos
+• [ESCREVA]: texto exato para colocar na lousa ou na tela.
+• [DESENHE]: setas, caixas, linhas do tempo ou colunas.
+• [CIRCULE]: palavra que deve chamar atenção.
+• [SUBLINHE]: conceito central ou distinção de prova.
+• [CONECTE]: ligação causal entre dois elementos.
+• [FALE]: fala sugerida para o professor.
+• [PARE E PERGUNTE]: pergunta feita antes da resposta.
+• [FIXE]: frase curta de memorização.
+• [TRANSIÇÃO]: passagem para o próximo assunto.
+• [APAGUE]: conteúdo provisório que pode ser retirado.
+• [MANTENHA]: conteúdo que deve permanecer como mapa da aula.
+Regra de progressão
+Comece com uma pergunta prática. Escreva apenas a palavra-chave. Construa a relação 
+com setas. Explique. Só depois registre a conclusão e a pegadinha de prova.
+2. Abertura — para que serve um banco no 
+cotidiano?
+Objetivo
+12
+2.4.3
+Compra e venda de moeda 
+estrangeira
+ACESSO → MOVIMENTAÇÃO → PAGAMENTO → SEGURANÇA → CUSTO → 
+ATENDIMENTO → EXTERIOR → CÂMBIO
+<<<PÁGINA 3>>>
+Apresentar serviços bancários como uma infraestrutura de acesso e circulação de recursos, 
+antes de entrar nas definições regulatórias.
+Passo 1 — Pergunta-problema
+[ESCREVA NO CENTRO DA TELA]
+[PARE E PERGUNTE]
+Solicite respostas rápidas: salário, depósito, Pix, boleto, cartão, saque, transferência, 
+câmbio e investimento.
+Escreva as palavras que surgirem ao redor da pergunta, sem explicar ainda.
+Passo 2 — Metáfora da infraestrutura
+[DESENHE UMA ESTRADA COM OITO ESTAÇÕES]
+Escreva, da esquerda para a direita:
+[FALE]
+Pense no sistema bancário como uma estrada. O dinheiro precisa entrar, permanecer 
+disponível, circular, ser usado em pagamentos e, em alguns casos, ser convertido para 
+outra moeda. Cada serviço bancário é uma estação dessa estrada.
+A conta corrente é a porta de entrada da movimentação. O depósito à vista mostra a 
+natureza do dinheiro disponível. Boleto e Pix são meios de pagamento. Tarifas representam 
+custos. Atendimento representa o canal de relacionamento. A conta internacional e o 
+câmbio conectam o cliente ao exterior.
+Passo 3 — Título
+[ESCREVA NO TOPO]
+Abaixo, escreva:
+[FIXE]
+O QUE ACONTECE COM O DINHEIRO ANTES E DEPOIS DE ELE CHEGAR À CONTA?
+RECEBER → GUARDAR → MOVIMENTAR → PAGAR → PROTEGER → COBRAR → 
+ATENDER → CONVERTER
+2.4 — SERVIÇOS BANCÁRIOS
+conta → pagamentos → canais → custos → exterior
+<<<PÁGINA 4>>>
+[TRANSIÇÃO]
+Vamos começar pela conta que concentra a movimentação diária: a conta corrente.
+3. 2.4.1 — Conta corrente
+Objetivo
+Diferenciar conta corrente, conta de depósitos à vista, poupança, conta-salário, conta de 
+pagamento e conta digital.
+Passo 1 — Título
+[ESCREVA NO TOPO]
+Passo 2 — Definição operacional
+[ESCREVA NO CENTRO]
+Ao lado, escreva:
+[FALE]
+O Banco Central define a conta corrente como conta de depósitos à vista. O dinheiro fica à 
+disposição do depositante para ser movimentado ou sacado a qualquer momento. A conta 
+permite pagamentos e transferências e pode ser utilizada em operações de crédito ou 
+aplicações financeiras. 2
+A palavra-chave é disponibilidade para movimentação. A conta corrente não é, por sua 
+natureza principal, uma aplicação de longo prazo.
+Passo 3 — Conta corrente versus poupança
+[DIVIDA A TELA EM DUAS COLUNAS]
+Serviço bancário é função de movimentação, pagamento, atendimento ou acesso a 
+recursos; não é automaticamente investimento.
+2.4.1 — CONTA CORRENTE
+CONTA CORRENTE = CONTA DE DEPÓSITOS À VISTA
+movimentar • sacar • pagar • transferir
+<<<PÁGINA 5>>>
+Esquerda:
+Direita:
+[FALE]
+Conta corrente e poupança não são sinônimos. A corrente tem foco na movimentação e nos 
+pagamentos. A poupança possui finalidade de aplicação de valores e geração de 
+rendimentos segundo regras próprias.
+Passo 4 — Conta digital
+[ESCREVA ABAIXO]
+Abaixo, escreva:
+[FALE]
+“Conta digital” ou “conta eletrônica” é uma expressão popular. O Banco Central 
+informa que ela pode se referir a conta bancária ou conta de pagamento aberta, 
+movimentada e encerrada basicamente por meios eletrônicos. A expressão não é, sozinha, 
+uma categoria regulatória própria. 2
+[PARE E PERGUNTE]
+Após ouvir, escreva:
+[FIXE]
+CONTA CORRENTEdepósitos à vista
+pagamentos
+transferências
+saque e movimentação
+POUPANÇAestímulo à economia popular
+aplicação de pequenos valores
+rendimentos conforme regras próprias
+“CONTA DIGITAL” = EXPRESSÃO POPULAR
+pode ser conta bancária ou conta de pagamento
+“Toda conta digital é uma conta corrente?”
+NÃO NECESSARIAMENTE. IDENTIFIQUE A NATUREZA DA CONTA.
+<<<PÁGINA 6>>>
+[TRANSIÇÃO]
+Agora vamos entender duas formas importantes de entrada de recursos: salário e depósito 
+à vista.
+4. 2.4.1.1 — Recebimento de salários
+Objetivo
+Explicar a relação entre pagamento de salário, conta-salário, conta corrente e 
+disponibilidade dos recursos.
+Passo 1 — Título
+[ESCREVA]
+Passo 2 — Fluxo do salário
+[DESENHE]
+[FALE]
+O salário pode ser recebido por meio de conta-salário ou creditado em conta corrente, 
+conforme a estrutura adotada pelo empregador e pelo banco. O ponto central é separar a 
+origem do recurso, a conta utilizada para recebimento e a possibilidade de movimentação 
+pelo trabalhador.
+Passo 3 — Diferenciação
+[DIVIDA A TELA]
+Conta corrente é conta de depósitos à vista. Conta digital descreve o canal, não 
+necessariamente a natureza jurídica.
+2.4.1.1 — RECEBIMENTO DE SALÁRIOS
+empregador → instituição pagadora → conta → trabalhador
+CONTA-SALÁRIOvinculada ao recebimento de salários e similares
+regras específicas
+finalidade de recebimento
+<<<PÁGINA 7>>>
+[FALE]
+Não confunda conta-salário com conta corrente comum. A conta-salário está ligada ao 
+recebimento de remuneração. A conta corrente é uma conta de depósitos à vista com 
+serviços de movimentação. A portabilidade salarial e as tarifas dependem das regras 
+aplicáveis e da operação contratada.
+Passo 4 — Renda não é limite
+[ESCREVA EM DESTAQUE]
+[FALE]
+O salário é renda recebida. O limite de cheque especial, cartão ou crédito pessoal é 
+autorização de crédito. O profissional deve evitar confundir esses conceitos.
+[PARE E PERGUNTE]
+Resposta para escrever:
+[FIXE]
+[TRANSIÇÃO]
+O salário pode chegar à conta. Mas que tipo de recurso é mantido em uma conta corrente? 
+A resposta nos leva aos depósitos à vista.
+5. 2.4.1.2 — Depósitos à vista
+Objetivo
+CONTA CORRENTEmovimentação geral
+pagamentos e transferências
+serviços contratados
+SALÁRIO CREDITADO ≠ LIMITE DE CRÉDITO
+“O banco pode considerar o limite pré-aprovado como parte do salário do cliente?”
+NÃO. LIMITE É CRÉDITO POTENCIAL, NÃO RENDA.
+Receber salário é entrada de renda. Usar limite é contratar crédito.
+<<<PÁGINA 8>>>
+Definir depósito à vista e diferenciá-lo de aplicação financeira e de depósito a prazo.
+Passo 1 — Título
+[ESCREVA]
+Passo 2 — Definição
+[ESCREVA NO CENTRO]
+Ao redor, escreva:
+[FALE]
+O depósito à vista é o recurso mantido em conta corrente e disponível para movimentação. 
+O cliente pode usar o dinheiro para pagar, transferir ou sacar conforme os canais e as regras 
+da conta. 2
+A palavra “à vista” indica disponibilidade, não ausência de risco operacional, nem 
+promessa de rentabilidade.
+Passo 3 — Depósito à vista versus investimento
+[DIVIDA A TELA]
+Esquerda:
+Direita:
+[FALE]
+2.4.1.2 — DEPÓSITOS À VISTA
+DEPÓSITO À VISTA = RECURSO DISPONÍVEL PARA MOVIMENTAÇÃO
+saque • Pix • boleto • transferência • pagamento
+DEPÓSITO À VISTAliquidez para movimentação
+pagamentos
+transferências
+finalidade transacional
+INVESTIMENTOaplicação
+expectativa de retorno
+risco e liquidez próprios
+finalidade patrimonial
+<<<PÁGINA 9>>>
+Não trate todo dinheiro no banco como investimento. A conta corrente é infraestrutura 
+transacional. Uma aplicação financeira possui características próprias de retorno, risco, 
+liquidez e tributação.
+[PARE E PERGUNTE]
+Resposta:
+[FIXE]
+[TRANSIÇÃO]
+Se o cliente deixa dinheiro no banco, surge uma pergunta: existe alguma proteção para 
+esse recurso?
+6. 2.4.1.2.1 — Garantias para depósitos à vista
+Objetivo
+Apresentar o FGC como mecanismo de proteção sujeito a modalidade, instituição, limites e 
+condições, sem tratá-lo como garantia universal.
+Passo 1 — Título
+[ESCREVA]
+Passo 2 — Pergunta de segurança
+[ESCREVA]
+[PARE E PERGUNTE]
+Permita uma resposta de “sim” ou “não”. Em seguida, escreva:
+“O saldo disponível na conta corrente é automaticamente uma aplicação?”
+NÃO. É DEPÓSITO À VISTA, SALVO SE HOUVER CONTRATAÇÃO DE OUTRO PRODUTO.
+Depósito à vista serve para movimentar. Aplicação financeira serve para investir.
+2.4.1.2.1 — GARANTIAS PARA DEPÓSITOS À VISTA
+FGC = PROTEÇÃO UNIVERSAL?
+<<<PÁGINA 10>>>
+[FALE]
+O Fundo Garantidor de Créditos pode proteger determinados créditos elegíveis, 
+observados a instituição, a modalidade, os limites e as condições regulamentares. O FGC 
+não é garantia universal para qualquer recurso ou investimento.
+Passo 3 — Mapa de análise
+[DESENHE TRÊS CAIXAS]
+[FALE]
+Quando aparecer uma garantia em questão de prova, não pare na palavra “garantido”. 
+Pergunte: qual produto, qual instituição, qual limite e qual condição? O raciocínio é mais 
+importante do que decorar a ideia genérica de proteção.
+[FIXE]
+[TRANSIÇÃO]
+A proteção do depositante é uma coisa. A gestão da liquidez do sistema financeiro é outra. 
+Agora vamos ao depósito compulsório.
+7. 2.4.1.2.2 — Depósito compulsório
+Objetivo
+Diferenciar depósito compulsório, saldo do cliente e tarifa bancária.
+Passo 1 — Título
+[ESCREVA]
+NÃO. HÁ LIMITES, MODALIDADES E CONDIÇÕES.
+produto elegível? → instituição participante? → limite e condição?
+FGC protege créditos elegíveis dentro das condições aplicáveis; não transforma 
+qualquer produto em risco zero.
+2.4.1.2.2 — DEPÓSITO COMPULSÓRIO
+<<<PÁGINA 11>>>
+Passo 2 — Fluxo institucional
+[DESENHE]
+[FALE]
+O depósito compulsório é instrumento de política monetária e de regulação da liquidez. A 
+instituição financeira mantém parcela de determinados recursos conforme a 
+regulamentação aplicável. Esse mecanismo atua no sistema financeiro; não é uma tarifa 
+cobrada diretamente do cliente.
+Passo 3 — Três conceitos diferentes
+[ESCREVA EM TRÊS LINHAS]
+[FALE]
+Saldo, garantia e compulsório são conceitos diferentes. O saldo pertence à relação do 
+cliente com a instituição. A garantia depende de elegibilidade e regras. O compulsório é 
+uma obrigação regulatória do sistema.
+[PARE E PERGUNTE]
+Resposta:
+[FIXE]
+[TRANSIÇÃO]
+Depois de guardar ou receber recursos, o cliente precisa pagar uma obrigação. O primeiro 
+meio de pagamento desta sequência é o boleto.
+8. 2.4.1.3 — Boleto bancário
+recursos captados pelas instituições → parcela recolhida → Banco Central
+SALDO DO CLIENTE — recurso disponível na contaFGC — mecanismo de garantia dentro 
+das condiçõesCOMPULSÓRIO — instrumento de liquidez e política monetária
+“O depósito compulsório é uma tarifa paga pelo cliente?”
+NÃO. É UM INSTRUMENTO REGULATÓRIO SOBRE AS INSTITUIÇÕES.
+FGC protege em condições. Compulsório regula liquidez. Tarifa remunera serviço.
+<<<PÁGINA 12>>>
+Objetivo
+Explicar boleto como ordem de pagamento, reconhecer código de barras e linha digitável e 
+identificar a compensação.
+Passo 1 — Título
+[ESCREVA]
+Passo 2 — Definição
+[ESCREVA NO CENTRO]
+Ao lado, escreva:
+[FALE]
+O Banco Central define o boleto como uma ordem de pagamento que reúne os dados da 
+operação e os elementos que permitem a transação, como o código de barras e a linha 
+digitável. 3
+Passo 3 — Fluxo do boleto
+[DESENHE UMA LINHA DE PROCESSO]
+[FALE]
+O boleto é emitido, apresentado ao pagador e pago por um canal disponível. Depois, entra 
+no processo de compensação e liquidação. A imagem do boleto não é a mesma coisa que o 
+dinheiro já liquidado na conta do beneficiário.
+Passo 4 — Quem compensa?
+[ESCREVA EM DESTAQUE]
+2.4.1.3 — BOLETO BANCÁRIO
+BOLETO = ORDEM DE PAGAMENTO
+código de barras • linha digitável • valor • beneficiário
+emissão → apresentação → pagamento → compensação → liquidação
+NÃO É O BANCO CENTRAL QUE COMPENSA DIRETAMENTE O BOLETO.NUCLEA 
+participa do processo de compensação.
+<<<PÁGINA 13>>>
+[FALE]
+O Banco Central informa que, depois do pagamento, o boleto entra no processo de 
+compensação no Sistema de Pagamentos Brasileiro por meio da Nuclea, antiga Câmara 
+Interbancária de Pagamentos. A compensação não é realizada diretamente pelo Banco 
+Central. 3
+Passo 5 — Conferência antifraude
+[DESENHE UMA CAIXA]
+[FALE]
+Antes do pagamento, confira o beneficiário, o valor, o vencimento e os dados de destino. A 
+aparência visual do documento não é prova suficiente de autenticidade.
+[PARE E PERGUNTE]
+Resposta:
+[FIXE]
+[TRANSIÇÃO]
+O boleto depende de um documento. Os serviços digitais permitem fazer operações por 
+canais eletrônicos, sem depender da agência física.
+9. 2.4.1.4 — Serviços digitais
+Objetivo
+beneficiário
+banco destinatário
+valor
+vencimento
+linha digitável
+“Boleto pago significa recurso imediatamente disponível para o beneficiário?”
+NÃO NECESSARIAMENTE. HÁ PROCESSO DE COMPENSAÇÃO E LIQUIDAÇÃO.
+Boleto é ordem de pagamento; código de barras identifica; compensação processa.
+<<<PÁGINA 14>>>
+Diferenciar canal digital de natureza do produto e explicar requisitos de segurança e sigilo.
+Passo 1 — Título
+[ESCREVA]
+Passo 2 — Canal e produto
+[DESENHE DUAS CAMADAS]
+Camada superior:
+Camada inferior:
+[FALE]
+Serviço digital é o canal pelo qual o cliente acessa um produto. O canal não muda 
+automaticamente a natureza do produto. Uma conta movimentada por aplicativo pode ser 
+uma conta bancária ou uma conta de pagamento.
+Passo 3 — Requisitos
+[ESCREVA EM COLUNA]
+[FALE]
+O Banco Central informa que, quando o banco oferece meios digitais ou alternativos, deve 
+preservar a integridade, a confiabilidade, a segurança e o sigilo das transações, além da 
+legitimidade dos serviços prestados. 4
+Passo 4 — Operações possíveis
+[DESENHE]
+2.4.1.4 — SERVIÇOS DIGITAIS
+CANAL DIGITALaplicativo • internet banking • terminal • atendimento remoto
+PRODUTO OU CONTAconta bancária • conta de pagamento • crédito • investimento
+integridade
+confiabilidade
+segurança
+sigilo
+legitimidade
+consultar → transferir → pagar → contratar → comprovar
+<<<PÁGINA 15>>>
+[FALE]
+O cliente pode consultar, transferir, pagar, contratar serviços e obter comprovantes por 
+canais digitais, conforme a oferta da instituição. A conveniência do canal não elimina 
+deveres de segurança e informação.
+[PARE E PERGUNTE]
+Resposta:
+[FIXE]
+[TRANSIÇÃO]
+O serviço digital que mais diretamente representa pagamentos instantâneos é o Pix.
+10. 2.4.1.5 — Pagamento Instantâneo 
+Brasileiro — Pix
+Objetivo
+Construir definição, funcionamento, chaves, custos, liquidação e aplicações do Pix para 
+pessoa física e pessoa jurídica.
+Passo 1 — Título
+[ESCREVA]
+Abaixo, escreva:
+[FALE]
+“Se uma conta é digital, o banco pode ignorar segurança e sigilo porque não há 
+agência?”
+NÃO. O CANAL DIGITAL EXIGE INTEGRIDADE, SEGURANÇA, SIGILO E LEGITIMIDADE.
+Digital descreve o canal. Segurança, sigilo e legitimidade continuam obrigatórios.
+2.4.1.5 — PIX
+pagamento e transferência instantâneos
+<<<PÁGINA 16>>>
+O Pix é um sistema de pagamentos instantâneos desenvolvido e regulado pelo Banco 
+Central. Na CPA, precisamos saber o que ele é, como funciona, como utilizar chaves, 
+quando pode haver tarifa e como se aplica a pessoas físicas e jurídicas.
+Passo 2 — Fluxo básico
+[DESENHE]
+[FALE]
+O pagador inicia a operação. As instituições participam do encaminhamento e da 
+liquidação. O recebedor recebe o recurso conforme o funcionamento do sistema e as regras 
+aplicáveis.
+Passo 3 — Chaves
+[ESCREVA]
+Abaixo, escreva:
+[FALE]
+A chave facilita a identificação da conta recebedora. Ela não é uma senha e não substitui a 
+conferência do nome e do valor antes da confirmação.
+Passo 4 — Aplicações
+[DIVIDA EM DUAS COLUNAS]
+[FALE]
+O Pix pode ser usado em transferências e pagamentos. Para pessoas jurídicas, pode apoiar 
+pagamentos e recebimentos da operação. O uso comercial pode ter regras de tarifa 
+pagador → instituição do pagador → sistema Pix → instituição do recebedor → recebedor
+CHAVE PIX = IDENTIFICADOR DO RECEBEDOR
+CPF/CNPJ • telefone • e-mail • chave aleatória
+PESSOA FÍSICAtransferências
+pagamentos
+recebimentos
+PESSOA JURÍDICApagamentos
+recebimentos
+cobrança e fluxo operacional
+<<<PÁGINA 17>>>
+diferentes do uso pessoal.
+Passo 5 — Tarifas do Pix
+[ESCREVA UMA REGRA E DUAS EXCEÇÕES]
+Depois escreva:
+[FALE]
+O Banco Central informa que pessoas físicas são isentas de tarifa para enviar ou receber Pix, 
+mas podem ser tarifadas em situações específicas, como uso de canal presencial ou 
+pessoal quando havia canal eletrônico disponível e recebimento com finalidade de compra 
+em atividade comercial. 5
+Passo 6 — Pessoa jurídica
+[ESCREVA]
+[FALE]
+Para pessoas jurídicas, a instituição pode cobrar tarifa pelo envio e recebimento de 
+recursos via Pix com finalidades de transferência e compra, além de serviços acessórios 
+relacionados, conforme as regras aplicáveis. 5
+Passo 7 — MEI e empresário individual
+[ESCREVA EM DESTAQUE]
+[FALE]
+O FAQ do Banco Central informa que, no âmbito do Pix, microempreendedores individuais 
+e empresários individuais seguem as mesmas regras de pessoas físicas, enquanto EIRELI 
+segue as regras de pessoa jurídica. 5
+[PARE E PERGUNTE]
+PESSOA FÍSICA: EM REGRA, SEM TARIFA PARA ENVIAR OU RECEBER
+exceção 1: canal presencial ou pessoal quando havia canal eletrônico disponívelexceção 
+2: recebimento com finalidade de compra em atividade comercial
+PESSOA JURÍDICA: PODE HAVER TARIFA, CONFORME A SITUAÇÃO E A REGRA 
+APLICÁVEL
+MEI E EMPRESÁRIO INDIVIDUAL: REGRAS DE PESSOA FÍSICA NO FAQ CITADO
+<<<PÁGINA 18>>>
+Resposta:
+[FIXE]
+[TRANSIÇÃO]
+Além de tarifas específicas do Pix, o cliente pode pagar tarifas por pacotes e serviços 
+bancários em geral.
+11. 2.4.1.6 — Tarifas
+Objetivo
+Diferenciar tarifa de juros, encargo e tributo e apresentar serviços essenciais gratuitos com 
+as condições aplicáveis.
+Passo 1 — Título
+[ESCREVA]
+Passo 2 — Definição prática
+[ESCREVA NO CENTRO]
+Ao lado, escreva:
+[FALE]
+Tarifa é preço cobrado pela prestação de determinado serviço, conforme contrato, 
+divulgação e regulamentação aplicável. Não é sinônimo de juros, tributo ou depósito 
+compulsório.
+“Pix é sempre gratuito?”
+NÃO. A REGRA DEPENDE DO TIPO DE CLIENTE, DA FINALIDADE E DO CANAL.
+Pix é instantâneo, mas tarifa não é automaticamente zero em todas as situações.
+2.4.1.6 — TARIFAS
+TARIFA = PREÇO COBRADO POR SERVIÇO BANCÁRIO
+serviço • contrato • divulgação • regra aplicável
+<<<PÁGINA 19>>>
+Passo 3 — Quatro conceitos
+[ESCREVA EM QUATRO LINHAS]
+[FALE]
+Questões podem trocar esses conceitos para induzir erro. O raciocínio correto é identificar 
+quem cobra, por qual motivo e sobre qual base.
+Passo 4 — Serviços essenciais
+[ESCREVA]
+Abaixo, escreva:
+[FALE]
+O Banco Central informa que instituições devem oferecer gratuitamente um conjunto de 
+serviços a clientes que possuem conta de depósitos à vista ou poupança, observadas as 
+quantidades e condições aplicáveis. 6
+Entre os serviços divulgados estão cartão de débito, quantidade mínima de saques, 
+transferências entre contas da mesma instituição, extratos, consultas pela internet, 
+compensação de cheques e folhas de cheque dentro da franquia.
+Passo 5 — Quantidades que aparecem na fonte
+[ESCREVA EM UMA CAIXA PEQUENA]
+TARIFA — preço de serviçoJUROS — remuneração pelo uso do dinheiro ou custo do 
+créditoTRIBUTO — cobrança instituída pelo poder públicoCOMPULSÓRIO — 
+recolhimento regulatório sobre determinadas captações
+SERVIÇOS ESSENCIAIS: GRATUIDADE DENTRO DAS CONDIÇÕES
+cartão de débito
+saques mensais dentro da franquia
+transferências na mesma instituição dentro da franquia
+extratos
+consultas pela internet
+compensação de cheques
+folhas de cheque dentro da franquia
+conta corrente: até 4 saques por mês
+poupança: até 2 saques por mês
+mesma instituição: até 2 transferências por mês
+<<<PÁGINA 20>>>
+[FALE]
+Essas quantidades são as informadas na página do Banco Central sobre tarifas bancárias. 
+Para prova ou atualização futura, confira sempre a regra vigente e não transforme a 
+franquia em gratuidade ilimitada para qualquer serviço.
+[PARE E PERGUNTE]
+Resposta:
+[FIXE]
+[TRANSIÇÃO]
+O último subitem da conta corrente trata do local e do canal em que o cliente é atendido.
+12. 2.4.1.7 — Atendimento bancário
+Objetivo
+Explicar horário, atendimento presencial, filas, canais digitais, venda casada e deveres de 
+informação.
+Passo 1 — Título
+[ESCREVA]
+Passo 2 — Atendimento como direito de informação
+[ESCREVA NO CENTRO]
+extratos: movimentação dos últimos 30 dias
+folhas de cheque: até 10 por mês, se atendidos os requisitos
+“Se existe serviço essencial gratuito, o cliente nunca pode pagar tarifa?”
+NÃO. A GRATUIDADE SE LIMITA AOS SERVIÇOS E ÀS CONDIÇÕES REGULAMENTARES.
+Tarifa depende do serviço. Gratuidade depende da franquia e da condição.
+2.4.1.7 — ATENDIMENTO BANCÁRIO
+ATENDER = INFORMAR + SEGURAR + DOCUMENTAR + RESPEITAR
+<<<PÁGINA 21>>>
+[FALE]
+Atendimento bancário não é apenas abrir a porta da agência. Inclui informar direitos, 
+deveres, custos, riscos e penalidades; disponibilizar contratos, comprovantes e 
+documentos; preservar segurança; e respeitar o canal de atendimento oferecido.
+Passo 3 — Horário
+[ESCREVA EM DESTAQUE]
+[FALE]
+O FAQ do Banco Central informa que o horário mínimo de atendimento ao público nas 
+agências bancárias é de cinco horas diárias ininterruptas, com atendimento obrigatório 
+entre 12h e 15h, horário de Brasília. Instituições não bancárias têm horário estabelecido 
+livremente, mas devem divulgá-lo de forma visível. 7
+Passo 4 — Filas
+[ESCREVA]
+[FALE]
+O Banco Central informa que não regulamenta o tempo de espera em filas. Existem leis 
+estaduais e municipais que podem tratar do assunto. 7
+Passo 5 — Atendimento presencial
+[DESENHE DUAS PORTAS]
+Abaixo das duas, escreva:
+[FALE]
+Quando a instituição disponibiliza ponto de atendimento físico, não pode impedir, recusar, 
+dificultar ou restringir o atendimento presencial, inclusive em guichê de caixa, apenas 
+AGÊNCIA BANCÁRIA: MÍNIMO DE 5 HORAS ININTERRUPTASATENDIMENTO 
+OBRIGATÓRIO ENTRE 12H E 15H — HORÁRIO DE BRASÍLIA
+TEMPO DE FILA = NÃO É REGULADO PELO BANCO CENTRAL
+PORTA DIGITAL | PORTA PRESENCIAL
+canais alternativos não eliminam automaticamente o atendimento presencial oferecido
+<<<PÁGINA 22>>>
+porque existem canais alternativos ou eletrônicos, observadas as situações específicas 
+informadas pelo Banco Central. 7
+Passo 6 — Venda casada
+[ESCREVA EM DESTAQUE]
+Ao lado, escreva:
+[FALE]
+Venda casada ocorre quando o banco condiciona o acesso a um produto à contratação 
+obrigatória de outro. Ela é diferente de oferecer melhores condições comerciais sem tornar 
+a contratação conjunta obrigatória. A questão-chave é identificar se houve obrigação.
+Passo 7 — Deveres na oferta
+[ESCREVA EM COLUNA]
+[FALE]
+O Banco Central informa que o banco deve oferecer produtos adequados às necessidades, 
+interesses e objetivos do cliente, prestar as informações necessárias, fornecer contratos, 
+recibos, extratos e comprovantes e garantir a possibilidade de cancelamento. 7
+[PARE E PERGUNTE]
+Resposta:
+[FIXE]
+VENDA CASADA = OBRIGAR UM PRODUTO PARA ACESSAR OUTRO
+PROIBIDA
+adequação às necessidades, interesses e objetivos
+informações sobre direitos e deveres
+custos, penalidades e riscos
+contratos e comprovantes
+possibilidade de cancelamento
+“Se o banco oferece um canal digital, ele pode deixar de informar custos e riscos?”
+NÃO. O CANAL NÃO ELIMINA O DEVER DE INFORMAÇÃO.
+<<<PÁGINA 23>>>
+[TRANSIÇÃO]
+Até aqui, trabalhamos com serviços bancários no ambiente doméstico. Agora vamos 
+atravessar a fronteira e analisar a conta internacional.
+13. 2.4.2 — Conta internacional
+Objetivo
+Separar conta em moeda estrangeira, conta em reais de residente no exterior, facilidades 
+digitais, IOF e obrigações tributárias no Brasil.
+Passo 1 — Título
+[ESCREVA]
+Passo 2 — Pergunta de precisão
+[ESCREVA]
+[PARE E PERGUNTE]
+Depois, escreva:
+[FALE]
+A expressão conta internacional pode representar estruturas diferentes. Precisamos 
+separar: onde a conta está mantida, em que moeda é denominada, quem é a instituição, 
+qual é a jurisdição, quais serviços estão disponíveis, como ocorre a conversão e quais são 
+as obrigações no Brasil.
+Passo 3 — Regra para residente no Brasil
+[ESCREVA EM DESTAQUE]
+Atendimento não é apenas canal: é informação, segurança, documentação e 
+respeito.
+2.4.2 — CONTA INTERNACIONAL
+CONTA INTERNACIONAL = CONTA NO EXTERIOR?
+DEPENDE DA ESTRUTURA, DA JURISDIÇÃO E DA MOEDA.
+<<<PÁGINA 24>>>
+Abaixo, escreva:
+[FALE]
+O Banco Central informa que a abertura de conta bancária em moeda estrangeira por 
+residente no Brasil somente pode ocorrer em casos específicos. Também informa que 
+contas em reais de residentes no exterior possuem tratamento próprio e são similares às 
+contas de residentes no Brasil, conforme a situação aplicável. 2
+Passo 4 — Facilidades e inovações
+[DESENHE UMA CAIXA]
+[FALE]
+As facilidades podem incluir pagamentos e transferências internacionais, conversão de 
+moeda, cartões e serviços digitais. Não presuma que todas as contas oferecem as mesmas 
+funções. O contrato, a instituição e a jurisdição definem o alcance do serviço.
+Passo 5 — IOF
+[ESCREVA]
+Abaixo, escreva:
+[FALE]
+A cobrança de IOF em operações cambiais pode variar conforme a natureza e a finalidade 
+da operação. A prova pode explorar a existência de diferentes alíquotas. Não decore uma 
+única taxa como se ela valesse para todas as operações; verifique a regra vigente e o tipo de 
+transação.
+CONTA EM MOEDA ESTRANGEIRA NO BRASIL: CASOS ESPECÍFICOS
+conta em reais de residente no exterior: tratamento próprio
+conta internacional
+pagamentos e transferências internacionais
+conversão de moeda
+cartão e canais digitais
+acesso a serviços em outra jurisdição
+IOF CAMBIAL: ALÍQUOTA DEPENDE DA NATUREZA DA OPERAÇÃO
+finalidade • tipo de operação • legislação vigente
+<<<PÁGINA 25>>>
+Passo 6 — Investimento internacional e IR no Brasil
+[DESENHE UMA PONTE]
+[FALE]
+O fato de o dinheiro ou investimento estar no exterior não elimina automaticamente as 
+obrigações brasileiras. A Receita Federal informa que a pessoa física residente no País deve 
+declarar separadamente rendimentos do capital aplicado no exterior, como aplicações 
+financeiras e lucros e dividendos de entidades controladas no exterior, de acordo com a 
+legislação e as orientações vigentes. 8
+Passo 7 — Três perguntas
+[ESCREVA]
+[FALE]
+Ao analisar uma conta internacional, responda sempre às três perguntas: onde a conta 
+está, em que moeda ela opera e qual obrigação existe no Brasil. Essa estrutura evita a falsa 
+ideia de que “fora do país” significa “fora da tributação e da declaração”.
+[PARE E PERGUNTE]
+Resposta:
+[FIXE]
+[TRANSIÇÃO]
+A conta internacional permite acesso a serviços em outra moeda. Agora precisamos 
+entender como a moeda estrangeira é efetivamente comprada e vendida.
+investimento fora do Brasil → obrigação de informar e apurar no Brasil
+onde está a conta?
+em que moeda?
+qual obrigação no Brasil?
+“Conta internacional elimina automaticamente o IOF e o Imposto de Renda no Brasil?”
+NÃO. A OPERAÇÃO E O INVESTIMENTO DEVEM SER ANALISADOS PELAS REGRAS 
+APLICÁVEIS.
+Conta internacional amplia o acesso; não elimina moeda, jurisdição, IOF ou 
+obrigações brasileiras.
+<<<PÁGINA 26>>>
+14. 2.4.3 — Compra e venda de moeda 
+estrangeira
+Objetivo
+Explicar instituições autorizadas, correspondentes cambiais, taxa de compra, taxa de venda 
+e recompra.
+Passo 1 — Título
+[ESCREVA]
+Passo 2 — Duas perspectivas
+[DIVIDA A TELA]
+Esquerda:
+Direita:
+[FALE]
+As palavras compra e venda dependem do ponto de vista. Quando a instituição compra 
+moeda estrangeira, o cliente está vendendo a moeda. Quando a instituição vende moeda 
+estrangeira ao público, o cliente está comprando a moeda. Por isso existem taxa de compra 
+e taxa de venda.
+Passo 3 — Instituições autorizadas
+[ESCREVA NO CENTRO]
+2.4.3 — COMPRA E VENDA DE MOEDA ESTRANGEIRA
+INSTITUIÇÃO COMPRA MOEDAcliente vende moeda estrangeira
+taxa de compra da instituição
+INSTITUIÇÃO VENDE MOEDAcliente compra moeda estrangeira
+taxa de venda da instituição
+CÂMBIO = INSTITUIÇÃO AUTORIZADA + OPERAÇÃO REGISTRADA + REGRAS 
+APLICÁVEIS
+<<<PÁGINA 27>>>
+[FALE]
+O Banco Central informa que as operações de compra e venda de moeda estrangeira por 
+pessoas físicas ou jurídicas devem ser realizadas por intermédio de instituições autorizadas 
+a operar no mercado de câmbio. 9
+Passo 4 — Correspondente cambial
+[DESENHE]
+[FALE]
+Instituições autorizadas podem contratar correspondentes para determinadas operações 
+de câmbio. O correspondente não se transforma automaticamente em banco nem pode 
+realizar qualquer operação sem restrição. O atendimento é contratualmente delimitado e 
+deve observar as operações permitidas. 10
+Passo 5 — O que observar
+[ESCREVA EM COLUNA]
+[FALE]
+Antes de comprar ou vender moeda, observe a instituição, a cotação, o spread, a tarifa, o 
+IOF, a documentação e a forma de entrega ou crédito. A cotação divulgada não deve ser 
+confundida com o custo total da operação.
+Passo 6 — Taxa de compra e taxa de venda
+[ESCREVA]
+[FALE]
+instituição autorizada → contrato → correspondente → cliente
+instituição autorizada
+espécie de moeda
+cotação
+spread
+tarifa
+IOF
+documentação
+forma de entrega ou crédito
+INSTITUIÇÃO COMPRA → TAXA DE COMPRAINSTITUIÇÃO VENDE → TAXA DE VENDA
+<<<PÁGINA 28>>>
+O Banco Central explica que, quando a instituição autorizada vende moeda estrangeira 
+para o público, utiliza-se a taxa de venda. Quando compra moeda do público, utiliza-se a 
+taxa de compra. 11
+Passo 7 — Recompra
+[ESCREVA NO TOPO DA ÚLTIMA COLUNA]
+Abaixo, escreva:
+[FALE]
+A recompra é a operação em que o cliente vende novamente a moeda estrangeira à 
+instituição, conforme as regras aplicáveis. Recompra não significa que a instituição 
+garantirá o mesmo preço pago originalmente. O valor depende da cotação vigente, do 
+spread, das tarifas, do IOF e das condições da operação.
+[PARE E PERGUNTE]
+Resposta:
+[FIXE]
+15. Caso integrado do módulo 2.4
+Objetivo
+Aplicar a sequência completa sem misturar conta, pagamento, tarifa, atendimento e 
+câmbio.
+Passo 1 — Cenário
+RECOMPRA = CLIENTE VENDE MOEDA DE VOLTA À INSTITUIÇÃO
+não significa preço garantido
+observar cotação, spread, tarifa, IOF e regras
+“Se o cliente comprou dólar por uma cotação, a recompra será obrigatoriamente pela 
+mesma cotação?”
+NÃO. A RECOMPRA OCORRE PELA CONDIÇÃO VIGENTE NA NOVA OPERAÇÃO.
+Câmbio exige autorização, perspectiva da taxa e análise do custo total.
+<<<PÁGINA 29>>>
+[ESCREVA NO CENTRO]
+Passo 2 — Classificação progressiva
+[CONSTRUA A TABELA LINHA POR LINHA]
+[FALE]
+O mesmo cliente pode utilizar vários serviços bancários, mas cada operação tem uma 
+natureza. Não devemos chamar tudo de investimento, tudo de crédito ou tudo de tarifa. A 
+pergunta correta é: qual serviço foi usado, qual é o canal, qual é o custo e qual regra se 
+aplica?
+Uma cliente recebe salário, mantém recursos em conta corrente, paga uma obrigação 
+por boleto, recebe uma cobrança por Pix, usa o aplicativo do banco, questiona uma tarifa 
+e viaja para o exterior.
+Situação
+Tema
+Palavra-chave
+Recebe salário
+recebimento de salários
+origem da renda e conta 
+utilizada
+Mantém dinheiro 
+movimentável
+depósito à vista
+disponibilidade
+Pergunta sobre proteção
+garantia
+elegibilidade, limites e 
+condições
+Banco recolhe parcela 
+regulatória
+compulsório
+liquidez do sistema
+Paga uma cobrança 
+documentada
+boleto
+ordem de pagamento e 
+compensação
+Usa aplicativo
+serviço digital
+canal, segurança e sigilo
+Transfere ou paga 
+instantaneamente
+Pix
+sistema, chave, liquidação e 
+tarifa
+Questiona custo mensal
+tarifa
+preço por serviço e franquia
+Vai à agência
+atendimento
+horário, fila e informação
+Abre serviço em moeda 
+estrangeira
+conta internacional
+moeda, jurisdição, IOF e IR
+Compra e vende moeda
+câmbio
+instituição autorizada e cotação
+<<<PÁGINA 30>>>
+[PARE E PERGUNTE]
+Peça que a turma classifique cada situação antes de você preencher a tabela.
+[FIXE]
+16. Questão final comentada
+Enunciado para escrever
+[APAGUE O CASO, MANTENHA A ESPINHA DORSAL]
+[ESCREVA NO CENTRO]
+[FALE]
+A questão reúne as três pegadinhas mais importantes do módulo: natureza da conta, tarifa 
+do Pix e autorização para operar câmbio.
+A alternativa correta é a C. Conta corrente é conta de depósitos à vista. Pix não é 
+automaticamente gratuito em todas as situações. E compra e venda de moeda estrangeira 
+devem ocorrer por instituições autorizadas.
+Gabarito
+[CIRCULE A ALTERNATIVA C]
+Conta movimenta. Boleto ordena. Pix liquida. Tarifa cobra. Atendimento informa. 
+Câmbio converte.
+Sobre os serviços bancários, assinale a alternativa correta:
+A) A conta digital é sempre uma conta corrente e o Pix é sempre gratuito, 
+independentemente do cliente e do canal utilizado.
+B) O depósito compulsório é uma tarifa cobrada do cliente e o FGC garante qualquer 
+produto financeiro sem limite.
+C) A conta corrente é uma conta de depósitos à vista; o Pix pode ter regras de tarifa 
+conforme o cliente, a finalidade e o canal; e operações de câmbio devem ser realizadas 
+por instituições autorizadas.
+D) O boleto é compensado diretamente pelo Banco Central e a recompra de moeda 
+estrangeira ocorre obrigatoriamente pela mesma cotação da compra.
+GABARITO: C
+<<<PÁGINA 31>>>
+Comentários
+• A está errada porque “conta digital” é expressão popular e pode designar conta 
+bancária ou conta de pagamento. Além disso, o Pix pode ter cobrança em situações 
+específicas.
+• B está errada porque compulsório é instrumento regulatório, não tarifa do cliente; e o 
+FGC possui limites, modalidades e condições.
+• C está correta porque reúne três conceitos conforme as regras e fontes oficiais do 
+módulo.
+• D está errada porque a compensação do boleto envolve a Nuclea no processo, não o 
+Banco Central diretamente; e a recompra não garante a mesma cotação da compra.
+[FIXE]
+17. Revisão final em perguntas
+[APAGUE AS ALTERNATIVAS E ESCREVA O TÍTULO]
+Faça a pergunta. Espere a resposta. Só então escreva a frase de fixação.
+Pergunta 1 — Conta corrente
+Resposta:
+Pergunta 2 — Conta digital
+Resposta:
+Não confunda canal com produto, tarifa com compulsório, Pix com gratuidade total 
+ou recompra com preço garantido.
+REVISÃO CPA — SERVIÇOS BANCÁRIOS
+O que é conta corrente?
+Conta de depósitos à vista, com recursos disponíveis para movimentação.
+“Conta digital” é categoria regulatória própria?
+Não necessariamente; é expressão popular para contas movimentadas basicamente 
+por meios eletrônicos.
+<<<PÁGINA 32>>>
+Pergunta 3 — Depósito à vista
+Resposta:
+Pergunta 4 — FGC
+Resposta:
+Pergunta 5 — Compulsório
+Resposta:
+Pergunta 6 — Boleto
+Resposta:
+Pergunta 7 — Serviços digitais
+Resposta:
+Pergunta 8 — Pix
+Resposta:
+Para que serve o depósito à vista?
+Para manter recursos disponíveis para pagamentos, transferências e saques.
+O FGC garante qualquer produto sem limite?
+Não. A proteção depende de elegibilidade, instituição, limites e condições.
+O que é depósito compulsório?
+Instrumento regulatório e de liquidez que incide sobre determinadas captações das 
+instituições.
+O que é boleto?
+Ordem de pagamento com código de barras e linha digitável.
+O canal digital elimina deveres de segurança?
+Não. A instituição deve preservar segurança, sigilo, integridade e legitimidade.
+Pix é sempre gratuito?
+Não. A cobrança depende do tipo de cliente, da finalidade e do canal, conforme as 
+regras aplicáveis.
+<<<PÁGINA 33>>>
+Pergunta 9 — Tarifas
+Resposta:
+Pergunta 10 — Atendimento
+Resposta:
+Pergunta 11 — Conta internacional
+Resposta:
+Pergunta 12 — Câmbio
+Resposta:
+18. Mapa de emergência para aula curta
+Se o tempo for reduzido, escreva somente:
+Serviço essencial gratuito significa tarifa zero para tudo?
+Não. A gratuidade é limitada aos serviços e às franquias regulamentares.
+O Banco Central regulamenta o tempo de fila?
+Não. O tema pode ser tratado por leis estaduais e municipais.
+Conta internacional elimina obrigações brasileiras?
+Não. Devem ser analisadas moeda, jurisdição, IOF, declaração e tributação aplicável.
+Quem pode operar compra e venda de moeda estrangeira?
+Instituições autorizadas, diretamente ou por correspondentes dentro dos limites 
+permitidos.
+CONTA CORRENTE = DEPÓSITO À VISTASALÁRIO = RENDA; LIMITE = CRÉDITOFGC = 
+LIMITES E CONDIÇÕESCOMPULSÓRIO = LIQUIDEZ DO SISTEMABOLETO = ORDEM DE 
+PAGAMENTODIGITAL = CANAL; SEGURANÇA CONTINUAPIX = INSTANTÂNEO, NÃO 
+SEMPRE GRATUITOTARIFA = PREÇO DO SERVIÇOATENDIMENTO = INFORMAÇÃO E 
+RESPEITOCONTA INTERNACIONAL = MOEDA + JURISDIÇÃO + IOF + IRCÂMBIO = 
+AUTORIZAÇÃO + COTAÇÃO + CUSTO
+<<<PÁGINA 34>>>
+[FALE]
+Mesmo em uma aula curta, a lógica precisa permanecer: primeiro identificamos a conta e o 
+recurso; depois o meio de pagamento; em seguida, o canal, o custo, o atendimento e, 
+finalmente, o ambiente internacional e o câmbio.
+19. Quadro final para permanecer na tela
+[DESENHE UMA SETA HORIZONTAL COM O MAPA COMPLETO]
+Frase de encerramento
+[ESCREVA EM LETRAS GRANDES]
+[FALE]
+O profissional CPA deve reconhecer a função de cada serviço. Conta corrente movimenta 
+recursos. Depósito à vista mantém disponibilidade. Boleto organiza uma ordem de 
+pagamento. Pix permite pagamentos e transferências instantâneos. Tarifas remuneram 
+serviços conforme regras. O atendimento informa e protege. A conta internacional adiciona 
+moeda e jurisdição. O câmbio converte recursos sob regras específicas.
+RECEBER
+↓
+CONTA CORRENTE / DEPÓSITO À VISTA
+↓
+BOLETO / PIX
+↓
+SERVIÇO DIGITAL
+↓
+TARIFA / ATENDIMENTO
+↓
+CONTA INTERNACIONAL
+↓
+COMPRA, VENDA E RECOMPRA DE MOEDA
+SERVIÇO BANCÁRIO NÃO É TUDO A MESMA COISA: IDENTIFIQUE A FUNÇÃO, O CANAL, 
+O CUSTO E A REGRA.
+<<<PÁGINA 35>>>
+20. Referências
+[1] ANBIMA — Programa Detalhado CPA, versão 1.2
+[2] Banco Central — Conta bancária: corrente, poupança, conta digital e conta em moeda 
+estrangeira
+[3] Banco Central — Como funciona a operação com boleto
+[4] Banco Central — Atendimento bancário e serviços digitais
+[5] Banco Central — Quais as tarifas relacionadas ao Pix?
+[6] Banco Central — Tarifas bancárias e serviços essenciais gratuitos
+[7] Banco Central — Atendimento bancário: horários, filas e deveres na oferta
+[8] Receita Federal — Situações específicas do Meu Imposto de Renda
+[9] Banco Central — Onde posso comprar ou vender moeda estrangeira?
+[10] Banco Central — Quais operações podem ser realizadas por correspondentes?
+[11] Banco Central — O que é taxa de compra e taxa de venda?
