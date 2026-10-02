@@ -73,7 +73,7 @@ Hierarquia (CLAUDE.md do projeto): PD → o que ensinar; apostila → como expli
 
 | Fonte | Como acessar |
 |---|---|
-| Programa Detalhado | `aulas-certificacoes/00-fontes/programas-detalhados/PD-{CERT}.txt` — localizar o módulo: `grep -n -E "^{N}\.[0-9]+\. " PD-{CERT}.txt` |
+| Programa Detalhado | `aulas-certificacoes/00-fontes/programas-detalhados/PD-{CERT}.txt` — use `scripts/inventario_modulo.py {CERT} {N}` (o PD quebra número e título em linhas diferentes; grep simples perde itens) |
 | Apostila | `00-fontes/apostilas/APOSTILA-{CERT}.txt` (`<<<PÁGINA N>>>`); mapa de módulos em `00-fontes/apostilas/INDICE.md` |
 | Aulas já feitas | `aulas/{cert}/aula-{N}.*/aula.md` — o "Quadro de emergência" e a tabela "Correções feitas na fonte" já trazem números conferidos |
 | Normas BCB/CMN | `curl -s -A "Mozilla/5.0" "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5058"` (tipos: `Resolu%C3%A7%C3%A3o%20CMN`, `Resolu%C3%A7%C3%A3o%20BCB`, `Resolu%C3%A7%C3%A3o` para antigas, `Circular`). JSON: `conteudo[0].Texto` (HTML), `Revogado`, `Atualizacoes` |
@@ -83,7 +83,7 @@ Hierarquia (CLAUDE.md do projeto): PD → o que ensinar; apostila → como expli
 
 Extrair os quadros de emergência de todas as aulas do módulo de uma vez:
 ```bash
-cd aulas-certificacoes/aulas/{cert}; for d in aula-{N}.*; do echo "## $d"; awk '/### Quadro de emergência/{f=1;next} /^### /{if(f)exit} f' $d/aula.md | grep "^|"; done
+cd aulas-certificacoes; for f in aulas/{cert}/aula-{N}.*/aula.md modelos/REFERENCIA-aula-{cert}-{N}.*.md; do [ -f "$f" ] || continue; echo "## $f"; awk '/### Quadro de emergência/{f=1;next} /^### /{if(f)exit} f' "$f" | grep "^|"; done
 ```
 
 ## 6. Checklist antes de salvar

@@ -22,15 +22,19 @@ Antes de tudo, leia `aulas-certificacoes/CLAUDE.md` (regras do projeto: escopo p
 ### Passo 1. Mapear o módulo
 
 - Identifique certificação e módulo (pergunte se faltar).
-- Liste no `PD-{CERT}.txt` **todos** os itens de 2º e 3º nível do módulo e o peso do módulo na prova (`00-fontes/apostilas/INDICE.md` tem o peso e as páginas da apostila).
-- Inventarie o que já existe em `aulas/{cert}/aula-{N}.*`: cada aula pronta já tem números conferidos (quadro de emergência e tabela "Correções feitas na fonte"). Extraia os quadros de uma vez (comando em `references/roteiro.md`, seção 5).
-- Separe os itens em **cobertos por aula** e **sem aula** (estes virão da apostila + norma).
+- Rode o inventário, a partir da raiz do repositório:
+  `python3 .claude/skills/revisao-modular-certificacao/scripts/inventario_modulo.py CPA 2`
+  Ele lista **todos** os itens do módulo no PD (com os títulos que quebram de linha já juntados), as aulas prontas em `aulas/{cert}/` **e** as aulas-referência em `modelos/`, com os subitens que cada uma cobre (tabela "Checagem de escopo"), e as revisões/manuais do módulo que já existem.
+- O peso do módulo e as páginas da apostila estão em `00-fontes/apostilas/INDICE.md`.
+- Separe os itens em **cobertos por aula** (números já conferidos: use o quadro de emergência e as "Correções feitas na fonte" de cada aula; comando em `references/roteiro.md`, seção 5) e **sem aula** (virão da apostila + norma).
+- Se já existir revisão do módulo, não crie outra sem perguntar (ver Passo 2).
 
 Por que: a revisão herda a conferência já feita; o esforço novo vai só para o que nunca foi conferido.
 
 ### Passo 2. Perguntar antes de escrever (AskUserQuestion, uma rodada)
 
-Pergunte, com a opção recomendada primeiro:
+Pergunte, com a opção recomendada primeiro, só o que o pedido ainda não respondeu (se o professor já disse "20 minutos", não pergunte a duração):
+- **Revisão existente** (se o inventário achou uma): atualizar a existente · substituir · criar outra versão (ex.: outra duração).
 - **Duração:** 30 min (recomendado) · 20 · 15.
 - **Itens sem aula conferida** (cite quais): apostila + conferir números na norma (recomendado) · só o já conferido · aguardar PDFs do professor.
 - **Formato:** roteiro de fala ao vivo com [TELA]/[FALE]/[PEGADINHA] (recomendado) · padrão 7 etapas condensado · quadro de revisão.
@@ -61,7 +65,7 @@ Salve em `aulas-certificacoes/roteiros/{cert}/revisao-modulo-{N}-{tema-curto}-fa
 ### Passo 5. Entregar a fase 1
 
 1. `git add` só o roteiro; `git diff --cached` com grep de e-mail/CPF; commit com a mensagem em português e as linhas de atribuição da sessão; push para o branch de trabalho.
-2. Envie o arquivo com SendUserFile.
+2. Envie o arquivo ao professor (SendUserFile, se a ferramenta existir; senão, informe o caminho).
 3. Resposta curta: o que cobre, o que foi conferido e onde, correções encontradas, o que ficou "não confirmado".
 
 ### Passo 6. Perguntar sobre o manual
@@ -84,7 +88,7 @@ Leia `references/manual.md` e siga-o. Em resumo:
 2. **Reconferir números** contra as aulas e normas ao reescrever — o roteiro pode ter imprecisões (na primeira vez apareceram três).
 3. **Montar o HTML** a partir de `assets/manual-x8/template.html` + `manual.css` (Poppins e ícones X8 já inclusos). Se houver PPTX novo, extraia o design como descrito na seção 4 do reference.
 4. **Renderizar e checar:** `scripts/render_pdf.js` (falha se algo transborda) e `scripts/preview_grid.py` (grades para olhar todas as páginas). Corrija e renderize de novo até não haver transbordo nem quebra feia. Confira o sumário com as páginas reais.
-5. **Entregar:** salvar em `aulas-certificacoes/materiais/{cert}/manual-revisao-modulo-{N}/` (HTML, css, fonts, img, PDF), commit + push, SendUserFile com `display: render`, e resumo do que foi corrigido na conferência e do que ficou para decisão do professor.
+5. **Entregar:** salvar em `aulas-certificacoes/materiais/{cert}/manual-revisao-modulo-{N}/` (HTML, css, fonts, img, PDF), commit + push, envio do PDF (SendUserFile com `display: render`, se existir; senão, o caminho), e resumo do que foi corrigido na conferência e do que ficou para decisão do professor.
 
 ---
 
