@@ -1,0 +1,4668 @@
+######## A0080.pdf
+<<<PÁGINA 1>>>
+Tipiﬁcação de Fundos de Investimento
+Novos Tipos
+
+<<<PÁGINA 2>>>
+→ Os fundos de Infraestrutura são fundos previstos na lei 12.431/2011, tendo por objetivo o 
+enquadramento no regime tributário estabelecido naquela lei;
+●
+Para que possam se enquadrar, os fundos de InfraEstrutura devem ter no mínimo 85% do 
+Patrimônio Líquido alocados em debêntures incentivadas;
+●
+Os FI-Infra são do tipo “Renda Fixa”, e podem ser constituídos sob a forma de condomínio 
+aberto ou fechado;
+●
+Os FI-Infra devem ter a denominação “Investimento em Infraestrutura”, devendo ainda, 
+identificar o direcionamento de parcela preponderante de seus recursos para segmento 
+específico;
+●
+O material do FI-Infra deve informar os benefícios tributários, bem como as condições 
+para manutenção desses benefícios;
+Fundos Incentivados em InfraEstrutura
+
+<<<PÁGINA 3>>>
+→ É de 20% do PL o limite de concentração por emissor que atenda a lei 12.341 para a 
+carteira tipificada como “infraestrutura”;
+●
+Os limites de concentração por emissor, são aplicáveis para os demais ativos que 
+integram a carteira do FI-Infra;
+●
+Os certificados de Recebíveis e classes fechadas de FIDC devem ser de classe 
+única ou subclasse senior;
+●
+Debêntures emitidas por SPE constituída sob a forma de sociedade de ações, o 
+limite deve ser computado considerando-se a SPE como independente;
+●
+Caso a política permita a aplicação em CRI, ou em cotas de classe fechada de FIDC, 
+o gestor deve assegurar-se de que, as obrigações previstas nesse artigo são 
+atendidas;
+Fundos FI-Infra Concentração
+
+<<<PÁGINA 4>>>
+→ Podem ser constituídos fundos de investimento com a finalidade de permitir a cessão 
+fiduciária de cotas em garantia de locação imobiliária. Devendo o fundo ter todas as suas 
+classes com esta finalidade.
+→ A classe deve:
+●
+Ser constituída em regime aberto, sendo vedado o resgate das cotas cujo objeto é a 
+cessão fiduciária;
+●
+Sua denominação deve ter expresso “Garantia de Locação Imobiliária”
+Fundos Destinado a Garantia Imobiliária
+
+<<<PÁGINA 5>>>
+→ A cessão fiduciária de cotas, deve ser:
+●
+Realizada mediante requerimento do cotista-cedente ao administrador acompanhada de 
+1 via do contrato de locação;
+●
+Averbada pelo administrador no registro do cotista-cedente;
+●
+O cotista cedente e o proprietário fiduciário das cotas devem receber ambos as 
+comunicações aos cotistas;
+●
+O regulamento deve dispor sobre o procedimento de execução extrajudicial das cotas 
+cedidas;
+●
+A incorporação ou fusão do fundo, só será permitida se o incorporador ou resultante da 
+operação também for um fundo destinado a garantia de locação imobiliária;
+●
+Na hipótese de liquidação, o termo de cessão de cotas pode conter autorização para que 
+o administrador utilize o produto do pagamento dos valores devido ao cotista-cedente nas 
+cotas de outros FIF;
+Fundos Destinado a Garantia Imobiliária
+
+<<<PÁGINA 6>>>
+→ Importante:
+●
+É admitida a cessão fiduciária de cotas de FIF em garantia de locação imobiliária, ainda 
+que o FIF não seja destinado exclusivamente à garantia de locação imobiliária;
+○
+O termo de cessão de cotas pode conter autorização prevista para o pagamento de 
+outro FIF em liquidação;
+○
+O administrador não pode imputar ao fundo de investimento, qualquer despesa 
+relativa à averbação da cessão fiduciária, envio de comunicações ao proprietário 
+fiduciário, ou qualquer despesa relativa à cessão fiduciária, inclusive a remuneração 
+que cobrar por esse serviço;
+Fundos Destinado a Garantia Imobiliária
+
+<<<PÁGINA 7>>>
+→ A classe, “Renda Fixa”, “Multimercado” ou “Cambial” que realizar aplicações em quaisquer 
+ativos ou modalidades operacionais de responsabilidades de pessoas físicas ou jurídicas de 
+direito privado que, em seu conjunto, excedam o percentual de 50% de seu patrimônio:
+●
+Incluir em sua denominação o sufixo “Crédito Privado”;
+●
+Incluir no termo de adesão e ciência de risco o alerta de que pode ocorrer 
+concentração na carteira de ativos em créditos privados;
+Fundos Concentração em Crédito Privado
+
+######## A0081.pdf
+<<<PÁGINA 1>>>
+Constituição e Registro dos Fundos
+
+<<<PÁGINA 2>>>
+Segregação Patrimonial
+→ Separação dos ativos de um entidade dos ativos de outra entidade;
+●
+Pessoa Física da Empresa;
+●
+Patrimônio de Afetação na Construção Civil;
+●
+Administrador do Fundo de Investimento e o Patrimônio dos Cotistas;
+
+<<<PÁGINA 3>>>
+Constituição e Registro
+→ “O fundo de investimento deve ser constituído por deliberação conjunta dos prestadores de 
+serviços essenciais, a quem incumbe aprovar, no mesmo ato seu regulamento”
+●
+Administrador;
+●
+Gestor;
+●
+Custodiante;
+●
+Distribuidor;
+●
+Auditor Independente;
+→ O registro é automaticamente concedido em decorrência do envio de documentos e 
+informações pelo administrador por meio do sistema eletrônico;
+
+<<<PÁGINA 4>>>
+Classes e Subclasses dos Fundos
+→ Tipificação dos fundos:
+●
+Renda Fixa;
+●
+Fundos de Ações;
+●
+Fundos Cambiais;
+●
+Fundos MultiMercados;
+●
+Fundos de Incentivados de Infraestrutura;
+●
+Fundos de Garantia de Locação Imobiliária;
+●
+Fundos de Crédito Privado;
+→ Classes e SubClasses de Cotas:
+●
+FIDC: Cotas Senior, Cotas Subordinadas…;
+●
+Cota Master, Cota Diamond, Cota Gold…;
+
+<<<PÁGINA 5>>>
+Constituição e Registro
+→ Cada classe e subclasse deve ter seu registro;
+→ Após 90 dias do início das atividades, caso o patrimônio fique inferior a 1 milhão de reais pelo 
+período de 90 dias o fundo será imediatamente liquidado ou incorporado;
+→ A Superintendência pode indeferir o pedido de registro do fundo cujo administrador esteja em 
+atraso por mais de 60 dias no cumprimento dos prazos das informações periódicas da 
+regulamentação;
+
+<<<PÁGINA 6>>>
+Constituição e Registro
+→ O pedido de registro de funcionamento do fundo, e se for o caso, de cada classe de cotas, 
+deve ter:
+●
+Regulamento do fundo;
+●
+Declaração dos prestadores essenciais de que o regulamento está aderente a legislação 
+vigente;
+●
+Identificação dos prestadores de serviço contratados por cada prestador de serviço 
+essencial;
+●
+Caso, fundo fechado, Patrimônio Inicial Mínimo;
+
+<<<PÁGINA 7>>>
+Documentos dos Fundos de 
+Investimento
+
+<<<PÁGINA 8>>>
+Documentos dos Fundos de Investimento
+●
+Os fundos têm um padrão para divulgar as informações ao mercado;
+●
+Os seus investidores devem conhecer os riscos, objetivos e política de investimento de cada 
+fundo. Para isso, eles terão acesso aos seguintes documentos:
+○
+Regulamento;
+○
+Prospecto;
+○
+Formulário de Informações Complementares;
+○
+Demonstrações Financeiras;
+○
+Lâmina de Informações Essenciais;
+○
+Informe Mensal;
+○
+Termo de Adesão e Ciência de Risco;
+
+######## A0083.pdf
+<<<PÁGINA 1>>>
+Cotas dos Fundos de Investimento
+
+<<<PÁGINA 2>>>
+Cotas dos Fundos
+→
+As cotas são escriturais (não físicas), nominativas (registrado em nome do 
+proprietário) e correspondem às frações da classe de cotas conferindo direitos e 
+obrigações aos cotistas;
+○
+O valor da cota resulta da divisão do valor do patrimônio líquido da classe pelo 
+número de cotas da classe;
+→
+O administrador é responsável pelas informações e atualizações de informações da 
+cota;
+○
+As informações devem ser compartilhadas entre o administrador e o gestor;
+
+<<<PÁGINA 3>>>
+Cessão e Transferência de Cotas
+→ As cotas de fundos abertos não podem ser objeto de transferência, exceto:
+●
+Decisão Judicial ou Arbitral;
+●
+Operação de Cessão Fiduciária;
+●
+Execução de Garantia;
+●
+Sucessão Universal;
+●
+Dissolução de Sociedade Conjugal;
+●
+Transferência ou Portabilidade plano de previdência;
+●
+Integralização em sociedades limitadas ou outra classe de fundos;
+
+<<<PÁGINA 4>>>
+Responsabilidade
+→ Caso fundo Pátria;
+→ O regulamento pode prever que a responsabilidade do cotista é limitada ao valor 
+subscrito:
+●
+Caso o regulamento não limite a responsabilidade, os cotistas respondem por 
+eventual patrimônio negativo, sem prejuízo de responsabilidade do prestador que 
+proceder com dolo ou má-fé;
+
+<<<PÁGINA 5>>>
+Emissão de Cotas
+→ Na emissão de cotas abertas, deve ser utilizado o valor do dia ou do dia seguinte da 
+data de integralização, conforme o regulamento;
+→ Na emissão de cotas fechadas, deve ser o valor definido na assembléia de cotistas:
+●
+O regulamento pode estabelecer o método de cálculo do valor de emissão;
+●
+Caso a emissão seja decisão do gestor, deve ser utilizada o método de cálculo de 
+valor de cota previsto em regulamento;
+
+<<<PÁGINA 6>>>
+Subscrição e Integralização
+→ O distribuidor deve disponibilizar a versão vigente do regulamento, o que não dispensa a 
+obrigação do administrador de manter o regulamento disponível ao cotista;
+→ A integralização de cotas, deve ser realizada em moeda corrente Nacional;
+●
+O documento de aceitação da oferta de classe fechada, pode conter obrigação 
+do investidor de integralizar o valor do capital subscrito de acordo com as 
+chamadas realizadas pelo gestor, de acordo com as condições estabelecidas no 
+documento;
+
+<<<PÁGINA 7>>>
+Termo de Adesão e Ciência de Risco
+→ Por meio de termo de adesão e ciência de risco, o cotista deve atestar que:
+●
+Teve acesso ao inteiro teor do regulamento;
+●
+Tem Ciência:
+○
+Dos fatores de risco da classe do fundo;
+○
+Não há garantia contra eventuais perdas patrimoniais;
+○
+O registro do fundo, não implica por parte da CVM garantia de veracidade 
+das informações ou adequação a legislação vigente;
+●
+Se for o caso:
+○
+A integralização de cotas ocorrerá por meio de chamadas de capital;
+○
+As estratégias de investimento podem resultar em perdas superiores ao 
+capital 
+aplicado 
+e 
+a 
+responsabilidade 
+de 
+aportar
+recursos para cobrir o patrimônio líquido negativo;
+
+<<<PÁGINA 8>>>
+Termo de Adesão e Ciência de Risco
+→ Termo de Adesão deve conter:
+●
+No máximo 5.000 caracteres;
+●
+Observar as orientações:
+○
+Regulamento atualizado;
+○
+Explicar a tributação aplicável;
+○
+Política de voto das cotas;
+●
+Conter até 5 principais fatores de risco inerentes a carteira de ativos;
+Importante: Caso o investidor volta a aplicar no fundo, e não ocorra nenhuma alteração do 
+regulamento é dispensada a formalização de novo termo.
+
+<<<PÁGINA 9>>>
+Resgate e Amortização
+→ O resgate deve obedecer às seguintes regras:
+●
+Estabelecer o prazo entre a data do pedido de resgate e a data de conversão em 
+cotas e sua data de pagamento;
+●
+A conversão das cotas se dá pelo seu valor no dia da data de conversão;
+●
+O pagamento não pode ser superior a 5 dias úteis (multa de 0,50% ao dia), exceto 
+regulamentações específicas;
+●
+Os fundos podem ter prazo de carência para o resgate com ou sem rendimento;
+
+<<<PÁGINA 10>>>
+Resgate e Amortização
+→ Podem haver barreiras de resgate por iliquidez em caso de:
+●
+Divulgar imediatamente fato relevante;
+○
+Nas classes de público geral, os parâmetros devem levar em consideração a 
+representatividade do resgate solicitado em relação ao PL da classe;
+○
+Nas classes restritas, o regulamento pode dispor livremente os parâmetros;
+→ Podem haver resgates compulsórios, desde que:
+●
+O regulamento ou a assembléia assim o autorize;
+●
+O resgate compulsório seja equi unânime (simultâneo e proporcional) a todos os 
+cotistas da mesma classe;
+●
+Não seja cobrado taxa de saída;
+
+<<<PÁGINA 11>>>
+Resgate e Amortização
+→ Nos casos de fechamento de mercado e excepcional iliquidez dos ativos da carteira, pode ser 
+declarado o fechamento da classe para realização de resgates;
+●
+Deve-se proceder à imediata divulgação de fato relevante;
+●
+Todos os pedidos em aberto devem ser cancelados;
+●
+A classe permanecendo fechada por mais de 5 dias úteis, o administrador deve 
+convocar em até 14 dias uma assembléia para:
+○
+Reabertura ou manutenção do fechamento para resgate;
+○
+Cisão do fundo ou da classe;
+○
+Liquidação;
+○
+Resgate das cotas em ativos da classe de cotas;
+■
+Substituição do Gestor e/ou administrador;
+■
+Cisão 
+das 
+classes, 
+mantendo 
+uma 
+fechada,
+desde que não prejudique o cotista;
+■
+Suspensão de resgates;
+
+######## A0085.pdf
+<<<PÁGINA 1>>>
+Assembléia de Cotistas
+
+<<<PÁGINA 2>>>
+Competência da Assembléia
+→ Compete privativamente à assembléia de cotistas deliberar sobre:
+●
+Demonstrações contábeis;
+●
+Substituição de prestador de serviço essencial;
+●
+Emissão de novas cotas de classe fechada;
+●
+Fusão, cisão, incorporação total ou parcial;
+●
+Alteração de regulamento. Exceto:
+○
+Atender exigências da CVM;
+○
+Atualizações Cadastrais;
+○
+Redução de Taxas;
+●
+Plano de resolução de PL negativo;
+●
+Pedido de declaração judicial de insolvência de cotas;
+
+<<<PÁGINA 3>>>
+→ Caso o fundo tenha diferentes classes de cotas e alguma decida alterar prestador essencial, 
+essas cotas devem ser cindidas do fundo;
+●
+Pode haver cisão total ou parcial;
+→ Importante: 
+●
+Anualmente a assembléia especial de cotistas deve deliberar sobre as demonstrações 
+contábeis 
+da 
+classe 
+de 
+cotas;
+●
+Anualmente, a assembléia geral de cotistas deve deliberar sobre as demonstrações 
+contábeis do fundo;
+○
+Sempre no prazo de até 60 dias após encaminhamento das demonstrações a CVM 
+contendo relatório do auditor;
+○
+Assembléia pode ser realizada no mínimo 15 dias após as demonstrações estarem 
+disponíveis;
+Regras da Assembléia
+
+<<<PÁGINA 4>>>
+→ A assembleia de cotistas a que comparecerem todos os cotistas podem dispensar os prazos 
+estabelecidos;
+→ As demonstrações contábeis cujo relatório de auditoria não contiver opinião modificada podem 
+ser considerados automaticamente aprovadas caso a assembléia não seja instalada em virtude 
+de não comparecimento de cotistas;
+Regras da Assembléia
+
+<<<PÁGINA 5>>>
+→ A convocação da assembleia deve ser encaminhada para cada cotista da classe convocada e 
+disponibilizada na página do gestor e administrador;
+●
+A convocação deve enumerar expressamente na ordem do dia, todas as matérias a 
+serem deliberadas, não se admitindo sob a rubrica de “assuntos gerais” haja matérias 
+de deliberação de assembléia;
+●
+Caso seja admitido participação de cotista pela internet, deve conter informações 
+detalhando as regras para viabilizar a votação;
+●
+As informações podem ser divulgadas de forma resumida, com as informações 
+completas na página do gestor e ou administrador;
+●
+A convocação deve ser realizada com antecedência mínima de 10 dias;
+●
+Constar 
+obrigatoriamente, 
+dia, 
+hora 
+e 
+local 
+da 
+realização,
+e a possibilidade de ser parcial ou exclusivamente remota;
+●
+Indicar link da proposta a ser submetida na assembléia;
+●
+Presença da totalidade de cotistas, supre a convocação;
+Convocação e Instalação
+
+<<<PÁGINA 6>>>
+→ Prestadores de serviços essenciais, custodiante e o cotista ou grupo de cotistas que detenha 
+no mínimo 5% do total de cotas, podem convocar a qualquer tempo assembléia de cotistas para 
+deliberar sobre o interesse do fundo;
+●
+O pedido, deve ser dirigido ao administrador que deve, em até 30 dias do recebimento, 
+convocar a assembleia;
+●
+A convocação e realização devem ser custeadas pelos requerentes, salvo se a 
+assembleia deliberar em contrário;
+Convocação e Instalação
+
+<<<PÁGINA 7>>>
+→ As assembleias se instalam com a presença de qualquer número de cotistas;
+→ As assembleias podem ser realizadas:
+●
+Parcialmente eletrônico;
+●
+Exclusivamente de modo eletrônico;
+○
+Assembleias exclusivamente eletrônicas são consideradas como ocorrido na sede 
+do administrador;
+○
+Na forma eletrônica, o administrador deve adotar meios para garantir 
+autenticidade e segurança na transmissão de informações por meio de assinatura 
+eletrônica ou meios eficazes;
+○
+Os cotistas podem votar por meio de comunicação escrita ou eletrônica, desde 
+que recebido pelo administrador antes da assembleia;
+Convocação e Instalação
+
+<<<PÁGINA 8>>>
+→ As deliberações da assembleia são tomadas por maioria dos votos presentes;
+●
+O regulamento pode estabelecer quorum qualificado para deliberações;
+●
+Na hipótese de destituição ou substituição de prestador essencial de classe aberta, o 
+quorum qualificado não pode ser superior a metade do PL da classe;
+●
+O regulamento pode dispor livremente sobre a forma de cálculo da quantidade de 
+votos atribuídas às diferentes subclasses, desde que a participação na mesma 
+subclasse seja equitativa;
+●
+O regulamento pode dispor sobre a possibilidade de as deliberações da assembleia 
+serem adotadas mediante consulta formal, sem necessidade de reunião dos cotistas;
+Deliberações da Assembleia
+
+<<<PÁGINA 9>>>
+→ Somente podem votar na assembleia os cotistas inscritos no registro de cotistas na data da 
+convocação, seus representantes legais ou procuradores legalmente constituídos;
+●
+O procurador deve possuir mandato com poderes específicos para a representação do 
+cotista em assembleia, devendo entregar um exemplar a mesa;
+→ O resumo das decisões da assembléia deve ser disponibilizado aos cotistas em até 30 dias 
+após a realização da assembléia;
+Deliberações da Assembleia
+
+<<<PÁGINA 10>>>
+→ Não podem votar em assembleia os cotistas:
+●
+Prestadores de serviço, essencial ou não;
+●
+Os sócios, diretores e empregados do prestador de serviço;
+●
+Partes relacionadas ao prestador de serviço, seus sócios, diretores e empregados;
+●
+O cotista que tenha interesse conflitante com o fundo, no que se refere a matéria em 
+votação;
+●
+O cotista na hipótese de deliberação de laudo de bens de sua propriedade;
+●
+Previamente as deliberações, cabe ao cotista declarar seu impedimento ao voto;
+→ Não se aplica quando:
+●
+Os únicos cotistas forem os mencionados acima;
+●
+Houver 
+aquiescência 
+expressa 
+da 
+maioria 
+dos 
+demais 
+cotistas 
+que 
+pode 
+ser 
+manifestada 
+na 
+assembléia 
+ou
+previamente concedida;
+Deliberações da Assembleia
+
+######## A0087.pdf
+<<<PÁGINA 1>>>
+Divulgação de Informações
+
+<<<PÁGINA 2>>>
+Informações Periódicas
+→ As informações periódicas e eventuais do fundo devem ser divulgadas na página do 
+fundo ou dos prestadores essenciais;
+●
+A superintendência competente pode determinar que as informações periódicas e 
+eventuais relativas a distribuição sejam apresentadas na página da CVM;
+→ Caso sejam divulgadas a terceiros informações sobre a composição da carteira, a 
+mesma informação deve ser colocada a disposição dos cotistas na mesma periodicidade;
+
+<<<PÁGINA 3>>>
+Fatos Relevantes
+→ O administrador é obrigado divulgar fato relevante assim que tiver conhecimento;
+→ São considerados fatos relevantes qualquer informação que possa influir no valor das cotas ou 
+decisão de investimento;
+→ Qualquer fato relevante deve ser:
+●
+Comunicado a todos os cotistas afetados;
+●
+Informado aos administradores dos mercados organizados (se for o caso);
+●
+Divulgar no site da CVM;
+●
+Mantido nas páginas dos prestadores de serviços essenciais;
+
+<<<PÁGINA 4>>>
+Fatos Relevantes
+→ São exemplos de fatos relevantes:
+●
+Alteração de tratamento tributário;
+●
+Contratação de Market Maker após término da prestação desse serviço;
+●
+Contratação de agência de classificação de risco;
+●
+Mudança da classificação de risco;
+●
+Alterador do prestador de serviço essencial;
+●
+Fusão, Cisão, Incorporação ou transformação de cotas;
+●
+Alteração do mercado organizado;
+●
+Cancelamento da admissão das cotas à negociação em mercado organizado;
+●
+Nova emissão de cotas de classe fechada;
+
+<<<PÁGINA 5>>>
+Fatos Relevantes
+→ Os fatos relevantes podem excepcionalmente, deixar de ser divulgados se o gestor e o 
+administrador, em conjunto, entenderem que a sua revelação colocará em risco interesse legítimo 
+do fundo ou dos cotistas;
+●
+O administrador fica obrigado a divulgar imediatamente fato relevante na hipótese de a 
+informação escapar ao controle ou se ocorrer oscilação atípica na cotação, preço ou 
+quantidade de cotas negociadas;
+
+<<<PÁGINA 6>>>
+Demonstrações Contábeis
+→ O fundo deve ter escrituração contábil própria, devendo suas cotas e demonstrações 
+segregadas entre si assim como segregadas das demonstrações dos prestadores de serviços 
+essenciais;
+→ O exercício social deve ser encerrado a cada 12 meses e levantadas suas demonstrações 
+contábeis, sendo obrigatório o fim do exercício coincidir com um dos meses do calendário civil;
+→ As demonstrações obrigatórias mínimas são:
+●
+Balanço Patrimonial;
+●
+DRE;
+●
+DFC;
+→ As demonstrações devem observar as regras específicas da CVM e serem auditadas por 
+auditor independente;
+
+######## A0090.pdf
+<<<PÁGINA 1>>>
+Investimento em Cotas de Outros 
+Fundos e Risco de Capital
+
+<<<PÁGINA 2>>>
+Investimentos em Cotas de Outros Fundos
+→ As classes de investimento em cotas de fundos devem adquirir classes do mesmo tipo que 
+a sua, exceto classes tipificadas como “MultiMercado”, que podem investir em FIF de 
+qualquer tipo;
+●
+Não alcançam as cotas no âmbito da gestão de liquidez;
+→ O regulamento deve especificar o percentual máximo do PL que pode ser aplicado em uma 
+única classe, observados os limites de concentração por emissor e modalidade de ativos 
+financeiros previstos;
+●
+Na hipótese de aplicação em classe que possa exceder o limite de concentração em 
+créditos privados, a política de investimento da classe deve detalhar mecanismos para 
+mitigar o risco de extrapolação do limite;
+
+<<<PÁGINA 3>>>
+Exposição a Risco de Capital
+→ A exposição de risco de capital refere-se ao risco que afete o capital, como uso de 
+derivativos mas não restringindo-se a eles;
+●
+Risco de Mercado;
+●
+Risco de Crédito;
+●
+Risco de Liquidez;
+●
+Risco Operacional;
+●
+Risco de Alavancagem;
+
+<<<PÁGINA 4>>>
+Exposição a Risco de Capital
+→ Preservada a possibilidade de o regulamento estabelecer limites menores, o gestor deve 
+observar os seguintes limites máximos de utilização de margem bruta:
+I - Para a classe “Renda Fixa”, margem bruta limitada a 20% do PL da classe;
+II - Para as classes “Cambial” ou “Ações”, margem bruta limitada a 40% do PL da classe;
+III - Para a classe “Multimercado”, margem bruta limitada a 70% do PL da classe;
+●
+Considera-se margem bruta, o somatório das coberturas e margem de garantia;
+●
+O cálculo de margem potencial deve se basear em modelo de cálculo de garantia do 
+administrador, consistente e passível de verificação;
+●
+As operações em carteira destinadas a público geral devem contar com margem de 
+garantia em mercado organizado;
+○
+Classes para investidores profissionais não possuem limite;
+●
+Classes de cotas que realizam operações Long&Short, ficam dispensadas de observar 
+o limite previsto;
+
+<<<PÁGINA 5>>>
+Classes Restritas
+→ O regulamento da classe restrita pode estabelecer prazos para a conversão de cota e prazo de 
+pagamento de resgate diferentes daqueles previstos na regulamentação;
+→ Os limites para classes restritas, são o dobro:
+●
+Até 20% 40%: FIF, FII, FIDC, CRI/CRA, Tit. Privados de empresas não registradas na CVM;
+●
+Até 15% 30%: FIP e FIAGRO;
+●
+Até 10% 20%: CBIO, CriptoAtivos e outros Valores CVM;
+→ Classe que seja exclusivamente destinada a investidores qualificados, podem alocar até 60% 
+em direitos creditórios e outros ativos desde que contem com market maker;
+→ Não existe limite por modalidade de ativo para aplicação em outros FIF igualmente destinados 
+exclusivamente a IQ;
+
+<<<PÁGINA 6>>>
+Encargos
+→ Em acréscimo aos encargos dispostos, o regulamento do FIF pode prever como encargos, 
+e debitar diretamente das cotas, as seguintes despesas:
+●
+Taxa de Performance;
+●
+Taxa Máxima de Custódia;
+
+######## A0095.pdf
+<<<PÁGINA 1>>>
+Patrimônio Líquido Negativo com
+Limitação de Responsabilidade
+
+<<<PÁGINA 2>>>
+Patrimônio Líquido Negativo com Limitação
+→ Caso o administrador verifique que o PL da classe de cotas está negativo e a 
+responsabilidade dos cotistas seja limitada ao valor subscrito, deve (DAR UM TEMPO):
+●
+Fechar para resgates e não realizar amortização de cotas;
+●
+Não realizar novas subscrições de cotas;
+●
+Comunicar a existência do PL negativo ao gestor;
+●
+Divulgar fato relevante;
+●
+Cancelar os pedidos de resgate pendentes de conversão;
+●
+e…
+
+<<<PÁGINA 3>>>
+Patrimônio Líquido Negativo com Limitação
+→ Caso o administrador verifique que o PL da classe de cotas está negativo e a 
+responsabilidade dos cotistas seja limitada ao valor subscrito, deve:
+●
+Em até 20 dias:
+○
+Elaborar um plano de resolução do PL negativo em conjunto com o gestor que 
+conste, no mínimo:
+■
+Análise das Causas e Circunstâncias que resultaram no PL negativo;
+■
+Balancete;
+■
+Proposta de Resolução do PL Negativo;
+●
+Convocar assembléia de cotistas em até dois dias úteis após 
+concluída a elaboração do plano;
+
+<<<PÁGINA 4>>>
+Patrimônio Líquido Negativo com Limitação
+●
+Caso após a adoção das medidas de (DAR UM TEMPO) os prestadores essenciais 
+avaliem em conjunto, que a ocorrência do PL negativo não representa risco a solvência 
+de cotas, a adoção do plano de resolução torna-se facultativa;
+●
+Caso anteriormente a convocação da assembléia verifique-se que o PL deixou de estar 
+negativo, fica-se dispensado prosseguir com a assembléia, divulgando novo fato 
+relevante no qual conste o PL atualizado e resumidamente as causas que resultaram o 
+PL negativo;
+●
+Caso posteriormente a convocação da assembléia verifique-se que o PL deixou de estar 
+negativo, deve-se realizar a assembléia para que o gestor apresente aos cotistas o PL 
+atualizado e as circunstâncias que resultaram no PL negativo;
+
+<<<PÁGINA 5>>>
+Patrimônio Líquido Negativo com Limitação
+→ Se o plano de resolução não for aprovado, os cotistas devem deliberar as seguintes 
+possibilidades:
+●
+Cobrir o PL negativo mediante aporte de recursos, próprios ou de terceiros, em 
+montante e prazo condizente com as obrigações da classe;
+●
+Cindir, fundir ou incorporar a classe a outro fundo que tenha apresentado proposta 
+já analisada pelos prestadores essenciais;
+●
+Liquidar a classe que estiver com PL Negativo, desde que não remanescem 
+obrigações a serem honradas pelo patrimônio;
+●
+Determinar que o administrador entre com pedido de declaração judicial de 
+insolvência da classe de cotas;
+
+<<<PÁGINA 6>>>
+Patrimônio Líquido Negativo com Limitação
+→ O gestor deve comparecer à assembléia na qualidade de responsável pela gestão da 
+carteira de ativos, sua ausência não impõe ao administrador qualquer óbice quanto sua 
+realização;
+→ Na assembléia, é permitida a manifestação dos credores, desde que previstos na ata ou 
+autorizada pela mesa ou pelos cotistas presentes;
+→ Caso a assembléia não seja instalada por falta de quórum ou não cheguem a uma 
+deliberação, o administrador deve ingressar com pedido de declaração judicial de insolvência 
+da classe;
+
+<<<PÁGINA 7>>>
+Patrimônio Líquido Negativo com Limitação
+→ Importante:
+●
+Qualquer pedido de declaração de insolvência, constitui evento de avaliação obrigatório 
+do PL da classe afetada pelo administrador;
+→ A CVM pode pedir declaração judicial de insolvência quando identificar situação em que o 
+PL negativo representa risco para o funcionamento do mercado e integridade do SFN;
+→ Tão logo tenha ciência da declaração de insolvência, o administrador deve:
+●
+Divulgar fato relevante;
+●
+Efetuar o cancelamento do registro da Classe na CVM;
+
+<<<PÁGINA 8>>>
+Patrimônio Líquido Negativo com Limitação
+→ Caso o administrador não adote o plano de resolução em até 20 dias a superintendência 
+pode efetuar o cancelamento do registro, informando o administrador e publicando 
+comunicado na página da CVM;
+→ O cancelamento do registro não mitiga as responsabilidades decorrentes das eventuais 
+infrações cometidas antes do cancelamento;
+
+######## A0100.pdf
+<<<PÁGINA 1>>>
+Tipiﬁcação de Fundos de Investimento
+
+<<<PÁGINA 2>>>
+Tipiﬁcação dos Fundos de Investimento
+Tipiﬁcação dos Fundos
+Classiﬁcação 
+Critério
+Fundo de Renda Fixa
+80% do PL diretamente ou sintetizado no fator de risco
+Fundo de Ações
+67% em Ações ou Títulos Equivalentes
+Recursos Excedentes podem ser alocados em quaisquer ativos 
+p/ gestão de liquidez
+Fundos Multimercados
+Deve ter política de investimento com vários fatores de risco
+Fundo Cambial
+80% do PL em ativos que representam a variação de preços da 
+moeda estrangeira ou cupom cambial
+
+<<<PÁGINA 3>>>
+Fundos de Renda Fixa
+→ A classe tipificada como “Renda Fixa” deve ter como principal fator de risco da sua carteira a 
+variação da taxa de juros, índice de preço ou ambos;
+→ Na classe de renda fixa, é vedada a cobrança da taxa de performance salvo:
+●
+Classe ou Subclasse exclusivamente destinada a investidores qualificados;
+●
+Dispuser em regulamento o compromisso de tratamento fiscal de fundos de longo prazo;
+●
+Classe tipificada como “Renda Fixa Externa”;
+→ Para fins de liquidação de resgate no mesmo dia, o regulamento pode estabelecer que o 
+valor da cota no dia deve ser calculado a partir do PL, devidamente atualizado por 1 dia. 
+Porém, não pode ser utilizada:
+●
+Classe com compromisso fiscal de tratamento de longo prazo;
+●
+Classe tipificada como “Renda Fixa - Dívida Externa”;
+
+<<<PÁGINA 4>>>
+Fundos de Renda Fixa
+→ Um fundo tipificado como “Renda Fixa” deve ter no mínimo, 80% da carteira dos ativos 
+relacionados diretamente ao fator de risco;
+→ Os fundos de renda fixa, de acordo com a carteira podem adotar os seguintes sufixos:
+●
+Curto Prazo → Prazo Máximo de 375 dias, e prazo médio inferior a 60 dias;
+●
+Referenciado → 95% dos ativos devem acompanhar o benchmark;
+●
+Simples → 95% da carteira concentrada em ativos de baixo risco;
+●
+Dívida Externa → 80% da Carteira deve representar a Dívida Externa;
+
+<<<PÁGINA 5>>>
+Fundos de Renda Fixa de Curto Prazo
+→ Os fundos com o sufixo Curto Prazo devem ter titulos com:
+●
+Prazo Máximo de 375 dias;
+●
+Prazo Médio inferior a 60 dias;
+●
+Títulos Considerados de Baixo Risco de Crédito pelo gestor;
+●
+ETFs que apliquem em títulos de baixo risco de Crédito;
+●
+Operações Compromissadas em TPF;
+●
+Utilização de derivativos, exclusivamente para a proteção da carteira;
+
+<<<PÁGINA 6>>>
+→ Os fundos com o sufixo Referenciado devem ter:
+●
+95% da carteira investida em ativos que acompanham direta ou indiretamente o índice de 
+referência;
+●
+Incluir o sufixo “Referenciado”;
+●
+Ter 80% no mínimo, representado por:
+○
+Títulos da Dívida Pública Federal;
+○
+Ativos de Renda Fixa considerados de baixo risco de crédito pelo gestor;
+○
+ETFs que invistam nos ativos acima;
+●
+Restringir a utilização de derivativos para Hedge;
+Fundos de Renda Fixa Referenciado
+
+<<<PÁGINA 7>>>
+→ Os fundos com o sufixo Simples devem ter:
+●
+95% da carteira representado por:
+○
+Títulos da Dívida Pública Federal;
+○
+Títulos de Renda Fixa de Instituições Financeiras com baixo risco de crédito;
+○
+Operações Compromissadas de dívida pública federal por IF autorizada pelo BACEN;
+●
+Operações com derivativos somente para Hedge;
+●
+Ser constituídos sob forma de condomínio aberto;
+●
+Preveja em seu regulamento que todos os documentos sejam disponibilizados 
+preferencialmente de forma eletrônica;
+Fundos de Renda Fixa Simples
+
+<<<PÁGINA 8>>>
+→ Os fundos com o sufixo Simples são vedados de:
+●
+Cobrança da taxa de performance mesmo que vise tratamento fiscal de longo prazo;
+●
+Realização de investimentos no exterior;
+●
+Concentração em crédito privado;
+●
+Transformação em Classe Fechada;
+●
+Qualquer mudança ou transformação de “tipo”;
+Fundos de Renda Fixa Simples
+
+<<<PÁGINA 9>>>
+→ Informações importantes dos fundos de RF Simples:
+●
+A lâmina do Fundo de RF Simples deve comparar a performance com a SELIC;
+●
+O gestor deve adotar estratégia de investimento que proteja a classe de volatilidade;
+●
+O ingresso no fundo de RF Simples, dispensa:
+○
+Termo de Adesão;
+○
+Verificação de Adequação do Perfil do Cliente;
+Fundos de Renda Fixa Simples
+
+<<<PÁGINA 10>>>
+→ O sufixo de Dívida Externa deve:
+●
+Deter 80% do PL representado por títulos da dívida externa de responsabilidade da união;
+●
+Incluir na sua denominação o sufixo “Dívida Externa”;
+●
+Utilizar o mercado de derivativos exclusivamente para HEDGE, tanto no Brasil como no 
+Exterior, respeitando o limite de 10% do Patrimônio Líquido;
+●
+O total de emissão ou coobrigação de uma mesma pessoa jurídica não pode exceder 10% 
+do PL da classe;
+●
+É vedada a manutenção ou aplicação no País de recursos captados por esse tipo de 
+fundo;
+Fundos de Renda Dívida Externa
+
+<<<PÁGINA 11>>>
+Fundos de Renda Fixa
+Suﬁxos dos Fundos
+Tipo
+Suﬁxo 
+Critério
+Renda Fixa
+Curto Prazo
+●
+Prazo máximo 375 dias;
+●
+Prazo médio inferior 60 dias;
+●
+Investe em TPF e Títulos de Baixo Risco.
+Renda Fixa
+Referenciado
+●
+95% da Carteira em Ativos que 
+acompanhem o benchmark;
+●
+80% em títulos de Baixo Risco;
+●
+Inclui o suﬁxo “REFERENCIADO”.
+Renda Fixa
+Simples
+●
+95% da Carteira em Ativos de Baixo Risco;
+●
+Ser constituído como Condomínio Aberto;
+●
+Documentos Preferencialmente de Forma 
+eletrônica.
+Renda Fixa
+Dívida Externa
+●
+80% do PL em títulos de dívida externa de 
+responsabilidade da união;
+●
+Até 10% do PL para Hedge;
+●
+Vedada manutenção de recursos no país. 
+
+<<<PÁGINA 12>>>
+Fundos de Ações
+→ O fundo de ações deve ter como principal fator de risco a variação do preço das ações 
+admitidas à negociação em mercado de balcão organizado.
+I - Ter no mínimo, 67% do seu patrimônio líquido composto pelo conjunto dos seguintes 
+ativos financeiro:
+a)
+Ações e certificados de depósitos de ações admitidos a negociação em 
+mercado de balcão organizado;
+b)
+Bônus e recibos de subscrição;
+c)
+Cotas de Classes tipificadas como “Ações”;
+d)
+ETF’s de Ações;
+e)
+BDR’s - Ações e BDR’s - ETF de Ações;
+II - Os recursos excedentes da carteira podem ser aplicados em quaisquer outras 
+modalidades de ativos financeiros destinados à gestão de liquidez;
+→ Os investimentos em ativos financeiros não estão sujeitos aos limites de concentração por 
+emissor, desde que o regulamento preveja tal possibilidade e alerte o risco de concentração;
+
+<<<PÁGINA 13>>>
+→ A classe de cotas que preveja o investimento em no mínimo 67% em empresas listadas no 
+segmento voltado ao mercado de acesso, devem:
+●
+Usar a designação “Ações - Mercado de Acesso”;
+●
+Quanto constituído sob a forma de fundo fechado, pode investir até 33% do seu 
+patrimônio líquido em ações, debêntures, bônus de subscrição, cotas de FIP ou outros 
+títulos e valores mobiliários conversíveis ou permutáveis em ações de companhias 
+fechadas;
+→ As classes de ações do mercado de acesso devem:
+●
+Participar do processo decisório da Companhia investida, com efetiva influência na 
+definição de sua política estratégia e na sua gestão;
+●
+Investir somente em companhias fechadas que adotem boas práticas de governança 
+corporativa;
+●
+Para efeitos de escrituração contábil, a avaliação das companhias fechadas deve ser 
+feita, a cada 12 meses, a valor justo, conforme norma contábil aprovada pela CVM;
+Fundos de Ações - Mercado de Acesso
+
+<<<PÁGINA 14>>>
+→ O regulamento do fundo tipificado como “Ações”, pode autorizar a classe fechada a comprar 
+suas próprias cotas no mercado organizado em que sejam admitidas a negociação, desde que:
+●
+O valor de recompra da cota seja inferior ao valor patrimonial da cota do dia 
+imediatamente anterior ao da compra;
+●
+As cotas sejam canceladas;
+●
+O volume de recompras, não ultrapasse em 12 meses, 10% do total de cotas do fundo;
+→ Para efeito da recompra, o administrador deve anunciar a intenção de recompra, por meio de 
+comunicado ao mercado com pelo menos 14 dias de antecedência da data que pretende 
+efetuar a recompra;
+●
+É válido por 12 meses;
+●
+Conter informações sobre outros programas de recompras e a quantidade recomprada 
+nos últimos 3 exercícios;
+Fundos de Ações - Recompra de Cotas
+
+<<<PÁGINA 15>>>
+→ É vedado ao fundo fechado recomprar suas cotas:
+●
+O 
+administrador 
+ou 
+gestor 
+tiverem 
+informações 
+privilegiadas 
+que
+possam alterar o valor da cota;
+●
+De forma a influenciar ou regular o mercado;
+●
+Com a finalidade exclusiva de obtenção de ganhos a partir das variações esperadas
+Fundos de Ações - Recompra de Cotas
+
+<<<PÁGINA 16>>>
+→ A classe tipificada como “Cambial”, deve ter como principal fator de risco de carteira a 
+variação de preços de moeda estrangeira ou cupom cambial;
+→ As classes de fundos cambiais, devem alocar no mínimo 80% da carteira em ativos 
+relacionados diretamente, ou sintetizados via derivativos, ao fator de risco que dá nome a 
+classe;
+Fundos Cambiais
+
+<<<PÁGINA 17>>>
+→ A classe tipificada como “MultiMercado” deve ter política de investimento que envolva vários 
+fatores de risco, sem compromisso de concentração em nenhum fator específico.
+●
+Macro;
+●
+Trading;
+●
+Long & Short;
+●
+Juros e Moedas;
+●
+Capital Protegido;
+●
+Livre;
+→ Os investimentos da classe “MultiMercado” não estão sujeitos aos limites de concentração 
+por emissor, desde que assim esteja expressamente previsto no regulamento e no termo de 
+adesão e contenha alerta de que a carteira pode estar exposta ao risco de concentração em 
+poucos emissores;
+Fundos MultiMercado
+
+######## A0103 - Tributação em Fundos de Investimento - Slide.pdf
+<<<PÁGINA 1>>>
+Tributação dos Fundos de Investimento
+
+<<<PÁGINA 2>>>
+Tributação em Fundos de Investimento
+
+<<<PÁGINA 3>>>
+Fato Gerador
+→ As movimentações internas do fundo de investimento não incidem tributos;
+→ O fato gerador inicia no momento da aplicação no fundo de investimento. A tributação 
+ocorre quando a aplicação é resgatada e, os tributos incidem sobre os rendimentos da 
+valorização das cotas;
+
+<<<PÁGINA 4>>>
+Agente Responsáveis pelo Recolhimento
+→ O administrador é responsável pela parte “burocrática” dos fundos;
+→ Cabe ao gestor, efetuar o recolhimento do imposto retido do cotista;
+
+<<<PÁGINA 5>>>
+Compensação de Perdas
+→ É possível compensar perdas passadas com lucros futuros, pagando apenas o Imposto 
+de Renda sobre o Ganho Real;
+→ Apenas é permitida a compensação de prejuízos com fundos de:
+●
+Mesmo administrador;
+●
+Classificação Idêntica;
+
+<<<PÁGINA 6>>>
+PARAAAAAAA!!!!
+
+<<<PÁGINA 7>>>
+Regras de Tributação dos Fundos
+●
+Fundos da Regra Geral:
+○
+Fundos de Investimento em Renda Fixa, Cambiais e MultiMercados;
+○
+Fundos de Investimento em Direitos Creditórios (FIDC);
+○
+ETFs de Renda Fixa;
+○
+Fundos Destinados a Garantia de Locação Imobiliária;
+○
+Fundos de Concentração em Crédito Privado;
+●
+Fundos Isentos de Imposto de Renda:
+○
+Fundos de Infraestrutura;
+○
+Fundos de Debêntures Incentivadas;
+●
+Fundos de Renda Variável:
+○
+Fundos de Ações;
+○
+Fundos de Investimento em Participação;
+○
+ETF’s de Renda Variável;
+●
+Fundos Imobiliários;
+
+<<<PÁGINA 8>>>
+Tributação da Regra Geral
+
+<<<PÁGINA 9>>>
+Base de Cálculo e Alíquotas de IOF
+→ O IOF é cobrado antes do Imposto de Renda;
+
+<<<PÁGINA 10>>>
+Base de Cálculo e Alíquotas de IOF
+→ O IOF é cobrado antes do Imposto de Renda;
+
+<<<PÁGINA 11>>>
+Base de Cálculo e Alíquotas de IOF
+→ O IOF é cobrado antes do Imposto de Renda;
+→ Exceções:
+1)
+Fundos de renda variável não são tributados pelo IOF;
+2)
+Fundos com carência têm alíquota de 0,50% ao dia antes do vencimento da carência, 
+cobrado sobre todo o valor do resgate limitado a 100% do ganho do investidor;
+
+<<<PÁGINA 12>>>
+Base de Cálculo e Alíquotas do IR
+→ Tabela Regressiva do Imposto de Renda:
+
+<<<PÁGINA 13>>>
+Base de Cálculo e Alíquotas do IR
+→ Tabela Regressiva do Imposto de Renda:
+→ Aplica-se nos fundos:
+●
+Fundos de Investimento em Renda Fixa;
+●
+Fundos Cambiais;
+●
+Fundos Multimercado;
+●
+Fundos de Investimento em Direitos Creditórios (FIDC);
+●
+ETFs de Renda Fixa;
+●
+Fundos destinados a garantia de Locação Imobiliária;
+●
+Fundos de Crédito Privado;
+
+<<<PÁGINA 14>>>
+Base de Cálculo e Alíquotas do IR
+→ Exceção na Tabela Regressiva do Imposto de Renda:
+
+<<<PÁGINA 15>>>
+Base de Cálculo e Alíquotas do IR
+→ Exceção na Tabela Regressiva do Imposto de Renda:
+→ Fundos de Investimento de Renda Fixa de Curto Prazo;
+
+<<<PÁGINA 16>>>
+ATENÇÃO!!!
+→ Classificação CVM para Fundos de Curto Prazo:
+●
+Instrução CVM 175/22:
+○
+Prazo Máximo da Carteira de 375 dias;
+○
+Prazo Médio da Carteira de 60 dias;
+→ Classificação dos Fundos segundo a Receita Federal:
+●
+IN SRF 487/2004:
+○
+Prazo Médio igual ou inferior a 365 dias;
+○
+Receita Federal é Responsável pela Tributação;
+
+<<<PÁGINA 17>>>
+
+<<<PÁGINA 18>>>
+Imposto de Renda Come Cotas
+→ O imposto de renda Come Cotas é uma ANTECIPAÇÃO do imposto a ser pago;
+→ É cobrado a título de antecipação, sempre a menor alíquota do fundo:
+●
+Fundos de Investimento da Regra Geral: 15%;
+●
+Fundos de Investimento de Curto Prazo: 20%;
+
+<<<PÁGINA 19>>>
+Fundos Isentos de Imposto de Renda
+
+<<<PÁGINA 20>>>
+Fundos Isentos
+→ Fundos Isentos de Imposto de Renda:
+●
+Fundos de Infraestrutura;
+●
+Fundos de Debêntures Incentivadas;
+→ Há incidência de IOF;
+●
+Prática de Mercado: Cotização para o resgate em D+30;
+→ Para enquadramento como fundo incentivado deve:
+●
+Investir pelo menos 85% em debêntures incentivadas;
+○
+Investimentos de Longo Prazo;
+○
+Isenção se Aplica apenas para as Pessoas Físicas;
+●
+Priorizar setores de importância nacional:
+○
+Transporte, Energia, Saneamento Básico, Telecomunicações;
+
+<<<PÁGINA 21>>>
+Fundos de Renda Variável
+
+<<<PÁGINA 22>>>
+Fundos de Renda Variável
+→ Fundos de Renda Variável:
+●
+Fundo de Investimento em Ações;
+●
+Fundos de Investimento em Participações;
+●
+ETFs de Renda Variável;
+→ Não há incidência de IOF;
+→ Tributação de Imposto de Renda:
+●
+15% sobre o Ganho de Capital, independente do Prazo;
+●
+Não há incidência de Come Cotas;
+
+<<<PÁGINA 23>>>
+Fundos Imobiliários
+
+<<<PÁGINA 24>>>
+→ Fundos Imobiliários:
+●
+Tributação Pessoa Física:
+○
+Rendimento Periódico:
+■
+Distribuição dos Rendimentos é isenta desde que:
+●
+Tenha no mínimo 100 cotistas;
+●
+Seja negociado em bolsa de valores ou mercado de balcão 
+organizado;
+○
+Ganho de Capital:
+■
+Imposto de Renda de 20%;
+○
+Isento de IOF;
+●
+Tributação Pessoa Jurídica:
+○
+20% para os Rendimentos e o Ganho de Capital;
+○
+Isenção de IOF;
+Tributação de Fundos Imobiliários
+
+######## A0390.pdf
+<<<PÁGINA 1>>>
+Fundos de Investimento Imobiliário
+
+<<<PÁGINA 2>>>
+Os Fundos de Investimento Imobiliário
+
+<<<PÁGINA 3>>>
+Características Gerais
+→ O FII é destinado à aplicação em empreendimentos imobiliários, nos termos do art. 40 
+deste normativo (fala da carteira de ativos);
+→ As classes de cotas dos FII devem ser emitidas em regime fechado e podem ter prazo 
+de duração indeterminado;
+→ Deve constar a expressão “Fundo de Investimento Imobiliário”;
+→ Fundos Imobiliários devem distribuir 95% dos Rendimentos;
+
+<<<PÁGINA 4>>>
+→ Caso a política de investimentos não permita uma alocação SUPERIOR a 5% em 
+valores mobiliários, o fundo pode ser constituído apenas pelo administrador;
+●
+Nesse caso, o administrador é o único prestador de serviços essencial e fica 
+responsável pela administração e gestão do fundo;
+●
+A integralização em bens e direitos deve ser feita com base em laudo de 
+avaliação, elaborado por empresa especializada;
+Constituição
+
+<<<PÁGINA 5>>>
+→ A administração do fundo compete, exclusivamente, a bancos comerciais, bancos 
+múltiplos com carteira de investimento ou carteira de crédito imobiliário, bancos de 
+investimento, sociedades corretoras ou distribuidoras de valores mobiliários, sociedades de 
+crédito imobiliário, caixas econômicas e companhias hipotecárias;
+→ O administrador deve prover ao fundo os seguintes serviços:
+●
+Departamento técnico para prestar serviços de análise de projetos imobiliários;
+●
+Custódia de ativos financeiros;
+→ Compete ao administrador, praticar “todos os atos que relacionem com o objeto da 
+classe de cotas”;
+Administração
+
+<<<PÁGINA 6>>>
+→ É vedado ao gestor da carteira:
+●
+Conceder crédito sob qualquer modalidade;
+●
+Aplicar no exterior, recursos captados no país;
+●
+Ressalvada a aprovação em assembléia, realizar operações de conflito de interesse com:
+○
+Administrador, gestor ou consultor especializado;
+○
+Cotistas que detenham participação de no mínimo 10% do PL;
+○
+Representante dos cotistas;
+○
+Classe de Cotas e o Empreendedor;
+●
+Constituir ônus reais sobre os imóveis do PL;
+●
+Realizar operações com ativos financeiros ou modalidades não previstas;
+●
+Operar com VM fora dos mercados autorizados;
+●
+Realizar operações com derivativos, exceto para proteção patrimonial (até o limite do PL);
+Vedações
+
+<<<PÁGINA 7>>>
+→ A remuneração pelos serviços prestados pode incluir uma parcela variável calculada em 
+função do desempenho, ou de indicador relevante para o mercado imobiliário:
+●
+A taxa de administração das cotas deve corresponder:
+○
+Um percentual sobre o valor de mercado das cotas, calculado com base na média 
+diária da cotação de fechamento das cotas no mês anterior ao pagamento da 
+remuneração (Exemplo: BRCR11);
+○
+Um percentual sobre o valor contábil do patrimônio líquido da classe (Exemplo: 
+XPML11);
+●
+A cobrança da parcela variável deve atender aos critérios estabelecidos na parte geral da 
+resolução;
+●
+O regulamento pode prever um valor mínimo para a remuneração do administrador;
+●
+A assembleia pode estabelecer um método alternativo de cobrança da taxa de 
+administração;
+Remuneração
+
+<<<PÁGINA 8>>>
+→ Adicionalmente as regras gerais, deve dispor:
+●
+Objeto da classe de cotas, segmentos em que atuará, assim como a natureza dos 
+investimentos que poderão ser realizados;
+●
+Taxa de Performance, se for o caso;
+●
+Política de Distribuição de Resultados;
+●
+Modo de convocação de Assembléia;
+●
+Percentual máximo de cotas de incorporador, construtor e sócios…
+●
+Outros fatores importantes;
+○
+O regulamento pode prever taxa de ingresso, mas não pode haver taxa de saída;
+○
+Se destinado ao público geral, não pode conter restrições de:
+■
+Limitação em percentual inferior a 10% do total das cotas;
+■
+Limites diferentes de direito de voto para cotistas diferentes;
+Regulamento
+
+<<<PÁGINA 9>>>
+→ A política de Investimentos deve conter no mínimo:
+●
+A descrição fundamental do objeto dos investimentos a serem realizados (ganho de 
+capital, obtenção de renda, desenvolvimento, combinações);
+●
+Especificação do grau de liberdade que o administrador ou gestor possuem no 
+cumprimendo da política de investimentos;
+●
+Ativos que podem compor o patrimônio e requisitos de diversificação;
+●
+Possibilidade de realizar operações com derivativos para fins de proteção patrimonial;
+●
+Possibilidade de aquisição de imóveis com ônus reais;
+●
+Localização Geográfica das áreas que o fundo pode adquirir imóveis;
+Política de Investimentos
+
+<<<PÁGINA 10>>>
+→ A participação da classe de cotas em empreendimentos imobiliários pode se dar por 
+meio da aquisição dos seguintes ativos:
+●
+Quaisquer direitos sobre bens imóveis;
+●
+Ações, debêntures, bônus de subscrição, seus cupons, direitos e recibos de 
+subscrição, certificado de depósito de valores mobiliários, cotas de fundos de 
+investimento, notas promissórias, notas comerciais e quaisquer valores mobiliários, 
+desde que se tratem de emissores registrados na CVM e cujas atividades 
+preponderantes sejam permitidas aos FIIs;
+●
+Ações ou cotas de sociedades cujo único propósito se enquadre entre as atividades 
+permitidas aos FIIs;
+●
+Cotas de fundos de investimento em participações que tenham como política de 
+investimento exclusivamente, atividades permitidas aos FIIs, e de fundos de 
+investimento em ações que invistam exclusivamente em construção civil ou mercado 
+imobiliário;
+Carteira de Ativos
+
+<<<PÁGINA 11>>>
+●
+Certificados de potencial adicional de construção;
+●
+Cotas de Outros FIIs;
+●
+Certificados de Recebíveis Imobiliários e cotas de fundos de investimento em direitos 
+creditórios que tenham como política de investimento, exclusivamente, atividades 
+permitidas aos FII;
+●
+Letras Hipotecárias;
+●
+Letras de Crédito Imobiliário;
+●
+Letras Imobiliárias Garantidas;
+Carteira de Ativos
+
+<<<PÁGINA 12>>>
+→ A assembléia pode eleger um ou mais representantes para exercer as funções de 
+fiscalização dos empreendimentos ou investimentos em defesa dos direitos e interesse dos 
+cotistas;
+●
+Eleição deve ser aprovada por no mínimo:
+○
+3% do total de cotas quando a classe tiver mais 100 cotistas;
+○
+5% do total de cotas, quando a classe tiver até 100 cotistas;
+●
+Compete ao representante do cotista:
+○
+Fiscalizar os prestadores de serviços essenciais;
+○
+Emitir opinião sobre as propostas a serem submetidas à assembléia;
+○
+Denunciar o administrador ao não tomar providências necessárias;
+○
+Analisar ao menos trimestralmente as informações financeiras;
+○
+Elaborar um relatório das atividades;
+Representante de Cotistas
+
+######## A0510.pdf
+<<<PÁGINA 1>>>
+Ativos no Brasil e no Exterior
+
+<<<PÁGINA 2>>>
+Disposições Gerais da Carteira
+→ A classe de cotas deve manter o patrimônio aplicado em ativos ﬁnanceiros nos termos 
+estabelecidos no regulamento;
+→ Desde que, expressamente autorizado pelo regulamento ou assembléia a classe pode 
+destinar diretamente aos cotistas:
+●
+Dividendos;
+●
+Juros sobre Capital Próprio;
+●
+Reembolso de Proventos de Empréstimos;
+●
+Outros rendimentos de valores mobiliários;
+→ Todo ativo ﬁnanceiro deve ser identiﬁcado com ISIN - International Securities Identiﬁcation 
+Number;
+→ O regulamento pode reduzir, mas não aumentar os limites máximos estabelecidos de 
+concentração;
+
+<<<PÁGINA 3>>>
+Ativos no Brasil
+→ Os ativos negociados no mercado brasileiro devem ser registradas em sistema de registro 
+ou objeto de depósito central, sempre em instituição autorizada pelo BACEN ou CVM;
+→ Os ativos ﬁnanceiros cuja liquidação possa se dar por meio da entrega de produtos, 
+mercadorias ou serviços, devem:
+●
+Ser negociados em mercado de balcão organizado que garanta a sua liquidação;
+●
+Objeto de contrato que assegure a classe a sua alienação antes do vencimento, 
+com garantia de instituição ﬁnanceira ou sociedade seguradora;
+
+<<<PÁGINA 4>>>
+Ativos no Exterior
+→ Os ativos ﬁnanceiros no exterior devem observar ao menos:
+●
+Serem registrados em sistema de registro, objeto de escrituração de ativos e 
+custódia ou depósito central por instituições devidamente autorizadas em seus 
+países de origem e supervisionadas por autoridades locais;
+●
+Terem sua existência diligentemente veriﬁcada pelo custodiante da classe;
+●
+As operações com derivativos devem ainda:
+○
+Serem informadas às autoridades locais;
+○
+Negociadas em bolsas, plataformas eletrônicas ou liquidadas por contraparte 
+central;
+○
+Terem como contraparte instituição ﬁnanceira ou entidades ﬁliadas aderentes 
+às regras do Acordo de Basileia;
+
+<<<PÁGINA 5>>>
+Ativos no Exterior
+→ O pré requisitos anteriores não se aplicam  no caso de créditos de carbono desde que:
+●
+Crédito seja negociado em mercado regulado de emissões de gases efeito estufa que 
+possua autoridade local reconhecida como seu regulador;
+●
+Custodiante da classe investidora diligencie para assegurar a existência, integridade e 
+titularidade do crédito de carbono;
+
+<<<PÁGINA 6>>>
+Ativos no Exterior
+→ As aplicações de recursos em fundos de investimento no exterior devem observar no 
+mínimo:
+●
+O custodiante da classe investidora deve certiﬁcar-se de que o custodiante possui 
+estrutura, processos e controles internos adequados;
+●
+O gestor deve assegurar que o fundo ou veículo de investimento, atenda no mínimo:
+○
+Seja regulado e supervisionado por autoridade local;
+○
+Periodicidade de cálculo do valor da cota compatível com a liquidez oferecida aos 
+cotistas;
+○
+Tenha administrador, gestor e custodiante ou serviços que desempenhem funções 
+equivalentes e devidamente capacitados;
+○
+Demonstrações ﬁnanceiras auditadas por auditor independente;
+○
+Custodiante supervisionado por autoridade local;
+○
+Política de controle de risco compatível com a política de investimentos da classe 
+investidora;
+
+######## A0511.pdf
+<<<PÁGINA 1>>>
+Aplicação por Conta e Ordem
+
+<<<PÁGINA 2>>>
+Aplicação por Conta e Ordem
+→ O distribuidor deve assumir e manter registro complementar de cotistas para que as cotas 
+sejam inscritas em nome dos investidores, atribuído um código de investidor e informado ao 
+administrador;
+●
+O escriturador das cotas deve registrar o cotista e o nome do distribuidor por conta e 
+ordem;
+→ O distribuidor por conta e ordem deve manter de o patrimônio de forma segregada;
+
+<<<PÁGINA 3>>>
+Aplicação por Conta e Ordem
+→ Os distribuidores por conta e ordem assumem todos os ônus e responsabilidades dos clientes:
+●
+Fornecimento de todos os documentos do fundo (regulamento, termo de adesão, ciência 
+de riscos, notas de investimento e extratos);
+●
+Dar ciência ao investidor que o investimento é realizado por conta e ordem;
+●
+Manutenção de PLD-FT;
+●
+Guarda documental dos clientes;
+●
+Prestação de informações diretamente a CVM;
+●
+Comunicações com os cotistas;
+●
+Atendimento aos cotistas;
+●
+Zelo para que o cotista tenha acesso a todos os docs;
+●
+Manutenção de informações para identificação do cotista;
+●
+Obrigação de efetuar a retenção dos tributos incidentes nas aplicações, amortizações e 
+resgates;
+
+<<<PÁGINA 4>>>
+Aplicação por Conta e Ordem
+→ O distribuidor por conta e ordem deve disponibilizar por meio eletrônico para os clientes, os 
+seguintes documentos:
+●
+Nota de investimento que ateste a realização do investimento em até 5 dias;
+○
+Código do Investidor;
+○
+CNPJ do fundo e Classe de Cotas (se houver);
+○
+Quantidade de cotas e o valor investido;
+○
+Data da Subscrição;
+●
+Mensalmente, extratos individualizados dos clientes (10 dias após o fechamento do 
+mês anterior);
+○
+Contendo valor atualizado da posição;
+●
+Gestor e distribuidor, podem ainda adotar medidas adicionais com o objetivo de trazer 
+segurança ao cotista;
+
+<<<PÁGINA 5>>>
+Participação Política por Conta e Ordem
+→ Antes da realização das assembléias, o distribuidor por conta em ordem deve fornecer ao 
+cotista documento comprobatório com a quantidade de cotas por ele detidas para fins de 
+participação na assembléia;
+●
+O distribuidor pode comparecer e votar nas assembléias dos cotistas representando 
+seus interesses, desde que possua mandato com poderes para tal, mantendo 
+instrumento comprobatório em seus arquivos;
+→ O contrato firmado entre o gestor e distribuidor pode prever que na hipótese de sua extinção 
+os clientes cotistas até esta data mantenham seus investimentos desde que:
+●
+Distribuidor mantenha a relação de clientes com todos os direitos e obrigações 
+definidos na normativa;
+●
+O gestor assuma, caso habilitado, ou contrate distribuidor habilitado para assumir os 
+direitos e obrigações;
+
+######## A079.pdf
+<<<PÁGINA 1>>>
+Introdução aos Fundos de Investimento
+
+<<<PÁGINA 2>>>
+Introdução aos Fundos de Investimento
+→
+Os Fundos de Investimentos são formados por uma carteira de ativos financeiros;
+→
+São administrados por uma instituição financeira;
+→
+São condomínios de natureza especial;
+
+<<<PÁGINA 3>>>
+Introdução aos Fundos de Investimento
+→
+Esse tipo de investimento reúne várias pessoas interessadas em investir no mercado 
+financeiro e de capitais;
+→
+Todo o capital fica sobre a responsabilidade de um gestor profissional, que terá a 
+função de fazer as aplicações, resgates e estratégias sobre os produtos de 
+investimento e o mercado;
+○
+No fundo temos gestão discricionária, o gestor não consulta os investidores sobre 
+as movimentações;
+
+<<<PÁGINA 4>>>
+Introdução aos Fundos de Investimento
+→
+Quem aporta recursos em um fundo, precisa comprar cotas desse fundo;
+→
+A cota significa a menor fração do condomínio;
+→
+O patrimônio total do fundo é composto por o somatório de todas as cotas;
+Valor da Cota = Ativos + Contas a Receber - Despesas = Patrimônio Líquido/ Nº Cotas
+
+<<<PÁGINA 5>>>
+Introdução aos Fundos de Investimento
+→
+Ao comprar essa cota, o cotista adere às regras de funcionamento:
+○
+Aplicação mínima;
+○
+Prazo de cotização;
+○
+Prazo de Resgate;
+○
+Política de Investimentos;
+○
+Riscos do Fundo;
+○
+Remuneração do Fundo;
+
+<<<PÁGINA 6>>>
+Introdução aos Fundos de Investimento
+→
+Os fundos podem ter diferentes classes de cotas com obrigações distintas:
+○
+Todas as classes devem pertencer à mesma categoria do fundo;
+○
+O patrimônio pode ser segregado respondendo à respectiva classe;
+○
+As classes podem ser diferenciadas por:
+■
+Público Alvo;
+■
+Prazos e condições de aplicação, amortização e resgate;
+■
+Taxas de Administração, gestão ingresso e saída;
+
+<<<PÁGINA 7>>>
+Introdução aos Fundos de Investimento
+→
+Caso o fundo tenha diferentes classes de cotas, essas devem ter denominação 
+própria;
+○
+Se essas cotas tiverem responsabilidade limitada, o sufixo deve constar 
+expressamente;
+→
+Temos dois tipos de contas de fundos:
+○
+Abertas;
+○
+Fechadas;
+
+<<<PÁGINA 8>>>
+Introdução aos Fundos de Investimento
+→
+O valor das cotas pode sofrer oscilações diariamente conforme a performance do 
+fundo;
+○
+A volatilidade não altera o número de cotas;
+○
+Em um fundo aberto, a variação de aportes e resgates pode ocasionar variação 
+na quantidade de cotas;
+■
+Fundo com Aporte Líquido: Criação de novas Cotas;
+■
+Fundo com Resgate Líquido: Redução de Cotas;
+●
+Exceção: Come Cotas;
+→
+Em um fundo fechado, a quantidade de cotas somente se altera em uma nova 
+subscrição ou vencimento do fundo;
+
+<<<PÁGINA 9>>>
+Importante!
+→
+Gestão Discricionária:
+○
+Nesse modelo o gestor da carteira detém o poder de decidir exclusivamente a 
+seleção, compra e venda de ativos;
+○
+Permite ainda delegar totalidade ou parte da gestão;
+→
+Gestão Não Discricionária:
+○
+O investidor toma as decisões segundo o seu próprio juízo de valor;
+○
+O investidor é o gestor dos recursos, tendo a palavra final;
+○
+Exemplo: Investidor que segue uma carteira recomendada;
+
+######## A082.pdf
+<<<PÁGINA 1>>>
+Funções do Gestor
+
+<<<PÁGINA 2>>>
+Funções e Atribuições de Um Gestor
+→ O gestor “FAZ ACONTECER” a existência e o dia a dia;
+●
+O Administrador, cuida da burocracia;
+→ Atribuições do Gestor:
+1)
+Gere a Carteira: Realiza a compra e venda de ativos;
+2)
+Cria, e segue a Política de Investimentos: Respeitando os Limites de Composição e 
+Concentração;
+3)
+Responsável pela entrada e saída de cotistas: Gestão de Liquidez;
+4)
+Vota pelos Ativos: “Direito de Voto”;
+5)
+Gerencia o Risco: Contrata agência de classificação de risco;
+6)
+Administra os Comitês: Constituição dos Conselhos e dos Comitês;
+
+<<<PÁGINA 3>>>
+Negociação de Ativos em Mercado Organizado
+→ Compete ao gestor negociar os ativos da carteira assim como firmar todo e qualquer contrato 
+ou documento relativo a negociação de ativos;
+●
+O gestor deve encaminhar ao administrador em 5 dias úteis a sua assinatura, cada 
+documento em nome da classe de cotas;
+●
+O regulamento pode prever que a gestão da carteira faça utilização dos ativos de 
+fiança, aval ou qualquer forma de retenção de risco;
+○
+Caso o fundo seja destinado ao público geral, deve ser autorizado em assembléia 
+de cotistas com alerta especial no material de divulgação;
+
+<<<PÁGINA 4>>>
+Negociação de Ativos em Mercado Organizado
+→ As ordens de compra e venda devem sempre ser expedidas pelo gestor com a identificação 
+precisa do fundo:
+●
+Quando uma mesma pessoa jurídica fizer a gestão de carteiras de diversas classe, é 
+admitido o agrupamento de ordens desde que:
+○
+Conte com processos que possibilitem o rateio por critérios equitativos, 
+formalizados e passíveis de verificação;
+○
+Diligencie para que a documentação relacionada ao grupamento e rateio seja 
+mantida às suas expensas, atualizada e em perfeita ordem;
+
+<<<PÁGINA 5>>>
+Limite de Composição e Concentração
+→ O gestor é responsável pela observância dos limites de composição e concentração da carteira 
+e concentração dos fatores de risco;
+→ O gestor não está sujeito às penalidades pelo descumprimento quando o fato for causado por 
+desenquadramento passivo;
+●
+Caso o desenquadramento passivo se prolongue por 15 dias úteis e consecutivos, o 
+gestor deve encaminhar à CVM suas explicações pelo desenquadramento;
+●
+O gestor deve informar o reenquadramento, tão logo ocorrido;
+→ Caso se constate que o descumprimento dos limites estendeu o prazo concedido ao fundo na 
+regra da categoria, deve ser convocado assembléia para decidir:
+●
+Incorporação a outra classe de cotas;
+●
+Cisão total do fundo sob a gestão de outro gestor, não integrante do mesmo grupo 
+econômico;
+●
+Liquidação;
+
+<<<PÁGINA 6>>>
+Gestão de Liquidez
+→ Nas classes abertas, os prestadores essenciais devem adotar as medidas necessárias para 
+que a liquidez da carteira seja compatível com:
+●
+Prazos previstos no regulamento para pagamento dos pedidos de resgate;
+●
+Cumprimento de obrigações das cotas;
+→ Deve levar em conta, no mínimo:
+●
+Liquidez dos diferentes ativos que compõem a carteira;
+●
+As obrigações, incluindo depósitos inesperados de margem de garantia;
+●
+Valores de resgate esperados em condições ordinárias, calculado com critérios estatísticos 
+passíveis de verificação;
+●
+Grau de dispersão da propriedade das cotas;
+●
+Tudo ser passível de verificação;
+
+<<<PÁGINA 7>>>
+Gestão de Liquidez
+→ Os prestadores de serviços essenciais podem se acertar livremente para dar cumprimento a 
+gestão de liquidez das cotas;
+→ O gestor deve submeter a carteira de ativos a testes de estresse periódicos, em cenários que 
+levem em conta as movimentações de passivo, liquidez dos ativos e obrigação das cotizações de 
+cotas;
+●
+A periodicidade, deve ser adequada às características da classe de cotas;
+→ Caso o fundo invista em outros fundos de investimento, o gestor deve avaliar a liquidez de 
+cada classe investida, considerando no mínimo:
+●
+O volume a ser investidor;
+●
+Regras de pagamento de resgate da classe investida;
+●
+Sistemas e ferramentas utilizados na gestão de liquidez da classe investida;
+
+<<<PÁGINA 8>>>
+Direito de Voto
+Subseção VI - Direito de Voto
+Art. 94. Compete ao gestor exercer o direito de voto decorrente de ativos detidos pela classe, 
+realizando todas as ações necessárias para tal exercício, observado o disposto na política de voto 
+da classe.
+
+<<<PÁGINA 9>>>
+Contratação de Agência de Risco
+→ Caso o fundo contrate uma agência de classificação de risco de crédito:
+●
+As informações fornecidas as agências de risco, devem abranger no mínimo aquelas 
+fornecidas aos cotistas;
+●
+O contrato deve ter cláusula obrigando a agência a divulgar imediatamente, em seu site, na 
+CVM, ao gestor e ao administrador qualquer alteração na sua classificação, ou a rescisão do 
+contrato;
+○
+O administrador deve, imediatamente divulgar fato relevante ao mercado;
+○
+A rescisão do contrato com agência somente é admitida mediante observância do 
+período de carência de 180 dias, sendo obrigatória a apresentação da classificação de 
+risco elaborada pela agência;
+○
+Caso a rescisão ocorra por deliberação de cotistas, o prazo definido de carência é de 90 
+dias;
+
+<<<PÁGINA 10>>>
+Constituição de Conselho Consultivo e Comitê
+→ Sem prejuízo a responsabilidade dos prestadores de serviço, podem ser constituídos por 
+iniciativa do cotista de prestador essencial, conselhos consultivos, comitês técnicos ou de 
+investimentos, os quais não podem ser remunerados pelo fundo;
+●
+As atribuições, a composição, e os requisitos para convocação e deliberação devem estar 
+estabelecidos no regulamento;
+●
+A existência de conselhos e comitês não exime o gestor da responsabilidade sobre as 
+operações da carteira de ativos;
+●
+Os membros devem informar ao administrador, e esse aos cotistas, qualquer situação de 
+conflito de interesses;
+●
+Quando constituídos por iniciativa do prestador de serviço essencial, os membros podem ser 
+remunerados com parcela da taxa de administração ou gestão;
+●
+Se constituídos com o objetivo de supervisionar as atividades exercidas por prestador de 
+serviço essencial, a remuneração dos membros pode constituir encargo do fundo, desde que 
+expressamente prevista no regulamento;
+
+######## A086.pdf
+<<<PÁGINA 1>>>
+Distribuição de Cotas
+
+<<<PÁGINA 2>>>
+Distribuição de Cotas
+→ A distribuição das cotas deve ser realizada por instituições habilitadas a atuar como 
+integrantes do sistema de distribuição;
+→ O gestor é obrigado a:
+●
+Fornecer aos distribuidores todo o material de divulgação da classe exigido pela 
+regulamentação em vigor, respondendo pelo material em todos os aspectos;
+●
+Informar aos distribuidores qualquer alteração que ocorra na classe;
+
+<<<PÁGINA 3>>>
+Distribuição de Cotas Abertas
+→ A distribuição de cotas de classe aberta, independe de registro prévio na CVM;
+●
+É opcional a intermediação de instituição integrante do sistema de distribuição;
+○
+Nesse caso, um dos prestadores essenciais deve se responsabilizar pelas 
+atividades de PLD-FT;
+→ É facultado ao gestor suspender a qualquer momento, novas aplicações desde que, se 
+aplique a todos os cotistas;
+●
+A suspensão, não impede posterior reabertura;
+●
+O gestor deve comunicar imediatamente aos distribuidores;
+■
+No caso de classes exclusivas a investidores profissionais, o gestor é 
+autorizado 
+a 
+suspender 
+aplicações 
+apenas 
+para
+os novos cotistas;
+
+<<<PÁGINA 4>>>
+Distribuição de Cotas Abertas Fechadas
+→ A assembléia de cotistas que deliberar a emissão de novas cotas fechadas, pode dispor 
+sobre a quantidade mínima de cotas que deve ser subscrita, e o tratamento caso a 
+quantidade mínima não seja alcançada;
+→ Não é admitido a distribuição de cotas da classe fechada antes do encerramento da 
+distribuição anterior;
+→ As importâncias recebidas devem ser depositadas em instituição do SBP ou aplicada em 
+valores mobiliários ou outros ativos financeiros compatíveis com as características da 
+classe;
+●
+No caso de classe já em funcionamento, as cotas devem ser escrituradas 
+separadamente das demais aplicações até o encerramento;
+●
+Assim 
+que 
+subscrito 
+o 
+valor 
+mínimo, 
+os 
+recursos 
+podem 
+ser
+investidos de acordo com o regulamento;
+
+<<<PÁGINA 5>>>
+Negociações com Informação Privilegiada
+
+<<<PÁGINA 6>>>
+Negociações com Informação Privilegiada
+“É vedada a utilização de informação relevante ainda não divulgada, por qualquer pessoa que 
+a ela tenha tido acesso, com a finalidade de auferir vantagem, para si ou para outrem, 
+mediante negociação de cotas em mercados organizados”
+
+<<<PÁGINA 7>>>
+Negociações com Informação Privilegiada
+Presume-se:
+→ Pessoa que negociou usando informação ainda não divulgada fez uso de informação 
+privilegiada;
+→ Os diretores do gestor e do administrador que participam das decisões da gestão da 
+carteira de ativos tem acesso a toda informação relevante ainda não divulgada no mercado;
+→ Os cotistas que participem das decisões tem acesso a informação relevante não divulgado;
+●
+Quando se afasta do fundo, usufrui de informação privilegiada no período de três meses 
+a partir do seu afastamento;
+■
+Deixa os participantes bem limitados;
+EXCEÇÃO: Não se aplica a subscrição de novas cotas, sem prejuízo das demais regras;
+
+<<<PÁGINA 8>>>
+Negociações com Informação Privilegiada
+Os referidos podem formalizar plano de desinvestimento para afastar-se das “presunções”:
+→ O plano deve:
+●
+Ser formalizado por escrito;
+●
+Passível de verificação, inclusive em relação a sua realização;
+●
+Estabelecer regras de forma irrevogável e irretratável com datas e eventos;
+●
+Prazo mínimo de 3 meses para início, modificação ou cancelamento;
+○
+Não é possível manter dois planos em vigor;
+○
+É vedado efetuar operações que anulem os efeitos econômicos;
+
+######## A088.pdf
+<<<PÁGINA 1>>>
+Vedações, Obrigações e
+Normas de Conduta
+
+<<<PÁGINA 2>>>
+Vedações, Obrigações e Normas de Conduta
+Vedações:
+●
+Receber depósito em CC, Pegar empréstimo, Vender cotas prestação, Garantir 
+rendimento;
+Obrigações:
+●
+Administrador:
+○
+Registro, Ata, Reuniões, Auditoria, Documentos Contábeis, Atendimento de 
+Cotistas, Cumprir deliberações da Assembléia;
+●
+Gestor:
+○
+Manter a carteira de ativos enquadrada, informar o adm e cumprir as deliberações 
+de assembléia;
+Normas de Conduta:
+●
+Cuidar do patrimônio dos cotistas como se fosse seu próprio;
+●
+Empregar tudo o que possível em defesa do cotista;
+
+<<<PÁGINA 3>>>
+Vedações
+→ É vedado aos prestadores de serviço:
+●
+Receber depósito em conta corrente;
+●
+Contrair ou efetuar empréstimos salvo exceções para fundos exclusivos ou restritos;
+●
+Vender cotas à prestação;
+●
+Garantir rendimento à cotista;
+●
+Utilizar recursos da classe para pagamento de seguro contra perdas financeiras;
+●
+Praticar qualquer ato de liberalidade, exceto doações que estiver autorizado no 
+regulamento:
+○
+O gestor pode tomar e dar ativos de empréstimo, desde que sejam operações 
+autorizadas pelo BACEN ou CVM;
+○
+O 
+gestor 
+pode 
+utilizar 
+os 
+ativos 
+da 
+carteira 
+na 
+retenção 
+de
+risco da classe em suas operações de derivativos;
+●
+É vedado o recebimento de qualquer remuneração ou vantagem  direta ou indiretamente 
+que prejudique sua independência;
+●
+Vedado repasse de informação privilegiada;
+
+<<<PÁGINA 4>>>
+→ São obrigações do Administrador:
+●
+Registro de cotistas;
+●
+Pareceres do auditor independente;
+●
+Registros contábeis referente às operações e ao patrimônio do fundo;
+●
+Solicitar a negociação das cotas fechadas em mercado organizado e nas classes abertas 
+processar os pedidos de resgate;
+●
+Pagar multa cominatória às suas expensas no atraso do cumprimento da regulamentação;
+●
+Elaborar e divulgar informações periódicas da classe de cotas;
+●
+Manter atualizado junto à CVM a lista de todos os prestadores de serviços;
+●
+Livro de Atas e presenças das assembléias;
+●
+Observar as disposições do regulamento;
+●
+Cumprir as deliberações da assembléia;
+●
+Monitorar a hipótese de liquidação antecipada;
+●
+Manter atendimento ao cotista, esclarecimento de dúvidas e recebimento de reclamações;
+Obrigações
+
+<<<PÁGINA 5>>>
+→ O atendimento ao cotista deve ser subordinado diretamente:
+●
+Ao diretor responsável perante a CVM pela administração do fundo;
+●
+Outro diretor especialmente indicado à CVM para essa função;
+●
+Diretor indicado pela instituição responsável pela distribuição de cotas, ou gestão da carteira 
+de ativos;
+Obrigações
+
+<<<PÁGINA 6>>>
+→ São obrigações do Gestor:
+●
+Informar ao administrador de imediato caso ocorra alteração em algum prestador de serviço 
+por ele contratado;
+●
+Providenciar a elaboração de material de divulgação da classe para utilização dos 
+distribuidores as suas expensas;
+●
+Diligenciar as operações referentes às classes de cotas;
+●
+Manter a carteira de ativos enquadrada aos limites de composição, concentração e risco de 
+capital;
+●
+Observar as disposições constantes no regulamento;
+●
+Cumprir as deliberações das assembléias de cotistas;
+Obrigações
+
+<<<PÁGINA 7>>>
+→ Os prestadores de serviço são obrigados a:
+●
+Exercer suas atividades buscando as melhores condições para o fundo, empregando o 
+cuidado e a diligência que todo homem ativo e probo costuma dispensar à 
+administração dos próprios negócios, atuando com lealdade em relação ao interesse 
+dos cotistas e do fundo, evitando práticas que possam ferir a relação fiduciária;
+●
+Exercer, ou diligenciar o exercício de todos os direitos decorrentes do patrimônio e das 
+atividades da classe de cotas, ressalvando o que dispuser relativo ao direito de exercício de 
+voto;
+●
+Empregar, na defesa do direito dos cotistas, praticando todos os atos para assegurá los 
+adotando medidas judiciais, extrajudiciais e arbitrais cabíveis;
+○
+Os 
+prestadores 
+devem 
+transferir 
+a 
+classe 
+de 
+cotas 
+todo 
+e
+qualquer 
+benefício 
+ou 
+vantagem 
+que 
+possam 
+alcançar 
+em
+decorrência de sua condição;
+Normas de Conduta
+
+######## A089.pdf
+<<<PÁGINA 1>>>
+Serviços Essenciais
+
+<<<PÁGINA 2>>>
+Disposições Gerais
+→ O funcionamento do fundo de investimento se materializa por meio da atuação dos 
+prestadores de serviço essenciais e terceiros por eles contratados;
+→ Os prestadores de serviços essenciais e demais prestadores de serviços do fundo respondem 
+a CVM nas suas respectivas esferas de atuação, por seus atos e omissões contrários à lei;
+
+<<<PÁGINA 3>>>
+Funções do Administrador
+→ Incluem-se entre as obrigações do administrador contratar em nome do fundo com terceiros 
+devidamente habilitados e autorizados:
+●
+Tesouraria, controle e processamento dos ativos;
+●
+Escrituração das cotas;
+●
+Auditoria Independente;
+○
+O fundo administrado por instituição financeira ou equivalente autorizada a 
+funcionar pelo BACEN não precisa contratar os serviços quando forem 
+executados pelo administrador;
+→ O administrador pode contratar outros serviços em benefício das cotas, nesse caso:
+●
+A contratação não ocorre em nome do fundo exceto previsto no regulamento ou 
+aprovado em assembléia;
+●
+Caso o prestador não seja um participante de mercado regulado pela CVM, cabe ao 
+administrador fiscalizar as atividades do terceiro;
+
+<<<PÁGINA 4>>>
+Funções do Gestor
+→ Inclui-se entre as obrigações do gestor, contratar em nome do fundo com terceiros 
+devidamente habilitados e autorizados os seguintes serviços:
+●
+Intermediação de operações para carteira de ativos;
+●
+Distribuição de cotas;
+●
+Consultoria de Investimentos;
+●
+Classificação de risco por agência;
+●
+Formador de mercado de classe fechada;
+●
+Cogestão da Carteira de Ativos;
+○
+O gestor e o administrador podem prestar os serviços observada a 
+regulamentação aplicável às referidas atividades;
+
+<<<PÁGINA 5>>>
+Funções do Gestor
+→ O gestor pode contratar outros serviços em benefício das cotas, nesse caso:
+●
+A 
+contratação 
+não 
+ocorre 
+em 
+nome 
+do 
+fundo 
+exceto 
+previsto no regulamento ou aprovado em assembléia;
+●
+Caso 
+o 
+prestador 
+não 
+seja 
+um 
+participante 
+de 
+mercado
+regulado 
+pela 
+CVM, 
+cabe 
+ao 
+administrador 
+fiscalizar 
+as
+atividades do terceiro;
+
+######## A094.pdf
+<<<PÁGINA 1>>>
+Limites de Concentração
+
+<<<PÁGINA 2>>>
+→ Limite por Modalidade:
+●
+Até 20%: FIF IQ, FIDC, FII, CRI, VM não registrado;*Exceções
+●
+Até 15%: FIP e FIAGRO;*Exceções
+●
+Até 10%: “Alternativos” (CBIO, Cripto, VM de Plataformas Eletrônicas;
+●
+Ilimitadoooooo: TPF, Ativos Bancários, NP, Debêntures, FIF Público Geral;
+→ Limite por Emissor:
+●
+Até 20%: IF Autorizada;
+●
+Até 10%: Companhia Aberta ou Equivalente;
+●
+Até 10%: SPE Subsidiária de Seguradora;
+●
+Até 5%: Pessoa Natural ou PJ Não Aberta ou Não IF;
+●
+Ilimitado: TPF, Fundos de Investimento, Desde que previsto em regulamento 
+ressaltando o risco de concentração;
+Limites de Concentração
+
+<<<PÁGINA 3>>>
+→ Limite no Exterior:
+●
+Renda Fixa: Ilimitado
+○
+Renda Fixa de Dívida Externa;
+○
+Classes para Investidores Profissionais;
+●
+Até 40%: Para investidores Qualificados; *Exceções
+●
+Até 20%: Público Geral; *Exceções
+Limites de Concentração
+
+<<<PÁGINA 4>>>
+Racional…
+
+<<<PÁGINA 5>>>
+→
+As classes de FIF devem observar os seguintes limites de concentração:
+●
+Ilimitado para:
+○
+Classe Renda Fixa - Dívida Externa;
+○
+Classe exclusivamente destinada a investidores profissionais;
+●
+Até 40% para investidores qualificados;
+○
+Podendo extrapolar desde que:
+■
+Tipificação do fundo seja preservada;
+■
+Regulamento disponha pormenorizadamente os ativos que irá adquirir no 
+exterior;
+■
+Em aplicação em Fundos, seguir o restante da regulamentação;
+Limites de Concentração no Exterior
+
+<<<PÁGINA 6>>>
+→
+As classes de FIF devem observar os seguintes limites de concentração:
+●
+Até 20% para público em geral;
+○
+Podem extrapolar desde que:
+■
+Tenham metodologia de cálculo para precificação dos ativos e alavancagem 
+conhecida e monitorada por regulador local;
+■
+Gerenciamento de riscos considerando descasamento de ativo e passivo;
+■
+Gerenciamento de liquidez considerando prazos de resgate da classe 
+investidora;
+■
+Regras que vendem o veículo no exterior tenha PL negativo;
+■
+Seja destinado ao público geral em suas jurisdições;
+■
+Respeite a concentração de ativos local sendo sujeitos aos seguintes limites:
+●
+Até 10% de ativos não listados em segmento de valores mobiliários;
+●
+Até 20% de ativos de um mesmo emissor seja ele bancário ou não;
+Limites de Concentração no Exterior
+
+<<<PÁGINA 7>>>
+→ As classes de cotas devem observar os seguintes limites máximos de concentração por 
+emissor, sem prejuízo as demais regras de concentração aplicáveis ao seu tipo:
+I - Até 20% do PL quando o emissor for instituição financeira autorizada a funcionar pelo 
+BACEN;
+II - Até 10% do PL quando o emissor for companhia aberta ou assemelhada (BDR);
+III - Até 10% do PL quando o emissor for SPE subsidiária integral de securitizadora;
+IV - Até 5% do PL quando o emissor for Pessoa Natural ou Jurídica que não seja IF 
+autorizada 
+ou 
+Companhia 
+Aberta;
+V 
+Não 
+há 
+limites 
+quando:
+a) 
+O 
+emissor 
+for 
+a 
+União 
+Federal;
+b) 
+O 
+emissor 
+for 
+fundo 
+de 
+investimento;
+c) Política de investimentos prever a aquisição de ativos e deixar explícito o risco de 
+concentração;
+Limites de Concentração por Emissor
+
+<<<PÁGINA 8>>>
+→ As regras de limite de concentração não se aplicam quando:
+I - A política de investimento consiste em investir 95% do PL em ações ou certificados de 
+depósito do próprio gestor ou companhias do grupo econômico;
+II - Ações que integrem o índice geral de maior negociabilidade do mercado brasileiro;
+Limites de Concentração por Emissor
+
+<<<PÁGINA 9>>>
+→ Cumulativamente aos limites de concentração por emissor, a classe de cotas deve observar 
+os seguintes limites de concentração por ativo:
+I - Até 20% do Patrimônio Líquido para o Conjunto dos seguintes ativos:
+a)
+Cotas de FIF destinada para investidores qualificados (5% nos FIFs destinados 
+exclusivamente para investidores profissionais;
+b)
+Cotas de Fundos Imobiliários;
+c)
+Cotas de FIDCs (5% nos FIDCs que admitam aplicação em direitos creditórios 
+não padronizados);
+d)
+Certificado de Recebíveis (5% nos Certificados lastreados em direitos não 
+padronizados);
+e)
+Valores 
+Mobiliários 
+representativos 
+de 
+dívida 
+de 
+CIA
+emissora não registrada na CVM;
+** O limite pode alcançar até 40% caso seja composto por ativos com formador de mercado.
+Limites de Concentração por Modalidade
+
+<<<PÁGINA 10>>>
+→ Cumulativamente aos limites de concentração por emissor, a classe de cotas deve observar 
+os seguintes limites de concentração por ativo:
+II - Até 15% do Patrimônio Líquido para o Conjunto dos seguintes ativos:
+a)
+Cotas de Fundos de Investimento em Participações (FIP);
+b)
+Cotas de Fundos de Investimento nas cadeias produtivas agroindustriais 
+(FIAGRO), sendo de 5% caso admita direitos creditórios não padronizados;
+** O limite pode alcançar até 25% caso seja composto por ativos com formador de mercado.
+Limites de Concentração por Modalidade
+
+<<<PÁGINA 11>>>
+→ Cumulativamente aos limites de concentração por emissor, a classe de cotas deve observar 
+os seguintes limites de concentração por ativo:
+III - Até 10% do Patrimônio Líquido para o Conjunto dos seguintes ativos:
+a)
+Títulos de investimento coletivo, incluído mas não limitado a CIC-Hoteleiros;
+b)
+CBIO e créditos de Carbono;
+c)
+Cripto Ativos;
+d)
+Valores Mobiliários emitidos por plataformas eletrônicas de investimento 
+participativo, desde que sejam objeto de escriturador autorizado pela CVM;
+e)
+Outros ativos financeiros;
+Limites de Concentração por Modalidade
+
+<<<PÁGINA 12>>>
+→ Cumulativamente aos limites de concentração por emissor, a classe de cotas deve observar 
+os seguintes limites de concentração por ativo:
+IV - Não há limite de concentração por modalidade de ativo financeiro para investimento:
+a)
+Títulos Públicos Federais e Operações Compromissadas nesses títulos;
+b)
+Ouro Financeiro, desde que negociado em mercado organizado;
+c)
+Títulos de emissão ou coobrigação de instituição financeira autorizada pelo 
+BACEN;
+d)
+Notas Promissórias, Debêntures ou Commercial Papers de companhias abertas 
+e objeto de oferta pública;
+e)
+Bônus, cupons, recibos de subscrição de valores mobiliários do item “d”;
+f)
+Cotas de FIF destinadas ao público geral;
+g)
+ETF’s;
+h)
+BDRs, Dívida de BDRs e BDR-ETF;
+i)
+Contratos de Derivativos;
+j)
+Ativos Fungíveis de única emissão de VM;
+Limites de Concentração por Modalidade
+
+<<<PÁGINA 13>>>
+→ Somente as classes exclusivamente destinadas a investidores profissionais, nos limites 
+previstos em seus regulamentos podem aplicar recursos nas seguintes categorias:
+a)
+Fundos de Financiamento da Indústria Cinematográfica Nacional - FUNCINE;
+b)
+Fundos Mútuos de Ações Incentivadas - FMAI;
+c)
+Fundos de Investimento Cultural e Artístico - FICART;
+Limites de Concentração por Modalidade
+
+<<<PÁGINA 14>>>
+→ Os limites de composição e concentração de carteira, devem ser cumpridos pelo gestor, 
+cabendo ao gestor, diligenciar pelo seu reenquadramento no melhor interesse dos cotistas;
+●
+O administrador deve informar à CVM caso a carteira permaneça desenquadrada 
+por mais de 10 dias úteis consecutivos seguintes ao encerramento do prazo;
+●
+O gestor deve encaminhar à CVM um plano de ação para reenquadramento da 
+carteira;
+→ As classes de cotas tem os seguintes prazos máximos para atingir o enquadramento:
+●
+60 dias, a contar da data da primeira integralização de cotas para as classes 
+abertas;
+●
+180 dias, a contar da data de encerramento da distribuição, para as classes 
+fechadas;
+Deveres dos Limites de Concentração
+
+<<<PÁGINA 15>>>
+→ Caso constate o descumprimento dos limites de composição, diversificação e concentração 
+por prazo superior ao permitido, a CVM pode determinar ao administrador a convocação de 
+assembléia para deliberar sobre uma das seguintes alternativas:
+●
+Incorporação ao patrimônio de outra classe de cotas;
+●
+Cisão total para fundo de investimento sob a gestão de outro gestor que não seja 
+parte relacionada ao gestor substituído;
+●
+Liquidação;
+○
+Caso se trate de fundo com classe única de cotas, a assembléia pode decidir 
+sobre a alternativa de transferir a administração ou gestão do fundo, ou ambas;
+Deveres dos Limites de Concentração
+
+######## A099.pdf
+<<<PÁGINA 1>>>
+Remuneração dos Prestadores
+
+<<<PÁGINA 2>>>
+Vamos entender…
+→
+Taxa de Administração;
+→
+Taxa de Performance;
+→
+Taxa de Ingresso e Saída;
+→
+Taxa Máxima de Distribuição e Acordos de Remuneração;
+
+<<<PÁGINA 3>>>
+Taxa de Administração
+→ Taxa de Administração;
+●
+A taxa é cobrada pela instituição financeira que administra o fundo;
+○
+É a taxa que remunera todos os serviços prestados;
+●
+O valor da taxa corresponde a um percentual do patrimônio do fundo, sendo 
+representado em percentual ao ano (252 D.U), provisionado diariamente e descontado 
+mensalmente;
+●
+Taxa de administração é cobrada, mesmo com variação negativa do fundo;
+●
+O administrador deve divulgar a rentabilidade do fundo com a taxa de administração já 
+descontada do valor da cota. Diz-se que a rentabilidade é líquida da taxa de 
+administração;
+
+<<<PÁGINA 4>>>
+Taxa de Performance
+→ Taxa de Performance:
+●
+Somente pode ser cobrada caso a rentabilidade do fundo supere o benchmark 
+(verificável e de forma independente) após o pagamento de todas as despesas para 
+remunerar a boa performance da gestão;
+●
+Sempre respeitando a linha d'água e apenas em casos de rentabilidade positiva;
+●
+Cobrança deve ser no máximo semestral;
+●
+O regulamento do fundo deve especificar se a taxa de performance é cobrada:
+●
+Resultado do fundo (método do ativo);
+●
+Resultado de cada aplicação efetuada por cada cotista (método do passivo);
+●
+Resultado do fundo, acrescido de ajustes individuais (método do ajuste);
+
+<<<PÁGINA 5>>>
+Remuneração
+→ O prestador de serviço essencial pode reduzir unilateralmente a taxa que lhe compete, 
+sem que seja requerida deliberação de assembléia de cotistas;
+→ A classe de cotas que possa adquirir cotas de outros fundos de investimento deve 
+estabelecer em seu regulamento que suas taxas de administração e gestão compreendem as 
+taxas dos fundos investidos;
+●
+O regulamento pode estabelecer taxas máximas compreendendo as taxas dos 
+fundos investidos, e taxas mínimas, que não incluam as taxas dos fundos 
+investidos. Em caso de materiais de comparação, deve-se apenas referir-se às 
+taxas máximas;
+●
+As aplicações em classes de cotas dos seguintes fundos de investimento não 
+devem ser consideradas para os efeitos:
+○
+Cotas admitidas à negociação em mercado organizado;
+○
+Fundos 
+geridos 
+por 
+partes 
+não 
+relacionadas 
+ao 
+gestor
+do fundo investidor;
+
+<<<PÁGINA 6>>>
+Remuneração
+→ Caso exista um acordo de remuneração com base na taxa de administração, performance 
+ou gestão o valor deve ser subtraído e limitado aos valores destinados pela classe investida 
+ao provisionamento ou pagamento das despesas com as referidas taxas;
+●
+É vedado que o acordo de remuneração direta ou indiretamente resulte em 
+desconto, abatimento ou redução da taxa de administração ou qualquer outra taxa 
+devida pela classe investidora à investida;
+→ Cumpre ao prestador essencial zelar para que as despesas com a contratação de terceiros 
+não excedam o montante total, conforme estabelecido no regulamento, cabendo o 
+pagamento de qualquer despesa que ultrapasse esse limite às expensas do prestador 
+essencial, que o contratou;
+
+######## Aplicação por Conta e Ordem.pdf
+<<<PÁGINA 1>>>
+Aplicação por Conta 
+e Ordem
+
+Obrigações do Distribuidor por 
+Conta e Ordem
+Registro e Manutenção de Dados
+O distribuidor deve manter registro 
+complementar de cotistas, atribuindo um 
+código de investidor e informando ao 
+administrador.
+O escriturador das cotas deve registrar o 
+cotista e o nome do distribuidor por conta 
+e ordem.
+O distribuidor deve manter o patrimônio 
+de forma segregada.
+Responsabilidades e Documentação
+Os distribuidores assumem todos os ônus 
+e responsabilidades dos clientes.
+Devem fornecer todos os documentos do 
+fundo (regulamento, termo de adesão, 
+ciência de riscos, notas de investimento e 
+extratos).
+Devem dar ciência ao investidor que o 
+investimento é realizado por conta e 
+ordem.
+Responsáveis pela manutenção de PLD-FT, 
+guarda documental dos clientes, 
+prestação de informações diretamente à 
+CVM e comunicação com os cotistas.
+Devem garantir o atendimento aos cotistas 
+e o acesso a todos os documentos.
+Responsáveis pela manutenção de 
+informações para identificação do cotista.
+Devem efetuar a retenção dos tributos 
+incidentes nas aplicações, amortizações e 
+resgates.
+Disponibilização Eletrônica de 
+Documentos
+O distribuidor deve disponibilizar 
+eletronicamente para os clientes: nota de 
+investimento (em até 5 dias), código do 
+investidor, CNPJ do fundo e classe de cotas 
+(se houver), quantidade de cotas e valor 
+investido, data da subscrição.
+Mensalmente, devem fornecer extratos 
+individualizados dos clientes (10 dias após 
+o fechamento do mês anterior), contendo 
+o valor atualizado da posição.
+Gestor e distribuidor podem adotar 
+medidas adicionais para segurança do 
+cotista.
+Participação em Assembleias
+Fornecimento de Documentação e 
+Representação
+Antes das assembleias, o distribuidor deve 
+fornecer ao cotista documento 
+comprovando a quantidade de cotas para 
+fins de participação.
+O distribuidor pode comparecer e votar 
+nas assembleias representando os 
+interesses dos cotistas, desde que possua 
+mandato com poderes para tal, mantendo 
+o instrumento comprobatório em seus 
+arquivos.
+Continuidade dos Investimentos em Caso 
+de Extinção do Contrato
+O contrato entre gestor e distribuidor pode 
+prever que, em caso de extinção, os 
+clientes cotistas mantenham seus 
+investimentos, desde que: o distribuidor 
+mantenha a relação com os clientes, com 
+todos os direitos e obrigações definidos na 
+normativa; ou o gestor assuma, caso 
+habilitado, ou contrate um distribuidor 
+habilitado para assumir os direitos e 
+obrigações.
+
+######## Assembléia de Cotistas.pdf
+<<<PÁGINA 1>>>
+Assembleia de 
+Cotistas
+
+Competência da Assembleia
+Assuntos a serem deliberados
+Demonstrações contábeis.
+Substituição de prestador de serviço 
+essencial.
+Emissão de novas cotas de classe fechada.
+Fusão, cisão ou incorporação total ou 
+parcial.
+Alteração de regulamento (exceto: atender 
+exigências da CVM, atualizações cadastrais, 
+redução de taxas, plano de resolução de PL 
+negativo e pedido de declaração judicial 
+de insolvência de cotas).
+Regras da Assembleia
+Prazos e Tipos de Assembleia
+Se o fundo tiver diferentes classes de cotas 
+e alguma decidir alterar um prestador 
+essencial, essas cotas devem ser cindidas.  
+Pode haver cisão total ou parcial.
+Assembleia especial anual para deliberar 
+sobre as demonstrações contábeis de cada 
+classe de cotas.
+Assembleia geral anual para deliberar 
+sobre as demonstrações contábeis do 
+fundo (prazo: até 60 dias após o envio das 
+demonstrações à CVM, incluindo o 
+relatório do auditor; realização: mínimo 15 
+dias após a disponibilidade das 
+demonstrações).
+Assembleias com comparecimento de 
+todos os cotistas podem dispensar os 
+prazos estabelecidos.
+Demonstrações contábeis com relatório de 
+auditoria sem opinião modificada são 
+automaticamente aprovadas se a 
+assembleia não for instalada por falta de 
+comparecimento.
+Convocação e Instalação
+A convocação deve ser enviada a cada 
+cotista da classe convocada e 
+disponibilizada na página do gestor e 
+administrador.
+A convocação deve listar expressamente 
+todas as matérias a serem deliberadas, 
+sem incluir itens genéricos.
+Se houver participação online, a 
+convocação deve detalhar as regras de 
+votação.
+As informações podem ser resumidas na 
+convocação, com detalhes na página do 
+gestor.
+A convocação deve ser feita com 
+antecedência mínima de 10 dias, incluindo 
+dia, hora e local da realização, e link da 
+proposta.
+A presença de todos os cotistas supre a 
+necessidade de convocação.
+Prestadores de serviços essenciais, o 
+custodiante ou cotistas com pelo menos 
+5% das cotas podem convocar 
+assembleias a qualquer momento. O 
+pedido é feito ao administrador, que tem 
+até 30 dias para convocar a assembleia. As 
+despesas são custeadas pelos requerentes, 
+a menos que a assembleia decida o 
+contrário.
+As assembleias se instalam com qualquer 
+número de cotistas presentes.
+As assembleias podem ser parcialmente 
+ou exclusivamente eletrônicas. As 
+assembleias exclusivamente eletrônicas 
+são consideradas realizadas na sede do 
+administrador. O administrador deve 
+garantir a autenticidade e segurança da 
+transmissão de informações por meio de 
+assinatura eletrônica ou métodos eficazes. 
+Os cotistas podem votar por escrito ou 
+eletronicamente, desde que o 
+administrador receba o voto antes da 
+assembleia.
+Deliberações da Assembleia
+Votação e Quórum
+As deliberações são tomadas por maioria 
+dos votos presentes.
+O regulamento pode estabelecer quórum 
+qualificado.  Para destituição ou 
+substituição de prestador essencial de 
+classe aberta, o quórum não pode exceder 
+a metade do Patrimônio Líquido (PL) da 
+classe.
+O regulamento define livremente a forma 
+de cálculo dos votos para subclasses, 
+desde que a participação seja equitativa.
+O regulamento pode permitir deliberações 
+por consulta formal, sem reunião.
+Apenas cotistas inscritos no registro na 
+data da convocação, seus representantes 
+legais ou procuradores legalmente 
+constituídos podem votar.  O procurador 
+deve apresentar mandato específico.
+Um resumo das decisões deve ser 
+disponibilizado aos cotistas em até 30 dias 
+após a assembleia.
+Cotistas que não podem votar
+Prestadores de serviço (essenciais ou não).
+Sócios, diretores e empregados do 
+prestador de serviço.
+Partes relacionadas ao prestador de 
+serviço.
+Cotistas com conflito de interesse na 
+matéria em votação.
+Cotistas em caso de deliberação sobre 
+laudo de bens de sua propriedade.
+A restrição não se aplica se os únicos 
+cotistas forem os mencionados acima ou 
+se houver aquiescência expressa da 
+maioria dos demais cotistas, manifestada 
+na assembleia ou previamente concedida.
+
+######## Constituição e Registro dos Fundos de Investimento.pdf
+<<<PÁGINA 1>>>
+Constituição e 
+Registro na CVM
+
+Segregação Patrimonial
+Separação de Ativos
+Separação dos ativos de uma entidade dos 
+ativos de outra.
+Exemplos: Pessoa física da empresa; 
+Patrimônio de afetação na construção civil; 
+Administrador do fundo de investimento e 
+o patrimônio dos cotistas.
+Constituição e Registro do Fundo
+Processo de Constituição
+O fundo de investimento deve ser 
+constituído por deliberação conjunta dos 
+prestadores de serviços essenciais, que 
+aprovam o regulamento.
+Inclui: Administrador, Gestor, Custodiante, 
+Distribuidor e Auditor Independente.
+Registro Automático
+O registro é concedido automaticamente 
+após o envio de documentos e 
+informações pelo administrador via 
+sistema eletrônico.
+Classificação e Subclasses dos 
+Fundos
+Tipificação dos Fundos
+Renda Fixa; Fundos de Ações; Fundos 
+Cambiais; Fundos Multimercados; Fundos 
+de Incentivados de Infraestrutura; Fundos 
+de Garantia de Locação Imobiliária; Fundos 
+de Crédito Privado.
+Classes e Subclasses de Cotas
+Exemplos: FIDC (Cotas Senior, Cotas 
+Subordinadas); Cota Master, Cota 
+Diamond, Cota Gold.
+Requisitos de Constituição e 
+Registro
+Registro de Classes e Subclasses
+Cada classe e subclasse de cotas deve ter 
+seu próprio registro.
+Liquidação ou Incorporação
+Após 90 dias do início das atividades, se o 
+patrimônio for inferior a 1 milhão de reais 
+por 90 dias, o fundo será liquidado ou 
+incorporado.
+Indeferimento de Registro
+A Superintendência pode indeferir o 
+pedido de registro se o administrador 
+estiver com mais de 60 dias de atraso nas 
+informações periódicas.
+Documentos Necessários para o 
+Registro
+Conteúdo do Pedido de Registro
+O pedido de registro deve conter: 
+Regulamento do fundo; Declaração de 
+aderência do regulamento à legislação 
+vigente por parte dos prestadores 
+essenciais; Identificação dos prestadores 
+de serviço contratados; Patrimônio inicial 
+mínimo (para fundos fechados).
+Documentos para Investidores
+Divulgação de Informações
+Os fundos têm um padrão para divulgar 
+informações ao mercado.
+Documentos Essenciais para Investidores
+Os investidores devem ter acesso a: 
+Regulamento; Prospecto; Formulário de 
+Informações Complementares; 
+Demonstrações Financeiras; Lâmina de 
+Informações Essenciais; Informe Mensal; 
+Termo de Adesão e Ciência de Risco.
+
+######## Cotas de Fundos de Investimento.pdf
+<<<PÁGINA 1>>>
+Cotas dos Fundos de 
+Investimento
+
+Natureza das Cotas
+Características das Cotas
+As cotas são escriturais (não físicas), 
+nominativas (registradas em nome do 
+proprietário) e representam frações da 
+classe de cotas, conferindo direitos e 
+obrigações aos cotistas.
+O valor da cota é determinado pela divisão 
+do valor do patrimônio líquido da classe 
+pelo número de cotas.
+O administrador é responsável pela 
+manutenção e atualização das 
+informações da cota, compartilhando-as 
+com o gestor.
+Cessão e Transferência de Cotas
+Restrições e Exceções
+As cotas de fundos abertos geralmente 
+não são transferíveis, exceto em casos 
+específicos.
+Exceções incluem decisões judiciais ou 
+arbitrais, operações de cessão fiduciária, 
+execução de garantia, sucessão universal, 
+dissolução de sociedade conjugal, 
+transferência ou portabilidade de planos 
+de previdência, e integralização em 
+sociedades limitadas ou outras classes de 
+fundos.
+Responsabilidade do Cotista
+Limitação da Responsabilidade
+Em fundos como o Pátria, o regulamento 
+pode limitar a responsabilidade do cotista 
+ao valor subscrito.
+Se o regulamento não limitar a 
+responsabilidade, os cotistas respondem 
+por eventual patrimônio negativo, sem 
+prejuízo da responsabilidade do prestador 
+que agir com dolo ou má-fé.
+Emissão de Cotas
+Emissão em Fundos Abertos e Fechados
+Para cotas de fundos abertos, o valor 
+utilizado é o do dia da integralização ou do 
+dia seguinte, conforme o regulamento.
+Para cotas de fundos fechados, o valor é 
+definido em assembleia de cotistas. O 
+regulamento pode estabelecer o método 
+de cálculo, ou, se a decisão for do gestor, o 
+método previsto no regulamento será 
+utilizado.
+Subscrição e Integralização
+Obrigações do Distribuidor e do 
+Administrador
+O distribuidor deve disponibilizar a versão 
+vigente do regulamento, mas o 
+administrador também é obrigado a 
+mantê-lo disponível ao cotista.
+A integralização das cotas deve ser feita 
+em moeda corrente nacional.  Em fundos 
+fechados, o documento de aceitação da 
+oferta pode incluir a obrigação do 
+investidor de integralizar o valor subscrito 
+conforme chamadas do gestor, de acordo 
+com as condições estabelecidas no 
+documento.
+Termo de Adesão e Ciência de 
+Risco
+Conteúdo e Obrigações do Cotista
+O cotista deve atestar, por meio de termo 
+de adesão e ciência de risco, que teve 
+acesso ao regulamento e tem ciência dos 
+fatores de risco da classe do fundo, da 
+ausência de garantia contra perdas 
+patrimoniais, e que o registro do fundo 
+não implica garantia de veracidade das 
+informações ou adequação à legislação 
+vigente.
+O termo deve conter, no máximo, 5000 
+caracteres, incluindo informações sobre o 
+regulamento atualizado, a tributação 
+aplicável, a política de voto das cotas e até 
+5 principais fatores de risco.  Se o 
+investidor reaplicar no fundo sem 
+alterações no regulamento, a formalização 
+de um novo termo é dispensada.
+Resgate e Amortização
+Prazos e Regras Gerais
+O resgate deve obedecer a regras que 
+estabelecem o prazo entre o pedido e a 
+data de conversão em cotas e seu 
+pagamento.
+A conversão é feita pelo valor das cotas no 
+dia da conversão. O pagamento não pode 
+exceder 5 dias úteis (com multa de 0,50% 
+ao dia, exceto em casos específicos).
+Fundos podem ter prazos de carência para 
+resgate, com ou sem rendimento.
+Barreiras de Resgate e Resgates 
+Compulsórios
+Barreiras de resgate por iliquidez podem 
+ocorrer em casos de divulgação de fato 
+relevante.  Em classes de público geral, os 
+parâmetros consideram a 
+representatividade do resgate em relação 
+ao patrimônio líquido da classe; em 
+classes restritas, o regulamento define os 
+parâmetros.
+Resgates compulsórios são permitidos se 
+autorizados pelo regulamento ou 
+assembleia, forem simultâneos e 
+proporcionais a todos os cotistas da 
+mesma classe, e não houver cobrança de 
+taxa de saída.
+Fechamento de Mercado e Iliquidez
+Em casos de fechamento de mercado ou 
+excepcional iliquidez dos ativos, pode ser 
+declarado o fechamento da classe para 
+resgates.
+Isso exige a divulgação imediata de fato 
+relevante, cancelamento de pedidos em 
+aberto, e, se o fechamento durar mais de 5 
+dias úteis, a convocação de assembleia 
+para decidir sobre a reabertura, cisão do 
+fundo ou da classe, liquidação, resgate em 
+ativos, substituição do gestor ou 
+administrador (mantendo uma classe 
+fechada), ou suspensão de resgates.
+
+######## Distribuição de Contas de Investimento.pdf
+<<<PÁGINA 1>>>
+Distribuição de 
+Cotas de Fundos de 
+Investimento
+
+Distribuição de Cotas
+Distribuição e Obrigações do Gestor
+A distribuição de cotas deve ser realizada 
+por instituições habilitadas.
+O gestor é obrigado a fornecer todo o 
+material de divulgação exigido pela 
+regulamentação e a informar os 
+distribuidores sobre quaisquer alterações 
+na classe de cotas.
+Distribuição de Cotas Abertas
+A distribuição de cotas de classe aberta 
+não depende de registro prévio na CVM.
+A intermediação de uma instituição 
+integrante do sistema de distribuição é 
+opcional; caso não haja intermediação, um 
+dos prestadores essenciais deve se 
+responsabilizar pelas atividades de PLD-FT 
+(Prevenção à Lavagem de Dinheiro e 
+Financiamento ao Terrorismo).
+O gestor pode suspender novas aplicações 
+a qualquer momento, desde que a 
+suspensão se aplique a todos os cotistas.  A 
+suspensão não impede a reabertura 
+posterior, e o gestor deve comunicar 
+imediatamente aos distribuidores.  Em 
+classes exclusivas para investidores 
+profissionais, o gestor só pode suspender 
+aplicações para novos cotistas.
+Distribuição de Cotas Abertas e Fechadas
+A assembleia de cotistas pode definir a 
+quantidade mínima de cotas a serem 
+subscritas para novas cotas fechadas, e o 
+tratamento caso essa quantidade não seja 
+alcançada.
+A distribuição de cotas de classe fechada 
+só é permitida após o encerramento da 
+distribuição anterior.
+Os recursos recebidos devem ser 
+depositados em instituição do SBP 
+(Sistema Brasileiro de Pagamentos) ou 
+aplicados em valores mobiliários ou outros 
+ativos financeiros compatíveis com as 
+características da classe.  Em classes já em 
+funcionamento, as novas cotas devem ser 
+escrituradas separadamente até o 
+encerramento. Após atingido o valor 
+mínimo subscrito, os recursos podem ser 
+investidos conforme o regulamento.
+Negociações com Informação 
+Privilegiada
+Proibição e Presunção
+É vedada a utilização de informação 
+relevante ainda não divulgada para auferir 
+vantagem na negociação de cotas em 
+mercados organizados.
+Presume-se que quem negociou usando 
+informação não divulgada fez uso de 
+informação privilegiada. Diretores do 
+gestor e administrador com acesso a 
+informações relevantes ainda não 
+divulgadas estão sujeitos a essa presunção, 
+assim como cotistas que participam das 
+decisões.  Cotistas que se afastam do 
+fundo usufruem de informação 
+privilegiada por três meses após o 
+afastamento.
+Plano de Desinvestimento e Exceção
+Para se afastar da presunção de uso de 
+informação privilegiada, os envolvidos 
+podem formalizar um plano de 
+desinvestimento.
+O plano deve ser formalizado por escrito, 
+passível de verificação, com regras 
+irrevogáveis e irretratáveis, incluindo datas 
+e eventos, e um prazo mínimo de três 
+meses para início, modificação ou 
+cancelamento.  Não é possível manter dois 
+planos simultaneamente, e é vedado 
+efetuar operações que anulem os efeitos 
+econômicos do plano.
+A subscrição de novas cotas não se 
+enquadra na proibição, sem prejuízo das 
+demais regras.
+
+######## Divulgação de Informações.pdf
+<<<PÁGINA 1>>>
+Divulgação de 
+Informações
+
+Informações Periódicas e 
+Eventuais
+Divulgação das Informações
+As informações periódicas e eventuais do 
+fundo devem ser divulgadas na página do 
+fundo ou dos prestadores essenciais.
+A superintendência competente pode 
+determinar que informações periódicas e 
+eventuais relativas à distribuição sejam 
+apresentadas na página da CVM.
+Se informações sobre a composição da 
+carteira forem divulgadas a terceiros, a 
+mesma informação deve ser 
+disponibilizada aos cotistas com a mesma 
+periodicidade.
+Fatos Relevantes
+Obrigatoriedade da Divulgação
+O administrador é obrigado a divulgar 
+fatos relevantes assim que tiver 
+conhecimento.
+São considerados fatos relevantes 
+quaisquer informações que possam influir 
+no valor das cotas ou na decisão de 
+investimento.
+Procedimentos para Fatos Relevantes
+Qualquer fato relevante deve ser 
+comunicado a todos os cotistas afetados.
+O fato relevante deve ser informado aos 
+administradores dos mercados 
+organizados (se for o caso).
+O fato relevante deve ser divulgado no site 
+da CVM.
+O fato relevante deve ser mantido nas 
+páginas dos prestadores de serviços 
+essenciais.
+Exemplos de Fatos Relevantes
+Alteração de tratamento tributário.
+Contratação de Market Maker após o 
+término da prestação do serviço.
+Contratação de agência de classificação de 
+risco.
+Mudança na classificação de risco.
+Alteração do prestador de serviço essencial.
+Fusão, cisão, incorporação ou 
+transformação de cotas.
+Alteração do mercado organizado.
+Cancelamento da admissão das cotas à 
+negociação em mercado organizado.
+Nova emissão de cotas de classe fechada.
+Exceções à Divulgação
+Os fatos relevantes podem, 
+excepcionalmente, deixar de ser 
+divulgados se o gestor e o administrador, 
+em conjunto, entenderem que sua 
+revelação colocará em risco o interesse 
+legítimo do fundo ou dos cotistas.
+O administrador é obrigado a divulgar 
+imediatamente um fato relevante se a 
+informação escapar ao controle ou ocorrer 
+oscilação atípica na cotação, preço ou 
+quantidade de cotas negociadas.
+Demonstrações Contábeis
+Escrituração Contábil
+O fundo deve ter escrituração contábil 
+própria, com segregação das cotas e 
+demonstrações contábeis entre si e das 
+demonstrações dos prestadores de 
+serviços essenciais.
+O exercício social deve ser encerrado a 
+cada 12 meses, com o fim do exercício 
+coincidindo com um dos meses do 
+calendário civil.
+Demonstrações Obrigatórias
+As demonstrações contábeis obrigatórias 
+mínimas são: Balanço Patrimonial, DRE e 
+DFC.
+Auditoria Independente
+As demonstrações contábeis devem 
+observar as regras específicas da CVM e 
+serem auditadas por auditor 
+independente.
+
+######## Fundos de Investimento Imobiliário.pdf
+<<<PÁGINA 1>>>
+Fundos de 
+Investimentos 
+Imobiliários
+
+Características Gerais dos FIIs
+Destinação e Carteira de Ativos
+Os FIIs são destinados à aplicação em 
+empreendimentos imobiliários, conforme 
+o artigo 40 da legislação pertinente.  Isso 
+define a composição da carteira de ativos.
+Emissão de Cotas e Prazo de Duração
+As classes de cotas dos FIIs devem ser 
+emitidas em regime fechado e podem ter 
+prazo indeterminado.
+Denominação e Distribuição de 
+Rendimentos
+A denominação "Fundo de Investimento 
+Imobiliário" deve constar obrigatoriamente.
+Os FIIs devem distribuir 95% dos seus 
+rendimentos.
+Constituição dos FIIs
+Participação do Administrador
+Se a política de investimentos não permitir 
+alocação superior a 5% em valores 
+mobiliários, o fundo pode ser constituído 
+apenas pelo administrador.
+Nesse caso, o administrador é o único 
+prestador de serviços essencial, 
+responsável pela administração e gestão 
+do fundo.
+Integralização de Bens e Direitos
+A integralização em bens e direitos deve 
+ser feita com base em laudo de avaliação 
+elaborado por empresa especializada.
+Administração dos FIIs
+Entidades Autorizadas para Administração
+A administração do fundo compete 
+exclusivamente a bancos comerciais, 
+bancos múltiplos com carteira de 
+investimento ou crédito imobiliário, 
+bancos de investimento, sociedades 
+corretoras ou distribuidoras de valores 
+mobiliários, sociedades de crédito 
+imobiliário, caixas econômicas e 
+companhias hipotecárias.
+Serviços Prestados pelo Administrador
+O administrador deve prover ao fundo 
+serviços como departamento técnico para 
+análise de projetos imobiliários e custódia 
+de ativos financeiros.
+O administrador também é responsável 
+por todos os atos relacionados ao objeto 
+da classe de cotas.
+Vedações ao Gestor da Carteira
+Restrições de Crédito e Investimentos
+É vedado ao gestor conceder crédito em 
+qualquer modalidade e aplicar recursos 
+captados no país no exterior.
+Operações de Conflito de Interesse
+Ressalvada a aprovação em assembleia, 
+são proibidas operações que gerem 
+conflito de interesse com o administrador, 
+gestor, consultor especializado, cotistas 
+com participação mínima de 10% do 
+patrimônio líquido (PL), representante dos 
+cotistas, classe de cotas e o empreendedor.
+Outras Vedações
+São proibidas a constituição de ônus reais 
+sobre os imóveis do PL, operações com 
+ativos financeiros ou modalidades não 
+previstas, operar com valores mobiliários 
+fora dos mercados autorizados e realizar 
+operações com derivativos, exceto para 
+proteção patrimonial (até o limite do PL).
+Remuneração
+Taxa de Administração
+A remuneração pelos serviços prestados 
+pode incluir uma parcela variável 
+calculada em função do desempenho ou 
+de indicador relevante para o mercado 
+imobiliário.
+A taxa de administração das cotas pode 
+ser um percentual sobre o valor de 
+mercado das cotas (ex: BRCR11) ou sobre o 
+valor contábil do patrimônio líquido da 
+classe (ex: XPML11).
+Parcela Variável e Regulamentação
+A cobrança da parcela variável deve 
+atender aos critérios estabelecidos na 
+legislação.
+O regulamento pode prever um valor 
+mínimo para a remuneração do 
+administrador, e a assembleia pode 
+estabelecer um método alternativo de 
+cobrança da taxa de administração.
+Regulamento
+Conteúdo Obrigatório
+Além das regras gerais, o regulamento 
+deve dispor sobre o objeto da classe de 
+cotas, segmentos de atuação, natureza dos 
+investimentos, taxa de performance (se 
+houver), política de distribuição de 
+resultados, modo de convocação de 
+assembleia, percentual máximo de cotas 
+de incorporador, construtor e sócios, e 
+outros fatores importantes.
+Restrições à Taxa de Ingresso e Saída
+O regulamento pode prever taxa de 
+ingresso, mas não pode haver taxa de 
+saída.  Se destinado ao público geral, não 
+pode haver restrições de limitação em 
+percentual inferior a 10% do total das 
+cotas ou limites diferentes de direito de 
+voto para cotistas diferentes.
+Política de Investimentos
+Descrição do Objeto dos Investimentos
+A política de investimentos deve conter, no 
+mínimo, a descrição fundamental do 
+objeto dos investimentos (ganho de 
+capital, obtenção de renda, 
+desenvolvimento, ou combinações).
+Grau de Liberdade do 
+Administrador/Gestor
+Deve especificar o grau de liberdade que o 
+administrador ou gestor possuem no 
+cumprimento da política de investimentos.
+Outros Aspectos da Política de 
+Investimentos
+A política deve definir os ativos que podem 
+compor o patrimônio e os requisitos de 
+diversificação, a possibilidade de realizar 
+operações com derivativos para fins de 
+proteção patrimonial, a possibilidade de 
+aquisição de imóveis com ônus reais e a 
+localização geográfica das áreas onde o 
+fundo pode adquirir imóveis.
+Carteira de Ativos
+Tipos de Ativos Permitidos
+A participação da classe de cotas em 
+empreendimentos imobiliários pode se 
+dar por meio da aquisição de quaisquer 
+direitos sobre bens imóveis; ações, 
+debêntures, bônus de subscrição, seus 
+cupons, direitos e recibos de subscrição, 
+certificados de depósito de valores 
+mobiliários, cotas de fundos de 
+investimento, notas promissórias, notas 
+comerciais e quaisquer valores mobiliários 
+de emissores registrados na CVM, desde 
+que suas atividades preponderantes sejam 
+permitidas aos FIIs; ações ou cotas de 
+sociedades cujo único propósito se 
+enquadre entre as atividades permitidas 
+aos FIIs; e cotas de fundos de investimento 
+em participações que tenham como 
+política de investimento exclusivamente 
+atividades permitidas aos FIIs, e de fundos 
+de investimento em ações que invistam 
+exclusivamente em construção civil ou 
+mercado imobiliário.
+Ativos Adicionais
+Outros ativos permitidos incluem 
+certificados de potencial adicional de 
+construção, cotas de outros FIIs, 
+certificados de recebíveis imobiliários e 
+cotas de fundos de investimento em 
+direitos creditórios (com política de 
+investimento exclusivamente em 
+atividades permitidas aos FIIs), letras 
+hipotecárias, letras de crédito imobiliário e 
+letras imobiliárias garantidas.
+Representante de Cotistas
+Eleição e Aprovação
+A assembleia pode eleger um ou mais 
+representantes para fiscalizar os 
+empreendimentos ou investimentos em 
+defesa dos direitos e interesses dos 
+cotistas. A eleição deve ser aprovada por, 
+no mínimo, 3% do total de cotas se a 
+classe tiver mais de 100 cotistas, ou 5% se 
+tiver até 100 cotistas.
+Competências do Representante
+As competências do representante 
+incluem fiscalizar os prestadores de 
+serviços essenciais, emitir opinião sobre 
+propostas a serem submetidas à 
+assembleia, denunciar o administrador 
+caso não tome providências necessárias, 
+analisar as informações financeiras 
+trimestralmente e elaborar um relatório 
+das atividades.
+
+######## Funções do Gestor do Fundo de Investimentos.pdf
+<<<PÁGINA 1>>>
+Funções do Gestor
+
+Gerenciamento da Carteira de 
+Investimentos
+Compra e Venda de Ativos
+O gestor é responsável pela compra e 
+venda de ativos da carteira.
+As ordens de compra e venda devem ser 
+expedidas com identificação precisa do 
+fundo.
+Quando uma mesma pessoa jurídica 
+gerencia carteiras de diversas classes, o 
+agrupamento de ordens é permitido, 
+desde que haja processos de rateio 
+equitativos e documentação organizada.
+Política de Investimentos e Limites
+O gestor cria e segue a política de 
+investimentos, respeitando os limites de 
+composição e concentração.
+O gestor é responsável pela observância 
+dos limites de composição e concentração 
+da carteira e concentração dos fatores de 
+risco.
+Em caso de descumprimento prolongado 
+(15 dias úteis consecutivos), o gestor deve 
+apresentar explicações à CVM.
+Gestão de Cotistas e Liquidez
+O gestor é responsável pela entrada e 
+saída de cotistas, gerenciando a liquidez.
+A liquidez da carteira deve ser compatível 
+com os prazos de pagamento de resgates 
+e cumprimento de obrigações das cotas.
+A gestão de liquidez considera a liquidez 
+dos ativos, obrigações, valores de resgate 
+esperados e o grau de dispersão da 
+propriedade das cotas.
+Testes de estresse periódicos devem ser 
+realizados, considerando movimentações 
+de passivo, liquidez dos ativos e obrigações 
+das cotações.
+Direitos e Responsabilidades do 
+Gestor
+Direito de Voto
+O gestor exerce o direito de voto 
+decorrente dos ativos detidos pela classe, 
+seguindo a política de voto da classe.
+Negociação de Ativos em Mercado 
+Organizado
+O gestor negocia os ativos e firma 
+contratos relacionados.
+O gestor deve encaminhar ao 
+administrador, em 5 dias úteis, sua 
+assinatura em cada documento.
+O regulamento pode prever a utilização de 
+ativos de fiança, aval ou retenção de risco, 
+com autorização em assembleia de 
+cotistas para fundos destinados ao público 
+geral.
+Gerenciamento de Risco
+O gestor gerencia o risco e contrata uma 
+agência de classificação de risco.
+Informações fornecidas à agência devem 
+ser no mínimo as mesmas fornecidas aos 
+cotistas.
+O contrato deve ter cláusula obrigando a 
+agência a divulgar imediatamente 
+qualquer alteração na classificação ou 
+rescisão.
+A rescisão do contrato com a agência só é 
+admitida após período de carência (180 
+dias, ou 90 dias se por deliberação de 
+cotistas).
+Governança e Transparência
+Constituição de Conselho Consultivo e 
+Comitês
+Conselhos consultivos e comitês podem 
+ser constituídos por iniciativa do cotista ou 
+prestador essencial, sem remuneração 
+pelo fundo.
+Atribuições, composição e requisitos para 
+convocação e deliberação devem estar no 
+regulamento.
+A existência destes não exime o gestor da 
+responsabilidade sobre as operações da 
+carteira.
+Membros devem informar ao 
+administrador (e este aos cotistas) 
+qualquer situação de conflito de interesses.
+Membros podem ser remunerados com 
+parcela da taxa de administração ou 
+gestão, dependendo da iniciativa de 
+constituição.
+
+######## Introdução aos Fundos de Investimento.pdf
+<<<PÁGINA 1>>>
+Introdução aos 
+Fundos de 
+Investimento
+Conceito e características
+Definição básica
+Carteira de ativos financeiros.
+Reúne diversos títulos e participações.
+Administrados por instituição financeira.
+Responsável pela gestão administrativa e 
+operacional.
+Condomínios de natureza especial.
+Estrutura coletiva para investidores.
+Participantes e gestão
+Cotistas e gestor profissional
+Investidores aportam recursos via cotas.
+Cada cotista participa pela compra de 
+cotas.
+Capital sob gestor profissional.
+Gestor faz aplicações, resgates e define 
+estratégias.
+Gestão discricionária
+Gestor decide seleção, compra e venda 
+sem consultar cotistas.
+Pode delegar parte ou toda a gestão.
+Gestão não discricionária
+Investidor decide e executa as operações.
+Investidor mantém a palavra final.
+Cotas e patrimônio
+Natureza da cota
+Cota é a menor fração do fundo.
+Patrimônio é a soma das cotas e dos ativos.
+Valor da cota
+Valor da cota = Patrimônio Líquido / Nº de 
+cotas.
+Varia com a valorização dos ativos e 
+encargos.
+Regras de funcionamento ao 
+adquirir cotas
+Condições contratuais e operacionais
+Ao comprar cotas, cotista aceita 
+regulamento e prospecto.
+Principais itens: aplicação mínima; prazos; 
+política de investimentos; riscos; 
+remuneração.
+Classes de cotas
+Estrutura e diferenciação entre classes
+Classes com regras próprias, na mesma 
+categoria do fundo.
+Patrimônio pode ser segregado por classe.
+Critérios: público-alvo; prazos e condições; 
+taxas.
+Denominação e responsabilidade
+Cada classe tem denominação no 
+regulamento.
+Se houver responsabilidade limitada, 
+sufixo obrigatório.
+Tipos de conta de fundos e 
+variação de cotas
+Tipos de conta
+Fundos abertos: entrada e saída contínua.
+Fundos fechados: subscrição limitada ou 
+por prazo.
+Variação do valor e da quantidade de cotas
+Valor da cota oscila conforme 
+performance; não altera número de cotas 
+por si só.
+Em fundo aberto, aportes/resgates alteram 
+a quantidade de cotas.
+Em fundo fechado, quantidade só muda 
+em nova subscrição ou no vencimento.
+
+######## Investimento em Cotas de Outros Fundos e Risco de Capital.pdf
+<<<PÁGINA 1>>>
+Investimentos em 
+Cotas de Outros 
+Fundos e Risco de 
+Capital
+
+Investimentos em Cotas de 
+Outros Fundos
+Regras para Investimento em Cotas
+As classes de investimento em cotas de 
+fundos devem adquirir classes do mesmo 
+tipo, exceto as classes "Multimercado", que 
+podem investir em FIF de qualquer tipo.
+As cotas não são consideradas no âmbito 
+da gestão de liquidez.
+O regulamento deve especificar o 
+percentual máximo do Patrimônio Líquido 
+(PL) que pode ser aplicado em uma única 
+classe, respeitando os limites de 
+concentração por emissor e modalidade 
+de ativos financeiros.
+Se a aplicação em uma classe exceder o 
+limite de concentração em créditos 
+privados, a política de investimento deve 
+detalhar mecanismos para mitigar o risco 
+de extrapolação do limite.
+Exposição a Risco de Capital
+Tipos de Risco
+A exposição a risco de capital refere-se a 
+qualquer risco que afete o capital, 
+incluindo, mas não se limitando ao uso de 
+derivativos.
+Os tipos de risco incluem: risco de 
+mercado, risco de crédito, risco de liquidez, 
+risco operacional e risco de alavancagem.
+Limites de Margem Bruta
+O regulamento pode estabelecer limites 
+menores, mas o gestor deve observar os 
+seguintes limites máximos de utilização de 
+margem bruta:
+Para a classe "Renda Fixa": 20% do PL da 
+classe.
+Para as classes "Cambial" ou "Ações": 40% 
+do PL da classe.
+Para a classe "Multimercado": 70% do PL 
+da classe.
+A margem bruta é o somatório das 
+coberturas e margem de garantia.
+O cálculo da margem potencial deve ser 
+baseado em um modelo de cálculo de 
+garantia consistente e verificável.
+Operações para o público geral devem ter 
+garantia em mercado organizado.
+Classes para investidores profissionais não 
+possuem limite.
+Classes de cotas que realizam operações 
+Long&Short estão dispensadas de observar 
+o limite previsto.
+Classes Restritas
+Prazos e Limites para Classes Restritas
+O regulamento da classe restrita pode 
+estabelecer prazos para conversão de cota 
+e resgate diferentes dos previstos na 
+regulamentação.
+Os limites para classes restritas são o 
+dobro dos limites normais:
+Até 40%: FIF, FII, FIDC, CRI/CRA, títulos 
+privados de empresas não registradas na 
+CVM.
+Até 30%: FIP e FIAGRO.
+Até 20%: CBIO, criptoativos e outros 
+valores CVM.
+Classes exclusivamente para investidores 
+qualificados podem alocar até 60% em 
+direitos creditórios e outros ativos, desde 
+que haja market maker.
+Não há limite por modalidade de ativo 
+para aplicação em outros FIF igualmente 
+destinados exclusivamente a investidores 
+qualificados.
+Encargos
+Encargos Adicionais
+Além dos encargos já dispostos, o 
+regulamento do FIF pode prever como 
+encargos, e debitar diretamente das cotas, 
+as seguintes despesas: taxa de 
+performance e taxa máxima de custódia.
+
+######## Limites de Concentração nos Fundos de Investimento.pdf
+<<<PÁGINA 1>>>
+Limites de 
+Concentração dos 
+Fundos de 
+Investimento
+
+Limites por Modalidade de Ativo
+Fundos de Investimento em Direitos 
+Creditórios (FIDC), Fundos de Investimento 
+Imobiliário (FII), Certificados de Recebíveis 
+do Agronegócio (CRA), entre outros
+Até 20% para FIF IQ, FIDC, FII, CRI, VM não 
+registrado (com exceções).
+Até 15% para FIP e FIAGRO (com exceções).
+Até 10% para ativos alternativos (CBIO, 
+criptomoedas, veículos de plataformas 
+eletrônicas).
+Ilimitado para TPF, ativos bancários, notas 
+promissórias, debêntures e FIF público 
+geral.
+Critérios Adicionais para Limites por 
+Modalidade
+Exceções e detalhes específicos para cada 
+tipo de ativo podem ser encontrados na 
+regulamentação.
+A legislação ressalta a necessidade de 
+considerar o risco de concentração em 
+cada caso.
+Limites por Emissor
+Limites Gerais por Emissor
+Até 20% para IF Autorizada.
+Até 10% para Companhia Aberta ou 
+Equivalente e SPE subsidiária de 
+seguradora.
+Até 5% para Pessoa Natural ou PJ Não 
+Aberta ou Não IF.
+Ilimitado para TPF e Fundos de 
+Investimento, desde que previsto em 
+regulamento e ressaltando o risco de 
+concentração.
+Limites Específicos por Tipo de Emissor
+Limites variam de acordo com o tipo de 
+emissor (instituição financeira, companhia 
+aberta, etc.).
+A política de investimentos deve prever a 
+aquisição de ativos e explicitar o risco de 
+concentração.
+Exceções podem existir dependendo do 
+tipo de emissor e do ativo.
+Limites de Concentração no 
+Exterior
+Investimentos em Renda Fixa no Exterior
+Renda Fixa: Ilimitado para dívida externa e 
+classes para investidores profissionais.
+Até 40% para investidores qualificados 
+(com exceções).
+Até 20% para público geral (com exceções).
+Critérios Adicionais para Investimentos no 
+Exterior
+Para ultrapassar os limites, a tipificação do 
+fundo deve ser preservada, o regulamento 
+deve detalhar os ativos a serem adquiridos 
+e, em aplicações em fundos, deve-se seguir 
+a regulamentação adicional.
+Para o público geral, a metodologia de 
+cálculo para precificação de ativos e 
+alavancagem deve ser conhecida e 
+monitorada, com gerenciamento de riscos 
+e liquidez adequados.
+Ativos não listados em segmento de 
+valores mobiliários são limitados a 10%, e 
+ativos de um mesmo emissor a 20%.
+Deveres dos Gestores e Prazos 
+para Enquadramento
+Responsabilidades do Gestor
+O gestor é responsável por cumprir os 
+limites de composição e concentração de 
+carteira.
+O administrador deve informar a CVM 
+sobre qualquer descumprimento 
+prolongado.
+O gestor deve apresentar um plano de 
+ação para o reenquadramento da carteira.
+Prazos para Enquadramento
+Classes abertas: 60 dias a partir da 
+primeira integralização de cotas.
+Classes fechadas: 180 dias a partir do 
+encerramento da distribuição.
+Consequências do 
+Descumprimento dos Limites
+Ações da CVM em Caso de 
+Descumprimento
+A CVM pode determinar a convocação de 
+assembleia para deliberar sobre 
+alternativas como: incorporação a outra 
+classe de cotas, cisão total para outro 
+gestor, ou liquidação.
+Para fundos com classe única de cotas, a 
+assembleia pode decidir sobre a 
+transferência da administração ou gestão 
+do fundo.
+
+######## Patrimônio Líquido Negativo.pdf
+<<<PÁGINA 1>>>
+Patrimônio Liquido 
+Negativo com 
+Limitação de 
+Responsabilidade
+
+Procedimentos em Caso de 
+Patrimônio Líquido Negativo
+Ações Imediatas do Administrador
+Cessar resgates e amortizações de cotas.
+Suspender novas subscrições de cotas.
+Informar o gestor sobre o patrimônio 
+líquido negativo.
+Divulgar o fato relevante ao mercado.
+Cancelar pedidos de resgate pendentes de 
+conversão.
+Plano de Resolução em até 20 Dias
+Elaborar um plano de resolução em 
+conjunto com o gestor.
+Analisar as causas e circunstâncias que 
+levaram ao patrimônio líquido negativo.
+Apresentar um balancete atualizado.
+Propor um plano de resolução para o 
+patrimônio líquido negativo.
+Convocar assembleia de cotistas em até 
+dois dias úteis após a conclusão do plano.
+Avaliação do Risco e Assembleia de 
+Cotistas
+Após a adoção das medidas iniciais, os 
+prestadores essenciais avaliarão se o 
+patrimônio líquido negativo representa 
+risco à solvência das cotas. Se não 
+representar risco, o plano de resolução 
+torna-se facultativo.
+Se o patrimônio líquido se tornar positivo 
+antes da assembleia, a assembleia é 
+dispensada, devendo-se divulgar um novo 
+fato relevante com o PL atualizado e as 
+causas do problema.
+Se o patrimônio líquido se tornar positivo 
+após a convocação da assembleia, a 
+assembleia deve ocorrer para que o gestor 
+apresente aos cotistas o PL atualizado e as 
+circunstâncias que levaram ao PL negativo.
+Opções em Caso de Não 
+Aprovação do Plano de 
+Resolução
+Alternativas para os Cotistas
+Aporte de recursos próprios ou de 
+terceiros para cobrir o patrimônio líquido 
+negativo, em montante e prazo 
+compatíveis com as obrigações da classe.
+Fusão, cisão ou incorporação da classe a 
+outro fundo, desde que a proposta tenha 
+sido analisada pelos prestadores essenciais.
+Liquidação da classe, caso não haja 
+obrigações remanescentes a serem 
+honradas pelo patrimônio.
+Pedido de declaração judicial de 
+insolvência da classe de cotas.
+Responsabilidades do Gestor e 
+Assembleia
+Participação do Gestor e Credores
+O gestor deve comparecer à assembleia 
+como responsável pela gestão da carteira 
+de ativos. Sua ausência não impede a 
+realização da assembleia.
+Credores podem se manifestar na 
+assembleia, desde que previstos na ata ou 
+autorizados pela mesa ou pelos cotistas 
+presentes.
+Caso a assembleia não seja instalada por 
+falta de quórum ou não haja deliberação, o 
+administrador deve solicitar a declaração 
+judicial de insolvência da classe.
+Declaração de Insolvência e 
+Cancelamento de Registro
+Procedimentos em Caso de Insolvência
+Qualquer pedido de declaração de 
+insolvência constitui evento de avaliação 
+obrigatório do patrimônio líquido da 
+classe.
+A CVM pode solicitar a declaração judicial 
+de insolvência se o patrimônio líquido 
+negativo representar risco ao mercado e à 
+integridade do sistema financeiro nacional.
+Ao tomar conhecimento da declaração de 
+insolvência, o administrador deve divulgar 
+um fato relevante e cancelar o registro da 
+classe na CVM.
+Ações da Superintendência
+Se o administrador não adotar o plano de 
+resolução em até 20 dias, a 
+superintendência pode cancelar o registro, 
+informando o administrador e publicando 
+comunicado na página da CVM.
+O cancelamento do registro não exime o 
+administrador das responsabilidades por 
+eventuais infrações cometidas antes do 
+cancelamento.
+
+######## Remuneração dos Prestadores.pdf
+<<<PÁGINA 1>>>
+Remuneração dos 
+Prestadores
+
+Taxa de Administração
+Definição e Cobrança
+A taxa é cobrada pela instituição financeira 
+que administra o fundo.
+Remunera todos os serviços prestados.
+O valor corresponde a um percentual 
+anual do patrimônio, provisionado 
+diariamente e descontado mensalmente.
+É cobrada mesmo com variação negativa 
+do fundo.
+A rentabilidade do fundo é divulgada 
+líquida da taxa de administração.
+Transparência e Divulgação
+O administrador deve divulgar a 
+rentabilidade do fundo com a taxa de 
+administração já descontada do valor da 
+cota.
+Essa rentabilidade é considerada líquida 
+da taxa de administração.
+A transparência na cobrança e cálculo da 
+taxa é crucial para o investidor.
+A clareza na informação permite ao 
+investidor avaliar o desempenho real do 
+fundo.
+Considerações Adicionais
+A taxa de administração é um custo 
+inerente à gestão de fundos de 
+investimento.
+É importante comparar as taxas de 
+administração de diferentes fundos antes 
+de investir.
+A regulamentação define os limites e 
+critérios para a cobrança dessa taxa.
+Taxa de Performance
+Critérios de Cobrança
+Somente cobrada se a rentabilidade do 
+fundo superar o benchmark, após o 
+pagamento de todas as despesas.
+Respeita a "linha d'água", aplicando-se 
+apenas em casos de rentabilidade positiva.
+A cobrança é, no máximo, semestral.
+Métodos de Cálculo
+O regulamento do fundo especifica o 
+método de cálculo da taxa de 
+performance:
+Resultado do fundo (método do ativo).
+Resultado de cada aplicação efetuada por 
+cada cotista (método do passivo).
+Resultado do fundo, acrescido de ajustes 
+individuais (método do ajuste).
+Cada método apresenta diferentes 
+implicações para o cálculo da 
+rentabilidade.
+A escolha do método impacta 
+diretamente na remuneração do gestor.
+Transparência e Regulamentação
+A transparência sobre o método de cálculo 
+é fundamental para o investidor.
+A regulamentação define os limites e 
+critérios para a cobrança dessa taxa.
+A clareza na informação permite ao 
+investidor avaliar o desempenho do gestor.
+Remuneração e Acordos
+Redução Unilateral da Taxa
+O prestador de serviço essencial pode 
+reduzir unilateralmente a taxa que lhe 
+compete, sem necessidade de deliberação 
+de assembleia de cotistas.
+Essa possibilidade visa garantir 
+flexibilidade na gestão e adaptação a 
+mudanças de mercado.
+A regulamentação garante a transparência 
+e os limites dessa redução.
+Taxas em Fundos Investidos
+A classe de cotas que adquire cotas de 
+outros fundos deve estabelecer em seu 
+regulamento que suas taxas de 
+administração e gestão compreendem as 
+taxas dos fundos investidos.
+O regulamento pode estabelecer taxas 
+máximas e mínimas, considerando as 
+taxas dos fundos investidos.
+Em materiais de comparação, deve-se 
+referir apenas às taxas máximas.
+Exclusões para Cálculo
+Aplicações em classes de cotas de fundos 
+negociados em mercado organizado não 
+são consideradas.
+Fundos geridos por partes não 
+relacionadas ao gestor do fundo investidor 
+também são excluídos.
+Essas exclusões visam evitar duplicidade 
+na contabilização de taxas.
+Acordos de Remuneração e 
+Limites
+Base da Remuneração
+Se houver acordo de remuneração 
+baseado em taxas de administração, 
+performance ou gestão, o valor deve ser 
+subtraído e limitado aos valores 
+destinados pela classe investida ao 
+provisionamento ou pagamento das 
+despesas.
+O acordo deve ser transparente e respeitar 
+os limites estabelecidos na 
+regulamentação.
+A clareza no acordo evita conflitos e 
+garante a transparência na remuneração.
+Vedações em Acordos
+É vedado que o acordo de remuneração 
+resulte em desconto, abatimento ou 
+redução da taxa de administração ou 
+qualquer outra taxa devida pela classe 
+investidora à investida.
+Essa vedação visa proteger os interesses 
+dos investidores.
+A regulamentação garante a equidade na 
+relação entre gestor e investidores.
+Responsabilidade do Prestador Essencial
+O prestador essencial deve zelar para que 
+as despesas com a contratação de 
+terceiros não excedam o montante total 
+estabelecido no regulamento.
+O pagamento de qualquer despesa que 
+ultrapasse esse limite é de 
+responsabilidade do prestador essencial.
+Essa responsabilidade garante o controle 
+de custos e a proteção dos investidores.
+
+######## Serviços Essenciais e Função do Administrador.pdf
+<<<PÁGINA 1>>>
+Serviços Essenciais
+
+Disposições Gerais sobre 
+Serviços Essenciais
+Funcionamento do Fundo
+O funcionamento do fundo de 
+investimento se baseia na atuação de 
+prestadores de serviços essenciais e 
+terceiros contratados por eles.
+Responsabilidades dos Prestadores de 
+Serviços
+Os prestadores de serviços essenciais e 
+demais prestadores de serviços do fundo 
+respondem à CVM (Comissão de Valores 
+Mobiliários) por seus atos e omissões 
+contrários à lei, dentro de suas respectivas 
+áreas de atuação.
+Funções do Administrador
+Contratação de Serviços Essenciais
+O administrador é obrigado a contratar 
+terceiros devidamente habilitados e 
+autorizados para:
+Tesouraria, controle e processamento de 
+ativos.
+Escrituração das cotas.
+Auditoria independente.
+Fundos administrados por instituições 
+financeiras autorizadas pelo BACEN 
+(Banco Central do Brasil) não precisam 
+contratar esses serviços se forem 
+executados pelo próprio administrador.
+Contratação de Outros Serviços
+O administrador pode contratar outros 
+serviços em benefício das cotas.
+A contratação, nesses casos, não ocorre em 
+nome do fundo, exceto se previsto no 
+regulamento ou aprovado em assembleia.
+Se o prestador não for um participante de 
+mercado regulado pela CVM, o 
+administrador é responsável por fiscalizar 
+suas atividades.
+Funções do Gestor
+Contratação de Serviços Essenciais
+O gestor é obrigado a contratar terceiros 
+devidamente habilitados e autorizados 
+para os seguintes serviços:
+Intermediação de operações para a 
+carteira de ativos.
+Distribuição de cotas.
+Consultoria de investimentos.
+Classificação de risco por agência.
+Formador de mercado de classe fechada.
+Cogestão da carteira de ativos.
+O gestor e o administrador podem prestar 
+esses serviços, respeitando a 
+regulamentação aplicável.
+Contratação de Outros Serviços
+O gestor pode contratar outros serviços 
+em benefício das cotas.
+A contratação não ocorre em nome do 
+fundo, exceto se previsto no regulamento 
+ou aprovado em assembleia.
+Se o prestador não for um participante de 
+mercado regulado pela CVM, o 
+administrador é responsável por fiscalizar 
+suas atividades.
+
+######## Tipificação de Fundos de Investimento - FI-Infra, Garantia a Locação Imobiliária e Crédito Privado.pdf
+<<<PÁGINA 1>>>
+Tipificação de 
+Fundos de 
+Investimento - FI-
+Infra, Garantia a 
+Locação Imobiliária 
+e Crédito Privado
+
+Fundos Incentivados em 
+Infraestrutura
+Requisitos para Enquadramento
+Os fundos de infraestrutura devem ter, no 
+mínimo, 85% do Patrimônio Líquido 
+alocado em debêntures incentivadas para 
+se enquadrarem no regime tributário da 
+lei 12.431/2011.
+São do tipo renda fixa e podem ser 
+constituídos sob a forma de condomínio 
+aberto ou fechado.
+Devem ter a denominação "Investimento 
+em Infraestrutura" e identificar o 
+direcionamento de parcela preponderante 
+de seus recursos para um segmento 
+específico.
+O material do fundo deve informar os 
+benefícios tributários e as condições para 
+sua manutenção.
+Concentração em FI-Infra
+O limite de concentração por emissor que 
+atende à lei 12.341 para a carteira tipificada 
+como "infraestrutura" é de 20% do 
+Patrimônio Líquido (PL).
+Esse limite também se aplica aos demais 
+ativos da carteira.
+Certificados de recebíveis e classes 
+fechadas de FIDC devem ser de classe 
+única ou subclasse sênior.
+Para debêntures emitidas por SPE 
+constituída como sociedade de ações, o 
+limite deve ser computado considerando a 
+SPE como independente.  O gestor deve 
+garantir o cumprimento das obrigações 
+previstas caso haja aplicação em CRI ou 
+cotas de classe fechada de FIDC.
+Fundos Destinados à Garantia 
+Imobiliária
+Características da Classe
+Podem ser constituídos fundos com a 
+finalidade de permitir a cessão fiduciária 
+de cotas em garantia de locação 
+imobiliária; todas as classes do fundo 
+devem ter essa finalidade.
+A classe deve ser constituída em regime 
+aberto, sendo vedado o resgate das cotas 
+cujo objeto é a cessão fiduciária.
+Sua denominação deve incluir a expressão 
+"Garantia de Locação Imobiliária".
+Cessão Fiduciária de Cotas
+A cessão fiduciária deve ser realizada 
+mediante requerimento do cotista-
+cedente ao administrador, acompanhado 
+de uma via do contrato de locação.
+Deve ser averbada pelo administrador no 
+registro do cotista-cedente.
+O cotista cedente e o proprietário 
+fiduciário devem receber as comunicações 
+aos cotistas.
+O regulamento deve dispor sobre o 
+procedimento de execução extrajudicial 
+das cotas cedidas.
+A incorporação ou fusão do fundo só é 
+permitida se o incorporador ou fundo 
+resultante também for destinado à 
+garantia de locação imobiliária.
+Em caso de liquidação, o termo de cessão 
+de cotas pode conter autorização para o 
+administrador utilizar o produto do 
+pagamento devido ao cotista-cedente em 
+cotas de outros fundos de investimento 
+em títulos e valores mobiliários (FIF).
+Importante
+É admitida a cessão fiduciária de cotas de 
+FIF em garantia de locação imobiliária, 
+mesmo que o FIF não seja exclusivamente 
+destinado a essa finalidade.
+O termo de cessão pode conter 
+autorização para pagamento em outro FIF 
+em liquidação.
+O administrador não pode imputar ao 
+fundo despesas relativas à averbação da 
+cessão fiduciária, envio de comunicações 
+ou qualquer despesa relacionada à cessão 
+fiduciária, incluindo sua remuneração.
+Fundos com Concentração em 
+Crédito Privado
+Requisitos para Fundos com Concentração 
+em Crédito Privado
+Para classes "Renda Fixa", "Multimercado" 
+ou "Cambial" que realizem aplicações em 
+ativos ou modalidades operacionais de 
+pessoas físicas ou jurídicas de direito 
+privado que excedam 50% do patrimônio, 
+devem ser seguidas algumas regras.
+Incluir o sufixo "Crédito Privado" na 
+denominação.
+Incluir no termo de adesão e ciência de 
+risco um alerta sobre a possibilidade de 
+concentração na carteira de ativos em 
+créditos privados.
+
+######## Tipificação de Fundos de Investimento - Renda Fixa, Ações, Cambial e MultiMercado.pdf
+<<<PÁGINA 1>>>
+Tipificação de 
+Fundos de 
+Investimento - 
+Renda Fixa, Ações, 
+Cambial e 
+MultiMercado
+
+Fundos de Renda Fixa
+Critérios Gerais para Fundos de Renda Fixa
+O principal fator de risco deve ser a 
+variação da taxa de juros, índice de preço 
+ou ambos.
+A cobrança de taxa de performance é 
+vedada, exceto em casos específicos 
+(investidores qualificados, compromisso de 
+tratamento fiscal de longo prazo, Renda 
+Fixa Externa).
+Para liquidação de resgate no mesmo dia, 
+o valor da cota pode ser calculado a partir 
+do Patrimônio Líquido (PL) atualizado por 1 
+dia, com exceções para fundos com 
+compromisso fiscal de longo prazo ou 
+tipificados como "Renda Fixa - Dívida 
+Externa".
+No mínimo 80% da carteira deve ser 
+composta por ativos diretamente 
+relacionados ao fator de risco.
+Tipos de Fundos de Renda Fixa e seus 
+Sufixos
+Curto Prazo: Prazo máximo de 375 dias e 
+prazo médio inferior a 60 dias.
+Referenciado: 95% dos ativos devem 
+acompanhar o benchmark.
+Simples: 95% da carteira concentrada em 
+ativos de baixo risco.
+Dívida Externa: 80% da carteira deve 
+representar dívida externa.
+Fundos de Renda Fixa de Curto Prazo
+Títulos com prazo máximo de 375 dias e 
+prazo médio inferior a 60 dias.
+Títulos considerados de baixo risco de 
+crédito pelo gestor.
+ETFs que aplicam em títulos de baixo risco 
+de crédito.
+Operações compromissadas em títulos 
+públicos federais (TPF).
+Utilização de derivativos exclusivamente 
+para proteção da carteira.
+Fundos de Renda Fixa Referenciado
+95% da carteira investida em ativos que 
+acompanham direta ou indiretamente o 
+índice de referência.
+Inclui o sufixo "Referenciado".
+No mínimo 80% em títulos da dívida 
+pública federal, ativos de renda fixa 
+considerados de baixo risco pelo gestor ou 
+ETFs que invistam nestes ativos.
+Restrição na utilização de derivativos para 
+hedge.
+Fundos de Renda Fixa Simples
+95% da carteira representada por títulos 
+da dívida pública federal, títulos de renda 
+fixa de instituições financeiras com baixo 
+risco de crédito ou operações 
+compromissadas de dívida pública federal 
+por instituição financeira autorizada pelo 
+Banco Central.
+Operações com derivativos somente para 
+hedge.
+Constituídos sob forma de condomínio 
+aberto.
+Documentos disponibilizados 
+preferencialmente de forma eletrônica.
+Vedada a cobrança de taxa de 
+performance, investimentos no exterior, 
+concentração em crédito privado, 
+transformação em classe fechada e 
+qualquer mudança de tipo.
+A lâmina deve comparar a performance 
+com a SELIC.
+O gestor deve adotar estratégia de 
+investimento que proteja a classe de 
+volatilidade.
+Dispensa termo de adesão e verificação de 
+adequação do perfil do cliente para 
+ingresso.
+Fundos de Renda Fixa Dívida Externa
+80% do PL representado por títulos da 
+dívida externa de responsabilidade da 
+união.
+Inclui o sufixo "Dívida Externa".
+Utilização de derivativos exclusivamente 
+para hedge, tanto no Brasil quanto no 
+exterior, respeitando o limite de 10% do 
+patrimônio líquido.
+O total de emissão ou coobrigação de uma 
+mesma pessoa jurídica não pode exceder 
+10% do PL.
+Vedada a manutenção ou aplicação no 
+país de recursos captados por esse tipo de 
+fundo.
+Fundos de Ações
+Critérios Gerais para Fundos de Ações
+O principal fator de risco é a variação do 
+preço das ações.
+No mínimo 67% do patrimônio líquido 
+deve ser composto por ações, certificados 
+de depósitos de ações, bônus e recibos de 
+subscrição, cotas de classes tipificadas 
+como ações, ETFs de ações e BDRs (ações e 
+ETFs de ações).
+Recursos excedentes podem ser aplicados 
+em quaisquer outras modalidades de 
+ativos financeiros destinados à gestão de 
+liquidez, sem limites de concentração por 
+emissor, desde que previsto no 
+regulamento.
+Fundos de Ações - Mercado de Acesso
+Investimento em no mínimo 67% em 
+empresas listadas no segmento voltado ao 
+mercado de acesso.
+Usa a designação "Ações - Mercado de 
+Acesso".
+Fundos fechados podem investir até 33% 
+em ações, debêntures, bônus de 
+subscrição, cotas de FIP ou outros títulos e 
+valores mobiliários conversíveis ou 
+permutáveis em ações de companhias 
+fechadas.
+Participação no processo decisório da 
+companhia investida, com efetiva 
+influência na definição de sua política 
+estratégica e na sua gestão.
+Investimento somente em companhias 
+fechadas que adotem boas práticas de 
+governança corporativa.
+Avaliação das companhias fechadas a 
+cada 12 meses a valor justo, conforme 
+norma contábil aprovada pela CVM.
+Fundos de Ações - Recompra de Cotas
+O regulamento pode autorizar a classe 
+fechada a comprar suas próprias cotas no 
+mercado organizado, desde que o valor de 
+recompra seja inferior ao valor patrimonial 
+do dia anterior, as cotas sejam canceladas 
+e o volume não ultrapasse 10% do total de 
+cotas em 12 meses.
+O administrador deve anunciar a intenção 
+de recompra com 14 dias de antecedência.
+É vedado ao fundo fechado recomprar 
+suas cotas se o administrador ou gestor 
+tiverem informações privilegiadas que 
+possam alterar o valor da cota, de forma a 
+influenciar ou regular o mercado ou com a 
+finalidade exclusiva de obtenção de 
+ganhos a partir das variações esperadas.
+Fundos Cambiais
+O principal fator de risco é a variação de 
+preços de moeda estrangeira ou cupom 
+cambial.
+No mínimo 80% da carteira deve ser 
+alocada em ativos relacionados 
+diretamente ou sintetizados via derivativos 
+ao fator de risco.
+Fundos Multimercado
+Política de investimento que envolve vários 
+fatores de risco, sem compromisso de 
+concentração em nenhum fator específico 
+(macro, trading, long & short, juros e 
+moedas, capital protegido, livre).
+Os investimentos não estão sujeitos aos 
+limites de concentração por emissor, 
+desde que previsto no regulamento e no 
+termo de adesão, com alerta sobre o risco 
+de concentração em poucos emissores.
+
+######## Tributação dos Fundos de Investimento.pdf
+<<<PÁGINA 1>>>
+Tributação dos 
+Fundos de 
+Investimento
+
+Fato Gerador e Agente 
+Responsável
+Fato Gerador da Tributação
+Movimentações internas do fundo não 
+geram tributos.
+O fato gerador inicia na aplicação, mas a 
+tributação ocorre no resgate.
+Os tributos incidem sobre os rendimentos 
+da valorização das cotas.
+Agente Responsável pelo Recolhimento
+O administrador é responsável pela parte 
+burocrática.
+O gestor recolhe o imposto retido do 
+cotista.
+Compensação de Perdas
+Compensação de Prejuízos
+É possível compensar perdas passadas 
+com lucros futuros, tributando apenas o 
+ganho real.
+A compensação só é permitida com 
+fundos do mesmo administrador e 
+classificação idêntica.
+Regras de Tributação dos Fundos
+Fundos da Regra Geral
+Fundos de investimento em renda fixa, 
+cambiais e multimercados.
+Fundos de investimento em direitos 
+creditórios (FIDC).
+ETFs de renda fixa.
+Fundos destinados à garantia de locação 
+imobiliária.
+Fundos Isentos de Imposto de Renda
+Fundos de infraestrutura.
+Fundos de debêntures incentivadas.
+Fundos de Renda Variável
+Fundos de ações.
+Fundos de investimento em participações.
+ETFs de renda variável.
+Fundos Imobiliários
+Apresentam regras específicas de 
+tributação.
+Tributação da Regra Geral: IOF e 
+IR
+Base de Cálculo e Alíquotas de IOF
+O IOF é cobrado antes do Imposto de 
+Renda.
+A alíquota varia de acordo com o prazo da 
+aplicação (tabela detalhada no 
+documento original).
+Exceções: Fundos de renda variável não 
+são tributados pelo IOF; fundos com 
+carência possuem alíquota específica.
+Base de Cálculo e Alíquotas do IR (Tabela 
+Regressiva)
+Tabela regressiva para aplicações em 
+fundos de longo prazo (alíquotas 
+decrescentes conforme o prazo).
+Aplica-se a fundos de investimento em 
+renda fixa, cambiais, multimercado, FIDCs, 
+ETFs de renda fixa e fundos destinados à 
+garantia de locação imobiliária.
+Exceção na Tabela Regressiva do IR 
+(Fundos de Curto Prazo)
+Alíquotas específicas para fundos de 
+investimento de renda fixa de curto prazo.
+Critérios de classificação de curto prazo 
+pela CVM e Receita Federal são diferentes 
+(detalhados no documento original).
+Imposto de Renda Come-Cotas e 
+Fundos Isentos
+Imposto de Renda Come-Cotas
+Antecipação do imposto a ser pago.
+Alíquota menor do fundo: 15% para fundos 
+da regra geral e 20% para fundos de curto 
+prazo.
+Fundos Isentos de Imposto de Renda
+Fundos de infraestrutura e fundos de 
+debêntures incentivadas são isentos do 
+imposto de renda.
+Há incidência de IOF.
+Para enquadramento como fundo 
+incentivado, devem ser cumpridas 
+determinadas condições (detalhadas no 
+documento original).
+Fundos de Renda Variável
+Tributação dos Fundos de Renda Variável
+Não há incidência de IOF.
+Tributação de 15% sobre o ganho de 
+capital, independente do prazo.
+Não há incidência de come-cotas.
+Fundos Imobiliários
+Tributação de Fundos Imobiliários
+Pessoa Física: Rendimento periódico 
+isento sob certas condições; ganho de 
+capital tributado em 20%; isento de IOF.
+Pessoa Jurídica: 20% para rendimentos e 
+ganho de capital; isenção de IOF.
+
+######## Vedações, Obrigações e Normas de Conduta.pdf
+<<<PÁGINA 1>>>
+Vedações, 
+Obrigações e 
+Normas de Conduta 
+para Prestadores de 
+Serviço
+
+Vedações para Prestadores de 
+Serviço
+Ações Proibidas aos Prestadores de Serviço
+Receber depósitos em conta corrente.
+Contrair ou efetuar empréstimos, exceto 
+em casos específicos para fundos 
+exclusivos ou restritos.
+Vender cotas a prazo.
+Garantir rendimento aos cotistas.
+Utilizar recursos da classe para pagamento 
+de seguro contra perdas financeiras.
+Praticar qualquer ato de liberalidade, 
+exceto doações autorizadas em 
+regulamento.  O gestor pode tomar e dar 
+ativos de empréstimo, desde que sejam 
+operações autorizadas pelo BACEN ou 
+CVM. O gestor pode utilizar os ativos da 
+carteira na retenção de risco da classe em 
+suas operações de derivativos.
+Receber qualquer remuneração ou 
+vantagem direta ou indiretamente que 
+prejudique a independência.
+Repassar informações privilegiadas.
+Obrigações do Administrador
+Responsabilidades do Administrador
+Registrar cotistas.
+Obter pareceres do auditor independente.
+Manter registros contábeis das operações 
+e do patrimônio do fundo.
+Solicitar a negociação de cotas fechadas 
+em mercado organizado e nas classes 
+abertas, processando os pedidos de 
+resgate.
+Pagar multas cominatórias por atrasos no 
+cumprimento da regulamentação.
+Elaborar e divulgar informações periódicas 
+sobre a classe de cotas.
+Manter atualizada a lista de prestadores 
+de serviços junto à CVM.
+Manter o livro de atas e presenças das 
+assembleias.
+Observar as disposições do regulamento.
+Cumprir as deliberações da assembleia.
+Monitorar a hipótese de liquidação 
+antecipada.
+Manter atendimento ao cotista, 
+esclarecimento de dúvidas e recebimento 
+de reclamações.
+Subordinação do Atendimento ao Cotista
+O atendimento ao cotista deve ser 
+subordinado diretamente ao diretor 
+responsável perante a CVM pela 
+administração do fundo.
+Também se subordina a outro diretor 
+especialmente indicado à CVM para essa 
+função.
+Ou ainda, ao diretor indicado pela 
+instituição responsável pela distribuição de 
+cotas ou gestão da carteira de ativos.
+Obrigações do Gestor
+Deveres do Gestor
+Informar imediatamente o administrador 
+sobre alterações em prestadores de serviço 
+contratados.
+Providenciar a elaboração de material de 
+divulgação da classe para utilização dos 
+distribuidores, às suas expensas.
+Diligenciar as operações referentes às 
+classes de cotas.
+Manter a carteira de ativos enquadrada 
+aos limites de composição, concentração e 
+risco de capital.
+Observar as disposições constantes no 
+regulamento.
+Cumprir as deliberações das assembleias 
+de cotistas.
+Normas de Conduta para 
+Prestadores de Serviço
+Princípios Éticos e de Boas Práticas
+Exercer suas atividades buscando as 
+melhores condições para o fundo, com 
+cuidado e diligência, atuando com 
+lealdade em relação ao interesse dos 
+cotistas e do fundo, evitando práticas que 
+possam ferir a relação fiduciária.
+Exercer, ou diligenciar o exercício, de todos 
+os direitos decorrentes do patrimônio e 
+das atividades da classe de cotas, 
+ressalvando o que dispuser relativo ao 
+direito de exercício de voto.
+Empregar todas as medidas necessárias na 
+defesa dos direitos dos cotistas, adotando 
+medidas judiciais, extrajudiciais e arbitrais 
+cabíveis.  Os prestadores devem transferir à 
+classe de cotas qualquer benefício ou 
+vantagem que possam alcançar em 
+decorrência de sua condição.
+da 
