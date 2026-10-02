@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Manual de Revisão {{CERT}} — Módulo {{N}}</title>
+<link rel="stylesheet" href="manual.css">
+</head>
+<body>
+<!--
+  TEMPLATE DE COMPONENTES — copie os blocos de que precisar.
+  Cada <section class="page"> é uma página A4. Mantenha o rodapé (.foot) em todas.
+  Ícones disponíveis em img/ (ver references/manual.md, tabela de ícones).
+  Em página muito cheia, use class="page tight".
+-->
+
+<!-- CAPA -->
+<section class="page cover">
+  <img class="logo" src="img/image1.png" alt="X8 Educação">
+  <div class="k">Manual de revisão · {{CERT}} ANBIMA</div>
+  <h1>Módulo {{N}}<br>{{TÍTULO DO MÓDULO}}</h1>
+  <p class="sub">{{Uma frase sobre o que o aluno encontra no manual.}}</p>
+  <div class="pills"><span>{{Tema 1}}</span><span>{{Tema 2}}</span></div>
+  <div class="foot"><span>X8 Educação · Revisão {{CERT}} — Módulo {{N}}</span><b>1</b></div>
+</section>
+
+<!-- PÁGINA DE CONTEÚDO (padrão) -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">{{item}} · {{seção}}</span></div>
+  <div class="kicker">{{itens do PD}} · {{nome do tópico}}</div>
+  <h1>{{Título-afirmação curto}}</h1>
+  <p class="lead">{{1–2 frases de contexto.}}</p>
+
+  <table>
+    <tr><th>Tema</th><th>Regra</th></tr>
+    <tr><td>{{...}}</td><td>{{...}}</td></tr>
+  </table>
+
+  <div class="grid2">  <!-- ou grid3 -->
+    <div class="card"><h2><img src="img/image5.png" alt="">{{Título}}</h2>
+      <ul><li>{{item com <b>destaque</b>}}</li></ul></div>
+    <div class="card stat"><div class="big">{{R$ 250 mil}}</div><div class="lbl">{{legenda do número}}</div></div>
+  </div>
+
+  <div class="flow"><span class="s">{{Passo 1}}</span><span class="a">→</span><span class="s">{{Passo 2}}</span></div>
+  <span class="chip">{{etiqueta}}</span>
+  <div class="card dark"><b>Exemplo:</b> {{caso numérico curto}}</div>
+
+  <div class="box note"><img src="img/image23.png" alt=""><div><div class="t">Fique de olho</div>{{mudança recente ou divergência que importa ao aluno}}</div></div>
+  <div class="box trap"><img src="img/image28.png" alt=""><div><div class="t">Pegadinha</div>"{{frase da banca}}" <b>Errado:</b> {{por quê}}.</div></div>
+  <div class="box fix"><img src="img/image3.png" alt=""><div><div class="t">Frase de fixação</div><p>{{frase curta}}</p></div></div>
+  <div class="foot"><span>X8 Educação · Revisão {{CERT}} — Módulo {{N}}</span><b>{{pág}}</b></div>
+</section>
+
+<!-- QUESTÕES -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">Treino</span></div>
+  <div class="kicker">Teste seus conhecimentos</div>
+  <h1>Três questões no padrão da prova</h1>
+  <div class="card q"><b>Questão 1 · Fácil</b> <span class="small">({{item PD}})</span><br>
+    {{enunciado}}
+    <p class="opt">A) {{...}}</p><p class="opt">B) {{...}}</p><p class="opt">C) {{...}}</p><p class="opt">D) {{...}}</p></div>
+  <p class="small center">Responda antes de virar a página.</p>
+  <div class="foot"><span>X8 Educação · Revisão {{CERT}} — Módulo {{N}}</span><b>{{pág}}</b></div>
+</section>
+
+<!-- GABARITO -->
+<section class="page">
+  <div class="head"><img src="img/image1.png" alt=""><span class="sec">Treino</span></div>
+  <div class="kicker">Gabarito comentado</div>
+  <h1>Confira suas respostas</h1>
+  <div class="card"><b>Questão 1 · <span class="ans">Alternativa {{X}}</span></b>
+    <ul style="margin-top:1.5mm"><li><b>{{X}} (correta):</b> {{...}}</li><li><b>{{Y}}:</b> {{por que está errada}}</li></ul></div>
+  <div class="grid3">
+    <div class="card center"><img src="img/image13.png" alt="" style="height:10mm;margin-bottom:2mm"><br><b>Formação</b></div>
+    <div class="card center"><img src="img/image12.png" alt="" style="height:10mm;margin-bottom:2mm"><br><b>Certificação</b></div>
+    <div class="card center"><img src="img/image8.png" alt="" style="height:10mm;margin-bottom:2mm"><br><b>Carreira</b></div>
+  </div>
+  <p class="small">Conteúdo conferido com o Programa Detalhado {{CERT}} (ANBIMA, vigência {{data}}), a apostila {{CERT}} ({{revisão}}) e as normas em vigor em {{data de hoje}}. Regras e alíquotas podem mudar: confira sempre a norma vigente.</p>
+  <div class="foot"><span>X8 Educação · Revisão {{CERT}} — Módulo {{N}}</span><b>{{pág}}</b></div>
+</section>
+</body>
+</html>
