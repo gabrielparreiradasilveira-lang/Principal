@@ -1,0 +1,4071 @@
+######## A3443 - _Outros Equivalentes de Bancos_ - Caixa Econômica, IP e Fintechs.pdf
+<<<PÁGINA 1>>>
+“Outros Equivalentes a Bancos”
+Caixa Econômica, Instituições de Pagamento e Fintechs
+
+<<<PÁGINA 2>>>
+“Outros Equivalentes a Bancos”
+
+<<<PÁGINA 3>>>
+“Outros Equivalentes a Bancos”
+→ Outros equivalentes a Bancos:
+●
+Caixa Econômica Federal: Um banco público com papel social relevante;
+●
+Instituições de Pagamento: Empresas que possibilitam transações financeiras sem 
+caracterizar atividade bancária;
+●
+Fintechs: Inovadoras no mercado, misturam finanças e tecnologia para oferecer 
+serviços financeiros de forma ágil e acessível;
+
+<<<PÁGINA 4>>>
+Quem são os Bancos e seus “Equivalentes”
+Classificação
+Exemplo
+Natureza Jurídica
+Fiscalização Principal
+Bancos Comerciais/Múltiplos
+Itaú, Bradesco, Banco do 
+Brasil
+S.A. com fins lucrativos
+Banco Central
+Bancos de Investimento
+BTG, Modal
+S.A. com fins lucrativos
+Banco Central
+Caixa Econômica Federal
+Caixa
+Empresa Pública
+Banco Central
+Cooperativas de Crédito
+Sicredi, Sicoob
+Cooperativa
+Banco Central
+Bancos Cooperativos
+Bancoob, Banco Ailos
+S.A. (ligada a cooperativas)
+Banco Central
+Instituições de Pagamento
+PicPay, PagSeguro
+Sociedade Ltda ou S.A.
+Banco Central
+Fintechs
+Nubank, Neon, C6 Bank
+Variável: IP, SCD, SEP, etc.
+Banco Central e/ou CVM
+
+<<<PÁGINA 5>>>
+Semelhanças entre os bancos e os “Equivalentes”
+Função Prática
+Bancos
+Equivalentes a Bancos
+Abertura de conta
+✅
+✅
+Emissão de cartão
+✅
+✅
+Aplicações financeiras
+✅
+✅
+Transferência via Pix/TED
+✅
+✅
+Oferta de crédito direto
+✅
+Parcialmente
+Acesso via aplicativo
+✅
+✅
+Atendimento digital
+✅
+✅
+
+<<<PÁGINA 6>>>
+Quem são os Bancos e seus “Equivalentes”
+Critério
+Bancos
+Equivalentes a Bancos
+Natureza jurídica
+S.A.
+Cooperativa, IP, Empresa Pública
+Objetivo principal
+Lucro
+Inclusão, apoio social ou inovação
+Captação de depósitos
+✅ Sim
+❌ Parcial ou proibido
+Regulação
+Lei 4.595/64, Res. CMN
+LC 130/09, Lei 12.865/13, Res. 4.656/18
+Público-alvo
+Universal
+Limitado (cooperados, usuários)
+Garantia do FGC
+✅ Sim
+✅ Em cooperativas / ❌ Em IPs
+
+<<<PÁGINA 7>>>
+→ A Caixa Econômica Federal é uma empresa pública federal, criada para atuar como agente 
+ﬁnanceiro de políticas públicas. Embora seja um banco múltiplo, sua atuação tem forte caráter 
+social e institucional, o que a diferencia dos bancos privados tradicionais.
+→ Agente Operador:
+●
+FGTS;
+●
+PIS/PASEP;
+●
+Seguro Desemprego;
+●
+Benefícios Sociais (Bolsa Família);
+CEF - Caixa Econômica Federal
+
+<<<PÁGINA 8>>>
+→ Estrutura e Funções:
+●
+Vinculada ao ministério da Fazenda;
+●
+Atua em nome da união na gestão de fundos públicos e programas sociais;
+●
+Não é uma S.A:
+○
+Caixa Econômica Federal é uma empresa Pública;
+○
+Não foca em rentabilidade e sim política pública de crédito;
+○
+Programa “Minha Casa Minha Vida”;
+CEF - Caixa Econômica Federal
+
+<<<PÁGINA 9>>>
+→ São entidades autorizadas a viabilizar serviços de pagamento sem realizar operações de 
+crédito típicas de bancos;
+Instituições de Pagamento
+
+<<<PÁGINA 10>>>
+Fintechs
+→ Fintech = Financial + Technology;
+→ São empresas que usam inovação tecnológica para oferecer serviços simples, rápidos e 
+baratos;
+
+<<<PÁGINA 11>>>
+→ De acordo com os serviços prestados:
+●
+Se oferecem serviços bancários, precisam autorização e ﬁscalização do BACEN;
+●
+Se oferecem serviços de investimento, precisam de autorização e ﬁscalização da 
+CVM;
+Regulação
+
+######## A3444 - Financiamento e Leasing.pdf
+<<<PÁGINA 1>>>
+Financiamento E Leasing
+
+<<<PÁGINA 2>>>
+Financiamento e Leasing
+
+<<<PÁGINA 3>>>
+→ Sociedades de Crédito, Financiamento e Investimento;
+→ Instituições Financeiras autorizadas a captar recursos próprios e conceder crédito direto ao 
+consumidor e as empresas;
+→ Regidas pela Lei 4.595/64 do SFN;
+●
+Devem ser autorizadas pelo BACEN;
+●
+Possuem natureza privada e atuam no SFN;
+●
+Não possuem conta corrente e não operam depósito à vista;
+Financeiras
+
+<<<PÁGINA 4>>>
+→ Recursos Próprios;
+→ Captações no Mercado de Capitais através de Debêntures;
+→ Repasses de Outras Instituições;
+Captação de Recursos das Financeiras
+
+<<<PÁGINA 5>>>
+→ Foco com clientes não bancarizados ou com diﬁculdade de acesso a crédito;
+●
+Atuam em operações padronizadas:
+○
+Garantia Real:
+■
+Crédito de Veículos (Alienação Fiduciária);
+○
+Sem Garantia Real:
+■
+Crédito de Eletrodomésticos;
+■
+Crédito Consignado;
+●
+Risco de Crédito mais elevado;
+Perﬁl de Atuação
+
+<<<PÁGINA 6>>>
+→ Financiamento de Veículos:
+●
+Compra de Carros, Motos, Caminhões;
+→ CDC - Crédito Direto ao Consumidor:
+●
+Compra de Eletrodomésticos e Serviços;
+→ Crédito Consignado:
+●
+Empréstimos com Garantia em Folha como INSS e Prefeituras;
+→ Cartões de Crédito Próprios:
+●
+Private Label: Só pode ser usado nas lojas da Rede. Ex: Renner;
+●
+Co-Branded: Usado em qualquer lugar, com benefícios na loja;
+●
+Gerido pela Financeira: Itaucard, Bradescard, Losango…;
+Principais Linhas de Produtos
+
+<<<PÁGINA 7>>>
+→ Instituições Financeiras Especializadas em Operações de Leasing;
+Sociedades de Arrendamento Mercantil
+
+<<<PÁGINA 8>>>
+→ Devem ser constituídas como sociedades anônimas autorizada pelo BACEN;
+→ Atuam exclusivamente com operações de Arrendamento Mercantil;
+→ Não captam depósito à vista nem possuem conta corrente;
+Sociedades de Arrendamento Mercantil
+
+<<<PÁGINA 9>>>
+→ Recursos Próprios;
+→ Captação no mercado de capitais via debêntures;
+→ Repasses de instituições ﬁnanceiras;
+Captação de Recurso das SAM
+
+<<<PÁGINA 10>>>
+→ Empresas e pessoas que desejam a utilização de um bem sem a compra imediata;
+→ Operações com bens de alto valor:
+●
+Veículos;
+●
+Máquinas;
+●
+Equipamentos Industriais e de Tecnologia;
+→ Alternativa ao ﬁnanciamento e pode ter vantagens ﬁscais no leasing operacional para 
+empresas de lucro real;
+Perﬁl de Atuação das SAM
+
+<<<PÁGINA 11>>>
+→ Leasing Financeiro:
+●
+Espécie de Aluguel com compra no ﬁnal;
+●
+O bem permanece com o arrendador (propriedade) até o ﬁm do contrato;
+●
+Despesas do bem são responsabilidade do arrendatário (quem usa o bem):
+○
+Manutenção;
+○
+Seguros;
+○
+Tributos e Encargos;
+→ Leasing Operacional:
+●
+Propriedade do bem é do arrendador sem intenção de compra ao ﬁnal;
+●
+Despesas geralmente são do arrendador;
+●
+Vantagem ﬁscal para empresas de lucro real porque todo o gasto é considerado 
+despesa;
+Tipos de Leasing
+
+<<<PÁGINA 12>>>
+Comparação de Financiamento e Leasing
+Aspecto
+Financiamento
+Leasing
+Aquisição do bem
+Compra financiada
+Aluguel com opção de compra (financeiro)  ou sem (operacional)
+Propriedade
+Do cliente (com garantia)
+Da arrendadora durante o contrato
+Garantia
+Alienação fiduciária
+O bem é do arrendador
+Dedução fiscal (Lucro Real)
+Juros são dedutíveis
+Financeiro: só juros; Operacional: 100% da parcela
+Despesas com o bem
+Cliente (manutenção, seguro etc.)
+Geralmente da arrendadora (operacional)
+Intenção de compra
+Sim
+Depende: sim (financeiro), não (operacional)
+
+######## A3445 - Fomento e MicroCredito.pdf
+<<<PÁGINA 1>>>
+Fomento e Microcrédito
+
+<<<PÁGINA 2>>>
+A Grande Confusão
+
+<<<PÁGINA 3>>>
+→ Instituições Financeiras Públicas não bancárias;
+→ Criadas pelos estados e o governo federal para ﬁnanciar o desenvolvimento regional;
+→ Autorizadas e Supervisionadas pelo BACEN;
+→ Não captam depósito à vista ou emitem moeda;
+Agências de Fomento
+
+<<<PÁGINA 4>>>
+→ Os recursos originam majoritariamente de fontes do dinheiro público:
+●
+Recursos Orçamentários do Governo;
+●
+Fundos Constitucionais e Regionais:
+○
+FCO: Fundo Constitucional de Financiamento do Centro Oeste;
+○
+FNE: Fundo Constitucional de Financiamento do Nordeste;
+○
+FNO: Fundo Constitucional de Financiamento do Norte;
+○
+Outros…
+●
+Repasses de Instituições como BNDES e Caixa;
+●
+Captação no Mercado Financeiro com Aval Público;
+Captação de Recurso das Agências de Fomento
+
+<<<PÁGINA 5>>>
+→ Apoio ao Desenvolvimento de Micro, pequenas e médias empresas locais;
+→ Incentivo a setores estratégicos como infraestrutura, inovação e sustentabilidade;
+→ Parcerias com cooperativas de crédito, associações e órgãos governamentais;
+Perﬁl de Atuação das Agências de Fomento
+
+<<<PÁGINA 6>>>
+→ Crédito de Longo Prazo com Juros Subsidiados;
+→ Financiamento para Investimento Fixo:
+●
+Máquinas;
+●
+Equipamentos;
+●
+Obras;
+→ Programas de Fomento à Inovação e Sustentabilidade;
+→ Apoio a projetos de desenvolvimento regional:
+●
+Turismo;
+●
+Agricultura familiar;
+Produtos das Agências de Fomento
+
+<<<PÁGINA 7>>>
+→ Sociedades de Crédito a Microempreendedores e Empresas de Pequeno Porte:
+●
+Instituições Financeiras Autorizadas pelo BACEN;
+●
+Foco Exclusivo em microcrédito produtivo orientado;
+●
+Regras simpliﬁcadas mas mantendo a supervisão do BACEN;
+●
+Proibidas de captar depósito à vista;
+SCEMPP
+
+<<<PÁGINA 8>>>
+→ Capital Próprio dos Sócios;
+→ Recursos de Fundos Públicos de Microcrédito;
+→ Empréstimos com bancos de fomento e cooperativas;
+→ Parcerias com ﬁntechs e investidores sociais;
+Captação de Recursos nas SCEMPP
+
+<<<PÁGINA 9>>>
+→ Atendem:
+●
+Microempreendedores Individuais (MEI);
+●
+Trabalhadores Informais;
+●
+Pequenas Empresas;
+→ Foco está na oferta de crédito com o objetivo de geração de renda e inclusão ﬁnanceira;
+→ Atuação regional geralmente com comunidades desassistidas;
+Perﬁl de Atuação das SCEMPP
+
+<<<PÁGINA 10>>>
+→ MPO: Microcrédito Produtivo Orientado:
+●
+Crédito de Pequeno Valor;
+○
+Acompanhamento e Orientação Técnica;
+→ Crédito para Capital de Giro:
+●
+Pequenos valores para compra de insumos, matéria prima e equipamentos leves;
+→ Apoio a Formalização:
+●
+Financiamento com foco na legalização de pequenos negócios;
+Principais Linhas de Crédito SCEMPP
+
+<<<PÁGINA 11>>>
+Comparação Agência de Fomento x SMEPP
+
+######## A3446 - Outras Instituições de Crédito Imobiliário_.pdf
+<<<PÁGINA 1>>>
+Outras Instituições de Crédito 
+Imobiliário
+
+<<<PÁGINA 2>>>
+APE, Companhias Hipotecárias e SCI
+
+<<<PÁGINA 3>>>
+→ Instituições Financeiras sob a forma de associação civil;
+→ Foco em habitação social e crédito de interesse social;
+→ Regulação pelo BACEN e atua no âmbito do SBPE (Sistema Brasileiro de Poupança e 
+Empréstimo);
+→ Podem ser abertas ao público, ou vinculadas a categorias especíﬁcas:
+●
+APEFESP: Associação de Poupança e Empréstimo dos Funcionários Públicos do 
+Estado de São Paulo:
+○
+Tipo: Fechada, funcionários públicos do estado de SP e familiares;
+●
+POUPEX: Associação de Poupança e Empréstimo do Exército:
+○
+Tipo: Aberta, não exige vínculo militar ou funcional;
+Associações de Poupança e Empréstimo (APE)
+
+<<<PÁGINA 4>>>
+→ Cadernetas de poupança dos próprios associados;
+→ Recursos do SBPE;
+→ Eventuais repasses de programas habitacionais públicos;
+Captação de Recurso das APEs
+
+<<<PÁGINA 5>>>
+→ Atuação local ou regional, forte vínculo comunitário;
+→ Foco em pessoas físicas, geralmente baixa e média renda;
+→ Atendimento mais humanizado e crédito mais ﬂexível;
+Perﬁl de Atuação das APEs
+
+<<<PÁGINA 6>>>
+→ Financiamento Habitacional para aquisição de imóvel residencial;
+→ Crédito para construção, reforma ou ampliação;
+→ Educação Financeira e apoio técnico habitacional;
+→ Pode aceitar crédito para uso misto (residencial + proﬁssional);
+Produtos Ofertados pelas APEs
+
+<<<PÁGINA 7>>>
+→ Instituições Financeiras Privadas autorizadas a funcionar pelo BACEN;
+●
+Criadas na Lei 9.514/97;
+→ Foco em crédito imobiliário fora do SPBE, operando no SFI;
+→ Maior ﬂexibilidade regulatória e comercial;
+Companhias Hipotecárias (CH)
+
+<<<PÁGINA 8>>>
+→ Debêntures e Letras Hipotecárias;
+→ Operações estruturadas como securitização de recebíveis;
+→ Recursos próprios ou de investidores institucionais;
+Captação de Recursos em uma CH
+
+<<<PÁGINA 9>>>
+→ Pessoas Físicas e Jurídicas incluindo holdings e investidores;
+→ Atuação em Imóveis de médio e alto padrão;
+→ Flexibilidade para atender nichos não absorvidos por bancos tradicionais;
+Perﬁl de Atuação das CH
+
+<<<PÁGINA 10>>>
+→ Financiamento de Imóveis Residenciais e Comerciais;
+→ Crédito com garantia de imóvel (Home Equity);
+→ Linhas para PJ (Holdings, Escritórios, Clínicas);
+→ Reﬁnanciamento e aquisição de carteira de crédito;
+Produtos Ofertados Pelas CH
+
+<<<PÁGINA 11>>>
+→ Instituições Financeiras Especializadas em crédito imobiliário;
+●
+Criadas pela lei 4.380/64 e reguladas pelo BACEN;
+→ Integram o SBPE e são supervisionadas pelo CMN;
+→ Atuam com foco no ﬁnanciamento residencial de médio e alto padrão;
+Sociedades de Crédito Imobiliário (SCI)
+
+<<<PÁGINA 12>>>
+→ Caderneta de Poupança (SBPE);
+→ Letras Imobiliárias e Letras de Crédito Imobiliário;
+→ Recursos do FGTS;
+Captação de Recursos em uma SCI
+
+<<<PÁGINA 13>>>
+→ Pessoas físicas de diversas faixas de renda;
+→ Atua de Forma nacional ou regional;
+→ Podem conceder crédito para pequenas e médias construtoras;
+Perﬁl de Atuação das SCI
+
+<<<PÁGINA 14>>>
+→ Financiamento para aquisição, construção e reforma de imóveis residenciais;
+→ Crédito para Incorporadoras e Construtoras;
+→ Emissão de LCIs lastreadas em operações de crédito imobiliário;
+Produtos Ofertados por uma SCI
+
+<<<PÁGINA 15>>>
+Resumo do Klebão
+Característica
+APE
+SCI
+CH
+Finalidade
+Habitação com viés social e comunitário
+Financiamento habitacional 
+tradicional
+Crédito imobiliário estruturado e 
+flexível
+Público-alvo
+Pessoas físicas de baixa e média renda
+PF e pequenas construtoras
+PF e PJ (inclusive holdings)
+Captação de Recursos
+Poupança dos associados e SBPE
+Poupança (SBPE), LCI, FGTS
+Debêntures, LH, recursos próprios
+Garantia Utilizada
+Alienação fiduciária
+Alienação fiduciária
+Alienação fiduciária
+Exemplos Reais
+Poupex, APEFESP, Poupargs
+SCI Santander, SCI Bancoob
+Omni CH, Métrica CH, Pine CH
+
+######## A3447 - Administradoras de Consórcio.pdf
+<<<PÁGINA 1>>>
+Administradoras de Consórcio
+
+<<<PÁGINA 2>>>
+Como funciona um Consórcio?
+
+<<<PÁGINA 3>>>
+→Instituições ﬁnanceiras não bancárias reguladas pelo BACEN;
+→ Lei dos consórcios: 11.795/2008;
+→ Podem ser:
+●
+Instituições Independentes:
+○
+Embracon;
+●
+Ligadas a Bancos:
+○
+Itaú Consórcios;
+●
+Ligadas a Varejistas:
+○
+Magalu;
+As Administradoras de Consórcio
+
+<<<PÁGINA 4>>>
+→ Instituições Financeiras Autorizadas e Fiscalizadas pelo BACEN, responsáveis por:
+●
+Formar, organizar e gerir os grupos de consórcio;
+●
+Gerir os recursos arrecadados dos participantes;
+●
+Realizar as assembléias mensais;
+●
+Entregar o crédito ao consorciado contemplado;
+●
+Cobrar as taxas administrativas previstas em contrato;
+●
+Manter a solidez, a transparência e segurança do processo;
+O Papel das Administradoras de Consórcio
+
+<<<PÁGINA 5>>>
+Operação de um Grupo de Consórcio
+→ Formação do Grupo:
+●
+Agrupamento de pessoas com o mesmo objetivo de aquisição;
+○
+Ex: carros de R$ 200 mil;
+→ Gestão Financeira:
+●
+As contribuições mensais dos participantes formam o “fundo comum”;
+→ Assembleias:
+●
+Mensais, deﬁnem os contemplados por sorteio e por lance;
+→ Entrega do Crédito:
+●
+O contemplado usa o valor para adquirir o bem/serviço desejado;
+→ Prestação de Contas:
+●
+Transparência é obrigatória: a administradora deve divulgar relatórios ﬁnanceiros e 
+saldo do grupo;
+
+<<<PÁGINA 6>>>
+Como a administradora Ganha Dinheiro
+→ Taxa de Administração:
+●
+Percentual cobrado sobre o valor da Carta: 15%;
+○
+Este valor é diluído nas parcelas mensais;
+→ Fundo de Reserva:
+●
+A administradora pode ﬁcar com o fundo de reserva:
+○
+Não haja prejuízo no grupo;
+○
+Sejam aplicados com segurança;
+○
+Conste em contrato a destinação dos rendimentos;
+→ Multas e Encargos:
+●
+Valores pagos para cobrir a inadimplência e quebras contratuais;
+→ Rendimento das Aplicações:
+●
+Remuneração do Float;
+
+######## A3448 - B3 - Brasil, Bolsa e Balcão.pdf
+<<<PÁGINA 1>>>
+Bolsa de Valores 
+
+<<<PÁGINA 2>>>
+Bolsa de Valores 
+
+<<<PÁGINA 3>>>
+→ Principal infraestrutura do mercado de capitais brasileiro;
+→ Papel no Mercado:
+●
+Promover a Liquidez e Eﬁciência;
+●
+Garantir o registro, custódia, liquidação e compensação de ativos;
+Oferecer plataformas de negociação integradas;
+→ Resultado da Fusão entre BM&F, Bovespa e Cetip;
+→ B3 = Brasil, Bolsa e Balcão;
+O que é Bolsa de Valores? 
+
+<<<PÁGINA 4>>>
+O que é Negociado na B3? 
+
+<<<PÁGINA 5>>>
+→ Taxas de Negociação e Liquidação;
+→ Tarifas de Custódia;
+→ Receita de Licenciamento de Índices;
+→ Serviços de registro, empréstimo de ativos, educação ﬁnanceira e dados de mercado;
+Como a B3 Ganha Dinheiro
+
+<<<PÁGINA 6>>>
+Regulação e Supervisão
+→ BACEN:
+●
+Supervisiona a parte de liquidação de ativos ﬁnanceiros;
+→ CVM:
+●
+Regula as ofertas públicas, informações aos investidores e combate o uso de 
+informação privilegiada;
+→ Anbima:
+●
+Auto Regulação das ofertas e dos intermediários;
+→ B3:
+●
+Também atua como auto reguladora via BSM na supervisão de mercados;
+
+<<<PÁGINA 7>>>
+A B3 é um Monopólio
+→ Reúne negociação, registro, compensação e custódia;
+→ Não há outra bolsa operando no Brasil;
+→ Concorrência legal é possível, mas inviável economicamente;
+→ É regulada por CVM, BACEN e ANBIMA;
+
+######## A3449 - Corretoras e Distribuidoras de Valores Mobiliários.pdf
+<<<PÁGINA 1>>>
+Corretoras e Distribuidoras de 
+Valores Mobiliários (CTVM e DTVM) 
+
+<<<PÁGINA 2>>>
+CTVMs e DTVMs
+
+<<<PÁGINA 3>>>
+→ Instituições integrantes do Sistema Financeiro Nacional, autorizadas a funcionar pelo 
+BACEN e supervisionadas pela CVM;
+→ Atuam principalmente como intermediárias de negócios nos mercados ﬁnanceiro e de 
+capitais;
+→ Classiﬁcação:
+●
+CTVM – Corretora de Títulos e Valores Mobiliários;
+●
+DTVM – Distribuidora de Títulos e Valores Mobiliários;
+O que são as CTVM e DTVM 
+
+<<<PÁGINA 4>>>
+→ Intermediação na compra e venda de ativos (ações, fundos, derivativos);
+→ Administração de carteira e custódia;
+→ Emissão de relatórios de análise;
+→ Participação em IPOs e ofertas públicas;
+→ Distribuição de produtos de investimento;
+→ Operações compromissadas e registro de ativos;
+→ Operações no mercado de câmbio;
+Atividades Permitidas
+
+<<<PÁGINA 5>>>
+→ Taxas de corretagem;
+→ Spread entre compra e venda de ativos;
+→ Comissões por distribuição de produtos;
+→ Remuneração do Float;
+→ Outras taxas administrativas e Operacionais;
+Como Ganham Dinheiro
+
+<<<PÁGINA 6>>>
+→ BACEN:
+●
+Autoriza e supervisiona os aspectos operacionais;
+→ CVM:
+●
+Fiscaliza as práticas de mercado e protege o investidor;
+→ ANBIMA:
+●
+Auto regulação de práticas de distribuição de produtos de investimento;
+Regulação e Supervisão
+
+<<<PÁGINA 7>>>
+→ O modelo de negócios é naturalmente conﬂitado:
+●
+Venda casada de produtos;
+●
+Indicação de produtos com maior comissão, não necessariamente mais adequado 
+aos clientes;
+Riscos e Conﬂito de Interesses
+
+<<<PÁGINA 8>>>
+Cadeira de Remuneração do Proﬁssional
+
+######## A3451 - Sociedades de Capitalização.pdf
+<<<PÁGINA 1>>>
+Sociedades de Capitalização
+
+<<<PÁGINA 2>>>
+Títulos de Capitalização
+1)
+O que é um título de capitalização;
+2)
+Prazo;
+3)
+Tipos de Pagamento;
+4)
+Estrutura dos Recursos;
+5)
+Sorteios;
+6)
+Rendimento;
+7)
+Principais Utilizações;
+
+<<<PÁGINA 3>>>
+Definição das Sociedades de Capitalização
+São instituições financeiras não bancárias, constituídas sob a forma de sociedade anônima,
+autorizadas a funcionar e supervisionadas pela SUSEP, cuja única finalidade é emitir e operar planos de
+capitalização, conforme aprovado pelo CNSP.
+→Base legal:
+●
+Art. 31 do Decreto-Lei nº 73/1966:
+○
+“As sociedades de capitalização operarão exclusivamente com planos de capitalização,
+previamente aprovados pela SUSEP”
+→Características principais:
+●
+Autorizadas especificamente para operar com títulos de capitalização;
+●
+Devem obedecer às diretrizes do CNSP e à fiscalização da SUSEP;
+●
+Não podem atuar em outras atividades como seguros ou previdência (exceto se tiverem
+autorização e estrutura separada);
+
+<<<PÁGINA 4>>>
+Operação das Sociedades de Capitalização
+→Operação de uma Sociedade de Capitalização:
+●
+Cria um plano de capitalização com base técnica aprovada (estrutura de cotas, prazos e
+regras);
+●
+Registra esse plano na SUSEP e obtém autorização;
+●
+Comercializa títulos por meio de agências, corretores ou canais digitais;
+●
+Gere as reservas matemáticas e realiza os sorteios;
+●
+Paga os resgates ou prêmios conforme condições contratadas;
+→Termos utilizados:
+●
+Subscritor: quem paga e contrata o título;
+
+<<<PÁGINA 5>>>
+→Cota de Capitalização:
+●
+Forma a Provisão Matemática de Resgate (PMR), corrigida mensalmente;
+→Cota de Sorteio:
+●
+Financia os prêmios sorteados;
+→Cota de Carregamento:
+●
+Cobre taxas administrativas, corretagem, emissão e lucro da empresa;
+→Exemplo prático (R$ 100/mês):
+●
+R$ 70 Capitalização;
+●
+R$ 20 Sorteio;
+●
+R$ 10 Carregamento;
+Estrutura dos Pagamentos
+
+<<<PÁGINA 6>>>
+Forma de Pagamento
+→Forma de Pagamento:
+●
+PM – Pagamento Mensal:
+○
+Uma parcela a cada mês;
+●
+PP – Pagamento Periódico:
+○
+Número de parcelas ≠número de meses;
+○
+Ex: 24 parcelas em 36 meses;
+●
+PU – Pagamento Único:
+○
+Pagamento integral no momento da contratação;
+→
+Correção Monetária:
+●
+Títulos até 12 meses:
+○
+Valor fixo;
+●
+Acima de 12 meses:
+○
+Pode ter atualização anual por índice oficial;
+●
+Cota
+de
+Capitalização:
+Sempre corrigida mensalmente por índice oficial;
+
+<<<PÁGINA 7>>>
+Os Sorteios
+→Prêmios podem ser em dinheiro, bens ou serviços;
+→Ocorrem de duas formas:
+●
+Baseados em loterias oficiais (mais comum);
+●
+Realizados pela própria empresa (com publicidade, acesso gratuito e auditoria);
+→IMPORTANTE:
+●
+Ganhar sorteio NÃO interfere no valor de resgate do capital;
+
+<<<PÁGINA 8>>>
+Modalidade dos Títulos
+→Tradicional:
+●
+Foco no resgate de 100% do valor pago + participação em sorteios;
+→Popular:
+●
+Baixo custo, foco em sorteios resgate menor que o valor pago;
+→Filantropia Premiável:
+●
+Permite doação da reserva a instituições, com direito a sorteios;
+→Compra-Programada:
+●
+Valor usado para aquisição de bem ou serviço no final;
+→Instrumento de Garantia:
+●
+Usado como caução em contratos (ex: aluguel residencial);
+→Incentivo:
+●
+Ligado a promoções comerciais, sem resgate pelo consumidor (capital é da empresa);
+
+######## A3453 - Corretoras de Seguro.pdf
+<<<PÁGINA 1>>>
+Corretoras de Seguro
+
+<<<PÁGINA 2>>>
+Corretoras de Seguro
+
+<<<PÁGINA 3>>>
+O que são Corretoras de Seguro?
+→ Definição:
+“Corretoras de seguros são empresas intermediadoras entre os consumidores e as seguradoras. 
+Atuam na comercialização de seguros, análise de necessidades dos clientes e aconselhamento técnico.”
+→ Base legal:
+●
+Decreto-Lei nº 73/1966 (art. 122 a 124);
+●
+Resolução CNSP nº 297/2013;
+●
+Circular SUSEP nº 510/2015;
+
+<<<PÁGINA 4>>>
+Objetivos das Corretoras de Seguro
+→ Objetivo das Corretoras de Seguro:
+●
+Atuar como ponte entre cliente e seguradora;
+●
+Promover o acesso a seguros adequados ao perfil do cliente;
+●
+Garantir a transparência nas condições contratadas;
+●
+Auxiliar o segurado durante sinistros e dúvidas;
+●
+Contribuir para o crescimento sustentável do mercado de seguros;
+
+<<<PÁGINA 5>>>
+→ Funções das Corretoras de Seguro:
+●
+Análise de perfil e necessidades do cliente;
+●
+Apresentação comparativa de produtos de diferentes seguradoras;
+●
+Intermediação da proposta de seguro;
+●
+Acompanhamento de vigência e renovação de apólices;
+●
+Apoio em processos de sinistro (reclamações, documentação, perícia);
+●
+Atuação consultiva e educativa (orientação pré e pós-venda);
+Funções das Corretoras de Seguro
+
+<<<PÁGINA 6>>>
+Constituição das Corretoras de Seguro
+→ Constituição das Corretoras de Seguro:
+●
+Pessoa física ou jurídica autorizada pela SUSEP;
+●
+Possui registro próprio e profissionais habilitados;
+●
+Pode atuar nos ramos autorizados:
+○
+Vida e Previdência;
+○
+Capitalização;
+○
+Demais Ramos;
+●
+Remunerada por comissão paga pelas seguradoras;
+
+<<<PÁGINA 7>>>
+Regulação e Supervisão
+→ As corretoras são supervisionadas pela SUSEP:
+●
+Necessário credenciamento (registro obrigatório);
+●
+Atuam sob as normas do CNSP;
+●
+São obrigadas a manter conduta ética, sem práticas abusivas, e garantir clareza nas 
+informações ao segurado
+→ Legislação aplicada:
+●
+Decreto-Lei 73/1966;
+●
+Resolução CNSP nº 393/2020;
+●
+Código de Defesa do Consumidor;
+●
+Normas SUSEP (como a Circular nº 510/2015);
+
+<<<PÁGINA 8>>>
+Comparativo do Subsistema de Seguros
+Aspecto
+Corretora de Seguros
+Seguradora
+Resseguradora
+Papel
+Intermediária entre cliente e seguradora
+Assume o risco e emite apólices
+Assume parte do risco das seguradoras
+Cliente direto
+Pessoa física ou jurídica
+Indiretamente, via corretor
+Seguradoras (não atende cliente final)
+Receita
+Comissão sobre vendas
+Prêmio pago pelo segurado
+Prêmio de Resseguro
+Foco principal
+Distribuição e orientação consultiva
+Gestão de riscos e sinistros diretos
+Compartilhamento de Riscos
+Relação com o risco
+Não assume risco
+Assume e gerencia riscos
+Reassume parte dos Riscos
+Intermediação
+Atua como canal de venda
+Emissão de apólices e gestão contratual
+Atua em contratos com seguradoras
+
+######## A3454 - Anbima (1).pdf
+<<<PÁGINA 1>>>
+Anbima
+
+<<<PÁGINA 2>>>
+Anbima - A Auto Reguladora
+
+<<<PÁGINA 3>>>
+→ Sigla para Associação Brasileira das Entidades dos Mercados Financeiro e de Capitais;
+→ Entidade privada, sem fins lucrativos, fundada em 2009;
+●
+Resultado da fusão entre:
+○
+ANBID (Associação Nacional dos Bancos de Investimento);
+○
+ANDIMA (Associação Nacional das Instituições do Mercado Financeiro);
+🎯 Representa mais de 300 instituições: bancos, corretoras, distribuidoras, gestoras de recursos, entre 
+outras.
+→ Fontes de recursos:
+●
+Contribuição dos associados (mensalidades);
+●
+Taxas de adesão aos códigos;
+●
+Receitas com aplicação dos próprios recursos;
+●
+Cursos, eventos e serviços especializados;
+O que é ANBIMA? 
+
+<<<PÁGINA 4>>>
+→ Mais de 300 instituições associadas, incluindo:
+●
+Bancos de varejo e atacado: Itaú, Bradesco, BTG Pactual;
+●
+Corretoras e distribuidoras: XP, Rico, Órama;
+●
+Gestoras de recursos: Itaú Asset, Verde Asset, SPX Capital;
+●
+Administradoras fiduciárias, consultorias, family offices;
+→ Todas essas entidades:
+●
+Devem seguir os códigos que aderirem;
+●
+Estão sujeitas à supervisão contínua;
+Os associados da ANBIMA? 
+
+<<<PÁGINA 5>>>
+Anbima e a Hierarquia Jurídica
+→ A ANBIMA atua como Autorreguladora;
+→ Cria Códigos de Regulação e Melhores Práticas para garantir:
+●
+Ética;
+●
+Transparência;
+●
+Qualidade nos serviços financeiros;
+→ Exerce poder normativo sobre os associados;
+●
+As normas da Anbima são Infralegais;
+○
+Constituição Federal;
+○
+Leis;
+○
+Decretos e Regulamentos;
+○
+Normas de Auto Regulação;
+○
+Contratos Privados;
+
+<<<PÁGINA 6>>>
+→ A autorregulação é o coração da ANBIMA.
+→ Os Associados se comprometem a seguir padrões mais rigorosos do que a legislação exige;
+●
+São fiscalizados pela própria ANBIMA;
+●
+Podem ser punidos com advertência, censura pública, multas ou exclusão;
+●
+Códigos de Autorregulação e Melhores Práticas:
+○
+Código de Administração de Recursos de Terceiros (fundos);
+○
+Código de Distribuição de Produtos de Investimento;
+○
+Código de Private Banking;
+○
+Código de Ofertas Públicas;
+○
+Código de Certificação Continuada;
+→ Ferramentas de supervisão:
+●
+Canal de denúncias;
+●
+Processos sancionadores públicos;
+●
+Selo ANBIMA para instituições aderentes;
+Pilar da Auto Regulação
+
+<<<PÁGINA 7>>>
+→ A ANBIMA acredita que um mercado ético só se constrói com profissionais qualificados e investidores 
+conscientes, para isso atua em duas frentes:
+●
+Capacitação profissional:
+○
+CPA - Certificação Profissional Anbima;
+○
+C-PRO R (Relacionamento);
+○
+C-PRO I (Especialistas em Investimentos);
+●
+ Educação continuada:
+○
+Manutenção da certificação;
+○
+Atualizações frequentes com conteúdos novos, provas e eventos;
+○
+Selo ANBIMA como padrão de excelência profissional;
+A Anbima Também publica materiais de educação financeira para o público investidor, com vídeos, 
+cartilhas, e simuladores.
+Pilar da Educação
+
+<<<PÁGINA 8>>>
+→ A ANBIMA é referência nacional em dados e indicadores de mercado.
+●
+Principais entregas:
+○
+Índices de renda fixa (ex: IMA-B, IRF-M, IMA-S);
+○
+Indicadores de fundos (ex: IHFA – Hedge Funds);
+○
+Boletins estatísticos: captação líquida, saldo, número de cotistas, etc;
+○
+Relatórios de conjuntura econômica e previsões
+●
+Esses dados são utilizados por:
+○
+Gestoras e analistas, para montar estratégias;
+○
+Imprensa, como fonte confiável;
+○
+Reguladores, para entender tendências;
+Pilar da Informação
+
+<<<PÁGINA 9>>>
+→ A ANBIMA representa o mercado junto aos poderes públicos e entidades nacionais e internacionais:
+●
+Atua em frentes como:
+○
+Discussões regulatórias com BACEN, CVM, SUSEP;
+○
+Participação ativa em consultas públicas;
+○
+Propostas de melhoria em políticas públicas;
+○
+Interlocução com órgãos como IOSCO, OCDE, FMI e similares;
+●
+Também lidera debates sobre:
+○
+ESG;
+○
+Inovação e Fintechs;
+○
+Regulação prudencial;
+○
+Nova indústria de fundos (CVM 175);
+Pilar da Representação
+
+######## A3455 - Apimec, Planejar e Ancord (1).pdf
+<<<PÁGINA 1>>>
+Apimec, Planejar e Ancord
+
+<<<PÁGINA 2>>>
+Outras Autoreguladoras
+
+<<<PÁGINA 3>>>
+→ Fundada na década de 70 (Fusão das Abamec Regionais);
+●
+Associação de profissionais de investimento;
+→ Organiza encontros com empresas (roadshows), cursos e certificações;
+→ Certificação os Analistas de Investimento:
+●
+Requisito da Instrução CVM 20;
+→ A Estrutura é mantida por contribuições de associados e cursos;
+APIMEC
+
+<<<PÁGINA 4>>>
+→ Autorregulação:
+●
+Para os analistas de investimento;
+●
+Participa de debates regulatórios;
+→ Educação profissional:
+●
+Cursos;
+●
+Congressos;
+●
+Eventos;
+APIMEC: Objetivos e Funções
+
+<<<PÁGINA 5>>>
+→ Certificações:
+●
+CNPI Conteúdo Brasileiro;
+●
+CNPI  Técnico;
+●
+CNPI Conteúdo Global;
+Certiﬁcações da APIMEC
+Certificação
+Nome completo
+Tipo de análise autorizada
+Provas obrigatórias
+CNPI
+Analista Fundamentalista
+Análise fundamentalista
+CB + CNPI
+CNPI-T
+Analista Técnico
+Análise técnica (gráfica)
+CB + CNPI-T
+CNPI-P
+Analista Pleno (Completa)
+Ambas (fundamentalista e técnica)
+CB + CNPI + CNPI-T
+
+<<<PÁGINA 6>>>
+Planejar
+→ Fundada em 2000 com o nome de IBCPF (Instituto Brasileiro de Certificação de Profissionais 
+Financeiros);
+→ Objetivo: Trazer a certificação CFP® para o Brasil, alinhando o país ao padrão internacional do FPSB 
+(Financial Planning Standards Board);
+→ Atua como a única representante do FPSB no Brasil, com autonomia para aplicar, manter e promover 
+o uso do selo CFP®;
+
+<<<PÁGINA 7>>>
+→ Certificação CFP® (Certified Financial Planner):
+●
+Reconhecida globalmente, abrange seis áreas de conhecimento:
+○
+Planejamento financeiro;
+○
+Gestão de ativos;
+○
+Planejamento de aposentadoria;
+○
+Gestão de riscos e seguros;
+○
+Planejamento fiscal;
+○
+Planejamento sucessório;
+→ Prova CFP® no Brasil:
+●
+Prova aplicada 3x por ano;
+●
+Prova completa possui 140 questões;
+○
+Realizada de Forma Presencial com caderno de questões;
+Certiﬁcação CFP e Atuação da Planejar
+
+<<<PÁGINA 8>>>
+→ Criada em 1972, a ANCORD representa corretoras de valores, câmbio e mercadorias;
+●
+Com a evolução do mercado, tornou-se também certificadora e fiscalizadora dos agentes 
+autônomos de investimento (AAIs);
+●
+Atua por delegação da CVM conforme a Resolução CVM 179/2023, que exige a certificação 
+ANCORD como pré-requisito para o credenciamento de Agentes de Investimento;
+→ Funções principais:
+●
+Aplicar a prova de certificação para AAI;
+●
+Fazer a fiscalização indireta, através de auditorias periódicas nos escritórios vinculados
+●
+Promover eventos, cursos e atualizações voltadas a escritórios e profissionais credenciados;
+ANCORD
+
+<<<PÁGINA 9>>>
+→ Formato da Prova:
+●
+80 questões objetivas de múltipla escolha;
+●
+Duração de 2h30;
+●
+Aprovação com no mínimo 70% de acertos (56 questões);
+●
+Necessário acertar pelo menos 50% das questões nos módulos I, II, III, VIII e XV;
+→ Validade:
+●
+Após aprovação, a certificação tem validade de 1 ano;
+●
+Necessário renovação a cada 2 anos junto à CVM;
+Certiﬁcação da ANCORD
+
+<<<PÁGINA 10>>>
+→ CNPI – APIMEC:
+●
+Pré-requisitos:
+○
+Ensino superior completo;
+○
+Aprovação nos exames: CB + CG1 (fundamentalista) ou CB + CT1 (técnico);
+●
+Aplicação:
+○
+Provas aplicadas presencialmente ou online pela FGV;
+○
+Quantidade de questões: 60 questões por exame (CB, CG1 ou CT1);
+○
+Preço da prova (2024/2025): 
+■
+CB: R$790;
+■
+CG1 
+ou 
+CT1: 
+R$980;
+Remuneração média:
+●
+Remuneração Média:
+○
+R$7.583 a R$16.000/mês (Indeed);
+Comparativo entre as Certiﬁcações
+
+<<<PÁGINA 11>>>
+→ CFP® – Planejar:
+●
+Pré-requisitos:
+○
+Ensino superior completo;
+○
+5 anos de experiência comprovada na área financeira;
+○
+Curso preparatório de Planejamento Financeiro;
+○
+Aprovação no exame CFP®;
+●
+Aplicação:
+○
+Três edições por ano (abril, julho, outubro);
+○
+Presencial, em datas fixas;
+○
+Quantidade de questões: 140 questões (prova completa) ou 6 módulos independentes
+○
+Preço da prova (2025):
+■
+Prova completa: R$1.600;
+■
+Prova modular: R$615 por módulo;
+●
+Remuneração Média:
+○
+R$9.167 a R$20.000/mês (Planejar, Glassdoor);
+Comparativo entre as Certiﬁcações
+
+<<<PÁGINA 12>>>
+Comparativo entre as Certiﬁcações
+→  ANCORD (AAI) – Agente Autônomo de Investimentos:
+●
+Pré-requisitos:
+○
+Ensino médio completo;
+○
+Residir no Brasil;
+○
+Não possuir antecedentes criminais;
+●
+Aplicação:
+○
+Prova eletrônica via FGV, com agendamento aberto;
+○
+Quantidade de questões: 80 questões objetivas;
+○
+Mínimo de 70% de acertos (56 questões);
+○
+Preço da prova: R$460,00;
+●
+Remuneração média:
+○
+R$3.000 a R$7.000/mês
+○
+Comissões variáveis podem elevar a remuneração para mais de R$10.000 (Glassdoor, 
+Indeed);
+
+######## A3456 - FGC e FGCoop (2).pdf
+<<<PÁGINA 1>>>
+FGC e FGCoop
+
+<<<PÁGINA 2>>>
+FGC e FGCoop
+
+<<<PÁGINA 3>>>
+→ O FGC foi criado em 1.995 com a resolução 2.211/95 pelo CMN; 
+● Preocupação com a estabilidade do sistema financeiro; 
+● 2009 tivemos a introdução da DPGE com garantia de até 40 milhões; 
+● Maio de 2017 tivemos as regras atuais do FGC;
+O FGC - Fundo Garantidor de Créditos 
+
+<<<PÁGINA 4>>>
+→ Instituição privada, sem fins lucrativos mantido pelas instituições financeiras; 
+● Busca trazer competitividade as instituições financeiras de menor porte; 
+● Espécie de seguro contra o calote dos títulos cobertos; 
+● As instituições financeiras depositam entre 0,01% e 0,02% dos depósitos cobertos; 
+● De acordo com o CMN, o FGC deve ter um saldo de liquidez de 2,50% dos depósitos elegíveis;
+Funcionamento do FGC 
+
+<<<PÁGINA 5>>>
+→ FGC é mantido por bancos, portanto a garantia se aplica a títulos emitidos por essas  
+ DPGE, com garantia específica até 40 milhões de reais!
+Produtos Garantidos 
+
+<<<PÁGINA 6>>>
+→ O FGC garante até R$ 250.000,00 por CPF/CNPJ por instituição financeira; 
+● Aplica-se um limite de 1 milhão de reais a cada período de 4 anos.
+Valores Garantidos 
+
+<<<PÁGINA 7>>>
+→ Kleber tem R$ 200.000 depositados em uma conta poupança e R$ 150.000 em um CDB, ambos no 
+Banco Alfa. Além disso, ele possui R$ 250.000 em um fundo de investimento em renda fixa no Banco 
+Beta. Considerando que o limite de cobertura do FGC é de R$ 250.000 por CPF e por instituição, calcule 
+o valor total garantido pelo FGC para Kleber em caso de falência desses bancos
+Exemplo 1 
+
+<<<PÁGINA 8>>>
+→ Kleber tem um total de R$ 300.000 para investir e quer garantir a maior cobertura possível pelo FGC. 
+Ele está considerando duas opções:
+Opção A: Depositar todo o valor em um único CDB em seu banco atual. 
+Opção B: Dividir o valor igualmente entre um CDB no seu banco atual e outro CDB em um banco 
+diferente. 
+Considerando o limite de cobertura do FGC, analise qual opção oferece a maior segurança para Kleber e 
+explique por quê
+Exemplo 2
+
+<<<PÁGINA 9>>>
+→ Kleber e Patrícia são casados e possuem uma conta poupança conjunta no Banco X com um saldo 
+de R$ 400.000. Além disso, cada um tem uma conta poupança individual no banco Y, com Kleber tendo 
+R$ 150.000 e Patrícia R$ 100.000. Considerando que o limite de cobertura do FGC é de R$ 250.000 por 
+pessoa, por instituição financeira, calcule o valor total garantido pelo FGC para Kleber e Patrícia 
+individualmente e para a conta conjunta, em caso de falência do Banco X
+Exemplo 3
+
+<<<PÁGINA 10>>>
+→ O FGC foi criado em 2.014 para dar solidez e confiança ao Sistema de Crédito Cooperativo: 
+● Regulado pela resolução 4.150/12 do CMN; 
+● Preocupação com a estabilidade do sistema financeiro; 
+● Criado para igualar as condições de garantia dos bancos comerciais; 
+○ Contribuição mensal ordinária de 0,0125% dos saldos garantidos; 
+○ MESMAS garantias do FGC;
+O FGCoop - FGC das Cooperativas 
+
+######## A3457 - SPB - Sistema de Pagamentos Brasilerio (1).pdf
+<<<PÁGINA 1>>>
+SPB
+Sistema de Pagamentos Brasileiro
+
+<<<PÁGINA 2>>>
+Sistema de Pagamentos Brasileiro
+
+<<<PÁGINA 3>>>
+“O SPB é a infraestrutura do dinheiro em movimento.”
+→ O SPB é o conjunto de sistemas, regras e instituições que processa e líquida:
+●
+Transferências de fundos (PIX, TED, DOC);
+●
+Cheques;
+●
+Operações com moeda estrangeira;
+●
+Operações com ativos financeiros e valores mobiliários;
+→ O SPB é muito maior que o PIX — é a base de toda movimentação financeira no Brasil;
+ O que é o SPB 
+
+<<<PÁGINA 4>>>
+Objetivo do SPB
+→ O Objetivo do SPB é trazer segurança e estabilidade para o sistema financeiro;
+→ O SPB foi reformulado em 2002 para:
+●
+Reduzir riscos de calote entre instituições;
+●
+Evitar o risco sistêmico;
+●
+Garantir liquidação em tempo real (LBTR);
+●
+Proteger o sistema como um todo;
+
+<<<PÁGINA 5>>>
+→ Características da LBTR:
+●
+Irrevogável – não pode ser desfeita;
+●
+Incondicional – ocorre desde que haja saldo;
+●
+Reduz o risco de inadimplência entre as instituições;
+●
+Bruta e individual – cada transação é liquidada de forma individual;
+Liquidação Bruta em Tempo Real (LBTR)
+
+<<<PÁGINA 6>>>
+→O SPB se divide em dois segmentos:
+●
+Infraestruturas do Mercado Financeiro (IMF);
+●
+Arranjos de Pagamento;
+Segmentos do SPB
+Critério
+Infraestruturas do Mercado Financeiro
+Arranjos de Pagamento
+Definição
+Sistemas que compensam, liquidam ou registram transações entre 
+IF
+Regras e procedimentos que permitem pagamentos entre 
+usuários
+Participantes principais
+Instituições financeiras, câmaras de compensação, BACEN, B3
+Clientes, lojistas, emissores, adquirentes, bandeiras, IP
+Foco da operação
+Backoffice do sistema financeiro (entre instituições)
+Front-end das transações (entre pessoas, empresas e governo)
+Exemplos típicos
+SELIC, STR, COMPE, CIP (Sitraf/Siloc), B3
+PIX, cartão de crédito/débito, boleto, TED, carteiras digitais
+Objetivo
+Garantir segurança e solidez na compensação e liquidação 
+interbancária
+Garantir eficiência e interoperabilidade nas transações do dia a dia
+Público atendido
+Instituições do sistema financeiro
+Usuários finais: pessoas físicas e jurídicas
+
+<<<PÁGINA 7>>>
+→STR – Sistema de Transferência de Reservas:
+●
+Liquidação definitiva das transações;
+●
+Participação obrigatória de bancos comerciais, múltiplos com carteira comercial e Caixa;
+○
+Opera no Modelo LBTR;
+→SPI – Sistema de Pagamentos Instantâneos (PIX)
+●
+Líquida pagamentos instantâneos via Contas PIX;
+●
+Não admite saldo negativo;
+○
+Opera no Modelo LBTR;
+→SELIC – Sistema Especial de Liquidação e de Custódia:
+●
+Liquida operações com títulos públicos;
+●
+Funciona em tempo real;
+○
+Opera no Modelo LBTR;
+Sistemas Operados pelo BACEN
+
+######## ANBIMA.pdf
+<<<PÁGINA 1>>>
+ANBIMA
+
+O que é ANBIMA?
+Definição e Propósito
+A ANBIMA é a sigla para Associação 
+Brasileira das Entidades dos Mercados 
+Financeiro e de Capitais.
+É uma entidade privada, sem fins 
+lucrativos, fundada em 2009.
+Resulta da fusão entre a ANBID e a 
+ANDIMA.
+Representa mais de 300 instituições 
+financeiras.
+Fontes de Recursos
+Contribuição dos associados 
+(mensalidades).
+Taxas de adesão aos códigos.
+Receitas com aplicação dos próprios 
+recursos.
+Cursos, eventos e serviços especializados.
+Os associados da ANBIMA?
+Instituições Associadas
+Inclui bancos de varejo e atacado, como 
+Itaú e Bradesco.
+Também inclui corretoras e distribuidoras, 
+como XP e Rico.
+Gestoras de recursos, como Itaú Asset e 
+Verde Asset.
+Administradoras fiduciárias, consultorias e 
+family offices.
+Obrigações dos Associados
+Devem seguir os códigos que aderirem.
+Estão sujeitas à supervisão contínua.
+Anbima e a Hierarquia Jurídica
+Autorregulação
+A ANBIMA atua como Autorreguladora.
+Códigos e Práticas
+Cria Códigos de Regulação e Melhores 
+Práticas.
+Visa garantir ética, transparência e 
+qualidade nos serviços financeiros.
+Poder Normativo
+Exerce poder normativo sobre os 
+associados.
+As normas da Anbima são infralegais.
+Pilar da Auto Regulação
+Essência da ANBIMA
+A autorregulação é o coração da ANBIMA.
+Compromissos dos Associados
+Os Associados se comprometem a seguir 
+padrões mais rigorosos.
+São fiscalizados pela própria ANBIMA.
+Podem ser punidos com advertência, 
+censura pública, multas ou exclusão.
+Códigos e Ferramentas
+Códigos de Autorregulação e Melhores 
+Práticas.
+Ferramentas de supervisão, como canal de 
+denúncias.
+Pilar da Educação
+Foco da ANBIMA
+A ANBIMA acredita em um mercado ético 
+com profissionais qualificados e 
+investidores conscientes.
+Atua em duas frentes para atingir este 
+objetivo.
+Capacitação e Educação
+Capacitação profissional, como CPA e C-
+PRO.
+Educação continuada, como manutenção 
+da certificação.
+Selo ANBIMA como padrão de excelência 
+profissional.
+Materiais Educacionais
+Publica materiais de educação financeira 
+para o público investidor.
+Pilar da Informação
+Papel da ANBIMA
+A ANBIMA é referência nacional em dados 
+e indicadores de mercado.
+Principais Entregas
+Índices de renda fixa e indicadores de 
+fundos.
+Boletins estatísticos e relatórios de 
+conjuntura econômica.
+Utilização dos Dados
+Gestoras e analistas utilizam para montar 
+estratégias.
+Imprensa e reguladores utilizam para 
+entender tendências.
+Pilar da Representação
+Atuação da ANBIMA
+A ANBIMA representa o mercado junto aos 
+poderes públicos.
+Frentes de Atuação
+Atua em discussões regulatórias e 
+consultas públicas.
+Apresenta propostas de melhoria em 
+políticas públicas.
+Interlocução com órgãos como IOSCO e 
+OCDE.
+Liderança em Debates
+Lidera debates sobre ESG, inovação e 
+regulação.
+
+######## Administradoras de Consórcio.pdf
+<<<PÁGINA 1>>>
+Administradoras de 
+Consórcio
+
+Como Funciona um Consórcio?
+O que é um Consórcio?
+Consórcio é uma forma de compra 
+planejada, onde um grupo de pessoas se 
+une para adquirir um bem ou serviço.
+Os participantes contribuem com parcelas 
+mensais.
+Os participantes são contemplados por 
+sorteio ou lance.
+O consórcio é administrado por uma 
+administradora.
+Vantagens do Consórcio
+Não há juros, apenas taxa administrativa.
+Flexibilidade na escolha do bem ou serviço.
+Possibilidade de lance para antecipar a 
+contemplação.
+Planejamento financeiro para aquisição.
+Desvantagens do Consórcio
+Demora para a contemplação, 
+dependendo do sorteio ou lance.
+Taxa administrativa, que pode variar.
+Necessidade de disciplina financeira para 
+pagar as parcelas.
+Não há garantia de prazo para a 
+contemplação.
+As Administradoras de Consórcio
+O que são as Administradoras?
+Instituições financeiras não bancárias 
+reguladas pelo BACEN.
+Regidas pela Lei dos consórcios: 
+11.795/2008.
+Responsáveis pela organização e gestão 
+dos grupos de consórcio.
+Garantem a segurança e transparência do 
+processo.
+Tipos de Administradoras
+Instituições Independentes:
+Ex: Embracon.
+Ligadas a Bancos:
+Ex: Itaú Consórcios.
+Ligadas a Varejistas:
+Ex: Magalu.
+Funções das Administradoras
+Formar, organizar e gerir os grupos de 
+consórcio.
+Gerir os recursos arrecadados dos 
+participantes.
+Realizar as assembleias mensais.
+Entregar o crédito ao consorciado 
+contemplado.
+O Papel das Administradoras de 
+Consórcio
+Responsabilidades Principais
+Formar, organizar e gerir os grupos de 
+consórcio.
+Gerir os recursos arrecadados dos 
+participantes.
+Realizar as assembleias mensais.
+Entregar o crédito ao consorciado 
+contemplado.
+Outras Responsabilidades
+Cobrar as taxas administrativas previstas 
+em contrato.
+Manter a solidez, a transparência e 
+segurança do processo.
+Fiscalização pelo BACEN.
+Responsáveis por todo o processo do 
+consórcio.
+Importância da Transparência
+Divulgar relatórios financeiros e saldo do 
+grupo.
+Garantir a confiança dos consorciados.
+Cumprir as normas do BACEN.
+Informar sobre a situação do grupo.
+Operação de um Grupo de 
+Consórcio
+Formação do Grupo
+Agrupamento de pessoas com o mesmo 
+objetivo de aquisição.
+Ex: carros de R$ 200 mil.
+Definir o bem ou serviço a ser adquirido.
+Estabelecer o valor da carta de crédito.
+Gestão Financeira
+As contribuições mensais dos 
+participantes formam o “fundo comum”.
+O fundo é utilizado para as contemplações.
+A administradora gerencia o fundo.
+O fundo é aplicado com segurança.
+Assembleias e Contemplações
+Mensais, definem os contemplados por 
+sorteio e por lance.
+Sorteio: todos os participantes têm 
+chances iguais.
+Lance: o consorciado oferece um valor 
+para antecipar a contemplação.
+O contemplado usa o valor para adquirir o 
+bem/serviço desejado.
+Como a Administradora Ganha 
+Dinheiro
+Taxa de Administração
+Percentual cobrado sobre o valor da Carta: 
+15%.
+Este valor é diluído nas parcelas mensais.
+Remunera os serviços da administradora.
+Cobre os custos operacionais.
+Fundo de Reserva
+A administradora pode ficar com o fundo 
+de reserva:
+Não haja prejuízo no grupo.
+Sejam aplicados com segurança.
+Conste em contrato a destinação dos 
+rendimentos.
+Outras Fontes de Receita
+Multas e Encargos:
+Valores pagos para cobrir a inadimplência 
+e quebras contratuais.
+Rendimento das Aplicações:
+Remuneração do Float.
+Juros sobre aplicações financeiras.
+Receitas diversas.
+
+######## Apimec, Planejar e Ancord.pdf
+<<<PÁGINA 1>>>
+Apimec, Planejar e 
+Ancord
+
+Apimec: Uma Visão Geral
+Fundação e Propósito da Apimec
+Fundada na década de 70, após a fusão 
+das Abamec Regionais.
+É uma associação de profissionais de 
+investimento.
+Organiza eventos, cursos e certificações 
+para o setor.
+A estrutura é mantida por contribuições 
+de associados e cursos.
+Objetivos e Funções da Apimec
+Atua na autorregulação para analistas de 
+investimento.
+Participa de debates regulatórios.
+Oferece educação profissional através de 
+cursos, congressos e eventos.
+Certificações Oferecidas pela Apimec
+Oferece certificações como CNPI 
+Conteúdo Brasileiro, Técnico e Global.
+As certificações possuem diferentes tipos 
+de análise autorizada.
+As provas obrigatórias variam conforme a 
+certificação.
+Planejar: Certificação CFP e 
+Atuação
+Planejar: Fundação e Propósito
+Fundada em 2000 com o nome de IBCPF.
+Seu objetivo é trazer a certificação CFP® 
+para o Brasil.
+Atua como representante do FPSB no 
+Brasil.
+Certificação CFP®
+A certificação CFP® é reconhecida 
+globalmente.
+Abrange seis áreas de conhecimento em 
+planejamento financeiro.
+A prova CFP® é aplicada 3 vezes por ano 
+no Brasil.
+Prova CFP® no Brasil
+A prova completa possui 140 questões.
+É realizada de forma presencial com 
+caderno de questões.
+Ancord: Agente Autônomo de 
+Investimentos
+Ancord: Criação e Propósito
+Criada em 1972, representa corretoras de 
+valores.
+Tornou-se certificadora e fiscalizadora de 
+AAI.
+Atua por delegação da CVM.
+Funções Principais da Ancord
+Aplica a prova de certificação para AAI.
+Realiza fiscalização indireta em escritórios.
+Promove eventos e cursos para 
+profissionais.
+Certificação da Ancord
+A prova possui 80 questões de múltipla 
+escolha.
+A duração da prova é de 2h30.
+A aprovação exige 70% de acertos.
+A certificação tem validade de 1 ano.
+Comparativo entre as 
+Certificações
+CNPI – APIMEC
+Pré-requisitos incluem ensino superior 
+completo.
+Aplicação das provas é presencial ou 
+online pela FGV.
+Remuneração média varia entre R$7.583 a 
+R$16.000/mês.
+CFP® – Planejar
+Pré-requisitos incluem ensino superior e 
+experiência.
+Aplicação da prova é presencial, com três 
+edições anuais.
+Remuneração média varia entre R$9.167 a 
+R$20.000/mês.
+ANCORD (AAI) – Agente Autônomo de 
+Investimentos
+Pré-requisitos incluem ensino médio 
+completo.
+Aplicação da prova é eletrônica via FGV.
+Remuneração média varia entre R$3.000 
+a R$7.000/mês.
+
+######## B3 - Brasil Bolsa e Balcão.pdf
+<<<PÁGINA 1>>>
+B3 - Brasil Bolsa e 
+Balcão
+
+O que é Bolsa de Valores?
+Apresenta a Bolsa de Valores como a 
+principal infraestrutura do mercado de 
+capitais brasileiro.
+Infraestrutura do Mercado
+Principal infraestrutura do mercado de 
+capitais brasileiro.
+Papel no Mercado: Promover a Liquidez e 
+Eficiência.
+Oferecer plataformas de negociação 
+integradas.
+Resultado da Fusão entre BM&F, Bovespa e 
+Cetip.
+Papel no Mercado
+Promover a Liquidez e Eficiência.
+Garantir o registro, custódia, liquidação e 
+compensação de ativos.
+Oferecer plataformas de negociação 
+integradas.
+B3 = Brasil, Bolsa e Balcão.
+O que é Negociado na B3?
+Apresenta os ativos negociados na B3.
+Como a B3 Ganha Dinheiro
+Explica as fontes de receita da B3.
+Fontes de Receita
+Taxas de Negociação e Liquidação.
+Tarifas de Custódia.
+Receita de Licenciamento de Índices.
+Serviços de registro, empréstimo de ativos, 
+educação financeira e dados de mercado.
+Regulação e Supervisão
+Descreve os órgãos reguladores e suas 
+funções.
+Órgãos Reguladores
+BACEN: Supervisiona a parte de liquidação 
+de ativos financeiros.
+CVM: Regula as ofertas públicas, 
+informações aos investidores e combate o 
+uso de informação privilegiada.
+Anbima: Auto Regulação das ofertas e dos 
+intermediários.
+B3: Também atua como auto reguladora 
+via BSM na supervisão de mercados.
+A B3 é um Monopólio
+Explica o status de monopólio da B3.
+Características do Monopólio
+Reúne negociação, registro, compensação 
+e custódia.
+Não há outra bolsa operando no Brasil.
+Concorrência legal é possível, mas inviável 
+economicamente.
+É regulada por CVM, BACEN e ANBIMA.
+
+######## Corretora de Seguro.pdf
+<<<PÁGINA 1>>>
+Corretoras de Seguro
+
+O que são Corretoras de Seguro?
+Definição de Corretoras de Seguro
+Empresas intermediadoras entre 
+consumidores e seguradoras.
+Atuam na comercialização de seguros.
+Realizam análise de necessidades dos 
+clientes.
+Oferecem aconselhamento técnico.
+Base Legal das Corretoras
+Decreto-Lei nº 73/1966 (art. 122 a 124).
+Resolução CNSP nº 297/2013.
+Circular SUSEP nº 510/2015.
+Objetivos das Corretoras de 
+Seguro
+Objetivos Principais
+Atuar como ponte entre cliente e 
+seguradora.
+Promover acesso a seguros adequados.
+Garantir transparência nas condições.
+Auxiliar em sinistros e dúvidas.
+Outros Objetivos
+Contribuir para o crescimento do mercado.
+Funções das Corretoras de 
+Seguro
+Funções Essenciais
+Análise de perfil e necessidades do cliente.
+Apresentação comparativa de produtos.
+Intermediação da proposta de seguro.
+Acompanhamento de vigência e 
+renovação.
+Mais Funções
+Apoio em processos de sinistro.
+Atuação consultiva e educativa.
+Constituição das Corretoras de 
+Seguro
+Requisitos para Constituição
+Pessoa física ou jurídica autorizada pela 
+SUSEP.
+Possuir registro próprio e profissionais 
+habilitados.
+Ramos de Atuação
+Vida e Previdência.
+Capitalização.
+Demais Ramos.
+Remuneração
+Remunerada por comissão das 
+seguradoras.
+Regulação e Supervisão
+Supervisão da SUSEP
+Corretoras supervisionadas pela SUSEP.
+Necessário credenciamento (registro 
+obrigatório).
+Atuam sob normas do CNSP.
+Devem manter conduta ética e clareza.
+Legislação Aplicada
+Decreto-Lei 73/1966.
+Resolução CNSP nº 393/2020.
+Código de Defesa do Consumidor.
+Normas SUSEP (ex: Circular nº 510/2015).
+Comparativo do Subsistema de 
+Seguros
+Comparativo de Papéis
+Corretora: Intermediária entre cliente e 
+seguradora.
+Seguradora: Assume o risco e emite 
+apólices.
+Resseguradora: Assume parte do risco das 
+seguradoras.
+Outros Aspectos Comparados
+Cliente direto, Receita, Foco principal, 
+Relação com o risco, Intermediação.
+
+######## Corretoras e Distribuidoras de Valores Mobiliários_.pdf
+<<<PÁGINA 1>>>
+Corretoras e 
+Distribuidoras de 
+Valores Mobiliários 
+(CTVM e DTVM)
+
+O que são CTVM e DTVM
+Definição e Autorização
+Instituições integrantes do Sistema 
+Financeiro Nacional.
+Autorizadas a funcionar pelo BACEN.
+Supervisionadas pela CVM.
+Atuam como intermediárias nos mercados 
+financeiro e de capitais.
+Classificação das Instituições
+CTVM - Corretora de Títulos e Valores 
+Mobiliários.
+DTVM - Distribuidora de Títulos e Valores 
+Mobiliários.
+Atividades Permitidas
+Intermediação e Administração
+Intermediação na compra e venda de 
+ativos.
+Administração de carteira e custódia.
+Outras Atividades
+Emissão de relatórios de análise.
+Participação em IPOs e ofertas públicas.
+Distribuição de produtos de investimento.
+Operações compromissadas e registro de 
+ativos.
+Operações no mercado de câmbio.
+Como Ganham Dinheiro
+Fontes de Receita
+Taxas de corretagem.
+Spread entre compra e venda de ativos.
+Comissões por distribuição de produtos.
+Remuneração do Float.
+Outras taxas administrativas e operacionais.
+Regulação e Supervisão
+Órgãos Reguladores
+BACEN: Autoriza e supervisiona os 
+aspectos operacionais.
+CVM: Fiscaliza as práticas de mercado e 
+protege o investidor.
+ANBIMA: Auto regulação de práticas de 
+distribuição de produtos de investimento.
+Riscos e Conflito de Interesses
+Conflitos no Modelo de Negócios
+O modelo de negócios é naturalmente 
+conflitado.
+Venda casada de produtos.
+Indicação de produtos com maior 
+comissão, não necessariamente mais 
+adequado aos clientes.
+Cadeira de Remuneração do 
+Profissional
+Estrutura de Comissionamento
+Ilustração da estrutura de 
+comissionamento.
+Comparativo entre diferentes modelos de 
+remuneração.
+Quanto mais o cliente girar a carteira, 
+maior a remuneração.
+
+######## EAPC e EFPC - A3452.pdf
+<<<PÁGINA 1>>>
+Entidades Abertas e Fechadas de 
+Previdência Complementar
+
+<<<PÁGINA 2>>>
+Previdência Complementar
+
+<<<PÁGINA 3>>>
+Previdência Complementar
+→ Sistema que complementa a previdência oficial (INSS);
+→ Base legal:
+●
+Art. 202 da Constituição Federal;
+●
+Lei Complementar nº 109/2001;
+→ Possui dois regimes:
+●
+Aberto → EAPC;
+●
+Fechado → EFPC;
+
+<<<PÁGINA 4>>>
+Estrutura de Previdência Complementar
+Regime
+Entidade Gestora
+Público-alvo
+Regulação
+Aberto
+EAPC
+Qualquer pessoa física
+CNSP + SUSEP
+Fechado
+EFPC
+Empregados de uma empresa ou grupo
+CNPC + PREVIC
+
+<<<PÁGINA 5>>>
+O que são as EAPC?
+→ Entidades Abertas de Previdência Complementar:
+●
+Sociedades anônimas ou seguradoras autorizadas pela SUSEP;
+●
+Oferecem planos de previdência a qualquer pessoa (física ou jurídica);
+●
+Principais produtos: PGBL e VGBL;
+●
+Exemplo de empresas: Bradesco Vida e Previdência, Icatu, Brasilprev;
+
+<<<PÁGINA 6>>>
+Características das EAPC
+→ Características das Entidades Abertas de Previdência Complementar:
+●
+Acesso Universal: Qualquer pessoa pode contratar;
+●
+Objetivo: Complementar aposentadoria pública ou investir com benefício fiscal;
+●
+Natureza Jurídica: Empresa privada com fins lucrativos;
+●
+Regulação: SUSEP e CNSP (Decreto-Lei 73/1966);
+●
+Tributação: Regressiva ou progressiva, conforme escolha do cliente;
+
+<<<PÁGINA 7>>>
+Funções das EAPC
+→ Funções das Entidades Abertas de Previdência Complementar:
+●
+Administrar planos de previdência (PGBL/VGBL);
+●
+Arrecadar contribuições;
+●
+Gerir os recursos (fundos);
+●
+Pagar benefícios previdenciários;
+●
+Cumprir exigências de solvência e reservas técnicas;
+
+<<<PÁGINA 8>>>
+O que são as EFPC?
+→ Entidades Fechadas de Previdência Complementar:
+●
+Também chamadas de Fundos de Pensão;
+→ Sem fins lucrativos;
+●
+Ligadas a empresas, associações ou órgãos públicos;
+●
+Apenas empregados e patrocinadores participam;
+
+<<<PÁGINA 9>>>
+Característica das EFPC
+→ Características das Entidades Fechadas de Previdência Complementar:
+●
+Exclusividade: Apenas funcionários ou associados podem participar;
+●
+Natureza Jurídica: Fundos sem fins lucrativos;
+●
+Gestão Paritária: Participação de empregados e patrocinadores;
+●
+Regulação: PREVIC e CNPC (Lei Complementar 109/2001);
+●
+Modelos:
+○
+Benefício definido;
+○
+Contribuição definida;
+○
+Contribuição variável;
+
+<<<PÁGINA 10>>>
+→ Funções das Entidades Fechadas de Previdência Complementar:
+●
+Administrar planos de previdência para grupos restritos;
+●
+Receber contribuições do patrocinador e dos participantes;
+●
+Gerir recursos de longo prazo;
+●
+Pagar benefícios conforme as regras do plano;
+●
+Cumprir regras de governança e segurança dos ativos;
+Funções das EFPC
+
+<<<PÁGINA 11>>>
+Resumo do Klebão
+Característica
+EAPC (Aberto)
+EFPC (Fechado)
+Público
+Qualquer pessoa
+Funcionários ou associados
+Fins lucrativos
+Sim
+Não
+Regulação
+SUSEP e CNSP
+PREVIC e CNPC
+Planos
+VGBL, PGBL
+BD, CD, CV
+Tributação
+Escolha do contribuinte
+Depende do plano e da legislação
+
+######## EAPC e EFPC.pdf
+<<<PÁGINA 1>>>
+EAPC e EFPC
+
+Previdência Complementar: 
+Conceitos Iniciais
+Definição e Objetivo
+Sistema que complementa a previdência 
+oficial (INSS).
+Base legal: Art. 202 da Constituição Federal 
+e Lei Complementar nº 109/2001.
+Possui dois regimes: Aberto (EAPC) e 
+Fechado (EFPC).
+Complementa a aposentadoria pública.
+Estrutura da Previdência Complementar
+Regime: Aberto e Fechado.
+Entidade Gestora: EAPC e EFPC.
+Público-alvo: Qualquer pessoa física e 
+empregados de uma empresa ou grupo.
+Regulação: CNSP + SUSEP e CNPC + 
+PREVIC.
+Entidades Abertas de 
+Previdência Complementar 
+(EAPC)
+O que são as EAPC?
+Entidades Abertas de Previdência 
+Complementar.
+Sociedades anônimas ou seguradoras 
+autorizadas pela SUSEP.
+Oferecem planos de previdência a 
+qualquer pessoa (física ou jurídica).
+Principais produtos: PGBL e VGBL.
+Exemplos de empresas: Bradesco Vida e 
+Previdência, Icatu, Brasilprev.
+Características das EAPC
+Acesso Universal: Qualquer pessoa pode 
+contratar.
+Objetivo: Complementar aposentadoria 
+pública ou investir com benefício fiscal.
+Natureza Jurídica: Empresa privada com 
+fins lucrativos.
+Regulação: SUSEP e CNSP (Decreto-Lei 
+73/1966).
+Tributação: Regressiva ou progressiva, 
+conforme escolha do cliente.
+Funções das EAPC
+Administrar planos de previdência 
+(PGBL/VGBL).
+Arrecadar contribuições.
+Gerir os recursos (fundos).
+Pagar benefícios previdenciários.
+Cumprir exigências de solvência e reservas 
+técnicas.
+Entidades Fechadas de 
+Previdência Complementar 
+(EFPC)
+O que são as EFPC?
+Entidades Fechadas de Previdência 
+Complementar.
+Também chamadas de Fundos de Pensão.
+Sem fins lucrativos.
+Ligadas a empresas, associações ou órgãos 
+públicos.
+Apenas empregados e patrocinadores 
+participam.
+Características das EFPC
+Exclusividade: Apenas funcionários ou 
+associados podem participar.
+Natureza Jurídica: Fundos sem fins 
+lucrativos.
+Gestão Paritária: Participação de 
+empregados e patrocinadores.
+Regulação: PREVIC e CNPC (Lei 
+Complementar 109/2001).
+Modelos: Benefício definido, Contribuição 
+definida, Contribuição variável.
+Funções das EFPC
+Administrar planos de previdência para 
+grupos restritos.
+Receber contribuições do patrocinador e 
+dos participantes.
+Gerir recursos de longo prazo.
+Pagar benefícios conforme as regras do 
+plano.
+Cumprir regras de governança e segurança 
+dos ativos.
+Resumo Comparativo
+Comparativo EAPC e EFPC
+Público: Qualquer pessoa (EAPC) e 
+Funcionários ou associados (EFPC).
+Fins lucrativos: Sim (EAPC) e Não (EFPC).
+Regulação: SUSEP e CNSP (EAPC) e 
+PREVIC e CNPC (EFPC).
+Planos: VGBL, PGBL (EAPC) e BD, CD, CV 
+(EFPC).
+Tributação: Escolha do contribuinte (EAPC) 
+e Depende do plano e da legislação (EFPC).
+
+######## FGC e FGCoop.pdf
+<<<PÁGINA 1>>>
+FGC e FGCoop
+
+O FGC - Fundo Garantidor de 
+Créditos
+Criação e Objetivos do FGC
+O FGC foi criado em 1995 pela resolução 
+2.211/95 do CMN.
+O objetivo principal é garantir a 
+estabilidade do sistema financeiro.
+Em 2009, foi introduzida a DPGE com 
+garantia de até 40 milhões.
+As regras atuais do FGC foram 
+estabelecidas em maio de 2017.
+Funcionamento do FGC
+É uma instituição privada, sem fins 
+lucrativos, mantida por instituições 
+financeiras.
+Busca trazer competitividade para 
+instituições financeiras de menor porte.
+Funciona como um seguro contra o calote 
+dos títulos cobertos.
+As instituições financeiras depositam entre 
+0,01% e 0,02% dos depósitos cobertos.
+O FGC deve ter um saldo de liquidez de 
+2,50% dos depósitos elegíveis, conforme o 
+CMN.
+Produtos Garantidos pelo FGC
+A garantia se aplica a títulos emitidos por 
+bancos.
+Inclui depósitos à vista e de poupança.
+Abrange letras de câmbio, hipotecárias e 
+de crédito imobiliário.
+Também cobre letras de crédito do 
+agronegócio (LCA) e depósitos a prazo.
+Garante depósitos em contas não 
+movimentáveis e operações 
+compromissadas.
+DPGE, com garantia específica até 40 
+milhões de reais.
+Valores Garantidos pelo FGC
+O FGC garante até R$ 250.000,00 por 
+CPF/CNPJ por instituição financeira.
+Aplica-se um limite de 1 milhão de reais a 
+cada período de 4 anos.
+Exemplo 1
+Kleber tem R$ 200.000 em poupança e 
+R$ 150.000 em CDB no Banco Alfa.
+Ele também tem R$ 250.000 em um 
+fundo de investimento no Banco Beta.
+O limite de cobertura do FGC é de R$ 
+250.000 por CPF e por instituição.
+Calcular o valor total garantido pelo FGC 
+para Kleber.
+Exemplo 2
+Kleber tem R$ 300.000 para investir e 
+quer a maior cobertura possível pelo FGC.
+Opção A: Depositar tudo em um CDB no 
+banco atual.
+Opção B: Dividir o valor em CDBs em 
+bancos diferentes.
+Analisar qual opção oferece maior 
+segurança, considerando o limite do FGC.
+Exemplo 3
+Kleber e Patrícia são casados e têm conta 
+poupança conjunta no Banco X (R$ 
+400.000).
+Cada um tem conta individual no Banco Y 
+(Kleber R$ 150.000, Patrícia R$ 100.000).
+O limite de cobertura do FGC é de R$ 
+250.000 por pessoa, por instituição.
+Calcular o valor garantido para Kleber e 
+Patrícia individualmente e para a conta 
+conjunta.
+O FGCoop - FGC das Cooperativas
+Criação e Objetivos do FGCoop
+O FGCoop foi criado em 2014 para dar 
+solidez e confiança ao Sistema de Crédito 
+Cooperativo.
+Regulado pela resolução 4.150/12 do CMN.
+Visa a estabilidade do sistema financeiro.
+Criado para igualar as condições de 
+garantia dos bancos comerciais.
+Contribuição mensal ordinária de 0,0125% 
+dos saldos garantidos.
+Oferece as mesmas garantias do FGC.
+
+######## Financiamento e Leasing.pdf
+<<<PÁGINA 1>>>
+Financiamento e 
+Leasing
+
+Financeiras
+Definição de Financeiras
+Sociedades de Crédito, Financiamento e 
+Investimento.
+Instituições Financeiras autorizadas a 
+captar recursos próprios e conceder 
+crédito direto ao consumidor e as 
+empresas.
+Regidas pela Lei 4.595/64 do SFN.
+Devem ser autorizadas pelo BACEN.
+Natureza e Atuação das Financeiras
+Possuem natureza privada e atuam no SFN.
+Não possuem conta corrente e não 
+operam depósito à vista.
+Captação de Recursos das Financeiras
+Recursos Próprios.
+Captações no Mercado de Capitais através 
+de Debêntures.
+Repasses de Outras Instituições.
+Perfil de Atuação e Produtos das 
+Financeiras
+Perfil de Atuação
+Foco com clientes não bancarizados ou 
+com dificuldade de acesso a crédito.
+Atuam em operações padronizadas.
+Risco de Crédito mais elevado.
+Operações com Garantia Real
+Crédito de Veículos (Alienação Fiduciária).
+Operações sem Garantia Real
+Crédito de Eletrodomésticos.
+Crédito Consignado.
+Principais Linhas de Produtos
+Financiamento de Veículos
+Compra de Carros, Motos, Caminhões.
+CDC - Crédito Direto ao Consumidor
+Compra de Eletrodomésticos e Serviços.
+Crédito Consignado
+Empréstimos com Garantia em Folha 
+como INSS e Prefeituras.
+Cartões de Crédito Próprios
+Private Label: Só pode ser usado nas lojas 
+da Rede.
+Co-Branded: Usado em qualquer lugar, 
+com benefícios na loja.
+Gerido pela Financeira.
+Sociedades de Arrendamento 
+Mercantil (SAM)
+Definição e Características
+Instituições Financeiras Especializadas em 
+Operações de Leasing.
+Devem ser constituídas como sociedades 
+anônimas autorizadas pelo BACEN.
+Atuam exclusivamente com operações de 
+Arrendamento Mercantil.
+Não captam depósito à vista nem 
+possuem conta corrente.
+Captação de Recursos das SAM
+Recursos Próprios.
+Captação no mercado de capitais via 
+debêntures.
+Repasses de instituições financeiras.
+Perfil de Atuação das SAM
+Empresas e pessoas que desejam a 
+utilização de um bem sem a compra 
+imediata.
+Operações com bens de alto valor.
+Alternativa ao financiamento e pode ter 
+vantagens fiscais no leasing operacional 
+para empresas de lucro real.
+Tipos de Leasing
+Leasing Financeiro
+Espécie de Aluguel com compra no final.
+O bem permanece com o arrendador 
+(propriedade) até o fim do contrato.
+Despesas do bem são responsabilidade do 
+arrendatário (quem usa o bem).
+Leasing Operacional
+Propriedade do bem é do arrendador sem 
+intenção de compra ao final.
+Despesas geralmente são do arrendador.
+Vantagem fiscal para empresas de lucro 
+real porque todo o gasto é considerado 
+despesa.
+Comparação de Financiamento 
+e Leasing
+Aspectos Comparativos
+Aquisição do bem.
+Propriedade.
+Garantia.
+Dedução fiscal (Lucro Real).
+Despesas com o bem.
+Intenção de compra.
+
+######## Fomento e MicroCrédito.pdf
+<<<PÁGINA 1>>>
+Fomento e 
+Microcrédito
+
+Agências de Fomento
+Definição e Natureza
+Instituições Financeiras Públicas não 
+bancárias.
+Criadas por estados e governo federal para 
+desenvolvimento regional.
+Autorizadas e supervisionadas pelo BACEN.
+Não captam depósitos à vista ou emitem 
+moeda.
+Captação de Recursos
+Recursos orçamentários do governo.
+Fundos Constitucionais e Regionais: FCO, 
+FNE, FNO, e outros.
+Repasses de instituições como BNDES e 
+Caixa.
+Captação no mercado financeiro com aval 
+público.
+Perfil de Atuação
+Apoio ao desenvolvimento de micro, 
+pequenas e médias empresas.
+Incentivo a setores estratégicos como 
+infraestrutura e inovação.
+Parcerias com cooperativas de crédito e 
+órgãos governamentais.
+Produtos das Agências de 
+Fomento
+Tipos de Crédito
+Crédito de longo prazo com juros 
+subsidiados.
+Financiamento para investimento fixo: 
+máquinas, equipamentos e obras.
+Programas de fomento à inovação e 
+sustentabilidade.
+Apoio ao Desenvolvimento Regional
+Apoio a projetos de turismo.
+Apoio a projetos de agricultura familiar.
+SCEMPP
+Definição e Características
+Sociedades de Crédito a 
+Microempreendedores e Empresas de 
+Pequeno Porte.
+Instituições financeiras autorizadas pelo 
+BACEN.
+Foco exclusivo em microcrédito produtivo 
+orientado.
+Regras simplificadas, mas com supervisão 
+do BACEN.
+Proibidas de captar depósito à vista.
+Captação de Recursos
+Capital próprio dos sócios.
+Recursos de fundos públicos de 
+microcrédito.
+Empréstimos com bancos de fomento e 
+cooperativas.
+Parcerias com fintechs e investidores 
+sociais.
+Perfil de Atuação
+Atendem Microempreendedores 
+Individuais (MEI), trabalhadores informais e 
+pequenas empresas.
+Foco na oferta de crédito para geração de 
+renda e inclusão financeira.
+Atuação regional, geralmente em 
+comunidades desassistidas.
+Principais Linhas de Crédito
+MPO: Microcrédito Produtivo Orientado 
+(crédito de pequeno valor e 
+acompanhamento).
+Crédito para capital de giro: compra de 
+insumos e equipamentos leves.
+Apoio à formalização: financiamento para 
+legalização de pequenos negócios.
+Comparação Agência de 
+Fomento x SCEMPP
+Natureza e Tipo de Crédito
+Agência de Fomento: Instituição Pública 
+Estadual, crédito de longo prazo.
+SCEMPP: Instituição Privada, microcrédito.
+Fontes de Recursos e Alvo
+Agência de Fomento: BNDES e Fundos 
+Constitucionais, inovação, infraestrutura, 
+MPES.
+SCEMPP: Fundos constitucionais e 
+parcerias públicas, MEIs, informais e 
+microempresas.
+Operação e Alcance Público
+Agência de Fomento: Projetos maiores e 
+estruturantes, não atende ao grande 
+público.
+SCEMPP: Pequenos créditos comunitários, 
+atua na comunidade.
+
+######## Outras Instituições de Crédito Imobiliário.pdf
+<<<PÁGINA 1>>>
+Outras Instituições 
+de Crédito 
+Imobiliário
+
+Associações de Poupança e 
+Empréstimo (APE)
+Definição e Natureza
+Instituições Financeiras sob a forma de 
+associação civil.
+Foco em habitação social e crédito de 
+interesse social.
+Regulação pelo BACEN e atuação no 
+âmbito do SBPE.
+Podem ser abertas ao público ou 
+vinculadas a categorias específicas.
+Tipos de APE
+APEFESP: Associação de Poupança e 
+Empréstimo dos Funcionários Públicos do 
+Estado de São Paulo.
+Tipo: Fechada, para funcionários públicos 
+do estado de SP e familiares.
+POUPEX: Associação de Poupança e 
+Empréstimo do Exército.
+Tipo: Aberta, não exige vínculo militar ou 
+funcional.
+Captação de Recursos das APEs
+Cadernetas de poupança dos próprios 
+associados.
+Recursos do SBPE.
+Eventuais repasses de programas 
+habitacionais públicos.
+Companhias Hipotecárias (CH)
+Definição e Características
+Instituições Financeiras Privadas 
+autorizadas a funcionar pelo BACEN.
+Criadas na Lei 9.514/97.
+Foco em crédito imobiliário fora do SPBE, 
+operando no SFI.
+Maior flexibilidade regulatória e comercial.
+Captação de Recursos em uma CH
+Debêntures e Letras Hipotecárias.
+Operações estruturadas como 
+securitização de recebíveis.
+Recursos próprios ou de investidores 
+institucionais.
+Perfil de Atuação das CH
+Pessoas Físicas e Jurídicas incluindo 
+holdings e investidores.
+Atuação em Imóveis de médio e alto 
+padrão.
+Flexibilidade para atender nichos não 
+absorvidos por bancos tradicionais.
+Sociedades de Crédito 
+Imobiliário (SCI)
+Definição e Regulamentação
+Instituições Financeiras Especializadas em 
+crédito imobiliário.
+Criadas pela lei 4.380/64 e reguladas pelo 
+BACEN.
+Integram o SBPE e são supervisionadas 
+pelo CMN.
+Atuam com foco no financiamento 
+residencial de médio e alto padrão.
+Captação de Recursos em uma SCI
+Caderneta de Poupança (SBPE).
+Letras Imobiliárias e Letras de Crédito 
+Imobiliário.
+Recursos do FGTS.
+Perfil de Atuação das SCI
+Pessoas físicas de diversas faixas de renda.
+Atua de Forma nacional ou regional.
+Podem conceder crédito para pequenas e 
+médias construtoras.
+
+######## Principais Instituições Financeiras - Bancos (1).pdf
+<<<PÁGINA 1>>>
+Principais 
+Instituições 
+Financeiras - Bancos
+
+Bancos Comerciais
+Definição e Estrutura
+São instituições financeiras públicas ou 
+privadas.
+Sempre constituídas sob a forma de 
+Sociedade Anônima.
+Oferecem suprimentos de recursos para 
+financiar comércio, indústria e serviços.
+Atuam a curto e médio prazos.
+Principais Operadores
+Bradesco, Itaú, Santander, Banco do Brasil 
+são exemplos.
+Serviços Oferecidos
+Captação de recursos: depósitos à vista e a 
+prazo.
+Concessão de crédito: empréstimos 
+pessoais, crédito consignado.
+Serviços de pagamento: transferências, 
+emissão de cheques.
+Investimentos e poupança: aplicações, 
+fundos, previdência.
+Bancos de Investimentos
+Objetivo e Foco
+Oferecem recursos para financiar 
+empresas de grande porte e investidores 
+institucionais.
+Especializados em grandes negócios.
+Não podem fornecer talão de cheques ou 
+depósito à vista.
+Estrutura Legal
+Devem ser constituídos como sociedade 
+anônima.
+Devem usar a expressão "Banco de 
+Investimento" na denominação social.
+Principais Players
+BTG Pactual, Credit Suisse, XP 
+Investimentos, Itaú BBA.
+Bancos Múltiplos
+Definição e Característica
+Podem operar múltiplas carteiras.
+É obrigatório ter no mínimo duas carteiras.
+Uma das carteiras deve ser comercial ou 
+de investimento.
+Vantagens dos Bancos Múltiplos
+Competitividade.
+Sinergia de carteira.
+Alocação de capital.
+Acesso ao mercado.
+Comparativo: Banco Comercial x 
+Banco de Investimento
+Público-alvo
+Bancos Comerciais: Pessoas físicas e 
+empresas.
+Bancos de Investimento: Empresas e 
+investidores institucionais.
+Tipo de Operação
+Bancos Comerciais: Curto e médio prazo.
+Bancos de Investimento: Médio e longo 
+prazo.
+Captação de Recursos
+Bancos Comerciais: Depósitos (CDB, 
+poupança, conta corrente).
+Bancos de Investimento: Emissão de 
+títulos (ações, debêntures, CRI).
+Exemplos
+Bancos Comerciais: Itaú, Bradesco, Banco 
+do Brasil.
+Bancos de Investimento: BTG Pactual, 
+Credit Suisse, XP Investimentos.
+
+######## Principais Instituições Financeiras - Bancos - A3441 (1).pdf
+<<<PÁGINA 1>>>
+Principais Instituições Financeiras
+
+<<<PÁGINA 2>>>
+Sobre Esse Capítulo
+→ Operadores e Participantes do Sistema:
+●
+Bancos e Caixas Econômicas;
+●
+Cooperativas de Crédito e Banco Cooperativo;
+●
+Instituições de Pagamento;
+●
+Administradoras de Consórcio;
+●
+Corretoras e Distribuidoras;
+●
+Fintechs;
+●
+Sociedades de Crédito, Financiamento e Investimento;
+●
+Companhias Hipotecárias;
+●
+Agências de Fomento;
+●
+Sociedades de Crédito a Pessoa Microempreendedora e à empresa de Pequeno Porte;
+●
+Associação de Poupança e Empréstimo;
+●
+Sociedade de Arrendamento Mercantil;
+●
+Sociedade de Crédito Imobiliário;
+●
+B3 - Brasil Bolsa e Balcão;
+●
+Seguradoras e Resseguradoras;
+●
+Entidades Abertas de Previdência Complementar;
+●
+Sociedades de Capitalização;
+●
+Entidades Fechadas de Previdência Complementar (Fundos de Pensão);
+●
+Corretoras de Seguro;
+
+<<<PÁGINA 3>>>
+Principais Instituições Financeiras
+
+<<<PÁGINA 4>>>
+→ São instituições ﬁnanceiras públicas ou privadas; 
+→ Sempre constituídas sob a forma de Sociedade Anônima;
+→ Tem como objetivo principal oferecer suprimentos de recursos necessários para ﬁnanciar, a 
+curto e a médio prazos, o comércio, a indústria, as empresas prestadoras de serviços, às 
+pessoas físicas e terceiros em geral; 
+→ Gigantes do Mercado Financeiro:
+●
+Bradesco, Itaú, Santander, Banco do Brasil…
+Bancos Comerciais 
+
+<<<PÁGINA 5>>>
+●
+Captação de Recursos:
+○
+Depósitos à vista (conta corrente);
+○
+Depósitos a prazo (CDBs e RDBs)
+●
+Concessão de Crédito:
+○
+Empréstimos pessoais;
+○
+Crédito consignado;
+○
+Cheque especial;
+○
+Financiamento de veículos e bens;
+○
+Capital de giro para empresas
+●
+Serviços de Pagamento:
+○
+Transferências (PIX, TED, DOC);
+○
+Emissão e compensação de 
+cheques;
+○
+Pagamento de contas, boletos e 
+tributos;
+○
+Débito automático;
+Bancos Comerciais 
+●
+Recebíveis:
+○
+Maquininhas de cartão;
+○
+Cobrança bancária para empresas;
+○
+Convênios de folha de pagamento;
+●
+Serviços com Cartões:
+○
+Cartões de débito e crédito;
+○
+Cartões pré-pagos;
+○
+Programas de benefícios (pontos);
+●
+Investimentos e Poupança:
+○
+Aplicações em CDB, LCI, LCA;
+○
+Fundos de investimento
+○
+Previdência privada
+○
+Abertura de conta poupança
+●
+Câmbio e Comércio Exterior:
+○
+Compra e venda de moeda estrangeira
+●
+Serviços Diversos:
+○
+Cofre bancário;
+○
+Seguros;
+→ Principais serviços prestados por Bancos Comerciais:
+
+<<<PÁGINA 6>>>
+→ Tem como objetivo principal oferecer suprimentos de recursos necessários para ﬁnanciar, a 
+médio e a longo prazos empresas de grande porte e investidores institucionais. São 
+especializados em grandes negócios;
+→ Não pode fornecer talão de cheques e nem depósito à vista;
+→ Devem ser constituídos sob a forma de sociedade anônima e adotar, obrigatoriamente, em 
+sua denominação social, a expressão "Banco de Investimento"; 
+→ Maiores players de Bancos de Investimento:
+●
+BTG Pactual, Credit Suisse, XP Investimentos, Itau BBA;
+Bancos de Investimentos 
+
+<<<PÁGINA 7>>>
+●
+Estruturação de Operações:
+○
+Emissão e Distribuição de VM;
+○
+Ações (IPO, follow-on);
+○
+Debêntures, CRIs, CRAs;
+●
+Assessoria em Fusões, Aquisições e 
+Reestruturações (M&A):
+○
+Valuation;
+○
+Negociação e estruturação de operações 
+societárias;
+○
+Due diligence e modelagem ﬁnanceira;
+●
+Gestão de Recursos e Participações:
+○
+Administração de carteiras próprias e de 
+terceiros;
+○
+Atuação como holding ﬁnanceira;
+○
+Private equity e venture capital;
+●
+Operações de Crédito de Longo Prazo:
+○
+Financiamento para grandes projetos;
+○
+Empréstimos estruturados para expansão 
+empresarial;
+Bancos de Investimento 
+→ Principais serviços prestados por Bancos de Investimento:
+●
+Consultoria Financeira Estratégica 
+Planejamento ﬁnanceiro empresarial:
+○
+Reestruturação de dívidas;
+○
+Preparação para abertura de capital;
+●
+Serviços de Custódia e Administração 
+Fiduciária:
+○
+Custódia de títulos e ativos;
+○
+Administração de fundos exclusivos e 
+fundos estruturados;
+●
+Serviços de Tesouraria:
+○
+Operações com derivativos para hedge 
+corporativo;
+○
+Gestão de liquidez de grandes empresas e 
+investidores institucionais;
+●
+Market Maker:
+○
+Promoção de liquidez de ativos 
+negociados em bolsa;
+
+<<<PÁGINA 8>>>
+Banco Comercial x Banco de Investimento 
+
+<<<PÁGINA 9>>>
+Bancos Múltiplos 
+→ Tem como objetivo principal ser um banco que pode operar múltiplas carteiras;
+→ É obrigatório ter no mínimo duas carteiras e uma dessa, precisa ser comercial ou de 
+investimento;
+
+<<<PÁGINA 10>>>
+Banco Comercial x Banco de Investimento 
+Critério
+🏦 Banco Comercial
+💼 Banco de Investimento
+Para quem?
+Pessoas físicas e empresas
+Empresas e investidores institucionais
+Atuação Principal
+Produtos do dia a dia (conta, crédito, etc.)
+Operações no mercado de capitais
+Tipo de operação
+Curto e médio prazo
+Médio e longo prazo
+Como capta?
+Depósitos (CDB, poupança, conta corrente)
+Emissão de títulos (ações, debêntures, CRI...)
+O que oferece?
+Empréstimos, cartões, financiamentos
+IPOs, M&As, private equity, reestruturações
+Exemplos
+Itaú, Bradesco, Banco do Brasil
+BTG Pactual, Credit Suisse, XP Investimentos
+
+######## Principais Instituições Financeiras - Bancos - A3441.pdf
+<<<PÁGINA 1>>>
+Principais Instituições Financeiras
+
+<<<PÁGINA 2>>>
+Sobre Esse Capítulo
+→ Operadores e Participantes do Sistema:
+●
+Bancos e Caixas Econômicas;
+●
+Cooperativas de Crédito e Banco Cooperativo;
+●
+Instituições de Pagamento;
+●
+Administradoras de Consórcio;
+●
+Corretoras e Distribuidoras;
+●
+Fintechs;
+●
+Sociedades de Crédito, Financiamento e Investimento;
+●
+Companhias Hipotecárias;
+●
+Agências de Fomento;
+●
+Sociedades de Crédito a Pessoa Microempreendedora e à empresa de Pequeno Porte;
+●
+Associação de Poupança e Empréstimo;
+●
+Sociedade de Arrendamento Mercantil;
+●
+Sociedade de Crédito Imobiliário;
+●
+B3 - Brasil Bolsa e Balcão;
+●
+Seguradoras e Resseguradoras;
+●
+Entidades Abertas de Previdência Complementar;
+●
+Sociedades de Capitalização;
+●
+Entidades Fechadas de Previdência Complementar (Fundos de Pensão);
+●
+Corretoras de Seguro;
+
+<<<PÁGINA 3>>>
+Principais Instituições Financeiras
+
+<<<PÁGINA 4>>>
+→ São instituições ﬁnanceiras públicas ou privadas; 
+→ Sempre constituídas sob a forma de Sociedade Anônima;
+→ Tem como objetivo principal oferecer suprimentos de recursos necessários para ﬁnanciar, a 
+curto e a médio prazos, o comércio, a indústria, as empresas prestadoras de serviços, às 
+pessoas físicas e terceiros em geral; 
+→ Gigantes do Mercado Financeiro:
+●
+Bradesco, Itaú, Santander, Banco do Brasil…
+Bancos Comerciais 
+
+<<<PÁGINA 5>>>
+●
+Captação de Recursos:
+○
+Depósitos à vista (conta corrente);
+○
+Depósitos a prazo (CDBs e RDBs)
+●
+Concessão de Crédito:
+○
+Empréstimos pessoais;
+○
+Crédito consignado;
+○
+Cheque especial;
+○
+Financiamento de veículos e bens;
+○
+Capital de giro para empresas
+●
+Serviços de Pagamento:
+○
+Transferências (PIX, TED, DOC);
+○
+Emissão e compensação de 
+cheques;
+○
+Pagamento de contas, boletos e 
+tributos;
+○
+Débito automático;
+Bancos Comerciais 
+●
+Recebíveis:
+○
+Maquininhas de cartão;
+○
+Cobrança bancária para empresas;
+○
+Convênios de folha de pagamento;
+●
+Serviços com Cartões:
+○
+Cartões de débito e crédito;
+○
+Cartões pré-pagos;
+○
+Programas de benefícios (pontos);
+●
+Investimentos e Poupança:
+○
+Aplicações em CDB, LCI, LCA;
+○
+Fundos de investimento
+○
+Previdência privada
+○
+Abertura de conta poupança
+●
+Câmbio e Comércio Exterior:
+○
+Compra e venda de moeda estrangeira
+●
+Serviços Diversos:
+○
+Cofre bancário;
+○
+Seguros;
+→ Principais serviços prestados por Bancos Comerciais:
+
+<<<PÁGINA 6>>>
+→ Tem como objetivo principal oferecer suprimentos de recursos necessários para ﬁnanciar, a 
+médio e a longo prazos empresas de grande porte e investidores institucionais. São 
+especializados em grandes negócios;
+→ Não pode fornecer talão de cheques e nem depósito à vista;
+→ Devem ser constituídos sob a forma de sociedade anônima e adotar, obrigatoriamente, em 
+sua denominação social, a expressão "Banco de Investimento"; 
+→ Maiores players de Bancos de Investimento:
+●
+BTG Pactual, Credit Suisse, XP Investimentos, Itau BBA;
+Bancos de Investimentos 
+
+<<<PÁGINA 7>>>
+●
+Estruturação de Operações:
+○
+Emissão e Distribuição de VM;
+○
+Ações (IPO, follow-on);
+○
+Debêntures, CRIs, CRAs;
+●
+Assessoria em Fusões, Aquisições e 
+Reestruturações (M&A):
+○
+Valuation;
+○
+Negociação e estruturação de operações 
+societárias;
+○
+Due diligence e modelagem ﬁnanceira;
+●
+Gestão de Recursos e Participações:
+○
+Administração de carteiras próprias e de 
+terceiros;
+○
+Atuação como holding ﬁnanceira;
+○
+Private equity e venture capital;
+●
+Operações de Crédito de Longo Prazo:
+○
+Financiamento para grandes projetos;
+○
+Empréstimos estruturados para expansão 
+empresarial;
+Bancos de Investimento 
+→ Principais serviços prestados por Bancos de Investimento:
+●
+Consultoria Financeira Estratégica 
+Planejamento ﬁnanceiro empresarial:
+○
+Reestruturação de dívidas;
+○
+Preparação para abertura de capital;
+●
+Serviços de Custódia e Administração 
+Fiduciária:
+○
+Custódia de títulos e ativos;
+○
+Administração de fundos exclusivos e 
+fundos estruturados;
+●
+Serviços de Tesouraria:
+○
+Operações com derivativos para hedge 
+corporativo;
+○
+Gestão de liquidez de grandes empresas e 
+investidores institucionais;
+●
+Market Maker:
+○
+Promoção de liquidez de ativos 
+negociados em bolsa;
+
+<<<PÁGINA 8>>>
+Banco Comercial x Banco de Investimento 
+
+<<<PÁGINA 9>>>
+Bancos Múltiplos 
+→ Tem como objetivo principal ser um banco que pode operar múltiplas carteiras;
+→ É obrigatório ter no mínimo duas carteiras e uma dessa, precisa ser comercial ou de 
+investimento;
+
+<<<PÁGINA 10>>>
+Banco Comercial x Banco de Investimento 
+Critério
+🏦 Banco Comercial
+💼 Banco de Investimento
+Para quem?
+Pessoas físicas e empresas
+Empresas e investidores institucionais
+Atuação Principal
+Produtos do dia a dia (conta, crédito, etc.)
+Operações no mercado de capitais
+Tipo de operação
+Curto e médio prazo
+Médio e longo prazo
+Como capta?
+Depósitos (CDB, poupança, conta corrente)
+Emissão de títulos (ações, debêntures, CRI...)
+O que oferece?
+Empréstimos, cartões, financiamentos
+IPOs, M&As, private equity, reestruturações
+Exemplos
+Itaú, Bradesco, Banco do Brasil
+BTG Pactual, Credit Suisse, XP Investimentos
+
+######## Principais Instituições Financeiras - Bancos.pdf
+<<<PÁGINA 1>>>
+Principais 
+Instituições 
+Financeiras - Bancos
+
+Bancos Comerciais
+Definição e Estrutura
+São instituições financeiras públicas ou 
+privadas.
+Sempre constituídas sob a forma de 
+Sociedade Anônima.
+Oferecem suprimentos de recursos para 
+financiar comércio, indústria e serviços.
+Atuam a curto e médio prazos.
+Principais Operadores
+Bradesco, Itaú, Santander, Banco do Brasil 
+são exemplos.
+Serviços Oferecidos
+Captação de recursos: depósitos à vista e a 
+prazo.
+Concessão de crédito: empréstimos 
+pessoais, crédito consignado.
+Serviços de pagamento: transferências, 
+emissão de cheques.
+Investimentos e poupança: aplicações, 
+fundos, previdência.
+Bancos de Investimentos
+Objetivo e Foco
+Oferecem recursos para financiar 
+empresas de grande porte e investidores 
+institucionais.
+Especializados em grandes negócios.
+Não podem fornecer talão de cheques ou 
+depósito à vista.
+Estrutura Legal
+Devem ser constituídos como sociedade 
+anônima.
+Devem usar a expressão "Banco de 
+Investimento" na denominação social.
+Principais Players
+BTG Pactual, Credit Suisse, XP 
+Investimentos, Itaú BBA.
+Bancos Múltiplos
+Definição e Característica
+Podem operar múltiplas carteiras.
+É obrigatório ter no mínimo duas carteiras.
+Uma das carteiras deve ser comercial ou 
+de investimento.
+Vantagens dos Bancos Múltiplos
+Competitividade.
+Sinergia de carteira.
+Alocação de capital.
+Acesso ao mercado.
+Comparativo: Banco Comercial x 
+Banco de Investimento
+Público-alvo
+Bancos Comerciais: Pessoas físicas e 
+empresas.
+Bancos de Investimento: Empresas e 
+investidores institucionais.
+Tipo de Operação
+Bancos Comerciais: Curto e médio prazo.
+Bancos de Investimento: Médio e longo 
+prazo.
+Captação de Recursos
+Bancos Comerciais: Depósitos (CDB, 
+poupança, conta corrente).
+Bancos de Investimento: Emissão de 
+títulos (ações, debêntures, CRI).
+Exemplos
+Bancos Comerciais: Itaú, Bradesco, Banco 
+do Brasil.
+Bancos de Investimento: BTG Pactual, 
+Credit Suisse, XP Investimentos.
+
+######## Seguradoras e Resseguradoras - A3450.pdf
+<<<PÁGINA 1>>>
+Seguradoras e Resseguradoras
+
+<<<PÁGINA 2>>>
+Regulação e Auto Regulação
+
+<<<PÁGINA 3>>>
+Exemplo Prático de um Seguro
+
+<<<PÁGINA 4>>>
+Base do Seguro
+Seguro é uma das coisas mais incríveis criadas pela humanidade.
+Segue o princípio do mutualismo:
+●
+Coletividade:
+○
+Várias pessoas expostas a riscos semelhantes contribuem para um mesmo fundo;
+●
+Previsibilidade:
+○
+Baseado em estatísticas e frequência histórica de sinistros;
+●
+Solidariedade Técnica:
+○
+Quem não sofre sinistro ajuda a cobrir quem sofre, de forma previsível;
+●
+Equidade Atuarial:
+○
+Cada um paga conforme seu risco individual;
+■
+Perfil de Risco;
+
+<<<PÁGINA 5>>>
+O que é um seguro?
+Art. 757 do Código Civil:
+“Pelo contrato de seguro, o segurador se obriga, mediante o pagamento do prêmio, a garantir 
+interesse legítimo do segurado, relativo a pessoa ou a coisa, contra riscos predeterminados.”
+→ Conceito técnico:
+●
+Seguro é um contrato de transferência de risco;
+●
+O segurado paga um prêmio para que a seguradora assuma o risco;
+●
+Se o evento ocorrer (sinistro), a seguradora indenizará conforme previsto na apólice;
+→ Funcionamento básico:
+●
+O segurado contrata o seguro e paga o prêmio;
+●
+O risco é assumido pela seguradora (que monta um fundo coletivo);
+●
+Caso o sinistro ocorra, a seguradora paga a indenização;
+●
+Se o sinistro não ocorrer, o prêmio não é devolvido — é o custo da proteção;
+
+<<<PÁGINA 6>>>
+Elementos do Contrato de Seguro
+→ Elementos do Contrato de Seguro:
+●
+Segurado: quem contrata o seguro;
+●
+Seguradora: quem assume o risco;
+●
+Prêmio: valor pago pelo segurado;
+●
+Sinistro: ocorrência do risco coberto;
+●
+Indenização: valor pago ao segurado;
+●
+Apólice: contrato formal do seguro;
+
+<<<PÁGINA 7>>>
+As Seguradoras
+“As seguradoras são empresas especializadas e autorizadas pela SUSEP a operar produtos de 
+seguros assumindo riscos financeiros mediante pagamento de prêmio dos segurados.”
+→ Principais funções:
+●
+Analisar riscos e definir coberturas (subscrição);
+●
+Arrecadar prêmios;
+●
+Constituir reservas técnicas;
+●
+Indenizar sinistros;
+●
+Gerir os recursos do fundo mutualista com rentabilidade e liquidez;
+
+<<<PÁGINA 8>>>
+As Seguradoras
+→ Requisitos Legais:
+●
+Autorização da SUSEP para seu funcionamento;
+●
+Capital Mínimo conforme o tipo de seguro;
+●
+Constituição de reservas técnicas e provisões matemáticas;
+●
+Manutenção dos índices de solvência;
+→ Base Legal:
+●
+Decreto Lei 73/1966;
+●
+Resoluções do CNSP e Circulares da SUSEP;
+
+<<<PÁGINA 9>>>
+Como uma seguradora faz dinheiro?
+→ Prêmios Arrecadados:
+●
+Valor pago pelos segurados para compor o fundo de risco:
+○
+Prêmio Puro: Valor do Risco;
+○
+Carregamentos:
+■
+Despesas Administrativas;
+■
+Despesas Comerciais;
+■
+Margem de Lucro e Segurança;
+●
+Resultado Operacional:
+○
+Lucro Técnico = Prêmio - Sinistro - Custos;
+●
+Receita Financeira:
+○
+Rentabilidade das aplicações dos recursos sob sua guarda;
+■
+Reservas Técnicas (Aplicações de Baixo Risco - Curto Prazo);
+■
+Reservas Matemáticas (Aplicações que toleram mais Risco - Maior Prazo);
+■
+Receita do Float (Prêmios ainda não desembolsados);
+
+<<<PÁGINA 10>>>
+Resseguradoras
+“Resseguro é o seguro das seguradoras. Permite que uma seguradora transfira parte do risco para 
+outra empresa - a resseguradora.”
+→ Objetivos:
+●
+Aumentar a capacidade de aceitação de riscos da seguradora;
+●
+Reduzir a exposição a eventos de grande impacto;
+●
+Proteger o balanço patrimonial da seguradora;
+→ Situações de Uso:
+●
+Grandes contratos empresariais;
+●
+Catástrofes Naturais;
+●
+Acidentes em Massa;
+●
+Riscos Concentrados (Aviões, Refinarias…);
+
+<<<PÁGINA 11>>>
+Tipos de Resseguro
+→ Resseguro Proporcional:
+●
+A resseguradora assume um percentual fixo do risco e do prêmio;
+○
+Em caso de sinistro, paga esse percentual;
+■
+Semelhante ao co-seguro, diferença é que o “cliente não vê”;
+→ Resseguro Não Proporcional:
+●
+A resseguradora paga se o sinistro ultrapassar um valor (excesso de prejuízo):
+○
+Muito usado para catástrofes e sinistros elevados;
+
+<<<PÁGINA 12>>>
+Regulação: CNSP e SUSEP
+→ CNSP - Conselho Nacional de Seguros Privados:
+●
+Estabelecer normas para constituição e operação das seguradoras;
+●
+Determinar capital mínimo e reservas técnicas;
+●
+Definir limites de retenção de risco;
+●
+Regulamentar o resseguro;
+→ SUSEP - Superintendência de Seguros Privados:
+●
+Autorizar funcionamento de seguradoras e resseguradoras;
+●
+Fiscalizar a constituição das reservas;
+●
+Garantir solvência e cumprimento das normas;
+●
+Aplicar penalidades por infrações;
+
+<<<PÁGINA 13>>>
+Seguradoras x Resseguradoras
+Critério
+Seguradora
+Resseguradora
+Cliente final
+Pessoa física ou jurídica
+Seguradoras
+Assume risco de
+Indivíduos, empresas, bens e patrimônios
+Riscos assumidos pelas seguradoras
+Função principal
+Emitir apólices e indenizar sinistros
+Reduzir exposição e aumentar capacidade das seguradoras
+Exemplos de atuação
+Seguro auto, vida, residencial, empresarial
+Grandes riscos, catástrofes, apólices corporativas 
+
+######## Seguradoras e Resseguradoras.pdf
+<<<PÁGINA 1>>>
+Seguradoras e 
+Resseguradoras
+
+O que são Seguradoras e 
+Resseguradoras?
+Definição de Seguradoras
+Empresas especializadas autorizadas pela 
+SUSEP a operar seguros.
+Assumem riscos financeiros mediante 
+pagamento de prêmio.
+Suas principais funções incluem análise de 
+riscos e definição de coberturas.
+Arrecadação de prêmios, constituição de 
+reservas técnicas e indenização de sinistros.
+Requisitos Legais para Seguradoras
+Necessitam de autorização da SUSEP para 
+operar.
+Devem cumprir capital mínimo conforme 
+o tipo de seguro.
+Precisam constituir reservas técnicas e 
+provisões matemáticas.
+Manter os índices de solvência.
+Base Legal das Seguradoras
+Decreto Lei 73/1966.
+Resoluções do CNSP e Circulares da SUSEP.
+Como uma Seguradora 
+Funciona?
+Prêmios Arrecadados
+Valor pago pelos segurados para compor o 
+fundo de risco.
+Prêmio Puro: Valor do Risco.
+Carregamentos: Despesas Administrativas, 
+Comerciais e Margem de Lucro.
+Resultado Operacional e Receita Financeira
+Lucro Técnico = Prêmio - Sinistro - Custos.
+Receita Financeira: Rentabilidade das 
+aplicações dos recursos, Reservas Técnicas 
+e Matemáticas.
+Receita do Float (Prêmios ainda não 
+desembolsados).
+O que é um Seguro?
+Definição Legal
+Art. 757 do Código Civil define seguro.
+O segurador garante interesse legítimo do 
+segurado contra riscos predeterminados.
+Conceito Técnico e Funcionamento Básico
+Seguro é um contrato de transferência de 
+risco.
+O segurado paga um prêmio para que a 
+seguradora assuma o risco.
+Se o evento ocorrer (sinistro), a seguradora 
+indeniza.
+O segurado contrata o seguro e paga o 
+prêmio.
+O risco é assumido pela seguradora, que 
+monta um fundo coletivo.
+Caso o sinistro ocorra, a seguradora paga a 
+indenização.
+Se o sinistro não ocorrer, o prêmio não é 
+devolvido.
+Elementos do Contrato de Seguro
+Segurado: quem contrata o seguro.
+Seguradora: quem assume o risco.
+Prêmio: valor pago pelo segurado.
+Sinistro: ocorrência do risco coberto.
+Indenização: valor pago ao segurado.
+Apólice: contrato formal do seguro.
+Resseguradoras: O Seguro das 
+Seguradoras
+Definição e Objetivos
+Resseguro é o seguro das seguradoras.
+Permite que uma seguradora transfira 
+parte do risco.
+Objetivos: aumentar a capacidade de 
+aceitação de riscos, reduzir exposição a 
+eventos de grande impacto.
+Proteger o balanço patrimonial da 
+seguradora.
+Situações de Uso e Tipos de Resseguro
+Grandes contratos empresariais, 
+catástrofes naturais, acidentes em massa.
+Riscos concentrados (aviões, refinarias).
+Resseguro Proporcional: a resseguradora 
+assume um percentual fixo do risco e do 
+prêmio.
+Resseguro Não Proporcional: a 
+resseguradora paga se o sinistro 
+ultrapassar um valor.
+Regulação do Setor de Seguros
+CNSP - Conselho Nacional de Seguros 
+Privados
+Estabelece normas para constituição e 
+operação das seguradoras.
+Determina capital mínimo e reservas 
+técnicas.
+Define limites de retenção de risco e 
+regulamenta o resseguro.
+SUSEP - Superintendência de Seguros 
+Privados
+Autoriza funcionamento de seguradoras e 
+resseguradoras.
+Fiscaliza a constituição das reservas.
+Garante solvência e cumprimento das 
+normas.
+Aplica penalidades por infrações.
+Comparativo: Seguradoras x 
+Resseguradoras
+Critérios de Comparação
+Cliente final: pessoa física ou jurídica.
+Assume risco de: indivíduos, empresas, 
+bens e patrimônios.
+Função principal: emitir apólices e 
+indenizar sinistros.
+Exemplos de atuação: seguro auto, vida, 
+residencial, empresarial.
+Resseguradoras: riscos assumidos pelas 
+seguradoras.
+Função principal: reduzir exposição e 
+aumentar capacidade das seguradoras.
+Exemplos de atuação: grandes riscos, 
+catástrofes, apólices corporativas.
+
+######## Sistema de Pagamentos Brasileiro (SPB).pdf
+<<<PÁGINA 1>>>
+Sistema de 
+Pagamentos 
+Brasileiro (SPB)
+
+O que é o SPB
+Definição e Função do SPB
+O SPB é a infraestrutura que movimenta o 
+dinheiro no Brasil.
+É um conjunto de sistemas, regras e 
+instituições.
+Processa e liquida diversas operações 
+financeiras.
+É a base da movimentação financeira no 
+Brasil.
+Componentes do SPB
+Transferências de fundos (PIX, TED, DOC).
+Cheques.
+Operações com moeda estrangeira.
+Operações com ativos financeiros e valores 
+mobiliários.
+Comparação com o PIX
+O SPB é muito maior que o PIX.
+O PIX é apenas uma parte do SPB.
+O SPB engloba todas as operações 
+financeiras.
+Objetivo do SPB
+Propósito Principal
+O objetivo do SPB é trazer segurança e 
+estabilidade ao sistema financeiro.
+Reformulação em 2002
+O SPB foi reformulado em 2002.
+Visando a redução de riscos e a garantia da 
+liquidez.
+Medidas Implementadas
+Reduzir riscos de calote entre instituições.
+Evitar o risco sistêmico.
+Garantir liquidação em tempo real (LBTR).
+Proteger o sistema como um todo.
+Liquidação Bruta em Tempo 
+Real (LBTR)
+Características da LBTR
+A LBTR possui características específicas.
+Garante a segurança e a eficiência das 
+transações.
+Detalhes da LBTR
+Irrevogável – não pode ser desfeita.
+Incondicional – ocorre desde que haja 
+saldo.
+Reduz o risco de inadimplência entre as 
+instituições.
+Bruta e individual – cada transação é 
+liquidada de forma individual.
+Segmentos do SPB
+Divisão do SPB
+O SPB se divide em dois segmentos 
+principais.
+Cada segmento possui características e 
+funções específicas.
+Segmentos
+Infraestruturas do Mercado Financeiro 
+(IMF).
+Arranjos de Pagamento.
+Critérios de Comparação
+Definição, Participantes principais, Foco da 
+operação, Exemplos típicos, Objetivo, 
+Público atendido.
+Sistemas Operados pelo BACEN
+Sistemas Operacionais
+O Banco Central do Brasil (BACEN) opera 
+diversos sistemas.
+Esses sistemas são essenciais para o 
+funcionamento do SPB.
+STR - Sistema de Transferência de Reservas
+Liquidação definitiva das transações.
+Participação obrigatória de bancos 
+comerciais.
+Opera no Modelo LBTR.
+SPI - Sistema de Pagamentos Instantâneos 
+(PIX)
+Líquida pagamentos instantâneos via 
+Contas PIX.
+Não admite saldo negativo.
+Opera no Modelo LBTR.
+SELIC - Sistema Especial de Liquidação e 
+de Custódia
+Liquida operações com títulos públicos.
+Funciona em tempo real.
+Opera no Modelo LBTR.
+
+######## Sistemas Cooperativos de Crédito - A3442.pdf
+<<<PÁGINA 1>>>
+Sistemas Cooperativos de Crédito
+
+<<<PÁGINA 2>>>
+Princípios do Cooperativismo
+
+<<<PÁGINA 3>>>
+Sistemas Cooperativos de Crédito
+
+<<<PÁGINA 4>>>
+→ As centrais cooperativas vão atuar como o nível intermediário na estrutura do sistema 
+cooperativo ﬁnanceiro. Elas não atendem diretamente os cooperados, mas sim um papel 
+estratégico técnico e representativo;
+Centrais Cooperativas
+Função
+Explicação
+🧭 Coordenação Estratégica
+Define diretrizes para atuação das cooperativas filiadas
+🛡 Supervisão e Compliance
+Garante que as singulares sigam normas internas e externas (Bacen, CMN)
+📚 Capacitação e Educação
+Oferece programas de formação técnica e gestão para dirigentes e funcionários
+💼 Apoio Técnico
+Suporte contábil, jurídico, financeiro e operacional
+🗣 Representação Institucional
+Representa politicamente as filiadas junto ao Banco Central, CVM, parlamentares e sociedade
+🔁 Integração Sistêmica
+Conecta o nível local ao nacional (e ao Banco Cooperativo)
+
+<<<PÁGINA 5>>>
+→ As cooperativas de Crédito são instituições ﬁnanceiras sem ﬁns lucrativos, formadas por 
+pessoas físicas e ou jurídicas com um objetivo em comum que prestam serviços 
+exclusivamente a seus cooperados;
+→ Outros tipos de cooperativas:
+●
+Cooperativas de Saúde - Unimed;
+●
+Cooperativas Agrícolas - Coamo, Copersucar;
+Cooperativas Financeiras
+
+<<<PÁGINA 6>>>
+→ Principais serviços oferecidos:
+●
+Conta Corrente;
+●
+Cartão de Crédito;
+●
+Empréstimos e Financiamentos;
+●
+Investimentos;
+●
+Seguros e Consórcios;
+●
+Pix, Boletos, Ted;
+●
+Recebimento de Pagamentos;
+○
+Geralmente, com taxas menores, pois não visam lucro;
+→ Cada cooperado tem 1 voto;
+→ O resultado positivo de uma cooperativa é chamado de “Sobras” ou “Perdas”; 
+Cooperativas de Crédito
+
+<<<PÁGINA 7>>>
+Cooperativas de Crédito
+Situação
+✅ Resultado Positivo – Sobras
+❌ Resultado Negativo – Perdas
+📘 Definição
+Excedente financeiro ao final do exercício 
+(tipo 'lucro', mas sem fins lucrativos)
+Déficit financeiro quando despesas 
+superam receitas
+🛤 Destinação
+• Distribuição proporcional aos cooperados
+• Reinvestimento interno
+• Projetos sociais ou educacionais
+• Cobertura com fundo de reserva
+• Uso de outros fundos estatutários
+• Deliberação em assembleia
+🗳 Participação do Cooperado
+Vota na assembleia como as sobras serão 
+utilizadas
+Pode receber parte do valor
+Vota sobre a forma de cobertura
+(eventual rateio, somente em último caso)
+🎯 Impacto para o cooperado
+Benefício direto (distribuição) ou indireto 
+(melhoria da cooperativa/comunidade)
+Risco compartilhado de forma justa e 
+democrática; impacto normalmente diluído
+
+<<<PÁGINA 8>>>
+Bancos Cooperativos
+→ Os bancos cooperativos são instituições ﬁnanceiras com ﬁns lucrativos, criadas para dar 
+suporte às cooperativas de crédito atuando como braço ﬁnanceiro e tecnológico dessas 
+cooperativas;
+→ Papéis dos bancos Cooperativos:
+●
+Conectar as Cooperativas ao SPB;
+●
+Disponibilizar infraestrutura de compensação de cheques e boletos;
+●
+Emitir cartões, operar fundos de investimento e crédito;
+●
+Atuar no mercado interbancário;
+●
+Fornecer serviços de tecnologia bancária;
+
+######## Sistemas Cooperativos de Crédito.pdf
+<<<PÁGINA 1>>>
+Sistemas 
+Cooperativos de 
+Crédito
+
+Princípios do Cooperativismo
+Interesse pela Comunidade
+Foco no bem-estar social e econômico da 
+comunidade.
+Busca por soluções que beneficiem a 
+todos os membros.
+Priorização do desenvolvimento local e 
+regional.
+Promoção da inclusão e da justiça social.
+Adesão Livre e Voluntária
+A participação é aberta a todos que 
+desejam aderir.
+Sem discriminação ou restrições arbitrárias.
+Os membros decidem livremente se 
+participam ou não.
+Respeito à autonomia individual e à 
+liberdade de escolha.
+Gestão Democrática
+Os membros participam da tomada de 
+decisões.
+Um membro, um voto, 
+independentemente do capital investido.
+Eleição de dirigentes e conselhos 
+administrativos.
+Transparência e prestação de contas aos 
+cooperados.
+Centrais Cooperativas
+Função das Centrais Cooperativas
+Atuam como intermediárias na estrutura 
+do sistema cooperativo financeiro.
+Desempenham um papel estratégico, 
+técnico e representativo.
+Não atendem diretamente os cooperados.
+Oferecem suporte e coordenação às 
+cooperativas filiadas.
+Coordenação Estratégica
+Define diretrizes para atuação das 
+cooperativas filiadas.
+Garante a padronização e a coesão do 
+sistema.
+Promove a troca de experiências e o 
+aprendizado mútuo.
+Facilita a implementação de políticas e 
+estratégias comuns.
+Supervisão e Compliance
+Garante que as singulares sigam normas 
+internas e externas.
+Monitora o cumprimento das 
+regulamentações do Banco Central 
+(Bacen) e do Conselho Monetário Nacional 
+(CMN).
+Assegura a solidez e a segurança do 
+sistema.
+Previne riscos e irregularidades.
+Cooperativas Financeiras
+Definição de Cooperativas Financeiras
+Instituições financeiras sem fins lucrativos.
+Formadas por pessoas físicas e/ou jurídicas.
+Com um objetivo em comum: prestar 
+serviços aos cooperados.
+Foco no benefício mútuo e na participação 
+dos membros.
+Outros Tipos de Cooperativas
+Cooperativas de Saúde - Unimed.
+Cooperativas Agrícolas - Coamo, 
+Copersucar.
+Diversidade de setores e atividades.
+Adaptação às necessidades específicas de 
+cada grupo.
+Principais Serviços Oferecidos
+Conta Corrente.
+Cartão de Crédito.
+Empréstimos e Financiamentos.
+Investimentos.
+Seguros e Consórcios.
+Pix, Boletos, Ted.
+Recebimento de Pagamentos.
+Geralmente, com taxas menores, pois não 
+visam lucro.
+Cooperativas de Crédito: Sobras 
+e Perdas
+Resultado Positivo - Sobras
+Excedente financeiro ao final do exercício.
+Tipo de "lucro", mas sem fins lucrativos.
+Destinação: distribuição aos cooperados, 
+reinvestimento interno, projetos sociais.
+Participação do cooperado: vota na 
+assembleia sobre a destinação das sobras.
+Resultado Negativo - Perdas
+Déficit financeiro quando despesas 
+superam receitas.
+Cobertura com fundo de reserva ou outros 
+fundos estatutários.
+Deliberação em assembleia sobre a forma 
+de cobertura.
+Risco compartilhado de forma justa e 
+democrática.
+Impacto para o Cooperado
+Benefício direto (distribuição) ou indireto 
+(melhoria da cooperativa/comunidade).
+Vantagens financeiras e sociais.
+Fortalecimento da cooperativa e da 
+comunidade.
+Impacto normalmente diluído em caso de 
+perdas.
+Bancos Cooperativos
+Definição e Objetivo
+Instituições financeiras com fins lucrativos.
+Criados para dar suporte às cooperativas 
+de crédito.
+Atuam como braço financeiro e 
+tecnológico.
+Fortalecem o sistema cooperativo.
+Papéis dos Bancos Cooperativos
+Conectar as Cooperativas ao SPB.
+Disponibilizar infraestrutura de 
+compensação de cheques e boletos.
+Emitir cartões, operar fundos de 
+investimento e crédito.
+Atuar no mercado interbancário.
+Fornecer serviços de tecnologia bancária.
+d
+
+######## Sociedades de Capitalização.pdf
+<<<PÁGINA 1>>>
+Sociedades de 
+Capitalização e 
+Títulos de 
+Capitalização
+
+O que são Títulos de 
+Capitalização?
+Definição
+Títulos de capitalização são produtos 
+financeiros emitidos por sociedades de 
+capitalização.
+São regulamentados pela SUSEP e 
+aprovados pelo CNSP.
+A única finalidade das sociedades de 
+capitalização é emitir e operar planos de 
+capitalização.
+As sociedades de capitalização são 
+instituições financeiras não bancárias.
+Base Legal
+Art. 31 do Decreto-Lei nº 73/1966 
+estabelece as regras para as sociedades de 
+capitalização.
+As sociedades operam exclusivamente 
+com planos de capitalização.
+Estes planos devem ser previamente 
+aprovados pelo Conselho Nacional de 
+Seguros Privados.
+Características Principais
+Autorizadas especificamente para operar 
+com títulos de capitalização.
+Devem seguir as diretrizes do CNSP e a 
+fiscalização da SUSEP.
+Não podem atuar em outras atividades 
+como seguros ou previdência, exceto com 
+autorização e estrutura separada.
+Operação das Sociedades de 
+Capitalização
+Processo Operacional
+Criação de um plano de capitalização com 
+base técnica aprovada.
+Registro do plano na SUSEP e obtenção de 
+autorização.
+Comercialização dos títulos por meio de 
+agências, corretores ou canais digitais.
+Geração das reservas matemáticas e 
+realização dos sorteios.
+Pagamento dos resgates ou prêmios 
+conforme as condições contratadas.
+Termos Utilizados
+Subscritor: quem paga e contrata o título.
+Estrutura dos Pagamentos
+Cota de Capitalização
+Forma a Provisão Matemática de Resgate 
+(PMR), corrigida mensalmente.
+Cota de Sorteio
+Financia os prêmios sorteados.
+Cota de Carregamento
+Cobre taxas administrativas, corretagem, 
+emissão e lucro da empresa.
+Exemplo Prático
+R$ 70 para Capitalização.
+R$ 20 para Sorteio.
+R$ 10 para Carregamento.
+Forma de Pagamento
+Tipos de Pagamento
+PM – Pagamento Mensal: Uma parcela a 
+cada mês.
+PP – Pagamento Periódico: Número de 
+parcelas diferente do número de meses.
+PU – Pagamento Único: Pagamento 
+integral no momento da contratação.
+Correção Monetária
+Títulos até 12 meses: Valor fixo.
+Acima de 12 meses: Pode ter atualização 
+anual por índice oficial.
+Cota de Capitalização: Sempre corrigida 
+mensalmente por índice oficial.
+Os Sorteios
+Prêmios
+Prêmios podem ser em dinheiro, bens ou 
+serviços.
+Formas de Sorteio
+Baseados em loterias oficiais (mais 
+comum).
+Realizados pela própria empresa (com 
+publicidade, acesso gratuito e auditoria).
+Importante
+Ganhar sorteio NÃO interfere no valor de 
+resgate do capital.
+Modalidade dos Títulos
+Tipos de Títulos
+Tradicional: Foco no resgate de 100% do 
+valor pago + participação em sorteios.
+Popular: Baixo custo, foco em sorteios, 
+resgate menor que o valor pago.
+Filantropia Premiável: Permite doação da 
+reserva a instituições, com direito a 
+sorteios.
+Compra-Programada: Valor usado para 
+aquisição de bem ou serviço no final.
+Instrumento de Garantia: Usado como 
+caução em contratos (ex: aluguel 
+residencial).
+Incentivo: Ligado a promoções comerciais, 
+sem resgate pelo consumidor (capital é da 
+empresa).
