@@ -34,7 +34,7 @@ Aula única de 30 minutos que cobre os itens **1.4.7 Portabilidades de custódia
 | --- | --- | --- | --- | --- |
 | 1 | PDF p. 4 | Portabilidade "regulada pela CVM e ANBIMA" | Regra vigente: **Res. CVM 210/2024** (com a Res. CVM 209/2024), em vigor desde **02/01/2026** (prorrogada pela Res. CVM 229/2025). Prevê **interface digital** para o investidor solicitar a portabilidade | CVM |
 | 2 | PDF p. 5 · APOSTILA-CPA p. 182 | Exemplo: previdência "portabilizada" da XP para a Grão Gestora | Isso é **portabilidade de previdência**, regulada pela **SUSEP** e feita entre **entidades de previdência e seguradoras**, e não portabilidade de custódia. Também não se porta previdência para uma gestora → exemplo **substituído** por ações e Tesouro Direto | SUSEP; CVM |
-| 3 | PDF p. 6 · APOSTILA-CPA p. 182 | Desintermediação: "sem o banco tradicional" / "com a intermediação de fintechs" | Definição clássica: **captação direta no mercado de capitais** (ações, debêntures), sem crédito bancário. No P2P e no crowdfunding **há intermediário regulado**: a **SEP** (Res. CMN 4.656/2018) e a **plataforma de investimento participativo** (Res. CVM 88/2022) | CMN; CVM |
+| 3 | PDF p. 6 · APOSTILA-CPA p. 182 | Desintermediação: "sem o banco tradicional" / "com a intermediação de fintechs" | Definição clássica: **captação direta no mercado de capitais** (ações, debêntures), sem crédito bancário. No P2P e no crowdfunding **há intermediário regulado**: a **SEP** (Res. CMN 5.050/2022, que revogou a 4.656/2018) e a **plataforma de investimento participativo** (Res. CVM 88/2022) | CMN; CVM |
 | 4 | PDF p. 5 | "Transferidos entre custodiantes (ex.: XP → Grão)" | Nomes de instituições reais retirados; uso exemplos genéricos | — |
 
 ## 1. Fala de abertura — 2 min
@@ -159,7 +159,7 @@ CPA 1.4.8.
 
 | Modelo | O que é | Intermediário regulado |
 | --- | --- | --- |
-| **P2P lending** | Pessoas emprestam a pessoas ou empresas por plataforma eletrônica | **SEP** (Sociedade de Empréstimo entre Pessoas), Res. CMN 4.656/2018 |
+| **P2P lending** | Pessoas emprestam a pessoas ou empresas por plataforma eletrônica | **SEP** (Sociedade de Empréstimo entre Pessoas), Res. CMN 5.050/2022 |
 | **Crowdfunding de investimento** | Vários investidores financiam uma empresa de pequeno porte | Plataforma registrada na CVM, Res. CVM 88/2022 |
 | **Marketplaces** de títulos e fundos | Plataformas que reúnem produtos de várias instituições | Distribuidores regulados |
 | **Carteiras digitais e criptoativos** | Pagamentos e ativos virtuais | Prestadores regulados pelo BCB (Lei 14.478/2022) |
@@ -313,7 +313,7 @@ Res. CVM 210/2024; APOSTILA-CPA p. 180–183; Programa Detalhado CPA, itens 1.4.
 1. Portabilidade de custódia: transferir ativos entre instituições sem venda e sem mudar o titular; mantém custo e histórico; sem IR.
 2. Regra vigente: Res. CVM 210/2024, em vigor desde 02/01/2026, com interface digital para o pedido.
 3. Desintermediação clássica: empresas captam direto no mercado de capitais; o investidor assume o risco.
-4. Desintermediação digital: P2P (SEP, Res. CMN 4.656), crowdfunding (Res. CVM 88), marketplaces, carteiras digitais.
+4. Desintermediação digital: P2P (SEP, Res. CMN 5.050), crowdfunding (Res. CVM 88), marketplaces, carteiras digitais.
 5. Open Finance compartilha dados com consentimento; riscos: fraude, ambiente não regulado, assimetria de informação.
 
 ### Quadro de emergência
@@ -324,7 +324,7 @@ Res. CVM 210/2024; APOSTILA-CPA p. 180–183; Programa Detalhado CPA, itens 1.4.
 | Norma | Res. CVM 210/2024 · vigente desde 02/01/2026 |
 | Previdência | Outra portabilidade · SUSEP |
 | Desintermediação | Captação direta · investidor assume o risco |
-| P2P | SEP · Res. CMN 4.656/2018 |
+| P2P | SEP · Res. CMN 5.050/2022 |
 | Crowdfunding | Plataforma · Res. CVM 88/2022 |
 | Open Finance | Dados compartilhados com consentimento |
 
@@ -352,7 +352,7 @@ Próximos itens do PD: 1.4.9 BSM e 1.4.10 Classificação de investidores.
 
 1. ANBIMA — Programa Detalhado CPA — vigência 01/01/2026 — itens 1.4.7 e 1.4.8 — [Programas Detalhados ANBIMA](https://www.anbima.com.br/pt_br/especial/pds-certificacoes-distribuicao.htm). **Em vigor.**
 2. CVM — Resolução CVM 210, de 26/08/2024 — portabilidade de valores mobiliários — [cvm.gov.br](https://conteudo.cvm.gov.br/legislacao/resolucoes/resol210.html). **Em vigor desde 02/01/2026** (prorrogação pela Res. CVM 229/2025 — [CVM](https://www.gov.br/cvm/pt-br/assuntos/noticias/2025/cvm-altera-pontualmente-regras-de-portabilidade-e-prorroga-data-de-entrada-em-vigor-para-2026)). Prazos e regras de cobrança **não conferidos no texto nesta sessão**.
-3. CMN — Resolução CMN 4.656/2018 — SEP e SCD — [BCB](https://normativos.bcb.gov.br/Lists/Normativos/Attachments/50579/Res_4656_v1_O.pdf). **Em vigor.**
+3. CMN — Resolução CMN 5.050/2022 — SEP e SCD — [BCB](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5050). **Em vigor.** Revogou a Res. CMN 4.656/2018. Conferida em 2026-10-03 (aula 1.1.3-A).
 4. CVM — Resolução CVM 88/2022 — crowdfunding de investimento — [cvm.gov.br](https://conteudo.cvm.gov.br/legislacao/resolucoes/resol088.html). **Em vigor; em revisão pela CVM em 2026** ([Monitor do Mercado](https://monitordomercado.com.br/noticias/cvm/333842-cvm-vai-revisar-resolucao-88-em-2026-e-ampliar-regras-de-crowdfunding-de-investimento/)).
 5. Presidência da República — Lei 14.478/2022 — prestadores de serviços de ativos virtuais. **Em vigor.** **Não reaberto nesta sessão.**
 6. Portabilidade de previdência — SUSEP/CNSP (ver aula 2.2-A). **Em vigor.**

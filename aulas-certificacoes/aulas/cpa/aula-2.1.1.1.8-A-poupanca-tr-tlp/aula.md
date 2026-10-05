@@ -225,7 +225,7 @@ Taxa criada pela **Lei 8.177/1991** (Plano Collor II) como referência de **corr
 
 | Etapa | Conteúdo |
 | --- | --- |
-| Base | **TBF (Taxa Básica Financeira)**: média das taxas de **CDBs/RDBs prefixados** dos maiores bancos |
+| Base | **TBF (Taxa Básica Financeira)**: desde 01/02/2018, calculada a partir das taxas das **LTN** negociadas no mercado secundário (Res. CMN 4.624/2018) |
 | Ajuste | Aplica-se um **redutor (R)** definido pelo **CMN** |
 | Resultado | TR = TBF ajustada pelo redutor; calculada e divulgada pelo **Banco Central** |
 | Comportamento | Com juros baixos (fim da década de 2010), a TR ficou **zerada** por anos; com a alta da Selic, voltou a ser **positiva, mas baixa** |
@@ -235,11 +235,11 @@ Taxa criada pela **Lei 8.177/1991** (Plano Collor II) como referência de **corr
 #### O que a prova pode confundir
 
 - **TR ≠ índice de inflação.**
-- **TR ≠ Selic**: nasce da TBF (CDBs prefixados), com redutor.
+- **TR ≠ Selic**: nasce da TBF (calculada com base nas LTN), com redutor.
 
 #### Frase de fixação
 
-> **TR: nasce dos CDBs (TBF), passa pelo redutor do CMN e corrige poupança, SFH e FGTS — sem medir inflação.**
+> **TR: nasce da TBF (base nas LTN), passa pelo redutor do CMN e corrige poupança, SFH e FGTS — sem medir inflação.**
 
 #### Alinhamento ao PD
 
