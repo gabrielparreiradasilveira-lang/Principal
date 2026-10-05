@@ -216,7 +216,7 @@ CPA 2.1.2.2.23.
 | **Operações da carteira** | **Emolumentos e comissões**; liquidação, **registro e custódia** de operações; **fechamento de câmbio**; manutenção de ativos recebidos em **execução de garantia**; **seguro** sobre ativos (e prejuízo não coberto, salvo culpa ou dolo do prestador); **direito de voto** dos ativos; **royalties** de índices |
 | **Vida da classe** | **Assembleias**; constituição, **fusão, incorporação, cisão, transformação ou liquidação**; na classe fechada, **distribuição primária** e **admissão em mercado organizado** |
 | **Remuneração** | **Taxas de administração e de gestão**; **taxa máxima de distribuição**; montantes de **acordo de remuneração** |
-| **Incluídos pela Res. CVM 181** | **Formador de mercado**; **empréstimos** em nome da classe (nas hipóteses permitidas); **agência de classificação de risco** |
+| **Mercado e crédito** | Serviço de **formador de mercado**; **empréstimos** em nome da classe, nas hipóteses permitidas (incluído pela Res. CVM 181); contratação da **agência de classificação de risco** (incluída pela Res. CVM 181) |
 
 **Regras complementares:**
 

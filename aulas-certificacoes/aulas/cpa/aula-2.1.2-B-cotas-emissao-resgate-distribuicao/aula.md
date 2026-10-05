@@ -344,7 +344,7 @@ A banca adora **prazos**: 5 dias úteis, 0,5% ao dia, 15 dias, 5 e 10 dias, 3 me
 
 | Fato | Conceito |
 | --- | --- |
-| Nota no dia 12 (9 dias depois) | **Fora do prazo** de **5 dias** (art. 37, I) |
+| Nota no dia 12 (9 dias depois) | O administrador tem **5 dias** para disponibilizar a nota **ao distribuidor** (art. 37, I); a Ana deve cobrar a **plataforma**, que responde pelo atendimento na conta e ordem (art. 36) |
 | Pedido pendente | **Cancelado** no fechamento (art. 44, § 2º) |
 | Fechada por 7 dias úteis | Passou de **5 dias úteis**: convocação em **1 dia** |
 | Assembleia em 20 dias | **Fora do prazo**: deve ser **em até 15 dias** (art. 44, § 3º) |
@@ -352,7 +352,7 @@ A banca adora **prazos**: 5 dias úteis, 0,5% ao dia, 15 dias, 5 e 10 dias, 3 me
 
 ### Síntese do case
 
-Ana tem direito à nota em 5 dias e a uma assembleia em até 15 dias. O cancelamento do pedido é regular, mas a venda ao amigo **não é permitida**.
+Na conta e ordem, a Ana fala com a **plataforma**: o administrador entrega a nota ao distribuidor em até 5 dias, e o distribuidor repassa ao cliente. A assembleia deve ocorrer em até 15 dias. O cancelamento do pedido é regular, mas a venda ao amigo **não é permitida**.
 
 ### Frase de fixação
 

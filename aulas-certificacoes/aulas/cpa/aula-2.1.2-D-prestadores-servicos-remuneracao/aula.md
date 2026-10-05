@@ -237,7 +237,7 @@ As **taxas** remuneram os prestadores. Na CVM 175, cada prestador essencial tem 
 | Parcelas da taxa podem ser **pagas direto** aos contratados, sem exceder o total | Art. 118, § 1º |
 | Parte da taxa pode ir para **doação** a entidade sem fins lucrativos auditada, se o regulamento prever | Art. 118, § 2º |
 | **Redução unilateral** da taxa pelo prestador, **sem assembleia** | Art. 97 |
-| **Aumento** só com **assembleia**; eficácia após **30 dias** ou o prazo de resgate, o que for maior (salvo unanimidade) | Art. 50 |
+| **Aumento** só com **assembleia**; nas **classes abertas**, eficácia após **30 dias** ou o prazo de resgate, o que for maior (salvo unanimidade) | Art. 50, parágrafo único, I |
 
 #### O que a prova pode confundir
 
@@ -269,7 +269,7 @@ CPA 2.1.2.2.20, 2.1.2.2.20.1 e 2.1.2.2.20.4.
 | --- | --- |
 | Só se **previstas no regulamento** (anexo da classe) | Art. 48, § 2º, XII |
 | Podem **diferenciar subclasses** | Art. 5º, § 5º, III |
-| **Aumento ou mudança de cálculo** só com eficácia diferida (30 dias ou prazo de resgate) | Art. 50, parágrafo único, I, "a" |
+| **Aumento ou mudança de cálculo**: nas **classes abertas**, eficácia diferida (30 dias ou prazo de resgate) | Art. 50, parágrafo único, I, "a" |
 | **Resgate compulsório** não pode ter taxa de saída | Art. 42, III |
 | **FII** pode ter taxa de **ingresso**, mas **não** de saída | Anexo III, art. 11, § 1º (Aula H) |
 

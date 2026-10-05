@@ -182,7 +182,7 @@ SERVIÇOS ESSENCIAIS = ADMINISTRADOR + GESTOR
 > **Classe aberta**: entra e sai por **resgate**. **Classe fechada**: só sai no fim, em **amortização** ou vendendo a cota no **mercado secundário** (como o FII).
 > **Responsabilidade limitada:** se o regulamento prevê, o cotista perde no máximo o que **subscreveu**. Se **não** prevê, ele pode ter de **aportar** para cobrir patrimônio **negativo**.
 > **Limites por emissor:** **20%** em instituição financeira, **10%** em companhia aberta, **5%** em PF ou empresa fechada, **sem limite** para a **União**.
-> **Taxas:** a de **administração** é cobrada **mesmo com prejuízo**; a de **performance** só acima do benchmark, respeitando a **linha d'água**, no máximo **semestral**; e é **vedada** em renda fixa para o público em geral, salvo exceções.
+> **Taxas:** a de **administração** é cobrada **mesmo com prejuízo**; a de **performance** só acima do benchmark, respeitando a **linha d'água**, por período de, **no mínimo, 6 meses**; e é **vedada** em renda fixa para o público em geral, salvo exceções.
 
 **[PEGADINHA]** "Fundo tem garantia do FGC." **Errado:** fundo **não tem FGC**, e a CVM obriga esse aviso no material de divulgação.
 
@@ -202,7 +202,7 @@ SERVIÇOS ESSENCIAIS = ADMINISTRADOR + GESTOR
 | **FII (PF)** | — | Rendimentos **isentos** com condições · ganho de capital **20%** |
 
 ```
-IOF em fundos: resgate antes de 30 dias (tabela regressiva)
+IOF em fundos: resgate antes de 30 dias (tabela regressiva) · fundo de ações: alíquota zero
 FII isento (PF): ≥ 100 cotistas · cotas só em bolsa/balcão · cotista com < 10%
 ```
 
@@ -212,7 +212,7 @@ FII isento (PF): ≥ 100 cotistas · cotas só em bolsa/balcão · cotista com <
 > **FII:** o **rendimento mensal** é **isento** para a PF se o fundo tiver **pelo menos 100 cotistas**, negociar **só em bolsa ou balcão organizado** e o investidor tiver **menos de 10%** das cotas. **Ganho na venda** da cota: **20%**.
 > FII **de tijolo** tem imóveis físicos; **de papel**, títulos como CRI; **híbrido**, os dois. Riscos típicos: **vacância** e **liquidez**.
 
-**[PEGADINHA]** "O come-cotas do fundo de longo prazo cai para 15% conforme o prazo." **Errado:** o come-cotas é **fixo**; o prazo muda só a alíquota **final**.
+**[PEGADINHA]** "A alíquota do come-cotas cai com o prazo de permanência." **Errado:** o come-cotas é **fixo** (15% ou 20%); o prazo muda só a alíquota **final**.
 
 > **Frase de fixação:** **Come-cotas: maio e novembro, 15% ou 20%; ações não tem; FII paga 20% no ganho.**
 
