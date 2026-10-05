@@ -42,7 +42,7 @@ Aula B de 2 do item **2.2 Produtos de Previdência Complementar (PGBL e VGBL)** 
 
 ## 1. Fala de abertura — 3 min
 
-> Imagine duas pessoas que colocaram exatamente o mesmo valor na previdência durante 20 anos, no mesmo fundo. No fim, uma tem R$ 70 mil a mais do que a outra. A diferença? Um "detalhe" de 1 ponto percentual ao ano numa taxa.
+> Imagine duas pessoas que aplicaram R$ 100 mil, de uma vez, na previdência, com a mesma rentabilidade bruta, e deixaram o dinheiro lá por 20 anos. No fim, uma tem cerca de R$ 72 mil a mais do que a outra. A diferença? Um "detalhe" de 1 ponto percentual ao ano na taxa de administração.
 >
 > Agora a segunda cena: você chega aos 60 anos com R$ 1 milhão acumulado. A seguradora pergunta: "Como o senhor quer receber?" Se você escolher errado, pode ganhar a maior renda possível e não deixar nada para a família — ou deixar para a família e receber pouco. Ou pode sacar tudo e gastar em cinco anos.
 >

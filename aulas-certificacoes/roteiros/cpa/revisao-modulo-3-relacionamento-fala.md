@@ -282,6 +282,7 @@ Normas: BCB → Circ. 3.978/2020 · CVM → Res. CVM 50/2021 · COAF vinculado a
 | Beneficiário final | Referência de participação de até **25%** |
 | Espécie acima de R$ 2.000 | Registrar nome e CPF do **portador** |
 | Espécie a partir de R$ 50.000 | Registrar a origem e **comunicar** até o dia útil seguinte |
+| Câmbio em espécie ou ativos virtuais (autocustódia) ≥ US$ 10 mil | **Comunicar** até o dia útil seguinte (Res. BCB 591, de 30/09/2026; fora da apostila) |
 | Comunicação de suspeita | **Sem dar ciência ao cliente** · BCB: dia útil seguinte à decisão · CVM: 24h após a análise |
 | Guarda de registros | BCB **10 anos** · CVM **5 anos** |
 | PEP | Até **5 anos** após o cargo · familiares até 2º grau |

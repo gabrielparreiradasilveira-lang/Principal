@@ -52,6 +52,7 @@ KYE e PEP entram como **apoio** (decisão do professor).
 | 6 | Mapa 7 · slide KYC p. 8 | Guarda dos registros por 10 anos para todos | **BCB: 10 anos. CVM: 5 anos** | Circ. 3.978 art. 67; Res. CVM 50 art. 26 |
 | 7 | Slide "Operações suspeitas" | Sigla "GAF" | **GAFI** | — |
 | 8 | Slide "Comunicações ao COAF", p. 11 | Bens de luxo "com valor unitário ≥ R$ 10.000" | Regra do COAF para setores sem regulador; **não confirmada nesta sessão**; fora da aula | — |
+| 9 | — (atualização de 05/10/2026) | Material e aula listavam só operações em **espécie em reais** na comunicação automática | A **Res. BCB 591, de 30/09/2026**, incluiu no art. 49: (IV) **câmbio com entrega ou recebimento de moeda estrangeira em espécie ≥ US$ 10 mil**; (V) **transferências de ativos virtuais para ou de carteiras autocustodiadas ≥ US$ 10 mil**. Operações de 01/10 a 31/12/2026 são comunicadas no **1º dia útil de janeiro de 2027**. Entra como **nota de atualização** | Circ. 3.978, art. 49 (redação da Res. BCB 591/2026) |
 
 ## 1. Fala de abertura — 3 min
 
@@ -193,8 +194,10 @@ As pessoas obrigadas **devem comunicar ao COAF**, via **Siscoaf**, **sem dar ci�
 
 | Trilha | O que comunicar | Prazo |
 | --- | --- | --- |
-| **Automática** (por valor) | Depósito, aporte ou saque **em espécie ≥ R$ 50.000**; pagamento ou transferência **contra espécie ≥ R$ 50.000**; **provisionamento** de saque ≥ R$ 50.000 | BCB: **até o dia útil seguinte à ocorrência** (art. 49) |
+| **Automática** (por valor) | Depósito, aporte ou saque **em espécie ≥ R$ 50.000**; pagamento ou transferência **contra espécie ≥ R$ 50.000**; **provisionamento** de saque ≥ R$ 50.000; **câmbio em espécie ≥ US$ 10 mil**; **ativos virtuais** de ou para carteira autocustodiada **≥ US$ 10 mil** | BCB: **até o dia útil seguinte à ocorrência** (art. 49) |
 | **Por suspeita** (por análise) | Operações e situações caracterizadas como suspeitas | BCB: **até o dia útil seguinte à decisão** de comunicar (art. 48). CVM: **24 horas após a conclusão da análise** (art. 22, § 3º) |
+
+> **Nota de atualização (30/09/2026):** a **Res. BCB 591** acrescentou duas comunicações automáticas ao art. 49 da Circ. 3.978: **câmbio com entrega ou recebimento de moeda estrangeira em espécie** e **transferência de ativos virtuais para ou de carteira autocustodiada**, ambas a partir de **US$ 10 mil**. As operações feitas entre 01/10 e 31/12/2026 são comunicadas no **1º dia útil de janeiro de 2027**. A apostila ainda não traz essa regra; na prova, a regra clássica continua sendo **espécie ≥ R$ 50 mil**.
 
 **Terrorismo:** operações com pessoas que praticaram ou tentaram praticar atos terroristas, ou com seus recursos, devem ser tratadas **qualquer que seja o valor** (slide "Comunicações ao COAF", p. 6; o dispositivo correspondente da Circular 3.978 **não foi localizado nesta sessão**).
 
@@ -405,7 +408,7 @@ Circular BCB 3.978/2020, arts. 33, 34, 49 e 50; Programa Detalhado CPA, itens 3.
 1. Todas as operações são registradas; espécie > R$ 2.000 exige o CPF do portador; ≥ R$ 50.000, também a origem; saque ≥ R$ 50.000 exige provisionamento de 3 dias úteis. Guarda: BCB 10 anos, CVM 5 anos.
 2. Operações suspeitas: incompatibilidade com renda ou patrimônio, mudança de padrão, falta de fundamento econômico, terceiros, países de risco, PEP, cadastro que não se atualiza.
 3. Caracterização: análise em até 45 dias, com dossiê; não há critério único.
-4. Comunicação ao COAF: automática (espécie ≥ R$ 50 mil, até o dia útil seguinte) ou por suspeita (BCB: dia útil seguinte à decisão; CVM: 24h após a análise), sempre sem dar ciência.
+4. Comunicação ao COAF: automática (espécie ≥ R$ 50 mil, até o dia útil seguinte; desde 30/09/2026, também câmbio em espécie e ativos virtuais em autocustódia ≥ US$ 10 mil) ou por suspeita (BCB: dia útil seguinte à decisão; CVM: 24h após a análise), sempre sem dar ciência.
 5. CSNU: bloqueio sem demora e sem aviso; impugnação em 15 dias; liberação parcial se não houver objeção em 48 horas. KYP e KYE estendem o controle a parceiros e funcionários.
 
 ### Quadro de emergência
@@ -414,6 +417,7 @@ Circular BCB 3.978/2020, arts. 33, 34, 49 e 50; Programa Detalhado CPA, itens 3.
 | --- | --- |
 | Espécie > R$ 2.000 | Registrar nome e CPF do portador |
 | Espécie ≥ R$ 50.000 | Registrar origem + comunicar até o dia útil seguinte |
+| Câmbio em espécie / ativos virtuais (autocustódia) ≥ US$ 10 mil | Comunicação automática (Res. BCB 591/2026) |
 | Saque ≥ R$ 50.000 | Provisionamento com 3 dias úteis |
 | Análise de alerta | Até 45 dias (BCB) |
 | Comunicação de suspeita | BCB: dia útil seguinte à decisão · CVM: 24h após a análise |
@@ -442,10 +446,10 @@ Aula 3.4.7-E — Crimes contra o mercado de capitais.
 
 ## Referências oficiais e status
 
-Último acesso: 2026-09-29.
+Último acesso: 2026-09-29 (item 2 reconferido em 2026-10-05).
 
 1. ANBIMA — Programa Detalhado CPA — vigência 01/01/2026 — itens 3.4.6.6 a 3.4.6.11 — [Programas Detalhados ANBIMA](https://www.anbima.com.br/pt_br/especial/pds-certificacoes-distribuicao.htm). **Em vigor.**
-2. BCB — Circular 3.978, de 23/01/2020 — arts. 19, 27, 28, 33 a 36, 38, 39, 43, 48 a 50, 54, 56 a 58 e 67 — [bcb.gov.br](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Circular&numero=3978). **Em vigor.** Conferido nesta sessão.
+2. BCB — Circular 3.978, de 23/01/2020 — arts. 19, 27, 28, 33 a 36, 38, 39, 43, 48 a 50, 54, 56 a 58 e 67 — [bcb.gov.br](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Circular&numero=3978). **Em vigor, com alterações:** art. 49 alterado pela **Res. BCB 591, de 30/09/2026** (incisos IV e V; revogou a Res. BCB 588/2026) — [bcb.gov.br](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=591). Conferido em 2026-10-05.
 3. CVM — Resolução CVM 50, de 31/08/2021 — arts. 22, 23 e 26; Anexo A (PEP) — [conteudo.cvm.gov.br](https://conteudo.cvm.gov.br/legislacao/resolucoes/resol050.html). **Em vigor.** Conferido nesta sessão.
 4. Presidência da República — Lei 9.613/1998 — arts. 10 e 11 — [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/leis/l9613.htm). **Em vigor.** Conferido nesta sessão.
 5. Presidência da República — Lei 13.810, de 08/03/2019 — indisponibilidade de ativos por sanções do CSNU; arts. 2º, 3º, 6º, 9º, 14, 15 e 28 — [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13810.htm). **Em vigor.** Conferido nesta sessão.
