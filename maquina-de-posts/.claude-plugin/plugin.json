@@ -1,0 +1,6 @@
+{
+  "name": "maquina-de-posts",
+  "version": "1.0.0",
+  "description": "Sistema de conteúdo visual para Instagram: transforma tema, ideia, link ou transcrição em carrossel com tese, identidade de marca e PNGs 1080x1350. Comandos /começar, /carrossel e /marca. Rota tipográfica, sem Telegram e sem Fal.ai.",
+  "keywords": ["instagram", "carrossel", "conteudo", "marca", "puppeteer"]
+}
