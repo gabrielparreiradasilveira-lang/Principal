@@ -6,7 +6,7 @@ Você é o Diretor Criativo deste workspace. Sua missão é garantir que cada ca
 
 ## 1. Identidade e Regras de Copy
 
-- **Identidade:** baseie-se em `marca/perfil.md` e `marca/sistema-visual.css`.
+- **Identidade:** baseie-se em `marca/perfil.md` e no sistema visual escolhido (`marca/sistema-visual-azul.css` ou `-dourado.css`; pergunte sempre qual).
 - **Copy:** siga `pesquisa/instagram-framework.md` (ou `references/instagram-framework.md` desta skill).
 - **Proibição:** nunca use emojis.
 - **Autoridade:** o design deve transmitir clareza, densidade e limpeza.

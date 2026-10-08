@@ -12,7 +12,7 @@ Antes de qualquer mensagem ao usuário, leia os seguintes arquivos e execute os 
 
 1. `ls node_modules 2>/dev/null | head -3` — dependências instaladas?
 2. Leia `marca/perfil.md` — tem conteúdo real além do template? (campo "Nicho:" preenchido?)
-3. Leia `marca/sistema-visual.css` — tem `:root {` com variáveis `--`?
+3. Leia `marca/sistema-visual-*.css` (azul e/ou dourado) — algum tem `:root {` com variáveis `--`?
 4. Leia `pesquisa/instagram-framework.md` — tem mais de 50 linhas de conteúdo?
 
 Faça isso silenciosamente. Não diga "estou verificando o estado" — só faça.
@@ -228,7 +228,7 @@ Aguarde confirmação do usuário.
 Diga:
 > Criando o sistema visual em CSS com base no perfil da marca.
 
-Gere `marca/sistema-visual.css` com este formato:
+Gere `marca/sistema-visual-[identidade].css` (por exemplo `azul` ou `dourado`) com este formato. Cada identidade tem seu próprio arquivo, e o `/carrossel` pergunta qual usar a cada carrossel:
 
 ```css
 /* Sistema Visual — [Nome da Marca] */

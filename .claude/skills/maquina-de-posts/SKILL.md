@@ -24,7 +24,7 @@ O objetivo não é apenas gerar slides. O objetivo é transformar uma ideia solt
 - **Objetivo:** parar o scroll, reter atenção e conduzir a uma ação clara.
 - **Inteligência:** use `pesquisa/instagram-framework.md` do projeto (ou, se não existir, `references/instagram-framework.md` desta skill) como base editorial de copy, retenção e estrutura.
 - **Humanização:** use a skill `humanizer` como revisão de linguagem para remover vícios de IA e dar voz mais humana à copy.
-- **Marca:** use `marca/perfil.md` e `marca/sistema-visual.css` do projeto como fonte de identidade.
+- **Marca:** use `marca/perfil.md` e o sistema visual escolhido (`marca/sistema-visual-azul.css` ou `marca/sistema-visual-dourado.css`) do projeto como fonte de identidade. **Pergunte sempre ao usuário qual das duas identidades usar, antes de cada carrossel.**
 - **Autoridade:** design limpo, premium e direto. Zero emojis.
 - **Assinatura:** se houver `marca/foto.*`, ela deve aparecer no slide 1 e no último slide.
 
@@ -122,7 +122,7 @@ Detalhes de layout e pacing em `references/direcao-de-arte.md`.
 
 ## 6. Fluxo de Trabalho
 
-1. Leia `marca/perfil.md`, `marca/sistema-visual.css`, `pesquisa/instagram-framework.md` (ou `references/instagram-framework.md`) e `references/direcao-de-arte.md`.
+1. Pergunte qual identidade usar (azul ou dourada). Leia `marca/perfil.md`, o `marca/sistema-visual-[escolha].css`, `pesquisa/instagram-framework.md` (ou `references/instagram-framework.md`) e `references/direcao-de-arte.md`.
 2. Defina tese, tensão real, promessa, ângulo próprio, arco, CTA e pacing.
 3. Escreva a copy em versão editorial densa.
 4. Revise a copy com a lógica da skill `humanizer`.

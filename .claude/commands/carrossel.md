@@ -13,15 +13,18 @@ Você segue uma sequência lógica de dependências. Não avance para uma fase s
 
 ---
 
-## FASE 1: Contexto
+## FASE 1: Contexto e identidade
 
 1. Leia obrigatoriamente:
    - `.claude/skills/maquina-de-posts/SKILL.md`
    - `.claude/skills/maquina-de-posts/references/direcao-de-arte.md`
    - `marca/perfil.md`
-   - `marca/sistema-visual.css`
    - `pesquisa/instagram-framework.md` (se não existir no projeto, use `.claude/skills/maquina-de-posts/references/instagram-framework.md`)
-2. Se a marca não estiver configurada, pare e conduza o usuário para `/começar`.
+2. **Pergunte sempre qual identidade visual usar, antes de qualquer outra ação:**
+   > Qual identidade você quer neste carrossel: **azul** (dark navy, Poppins, estilo educacional) ou **dourada** (preto e ouro, serifada editorial, estilo premium)?
+
+   Use a ferramenta de perguntas, se disponível. Nunca assuma a escolha nem reaproveite a do carrossel anterior. Leia `marca/sistema-visual-azul.css` ou `marca/sistema-visual-dourado.css` conforme a resposta, e use só essa identidade do início ao fim.
+3. Se a marca não estiver configurada, pare e conduza o usuário para `/começar`.
 
 ---
 

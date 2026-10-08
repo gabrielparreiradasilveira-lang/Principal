@@ -1,0 +1,109 @@
+/* Sistema Visual DOURADO — @gparreiraaa */
+/* Gerado pela Máquina de Posts. Referência de estilo: peça comercial "Turmas ao vivo" (preto, ouro, serifada editorial). */
+/* Cores extraídas da imagem por amostragem de pixels. Fontes identificadas visualmente: serifada = Cormorant Garamond, apoio = Inter. */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  /* Cores */
+  --cor-primaria: #C9AD78;            /* ouro: rótulos, palavra em itálico, números, linhas de destaque */
+  --cor-secundaria: #C9AD78;          /* mesma família: nesta identidade há um único acento */
+  --cor-fundo: #0B0A08;               /* preto quente */
+  --cor-fundo-alt: #13120E;           /* faixas e cartões */
+  --cor-card: #13120E;
+  --cor-card-borda: #1C1B17;          /* fio discreto */
+  --cor-linha: #5D5443;               /* ouro apagado: filetes e contornos das pílulas */
+  --cor-texto: #F3EFE8;               /* títulos (branco quente) */
+  --cor-texto-corpo: #D5D1CA;         /* desenvolvimento */
+  --cor-texto-secundario: #928E86;    /* apoio, fonte, valores riscados */
+  --cor-destaque: #DBC28A;            /* ouro claro para realces pontuais */
+
+  /* Tipografia */
+  --fonte-display: 'Cormorant Garamond', Georgia, serif;
+  --fonte-principal: 'Inter', system-ui, sans-serif;
+  --tamanho-hook: 132px;       /* Headline do slide 1: serifada, peso 500, palavra-chave em itálico ouro */
+  --tamanho-titulo: 92px;      /* Títulos dos slides do meio: serifada, peso 500 */
+  --tamanho-corpo: 36px;       /* Desenvolvimento em Inter 400 */
+  --tamanho-eyebrow: 30px;     /* Rótulo em caixa alta, ouro, espaçamento largo, com filete à esquerda */
+  --tamanho-cta: 40px;
+  --peso-leve: 400;
+  --peso-normal: 500;
+  --peso-forte: 600;
+  --altura-linha: 1.3;
+  --espacamento-eyebrow: 0.32em;
+
+  /* Espaçamento */
+  --padding-slide: 88px;
+  --gap-elementos: 34px;
+  --margem-rodape: 132px;
+
+  /* Forma */
+  --borda-arredondada: 6px;    /* cantos discretos, quase retos */
+  --borda-card: 1px;
+}
+
+html, body { margin: 0; padding: 0; }
+body {
+  width: 1080px; height: 1350px;
+  background: var(--cor-fundo);
+  color: var(--cor-texto-corpo);
+  font-family: var(--fonte-principal);
+  line-height: var(--altura-linha);
+  position: relative; overflow: hidden;
+}
+
+/* Círculos concêntricos finos no canto superior direito */
+.arco {
+  position: absolute; top: -260px; right: -260px; width: 620px; height: 620px;
+  border: 1px solid var(--cor-card-borda); border-radius: 50%;
+}
+.arco::after {
+  content: ''; position: absolute; inset: 70px;
+  border: 1px solid var(--cor-card-borda); border-radius: 50%;
+}
+
+.eyebrow {
+  display: flex; align-items: center; gap: 22px;
+  color: var(--cor-primaria); font-size: var(--tamanho-eyebrow); font-weight: var(--peso-normal);
+  text-transform: uppercase; letter-spacing: var(--espacamento-eyebrow);
+}
+.eyebrow::before { content: ''; width: 44px; height: 1px; background: var(--cor-primaria); }
+
+.hook   { font-family: var(--fonte-display); color: var(--cor-texto); font-size: var(--tamanho-hook); font-weight: var(--peso-normal); line-height: 1.02; }
+.titulo { font-family: var(--fonte-display); color: var(--cor-texto); font-size: var(--tamanho-titulo); font-weight: var(--peso-normal); line-height: 1.05; }
+.hook em, .titulo em { color: var(--cor-primaria); font-style: italic; font-weight: 500; }
+.corpo  { color: var(--cor-texto-corpo); font-size: var(--tamanho-corpo); font-weight: var(--peso-leve); }
+.apoio  { color: var(--cor-texto-secundario); }
+.itl    { font-family: var(--fonte-display); font-style: italic; color: var(--cor-primaria); }
+
+/* Cartão com fio fino, fundo levemente mais claro que a página */
+.card {
+  background: var(--cor-card); border: var(--borda-card) solid var(--cor-card-borda);
+  border-radius: var(--borda-arredondada); padding: 40px;
+}
+.card.destaque { border-color: var(--cor-linha); }
+
+/* Filete dourado sobre numeração e listas (01, 02, 03) */
+.filete { border-top: 1px solid var(--cor-linha); padding-top: 18px; }
+.filete .n { font-family: var(--fonte-display); font-style: italic; color: var(--cor-primaria); font-size: 34px; }
+
+/* Pílula */
+.pilula {
+  display: inline-block; padding: 12px 26px; border: 1px solid var(--cor-linha);
+  border-radius: 999px; color: var(--cor-texto); font-size: 28px;
+}
+
+/* Bloco de citação / síntese em serifada itálica */
+.citacao {
+  font-family: var(--fonte-display); font-style: italic; color: var(--cor-texto);
+  font-size: 52px; line-height: 1.15;
+}
+.citacao b { color: var(--cor-primaria); font-weight: 500; }
+
+/* Rodapé discreto */
+.rodape {
+  position: absolute; left: var(--padding-slide); right: var(--padding-slide);
+  bottom: calc(var(--margem-rodape) - 60px);
+  display: flex; justify-content: space-between;
+  color: var(--cor-texto-secundario); font-size: 24px;
+}

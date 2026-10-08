@@ -58,7 +58,7 @@ Se descrever sem nome: sugira 2-3 fontes do Google Fonts com o link para preview
 
 Atualize `marca/perfil.md` com as mudanças.
 
-Se as mudanças afetarem o sistema visual (cores, fonte, estilo), regenere `marca/sistema-visual.css` completamente.
+Se as mudanças afetarem o sistema visual (cores, fonte, estilo), regenere completamente o `marca/sistema-visual-[identidade].css` da identidade alterada (azul ou dourado).
 
 Mostre ao usuário o que foi alterado:
 > "Feito. Atualizei o perfil com:

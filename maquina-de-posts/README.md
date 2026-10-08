@@ -15,7 +15,7 @@ Requisitos: Claude Code, Node.js 18+. O Puppeteer é instalado na pasta do seu p
 
 | Comando | O que faz |
 |---|---|
-| `/começar` (ou `/comecar`) | Instala o Puppeteer, coleta a marca (3 rodadas), gera `marca/perfil.md` e `marca/sistema-visual.css`, pesquisa de Instagram, foto de perfil |
+| `/começar` (ou `/comecar`) | Instala o Puppeteer, coleta a marca (3 rodadas), gera `marca/perfil.md` e `marca/sistema-visual-[identidade].css` (o `/carrossel` pergunta sempre qual identidade usar), pesquisa de Instagram, foto de perfil |
 | `/carrossel [tema]` | Estratégia, plano de slides com aprovação, HTMLs e PNGs 1080x1350 |
 | `/marca` | Atualiza identidade, tom, nicho ou CTA sem refazer o setup |
 

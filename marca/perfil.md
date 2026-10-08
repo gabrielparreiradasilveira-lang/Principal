@@ -4,7 +4,9 @@
 **Nicho:** Certificações do mercado financeiro brasileiro (ANBIMA e demais)
 **Público-alvo:** Estudantes e profissionais no início ou em transição de carreira para o mercado financeiro, em busca dos conteúdos da prova e de preparação para certificações financeiras no Brasil.
 
-## Identidade visual
+## Identidades visuais (duas; perguntar SEMPRE qual usar antes de cada carrossel)
+
+### Identidade AZUL (`marca/sistema-visual-azul.css`)
 **Cor principal:** #3B82F6 (azul de destaque, usado em rótulos, títulos de abertura e ícones)
 **Cor secundária:** #D4AF6A (dourado, usado em destaques raros: numeração, selo, item "elite")
 **Fundo:** #071020 (azul quase preto) e #0A1628; cards em #132A4E com borda #22406E
@@ -22,3 +24,12 @@
 - Conteúdo de prova (padrão ANBIMA): enunciado, alternativas e explicação do porquê de cada resposta.
 - Evitar linguagem de "curso milagroso". Números e regras citados devem ser conferidos na fonte oficial da certificação.
 - Zero emojis. Sem logotipo de terceiros: o estilo é referência, a marca é @gparreiraaa.
+
+## Identidade DOURADA (`marca/sistema-visual-dourado.css`)
+**Referência:** peça comercial "Turmas ao vivo" (preto, ouro, serifada editorial). Cores extraídas da imagem por amostragem de pixels.
+**Fundo:** #0B0A08 (preto quente); cartões em #13120E com fio #1C1B17
+**Ouro (único acento):** #C9AD78; ouro apagado para filetes e pílulas #5D5443; ouro claro pontual #DBC28A
+**Texto:** #F3EFE8 (títulos), #D5D1CA (corpo), #928E86 (apoio e valores riscados)
+**Fontes:** Cormorant Garamond (títulos, números e itálico de destaque) e Inter (apoio e corpo)
+**Estilo:** editorial premium. Rótulo em caixa alta com filete dourado à esquerda, título serifado com uma palavra em itálico ouro, filetes finos numerados em itálico, cartões de cantos quase retos, pílulas com contorno ouro apagado, círculos concêntricos finos no canto superior direito.
+**Quando usar (sugestão):** conteúdo de posicionamento, valor e autoridade. A azul serve melhor a conteúdo didático e técnico.
