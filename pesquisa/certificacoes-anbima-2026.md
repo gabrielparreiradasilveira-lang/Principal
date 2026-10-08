@@ -73,3 +73,12 @@ Não constam nas páginas: nota mínima, pesos por módulo e validade. O program
 - ANBIMA Edu, C-Pro R: https://anbimaedu.com.br/certificacao/cpro-r
 - ANBIMA Edu, C-Pro I: https://anbimaedu.com.br/certificacao/cpro-i
 - Provas antigas (secundária): https://www.topinvest.com.br/blog/conhecendo-a-prova-da-cpa-10/ e https://www.infomoney.com.br/carreira/cpa-10-cpa-20-e-cea-veja-como-obter-as-certificacoes-para-atuar-no-mercado-financeiro/
+
+## 8. Dados confirmados por Gabriel em 08/10/2026 [INFORMADO PELO AUTOR]
+
+- CPA: 50 questões, mínimo de 35 acertos.
+- C-Pro R: 45 questões, mínimo de 32 acertos.
+- C-Pro I: 40 questões, mínimo de 28 acertos.
+- O prazo de transição das antigas (CPA-10, CPA-20 e CEA) termina em dezembro de 2026.
+- Os números das provas antigas não foram confirmados. Não usar no carrossel; comparar só o tipo de prova.
+- A nota mínima das novas não consta nas páginas da ANBIMA Edu. Usar com a fonte "ANBIMA" apenas se Gabriel confirmar a origem.
