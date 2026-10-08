@@ -1,0 +1,124 @@
+/* Sistema Visual — @gparreiraaa */
+/* Gerado automaticamente pela Máquina de Posts */
+/* Referência de estilo: deck "X8 e UNIP" (dark navy editorial). Paleta e fonte extraídas do arquivo. */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root {
+  /* Cores */
+  --cor-primaria: #3B82F6;            /* azul: rótulos, título de abertura, ícones */
+  --cor-secundaria: #D4AF6A;          /* dourado: numeração, selo, destaque raro */
+  --cor-fundo: #071020;               /* fundo do slide */
+  --cor-fundo-alt: #0A1628;           /* fundo alternativo e arcos decorativos */
+  --cor-card: #132A4E;                /* cards e blocos de citação */
+  --cor-card-borda: #22406E;          /* borda dos cards */
+  --cor-texto: #FFFFFF;               /* títulos */
+  --cor-texto-corpo: #E8EDF5;         /* desenvolvimento */
+  --cor-texto-secundario: #94A3B8;    /* apoio, fontes, rodapé */
+  --cor-destaque: #2563EB;            /* azul mais forte: bordas de destaque, ícones ativos */
+
+  /* Tipografia */
+  --fonte-principal: 'Poppins', system-ui, sans-serif;
+  --tamanho-hook: 120px;       /* Headline do slide 1 (escala 110-140px, peso 800) */
+  --tamanho-titulo: 88px;      /* Títulos nos slides do meio (escala 80-100px, peso 700) */
+  --tamanho-corpo: 36px;       /* Texto de desenvolvimento (escala 32-40px) */
+  --tamanho-eyebrow: 36px;     /* Rótulo em caixa alta, azul, com espaçamento entre letras */
+  --tamanho-cta: 40px;         /* CTA final */
+  --peso-leve: 400;
+  --peso-normal: 600;
+  --peso-forte: 700;
+  --peso-hook: 800;
+  --altura-linha: 1.3;
+  --espacamento-eyebrow: 0.18em;
+
+  /* Espaçamento */
+  --padding-slide: 88px;
+  --gap-elementos: 34px;
+  --margem-rodape: 132px;
+
+  /* Forma */
+  --borda-arredondada: 12px;   /* Cards e elementos internos */
+  --borda-card: 2px;           /* Espessura da borda dos cards */
+  --raio-arco: 280px;          /* Arco decorativo no canto superior direito */
+}
+
+/* Base do slide */
+html, body { margin: 0; padding: 0; }
+body {
+  width: 1080px;
+  height: 1350px;
+  background: var(--cor-fundo);
+  color: var(--cor-texto-corpo);
+  font-family: var(--fonte-principal);
+  line-height: var(--altura-linha);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Arco decorativo (canto superior direito), sem competir com o texto */
+.arco {
+  position: absolute;
+  top: calc(var(--raio-arco) * -0.5);
+  right: calc(var(--raio-arco) * -0.5);
+  width: var(--raio-arco);
+  height: var(--raio-arco);
+  border-radius: 50%;
+  background: var(--cor-fundo-alt);
+  opacity: 0.9;
+}
+
+/* Rótulo acima do título */
+.eyebrow {
+  color: var(--cor-primaria);
+  font-size: var(--tamanho-eyebrow);
+  font-weight: var(--peso-normal);
+  text-transform: uppercase;
+  letter-spacing: var(--espacamento-eyebrow);
+}
+
+.hook   { color: var(--cor-primaria); font-size: var(--tamanho-hook); font-weight: var(--peso-hook); line-height: 1.1; }
+.titulo { color: var(--cor-texto);    font-size: var(--tamanho-titulo); font-weight: var(--peso-forte); line-height: 1.15; }
+.corpo  { color: var(--cor-texto-corpo); font-size: var(--tamanho-corpo); font-weight: var(--peso-leve); }
+.apoio  { color: var(--cor-texto-secundario); }
+
+/* Card */
+.card {
+  background: var(--cor-card);
+  border: var(--borda-card) solid var(--cor-card-borda);
+  border-radius: var(--borda-arredondada);
+  padding: 40px;
+}
+.card.destaque { border-color: var(--cor-secundaria); }
+
+/* Bloco de citação / síntese */
+.citacao {
+  background: var(--cor-card);
+  border-radius: var(--borda-arredondada);
+  padding: 44px 48px;
+  color: var(--cor-texto);
+  font-size: var(--tamanho-corpo);
+  font-weight: var(--peso-normal);
+}
+
+/* Numeração em círculo dourado */
+.selo {
+  width: 96px; height: 96px;
+  border: 3px solid var(--cor-secundaria);
+  border-radius: 50%;
+  color: var(--cor-secundaria);
+  font-size: 44px;
+  font-weight: var(--peso-normal);
+  display: flex; align-items: center; justify-content: center;
+}
+
+/* Rodapé discreto: @ e numeração, acima da borda inferior */
+.rodape {
+  position: absolute;
+  left: var(--padding-slide);
+  right: var(--padding-slide);
+  bottom: calc(var(--margem-rodape) - 60px);
+  display: flex;
+  justify-content: space-between;
+  color: var(--cor-texto-secundario);
+  font-size: 24px;
+}
