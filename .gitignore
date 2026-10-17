@@ -36,3 +36,8 @@ yarn-error.log*
 
 # Estado gerado pelas ferramentas ruflo (não versionar)
 .claude-flow/
+# Estado de execução do ruflo (não versionar)
+.swarm/
+agentdb.rvf
+agentdb.rvf.lock
+ruvector.db
