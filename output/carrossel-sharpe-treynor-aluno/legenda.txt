@@ -1,0 +1,15 @@
+Mesmos fundos, vencedores trocados.
+
+Dois fundos com o mesmo beta (0,8) e taxa livre de risco de 10% ao ano. O Fundo A, concentrado, rende 16% com volatilidade de 20%. O Fundo B, diversificado, rende 14% com volatilidade de 8%.
+
+Pelo Índice de Sharpe, vence o B (0,50 contra 0,30). Pelo Índice de Treynor, vence o A (7,5 contra 5,0).
+
+As duas contas estão certas. O Sharpe divide pelo risco total. O Treynor divide pelo beta, que mede o risco de mercado, e parte do princípio de que o fundo é uma fatia de uma carteira já diversificada.
+
+Para a prova, o que importa é saber qual índice combina com a carteira do investidor. Se o fundo é todo (ou quase todo) o patrimônio dele, use o Sharpe. Se é uma fatia de uma carteira diversificada, o Treynor faz sentido.
+
+Exemplo hipotético, com volatilidade do mercado em torno de 10% ao ano. Conteúdo educacional, sem recomendação de investimento.
+
+Salve para revisar antes da prova.
+
+#IndiceDeSharpe #IndiceDeTreynor #CPRO #CGA #CertificacaoANBIMA #MercadoFinanceiro
