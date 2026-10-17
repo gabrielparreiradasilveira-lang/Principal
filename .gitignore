@@ -33,3 +33,6 @@ yarn-error.log*
 # Temporary files
 *.tmp
 .claude/settings.local.json
+
+# Estado gerado pelas ferramentas ruflo (não versionar)
+.claude-flow/
