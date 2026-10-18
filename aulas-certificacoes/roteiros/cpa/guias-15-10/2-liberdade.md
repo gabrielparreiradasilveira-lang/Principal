@@ -2,212 +2,237 @@
 
 # Roteiro de fala — Aula CPA: Lei de Liberdade Econômica (Lei 13.874/2019)
 
+CPA 1.4.11 · Módulo 1 · **24 min** (metáfora 3 + tópicos 18 + prova 3)
+
+**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor, sem fala · ✏️ = correção · ➕ = acréscimo · 🔗 = ponte.
+
+## Bastidor — antes de gravar
+
+### 🔇 O que mudou em relação à guia original
+
+| Na guia original | Nesta versão |
+| --- | --- |
+| Tabela do art. 4º sem fala por inciso | Cada proibição ganhou uma frase com exemplo |
+| Tabela dos arts. 1.368-C a F sem fala | Cada artigo virou um marcador com fala |
+| Termos sem explicação: "ordenação pública", "infralegal", "autarquia", "oponibilidade", "dolo", "medida compensatória" | Todos explicados na primeira vez que aparecem |
+| Pegadinha da "Redesim" sem correção | Correção explicada na fala |
+| Pontes curtas, sem ligar os temas | Cada ponte termina com a pergunta que o tópico seguinte responde |
+
+### ✏️ Correções mantidas da guia original
+
+| # | O material diz | O correto | Base |
+| --- | --- | --- | --- |
+| 1 | 4º princípio: "presunção de liberdade nas relações privadas" | **Reconhecimento da vulnerabilidade do particular perante o Estado** | Lei 13.874/2019, art. 2º, IV |
+| 2 | Intervenção "mínima" | Intervenção **subsidiária e excepcional** | Lei 13.874/2019, art. 2º, III |
+| 3 | Direito de testar produto com grupo restrito sem autorização | **Vetado** (art. 3º, VII) | Lei 13.874/2019 |
+
+### 🔇 Fora da fala
+
+- O art. 1º, § 3º, afasta os arts. 1º a 4º do direito tributário e financeiro, com ressalvas. A redação exata não foi reaberta.
+- O regulamento da AIR (Decreto 10.411/2020) não foi reaberto.
+- **HP12C:** este bloco não tem cálculo.
+
 ## 2. Metáfora central — 3 min
 
 ### Metáfora: o portão aberto com guarda na rua
 
-- **Antes: o porteiro**
-  - "Antes dessa lei, o Estado funcionava como um porteiro. Para abrir um negócio, você precisava da chave dele, que era a licença prévia, o alvará. Sem a chave, ninguém entrava."
-- **Depois: o guarda**
-  - "Com a lei, para as atividades de baixo risco, o portão fica aberto. O Estado deixa de ser porteiro e vira um guarda na rua: não impede a entrada, mas fiscaliza depois e age se houver problema."
-- **O guarda também tem regras**
-  - "Esse guarda também tem limites. Não pode criar reserva de mercado, ou seja, deixar só um grupo vender. Não pode barrar concorrentes. E, antes de colocar uma placa nova de trânsito, precisa explicar o impacto dela. Na lei, isso se chama Análise de Impacto Regulatório: um estudo que mostra se a regra nova vale o custo que impõe."
-- **Quem entra é responsável**
-  - "E quem entra pelo portão aberto continua responsável: cumpre as leis ambientais, trabalhistas e fiscais. Liberdade não é terra sem lei."
+- **O porteiro de antes**
+  - "Imagine uma rua comercial com um portão na entrada. Antes da lei, o Estado ficava nesse portão como porteiro, segurando a chave. A chave era o alvará: sem ele, nenhuma loja abria, mesmo que fosse uma barbearia."
+- **O guarda de agora**
+  - "A lei tirou o porteiro do portão para quem tem atividade simples, de baixo risco. O portão fica aberto. O Estado passa a ser um guarda andando pela rua: deixa entrar, observa e só age se alguém fizer algo errado."
+- **O guarda não escolhe lado**
+  - "Esse guarda tem limites. Não pode deixar só a loja do amigo funcionar, não pode inventar exigência para afastar loja nova e, antes de pôr uma placa nova na rua, tem de mostrar que ela compensa o incômodo que causa."
+- **Quem entra continua respondendo**
+  - "E o lojista que entrou pelo portão aberto não ganhou passe livre. Continua seguindo as leis de meio ambiente, de trabalho e de impostos."
 
 ### Correspondência técnica
 
-| Elemento da metáfora | Correspondência técnica |
+| Na rua | Na lei |
 | --- | --- |
-| Porteiro com a chave | Licença e alvará prévios ("ato público de liberação") |
-| Portão aberto | Liberdade como regra; atividade de baixo risco sem ato de liberação |
-| Guarda na rua | Intervenção subsidiária e excepcional; fiscalização posterior |
-| Guarda que não favorece ninguém | Proibição de abuso do poder regulatório (art. 4º) |
-| Explicar cada nova placa | Análise de Impacto Regulatório (art. 5º) |
-| Quem entra é responsável | Liberdade com responsabilidade |
+| Chave do porteiro | **Ato público de liberação**: alvará, licença, autorização |
+| Portão aberto | Atividade de **baixo risco** dispensada de liberação (art. 3º, I) |
+| Guarda que só age se precisar | Intervenção **subsidiária e excepcional** (art. 2º, III) |
+| Guarda que não escolhe lado | Proibição de **abuso do poder regulatório** (art. 4º) |
+| Mostrar que a placa compensa | **Análise de Impacto Regulatório** (art. 5º) |
+| Lojista continua respondendo | Liberdade **com responsabilidade** |
 
 - **Lendo a tabela**
-  - "Dois nomes técnicos vão voltar a aula inteira. 'Ato público de liberação' é o nome que a lei dá a qualquer alvará, licença ou autorização. E 'intervenção subsidiária e excepcional' é o guarda que só age quando precisa."
+  - "Guarde dois nomes, porque vão voltar a aula toda. 'Ato público de liberação' é o nome jurídico de qualquer papel que o governo precisa dar para você começar: alvará, licença, autorização. E 'intervenção subsidiária e excepcional' é o guarda: ele só entra em cena quando o particular não resolve sozinho."
 
-> Liberdade é a regra, restrição é a exceção, e o Estado fiscaliza depois.
+> **A liberdade é a regra; a restrição é a exceção; o Estado fiscaliza depois.**
 
-🔗 **Ponte:** "Se a Constituição já falava em livre iniciativa, por que foi preciso uma lei nova?"
+**🔗 Ponte:** "Se a Constituição já falava em livre iniciativa desde 1988, por que foi preciso uma lei nova em 2019?"
 
-## 3. Explicação dos tópicos — 21 min
+## 3. Explicação dos tópicos — 18 min
 
-### 3.1 Contexto e propósito — 2 min
+### 3.1 Contexto e propósito — 2 min · CPA 1.4.11
 
-- **A Constituição já garantia**
-  - "A livre iniciativa está na Constituição, no artigo 170, como um dos fundamentos da ordem econômica, ou seja, das regras gerais da economia do país. Mas faltavam regras práticas: o empreendedor tinha o direito no papel e o carimbo na vida real."
-- **O que a lei fez**
-  - "A Lei 13.874, de 2019, veio para três coisas. Desburocratizar, tirando exigências desnecessárias. Dar segurança jurídica, para que o empreendedor conheça as regras e confie que elas não vão mudar no meio do caminho. E tornar a livre iniciativa exigível, ou seja, algo que se pode cobrar do Estado. O alvo era o excesso de burocracia, a demora para abrir e fechar empresas e a insegurança dos pequenos negócios."
-- **Onde vale**
-  - "Ela vale para o direito civil, empresarial, econômico, urbanístico e do trabalho, e orienta a interpretação das normas que o poder público cria sobre atividades econômicas."
-  - 🔇 O art. 1º, § 3º, afasta a aplicação dos arts. 1º a 4º ao direito tributário e financeiro, com ressalvas. A redação exata não foi reaberta e fica fora da fala.
+- **O direito que ficava no papel**
+  - "A Constituição, no artigo 170, coloca a livre iniciativa como um dos fundamentos da ordem econômica, que é o conjunto de regras básicas da economia do país. O problema era a prática: o direito existia, mas o empreendedor esbarrava em carimbo, fila e licença para tudo."
+- **Os três objetivos da lei**
+  - "A Lei 13.874, de 2019, mirou três coisas. Primeiro, desburocratizar: cortar exigência que não serve para nada. Segundo, segurança jurídica: o empreendedor precisa saber a regra hoje e confiar que ela não muda no meio do caminho. Terceiro, tornar a livre iniciativa exigível, isto é, algo que o cidadão pode cobrar do poder público."
+- **Onde a lei vale**
+  - "Ela se aplica ao direito civil, empresarial, econômico, urbanístico e do trabalho. E orienta como ler as normas de ordenação pública, que são as regras com que o governo organiza e fiscaliza as atividades econômicas: zoneamento, licenças, horários."
 
-> ➕ A Constituição garantia; a Lei 13.874 tornou exigível.
+> **A Constituição prometeu a livre iniciativa; a Lei 13.874 deu ferramentas para cobrá-la.**
 
-🔗 **Ponte:** "Toda lei desse tipo começa pelos princípios, que são as ideias-mãe para ler o resto. São quatro, e a prova cobra a lista exata."
+**🔗 Ponte:** "Para cobrar, a lei começa definindo suas ideias-mãe. São quatro princípios, e a prova cobra a lista exata."
 
-### 3.2 Princípios (art. 2º) — 4 min
+### 3.2 Princípios (art. 2º) — 4 min · CPA 1.4.11
 
-| # | Princípio (texto da lei) | Em palavras simples |
+| # | Princípio (texto da lei) | Tradução |
 | --- | --- | --- |
-| I | **Liberdade como garantia** no exercício de atividades econômicas | Pode empreender, salvo restrição legal |
-| II | **Boa-fé do particular** perante o poder público | O Estado presume a honestidade do cidadão |
-| III | **Intervenção subsidiária e excepcional** do Estado sobre o exercício de atividades econômicas | O Estado só intervém quando necessário, e como exceção |
-| IV | **Reconhecimento da vulnerabilidade do particular** perante o Estado | O cidadão é a parte mais fraca diante do Estado |
+| I | **Liberdade como garantia** no exercício de atividades econômicas | Empreender é permitido, salvo proibição em lei |
+| II | **Boa-fé do particular** perante o poder público | O Estado parte da premissa de que você é honesto |
+| III | **Intervenção subsidiária e excepcional** do Estado | O Estado entra por último e por exceção |
+| IV | **Reconhecimento da vulnerabilidade do particular** perante o Estado | Diante do Estado, o cidadão é o lado mais fraco |
 
-- **Primeiro: liberdade como garantia**
-  - "Você pode exercer uma atividade econômica, salvo se uma lei proibir. A liberdade vem antes; a restrição precisa ser justificada."
-- **Segundo: boa-fé do particular**
-  - "'Particular' é o cidadão ou a empresa privada, em oposição ao Estado. O poder público parte do princípio de que você está agindo honestamente."
-- **Terceiro: intervenção subsidiária e excepcional**
-  - "Subsidiária quer dizer que o Estado só entra quando o particular não resolve sozinho. Excepcional quer dizer que intervir é exceção, não regra."
-- **Quarto: vulnerabilidade do particular**
-  - "Numa relação entre o cidadão e o poder público, o cidadão é o lado mais fraco, e a lei leva isso em conta ao interpretar as regras."
-- ✏️ **O erro do material**
-  - "Cuidado: o material e a apostila dão como quarto princípio a 'presunção de liberdade nas relações privadas'. Não é. O quarto é a vulnerabilidade do particular perante o Estado. E o terceiro é 'subsidiária e excepcional', não 'mínima'."
+- **Princípio I: liberdade como garantia**
+  - "Não é você que precisa provar que pode empreender. A liberdade já vem garantida; quem quiser restringir precisa de uma lei que diga isso."
+- **Princípio II: boa-fé do particular**
+  - "Boa-fé é agir com honestidade. A lei manda o poder público começar acreditando em você. Se desconfiar, cabe a ele mostrar o porquê."
+- **Princípio III: intervenção subsidiária e excepcional**
+  - "Duas palavras, dois sentidos. Subsidiária quer dizer que o Estado só age quando o particular não dá conta sozinho. Excepcional quer dizer que isso é exceção, não o dia a dia."
+- **Princípio IV: vulnerabilidade do particular**
+  - "Vulnerável é quem está em posição mais fraca. Numa disputa com o governo, que tem fiscais, multas e advogados, o cidadão é o vulnerável, e a lei manda considerar isso."
+- **✏️ O erro da apostila**
+  - "Atenção: a apostila troca o quarto princípio por 'presunção de liberdade nas relações privadas' e chama a intervenção de 'mínima'. Na prova, vale o texto da lei: o quarto é a vulnerabilidade do particular, e a intervenção é subsidiária e excepcional."
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
-| "A intervenção do Estado é prioritária e preventiva" | Errado | Subsidiária e excepcional |
+| "A intervenção do Estado é prioritária e preventiva" | Errado | É subsidiária e excepcional |
 | "A lei presume a má-fé do particular" | Errado | Presume a boa-fé |
-| "O Estado é a parte vulnerável na relação com o particular" | Errado | O particular é o vulnerável |
+| "O Estado é a parte vulnerável" | Errado | O vulnerável é o particular |
 | "O 4º princípio é a presunção de liberdade nas relações privadas" | Errado | É a vulnerabilidade do particular perante o Estado |
 
-> Liberdade, boa-fé, Estado excepcional e particular vulnerável.
+> **Liberdade garantida, boa-fé presumida, Estado por exceção, cidadão vulnerável.**
 
-🔗 **Ponte:** "Desses quatro princípios saem direitos concretos, que a lei chama de 'direitos de liberdade econômica'. São doze incisos; vamos um a um."
+**🔗 Ponte:** "Princípio é ideia geral. Na hora de abrir a loja, o empreendedor precisa de direitos concretos. É o que o artigo 3º entrega."
 
-### 3.3 Direitos de liberdade econômica (art. 3º) — 6 min
+### 3.3 Direitos de liberdade econômica (art. 3º) — 6 min · CPA 1.4.11
 
-| Inciso | Direito | Em palavras simples |
+| Inciso | Direito | Em uma linha |
 | --- | --- | --- |
-| I | Atividade de **baixo risco** sem **ato público de liberação** | Sem alvará nem licença prévia |
+| I | Atividade de **baixo risco** sem ato público de liberação | Sem alvará prévio |
 | II | Funcionar em **qualquer horário ou dia**, inclusive feriados | Respeitando normas ambientais, trabalhistas, de vizinhança e de condomínio |
-| III | **Definir preço livremente em mercados não regulados** | Conforme oferta e demanda |
-| IV | **Tratamento isonômico** nos atos de liberação | Mesmos critérios usados em casos iguais anteriores |
-| V | **Presunção de boa-fé** | Dúvidas de interpretação resolvidas a favor da autonomia privada |
-| VI | **Inovar** quando as normas infralegais ficam desatualizadas pelo avanço tecnológico | Nos termos do regulamento |
-| VII | **VETADO** | (Testar produto com grupo restrito sem ato de liberação) |
-| VIII | **Livre estipulação** nos negócios empresariais **paritários** | O contrato entre iguais prevalece; regras empresariais só subsidiárias |
-| IX | **Prazo máximo** para a análise dos pedidos de liberação; vencido o prazo, o silêncio = **aprovação tácita** | Ressalvadas as vedações legais |
-| X | **Arquivar documentos em meio digital** | Equiparado ao original |
-| XI | Não sofrer exigência de **medida compensatória ou mitigatória abusiva** | A administração não pode cobrar contrapartida desproporcional |
-| XII | Não ser exigida **certidão sem previsão expressa em lei** | Sem papel inventado |
+| III | **Preço livre** em mercados **não regulados** | Oferta e demanda decidem |
+| IV | **Tratamento isonômico** nos atos de liberação | Mesmo critério para casos iguais |
+| V | **Presunção de boa-fé** | Na dúvida, prevalece a autonomia privada |
+| VI | **Inovar** quando a norma infralegal fica ultrapassada pela tecnologia | Nos termos do regulamento |
+| VII | VETADO | (testar produto com grupo restrito sem liberação) |
+| VIII | **Livre estipulação** nos contratos empresariais **paritários** | Vale o combinado entre iguais |
+| IX | **Prazo máximo** de análise; vencido, **aprovação tácita** | Salvo vedação legal |
+| X | **Arquivo digital** com valor de original | Papel dispensável |
+| XI | Sem **medida compensatória ou mitigatória abusiva** | Sem contrapartida desproporcional |
+| XII | Sem **certidão** não prevista em lei | Sem papel inventado |
 
-- **Baixo risco sem alvará (I)**
-  - "Inciso é cada item numerado em algarismo romano dentro de um artigo. O primeiro é o mais famoso: atividade de baixo risco não precisa de ato público de liberação, ou seja, de alvará, licença ou autorização. Exemplos: loja de roupas, barbearia, serviços administrativos. Quem define o que é baixo risco são estados e municípios. Se não houver norma local, vale a classificação federal."
-- **Horário (II) e preço (III)**
-  - "Dá para funcionar em qualquer horário ou dia, inclusive feriado, respeitando as normas ambientais, trabalhistas e de vizinhança. E o preço é livre, mas leia a expressão inteira: em mercados não regulados. Mercado regulado é aquele que tem um órgão próprio fazendo regras, como o financeiro, com a CVM e o Banco Central. A lei não autoriza ninguém a ignorar essas regras."
-- **Isonomia e boa-fé (IV e V)**
-  - "Isonomia quer dizer tratamento igual: o órgão público tem de usar com você os mesmos critérios que usou em casos iguais. E, na dúvida sobre como interpretar uma regra de direito civil, empresarial, econômico ou urbanístico, vale a leitura que preserva a autonomia privada, ou seja, a sua liberdade de decidir."
-- **Inovação (VI) e o veto (VII)**
-  - "Normas infralegais são as regras abaixo da lei, como resoluções e portarias. Quando a tecnologia deixa uma delas desatualizada, a lei permite desenvolver e vender novos produtos e serviços, nos termos do regulamento. Mas o inciso sete, que permitia testar um produto novo com um grupo restrito sem nenhuma autorização, foi vetado, ou seja, retirado pelo Presidente antes de a lei valer, e o veto foi mantido. Esse direito não existe."
-  - 🔇 Os testes regulados de inovação no mercado financeiro seguem o *sandbox* regulatório da CVM e do BC, tema do Módulo 4.
-- **Contratos paritários (VIII)**
-  - "Paritário quer dizer entre iguais. Nos negócios entre empresas em pé de igualdade, vale o que as partes combinaram. As regras do direito empresarial entram só para preencher o que o contrato não disse."
-- **Aprovação tácita (IX)**
-  - "Quando a licença é exigida, o órgão tem de informar o prazo máximo da análise. Se o prazo vencer sem resposta, o silêncio vale como aprovação. Tácita quer dizer sem palavras: aprovação pelo silêncio, com as exceções previstas em lei."
-- **Documento digital, compensação e certidão (X, XI e XII)**
-  - "Você pode arquivar documentos em meio digital, com o mesmo valor do papel. O poder público não pode exigir contrapartida abusiva para liberar uma atividade, como obrigar a empresa a fazer uma obra desproporcional. E não pode exigir certidão que nenhuma lei prevê."
-- **Liberdade com responsabilidade**
-  - "Nada disso dispensa as normas ambientais, trabalhistas e fiscais. O empreendedor ganha liberdade e assume os riscos do negócio."
+- **Lendo a tabela**
+  - "São doze incisos, mas um deles, o sétimo, foi vetado: não vale. Vou agrupar os onze que valem em quatro blocos: começar, funcionar, ser tratado com justiça e não ser travado pela papelada."
+- **Bloco 1: começar sem alvará (I)**
+  - "Atividade de baixo risco não precisa de ato público de liberação. Exemplos: loja de roupas, barbearia, escritório administrativo. Quem diz o que é baixo risco são estados e municípios; se não tiverem regra própria, vale a lista federal."
+- **Bloco 2: funcionar com liberdade (II e III)**
+  - "Dá para abrir em qualquer dia e horário, feriado inclusive, respeitando as regras de meio ambiente, trabalho e vizinhança. E o preço é livre, mas leia a frase inteira: em mercados não regulados. Mercado regulado é aquele que tem um órgão próprio fixando regras, como o financeiro, com CVM e Banco Central. Lá, a lei de liberdade econômica não passa por cima do regulador."
+- **Bloco 3: ser tratado com justiça (IV e V)**
+  - "Isonômico quer dizer igual. Se o órgão aprovou o pedido do vizinho com certo critério, tem de usar o mesmo critério com você. E, quando uma regra de direito civil ou empresarial der margem a duas leituras, vale a que preserva a autonomia privada, que é a sua liberdade de decidir os próprios negócios."
+- **Bloco 4: não ser travado (VI, VIII a XII)**
+  - "Norma infralegal é a regra que está abaixo da lei, como decreto, portaria ou resolução. Quando a tecnologia deixa uma dessas normas velha, a lei permite inovar, seguindo o regulamento."
+  - "Contrato paritário é o feito entre empresas em pé de igualdade, sem uma parte mais fraca. Nesse caso, vale o que foi combinado; a lei empresarial só completa o que ficou faltando."
+  - "Ao pedir uma licença obrigatória, você tem direito de saber o prazo máximo de resposta. Se o prazo vencer e o órgão ficar calado, o pedido está aprovado. É a aprovação tácita, ou seja, aprovação por silêncio, com as exceções da lei."
+  - "Documento guardado em meio digital vale como o original. O governo não pode exigir medida compensatória ou mitigatória abusiva, que é cobrar uma contrapartida desproporcional para liberar a atividade, como mandar o lojista reformar a praça inteira. E não pode pedir certidão que nenhuma lei prevê."
+- **O inciso vetado (VII)**
+  - "O texto previa testar um produto novo com um grupo pequeno de pessoas sem nenhuma autorização. Foi vetado, e o veto ficou. Esse direito não existe."
+  - 🔇 Testes de inovação no mercado financeiro seguem o sandbox regulatório da CVM e do BC (Módulo 4).
+- **O que a liberdade não apaga**
+  - "Nenhum desses direitos dispensa leis ambientais, trabalhistas e fiscais. O empreendedor ganha liberdade e, junto, assume os riscos do próprio negócio."
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
 | "A lei garante preço livre em qualquer mercado" | Errado | Só em mercados não regulados |
-| "Atividade de baixo risco dispensa as normas trabalhistas" | Errado | Dispensa só o ato de liberação |
-| "O silêncio da administração, vencido o prazo, significa indeferimento" | Errado | Significa aprovação tácita (salvo vedação legal) |
-| "A lei permite testar qualquer produto com grupo restrito sem autorização" | Errado | Inciso VII vetado |
-| "A lista de baixo risco é sempre federal" | Errado | Estados e municípios podem definir; o federal vale na falta de norma local |
+| "Baixo risco dispensa as normas trabalhistas" | Errado | Dispensa só o ato de liberação |
+| "Vencido o prazo, o silêncio do órgão significa indeferimento" | Errado | Significa aprovação tácita, salvo vedação legal |
+| "Pode-se testar produto com grupo restrito sem autorização" | Errado | Inciso VII vetado |
+| "A lista de baixo risco é sempre federal" | Errado | Estados e municípios definem; a federal vale na falta de norma local |
 
-> ➕ Baixo risco sem alvará, preço livre fora dos mercados regulados, boa-fé presumida e silêncio que aprova.
+> **Baixo risco abre sem alvará; preço é livre fora dos mercados regulados; silêncio no prazo aprova.**
 
-🔗 **Ponte:** "A lei não dá só direitos ao particular. Ela também limita o Estado, e é aqui que está a 'garantia de livre mercado' do programa da prova."
+**🔗 Ponte:** "Até agora, vimos o que o particular ganhou. Mas o programa da prova fala em 'garantias de livre mercado', e elas são limites impostos ao próprio Estado."
 
-### 3.4 Garantias de livre mercado: limites ao Estado (arts. 4º e 5º) — 5 min
+### 3.4 Garantias de livre mercado: limites ao Estado (arts. 4º e 5º) — 4 min · CPA 1.4.11
 
-**Abuso do poder regulatório (art. 4º).** Ao editar normas, a administração pública **não pode**, indevidamente:
-
-| Inciso | Proibição | Exemplo |
+| Inciso | O Estado não pode, ao regular | Exemplo |
 | --- | --- | --- |
-| I | Criar **reserva de mercado** para um grupo econômico ou profissional | Só uma associação pode emitir certificado |
-| II | Impedir ou retardar a **entrada de novos concorrentes**, nacionais ou estrangeiros | Exigência feita sob medida para barrar empresas novas |
+| I | Criar **reserva de mercado** | Só uma associação pode emitir certo certificado |
+| II | Impedir ou atrasar **novos concorrentes** | Exigência feita sob medida para barrar empresas novas |
 | III | Exigir **especificação técnica desnecessária** | Padrão técnico que não serve ao objetivo da norma |
-| IV | Impedir ou retardar a **inovação** e novas tecnologias | Proibir um modelo de negócio novo sem justificativa |
-| V | **Aumentar custos de transação** sem demonstrar benefícios | Nova obrigação cara e sem ganho comprovado |
-| VI | Criar **demanda artificial ou compulsória**, inclusive de cartórios, registros ou cadastros | Registro obrigatório sem utilidade |
-| VII | Limitar a **livre formação de sociedades** ou de atividades econômicas | Restringir quem pode ser sócio sem base legal |
-| VIII | Restringir **publicidade e propaganda** sobre um setor, salvo vedação em lei federal | Proibir anúncios de um setor inteiro por norma infralegal |
-| IX | Exigir, a pretexto de **inscrição tributária**, requisitos de outra natureza que anulem a dispensa de alvará | Usar o cadastro fiscal como alvará disfarçado |
+| IV | Travar a **inovação** | Proibir modelo de negócio novo sem justificativa |
+| V | Aumentar **custos de transação** sem mostrar benefício | Obrigação cara sem ganho comprovado |
+| VI | Criar **demanda artificial**, inclusive de cartórios e cadastros | Registro obrigatório sem utilidade |
+| VII | Limitar a **formação de sociedades** | Restringir quem pode ser sócio sem base legal |
+| VIII | Restringir **publicidade** de um setor, salvo lei federal | Proibir anúncios de um setor por portaria |
+| IX | Usar a **inscrição tributária** como alvará disfarçado | Exigir no cadastro fiscal o que a dispensa de alvará eliminou |
 
-- **Regular × abusar**
-  - "Regular é legítimo: é o Estado criando regras para uma atividade. Abuso é usar esse poder para favorecer alguém ou travar o mercado sem motivo. Pense no guarda que, em vez de proteger a rua, passa a favorecer um comerciante."
-- **As nove proibições, em uma fala**
-  - "Na tela, a lista do artigo 4º. É proibido criar reserva de mercado, que é deixar uma atividade só para um grupo; barrar concorrentes; exigir especificação técnica inútil; travar a inovação; aumentar custos de transação, ou seja, o custo de fazer negócio, sem mostrar benefício; criar demanda artificial, como um cadastro obrigatório que não serve para nada; limitar a abertura de empresas; restringir publicidade sem lei federal; e usar a inscrição fiscal como alvará disfarçado."
+- **O que é abuso do poder regulatório (art. 4º)**
+  - "Regular é criar regras para um setor. Abusar é usar esse poder para favorecer alguém ou atrapalhar sem motivo. O artigo 4º lista nove abusos proibidos."
+- **Abusos que protegem um grupo (I e II)**
+  - "Reserva de mercado é reservar uma atividade para um grupo só. E é proibido criar barreira para segurar concorrente novo, brasileiro ou estrangeiro."
+- **Abusos que encarecem sem motivo (III, V e VI)**
+  - "Exigir especificação técnica que não serve ao objetivo, aumentar custos de transação, que são os gastos para fazer um negócio acontecer, e criar demanda artificial, como obrigar a empresa a se registrar num cadastro inútil."
+- **Abusos que travam o novo (IV, VII, VIII e IX)**
+  - "Travar inovação sem justificativa, limitar quem pode abrir empresa, restringir propaganda de um setor sem lei federal e, por fim, usar a inscrição no fisco como um alvará disfarçado, pedindo lá o que a lei já tinha dispensado."
 - **Análise de Impacto Regulatório (art. 5º)**
-  - "O artigo 5º diz que as normas de interesse geral da administração pública federal, inclusive das autarquias, devem vir depois de uma Análise de Impacto Regulatório, a AIR: um estudo que avalia se a regra vale o custo que impõe. Autarquia é um órgão público com autonomia, criado por lei. Como a CVM e o Banco Central são autarquias federais, a exigência chega ao mercado financeiro."
-  - 🔇 O regulamento da AIR (Decreto 10.411/2020) não foi reaberto e fica fora da fala.
+  - "Antes de criar uma norma de interesse geral, os órgãos da administração pública federal, inclusive as autarquias, têm de fazer a AIR. Autarquia é uma entidade pública com autonomia, criada por lei para cuidar de um tema. A AIR é o estudo que pergunta: os benefícios dessa regra compensam os custos que ela cria? A CVM e o Banco Central são autarquias federais, então a exigência chega ao mercado financeiro."
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
-| "A lei proíbe o Estado de regular" | Errado | Proíbe o **abuso** do poder regulatório |
-| "A AIR é exigida para qualquer norma municipal" | Errado | O art. 5º trata da administração pública **federal** |
-| "Criar reserva de mercado é uma forma legítima de proteção" | Errado | É abuso do poder regulatório (art. 4º, I) |
+| "A lei proíbe o Estado de regular" | Errado | Proíbe o abuso do poder regulatório |
+| "A AIR vale para qualquer norma municipal" | Errado | O art. 5º trata da administração pública federal |
+| "Reserva de mercado é proteção legítima" | Errado | É abuso (art. 4º, I) |
 
-> ➕ O Estado pode regular, mas não pode favorecer, travar a concorrência nem criar custo sem mostrar o benefício.
+> **O Estado pode regular; não pode favorecer, barrar concorrente nem criar custo sem provar o benefício.**
 
-🔗 **Ponte:** "Até aqui, empreendedor e Estado. Agora o ponto que liga a lei diretamente ao mercado financeiro: os fundos de investimento."
+**🔗 Ponte:** "E onde essa lei encosta no dia a dia de quem trabalha com investimentos? Nos fundos de investimento, que ganharam regras novas no Código Civil."
 
-### 3.5 Reflexos no mercado: fundos de investimento e LTDA unipessoal — 4 min
+### 3.5 Reflexos no mercado: fundos de investimento e LTDA unipessoal — 4 min · CPA 1.4.11
 
-A Lei 13.874 incluiu no **Código Civil** o regime dos **fundos de investimento**:
-
-| Artigo do CC | Regra |
-| --- | --- |
-| **1.368-C** | Fundo é **comunhão de recursos** sob a forma de **condomínio de natureza especial**, destinado a aplicar em ativos financeiros, bens e direitos; a **CVM** disciplina; o registro do regulamento na CVM garante publicidade e oponibilidade |
-| **1.368-D** | O regulamento pode prever: **responsabilidade do cotista limitada ao valor das cotas** · responsabilidade dos prestadores de serviço **sem solidariedade** · **classes de cotas** com **patrimônio segregado** |
-| **1.368-E** | O fundo responde pelas **próprias obrigações**; prestadores respondem por prejuízos causados com **dolo ou má-fé**; fundo com responsabilidade limitada sem patrimônio suficiente → regras de **insolvência** |
-| **1.368-F** | Fundo criado por **lei específica** e regulado pela CVM segue o capítulo no que couber |
-
-- **Condomínio de natureza especial (1.368-C)**
-  - "Fundo é uma comunhão de recursos: várias pessoas juntam dinheiro para investir juntas. É condomínio porque os cotistas são donos juntos, e é especial porque não segue as regras do condomínio comum, o do prédio. Quem disciplina é a CVM. E o registro do regulamento na CVM dá publicidade e oponibilidade, ou seja, as regras passam a valer também perante terceiros, não só entre os cotistas."
-- **Responsabilidade limitada e classes (1.368-D)**
-  - "A grande mudança está aqui. O regulamento pode limitar a responsabilidade do cotista ao valor das suas cotas. Antes, se o fundo ficasse com patrimônio negativo, o cotista podia ter de colocar mais dinheiro. Pode também prever que os prestadores de serviço respondam sem solidariedade, ou seja, cada um só pela sua parte. E pode criar classes de cotas com patrimônio segregado, separado: o problema de uma classe não contamina a outra."
-  - "Repare no verbo: o regulamento pode prever. A responsabilidade limitada não é automática. Tem de estar escrita."
-- **Quem responde e a insolvência (1.368-E)**
-  - "O fundo responde pelas próprias dívidas. Os prestadores respondem pelos prejuízos que causarem com dolo, que é a intenção de prejudicar, ou com má-fé. E, se um fundo com responsabilidade limitada não tiver patrimônio para pagar o que deve, aplicam-se as regras de insolvência, parecidas com as de uma falência."
+- **Art. 1.368-C: o que é um fundo**
+  - "Fundo é uma comunhão de recursos: várias pessoas juntam dinheiro para investir em ativos financeiros, bens e direitos. A lei diz que isso é um condomínio de natureza especial. Condomínio, porque os cotistas são donos juntos. Especial, porque não segue as regras do condomínio comum do Código Civil. Quem disciplina é a CVM."
+  - "O registro do regulamento na CVM dá publicidade e oponibilidade. Oponível quer dizer que vale também contra terceiros, não só entre os cotistas."
+- **Art. 1.368-D: o que o regulamento pode prever**
+  - "Três possibilidades. Primeira: limitar a responsabilidade do cotista ao valor das suas cotas; assim, se o fundo ficar com patrimônio negativo, o cotista não precisa pôr mais dinheiro. Segunda: os prestadores de serviço respondem cada um pelo seu papel, sem solidariedade, ou seja, um não paga pelo erro do outro. Terceira: criar classes de cotas com patrimônio segregado, separado: o prejuízo de uma classe não invade a outra."
+  - "Detalhe que cai: o regulamento pode prever. Nada disso é automático; tem de estar escrito."
+- **Art. 1.368-E: quem paga as contas**
+  - "O fundo responde pelas próprias dívidas. Prestador de serviço só responde por prejuízo que causou com dolo, que é a intenção de prejudicar, ou com má-fé. E, se um fundo de responsabilidade limitada não tiver dinheiro para pagar o que deve, aplicam-se as regras de insolvência, que funcionam como uma falência."
+- **Art. 1.368-F: fundos criados por lei própria**
+  - "Fundos criados por lei específica e regulados pela CVM seguem esse capítulo no que couber, ou seja, naquilo que não contrariar a lei deles."
 - **A ligação com o Módulo 2**
-  - "Essas regras são a base legal da Resolução CVM 175, a das classes e subclasses de cotas, que você estuda em fundos de investimento."
-- **LTDA unipessoal**
-  - "A lei também mudou o artigo 1.052 do Código Civil para permitir a sociedade limitada com um único sócio, a LTDA unipessoal. Foi um passo importante para o pequeno empreendedor separar o patrimônio pessoal do patrimônio da empresa sem precisar de um sócio de fachada."
+  - "Essas regras são a base da Resolução CVM 175, a norma das classes e subclasses de cotas que você vai estudar em fundos."
+- **LTDA unipessoal (art. 1.052)**
+  - "A lei também permitiu a sociedade limitada com um só sócio. Antes, quem queria separar o patrimônio pessoal do da empresa precisava arrumar um sócio. Agora não."
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
 | "Fundo de investimento é condomínio comum" | Errado | Condomínio de natureza especial |
-| "A responsabilidade limitada do cotista é automática" | Errado | Depende de previsão no regulamento |
+| "A responsabilidade limitada do cotista é automática" | Errado | Depende do regulamento |
 | "Classes de cotas não podem ter patrimônio segregado" | Errado | Podem (art. 1.368-D, III) |
 | "A LTDA exige pelo menos dois sócios" | Errado | Pode ser unipessoal (art. 1.052) |
 
-> A lei que libertou o empreendedor também organizou os fundos: condomínio especial, responsabilidade limitada e classes.
+> **Fundo: condomínio especial; responsabilidade limitada e classes separadas, se o regulamento disser.**
 
-🔗 **Ponte:** "Fechamos o conteúdo. Vamos ver por quais caminhos a prova cobra essa lei."
+**🔗 Ponte:** "Conteúdo fechado. Agora, como a banca transforma isso em questão."
 
 ## 4. Por que isso cai na prova? — 3 min
 
 - **Os três caminhos da banca**
-  - "A CPA cobra a lei por três caminhos: os princípios, com a lista exata do artigo 2º; os direitos, principalmente baixo risco sem alvará e preço livre só em mercado não regulado; e a postura do Estado, subsidiária e sem abuso regulatório. E pode aparecer a ponte com fundos: condomínio de natureza especial."
+  - "A CPA cobra esta lei de três jeitos: a lista exata dos quatro princípios; os direitos, principalmente baixo risco sem alvará e preço livre só fora dos mercados regulados; e os limites ao Estado. De vez em quando, aparece a ponte com fundos: condomínio de natureza especial."
 
 ### Pontos de atenção
 
-1. **Princípios:** liberdade, boa-fé do particular, intervenção subsidiária e excepcional, vulnerabilidade do particular.
-2. **Baixo risco:** sem ato público de liberação.
-3. **Preço livre:** só em mercados não regulados.
-4. **Silêncio da administração** após o prazo = aprovação tácita.
-5. **Abuso regulatório** proibido; **AIR** para novas normas federais.
-6. **Fundos:** condomínio de natureza especial, responsabilidade limitada **se o regulamento prever**, classes com patrimônio segregado.
+1. Princípios: liberdade, boa-fé do particular, intervenção subsidiária e excepcional, vulnerabilidade do particular.
+2. Baixo risco: sem ato público de liberação.
+3. Preço livre: só em mercados não regulados.
+4. Silêncio após o prazo = aprovação tácita.
+5. Abuso regulatório proibido; AIR para normas federais.
+6. Fundos: condomínio de natureza especial; responsabilidade limitada e classes segregadas se o regulamento prever.
 
 ### Comparações que a prova pode explorar
 
@@ -215,30 +240,44 @@ A Lei 13.874 incluiu no **Código Civil** o regime dos **fundos de investimento*
 | --- | --- | --- |
 | Antes da lei | Depois da lei | Permissão prévia × liberdade como regra |
 | Mercado não regulado | Mercado regulado | Preço livre × regras do regulador |
-| Intervenção subsidiária | Intervenção prioritária | Exceção × regra (a lei adota a exceção) |
+| Intervenção subsidiária | Intervenção prioritária | A lei adota a primeira |
 | Regular | Abusar do poder regulatório | Permitido × proibido (art. 4º) |
 | Condomínio comum | Fundo de investimento | Regras gerais × natureza especial |
 
-### Palavras-chave da prova
-
-| Expressão | Significado |
-| --- | --- |
-| "Subsidiária e excepcional" | Intervenção do Estado |
-| "Vulnerabilidade do particular" | 4º princípio |
-| "Baixo risco" / "ato público de liberação" | Dispensa de alvará |
-| "Aprovação tácita" | Silêncio após o prazo |
-| "Condomínio de natureza especial" | Fundo de investimento |
-
 ### Pegadinhas (todas erradas)
 
-- "A lei eliminou as normas trabalhistas e ambientais."
-- "A lei garante preço livre em qualquer mercado."
-- "A lei presume a má-fé do particular."
-- "A lei criou a Redesim."
-- "A lei proíbe o Estado de regular atividades econômicas."
-- **Como usar as pegadinhas**
-  - "Leia cada uma, diga 'errado' e explique por quê. Sobre a Redesim: é a rede nacional de registro e legalização de empresas, criada antes da Lei 13.874. A lei não a criou."
+- **"A lei eliminou as normas trabalhistas e ambientais."**
+  - "Errado. Ela dispensa o alvará de baixo risco, não as leis de trabalho e meio ambiente."
+- **"A lei garante preço livre em qualquer mercado."**
+  - "Errado. Só nos mercados não regulados."
+- **"A lei presume a má-fé do particular."**
+  - "Errado. Presume a boa-fé."
+- **"A lei criou a Redesim."**
+  - "Errado. A Redesim é a rede nacional que integra os órgãos de registro e legalização de empresas. Ela foi criada em 2007, pela Lei 11.598, doze anos antes da Lei de Liberdade Econômica."
+- **"A lei proíbe o Estado de regular atividades econômicas."**
+  - "Errado. Proíbe o abuso do poder de regular."
 
-> Quatro princípios, baixo risco livre, Estado excepcional e sem abuso.
+> **Quatro princípios, baixo risco sem alvará, Estado por exceção e sem abuso.**
 
-🔗 **Ponte:** "Vamos aplicar num caso."
+**🔗 Ponte:** "Vamos aplicar num caso."
+
+## Quadro de emergência
+
+| Tema | Regra-chave |
+| --- | --- |
+| Lei | 13.874/2019 |
+| Princípios | Liberdade · boa-fé do particular · intervenção subsidiária e excepcional · vulnerabilidade do particular |
+| Baixo risco | Sem ato público de liberação |
+| Preço | Livre só em mercado não regulado |
+| Silêncio no prazo | Aprovação tácita |
+| Inciso VII | Vetado |
+| Art. 4º | Nove abusos regulatórios proibidos |
+| Art. 5º | AIR para normas da administração federal |
+| Fundos | Condomínio de natureza especial · responsabilidade limitada e classes se o regulamento prever |
+| LTDA | Pode ter um só sócio |
+
+## Nota de verificação
+
+- **Conteúdo normativo:** mantido da guia original (Lei 13.874/2019 e Código Civil, arts. 1.052 e 1.368-C a 1.368-F); não foi reaberto nesta reescrita.
+- **Acréscimo novo, conferido em 18/10/2026:** a Redesim foi criada pela Lei 11.598, de 3 de dezembro de 2007 (Planalto), portanto antes da Lei 13.874.
+- **Fora da fala:** art. 1º, § 3º, e Decreto 10.411/2020 (AIR).

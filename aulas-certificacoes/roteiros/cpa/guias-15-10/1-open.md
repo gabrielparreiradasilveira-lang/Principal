@@ -2,265 +2,300 @@
 
 # Roteiro de fala — Aula CPA: Open Investment, Portabilidade de Valores Mobiliários e Open Insurance
 
+CPA 4.5.3 · 4.5.3.1 · 4.5.3.2 · 4.5.4 · 4.5.4.1 · 4.5.4.2 · Módulo 4 · **32 min** (metáfora 3 + tópicos 27 + prova 2)
+
+**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor, sem fala · ✏️ = correção · ➕ = acréscimo · 🔗 = ponte.
+
+## Bastidor — antes de gravar
+
+### 🔇 O que mudou em relação à guia original
+
+| Na guia original | Nesta versão |
+| --- | --- |
+| Tabelas de vantagens e desvantagens sem fala por linha | Cada linha comentada em marcador próprio |
+| Termos soltos: custodiante, depositário central, contraparte central, COE, LIG, LF, escritural, S1/S2, sinistro, prêmio, capitalização | Todos explicados na fala |
+| Lista "o que fica de fora da Res. 210" sem fala | Ganhou fala com o motivo de cada exclusão |
+| Pegadinhas sem correção falada | Cada pegadinha com a correção |
+| Narração da HP só no bastidor | Narração tecla a tecla na fala |
+
+### 🔇 Notas de atualização (fora da fala)
+
+- Início da fase de investimentos do Open Finance em **setembro de 2023**: conferido só em fonte secundária.
+- **Res. SUSEP 61/2025** facilitou a saída do participante voluntário do open insurance (aviso de 30 dias). Alterações posteriores da Res. CNSP 415 não foram confirmadas.
+
+### 🔇 HP12C
+
+- Um exemplo no 3.3: portar × resgatar e reaplicar.
+
 ## 2. Metáfora central — 3 min
 
 ### Metáfora: a ficha do condomínio e o caminhão de mudança
 
-- **A ficha: informação, com autorização**
-  - "Imagine que você vai se mudar. O novo condomínio pede uma ficha: quem mora com você, que carro você tem. Você autoriza o condomínio antigo a mandar essa ficha. Repare: nenhum móvel saiu do lugar, só a informação. Isso é o open investment e, no mundo dos seguros, o open insurance: compartilhar dados com a sua autorização."
-- **O caminhão: os bens mudam de endereço**
-  - "Mas a ficha não leva o sofá. Para levar os móveis, você precisa de um caminhão de mudança. Os móveis continuam seus; só mudam de endereço. No mercado, esse caminhão se chama portabilidade."
-- **Quem fiscaliza cada parte**
-  - "Cada parte da mudança tem um fiscal. A ficha dos bancos e dos investimentos é regulada pelo Banco Central e pelo CMN, o Conselho Monetário Nacional, que define as regras gerais do sistema financeiro. O caminhão dos valores mobiliários, ou seja, ações, cotas de fundos e outros títulos do mercado de capitais, é regulado pela CVM. E a ficha dos seguros é da SUSEP, a Superintendência de Seguros Privados."
+- **A ficha de morador**
+  - "Quando você se muda, o condomínio novo quer saber quem você é: nome, quantas pessoas moram com você, que carro tem. Em vez de preencher tudo de novo, você autoriza o condomínio antigo a mandar a sua ficha. Repare: quem decide se a ficha viaja é você."
+- **O caminhão de mudança**
+  - "Só que a ficha não carrega o sofá. Para levar os móveis, você contrata um caminhão. O sofá continua seu; só troca de endereço. E a transportadora tem prazo para entregar."
+- **Três síndicos diferentes**
+  - "Agora, no mercado. A ficha dos bancos e dos investimentos segue as regras do Banco Central. O caminhão dos valores mobiliários segue as regras da CVM. E a ficha dos seguros segue as regras da SUSEP."
 
 ### Correspondência técnica
 
-| Mudança de casa | Mercado |
+| Na mudança | No mercado |
 | --- | --- |
-| Ficha do morador | **Dados** do cliente |
-| Autorizar o envio da ficha | **Consentimento** |
-| Ficha dos bancos e investimentos | **Open investment** (Open Finance, BCB/CMN) |
-| Ficha dos seguros | **Open insurance** (SUSEP/CNSP) |
-| Caminhão de mudança | **Portabilidade** (CVM) |
-| Móveis continuam seus | **Sem alteração de titularidade** |
-| Prazo da transportadora | **Prazos máximos** da Res. CVM 210 |
+| Ficha do morador | Dados do cliente |
+| Você autoriza o envio | **Consentimento** |
+| Ficha de bancos e investimentos | **Open investment** (dentro do Open Finance, BCB/CMN) |
+| Ficha dos seguros | **Open insurance** (CNSP/SUSEP) |
+| Caminhão de mudança | **Portabilidade** de valores mobiliários (CVM) |
+| O sofá continua seu | **Sem alteração de titularidade** |
+| Prazo da transportadora | Prazos máximos da **Res. CVM 210** |
 
 - **Lendo a tabela**
-  - "Na tela, cada peça da mudança ganha o nome técnico. Guarde a última linha: 'os móveis continuam seus' quer dizer sem alteração de titularidade, ou seja, o dono do investimento não muda."
+  - "A linha que mais derruba aluno é a do sofá. Titularidade é quem consta como dono. Na portabilidade, o dono não muda; só muda a instituição onde o ativo está guardado."
 
-### Frase de fixação
+> **Open compartilha a ficha; portabilidade leva os móveis.**
 
-> Open compartilha a ficha; portabilidade muda os móveis de casa.
-
-🔗 **Ponte:** "Vamos começar pela ficha: o que exatamente circula no open investment, e sob quais regras."
+**🔗 Ponte:** "Vamos começar pela ficha dos investimentos: o que circula, quem autoriza e quem regula."
 
 ## 3. Explicação dos tópicos — 27 min
 
 ### 3.1 Open investment — 5 min · CPA 4.5.3 · Apostila p. 548–549
 
-- **O que é**
-  - "Open investment é o compartilhamento de dados sobre os seus investimentos entre instituições, sempre com o seu consentimento. Ele não é um sistema à parte: é uma etapa do Open Finance, o sistema do Banco Central que permite ao cliente levar os próprios dados de uma instituição para outra."
-- **A base normativa**
-  - "A regra está na Resolução Conjunta número 1, de 2020. 'Conjunta' porque foi assinada pelo Banco Central e pelo CMN juntos. Ela lista o que pode ser compartilhado: dados de aplicações a prazo, de outros produtos com natureza de investimento, de seguros e de previdência aberta."
+- **A definição**
+  - "Open investment é o compartilhamento de dados sobre os investimentos do cliente entre instituições participantes, sempre com o consentimento dele. No Brasil, não é um sistema separado: é uma parte do Open Finance, que o Banco Central e o CMN regulam."
+- **A norma de base**
+  - "A Resolução Conjunta número 1, de 2020, diz quais dados entram no Open Finance. Para investimentos, estão lá contas de depósito a prazo e outros produtos com natureza de investimento. A mesma norma também prevê dados de seguros e de previdência aberta."
 
 | Ponto | Regra |
 | --- | --- |
-| O que circula | **Dados**: produtos, cadastro e transações de investimentos |
-| Condição | **Consentimento** do cliente: finalidade determinada, prazo de até 12 meses (regra geral) |
+| O que circula | Dados de produtos, de cadastro e de transações de investimentos |
+| Condição | Consentimento com finalidade definida e prazo de até **12 meses** (regra geral) |
 | Quem regula | **BCB e CMN** (Res. Conjunta 1/2020) |
 | Quem participa | Instituições participantes do Open Finance |
-| O que **não** faz | **Não transfere** os ativos de uma instituição para outra |
+| O que não faz | **Não** transfere o ativo de uma instituição para outra |
 
-- **Lendo a tabela: o consentimento**
-  - "Nada circula sem o seu sim. E não é um sim genérico: o consentimento tem finalidade determinada, ou seja, diz para que o dado vai ser usado, e vale por até 12 meses na regra geral. Venceu, precisa autorizar de novo. E repare na última linha: o open investment não transfere ativo nenhum."
-  - 🔇 Início em setembro de 2023 conferido só em fontes secundárias. Se citar, diga "a partir de 2023".
+- **Lendo a tabela**
+  - "Duas linhas valem ouro. A do consentimento: ele tem finalidade, ou seja, serve para um uso definido, e tem prazo, em regra de até doze meses. E a última: open investment não move ativo nenhum. Só dado."
 - **Para que serve**
-  - "Com os dados de tudo o que você tem, em todas as instituições, a nova instituição enxerga a carteira consolidada, ou seja, completa num lugar só. Assim ela sugere realocações e faz ofertas mais adequadas. É aqui que o open investment conversa com o suitability, a análise que verifica se o produto combina com o perfil do cliente: quanto mais completa a informação, melhor a análise."
+  - "Com todos os seus investimentos visíveis num lugar só, a instituição monta a carteira consolidada, aponta onde você está concentrado e oferece produtos mais adequados. É aqui que o open investment ajuda o suitability, que é a análise do perfil do investidor para recomendar o produto certo."
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
-| "Open investment transfere as ações do cliente para outra corretora" | Errado | Compartilha **dados**; transferir é **portabilidade** |
-| "O compartilhamento de dados de investimento dispensa consentimento" | Errado | Exige **consentimento** |
-| "Open investment é regulado pela Res. CVM 210" | Errado | A 210 é da **portabilidade**; o compartilhamento está na **Res. Conjunta 1/2020** |
+| "Open investment transfere as ações para outra corretora" | Errado | Compartilha dados; transferir é portabilidade |
+| "Compartilhar dados de investimento dispensa consentimento" | Errado | Exige consentimento |
+| "Open investment é regulado pela Res. CVM 210" | Errado | A 210 é da portabilidade; os dados estão na Res. Conjunta 1/2020 |
 
-- **Comentando as pegadinhas**
-  - "As três erram pelo mesmo motivo: misturam ficha com caminhão. Compartilhar dado não move ação, não dispensa autorização e não é assunto da Resolução CVM 210."
+> **Open investment move dados, não move ativos.**
 
-> Open investment move dados, não move ativos.
-
-🔗 **Ponte:** "Dar ao cliente o controle dos dados traz vantagens, mas também abre portas para riscos. Vamos aos dois lados."
+**🔗 Ponte:** "Compartilhar dados abre portas. Algumas boas, outras perigosas. Vamos pesar os dois lados."
 
 ### 3.2 Open investment: vantagens e desvantagens — 4 min · CPA 4.5.3.1 · Apostila p. 549–550
 
 | Vantagens | Desvantagens e riscos |
 | --- | --- |
-| **Visão consolidada** da carteira | **Segurança**: mais pontos de acesso, mais risco de vazamento |
-| **Ofertas personalizadas** e melhor suitability | **Privacidade**: uso dos dados além do que o cliente entendeu |
-| **Mais competição** entre instituições | **Fraude e engenharia social**: golpes pedindo "consentimento" |
-| **Menor custo de troca** de instituição | **Complexidade**: cliente precisa entender o que autoriza |
-| **Propriedade dos dados com o cliente** | **Custo de implantação** para as instituições |
+| Visão consolidada da carteira | Segurança: mais pontos de acesso, mais risco de vazamento |
+| Ofertas personalizadas e melhor suitability | Privacidade: uso além do que o cliente entendeu |
+| Mais competição entre instituições | Fraude e engenharia social |
+| Menor custo para trocar de instituição | Complexidade do que se autoriza |
+| Dados pertencem ao cliente | Custo de implantação para as instituições |
 
-- **O lado das vantagens**
-  - "Leia a coluna da esquerda como uma corrida: se outra instituição enxerga a sua carteira inteira, ela pode oferecer uma condição melhor para ganhar você. Isso é competição, e competição baixa o custo de trocar de instituição."
-- **O lado dos riscos**
-  - "Na coluna da direita, cada autorização é uma porta a mais. Mais instituições com acesso significam mais pontos de vazamento. E o golpe mais comum é a engenharia social, que é manipular a pessoa para que ela mesma entregue a informação: alguém liga e pede para você 'confirmar um consentimento'."
-- **A mudança de lógica**
-  - "Antes, os dados ficavam presos na instituição. Agora, o cliente decide quem vê e para quê. Esse poder estimula a competição, mas, se o cliente autoriza sem ler ou cai num golpe, o dado sai."
-- 🔗 **Ponte com a LGPD**
-  - "Os dados compartilhados continuam protegidos pela LGPD, a Lei Geral de Proteção de Dados, e pelo sigilo bancário. O consentimento do Open Finance é justamente a autorização expressa que a lei do sigilo exige para que o banco possa revelar uma informação."
+- **O que o cliente ganha**
+  - "Primeiro ganho: enxergar tudo junto. Segundo: ofertas sob medida, porque a instituição conhece o perfil inteiro. Terceiro: competição, porque um banco pode disputar o cliente do outro com base em informação real. Quarto: trocar de instituição fica mais barato e rápido. E o quinto, o mais importante: o dado passa a ser do cliente, e não do banco."
+- **O que pode dar errado**
+  - "Cada autorização é mais uma porta aberta. Mais portas, mais chance de vazamento. O dado pode ser usado para algo que o cliente não entendeu quando autorizou. E aparece a engenharia social, que é o golpe que manipula a pessoa pela conversa: o falso atendente pede para você 'confirmar um consentimento' e, com isso, leva seus dados."
+- **O lado das instituições**
+  - "Para as instituições, há um custo: sistemas, segurança e padronização para conversar com as outras."
+- **A ligação com a LGPD e o sigilo**
+  - "Os dados que circulam continuam protegidos pela LGPD e pelo sigilo bancário. O consentimento do Open Finance é exatamente a autorização expressa que a lei do sigilo pede para o dado sair do banco."
 
-> O cliente ganha poder sobre os dados e, junto, a responsabilidade de autorizar com cuidado.
+> **O cliente ganha o controle dos dados e, junto, o dever de autorizar com cuidado.**
 
-🔗 **Ponte:** "Até aqui só circulou a ficha. Agora vamos ao caminhão de mudança: como os investimentos em si trocam de casa."
+**🔗 Ponte:** "Até aqui, só a ficha viajou. E quando o investidor quer levar os próprios ativos para outra instituição? Aí entra o caminhão: a portabilidade."
 
 ### 3.3 Portabilidade de valores mobiliários: Res. CVM 209, 210 e 229 — 10 min · CPA 4.5.3.2 · Apostila p. 549
 
-- **As três normas**
-  - "A portabilidade tem três resoluções da CVM, e a prova gosta de trocar uma pela outra. Cada uma tem um papel."
+- **Antes de tudo: o que é valor mobiliário**
+  - "Valor mobiliário é o investimento que a CVM regula: ações, debêntures, cotas de fundos, derivativos, entre outros. É sobre eles que a portabilidade da CVM fala."
 
-| Norma | Data | O que faz |
+| Norma | Data | Papel |
 | --- | --- | --- |
-| **Res. CVM 210** | 26/08/2024 | **É a norma da portabilidade**: conceitos, condutas, interface digital, prazos, infrações |
-| **Res. CVM 209** | 26/08/2024 | **Ajusta outras normas** (custódia, depositário central, intermediários, carteiras, fundos) para conversar com a 210 |
-| **Res. CVM 229** | 22/05/2025 | **Ajustes pontuais** (portabilidade parcial, dispensa para pequenas instituições) e **adia a vigência** para **02/01/2026** |
+| **Res. CVM 210** | 26/08/2024 | A norma da portabilidade: conceito, condutas, interface digital, prazos, infrações |
+| **Res. CVM 209** | 26/08/2024 | Ajusta outras normas (custódia, depositário central, intermediários, carteiras, fundos) para conversar com a 210 |
+| **Res. CVM 229** | 22/05/2025 | Ajustes pontuais e **adia a vigência para 02/01/2026** |
 
-- **Lendo a tabela**
-  - "A 210 é a principal: é ela que diz o que é portabilidade. A 209, publicada no mesmo dia, só arruma as outras normas da CVM para conversarem com a 210. E a 229 fez ajustes e adiou o início das regras para 2 de janeiro de 2026."
+- **As três normas em uma frase cada**
+  - "A 210 é a principal. A 209, publicada no mesmo dia, arruma as outras normas da CVM para não brigarem com a 210. E a 229 fez ajustes, como a portabilidade parcial e a dispensa para instituições pequenas, e empurrou o início para 2 de janeiro de 2026."
 - **O conceito (Res. 210, art. 2º, IV)**
-  - "Portabilidade é a transferência de valores mobiliários, comandada pelo investidor, entre instituições, **sem alteração de titularidade**. O ativo vai com os seus direitos, como um dividendo a receber, e com os seus ônus, como uma garantia que esteja dada. O dono continua o mesmo; muda só a casa."
+  - "Portabilidade é a transferência de valores mobiliários, comandada pelo investidor, de uma instituição para outra, sem alteração de titularidade. O ativo vai com seus direitos, como dividendos a receber, e com seus ônus, que são os pesos que recaem sobre ele, como uma garantia dada."
 - **Total ou parcial**
-  - "Dá para levar tudo ou só uma parte: alguns ativos, um grupo inteiro ou parte de um grupo. A instituição só pode recusar a parcial por um motivo operacional que tenha informado antes."
+  - "Dá para levar tudo ou só uma parte. A instituição só pode recusar a parcial por motivo operacional que ela já tenha informado antes."
 - **Onde pedir (art. 8º)**
-  - "O investidor escolhe onde fazer o pedido: na instituição de origem, de onde o ativo sai; na de destino, para onde ele vai; ou no depositário central, a entidade que registra e guarda os ativos de forma centralizada, como a B3 faz com as ações. Se pedir no destino, a origem confirma com o investidor, para evitar fraude. Quem efetiva a transferência é sempre a origem."
-- **Interface digital (art. 6º)**
-  - "Custodiantes, que são as instituições que guardam os ativos do cliente, intermediários e depositários centrais precisam oferecer uma tela digital, com senha ou assinatura eletrônica. Nela o investidor pede, acompanha o andamento, vê o prazo estimado de cada ativo e pode cancelar. Quem tem menos de 200 clientes pessoa física está dispensado da tela, mas continua obrigado a aceitar o pedido por outro meio."
-- **Os prazos máximos (art. 16), em dias úteis**
+  - "O investidor escolhe a porta: pode pedir na instituição de origem, na de destino ou no depositário central, que é a entidade que guarda e registra os ativos de forma centralizada, como a B3. Se pedir no destino, a origem confirma com o investidor, para evitar fraude. E quem executa a transferência é sempre a origem."
+- **A interface digital (art. 6º)**
+  - "Custodiante é a instituição que guarda os ativos do cliente. Intermediário é a corretora ou distribuidora que executa as ordens. Custodiantes, intermediários e depositários centrais precisam ter uma interface digital, com senha ou assinatura eletrônica, para pedir, acompanhar, ver o prazo de cada ativo e cancelar. Quem tem menos de 200 clientes pessoa física fica dispensado da interface, mas tem de aceitar o pedido por outro canal."
 
-| Valor mobiliário | Prazo máximo |
+| Valor mobiliário | Prazo máximo (dias úteis) |
 | --- | --- |
-| Em **depósito centralizado** (ex.: ações na bolsa) | **2 dias** |
-| Derivativos de **bolsa** | **2 dias** |
-| COE, LIG, LF **custodiados por terceiro** | **2 dias** |
-| Derivativos de **balcão com contraparte central** | **5 dias** |
-| **Demais** valores mobiliários | **5 dias** |
-| **Cotas de fundos** | **9 dias** (origem 2 + destino 2 + administrador 3, ou 5 se mudar a forma de distribuição) |
+| Em depósito centralizado (ex.: ações na bolsa) | **2** |
+| Derivativos de bolsa | **2** |
+| COE, LIG e LF custodiados por terceiro | **2** |
+| Derivativos de balcão com contraparte central | **5** |
+| Demais valores mobiliários | **5** |
+| Cotas de fundos | **9** (origem 2 + destino 2 + administrador 3, ou 5 se mudar a forma de distribuição) |
 
-- **Lendo os prazos**
-  - "Os números são dois, cinco e nove. Dois dias para o que está na bolsa ou guardado por terceiro. COE é o Certificado de Operações Estruturadas, LIG é a Letra Imobiliária Garantida e LF é a Letra Financeira: três títulos emitidos por bancos. Cinco dias para derivativos de balcão com contraparte central, que é a entidade que fica no meio do negócio e garante que as duas pontas cumpram, e para os demais valores mobiliários. E nove para cotas de fundos, porque há três etapas: dois dias da origem, dois do destino e três do administrador do fundo."
-- **Impedimentos e extensão (art. 20)**
-  - "Se houver impedimento, a origem avisa o investidor, justifica e dá um novo prazo. Essa extensão nunca pode passar do **dobro** do prazo máximo. Se o investidor não concordar, pode cancelar."
+- **Lendo os prazos (art. 16)**
+  - "Três números: 2, 5 e 9. Dois dias para o que está na bolsa ou em depósito centralizado. Cinco para o resto. Nove para cotas de fundos, porque passam por três mãos: origem, destino e administrador do fundo."
+  - "COE é o Certificado de Operações Estruturadas; LIG, a Letra Imobiliária Garantida; LF, a Letra Financeira. Contraparte central é a entidade que se coloca no meio do negócio e garante o pagamento para os dois lados."
+- **Impedimento e extensão (art. 20)**
+  - "Se aparecer um impedimento, a origem avisa, explica o motivo e dá um novo prazo. Esse novo prazo nunca passa do dobro do prazo máximo. Se o investidor não aceitar, pode cancelar."
 - **Cancelamento (art. 14)**
-  - "O investidor pode desistir, e a instituição não pode recusar o cancelamento pedido até um dia após a solicitação."
-- **O que fica de fora (art. 1º, parágrafo único)**
+  - "O investidor pode desistir. Até um dia depois do pedido, a instituição não pode recusar o cancelamento."
+- **O histórico e a punição**
+  - "A origem passa ao destino o histórico do ativo: quantidade, preço de aquisição, preço unitário e datas. Isso importa para o imposto, como você vai ver no exemplo. Atrasar sem justificativa, de forma repetida, é infração grave (art. 21). E os documentos ficam guardados por pelo menos 5 anos."
 
-| Fora da Res. 210 |
+| Fora da Res. 210 (art. 1º, parágrafo único) |
 | --- |
-| Derivativos de balcão **sem** contraparte central |
-| COE, LIG e LF **distribuídos e custodiados pelo próprio emissor** |
-| Cotas de fundo quando a "portabilidade" mudaria de **classe ou subclasse** |
+| Derivativos de balcão sem contraparte central |
+| COE, LIG e LF distribuídos e custodiados pelo próprio emissor |
+| Cotas de fundo quando a mudança trocaria de classe ou subclasse |
 | Troca de depositário central ou de entidade registradora |
 | Passagem de escritural para depósito centralizado |
 
 - **Lendo as exclusões**
-  - "Repare na terceira linha: se a mudança trocaria a cota de classe ou de subclasse, não é mudar de casa, é trocar de produto. Por isso fica fora."
-- **Histórico e punição**
-  - "A origem passa ao destino o histórico de cada ativo: quantidade, preço de aquisição, preço unitário e datas. Isso importa para o imposto, porque o ganho é calculado sobre o preço de compra. Atrasar sem justificativa, de forma reiterada, é **infração grave** (art. 21). E os documentos ficam guardados por pelo menos 5 anos."
+  - "A lógica é uma só: fica de fora o que não é uma simples troca de endereço. Derivativo de balcão sem contraparte central é um contrato direto entre duas partes; não tem como 'mudar de casa' sem a outra parte. COE, LIG e LF guardados pelo próprio emissor estão presos a quem emitiu. Trocar de classe de fundo é trocar de investimento. E as duas últimas linhas mudam a forma de registro do ativo, não o lugar onde ele está guardado. Escritural é o ativo registrado só em livro eletrônico do emissor, fora da bolsa."
 
-#### ➕ Exemplo prático — portar × resgatar e reaplicar
+### ➕ Exemplo prático — portar × resgatar e reaplicar
 
-Um investidor tem **R$ 100.000** em cotas de um fundo de ações, com **ganho de R$ 20.000**. Quer trocar de plataforma. Compare resgatar (imposto de 15% sobre o ganho) com portar as cotas.
+Um investidor tem R$ 100.000 em cotas de um fundo de ações, com ganho de R$ 20.000. Quer trocar de plataforma. Compare resgatar (imposto de 15% sobre o ganho) com portar.
 
 | Passo | Teclas | Visor | O que significa |
 | --- | --- | --- | --- |
 | 1 | ⌨️ f REG | 🖥️ 0,00 | Pilha limpa |
-| 2 | ⌨️ 20000 ENTER 15 % | 🖥️ 3.000,00 | Imposto se **resgatar** |
-| 3 | ⌨️ 100000 x≷y - | 🖥️ 97.000,00 | Sobra para **reaplicar** na nova plataforma |
+| 2 | ⌨️ 20000 ENTER 15 % | 🖥️ 3.000,00 | Imposto se resgatar |
+| 3 | ⌨️ 100000 x≷y − | 🖥️ 97.000,00 | O que sobra para reaplicar |
 
 - **Narrando as teclas**
-  - "f REG limpa a calculadora. 20 mil, ENTER, 15, porcentagem: 3 mil, que é o imposto do resgate. Agora 100 mil e a tecla x≷y, que troca de lugar os dois números da memória, e depois menos: 97 mil."
+  - "f REG limpa a calculadora. Vinte mil, ENTER, quinze, porcentagem: três mil, o imposto do resgate. Agora digito cem mil, aperto x≷y para trocar de lugar com os três mil, e menos: noventa e sete mil."
 - **A conclusão**
-  - "Se resgatar para mudar de casa, ele paga 3 mil de imposto agora e chega à nova plataforma com 97 mil. Se portar, as cotas vão inteiras, os 100 mil, e o preço de aquisição vai junto. O imposto fica para quando ele de fato resgatar."
-  - 🔇 Valores hipotéticos. Alíquota de 15% sobre o ganho no resgate de fundo de ações, sem come-cotas.
+  - "Quem resgata para mudar de plataforma paga 3 mil de imposto hoje e chega com 97 mil. Quem porta leva os 100 mil inteiros, sem resgate, e o preço de aquisição vai junto no histórico. O imposto só aparece quando ele realmente resgatar."
+  - 🔇 Valores hipotéticos. Fundo de ações: 15% sobre o ganho no resgate, sem come-cotas (aula 2.1.3-G do repositório).
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
-| "Na portabilidade, o investidor vende os ativos na origem e compra no destino" | Errado | Transferência **sem alteração de titularidade**, sem venda |
-| "A portabilidade só pode ser pedida na instituição de origem" | Errado | Origem, **destino** ou **depositário central** |
-| "Cotas de fundos devem ser portadas em até 2 dias úteis" | Errado | Até **9 dias úteis** |
-| "A instituição pode estender o prazo indefinidamente" | Errado | No máximo o **dobro** |
-| "As regras de portabilidade valem desde julho de 2025" | Errado | Vigência adiada para **02/01/2026** (Res. 229) |
+| "Na portabilidade, o investidor vende na origem e compra no destino" | Errado | Transferência sem venda e sem trocar o titular |
+| "A portabilidade só pode ser pedida na origem" | Errado | Origem, destino ou depositário central |
+| "Cotas de fundos são portadas em até 2 dias úteis" | Errado | Até 9 dias úteis |
+| "A instituição pode estender o prazo sem limite" | Errado | No máximo o dobro |
+| "As regras de portabilidade valem desde julho de 2025" | Errado | Vigência adiada para 02/01/2026 (Res. 229) |
 
-- **Comentando as pegadinhas**
-  - "Repare que a banca erra sempre num número ou num lugar: dois dias em vez de nove, só a origem em vez de três lugares, julho de 2025 em vez de janeiro de 2026."
+> **Portabilidade: mesmo dono, nova casa, prazo curto e nada vendido.**
 
-> Portabilidade: mesmo dono, nova casa, prazo curto e sem vender nada.
-
-🔗 **Ponte:** "Já vimos a ficha e o caminhão dos investimentos. Falta a ficha dos seguros, que segue a mesma lógica do open investment, mas tem outro fiscal."
+**🔗 Ponte:** "Voltamos agora para a ficha, mas em outro prédio, com outro síndico: o dos seguros."
 
 ### 3.4 Open insurance: conceitos — 5 min · CPA 4.5.4 e 4.5.4.1 · Apostila p. 549
 
-- **O que é**
-  - "Open insurance, ou Sistema de Seguros Aberto, é o compartilhamento padronizado de dados e serviços de três mercados: seguros; previdência aberta, que é o plano de aposentadoria vendido ao público, como PGBL e VGBL; e capitalização, o título em que você guarda dinheiro e concorre a sorteios. Tudo com o consentimento do cliente. E quem regula não é o Banco Central: é o CNSP, o Conselho Nacional de Seguros Privados, que faz as regras, e a SUSEP, que fiscaliza."
+- **A definição**
+  - "Open insurance, ou Sistema de Seguros Aberto, é o compartilhamento padronizado de dados e serviços de seguros, previdência aberta e capitalização, com o consentimento do cliente. Padronizado quer dizer que todas as empresas usam o mesmo formato, para os sistemas se entenderem. Quem regula é o CNSP, que faz as regras, e a SUSEP, que fiscaliza. Não é o Banco Central."
+- **Os três produtos**
+  - "Seguro você conhece. Previdência aberta é o plano de previdência vendido a qualquer pessoa, como PGBL e VGBL. E capitalização é o título em que você guarda dinheiro e concorre a sorteios, com resgate no fim."
 
 | Ponto | Regra (Res. CNSP 415/2021) |
 | --- | --- |
-| Quem está sujeito | **Seguradoras**, **entidades abertas de previdência complementar** e **sociedades de capitalização** |
-| O que circula | Dados **abertos** de produtos, dados **pessoais** de seguros e **serviços de iniciação de movimentação** |
-| Consentimento | Exigido para **dados pessoais** e **serviços** |
-| Participação obrigatória | Empresas dos segmentos **S1 e S2** (dados) |
+| Quem está sujeito | Seguradoras, entidades abertas de previdência complementar, sociedades de capitalização |
+| O que circula | Dados abertos de produtos · dados pessoais de seguros · serviços de iniciação de movimentação |
+| Consentimento | Exigido para dados pessoais e serviços |
+| Participação obrigatória | Segmentos **S1 e S2** (dados) |
 | Participação voluntária | Demais supervisionadas |
-| Normas | **Res. CNSP 415/2021** e **Circular SUSEP 635/2021** |
+| Normas | Res. CNSP 415/2021 e Circular SUSEP 635/2021 |
 
 - **Lendo a tabela**
-  - "Três tipos de coisa circulam. Dados abertos, que são as informações públicas dos produtos, como coberturas e condições. Dados pessoais, como as suas apólices. E serviços, como começar uma contratação ou um resgate por outro aplicativo. Para dados pessoais e serviços, o consentimento é obrigatório."
-- **Quem é obrigado: S1 e S2**
-  - "A SUSEP separa as empresas que fiscaliza em segmentos, conforme o porte e o risco. S1 e S2 são os maiores, e para eles a participação é obrigatória. As demais podem participar de forma voluntária."
+  - "Dado aberto é a informação pública do produto, como coberturas e condições; não precisa de consentimento. Dado pessoal e serviço precisam. Serviço de iniciação de movimentação é quando um aplicativo, autorizado por você, dispara uma operação, como contratar ou pagar. E S1 e S2 são os grupos das maiores supervisionadas da SUSEP, divididas por porte: só elas são obrigadas a participar."
 - **Exemplos de uso**
-  - "Com o seu consentimento, outra seguradora vê as suas apólices, coberturas, prêmios, que é o valor que você paga pelo seguro, e o histórico de sinistros, que são as ocorrências em que você acionou o seguro. Com isso, oferece um seguro mais adequado ou mais barato. Ou você usa um aplicativo que mostra todos os seus seguros e planos de previdência juntos."
-  - 🔇 **Nota de atualização:** a Res. SUSEP 61/2025 facilitou a saída do participante voluntário (aviso de 30 dias aos clientes com consentimento ativo). Alterações posteriores da Res. CNSP 415 **não foram confirmadas** e ficam fora da fala.
+  - "Com o seu consentimento, outra seguradora vê suas apólices, coberturas, o prêmio que você paga, que é o preço do seguro, e o seu histórico de sinistros, que são os acidentes ou perdas já indenizados. Com isso, oferece algo mais adequado ou mais barato. Ou você usa um aplicativo que junta todos os seus seguros e planos de previdência numa tela só."
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
-| "O open insurance é regulado pelo Banco Central" | Errado | **CNSP e SUSEP** |
-| "O open insurance só envolve seguros de dano" | Errado | Seguros, **previdência aberta** e **capitalização** |
-| "Toda seguradora é obrigada a participar" | Errado | Obrigatório para **S1 e S2**; as demais, voluntário |
+| "O open insurance é regulado pelo Banco Central" | Errado | CNSP e SUSEP |
+| "O open insurance envolve só seguros de dano" | Errado | Seguros, previdência aberta e capitalização |
+| "Toda seguradora é obrigada a participar" | Errado | S1 e S2 obrigatórias; as demais, voluntárias |
 
-> Open insurance é o Open Finance dos seguros: mesma lógica, regulador diferente.
+> **Open insurance é o Open Finance dos seguros: mesma lógica, outro regulador.**
 
-🔗 **Ponte:** "E, como no open investment, compartilhar dados de seguro tem vantagens e riscos, só que com um detalhe a mais: o dado pode mudar o preço do seu seguro."
+**🔗 Ponte:** "E, como no open investment, compartilhar o histórico de seguro tem dois lados. Só que aqui o lado ruim pode pesar no bolso."
 
 ### 3.5 Open insurance: vantagens e desvantagens — 3 min · CPA 4.5.4.2 · Apostila p. 549–550
 
 | Vantagens | Desvantagens e riscos |
 | --- | --- |
-| **Comparação** de coberturas e preços | **Dados sensíveis**: saúde e vida exigem cuidado redobrado (LGPD) |
-| **Produtos personalizados** pelo histórico | **Seleção de risco**: histórico de sinistros pode encarecer o seguro |
-| **Mais competição** e inovação | **Fraude** e consentimento mal entendido |
-| **Visão integrada** de seguros e previdência | **Adesão parcial**: só S1 e S2 são obrigadas |
-| Integração com o Open Finance | **Custo** de implantação |
+| Comparar coberturas e preços | Dados sensíveis de saúde e vida (LGPD) |
+| Produtos ajustados ao histórico | Seleção de risco: muitos sinistros podem encarecer |
+| Mais competição e inovação | Fraude e consentimento mal entendido |
+| Visão integrada de seguros e previdência | Adesão parcial: só S1 e S2 obrigatórias |
+| Integração com o Open Finance | Custo de implantação |
 
-- **Dados sensíveis**
-  - "Seguro de vida e de saúde envolve informação de saúde, e a LGPD trata dado de saúde como sensível, com proteção reforçada. Por isso o cuidado aqui é maior do que no open investment."
-- **Seleção de risco: o dado tem dois lados**
-  - "Seleção de risco é a seguradora usar o histórico para decidir preço e aceitação. Para quem tem bom histórico, compartilhar pode baratear o seguro. Para quem acionou muito, pode encarecer."
-- **Adesão parcial**
-  - "Como só S1 e S2 são obrigadas, o retrato do cliente pode ficar incompleto: parte das seguradoras não está no sistema."
+- **As vantagens**
+  - "O cliente compara coberturas e preços de verdade, recebe produto ajustado ao seu histórico, ganha com a competição e vê seguros e previdência juntos. E, por ser integrado ao Open Finance, a mesma lógica vale para banco, investimento e seguro."
+- **Os riscos**
+  - "Seguro de vida e saúde usa dado sensível, aquele que a LGPD protege com mais rigor. Há a seleção de risco: a seguradora usa o histórico para decidir o preço. E, como só S1 e S2 são obrigadas, parte do mercado pode ficar de fora."
+- **O dado tem dois lados**
+  - "Quem tem histórico limpo pode pagar menos ao compartilhar. Quem teve muitos sinistros pode pagar mais. O compartilhamento não é bom nem ruim por si: depende do histórico."
 
-> Compartilhar o histórico pode baratear ou encarecer o seguro: o dado tem dois lados.
+> **Compartilhar o histórico pode baratear ou encarecer o seguro.**
 
-🔗 **Ponte:** "Agora você conhece as três peças: a ficha dos investimentos, o caminhão e a ficha dos seguros. Vamos ver como a prova tenta misturar as três."
+**🔗 Ponte:** "Três temas parecidos, três reguladores. É exatamente aí que a banca monta a armadilha."
 
 ## 4. Por que isso cai na prova? — 2 min
 
 - **Como a banca pergunta**
-  - "A banca mistura os conceitos: descreve uma transferência de ativos e pergunta se é open investment, ou coloca a CVM no open insurance. Para não errar, faça sempre duas perguntas: o que se move, dados ou ativos? E quem regula, Banco Central, CVM ou SUSEP?"
+  - "A banca descreve uma transferência de ativos e chama de open investment. Ou coloca a CVM cuidando do open insurance. Para escapar, faça duas perguntas: o que viaja, dado ou ativo? E quem regula, Banco Central, CVM ou SUSEP?"
 
 ### Pontos de atenção
 
-1. **Open investment:** dados de investimentos, com consentimento, no Open Finance (BCB/CMN).
-2. **Portabilidade:** transfere valores mobiliários, **sem mudar o titular** (Res. CVM 210).
-3. **Res. 209** ajusta outras normas; **229** ajusta e adia para **02/01/2026**.
-4. **Prazos:** 2 dias (depósito centralizado e bolsa) · 5 dias (demais) · 9 dias (cotas de fundos); extensão até o dobro.
-5. **Open insurance:** CNSP/SUSEP; seguros, previdência aberta e capitalização; S1 e S2 obrigatórios.
+1. Open investment: dados de investimentos, com consentimento, no Open Finance (BCB/CMN).
+2. Portabilidade: transfere valores mobiliários sem mudar o titular (Res. CVM 210).
+3. Res. 209 ajusta outras normas; Res. 229 ajusta e adia para 02/01/2026.
+4. Prazos: 2 · 5 · 9 dias úteis; extensão até o dobro.
+5. Open insurance: CNSP/SUSEP; seguros, previdência aberta e capitalização; S1 e S2 obrigatórias.
 
 ### Comparações que a prova pode explorar
 
 | Conceito A | Conceito B | Diferença decisiva |
 | --- | --- | --- |
-| Open investment | Portabilidade | Move **dados** × move **ativos** |
+| Open investment | Portabilidade | Move dados × move ativos |
 | Open Finance | Open insurance | BCB/CMN × CNSP/SUSEP |
-| Portabilidade | Transferência com troca de titular | Mesmo dono × novo dono |
+| Portabilidade | Venda e compra | Mesmo dono × novo negócio |
 | Res. CVM 210 | Res. CVM 209 | Norma principal × ajustes em outras normas |
 
 ### Pegadinhas (todas erradas)
 
-- "Open investment e portabilidade são a mesma coisa."
-- "A portabilidade exige vender os ativos na origem."
-- "O open insurance é regulado pela CVM."
-- "As cotas de fundos são portadas em até 2 dias úteis."
-- **Como usar as pegadinhas**
-  - "Leia cada uma em voz alta, diga 'errado' e corrija com a regra: dados não são ativos, portar não é vender, seguro é SUSEP, fundo é nove dias."
+- **"Open investment e portabilidade são a mesma coisa."**
+  - "Errado. Um move dados, o outro move ativos."
+- **"A portabilidade exige vender os ativos na origem."**
+  - "Errado. Não há venda; o ativo é transferido com o mesmo dono."
+- **"O open insurance é regulado pela CVM."**
+  - "Errado. CNSP e SUSEP."
+- **"As cotas de fundos são portadas em até 2 dias úteis."**
+  - "Errado. Até 9 dias úteis."
 
-> Dados ou ativos? BCB, CVM ou SUSEP? Responda essas duas perguntas e a questão se resolve.
+> **Dado ou ativo? BCB, CVM ou SUSEP? Respondidas as duas perguntas, a questão está resolvida.**
 
-🔗 **Ponte:** "Vamos aplicar."
+**🔗 Ponte:** "Vamos aplicar."
+
+## Quadro de emergência
+
+| Tema | Regra-chave |
+| --- | --- |
+| Open investment | Dados de investimentos · consentimento · BCB/CMN · Res. Conjunta 1/2020 |
+| Consentimento | Finalidade definida · até 12 meses (regra geral) |
+| Portabilidade | Res. CVM 210 · sem mudar o titular · origem executa |
+| Onde pedir | Origem, destino ou depositário central |
+| Prazos | 2 (bolsa) · 5 (demais) · 9 (fundos) · extensão até o dobro |
+| Vigência | 02/01/2026 (Res. CVM 229) |
+| Interface digital | Dispensa abaixo de 200 clientes PF |
+| Open insurance | CNSP/SUSEP · seguros, previdência aberta, capitalização · S1 e S2 obrigatórias |
+
+## Nota de verificação
+
+- **Mantido da guia original, sem reabrir a fonte:** datas e artigos das Res. CVM 209, 210 e 229; prazos do art. 16; Res. CNSP 415/2021 e Circular SUSEP 635/2021.
+- **Fonte secundária (fora da fala):** início da fase de investimentos em setembro de 2023; Res. SUSEP 61/2025.
+- **Acréscimos explicativos novos:** definições de valor mobiliário, custodiante, depositário central, contraparte central, escritural, previdência aberta e capitalização. São conceitos gerais; nenhum número novo foi incluído.
