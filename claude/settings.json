@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash */ruflo/install.sh*)",
+      "Bash(npm install -g ruflo*)"
+    ]
+  }
+}
