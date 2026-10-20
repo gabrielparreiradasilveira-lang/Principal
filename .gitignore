@@ -33,3 +33,6 @@ yarn-error.log*
 # Temporary files
 *.tmp
 .claude/settings.local.json
+
+# Claude plugin runtime state
+.claude-flow/
