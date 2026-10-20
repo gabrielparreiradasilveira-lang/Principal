@@ -1,0 +1,104 @@
+<<<SLIDE 1>>>
+Derivativos
+
+<<<SLIDE 2>>>
+Derivativos
+→ Definição:
+●
+São instrumentos financeiros cujo valor deriva de outro ativo — o ativo objeto.
+○
+Ex: ações, índices, taxa de câmbio, taxas de juros, preços de commodities.
+●
+Usados para proteção (hedge) ou especulação
+
+<<<SLIDE 3>>>
+Principais ﬁnalidades do mercado de derivativos
+→ Hedge (proteção):
+●
+Elimina risco de variação de preço
+○
+Ex: produtor de soja trava preço futuro da saca → protege margem de lucro
+
+<<<SLIDE 4>>>
+Principais ﬁnalidades do mercado de derivativos
+→ Especulação:
+●
+Busca lucro com a variação do preço do ativo.
+○
+Exemplo: aposta na alta de uma ação
+○
+Utilizado para investidores que querem “alavancagem” de ganhos
+
+<<<SLIDE 5>>>
+Mercado Futuro
+→ Conceito:
+●
+Contrato de compra ou venda de um ativo para uma data futura, com preço fixado hoje
+●
+Ex: dólar futuro, índice futuro, café, boi gordo
+→ Ativos objeto (exemplos):
+●
+Financeiros: dólar, taxa de juros, Ibovespa
+●
+Commodities: soja, petróleo, ouro, café
+
+<<<SLIDE 6>>>
+Mercado Futuro
+→ Garantias:
+●
+Para operar, é preciso depositar margem de garantia
+●
+Objetivo → assegurar o cumprimento do contrato
+●
+Pode ser: saldo em conta, títulos públicos (LFT) ou outros ativos de renda fixa
+→ Ajuste diário:
+●
+A BM&FBovespa (B3) ajusta o valor dos contratos diariamente, debitando ou creditando
+conforme a oscilação do preço
+
+<<<SLIDE 7>>>
+Exemplo prático de hedge
+→ Produtor de soja teme queda do preço daqui 3 meses
+→ Vende contrato futuro de soja na B3
+→ Se o preço cair, ele ganha no contrato e perde menos na venda física
+
+<<<SLIDE 8>>>
+Opções
+→ Definição: contratos que dão o direito de comprar ou vender um ativo a um preço
+predeterminado (strike) até uma data específica
+→ Tipos:
+●
+Call (opção de compra) → direito de comprar o ativo
+●
+Put (opção de venda) → direito de vender o ativo
+→ Titular: compra o direito (paga o prêmio)
+→ Lançador: vende o direito
+●
+Recebe o prêmio, mas assume obrigação
+
+<<<SLIDE 9>>>
+Moneyness (relação entre preço e strike)
+→ In the Money (ITM): tem valor intrínseco (está “no dinheiro”)
+●
+Numa call: Preço do ativo > Strike
+●
+Numa put: Preço do ativo < Strike
+→ At the Money (ATM): equilíbrio
+●
+Numa call: Preço do ativo ≈ Strike
+●
+Numa put: Preço do ativo ≈ Strike
+→ Out of the Money (OTM): sem valor (“fora do dinheiro”)
+●
+Numa call: Preço < Strike
+●
+Numa put: Preço > Strike
+
+<<<SLIDE 10>>>
+Swaps
+→ Conceito: contrato em que duas partes trocam fluxos de caixa baseados em indexadores
+diferentes.
+●
+Usado para trocar risco
+○
+Exemplo: prefixado ↔ pós-fixado

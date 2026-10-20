@@ -1,0 +1,119 @@
+<<<SLIDE 1>>>
+Formas de investir em criptoativos
+
+<<<SLIDE 2>>>
+Como investir em criptomoedas
+→ Formas de investir em criptomoedas:
+●
+P2P (Peer-to-peer)
+●
+Exchange (corretora)
+●
+ETFs de Cripto
+→ Formas de custódia de criptomoedas:
+●
+Exchange
+●
+Hot Wallet (carteira quente)
+●
+Cold Wallet (carteira fria)
+
+<<<SLIDE 3>>>
+Peer-to-Peer (P2P), mercado desintermediado
+●
+P2P = transação direta entre pessoas, sem corretora ou banco intermediando
+●
+Utiliza-se carteiras digitais (wallets) → envio direto entre endereços
+●
+Vantagem: liberdade, menores custos, privacidade
+●
+Risco: ausência de proteção ou garantias — alta chance de fraude
+●
+Comum em países com restrições bancárias ou alta inflação
+
+<<<SLIDE 4>>>
+Exchanges de Criptomoedas
+→ Atuam como “corretoras”: Binance, Coinbase, Mercado Bitcoin.
+●
+Custodiam os ativos do investidor
+●
+Investidor não detém as chaves privadas
+→ Produtos oferecidos:
+●
+Spot (compra e venda à vista)
+●
+Staking (rendimento por validação)
+●
+Margin trading (operações alavancadas)
+●
+Futuros e opções cripto
+●
+Earn / Savings (rendimentos sobre stablecoins)
+
+<<<SLIDE 5>>>
+Fundos de investimento em cripto
+●
+Gestora aplica parte do patrimônio em ETFs ou cripto no exterior
+●
+Adequados para investidores qualificados ou profissionais
+○
+Exemplo: Hashdex, BLP Crypto
+●
+Vantagem: gestão profissional, segurança jurídica, diversificação
+●
+Desvantagem: taxas, possível descasamento com o preço do ativo
+
+<<<SLIDE 6>>>
+ETFs de cripto
+●
+Negociados em bolsa como ações
+○
+Exemplo: HASH11 (Hashdex Nasdaq Crypto Index), QBTC11 (QR Asset)
+●
+Representam cestas de criptoativos → replicam índices
+●
+Facilitam acesso sem precisar abrir conta em exchange
+○
+Tributação: segue regras de renda variável (15%)
+
+<<<SLIDE 7>>>
+Futuros, opções e demais derivativos de cripto
+→ Objetivo: permitir proteção (hedge) e especulação com criptoativos.
+●
+Futuros: acordos para comprar/vender cripto em data futura a preço pré-definido.
+●
+Opções: direito (não obrigação) de comprar/vender o ativo → semelhante ao mercado
+tradicional
+→ Outros derivativos:
+●
+Swaps (permuta de rendimentos)
+●
+Structured Notes e COEs baseados em cripto
+
+<<<SLIDE 8>>>
+Criptoativos como investimento
+→ Correlação
+●
+Bitcoin e Ethereum têm baixa correlação com ações e títulos tradicionais.
+●
+Isso pode aumentar a diversificação e melhorar o retorno ajustado ao risco.
+○
+Exemplo: correlação BTC e S&P500 varia de 0,1 a 0,3 (dependendo do período).
+→ Volatilidade
+●
+Cripto é muito mais volátil (BTC: entre 60 – 80% ao ano).
+●
+Pequenas alocações (1% a 5%) já alteram o risco total
+da carteira.
+
+<<<SLIDE 9>>>
+Criptoativos como investimento
+→ Retornos esperados
+●
+Estudos (ex.: CFA Institute, Yale, Fidelity) mostram que adicionar 1 a 5% em BTC pode:
+●
+Aumentar o retorno total da carteira.
+●
+Melhorar o índice de Sharpe.
+●
+Elevar a exposição a ciclos de inovação e adoção tecnológica.

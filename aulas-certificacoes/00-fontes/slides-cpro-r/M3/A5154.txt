@@ -1,0 +1,108 @@
+<<<SLIDE 1>>>
+Fundos Imobiliários (FIIs)
+
+<<<SLIDE 2>>>
+Conceito de Fundo Imobiliário
+→ Fundo que investe em ativos do mercado imobiliário
+●
+Imóveis físicos ou títulos ligados ao setor.
+●
+Forma de o investidor participar do mercado imobiliário sem precisar comprar um imóvel
+inteiro
+●
+Fundo constituído no formato “fundo fechado”. Investidor adquire cotas, tornando-se
+condômino do patrimônio do fundo.
+
+<<<SLIDE 3>>>
+Ambiente de negociação
+→ As cotas são valores mobiliários, negociadas na B3 (mercado secundário).
+●
+Negociação semelhante a ações e os ETFs, liquidação D+2
+●
+Cada cota representa fração do patrimônio do fundo
+●
+Administração profissional: o gestor decide onde investir conforme o regulamento
+●
+FIIs são condominiais fechados: não há resgate direto de cotas (apenas venda no mercado).
+
+<<<SLIDE 4>>>
+Riscos
+→ Risco de liquidez
+●
+Dificuldade de vender cotas sem afetar o preço
+●
+NÃO há formador de mercado
+→ Risco de crédito
+●
+Possibilidade de inadimplência dos locatários ou emissores (no caso dos FIIs de papel).
+→ Risco de vacância
+●
+Imóveis desocupados
+●
+Reduzem o fluxo de aluguel e o rendimento
+
+<<<SLIDE 5>>>
+Riscos
+→ Risco de mercado
+●
+Valorização ou desvalorização das cotas conforme juros, inflação e demanda por imóveis
+●
+Preço da cota pode “descolar” do valor patrimonial do fundo (P/VP)
+→ Risco de composição de ativos
+●
+Exposição concentrada em um setor (shoppings, lajes, logística etc.) aumenta a
+vulnerabilidade
+
+<<<SLIDE 6>>>
+Dividendos e suas regras
+→ FIIs devem distribuir 95% do resultado caixa auferido semestralmente (como está na lei). A
+maioria dos FIIs opta pela distribuição mensal.
+→ O dividendo distribuído é isento de IR para pessoa física, desde que:
+●
+FII tenha pelo menos 100 cotistas;
+●
+Nenhum cotista possua mais de 10% das cotas;
+●
+As cotas sejam negociadas em bolsa ou mercado organizado.
+→ Dividendo é isento, mas venda da cota com ganho de capital
+é tributado em 20% sobre o lucro.
+
+<<<SLIDE 7>>>
+Taxas
+→ Taxa de Administração:
+●
+remunera administrador, gestor e custodiante.
+→ Taxa de Performance:
+●
+percentual sobre rentabilidade que supera um benchmark (geralmente IPCA + X%).
+→ Taxa de Gestão: pode ser cobrada separadamente da taxa de administração
+
+<<<SLIDE 8>>>
+Subscrição
+→ Subscrição: é o processo de captação de novos recursos para o fundo. Semelhante ao
+follow-on das ações
+●
+Processo de emissão de novas cotas
+●
+Objetivo de investir em novos projetos e aumentar a carteira do fundo
+●
+Cotistas têm direito de preferência proporcional à sua participação, para não ser diluído
+
+<<<SLIDE 9>>>
+Tipos de FIIs
+→ Fundos de tijolo: investem em imóveis “reais”
+●
+Shopping
+●
+Escritórios (lajes corporativas)
+●
+Renda Urbana
+●
+Logística (galpões)
+→ Fundos de papel: investem em títulos de crédito (dívida) imobiliário
+●
+CRI
+●
+CCI
+●
+Crédito imobiliário estruturado

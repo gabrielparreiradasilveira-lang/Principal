@@ -1,0 +1,97 @@
+<<<SLIDE 1>>>
+Certiﬁcado de Operações Estruturadas
+(COE)
+
+<<<SLIDE 2>>>
+Certiﬁcado de Operações Estruturadas (COE)
+→ Produto Estruturado: combinação ativo base + derivativos (geralmente opções)
+●
+Prazo de vencimento:
+○
+O que vale é a oscilação do ativo até a data de vencimento. A variação intermediária
+não
+importa
+●
+Exemplo: COE 3 anos, atrelado ao índice Ibovespa. Gatilho de alta, com lucro somente se o
+Ibovespa ultrapassar 150.000 pontos. Se o Ibov bater 150 mil no meio do caminho, não
+importa. Vale a pontuação no vencimento.
+
+<<<SLIDE 3>>>
+Tipos de COE
+→ Valor Nominal Protegido (Capital Protegido)
+●
+Garante devolução de 100% do valor nominal no vencimento
+●
+Risco limitado ao custo de oportunidade (não ganhar nada)
+●
+Ideal para investidores conservadores
+→ Valor Nominal em Risco
+●
+Possibilidade de perda parcial ou total do valor investido
+●
+Rendimento potencial maior
+●
+Indicado para perfis mais arrojados
+
+<<<SLIDE 4>>>
+Riscos e garantias do COE
+→ Certificado é emitido por um banco emissor
+●
+Risco de crédito
+●
+COE não é coberto pelo FGC (Fundo Garantidor de Crédito)
+○
+Embora seja tributado como Renda Fixa (!!!)
+
+<<<SLIDE 5>>>
+Prazo e marcação a mercado
+→ Não existe mercado secundário — o resgate antes do vencimento depende da recompra pelo
+emissor
+●
+Resgatar antes do prazo de vencimento significa “desmontar” a operação.
+●
+Estará sujeito às condições de mercado no momento da venda - potencial prejuízo
+→ Para obtenção do resultado previsto no material de divulgação, é necessário permanecer
+investido até a data de vencimento
+
+<<<SLIDE 6>>>
+Tributação do COE
+→ Tributação idêntica à renda fixa.
+●
+Tabela regressiva, conforme o prazo
+●
+Possui IOF caso resgate antes de 30 dias
+Tabela Regressiva IR - Renda Fixa
+Prazo
+Alíquota
+Até 180 dias
+22,5%
+De 181 a 360 dias
+20%
+De 361 a 720 dias
+17,5%
+A partir de 721 dias
+15%
+
+<<<SLIDE 7>>>
+Documento de Informações Essenciais (DIE)
+→ O DIE deve apresentar TODOS os cenários possíveis
+●
+Cenários de ganho: total ou parcial (trava de alta)
+●
+Cenários de capital protegido
+●
+Cenários de perda
+→ Esclarecer os custos envolvidos
+→ Informar que a tributação segue a tabela regressiva de renda fixa, incidindo apenas no
+vencimento ou resgate antecipado
+
+<<<SLIDE 8>>>
+Material Publicitário (Seção II - Resolução CVM n 8)
+→ Deve ser consistente com o DIE, sem induzir o investidor a erro.
+→ Deve conter alertas de risco e informar que a rentabilidade não é garantida
+→ Proibido prometer ganhos certos
+Anexo – DIE-COE (modelo padrão CVM)
+→ Estrutura padronizada para facilitar a comparação entre produtos.
+→ Deve permitir que o investidor visualize claramente os resultados esperados em diferentes
+cenários

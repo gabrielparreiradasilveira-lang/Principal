@@ -1,0 +1,125 @@
+<<<SLIDE 1>>>
+Fundos de investimento
+
+<<<SLIDE 2>>>
+O que são fundos de investimento
+→ É um condomínio de investidores
+●
+Objetivo: investir de forma coletiva, delegando as decisões para um gestor profissional
+→ Todo fundo tem:
+●
+Patrimônio Líquido (PL): somatório dos valores aplicados por todos os investidores
+●
+Cota: fração mínima do PL do fundo, distribuída entre os investidores (cotistas)
+●
+Quantidade de cotistas: número de investidores que aplicaram no fundo
+
+<<<SLIDE 3>>>
+Estrutura básica de um fundo
+→ Administrador
+→ Gestor
+→ Custodiante
+→ Cotista
+→ Auditor independente
+→ Distribuidor
+
+<<<SLIDE 4>>>
+Administrador do fundo
+→ É o responsável legal pelo fundo e seu funcionamento. Ele constitui o fundo, redige o
+regulamento, registra o CNPJ e garante a conformidade com as normas legais e regulatórias
+→ Também é responsável por contratar os demais prestadores de serviço (como o gestor e o
+custodiante), prestar informações periódicas aos cotistas e à CVM, e garantir o serviço de
+atendimento aos investidores
+→ Responsável pelo recolhimento dos impostos (!!!)
+
+<<<SLIDE 5>>>
+Gestor do fundo
+→ É o profissional ou instituição responsável pela estratégia de investimento e pela tomada de
+decisões de compra, venda e manutenção dos ativos financeiros que compõem a carteira do
+fundo, seguindo a política de investimento estabelecida no regulamento.
+→ O objetivo do gestor é buscar os melhores retornos de acordo com a política de investimentos
+do fundo.
+
+<<<SLIDE 6>>>
+Custodiante, cotista e auditor independente
+→ Custodiante: É responsável pela guarda física ou eletrônica dos ativos do fundo, como títulos
+e valores mobiliários.
+→ Cotista: É o investidor, o “participante do condomínio”. É chamado assim, pois ele é quem
+possui as cotas do fundo.
+→ Auditor Independente: Realiza a auditoria anual das demonstrações contábeis do fundo,
+garantindo a transparência e a conformidade das informações
+financeiras, devendo ser registrado na CVM
+
+<<<SLIDE 7>>>
+Distribuidor
+→ Distribuidor: É a entidade responsável pela venda e distribuição das cotas do fundo aos
+investidores, atuando na captação de recursos
+→ Deve seguir regras relacionadas à disponibilização de documentos essenciais de cada fundo
+de investimento.
+
+<<<SLIDE 8>>>
+Documentos e termos
+→ Regulamento: Contém a política de investimento, taxas, condições de aplicação e resgate,
+público-alvo e fatores de risco do fundo.
+→ Termo de Adesão: Documento formal que o investidor assina para aderir ao fundo,
+concordando com as regras estabelecidas no regulamento.
+→ Termo de Ciência de Risco: Serve para garantir que o investidor declare formalmente ter lido,
+entendido e aceito os riscos inerentes à aplicação que está
+realizando.
+
+<<<SLIDE 9>>>
+Documentos e termos
+→ Lâmina de Informações Essenciais: Documento de fácil leitura que resume os principais
+pontos do fundo, como rentabilidade histórica, taxas e riscos.
+→ Informações Complementares: Documento adicional que fornece mais detalhes sobre o
+fundo, complementando a lâmina. Detalham os riscos envolvidos (concentração, crédito, mercado,
+liquidez e contraparte). Explica a política de investimento, limites de alavancagem e derivativos, a
+política de compliance tributário e o monitoramento de riscos em cenários de estresse.
+
+<<<SLIDE 10>>>
+Documentos e termos
+→ Selo ANBIMA: Indica que o fundo cumpre as regras e boas práticas do mercado, definidas
+pela Associação Brasileira das Entidades dos Mercados Financeiro e de Capitais (ANBIMA), o que
+aumenta a confiança e segurança do investidor.
+
+<<<SLIDE 11>>>
+Responsabilidades e obrigações do distribuidor
+→ Análise de adequação de perfil (Suitability)
+→ Conheça seu cliente (KYC)
+→ Disponibilização das informação e transparência
+→ Segurança digital: senhas e acesso seguro
+→ Procedimentos internos
+
+<<<SLIDE 12>>>
+Patrimônio Líquido Negativo
+→ Se um fundo tem patrimônio líquido negativo, significa que suas dívidas superam seus ativos
+→ O que acontece com o investidor
+●
+Perda do capital: Em caso de falência do fundo e liquidação, o investidor pode perder todo
+o capital investido inicialmente.
+●
+Responsabilidade limitada: Em fundos com responsabilidade limitada, o investidor não é
+obrigado a fazer novos aportes para cobrir o déficit.
+●
+Responsabilidade ilimitada: Em fundos com responsabilidade ilimitada, os cotistas podem
+ser obrigados a fazer novos aportes para cobrir as perdas,
+se aceitarem essa condição no regulamento.
+
+<<<SLIDE 13>>>
+Patrimônio Líquido Negativo
+→ Caso o fundo apresente patrimônio líquido negativo, o administrador pode propor aos cotistas:
+●
+Aporte adicional de recursos.
+●
+Cisão, fusão ou incorporação do fundo a outro fundo.
+●
+Liquidação da classe de cotas.
+
+<<<SLIDE 14>>>
+Patrimônio Líquido Negativo
+→ Declaração de insolvência: Se as medidas anteriores não forem aprovadas, o administrador
+pode solicitar a declaração judicial de insolvência do fundo.
+→ Ações do administrador: O pedido de insolvência judicial impede o administrador de renunciar à
+administração fiduciária, mas não o protege de ser destituído por deliberação dos cotistas.
+→ Possibilidade de ação judicial: Credores do fundo também podem entrar com pedido de
+insolvência contra a classe de cotas.

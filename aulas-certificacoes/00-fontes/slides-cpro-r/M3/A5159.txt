@@ -1,0 +1,108 @@
+<<<SLIDE 1>>>
+Ações no exterior (ADRs e GDRs)
+
+<<<SLIDE 2>>>
+Conceito geral
+→ Ações no exterior = participação em empresas listadas fora do Brasil
+Formas de investir:
+→ Diretamente (abrindo conta em corretora internacional)
+→ Indiretamente (via BDRs, fundos, ETFs globais ou COEs)
+●
+Objetivo: diversificação geográfica + exposição a moedas fortes (USD, EUR)
+
+<<<SLIDE 3>>>
+Bolsa de valores nos EUA
+→ Existem 3 bolsas de valores nos EUA:
+●
+NYSE: Bolsa de Nova York
+●
+NASDAQ: Bolsa das empresas de tecnologia
+●
+CME: Chicago Mercantile Exchange - bolsa de Chicago
+
+<<<SLIDE 4>>>
+American Depositary Receipts (ADR)
+→ O que são:
+●
+Recibos representativos de ações de empresas brasileiras, emitidos e negociados nos EUA
+●
+Intermediário: banco depositário americano
+●
+Lastro: ações originais ficam depositadas em uma instituição custodiante no país de origem
+●
+Negociação: em dólares, sob a regulação da SEC (CVM dos EUA)
+○
+Exemplos: VALE (ADR de Vale); PBR (ADR de Petrobrás)
+
+<<<SLIDE 5>>>
+Níveis de ADRs
+→ Nível I
+●
+Negociado no mercado OTC (balcão)
+●
+Exigência mínima de informações e transparência
+●
+Não listado em bolsa americana
+●
+Objetivo → aumentar visibilidade da empresa nos EUA
+→ Nível II
+●
+Negociado em bolsas como NYSE ou NASDAQ
+●
+Exige registro na SEC e demonstrações em US GAAP
+●
+Objetivo: negociação pública das ações nos EUA
+
+<<<SLIDE 6>>>
+Níveis de ADRs
+→ Nível III
+●
+Negociado em bolsas (NYSE/NASDAQ)
+●
+Cumpre todos os requisitos da SEC, incluindo prospecto
+●
+Permite captação de recursos (IPO nos EUA)
+●
+Objetivo → expandir base de investidores e levantar capital
+→ Regra 144A
+●
+Negociação em mercado restrito (investidores institucionais)
+●
+Dispensa registro na SEC, não é negociado publicamente
+●
+Objetivo → venda privada para investidores qualificados
+
+<<<SLIDE 7>>>
+Global Depositary Receipts (GDR)
+→ Definição: Recibos de ações emitidos fora dos EUA, normalmente em mercados europeus ou
+asiáticos
+●
+Moeda: geralmente USD, EUR ou GBP
+●
+Emissor: banco internacional (ex: Deutsche Bank, HSBC)
+●
+Negociação: bolsas de Londres (LSE), Luxemburgo, Frankfurt, Cingapura, etc.
+●
+Objetivo: permitir captação e acesso a investidores globais
+Exemplo:
+●
+GDRs da Gazprom (Rússia) negociados em Londres
+
+<<<SLIDE 8>>>
+Vantagens e riscos
+→ Vantagens:
+●
+Exposição global e cambial (USD/EUR)
+●
+Acesso a empresas líderes mundiais
+●
+Diversificação de portfólio, transparência e liquidez em grandes mercados
+→ Riscos:
+●
+Risco cambial
+●
+Diferenças regulatórias
+●
+Custos de conversão e custódia
+●
+Risco de deslistagem ou cancelamento de DRs

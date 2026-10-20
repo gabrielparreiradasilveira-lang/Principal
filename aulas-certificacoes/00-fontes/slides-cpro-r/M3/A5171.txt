@@ -1,0 +1,121 @@
+<<<SLIDE 1>>>
+Demais tipos de criptoativos
+
+<<<SLIDE 2>>>
+Os diferentes tipos de criptoativos
+→ Contexto geral
+●
+O universo cripto vai muito além do Bitcoin
+●
+Hoje, existem milhares de criptoativos com funções e naturezas diferentes
+●
+O termo “criptoativo” → abrange todos os ativos digitais baseados em blockchain
+→ Esses ativos podem representar:
+●
+Moeda digital
+●
+Acesso a serviços ou plataformas
+●
+Direitos de propriedade digital
+●
+Títulos de investimento
+
+<<<SLIDE 3>>>
+Conceito de tokens
+→ Token = representação digital de um ativo ou direito
+●
+Ele é emitido e registrado dentro de uma blockchain, garantindo rastreabilidade e segurança
+●
+É como um “recibo digital” que prova a posse de algo
+●
+Cada token tem função específica dentro de um ecossistema ou protocolo
+Tipos de tokens surgem conforme o uso:
+→ Governança (permitem votar em decisões da rede)
+→ Utilidade (utility)
+→ Valores mobiliários (security)
+→ Estáveis (stablecoins)
+→ Únicos (NFTs)
+
+<<<SLIDE 4>>>
+Utility Tokens
+→ São tokens de utilidade, usados para acessar produtos, serviços ou benefícios dentro de um
+projeto
+●
+Exemplo: usar ETH para pagar taxas na rede Ethereum.
+→ Outros exemplos:
+●
+BNB (Binance Coin) → pagar taxas e participar de lançamentos
+●
+UNI (Uniswap) → participar de governança e recompensas
+●
+Não representam propriedade nem promessa de retorno
+financeiro direto.
+
+<<<SLIDE 5>>>
+Security Tokens
+→ São tokens que representam valores mobiliários: como ações, debêntures ou cotas de fundos.
+→ Têm expectativa de lucro e são regulados por órgãos como CVM (Brasil) ou SEC (EUA).
+●
+Exemplo: tokenização de cotas de um imóvel ou fundo imobiliário.
+→ Security = valor mobiliário digital.
+●
+Prometem transparência, fracionamento e liquidez ao
+mercado tradicional.
+
+<<<SLIDE 6>>>
+Stablecoins e suas variações
+Stablecoins = moedas digitais com valor estável (lastreadas em ativos do mundo real).
+Objetivo → reduzir a volatilidade típica das criptos.
+3 principais modelos:
+●
+Lastreadas em moeda fiduciária (fiat-backed)
+●
+Lastreadas em criptoativos (crypto-backed)
+●
+Algorítmicas (algorithmic stablecoins)
+
+<<<SLIDE 7>>>
+Stablecoins e suas variações
+1)
+Lastreadas em moeda fiduciária (fiat-backed)
+→ Têm reserva equivalente em dólares, euros, etc.
+→ Exemplo:
+●
+USDT (Tether)
+●
+USDC (Circle)
+→ Cada token vale aproximadamente 1 dólar.
+
+<<<SLIDE 8>>>
+Stablecoins e suas variações
+2)
+Lastreadas em criptoativos (crypto-backed)
+→ Garantidas por outras criptos, mantidas em excesso como colateral.
+●
+Exemplo: DAI (MakerDAO) → colateral em ETH e outros ativos.
+3)
+Algorítmicas (algorithmic stablecoins)
+→ Sem lastro real: mantêm o preço via mecanismos automáticos de oferta e demanda.
+●
+Alta complexidade e risco: exemplo UST/Luna (colapso em 2022).
+
+<<<SLIDE 9>>>
+NFTs e o conceito de fungibilidade
+→ O que é fungibilidade?
+→ Fungível: pode ser trocado por outro de mesmo valor.
+●
+Ex: uma nota de R$100 = outra nota de R$100
+→ Não fungível: é único, insubstituível.
+●
+Ex: uma obra de arte original 🎨
+.
+
+<<<SLIDE 10>>>
+NFT (Non-Fungible Token)
+→ Representa posse ou autenticidade de um item digital (arte, música, ingresso, domínio, etc.).
+→ Usa blockchain para provar originalidade e escassez.
+→ Exemplo:
+●
+CryptoPunks, Bored Ape Yacht Club (coleções famosas)
+→ Evolução: NFTs utilitários, que dão acesso a eventos,
+comunidades ou benefícios.

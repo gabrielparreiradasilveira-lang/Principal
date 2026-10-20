@@ -1,0 +1,138 @@
+<<<SLIDE 1>>>
+Análise do perﬁl do investidor
+
+<<<SLIDE 2>>>
+Análise do perﬁl do investidor - na prática
+→ Conceito geral
+●
+O perfil do investidor é o conjunto de características que define como uma pessoa lida com
+risco, retorno e liquidez nos investimentos.
+→ Baseia-se em dados quantitativos e qualitativos coletados durante o processo de suitability
+→ O objetivo é alinhar produtos financeiros à capacidade, necessidade e disposição ao risco
+da pessoa investidora.
+
+<<<SLIDE 3>>>
+Coleta de informações
+→ Objetivo: levantar dados que permitam compreender o comportamento financeiro e
+emocional do cliente.
+Fontes de informação:
+●
+Questionários de suitability
+●
+Entrevistas, reuniões e conversas estruturadas
+●
+Histórico de investimentos e movimentações
+●
+Documentos oficiais (extratos, Declaração de IR)
+
+<<<SLIDE 4>>>
+Coleta de informações
+→ Principais dados coletados:
+●
+Renda e despesas mensais (fluxo de caixa)
+●
+Patrimônio total e composição de ativos
+●
+Objetivos financeiros (curto, médio, longo prazo)
+●
+Experiência e conhecimento sobre investimentos
+●
+Tolerância a perdas e percepção de risco
+●
+Estrutura familiar
+●
+Perfil profissional
+●
+Informações pessoais (idade, história de vida, planos)
+
+<<<SLIDE 5>>>
+Análise das informações coletadas
+→ Objetivo é “encaixar as peças do quebra-cabeça”
+●
+Gerar conexão com o ser humano por trás do “investidor”
+→ Análise capacidade de tomar risco x disponibilidade de tomar risco
+●
+Capacidade: é a questão objetiva/concreta. Tem a ver com o horizonte de investimento.
+●
+Disponibilidade: é a questão psicológica/subjetiva
+○
+É possível que o investidor tenha capacidade de tomar riscos, mas não tenha
+disponibilidade (ou vice-versa).
+
+<<<SLIDE 6>>>
+Avaliação dos objetivos ﬁnanceiros
+→ Os objetivos determinam a estratégia de investimento e o horizonte de aplicação.
+Tipos de objetivos:
+●
+Curto prazo (até 2 anos): foco em liquidez e segurança
+○
+Exemplo: reserva de emergência, viagem, uma compra de maior valor
+●
+Médio prazo (2 a 5 anos): equilíbrio entre segurança e maior rendimento
+○
+Exemplo: faculdade, intercâmbio, expandir a empresa
+●
+Longo prazo (5+ anos): crescimento patrimonial
+○
+Exemplo: aposentadoria, liberdade financeira
+
+<<<SLIDE 7>>>
+Análise de tolerância ao risco
+→ Tolerância ao risco: disposição emocional e financeira para enfrentar oscilações.
+●
+Mede como o cliente reage a perdas e qual o nível de volatilidade é aceitável.
+→ Fatores que influenciam:
+●
+Situação financeira (renda, reserva, estabilidade)
+●
+Idade e fase da vida
+●
+Experiência e conhecimento
+●
+Características pessoais
+
+<<<SLIDE 8>>>
+Análise de tolerância ao risco
+→ Ferramentas de análise:
+●
+Questionários com cenários hipotéticos
+●
+Testes de volatilidade (ex.: perdas simuladas)
+●
+Reuniões e conversas para conhecer a personalidade e características pessoais
+
+<<<SLIDE 9>>>
+Horizonte de investimentos
+→ Horizonte: tempo previsto até a utilização dos recursos.
+Quanto maior o prazo, maior a tolerância ao risco e a possibilidade de retorno.
+●
+Curto prazo: ativos de baixa volatilidade e alta liquidez.
+●
+Médio prazo: combina renda fixa e variável.
+●
+Longo prazo: foco em crescimento, aceitando volatilidade.
+→ Horizonte deve ser coerente com o objetivo financeiro, não apenas com a idade ou renda do
+cliente.
+
+<<<SLIDE 10>>>
+Avaliação da experiência com investimentos
+→ Permite medir o grau de compreensão do cliente sobre riscos e produtos.
+Níveis de experiência:
+●
+Iniciante: conhece apenas produtos “básicos”
+●
+Intermediário: conhece produtos além dos mais tradicionais
+●
+Avançado: compreende riscos complexos e tem familiaridade com quase todos os produtos
+
+<<<SLIDE 11>>>
+Avaliação da experiência com investimentos
+→ Perguntas-chave:
+●
+Quais produtos conhece ou tem familiaridade?
+●
+Qual foi a maior perda que enfrentou?
+●
+Como reagiria em um cenário de rentabilidade negativa?
+Resultado final: o perfil de investidor deve refletir a combinação entre experiência, objetivos,
+tolerância ao risco e horizonte de investimentos.

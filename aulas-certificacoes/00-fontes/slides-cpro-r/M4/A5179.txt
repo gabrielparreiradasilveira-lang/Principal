@@ -1,0 +1,139 @@
+<<<SLIDE 1>>>
+Transferência de custódia e resgate
+antecipado de ativos
+
+<<<SLIDE 2>>>
+Processo de Transferência de Custódia
+→ A transferência de custódia permite movimentar ativos entre instituições.
+→ Sem precisar vender, evitando custos, impostos e perda de posição.
+→ É ferramenta estratégica na gestão e rebalanceamento da carteira.
+
+<<<SLIDE 3>>>
+Sistema de Transferência de Valores Mobiliários
+→ Definição
+●
+O STVM é o sistema oficial utilizado pelas instituições financeiras para transferir ativos
+mobiliários entre custodiante de origem e custodiante de destino.
+●
+É administrado pela B3, garantindo segurança, rastreabilidade e padronização.
+→ Ativos que podem ser transferidos
+●
+Ações negociadas na B3
+●
+FIIs, ETFs, BDRs
+●
+Renda fixa custodiada na B3 (emissões bancárias e CP)
+●
+Fundos (quando permitido)
+
+<<<SLIDE 4>>>
+Sistema de Transferência de Valores Mobiliários
+→ Quando o STVM é usado
+●
+Quando o investidor quer mudar de corretora/banco sem vender os investimentos.
+●
+Quando deseja reorganizar a carteira entre plataformas para:
+○
+Reduzir custos
+○
+Unificar gestão
+○
+Acessar produtos melhores
+
+<<<SLIDE 5>>>
+Portabilidade entre diferentes titularidades
+→ Conceito
+●
+Transferência entre contas com titulares diferentes (CPFs diferentes)
+●
+Não é transferência de custódia — juridicamente vira cessão de direitos ou doação
+→ Quando pode acontecer
+●
+Doação de ativos entre familiares
+●
+Separação dos ativos em divórcio
+●
+Transferência de ativos para holding familiar
+●
+Movimentação entre CPF e CNPJ (empresa)
+
+<<<SLIDE 6>>>
+Portabilidade entre diferentes titularidades
+→ Implicações
+●
+Pode gerar imposto de renda sobre ganho de capital
+●
+Requer documentação adicional (contratos, comprovantes)
+●
+Pode precisar de registro na CVM em casos específicos (grandes participações)
+●
+Nem todas as instituições aceitam
+
+<<<SLIDE 7>>>
+Impactos de resgate antecipado
+→ Renda Fixa
+●
+Títulos bancários (CDB, LCI, LCA)
+→ Podem ter:
+●
+Liquidez diária → sem impacto relevante
+●
+Carência → não permitem resgate antecipado
+○
+Impacto relevante dependendo das condições do títulos
+■
+Duration
+■
+Taxa pré ou pós
+■
+Rating do emissor
+
+<<<SLIDE 8>>>
+Impactos de resgate antecipado
+→ Renda Fixa
+●
+Debêntures / CRIs / CRAs
+→ Resgate antecipado normalmente ocorre via mercado secundário.
+●
+Riscos:
+○
+Marcação a mercado → preço pode estar abaixo do valor nominal.
+
+<<<SLIDE 9>>>
+Impactos de resgate antecipado
+→ Renda Variável
+●
+Ações / FIIs / ETFs
+Não existe “resgate” — existe venda na bolsa de valores
+→ Impactos:
+●
+Preço pode estar desfavorável no momento.
+●
+Pode gerar IR sobre ganho de capital.
+
+<<<SLIDE 10>>>
+Impactos de resgate antecipado
+→ Investimentos Alternativos
+●
+Fundos Fechados / Private Equity / Venture Capital
+○
+Resgate antecipado não existe.
+→ Impactos:
+●
+Liquidez zero → só existe mercado secundário em alguns casos
+●
+Pode haver deságio grande (até 40% do valor aplicado)
+●
+O investidor perde o fluxo projetado do veículo
+
+<<<SLIDE 11>>>
+Impactos de resgate antecipado
+→ COE
+●
+Resgate antecipado raramente é vantajoso:
+○
+Penalidades
+○
+Quebra da estrutura
+○
+Valor de saída pode ser inferior ao capital investido

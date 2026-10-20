@@ -1,0 +1,82 @@
+<<<SLIDE 1>>>
+Produtos estruturados
+
+<<<SLIDE 2>>>
+Produtos Estruturados com Base em Derivativos
+→ Produto Estruturado: combinação ativo base + derivativos (geralmente opções)
+●
+Criado para modular risco e retorno, oferecendo proteção parcial ou total do capital
+●
+Exemplo clássico: COE (Certificado de Operações Estruturadas)
+
+<<<SLIDE 3>>>
+Volatilidade
+→ A volatilidade afeta o preço das opções dentro do produto.
+●
+Produto é pensado para mitigar a volatilidade para o investidor final
+●
+“Risco da renda fixa, com retorno da renda variável”
+
+<<<SLIDE 4>>>
+Riscos de Liquidação
+→ Produtos estruturados não têm liquidez — o investidor precisa aguardar o vencimento
+●
+Caso queira resgatar antes, sofre marcação a mercado
+●
+No vencimento, ocorre liquidação financeira automática conforme o desempenho do ativo de
+referência
+
+<<<SLIDE 5>>>
+Chamada de Margem
+→ Em alguns derivativos (como futuros e swaps), a contraparte precisa depositar margem de
+garantia
+●
+Essa margem cobre oscilações diárias adversas do mercado
+●
+Produtos estruturados prontos (como COE) normalmente não exigem margem do investidor
+final, mas o emissor sim
+
+<<<SLIDE 6>>>
+Direitos do investidor no mercado de derivativos
+1. Acesso à informação clara e completa
+●
+A instituição emissora ou intermediadora deve detalhar:
+○
+Estrutura e ativos subjacentes (ex: ações, índices, moedas).
+○
+Cenários de ganho e perda simulados.
+○
+Custos, taxas e tributação aplicável.
+○
+Grau de risco e possibilidade de perda total (se não houver capital protegido).
+
+<<<SLIDE 7>>>
+Direitos do investidor no mercado de derivativos
+2. Direito de acesso às condições de liquidação
+●
+Data de vencimento e condições de liquidação
+●
+Critérios de precificação diária (marcação a mercado)
+●
+Forma de liquidação: financeira ou física
+3. Direito de receber garantias de liquidação
+●
+Em derivativos negociados em bolsa (ex: BM&F B3):
+●
+A câmara de compensação atua como contraparte central,
+garantindo a liquidação.
+●
+O investidor é protegido de default da contraparte
+
+<<<SLIDE 8>>>
+Direitos do investidor no mercado de derivativos
+4. Direito à proteção institucional
+●
+CVM e B3 fiscalizam práticas abusivas, manipulação e operações inadequadas.
+●
+Código de Distribuição da ANBIMA reforça deveres de suitability e adequação de risco.
+5. Direito de reclamação e cancelamento
+●
+Investidor pode questionar informações incorretas ou imprecisas
+●
+Intermediadores devem ter canais de atendimento e ouvidoria

@@ -1,0 +1,67 @@
+<<<SLIDE 1>>>
+Tributação de investimentos no
+exterior
+
+<<<SLIDE 2>>>
+Conceitos importantes
+→ Residência Fiscal: para qual país do mundo o cidadão paga seus impostos. Estudaremos
+apenas casos de pessoas residentes fiscais brasileiras.
+●
+Ou seja, são brasileiras, investem ou detém patrimônio no exterior, e pagam seus
+impostos no Brasil
+
+<<<SLIDE 3>>>
+Conceitos importantes
+→ Investimentos no Exterior:
+●
+Via Pessoa Física (PF)
+●
+Via Pessoa Jurídica (Offshore)
+→ Lei 14.754/23: “Lei das offshores”.
+Passou a ser o marco regulatório dos investimentos no exterior.
+
+<<<SLIDE 4>>>
+Lei 14.754/23 - Rendimentos no exterior
+→ Diferente das outras rendas, o rendimento no exterior serão declarados na DAA (Declaração
+de
+Ajuste
+Anual)
+do
+IRPF,
+de
+forma
+separada
+das
+demais
+rendas.
+●
+O IRPF será recolhido no momento da declaração de ajuste anual (DAA)
+●
+Alíquota de 15% para todos os rendimentos auferidos no ano-calendário
+○
+Não diferencia a origem do rendimento: dividendos, juros, vencimentos, venda de ações
+com lucro, etc…
+○
+Soma tudo e aplica 15% sobre o lucro
+
+<<<SLIDE 5>>>
+Lei 14.754/23 - Rendimentos no exterior
+→ Imposto pago no exterior em aplicações financeiras
+●
+Pode ser deduzido do IRPF devido ao Brasil, o valor do imposto pago no exterior.
+●
+Desde que haja acordo de compensação (não-bitributação) com o país de origem do
+rendimento; ou
+●
+Haja tratamento recíproco em relação aos rendimentos dentro do país
+
+<<<SLIDE 6>>>
+Offshore: tipos de estrutura
+→ Estrutura Opaca: investidor declara somente “as cotas” da offshore. Não declara os ativos que
+a offshore investe
+●
+Precisa pagar imposto sobre o lucro contábil da empresa no ano.
+●
+Todos os anos, 15% de IR sobre o lucro da empresa
+→ Estrutura Transparente: investidor declara todos os ativos individualmente, como se a
+offshore “não existisse”. Paga imposto sobre cada ativo individualmente.

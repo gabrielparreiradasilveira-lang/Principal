@@ -1,0 +1,96 @@
+<<<SLIDE 1>>>
+Tipos de fundos (classes e subclasses)
+
+<<<SLIDE 2>>>
+A nova estrutura e a lógica do investimento
+→ Na nova Classificação de Fundos ANBIMA, os investimentos estão divididos em três níveis
+sendo:
+●
+1º Nível: Classes de Ativos
+●
+2º Nível: Riscos
+●
+3º Nível: Estratégias de investimento
+
+<<<SLIDE 3>>>
+Os 3 níveis
+1º Nível: Classes de Ativos
+●
+1. Fundos de renda fixa
+●
+2. Fundos de ações
+●
+3. Fundos multimercados
+●
+4. Fundos cambiais
+2º Nível: Riscos
+●
+1. Fundos indexados
+●
+2. Fundos ativos
+●
+3. Fundos de investimento no exterior.
+3º Nível: Estratégias de investimento
+
+<<<SLIDE 4>>>
+Os 3 níveis
+3º Nível: Estratégias de investimento
+→ Neste nível os fundos são classificados de acordo com a estratégia. Enquadram-se aqui, por
+exemplo, os fundos soberanos, os fundos dinâmicos e os setoriais, entre outros.
+
+<<<SLIDE 5>>>
+Fundos de renda ﬁxa
+→ Exposição a riscos de taxa de juros, inflação, crédito e câmbio
+→ Subclasses:
+●
+Renda Fixa Simples: liquidez diária, 95% aplicado em TPF, sem concentração em CP
+●
+Indexados → seguem um índice (ex: IRF-M, IMA-B)
+●
+Ativos → buscam superar o benchmark
+●
+Investimento no Exterior → ≥ 40% aplicados fora do país
+→ Estratégias (3º nível):
+●
+Soberano | Grau de Investimento | Crédito Livre | Dívida Externa
+
+<<<SLIDE 6>>>
+Fundos de renda ﬁxa
+
+<<<SLIDE 7>>>
+Fundos de ações
+→ Aplicam ≥ 67% em ações ou ativos correlatos (BDRs, ETFs)
+→ Subclasses (2º nível):
+●
+Indexados → replicam índice (ex: Ibovespa, IBrX)
+●
+Ativos → buscam superar benchmark
+●
+Específicos → mono ação, FMP-FGTS, fundos fechados
+●
+Investimento no Exterior
+→ Estratégias (3º nível):
+Valor/Crescimento | Dividendos | Small Caps | ESG | Setoriais
+
+<<<SLIDE 8>>>
+Fundos de ações
+
+<<<SLIDE 9>>>
+Fundos multimercado
+→ Mesclam diversas classes de ativos → renda fixa, ações, câmbio, derivativos etc.
+●
+Podem usar alavancagem e estratégias complexas
+→ Subclasses (2º nível):
+●
+Alocação → foco em balanceamento entre classes (Balanceado / Dinâmico)
+●
+Estratégia → foco em táticas de gestão (Macro, Trading, Long & Short, Juros & Moedas,
+Livre, Capital Protegido etc.)
+●
+Investimento no Exterior
+
+<<<SLIDE 10>>>
+Fundos multimercado
+
+<<<SLIDE 11>>>
+Fundos cambial

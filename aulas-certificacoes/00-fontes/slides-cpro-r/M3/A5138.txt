@@ -1,0 +1,84 @@
+<<<SLIDE 1>>>
+Fundo Garantidor de Crédito - FGC
+
+<<<SLIDE 2>>>
+O que é o FGC
+→ FGC (Fundo Garantidor de Crédito) é uma entidade privada sem fins lucrativos que funciona
+como um seguro para proteger os investidores e correntistas.
+→ Objetivo: Proteger o investidor em caso de falência ou intervenção da instituição emissora.
+●
+Evitar o “efeito cascata” da eventual falência de algum banco ou instituição financeira
+
+<<<SLIDE 3>>>
+Como funciona a cobertura
+→ O FGC garante recursos depositados em:
+●
+bancos múltiplos,
+●
+bancos comerciais,
+●
+bancos de investimento,
+●
+bancos de desenvolvimento,
+●
+sociedades de crédito, financiamento e investimento,
+●
+sociedades de crédito imobiliário e companhias hipotecárias,
+●
+associações de poupança e empréstimo
+●
+Caixa Econômica Federal.
+
+<<<SLIDE 4>>>
+Como funciona a cobertura
+→ A garantia é de até R$250.000,00, por instituição, limitados a R$1 milhão a cada quatro anos,
+no conjunto das instituições financeiras onde o cliente mantém seus recursos.
+
+<<<SLIDE 5>>>
+Em caso de conta conjunta
+→ Em contas conjuntas, a garantia é limitada a R$ 250.000,00. Esse valor é dividido igualmente
+entre os titulares, e cada um recebe sua parte separadamente.
+Exemplo: 1) Conta conjunta de 2 titulares:
+Kleber e Patrícia = saldo de R$ 280.000,00
+Valor garantido = R$ 250.000,00 / 2 = R$ 125.000,00 para cada titular.
+
+<<<SLIDE 6>>>
+Quem está coberto?
+→ Instrumentos financeiros garantidos:
+●
+CDB / RDB / RDC
+●
+LCI / LCA / LCD
+●
+LC / LH
+●
+Aplicações em caderneta de poupança
+●
+Saldos em conta corrente
+○
+Obs: saldos em corretoras (CTVM) e/ou distribuidoras de títulos e valores mobiliários
+(DTVM) não estão cobertos
+●
+DPGE (Garantia especial)
+
+<<<SLIDE 7>>>
+Quem NÃO está coberto?
+→ Instrumentos financeiros não garantidos:
+●
+LF
+●
+CRI / CRA / CCI / CDCA
+●
+Debêntures
+●
+Fundos de investimento
+●
+Previdência privada
+●
+COE
+
+<<<SLIDE 8>>>
+Fundo Garantidor do Cooperativismo de Crédito (FGCoop)
+→ O FGCoop garante os depósitos em cooperativas singulares de crédito captadoras de
+depósitos e nos bancos cooperativos.
+→ O valor garantido é de até R$250.000,00 por instituição e por cliente.

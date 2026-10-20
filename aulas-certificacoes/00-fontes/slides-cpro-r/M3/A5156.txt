@@ -1,0 +1,227 @@
+<<<SLIDE 1>>>
+Tributação de Fundos de Investimento
+
+<<<SLIDE 2>>>
+Fato Gerador
+→ As movimentações internas do fundo de investimento não incidem tributos;
+→ O fato gerador do IR nos fundos de investimentos é o GANHO DE CAPITAL da valorização
+das cotas.
+→ É cobrado no RESGATE das cotas.
+
+<<<SLIDE 3>>>
+Quem faz o recolhimento do imposto
+→ O agente responsável pelo recolhimento do IR nos fundos de investimento é:
+●
+O ADMINISTRADOR do fundo
+●
+Toda a parte burocrática do fundo é da responsabilidade do administrador.
+
+<<<SLIDE 4>>>
+Compensação de Prejuízos
+→ É possível compensar perdas passadas com lucros futuros.
+●
+Desde que sejam:
+○
+Fundos do mesmo administrador
+○
+Fundos com a Classificação idêntica!
+●
+Exemplo: fundo de Renda Fixa Longo Prazo, com Renda Fixa Longo Prazo.
+
+<<<SLIDE 5>>>
+Regras de Tributação dos Fundos
+●
+Regra Geral:
+○
+Fundos de Investimento em Renda Fixa, Cambiais e Multimercados;
+○
+Fundos de Investimento em Direitos Creditórios (FIDC);
+○
+Fundos Destinados a Garantia de Locação Imobiliária;
+○
+Fundos de Concentração em Crédito Privado;
+
+<<<SLIDE 6>>>
+Regras de Tributação dos Fundos
+●
+Fundos Isentos de Imposto de Renda:
+○
+Fundos de Infraestrutura, FI-INFRA
+○
+Fundos
+de
+Debêntures
+Incentivadas;
+●
+Fundos de Renda Variável:
+○
+Fundos de Ações;
+○
+Fundos de Investimento em Participação (FIP);
+○
+ETFs de Renda Variável;
+○
+ETFs de commodities
+○
+Clubes de investimento
+
+<<<SLIDE 7>>>
+Regras de Tributação dos Fundos
+●
+Fundos Imobiliários
+○
+FIAGROs
+●
+ETFs de Renda Fixa
+
+<<<SLIDE 8>>>
+Regra geral
+→ Incidência do IOF antes do IR
+●
+IOF Regressivo (4-3-3), mesma regra da tributação de Renda Fixa
+
+<<<SLIDE 9>>>
+IOF
+→ Para lembrar: IOF é um imposto REGULATÓRIO. Ou seja, ele serve para DESESTIMULAR as
+aplicações de curtíssimo prazo!
+
+<<<SLIDE 10>>>
+IOF
+→ Exceções do IOF:
+●
+Fundos de renda variável não são tributados pelo IOF
+●
+Fundos com carência têm alíquota de 0,50% ao dia antes do vencimento da carência,
+cobrado sobre todo o valor do resgate limitado a 100% do ganho do investidor;
+
+<<<SLIDE 11>>>
+Imposto de Renda na Regra Geral
+Tabela Regressiva IR - Renda Fixa
+Prazo
+Alíquota
+Até 180 dias
+22,5%
+De 181 a 360 dias
+20%
+De 361 a 720 dias
+17,5%
+A partir de 721 dias
+15%
+
+<<<SLIDE 12>>>
+Imposto de Renda na Regra Geral
+→ Aplica-se nos fundos:
+●
+Fundos de Investimento em Renda Fixa;
+●
+Fundos Cambiais;
+●
+Fundos Multimercado;
+●
+Fundos de Investimento em Direitos Creditórios (FIDC);
+●
+Fundos destinados a garantia de Locação Imobiliária;
+●
+Fundos de Crédito Privado;
+
+<<<SLIDE 13>>>
+Exceção da Regra Geral
+→ Classificação CVM para Fundos de Curto Prazo:
+●
+Instrução CVM 175/22:
+●
+Prazo Máximo da Carteira de 375 dias;
+●
+Prazo Médio da Carteira de 60 dias;
+→ Classificação dos Fundos segundo a Receita Federal:
+●
+IN SRF 487/2004:
+●
+Prazo Médio igual ou inferior a 365 dias;
+●
+Receita Federal é Responsável pela Tributação;
+
+<<<SLIDE 14>>>
+O PROBLEMA: a fome do Leão!
+
+<<<SLIDE 15>>>
+COME-COTAS
+→ O imposto de renda come-cotas é uma ANTECIPAÇÃO do imposto a ser pago;
+→ É cobrado a título de antecipação, sempre a menor alíquota do fundo:
+●
+Fundos de Investimento da Regra Geral: 15%;
+●
+Fundos de Investimento de Curto Prazo: 20%
+→ Cobrado semestralmente no último dia útil de MAIO e NOVEMBRO
+
+<<<SLIDE 16>>>
+Fundos Isentos
+→ Fundos Isentos de Imposto de Renda:
+●
+Fundos de Infraestrutura;
+●
+Fundos de Debêntures Incentivadas;
+→ Há incidência de IOF.
+→ Para enquadramento como fundo incentivado deve:
+●
+Investir pelo menos 85% em debêntures incentivadas;
+○
+Investimentos de Longo Prazo;
+○
+Isenção se Aplica apenas para as Pessoas Físicas;
+→  Setores de importância nacional:
+Transporte, Energia, Saneamento Básico, Telecomunicações;
+
+<<<SLIDE 17>>>
+Fundos de Renda Variável
+→ Fundos de Renda Variável:
+●
+Fundo de Investimento em Ações;
+●
+Fundos de Investimento em Participações;
+●
+ETFs de Renda Variável;
+→ Não há incidência de IOF;
+→ Tributação de Imposto de Renda:
+●
+15% sobre o Ganho de Capital, independente do Prazo;
+●
+Não há incidência de Come Cotas;
+
+<<<SLIDE 18>>>
+Fundos Imobiliários e FIAGROs
+→ Tributação Pessoa Física:
+●
+Distribuição dos Rendimentos é isenta desde que:
+○
+Tenha no mínimo 50 cotistas;
+○
+Seja negociado em bolsa de valores ou mercado de balcão organizado;
+●
+Ganho de Capital:
+○
+Imposto de Renda de 20%;
+○
+Isento de IOF;
+
+<<<SLIDE 19>>>
+Fundos Imobiliários
+→ Tributação Pessoa Jurídica:
+●
+20% para os Rendimentos e o Ganho de Capital;
+●
+Isenção de IOF;
+
+<<<SLIDE 20>>>
+ETFs de Renda Fixa
+→ Tabela regressiva de Imposto de Renda, cuja alíquota depende do Prazo Médio de
+Repactuação (PMR) da carteira de títulos do fundo, e não do tempo que o investidor mantém as
+cotas
+●
+PMR inferior a 180 dias: 25%
+●
+PMR entre 181 e 720 dias: 20%
+●
+PMR superior a 720 dias: 15%
+→ Investidor recolhe o IR via DARF no mesmo formato da renda variável
+→ Incide IOF em movimentações inferiores a 30 dias

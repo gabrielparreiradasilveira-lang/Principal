@@ -1,0 +1,65 @@
+<<<SLIDE 1>>>
+Mercado Primário, Secundário e
+Marcação a mercado (MaM)
+
+<<<SLIDE 2>>>
+Emissão Primária
+→ Também conhecido como Mercado Primário
+→ Onde o título é emitido pela primeira vez
+→ Recursos vão diretamente ao emissor
+●
+Exemplo: compra de Tesouro Direto recém-emissão ou debênture no lançamento
+→ Aqui os termos do “contrato” são acordados.
+●
+Mas e se o investidor mudar de ideia…
+
+<<<SLIDE 3>>>
+Mercado Secundário
+
+<<<SLIDE 4>>>
+Mercado Secundário
+→ Onde ocorre a negociação entre investidores
+→ O emissor não recebe novos recursos, mas o investidor ganha liquidez
+●
+Exemplo: venda antecipada de um título público antes do vencimento.
+→ A bolsa de valores é um grande mercado secundário
+
+<<<SLIDE 5>>>
+Marcação a mercado (MaM)
+
+<<<SLIDE 6>>>
+Marcação a mercado (MaM)
+→ Efeitos da Marcação a Mercado
+●
+No secundário, o preço varia diariamente conforme juros e prazos.
+●
+Títulos longos sofrem mais impacto
+●
+Investidor que carrega até o vencimento → não realiza prejuízo nem ganho temporário
+
+<<<SLIDE 7>>>
+Marcação a mercado (MaM)
+→ Duration
+●
+Mede a sensibilidade do preço do título à variação de juros
+●
+Quanto maior a duration, maior o risco de mercado
+●
+Prazo de vencimento e duration não são a mesma coisa (!!!)
+→ Exemplo:
+●
+Título de 10 anos → duration alta → sensível a oscilações
+●
+Tesouro Selic → duration baixa → quase estável
+
+<<<SLIDE 8>>>
+Custódia dos títulos
+→ Selic: Sistema Especial de Liquidação e Custódia
+●
+É o sistema do Banco Central que registra, guarda (custódia) e liquida os títulos públicos
+federais, permitindo que a transferência de propriedade ocorra de forma segura e imediata
+→ CETIP (B3): Central de Custódia e de Liquidação Financeira de Títulos Privados
+●
+Sistema responsável pela custódia e liquidação dos títulos privados
+●
+CDB, CRI, CRA, Debênture, outros títulos de renda fixa

@@ -1,0 +1,110 @@
+<<<SLIDE 1>>>
+Dividendos, Juros sobre Capital Próprio e
+outros conceitos do mercado acionário
+
+<<<SLIDE 2>>>
+Dividendos
+→ Definição: Parcela do lucro líquido distribuída aos acionistas.
+●
+Periodicidade: Definida pelo estatuto da empresa
+●
+Valor: Proporcional à quantidade e tipo de ações.
+●
+Obrigatoriedade: não há previsão legal de valor mínimo. Caso a empresa não tenha
+deliberação sobre o assunto, adota-se o valor mínimo de 25% do lucro líquido
+●
+Tributação:
+○
+Atualmente isentos de IR para pessoa física residente no Brasil
+○
+Empresa já recolhe IRPJ e CSLL antes da distribuição
+
+<<<SLIDE 3>>>
+Juros sobre Capital Próprio (JCP)
+→ Definição: Remuneração paga aos acionistas como despesa financeira, vinculada ao
+patrimônio líquido da empresa
+●
+Limite:
+○
+50% do somatório dos lucros acumulados e reservas de lucros
+○
+Não pode exceder a variação da TJLP sobre o valor do PL
+●
+Vantagem para a empresa:
+○
+Dedutível do lucro tributável → reduz IRPJ e CSLL.
+●
+Vantagem para o investidor:
+○
+Remuneração semelhante a dividendos,
+○
+Mas com IR de 15% retido na fonte.
+
+<<<SLIDE 4>>>
+Aluguel de Ações
+→ Permite que o dono de ações (doador) as empreste a um tomador por determinado prazo,
+mediante uma remuneração
+→ Operação intermediada e garantida pela B3 (BTC – Banco de Títulos CBLC)
+●
+Doador: O investidor que possui ativos e os disponibiliza para aluguel
+●
+Tomador: O investidor que aluga os ativos para realizar operações, como vendas a
+descoberto (apostando na queda do preço)
+●
+Garantia: O tomador precisa apresentar garantias para a operação, e a B3 garante que o
+título seja devolvido ao doador ao final do contrato
+
+<<<SLIDE 5>>>
+Bônus de Subscrição, Follow-on, Split e Inplit
+→ Follow-on (Oferta Secundária)
+●
+Definição: Nova oferta de ações após o IPO
+○
+Primária → captação de recursos para a empresa
+○
+Secundária → liquidez para sócios
+●
+Proteção dos acionistas minoritários:
+○
+Transparência obrigatória via prospecto e fato relevante (CVM).
+○
+Direito de preferência em emissões primárias.
+
+<<<SLIDE 6>>>
+Bônus de Subscrição, Follow-on, Split e Inplit
+→ Bônus de Subscrição
+●
+Definição: Direito concedido ao acionista de subscrição futura de novas ações a preço
+predeterminado
+●
+Objetivo: Captar recursos sem diluir injustamente o acionista atual
+●
+Proteção ao minoritário: Mantém o direito de manter sua participação proporcional
+●
+Negociável: Pode ser vendido no mercado secundário
+
+<<<SLIDE 7>>>
+Split (Desdobramento de Ações)
+→ Definição: Aumento da quantidade de ações, sem alterar o valor total investido.
+●
+Ex: 1 ação → 10 ações
+●
+Efeito:
+○
+Reduz o preço unitário → aumenta a liquidez.
+○
+Mantém o valor total da posição.
+
+<<<SLIDE 8>>>
+Inplit (Grupamento de Ações)
+→ Definição: Reduz a quantidade de ações, aumentando o preço unitário
+●
+Ex: 10 ações → 1 ação
+●
+Motivo comum: Ações com preço muito baixo (“penny stocks”)
+●
+B3 notifica a empresa quando a ação baixa de R$ 1,00
+○
+Não é permitida a negociação abaixo de R$ 1,00 por mais de 30 pregões consecutivos
+●
+Reduz a volatilidade

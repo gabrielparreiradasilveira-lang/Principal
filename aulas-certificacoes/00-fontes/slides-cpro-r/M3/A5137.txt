@@ -1,0 +1,248 @@
+<<<SLIDE 1>>>
+Emissões bancárias
+
+<<<SLIDE 2>>>
+CDB (Certiﬁcado de Depósito Bancário)
+●
+Custódia: B3 (Cetip)
+●
+Remuneração: Prefixado / Pós (CDI) / Híbrido (IPCA+taxa)
+●
+Prazo e Carência: Variável
+●
+Liquidez: Pode ter liquidez diária, apenas no vencimento ou mercado secundário
+●
+Riscos: Crédito e liquidez
+●
+Cobertura do FGC: Sim ✅
+
+<<<SLIDE 3>>>
+RDB (Recibo de Depósito Bancário)
+●
+Custódia: No próprio banco emissor
+●
+Remuneração: Prefixado / Pós (CDI) / Híbrido
+●
+Prazo e Carência: Variável, definidos pelo banco
+●
+Liquidez: Inexistente antes do prazo, sem possibilidade de mercado secundário
+●
+Riscos: Crédito
+●
+Cobertura do FGC: Sim ✅
+
+<<<SLIDE 4>>>
+RDC (Recibo de Depósito Cooperativo)
+●
+Custódia: Cooperativa de crédito
+●
+Remuneração: Prefixado / Pós (CDI) / Híbrido
+●
+Prazo e Carência: Variável, definidos pela cooperativa
+●
+Liquidez: Inexistente antes do prazo, sem possibilidade de mercado secundário
+●
+Riscos: Crédito
+●
+Cobertura do FGCoop: Sim ✅
+
+<<<SLIDE 5>>>
+LCA (Letra de Crédito do Agronegócio)
+●
+Custódia: B3 (Cetip)
+●
+Remuneração: Prefixada / Pós (CDI) / IPCA+
+●
+Carência: valendo a partir de 22/05/2025
+○
+Para emissões pré e pós: mínimo de 6 meses (180 dias)
+○
+Para emissões IPCA+: mínimo de 12 meses (360 dias)
+●
+Liquidez: Diária (após a carência) ou somente no vencimento
+●
+Riscos: Crédito
+●
+Cobertura do FGC: Sim ✅
+
+<<<SLIDE 6>>>
+LCI (Letra de Crédito Imobiliário)
+●
+Custódia: B3 (Cetip)
+●
+Remuneração: Prefixada / Pós (CDI) / IPCA+
+●
+Carência: valendo a partir de 22/05/2025
+○
+Para emissões pré e pós: mínimo de 6 meses (180 dias)
+○
+Para emissões IPCA+: mínimo de 12 meses (360 dias), se atualizada anualmente
+○
+Para emissões IPCA+: mínimo de 36 meses, se atualizada mensalmente
+●
+Liquidez: Diária (após a carência) ou somente no vencimento
+●
+Riscos: Crédito
+●
+Cobertura do FGC: Sim ✅
+
+<<<SLIDE 7>>>
+LCD (Letra de Crédito de Desenvolvimento)
+●
+Custódia: B3 (Cetip)
+●
+Remuneração: Prefixada, Pós-fixado (CDI) ou IPCA+
+●
+Prazo: normalmente mais longos (projetos de desenvolvimento)
+●
+Carência: mínima de 12 meses para todas emissões
+●
+Liquidez: diária após a carência ou no vencimento - possibilidade de mercado secundário
+●
+Riscos: Crédito
+●
+Cobertura do FGC: Sim ✅
+
+<<<SLIDE 8>>>
+LF (Letra Financeira)
+●
+Custódia: B3 (Cetip)
+●
+Remuneração: Prefixada / CDI / IPCA+
+●
+Prazo: normalmente emissões de longo prazo
+●
+Carência: mínimo de 2 anos (720 dias)
+●
+Liquidez: Somente no vencimento - possibilidade de mercado secundário
+●
+Riscos: Crédito, mercado e liquidez
+●
+Cobertura do FGC: Não ❌
+
+<<<SLIDE 9>>>
+LC (Letra de Câmbio)
+●
+Custódia: B3 (Cetip)
+●
+Emissores: pode ser emitidas por instituições não-bancárias (financeiras)
+●
+Remuneração: Prefixada / CDI / IPCA+
+●
+Prazo e Carência: Variável, definido pelo emissor
+●
+Liquidez: no vencimento - possibilidade de mercado secundário
+●
+Riscos: Crédito
+●
+Cobertura do FGC: Sim ✅
+
+<<<SLIDE 10>>>
+LH (Letra Hipotecária)
+●
+Custódia: B3 (Cetip)
+●
+Remuneração: Prefixada, CDI ou IPCA+
+●
+Carência: mínimo de 180 dias, podendo ser maior em caso de títulos IPCA+
+●
+Liquidez: no vencimento - possibilidade de mercado secundário
+●
+Riscos: Crédito
+●
+Cobertura do FGC: Sim ✅
+●
+Pouco utilizada nos dias atuais
+
+<<<SLIDE 11>>>
+CRA (Certiﬁcado de Recebíveis do Agronegócio)
+●
+Custódia: B3
+●
+Emissor: Companhia Securitizadora
+●
+Remuneração: Prefixada / IPCA+ / CDI
+●
+Prazo: geralmente longos. Alguns pagam cupons como forma de antecipação
+●
+Liquidez: no vencimento, no pagamento de juros e amortização, ou mercado secundário
+●
+Riscos: Crédito, mercado e liquidez
+●
+Cobertura do FGC: Não ❌
+
+<<<SLIDE 12>>>
+CRI (Certiﬁcado de Recebíveis Imobiliários)
+●
+Custódia: B3
+●
+Emissor: Companhia Securitizadora
+●
+Remuneração: Prefixada / IPCA+ / CDI
+●
+Prazo: geralmente longos. Alguns pagam cupons como forma de antecipação
+●
+Liquidez: no vencimento, no pagamento de juros e amortização, ou mercado secundário
+●
+Riscos: Crédito, mercado e liquidez
+●
+Cobertura do FGC: Não ❌
+
+<<<SLIDE 13>>>
+CCI (Cédula de Crédito Imobiliário)
+●
+Custódia: B3
+●
+Emissor: detentor de um direito de recebível imobiliário (não necessariamente um banco)
+●
+Negociação: diretamente via B3 - instrumentos de renda fixa
+●
+Remuneração: Prefixada / IPCA+ / CDI
+●
+Prazo: geralmente longos. Alguns pagam cupons como forma de antecipação
+●
+Liquidez: no vencimento, no pagamento de juros e amortização, ou mercado secundário
+●
+Riscos: Crédito, mercado e liquidez
+●
+O direito de recebimento pode ser cobrado judicialmente
+●
+Cobertura do FGC: Não ❌
+
+<<<SLIDE 14>>>
+CDCA (Certiﬁcado de Direitos Creditórios do Agronegócio)
+●
+Custódia: B3
+●
+Emissor: cooperativas agropecuárias ou empresas ligadas à cadeia do agronegócio
+●
+Remuneração: CDI / IPCA+ / Prefixado
+●
+Prazo e Carência: geralmente mais longos
+●
+Liquidez: restrita e com pouca negociação no mercado secundário
+●
+Riscos: crédito, liquidez e mercado
+●
+Cobertura do FGC: Não ❌
+
+<<<SLIDE 15>>>
+DPGE (Depósito a Prazo com Garantia Especial)
+●
+Custódia: B3 (Cetip)
+●
+Remuneração: CDI / Prefixado / IPCA+
+●
+Prazo e Carência: Geralmente entre 6 meses e 36 meses
+●
+Liquidez: Somente no vencimento, sem resgate antecipado
+●
+Riscos: Crédito
+●
+Cobertura do FGC: Sim ✅
+○
+Cobertura especial: até R$ 40 milhões por CPF/CNPJ
+○
+Aplicação mínima: acima de R$250.000,00
+●
+Objetivo: Fortalecer bancos de pequeno e médio porte

@@ -1,0 +1,114 @@
+<<<SLIDE 1>>>
+Bitcoin
+
+<<<SLIDE 2>>>
+Criptoativos no contexto da pessoa investidora
+→ Conceito Geral
+●
+Criptoativos: representações digitais de valor, registradas em blockchains.
+●
+Usados como meio de troca, reserva de valor ou investimento.
+●
+Não são emitidos por governos → independentes de bancos centrais, descentralizados.
+●
+Alta volatilidade e risco, mas com potencial de diversificação.
+●
+Incluem: criptomoedas, tokens, NFTs, stablecoins e DeFi assets.
+
+<<<SLIDE 3>>>
+Bitcoin e sua adoção tecnológica
+●
+Criado em 2008 por Satoshi Nakamoto
+●
+Primeira criptomoeda descentralizada da história
+●
+Tecnologia baseada em Blockchain (registro público imutável)
+●
+Adoção crescente → governos, empresas e investidores institucionais
+●
+Funciona como dinheiro digital escasso (máximo de 21 milhões de unidades)
+●
+Oferta limitada + confiança no protocolo = valor percebido
+
+<<<SLIDE 4>>>
+Bitcoin e sua adoção tecnológica
+→ Descentralização, mineração, consenso e incentivos
+●
+Descentralização: não há autoridade central; rede peer-to-peer.
+●
+Mineração: processo de validação de blocos → uso de poder computacional.
+●
+Prova de Trabalho (Proof of Work): método de consenso do Bitcoin.
+●
+Recompensa: mineradores recebem novos BTC + taxas de transação.
+●
+Halving: redução da recompensa a cada ~4 anos → aumenta escassez.
+●
+Incentivo econômico mantém a rede segura e funcional.
+
+<<<SLIDE 5>>>
+Bitcoin e sua adoção tecnológica
+→ Blockchain, blocos, transações e hashes
+●
+Blockchain: livro-razão digital distribuído → todos possuem cópia
+●
+Blocos: agrupam transações verificadas
+●
+Hashes: funções criptográficas que garantem integridade dos dados
+●
+Cada bloco contém o hash do anterior → forma uma cadeia imutável
+●
+Transparência e segurança → impossível alterar registros antigos
+●
+Base tecnológica de todas as criptomoedas
+
+<<<SLIDE 6>>>
+Principais teses de investimento
+1.
+Reserva de valor digital (ouro digital): proteção contra inflação e desvalorização de
+moedas fiduciárias.
+2.
+Adoção institucional: fundos, bancos e ETFs aumentando exposição.
+3.
+Oferta limitada: escassez programada → potencial de valorização.
+
+<<<SLIDE 7>>>
+Bitcoin versus demais criptomoedas
+→ Propósito:
+●
+Bitcoin (BTC): reserva de valor e moeda digital.
+●
+Altcoins: múltiplos usos — contratos inteligentes, aplicativos descentralizados (dApps),
+stablecoins, DeFi, IA etc.
+→ Tecnologia:
+●
+Bitcoin: blockchain simples, robusta e segura (mecanismo Proof of Work).
+●
+Altcoins: diferentes blockchains e protocolos
+○
+Proof of Stake, Layer 2, entre outros
+
+<<<SLIDE 8>>>
+Bitcoin versus demais criptomoedas
+→ Risco:
+●
+Bitcoin: menor risco relativo — rede mais testada, segura e descentralizada.
+●
+Altcoins: risco maior — projetos novos, experimentais e menos seguros.
+→ Oferta Máxima:
+●
+Bitcoin: limitada a 21 milhões de unidades.
+●
+Altcoins: variável — algumas sem limite definido de emissão.
+
+<<<SLIDE 9>>>
+Bitcoin versus demais criptomoedas
+→ Adoção:
+●
+Bitcoin: uso global, aceitação institucional e reputação consolidada.
+●
+Altcoins: adoção restrita, foco em nichos e projetos específicos.
+→ Exemplos de Altcoins:
+●
+Ethereum (ETH), Solana (SOL), Cardano (ADA), Ripple (XRP), Avalanche (AVAX), entre
+outras.

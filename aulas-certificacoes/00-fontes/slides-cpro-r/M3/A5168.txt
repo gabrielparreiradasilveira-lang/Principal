@@ -1,0 +1,149 @@
+<<<SLIDE 1>>>
+Previdência Complementar Corporativa
+
+<<<SLIDE 2>>>
+Planos Corporativos
+→ Definição:
+●
+Plano coletivo de previdência privada criado pela empresa (patrocinadora ou instituidora)
+para um grupo de empregados.
+→ Características:
+●
+Baseia-se em adesão vinculada ao vínculo empregatício ou associativo
+●
+Possui regras padronizadas de contribuição e resgate
+●
+Administrado por uma entidade aberta (EAPC)
+○
+Ou fechada (EFPC)
+
+<<<SLIDE 3>>>
+Vantagens dos planos corporativos
+→ Para o colaborador:
+●
+Complementação de renda futura (aposentadoria)
+●
+Contribuição da empresa como benefício adicional
+●
+Incentivo à disciplina de poupança
+→ Para a empresa:
+●
+Retenção e engajamento de talentos (benefício de longo prazo)
+●
+Benefício fiscal:
+○
+dedutibilidade até 20% da folha de pagamento
+
+<<<SLIDE 4>>>
+Tipos de Planos: Averbados x Instituídos
+→ Planos Averbados
+●
+Empresa não contribui, apenas permite o desconto em folha e repassa à seguradora
+●
+Empresa atua como interveniente anuente, não como patrocinadora
+●
+Utilizam fundos abertos (EAPC)
+
+<<<SLIDE 5>>>
+Tipos de Planos: Averbados x Instituídos
+→ Vantagens:
+●
+Simplicidade administrativa
+●
+Sem custo direto para a empresa
+→ Desvantagens:
+●
+Menor engajamento do colaborador
+●
+Ausência de incentivo corporativo (sem contribuição patronal)
+Modalidade mais comum: VGBL (não há dedução fiscal).
+
+<<<SLIDE 6>>>
+Tipos de Planos: Averbados x Instituídos
+→ Planos Instituídos (ou Patrocinados)
+●
+Empresa contribui junto com o participante
+●
+Existe um comprometimento contratual com o plano
+●
+Geralmente operado por entidade fechada (EFPC), mas também possível via aberta
+
+<<<SLIDE 7>>>
+Tipos de Planos: Averbados x Instituídos
+→ Vantagens:
+●
+Reforça a cultura de previdência e vínculo com a empresa
+●
+Dedutibilidade fiscal para a empresa (até 20% da folha)
+●
+Pode prever regras de vesting (direito à contrapartida patronal após tempo mínimo)
+→ Desvantagens:
+●
+Maior complexidade de gestão e compliance
+Modalidade mais comum:
+●
+PGBL, por permitir dedução e diferimento fiscal
+
+<<<SLIDE 8>>>
+Regras de Vesting
+→ Definição:
+●
+Vesting é o prazo mínimo necessário para que o colaborador adquira o direito às
+contribuições feitas pela empresa ao seu favor
+→ Exemplo:
+●
+Empresa contribui R$ 500/mês.
+●
+Regra de vesting: 5 anos.
+●
+Se o colaborador sair antes de 5 anos
+→ perde uma parte ou toda a contrapartida da empresa
+
+<<<SLIDE 9>>>
+Regras de Vesting
+→ Quem define:
+●
+A empresa patrocinadora, dentro das normas do plano
+→ Quem regulamenta:
+●
+A SUSEP (para planos abertos) e a PREVIC (para entidades fechadas)
+→ Objetivo:
+●
+Fidelizar colaboradores
+●
+Alinhar interesses de longo prazo
+●
+Evitar incentivos perversos
+
+<<<SLIDE 10>>>
+Contribuições para um plano corporativo
+→ Parte Empresa (Patrocinadora)
+●
+Percentual fixo sobre o salário ou valor equivalente à contribuição do empregado
+●
+Dedutível
+até
+20%
+da
+folha
+(Lei
+9.532/97)
+→ Parte Participante (Empregado)
+●
+Percentual voluntário ou fixo descontado em folha, com percentual limitado
+●
+Pode escolher o perfil de investimento do fundo
+●
+Permite portabilidade em caso de desligamento
+
+<<<SLIDE 11>>>
+Contribuições para um plano corporativo
+→ Exemplo Prático
+●
+Funcionário contribui com 6% do salário
+●
+Empresa contribui com outros 6%
+●
+Após 10 anos de vínculo, o colaborador tem direito integral ao saldo (100% do vesting)
+→ Caso o plano seja PGBL, o colaborador pode abater ainda mais 6% em outro plano PGBL
+contratado a parte, pois a parte da empresa não conta na dedução limite de 12% anuais.

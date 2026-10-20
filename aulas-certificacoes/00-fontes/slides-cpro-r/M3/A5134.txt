@@ -1,0 +1,98 @@
+<<<SLIDE 1>>>
+Instrumentos de Renda Fixa
+
+<<<SLIDE 2>>>
+Renda Fixa
+→ Toda e qualquer RENDA FIXA é uma DÍVIDA
+
+<<<SLIDE 3>>>
+Renda Fixa
+→ O investidor empresta dinheiro para alguém:
+●
+Governo
+●
+Bancos
+●
+Empresas
+→ No momento do “empréstimo” é firmado:
+●
+O prazo para a “devolução” do dinheiro (vencimento)
+●
+A taxa de juros
+→ São as cláusulas de um contrato
+
+<<<SLIDE 4>>>
+Renda Fixa
+→ Exemplos da vida real:
+●
+Tesouro IPCA+ 2050
+●
+CDB
+Banco
+ABC
+110%CDI
+-
+out/2030
+●
+Debênture Rumo 16%a.a. - ago/2033
+
+<<<SLIDE 5>>>
+Renda Fixa
+→ Exemplos da vida real:
+●
+Tesouro IPCA+ 2050
+●
+CDB
+Banco
+ABC
+110%CDI
+-
+out/2030
+●
+Debênture Rumo 16%a.a. - ago/2033
+
+<<<SLIDE 6>>>
+Tipos de taxa de juros (rentabilidade)
+→ Taxa de juros pós-fixada
+→ Taxa de juros prefixada
+→ Taxa de juros híbrida (pré e pós)
+
+<<<SLIDE 7>>>
+Tipos de Risco
+→ Risco de Crédito:
+●
+Possibilidade do emissor não honrar o pagamento
+●
+Risco de Calote (!!!)
+●
+Governo: menor risco de crédito (soberano)
+●
+Bancos e empresas: risco privado, analisar o Rating (AAA, AA, A, BBB, BB, B, CCC, CC, C)
+
+<<<SLIDE 8>>>
+Tipos de Risco
+→ Risco de Liquidez:
+●
+Dificuldade em resgatar antes do vencimento sem perdas
+●
+Títulos públicos → alta liquidez
+●
+Debêntures, CRIs/CRAs e outros títulos → baixa liquidez.
+●
+Mitigação: alinhar prazos com objetivos do cliente.
+
+<<<SLIDE 9>>>
+Principais vantagens da renda ﬁxa
+1. Segurança:
+●
+Menor volatilidade → previsibilidade de retornos.
+2. Diversificação:
+●
+Essencial em qualquer portfólio → reduz riscos
+3. Adequação ao perfil:
+●
+Conservador: liquidez e segurança (Tesouro Selic, CDB DI).
+●
+Moderado: mistura com IPCA+ e debêntures.
+●
+Arrojado: crédito privado, high yield, prefixados longos.

@@ -1,0 +1,96 @@
+<<<SLIDE 1>>>
+Taxas, concentração e características
+dos fundos
+
+<<<SLIDE 2>>>
+Taxas
+→ Taxa de administração: remuneração do gestor. É um valor percentual cobrado sobre o PL do
+fundo. O valor da rentabilidade divulgado já é líquido da taxa de administração.
+●
+Exemplo: 1% ao ano
+→ Taxa de carregamento: valor cobrado sobre o valor aplicado no fundo. Hoje em dia são raras.
+●
+Normalmente é um percentual do valor do aporte. Ex: 5% do valor aportado
+●
+Pode ser cobrada na entrada ou na saída
+○
+Antecipada ou postecipada
+
+<<<SLIDE 3>>>
+Taxas
+→ Taxa de performance: cobrado sobre o rendimento excedente do fundo em relação ao
+benchmark.
+●
+São vedados de cobrar taxa de performance: fundos passivos / referenciados, renda fixa
+simples.
+●
+Linha d’água
+
+<<<SLIDE 4>>>
+Limites de concentração
+→ Limites por emissor
+●
+Instituições financeiras: Até 20% do patrimônio líquido
+●
+Fundos de investimento: Até 10% do patrimônio líquido
+●
+Pessoas físicas ou jurídicas de direito privado: Até 5% do patrimônio líquido
+●
+Governo federal: Até 100% do patrimônio líquido
+
+<<<SLIDE 5>>>
+Limites de concentração
+→ Outros limites importantes
+●
+Ativos no exterior: O limite geral para fundos de varejo é de 20% do patrimônio líquido.
+●
+Fundos de Investimento em Direitos Creditórios (FIDC): Podem concentrar mais de 50% do
+patrimônio em direitos creditórios
+
+<<<SLIDE 6>>>
+Prazos de resgate: cotização e liquidação
+→ Prazo de cotização: tempo para que a cota seja convertida em dinheiro novamente. Serve
+para dar tempo para o gestor vender ativos no mercado, gerando liquidez para o cotista.
+●
+Exemplo: D+30. São 30 dias corridos desde a solicitação do resgate até que o valor deixe de
+ser cota.
+→ Prazo de liquidação: tempo entre a cotização e o pagamento efetivo do resgate.
+●
+Exemplo: D+1
+
+<<<SLIDE 7>>>
+Critérios de abertura
+→ Fundo aberto: Permite a compra e resgate de cotas a qualquer momento
+→ Fundo fechado (“condomínio fechado”): Não permite resgate. Possui prazo de vencimento
+e só permite resgates no final do período ou negociação de cotas no mercado secundário.
+→ Fundo restrito: permitida entrada somente de investidores qualificados ou profissionais.
+→ Fundo exclusivo: fundo constituído apenas para 1 único
+investidor ou grupo familiar.
+
+<<<SLIDE 8>>>
+Características: estratégia passiva x ativa
+→ Estratégia passiva: investidor busca igualar, empatar, replicar o índice de referência do fundo.
+●
+Embasada na teoria dos mercados eficientes. Não é possível performar melhor do que
+mercado de forma consistente.
+●
+Costuma ter taxas de administração mais baixas
+●
+Reduz os riscos = risco sistemático e não risco específico dos ativos selecionados
+→ Estratégia ativa: busca superar o índice de referência. Embasada na não-eficiência dos
+mercados. Costuma ter taxas mais altas e taxa de performance.
+●
+Riscos maiores
+
+<<<SLIDE 9>>>
+Fundos ESG
+→ Integram fatores ambientais, sociais e de governança (ESG) na seleção de ativos
+●
+Objetivo: gerar retorno financeiro + impacto positivo
+→Tipos:
+●
+ESG Integrado: considera critérios ESG no processo de investimento
+●
+Temático: foca em temas específicos (energia limpa, governança, diversidade)
+●
+Impacto: busca mensurar resultados socioambientais concretos

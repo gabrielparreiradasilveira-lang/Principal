@@ -1,0 +1,94 @@
+<<<SLIDE 1>>>
+Emissões Corporativas
+
+<<<SLIDE 2>>>
+Conceito geral
+→ Títulos de dívida emitidos por empresas não financeiras (sociedades anônimas)
+●
+Algumas exceções no caso de Debêntures de Infraestrutura
+→ Objetivo:
+●
+Captar recursos para financiar projetos, capital de giro ou refinanciamento de dívidas
+→ São valores mobiliários e seguem normas da CVM
+
+<<<SLIDE 3>>>
+Principais tipos de emissão corporativa
+→ Debêntures: Título de dívida de empresa S.A.
+●
+Simples (comum)
+●
+Incentivada: isenta de IR
+●
+De Infraestrutura
+●
+Conversíveis ou Não-Conversíveis
+●
+Com garantias
+→ Notas Promissórias: Commercial Papers (Curto prazo)
+●
+Até 180 dias (capital fechado)
+●
+Até 360 dias (capital aberto)
+
+<<<SLIDE 4>>>
+Oferta Pública de Títulos
+→ Oferta Pública com Esforços Amplos (Resolução CVM 160 - antiga Oferta 400):
+●
+Aberto a qualquer investidor (público-geral, investidor comum)
+●
+Registro na CVM é obrigatório, sujeito à análise da CVM - maior rigor
+●
+Materiais obrigatórios: lâmina e prospecto
+→ Oferta com Esforços Restritos (Resolução CVM 160 - antiga Oferta 476)
+●
+Restrita a um grupo de investidores profissionais
+●
+Exige menos exigências burocráticas e de divulgação
+●
+Registro simplificado na CVM
+
+<<<SLIDE 5>>>
+Principais características
+→ Prazos:
+●
+Debêntures geralmente tem o objetivo de financiar projetos de longo prazo
+●
+Prazos variam entre 2 e 10 anos - podendo até ser maior
+●
+Não possuem resgate antes do vencimento (!!!)
+○
+Liquidez somente no mercado secundário
+○
+Sujeito à marcação a mercado
+
+<<<SLIDE 6>>>
+Principais características
+→ Risco de crédito:
+●
+Calote (!!!)
+●
+Debêntures não possuem garantia do FGC
+●
+O risco de crédito deve ser avaliado em relação às garantias, qualidade da empresa, prazo
+da dívida, etc
+●
+Avaliado por agências de rating (S&P, Fitch, Moody’s, Austin, etc.)
+○
+AAA, AA, A, BBB, BB, B, CCC, CC, C
+
+<<<SLIDE 7>>>
+Principais características
+→ Remuneração:
+●
+Prefixada, pós (CDI), híbrida (IPCA+)
+●
+Pode ter cupom ou quitação integral no vencimento (juros + amortização)
+○
+Bullet
+→ Marcação a mercado:
+●
+Mais intensa quanto maior for a duration do título
+●
+Caso tenha cupom, duration < vencimento
+●
+Se for bullet, duration = vencimento

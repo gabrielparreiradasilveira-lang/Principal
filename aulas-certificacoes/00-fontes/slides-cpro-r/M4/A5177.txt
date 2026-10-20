@@ -1,0 +1,170 @@
+<<<SLIDE 1>>>
+Estratégias dinâmicas de
+rebalanceamento
+
+<<<SLIDE 2>>>
+Estratégias Dinâmicas de Rebalanceamento
+→ Ideia central: São formas de ajustar a carteira ao longo do tempo para manter risco e retorno
+sob controle
+●
+Cada método reage ao mercado de um jeito diferente
+→ Tipos de estratégia:
+●
+Buy and Hold
+●
+Constant Mix
+●
+Constant Proportion Portfolio Insurance (CPPI)
+
+<<<SLIDE 3>>>
+Buy and Hold
+→ O que é
+●
+Estratégia mais simples → não mexer na carteira toda hora.
+●
+Comprar bons ativos e manter no longo prazo.
+●
+Serve para quem busca crescimento e não quer ficar rebalanceando sempre.
+→ Como funciona
+●
+Define a alocação inicial
+●
+Só ajusta em eventos específicos:
+○
+Mudança de vida/perfil
+○
+Ativo deixou de fazer sentido
+
+<<<SLIDE 4>>>
+Buy and Hold
+→ Comportamento em mercado volátil
+●
+Deixa a carteira balançar, aceita volatilidade como parte do processo
+→ Pontos fortes
+●
+Baixo custo (poucas operações)
+●
+Fácil
+de
+executar
+→ Pontos fracos
+●
+Pode ficar desalinhada em movimentos muito fortes
+●
+Exige disciplina para não mexer à toa
+
+<<<SLIDE 5>>>
+Constant Mix (CM)
+→ Ideia geral
+●
+Manter sempre a mesma proporção entre renda variável e renda fixa
+●
+Ex.: 60% ações / 40% renda fixa → sempre volta para isso
+→ Como funciona na prática
+●
+Se ações caem → compra mais ações (baratas)
+●
+Se ações sobem → vende ações (caro) e compra renda fixa
+●
+A carteira sempre “volta ao equilíbrio”
+
+<<<SLIDE 6>>>
+Constant Mix (CM)
+→ Comportamento em diferentes mercados
+●
+Mercado de alta: captura a alta, mas vende um pouco ao rebalancear
+●
+Mercado de queda: compra mais barato, mas pode sofrer se a queda continuar
+●
+Mercado lateral: mantém a alocação, conforme o planejado
+
+<<<SLIDE 7>>>
+Constant Mix (CM)
+→ Pontos fortes
+●
+Promove disciplina
+●
+Ajuda a comprar barato e vender caro
+●
+Mantém o risco sob controle
+→ Pontos fracos
+●
+Em quedas prolongadas, força a comprar um ativo que só cai
+●
+Precisa de rebalanceamento frequente
+
+<<<SLIDE 8>>>
+Constant Proportion Portfolio Insurance (CPPI)
+→ Ideia geral
+●
+Estratégia criada para proteger o patrimônio sem deixar de buscar retorno
+●
+Define-se um Piso que o investidor não pode perder
+●
+A parte “acima” desse piso é multiplicada por um Multiplicador (m) para determinar quanto
+vai para risco
+
+<<<SLIDE 9>>>
+Constant Proportion Portfolio Insurance (CPPI)
+→ Componentes essenciais
+●
+Piso (Floor)
+○
+É o valor mínimo que deve ser protegido. A carteira nunca pode cair abaixo desse nível.
+○
+Ex.: o investidor quer garantir ao menos R$ 800 mil de um patrimônio de R$ 1 milhão.
+●
+Multiplicador (m)
+○
+Fator que define quanto da parte excedente ao Piso será alocada em ativos de risco.
+○
+Quanto maior o multiplicador, maior a agressividade.
+○
+m comum = 2, 3, 4 ou 5
+
+<<<SLIDE 10>>>
+Constant Proportion Portfolio Insurance (CPPI)
+→ Como funciona
+●
+A cada período, calcula-se o quanto está acima do piso
+●
+Esse excedente × multiplicador = exposição máxima em renda variável
+●
+Se o mercado sobe → o excedente aumenta → aloca mais em risco
+●
+Se o mercado cai → o excedente diminui → reduz a exposição ao risco
+●
+Se chegar muito perto do Piso → zera ações e vai 100% para renda fixa para proteger o
+capital
+
+<<<SLIDE 11>>>
+Constant Proportion Portfolio Insurance (CPPI)
+→ Exemplo simples
+●
+Patrimônio: R$ 1.000.000
+●
+Piso: R$ 800.000
+●
+Multiplicador: 3
+Excedente acima do piso:
+●
+R$ 1.000.000 – R$ 800.000 = R$ 200.000
+Exposição ao risco = 200.000 × 3 = R$ 600.000 em ações
+(Resto fica em renda fixa para garantir o piso)
+
+<<<SLIDE 12>>>
+Constant Proportion Portfolio Insurance (CPPI)
+Se o mercado cair e o patrimônio ir para R$ 900 mil:
+→ Excedente = R$ 100.000
+→ Risco = 100.000 × 3 = R$ 300.000
+Ou seja: cai o patrimônio → cai automaticamente o risco
+
+<<<SLIDE 13>>>
+Constant Proportion Portfolio Insurance (CPPI)
+→ Comportamento em cada mercado
+●
+Alta: aumenta a exposição ao risco → captura boa parte da alta
+●
+Queda: a carteira automaticamente reduz risco → protege o piso
+●
+Lateral: mantém as proporções iniciais, conforme o piso e o multiplicador

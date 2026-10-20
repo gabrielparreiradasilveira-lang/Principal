@@ -1,0 +1,143 @@
+<<<SLIDE 1>>>
+Regimes de tributação de previdência
+complementar
+
+<<<SLIDE 2>>>
+Como era antes e como funciona agora…
+→ Investidor fazia a escolha do regime de tributação no momento da contratação da
+previdência
+→ A SUSEP, vendo que o investidor quase sempre se planeja mal, mudou a regulação.
+→ Agora o investidor escolhe o regime de tributação no momento do resgate ou conversão em
+renda
+
+<<<SLIDE 3>>>
+Regime Progressivo, Tributável ou Compensável
+→ O regime progressivo segue a tabela do Imposto de Renda Pessoa Física (IRPF), com
+alíquotas crescentes conforme a renda.
+●
+Parte do imposto é retido na fonte e compensável/ajustada na declaração anual
+→ A lógica desse modelo é:
+●
+A Receita entende que o valor usufruído de um plano de previdência é como se fosse “um
+salário” que o investidor recebe da seguradora.
+
+<<<SLIDE 4>>>
+Regime Progressivo, Tributável ou Compensável
+Tabela Progressiva IRPF (2025)
+Base de Cálculo mensal (R$)
+Alíquota (%)
+Parcela a deduzir (R$)
+Até 2.428,80
+0%
+R$ 0,00
+De 2.428,81 até 2.826,65
+7,5%
+R$ 182,16
+De 2.826,66 até 3.751,05
+15%
+R$ 394,16
+De 3.751,06 até 4.664,68
+22,5%
+R$ 675,49
+Acima de 4.664,68
+27,5%
+R$ 908,73
+
+<<<SLIDE 5>>>
+Regime Progressivo, Tributável ou Compensável
+→ Na prática como funciona:
+●
+O valor resgatado sofre uma retenção de 15% na fonte
+●
+Na declaração de IR do ano subsequente é feito o ajuste da alíquota.
+→ Exemplo: Kleber resgatou R$10.000 do seu plano PGBL progressivo.
+●
+IR retido na fonte: 15% = R$ 1.500
+●
+Kleber recebe R$ 8.500 líquido na conta
+●
+Na declaração de IR do ano seguinte:
+○
+Paga mais 12,5%, fechando total 27,5%
+
+<<<SLIDE 6>>>
+Regime Progressivo, Tributável ou Compensável
+→ Exemplo: Kleber resgatou R$10.000 do seu plano VGBL progressivo. Sendo que R$6.000
+representa valores aportados e R$4.000 representa a rentabilidade do plano.
+●
+IR retido na fonte: 15% sobre 4.000 = R$ 600
+●
+Kleber recebe R$ 9.400 líquido na conta
+●
+Na declaração de IR do ano seguinte:
+○
+Paga mais 7,5%, fechando total 22,5% (faixa da tabela progressiva)
+
+<<<SLIDE 7>>>
+Regime Regressivo, Deﬁnitivo ou Exclusivo
+→ O regime regressivo aplica alíquotas decrescentes conforme o tempo de permanência dos
+aportes. É exclusivo na fonte, não podendo ser compensada, ajustada ou deduzida na declaração
+de IR.
+→ A lógica desse modelo é:
+●
+Mesmo formato uma aplicação financeira tradicional. Quanto maior o prazo, menor o
+imposto.
+
+<<<SLIDE 8>>>
+Regime Regressivo, Deﬁnitivo ou Exclusivo
+Tabela Regressiva
+Prazo
+Alíquota IR
+Até 2 anos
+35%
+De 2 a 4 anos
+30%
+De 4 a 6 anos
+25%
+De 6 a 8 anos
+20%
+De 8 a 10 anos
+15%
+Acima de 10 anos
+10%
+
+<<<SLIDE 9>>>
+Regime Regressivo, Deﬁnitivo ou Exclusivo
+→ Como funciona na prática:
+●
+Cada aporte tem sua própria data. Como se cada aporte fosse uma linha de uma planilha
+○
+método PEPS/FIFO – Primeiro que Entra, Primeiro que Sai
+●
+No resgate, as cotas mais antigas (com menor IR) são as primeiras a sair.
+●
+O imposto é retido na fonte e definitivo — não entra no ajuste anual.
+
+<<<SLIDE 10>>>
+Regime Progressivo, Tributável ou Compensável
+→ Exemplo: Kleber resgatou R$10.000 do seu plano PGBL regressivo, cujo valor foi aportado
+integralmente há 15 anos.
+●
+Alíquota do IR: 10%
+●
+Kleber recebe R$ 9.000 líquido na conta
+●
+Na declaração de IR do ano seguinte, nada muda! Pois é uma tributação definitiva.
+
+<<<SLIDE 11>>>
+Comparativo: Regime Progressivo x Regressivo
+→ Para quem é indicado
+●
+Progressivo: Curto e médio prazo, rendas baixas
+●
+Regressivo: Longo prazo, foco em aposentadoria
+→ Tributação mínima
+●
+Progressivo: 0% (faixa isenta da tabela do IR)
+●
+Regressivo: 10% (após 10 anos de aplicação)
+→ Tributação máxima
+●
+Progressivo: 27,5%
+●
+Regressivo: 35% (até 2 anos)

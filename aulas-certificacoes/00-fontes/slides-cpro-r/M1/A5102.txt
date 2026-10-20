@@ -1,0 +1,72 @@
+<<<SLIDE 1>>>
+Heurísticas
+
+<<<SLIDE 2>>>
+Heurística: o atalho mental do investidor
+→ O cérebro busca atalhos mentais (heurísticas)
+●
+Decisões rápidas, com pouco esforço cognitivo
+→ São úteis no dia a dia, mas podem gerar erros sistemáticos de julgamento
+Nas finanças, esses atalhos afetam como avaliamos riscos, ganhos e probabilidades
+Resultado → viéses comportamentais que distorcem decisões de investimento
+Finanças comportamentais ≠ eliminar as heurísticas
+→ é reconhecê-las e mitigá-las
+
+<<<SLIDE 3>>>
+Principais heurísticas
+→ Representatividade
+→ Disponibilidade
+→ Ancoragem e ajustamento
+→ Excesso de confiança
+→ Aversão à perda
+
+<<<SLIDE 4>>>
+Heurísticas da representatividade
+→ Julgamos a probabilidade de um evento pela semelhança com um estereótipo conhecido
+Exemplo:
+●
+“Essa empresa parece a Magalu em 2015, então vai crescer igual”
+●
+Essa empresa será a próxima Amazon…
+Avalia o investimento somente pela semelhança com algum padrão pré-estabelecido.
+
+<<<SLIDE 5>>>
+Heurísticas da disponibilidade
+→ Avaliamos a probabilidade de algo acontecer pela facilidade de lembrar de exemplos
+Exemplo:
+●
+“Vi no jornal que empresas de tecnologia estão se valorizando muito”
+→ O cérebro confunde facilidade de lembrança com frequência real
+●
+Mídia, redes sociais e experiências recentes amplificam esse viés
+
+<<<SLIDE 6>>>
+Heurísticas da ancoragem e ajustamento
+→ Primeiras informações criam âncoras
+●
+Números ou referências que “grudam” na mente
+Exemplo
+→ Preço de compra de uma ação vira “ponto de referência” para decidir vender
+“Só vendo essa ação quando o preço passar de R$ 25,00”
+→ Mesmo com novas informações, o investidor ajusta pouco
+→ Gera apego irracional a preços, taxas ou projeções iniciais
+
+<<<SLIDE 7>>>
+Heurísticas do excesso de conﬁança
+→ Tendência de superestimar habilidades e previsões pessoais
+●
+“A maioria dos motoristas afirmam que dirigem melhor do que a média”
+Exemplo:
+●
+“Sei escolher as melhores ações” → ignora o acaso e a sorte
+→ Leva a operações excessivas, pouca diversificação e subestimação de riscos
+→ Mais comum em investidores experientes (paradoxo!)
+
+<<<SLIDE 8>>>
+Heurísticas da aversão a perda
+→ Perder dói 2x mais do que o prazer de ganhar
+●
+Investidores mantêm perdas por tempo demais → esperando “voltar ao preço”
+●
+E vendem ganhos cedo demais → medo de “perder o lucro”
+→ É como se o investidor tivesse um jardim… Mas corta as flores e deixa as ervas daninhas (!!!)

@@ -1,0 +1,98 @@
+<<<SLIDE 1>>>
+Classiﬁcações do cliente e classiﬁcação
+dos produtos de investimento
+
+<<<SLIDE 2>>>
+Classiﬁcação do cliente
+→ Ainda estamos no Documento “Regras e Procedimentos de Distribuição de Produtos de
+Investimentos” (Capítulo V - Seção II)
+Os Distribuidores devem avaliar e classificar seus clientes em, no mínimo, três perfis:
+●
+Perfil 1 (conservador)
+●
+Perfil 2 (moderado)
+●
+Perfil 3 (arrojado)
+
+<<<SLIDE 3>>>
+Classiﬁcação do cliente
+→ Perfil 1 (conservador)
+●
+Cliente que declara possuir baixa tolerância a risco, baixo conhecimento em matéria de
+investimentos e que prioriza investimentos em Produtos de Investimento com liquidez;
+→ Recomendar apenas Produtos de Investimento cuja pontuação de risco seja:
+●
+Igual ou inferior a 1,5
+
+<<<SLIDE 4>>>
+Classiﬁcação do cliente
+→ Podem ser classificados automaticamente no Perfil 1, clientes que, cumulativamente:
+●
+Estejam com o cadastro devidamente atualizado junto ao Distribuidor
+●
+Não tenham realizado investimento prévio em produtos ou em carteira de Produtos de
+Investimento, conforme o caso, incompatíveis com Perfil 1
+●
+Não tenham finalizado o processo de identificação de seu perfil de investimento
+→ Em caso de classificação automática, o cliente deverá:
+●
+Ser comunicado sobre a situação
+●
+Ser instruído para que complete o processo
+
+<<<SLIDE 5>>>
+Classiﬁcação do cliente
+→ Perfil 2 (moderado)
+●
+Cliente que declara média tolerância a risco e busca a preservação de seu capital a
+longo prazo, com disposição a destinar uma parte de seus recursos a investimentos de
+maior risco
+→ Recomendar apenas Produtos de Investimento cuja pontuação de risco seja:
+●
+Igual ou inferior a 3
+
+<<<SLIDE 6>>>
+Classiﬁcação do cliente
+→ Perfil 3 (arrojado/agressivo)
+●
+Cliente que declara tolerância a risco e aceita potenciais perdas em busca de maiores
+retornos
+→ Recomendar apenas Produtos de Investimento cuja pontuação de risco seja:
+●
+Igual ou inferior a 5
+
+<<<SLIDE 7>>>
+Classiﬁcação dos produtos de investimento
+→ Para verificar a adequação dos Produtos de Investimento ao perfil do cliente, os Distribuidores
+devem classificar seus produtos, considerando, no mínimo:
+●
+I. Os riscos associados ao Produto de Investimento e seus Ativos subjacentes;
+●
+II. O perfil dos emissores e Prestadores de Serviços associados ao Produto de Investimento;
+●
+III. A existência de garantias;
+●
+IV. Os prazos de carência.
+→ Os Distribuidores devem atualizar a classificação de seus
+Produtos de Investimento em prazo não superior a 24 meses
+
+<<<SLIDE 8>>>
+Categorias dos produtos de investimento
+→ Seção III – Subseção II: Ao definir a categoria de Produtos de Investimento, os Distribuidores
+devem estabelecer, no mínimo, as categorias indicadas a seguir:
+●
+I. Ações;
+●
+II. Derivativos;
+●
+III. Renda fixa com risco de crédito privado;
+●
+IV. Renda fixa títulos públicos;
+●
+V. Classes de FII;
+●
+VI. Classes de FIP;
+●
+VII. Classes de FIF tipificadas como cambial;
+●
+VIII. Classes de FIF tipificadas como multimercado.

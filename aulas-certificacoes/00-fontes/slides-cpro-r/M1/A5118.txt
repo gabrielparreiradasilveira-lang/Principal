@@ -1,0 +1,147 @@
+<<<SLIDE 1>>>
+Conheça seu cliente e regras gerais do
+suitability
+
+<<<SLIDE 2>>>
+Conheça seu cliente (KYC)
+→ Ainda estamos no Documento “Regras e Procedimentos de Distribuição de Produtos de
+Investimentos” (Capítulo IV)
+Conheça seu cliente:
+●
+Os Distribuidores devem, no processo de Conheça Seu Cliente, buscar conhecer seus
+clientes no início do relacionamento, no processo cadastral e durante o relacionamento.
+
+<<<SLIDE 3>>>
+Conheça seu cliente (KYC)
+→ Regras principais:
+●
+Manter documento formal (escrito ou eletrônico) descrevendo todo o processo de KYC.
+●
+Regras devem ser compatíveis com o porte, perfil de risco e modelo de negócio da
+instituição.
+
+<<<SLIDE 4>>>
+Conheça seu cliente (KYC)
+→ Conteúdo mínimo do documento:
+1⃣ Aceitação e aprovação de clientes – análise e validação de dados.
+2⃣ Visitas presenciais ou virtuais, quando aplicável.
+3⃣ Sistemas e ferramentas para controle de dados e movimentações.
+4⃣ Procedimentos de atualização cadastral.
+5⃣ Identificação do beneficiário final.
+6⃣ Critérios de veto por risco de relacionamento.
+Obrigação contínua → Manter cadastros atualizados e
+registrar todas as aplicações e resgates em nome do cliente.
+
+<<<SLIDE 5>>>
+Regras gerais de suitability
+→ Os Distribuidores são os responsáveis pelo Suitability e não podem recomendar Produtos de
+Investimento, realizar operações ou prestar serviços sem que verifiquem sua adequação ao perfil
+do cliente.
+
+<<<SLIDE 6>>>
+Regras gerais de suitability
+→ Estão dispensados da exigência do suitability
+●
+I. Fundos, Classes ou Subclasses, conforme o caso, tipificados como renda fixa e
+classificados como simples, conforme regulação específica;
+●
+II. LFT;
+●
+III. CDB ou RDB, que atenda, concomitantemente, aos seguintes critérios:
+a. Emissor com nota de risco compatível com o risco Brasil;
+b. Liquidez diária oferecida pelo emissor ou vencimento em até 6 (seis) meses; e
+c. Risco de mercado pós-fixado em taxa de juros.
+
+<<<SLIDE 7>>>
+Regras gerais de suitability
+→ Obrigação do distribuidor:
+●
+Manter documento formal (escrito ou eletrônico) descrevendo todas as regras, controles e
+procedimentos do processo de Suitability.
+
+<<<SLIDE 8>>>
+Regras gerais de suitability
+Conteúdo mínimo do documento:
+1⃣ Mecanismo de coleta das informações do cliente.
+2⃣ Critérios de classificação do perfil do investidor.
+3⃣ Critérios de classificação dos produtos.
+4⃣ Meios e periodicidade de comunicação com o cliente:
+→ Divulgação do perfil de risco.
+→ Aviso sobre desenquadramentos.
+5⃣ Procedimentos de aferição periódica de adequação.
+6⃣ Critérios para atualização do perfil e comunicação ao cliente.
+7⃣ Controles internos para garantir a efetividade do processo.
+
+<<<SLIDE 9>>>
+Coleta de informações
+Finalidade → Permitir a definição do perfil de risco individual de cada cliente.
+Informações necessárias:
+🎯
+Objetivo do investimento
+●
+Prazo previsto de permanência.
+●
+Preferência quanto à assunção de riscos.
+●
+Finalidade do investimento.
+
+<<<SLIDE 10>>>
+Coleta de informações
+💰
+Situação financeira
+●
+Renda regular declarada.
+●
+Patrimônio e ativos.
+●
+Necessidade futura de recursos.
+🧠
+Conhecimento e experiência
+●
+Familiaridade com produtos e serviços financeiros.
+●
+Volume, frequência e histórico de operações.
+●
+Formação acadêmica e experiência profissional.
+
+<<<SLIDE 11>>>
+Atualizações e identiﬁcação do perﬁl
+Deveres do distribuidor:
+→ Atualizar o perfil do cliente dentro do prazo máximo previsto na regulação (até 24 meses).
+→ Garantir que todos os clientes tenham perfil identificado e adequado.
+Sem perfil identificado:
+●
+Cliente que se recusar a participar do processo será considerado “sem perfil”.
+●
+Deve seguir o tratamento previsto no Art. 23, II (regras para aplicações excepcionais).
+
+<<<SLIDE 12>>>
+Exceções ao suitability completo
+→ O processo não se aplica a Produtos Automáticos, salvo quando baseados em valores
+mobiliários.
+→ Fundos de investimento com aplicação e resgate automáticos.
+→ Operações compromissadas com debêntures do mesmo grupo econômico do distribuidor.
+Condições:
+●
+Produtos com baixo risco de mercado e liquidez.
+●
+Risco de crédito restrito à instituição mantenedora da conta.
+●
+Cliente assina declaração no momento da contratação.
+
+<<<SLIDE 13>>>
+Recomendações vedadas
+É proibido recomendar produtos quando:
+1⃣ O perfil do cliente não for adequado.
+2⃣ Não houver informações suficientes para definir o perfil.
+3⃣ O perfil estiver desatualizado.
+
+<<<SLIDE 14>>>
+Aplicações fora do perﬁl
+O cliente, ao solicitar aplicação em investimentos nas situações previstas no caput antes da
+primeira aplicação com a categoria de ativo, devem os Distribuidores:
+I. Alertar o cliente acerca da ausência ou desatualização de perfil ou da sua inadequação, com a
+indicação das causas da divergência; e
+II. Obter declaração expressa do cliente de que deseja manter a decisão de investimento,
+mesmo estando ciente da ausência, desatualização ou inadequação de perfil, a qual deverá ser
+exclusiva para cada categoria de ativo.

@@ -1,0 +1,109 @@
+<<<SLIDE 1>>>
+Risco, retorno e o princípio da
+dominância entre carteiras
+
+<<<SLIDE 2>>>
+Princípio da dominância entre carteiras
+→ Investidores racionais querem maior retorno para o mesmo risco ou menor risco para o mesmo
+retorno. Quando uma carteira cumpre isso em relação à outra, dizemos que ela domina a outra.
+→ Dominância Forte
+●
+Retorno (A) é maior que o Retorno (B); e
+●
+Risco(A) é menor que o Risco(B)
+→ Dominância Fraca
+●
+Mesmo retorno, mas menor risco OU
+●
+Mesmo risco, mas maior retorno
+
+<<<SLIDE 3>>>
+Beta da carteira e sua interpretação
+→ É a medida de sensibilidade da carteira em relação ao mercado
+Interpretação direta
+●
+β = 1 → Os movimentos da carteira são muito semelhantes ao do mercado
+●
+β > 1 → Carteira mais “agressiva”, tem volatilidade maior que a do mercado
+●
+β < 1 → Carteira mais “defensiva”, tem volatilidade menor que a do mercado
+
+<<<SLIDE 4>>>
+Risco absoluto e risco relativo
+→ Risco Absoluto
+●
+Volatilidade total da carteira
+●
+É avaliado sem comparação com nenhum benchmark
+●
+Usado para medir apenas o comportamento estatístico da carteira
+→ Risco Relativo
+●
+Risco em relação a um índice de referência
+●
+Usado para medir:
+○
+Risco de “tracking error”
+○
+O quanto o gestor consegue gerar de Alpha
+
+<<<SLIDE 5>>>
+Risco sistemático e risco não sistemático
+→ Risco Sistemático
+●
+É o risco do mercado
+●
+Afeta todos os ativos
+●
+Não é possível eliminar com diversificação
+Parâmetro que mede: Beta
+
+<<<SLIDE 6>>>
+Risco sistemático e risco não sistemático
+→ Risco Não Sistemático (Diversificável)
+●
+É o risco específico do ativo
+●
+Pode ser reduzido com diversificação
+Parâmetro que mede:
+→ Volatilidade específica (parte da variância que não é explicada pelo mercado)
+
+<<<SLIDE 7>>>
+Medidas de performance: conceito e limitações
+→ Para que servem?
+●
+Comparar carteiras, fundos ou ativos considerando retorno ajustado ao risco.
+→ Limitações gerais
+●
+Dependem de histórico → não garantem o futuro
+●
+Podem ser distorcidos por períodos curtos
+●
+Sensíveis a eventos extremos
+●
+Requerem escolha correta do benchmark
+
+<<<SLIDE 8>>>
+Índice de Sharpe
+Interpretação
+●
+Quanto maior, melhor
+●
+Se for negativo → carteira pior que o ativo livre de risco
+
+<<<SLIDE 9>>>
+Índice de Sharpe Modiﬁcado
+Interpretação
+●
+Sharpe Tradicional: “Quanto a carteira rendeu acima do ativo livre de risco?”
+●
+Sharpe Modificado: “Quanto a carteira rendeu acima do objetivo real?”
+
+<<<SLIDE 10>>>
+Índice de Treynor
+→ Treynor usa risco sistemático (β)
+→ Sharpe usa risco da carteira (volatilidade)
+Interpretação
+●
+Quanto maior o Treynor, melhor o retorno excedente dado
+o risco de mercado assumido

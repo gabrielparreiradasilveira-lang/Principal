@@ -1,0 +1,95 @@
+<<<SLIDE 1>>>
+Instrumentos de renda variável
+
+<<<SLIDE 2>>>
+O começo de tudo…
+
+<<<SLIDE 3>>>
+Funcionamento do Mercado de Ações
+→ É o ambiente onde empresas negociam participações societárias (ações) com investidores.
+●
+Regulado e fiscalizado pela CVM (Comissão de Valores Mobiliários) e pela B3 (Brasil, Bolsa,
+Balcão).
+●
+Atua como mecanismo de financiamento empresarial e plataforma de investimento para
+pessoas físicas e institucionais.
+
+<<<SLIDE 4>>>
+Principais conceitos
+→ Ação: fração do capital social de uma empresa.
+→ Ticker: código de identificação da ação (ex: PETR4, VALE3).
+→ Free Float: percentual de ações em circulação no mercado.
+→ Dividendos: parcela do lucro distribuída aos acionistas.
+→ JCP (Juros sobre Capital Próprio): forma alternativa de remuneração ao acionista.
+→ Valorização: aumento do preço da ação no mercado secundário.
+→ Governança corporativa: conjunto de práticas para transparência e proteção ao investidor
+
+<<<SLIDE 5>>>
+Mercado Primário e Secundário de Ações
+→ Mercado Primário
+●
+Onde ocorre a emissão inicial das ações
+●
+A empresa capta recursos diretamente com investidores, que compram os papéis pela
+primeira vez
+●
+O dinheiro vai para o caixa da companhia, fortalecendo o capital e financiando expansão
+
+<<<SLIDE 6>>>
+Mercado Primário e Secundário de Ações
+→ Mercado Secundário
+●
+É a famosa Bolsa de Valores (!!!)
+●
+Onde as ações passam a ser negociadas entre investidores, após a emissão inicial
+●
+As transações são intermediadas pela B3
+●
+O dinheiro circula entre investidores, não mais para a empresa
+●
+É o que garante liquidez, permitindo compra e venda a qualquer momento
+
+<<<SLIDE 7>>>
+IPO (Initial Public Offering)
+→ É a Oferta Pública Inicial de Ações, quando uma empresa abre seu capital e estreia na bolsa.
+Etapas do processo de IPO:
+●
+Planejamento interno → auditoria, governança e compliance
+●
+Escolha dos coordenadores (bancos de investimento) → estruturam a oferta
+●
+Registro na CVM → autorização para oferta pública
+●
+Bookbuilding → coleta de intenções de compra e precificação das ações
+●
+Fixação do preço → definido conforme demanda
+●
+Início das negociações → estreia na B3, marcando o
+início do mercado secundário
+
+<<<SLIDE 8>>>
+OPA (Oferta Pública de Aquisição)
+→ É uma oferta para comprar ações que já estão em circulação no mercado, geralmente com
+objetivo de fechar o capital ou adquirir o controle da empresa
+Processo:
+●
+Lançamento da oferta ao público (com preço proposto)
+●
+Aprovação pela CVM
+●
+Período de aceitação pelos acionistas
+●
+Liquidação da compra
+
+<<<SLIDE 9>>>
+Importância do Mercado Secundário
+→ É o motor de funcionamento da bolsa de valores
+●
+Garante liquidez, permitindo que o investidor compre e venda ações a qualquer momento
+●
+Aumenta a atratividade dos IPOs, pois os investidores sabem que poderão vender depois
+●
+Preços são formados continuamente pelo equilíbrio entre oferta e demanda
+●
+Serve como termômetro da economia, refletindo
+expectativas e confiança dos agentes

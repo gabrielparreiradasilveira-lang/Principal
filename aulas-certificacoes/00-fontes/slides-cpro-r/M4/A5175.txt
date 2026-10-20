@@ -1,0 +1,100 @@
+<<<SLIDE 1>>>
+Análise da carteira do cliente
+
+<<<SLIDE 2>>>
+Mudança do perﬁl do cliente
+→ O perfil do cliente não é estático.
+→ Ele muda conforme:
+●
+Fase de vida
+●
+Patrimônio
+●
+Renda e estabilidade
+●
+Objetivos
+●
+Tolerância ao risco
+●
+Eventos familiares
+●
+Mudanças de mercado
+
+<<<SLIDE 3>>>
+Estrutura atual versus estrutura ideal
+→ O que é estrutura atual?
+●
+É a realidade (!!!)
+Como a carteira está hoje, na prática:
+●
+% Renda Fixa
+●
+% Renda variável
+●
+% Exterior
+●
+% Alternativos
+●
+% Caixa
+
+<<<SLIDE 4>>>
+Estrutura atual versus estrutura ideal
+→ O que é estrutura ideal?
+Como a carteira deveria estar em função do:
+●
+Perfil de risco definido
+●
+Horizonte de tempo
+●
+Objetivos (aposentadoria, liquidez, sucessão, proteção)
+●
+Necessidade de retorno real
+●
+Situações específicas
+○
+ex: concentração alta em ações da empresa
+onde trabalha
+
+<<<SLIDE 5>>>
+Estrutura atual versus estrutura ideal
+
+<<<SLIDE 6>>>
+Indicadores de performance
+→ Rentabilidade real
+●
+Retorno acima da inflação
+●
+Principal indicador para objetivos de longo prazo
+●
+Permite avaliar se o cliente está de fato enriquecendo
+●
+Exemplo: rendimento de IPCA + 6% a.a.
+
+<<<SLIDE 7>>>
+Indicadores de performance
+→ Volatilidade
+●
+Medida estatística da oscilação dos retornos → desvio padrão dos rendimentos diários
+●
+Usada para medir risco percebido pelo cliente
+→ Pontos pedagógicos:
+●
+Alta volatilidade não é ruim — é característica de ativos de risco
+●
+O problema é quando a volatilidade excede o limite emocional do cliente
+→ risco de resgate no pior momento
+
+<<<SLIDE 8>>>
+Indicadores de performance
+→ Correlação / Coeficiente de Diversificação
+Medida estatística que mostra se os ativos andam juntos → varia entre -1 e 1
+Quanto menor a correlação, maior a diversificação real.
+→ Pontos-chave:
+●
+Diversificar ≠ ter muitos ativos
+●
+Diversificar = ter ativos que se comportam de forma diferente entre si
+●
+Reduz volatilidade total da carteira
+●
+Suaviza quedas e melhora o retorno ajustado ao risco

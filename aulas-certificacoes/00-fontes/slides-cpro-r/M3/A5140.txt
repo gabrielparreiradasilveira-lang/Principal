@@ -1,0 +1,110 @@
+<<<SLIDE 1>>>
+Debêntures e suas garantias
+
+<<<SLIDE 2>>>
+Debêntures Simples (Comuns)
+→ Debênture “normal”
+●
+Paga juros no vencimento ou através de cupons
+●
+O dinheiro pode ser usado em projetos em geral, sem especificações
+●
+Investidor paga imposto de renda sobre os juros recebidos
+
+<<<SLIDE 3>>>
+Debêntures Incentivadas
+→ Debênture isenta de imposto de renda para o investidor pessoa física
+●
+Objetivo de financiar projetos de infraestrutura considerados prioritários pelo governo federal
+○
+Energia: geração, transmissão e distribuição de energia elétrica
+○
+Transporte e logística: rodovias, ferrovias, portos e aeroportos
+○
+Saneamento básico: projetos de tratamento de água e esgoto
+○
+Telecomunicações: expansão e modernização das redes de comunicação
+
+<<<SLIDE 4>>>
+Debêntures conversíveis e permutáveis
+→ Conversíveis:
+●
+Investidor recebe juros da dívida, mas pode utilizar o título para converter o valor em ações
+da empresa
+→ Permutáveis:
+●
+Podem ser trocadas por ações de outra empresa que não a empresa emissora da debênture.
+●
+Normalmente uma holding ou outra empresa ligada ao grupo societário
+
+<<<SLIDE 5>>>
+Debêntures de Infraestrutura
+→ Debênture usada para financiar projetos na área de infraestrutura
+●
+Energia, transporte, saneamento e telecomunicações
+●
+A diferença para a debênture incentivada é que nessa modalidade, quem tem benefício fiscal
+é a empresa emissora
+●
+Dedução de até 30% dos juros pagos no cálculo do IRPJ e da CSLL
+●
+Com o benefício para as empresas, costumam pagar melhores taxas aos investidores
+
+<<<SLIDE 6>>>
+Garantias das debêntures
+→ Garantia Real:
+●
+A empresa emissora escolhe um bem do seu ativo (imóvel, maquinário, etc.) e o vincula
+formalmente à emissão da debênture
+●
+Maior segurança para o investidor. Risco mais baixo entre as opções de garantias.
+→ Garantia Flutuante:
+●
+Oferecem ao investidor um privilégio geral sobre os ativos da empresa emissora, sem
+vincular um bem específico à dívida.
+●
+Segurança média, mais fraca que a garantia real.
+
+<<<SLIDE 7>>>
+Garantias das debêntures
+→ Garantia Quirografária:
+●
+Investidor não possui nenhuma garantia real, nem associação genérica com o patrimônio da
+empresa
+●
+Quirografário vem de “assinado à mão”, documento particular. É o “fio do bigode”
+●
+Maior risco para o investidor. Normalmente paga juros mais altos em contrapartida.
+
+<<<SLIDE 8>>>
+Garantias das debêntures
+→ Garantia fidejussória:
+●
+Conta com a garantia de um terceiro, como um fiador ou avalista, que se responsabiliza
+pelo pagamento da dívida caso a empresa emissora não o faça
+●
+Risco moderado para o investidor
+→ Garantia subordinada:
+●
+Os credores só são pagos depois de todos os outros credores em caso de falência
+●
+Prioridade de pagamento inferior às debêntures seniores
+●
+Risco muito alto! Superior à quirografária
+
+<<<SLIDE 9>>>
+Cláusulas de covenants
+→ Covenants: condições, convenções, acordos.
+●
+Estabelece condições que o devedor deve cumprir ou evitar. Quebrar um covenant pode
+resultar em penalidades, como o vencimento antecipado da dívida
+●
+Tipos comuns de covenants:
+○
+Financeiros: limites para indicadores (dívida/EBITDA)
+○
+Negativos: compromisso de não fazer algo (vender determinado ativo)
+○
+Positivos: compromisso de fazer algo (manter apólice de seguro em dia)
+○
+Ambientais: cumprir objetivos de sustentabilidade

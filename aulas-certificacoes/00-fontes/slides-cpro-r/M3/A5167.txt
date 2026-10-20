@@ -1,0 +1,160 @@
+<<<SLIDE 1>>>
+Características dos planos de
+previdência
+
+<<<SLIDE 2>>>
+Plano de Previdência x Fundo de Previdência
+→ Conceitos básicos
+●
+Plano de Previdência: produto contratado pelo investidor. É a “casca” da previdência.
+→ Define regras de contribuição, tributação, beneficiários e resgate
+●
+Fundo de Previdência: veículo de investimento onde o plano aplica os recursos
+→ Determina a rentabilidade
+
+<<<SLIDE 3>>>
+Carências
+→ Carência para resgates
+●
+O prazo mínimo de carência para resgate é de 60 dias corridos
+●
+Para fundos restritos para investidor qualificado:
+○
+A carência pode ser estendida. O período de carência inicial pode variar de 60 dias a 24
+meses, de acordo com o regulamento do plano.
+
+<<<SLIDE 4>>>
+Carências
+→ Carência para portabilidade interna e externa
+●
+Portabilidade externa: A regra geral é de 60 dias, contados a partir da contratação do plano
+●
+Portabilidade interna: Pode variar, com prazos entre 0 e 30 dias, de acordo com a
+instituição
+○
+Investidor Qualificado: 180 dias de carência para portabilidade.
+
+<<<SLIDE 5>>>
+Perﬁl do investidor
+→ Definição
+●
+Determina o grau de tolerância ao risco → conservador, moderado, arrojado/agressivo.
+●
+Deve ser avaliado periodicamente (suitability).
+→ Direcionamento dos fundos
+●
+Conservador: Fundos de Renda Fixa
+●
+Moderado: Multimercados balanceados.
+●
+Agressivo: Ações
+
+<<<SLIDE 6>>>
+Perﬁl do investidor
+→ Desenquadramento de risco
+●
+Quando o fundo ou o investidor foge do perfil definido → deve ser regularizado com
+comunicação à seguradora.
+→ Resolução CNSP nº 382/2020
+●
+Define princípios éticos no relacionamento com o cliente:
+→ Diligência, transparência, lealdade e respeito à capacidade financeira.
+●
+Obriga registro de conflitos de interesse e distribuição
+adequada de produtos.
+
+<<<SLIDE 7>>>
+Escolha do fundo por fase de vida
+→ Renda Fixa
+●
+Foco em preservação e previsibilidade.
+●
+Indicada para perfis conservadores e objetivos de curto/médio prazo
+●
+Estratégias: pós-fixado, IPCA+, crédito privado.
+→ Balanceados / Multimercados
+●
+Diversificação entre classes.
+●
+Ideal para perfis moderados
+●
+Busca de retorno acima da renda fixa com risco controlado
+●
+Estratégias: macro, long & short, quantitativos.
+
+<<<SLIDE 8>>>
+Escolha do fundo por fase de vida
+→ Ações
+●
+Alta volatilidade, mas potencial de longo prazo.
+●
+Fundos podem investir até 70% em ações (público geral) ou 100% (qualificados).
+●
+Estratégias: fundamentalista, setorial, dividendos.
+→ Direcionamento
+●
+Comum / público geral: carteiras mais simples, foco em liquidez e regulação mais restritiva.
+●
+Qualificado: carteiras sofisticadas, maiores riscos.
+
+<<<SLIDE 9>>>
+Classiﬁcação SUSEP da Previdência Complementar
+→ As classificações da SUSEP para os planos de previdência complementar se dão em face da
+alocação de recursos nos fundos:
+●
+Soberano: 100% dos recursos investidos em títulos públicos
+●
+Renda fixa: 100% em renda fixa, porém investindo em ativos de crédito privado
+●
+Composto: alocação máxima de 49% em ações. Porém, seguradoras oferecem 2 tipos:
+○
+20% renda variável e 80% de renda fixa;
+○
+49% renda variável e 51% de renda fixa.
+
+<<<SLIDE 10>>>
+Classiﬁcação ANBIMA dos fundos de previdência
+→ Renda Fixa:
+●
+Investe total da carteira em renda fixa, riscos de juros, moedas e inflação
+→ Balanceado até 15%:
+●
+Pode investir até 15% do portfólio em renda variável
+→ Balanceado de 15% a 30%:
+●
+No mínimo 15% e no máximo 30% em ativos de RV
+→ Balanceado acima de 30%
+●
+Deve investir no mínimo 30% do portfólio em renda variável
+
+<<<SLIDE 11>>>
+Classiﬁcação ANBIMA dos fundos de previdência
+→ Previdência Multimercado
+●
+Investimentos em diversas classes de ativos
+→ Previdência Data-Alvo
+●
+Esta classe busca o retorno para uma data referencial ou data alvo em diversas classes de
+ativos. Exemplo: Aposentadoria 2050
+→ Previdência Ações
+●
+Investe pelo menos 67% do portfólio em ações
+
+<<<SLIDE 12>>>
+Revisão periódica da carteira de previdência
+→ Motivos para revisar
+●
+Mudança de perfil, idade, renda ou objetivos
+●
+Alteração nas regras tributárias
+●
+Desempenho dos fundos x metas de longo prazo
+→ O que revisar
+●
+Estratégia de investimento e nível de risco
+●
+Regime de tributação (progressivo x regressivo).
+●
+Beneficiários designados
+●
+Distribuição entre planos (PGBL/VGBL)

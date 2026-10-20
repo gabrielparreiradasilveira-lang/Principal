@@ -1,0 +1,182 @@
+<<<SLIDE 1>>>
+Política Monetária
+
+<<<SLIDE 2>>>
+Cenário macroeconômico
+→ Acompanhamento macroeconômico e impacto na carteira do cliente
+→ Ideia central:
+●
+A economia funciona como um “tabuleiro” que afeta diretamente todas as classes de ativos.
+●
+Para analisar e monitorar carteiras, o profissional C-Pro R precisa conectar indicadores
+macro com as decisões micro
+●
+Dois pilares da análise macroeconômica:
+○
+Política Monetária
+○
+Política Fiscal
+
+<<<SLIDE 3>>>
+Política Monetária
+→ Política monetária = decisões do Banco Central
+●
+Controlar inflação → manter atividade econômica estável
+→ Os indicadores abaixo mostram como essas políticas interferem nos preços dos ativos:
+●
+Taxa de juros
+●
+Oferta monetária
+●
+Expectativas de inflação
+
+<<<SLIDE 4>>>
+Taxa de juros
+→ O que é
+●
+O “preço do dinheiro” na economia
+●
+No Brasil: Taxa Selic
+
+<<<SLIDE 5>>>
+Taxa de juros
+→ Impactos da taxa de juros sobre consumo, investimento e inflação
+→ Quando o BC sobe juros (aperto monetário):
+●
+Reduz crédito → empréstimos ficam caros.
+●
+Consumo desacelera → famílias gastam menos.
+●
+Investimentos das empresas caem → projetos ficam mais caros.
+●
+Rendimentos de renda fixa aumentam → migração do risco para o seguro.
+●
+Desaquece a demanda → inflação tende a cair.
+●
+Bolsa tende a cair (custo de capital ↑, lucros futuros ↓).
+
+<<<SLIDE 6>>>
+Taxa de juros
+→ Quando o BC corta juros (estímulo monetário):
+●
+Crédito mais barato → consumo sobe
+●
+Investimento corporativo aumenta
+●
+Atividade aquece → inflação tende a subir
+●
+Renda variável tende a valorizar (fluxo para risco)
+●
+Renda fixa pós-fixada paga menos
+
+<<<SLIDE 7>>>
+Taxa de juros
+→ Impacto direto na carteira do cliente
+●
+Renda Fixa pós-fixada: varia junto da Selic → sobe quando juros sobem
+●
+Renda Fixa prefixada: se beneficia quando juros caem
+●
+Inflação: IPCA+ cai quando juros reais sobem
+●
+Ações: sensíveis a queda de juros. Se juros caem, ações valorizam
+●
+Dólar: sensível ao diferencial de juros Brasil–mundo
+
+<<<SLIDE 8>>>
+Oferta monetária
+→ O que é
+●
+Quantidade de dinheiro circulando na economia
+●
+Pode ser medida por agregados como M1, M2, M3…
+●
+Reage aos instrumentos de Política Monetária do Banco Central
+○
+Depósito compulsório
+○
+Redesconto bancário
+○
+Open Market (compra e venda de títulos públicos)
+○
+Taxa de juros
+
+<<<SLIDE 9>>>
+Oferta monetária
+→ Política monetária expansionista (afrouxamento monetário):
+●
+Aumento da liquidez → mais dinheiro disponível
+●
+Crédito mais fácil → consumo ↑
+●
+Pressão inflacionária aumenta
+●
+Mercados de risco sobem (bolsa, FIIs, cripto)
+●
+Renda fixa curta perde destaque
+●
+Taxas de juros mais baixas
+
+<<<SLIDE 10>>>
+Oferta monetária
+→ Política monetária contracionista (aperto monetário):
+●
+Menos dinheiro circulando
+●
+Crédito mais rígido → consumo ↓
+●
+Inflação tende a reduzir
+●
+Ativos de risco sofrem
+●
+Renda Fixa pós-fixada se torna protagonista
+●
+Taxas de juros mais altas
+
+<<<SLIDE 11>>>
+Expectativas de inﬂação
+→ O que são
+→ A visão dos agentes econômicos sobre a inflação futura
+→ Fundamentais no processo de decisão do BC
+→ Como são medidas
+●
+Relatório Focus
+●
+Inflação implícita dos títulos do Tesouro
+●
+Curva de juros futura
+
+<<<SLIDE 12>>>
+Expectativas de inﬂação
+→ Por que importam
+●
+Expectativas ancoradas = inflação controlada → juros estáveis
+●
+Expectativas desancoradas = risco de inflação persistente → BC sobe juros
+→ Impacto direto na economia
+●
+Expectativa de inflação ↑ → custo de vida ↑ → consumo muda.
+●
+Empresas repassam preços → margens oscilam.
+●
+Juros futuros sobem → ativos de risco caem
+●
+Expectativa de inflação ↓ → confiança melhora
+
+<<<SLIDE 13>>>
+Expectativas de inﬂação
+→ Impacto na carteira
+●
+Renda fixa:
+○
+IPCA+ fica mais valioso quando a inflação esperada sobe
+○
+Prefixado sofre forte marcação a mercado
+●
+Renda variável:
+○
+Inflação alta = custo da empresa ↑ → lucro ↓
+●
+Dólar:
+○
+Inflação interna ↑ → moeda local perde valor

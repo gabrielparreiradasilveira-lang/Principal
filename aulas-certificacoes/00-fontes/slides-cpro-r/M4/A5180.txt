@@ -1,0 +1,136 @@
+<<<SLIDE 1>>>
+Risco, retorno e tributação na análise
+de portfólio do cliente
+
+<<<SLIDE 2>>>
+Tributação e impacto no rebalanceamento
+→ Como o IR influencia a alocação real
+●
+Imposto = custo que reduz retorno líquido
+●
+Em produtos tributáveis, cada rebalanceamento pode “ativar imposto”
+●
+Importante calcular o rendimento líquido antes de mudar posições
+→ Estratégias para minimizar impacto tributário
+●
+Rebalanceamento por aportes e/ou dividendos
+●
+Priorização de venda de ativos com:
+○
+prejuízos a compensar
+○
+alíquota menor
+
+<<<SLIDE 3>>>
+Risco de ativos
+→ O que é risco?
+●
+Variação daquilo que você espera ganhar
+●
+Em finanças: probabilidade de um retorno diferente do esperado
+→ Tipos de risco
+●
+Risco de mercado: preços, taxas, câmbio
+●
+Risco de crédito: calote
+●
+Risco de liquidez: dificuldade de vender
+●
+Risco operacional: falhas internas
+●
+Risco legal/regulatório: mudanças de normas
+
+<<<SLIDE 4>>>
+Ativos livres de risco
+→ O que é um ativo livre de risco?
+●
+Teoricamente: título que não tem risco de crédito e baixa volatilidade
+●
+Na prática no Brasil: Tesouro Selic
+→ Características
+●
+Emissor soberano
+●
+Alta liquidez
+●
+Alta previsibilidade
+
+<<<SLIDE 5>>>
+Ativos com risco de crédito
+→ Debêntures, CRIs, CRAs, fundos de crédito, CDBs, LCIs, LCAs.
+→ Risco do emissor: capacidade de pagar juros e principal.
+→ A classificação de risco (rating) guia o nível do risco.
+
+<<<SLIDE 6>>>
+Relação risco x retorno
+→ Relação risco-retorno
+●
+Quanto maior o risco → maior o retorno esperado
+●
+“Não existe almoço grátis”
+●
+Fronteira eficiente de Markowitz
+
+<<<SLIDE 7>>>
+Princípio da dominância
+→ Eficiência
+●
+Um ativo é dominante quando:
+○
+Tem maior retorno com menor risco, ou
+○
+Mesmo risco com retorno maior.
+→ Fronteira eficiente
+●
+Conjunto de combinações risco x retorno ótimas
+●
+Ativos abaixo da fronteira
+○
+Dominados → devem ser evitados.
+
+<<<SLIDE 8>>>
+Risco de uma carteira
+→ Por que o risco da carteira não é a soma dos riscos?
+●
+Porque ativos não se movem juntos
+●
+Correlações importam
+●
+Se 2 ativos possuem correlação negativa, o risco geral diminui
+→ O que compõe o risco da carteira
+●
+Volatilidade dos ativos individuais
+●
+Peso de cada ativo
+●
+Correlação entre pares
+
+<<<SLIDE 9>>>
+Benefício da diversiﬁcação
+→ Desvio padrão (volatilidade)
+●
+Mede quanto os retornos se afastam da média
+●
+Quanto maior o desvio padrão → maior o risco
+→ O benefício da diversificação
+●
+Se a correlação < 1 → risco da carteira < soma dos riscos
+●
+Quanto menor a correlação → maior o benefício
+
+<<<SLIDE 10>>>
+Benefício da diversiﬁcação
+→ Diversificação prática
+●
+Misturar classes:
+○
+Renda fixa + ações → correlação menor
+○
+Ações Brasil + ações EUA → correlação menor
+○
+Cripto → correlação baixa com quase todas as classes
+→ Diversificação não é pulverização:
+●
+Se comprar 20 ativos altamente correlacionados
+●
+Não diversifica nada

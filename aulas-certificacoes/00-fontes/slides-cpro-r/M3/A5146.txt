@@ -1,0 +1,75 @@
+<<<SLIDE 1>>>
+Tributação de ações e compensação
+de perdas
+
+<<<SLIDE 2>>>
+Tipos de operação: apenas 2
+→ Operações Normais: operações que duram mais de 1 dia
+→ Day Trade: operações que duram menos de 1 dia
+
+<<<SLIDE 3>>>
+Operações Normais
+→ Ações:
+●
+Swing Trade, Position Trade, Buy and Hold, Value Investing…
+●
+Qualquer coisa que não seja Day Trade
+●
+Alíquota de 15% sobre o Lucro
+●
+Retenção na fonte de 0,005% sobre o valor total da venda → IR dedo-duro!
+●
+Em ações, vendas dentro de um mesmo mês com valor inferior a R$20.000 são isentas.
+○
+Somente para pessoas físicas
+
+<<<SLIDE 4>>>
+Day Trade
+→ Ações:
+●
+Alíquota de 20% sobre o Lucro
+●
+Retenção na fonte de 1% sobre o LUCRO da operação → IR dedo-duro!
+●
+Sem nenhuma margem de isenção
+
+<<<SLIDE 5>>>
+Como é feito o recolhimento do imposto
+→ Em Renda Variável:
+●
+O IR total é apurado e recolhido pelo investidor!
+●
+O imposto deve ser pago via DARF com prazo até o último dia útil do mês subsequente
+●
+Os custos de operação podem ser abatidos do resultado total da operação:
+○
+Emolumentos
+○
+Taxa de liquidação
+○
+Corretagem
+○
+IRRF dedo-duro
+
+<<<SLIDE 6>>>
+IOF
+→ Em hipótese alguma haverá incidência de IOF em operações de renda variável
+
+<<<SLIDE 7>>>
+Compensação de prejuízos
+→ É possível utilizar os prejuízos de operações passadas para abater o imposto a ser pago de
+lucros futuros.
+●
+Prejuízo deve estar devidamente declarado na DIRPF
+●
+Só podem ocorrer compensações entre operações do mesmo tipo:
+○
+Não é possível compensar perdas de Day Trade com Operações Normais
+○
+Operações com BDRs, ETFs e derivativos podem ser compensadas com Ações
+
+<<<SLIDE 8>>>
+Juros sobre Capital Próprio - JCP
+→ Há incidência de imposto de renda
+●
+Alíquota de 15% retido na fonte

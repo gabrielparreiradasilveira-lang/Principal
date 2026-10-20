@@ -1,0 +1,78 @@
+<<<SLIDE 1>>>
+Finanças Comportamentais
+
+<<<SLIDE 2>>>
+Finanças Tradicionais: visão clássica
+→ Baseadas na racionalidade plena
+●
+Modelos teóricos: Markowitz, CAPM, Teoria da Utilidade Esperada
+→ Premissas principais:
+●
+O investidor busca maximizar retorno e minimizar risco
+●
+Mercados são eficientes
+●
+As decisões são lógicas e objetivas
+→ “Ser humano robozão”
+
+<<<SLIDE 3>>>
+Finanças Comportamentais: visão moderna
+→ Integra a psicologia à economia e aos investimentos
+→ Propõe que o investidor se comporta:
+●
+Influenciado pelas emoções
+●
+Utiliza atalhos mentais (heurísticas) e está sujeito à vieses de comportamento
+●
+Nem sempre racional, mas previsivelmente irracional
+Base conceitual: Kahneman e Tversky – Teoria do Prospecto
+
+<<<SLIDE 4>>>
+Finanças Comportamentais x Tradicionais
+Aspecto
+Finanças Tradicionais
+Finanças Comportamentais
+Natureza humana
+Racional
+Emocional
+Tomada de decisão
+Lógica e calculada
+Influenciada por vieses
+Visão de risco
+Risco mensurável
+Percepção subjetiva do risco
+Base teórica
+Modelos matemáticos
+Psicologia e comportamento
+
+<<<SLIDE 5>>>
+Aversão a risco x Aversão a perda
+→ Nas finanças tradicionais, o investidor é avesso ao risco.
+●
+Avalia e faz cálculos sobre a relação risco x retorno.
+→ Nas finanças comportamentais, o investidor é avesso à perda.
+●
+A dor de perder é 2x maior do que o prazer de ganhar (!!!)
+→ Comportamentos típicos da aversão à perda:
+●
+Vender ganhos rápido (realizar lucro cedo)
+●
+Manter perdas por mais tempo
+○
+Esperando “voltar ao preço”
+
+<<<SLIDE 6>>>
+Integração x Segregação de ativos
+→ Nas finanças tradicionais, o investidor é enxerga a sua carteira de forma integrada
+●
+Avalia a carteira como um todo, considerando correlações entre ativos
+→ Nas finanças comportamentais, o investidor segrega a sua carteira.
+●
+Analisa cada ativo isoladamente, sem perceber o benefício da diversificação
+→ Exemplo:
+●
+Ações -10% 😡
+●
+Tesouro IPCA +5% 🤑
+●
+Fundo multimercado +2% 🤑

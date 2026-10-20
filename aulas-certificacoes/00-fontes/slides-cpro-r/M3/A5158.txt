@@ -1,0 +1,129 @@
+<<<SLIDE 1>>>
+Renda Fixa no exterior
+
+<<<SLIDE 2>>>
+Tesouro Norte-Americano
+●
+Treasury Bills
+●
+Treasury Notes
+●
+Treasury Bonds
+●
+TIPS - Treasury Inflation-Protected Securities
+
+<<<SLIDE 3>>>
+Treasury Bills (T-Bills)
+●
+Prazo: curto (até 1 ano)
+●
+Remuneração: deságio (zero cupom) → comprados abaixo do valor de face
+●
+Pagamento: 100% do valor nominal no vencimento
+●
+Liquidez: altíssima
+●
+Uso: Benchmark para taxa livre de risco de curto prazo (risk-free rate)
+
+<<<SLIDE 4>>>
+Treasury Notes (T-Notes)
+●
+Prazo: 2 a 10 anos
+●
+Remuneração: cupom semestral fixo
+●
+Cotações: variam no mercado secundário (marcação a mercado)
+●
+Risco: mínimo, mas sujeito ao risco de taxa de juros
+
+<<<SLIDE 5>>>
+Treasury Bonds (T-Bonds)
+●
+Prazo: superior a 10 anos (geralmente 20 ou 30 anos)
+●
+Pagamento: cupons semestrais + valor nominal no vencimento
+●
+Risco: sensível à variação de taxas de juros de longo prazo
+
+<<<SLIDE 6>>>
+TIPS (Treasury Inﬂation-Protected Securities)
+●
+Título indexado à inflação americana (CPI)
+●
+Valor nominal é corrigido pela inflação → proteção do poder de compra
+●
+Cupom semestral
+●
+Rentabilidade real (acima da inflação)
+○
+Equivalente aos NTN-B (Tesouro IPCA+) brasileiros.
+
+<<<SLIDE 7>>>
+Títulos Brasileiros no Mercado Internacional
+→ Global Bonds
+●
+Emissão: Tesouro Nacional no mercado externo
+●
+Moeda: dólar americano (USD)
+●
+Pagamento: juros semestrais + valor de face em USD
+●
+Objetivo: captar recursos no exterior e consolidar credibilidade do Brasil
+●
+Risco: Soberano brasileiro (depende do rating do país)
+
+<<<SLIDE 8>>>
+Títulos Brasileiros no Mercado Internacional
+→ Eurobonds
+●
+Emissões de dívida de empresas brasileiras no mercado internacional
+●
+Moeda: qualquer moeda estrangeira (ex: euro, libra, iene)
+●
+Jurisdição: mercado internacional (fora do país do emissor)
+●
+Custo de captação geralmente mais alto que títulos locais
+●
+Ambos (Global Bonds e Eurobonds) ampliam o acesso ao capital estrangeiro.
+
+<<<SLIDE 9>>>
+Outros Títulos Privados Internacionais
+→ Certificates of Deposit (CDs)
+●
+Equivalente internacional dos CDBs brasileiros
+●
+Emissão: bancos internacionais
+●
+Prazo: curto a médio
+●
+Remuneração: taxas fixas ou flutuantes (ex: LIBOR + spread)
+●
+Negociáveis no mercado secundário (emissões maiores)
+
+<<<SLIDE 10>>>
+Outros Títulos Privados Internacionais
+→ Commercial Papers (CPs)
+●
+Emissão: empresas não financeiras
+●
+Prazo: curto (30 a 270 dias)
+●
+Objetivo: capital de giro
+●
+Sem garantias → depende da classificação de crédito da empresa
+●
+Remuneração: taxa fixa, geralmente acima dos T-Bills
+
+<<<SLIDE 11>>>
+Outros Títulos Privados Internacionais
+→ Repos (Repurchase Agreements) / Operação compromissada
+●
+Operações de compra e revenda de títulos
+●
+O investidor compra um título e o revende em data futura por preço maior
+●
+Prazo: curtíssimo (overnight ou poucos dias)
+●
+Utilização: gestão de liquidez por bancos e fundos
+●
+Risco: baixo, pois há colateral (título público)

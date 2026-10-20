@@ -1,0 +1,119 @@
+<<<SLIDE 1>>>
+Tipos de ações e seus riscos
+
+<<<SLIDE 2>>>
+Mercado à vista
+→ Negociação tradicional de ações
+→ Liquidação em D+2
+●
+Preço definido pelo encontro entre oferta e demanda
+●
+Oposto de mercado a vista: mercado a termo
+
+<<<SLIDE 3>>>
+Tipos de Ações
+→ Ações Ordinárias (ON)
+●
+Concedem direito a voto nas assembleias
+●
+Recebem dividendos após as preferenciais
+●
+Código termina com 3 (ex: PETR3, VALE3)
+→ Ações Preferenciais (PN)
+●
+Prioridade no recebimento de dividendos
+●
+Sem direito a voto (salvo exceções previstas em lei)
+●
+Código termina com 4 (ex: PETR4, VALE4)
+
+<<<SLIDE 4>>>
+Tipos de Ações
+→ Units
+●
+Combinações de ações ordinárias e preferenciais
+●
+É um “pacote” de ações
+●
+Código termina com 11 (ex: SANB11, KLBN11)
+→ Ações preferenciais Classe A e Classe B
+●
+Ações preferenciais de classes diferentes
+●
+Podem ter vantagens e desvantagens específicas
+●
+Código termina com 5 ou 6 (ex: USIM5, ELET6)
+
+<<<SLIDE 5>>>
+Principais riscos do mercado acionário
+→ Risco de Mercado
+●
+Variações nos preços das ações causadas por fatores econômicos, políticos ou setoriais
+●
+Medido por indicadores como beta e volatilidade
+→ Risco de Liquidez
+●
+Dificuldade de vender uma ação rapidamente sem afetar o preço de mercado
+●
+Empresas com baixo volume de negociação
+●
+Small caps geralmente sofrem mais
+
+<<<SLIDE 6>>>
+Principais riscos do mercado acionário
+→ Risco de Juros
+●
+Alterações nas taxas de juros impactam o valor presente dos fluxos futuros das empresas
+●
+Juros ↑ → custo de capital ↑ → valor das ações ↓
+●
+Especialmente relevante para empresas que possuem dívidas (alavancadas)
+→ Risco Cambial
+●
+Variação das taxas de câmbio afeta empresas com receitas ou custos em moeda estrangeira
+●
+Exportadoras tendem a ganhar com dólar alto
+●
+Importadoras tendem a perder
+
+<<<SLIDE 7>>>
+Principais riscos do mercado acionário
+→ Risco País
+●
+Reflete instabilidade política, econômica ou institucional de um país
+●
+Aumenta o prêmio exigido pelos investidores
+●
+Exemplo:
+○
+Crises fiscais
+○
+Intervenção governamental
+○
+Mudanças regulatórias
+
+<<<SLIDE 8>>>
+Volatilidade
+→ Mede a intensidade e frequência das variações de preço
+●
+Alta volatilidade → maior incerteza → maior risco e potencial de retorno
+●
+Instrumentos para medir: desvio padrão, beta, índice VIX (medo do mercado)
+Exemplo prático:
+●
+Ação A varia +1%, -1%, +2% → baixa volatilidade
+●
+Ação B varia +8%, -5%, +10% → alta volatilidade
+
+<<<SLIDE 9>>>
+Correlação
+→ Mede como dois ativos se movimentam em relação um ao outro
+●
+Valor entre -1 e +1
+●
++1 → sobem e caem juntos
+●
+0 → movimentos independentes
+●
+-1 → se movem em direções opostas
+→ Importância: diversificação de portfólio reduz risco total

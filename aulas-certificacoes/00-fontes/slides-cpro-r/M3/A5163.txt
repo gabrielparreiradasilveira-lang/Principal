@@ -1,0 +1,131 @@
+<<<SLIDE 1>>>
+PGBL (Plano Gerador de Benefício
+Livre)
+
+<<<SLIDE 2>>>
+PGBL
+→ Conceito:
+●
+Produto de previdência complementar aberta, com regime de capitalização
+●
+Visa acumulação de longo prazo com benefício tributário imediato
+→ Condições para utilizar o benefício fiscal:
+●
+Contribuinte deve fazer a declaração completa do IR
+●
+Deve contribuir para o INSS (ou RPPS, no caso de servidor público)
+●
+Limite: até 12% da renda bruta anual tributável
+
+<<<SLIDE 3>>>
+PGBL
+→ Benefícios fiscais:
+●
+Permite deduzir as contribuições ao PGBL na base de cálculo do IR
+●
+Na prática: reduz o imposto a pagar ou aumenta a restituição
+Exemplo:
+●
+Se a renda anual = R$ 100.000
+●
+Pode deduzir até R$ 12.000
+
+<<<SLIDE 4>>>
+PGBL
+→ Forma de declaração:
+●
+Contribuições → Fichas “Pagamentos Efetuados” → código 36 (Previdência Complementar).
+→ Tipo de declaração adequada:
+●
+Declaração Completa → para aproveitar o benefício fiscal
+●
+Declaração Simplificada → não permite dedução de PGBL
+
+<<<SLIDE 5>>>
+Diferimento Fiscal
+→ Conceito:
+●
+“Empurrar” o pagamento de imposto para o futuro, adiando a tributação sobre parte da
+renda.
+●
+Gera vantagem financeira: o valor que seria pago em IR fica investido e rende.
+→ Limites de contribuição:
+●
+Máximo de 12% da renda bruta anual tributável.
+●
+Contribuições acima disso não são dedutíveis, mas
+continuam aplicadas normalmente.
+
+<<<SLIDE 6>>>
+Diferimento Fiscal
+→ Tipos de rendas tributáveis que podem ser abatidas:
+●
+Salário, pró-labore, aluguéis, honorários, aposentadorias e pensões
+●
+Rendas isentas ou exclusivas na fonte (ex: dividendos, JCP)
+→ não entram na base para dedução.
+→ Cálculo do diferimento:
+●
+Calcular renda tributável anual
+●
+Aplicar 12% → limite máximo de dedução
+●
+Multiplicar o valor dedutível pela alíquota marginal do IR
+→ Resultado = imposto diferido (economia imediata).
+
+<<<SLIDE 7>>>
+Diferimento Fiscal
+Exemplo:
+●
+Renda anual: R$ 200.000
+●
+12% = R$ 24.000
+●
+Alíquota marginal: 27,5%
+●
+Diferimento = R$ 6.600 (valor de IR adiado).
+
+<<<SLIDE 8>>>
+Renúncia ﬁscal atrelada ao regime regressivo
+→ IR cobrado somente no resgate ou benefício, com alíquota decrescente.
+Tabela Regressiva
+Prazo
+Alíquota IR
+Até 2 anos
+35%
+De 2 a 4 anos
+30%
+De 4 a 6 anos
+25%
+De 6 a 8 anos
+20%
+De 8 a 10 anos
+15%
+Acima de 10 anos
+10%
+
+<<<SLIDE 9>>>
+Renúncia ﬁscal atrelada ao regime regressivo
+→ Renúncia fiscal:
+●
+O governo abre mão do IR agora (dedução de até 12%)
+●
+Em troca de receber menos imposto no futuro, somente sobre o total acumulado.
+●
+É uma forma de incentivo ao longo prazo: o investidor adia o imposto e ainda paga menos se
+mantiver o investimento por 10 anos ou mais.
+
+<<<SLIDE 10>>>
+Retroalimentação dos PGBLs regressivos
+→ Conceito de retroalimentação:
+●
+Usar o valor das restituições de IR para novas aplicações em PGBL
+●
+Usar o resgate de PGBLs antigos (regime regressivo) como renda tributável em novo ano
+fiscal e reinvestir parte desse valor em novos PGBLs → gerando novo diferimento.
+→ Benefício:
+●
+Cria um “loop fiscal inteligente”, aproveitando o incentivo todos os anos.
+●
+Aumenta a eficiência tributária e o patrimônio líquido
+acumulado no longo prazo.

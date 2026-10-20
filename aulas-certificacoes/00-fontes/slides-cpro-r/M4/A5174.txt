@@ -1,0 +1,143 @@
+<<<SLIDE 1>>>
+Política Fiscal
+
+<<<SLIDE 2>>>
+Cenário macroeconômico
+→  PIB = C + G + I + (X - M)
+●
+C = Consumo das famílias
+●
+G = Gastos do Governo
+●
+I = Investimentos
+●
+(X - M) = Exportações - Importações (balança comercial)
+●
+Nessa aula, vamos abordar o item “G”
+
+<<<SLIDE 3>>>
+Política Fiscal
+→ O que são os Gastos Públicos?
+●
+Tudo que o governo gasta:
+○
+Saúde, educação, previdência, salários, infraestrutura, juros da dívida
+●
+É um dos motores da demanda agregada
+
+<<<SLIDE 4>>>
+Política Fiscal
+Como os gastos públicos impactam a economia?
+→ No crescimento econômico
+●
+Estímulo especialmente forte em momentos de recessão
+●
+Redução de gastos → contrai atividade (responsabilidade fiscal)
+→ Na distribuição de renda
+●
+Gastos sociais (Bolsa Família, SUS) reduz desigualdade social
+●
+Investimentos em educação e infraestrutura aumentam
+produtividade de longo prazo.
+
+<<<SLIDE 5>>>
+Política Fiscal
+→ Riscos e distorções
+●
+Gastos correntes elevados → déficit nas contas públicas → endividamento e deterioração da
+moeda
+●
+Rigidez orçamentária → mais de 90% do orçamento é “engessado”
+●
+Crescimento dos gastos acima da receita → deterioração fiscal e perda de credibilidade →
+juros precisam ser mais altos
+
+<<<SLIDE 6>>>
+Política Fiscal
+→ Impactos na Carteira do Cliente
+●
+Gastos excessivos → juros mais altos por mais tempo
+●
+Selic alta →  renda fixa forte, renda variável pressionada
+●
+Aumento de investimentos públicos em infraestrutura → setores beneficiados (energia,
+transporte, saneamento).
+
+<<<SLIDE 7>>>
+Carga Tributária
+→ O que é?
+●
+Percentual da renda do país que é arrecadado via impostos, taxas e contribuições.
+●
+No Brasil: ~33% do PIB.
+→ Quando os impostos sobem
+●
+Menos renda disponível → consumo cai
+●
+Menos lucro líquido → investimento privado cai
+●
+Empresas repassam parte dos custos
+→ inflação pode subir no curto prazo.
+
+<<<SLIDE 8>>>
+Carga Tributária
+→ Quando os impostos caem
+●
+Aumento de consumo e investimento privado
+●
+Pode estimular crescimento no curto prazo
+●
+Mas se não for compensado com corte de gastos → piora o déficit.
+→ Comportamento dos agentes privados
+●
+Empresas adiam investimentos diante de carga alta e instabilidade tributária
+●
+Investidores exigem maior prêmio de risco nos títulos
+
+<<<SLIDE 9>>>
+Balanço Fiscal
+→ O que é?
+●
+Resultado das contas do governo: receitas – despesas.
+→ Pode ser:
+●
+Superávit: governo arrecada mais do que gasta.
+●
+Déficit: governo gasta mais do que arrecada.
+
+<<<SLIDE 10>>>
+Balanço Fiscal
+→ Resultado Primário
+●
+Superávit → reduz necessidade de endividamento
+●
+Déficit →  aumenta dívida pública
+→ Resultado Nominal: Inclui juros da dívida.
+→ Dívida Pública
+●
+Quanto maior a dívida → maior o risco percebido
+
+<<<SLIDE 11>>>
+Balanço Fiscal
+Impacto do balanço fiscal na carteira do cliente
+→ Cenário de piora fiscal
+●
+Expectativa de juros sobe
+●
+Prefixados e IPCA+ longos sofrem (marcação a mercado negativa)
+●
+Renda variável cai (aumento de prêmio de risco)
+●
+Dólar sobe (fuga de capitais para segurança)
+
+<<<SLIDE 12>>>
+Balanço Fiscal
+→ Cenário de melhora fiscal
+●
+Expectativa de juros cai
+●
+Títulos longos prefixados e IPCA+ performam bem com a queda no juro futuro
+●
+Bolsa tende a subir (mais investimento privado)
+●
+Dólar cai pela atração de investimento estrangeiro

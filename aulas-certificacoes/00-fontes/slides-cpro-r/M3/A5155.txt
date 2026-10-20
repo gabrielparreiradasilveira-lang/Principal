@@ -1,0 +1,131 @@
+<<<SLIDE 1>>>
+Demais tipos de fundos de investimento
+
+<<<SLIDE 2>>>
+Fundos Incentivados e Infraestrutura
+→ Conceito: fundos que investem em projetos de infraestrutura ou inovação com benefícios
+fiscais concedidos pelo governo federal (Lei nº 11.478/2007 e nº 12.431/2011).
+→ Principais características:
+●
+Foco em títulos de infraestrutura (debêntures incentivadas, CRI, CRA, etc.)
+●
+Isenção de IR para pessoas físicas
+●
+Apoiam setores estratégicos (energia, logística, saneamento, telecom)
+
+<<<SLIDE 3>>>
+Fundos Incentivados e Infraestrutura
+→ Liquidez:
+●
+Carteira com baixa liquidez - ativos de longo prazo e pouco negociados
+○
+Fundos abertos, via de regra resgate em D+30
+○
+Fundos fechados, sem resgate, mas cotas negociadas em bolsa (FI-INFRA) - D+2
+→ Riscos
+●
+Crédito: empresas emissoras podem não honrar pagamentos
+●
+Mercado: variação nas taxas de juros afeta preço dos ativos
+●
+Concentração: poucos emissores na carteira
+
+<<<SLIDE 4>>>
+FI-AGRO (Fundos do Agronegócio)
+→ Inspirados nos FIIs
+●
+Investem em cadeia do agronegócio
+●
+Imóveis rurais, CRAs, CPRs, cotas de FIDC
+●
+Fundos condomínio fechado
+○
+Cotas negociadas em bolsa - muito parecido com os FIIs
+●
+Isentos de IR para PF nas distribuições mensais
+●
+Riscos: climático, crédito, concentração setorial e liquidez
+
+<<<SLIDE 5>>>
+Fundos de Investimento em Direitos Creditórios
+→ Popularmente chamados FIDCs
+●
+Investem em recebíveis (duplicatas, consignado, cartão, financiamento, etc.)
+●
+Séries: sênior, mezanino, subordinada
+●
+Riscos: crédito, mercado e liquidez.
+●
+Depois da legislação nova de outubro/2023, FIDCs podem ser aplicados por investidores
+comuns (público-geral).
+○
+Antigamente era restrito para investidor qualificado
+
+<<<SLIDE 6>>>
+Fundos Exclusivos
+→ Estruturados para um único cotista ou família
+●
+Permitem gestão personalizada e planejamento sucessório/tributário
+●
+Podem ser abertos ou fechados
+→ Tributação:
+●
+Antes de 2023: diferida até o resgate
+●
+Após Lei nº 14.754/23: come-cotas semestral
+
+<<<SLIDE 7>>>
+FoFs – Fund of Funds
+→ Fundos que investem em outros fundos
+●
+Diversificação automática
+●
+Vantagem:
+○
+Gestão profissional
+○
+Seleção de gestores
+●
+Risco: dupla camada de taxas (taxa do fundo investido + do FoF)
+
+<<<SLIDE 8>>>
+FIP – Fundos de Investimento em Participações
+→ Foco em empresas fechadas (Private Equity)
+●
+Participação ativa na gestão e governança das investidas
+●
+Prazos longos (8–10 anos)
+●
+Riscos: liquidez e execução (turnaround, IPO, venda estratégica)
+●
+Tributação: 15% sobre ganho de capital no resgate ou alienação
+
+<<<SLIDE 9>>>
+Clubes de Investimento
+→ Como funciona
+●
+Formação do grupo: Mínimo de 3 e máximo de 50 participantes.
+●
+Capital: Cada membro contribui com uma quantia, que é transformada em cotas
+proporcionais ao valor investido.
+●
+Gestão: Um administrador é responsável por toda a parte legal e registros, enquanto o grupo
+(ou um gestor indicado) decide a política de investimento e a alocação do capital.
+●
+Ativos: No mínimo 67% deve ser em títulos de participação, como ações, bônus de
+subscrição, debêntures conversíveis, entre outros.
+
+<<<SLIDE 10>>>
+Clubes de Investimento
+→ Como funciona
+●
+Formação do grupo: Mínimo de 3 e máximo de 50 participantes.
+●
+Capital: Cada membro contribui com uma quantia, que é transformada em cotas
+proporcionais ao valor investido.
+●
+Gestão: Um administrador é responsável por toda a parte legal e registros, enquanto o grupo
+(ou um gestor indicado) decide a política de investimento e a alocação do capital.
+●
+Ativos: No mínimo 67% deve ser em títulos de participação, como ações, bônus de
+subscrição, debêntures conversíveis, entre outros.

@@ -1,0 +1,117 @@
+<<<SLIDE 1>>>
+Filosoﬁas de investimento em renda variável
+
+<<<SLIDE 2>>>
+Day Trade
+→ Compra e venda no mesmo dia
+●
+Foco em movimentos rápidos de preço (minutos ou horas)
+●
+Estratégia altamente especulativa e de curtíssimo prazo
+●
+Exige análise técnica, leitura de gráficos, disciplina e controle emocional
+●
+Custos operacionais (corretagem e IR) impactam o resultado
+●
+Tributação: 20% sobre o lucro, sem isenção
+
+<<<SLIDE 3>>>
+Swing Trade
+→ Compra e venda em alguns dias ou semanas.
+●
+Busca movimentos de médio prazo
+●
+Análise técnica e análise gráfica para identificar tendências
+●
+Alguns casos utiliza análise fundamentalista
+●
+Menos estressante que o day trade, mas ainda exige acompanhamento
+●
+Tributação: 15% sobre o lucro mensal
+○
+Isenção para vendas até R$20.000 por mês
+
+<<<SLIDE 4>>>
+Buy and Hold
+→ Comprar boas empresas e manter por anos.
+●
+Baseia-se em análise fundamentalista (lucros, governança, vantagens competitivas)
+●
+O investidor torna-se sócio de longo prazo
+●
+Beneficia-se dos dividendos, crescimento e juros compostos
+●
+Ideal para investidores de longo prazo e com disciplina
+●
+Tributação: 15% sobre o lucro mensal
+○
+Isenção para vendas até R$20.000 por mês
+
+<<<SLIDE 5>>>
+Alocação de renda variável
+→ Princípios de alocação
+●
+Proporção depende de:
+○
+Perfil de risco (conservador, moderado, arrojado)
+○
+Horizonte de investimento
+○
+Liquidez e objetivos financeiros
+○
+Experiência do cliente com renda variável
+
+<<<SLIDE 6>>>
+Experiência e horizonte de investimento
+●
+Investidor iniciante: priorizar ETFs ou fundos de ações → gestão profissional.
+●
+Investidor intermediário: pode incluir ações diretas e FIIs.
+●
+Investidor experiente: pode explorar small caps, BDRs e derivativos.
+→ Horizonte mínimo recomendado:
+●
+Ações: 5 anos
+
+<<<SLIDE 7>>>
+Principais Índices de Referência
+●
+IBOVESPA (IBOV): desempenho médio das ações mais negociadas da B3
+○
+Em torno de 80 empresas com maior liquidez
+○
+Estar entre os ativos que representem 85% em ordem decrescente de Índice de
+Negociabilidade (IN); 95% de presença em pregão; 0,1% do volume financeiro no
+mercado a vista (lote-padrão); e não ser penny stock.
+
+<<<SLIDE 8>>>
+Principais Índices de Referência
+●
+IFIX: Índice de Fundos Imobiliários
+○
+Mede o desempenho médio dos FIIs mais negociados
+●
+IDIV: Índice de Dividendos
+○
+Ações com maior retorno por dividendos
+●
+IGC: Índice de Governança Corporativa
+○
+Empresas listadas no Nível 1, 2 e Novo Mercado
+
+<<<SLIDE 9>>>
+Principais Índices de Referência
+●
+ISE: Índice de Sustentabilidade Empresarial
+○
+Companhias com práticas ESG
+●
+IBRX: Índice Brasil 100
+○
+100 ações mais representativas da B3
+●
+MLCX: MidLarge Cap → Empresas de médio e grande porte
+●
+SMLL: Small Cap → Empresas de pequeno porte
+○
+Baixo valor de mercado e liquidez menor

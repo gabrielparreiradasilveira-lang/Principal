@@ -1,0 +1,113 @@
+<<<SLIDE 1>>>
+Interpretação da análise e novas
+recomendações ao cliente
+
+<<<SLIDE 2>>>
+1) Diagnóstico
+●
+Como a carteira está performando?
+○
+Rentabilidade nominal e rentabilidade real
+●
+A volatilidade está adequada ao perfil?
+●
+A correlação entre ativos está funcionando?
+●
+Está cumprindo o objetivo (ex: IPCA+4% ao ano)?
+●
+Existem riscos ocultos?
+○
+Ex: concentração alta em um Fundo Multimercado, ou duration de renda fixa muito
+longa?
+
+<<<SLIDE 3>>>
+2) Explicar o “porquê” da mudança
+→ Cliente aceita ajuste quando entende:
+●
+O motivo
+●
+O benefício
+●
+O risco de não ajustar
+→ Exemplos:
+“Reduzir ações agora evita que uma queda desanime você e te faça vender na hora errada.”
+“Aumentar exterior melhora a proteção contra o risco Brasil.”
+
+<<<SLIDE 4>>>
+3) Recomendações práticas
+a) O que reduzir e o que aumentar
+●
+Onde está em excesso / onde o risco está desequilibrado
+b) Como executar
+●
+“Vamos vender 5% desse fundo multimercado e realocar em IPCA+ curto para rebalancear”
+c) Quando revisar
+●
+Fixar um calendário: trimestral, semestral, anual.
+
+<<<SLIDE 5>>>
+Rebalanceamento regular versus percentual
+→ Rebalanceamento Regular (por período)
+●
+Regra fixa: trimestral, semestral ou anual.
+→ Vantagens:
+●
+Menos emocional,
+●
+Previsível,
+●
+Mantém disciplina,
+→ Desvantagens:
+Pode deixar a carteira “andando fora do ideal” durante meses.
+
+<<<SLIDE 6>>>
+Rebalanceamento regular versus percentual
+→ Rebalanceamento Percentual (por bandas)
+●
+Ajuste somente quando os ativos ultrapassam limites definidos.
+Exemplo: Ações: meta 20% → banda ± 4%
+→ Rebalancear se cair abaixo de 16% (comprar mais) ou subir acima de 24% (vender parcial)
+
+<<<SLIDE 7>>>
+Rebalanceamento regular versus percentual
+→ Vantagens
+●
+Mais eficiente no controle de risco
+●
+Pode capturar movimentos de mercado
+●
+Evita operações desnecessárias
+→ Desvantagens
+●
+Requer monitoramento mais frequente
+●
+Pode aumentar custos operacionais
+●
+Em mercados muito voláteis, pode acionar ajustes demais
+
+<<<SLIDE 8>>>
+Rebalanceamento regular versus percentual
+→ Qual método é melhor?
+●
+Depende do cliente
+→ Perfil conservador ou iniciante:
+●
+Regular (por período) → traz mais previsibilidade emocional
+→ Investidor experiente ou com patrimônio alto:
+●
+Percentual (por bandas)
+→ mais eficiente e sofisticado no longo prazo
+
+<<<SLIDE 9>>>
+Rebalanceamento regular versus percentual
+→ Estratégia híbrida
+●
+Revisão estrutural semestral ou anual + Bandas de rebalanceamento para mudanças
+bruscas de mercado.
+→ Exemplo típico:
+●
+Revisão anual profunda do portfólio
+●
+Rebalanceamento por bandas de 20% de desvio
+●
+Ex: ativo com 10% → ajusta se chegar <8% ou >12%

@@ -1,0 +1,114 @@
+<<<SLIDE 1>>>
+Tipos de pessoas investidoras
+
+<<<SLIDE 2>>>
+Tipos de investidores na prática
+→ Entender como o mercado financeiro classifica as pessoas investidoras segundo patrimônio,
+experiência e certificações, conforme a Resolução CVM nº 30/2021 e instruções complementares,
+com ênfase na abordagem prática e no contexto de análise de perfil.
+
+<<<SLIDE 3>>>
+Pessoa Investidora Comum
+→ Também conhecido como investidor “público geral”
+Definição:
+●
+Pessoa física ou jurídica que não se enquadra nas categorias de investidor qualificado ou
+profissional.
+●
+É a base do mercado — público em geral.
+
+<<<SLIDE 4>>>
+Pessoa Investidora Comum
+→ Características:
+●
+Patrimônio financeiro inferior a R$ 1 milhão.
+●
+Sem certificações reconhecidas pela CVM.
+●
+Menor experiência no mercado financeiro.
+●
+Necessita de maior proteção regulatória e processo de suitability mais detalhado.
+
+<<<SLIDE 5>>>
+Pessoa Investidora Comum
+→ Implicações Práticas:
+●
+Acesso apenas a produtos padronizados e líquidos.
+●
+Restrições para investir em fundos estruturados, derivativos e ativos no exterior.
+●
+Requer maior detalhamento de informações e linguagem acessível.
+
+<<<SLIDE 6>>>
+Pessoa Investidora Qualiﬁcada
+→ Definição: Segundo a CVM 30/2021 (art. 11, §1º), é considerada qualificada a pessoa:
+●
+Que possua investimentos financeiros ≥ R$ 1 milhão;
+●
+E declare por escrito essa condição.
+●
+Ou que possua certificação reconhecida pela CVM (CFP®, CNPI, CGA, CEA, etc.).
+●
+Também se enquadram os administradores, analistas e consultores de valores mobiliários
+em relação aos seus recursos próprios
+
+<<<SLIDE 7>>>
+Pessoa Investidora Qualiﬁcada
+→ Características:
+●
+Maior conhecimento e experiência sobre riscos de mercado.
+●
+Tolerância mais alta a volatilidade.
+●
+Costuma buscar diversificação internacional e ativos alternativos.
+
+<<<SLIDE 8>>>
+Pessoa Investidora Qualiﬁcada
+→ Implicações Práticas:
+●
+Pode investir em fundos exclusivos para qualificados
+●
+Acesso a produtos estruturados, fundos offshore, etc
+●
+O distribuidor pode simplificar parte do suitability (maior presunção de conhecimento
+técnico).
+
+<<<SLIDE 9>>>
+Pessoa Investidora Proﬁssional
+→ Definição: De acordo com a CVM 30/2021 (art. 11, caput), é considerada profissional a pessoa:
+●
+Que possua investimentos financeiros ≥ R$ 10 milhões
+●
+Declare essa condição por escrito;
+●
+Instituições financeiras, seguradoras, fundos de investimento, entidades de previdência,
+clubes de investimento, entre outros agentes institucionais.
+●
+Investidores que possuem as certificações: AAI, CEA, CNPI, CGA, CFP em relação aos seus
+recursos próprios.
+
+<<<SLIDE 10>>>
+Pessoa Investidora Proﬁssional
+→ Características:
+●
+Amplo conhecimento técnico e experiência.
+●
+Alto poder financeiro e estrutura própria de gestão.
+●
+Capacidade de assumir riscos complexos e entender estratégias sofisticadas
+●
+Geralmente contam com assessoria profissional ou equipe de gestão interna.
+
+<<<SLIDE 11>>>
+Pessoa Investidora Proﬁssional
+→ Implicações Práticas:
+●
+Acesso a fundos exclusivos profissionais e operações restritas
+○
+Exemplo: FIP, FIDC, FII restrito, fundos 476.
+●
+Isenção de suitability detalhado.
+●
+Pode participar de ofertas públicas restritas (ICVM 476).
+●
+Menor proteção regulatória: presume-se conhecimento e diligência próprios.

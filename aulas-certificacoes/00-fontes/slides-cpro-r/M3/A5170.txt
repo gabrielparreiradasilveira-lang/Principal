@@ -1,0 +1,130 @@
+<<<SLIDE 1>>>
+Ethereum
+
+<<<SLIDE 2>>>
+Ethereum
+→ Visão Geral
+●
+Segunda maior blockchain do mundo (depois do Bitcoin)
+●
+Criada por Vitalik Buterin em 2015
+●
+Foco: plataforma programável para contratos inteligentes (smart contracts)
+●
+Moeda nativa: Ether (ETH) — combustível da rede
+●
+Rede descentralizada, aberta e autônoma, que permite criar aplicações sem intermediários
+
+<<<SLIDE 3>>>
+O Ether como meio de troca na rede
+●
+O Ether (ETH) é o “gás” que alimenta as transações e execuções dentro do ecossistema
+Ethereum.
+●
+Toda ação na rede (transferência, execução de contrato, criação de token) exige pagamento
+em ETH.
+●
+Diferente do Bitcoin (moeda digital), o Ether é instrumento funcional dentro de um sistema
+computacional.
+
+<<<SLIDE 4>>>
+O Ether como meio de troca na rede
+→ Funções principais do ETH:
+●
+Meio de troca entre usuários e desenvolvedores.
+●
+Pagamento de taxas (gas fees) para validar transações e manter a rede segura.
+●
+Colateral em protocolos de finanças descentralizadas (DeFi).
+
+<<<SLIDE 5>>>
+Smart contracts
+→ Smart Contracts:
+●
+Programas autoexecutáveis gravados na blockchain
+●
+Não dependem de intermediários
+●
+Executam regras “se X, então Y” de forma automática
+●
+Exemplo: liberar pagamento automático quando um produto é entregue
+
+<<<SLIDE 6>>>
+DApps (Decentralized Applications)
+→ Aplicativos que usam smart contracts e funcionam na rede Ethereum.
+●
+A camada lógica roda em blockchain, não em servidores centralizados
+→ Podem ser:
+●
+DeFi (finanças descentralizadas)
+●
+NFTs
+●
+Games e Metaversos
+→ Resultado: Internet descentralizada (Web3)
+●
+Onde o controle é do usuário, não de corporações
+
+<<<SLIDE 7>>>
+Oráculos
+→ Blockchain é fechada por natureza, não acessa dados externos sozinha.
+●
+Oráculos → pontes que conectam dados do mundo real ao blockchain
+●
+Exemplo: preço de ativos, resultados de jogos, previsões climáticas, taxas de câmbio
+→ Permitem que smart contracts reajam a eventos externos
+●
+Exemplo: contrato que paga seguro agrícola automaticamente se a chuva < 50 mm.
+●
+Plataformas mais conhecidas: Chainlink, Band Protocol.
+→ Oráculos aumentam o poder da blockchain
+●
+integração com o mundo real.
+
+<<<SLIDE 8>>>
+Proof-of-work versus Proof-of-stake
+→ Proof-of-Work (PoW): usado originalmente (como o Bitcoin).
+●
+Mineração → alto consumo de energia.
+●
+Segurança baseada em poder computacional.
+→ Proof-of-Stake (PoS): modelo atual do Ethereum
+●
+Validação baseada em stake (quantidade de ETH bloqueada).
+●
+Requer 32 ETH para se tornar validador.
+●
+Redução de ~99,5% no consumo energético.
+●
+Recompensa: rendimentos em ETH (staking yield).
+→ PoS aumenta a eficiência e segurança da rede.
+
+<<<SLIDE 9>>>
+Principais teses de investimento
+→ Tese tecnológica:
+●
+Ethereum como base da Web3 e da economia descentralizada.
+→ Tese financeira:
+●
+ETH como ativo produtivo → gera rendimento via staking.
+→ Tese monetária:
+●
+Política de emissão deflacionária após o “EIP-1559”
+○
+Queima parcial das taxas
+
+<<<SLIDE 10>>>
+Principais teses de investimento
+→ Tese de rede:
+●
+Efeito de rede crescente → mais dapps → mais uso → mais demanda por ETH.
+→ Tese institucional:
+●
+ETFs e fundos tokenizados estão ampliando a demanda institucional.
+→ Riscos:
+●
+Concorrência de blockchains alternativas
+○
+Solana, Avalanche, Cardano
+●
+Questões regulatórias e centralização de validadores.

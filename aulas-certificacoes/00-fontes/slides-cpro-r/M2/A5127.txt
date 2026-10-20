@@ -1,0 +1,94 @@
+<<<SLIDE 1>>>
+Indicadores de liquidez
+
+<<<SLIDE 2>>>
+Conceito de Liquidez
+→ Liquidez: capacidade de transformar um ativo em dinheiro rapidamente, sem perda
+significativa de valor
+Na prática:
+●
+Alta liquidez → dinheiro na conta em horas ou dias
+○
+Tesouro Selic, CDB com liquidez diária, conta remunerada
+●
+Baixa liquidez → exige prazo maior ou desconto para venda
+○
+Imóveis, fundos de longo prazo, private equity.
+
+<<<SLIDE 3>>>
+Liquidez x Reserva de Emergência
+→ Como a liquidez impacta a reserva de emergência e a necessidade de ativos líquidos.
+⚠
+A reserva de emergência deve priorizar a máxima liquidez e baixo risco.
+Objetivo: acesso rápido em imprevistos, sem prejuízo financeiro.
+●
+Recomendação geral: entre 6 e 12 meses o valor das despesas mensais
+
+<<<SLIDE 4>>>
+Liquidez x Rentabilidade
+→ Trade-off clássico:
+●
+Maior liquidez → menor rentabilidade esperada
+●
+Menor liquidez → maior rentabilidade esperada
+
+<<<SLIDE 5>>>
+Exemplos do prêmio de liquidez
+Ativo
+Liquidez
+Rentabilidade anual
+Tesouro Selic
+Diária
+10,65%
+CDB 3 anos
+Baixa
+12,20%
+Fundo CP LP
+Média
+13,00% (podendo variar)
+
+<<<SLIDE 6>>>
+Liquidez Corrente
+→ Mostra a capacidade da pessoa honrar seus compromissos próximos (cartões, parcelas,
+contas) usando o dinheiro e aplicações que podem ser acessados rapidamente.
+Exemplo:
+●
+Ativos líquidos (conta, Tesouro Selic): R$ 80.000
+●
+Dívidas de curto prazo (cartão de crédito): R$ 50.000
+
+<<<SLIDE 7>>>
+Liquidez Corrente
+→ Interpretação:
+> 1,0: sobra de caixa → situação saudável; há folga para emergências.
+= 1,0: equilíbrio → tudo o que tem cobre o que deve, mas sem margem.
+< 1,0: risco → o endividamento é maior que a capacidade imediata de pagamento.
+Na prática:
+●
+A liquidez corrente mostra se a pessoa vive com folga ou aperto financeiro.
+
+<<<SLIDE 8>>>
+Liquidez Seca
+→ Mede quanto da dívida de curto prazo pode ser quitada apenas com dinheiro em caixa ou
+aplicações de resgate imediato, sem depender da venda de bens ou ativos.
+Interpretação:
+●
+> 1,0: situação sólida, fluxo de caixa tranquilo.
+●
+< 1,0: vulnerabilidade de curto prazo
+
+<<<SLIDE 9>>>
+Liquidez Corrente x Liquidez Seca
+Comparativo
+Indicador
+Considera
+Mede
+Liquidez Corrente
+Todos os ativos de curto
+prazo
+Capacidade geral de pagar dívidas em
+12 meses
+Liquidez Seca
+Apenas ativos de
+resgate imediato
+Capacidade de pagar dívidas agora

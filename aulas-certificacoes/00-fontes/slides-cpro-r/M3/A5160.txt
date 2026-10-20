@@ -1,0 +1,109 @@
+<<<SLIDE 1>>>
+Ações e índices no exterior
+
+<<<SLIDE 2>>>
+Ações do mercado norte-americano
+→ Características gerais:
+●
+Maior e mais líquido mercado acionário do mundo
+●
+Negociação ocorre principalmente em duas bolsas: NYSE e NASDAQ
+●
+Operações eletrônicas, via corretoras internacionais ou BDRs no Brasil.
+●
+Regulação: SEC (Securities and Exchange Commission) → equivalente à CVM.
+●
+Horário de negociação: 10h30 às 17h (horário de Brasília), com after hours até 21h
+
+<<<SLIDE 3>>>
+Ações do mercado norte-americano
+→ Exemplos de empresas negociadas no mercado americano:
+●
+AAPL: Apple → iPhone, Apple Watch, macbook
+●
+AMZN: Amazon → varejo online, computação em nuvem (AWS)
+●
+TSLA: Tesla → fabricante de carros elétricos (Elon Musk)
+●
+NVDA: Nvidia → fabricante de microchips e processadores
+○
+Empresa mais valiosa do mundo (!!!)
+
+<<<SLIDE 4>>>
+Índices de bolsa de valores no exterior
+→ S&P 500
+●
+Região/Bolsa: EUA (NYSE e NASDAQ)
+●
+Composição: 500 maiores empresas americanas
+●
+Representatividade: termômetro da economia dos EUA
+→ Dow Jones (DJIA)
+●
+Região/Bolsa: EUA (NYSE)
+●
+Composição: 30 maiores empresas industriais (blue chips)
+●
+Foco em empresas tradicionais e consolidadas
+●
+“Índice da velha economia”
+
+<<<SLIDE 5>>>
+Índices de bolsa de valores no exterior
+→ NASDAQ Composite
+●
+Região/Bolsa: EUA (NASDAQ)
+●
+Composição: mais de 3.000 empresas, majoritariamente de tecnologia
+●
+Representatividade: sensível ao desempenho do setor de tecnologia
+→ MSCI World
+●
+Região/Bolsa: Mercados desenvolvidos globais
+●
+Composição: cerca de 1.500 ações de 23 países
+●
+Exposição diversificada a economias maduras
+
+<<<SLIDE 6>>>
+Índices de bolsa de valores no exterior
+→ MSCI Emerging Markets
+●
+Região/Bolsa: Países emergentes (incluindo Brasil, China, Índia etc.)
+●
+Composição: cerca de 1.400 ações
+●
+Representatividade: reflete o desempenho dos mercados em desenvolvimento
+→ Euro Stoxx 50
+●
+Região/Bolsa: Zona do Euro
+●
+Composição: 50 maiores empresas da região
+●
+Representatividade: barômetro das ações europeias
+
+<<<SLIDE 7>>>
+Acompanhamento do cenário exterior
+→ Por que o investidor brasileiro deve acompanhar o exterior
+●
+Correlação: mercados globais influenciam a performance local.
+●
+Taxa de juros global: impacto direto sobre fluxo de capitais para emergentes.
+●
+Câmbio e commodities: o real tende a se desvalorizar com aumento do risco global.
+●
+Setores exportadores: dependem da economia mundial (ex: Vale, Petrobras).
+●
+Empresas multinacionais: têm parte da receita em dólar → impacto nos lucros.
+
+<<<SLIDE 8>>>
+Acompanhamento do cenário exterior
+→ Impactos na recomendação de alocação
+●
+Diversificação geográfica → reduz risco Brasil
+●
+Proteção cambial → exposição em dólar protege o poder de compra.
+●
+Ciclos econômicos diferentes → EUA e Europa podem estar em fases distintas do Brasil.
+●
+Acesso a setores inexistentes no país (tecnologia, defesa, biotecnologia, etc.).

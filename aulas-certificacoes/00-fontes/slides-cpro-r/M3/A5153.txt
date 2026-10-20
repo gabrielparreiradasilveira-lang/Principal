@@ -1,0 +1,83 @@
+<<<SLIDE 1>>>
+Exchange Traded Fund (ETF)
+
+<<<SLIDE 2>>>
+Exchange Traded Fund (ETF)
+→ ETF nada mais é do que um fundo negociado na bolsa
+→ Surgiu como uma forma de replicar índices (fundos passivos), mas atualmente servem para
+várias finalidades.
+
+<<<SLIDE 3>>>
+Exchange Traded Fund (ETF)
+→ É organizado na forma de fundo fechado, então não há possibilidade de resgate. Porém, a
+compra e a venda ocorrem na bolsa.
+→ Grande vantagem: o cotista tem liquidez para vender (D+2), e o gestor não precisa vender
+ativos da carteira do fundo para pagar o resgate.
+
+<<<SLIDE 4>>>
+Formador de mercado (market maker)
+→ É um agente do mercado (instituição financeira), responsável por prover a liquidez para as
+cotas do fundo.
+→ A rentabilidade deve seguir o índice de referência, então a oferta e demanda por cotas do fundo
+não podem definir o preço da cota.
+→ O papel do Market Maker é equilibrar a oferta e demanda de tal forma que a rentabilidade da
+cota seja equivalente ao índice de referência do fundo.
+
+<<<SLIDE 5>>>
+Tipos de ETFs
+→ ETFs de Renda Variável:
+Os mais comuns do mercado. Replicam índices de referência do mercado de ações
+●
+ETFs de Ações Nacionais: BOVA11, SMAL11
+●
+ETFs de Ações Internacionais: IVVB11, NASD11
+●
+ETFs Temáticos: USTK11, NUCL11
+●
+ETFs de Criptomoedas: BITH11, HASH11
+●
+ETFs de Commodities e Moedas: GOLD11
+●
+ETFs ESG: ESGB11
+
+<<<SLIDE 6>>>
+Tipos de ETFs
+→ ETFs de Renda Fixa:
+Replicam índices de referência do mercado de renda fixa.
+●
+Renda Fixa Pós-fixado: LFTS11
+●
+Renda Fixa Inflação: NTNS11
+●
+Renda Fixa Pré-fixado: IRFM11
+●
+Renda Fixa Crédito Privado: DEBB11
+
+<<<SLIDE 7>>>
+Principais características
+→ Principais características
+●
+Liquidez: cotas negociadas em Bolsa (D+2).
+●
+Taxa de administração: menor que fundos tradicionais (geralmente < 0,5% a.a.).
+●
+Transparência: composição divulgada diariamente.
+●
+Dividendos:
+○
+Podem ser retidos e reinvestidos pelo fundo (acumulação) ou
+○
+Distribuídos ao cotista
+
+<<<SLIDE 8>>>
+Tipos de risco
+●
+Risco de mercado → oscilações do índice
+●
+Risco de liquidez → baixa negociação em ETFs de pouca demanda.
+○
+Mitigado pelo market maker
+●
+Risco de tracking error → diferença entre desempenho do ETF e o índice
+●
+Risco cambial → em ETFs internacionais

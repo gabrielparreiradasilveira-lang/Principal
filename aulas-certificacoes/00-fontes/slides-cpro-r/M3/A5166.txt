@@ -1,0 +1,139 @@
+<<<SLIDE 1>>>
+Conceitos técnicos da previdência
+complementar
+
+<<<SLIDE 2>>>
+Tipos de Rendas
+→ Além do resgate total do saldo acumulado, o investidor também pode converter o saldo
+acumulado em renda.
+→ Tipos de renda:
+●
+Renda mensal vitalícia
+●
+Renda vitalícia com prazo mínimo garantido
+●
+Renda mensal temporária
+●
+Renda por prazo certo (reversível ao beneficiário)
+
+<<<SLIDE 3>>>
+Tábua Biométrica - Tábua Atuarial
+→ Conceito:
+●
+É uma tabela estatística que estima a probabilidade de sobrevivência e mortalidade de um
+grupo de pessoas ao longo do tempo.
+●
+É essencial para calcular o valor da renda vitalícia e o prazo médio de pagamento de
+benefícios.
+●
+Serve para dimensionar o “risco” da seguradora
+
+<<<SLIDE 4>>>
+Tábua Biométrica - Tábua Atuarial
+→ Exemplos de Tábuas
+●
+AT-49: mais antiga, expectativa de vida menor (mais conservadora).
+●
+AT-83: adotada por muito tempo no Brasil.
+●
+AT-2000: mais recente, reflete aumento da longevidade.
+●
+BR-EMS: tábua atualizada com base na experiência de mortalidade brasileira.
+○
+Praticamente todos os planos atuais são na tábua BR-EMS
+
+<<<SLIDE 5>>>
+Tábua Biométrica - Tábua Atuarial
+→ Impacto na renda:
+●
+Tábua mais antiga → menor longevidade → renda mensal maior
+●
+Tábua mais recente → maior longevidade → renda mensal menor
+
+<<<SLIDE 6>>>
+Juro Atuarial
+→ Conceito
+●
+É a taxa de juros projetada usada para trazer a valor presente os pagamentos futuros da
+aposentadoria
+●
+Representa a “rentabilidade esperada” do plano durante o período de recebimento de
+benefício
+
+<<<SLIDE 7>>>
+Juro Atuarial
+→ Aplicação
+●
+Utilizado pelo atuário no cálculo da reserva matemática e do valor da renda mensal.
+●
+Quanto maior o juro atuarial, menor o valor necessário de reserva para pagar a mesma
+renda.
+●
+No Brasil, normalmente fica entre 3% e 6% ao ano, conforme o produto e a instituição
+○
+Mais correção monetária pelo IPCA ou IGP-M
+
+<<<SLIDE 8>>>
+Tipos de Rendas – Impactos nas Projeções
+→ Renda Vitalícia
+●
+Pagamento é feito enquanto o participante permanecer vivo.
+→ Pode ser:
+●
+Simples: cessa com a morte
+●
+Reversível ao cônjuge
+●
+Com prazo mínimo garantido: ex.: 10 ou 20 anos, mesmo que o participante morra antes.
+○
+Impacto: valor mensal menor, pois o risco de longevidade é assumido pela seguradora.
+
+<<<SLIDE 9>>>
+Tipos de Rendas – Impactos nas Projeções
+→ Renda Temporária
+●
+Pagamento por prazo fixo (ex.: 10, 15, 20 anos).
+●
+Após o prazo, cessa o benefício, mesmo que o participante esteja vivo
+○
+Impacto: renda mensal maior, pois o risco de longevidade é eliminado
+●
+Se o participante falecer antes do fim do prazo, o benefício é cessado
+○
+Nesse caso, o saldo acumulado fica com a seguradora
+
+<<<SLIDE 10>>>
+Tipos de Rendas – Impactos nas Projeções
+→ Renda por prazo certo (reversível ao beneficiário)
+●
+Pagamento é feito por prazo pré-estabelecido
+●
+Em caso de falecimento do participante, benefício será pago aos beneficiários até o fim do
+prazo certo
+●
+Elimina o risco de sobrevivência para a seguradora
+
+<<<SLIDE 11>>>
+Impacto da idade do proponentes e beneﬁciários
+→ Idade do Proponente (participante principal)
+●
+Quanto mais jovem, menor o valor da renda mensal, pois há expectativa de recebimento por
+mais tempo.
+●
+Quanto mais velho, maior o valor da renda, pois o período estimado de pagamento é menor.
+→ Idade dos Beneficiários (pessoas que receberão continuidade da renda)
+●
+Quanto mais jovem o beneficiário, maior expectativa de sobrevida
+●
+Isso reduz o valor da renda do titular quando contratada
+uma reversão
+
+<<<SLIDE 12>>>
+Impacto da idade do proponentes e beneﬁciários
+→ Exemplo prático
+●
+Homem de 65 anos com esposa de 55 anos
+●
+Se escolher renda vitalícia reversível 100% para a esposa, a renda inicial será menor, pois o
+benefício deve considerar que ela é mais jovem e que a expectativa de vida da mulher é
+maior que a do homem

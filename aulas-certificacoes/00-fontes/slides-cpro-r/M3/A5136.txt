@@ -1,0 +1,78 @@
+<<<SLIDE 1>>>
+Títulos públicos e seus indexadores
+
+<<<SLIDE 2>>>
+Tesouro Selic - LFT
+→ Conceito:
+●
+A Letra Financeira do Tesouro (LFT) é um título público pós-fixado
+●
+Rentabilidade acompanha a taxa Selic diária
+●
+Liquidação do resgate em D+0
+
+<<<SLIDE 3>>>
+NTN-B: Tesouro IPCA+ com juros semestrais
+→ Nota do Tesouro Nacional – Série B (NTN-B) é o título que protege contra a inflação.
+●
+Rentabilidade = IPCA + taxa fixa.
+●
+Tesouro IPCA+ (Principal) → pagamento único no vencimento.
+○
+NTN-B (Princ)
+●
+Tesouro IPCA+ com Juros Semestrais → paga cupons de juros a cada 6 meses.
+
+<<<SLIDE 4>>>
+NTN-F: Tesouro Pré com juros semestrais
+→ Nota do Tesouro Nacional – Série F (NTN-F) é o título prefixado e paga cupons semestrais.
+●
+Cada cupom = 6 meses de juros fixos.
+●
+Rentabilidade total = soma dos cupons + ganho de capital até o vencimento
+
+<<<SLIDE 5>>>
+LTN: Tesouro Pré
+→ A Letra do Tesouro Nacional (LTN) é prefixada → rendimento é fixo
+●
+Valor de resgate é sempre R$ 1.000,00 por título no vencimento
+●
+Sem pagamento de cupons
+●
+Investidor sabe exatamente quanto vai receber no vencimento
+●
+Rentabilidade independe da inflação ou da Selic
+●
+Maior volatilidade → sensível à variação dos juros de mercado
+
+<<<SLIDE 6>>>
+Riscos
+→ Risco de mercado
+→ Risco de crédito (soberano)
+→ Risco de reinvestimento
+●
+Para os ativos que pagam cupons
+
+<<<SLIDE 7>>>
+Volumes de Emissão
+→ O Tesouro emite títulos diariamente via leilões
+→ A composição da dívida é ajustada conforme:
+●
+Expectativas de inflação e juros;
+●
+Estrutura de prazos (curto vs. longo);
+●
+Demanda do mercado.
+
+<<<SLIDE 8>>>
+Trajetória da dívida pública
+→ A dívida pública brasileira cresceu fortemente após 2014 → déficits primários recorrentes
+●
+Hoje, o endividamento gira em torno de 75-80% do PIB
+→ A sustentabilidade depende de:
+●
+Resultado primário (superávit ou déficit)
+●
+Crescimento do PIB
+●
+Taxa de juros real média da dívida
