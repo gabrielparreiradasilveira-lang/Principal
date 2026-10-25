@@ -1,158 +1,120 @@
-# Roteiro de fala — Aula CPA: Fundos de Investimento Financeiro (FIF) — Anexo I da Res. CVM 175 e Prestação de Serviços
+# Roteiro de fala — Aula CPA: FIF — Anexo I da Res. CVM 175 e Prestação de Serviços
 
-**Base:**
-- **Programa Detalhado CPA** (ANBIMA, v1.2, rev. 04/06/2025, vigência 01/01/2026), itens 2.1.2.3 e 2.1.2.3.1;
-- APOSTILA-CPA, p. 345–346;
-- aula do repositório `aulas/cpa/aula-2.1.2.3-F-fif-anexo-i/aula.md` (30 min, seção 3.1), conferida em 02/10/2026 contra o Anexo Normativo I da Res. CVM 175, arts. 25 a 27;
-- aula do repositório `aulas/cpa/aula-2.1.2-D-prestadores-servicos-remuneracao/aula.md` (parte geral da Res. CVM 175: serviços essenciais, administrador e gestor).
+**Base:** PD CPA v1.2 (rev. 04/06/2025, vigência 01/01/2026), itens **2.1.2.3** e **2.1.2.3.1**; APOSTILA-CPA p. 345–346; aula do repositório `aula-2.1.2.3-F-fif-anexo-i` (seção 3.1), conferida contra o Anexo Normativo I da Res. CVM 175, arts. 25 a 27; aula do repositório `aula-2.1.2-D-prestadores-servicos-remuneracao` (parte geral).
 
-CPA 2.1.2.3 · 2.1.2.3.1 · Módulo 2 · **15 min** · Aula F2 do plano de gravação · **só a etapa de tópicos**
+CPA 2.1.2.3 · 2.1.2.3.1 · Módulo 2 · **15 min** · Aula F2 · **só a etapa de tópicos**
 
-**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor, sem fala · ✏️ = correção da fonte · ➕ = acréscimo desta versão · 🔗 = ponte · ⌨️ = teclas da HP12C · 🖥️ = visor.
+**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor · ✏️ = correção da fonte (só no bastidor) · ⌨️ = HP12C · 🖥️ = visor.
 
 ---
 
-## Bastidor — antes de gravar
+## Bastidor
 
-### 🔇 Formato
+### 🔇 Metáfora única desta aula
 
-- Direto aos tópicos do PD, sem as demais etapas.
-- Fio condutor: a **orquestra**. O administrador é o produtor, o gestor é o maestro e o custodiante é o guardião do cofre. O cliente **Rodrigo** quer entender quem faz o quê no fundo em que investe.
-- Esta aula cobre só 2.1.2.3 e 2.1.2.3.1. Obrigações (2.1.2.3.2), vedações, carteira e tipificação seguem em outras aulas do módulo.
+**Orquestra.** O administrador é o produtor, que cuida da estrutura e da conformidade. O gestor é o maestro, que decide o que tocar. O custodiante é o guardião do cofre, que só movimenta o que tem ordem legítima.
 
-### 🔇 Checagem de escopo (PD × materiais)
+**Onde a metáfora falha:** numa orquestra, o maestro toca ao vivo com os músicos. No fundo, o administrador não ensaia junto com o gestor: ele confere **depois** das operações. E o custodiante não é um músico; é quem guarda o patrimônio do cotista, com responsabilidade própria.
+
+### 🔇 Caso
+
+**Rodrigo** aplica R$ 50.000 num FIF multimercado e quer saber quem faz o quê. O custo total da estrutura, pago pelo fundo, é de 1,2% ao ano (hipótese).
+
+### 🔇 Checagem de escopo
 
 | Subitem do PD | Fonte | Tratamento |
 | --- | --- | --- |
-| 2.1.2.3 Fundos de Investimento Financeiro (FIF) — Res. CVM 175, Anexo Normativo I | Apostila p. 345; aula do repositório | Conferido; relação entre parte geral e Anexo I |
-| 2.1.2.3.1 Prestação de serviços | Apostila p. 345–346; Anexo I, arts. 25 a 27 | Conferido; administrador, cogestão e custodiante; **custodiante pouco tratado na apostila, completado pela norma** |
+| 2.1.2.3 FIF — Res. CVM 175, Anexo I | Apostila p. 345; aula do repositório | Conferido; parte geral × Anexo I |
+| 2.1.2.3.1 Prestação de serviços | Apostila p. 345–346; Anexo I, arts. 25 a 27 | Conferido; **custodiante completado pela norma** |
 
-🔇 A parte geral da Res. CVM 175 (serviços essenciais e funções) está na aula 2.1.2-D; aqui entra só o que o **Anexo I acrescenta** para o FIF.
+🔇 A parte geral (serviços essenciais e funções) está na aula 2.1.2-D. Aqui entra só o que o Anexo I acrescenta.
 
-### ✏️ Correções e notas da fonte
+### ✏️ Correções da fonte
 
-| # | Fonte | O material diz | O correto | Base |
-| --- | --- | --- | --- | --- |
-| 1 | Apostila p. 345 | O administrador deve "verificar as operações do gestor" | A verificação é **posterior**: o administrador confere, **depois** das operações, se os **preços** são compatíveis com o mercado e se a carteira respeita os **limites**. Ele não aprova a ordem **antes**; quem decide o que comprar é o gestor | Anexo I, art. 25 |
-| 2 | Apostila p. 346 | Cogestão com exemplo de profissionais por área | O ponto jurídico: o **contrato do cogestor** limita as ordens dele ao **mercado de atuação** dele (art. 26) | Anexo I, art. 26 |
-| 3 | Apostila p. 345 | Empréstimo de ativos "no mercado de balcão organizado" | O texto da norma proíbe emprestar e tomar ativos **fora de serviço autorizado pelo BCB ou pela CVM**. É vedação do gestor, tratada em outra aula | Anexo I, art. 34 (aula do repositório) |
-| 4 | Apostila p. 345 | Chama de "gigantesco" um anexo "para fundos listados no mercado" | O Anexo I trata dos **FIF**, fundos que investem em **ativos financeiros**. Não são só "fundos listados" | Res. CVM 175, Anexo I |
-| 5 | PD | "Pessoa administradora, gestora, custodiante" | A norma usa **administrador, gestor e custodiante**. A fala usa os termos da norma | Res. CVM 175 |
+| # | Fonte | O material diz | O correto |
+| --- | --- | --- | --- |
+| 1 | Apostila p. 345 | O administrador "verifica as operações do gestor" | A verificação é **posterior**: confere, depois das operações, se os preços são compatíveis com o mercado e se a carteira respeita os limites. Não aprova a ordem antes (art. 25) |
+| 2 | Apostila p. 346 | Cogestão com exemplo de profissionais por área | Ponto jurídico: o contrato do cogestor limita as ordens dele ao mercado de atuação (art. 26) |
+| 3 | Apostila p. 345 | Empréstimo de ativos "no mercado de balcão organizado" | A norma proíbe emprestar e tomar ativos fora de serviço autorizado pelo BCB ou pela CVM. É vedação do gestor, tratada em outra aula (art. 34) |
+| 4 | Apostila p. 345 | Anexo "gigantesco", "para fundos listados no mercado" | O Anexo I trata dos **FIF**, que investem em ativos financeiros. Não são só fundos listados |
+| 5 | PD | "Pessoa administradora, gestora, custodiante" | A norma usa administrador, gestor e custodiante |
 
-### 🔇 Dados do exemplo (Rodrigo)
+### 🔇 Dados
 
 | Item | Valor |
 | --- | --- |
 | Aplicação | R$ 50.000 |
-| Custo total do fundo, ao ano (hipótese) | 1,2% → **R$ 600,00** por ano |
+| Custo anual da estrutura (hipótese) | 1,2% × 50.000 = **R$ 600,00** |
 
-Taxa hipotética. Mostra que administração, gestão e custódia são pagas pelo fundo.
+| Passo | Teclas | Visor | O que significa |
+| --- | --- | --- | --- |
+| 1 | ⌨️ `f` `REG` `f` `2` `50000` `ENTER` `1,2` `%` | 🖥️ 600,00 | Custo anual sobre a aplicação |
 
 ### 🔇 Cronograma
 
-| Tópico | Tempo |
+| Bloco | Tempo |
 | --- | --- |
-| 3.1 O FIF e o Anexo I da Res. CVM 175 | 5 min |
-| 3.2 Administrador: o que o Anexo I acrescenta | 3,5 min |
-| 3.3 Gestor, cogestão e custodiante | 4 min |
-| 3.4 Visão integrada: quem manda em quê | 2,5 min |
+| 1. Caso de Rodrigo: quem faz o quê | 4 min |
+| 2. O administrador confere depois | 3,5 min |
+| 3. Gestor, cogestão e custodiante | 4 min |
+| 4. Visão integrada e fechamento | 3,5 min |
 | **Total** | **15 min** |
 
 ---
 
-## 3. Explicação dos tópicos — 15 min
+## 3. Explicação em quatro blocos
 
-### 3.1 O FIF e o Anexo I da Res. CVM 175 — 5 min · CPA 2.1.2.3 · Apostila p. 345
+### Bloco 1 — Caso de Rodrigo: quem faz o quê — 4 min
 
-- **A estrutura da Res. CVM 175**
-  - "A Resolução CVM 175, de 2022, é o marco dos fundos de investimento. Ela tem uma parte geral, que vale para todos os fundos, e anexos normativos, um para cada tipo de fundo."
-  - "A apostila diz: até agora falamos da parte geral. Agora o Anexo I, que trata dos Fundos de Investimento Financeiro, os FIF."
+> **Objetivo deste bloco:** ao fim, o aluno consegue dizer, em uma frase, o papel de cada prestador do FIF.
 
-| Parte | Para quem vale |
-| --- | --- |
-| **Parte geral** | Todos os fundos: constituição, classes, cotas, prestadores, assembleias |
-| **Anexo I** | Os **FIF**, fundos que investem em ativos financeiros |
-| **Outros anexos** | FIDC, FII, FIP, Fiagro, cada um com o seu |
+- "Rodrigo aplicou cinquenta mil reais num fundo multimercado. Quem escolhe os ativos? Quem confere se o preço está correto? Quem guarda o dinheiro? Três prestadores, três papéis."
+- "Antes de seguir, duas palavras. **FIF** é o fundo que investe em ativos financeiros: renda fixa, ações, cambiais e multimercados. **Anexo I** é a parte da Resolução 175 que trata especificamente dos FIF. A parte geral vale para todos os fundos. O Anexo I soma regras, e não substitui a parte geral."
+- "A estrutura custa dinheiro: se o custo total for de um vírgula dois por cento ao ano, são seiscentos reais por ano sobre a aplicação de Rodrigo."
 
-  - 🔇 Os outros anexos: o Anexo III trata dos FII (conferido na aula do repositório); FIDC, FIP e Fiagro nos Anexos II, IV e V, **de memória**, a conferir antes de gravar.
+| Passo | Teclas | Visor | O que significa |
+| --- | --- | --- | --- |
+| 1 | ⌨️ `f` `REG` `f` `2` `50000` `ENTER` `1,2` `%` | 🖥️ 600,00 | Custo anual sobre a aplicação |
 
-- **O que é o FIF**
-  - "O FIF é o fundo que aplica em ativos financeiros: títulos públicos, ações, ativos de renda fixa, derivativos e cotas de outros fundos. São os fundos que o cliente de varejo mais conhece: o fundo de renda fixa, o de ações, o cambial e o multimercado."
+- **Erro comum:** achar que o Anexo I substitui a parte geral para os FIF. Ele se soma a ela.
 
-| Tipo de FIF (PD 2.1.2.3.6) | Em uma frase |
-| --- | --- |
-| **Renda fixa** | Aplica principalmente em ativos de renda fixa |
-| **Ações** | Aplica principalmente em ações |
-| **Cambial** | Ligado à variação de moeda estrangeira |
-| **Multimercado** | Combina vários mercados e riscos |
-
-  - 🔇 Os tipos serão detalhados na aula de tipificação; aqui só como mapa.
-
-- **Como o Anexo I se encaixa**
-  - "A parte geral diz quem são o administrador e o gestor. O Anexo I acrescenta regras específicas dos FIF: obrigações adicionais, vedações, limites da carteira, tipificação e encargos."
-  - "A apostila avisa: o anexo é grande. Por isso estudamos em partes. Hoje, a prestação de serviços."
-
-- **A orquestra**
-  - "Imagine uma orquestra. O administrador é o produtor: cuida da estrutura, dos registros e da conformidade. O gestor é o maestro: decide o que comprar e vender. O custodiante é o guardião do cofre: guarda os ativos e só os movimenta com ordem de quem tem autoridade."
-
-| Papel | Na orquestra | No fundo |
+| Frase de prova | Certo ou errado | Por quê |
 | --- | --- | --- |
-| **Administrador** | Produtor | Estrutura, registros, verificações, contratação de terceiros |
-| **Gestor** | Maestro | Escolhe os ativos da carteira |
-| **Custodiante** | Guardião do cofre | Guarda os ativos e liquida as operações |
+| "O Anexo I da Res. CVM 175 trata dos Fundos de Investimento Financeiro" | Certo | É a parte da norma específica dos FIF |
+| "O Anexo I substitui a parte geral para os FIF" | Errado | Soma-se à parte geral |
 
-| Frase da prova | Certo ou errado | Por quê |
-| --- | --- | --- |
-| "O Anexo I da Res. CVM 175 trata dos Fundos de Investimento Financeiro" | Certo | Apostila p. 345 |
-| "O Anexo I substitui a parte geral para os FIF" | Errado | **Soma-se** à parte geral |
-| "A Res. CVM 175 é de 2022" | Certo | Marco dos fundos de investimento |
-
-> **Parte geral vale para todos; o Anexo I acrescenta regras para os FIF.**
-
-**🔗 Ponte:** "Quem faz o quê no FIF? Começamos pelo administrador."
+**🔗 Ponte:** "Começamos pelo administrador, o produtor da orquestra."
 
 ---
 
-### 3.2 Administrador: o que o Anexo I acrescenta — 3,5 min · CPA 2.1.2.3.1 · Apostila p. 345–346 · Anexo I, art. 25
+### Bloco 2 — O administrador confere depois — 3,5 min
 
-- **O ponto de partida**
-  - "A parte geral já diz que o administrador e o gestor são os serviços essenciais do fundo, e que cada um responde pelos seus próprios atos, perante a CVM."
-  - "A apostila: em acréscimo às obrigações da parte geral, incluem-se entre as obrigações do administrador do FIF três coisas."
+> **Objetivo deste bloco:** ao fim, o aluno consegue listar as obrigações adicionais do administrador do FIF e dizer quando ele age.
 
-| Obrigação adicional | O que é |
-| --- | --- |
-| **Verificar os preços** | Depois das operações do gestor, conferir se os preços são compatíveis com os de mercado |
-| **Verificar os limites** | Conferir se a carteira respeita os limites de composição, concentração e exposição a risco |
-| **Contratar o custodiante** | Quem contrata é o administrador, e não o gestor |
+- "O administrador do FIF tem três obrigações além das da parte geral: verificar os preços, verificar os limites e contratar o custodiante."
+- "A palavra-chave é **depois**. O administrador confere, após as operações do gestor, se os preços são compatíveis com o mercado e se a carteira respeita os limites de composição, concentração e risco. Se algo estiver fora do lugar, informa a CVM."
+- **Erro comum:** achar que o administrador aprova a ordem antes do gestor. Quem decide o que comprar é o gestor. O administrador confere depois.
 
-  - "Se encontrar incompatibilidade, o administrador informa a CVM. Quando há desenquadramento dos limites, comunica o gestor e a CVM, no prazo da norma."
-
-- ✏️ **"Verificar" é depois, e não antes**
-  - "A apostila diz que o administrador verifica as operações do gestor. Para a prova, é uma verificação posterior: o administrador não aprova a ordem antes. Quem decide o que comprar é o gestor; o administrador confere depois se o preço fez sentido e se os limites foram respeitados."
-
-- **Um exemplo**
-  - "O gestor de um fundo de renda fixa compra um título por um preço muito acima do praticado no mercado. O administrador, ao conferir, vê a diferença e informa a CVM."
-
-| Frase da prova | Certo ou errado | Por quê |
+| Frase de prova | Certo ou errado | Por quê |
 | --- | --- | --- |
 | "Quem contrata o custodiante do FIF é o gestor" | Errado | É o **administrador** |
 | "O administrador verifica, após as operações, a compatibilidade dos preços com o mercado" | Certo | Anexo I, art. 25 |
-| "O administrador decide quais ativos o fundo vai comprar" | Errado | Quem decide é o **gestor** |
-| "Se o preço for incompatível com o mercado, o administrador informa a CVM" | Certo | Apostila p. 346 |
+| "O administrador decide quais ativos o fundo vai comprar" | Errado | Quem decide é o gestor |
 
 > **O administrador confere depois, informa a CVM se algo estiver fora do lugar, e contrata o custodiante.**
 
-**🔗 Ponte:** "E quando mais de um gestor cuida do fundo? A cogestão."
+**🔗 Ponte:** "E quando há mais de um gestor no mesmo fundo?"
 
 ---
 
-### 3.3 Gestor, cogestão e custodiante — 4 min · CPA 2.1.2.3.1 · Apostila p. 346 · Anexo I, arts. 26 e 27
+### Bloco 3 — Gestor, cogestão e custodiante — 4 min
 
-- **O gestor**
-  - "É o gestor quem decide a composição da carteira, dentro da política de investimento e dos limites. A parte geral detalha as funções, na aula 2.1.2-D. No FIF, valem também as vedações do Anexo I, que são assunto de outra aula."
+> **Objetivo deste bloco:** ao fim, o aluno consegue explicar a cogestão e as duas regras que limitam o custodiante.
 
-- **A cogestão**
-  - "Um fundo pode ter mais de um gestor. É a cogestão: cada gestor cuida de uma parte, como renda fixa, ações ou exterior. A regra do Anexo I: o contrato do cogestor deve limitar as ordens dele perante o custodiante ao mercado específico em que atua."
+- "O gestor decide a carteira, dentro da política e dos limites. Quando há cogestão, cada gestor cuida de uma parte: renda fixa, ações ou exterior."
+- "A regra do Anexo I: o contrato do cogestor limita as ordens dele ao mercado em que ele atua. Se o gestor de renda fixa mandar uma ordem de ações, o custodiante não executa."
+- "O custodiante guarda os ativos e liquida as operações. Ele tem duas travas: acata ordens só de administrador, gestor e cogestor; e executa só ordens ligadas às operações da classe. Mesmo que alguém de fora tente mandar uma ordem, ele não a executa."
+- **Erro comum:** achar que o custodiante acata ordens de qualquer cotista, ou executa uma ordem sem relação com as operações da classe, porque o gestor pediu.
 
 | Gestor | Mercado | Pode dar ordem de |
 | --- | --- | --- |
@@ -160,36 +122,21 @@ Taxa hipotética. Mostra que administração, gestão e custódia são pagas pel
 | Gestor 2 | Renda fixa | Títulos de renda fixa |
 | Gestor 3 | Exterior | Ativos no exterior |
 
-  - "Se o gestor de renda fixa mandar uma ordem de ações, o custodiante não executa. Ele não tem autoridade nesse mercado."
-
-- **O custodiante**
-  - "O custodiante é quem guarda os ativos do fundo e liquida as operações. A regra do Anexo I tem duas partes."
-
-| Regra do custodiante | O que significa |
-| --- | --- |
-| **Acata ordens só de quem pode** | Administrador, gestor e, se houver, cogestor (ou seus mandatários) |
-| **Executa só ordens ligadas às operações da classe** | Não movimenta ativos do fundo para finalidade estranha |
-
-  - "Essa trava protege o cotista. Mesmo que alguém de fora tente mandar uma ordem, o custodiante não a executa. E, mesmo que um gestor queira usar o fundo para outra finalidade, o custodiante só cumpre ordens ligadas às operações da classe."
-
-- ✏️ **A apostila só toca no custodiante de leve**
-  - "O material de aula tem pouco sobre o custodiante. O que está aqui vem da norma: acatar ordens somente de administrador, gestor e cogestor, e só as vinculadas às operações da classe."
-
-| Frase da prova | Certo ou errado | Por quê |
+| Frase de prova | Certo ou errado | Por quê |
 | --- | --- | --- |
 | "O custodiante pode acatar ordens de qualquer cotista do fundo" | Errado | Só de administrador, gestor e cogestor |
-| "No FIF com cogestão, o contrato do cogestor limita as ordens dele ao seu mercado de atuação" | Certo | Anexo I, art. 26 |
-| "O custodiante executa ordens que não têm relação com as operações da classe, se o gestor pedir" | Errado | Só as **diretamente vinculadas** às operações da classe |
+| "No FIF com cogestão, o contrato do cogestor limita as ordens dele ao seu mercado" | Certo | Anexo I, art. 26 |
+| "O custodiante executa ordens sem relação com as operações da classe, se o gestor pedir" | Errado | Só as diretamente vinculadas às operações da classe |
 
-> **Cada um no seu papel: o gestor decide, o administrador confere, o custodiante só cumpre ordens legítimas da classe.**
+> **Cada um no seu papel: o gestor decide, o administrador confere, o custodiante só cumpre ordens legítimas.**
 
 **🔗 Ponte:** "Juntando tudo, quem manda em quê?"
 
 ---
 
-### 3.4 Visão integrada: quem manda em quê — 2,5 min · CPA 2.1.2.3.1
+### Bloco 4 — Visão integrada e fechamento — 3,5 min
 
-- **O quadro completo**
+> **Objetivo deste bloco:** ao fim, o aluno consegue montar o quadro dos quatro prestadores e evitar as principais pegadinhas.
 
 | Prestador | Decide | Verifica | Executa |
 | --- | --- | --- | --- |
@@ -198,35 +145,33 @@ Taxa hipotética. Mostra que administração, gestão e custódia são pagas pel
 | **Cogestor** | Só no seu mercado | — | Ordens limitadas ao seu mercado |
 | **Custodiante** | Nada | — | Guarda e liquida; só ordens legítimas |
 
-- **O caso do Rodrigo**
-  - "Rodrigo aplicou 50 mil reais num FIF multimercado. Ele quer saber quem faz o quê. O gestor escolhe os ativos. O administrador confere os preços e os limites. O custodiante guarda tudo. E quem paga essa estrutura? O fundo, com taxas que saem do patrimônio. Se o custo total for de 1,2% ao ano, são 600 reais por ano sobre 50 mil."
+- **Erro comum:** achar que gestor e administrador respondem solidariamente pelos atos um do outro. Cada um responde pelos seus próprios atos, sem prejuízo do dever de fiscalizar.
 
-| Passo | Teclas | Visor | O que significa |
-| --- | --- | --- | --- |
-| 1 | ⌨️ `f` `REG` `f` `2` `50000` `ENTER` `1,2` `%` | 🖥️ 600,00 | Custo anual da estrutura sobre a aplicação |
-
-  - 🔇 Taxa hipotética. As taxas de administração, gestão e distribuição estão na aula 2.1.2-D.
-
-- **As três pegadinhas da prova**
-  - "Primeira: quem contrata o custodiante é o administrador. Segunda: o administrador verifica depois, e não aprova antes. Terceira: o custodiante só acata ordens de administrador, gestor e cogestor."
-
-| Frase da prova | Certo ou errado | Por quê |
+| Frase de prova | Certo ou errado | Por quê |
 | --- | --- | --- |
-| "O gestor e o administrador respondem solidariamente por todos os atos um do outro" | Errado | Cada um responde pelos **seus** atos, sem prejuízo do dever de fiscalizar (parte geral, art. 81) |
-| "A cogestão permite que cada gestor dê ordens em qualquer mercado" | Errado | Limitadas ao **mercado do cogestor** |
+| "O gestor e o administrador respondem solidariamente por todos os atos um do outro" | Errado | Cada um responde pelos seus próprios atos |
+| "A cogestão permite que cada gestor dê ordens em qualquer mercado" | Errado | Limitadas ao mercado do cogestor |
 
 > **Administrador confere e contrata a custódia; gestor decide; custodiante só cumpre ordens legítimas.**
 
-- 🔇 Fechamento em uma frase (sem etapa de revisão): "O Anexo I soma regras dos FIF à parte geral; o administrador confere preços e limites depois das operações e contrata o custodiante; o gestor decide a carteira; e o custodiante só acata ordens legítimas ligadas à classe." Próximas aulas do módulo: obrigações, vedações, carteira e tipificação do FIF.
+- 🔇 **Fechamento:** "O Anexo I soma regras dos FIF à parte geral; o administrador confere depois e contrata o custodiante; o gestor decide a carteira; e o custodiante só acata ordens legítimas da classe." Próximas aulas do módulo: obrigações, vedações, carteira e tipificação do FIF.
+
+---
+
+## Lista de pegadinhas com nome
+
+1. **Pegadinha da substituição** — "O Anexo I substitui a parte geral para os FIF." Errado: soma-se à parte geral.
+2. **Pegadinha da ordem invertida** — "O administrador aprova a ordem antes do gestor." Errado: confere depois, e quem decide é o gestor.
+3. **Pegadinha do contratante trocado** — "O gestor contrata o custodiante." Errado: é o administrador.
+4. **Pegadinha da solidariedade** — "Gestor e administrador respondem solidariamente pelos atos um do outro." Errado: cada um responde pelos seus.
 
 ---
 
 ## Nota de verificação
 
-- **Programa Detalhado CPA** (v1.2, rev. 04/06/2025, vigência 01/01/2026): itens 2.1.2.3 e 2.1.2.3.1 lidos no texto do PD do repositório.
-- **Apostila CPA**, p. 345–346: lidas nesta sessão.
-- **Aulas do repositório 2.1.2.3-F e 2.1.2-D** (02/10 e 06/10/2026): arts. 25 a 27 do Anexo I e arts. 80 a 83 da parte geral, conferidos ali contra a Res. CVM 175. **Textos legais não reabertos nesta sessão.**
-- **Citado de memória, sem reabrir o texto:** os números dos Anexos II, IV e V (FIDC, FIP e Fiagro). **Conferir antes de gravar.**
-- **Convenções sem força normativa:** a metáfora da orquestra; o quadro "Quem manda em quê"; o exemplo de cogestão por mercado (ações, renda fixa, exterior); o custo de 1,2% a.a. do exemplo.
-- **Cálculo conferido em Python:** 50.000 × 1,2% = 600.
-- **Acréscimos (➕):** o caso do Rodrigo, o quadro integrado dos prestadores e a explicação de por que a verificação do administrador é posterior.
+- PD 2.1.2.3 e 2.1.2.3.1 lido no texto do repositório. Apostila p. 345–346 lida nesta sessão.
+- Aulas do repositório 2.1.2.3-F e 2.1.2-D: arts. 25 a 27 do Anexo I e arts. 80 a 83 da parte geral, conferidos ali. **Textos legais não reabertos nesta sessão.**
+- **Citado de memória:** os números dos Anexos II, IV e V (FIDC, FIP e Fiagro). **Conferir antes de gravar.**
+- Cálculos conferidos em Python: 50.000 × 1,2% = 600.
+- Convenções: metáfora da orquestra, cogestão por mercado e custo de 1,2% a.a. (didáticos).
+- Revisão de estrutura: metáfora única (orquestra), caso antes da regra, objetivo e erro comum por bloco, fonte removida da fala, lista de pegadinhas com nome.

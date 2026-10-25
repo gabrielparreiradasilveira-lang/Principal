@@ -1,45 +1,43 @@
 # Roteiro de fala — Aula CPA: Orçamento e Fluxo de Caixa Pessoal ou Familiar — Educação Financeira e Capacidade de Poupança
 
-**Base:**
-- **Programa Detalhado CPA** (ANBIMA, v1.2, rev. 04/06/2025, vigência 01/01/2026), itens 3.1.3, 3.1.3.1 e 3.1.3.2;
-- APOSTILA-CPA, p. 471–472;
-- material de aula "Orçamento e fluxo de caixa pessoal (ou familiar)" (`00-fontes/materiais-aula/topico-3.1/`, p. 2–7);
-- aula do repositório `aulas/cpa/aula-3.1-B-orcamento-reserva-balanco/aula.md` (40 min), da qual esta é o recorte de 10 min só com tópicos, sem reserva (F8) e sem balanço (3.1.4);
-- roteiros **F7** (controle de gastos e crédito) e **F8** (reserva de emergência), que esta aula antecede.
+**Base:** PD CPA v1.2 (rev. 04/06/2025, vigência 01/01/2026), itens **3.1.3**, **3.1.3.1** e **3.1.3.2**; APOSTILA-CPA p. 471–472; material de aula "Orçamento e fluxo de caixa pessoal (ou familiar)" (`00-fontes/materiais-aula/topico-3.1/`, p. 2–7); aula do repositório `aula-3.1-B-orcamento-reserva-balanco` (classificação e capacidade de poupança já conferidas).
 
-CPA 3.1.3 · 3.1.3.1 · 3.1.3.2 · Módulo 3 · **10 min** · Aula F5 do plano de gravação · **só a etapa de tópicos**
+CPA 3.1.3 · 3.1.3.1 · 3.1.3.2 · Módulo 3 · **10 min** · Aula F5 · **só a etapa de tópicos**
 
-**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor, sem fala · ✏️ = correção da fonte · ➕ = acréscimo desta versão · 🔗 = ponte · ⌨️ = teclas da HP12C · 🖥️ = visor.
+**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor · ✏️ = correção da fonte (só no bastidor) · ⌨️ = HP12C · 🖥️ = visor.
 
 ---
 
-## Bastidor — antes de gravar
+## Bastidor
 
-### 🔇 Formato
+### 🔇 Metáfora única desta aula
 
-- Direto aos tópicos do PD, sem as demais etapas.
-- A família **Lima** atravessa a aula: acha que poupa R$ 2.400 por mês, mas o saldo da conta não cresce.
-- Analogia: o **orçamento é a dieta** (o plano) e o **fluxo de caixa é a balança** (a realidade).
+**Dieta e balança.** O orçamento é a dieta: o que a família planeja comer, ou seja, gastar. O fluxo de caixa é a balança: mostra o que de fato aconteceu. Quem só olha a dieta e nunca sobe na balança não percebe que saiu do plano.
 
-### 🔇 Checagem de escopo (PD × materiais)
+**Onde a metáfora falha:** a balança mostra o peso, mas não diz o que foi comido nem por quê. O fluxo de caixa mostra o que entrou e saiu, e não as causas. Além disso, a dieta é um plano para um mês, enquanto o orçamento precisa cobrir despesas que aparecem uma vez por ano, como o IPVA.
+
+### 🔇 Caso
+
+A **família Lima** ganha R$ 9.000 por mês e acha que poupa R$ 2.400, mas o saldo da conta não cresce.
+
+### 🔇 Checagem de escopo
 
 | Subitem do PD | Fonte | Tratamento |
 | --- | --- | --- |
-| 3.1.3 Orçamento e fluxo de caixa pessoal ou familiar | Apostila p. 471; PDF p. 4 | Conferido; planejamento × realidade |
-| 3.1.3.1 Educação financeira básica | Apostila p. 471; PDF p. 2 | Conferido; quatro pilares e princípio central |
-| 3.1.3.2 Receitas e despesas (definição da capacidade de poupança) | Apostila p. 471–472; PDF p. 5–6 | Conferido; **classificação de alimentação ajustada** |
+| 3.1.3 Orçamento e fluxo de caixa | Apostila p. 471; PDF p. 4 | Conferido; planejamento × realidade |
+| 3.1.3.1 Educação financeira básica | Apostila p. 471; PDF p. 2 | Conferido; quatro pilares |
+| 3.1.3.2 Receitas e despesas: capacidade de poupança | Apostila p. 471–472; PDF p. 5–6 | Conferido; **classificação da alimentação ajustada** |
 
-### ✏️ Correções e notas da fonte
+### ✏️ Correções da fonte
 
-| # | Fonte | O material diz | O correto | Base |
-| --- | --- | --- | --- | --- |
-| 1 | PDF p. 5 | Alimentação listada como despesa **fixa** | Depende do padrão de consumo: **supermercado** tende a ser recorrente (fixa); **delivery e restaurante** são **variáveis**. A fala usa os dois exemplos | Ajuste didático |
-| 2 | PDF p. 5 | Financiamento e plano de saúde como despesas fixas | Correto: são **recorrentes** e de valor definido | Apostila p. 472 |
-| 3 | Apostila p. 471–472 | Subitens numerados como "3.2" | Numeração do PD: 3.1.3, 3.1.3.1 e 3.1.3.2 | PD CPA |
-| 4 | Apostila p. 472 | Dividendos como receita "variável" | Correto como classificação didática; para o **imposto**, a classificação é outra (F12) | Apostila p. 472 |
-| 5 | Apostila p. 472 | Capacidade de poupança é "o valor residual após o pagamento de todas as despesas" | Correto: inclui **despesas fixas, variáveis e extraordinárias**. Esquecer as extraordinárias é o erro mais comum | Apostila p. 472 |
+| # | Fonte | O material diz | O correto |
+| --- | --- | --- | --- |
+| 1 | PDF p. 5 | Alimentação como despesa **fixa** | Depende do padrão: supermercado tende a ser recorrente (fixa); delivery e restaurante são variáveis |
+| 2 | Apostila p. 472 | Dividendos como receita "variável" | Correto como classificação didática; para o imposto, a classificação é outra (F12) |
+| 3 | Apostila p. 471–472 | Subitens numerados como "3.2" | Numeração do PD: 3.1.3, 3.1.3.1 e 3.1.3.2 |
+| 4 | Apostila p. 472 | Capacidade de poupança é "o valor residual após o pagamento de todas as despesas" | Correto. Inclui despesas fixas, variáveis **e extraordinárias**. Esquecer as extraordinárias é o erro mais comum |
 
-### 🔇 Dados do exemplo (família Lima)
+### 🔇 Dados (família Lima)
 
 | Item | Orçamento (plano) | Fluxo de caixa (realidade) |
 | --- | --- | --- |
@@ -49,154 +47,124 @@ CPA 3.1.3 · 3.1.3.1 · 3.1.3.2 · Módulo 3 · **10 min** · Aula F5 do plano d
 | Despesas extraordinárias (média mensal) | — (esquecidas) | **R$ 600** |
 | **Capacidade de poupança** | **R$ 2.400** (26,7%) | **R$ 1.000** (11,1%) |
 
-Valores hipotéticos. O bônus anual da família (R$ 12.000, receita variável) não entra no cálculo mensal.
+Valores hipotéticos. O bônus anual da família não entra no cálculo mensal.
 
 ### 🔇 Cronograma
 
-| Tópico | Tempo |
+| Bloco | Tempo |
 | --- | --- |
-| 3.1 Educação financeira básica | 2,5 min |
-| 3.2 Orçamento × fluxo de caixa | 2,5 min |
-| 3.3 Receitas e despesas: a classificação | 2,5 min |
-| 3.4 Capacidade de poupança | 2,5 min |
+| 1. Caso da família Lima: o saldo que não cresce | 2 min |
+| 2. Dieta e balança: orçamento × fluxo de caixa | 2,5 min |
+| 3. Receitas e despesas: a classificação | 2,5 min |
+| 4. Capacidade de poupança: o que sobra de verdade | 3 min |
 | **Total** | **10 min** |
 
 ---
 
-## 3. Explicação dos tópicos — 10 min
+## 3. Explicação em quatro blocos
 
-### 3.1 Educação financeira básica — 2,5 min · CPA 3.1.3.1 · Apostila p. 471
+### Bloco 1 — Caso da família Lima: o saldo que não cresce — 2 min
 
-- **O que é**
-  - "A educação financeira tem o objetivo de estruturar a pessoa para tomar decisões conscientes sobre seus recursos. Não é só investir: é organizar o comportamento financeiro como um todo."
+> **Objetivo deste bloco:** ao fim, o aluno consegue explicar por que um saldo pode não crescer mesmo quando a família acha que poupa.
 
-| Pilar | O que significa |
-| --- | --- |
-| **Consumo consciente** | Gastar de forma compatível com a renda e a realidade |
-| **Reserva para imprevistos** | Construir um colchão de segurança (F8) |
-| **Uso consciente do crédito** | Cartão e demais dívidas sob controle |
-| **Disciplina de poupança** | Gastar menos do que recebe, todos os meses |
+- "A família Lima ganha nove mil reais por mês. Eles acham que sobram dois mil e quatrocentos. Mas o saldo da conta não cresce. Por quê?"
+- "Antes de responder, duas palavras. **Educação financeira** é organizar o próprio comportamento com dinheiro: consumir de forma compatível com a renda, ter reserva, usar bem o crédito e poupar com disciplina."
+- "O princípio é simples: gastar menos do que se ganha, de forma consistente. Quem gasta tudo, ganhando pouco ou muito, fica no mesmo lugar."
+- **Erro comum:** achar que quem tem renda alta não precisa de educação financeira. Sem gastar menos do que ganha, não há patrimônio sustentável.
 
-- **O princípio central**
-  - "A apostila resume em uma frase: gastar menos do que se ganha, de forma consistente ao longo do tempo. Sem esse princípio, não há patrimônio sustentável, qualquer que seja a renda."
-  - "Renda alta não resolve sozinha. Quem gasta tudo o que ganha, ganhando pouco ou muito, fica no mesmo lugar."
-
-| Frase da prova | Certo ou errado | Por quê |
+| Frase de prova | Certo ou errado | Por quê |
 | --- | --- | --- |
 | "Quem tem renda alta não precisa de educação financeira" | Errado | Sem gastar menos do que ganha, não há patrimônio sustentável |
-| "O princípio da educação financeira é gastar menos do que se ganha, de forma consistente" | Certo | Apostila p. 471 |
+| "O princípio da educação financeira é gastar menos do que se ganha, de forma consistente" | Certo | Definição de educação financeira |
 
-> **Educação financeira: consumir com consciência, ter reserva, usar bem o crédito e poupar com disciplina.**
-
-**🔗 Ponte:** "Para pôr em prática, duas ferramentas: o orçamento e o fluxo de caixa."
+**🔗 Ponte:** "Para pôr esse princípio em prática, há duas ferramentas. A primeira é a dieta: o orçamento."
 
 ---
 
-### 3.2 Orçamento × fluxo de caixa — 2,5 min · CPA 3.1.3 · Apostila p. 471 · PDF p. 4
+### Bloco 2 — Dieta e balança: orçamento × fluxo de caixa — 2,5 min
 
-- **A diferença**
-  - "O orçamento é a projeção futura: quanto eu pretendo receber, gastar e poupar. O fluxo de caixa é a realidade: quanto de fato entrou, saiu e sobrou. A diferença entre os dois é um dos principais indicadores da qualidade da gestão financeira."
+> **Objetivo deste bloco:** ao fim, o aluno consegue distinguir orçamento de fluxo de caixa e dizer qual dos dois mostra a realidade.
+
+- "O **orçamento** é a dieta: a projeção do que se pretende receber, gastar e poupar. O **fluxo de caixa** é a balança: o que de fato entrou e saiu."
+- "A diferença entre os dois é um dos principais indicadores da qualidade da gestão. Quem só olha a dieta não percebe que saiu do plano."
 
 | | **Orçamento** | **Fluxo de caixa** |
 | --- | --- | --- |
 | **Natureza** | Planejamento, futuro | Realidade, passado e presente |
 | **Pergunta** | "Quanto pretendo receber, gastar e poupar?" | "Quanto de fato entrou, saiu e sobrou?" |
-| **Serve para** | Criar metas de gastos e de poupança | Controlar e corrigir o orçamento |
 
-- **A dieta e a balança**
-  - "O orçamento é a dieta: o que eu pretendo comer. O fluxo de caixa é a balança: o que de fato aconteceu. Quem só olha a dieta e não sobe na balança não percebe que está fora do plano."
+- **Erro comum:** achar que o orçamento mostra o que aconteceu. Quem diz o que aconteceu é o fluxo de caixa.
 
-- **O objetivo do orçamento**
-  - "Segundo o PDF: criar a meta de gastos, controlar os gastos e definir as metas de poupança."
-
-| Frase da prova | Certo ou errado | Por quê |
+| Frase de prova | Certo ou errado | Por quê |
 | --- | --- | --- |
-| "O orçamento representa a movimentação real de entradas e saídas" | Errado | Isso é o **fluxo de caixa**; orçamento é projeção |
-| "O fluxo de caixa mostra a realidade financeira efetiva" | Certo | Apostila p. 471 |
-| "A diferença entre o orçamento e o fluxo de caixa indica a qualidade da gestão" | Certo | Apostila p. 471 |
+| "O orçamento representa a movimentação real de entradas e saídas" | Errado | É o fluxo de caixa; orçamento é projeção |
+| "A diferença entre orçamento e fluxo de caixa indica a qualidade da gestão" | Certo | A distância entre plano e realidade mede a gestão |
 
 > **Orçamento é o que você planeja; fluxo de caixa é o que você fez.**
 
-**🔗 Ponte:** "Ambos dependem de classificar bem o que entra e o que sai."
+**🔗 Ponte:** "Para montar o orçamento, é preciso classificar bem receitas e despesas."
 
 ---
 
-### 3.3 Receitas e despesas: a classificação — 2,5 min · CPA 3.1.3.2 · Apostila p. 471–472 · PDF p. 5
+### Bloco 3 — Receitas e despesas: a classificação — 2,5 min
 
-- **As receitas**
+> **Objetivo deste bloco:** ao fim, o aluno consegue classificar receitas e despesas e apontar qual delas costuma ser esquecida.
 
-| Tipo | Exemplos |
-| --- | --- |
-| **Recorrentes** | Salário, pró-labore, aposentadoria, aluguéis |
-| **Variáveis (não recorrentes)** | Bônus, comissões, dividendos |
+- "Receitas recorrentes: salário, pró-labore, aposentadoria, aluguel. Variáveis: bônus, comissão, dividendo. A base do planejamento deve ser a recorrente."
+- "Despesas fixas: aluguel, escola, plano de saúde, financiamento e o supermercado do mês. Variáveis: lazer, compras, delivery, viagens. Extraordinárias: manutenção da casa, IPVA, IPTU, consulta não prevista."
+- "Repare que o supermercado costuma ser fixo, e o delivery é variável. A classificação depende do padrão de consumo."
+- **Erro comum:** esquecer as extraordinárias. O IPVA de janeiro não é uma exceção ao orçamento; é uma despesa que cai todos os anos.
 
-  - "O planejamento seguro se apoia nas recorrentes. As variáveis são um bônus, e não uma base."
-
-- **As despesas**
-
-| Tipo | Exemplos |
-| --- | --- |
-| **Fixas** | Aluguel, escola, plano de saúde, prestação do financiamento, supermercado |
-| **Variáveis** | Lazer, compras, delivery, viagens |
-| **Extraordinárias** | Manutenção da casa, impostos anuais (IPVA, IPTU), consultas não previstas |
-
-  - ✏️ "O PDF lista alimentação como despesa fixa. Depende: o supermercado tende a ser recorrente; o delivery é variável."
-
-- **Onde está o controle**
-  - "A apostila e o PDF concordam: temos maior controle sobre as despesas do que sobre as receitas. É nas despesas que se ajusta o orçamento."
-
-| Frase da prova | Certo ou errado | Por quê |
+| Frase de prova | Certo ou errado | Por quê |
 | --- | --- | --- |
-| "Salário e aluguel recebido são receitas recorrentes" | Certo | Apostila p. 472 |
-| "Bônus e comissões são receitas recorrentes" | Errado | São **variáveis** |
-| "Manutenção da casa e impostos anuais são despesas extraordinárias" | Certo | PDF p. 5 |
+| "Salário e aluguel recebido são receitas recorrentes" | Certo | Recebimentos que se repetem todo mês |
+| "Bônus e comissões são receitas recorrentes" | Errado | São variáveis |
+| "Manutenção da casa e impostos anuais são despesas extraordinárias" | Certo | Não ocorrem todo mês, mas se repetem todo ano |
 
 > **Receita recorrente é a base; despesa extraordinária é a que esquecemos.**
 
-**🔗 Ponte:** "Do que entra menos o que sai, nasce a capacidade de poupança."
+**🔗 Ponte:** "Do que entra, menos o que sai, nasce a capacidade de poupança."
 
 ---
 
-### 3.4 Capacidade de poupança — 2,5 min · CPA 3.1.3.2 · Apostila p. 472 · PDF p. 6
+### Bloco 4 — Capacidade de poupança: o que sobra de verdade — 3 min
 
-- **A definição**
-  - "A capacidade de poupança é o valor que sobra da renda depois de pagar todas as despesas: fixas, variáveis e extraordinárias. É um dos indicadores mais importantes do planejamento: determina o potencial de acumular patrimônio."
+> **Objetivo deste bloco:** ao fim, o aluno consegue calcular a capacidade de poupança real e explicar por que ela costuma ser superestimada.
 
-- **O erro mais comum**
-  - "A apostila alerta: muitas pessoas superestimam a capacidade de poupança e subestimam as despesas reais. Por isso o fluxo de caixa deve ser acompanhado continuamente, mês a mês e no ano."
-
-- **A família Lima**
-  - "Os Lima ganham 9 mil reais por mês. No orçamento, previram 4.800 de despesas fixas e 1.800 de variáveis, e acham que poupam 2.400. Mas, na prática, as variáveis foram 2.600, e esqueceram as extraordinárias, que somam 600 reais por mês em média."
+- "A capacidade de poupança é o que sobra da renda depois de todas as despesas. Os Lima previram quatro mil e oitocentos de fixas e mil e oitocentos de variáveis, e acharam que poupavam dois mil e quatrocentos. Na prática, as variáveis foram dois mil e seiscentos, e as extraordinárias somam seiscentos por mês."
 
 | Passo | Teclas | Visor | O que significa |
 | --- | --- | --- | --- |
 | 1 | ⌨️ `f` `REG` `f` `2` `9000` `ENTER` `4800` `−` `2600` `−` `600` `−` | 🖥️ 1.000,00 | Capacidade de poupança real |
 | 2 | ⌨️ `9000` `ENTER` `1000` `%T` | 🖥️ 11,11 | Percentual da renda que sobra |
 
-  - "A capacidade de poupança real é de mil reais, 11% da renda, e não os 2.400 previstos, quase 27%. Esse erro de 1.400 reais por mês explica por que o saldo não crescia. A família só vai poupar de verdade quando ajustar o orçamento à realidade."
-  - 🔇 Valores hipotéticos. A diferença de R$ 1.400 é: 800 a mais nas variáveis + 600 das extraordinárias.
+- "Mil reais, onze por cento da renda, e não os dois mil e quatrocentos previstos. O erro de mil e quatrocentos reais por mês explica por que o saldo não crescia."
+- **Erro comum:** achar que a capacidade de poupança é a soma das despesas. Ela é o valor residual, depois de todas elas.
+- "Antes de poupar, quite a dívida mais cara. Não adianta guardar o pouco que sobra se o cartão cresce mais depressa."
 
-- **Dívida primeiro**
-  - "O pagamento de dívidas é prioridade no orçamento, sobretudo as de taxa mais alta, como vimos na F7. Não adianta poupar o pouco que sobra se uma dívida cara cresce mais depressa."
-
-| Frase da prova | Certo ou errado | Por quê |
+| Frase de prova | Certo ou errado | Por quê |
 | --- | --- | --- |
-| "A capacidade de poupança é a soma de todas as despesas" | Errado | É o **valor residual** depois delas |
-| "Quanto maior a capacidade de poupança, maior o potencial de investimentos" | Certo | PDF p. 6 |
-| "Os clientes costumam subestimar a capacidade de poupança e superestimar as despesas" | Errado | É o contrário: **superestimam** a poupança e **subestimam** as despesas |
-| "A capacidade de poupança deve ser analisada mensalmente e anualmente" | Certo | PDF p. 6 |
+| "A capacidade de poupança é a soma de todas as despesas" | Errado | É o valor residual depois delas |
+| "Clientes costumam superestimar a poupança e subestimar as despesas" | Certo | Esquecer despesas infla a sobra imaginada |
 
 > **Poupança é o que sobra depois de tudo, inclusive do IPVA de janeiro.**
 
-- 🔇 Fechamento em uma frase (sem etapa de revisão): "Educação financeira é gastar menos do que se ganha; o orçamento é o plano e o fluxo de caixa é a realidade; classificar bem receitas e despesas mostra a capacidade de poupança; e quem superestima a sobra e subestima a despesa não poupa o que imagina." Próxima aula do plano: F7, e depois F8, a reserva de emergência.
+- 🔇 **Fechamento:** "Educação financeira é gastar menos do que se ganha; o orçamento é o plano e o fluxo de caixa é a realidade; e quem superestima a sobra e subestima a despesa não poupa o que imagina." Próxima aula: F6, gestão de dívidas.
+
+---
+
+## Lista de pegadinhas com nome
+
+1. **Pegadinha da renda alta** — "Quem tem renda alta não precisa de educação financeira." Errado: sem gastar menos do que ganha, não há patrimônio.
+2. **Pegadinha da dieta que é balança** — "O orçamento mostra o que de fato aconteceu." Errado: é o fluxo de caixa.
+3. **Pegadinha da despesa que não volta** — "IPVA e IPTU são exceções que o orçamento ignora." Errado: são despesas extraordinárias que se repetem todo ano.
+4. **Pegadinha da soma** — "A capacidade de poupança é a soma das despesas." Errado: é o que sobra depois delas.
 
 ---
 
 ## Nota de verificação
 
-- **Programa Detalhado CPA** (v1.2, rev. 04/06/2025, vigência 01/01/2026): itens 3.1.3, 3.1.3.1 e 3.1.3.2 lidos no texto do PD do repositório.
-- **Apostila CPA**, p. 471–472, e o PDF "Orçamento e fluxo de caixa pessoal (ou familiar)" (p. 2–7): lidos nesta sessão.
-- **Aula do repositório 3.1-B** (24/09/2026): classificação de receitas e despesas e capacidade de poupança já conferidas ali.
-- **Convenções sem força normativa:** a analogia da dieta e da balança; os valores da família Lima; a classificação do supermercado e do delivery.
-- **Cálculos conferidos em Python:** 9.000 − 4.800 − 2.600 − 600 = 1.000; 1.000 ÷ 9.000 = 11,11%; previsto 9.000 − 4.800 − 1.800 = 2.400 (26,7%); diferença de 1.400 = 800 + 600.
-- **Acréscimos (➕):** o caso da família Lima, a analogia da dieta e da balança e o contraste entre o orçamento e o fluxo de caixa.
+- PD 3.1.3, 3.1.3.1 e 3.1.3.2 lido no texto do repositório. Apostila p. 471–472 e PDF "Orçamento e fluxo de caixa" lidos nesta sessão.
+- Cálculos conferidos em Python: 9.000 − 4.800 − 2.600 − 600 = 1.000; 1.000 ÷ 9.000 = 11,11%; previsto 9.000 − 4.800 − 1.800 = 2.400 (26,7%); diferença de 1.400 = 800 + 600.
+- Convenções: valores da família Lima e classificação do supermercado e do delivery (didáticos).
+- Revisão de estrutura: metáfora única (dieta e balança), caso antes da regra, objetivo e erro comum por bloco, fonte removida da fala, lista de pegadinhas com nome.
