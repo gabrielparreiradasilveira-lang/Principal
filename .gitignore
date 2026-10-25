@@ -34,3 +34,6 @@ yarn-error.log*
 *.tmp
 .claude/settings.local.json
 .claude-flow/
+.agentic-qe/
+.swarm/
+ruvector.db
