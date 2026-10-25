@@ -33,3 +33,7 @@ yarn-error.log*
 # Temporary files
 *.tmp
 .claude/settings.local.json
+
+# Local tooling state (includes private witness signing keys)
+.agentic-qe/
+.claude-flow/
