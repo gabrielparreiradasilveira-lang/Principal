@@ -4,19 +4,21 @@
 
 CPA 1.3.4 · 1.3.4.1 · 1.3.4.2 · 1.3.4.3 · Módulo 1 · **10 min** · Aula G9 · **só a etapa de tópicos**
 
-**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor · ✏️ = correção da fonte · ➕ = acréscimo · ⌨️ = HP12C · 🖥️ = visor.
+**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor · ✏️ = correção da fonte (só no bastidor) · ⌨️ = HP12C · 🖥️ = visor.
 
 ---
 
 ## Bastidor
 
-### 🔇 Estrutura desta aula
+### 🔇 Metáfora única desta aula
 
-Esta aula é um **rótulo de embalagem** com duas perguntas e uma troca de contrato. O rótulo de um produto traz a taxa **nominal** e a **efetiva**, e a pergunta é: o que está escrito é o que se paga? O contrato de aluguel mostra o outro eixo: **pré-fixado** (preço fixo) ou **pós-fixado** (reajustado por um índice). O caso é uma escolha entre dois contratos de aluguel de um mesmo imóvel.
+**Contrato de aluguel.** Há dois tipos: o aluguel de valor fixo, que não muda durante o contrato (pré-fixado), e o aluguel reajustado por um índice (pós-fixado). A escolha entre eles é a escolha de quem aceita o risco do índice.
 
-- Caso: **Marta** precisa escolher entre um financiamento a taxa fixa de 12% a.a. e um reajustado por 105% do CDI. Ela também quer saber, no rótulo de um cartão, qual é a taxa efetiva.
+**Onde a metáfora falha:** o aluguel reajustado tem periodicidade e teto definidos por lei. O CDI não é um índice de reajuste de aluguel. E o contrato de aluguel não tem o risco de crédito de um título: o inquilino paga, ou não paga, e o investidor no título também depende do emissor.
 
-🔇 Nominal × real foi a G1. Simples × composto está aqui de forma resumida; a aula G2 aprofunda.
+### 🔇 Caso
+
+**Marta** tem R$ 10.000 para aplicar e duas opções: um título que paga 12% a.a. fixo, ou um que paga 105% do CDI.
 
 ### 🔇 Checagem de escopo
 
@@ -26,26 +28,27 @@ Esta aula é um **rótulo de embalagem** com duas perguntas e uma troca de contr
 | 1.3.4.2 Prefixada e pós-fixada | Slides A3472 p. 13 | Conferido; **híbrida incluída** |
 | 1.3.4.3 Simples e compostos | Slides A3472 p. 3–5 | Conferido; resumido |
 
-### ✏️ Correções e notas da fonte
+### ✏️ Correções da fonte
 
 | # | Fonte | O material diz | O correto |
 | --- | --- | --- | --- |
 | 1 | Slides A3472 p. 13 | "Tesouro Prefixado 2027 pagando 10,50% a.a." | Número datado. Ensina-se o conceito |
-| 2 | Slides A3472 p. 13 | Pós-fixada: "CDB que paga 100% do CDI" | Correto. Mas o rendimento depende do CDI efetivo, e não há garantia de nominal fixa |
-| 3 | Apostila p. 124 | "Taxa efetiva: 10% ao ano, ou 1% ao mês" | Não confundir: a efetiva é a que reflete a capitalização, e pode ser maior que a nominal |
+| 2 | Slides A3472 p. 13 | Pós-fixada: "CDB que paga 100% do CDI" | Correto. O rendimento depende do CDI efetivo; não há nominal fixa garantida |
+| 3 | Apostila p. 124 | "Taxa efetiva: 10% ao ano, ou 1% ao mês" | Não confundir: a efetiva reflete a capitalização e pode ser maior que a nominal |
 | 4 | Slides A3472 p. 4 | "Taxa proporcional: 2% ao mês → 24% ao ano" | Vale só no simples. Em composto, a efetiva anual é 26,82% |
-| 5 | Slides A3472 p. 13 | "Taxa híbrida: Tesouro IPCA+ paga 5,50% + IPCA" | Correto: uma parte prefixada e uma pós-fixada, mas o nome do produto e o número são datados |
+| 5 | Slides A3472 p. 13 | "Taxa híbrida: Tesouro IPCA+ paga 5,50% + IPCA" | Correto na estrutura; o nome e o número são datados |
 
-### 🔇 Dados do exemplo (Marta)
+### 🔇 Dados
 
 | Item | Valor |
 | --- | --- |
 | Opção A: taxa fixa | 12% a.a. |
-| Opção B: 105% do CDI | Com CDI de 9% → 9,45%; com CDI de 14% → 14,70% |
+| Opção B: 105% do CDI | Com CDI de 9%, rende 9,45%; com CDI de 14%, rende 14,70% |
 | Ponto de equilíbrio | CDI de **11,43%** a.a. (12 ÷ 1,05) |
-| Taxa nominal de um cartão | 2% a.m. |
-| Taxa efetiva anual do cartão | 1,02¹² − 1 = **26,82%** a.a. |
-| Simples × composto (R$ 10.000, 2% a.m., 12 meses) | Simples: **R$ 12.400**; composto: **R$ 12.682,42** |
+| Cartão: taxa nominal | 2% a.m. |
+| Cartão: taxa efetiva anual | 1,02¹² − 1 = **26,82%** a.a. |
+| R$ 10.000 a 2% a.m., 12 meses: simples | **R$ 12.400** |
+| R$ 10.000 a 2% a.m., 12 meses: composto | **R$ 12.682,42** |
 
 🔇 Valores hipotéticos. Não há produto específico.
 
@@ -53,89 +56,109 @@ Esta aula é um **rótulo de embalagem** com duas perguntas e uma troca de contr
 
 | Bloco | Tempo |
 | --- | --- |
-| 1. O rótulo: nominal e efetiva | 3 min |
-| 2. O contrato: pré × pós | 4 min |
-| 3. Simples × composto, em uma linha | 2 min |
-| 4. Fechamento | 1 min |
+| 1. Caso de Marta: fixo ou pelo CDI | 3 min |
+| 2. O equilíbrio entre as duas opções | 2 min |
+| 3. O rótulo do cartão: nominal e efetiva | 3 min |
+| 4. Simples e composto, em uma conta | 1 min |
+| 5. Fechamento | 1 min |
 | **Total** | **10 min** |
 
 ---
 
 ## 3. Explicação em quatro blocos
 
-### Bloco 1 — O rótulo: nominal e efetiva — 3 min
+### Bloco 1 — Caso de Marta: fixo ou pelo CDI — 3 min
 
-- "Lendo o rótulo, a taxa **nominal** é a anunciada. A taxa **efetiva** é a que o dinheiro realmente sente, depois da capitalização."
-- "O cartão anuncia 2% ao mês. Parece pouco. Mas, capitalizado mês a mês, o ano vira 26,82%."
+> **Objetivo deste bloco:** ao fim, o aluno consegue distinguir taxa pré-fixada, pós-fixada e híbrida.
+
+- "Marta tem dez mil reais e duas opções. A primeira paga doze por cento ao ano, fixo. Ela sabe, desde o começo, quanto terá no vencimento. Esse é o **pré-fixado**."
+- "A segunda paga cento e cinco por cento do **CDI**, uma taxa de referência do mercado. O valor exato só se conhece no fim. Esse é o **pós-fixado**."
+- "Uma terceira forma mistura as duas: uma parte fixa mais um índice, como o IPCA. Chama-se **híbrido**."
+- **Erro comum:** achar que o pós-fixado sempre rende mais, por ser atrelado a um índice que sobe. Depende do que o índice fizer.
+
+| Tipo | Quando se sabe o valor | Exemplo |
+| --- | --- | --- |
+| **Pré-fixado** | Na contratação | Título com taxa fixa |
+| **Pós-fixado** | No vencimento | CDB com 100% do CDI |
+| **Híbrido** | Parte na contratação, parte no índice | Título atrelado ao IPCA com juro fixo |
+
+| Frase de prova | Certo ou errado | Por quê |
+| --- | --- | --- |
+| "Na pós-fixada, o valor exato do rendimento só é conhecido no vencimento" | Certo | Slides A3472 p. 13 |
+| "A pós-fixada garante a rentabilidade nominal fixa" | Errado | Não garante |
+
+**🔗 Ponte:** "Então, com que CDI a opção de Marta empata com a de doze por cento?"
+
+---
+
+### Bloco 2 — O equilíbrio entre as duas opções — 2 min
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue calcular o ponto de equilíbrio entre uma taxa fixa e uma taxa atrelada a um percentual do CDI.
+
+- "Marta empata se o CDI ficar em onze vírgula quarenta e três por cento. Acima disso, a opção pós rende mais. Abaixo, rende menos."
+
+| Passo | Teclas | Visor | O que significa |
+| --- | --- | --- | --- |
+| 1 | ⌨️ `f` `REG` `12` `ENTER` `1,05` `÷` | 🖥️ 11,43 | CDI de equilíbrio |
+
+- **Erro comum:** comparar 12% com 105% de qualquer CDI, sem perguntar qual é o CDI. A conta só faz sentido com um CDI estimado.
+
+| Frase de prova | Certo ou errado | Por quê |
+| --- | --- | --- |
+| "Com CDI acima do ponto de equilíbrio, a opção pós-fixada rende mais" | Certo | 105% do CDI supera 12% |
+
+**🔗 Ponte:** "E o rótulo do cartão de crédito? Ali a taxa está em outra unidade."
+
+---
+
+### Bloco 3 — O rótulo do cartão: nominal e efetiva — 3 min
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue converter uma taxa mensal capitalizada em taxa anual efetiva.
+
+- "O cartão anuncia dois por cento ao mês. Esse é o valor **nominal**: o número do rótulo. A taxa **efetiva** é a que o dinheiro realmente sente, com os juros caindo sobre os juros de cada mês."
 
 | Passo | Teclas | Visor | O que significa |
 | --- | --- | --- | --- |
 | 1 | ⌨️ `f` `REG` `f` `2` `1,02` `ENTER` `12` `y^x` `1` `−` `100` `×` | 🖥️ 26,82 | Taxa efetiva anual |
 
+- "Dois por cento ao mês parecem vinte e quatro por ano. Mas o juro de cada mês entra na base do mês seguinte. O ano custa vinte e seis vírgula oitenta e dois."
+- **Erro comum:** multiplicar dois por doze e dizer que o ano custa vinte e quatro. Esse erro subestima o custo do cartão em mais de dois pontos.
+
 | Frase de prova | Certo ou errado | Por quê |
 | --- | --- | --- |
-| "A taxa efetiva é sempre igual à taxa nominal" | Errado | Só é igual sem capitalização no período |
-| "2% ao mês capitalizados dão 24% ao ano efetivos" | Errado | São 26,82% |
+| "A taxa efetiva é sempre igual à nominal" | Errado | Só é igual sem capitalização no período |
+| "Dois por cento ao mês capitalizados dão vinte e quatro por cento ao ano efetivos" | Errado | São 26,82% |
 
-> **Nominal é o que está no rótulo; efetiva é o que o dinheiro sente.**
-
-**🔗 Ponte:** "Agora, o contrato: o preço fica fixo ou acompanha um índice?"
+**🔗 Ponte:** "Por último, a diferença entre juro simples e juro composto, em uma só conta."
 
 ---
 
-### Bloco 2 — O contrato: pré × pós — 4 min
+### Bloco 4 — Simples e composto, em uma conta — 1 min
 
-- "Na **pré-fixada**, a taxa é conhecida na contratação. O investidor sabe o valor no vencimento."
-- "Na **pós-fixada**, o rendimento está atrelado a um índice, como o CDI. O valor exato só se conhece no fim."
-- "A **híbrida** combina as duas: uma parte fixa mais um índice, como o IPCA. Protege o poder de compra."
+> **Objetivo deste bloco:** ao fim, o aluno lembra por que o regime muda o resultado no mesmo prazo.
 
-| Tipo | Quando se sabe o valor | Exemplo |
-| --- | --- | --- |
-| **Pré-fixada** | Na contratação | Título prefixado |
-| **Pós-fixada** | No vencimento | CDB com 100% do CDI |
-| **Híbrida** | Parte na contratação, parte no índice | Título atrelado ao IPCA com juro fixo |
-
-- "Marta compara: a 12% fixo, ela sabe o que vai pagar. A 105% do CDI, depende do CDI do período."
-- "O ponto de equilíbrio é um CDI de 11,43%. Se o CDI ficar acima, a pós-fixada custa mais; se ficar abaixo, custa menos."
+- "Dez mil reais a dois por cento ao mês, durante doze meses. No simples, o juro é sobre o capital: doze mil e quatrocentos. No composto, o juro entra no saldo: doze mil seiscentos e oitenta e dois."
 
 | Passo | Teclas | Visor | O que significa |
 | --- | --- | --- | --- |
-| 1 | ⌨️ `12` `ENTER` `1,05` `÷` | 🖥️ 11,43 | CDI de equilíbrio |
+| 1 | ⌨️ `1,02` `ENTER` `12` `y^x` `10000` `×` | 🖥️ 12.682,42 | Montante composto |
 
-| Frase de prova | Certo ou errado | Por quê |
-| --- | --- | --- |
-| "Na pós-fixada, o valor exato do rendimento só é conhecido no vencimento" | Certo | Slides A3472 p. 13 |
-| "Título híbrido combina parte prefixada com parte pós-fixada" | Certo | Slides A3472 p. 13 |
-| "A pós-fixada garante a rentabilidade nominal fixa" | Errado | Não garante |
-
-> **Pré: sabe antes. Pós: sabe depois. Híbrida: um pouco de cada.**
-
-**🔗 Ponte:** "Por último, a conta por dentro: simples ou composto?"
-
----
-
-### Bloco 3 — Simples × composto, em uma linha — 2 min
-
-- "Simples: o juro é sempre sobre o capital inicial. Composto: sobre o montante acumulado. Na G2 vimos o detalhe."
-
-| Passo | Teclas | Visor | O que significa |
-| --- | --- | --- | --- |
-| 1 | ⌨️ `8000` `ENTER` `1,5` `%` `18` `×` | 🖥️ 2.160,00 | Juros simples, em 18 meses |
-
-- 🔇 Esse passo é a mesma conta da G2. Use só para lembrar a diferença.
-
-| Frase de prova | Certo ou errado | Por quê |
-| --- | --- | --- |
-| "Taxa proporcional aplica-se a juros compostos" | Errado | Só simples |
-| "Juros compostos incidem sobre o montante acumulado" | Certo | Slides A3472 p. 5 |
+- **Erro comum:** achar que os dois regimes dão o mesmo resultado em doze meses. Não dão: a diferença vem do juro sobre juro.
 
 > **Simples cresce pelo capital; composto cresce pelo que já cresceu.**
 
-### Bloco 4 — Fechamento — 1 min
+### Bloco 5 — Fechamento — 1 min
 
-> **Rótulo: nominal e efetiva. Contrato: pré, pós ou híbrido. Conta: simples ou composto.**
+- 🔇 **Fechamento:** "Antes de assinar, leia o rótulo: a taxa nominal pode esconder a efetiva. Veja o contrato: fixo, pelo índice ou híbrido. E confirme a conta: simples ou composto." Próxima aula: G10, desconto comercial e bancário.
 
-- 🔇 Fechamento: "Antes de assinar, leia o rótulo (nominal ou efetiva), veja o contrato (pré, pós ou híbrido) e confirme a conta (simples ou composto)."
+---
+
+## Lista de pegadinhas com nome
+
+1. **Pegadinha do pós sempre melhor** — "A pós-fixada sempre rende mais." Errado: depende do CDI que ocorrer.
+2. **Pegadinha da multiplicação da taxa mensal** — "Dois por cento ao mês são vinte e quatro por cento ao ano efetivos." Errado: a efetiva é 26,82%.
+3. **Pegadinha do fixo garantido** — "A pós-fixada garante a taxa nominal fixa." Errado: o rendimento acompanha o índice.
+4. **Pegadinha do regime escondido** — "No mesmo prazo e taxa, simples e composto dão o mesmo resultado." Errado: o juro sobre juro muda o montante.
 
 ---
 
@@ -143,5 +166,6 @@ Esta aula é um **rótulo de embalagem** com duas perguntas e uma troca de contr
 
 - PD 1.3.4 a 1.3.4.3 lido no texto do repositório. Apostila p. 124–125 e slides A3472 lidos nesta sessão.
 - Cálculos conferidos em Python: 1,02¹² − 1 = 26,82%; 12 ÷ 1,05 = 11,43%; 10.000 × 1,02¹² = 12.682,42; simples 12.400.
-- Convenções: CDI de 9% e 14% e 105% do CDI (didáticos); cenário de cartão de 2% a.m.
+- Convenções: CDI de 9% e 14% e 105% do CDI (didáticos); cartão a 2% a.m.
 - Números dos títulos prefixados e do IPCA+ do slide são datados e não foram usados.
+- Revisão de estrutura: metáfora única (contrato de aluguel), caso antes da regra, objetivo e erro comum por bloco, fonte removida da fala, lista de pegadinhas com nome.

@@ -1,21 +1,26 @@
 # Roteiro de fala — Aula CPA: Duration × Prazo e Alavancagem Financeira
 
-**Base:** PD CPA v1.2 (rev. 04/06/2025, vigência 01/01/2026), itens **1.3.3.5.6** e **1.3.3.5.6.1**; slides A3476 p. 3–4 e 6–7 (duration, prazo, alavancagem); aula do repositório `aula-1.3-D-tir-cmpc-duration-retorno-payback`, que traz as correções sobre duration e alavancagem.
+**Base:** PD CPA v1.2 (rev. 04/06/2025, vigência 01/01/2026), itens **1.3.3.5.6** e **1.3.3.5.6.1**; slides A3476 p. 3–7; aula do repositório `aula-1.3-D-tir-cmpc-duration-retorno-payback`, que traz as correções sobre duration e alavancagem.
 
 CPA 1.3.3.5.6 · 1.3.3.5.6.1 · Módulo 1 · **10 min** · Aula G7 · **só a etapa de tópicos**
 
-**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor · ✏️ = correção da fonte · ➕ = acréscimo · ⌨️ = HP12C · 🖥️ = visor.
+**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor · ✏️ = correção da fonte (só no bastidor) · ⌨️ = HP12C · 🖥️ = visor.
 
 ---
 
 ## Bastidor
 
-### 🔇 Estrutura desta aula
+### 🔇 Metáfora única desta aula
 
-Esta aula usa a **gangorra**. A duration é o **ponto de apoio** da gangorra: onde o peso dos pagamentos se concentra no tempo. Quanto mais o peso está longe do ponto de apoio, mais a gangorra balança quando o juro sobe. A alavancagem é a **alavanca** que multiplica a força de quem empurra, para cima ou para baixo.
+**Gangorra.** Os pagamentos de um título são pesos colocados ao longo de uma gangorra. A duration é o ponto de apoio, onde o peso médio se equilibra. Quando o juro sobe, a gangorra inclina, e quanto mais o peso está longe do apoio, mais ela balança.
 
-- Caso 1: um título de 3 anos com cupom, e outro sem cupom. Qual balança mais quando o juro sobe?
-- Caso 2: um investidor que toma emprestado para comprar um imóvel e alugar. A alavanca amplia o ganho e a perda.
+**Onde a metáfora falha:** a gangorra tem um peso físico e um ponto de apoio. A duration é uma média de tempos ponderada pelo valor presente de cada pagamento, e não uma força física. E a alavancagem, que a gangorra não mostra, tem um custo: o juro da dívida.
+
+### 🔇 Casos
+
+**Caso 1:** um título de 3 anos, valor nominal de 100, com cupom de 10% a.a., comparado com um zero cupom de mesmo prazo, à mesma taxa de 10% a.a.
+
+**Caso 2:** um investidor com R$ 10.000 de capital próprio toma R$ 40.000 a 12% a.a. e compra um imóvel de R$ 50.000 para alugar.
 
 ### 🔇 Checagem de escopo
 
@@ -24,41 +29,41 @@ Esta aula usa a **gangorra**. A duration é o **ponto de apoio** da gangorra: on
 | 1.3.3.5.6 Duration × prazo | Slides A3476 p. 3, 6 | Conferido; **duration ponderada pelo valor presente** |
 | 1.3.3.5.6.1 Alavancagem e custo de captações | Slides A3476 p. 4, 7; apostila p. 135 | Conferido; **ganho só amplia se o retorno superar o custo da dívida** |
 
-### ✏️ Correções e notas da fonte
+### ✏️ Correções da fonte
 
 | # | Fonte | O material diz | O correto |
 | --- | --- | --- | --- |
-| 1 | Slides A3476 p. 6 | Duration = "prazo médio ponderado dos fluxos de caixa" | Duration (Macaulay) é o prazo médio ponderado pelo **valor presente** de cada fluxo. O prazo médio simples pondera pelos valores **nominais** |
-| 2 | Slides A3476 p. 7 | "Ativo sobe 10%, você lucra R$ 10 mil com R$ 10 mil investidos: +100% de retorno" | A conta **ignora o juro da dívida**. A alavancagem amplia o ganho só quando o retorno do ativo supera o custo da dívida |
-| 3 | Slides A3476 p. 7 | "Perde tudo o que tinha" ao cair 10% | Com 10% de queda e alavancagem de 5 vezes, a perda é de 50% do capital próprio, e não 100%. A conta do slide usa 10 mil de capital; a aula corrige o cenário |
-| 4 | Slides A3476 p. 6 | "Título com cupom → menor duration; sem cupom → maior" | Correto: o cupom antecipa parte do retorno e reduz a duration |
+| 1 | Slides A3476 p. 6 | Duration = "prazo médio ponderado dos fluxos de caixa" | Duration (Macaulay) é o prazo médio ponderado pelo valor presente de cada fluxo |
+| 2 | Slides A3476 p. 7 | "Ativo sobe 10%, lucro de R$ 10 mil com R$ 10 mil investidos: +100%" | A conta ignora o juro da dívida. A alavancagem amplia o ganho só quando o retorno supera o custo da dívida |
+| 3 | Slides A3476 p. 7 | Ao cair 10%, "perde tudo o que tinha" | A perda depende do nível de alavancagem. O caso 2 mostra uma perda de 23% do capital próprio |
+| 4 | Slides A3476 p. 6 | Cupom → menor duration; sem cupom → maior | Correto: o cupom antecipa parte do retorno e reduz a duration |
 
-### 🔇 Dados dos exemplos
+### 🔇 Dados
 
-**Caso 1 — duration (taxa de 10% a.a., nominal de 100, 3 anos):**
+**Caso 1 (taxa de 10% a.a., nominal de 100, 3 anos):**
 
 | Título | Fluxos | Preço | Duration |
 | --- | --- | --- | --- |
 | Com cupom de 10% a.a. (bullet no fim) | 10, 10, 110 | **100,00** | **2,74 anos** |
-| Sem cupom (zero cupom) | 0, 0, 100 | 75,13 | **3,00 anos** |
+| Zero cupom | 0, 0, 100 | 75,13 | **3,00 anos** |
 
-**Caso 2 — alavancagem (capital próprio de 10.000, dívida de 40.000 a 12% a.a.):**
+**Caso 2 (capital próprio de 10.000; dívida de 40.000 a 12% a.a.; ativo de 50.000):**
 
-| Retorno do ativo (sobre 50.000) | Lucro bruto | Juro da dívida | Lucro líquido | Retorno sobre o capital próprio |
+| Retorno do ativo | Lucro bruto | Juro da dívida | Lucro líquido | Retorno sobre o capital próprio |
 | --- | --- | --- | --- | --- |
 | 15% | 7.500 | 4.800 | 2.700 | **27%** |
 | 10% | 5.000 | 4.800 | 200 | **2%** |
 | 5% | 2.500 | 4.800 | −2.300 | **−23%** |
 
-🔇 Valores hipotéticos. Mostram que a alavanca amplifica o ganho e a perda, e que a dívida só compensa quando o retorno passa do custo do juro.
+🔇 Valores hipotéticos. A duration do caso 1 é calculada pela tabela de fluxos descontados: some t × VP de cada fluxo e divida pelo preço.
 
 ### 🔇 Cronograma
 
 | Bloco | Tempo |
 | --- | --- |
-| 1. A gangorra: duration | 4 min |
-| 2. Duration × prazo na prática | 2 min |
-| 3. A alavanca: alavancagem financeira | 3 min |
+| 1. Caso 1: a gangorra com cupom e sem cupom | 4 min |
+| 2. Duration e prazo: não são a mesma coisa | 2 min |
+| 3. Caso 2: a alavanca de um imóvel | 3 min |
 | 4. Fechamento | 1 min |
 | **Total** | **10 min** |
 
@@ -66,77 +71,87 @@ Esta aula usa a **gangorra**. A duration é o **ponto de apoio** da gangorra: on
 
 ## 3. Explicação em quatro blocos
 
-### Bloco 1 — A gangorra: duration — 4 min
+### Bloco 1 — Caso 1: a gangorra com cupom e sem cupom — 4 min
 
-- "Duration é o ponto de apoio dos pagamentos: o prazo médio **pesado pelo valor presente**. Se o peso está concentrado perto do começo, a gangorra balança pouco. Se está no fim, balança muito."
-- ✏️ "O slide diz que a duration é prazo médio ponderado dos fluxos. Precisa do adjetivo: pelo valor presente. Sem isso, é o prazo médio simples."
-- "Um título sem cupom concentra tudo no fim: duration de 3 anos. Um com cupom antecipa parte do dinheiro: duration de 2,74 anos."
+> **Objetivo deste bloco:** ao fim, o aluno consegue explicar por que dois títulos de mesmo prazo têm durations diferentes.
 
-| Passo | Teclas | Visor | O que significa |
-| --- | --- | --- | --- |
-🔇 A duration de Macaulay não é uma tecla simples da HP12C. Monte a tabela de fluxos descontados (VP de cada fluxo), some t × VP e divida pelo preço. A tabela do bastidor é a conta.
+- "Imagine dois títulos de três anos. Um paga cupom de dez por cento por ano, e no fim devolve o principal. Outro não paga nada no meio: recebe tudo no fim. Os dois têm o mesmo prazo. Qual balança mais quando o juro sobe?"
+- "A **duration** é o ponto de apoio dos pagamentos: o prazo médio pesado pelo valor presente. Quando o peso está concentrado no fim, o apoio fica longe do começo, e a gangorra balança mais."
+- "O título com cupom tem duration de dois vírgula setenta e quatro anos. O zero cupom tem três anos."
+- **Erro comum:** achar que duration é o mesmo que prazo. Só são iguais no zero cupom. No título com cupom, parte do dinheiro chega antes, e a duration é menor.
 
 | Frase de prova | Certo ou errado | Por quê |
 | --- | --- | --- |
 | "A duration é o prazo médio ponderado pelo valor presente dos fluxos" | Certo | Macaulay |
-| "Título com cupom tem duration maior que o zero cupom de mesmo prazo" | Errado | Tem **menor** duration |
+| "Título com cupom tem duration maior que o zero cupom de mesmo prazo" | Errado | Tem menor duration |
 
-> **Duration: o ponto de apoio. Quanto mais o peso está no fim, mais a gangorra balança.**
-
-**🔗 Ponte:** "E quando o juro sobe, a gangorra balança a quanto?"
+**🔗 Ponte:** "Mas o que muda, na prática, quando o juro sobe?"
 
 ---
 
-### Bloco 2 — Duration × prazo na prática — 2 min
+### Bloco 2 — Duration e prazo: não são a mesma coisa — 2 min
 
-- "Prazo é quanto falta para o vencimento. Duration é quanto o preço reage ao juro. Dois títulos com o mesmo prazo podem ter durations diferentes."
-- "Quanto maior a duration, maior a sensibilidade: se o juro sobe 1 ponto, o preço cai aproximadamente duration vezes 1 ponto."
+> **Objetivo deste bloco:** ao fim, o aluno consegue distinguir prazo de duration.
+
+- "Prazo é quanto falta para o vencimento. Duration é o quanto o preço reage ao juro. Quanto maior a duration, maior a sensibilidade: se o juro sobe um ponto, o preço cai, aproximadamente, duration vezes um ponto."
+- **Erro comum:** achar que o cupom não muda nada na sensibilidade ao juro. O cupom muda a duration, e a sensibilidade cai com ele.
 
 | Frase de prova | Certo ou errado | Por quê |
 | --- | --- | --- |
-| "Prazo e duration são sempre iguais" | Errado | Só são iguais no zero cupom |
 | "Maior duration significa maior sensibilidade do preço à taxa" | Certo | Slides A3476 p. 6 |
+| "Prazo e duration são sempre iguais" | Errado | Só são iguais no zero cupom |
 
-> **Prazo mede o tempo; duration mede o quanto o preço balança.**
-
-**🔗 Ponte:** "Agora a alavanca, que amplifica tudo isso."
+**🔗 Ponte:** "Agora a alavanca, que amplia o efeito de tudo isso."
 
 ---
 
-### Bloco 3 — A alavanca: alavancagem financeira — 3 min
+### Bloco 3 — Caso 2: a alavanca de um imóvel — 3 min
 
-- "Alavancagem é investir mais do que se tem, usando dinheiro emprestado. Se o retorno do ativo supera o juro, o ganho cresce. Se não supera, a perda cresce."
-- ✏️ "O slide diz 'ativo sobe 10%, retorno de 100%'. Esqueceu o juro. A conta correta usa o lucro líquido do juro."
+> **Objetivo deste bloco:** ao fim, o aluno consegue calcular o retorno sobre o capital próprio com dívida e identificar quando a alavanca ajuda ou atrapalha.
+
+- "Um investidor põe dez mil de capital e toma quarenta mil a doze por cento ao ano, para comprar um imóvel de cinquenta mil que vai alugar. Se o imóvel valorizar quinze por cento, quanto sobra para ele?"
+- "O imóvel valoriza sete mil e quinhentos. Ele paga quatro mil e oitocentos de juros. Sobram dois mil e setecentos, que são vinte e sete por cento do capital próprio de dez mil."
 
 | Passo | Teclas | Visor | O que significa |
 | --- | --- | --- | --- |
-| 1 | ⌨️ `f` `REG` `f` `2` `7500` `ENTER` `4800` `−` | 🖥️ 2.700,00 | Lucro líquido: lucro bruto de 7.500 (15% de 50.000) menos juros de 4.800 (12% de 40.000) |
+| 1 | ⌨️ `f` `REG` `f` `2` `7500` `ENTER` `4800` `−` | 🖥️ 2.700,00 | Lucro líquido, com imóvel valorizando 15% |
 | 2 | ⌨️ `10000` `÷` `100` `×` | 🖥️ 27,00 | Retorno sobre o capital próprio, em % |
 
-- 🔇 Repita a conta com lucro bruto de 5.000 (10%) e de 2.500 (5%), para mostrar os dois outros cenários da tabela do bastidor.
+- 🔇 Repita a conta com o lucro bruto de 5.000 (10%) e de 2.500 (5%), para mostrar os outros cenários da tabela.
+- **Erro comum:** multiplicar o retorno do imóvel pela alavancagem: quinze por cento vezes cinco dá setenta e cinco por cento. A dívida tem custo, e ele precisa ser subtraído antes.
+- No cenário de cinco por cento, o imóvel rende menos que o juro. O investidor perde vinte e três por cento do capital próprio. A mesma alavanca que ampliou o ganho amplia a perda.
 
 | Frase de prova | Certo ou errado | Por quê |
 | --- | --- | --- |
 | "A alavancagem amplia o ganho sempre, independentemente do custo da dívida" | Errado | Só amplia se o retorno supera o juro |
-| "Com alavancagem, a perda pode superar o capital próprio" | Certo | Caso de −23% no cenário de 5% |
+| "Com alavancagem, a perda pode ser maior que o capital próprio investido" | Certo | Amplifica a perda |
 
-> **Alavanca amplia: ganho quando o ativo supera o juro; perda quando não supera.**
-
-**🔗 Ponte:** "Fechamos com a regra que resume as duas."
+**🔗 Ponte:** "Vamos fechar com a regra que resume as duas ideias."
 
 ---
 
 ### Bloco 4 — Fechamento — 1 min
 
-> **Duration mede o balanço do preço; alavancagem mede o quanto a dívida amplia o balanço.**
+> **Objetivo deste bloco:** ao fim, o aluno consegue dizer, em uma frase, o que a duration e a alavancagem medem.
 
-- 🔇 Fechamento: "A gangorra mostra que o peso no tempo define a sensibilidade; a alavanca mostra que a dívida amplia tudo, para o bem e para o mal."
+> **Duration mede a sensibilidade do preço ao juro; alavancagem mede quanto a dívida amplia o resultado.**
+
+- 🔇 **Fechamento:** "A gangorra mostra que o peso no tempo define a sensibilidade ao juro. A alavanca mostra que a dívida amplia tudo, para o bem e para o mal." Próxima aula: G8, retorno histórico e esperado.
+
+---
+
+## Lista de pegadinhas com nome
+
+1. **Pegadinha da duration igual ao prazo** — "Dois títulos de 3 anos têm a mesma duration." Errado: o zero cupom tem 3,00, e o título com cupom tem 2,74.
+2. **Pegadinha do cupom sem efeito** — "O cupom não muda a sensibilidade ao juro." Errado: reduz a duration.
+3. **Pegadinha da multiplicação** — "Com alavancagem de 5 vezes, um retorno de 15% vira 75%." Errado: o juro da dívida precisa ser descontado.
+4. **Pegadinha do ganho sem perda** — "Alavancagem só amplia lucro." Errado: amplia a perda também.
 
 ---
 
 ## Nota de verificação
 
 - PD 1.3.3.5.6 e 1.3.3.5.6.1 lidos no texto do repositório. Slides A3476 lidos nesta sessão.
-- Cálculos conferidos em Python: duration do título de 10% a.a. em 3 anos (bullet, preço 100) = 2,7355 anos; zero cupom de 3 anos a 10% = 3,00 anos (preço 75,13); alavancagem: (50.000 × 15% − 40.000 × 12%) ÷ 10.000 = 27%; 2%; −23%.
-- Convenções: capital de 10.000, dívida de 40.000 a 12% a.a. e os cenários de 15%, 10% e 5% (didáticos).
-- Sem norma: duration e alavancagem são conceitos de finanças clássicas.
+- Cálculos conferidos em Python: duration do título de 10% a.a. em 3 anos (preço 100) = 2,7355 anos; zero cupom a 10% = 3,00 anos (preço 75,13); alavancagem: (7.500 − 4.800) ÷ 10.000 = 27%; 2%; −23%.
+- Convenções: capital de 10.000, dívida de 40.000 a 12% a.a. e cenários de 15%, 10% e 5% (didáticos).
+- Revisão de estrutura: metáfora única (gangorra), casos antes da regra, objetivo e erro comum por bloco, fonte removida da fala, lista de pegadinhas com nome.
