@@ -37,3 +37,7 @@ yarn-error.log*
 # Local tooling state (includes private witness signing keys)
 .agentic-qe/
 .claude-flow/
+.swarm/
+agentdb.rvf
+agentdb.rvf.idmap.json
+ruvector.db
