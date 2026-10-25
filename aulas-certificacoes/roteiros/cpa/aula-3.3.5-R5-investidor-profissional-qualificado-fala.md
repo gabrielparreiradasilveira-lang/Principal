@@ -4,20 +4,25 @@
 - **Programa Detalhado CPA** (ANBIMA, v1.2, rev. 04/06/2025, vigência 01/01/2026), item 3.3.5;
 - APOSTILA-CPA, p. 499;
 - roteiro **1.4.10** (35 min, classificação de pessoas investidoras), do qual esta aula é o recorte de 10 min, e que traz o detalhamento artigo por artigo;
-- **Resolução CVM 30/2021, texto consolidado** (arts. 10 a 13), conforme conferido no roteiro 1.4.10 em 17/10/2026.
+- **Resolução CVM 30/2021, texto consolidado** (arts. 10 a 13), conforme conferido no roteiro 1.4.10.
 
-CPA 3.3.5 · Módulo 3 · **10 min** · Aula R5 do plano de gravação · **só a etapa de tópicos**
+CPA 3.3.5 · Módulo 3 · **10 min** · Aula R5 · **só a etapa de tópicos**
 
-**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor, sem fala · ✏️ = correção da fonte · ➕ = acréscimo desta versão · 🔗 = ponte · ⌨️ = teclas da HP12C · 🖥️ = visor.
+**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor, sem fala · ✏️ = correção da fonte · ⌨️ = teclas da HP12C · 🖥️ = visor.
 
 ---
 
 ## Bastidor — antes de gravar
 
+### 🔇 Metáfora única desta aula
+
+**As pistas de esqui.** Pista verde é o investidor em geral; azul é o qualificado; preta é o profissional. Quem está na pista preta também pode esquiar na azul e na verde.
+
+**Onde a metáfora falha:** na pista, a dificuldade reflete habilidade. Na classificação regulatória, o enquadramento é por patrimônio ou certificação, e nem sempre reflete conhecimento. Uma pessoa rica pode estar na pista preta sem saber esquiar, e a regra não verifica isso.
+
 ### 🔇 Formato
 
 - Direto aos tópicos do PD, sem as demais etapas.
-- Fio condutor: as **pistas de esqui** do roteiro 1.4.10. Pista verde é o investidor em geral, azul é o qualificado, preta é o profissional. Todo profissional também pode esquiar na azul.
 - O cliente **Eduardo** atravessa a aula: tem investimentos e um imóvel e quer saber se pode acessar produtos restritos.
 
 ### 🔇 Checagem de escopo (PD × materiais)
@@ -30,14 +35,14 @@ CPA 3.3.5 · Módulo 3 · **10 min** · Aula R5 do plano de gravação · **só 
 
 ### ✏️ Correções e notas da fonte
 
-| # | Fonte | O material diz | O correto | Base |
-| --- | --- | --- | --- | --- |
-| 1 | Apostila p. 499 | Qualificado: "ou certificações financeiras reconhecidas" | Contam as certificações e exames **aprovados pela CVM** como requisito de registro de assessor, administrador de carteira, analista ou consultor, **só para os recursos próprios**. **Certificação de distribuição, como a C-PRO-R, não enquadra** | Res. CVM 30, art. 12, III |
-| 2 | Apostila p. 499 | Profissional: "investimentos financeiros superiores a R$ 10 milhões e atesta" | Correto, e o termo é o **Anexo A**. Para o qualificado, superior a **R$ 1 milhão** e termo no **Anexo B** | Res. CVM 30, arts. 11, IV, e 12, II |
-| 3 | Apostila p. 499 | Profissional: "atuação profissional com certificação registrada na CVM" | A norma fala em **assessores, administradores de carteira, analistas e consultores autorizados pela CVM**, em relação aos **recursos próprios** | Res. CVM 30, art. 11, VII |
-| 4 | Apostila p. 499 | Profissional inclui "instituições financeiras e investidores estrangeiros" | Lista incompleta. Também são profissionais: **seguradoras e capitalização**, **previdência complementar**, **fundos de investimento**, **clubes** com gestor autorizado, **fundos patrimoniais** e **investidores não residentes** | Res. CVM 30, art. 11 |
-| 5 | Apostila p. 499 | Não menciona a relação entre as categorias | **Todo profissional é qualificado** | Res. CVM 30, art. 12, I |
-| 6 | Apostila p. 499 | "Classificação regulatória" sem a dispensa de suitability | Quem entrou por **patrimônio** ou **certificação** continua com suitability | Res. CVM 30, art. 10, I |
+| # | Fonte | O material diz | O correto |
+| --- | --- | --- | --- |
+| 1 | Apostila p. 499 | Qualificado: "ou certificações financeiras reconhecidas" | Contam as certificações e exames **aprovados pela CVM** como requisito de registro de assessor, administrador de carteira, analista ou consultor, **só para os recursos próprios**. **Certificação de distribuição, como a C-PRO-R, não enquadra.** Base: Res. CVM 30, art. 12, III |
+| 2 | Apostila p. 499 | Profissional: "investimentos financeiros superiores a R$ 10 milhões e atesta" | Correto, e o termo é o **Anexo A**. Para o qualificado, superior a **R$ 1 milhão** e termo no **Anexo B**. Base: Res. CVM 30, arts. 11, IV, e 12, II |
+| 3 | Apostila p. 499 | Profissional: "atuação profissional com certificação registrada na CVM" | A norma fala em **assessores, administradores de carteira, analistas e consultores autorizados pela CVM**, em relação aos **recursos próprios** (art. 11, VII) |
+| 4 | Apostila p. 499 | Profissional inclui "instituições financeiras e investidores estrangeiros" | Lista incompleta. Também são profissionais: **seguradoras e capitalização**, **previdência complementar**, **fundos de investimento**, **clubes** com gestor autorizado, **fundos patrimoniais** e **investidores não residentes** (art. 11) |
+| 5 | Apostila p. 499 | Não menciona a relação entre as categorias | **Todo profissional é qualificado** (art. 12, I) |
+| 6 | Apostila p. 499 | "Classificação regulatória" sem a dispensa de suitability | Quem entrou por **patrimônio** ou **certificação** continua com suitability (art. 10, I) |
 
 ### 🔇 Dados do exemplo (Eduardo)
 
@@ -66,10 +71,12 @@ Valores hipotéticos. A classificação da poupança como investimento financeir
 
 ## 3. Explicação dos tópicos — 10 min
 
-### 3.1 Por que classificar: a classificação regulatória e a de perfil — 2 min · CPA 3.3.5 · Apostila p. 499
+### 3.1 Por que classificar: a classificação regulatória e a de perfil — 2 min · CPA 3.3.5
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue diferenciar a classificação de perfil da classificação regulatória.
 
 - **Duas classificações diferentes**
-  - "Além da classificação por perfil de risco, que vimos na F13, conservador, moderado e arrojado, existe uma classificação regulatória. Ela diferencia os investidores pelo patrimônio e pelo conhecimento técnico."
+  - "Além da classificação por perfil de risco, conservador, moderado e arrojado, existe uma classificação regulatória. Ela diferencia os investidores pelo patrimônio e pelo conhecimento técnico."
 
 | | **Perfil de risco** | **Classificação regulatória** |
 | --- | --- | --- |
@@ -78,16 +85,19 @@ Valores hipotéticos. A classificação da poupança como investimento financeir
 | **Quem define** | A instituição, pelo suitability | A **Res. CVM 30** |
 
 - **Para que serve**
-  - "A apostila explica: certos produtos são restritos a esses públicos pelo nível de risco ou de complexidade. Mais acesso, e em alguns casos menos proteção regulatória."
+  - "Certos produtos são restritos a esses públicos pelo nível de risco ou de complexidade. Mais acesso, e em alguns casos menos proteção regulatória."
+- **Erro comum:** achar que o perfil de risco e a classificação regulatória são a mesma coisa. Respondem a perguntas diferentes.
 
 **🔗 Ponte:** "Começamos pelo degrau mais alto: o profissional."
 
 ---
 
-### 3.2 Investidor profissional — 3 min · CPA 3.3.5 · Apostila p. 499 · Res. CVM 30, art. 11
+### 3.2 Investidor profissional — 3 min · CPA 3.3.5
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue listar os grupos de investidores profissionais e as duas condições do enquadramento por patrimônio.
 
 - **Quem é**
-  - "Pela Resolução CVM 30, artigo 11, são investidores profissionais cinco grupos."
+  - "São investidores profissionais cinco grupos."
 
 | Grupo | Quem |
 | --- | --- |
@@ -98,10 +108,10 @@ Valores hipotéticos. A classificação da poupança como investimento financeir
 | **Por patrimônio** | Pessoa física ou jurídica com investimentos financeiros **superiores a R$ 10 milhões** **e** que **atestam por escrito** (termo do Anexo A) |
 
 - ✏️ **A apostila é incompleta**
-  - "A apostila cita as instituições financeiras e os investidores estrangeiros. A lista completa tem mais: seguradoras, previdência, fundos, clubes, fundos patrimoniais. E o investidor estrangeiro, o não residente, é profissional, e não uma quarta categoria."
-
+  - "A apostila cita as instituições financeiras e os investidores estrangeiros. A lista completa tem mais: seguradoras, previdência, fundos, clubes, fundos patrimoniais. E o investidor não residente é profissional, e não uma quarta categoria."
 - **Duas condições, ao mesmo tempo**
   - "Por patrimônio: mais de 10 milhões **e** o termo assinado. Sem o termo, não vira profissional, por mais rico que seja. E 'superior a' quer dizer que exatamente 10 milhões não basta."
+- **Erro comum:** achar que o não residente é uma categoria à parte. Ele é profissional.
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
@@ -116,7 +126,9 @@ Valores hipotéticos. A classificação da poupança como investimento financeir
 
 ---
 
-### 3.3 Investidor qualificado — 3 min · CPA 3.3.5 · Apostila p. 499 · Res. CVM 30, art. 12
+### 3.3 Investidor qualificado — 3 min · CPA 3.3.5
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue calcular o enquadramento de um cliente como qualificado por patrimônio.
 
 - **Quem é**
 
@@ -128,7 +140,6 @@ Valores hipotéticos. A classificação da poupança como investimento financeir
 | IV | **Clubes de investimento** geridos por cotistas qualificados |
 
   - "Primeiro, a herança: todo profissional é qualificado. Quem esquia na pista preta também esquia na azul."
-
 - **O exemplo do Eduardo**
   - "Eduardo tem 380 mil em CDB, 420 mil em fundo multimercado, 150 mil em ações e 60 mil na poupança. Mais um apartamento de 900 mil. Para o investidor qualificado, só entram os investimentos financeiros."
 
@@ -139,9 +150,9 @@ Valores hipotéticos. A classificação da poupança como investimento financeir
 
   - "O apartamento não conta. Dá 1 milhão e 10 mil, que passa do limite. Se Eduardo assinar o termo, é qualificado. Se desse exatamente 1 milhão, não passaria."
   - 🔇 Valores hipotéticos.
-
 - ✏️ **A certificação que enquadra**
-  - "A apostila diz 'certificações financeiras reconhecidas'. Quem conta são as certificações que a CVM aceita para registrar assessor, gestor, analista ou consultor, e só para o próprio dinheiro. A certificação que você está estudando, a de distribuição, não enquadra ninguém como qualificado."
+  - "Quem conta são as certificações que a CVM aceita para registrar assessor, gestor, analista ou consultor, e só para o próprio dinheiro. A certificação de distribuição não enquadra ninguém como qualificado."
+- **Erro comum:** achar que imóvel conta para o limite de R$ 1 milhão. Só entram investimentos financeiros.
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
@@ -156,13 +167,14 @@ Valores hipotéticos. A classificação da poupança como investimento financeir
 
 ---
 
-### 3.4 Consequências: produtos restritos e suitability — 2 min · CPA 3.3.5 · Apostila p. 499 · Res. CVM 30, art. 10
+### 3.4 Consequências: produtos restritos e suitability — 2 min · CPA 3.3.5
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue dizer quando a dispensa de suitability vale e quando não vale.
 
 - **Produtos restritos**
   - "Certos produtos, por risco ou complexidade, só podem ser oferecidos a qualificados ou profissionais. Por isso a classificação importa na hora de recomendar."
-
 - **A dispensa de suitability**
-  - "Quem é investidor qualificado dispensa a verificação de adequação. Mas tem uma exceção que cai muito: a pessoa física que entrou por patrimônio, com mais de 10 milhões ou mais de 1 milhão, e a que entrou por certificação continuam precisando de suitability."
+  - "Quem é investidor qualificado dispensa a verificação de adequação. Mas há uma exceção que cai muito: a pessoa física que entrou por patrimônio, com mais de 10 milhões ou mais de 1 milhão, e a que entrou por certificação continuam precisando de suitability."
 
 | Cliente | Categoria | Suitability? |
 | --- | --- | --- |
@@ -175,6 +187,7 @@ Valores hipotéticos. A classificação da poupança como investimento financeir
 
   - ✏️ "A regra 'profissional dispensa suitability' está incompleta. A pessoa física com 15 milhões e termo é profissional e continua com suitability."
   - 🔇 Há ainda outras dispensas (pessoa jurídica de direito público, carteira administrada, cliente que segue consultor). Detalhadas no roteiro 1.4.10.
+- **Erro comum:** achar que todo profissional dispensa suitability. A pessoa física por patrimônio ou certificação continua obrigada.
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
@@ -183,15 +196,24 @@ Valores hipotéticos. A classificação da poupança como investimento financeir
 
 > **Enquadrou por dinheiro ou certificado? O suitability continua.**
 
-- 🔇 Fechamento em uma frase (sem etapa de revisão): "Profissional tem mais de R$ 10 milhões com termo, ou é instituição, veículo, gente do mercado ou não residente; qualificado inclui todo profissional, mais de R$ 1 milhão com termo ou certificação aceita pela CVM; e quem entrou por patrimônio ou certificado ainda passa pelo suitability."
+- 🔇 **Fechamento:** "Profissional tem mais de R$ 10 milhões com termo, ou é instituição, veículo, gente do mercado ou não residente; qualificado inclui todo profissional, mais de R$ 1 milhão com termo ou certificação aceita pela CVM; e quem entrou por patrimônio ou certificado ainda passa pelo suitability."
+
+---
+
+## Lista de pegadinhas com nome
+
+1. **Pegadinha dos R$ 10 milhões exatos** — "Quem tem exatamente R$ 10 milhões é profissional." Errado: precisa ser superior, e com termo.
+2. **Pegadinha da certificação de distribuição** — "A certificação de distribuição torna o portador qualificado." Errado: não enquadra.
+3. **Pegadinha do imóvel no limite** — "O imóvel entra no cálculo de R$ 1 milhão." Errado: só investimentos financeiros.
+4. **Pegadinha da dispensa geral** — "Profissional sempre dispensa suitability." Errado: a pessoa física por patrimônio ou certificação continua obrigada.
 
 ---
 
 ## Nota de verificação
 
-- **Programa Detalhado CPA** (v1.2, rev. 04/06/2025, vigência 01/01/2026): item 3.3.5 lido no texto do PD do repositório.
-- **Apostila CPA**, p. 499: lida nesta sessão.
+- Programa Detalhado CPA (v1.2): item 3.3.5 lido no texto do PD do repositório.
+- Apostila CPA, p. 499: lida em sessão anterior.
 - **Roteiro 1.4.10:** Res. CVM 30/2021 consolidada, arts. 10 a 13, conferida ali em 17/10/2026 (com as Res. CVM 162/2022 e 179/2023). **Texto não reaberto nesta sessão.**
 - **Convenções sem força normativa:** a metáfora das pistas de esqui; os valores do exemplo de Eduardo; a inclusão da poupança como investimento financeiro (prática de mercado).
-- **Cálculos conferidos em Python:** 380.000 + 420.000 + 150.000 + 60.000 = 1.010.000; 1.010.000 − 1.000.000 = 10.000.
-- **Acréscimos (➕):** o caso do Eduardo e a tabela de suitability por tipo de cliente.
+- **Cálculos conferidos em Python nesta revisão:** 380.000 + 420.000 + 150.000 + 60.000 = 1.010.000; 1.010.000 − 1.000.000 = 10.000.
+- Revisão de estrutura: metáfora única (pistas de esqui) com o ponto de falha, caso antes da regra, objetivo e erro comum por bloco, fonte removida da fala, lista de pegadinhas com nome.

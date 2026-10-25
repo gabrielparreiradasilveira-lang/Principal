@@ -6,13 +6,19 @@
 - aula do repositório `aulas/cpa/aula-3.1-A-perfil-ciclo-planejamento/aula.md` (ciclo de vida), para não repetir conteúdo;
 - roteiro **3.1.4** (balanço patrimonial), que esta aula usa como insumo.
 
-CPA 3.1.5 · 3.1.5.1 · 3.1.5.2 · 3.1.5.3 · Módulo 3 · **10 min** · Aula F10 do plano de gravação · **só a etapa de tópicos**
+CPA 3.1.5 · 3.1.5.1 · 3.1.5.2 · 3.1.5.3 · Módulo 3 · **10 min** · Aula F10 · **só a etapa de tópicos**
 
-**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor, sem fala · ✏️ = correção da fonte · ➕ = acréscimo desta versão · 🔗 = ponte · ⌨️ = teclas da HP12C · 🖥️ = visor.
+**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor, sem fala · ✏️ = correção da fonte · ⌨️ = teclas da HP12C · 🖥️ = visor.
 
 ---
 
 ## Bastidor — antes de gravar
+
+### 🔇 Metáfora única desta aula
+
+**O mapa de viagem.** O planejamento é o mapa: define o destino (metas), o ponto de partida (situação atual) e a rota (plano de ação). Quem viaja confere o mapa de tempos em tempos.
+
+**Onde a metáfora falha:** o mapa não muda sozinho, e a vida muda. Um mapa de viagem não avisa que o carro quebrou ou que a família mudou de cidade. Por isso o planejamento tem uma etapa de revisão obrigatória, que o mapa de papel não tem.
 
 ### 🔇 Formato
 
@@ -32,11 +38,11 @@ CPA 3.1.5 · 3.1.5.1 · 3.1.5.2 · 3.1.5.3 · Módulo 3 · **10 min** · Aula F1
 
 ### ✏️ Correções e notas da fonte
 
-| # | Fonte | O material diz | O correto | Base |
-| --- | --- | --- | --- | --- |
-| 1 | Apostila p. 482–486 | Subitens numerados como "3.3" | Numeração do PD: 3.1.5 a 3.1.5.3. Na fala, usamos a do PD | PD CPA |
-| 2 | Apostila p. 484 | Revisão "geralmente ao menos uma vez por ano" | Mantido como **prática recomendada da apostila**, e não prazo legal. Revisão também é obrigatória **sempre que algo relevante mudar** (renda, família, objetivo) | Apostila p. 484 |
-| 3 | Uso comum | Metas "SMART" (específica, mensurável, atingível, relevante, temporal) | **Não está** na apostila. A apostila exige **valor, prazo e prioridade**, e que a meta seja **realista** diante da capacidade de poupança. A fala usa a régua da apostila | Apostila p. 485–486 |
+| # | Fonte | O material diz | O correto |
+| --- | --- | --- | --- |
+| 1 | Apostila p. 482–486 | Subitens numerados como "3.3" | Numeração do PD: 3.1.5 a 3.1.5.3 |
+| 2 | Apostila p. 484 | Revisão "geralmente ao menos uma vez por ano" | Mantido como **prática recomendada da apostila**, e não prazo legal. Revisão também é obrigatória **sempre que algo relevante mudar** (renda, família, objetivo) |
+| 3 | Uso comum | Metas "SMART" (específica, mensurável, atingível, relevante, temporal) | **Não está** na apostila. A apostila exige **valor, prazo e prioridade**, e que a meta seja **realista** diante da capacidade de poupança |
 
 ### 🔇 Dados do exemplo (Juliana)
 
@@ -61,11 +67,13 @@ CPA 3.1.5 · 3.1.5.1 · 3.1.5.2 · 3.1.5.3 · Módulo 3 · **10 min** · Aula F1
 
 ## 3. Explicação dos tópicos — 10 min
 
-### 3.1 Planejamento familiar ou pessoal — 1,5 min · CPA 3.1.5 · Apostila p. 482
+### 3.1 Planejamento familiar ou pessoal — 1,5 min · CPA 3.1.5
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue dizer que planejar envolve cinco decisões, e não só escolher investimentos.
 
 - **O que é**
-  - "A apostila define: o planejamento financeiro pessoal é um processo estruturado para organizar os recursos atuais e futuros de uma pessoa ou família, para alcançar objetivos ao longo da vida."
-  - "E faz um alerta: planejamento não se limita a escolher investimentos. Envolve cinco decisões: consumo, poupança, proteção patrimonial, gestão de riscos e construção de patrimônio."
+  - "Planejamento financeiro pessoal é um processo estruturado para organizar os recursos atuais e futuros de uma pessoa ou família, para alcançar objetivos ao longo da vida."
+  - "Planejamento não se limita a escolher investimentos. Envolve cinco decisões: consumo, poupança, proteção patrimonial, gestão de riscos e construção de patrimônio."
 
 | Decisão | Pergunta |
 | --- | --- |
@@ -76,7 +84,8 @@ CPA 3.1.5 · 3.1.5.1 · 3.1.5.2 · 3.1.5.3 · Módulo 3 · **10 min** · Aula F1
 | **Construção de patrimônio** | Para onde vai o que separo? |
 
 - **Processo contínuo**
-  - "E cada fase da vida exige ajustes. Por isso o planejamento é contínuo e dinâmico, e não um documento que se faz uma vez e se guarda na gaveta."
+  - "Cada fase da vida exige ajustes. Por isso o planejamento é contínuo e dinâmico, e não um documento que se faz uma vez e se guarda na gaveta."
+- **Erro comum:** achar que planejar é escolher investimento. É um conjunto de decisões que começa no consumo.
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
@@ -88,10 +97,12 @@ CPA 3.1.5 · 3.1.5.1 · 3.1.5.2 · 3.1.5.3 · Módulo 3 · **10 min** · Aula F1
 
 ---
 
-### 3.2 Etapas do processo do planejamento financeiro pessoal — 4 min · CPA 3.1.5.1 · Apostila p. 482–484
+### 3.2 Etapas do processo do planejamento financeiro pessoal — 4 min · CPA 3.1.5.1
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue colocar as cinco etapas em ordem e dizer o que não se faz em cada uma.
 
 - **A sequência**
-  - "A apostila diz que o planejamento segue uma sequência lógica, e é essa sequência que garante consistência. A prova costuma cobrar duas coisas: a ordem das etapas e o que **não** se faz em cada uma."
+  - "O planejamento segue uma sequência lógica, e é essa sequência que garante consistência. A prova costuma cobrar duas coisas: a ordem das etapas e o que **não** se faz em cada uma."
 
 | # | Etapa | O que se faz | O que **não** se faz |
 | --- | --- | --- | --- |
@@ -107,15 +118,15 @@ CPA 3.1.5 · 3.1.5.1 · 3.1.5.2 · 3.1.5.3 · Módulo 3 · **10 min** · Aula F1
   - "Etapa 3: você monta o plano: a reserva de emergência primeiro, depois um aporte mensal para a entrada, num produto compatível com 36 meses."
   - "Etapa 4: ela programa o aporte automático e aplica."
   - "Etapa 5: daqui a um ano, ou antes se ela mudar de emprego, vocês revisam."
-
 - **A revisão**
-  - "A apostila recomenda revisar ao menos uma vez por ano, e também sempre que mudar a renda, a família, a economia ou o objetivo. O planejamento não é estático."
+  - "O planejamento deve ser revisto ao menos uma vez por ano, e também sempre que mudar a renda, a família, a economia ou o objetivo. O planejamento não é estático."
   - 🔇 "Ao menos uma vez por ano" é prática recomendada da apostila, e não prazo legal (correção 2).
+- **Erro comum:** achar que, concluída a implementação, o planejamento acabou. A etapa 5 recomeça o ciclo.
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
 | "Na primeira etapa, o profissional já indica os produtos adequados" | Errado | Etapa 1 é **entender**, sem recomendar |
-| "A avaliação da situação atual vem antes do plano de ação" | Certo | Ordem: objetivos → **avaliação** → plano → implementação → monitoramento |
+| "A avaliação da situação atual vem antes do plano de ação" | Certo | Ordem: objetivos → avaliação → plano → implementação → monitoramento |
 | "A implementação é a etapa em que se elabora a estratégia" | Errado | A estratégia é da **etapa 3**; a 4 **executa** |
 | "Concluída a implementação, o planejamento está encerrado" | Errado | Há **monitoramento e revisão** contínuos |
 
@@ -125,10 +136,12 @@ CPA 3.1.5 · 3.1.5.1 · 3.1.5.2 · 3.1.5.3 · Módulo 3 · **10 min** · Aula F1
 
 ---
 
-### 3.3 Definição do momento de vida e financeiro da clientela — 2 min · CPA 3.1.5.2 · Apostila p. 485
+### 3.3 Definição do momento de vida e financeiro da clientela — 2 min · CPA 3.1.5.2
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue listar os cinco fatores do momento de vida e dizer o que ele ajusta.
 
 - **Os cinco fatores**
-  - "A apostila lista cinco fatores para definir o momento de vida: fase profissional, nível de renda, presença de dependentes, patrimônio acumulado e horizonte de investimento."
+  - "O momento de vida é definido por cinco fatores: fase profissional, nível de renda, presença de dependentes, patrimônio acumulado e horizonte de investimento."
 
 | Fator | Juliana | Um cliente de 62 anos, perto de se aposentar |
 | --- | --- | --- |
@@ -139,13 +152,14 @@ CPA 3.1.5 · 3.1.5.1 · 3.1.5.2 · 3.1.5.3 · Módulo 3 · **10 min** · Aula F1
 | Horizonte | Longo (e meta de 3 anos) | Curto para parte do patrimônio |
 
 - **O que o momento ajusta**
-  - "E essa leitura ajusta quatro coisas: o nível de risco, o tipo de investimento, o foco entre consumo e poupança e a necessidade de liquidez."
+  - "Essa leitura ajusta quatro coisas: o nível de risco, o tipo de investimento, o foco entre consumo e poupança e a necessidade de liquidez."
   - "Repare: a Juliana pode ter mais risco no dinheiro de longo prazo, mas não no dinheiro da entrada, que tem data. O momento de vida não é uma etiqueta única; cada objetivo tem o seu horizonte."
   - 🔇 Liga ao ciclo de vida (3.1.2: acumulação, crescimento, preservação, distribuição), tema da aula F4.
+- **Erro comum:** achar que o momento de vida define só o nível de risco. Ele ajusta também o tipo de investimento, consumo × poupança e liquidez.
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
-| "Presença de dependentes é um dos fatores do momento de vida" | Certo | Apostila p. 485 |
+| "Presença de dependentes é um dos fatores do momento de vida" | Certo | Um dos cinco fatores |
 | "O momento de vida define apenas o nível de risco" | Errado | Ajusta também **tipo de investimento, consumo × poupança e liquidez** |
 
 > **Início de carreira e véspera da aposentadoria pedem planos diferentes, mesmo com a mesma renda.**
@@ -154,10 +168,12 @@ CPA 3.1.5 · 3.1.5.1 · 3.1.5.2 · 3.1.5.3 · Módulo 3 · **10 min** · Aula F1
 
 ---
 
-### 3.4 Estabelecimento de metas financeiras — 2,5 min · CPA 3.1.5.3 · Apostila p. 485–486
+### 3.4 Estabelecimento de metas financeiras — 2,5 min · CPA 3.1.5.3
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue transformar uma meta vaga em meta com valor, prazo e prioridade, e testar se ela cabe no bolso.
 
 - **Os três elementos**
-  - "A apostila diz que as metas são a base do planejamento e que, sem metas claras, o planejamento perde direção. E dá a régua: uma meta bem estruturada tem três elementos, que são valor, prazo e prioridade."
+  - "As metas são a base do planejamento. Sem metas claras, o planejamento perde direção. Uma meta bem estruturada tem três elementos: valor, prazo e prioridade."
 
 | Meta vaga | Meta estruturada |
 | --- | --- |
@@ -165,49 +181,47 @@ CPA 3.1.5 · 3.1.5.1 · 3.1.5.2 · 3.1.5.3 · Módulo 3 · **10 min** · Aula F1
 | "Quero me aposentar bem" | "Renda de R$ 8 mil por mês aos 60 anos" |
 
   - ✏️ 🔇 Metas "SMART" não estão na apostila (correção 3). Na fala, usar **valor, prazo e prioridade**.
-
 - **Realista: o teste da capacidade de poupança**
-  - "E a apostila acrescenta: a meta precisa ser realista e compatível com a capacidade de poupança. Vamos testar a meta da Juliana: 60 mil em 36 meses, com a aplicação rendendo 0,8% ao mês."
+  - "A meta precisa ser realista e compatível com a capacidade de poupança. Vamos testar a meta da Juliana: 60 mil em 36 meses, com a aplicação rendendo 0,8% ao mês."
 
 | Passo | Teclas | Visor | O que significa |
 | --- | --- | --- | --- |
 | 1 | ⌨️ `f` `REG` `g` `END` `60000` `FV` `0,8` `i` `36` `n` `PMT` | 🖥️ −1.444,78 | Aporte mensal necessário |
 | 2 | ⌨️ `f` `REG` `1200` `CHS` `PMT` `0,8` `i` `36` `n` `FV` | 🖥️ 49.834,48 | O que ela junta poupando R$ 1.200 |
-| 3 | ⌨️ `f` `REG` `60000` `FV` `1200` `CHS` `PMT` `0,8` `i` `n` | 🖥️ 43,00 | Meses para chegar aos R$ 60 mil com R$ 1.200 |
+| 3 | ⌨️ `f` `REG` `f` `2` `60000` `FV` `1200` `CHS` `PMT` `0,8` `i` `n` | 🖥️ 42,23 | Meses para chegar aos R$ 60 mil com R$ 1.200 |
 
   - "A meta pede 1.444,78 por mês, e a Juliana poupa 1.200. Em 36 meses ela chega a cerca de 49.800. A meta não fecha."
-  - "Há três saídas, e quem escolhe é ela: aumentar o aporte, estender o prazo (a HP mostra 43 meses) ou reduzir o valor da entrada. Isso é exatamente a etapa 2 verificando a viabilidade e a etapa 3 definindo os ajustes."
-  - 🔇 A HP arredonda `n` para cima (42,23 → 43). Taxa de 0,8% ao mês é hipótese didática; sem imposto.
-
+  - "Há três saídas, e quem escolhe é ela: aumentar o aporte, estender o prazo ou reduzir o valor da entrada. Com o aporte de 1.200, ela chegaria em 42,23 meses, ou seja, 43 depósitos. Isso é a etapa 2 verificando a viabilidade e a etapa 3 definindo os ajustes."
+  - 🔇 A conta de `n` dá 42,23 meses; como a meta só fecha no 43º depósito, o prazo prático é 43 meses. Taxa de 0,8% ao mês é hipótese didática; sem imposto.
 - **Prioridade**
-  - "E a prioridade organiza a fila. A apostila dá exemplos de metas: imóvel, reserva de emergência, aposentadoria, educação dos filhos. Na prática, a reserva costuma vir primeiro, porque protege todas as outras."
+  - "A prioridade organiza a fila. Entram aqui objetivos como imóvel, reserva de emergência, aposentadoria e educação dos filhos. Na prática, a reserva costuma vir primeiro, porque protege todas as outras."
+- **Erro comum:** achar que a meta deve ser a mais ambiciosa possível. Ela deve caber na capacidade de poupança.
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
-| "Uma meta bem estruturada tem valor, prazo e prioridade" | Certo | Apostila p. 485 |
+| "Uma meta bem estruturada tem valor, prazo e prioridade" | Certo | São os três elementos da meta |
 | "A meta deve ser a mais ambiciosa possível, independentemente da renda" | Errado | Deve ser **realista** e compatível com a **capacidade de poupança** |
-| "Sem metas claras, o planejamento perde direção" | Certo | Apostila p. 486 |
+| "Sem metas claras, o planejamento perde direção" | Certo | Sem meta, não há direção |
 
 > **Meta é valor, prazo e prioridade, e ela precisa caber no bolso.**
 
-- 🔇 Fechamento em uma frase: "Planejar é um processo de cinco etapas, ajustado ao momento de vida e guiado por metas com valor, prazo e prioridade que caibam na capacidade de poupança."
+- 🔇 **Fechamento:** "Planejar é um processo de cinco etapas, ajustado ao momento de vida e guiado por metas com valor, prazo e prioridade que caibam na capacidade de poupança."
+
+---
+
+## Lista de pegadinhas com nome
+
+1. **Pegadinha do planejamento que é investimento** — "Planejar é escolher investimento." Errado: são cinco decisões, a começar pelo consumo.
+2. **Pegadinha da etapa 1 vendedora** — "Na etapa de objetivos, já se indica o produto." Errado: a etapa 1 é de entendimento.
+3. **Pegadinha da revisão única** — "Concluída a implementação, o planejamento acabou." Errado: há monitoramento e revisão contínuos.
+4. **Pegadinha da meta sem teto** — "A meta deve ser a mais ambiciosa possível." Errado: deve caber na capacidade de poupança.
 
 ---
 
 ## Nota de verificação
 
-- **Programa Detalhado CPA** (v1.2, rev. 04/06/2025, vigência 01/01/2026): itens 3.1.5 a 3.1.5.3 lidos no texto do PD do repositório.
-- **Apostila CPA**, p. 482–486:
-  - definição e cinco decisões do planejamento;
-  - as cinco etapas, com o que não se faz em cada uma;
-  - revisão ao menos anual;
-  - cinco fatores do momento de vida e quatro ajustes;
-  - meta com valor, prazo e prioridade, realista;
-  - exemplos de metas.
-- **Nenhuma norma ou dado de mercado** é citado, então não houve consulta externa.
-- **Cálculos conferidos em Python:** aporte necessário de 1.444,78; FV com R$ 1.200 de 49.834,48; prazo de 42,23 meses (43 na HP12C).
-- **Acréscimos (➕):**
-  - cliente Juliana nos quatro tópicos;
-  - tabela "o que não se faz" por etapa;
-  - comparação de momentos de vida;
-  - teste de viabilidade na HP12C.
+- Programa Detalhado CPA (v1.2): itens 3.1.5 a 3.1.5.3 lidos no texto do PD do repositório.
+- Apostila CPA, p. 482–486: definição e cinco decisões do planejamento; cinco etapas; revisão; cinco fatores do momento de vida; meta com valor, prazo e prioridade.
+- **Nenhuma norma ou dado de mercado** é citado.
+- **Cálculos conferidos em Python nesta revisão:** aporte necessário de 1.444,78; FV com R$ 1.200 de 49.834,48; prazo de 42,23 meses (43 depósitos).
+- Revisão de estrutura: metáfora única (mapa de viagem), caso antes da regra, objetivo e erro comum por bloco, fonte removida da fala, lista de pegadinhas com nome.

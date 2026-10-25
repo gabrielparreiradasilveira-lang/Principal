@@ -6,18 +6,23 @@
 - material de aula "Portabilidade e Desintermediação Financeira" (`00-fontes/materiais-aula/topico-1.4.7-portabilidade-custodia-desintermediacao/`);
 - aula do repositório `aulas/cpa/aula-1.4.7-1.4.8-portabilidade-desintermediacao/aula.md` (30 min), da qual esta é o recorte de 10 min só com tópicos.
 
-CPA 1.4.7 · 1.4.8 · Módulo 1 · **10 min** · Aula G13 do plano de gravação · **só a etapa de tópicos**
+CPA 1.4.7 · 1.4.8 · Módulo 1 · **10 min** · Aula G13 · **só a etapa de tópicos**
 
-**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor, sem fala · ✏️ = correção da fonte · ➕ = acréscimo desta versão · 🔗 = ponte · ⌨️ = teclas da HP12C · 🖥️ = visor.
+**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor, sem fala · ✏️ = correção da fonte · ⌨️ = teclas da HP12C · 🖥️ = visor.
 
 ---
 
 ## Bastidor — antes de gravar
 
+### 🔇 Metáfora única desta aula
+
+**A mudança de casa com os móveis.** Quando o investidor muda de corretora, ele leva os ativos como quem muda de casa leva os móveis: não vende o sofá para comprar outro na casa nova.
+
+**Onde a metáfora falha:** na mudança de verdade, o caminhão pode quebrar um móvel e o frete é pago. Na portabilidade, os ativos não sofrem dano, mas o investidor precisa conferir se a instituição nova aceita o tipo de ativo que ele tem. Além disso, a mudança de casa é um evento; a portabilidade pode ser feita quando o investidor quiser.
+
 ### 🔇 Formato
 
 - Direto aos tópicos do PD, sem as demais etapas.
-- Fio condutor: a **mudança de casa com os móveis** (portabilidade) e a **feira direta do produtor** (desintermediação).
 - A cliente **Patrícia** atravessa o primeiro tópico: 500 ações compradas a R$ 20 numa corretora cara.
 
 ### 🔇 Checagem de escopo (PD × materiais)
@@ -29,12 +34,12 @@ CPA 1.4.7 · 1.4.8 · Módulo 1 · **10 min** · Aula G13 do plano de gravação
 
 ### ✏️ Correções e notas da fonte
 
-| # | Fonte | O material diz | O correto | Base |
-| --- | --- | --- | --- | --- |
-| 1 | PDF p. 4 | Portabilidade "regulada pela CVM e ANBIMA" | Regra vigente: **Res. CVM 210/2024** (com a Res. CVM 209/2024), em vigor desde **02/01/2026** (prorrogada pela Res. CVM 229/2025), com **interface digital** para o pedido | CVM |
-| 2 | PDF p. 5; apostila p. 182 | Exemplo de previdência "portabilizada" de uma instituição para uma gestora | Isso é **portabilidade de previdência**, regulada pela **SUSEP**, entre **entidades de previdência e seguradoras**. Não é portabilidade de custódia. Exemplo **substituído** por ações e Tesouro Direto | SUSEP; CVM |
-| 3 | PDF p. 6; apostila p. 182 | Desintermediação: "sem o banco tradicional" ou "com a intermediação de fintechs" | Definição clássica: **captação direta no mercado de capitais** (ações, debêntures), sem passar pelo balanço do banco. No P2P e no crowdfunding **há intermediário regulado**: a **SEP** (Res. CMN 5.050/2022) e a **plataforma de investimento participativo** (Res. CVM 88/2022) | CMN; CVM |
-| 4 | PDF p. 5 | Nomes de instituições reais no exemplo | Retirados; exemplos genéricos | — |
+| # | Fonte | O material diz | O correto |
+| --- | --- | --- | --- |
+| 1 | PDF p. 4 | Portabilidade "regulada pela CVM e ANBIMA" | Regra vigente: **Res. CVM 210/2024** (com a Res. CVM 209/2024), em vigor desde **02/01/2026** (prorrogada pela Res. CVM 229/2025), com **interface digital** para o pedido. Órgão: CVM |
+| 2 | PDF p. 5; apostila p. 182 | Exemplo de previdência "portabilizada" de uma instituição para uma gestora | Isso é **portabilidade de previdência**, regulada pela **SUSEP**, entre **entidades de previdência e seguradoras**. Não é portabilidade de custódia. Exemplo **substituído** por ações e Tesouro Direto |
+| 3 | PDF p. 6; apostila p. 182 | Desintermediação: "sem o banco tradicional" ou "com a intermediação de fintechs" | Definição clássica: **captação direta no mercado de capitais** (ações, debêntures), sem passar pelo balanço do banco. No P2P e no crowdfunding **há intermediário regulado**: a **SEP** (Res. CMN 5.050/2022) e a **plataforma de investimento participativo** (Res. CVM 88/2022) |
+| 4 | PDF p. 5 | Nomes de instituições reais no exemplo | Retirados; exemplos genéricos |
 
 ### 🔇 Dados dos exemplos
 
@@ -58,7 +63,9 @@ Taxas hipotéticas, só para ilustrar o spread. O IR de 15% é o da renda variá
 
 ## 3. Explicação dos tópicos — 10 min
 
-### 3.1 Portabilidade de custódia entre instituições — 5 min · CPA 1.4.7 · Apostila p. 180–182
+### 3.1 Portabilidade de custódia entre instituições — 5 min · CPA 1.4.7
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue explicar o que se transfere na portabilidade, sem venda e sem IR, e distinguir da portabilidade de previdência.
 
 - **O que é**
   - "Portabilidade de custódia é a transferência de ativos entre instituições custodiantes, sem venda e sem mudança de titular. O investidor muda de corretora ou de banco e leva os mesmos ativos."
@@ -86,7 +93,9 @@ Taxas hipotéticas, só para ilustrar o spread. O IR de 15% é o da renda variá
   - 🔇 Valores hipotéticos; o IR de 15% é o da renda variável em operações comuns.
 
 - ✏️ **Cuidado com o exemplo de previdência**
-  - "O PDF cita uma previdência levada de uma instituição para outra. Isso é portabilidade de previdência, que é da SUSEP e vale entre seguradoras e entidades de previdência. A portabilidade de custódia é de valores mobiliários, e quem regula é a CVM."
+  - "Uma previdência levada de uma instituição para outra é portabilidade de previdência, que é da SUSEP e vale entre seguradoras e entidades de previdência. A portabilidade de custódia é de valores mobiliários, e quem regula é a CVM."
+
+- **Erro comum:** achar que, para mudar de corretora, é preciso vender os ativos. Não é preciso: os ativos são transferidos.
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
@@ -100,10 +109,12 @@ Taxas hipotéticas, só para ilustrar o spread. O IR de 15% é o da renda variá
 
 ---
 
-### 3.2 Desintermediação financeira — 5 min · CPA 1.4.8 · Apostila p. 180–183
+### 3.2 Desintermediação financeira — 5 min · CPA 1.4.8
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue explicar a desintermediação com a conta de uma empresa e dizer que ela não elimina intermediários.
 
 - **A definição clássica**
-  - "Desintermediação financeira é quando os tomadores de recursos captam diretamente com os investidores, sem passar pelo balanço de um banco. É a feira direta do produtor: em vez do supermercado, que compra e revende com margem, o consumidor compra do produtor."
+  - "Desintermediação financeira é quando os tomadores de recursos captam diretamente com os investidores, sem passar pelo balanço de um banco. O investidor empresta diretamente à empresa, e assume o risco dela."
 
 | Critério | Intermediação bancária | Desintermediação |
 | --- | --- | --- |
@@ -120,11 +131,11 @@ Taxas hipotéticas, só para ilustrar o spread. O IR de 15% é o da renda variá
 | --- | --- | --- | --- |
 | 1 | ⌨️ `f` `REG` `f` `2` `10000000` `ENTER` `3` `%` | 🖥️ 300.000,00 | Economia anual da empresa |
 
-  - "Para a empresa, são 300 mil reais por ano a menos. Para o investidor, 14% em vez dos 10% que o banco pagaria na captação. O banco, que ficava com o spread, perde esse ganho, mas pode ganhar uma taxa para distribuir os títulos. Mas atenção: o investidor também assume o risco da empresa."
+  - "Para a empresa, são 300 mil reais por ano a menos. Para o investidor, 14% em vez dos 10% que o banco pagaria na captação. O banco perde o spread, mas pode ganhar uma taxa para distribuir os títulos. E o investidor assume o risco da empresa."
   - 🔇 Taxas hipotéticas.
 
 - ✏️ **Desintermediar não é "tirar o banco"**
-  - "O PDF diz que a desintermediação é 'sem o banco tradicional' ou 'com a intermediação de fintechs'. A definição clássica é outra: é a captação direta no mercado de capitais. Bancos e corretoras continuam presentes, só que como distribuidores, sem ficar com o risco de crédito."
+  - "A desintermediação clássica é a captação direta no mercado de capitais. Bancos e corretoras continuam presentes, só que como distribuidores, sem ficar com o risco de crédito."
 
 - **Fintechs, P2P e crowdfunding**
   - "Hoje a tecnologia levou a ideia adiante. O P2P lending conecta pessoas que emprestam a pessoas ou empresas por uma plataforma. O crowdfunding de investimento permite que vários investidores financiem uma empresa de pequeno porte. Mas essas plataformas também são intermediárias, e precisam de licença."
@@ -139,6 +150,7 @@ Taxas hipotéticas, só para ilustrar o spread. O IR de 15% é o da renda variá
 
 - **Mais autonomia, mais atenção**
   - "O Open Finance, o compartilhamento de dados com consentimento do cliente, facilita a portabilidade e aumenta a concorrência. Mas ambientes não regulados trazem fraudes e menos proteção. Inovação só vale com regulação."
+- **Erro comum:** achar que desintermediação significa que não há mais nenhum intermediário. Há intermediários regulados, mesmo quando são plataformas digitais.
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
@@ -149,16 +161,25 @@ Taxas hipotéticas, só para ilustrar o spread. O IR de 15% é o da renda variá
 
 > **Desintermediar é o investidor financiar a empresa direto, ficando com o risco dela; a plataforma substitui o banco, mas também precisa de licença.**
 
-- 🔇 Fechamento em uma frase (sem etapa de revisão): "Na portabilidade, o ativo muda de casa sem ser vendido e sem imposto; na desintermediação, o investidor financia o tomador direto, com o risco dele, e as plataformas digitais continuam sendo intermediárias reguladas."
+- 🔇 **Fechamento:** "Na portabilidade, o ativo muda de casa sem ser vendido e sem imposto; na desintermediação, o investidor financia o tomador direto, com o risco dele, e as plataformas digitais continuam sendo intermediárias reguladas."
+
+---
+
+## Lista de pegadinhas com nome
+
+1. **Pegadinha da venda obrigatória** — "Para mudar de corretora, é preciso vender os ativos." Errado: os ativos são transferidos, sem venda.
+2. **Pegadinha da previdência trocada** — "Portabilidade de previdência e de custódia são a mesma coisa." Errado: a primeira é da SUSEP; a segunda, da CVM.
+3. **Pegadinha do sem intermediário** — "Desintermediação elimina todo intermediário." Errado: há intermediários regulados.
+4. **Pegadinha da SEP financiadora** — "A SEP empresta recursos próprios." Errado: conecta credores e devedores.
 
 ---
 
 ## Nota de verificação
 
-- **Programa Detalhado CPA** (v1.2, rev. 04/06/2025, vigência 01/01/2026): itens 1.4.7 e 1.4.8 lidos no texto do PD do repositório.
-- **Apostila CPA**, p. 180–183, e o PDF "Portabilidade e Desintermediação Financeira": lidos na aula do repositório (25/09/2026).
+- Programa Detalhado CPA (v1.2): itens 1.4.7 e 1.4.8 lidos no texto do PD do repositório.
+- Apostila CPA, p. 180–183, e o PDF "Portabilidade e Desintermediação Financeira": lidos na aula do repositório (25/09/2026).
 - **Aula do repositório 1.4.7-1.4.8:** Res. CVM 210/2024 (em vigor desde 02/01/2026, prorrogada pela Res. CVM 229/2025), Res. CMN 5.050/2022 e Res. CVM 88/2022 conferidas ali. **Textos não reabertos nesta sessão; prazos e regras de cobrança da portabilidade não conferidos.**
 - **Citado de memória, sem reabrir o texto:** alíquota de 15% do IR sobre ganho em operações comuns de renda variável.
 - **Convenções sem força normativa:** taxas do exemplo (18%, 14%, 1%, 10%); preço de R$ 30 da ação; metáfora da mudança de casa.
-- **Cálculos conferidos em Python:** 500 × (30 − 20) = 5.000; 15% = 750; 3% × 10.000.000 = 300.000.
-- **Acréscimos (➕):** o caso da Patrícia e a conta da empresa que troca o crédito bancário por debêntures.
+- **Cálculos conferidos em Python nesta revisão:** 500 × (30 − 20) = 5.000; 15% = 750; 3% × 10.000.000 = 300.000.
+- Revisão de estrutura: metáfora única (mudança de casa com os móveis) com o ponto de falha, caso antes da regra, objetivo e erro comum por bloco, fonte removida da fala, lista de pegadinhas com nome.

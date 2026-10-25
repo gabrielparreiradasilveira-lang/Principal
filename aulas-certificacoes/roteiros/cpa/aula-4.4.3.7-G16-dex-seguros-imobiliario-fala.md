@@ -6,18 +6,24 @@
 - aulas **G14** e **G15** (DeFi, blockchain e smart contracts), que esta aula supõe conhecidas;
 - Lei 15.040/2024 (Marco Legal dos Seguros) e Código Civil, conforme conferidos na aula do repositório `aulas/cpa/aula-4.4-B-aplicacoes-smart-contracts-daos/aula.md`.
 
-CPA 4.4.3.7 · 4.4.3.8 · 4.4.3.8.1 · 4.4.3.9 · 4.4.3.9.1 · Módulo 4 · **15 min** · Aula G16 do plano de gravação · **só a etapa de tópicos**
+CPA 4.4.3.7 · 4.4.3.8 · 4.4.3.8.1 · 4.4.3.9 · 4.4.3.9.1 · Módulo 4 · **15 min** · Aula G16 · **só a etapa de tópicos**
 
-**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor, sem fala · ✏️ = correção da fonte · ➕ = acréscimo desta versão · 🔗 = ponte · ⌨️ = teclas da HP12C · 🖥️ = visor.
+**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor, sem fala · ✏️ = correção da fonte · ⌨️ = teclas da HP12C · 🖥️ = visor.
 
 ---
 
 ## Bastidor — antes de gravar
 
+### 🔇 Metáfora única desta aula
+
+**A casa de câmbio de bairro.** Na casa de câmbio, o preço é combinado com o caixa e depende da moeda que você leva. Na DEX, a troca é feita contra uma reserva, e o preço é dado pela fórmula da reserva. Quanto maior a ordem, mais ela move o preço.
+
+**Onde a metáfora falha:** na casa de câmbio, o caixa negocia e pode recusar. Na DEX, a fórmula não negocia: aceita qualquer ordem e, por isso, uma ordem grande pode sair muito cara. Além disso, a casa de câmbio tem uma pessoa responsável; a DEX não tem ninguém a quem reclamar.
+
 ### 🔇 Formato
 
 - Direto aos tópicos do PD, sem as demais etapas.
-- Fio condutor: a **máquina de venda automática** das aulas anteriores, agora em três lojas do shopping DeFi: a casa de câmbio (DEX), a corretora de seguros e a imobiliária.
+- Fio condutor: a **máquina de venda automática** da G15, agora aplicada a três casos: a troca de moedas (DEX), o seguro por gatilho e o imóvel com escrow.
 
 ### 🔇 Checagem de escopo (PD × materiais)
 
@@ -33,13 +39,13 @@ CPA 4.4.3.7 · 4.4.3.8 · 4.4.3.8.1 · 4.4.3.9 · 4.4.3.9.1 · Módulo 4 · **15
 
 ### ✏️ Correções e notas da fonte
 
-| # | Fonte | O material diz | O correto | Base |
-| --- | --- | --- | --- | --- |
-| 1 | Roteiro p. 15–17 | DEX com nome de **protocolo real** | Ensinado como **conceito genérico** de AMM; x × y = k é **ilustração** do modelo clássico. Há DEXs com outras fórmulas e com livro de ofertas | Padrão do projeto |
-| 2 | Roteiro p. 22–27 | "Apólice automatizada" | **Não é categoria jurídica**: continua sendo contrato de seguro, feito por **seguradora autorizada** | Lei 15.040/2024, arts. 1º e 2º |
-| 3 | Uso comum | Token imobiliário "transfere a propriedade" | A propriedade só se transfere pelo **registro do título no Registro de Imóveis** | Código Civil, art. 1.245 |
-| 4 | Uso comum | Pool de liquidez "protegida" | Pool **não é depósito** e **não tem garantia do FGC** | Aula do repositório |
-| 5 | PD 4.4.3.7 a 4.4.3.9.1 | Sem numeração diferente da apostila | Numeração do PD mantida | PD CPA |
+| # | Fonte | O material diz | O correto |
+| --- | --- | --- | --- |
+| 1 | Roteiro p. 15–17 | DEX com nome de **protocolo real** | Ensinado como **conceito genérico** de AMM; x × y = k é **ilustração** do modelo clássico. Há DEXs com outras fórmulas e com livro de ofertas |
+| 2 | Roteiro p. 22–27 | "Apólice automatizada" | **Não é categoria jurídica**: continua sendo contrato de seguro, feito por **seguradora autorizada**. Base: Lei 15.040/2024, arts. 1º e 2º |
+| 3 | Uso comum | Token imobiliário "transfere a propriedade" | A propriedade só se transfere pelo **registro do título no Registro de Imóveis**. Base: Código Civil, art. 1.245 |
+| 4 | Uso comum | Pool de liquidez "protegida" | Pool **não é depósito** e **não tem garantia do FGC** |
+| 5 | PD 4.4.3.7 a 4.4.3.9.1 | Sem numeração diferente da apostila | Numeração do PD mantida |
 
 ### 🔇 Dados dos exemplos (pool da DEX)
 
@@ -65,6 +71,8 @@ Sem taxa, por simplicidade. Valores hipotéticos.
 ## 3. Explicação dos tópicos — 15 min
 
 ### 3.1 Exchanges descentralizadas (DEXs) — 6 min · CPA 4.4.3.7
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue calcular o preço médio de uma ordem numa pool x × y = k e explicar por que o tamanho da ordem move o preço.
 
 - **O que é**
   - "DEX é uma bolsa descentralizada: um protocolo de troca de criptoativos feito por smart contracts, em geral sem uma corretora guardando os ativos. Muitas usam o formador de mercado automático, o AMM."
@@ -93,8 +101,7 @@ Sem taxa, por simplicidade. Valores hipotéticos.
 | 5 | ⌨️ `STO` `3` `100` `RCL` `3` `÷` | 🖥️ 101,00 | Preço médio: 101 B por A, 1% acima |
 
   - "Paguei 1.000 por 9,09: preço médio de 110. A tela mostrava 100. Esses 10% são o impacto de preço da minha própria ordem. Com uma ordem de só 100 de B, o preço médio é 101: impacto de 1%. Quanto maior a ordem em relação à pool, pior o preço."
-  - 🔇 O passo 2 usa a pilha da HP12C: `100 ENTER` coloca o saldo atual de A, `RCL 1` busca k, `11000 ÷` divide e `−` subtrai. Valores hipotéticos; x × y = k é ilustração do modelo clássico.
-
+  - 🔇 O passo 2 usa a pilha da HP12C: `100 ENTER` coloca o saldo de referência, `RCL 1` busca k, `11000 ÷` divide e `−` subtrai. Valores hipotéticos; x × y = k é ilustração do modelo clássico.
 - **DEX × exchange centralizada**
 
 | DEX | Exchange centralizada |
@@ -106,6 +113,7 @@ Sem taxa, por simplicidade. Valores hipotéticos.
 
 - **O alerta**
   - ✏️ "Pool de liquidez não é depósito bancário. Não há garantia do FGC. O risco do provedor de liquidez é o impermanent loss e também o de código."
+- **Erro comum:** achar que price impact e slippage são a mesma coisa. Um é o efeito da própria ordem; o outro é a diferença total.
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
@@ -122,9 +130,10 @@ Sem taxa, por simplicidade. Valores hipotéticos.
 
 ### 3.2 Seguros e apólices automatizadas — 4,5 min · CPA 4.4.3.8 e 4.4.3.8.1
 
-- **O contrato de seguro pela lei**
-  - "Pela Lei 15.040, de 2024, o Marco Legal dos Seguros, no contrato de seguro a seguradora, mediante o prêmio, garante interesse legítimo do segurado contra riscos predeterminados. E só entidades autorizadas podem fazer contratos de seguro. Smart contract não é seguradora."
+> **Objetivo deste bloco:** ao fim, o aluno consegue diferenciar seguro tradicional de paramétrico e dizer por que a apólice automatizada continua sendo seguro.
 
+- **O contrato de seguro pela lei**
+  - "Pela Lei 15.040, de 2024, no contrato de seguro a seguradora, mediante o prêmio, garante interesse legítimo do segurado contra riscos predeterminados. E só entidades autorizadas podem fazer contratos de seguro. Smart contract não é seguradora."
 - **Dois modelos**
 
 | Tipo | Como paga | Ponto de atenção |
@@ -134,7 +143,6 @@ Sem taxa, por simplicidade. Valores hipotéticos.
 
 - **Apólice automatizada**
   - "Apólice automatizada é expressão de mercado: parte do fluxo roda por software ou smart contract. Cotação, emissão, cobrança, conferência do índice e pagamento. Mas juridicamente continua sendo contrato de seguro, com seguradora autorizada, cobertura, exclusões e direito de contestar."
-
 - **O fluxo**
   - "Apólice agrícola, mais chuva abaixo do limite, mais fonte de dados válida, mais vigência ativa: pagamento paramétrico."
   - "O oráculo, que vimos na G15, é a peça-chave. Ele leva o dado de chuva até o contrato. Se o oráculo errar, o contrato paga certo com o dado errado."
@@ -148,6 +156,7 @@ Sem taxa, por simplicidade. Valores hipotéticos.
 | Contestação | Direito do segurado, **continua existindo** |
 
 - ✏️ "A expressão 'apólice automatizada' não é uma categoria jurídica nova. É tecnologia aplicada a um contrato que a lei já regula."
+- **Erro comum:** achar que, com smart contract, qualquer empresa pode oferecer seguro. Só entidade autorizada.
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
@@ -162,6 +171,8 @@ Sem taxa, por simplicidade. Valores hipotéticos.
 ---
 
 ### 3.3 Imobiliário e compra e venda de propriedades — 4,5 min · CPA 4.4.3.9 e 4.4.3.9.1
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue dizer o que um token imobiliário representa e por que a propriedade só muda de dono pelo registro.
 
 - **Onde o smart contract ajuda**
   - "No imobiliário, o código ajuda em pagamento condicionado, o chamado escrow; na distribuição de aluguéis; na tokenização de direitos econômicos; e na governança de imóveis coletivos."
@@ -184,7 +195,6 @@ Sem taxa, por simplicidade. Valores hipotéticos.
 
 - **A sequência**
   - "Acordo sobre objeto e preço, escritura quando exigida, título, registro, e só aí a propriedade muda de dono. O smart contract pode automatizar etapas, como o pagamento condicionado, mas não pula o registro."
-
 - **O que o token é, e o que não é**
 
 | O token pode ser | O token **não é**, sozinho |
@@ -192,6 +202,7 @@ Sem taxa, por simplicidade. Valores hipotéticos.
 | Direito contratual, participação econômica, recebível, cota, direito a renda | Matrícula, escritura, propriedade registrada, posse ou garantia real |
 
   - 🔇 Tokens que representam participação em empreendimento podem ser valores mobiliários e, nesse caso, ficam sob a CVM. Tratado na aula de tokenização.
+- **Erro comum:** achar que token registrado em blockchain é a propriedade. Sem o registro no Registro de Imóveis, não é.
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
@@ -201,16 +212,25 @@ Sem taxa, por simplicidade. Valores hipotéticos.
 
 > **Tokenizar o direito não é transferir o domínio: a propriedade passa pelo registro.**
 
-- 🔇 Fechamento em uma frase (sem etapa de revisão): "Na DEX, a fórmula dá o preço e a ordem grande o piora; no seguro, o smart contract é tecnologia e a seguradora autorizada continua sendo necessária; no imóvel, a propriedade passa pelo registro." Próxima aula do bloco: governança descentralizada e DAOs.
+- 🔇 **Fechamento:** "Na DEX, a fórmula dá o preço e a ordem grande o piora; no seguro, o smart contract é tecnologia e a seguradora autorizada continua sendo necessária; no imóvel, a propriedade passa pelo registro." Próxima aula do bloco: governança descentralizada e DAOs.
+
+---
+
+## Lista de pegadinhas com nome
+
+1. **Pegadinha da pool protegida** — "A pool de liquidez tem garantia do FGC." Errado: não é depósito.
+2. **Pegadinha do seguro sem autorização** — "Com smart contract, qualquer empresa pode oferecer seguro." Errado: só entidade autorizada.
+3. **Pegadinha do token dono** — "Token imobiliário registrado em blockchain transfere a propriedade." Errado: a propriedade passa pelo registro.
+4. **Pegadinha da ordem sem efeito** — "O tamanho da ordem não altera o preço da pool." Errado: quanto maior a ordem em relação à pool, pior o preço.
 
 ---
 
 ## Nota de verificação
 
-- **Programa Detalhado CPA** (v1.2, rev. 04/06/2025, vigência 01/01/2026): itens 4.4.3.7 a 4.4.3.9.1 lidos no texto do PD do repositório.
-- **Apostila CPA**, p. 539–542: sem os itens desta aula (só DAOs, no item seguinte).
-- **Roteiro 4.4-B** (40 min, do repositório): conteúdo e correções conferidos em 29/09/2026 contra o roteiro em PDF, a Lei 15.040/2024 (arts. 1º e 2º) e o Código Civil (arts. 108, 481, 482 e 1.245). **Textos legais não reabertos nesta sessão.**
+- Programa Detalhado CPA (v1.2): itens 4.4.3.7 a 4.4.3.9.1 lidos no texto do PD do repositório.
+- Apostila CPA, p. 539–542: sem os itens desta aula (só DAOs, no item seguinte).
+- **Roteiro 4.4-B** (40 min, do repositório): conteúdo e correções conferidos contra o roteiro em PDF, a Lei 15.040/2024 (arts. 1º e 2º) e o Código Civil (arts. 108, 481, 482 e 1.245). **Textos legais não reabertos nesta sessão.**
 - **Citado de memória, sem reabrir o texto:** a observação de que tokens de participação em empreendimento podem ser valores mobiliários sob a CVM (tema da aula de tokenização).
 - **Convenções sem força normativa:** o exemplo da pool (100 A, 10.000 B, sem taxa), a lista de aplicações imobiliárias e o fluxo da apólice agrícola.
 - **Cálculos conferidos em Python:** k = 100 × 10.000 = 1.000.000; 1.000.000 ÷ 11.000 = 90,91; 100 − 90,91 = 9,09; 1.000 ÷ 9,09 = 110; 1.000.000 ÷ 10.100 = 99,01 → 0,99 A; 100 ÷ 0,99 = 101.
-- **Acréscimos (➕):** tabela do fluxo da apólice e tabela das aplicações imobiliárias; a ligação com o oráculo da G15.
+- Revisão de estrutura: metáfora única (casa de câmbio de bairro) com o ponto de falha, caso antes da regra, objetivo e erro comum por bloco, fonte removida da fala, lista de pegadinhas com nome.

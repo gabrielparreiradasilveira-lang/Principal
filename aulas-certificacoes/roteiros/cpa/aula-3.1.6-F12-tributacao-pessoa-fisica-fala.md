@@ -6,13 +6,19 @@
 - regras do **IRPF 2026** (ano-calendário 2025): obrigatoriedade e prazo, conferidos em fontes de imprensa (ver nota de verificação);
 - aula **F11**, que antecede esta; a tributação específica de cada investimento está nas aulas do módulo 2.
 
-CPA 3.1.6 · 3.1.6.1 · 3.1.6.2 · 3.1.6.3 · Módulo 3 · **10 min** · Aula F12 do plano de gravação · **só a etapa de tópicos**
+CPA 3.1.6 · 3.1.6.1 · 3.1.6.2 · 3.1.6.3 · Módulo 3 · **10 min** · Aula F12 · **só a etapa de tópicos**
 
-**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor, sem fala · ✏️ = correção da fonte · ➕ = acréscimo desta versão · 🔗 = ponte · ⌨️ = teclas da HP12C · 🖥️ = visor.
+**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor, sem fala · ✏️ = correção da fonte · ⌨️ = teclas da HP12C · 🖥️ = visor.
 
 ---
 
 ## Bastidor — antes de gravar
+
+### 🔇 Metáfora única desta aula
+
+**A prestação de contas do condomínio.** Todo ano, cada morador presta contas: mostra o que recebeu, o que tem, o que deve e quantos dependem dele. O condomínio confere e cobra o que é devido.
+
+**Onde a metáfora falha:** no condomínio, a cota é igual para todos. No IRPF, a alíquota cresce com a renda: quem ganha mais paga percentual maior. Além disso, o condomínio não retém imposto na fonte; no IRPF, boa parte já foi retida antes da declaração.
 
 ### 🔇 Formato
 
@@ -31,13 +37,13 @@ CPA 3.1.6 · 3.1.6.1 · 3.1.6.2 · 3.1.6.3 · Módulo 3 · **10 min** · Aula F1
 
 ### ✏️ Correções e notas da fonte
 
-| # | Fonte | O material diz | O correto | Base |
-| --- | --- | --- | --- | --- |
-| 1 | Apostila p. 489 | Juros sobre capital próprio (JCP) são rendimento **tributável pela tabela progressiva** | O JCP sofre **retenção exclusiva na fonte de 15%**, não entra na tabela progressiva | Lei 9.249/1995, art. 9º |
-| 2 | Apostila p. 490 | Desconto simplificado de "20% limitados a R$ 1.720" | O limite de R$ 1.720 não corresponde ao teto anual. Em fontes de imprensa, o teto do ano-calendário 2025 é **R$ 16.754,34**. **Status: não confirmado em fonte primária.** A fala diz "20% dos rendimentos tributáveis, limitado a um teto fixado pela Receita" | Fontes secundárias; conferir na Receita Federal |
-| 3 | Apostila p. 489–490 | Dividendos e lucros distribuídos são isentos | Correto para o **ano-calendário 2025** (declaração de 2026). **A partir de 2026** há retenção de 10% sobre valores acima de R$ 50 mil por mês, por pagador (Lei 15.270/2025). Entra como **nota de atualização** | Lei 15.270/2025 (fontes secundárias) |
-| 4 | Apostila p. 489–490 | Só três categorias | A renda variável (ganho líquido em bolsa) tem **recolhimento próprio por DARF** e é informada na declaração. A fala acrescenta como quarto caso | Regra geral da RFB |
-| 5 | Apostila p. 491 | "Educação (dentro de limite legal)" e "despesas médicas sem limite" | Correto: a educação tem **limite anual por pessoa**; a saúde não tem limite, mas exige comprovação | Lei 9.250/1995, art. 8º |
+| # | Fonte | O material diz | O correto |
+| --- | --- | --- | --- |
+| 1 | Apostila p. 489 | Juros sobre capital próprio (JCP) são rendimento **tributável pela tabela progressiva** | O JCP sofre **retenção exclusiva na fonte de 15%**, não entra na tabela progressiva. Base: Lei 9.249/1995, art. 9º |
+| 2 | Apostila p. 490 | Desconto simplificado de "20% limitados a R$ 1.720" | O limite de R$ 1.720 não corresponde ao teto anual. Em fontes de imprensa, o teto do ano-calendário 2025 é **R$ 16.754,34**. **Status: não confirmado em fonte primária.** A fala diz "20% dos rendimentos tributáveis, limitado a um teto fixado pela Receita" |
+| 3 | Apostila p. 489–490 | Dividendos e lucros distribuídos são isentos | Correto para o **ano-calendário 2025** (declaração de 2026). **A partir de 2026** há retenção de 10% sobre valores acima de R$ 50 mil por mês, por pagador (Lei 15.270/2025). Entra como **nota de atualização** |
+| 4 | Apostila p. 489–490 | Só três categorias | A renda variável (ganho líquido em bolsa) tem **recolhimento próprio por DARF** e é informada na declaração. A fala acrescenta como quarto caso |
+| 5 | Apostila p. 491 | "Educação (dentro de limite legal)" e "despesas médicas sem limite" | Correto: a educação tem **limite anual por pessoa**; a saúde não tem limite, mas exige comprovação. Base: Lei 9.250/1995, art. 8º |
 
 ### 🔇 Dados do exemplo
 
@@ -64,7 +70,9 @@ CPA 3.1.6 · 3.1.6.1 · 3.1.6.2 · 3.1.6.3 · Módulo 3 · **10 min** · Aula F1
 
 ## 3. Explicação dos tópicos — 10 min
 
-### 3.1 O IRPF: conceitos básicos de tributação de pessoas físicas — 2 min · CPA 3.1.6 · Apostila p. 488
+### 3.1 O IRPF: conceitos básicos de tributação de pessoas físicas — 2 min · CPA 3.1.6
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue dizer as quatro características do IRPF e a diferença entre ano-calendário e exercício.
 
 - **O que é**
   - "O Imposto de Renda da Pessoa Física, o IRPF, é um tributo federal que incide sobre a renda e os proventos de qualquer natureza."
@@ -79,10 +87,11 @@ CPA 3.1.6 · 3.1.6.1 · 3.1.6.2 · 3.1.6.3 · Módulo 3 · **10 min** · Aula F1
 
 - **Ano-calendário e exercício**
   - "A declaração entregue em 2026 refere-se aos rendimentos de 2025. O ano dos rendimentos é o ano-calendário; o ano da entrega é o exercício."
+- **Erro comum:** achar que a declaração anual serve só para arrecadar. Ela também informa a evolução do patrimônio.
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
-| "O IRPF é um tributo federal e progressivo" | Certo | Apostila p. 488 |
+| "O IRPF é um tributo federal e progressivo" | Certo | Federal, com alíquotas que crescem com a renda |
 | "A declaração anual tem apenas função arrecadatória" | Errado | Também é **informativa** |
 
 > **IRPF: federal, anual, progressivo e informativo.**
@@ -91,10 +100,12 @@ CPA 3.1.6 · 3.1.6.1 · 3.1.6.2 · 3.1.6.3 · Módulo 3 · **10 min** · Aula F1
 
 ---
 
-### 3.2 Declaração de Imposto de Renda da Pessoa Física: o que declarar — 2,5 min · CPA 3.1.6.1 · Apostila p. 488–489
+### 3.2 Declaração de Imposto de Renda da Pessoa Física: o que declarar — 2,5 min · CPA 3.1.6.1
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue listar os quatro blocos da declaração e dizer o que cada um contém.
 
 - **O conteúdo**
-  - "A DIRPF é a prestação de contas do contribuinte à Receita. Nela entram quatro blocos: rendimentos do ano, bens e direitos, dívidas e obrigações, e dependentes."
+  - "A declaração é a prestação de contas do contribuinte à Receita. Nela entram quatro blocos: rendimentos do ano, bens e direitos, dívidas e obrigações, e dependentes."
 
 | Bloco | Exemplo |
 | --- | --- |
@@ -105,14 +116,14 @@ CPA 3.1.6 · 3.1.6.1 · 3.1.6.2 · 3.1.6.3 · Módulo 3 · **10 min** · Aula F1
 
   - ✏️ "Bens e direitos entram pelo valor pago na compra, e não pelo valor de mercado de hoje."
   - "Com essas informações, o sistema calcula o imposto devido, considerando o que já foi retido na fonte, as deduções e os créditos. O resultado é imposto a pagar ou restituição."
-
 - **Quem precisa declarar (IRPF 2026, ano-calendário 2025)**
   - "Entre os critérios: rendimentos tributáveis acima de R$ 35.584; rendimentos isentos, não tributáveis ou de tributação exclusiva acima de R$ 200 mil; bens e direitos acima de R$ 800 mil em 31 de dezembro; operações em bolsa acima de R$ 40 mil com ganho sujeito a imposto; e ganho de capital na venda de bens. O prazo foi de 23 de março a 29 de maio de 2026."
   - 🔇 Valores de obrigatoriedade e prazo vêm de imprensa; **conferir na instrução normativa da Receita antes de gravar**. Não são cobrados na prova como decoreba; o PD pede só o conhecimento básico do que se declara.
+- **Erro comum:** achar que, se o imposto retido foi maior, há imposto a pagar. Nesse caso há restituição.
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
-| "Na declaração, informam-se rendimentos, bens e direitos, dívidas e dependentes" | Certo | Apostila p. 488 |
+| "Na declaração, informam-se rendimentos, bens e direitos, dívidas e dependentes" | Certo | Os quatro blocos da declaração |
 | "Se o imposto retido foi maior que o devido, há imposto a pagar" | Errado | Há **restituição** |
 
 > **Declarar é informar tudo: rendimentos, bens, dívidas e dependentes.**
@@ -121,9 +132,11 @@ CPA 3.1.6 · 3.1.6.1 · 3.1.6.2 · 3.1.6.3 · Módulo 3 · **10 min** · Aula F1
 
 ---
 
-### 3.3 Classificação de rendimentos — 3 min · CPA 3.1.6.2 · Apostila p. 489–490
+### 3.3 Classificação de rendimentos — 3 min · CPA 3.1.6.2
 
-- **As categorias da apostila**
+> **Objetivo deste bloco:** ao fim, o aluno consegue classificar um rendimento em tributável, isento ou de tributação exclusiva, e dizer que todos se declaram.
+
+- **As categorias**
   - "Para o imposto, o rendimento cai em três grupos: tributável, isento ou não tributável, e de tributação exclusiva na fonte."
 
 | Categoria | Como é tratado | Exemplos |
@@ -132,24 +145,22 @@ CPA 3.1.6 · 3.1.6.1 · 3.1.6.2 · 3.1.6.3 · Módulo 3 · **10 min** · Aula F1
 | **Isento / não tributável** | Não paga imposto, mas **é declarado** | Poupança, LCI e LCA, dividendos (até 2025), certas indenizações |
 | **Exclusivo na fonte** | O imposto é retido no pagamento e não é recalculado | CDB, fundos, Tesouro Direto, 13º salário, **JCP** |
 
-  - ✏️ "Atenção: a apostila coloca o JCP entre os tributáveis pela tabela. A regra é outra: o JCP tem retenção exclusiva de 15% na fonte."
+  - ✏️ "Atenção: o JCP não entra na tabela progressiva. Ele tem retenção exclusiva de 15% na fonte."
   - "Todos os três grupos são informados na declaração. A diferença é onde o imposto é calculado."
-
 - **A renda variável**
-  - ➕ "Há ainda o ganho líquido na venda de ações em bolsa. Esse imposto não é retido pela corretora: o investidor apura e paga por DARF, e informa o resultado na declaração."
-
+  - "Há ainda o ganho líquido na venda de ações em bolsa. Esse imposto não é retido pela corretora: o investidor apura e paga por DARF, e informa o resultado na declaração."
 - **O que isso muda para o investidor**
   - "O CDB já chega com imposto descontado, e o rendimento é informado na declaração. A LCI ou a LCA não pagam imposto para pessoa física, mas também são informadas. Por isso, na hora de comparar produtos, compara-se o retorno **depois do imposto**."
-
 - **Nota de atualização (fora do PD, não entra na prova de 2026)**
   - 🔇 "A Lei 15.270/2025 mudou regras a partir de 2026: ampliou a faixa de isenção na fonte (até R$ 5 mil por mês, com redução parcial até R$ 7.350), criou retenção de 10% sobre dividendos acima de R$ 50 mil por mês por pagador e um imposto mínimo para rendas acima de R$ 600 mil por ano. Esses efeitos aparecem na declaração entregue em 2027." **Status: fontes secundárias; conferir no texto da lei.**
+- **Erro comum:** achar que rendimento isento não precisa aparecer na declaração. Ele deve ser declarado.
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
 | "Rendimento isento não precisa ser declarado" | Errado | Isento e não tributável **devem ser declarados** |
-| "O rendimento de CDB tem tributação exclusiva na fonte" | Certo | Apostila p. 490 |
-| "O 13º salário tem tributação exclusiva na fonte" | Certo | Apostila p. 490 |
-| "Salário e aluguel recebido são rendimentos tributáveis" | Certo | Apostila p. 489 |
+| "O rendimento de CDB tem tributação exclusiva na fonte" | Certo | Imposto retido no pagamento |
+| "O 13º salário tem tributação exclusiva na fonte" | Certo | Tributação exclusiva |
+| "Salário e aluguel recebido são rendimentos tributáveis" | Certo | Entram na tabela progressiva |
 
 > **Tributável, isento ou exclusivo: o que muda é onde o imposto é calculado; todos se declaram.**
 
@@ -157,7 +168,9 @@ CPA 3.1.6 · 3.1.6.1 · 3.1.6.2 · 3.1.6.3 · Módulo 3 · **10 min** · Aula F1
 
 ---
 
-### 3.4 Modelo completo × desconto simplificado — 2,5 min · CPA 3.1.6.3 · Apostila p. 490–491
+### 3.4 Modelo completo × desconto simplificado — 2,5 min · CPA 3.1.6.3
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue comparar os dois modelos de declaração e escolher o melhor para um caso.
 
 - **Os dois modelos**
   - "No **completo**, o contribuinte detalha as despesas e abate as deduções legais da base de cálculo. No **simplificado**, no lugar das deduções entra um desconto padrão de 20% dos rendimentos tributáveis, limitado a um teto fixado pela Receita."
@@ -168,43 +181,52 @@ CPA 3.1.6 · 3.1.6.1 · 3.1.6.2 · 3.1.6.3 · Módulo 3 · **10 min** · Aula F1
 | **Comprovação** | Precisa guardar os comprovantes | Não detalha despesas |
 | **Quando compensa** | Muitas despesas dedutíveis | Poucas despesas |
 
-  - ✏️ "A apostila cita o teto de R$ 1.720, que não bate com o teto anual. O teto muda a cada ano, e o do ano-calendário 2025 em fontes de imprensa é de R$ 16.754,34. Confira na Receita."
+  - ✏️ "O teto do desconto simplificado muda a cada ano. O do ano-calendário 2025, em fontes de imprensa, é de R$ 16.754,34. Confira na Receita antes de usar o número."
 
 - **Ana e Bruno**
   - "Ana tem 120 mil reais de rendimentos tributáveis e 21 mil de despesas dedutíveis. Bruno tem 60 mil e 8 mil de despesas."
 
 | Passo | Teclas | Visor | O que significa |
 | --- | --- | --- | --- |
-| 1 | ⌨️ `f` `REG` `120000` `ENTER` `20` `%` | 🖥️ 24.000,00 | 20% de Ana, **acima do teto** |
+| 1 | ⌨️ `f` `REG` `f` `2` `120000` `ENTER` `20` `%` | 🖥️ 24.000,00 | 20% de Ana, **acima do teto** |
 | 2 | ⌨️ `60000` `ENTER` `20` `%` | 🖥️ 12.000,00 | 20% de Bruno, **abaixo do teto** |
 
   - "Ana: o 20% daria 24 mil, mas o teto trava em cerca de 16,7 mil. Como suas deduções reais são de 21 mil, o completo vence. Bruno: 12 mil no simplificado contra 8 mil no completo, então o simplificado vence."
   - 🔇 Valores hipotéticos; o teto é o do ano-calendário 2025 em fontes de imprensa.
+- **Erro comum:** achar que o simplificado é sempre melhor porque não exige comprovantes. Depende de quanto o contribuinte tem de deduções reais.
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
-| "No modelo completo, as despesas médicas podem ser deduzidas sem limite, se comprovadas" | Certo | Apostila p. 491 |
+| "No modelo completo, as despesas médicas podem ser deduzidas sem limite, se comprovadas" | Certo | Saúde sem limite, com comprovação |
 | "As contribuições ao PGBL são dedutíveis no modelo simplificado" | Errado | Só no **completo** (até 12% da renda bruta) |
 | "O desconto simplificado equivale a 20% dos rendimentos tributáveis, sem nenhum limite" | Errado | Tem **teto** definido pela Receita |
-| "O modelo completo tende a compensar para quem tem despesas dedutíveis relevantes" | Certo | Apostila p. 491 |
+| "O modelo completo tende a compensar para quem tem despesas dedutíveis relevantes" | Certo | Vale a pena quando as deduções reais superam o desconto padrão |
 
 > **Muitas despesas dedutíveis: completo. Poucas: simplificado.**
 
-- 🔇 Fechamento em uma frase (sem etapa de revisão): "O IRPF é anual e progressivo; declara-se tudo; o rendimento pode ser tributável, isento ou exclusivo; e o contribuinte escolhe entre abater as despesas reais ou o desconto padrão." Próxima aula do plano: F13.
+- 🔇 **Fechamento:** "O IRPF é anual e progressivo; declara-se tudo; o rendimento pode ser tributável, isento ou exclusivo; e o contribuinte escolhe entre abater as despesas reais ou o desconto padrão."
+
+---
+
+## Lista de pegadinhas com nome
+
+1. **Pegadinha do JCP progressivo** — "O JCP entra na tabela progressiva." Errado: tem retenção exclusiva de 15% na fonte.
+2. **Pegadinha do isento invisível** — "Rendimento isento não se declara." Errado: isento e não tributável devem ser declarados.
+3. **Pegadinha do teto eterno** — "O desconto simplificado não tem limite." Errado: tem teto definido pela Receita.
+4. **Pegadinha do simplificado sempre melhor** — "O simplificado é sempre a escolha mais vantajosa." Errado: depende das deduções reais.
 
 ---
 
 ## Nota de verificação
 
-- **Programa Detalhado CPA** (v1.2, rev. 04/06/2025, vigência 01/01/2026): itens 3.1.6 a 3.1.6.3 lidos no texto do PD do repositório.
-- **Apostila CPA**, p. 488–491: conceitos do IRPF, conteúdo da declaração, três categorias de rendimento e os dois modelos.
-- **Regras do IRPF 2026 (ano-calendário 2025), em fontes de imprensa** (Itatiaia, Contabilizei e Metrópoles; pesquisa de 22/10/2026): obrigatoriedade (R$ 35.584; R$ 200.000; R$ 800.000; R$ 40.000 em bolsa) e prazo (23/03 a 29/05/2026). **Status: não confirmado na fonte oficial da Receita Federal**, cujas páginas exigiam autenticação nesta sessão.
-- **Lei 15.270/2025** (sancionada em 26/11/2025): isenção ampliada, retenção de 10% sobre dividendos e imposto mínimo, conforme fontes secundárias. **O texto no Planalto não pôde ser aberto nesta sessão.** Usado só como nota de atualização.
+- Programa Detalhado CPA (v1.2): itens 3.1.6 a 3.1.6.3 lidos no texto do PD do repositório.
+- Apostila CPA, p. 488–491: conceitos do IRPF, conteúdo da declaração, três categorias de rendimento e os dois modelos.
+- **Regras do IRPF 2026 (ano-calendário 2025), em fontes de imprensa** (Itatiaia, Contabilizei e Metrópoles): obrigatoriedade (R$ 35.584; R$ 200.000; R$ 800.000; R$ 40.000 em bolsa) e prazo (23/03 a 29/05/2026). **Status: não confirmado na fonte oficial da Receita Federal**, cujas páginas exigiam autenticação na sessão de pesquisa.
+- **Lei 15.270/2025** (sancionada em 26/11/2025): isenção ampliada, retenção de 10% sobre dividendos e imposto mínimo, conforme fontes secundárias. **O texto no Planalto não pôde ser aberto.** Usado só como nota de atualização.
 - **Citado de memória do conhecimento regulatório, sem reabrir o texto:** Lei 9.249/1995, art. 9º (JCP com 15% exclusivo na fonte) e Lei 9.250/1995, art. 8º (deduções). **Conferir antes de gravar.**
-- **Convenções sem força normativa:** valores de Ana e Bruno; escolha de exemplos de produtos isentos e de tributação exclusiva.
 - **Pendências:**
   - confirmar o teto do desconto simplificado do ano-calendário 2025 (R$ 16.754,34) e o limite anual de educação na Receita Federal;
   - confirmar a isenção de LCI e LCA para pessoa física na legislação vigente em 2026;
   - confirmar os critérios de obrigatoriedade na instrução normativa da Receita.
 - **Cálculos conferidos em Python:** 20% × 120.000 = 24.000; 20% × 60.000 = 12.000.
-- **Acréscimos (➕):** caso Ana e Bruno, ano-calendário × exercício, quarto grupo (renda variável) e nota de atualização da Lei 15.270.
+- Revisão de estrutura: metáfora única (prestação de contas do condomínio) com o ponto de falha, caso antes da regra, objetivo e erro comum por bloco, fonte removida da fala, lista de pegadinhas com nome.

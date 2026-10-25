@@ -6,13 +6,19 @@
 - **Resolução CVM 35/2021**, art. 31 (boa-fé, diligência e lealdade), lido na aula F16;
 - aulas **F13** e **F14** (suitability, monitoramento e comunicação) e **F16** (ética e conflitos de interesse), para não repetir.
 
-CPA 3.4.3 · 3.4.3.1 · 3.4.3.1.1 · 3.4.3.1.2 · 3.4.3.1.3 · 3.4.3.1.4 · 3.4.3.1.5 · Módulo 3 · **10 min** · Aula F15 do plano de gravação · **só a etapa de tópicos**
+CPA 3.4.3 · 3.4.3.1 · 3.4.3.1.1 · 3.4.3.1.2 · 3.4.3.1.3 · 3.4.3.1.4 · 3.4.3.1.5 · Módulo 3 · **10 min** · Aula F15 · **só a etapa de tópicos**
 
-**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor, sem fala · ✏️ = correção da fonte · ➕ = acréscimo desta versão · 🔗 = ponte · ⌨️ = teclas da HP12C · 🖥️ = visor.
+**Legenda:** **negrito** = marcador · "texto entre aspas" = fala · 🔇 = bastidor, sem fala · ✏️ = correção da fonte · ⌨️ = teclas da HP12C · 🖥️ = visor.
 
 ---
 
 ## Bastidor — antes de gravar
+
+### 🔇 Metáfora única desta aula
+
+**O garçom que sugere o prato.** Um bom garçom pergunta antes de recomendar, explica o prato e avisa se algo não combina com o que você comeu antes. O atendimento financeiro é isso: escutar, adaptar e avisar.
+
+**Onde a metáfora falha:** o garçom que ganha comissão por um prato tem conflito de interesse, e no atendimento financeiro esse conflito é mais difícil de perceber. Além disso, o prato é consumido na hora; o investimento tem efeito por anos, e o erro de recomendação só aparece depois.
 
 ### 🔇 Formato
 
@@ -34,13 +40,13 @@ CPA 3.4.3 · 3.4.3.1 · 3.4.3.1.1 · 3.4.3.1.2 · 3.4.3.1.3 · 3.4.3.1.4 · 3.4.
 
 ### ✏️ Correções e notas da fonte
 
-| # | Fonte | O material diz | O correto | Base |
-| --- | --- | --- | --- | --- |
-| 1 | Apostila p. 508 | Escuta ativa envolve "ausência de interrupções" **e** "realização de perguntas em meio às falas do cliente" | Os dois itens parecem se contradizer. A leitura coerente: **não interromper** o cliente, e fazer **perguntas de esclarecimento nas pausas**. A fala usa essa leitura | Apostila p. 508 (ajuste de redação) |
-| 2 | Apostila p. 507–510 | Subitens numerados como "3.6" | Numeração do PD: 3.4.3.1 a 3.4.3.1.5 | PD CPA |
-| 3 | Uso comum | "Solução proativa é oferecer produto novo ao cliente" | A apostila define como **antecipar riscos, comunicar mudanças relevantes e sugerir ajustes**, e não como vender. Oferta que serve ao interesse do assessor é conflito (F16) | Apostila p. 509 |
-| 4 | Uso comum | "Gerenciar expectativas é só avisar do risco" | A apostila pede quatro coisas: **riscos, possibilidade de perdas, relação risco × retorno e horizonte necessário** | Apostila p. 510 |
-| 5 | Uso comum | "Rentabilidade passada serve de referência de resultado futuro" | A regulação de fundos exige a advertência de que o desempenho passado **não garante** resultados futuros. Citado de memória | Regulação de fundos; texto não reaberto |
+| # | Fonte | O material diz | O correto |
+| --- | --- | --- | --- |
+| 1 | Apostila p. 508 | Escuta ativa envolve "ausência de interrupções" **e** "realização de perguntas em meio às falas do cliente" | Os dois itens parecem se contradizer. A leitura coerente: **não interromper** o cliente, e fazer **perguntas de esclarecimento nas pausas**. A fala usa essa leitura |
+| 2 | Apostila p. 507–510 | Subitens numerados como "3.6" | Numeração do PD: 3.4.3.1 a 3.4.3.1.5 |
+| 3 | Uso comum | "Solução proativa é oferecer produto novo ao cliente" | A apostila define como **antecipar riscos, comunicar mudanças relevantes e sugerir ajustes**, e não como vender. Oferta que serve ao interesse do assessor é conflito (F16) |
+| 4 | Uso comum | "Gerenciar expectativas é só avisar do risco" | A apostila pede quatro coisas: **riscos, possibilidade de perdas, relação risco × retorno e horizonte necessário** |
+| 5 | Uso comum | "Rentabilidade passada serve de referência de resultado futuro" | A regulação de fundos exige a advertência de que o desempenho passado **não garante** resultados futuros. Citado de memória; texto não reaberto |
 
 ### 🔇 Dados do exemplo (Sr. Ítalo)
 
@@ -49,7 +55,7 @@ CPA 3.4.3 · 3.4.3.1 · 3.4.3.1.1 · 3.4.3.1.2 · 3.4.3.1.3 · 3.4.3.1.4 · 3.4.
 | Valor | R$ 100.000 |
 | Expectativa do cliente | Dobrar em 1 ano |
 | Hipótese realista de 10% a.a. | 1 ano: **R$ 110.000**; 5 anos: **R$ 161.051** |
-| Tempo para dobrar a 10% a.a. | **7,27 anos** (a HP12C mostra 8, arredondado para cima) |
+| Tempo para dobrar a 10% a.a. | **7,27 anos** (conta exata, com 2 casas) |
 
 Taxa de 10% a.a. é hipótese didática, e não projeção de produto.
 
@@ -68,10 +74,12 @@ Taxa de 10% a.a. é hipótese didática, e não projeção de produto.
 
 ## 3. Explicação dos tópicos — 10 min
 
-### 3.1 Técnicas de atendimento e escuta ativa — 3 min · CPA 3.4.3, 3.4.3.1 e 3.4.3.1.1 · Apostila p. 507–508
+### 3.1 Técnicas de atendimento e escuta ativa — 3 min · CPA 3.4.3, 3.4.3.1 e 3.4.3.1.1
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue descrever as quatro atitudes da escuta ativa e aplicá-las a uma fala de cliente.
 
 - **O que é bom atendimento**
-  - "A apostila abre dizendo: a qualidade do atendimento não se resume à cordialidade. Envolve compreender o cliente, orientar corretamente e agir com responsabilidade nas recomendações. O profissional atua sempre no melhor interesse do cliente, respeitando as normas e os padrões de conduta."
+  - "A qualidade do atendimento não se resume à cordialidade. Envolve compreender o cliente, orientar corretamente e agir com responsabilidade nas recomendações. O profissional atua sempre no melhor interesse do cliente, respeitando as normas e os padrões de conduta."
   - "O atendimento eficaz exige técnicas que permitam compreender o cliente e oferecer soluções adequadas à realidade dele. São cinco, e vamos ver cada uma."
 
 | Técnica | Em uma palavra |
@@ -84,7 +92,7 @@ Taxa de 10% a.a. é hipótese didática, e não projeção de produto.
 
 - **Escuta ativa**
   - "É a capacidade de ouvir com atenção, buscando compreender não só o que é dito, mas também as necessidades implícitas."
-  - "A apostila lista quatro atitudes."
+  - "São quatro atitudes."
 
 | Atitude | Na prática |
 | --- | --- |
@@ -93,19 +101,18 @@ Taxa de 10% a.a. é hipótese didática, e não projeção de produto.
 | **Perguntas de esclarecimento** | Nas pausas: "Para quando você precisa desse dinheiro?" |
 | **Validação do entendimento** | Repetir com as próprias palavras antes de propor: "Se entendi bem, você quer…" |
 
-  - ✏️ "A apostila fala em não interromper e também em perguntar durante a fala do cliente. A leitura coerente: não corte o cliente; pergunte nas pausas."
-
+  - ✏️ "Não corte o cliente. Pergunte nas pausas, e valide o que entendeu antes de propor qualquer coisa."
 - **O Sr. Ítalo**
   - "O Sr. Ítalo diz: 'Quero aplicar tudo naquele fundo que rendeu 30% no ano passado.' O assessor Daniel não responde com um produto. Ele pergunta: 'O que o senhor pretende fazer com esse dinheiro? Daqui a quanto tempo vai precisar? Se o valor cair, como o senhor se sentiria?' E repete: 'Então o senhor quer um rendimento maior sem perder o que já juntou. Entendi certo?'"
   - "A resposta mostra uma necessidade implícita: o Sr. Ítalo quer completar a renda da aposentadoria e tem medo de perder."
-
 - **O benefício**
   - "A escuta ativa melhora a qualidade do diagnóstico e reduz o risco de recomendações inadequadas."
+- **Erro comum:** achar que o bom atendimento é só ser simpático. Ele começa por entender.
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
-| "A escuta ativa busca compreender também as necessidades implícitas do cliente" | Certo | Apostila p. 508 |
-| "Validar o entendimento antes de propor soluções faz parte da escuta ativa" | Certo | Apostila p. 508 |
+| "A escuta ativa busca compreender também as necessidades implícitas do cliente" | Certo | Vai além do que é dito |
+| "Validar o entendimento antes de propor soluções faz parte da escuta ativa" | Certo | É uma das quatro atitudes |
 | "O bom atendimento se resume à cordialidade" | Errado | Envolve compreender, orientar e agir com responsabilidade |
 
 > **Escutar antes de recomendar: o diagnóstico vem do cliente, e não do produto.**
@@ -114,14 +121,14 @@ Taxa de 10% a.a. é hipótese didática, e não projeção de produto.
 
 ---
 
-### 3.2 Personalização do atendimento — 1,5 min · CPA 3.4.3.1.2 · Apostila p. 508–509
+### 3.2 Personalização do atendimento — 1,5 min · CPA 3.4.3.1.2
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue explicar por que a mesma recomendação não serve a dois clientes diferentes.
 
 - **A regra**
-  - "O atendimento deve ser adaptado às características individuais do cliente. A apostila lista o que considerar: perfil de risco, objetivos financeiros, horizonte de investimento e situação patrimonial."
-
+  - "O atendimento deve ser adaptado às características individuais do cliente. O que considerar: perfil de risco, objetivos financeiros, horizonte de investimento e situação patrimonial."
 - **O perigo da padronização**
   - "A padronização excessiva pode levar a soluções inadequadas. O atendimento personalizado aumenta a aderência das recomendações, isto é, a chance de o cliente entender, aceitar e manter a estratégia."
-
 - **O mesmo valor, dois clientes**
   - "Sr. Ítalo, 68 anos, e Lia, 28 anos, têm cada um 100 mil reais. Para o Sr. Ítalo, o dinheiro é complemento de renda e o prazo é curto. Para a Lia, é início de patrimônio e o prazo é longo. A mesma carteira não serve aos dois, nem a mesma linguagem: com ele, fala-se de segurança e renda; com ela, de crescimento e disciplina."
 
@@ -132,10 +139,12 @@ Taxa de 10% a.a. é hipótese didática, e não projeção de produto.
 | **Horizonte** | Curto/médio | Longo |
 | **Situação patrimonial** | Aposentado, renda fixa | Em construção |
 
+- **Erro comum:** achar que um mesmo produto serve a todos os clientes com o mesmo valor investido.
+
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
 | "Padronizar o atendimento garante a mesma recomendação adequada para todos" | Errado | A padronização excessiva leva a soluções inadequadas |
-| "O atendimento personalizado considera perfil, objetivos, horizonte e situação patrimonial" | Certo | Apostila p. 508–509 |
+| "O atendimento personalizado considera perfil, objetivos, horizonte e situação patrimonial" | Certo | Os quatro fatores da personalização |
 
 > **Cada cliente é um caso: perfil, objetivo, prazo e patrimônio.**
 
@@ -143,10 +152,12 @@ Taxa de 10% a.a. é hipótese didática, e não projeção de produto.
 
 ---
 
-### 3.3 Solução proativa de problemas — 1,5 min · CPA 3.4.3.1.3 · Apostila p. 509
+### 3.3 Solução proativa de problemas — 1,5 min · CPA 3.4.3.1.3
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue diferenciar uma atitude proativa de uma venda disfarçada.
 
 - **Antecipar, e não só reagir**
-  - "A atuação profissional deve ser antecipativa, e não apenas reativa. A apostila dá três exemplos: identificar riscos antes que se materializem, comunicar mudanças relevantes no mercado e sugerir ajustes na estratégia quando necessário."
+  - "A atuação profissional deve ser antecipativa, e não apenas reativa. São três exemplos: identificar riscos antes que se materializem, comunicar mudanças relevantes no mercado e sugerir ajustes na estratégia quando necessário."
 
 | Situação | Ação proativa |
 | --- | --- |
@@ -157,14 +168,14 @@ Taxa de 10% a.a. é hipótese didática, e não projeção de produto.
 
 - **O efeito**
   - "A postura proativa reduz impactos negativos e fortalece a confiança do cliente."
-
 - **O limite**
   - ✏️ "Proativo não é empurrar produto. Avisar do risco e sugerir ajuste é proativo; ligar toda semana para vender o produto que paga mais à instituição cria conflito de interesses, como vimos na F16."
+- **Erro comum:** achar que proatividade é vender mais. É antecipar risco e sugerir ajuste.
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
 | "A atuação proativa significa agir apenas depois que o problema aparece" | Errado | É **antecipar** |
-| "Comunicar mudanças relevantes do mercado ao cliente é uma atitude proativa" | Certo | Apostila p. 509 |
+| "Comunicar mudanças relevantes do mercado ao cliente é uma atitude proativa" | Certo | Antecipa o efeito sobre o cliente |
 
 > **Proativo é avisar antes e sugerir o ajuste, e não vender mais.**
 
@@ -172,10 +183,12 @@ Taxa de 10% a.a. é hipótese didática, e não projeção de produto.
 
 ---
 
-### 3.4 Educação continuada e conhecimento dos produtos e serviços — 1,5 min · CPA 3.4.3.1.4 · Apostila p. 509
+### 3.4 Educação continuada e conhecimento dos produtos e serviços — 1,5 min · CPA 3.4.3.1.4
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue listar as quatro frentes de atualização do profissional e dizer o que acontece quando ele não sabe.
 
 - **O que manter atualizado**
-  - "A apostila lista quatro frentes: produtos financeiros, riscos envolvidos, normas regulatórias e cenário econômico."
+  - "Quatro frentes: produtos financeiros, riscos envolvidos, normas regulatórias e cenário econômico."
 
 | Frente | Por quê |
 | --- | --- |
@@ -186,17 +199,16 @@ Taxa de 10% a.a. é hipótese didática, e não projeção de produto.
 
 - **A consequência de não saber**
   - "A falta de conhecimento compromete a qualidade da recomendação e pode gerar riscos para o cliente. Quem não entende um produto não consegue explicar o risco dele. E a CVM 35, no artigo 31, exige diligência: o intermediário deve agir com boa-fé, diligência e lealdade."
-
 - **Uma exigência ética**
-  - "A apostila afirma: a atualização contínua é uma exigência ética e profissional. As certificações ANBIMA, inclusive, têm prazo de validade e exigem atualização."
+  - "A atualização contínua é uma exigência ética e profissional. As certificações ANBIMA, inclusive, têm prazo de validade e exigem atualização."
   - 🔇 Prazo e forma de renovação seguem o Código de Certificação da ANBIMA; **texto não reaberto nesta sessão**, e a fala não cita números.
-
 - **Na conversa com o Sr. Ítalo**
   - "Se Daniel não conhece bem o fundo que rendeu 30%, deve estudá-lo antes de opinar, e não improvisar uma resposta."
+- **Erro comum:** achar que, se o cliente pede, o profissional pode recomendar o que não domina.
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
-| "A atualização contínua é uma exigência ética e profissional" | Certo | Apostila p. 509 |
+| "A atualização contínua é uma exigência ética e profissional" | Certo | Dever ético e profissional |
 | "O profissional pode recomendar produtos que não domina, desde que o cliente peça" | Errado | A falta de conhecimento compromete a recomendação |
 
 > **Quem recomenda precisa saber: produto, risco, norma e cenário.**
@@ -205,10 +217,12 @@ Taxa de 10% a.a. é hipótese didática, e não projeção de produto.
 
 ---
 
-### 3.5 Gerenciamento de expectativas — 2,5 min · CPA 3.4.3.1.5 · Apostila p. 510
+### 3.5 Gerenciamento de expectativas — 2,5 min · CPA 3.4.3.1.5
+
+> **Objetivo deste bloco:** ao fim, o aluno consegue alinhar expectativas com um cliente, mostrando risco, perda e prazo com um cálculo simples.
 
 - **O que deixar claro**
-  - "A apostila: o alinhamento de expectativas é fundamental. O profissional deve deixar claro quatro pontos."
+  - "O alinhamento de expectativas é fundamental. O profissional deve deixar claro quatro pontos."
 
 | Ponto | Exemplo de fala |
 | --- | --- |
@@ -222,37 +236,45 @@ Taxa de 10% a.a. é hipótese didática, e não projeção de produto.
 
 | Passo | Teclas | Visor | O que significa |
 | --- | --- | --- | --- |
-| 1 | ⌨️ `f` `REG` `100000` `CHS` `PV` `10` `i` `1` `n` `FV` | 🖥️ 110.000,00 | Valor em 1 ano |
+| 1 | ⌨️ `f` `REG` `f` `2` `100000` `CHS` `PV` `10` `i` `1` `n` `FV` | 🖥️ 110.000,00 | Valor em 1 ano |
 | 2 | ⌨️ `5` `n` `FV` | 🖥️ 161.051,00 | Valor em 5 anos |
-| 3 | ⌨️ `200000` `FV` `n` | 🖥️ 8,00 | Anos para dobrar (7,27, arredondado pela HP12C) |
+| 3 | ⌨️ `200000` `FV` `n` | 🖥️ 7,27 | Anos para dobrar a 10% a.a. |
 
   - "A 10% ao ano, 100 mil viram 110 mil em um ano e 161 mil em cinco. Dobrar leva mais de sete anos. Quem promete dobrar em um ano promete algo que só um risco enorme poderia entregar."
   - 🔇 Taxa hipotética; não é projeção de produto.
-
 - **O fundo que rendeu 30%**
   - ✏️ "Daniel explica que o desempenho passado não garante o futuro. Um ano de 30% pode ter vindo de um risco que o Sr. Ítalo não quer correr, e o ano seguinte pode ser de perda."
-
 - **O que acontece quando se promete demais**
-  - "A apostila: promessas irreais ou omissão de riscos comprometem a confiança e podem levar a decisões inadequadas. O cliente que esperava dobrar e perdeu 10% sai do investimento no pior momento, e leva a desconfiança embora."
+  - "Promessas irreais ou omissão de riscos comprometem a confiança e podem levar a decisões inadequadas. O cliente que esperava dobrar e perdeu 10% sai do investimento no pior momento, e leva a desconfiança embora."
+- **Erro comum:** achar que destacar o retorno potencial e omitir a perda ajuda a fechar negócio. Ajuda a perder a confiança do cliente.
 
 | Frase da prova | Certo ou errado | Por quê |
 | --- | --- | --- |
-| "Gerenciar expectativas inclui deixar claro o horizonte necessário para os resultados" | Certo | Apostila p. 510 |
+| "Gerenciar expectativas inclui deixar claro o horizonte necessário para os resultados" | Certo | Um dos quatro pontos |
 | "Para fechar negócio, convém destacar o retorno potencial e omitir a possibilidade de perdas" | Errado | Omissão de riscos compromete a confiança |
 | "A rentabilidade passada de um fundo garante resultado semelhante no futuro" | Errado | Não há garantia |
 
 > **Alinhar expectativas é dizer o risco, a possibilidade de perda, a troca entre risco e retorno e o tempo.**
 
-- 🔇 Fechamento em uma frase (sem etapa de revisão): "Escute antes de recomendar, personalize, antecipe, estude sempre e alinhe expectativas: são as cinco técnicas." Próximas aulas do plano: F16 e F17 (ética, conflitos e riscos da atividade profissional), já elaboradas.
+- 🔇 **Fechamento:** "Escute antes de recomendar, personalize, antecipe, estude sempre e alinhe expectativas: são as cinco técnicas."
+
+---
+
+## Lista de pegadinhas com nome
+
+1. **Pegadinha da cordialidade** — "O bom atendimento se resume a ser simpático." Errado: envolve compreender, orientar e agir com responsabilidade.
+2. **Pegadinha do produto único** — "Padronizar garante a mesma recomendação adequada para todos." Errado: a padronização excessiva leva a soluções inadequadas.
+3. **Pegadinha da proatividade de venda** — "Ser proativo é vender mais." Errado: é antecipar risco e sugerir ajuste.
+4. **Pegadinha do retorno sem perda** — "Destacar o retorno e omitir a perda fecha negócio." Errado: a omissão de riscos compromete a confiança.
 
 ---
 
 ## Nota de verificação
 
-- **Programa Detalhado CPA** (v1.2, rev. 04/06/2025, vigência 01/01/2026): itens 3.4.3 e 3.4.3.1 a 3.4.3.1.5 lidos no texto do PD do repositório.
-- **Apostila CPA**, p. 507–510: lidas nesta sessão.
-- **Resolução CVM 35/2021, art. 31** (boa-fé, diligência e lealdade): lida na elaboração da aula F16 (22/10/2026).
+- Programa Detalhado CPA (v1.2): itens 3.4.3 e 3.4.3.1 a 3.4.3.1.5 lidos no texto do PD do repositório.
+- Apostila CPA, p. 507–510: lida em sessão anterior.
+- Resolução CVM 35/2021, art. 31 (boa-fé, diligência e lealdade): lida na elaboração da aula F16 (22/10/2026).
 - **Citados de memória, sem reabrir o texto:** a exigência regulatória da advertência sobre desempenho passado em materiais de fundos; as regras do Código de Certificação ANBIMA sobre validade e atualização. **Conferir antes de gravar.**
-- **Convenções sem força normativa:** os cinco "verbos" das técnicas (entender, adaptar, antecipar, saber, alinhar); o caso do Sr. Ítalo e da Lia; a taxa de 10% a.a. do exemplo.
-- **Cálculos conferidos em Python:** 100.000 × 1,10 = 110.000; × 1,10⁵ = 161.051; n para dobrar = 7,27 anos (8 na HP12C).
-- **Acréscimos (➕):** o caso do Sr. Ítalo, a tabela de ações proativas, o limite da proatividade (conflito de interesses) e o cálculo do prazo realista para dobrar.
+- **Convenções sem força normativa:** os cinco verbos das técnicas (entender, adaptar, antecipar, saber, alinhar); o caso do Sr. Ítalo e da Lia; a taxa de 10% a.a. do exemplo.
+- **Cálculos conferidos em Python nesta revisão:** 100.000 × 1,10 = 110.000; × 1,10⁵ = 161.051; n para dobrar = 7,27 anos.
+- Revisão de estrutura: metáfora única (garçom que sugere o prato), caso antes da regra, objetivo e erro comum por bloco, fonte removida da fala, lista de pegadinhas com nome.
