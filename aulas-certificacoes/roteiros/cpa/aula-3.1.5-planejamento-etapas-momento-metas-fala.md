@@ -188,11 +188,11 @@ CPA 3.1.5 · 3.1.5.1 · 3.1.5.2 · 3.1.5.3 · Módulo 3 · **10 min** · Aula F1
 | --- | --- | --- | --- |
 | 1 | ⌨️ `f` `REG` `g` `END` `60000` `FV` `0,8` `i` `36` `n` `PMT` | 🖥️ −1.444,78 | Aporte mensal necessário |
 | 2 | ⌨️ `f` `REG` `1200` `CHS` `PMT` `0,8` `i` `36` `n` `FV` | 🖥️ 49.834,48 | O que ela junta poupando R$ 1.200 |
-| 3 | ⌨️ `f` `REG` `f` `2` `60000` `FV` `1200` `CHS` `PMT` `0,8` `i` `n` | 🖥️ 43,00 | Meses para chegar aos R$ 60 mil com R$ 1.200 |
+| 3 | ⌨️ `f` `REG` `f` `2` `60000` `FV` `1200` `CHS` `PMT` `0,8` `i` `n` | 🖥️ 42,23 | Meses para chegar aos R$ 60 mil com R$ 1.200 |
 
   - "A meta pede 1.444,78 por mês, e a Juliana poupa 1.200. Em 36 meses ela chega a cerca de 49.800. A meta não fecha."
   - "Há três saídas, e quem escolhe é ela: aumentar o aporte, estender o prazo ou reduzir o valor da entrada. Com o aporte de 1.200, ela chegaria em 42,23 meses, ou seja, 43 depósitos. Isso é a etapa 2 verificando a viabilidade e a etapa 3 definindo os ajustes."
-  - 🔇 A HP12C mostra 43,00 porque arredonda n para o inteiro de cima; a conta exata dá 42,23 meses. Taxa de 0,8% ao mês é hipótese didática; sem imposto.
+  - 🔇 A conta de `n` dá 42,23 meses; como a meta só fecha no 43º depósito, o prazo prático é 43 meses. Taxa de 0,8% ao mês é hipótese didática; sem imposto.
 - **Prioridade**
   - "A prioridade organiza a fila. Entram aqui objetivos como imóvel, reserva de emergência, aposentadoria e educação dos filhos. Na prática, a reserva costuma vir primeiro, porque protege todas as outras."
 - **Erro comum:** achar que a meta deve ser a mais ambiciosa possível. Ela deve caber na capacidade de poupança.
@@ -223,5 +223,5 @@ CPA 3.1.5 · 3.1.5.1 · 3.1.5.2 · 3.1.5.3 · Módulo 3 · **10 min** · Aula F1
 - Programa Detalhado CPA (v1.2): itens 3.1.5 a 3.1.5.3 lidos no texto do PD do repositório.
 - Apostila CPA, p. 482–486: definição e cinco decisões do planejamento; cinco etapas; revisão; cinco fatores do momento de vida; meta com valor, prazo e prioridade.
 - **Nenhuma norma ou dado de mercado** é citado.
-- **Cálculos conferidos em Python nesta revisão:** aporte necessário de 1.444,78; FV com R$ 1.200 de 49.834,48; prazo de 42,23 meses (43,00 no visor da HP12C).
+- **Cálculos conferidos em Python nesta revisão:** aporte necessário de 1.444,78; FV com R$ 1.200 de 49.834,48; prazo de 42,23 meses (43 depósitos).
 - Revisão de estrutura: metáfora única (mapa de viagem), caso antes da regra, objetivo e erro comum por bloco, fonte removida da fala, lista de pegadinhas com nome.

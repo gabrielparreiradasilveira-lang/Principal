@@ -97,10 +97,10 @@ Taxas e valores são hipóteses didáticas.
 | --- | --- | --- | --- |
 | 1 | ⌨️ `f` `REG` `8000` `ENTER` `6` `×` | 🖥️ 48.000,00 | Reserva de Carlos (6 meses) |
 | 2 | ⌨️ `8000` `ENTER` `12` `×` | 🖥️ 96.000,00 | Reserva de Beatriz (12 meses) |
-| 3 | ⌨️ `f` `2` `0,8` `i` `48000` `FV` `2000` `CHS` `PMT` `n` | 🖥️ 23,00 | Meses para o acúmulo de R$ 48.000 com R$ 2.000 por mês |
+| 3 | ⌨️ `f` `2` `0,8` `i` `48000` `FV` `2000` `CHS` `PMT` `n` | 🖥️ 22,04 | Meses para o acúmulo de R$ 48.000 com R$ 2.000 por mês |
 
 - "Mesma despesa, reservas diferentes: quarenta e oito mil e noventa e seis mil. A reserva de Carlos leva quase dois anos para ficar pronta. Por isso se começa aos poucos, e a meta é revista a cada mudança de vida."
-- 🔇 A HP12C mostra 23,00 porque arredonda n para o inteiro de cima; a conta exata dá 22,04 meses.
+- 🔇 A conta dá 22,04 meses. Como o valor só fecha depois do 22º depósito, são **23 depósitos** na prática.
 - **Erro comum:** achar que a reserva se mede em meses de renda. A medida é a despesa.
 
 | Frase de prova | Certo ou errado | Por quê |
@@ -160,7 +160,7 @@ Taxas e valores são hipóteses didáticas.
 ## Nota de verificação
 
 - PD 3.1.3.4 a 3.1.3.4.2 lido no texto do repositório. Apostila p. 477–478 e PDF "Reserva de emergência" lidos em sessão anterior.
-- Cálculos conferidos em Python nesta revisão: 6 × 8.000 = 48.000; 12 × 8.000 = 96.000; n = 22,04 meses (23,00 no visor da HP12C); 48.000 × 4,5% = 2.160; 1 × (1 − 0,225) = 0,775; 30.000 ÷ 8.000 = 3,75.
+- Cálculos conferidos em Python nesta revisão: 6 × 8.000 = 48.000; 12 × 8.000 = 96.000; n = 22,04 meses (23 depósitos na prática); 48.000 × 4,5% = 2.160; 1 × (1 − 0,225) = 0,775; 30.000 ÷ 8.000 = 3,75.
 - **Citados de memória:** cobertura do FGC (Res. CMN 4.222/2013), liquidez D+1 do Tesouro Selic, alíquota regressiva de IR e IOF dos primeiros 30 dias. **Conferir antes de gravar.**
 - Convenções: faixas de meses da reserva (prática de mercado), taxa de 0,8% a.m. e inflação de 4,5% (didáticas).
 - Revisão de estrutura: metáfora única (seguro caseiro), caso antes da regra, objetivo e erro comum por bloco, fonte removida da fala, lista de pegadinhas com nome.

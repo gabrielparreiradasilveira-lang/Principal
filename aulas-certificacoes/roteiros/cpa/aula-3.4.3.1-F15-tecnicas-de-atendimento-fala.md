@@ -55,7 +55,7 @@ CPA 3.4.3 · 3.4.3.1 · 3.4.3.1.1 · 3.4.3.1.2 · 3.4.3.1.3 · 3.4.3.1.4 · 3.4.
 | Valor | R$ 100.000 |
 | Expectativa do cliente | Dobrar em 1 ano |
 | Hipótese realista de 10% a.a. | 1 ano: **R$ 110.000**; 5 anos: **R$ 161.051** |
-| Tempo para dobrar a 10% a.a. | **7,27 anos** na conta exata; a HP12C mostra 8,00, porque arredonda n para o inteiro de cima |
+| Tempo para dobrar a 10% a.a. | **7,27 anos** (conta exata, com 2 casas) |
 
 Taxa de 10% a.a. é hipótese didática, e não projeção de produto.
 
@@ -238,7 +238,7 @@ Taxa de 10% a.a. é hipótese didática, e não projeção de produto.
 | --- | --- | --- | --- |
 | 1 | ⌨️ `f` `REG` `f` `2` `100000` `CHS` `PV` `10` `i` `1` `n` `FV` | 🖥️ 110.000,00 | Valor em 1 ano |
 | 2 | ⌨️ `5` `n` `FV` | 🖥️ 161.051,00 | Valor em 5 anos |
-| 3 | ⌨️ `200000` `FV` `n` | 🖥️ 8,00 | Anos para dobrar a 10% a.a. (conta exata 7,27; a HP12C arredonda n para o inteiro de cima) |
+| 3 | ⌨️ `200000` `FV` `n` | 🖥️ 7,27 | Anos para dobrar a 10% a.a. |
 
   - "A 10% ao ano, 100 mil viram 110 mil em um ano e 161 mil em cinco. Dobrar leva mais de sete anos. Quem promete dobrar em um ano promete algo que só um risco enorme poderia entregar."
   - 🔇 Taxa hipotética; não é projeção de produto.
@@ -276,5 +276,5 @@ Taxa de 10% a.a. é hipótese didática, e não projeção de produto.
 - Resolução CVM 35/2021, art. 31 (boa-fé, diligência e lealdade): lida na elaboração da aula F16 (22/10/2026).
 - **Citados de memória, sem reabrir o texto:** a exigência regulatória da advertência sobre desempenho passado em materiais de fundos; as regras do Código de Certificação ANBIMA sobre validade e atualização. **Conferir antes de gravar.**
 - **Convenções sem força normativa:** os cinco verbos das técnicas (entender, adaptar, antecipar, saber, alinhar); o caso do Sr. Ítalo e da Lia; a taxa de 10% a.a. do exemplo.
-- **Cálculos conferidos em Python nesta revisão:** 100.000 × 1,10 = 110.000; × 1,10⁵ = 161.051; n para dobrar = 7,27 anos (8,00 no visor da HP12C).
+- **Cálculos conferidos em Python nesta revisão:** 100.000 × 1,10 = 110.000; × 1,10⁵ = 161.051; n para dobrar = 7,27 anos.
 - Revisão de estrutura: metáfora única (garçom que sugere o prato), caso antes da regra, objetivo e erro comum por bloco, fonte removida da fala, lista de pegadinhas com nome.

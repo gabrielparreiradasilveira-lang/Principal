@@ -44,9 +44,9 @@ CPA 3.1 · 3.1.1 · 3.1.2 · 3.1.2.1 a 3.1.2.4 · Módulo 3 · **15 min** · Aul
 | Item | Valor |
 | --- | --- |
 | Queda de 30%: alta necessária para voltar (100 → 70) | **+42,86%** |
-| Tempo para recuperar a queda de 30% a 8% a.a. | **4,63 anos** na conta exata (a HP12C mostra 5,00) |
+| Tempo para recuperar a queda de 30% a 8% a.a. | **4,63 anos** (conta exata, com 2 casas) |
 | Patrimônio do Sr. Antônio na distribuição (hipótese) | R$ 1.000.000, retorno real de 4% a.a. |
-| Saque de 6% ao ano (R$ 60.000) | O patrimônio dura **28,01 anos** (a HP12C mostra 29,00) |
+| Saque de 6% ao ano (R$ 60.000) | O patrimônio dura **28,01 anos** |
 | Saque de 4% ao ano (R$ 40.000) | Igual ao rendimento real: o patrimônio **se mantém** |
 
 Taxas e valores são hipóteses didáticas.
@@ -100,7 +100,7 @@ Taxas e valores são hipóteses didáticas.
 
 | Passo | Teclas | Visor | O que significa |
 | --- | --- | --- | --- |
-| 2 | ⌨️ `70` `CHS` `PV` `100` `FV` `8` `i` `n` | 🖥️ 5,00 | Anos para a carteira voltar a cem (conta exata 4,63; a HP12C arredonda n para o inteiro de cima) |
+| 2 | ⌨️ `70` `CHS` `PV` `100` `FV` `8` `i` `n` | 🖥️ 4,63 | Anos para a carteira voltar a cem |
 
 - **Erro comum:** achar que uma queda de trinta e uma alta de trinta se anulam. A queda é sobre cem; a alta é sobre setenta.
 - Os perfis: **conservador** prioriza preservar o capital e tem carteira em renda fixa; **moderado** busca equilíbrio, com renda fixa e uma parte controlada em multimercados e ações; **arrojado** aceita volatilidade em busca de retorno maior no longo prazo.
@@ -144,7 +144,7 @@ Taxas e valores são hipóteses didáticas.
 
 | Passo | Teclas | Visor | O que significa |
 | --- | --- | --- | --- |
-| 1 | ⌨️ `f` `REG` `f` `2` `1000000` `CHS` `PV` `60000` `PMT` `4` `i` `n` | 🖥️ 29,00 | Anos até esgotar o patrimônio sacando R$ 60.000 por ano (conta exata 28,01; a HP12C arredonda n para o inteiro de cima) |
+| 1 | ⌨️ `f` `REG` `f` `2` `1000000` `CHS` `PV` `60000` `PMT` `4` `i` `n` | 🖥️ 28,01 | Anos até esgotar o patrimônio sacando R$ 60.000 por ano |
 
 - 🔇 Valores hipotéticos; a taxa real não é garantida e a longevidade é incerta.
 - **Erro comum:** achar que, na distribuição, o investidor deve concentrar a carteira em ativos de alta volatilidade para acelerar o crescimento. Ele precisa de previsibilidade e de fluxo.
@@ -172,6 +172,6 @@ Taxas e valores são hipóteses didáticas.
 ## Nota de verificação
 
 - PD 3.1 a 3.1.2.4 lido no texto do repositório. Apostila p. 465–470 e PDFs "Faixa etária…" e "Ciclo de vida…" lidos em sessão anterior.
-- Cálculos conferidos em Python nesta revisão: (100 ÷ 70) − 1 = 42,86%; n = 4,634 anos para recuperar 30% a 8% a.a.; n = 28,01 anos para patrimônio de R$ 1.000.000 com saque de R$ 60.000 e retorno real de 4%. No visor da HP12C, 5,00 e 29,00, porque ela arredonda n para o inteiro de cima.
+- Cálculos conferidos em Python nesta revisão: (100 ÷ 70) − 1 = 42,86%; n = 4,634 anos para recuperar 30% a 8% a.a.; n = 28,01 anos para patrimônio de R$ 1.000.000 com saque de R$ 60.000 e retorno real de 4%.
 - Convenções: perfis e fases de mercado; taxas e valores dos exemplos; casos de Gabriela e Sr. Antônio.
 - Revisão de estrutura: metáfora única (estações do ano), caso antes da regra, objetivo e erro comum por bloco, fonte removida da fala, lista de pegadinhas com nome.
