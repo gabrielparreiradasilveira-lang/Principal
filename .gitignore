@@ -33,3 +33,10 @@ yarn-error.log*
 # Temporary files
 *.tmp
 .claude/settings.local.json
+
+# Tool artifacts (local memory/workflow state)
+.claude-flow/
+.claude/mind.mv2
+.claude/mind.mv2.lock
+.claude/styles/
+.claude/workflows/
