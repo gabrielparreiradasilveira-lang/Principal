@@ -1,0 +1,3 @@
+faster-whisper>=1.1,<2
+# av 19 removeu um parâmetro que o faster-whisper usa (erro "metadata_errors")
+av>=12,<19

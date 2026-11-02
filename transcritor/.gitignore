@@ -1,0 +1,10 @@
+# Ambiente e modelos baixados (pesados, ficam só no seu computador)
+.venv/
+modelos/
+__pycache__/
+
+# Vídeos e transcrições não vão para o Git (tamanho e privacidade)
+entrada/*
+!entrada/.gitkeep
+saida/*
+!saida/.gitkeep

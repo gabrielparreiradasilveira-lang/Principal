@@ -1,0 +1,41 @@
+# Termos que o modelo deve reconhecer (um por linha).
+# Coloque SÓ os que ele erra. Limite: cerca de 40 termos (o script avisa se passar).
+CDB
+LCI
+LCA
+CRI
+CRA
+CDI
+Selic
+Copom
+IPCA
+IGP-M
+NTN-B
+LTN
+LFT
+Tesouro IPCA+
+FGC
+ANBIMA
+CVM
+Bacen
+CMN
+B3
+CPA-10
+CPA-20
+CEA
+CFP
+CGA
+CGE
+come-cotas
+IOF
+FII
+FIDC
+ETF
+PGBL
+VGBL
+debêntures
+duration
+spread
+benchmark
+VaR
+HP12C
