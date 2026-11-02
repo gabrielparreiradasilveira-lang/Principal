@@ -89,6 +89,8 @@ Teste feito em servidor de **4 núcleos, sem placa de vídeo**, com áudio sint�
 
 - Notebook com 8+ núcleos tende a ser mais rápido. Placa NVIDIA (GPU) costuma acelerar várias vezes (ordem de 5–10×).
 - O script detecta GPU NVIDIA sozinho. Se der erro na GPU, ele refaz na CPU.
+- **Memória (RAM):** o áudio é transcrito em blocos de 10 min, cortados num silêncio. Num vídeo de 2 h o pico foi de ~0,9 GB além do modelo, e esse valor quase não cresce com a duração.
+- **OBS com várias faixas de áudio:** o script usa a **faixa 1** (a mixagem principal).
 - **Precisão real só se mede com a SUA voz e o SEU microfone.** Antes de confiar, transcreva 1 aula e revise.
 
 ---
@@ -101,6 +103,7 @@ Teste feito em servidor de **4 núcleos, sem placa de vídeo**, com áudio sint�
 | Frases que você não falou ("Legendas pela comunidade Amara.org") | Alucinação do Whisper em silêncio/música. O script já remove as mais comuns. |
 | Muito lento | Use `--modo rapido` para rascunho, ou rode à noite com a pasta cheia. |
 | Erro de GPU / CUDA | Rode com `--dispositivo cpu`. |
+| `MemoryError`, `cannot allocate AudioFrame buffer`, `mkl_malloc` | Falta de RAM. Corrigido em 02/11/2026: antes, um vídeo de 2 h consumia ~6,4 GB; agora ~0,9 GB. Se ainda acontecer, feche OBS, navegador e editores de vídeo. |
 
 ---
 

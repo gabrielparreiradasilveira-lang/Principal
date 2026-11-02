@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import gc
 import os
 import re
 import sys
@@ -33,6 +34,9 @@ MODOS = {
     "equilibrado": "large-v3-turbo",  # padrão: quase a precisão do large-v3, bem mais rápido
     "maximo": "large-v3",             # mais preciso, mais lento
 }
+
+TAXA = 16000      # o Whisper trabalha com áudio em 16 kHz
+BLOCO_SEG = 600   # transcreve em blocos de 10 min: RAM constante para qualquer duração
 
 EXTENSOES = {
     ".mp4", ".mov", ".mkv", ".avi", ".webm", ".m4v", ".wmv",
@@ -250,32 +254,97 @@ def carregar_modelo(nome: str, dispositivo: str, threads: int):
                         cpu_threads=threads, download_root=str(PASTA / "modelos"))
 
 
-def transcrever(model, arquivo: Path, contexto: str):
-    segs_iter, info = model.transcribe(
-        str(arquivo),
-        language="pt",
-        beam_size=5,
-        vad_filter=True,                          # pula silêncios (menos alucinação)
-        vad_parameters={"min_silence_duration_ms": 500},
-        condition_on_previous_text=False,         # evita loops de repetição
-        hotwords=contexto,                        # estilo + glossário em toda janela
-        word_timestamps=True,                     # legendas bem cortadas
-        hallucination_silence_threshold=2.0,
-    )
+def carregar_audio(arquivo: Path):
+    """Extrai só o áudio, em 16 kHz mono int16 (~115 MB por hora de aula).
+    O faster-whisper sozinho guardaria o áudio inteiro em float32 e calcularia o
+    espectrograma de tudo de uma vez: ~3 GB de RAM por hora de vídeo."""
+    import av
+    import numpy as np
+    dados = bytearray()
+    with av.open(str(arquivo)) as cont:
+        if not cont.streams.audio:
+            raise ValueError("o arquivo não tem faixa de áudio")
+        faixa = cont.streams.audio[0]  # OBS: faixa 1 = mixagem principal
+        reamostrador = av.audio.resampler.AudioResampler(format="s16", layout="mono", rate=TAXA)
+        for pacote in cont.demux(faixa):
+            try:
+                quadros = pacote.decode()
+            except av.error.InvalidDataError:  # pedaço corrompido: pula
+                continue
+            for quadro in quadros:
+                for q in reamostrador.resample(quadro):
+                    dados += q.to_ndarray().tobytes()
+        for q in reamostrador.resample(None):  # esvazia o que sobrou
+            dados += q.to_ndarray().tobytes()
+    return np.frombuffer(dados, dtype=np.int16)
+
+
+def pontos_de_corte(audio, bloco_seg: int, busca_seg: int = 20) -> list[int]:
+    """Divide o áudio em blocos de ~bloco_seg, cortando no trecho mais silencioso
+    a até ±busca_seg do ponto ideal, para não partir uma palavra ao meio."""
+    import numpy as np
+    bloco, busca, quadro = bloco_seg * TAXA, busca_seg * TAXA, TAXA // 10  # quadro = 100 ms
+    cortes, pos = [0], bloco
+    while pos + busca < len(audio):
+        ini = pos - busca
+        trecho = audio[ini:pos + busca].astype(np.float32)
+        n = len(trecho) // quadro
+        energia = np.sqrt((trecho[:n * quadro].reshape(n, quadro) ** 2).mean(axis=1))
+        energia = np.convolve(energia, np.ones(4) / 4, mode="same")  # janela de ~0,4 s
+        corte = ini + int(np.argmin(energia)) * quadro + quadro // 2
+        cortes.append(corte)
+        pos = corte + bloco
+    cortes.append(len(audio))
+    return cortes
+
+
+def transcrever(model, audio, contexto: str, bloco_seg: int = BLOCO_SEG):
+    import numpy as np
+    duracao = len(audio) / TAXA
     palavras, ultimo_texto = [], None
-    for seg in segs_iter:
-        texto = seg.text.strip()
-        pct = min(100, seg.end / max(info.duration, 1) * 100)
-        print(f"\r  {pct:5.1f}%  [{tempo_curto(seg.end)} / {tempo_curto(info.duration)}]",
-              end="", flush=True)
-        if not texto or ALUCINACOES.search(texto):
-            continue
-        if texto == ultimo_texto and len(texto) > 20:  # frase longa repetida = loop
-            continue
-        ultimo_texto = texto
-        palavras.extend(Palavra(w.start, w.end, w.word) for w in (seg.words or []))
+    cortes = pontos_de_corte(audio, bloco_seg)
+    for a, b in zip(cortes, cortes[1:]):
+        inicio = a / TAXA
+        trecho = audio[a:b].astype(np.float32) / 32768.0
+        segs_iter, _ = model.transcribe(
+            trecho,
+            language="pt",
+            beam_size=5,
+            vad_filter=True,                          # pula silêncios (menos alucinação)
+            vad_parameters={"min_silence_duration_ms": 500},
+            condition_on_previous_text=False,         # evita loops de repetição
+            hotwords=contexto,                        # estilo + glossário em toda janela
+            word_timestamps=True,                     # legendas bem cortadas
+            hallucination_silence_threshold=2.0,
+        )
+        for seg in segs_iter:
+            texto = seg.text.strip()
+            fim = inicio + seg.end
+            pct = min(100, fim / max(duracao, 1) * 100)
+            print(f"\r  {pct:5.1f}%  [{tempo_curto(fim)} / {tempo_curto(duracao)}]",
+                  end="", flush=True)
+            if not texto or ALUCINACOES.search(texto):
+                continue
+            if texto == ultimo_texto and len(texto) > 20:  # frase longa repetida = loop
+                continue
+            ultimo_texto = texto
+            palavras.extend(Palavra(inicio + w.start, inicio + w.end, w.word)
+                            for w in (seg.words or []))
+        del trecho
     print()
-    return palavras, info
+    return palavras, duracao
+
+
+def erro_de_gpu(erro: Exception) -> bool:
+    msg = str(erro).lower()
+    return any(k in msg for k in ("cuda", "cublas", "cudnn", "cudart"))
+
+
+def descrever_erro(erro: Exception) -> str:
+    if isinstance(erro, MemoryError) or "allocate" in str(erro).lower():
+        return ("memória RAM insuficiente. Feche OBS, navegador e editores de vídeo "
+                "e rode de novo (ou use --modo rapido)")
+    return f"{type(erro).__name__}: {erro}"
 
 
 def listar_arquivos(alvos: list[str]) -> list[Path]:
@@ -301,6 +370,7 @@ def main():
     ap.add_argument("--dispositivo", choices=["auto", "cpu", "cuda"], default="auto")
     ap.add_argument("--threads", type=int, default=os.cpu_count() or 4)
     ap.add_argument("--forcar", action="store_true", help="refaz arquivos já transcritos")
+    ap.add_argument("--bloco", type=int, default=BLOCO_SEG, help=argparse.SUPPRESS)  # testes
     args = ap.parse_args()
 
     arquivos = listar_arquivos(args.alvos)
@@ -336,23 +406,40 @@ def main():
         print(f"\n[{n}/{len(pendentes)}] {arquivo.name}")
         t0 = time.time()
         try:
-            palavras, info = transcrever(model, arquivo, contexto)
+            audio = carregar_audio(arquivo)
         except Exception as erro:
-            if dispositivo != "cuda":
-                print(f"\n  ERRO: {erro}  (arquivo pulado)")
-                continue
-            print(f"\n  GPU falhou ({erro}). Tentando de novo na CPU...")
+            print(f"  ERRO ao ler o áudio: {descrever_erro(erro)}  (arquivo pulado)")
+            continue
+        print(f"  Áudio extraído: {tempo_curto(len(audio) / TAXA)} de duração")
+
+        resultado, falhou_na_gpu = None, False
+        try:
+            resultado = transcrever(model, audio, contexto, args.bloco)
+        except Exception as erro:
+            if dispositivo == "cuda" and erro_de_gpu(erro):
+                falhou_na_gpu = True
+                print(f"\n  GPU falhou ({erro}). Tentando de novo na CPU...")
+            else:
+                print(f"\n  ERRO: {descrever_erro(erro)}  (arquivo pulado)")
+        if falhou_na_gpu:  # fora do except: a memória do erro já foi liberada
+            del model
+            gc.collect()
             dispositivo = "cpu"
-            model = carregar_modelo(MODOS[args.modo], "cpu", args.threads)
             try:
-                palavras, info = transcrever(model, arquivo, contexto)
-            except Exception as erro_cpu:
-                print(f"\n  ERRO: {erro_cpu}  (arquivo pulado)")
-                continue
+                model = carregar_modelo(MODOS[args.modo], "cpu", args.threads)
+                resultado = transcrever(model, audio, contexto, args.bloco)
+            except Exception as erro:
+                print(f"\n  ERRO na CPU: {descrever_erro(erro)}")
+                return 1
+        del audio
+        if resultado is None:
+            continue
+
+        palavras, duracao = resultado
         salvar_saidas(destino, arquivo.stem, palavras, regras)
         gasto = time.time() - t0
-        print(f"  OK: {tempo_curto(info.duration)} de aula em {tempo_curto(gasto)} "
-              f"({info.duration / max(gasto, 0.01):.1f}x o tempo real) -> {destino / arquivo.stem}.*")
+        print(f"  OK: {tempo_curto(duracao)} de aula em {tempo_curto(gasto)} "
+              f"({duracao / max(gasto, 0.01):.1f}x o tempo real) -> {destino / arquivo.stem}.*")
 
     print("\nPronto.")
     return 0
