@@ -9,9 +9,9 @@
    "tipo": "desenho",
    "id": "alvo",
    "nome": "alvo",
-   "x": 60,
-   "y": 150,
-   "largura": 150,
+   "x": 60.0,
+   "y": 140,
+   "largura": 125,
    "cor": "verde"
   },
   {
@@ -19,16 +19,16 @@
    "texto": "alvo",
    "abaixo_de": "alvo",
    "distancia": 12,
-   "tamanho": 30,
+   "tamanho": 28,
    "cor": "cinza"
   },
   {
    "tipo": "desenho",
    "id": "ampulheta",
    "nome": "ampulheta",
-   "x": 325,
-   "y": 150,
-   "largura": 150,
+   "x": 292.0,
+   "y": 140,
+   "largura": 125,
    "cor": "amarelo"
   },
   {
@@ -36,16 +36,16 @@
    "texto": "ampulheta",
    "abaixo_de": "ampulheta",
    "distancia": 12,
-   "tamanho": 30,
+   "tamanho": 28,
    "cor": "cinza"
   },
   {
    "tipo": "desenho",
    "id": "balanca",
    "nome": "balanca",
-   "x": 590,
-   "y": 150,
-   "largura": 150,
+   "x": 524.0,
+   "y": 140,
+   "largura": 125,
    "cor": "azul"
   },
   {
@@ -53,84 +53,101 @@
    "texto": "balanca",
    "abaixo_de": "balanca",
    "distancia": 12,
-   "tamanho": 30,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "balanca_peso",
+   "nome": "balanca_peso",
+   "x": 756.0,
+   "y": 140,
+   "largura": 125,
+   "cor": "laranja"
+  },
+  {
+   "tipo": "texto",
+   "texto": "balanca_peso",
+   "abaixo_de": "balanca_peso",
+   "distancia": 12,
+   "tamanho": 28,
    "cor": "cinza"
   },
   {
    "tipo": "desenho",
    "id": "balao",
    "nome": "balao",
-   "x": 855,
-   "y": 150,
-   "largura": 150,
-   "cor": "laranja"
+   "x": 988.0,
+   "y": 140,
+   "largura": 125,
+   "cor": "rosa"
   },
   {
    "tipo": "texto",
    "texto": "balao",
    "abaixo_de": "balao",
    "distancia": 12,
-   "tamanho": 30,
+   "tamanho": 28,
    "cor": "cinza"
   },
   {
    "tipo": "desenho",
    "id": "banco",
    "nome": "banco",
-   "x": 1120,
-   "y": 150,
-   "largura": 150,
-   "cor": "rosa"
+   "x": 1220.0,
+   "y": 140,
+   "largura": 125,
+   "cor": "branco"
   },
   {
    "tipo": "texto",
    "texto": "banco",
    "abaixo_de": "banco",
    "distancia": 12,
-   "tamanho": 30,
+   "tamanho": 28,
    "cor": "cinza"
   },
   {
    "tipo": "desenho",
    "id": "carro",
    "nome": "carro",
-   "x": 1385,
-   "y": 150,
-   "largura": 150,
-   "cor": "branco"
+   "x": 1452.0,
+   "y": 140,
+   "largura": 125,
+   "cor": "vermelho"
   },
   {
    "tipo": "texto",
    "texto": "carro",
    "abaixo_de": "carro",
    "distancia": 12,
-   "tamanho": 30,
+   "tamanho": 28,
    "cor": "cinza"
   },
   {
    "tipo": "desenho",
    "id": "casa",
    "nome": "casa",
-   "x": 1650,
-   "y": 150,
-   "largura": 150,
-   "cor": "vermelho"
+   "x": 1684.0,
+   "y": 140,
+   "largura": 125,
+   "cor": "roxo"
   },
   {
    "tipo": "texto",
    "texto": "casa",
    "abaixo_de": "casa",
    "distancia": 12,
-   "tamanho": 30,
+   "tamanho": 28,
    "cor": "cinza"
   },
   {
    "tipo": "desenho",
    "id": "check",
    "nome": "check",
-   "x": 60,
-   "y": 460,
-   "largura": 150,
+   "x": 60.0,
+   "y": 450,
+   "largura": 125,
    "cor": "verde"
   },
   {
@@ -138,16 +155,16 @@
    "texto": "check",
    "abaixo_de": "check",
    "distancia": 12,
-   "tamanho": 30,
+   "tamanho": 28,
    "cor": "cinza"
   },
   {
    "tipo": "desenho",
    "id": "cofrinho",
    "nome": "cofrinho",
-   "x": 325,
-   "y": 460,
-   "largura": 150,
+   "x": 292.0,
+   "y": 450,
+   "largura": 125,
    "cor": "amarelo"
   },
   {
@@ -155,16 +172,16 @@
    "texto": "cofrinho",
    "abaixo_de": "cofrinho",
    "distancia": 12,
-   "tamanho": 30,
+   "tamanho": 28,
    "cor": "cinza"
   },
   {
    "tipo": "desenho",
    "id": "dinheiro",
    "nome": "dinheiro",
-   "x": 590,
-   "y": 460,
-   "largura": 150,
+   "x": 524.0,
+   "y": 450,
+   "largura": 125,
    "cor": "azul"
   },
   {
@@ -172,16 +189,16 @@
    "texto": "dinheiro",
    "abaixo_de": "dinheiro",
    "distancia": 12,
-   "tamanho": 30,
+   "tamanho": 28,
    "cor": "cinza"
   },
   {
    "tipo": "desenho",
    "id": "estrela",
    "nome": "estrela",
-   "x": 855,
-   "y": 460,
-   "largura": 150,
+   "x": 756.0,
+   "y": 450,
+   "largura": 125,
    "cor": "laranja"
   },
   {
@@ -189,16 +206,16 @@
    "texto": "estrela",
    "abaixo_de": "estrela",
    "distancia": 12,
-   "tamanho": 30,
+   "tamanho": 28,
    "cor": "cinza"
   },
   {
    "tipo": "desenho",
    "id": "exclamacao",
    "nome": "exclamacao",
-   "x": 1120,
-   "y": 460,
-   "largura": 150,
+   "x": 988.0,
+   "y": 450,
+   "largura": 125,
    "cor": "rosa"
   },
   {
@@ -206,16 +223,16 @@
    "texto": "exclamacao",
    "abaixo_de": "exclamacao",
    "distancia": 12,
-   "tamanho": 30,
+   "tamanho": 28,
    "cor": "cinza"
   },
   {
    "tipo": "desenho",
    "id": "grafico_alta",
    "nome": "grafico_alta",
-   "x": 1385,
-   "y": 460,
-   "largura": 150,
+   "x": 1220.0,
+   "y": 450,
+   "largura": 125,
    "cor": "branco"
   },
   {
@@ -223,16 +240,16 @@
    "texto": "grafico_alta",
    "abaixo_de": "grafico_alta",
    "distancia": 12,
-   "tamanho": 30,
+   "tamanho": 28,
    "cor": "cinza"
   },
   {
    "tipo": "desenho",
    "id": "grafico_baixa",
    "nome": "grafico_baixa",
-   "x": 1650,
-   "y": 460,
-   "largura": 150,
+   "x": 1452.0,
+   "y": 450,
+   "largura": 125,
    "cor": "vermelho"
   },
   {
@@ -240,92 +257,143 @@
    "texto": "grafico_baixa",
    "abaixo_de": "grafico_baixa",
    "distancia": 12,
-   "tamanho": 30,
+   "tamanho": 28,
    "cor": "cinza"
   },
   {
    "tipo": "desenho",
    "id": "lampada",
    "nome": "lampada",
-   "x": 60,
-   "y": 770,
-   "largura": 150,
-   "cor": "verde"
+   "x": 1684.0,
+   "y": 450,
+   "largura": 125,
+   "cor": "roxo"
   },
   {
    "tipo": "texto",
    "texto": "lampada",
    "abaixo_de": "lampada",
    "distancia": 12,
-   "tamanho": 30,
+   "tamanho": 28,
    "cor": "cinza"
   },
   {
    "tipo": "desenho",
    "id": "moeda",
    "nome": "moeda",
-   "x": 325,
-   "y": 770,
-   "largura": 150,
-   "cor": "amarelo"
+   "x": 60.0,
+   "y": 760,
+   "largura": 125,
+   "cor": "verde"
   },
   {
    "tipo": "texto",
    "texto": "moeda",
    "abaixo_de": "moeda",
    "distancia": 12,
-   "tamanho": 30,
+   "tamanho": 28,
    "cor": "cinza"
   },
   {
    "tipo": "desenho",
    "id": "pessoa",
    "nome": "pessoa",
-   "x": 590,
-   "y": 770,
-   "largura": 90,
-   "cor": "azul"
+   "x": 317.0,
+   "y": 760,
+   "largura": 75,
+   "cor": "amarelo"
   },
   {
    "tipo": "texto",
    "texto": "pessoa",
    "abaixo_de": "pessoa",
    "distancia": 12,
-   "tamanho": 30,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "prancheta",
+   "nome": "prancheta",
+   "x": 524.0,
+   "y": 760,
+   "largura": 125,
+   "cor": "azul"
+  },
+  {
+   "tipo": "texto",
+   "texto": "prancheta",
+   "abaixo_de": "prancheta",
+   "distancia": 12,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "receita",
+   "nome": "receita",
+   "x": 756.0,
+   "y": 760,
+   "largura": 125,
+   "cor": "laranja"
+  },
+  {
+   "tipo": "texto",
+   "texto": "receita",
+   "abaixo_de": "receita",
+   "distancia": 12,
+   "tamanho": 28,
    "cor": "cinza"
   },
   {
    "tipo": "desenho",
    "id": "termometro",
    "nome": "termometro",
-   "x": 855,
-   "y": 770,
-   "largura": 90,
-   "cor": "laranja"
+   "x": 1013.0,
+   "y": 760,
+   "largura": 75,
+   "cor": "rosa"
   },
   {
    "tipo": "texto",
    "texto": "termometro",
    "abaixo_de": "termometro",
    "distancia": 12,
-   "tamanho": 30,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "tubo_ensaio",
+   "nome": "tubo_ensaio",
+   "x": 1220.0,
+   "y": 760,
+   "largura": 125,
+   "cor": "branco"
+  },
+  {
+   "tipo": "texto",
+   "texto": "tubo_ensaio",
+   "abaixo_de": "tubo_ensaio",
+   "distancia": 12,
+   "tamanho": 28,
    "cor": "cinza"
   },
   {
    "tipo": "desenho",
    "id": "xis",
    "nome": "xis",
-   "x": 1120,
-   "y": 770,
-   "largura": 150,
-   "cor": "rosa"
+   "x": 1452.0,
+   "y": 760,
+   "largura": 125,
+   "cor": "vermelho"
   },
   {
    "tipo": "texto",
    "texto": "xis",
    "abaixo_de": "xis",
    "distancia": 12,
-   "tamanho": 30,
+   "tamanho": 28,
    "cor": "cinza"
   }
  ]
