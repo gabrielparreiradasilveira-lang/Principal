@@ -1,60 +1,200 @@
 {
-  "padrao": {"fundo": "preto", "imperfeicao": 1.0},
-  "slides": [
+ "padrao": {
+  "fundo": "preto",
+  "imperfeicao": 1.0
+ },
+ "slides": [
+  {
+   "saida": "monetaria-x-fiscal_01.png",
+   "semente": 11,
+   "elementos": [
     {
-      "saida": "monetaria-x-fiscal_01.png",
-      "semente": 11,
-      "elementos": [
-        {"tipo": "titulo", "texto": "POLÍTICA MONETÁRIA: o freio da economia (cpa 1.2.4)"},
-
-        {"tipo": "texto", "id": "cadeia", "x": 80, "y": 190, "largura": 1150, "tamanho": 54,
-         "texto": "Selic {amarelo:SOBE} → crédito fica caro → consumo cai → {verde:inflação desacelera}"},
-
-        {"tipo": "texto", "id": "analogia", "x": 80, "y": 560, "tamanho": 64, "cor": "laranja",
-         "texto": "juros = FREIO do carro"},
-        {"tipo": "sublinhar", "alvo": "analogia"},
-        {"tipo": "desenho", "id": "carro", "nome": "carro", "direita_de": "analogia", "distancia": 70,
-         "largura": 260, "cor": "laranja"},
-
-        {"tipo": "desenho", "id": "termometro", "nome": "termometro", "x": 1560, "y": 170, "largura": 120,
-         "cor": "vermelho"},
-        {"tipo": "texto", "id": "inflacao", "texto": "inflação", "abaixo_de": "termometro", "distancia": 20,
-         "tamanho": 40, "cor": "vermelho"},
-
-        {"tipo": "texto", "id": "fixe", "x": "centro", "y": 870, "tamanho": 50, "cor": "amarelo",
-         "texto": "Selic alta segura preço; Selic baixa acelera economia"},
-        {"tipo": "circular", "alvo": "fixe", "margem": 24},
-
-        {"tipo": "seta", "de": "cadeia", "para": "analogia", "curva": -0.15}
-      ]
+     "tipo": "titulo",
+     "texto": "POLÍTICA MONETÁRIA: o freio da economia (cpa 1.2.4)"
     },
     {
-      "saida": "monetaria-x-fiscal_02.png",
-      "fundo": "lousa",
-      "semente": 3,
-      "elementos": [
-        {"tipo": "titulo", "texto": "MONETÁRIA x FISCAL: quem mexe em quê?", "cor": "branco"},
-
-        {"tipo": "texto", "id": "col1", "x": 120, "y": 170, "tamanho": 58, "cor": "amarelo", "texto": "MONETÁRIA"},
-        {"tipo": "sublinhar", "alvo": "col1"},
-        {"tipo": "texto", "id": "itens1", "x": 120, "y": 300, "largura": 700, "tamanho": 46,
-         "texto": "Quem: Banco Central (Copom)\nFerramenta: juros (Selic)"},
-        {"tipo": "desenho", "nome": "banco", "x": 300, "y": 620, "largura": 260, "cor": "amarelo"},
-
-        {"tipo": "linha", "pontos": [[960, 170], [955, 600], [962, 980]], "cor": "branco", "espessura": 4},
-
-        {"tipo": "texto", "id": "col2", "x": 1080, "y": 170, "tamanho": 58, "cor": "azul", "texto": "FISCAL"},
-        {"tipo": "sublinhar", "alvo": "col2"},
-        {"tipo": "texto", "id": "itens2", "x": 1080, "y": 300, "largura": 720, "tamanho": 46,
-         "texto": "Quem: Governo (Tesouro)\nFerramentas: gastos e tributos"},
-        {"tipo": "desenho", "nome": "dinheiro", "x": 1260, "y": 640, "largura": 300, "cor": "azul"},
-
-        {"tipo": "texto", "id": "erro", "x": 1080, "y": 900, "tamanho": 42, "cor": "rosa",
-         "texto": "fiscal é o Banco Central"},
-        {"tipo": "riscar", "alvo": "erro", "estilo": "linha"},
-        {"tipo": "desenho", "nome": "exclamacao", "esquerda_de": "erro", "distancia": 30, "largura": 70,
-         "cor": "rosa"}
-      ]
+     "tipo": "texto",
+     "id": "cadeia",
+     "x": 80,
+     "y": 190,
+     "largura": 1150,
+     "tamanho": 54,
+     "texto": "Selic {amarelo:SOBE} → crédito fica caro → consumo cai → {verde:inflação desacelera}"
+    },
+    {
+     "tipo": "texto",
+     "id": "analogia",
+     "x": 80,
+     "y": 560,
+     "tamanho": 64,
+     "cor": "laranja",
+     "texto": "juros = FREIO do carro"
+    },
+    {
+     "tipo": "sublinhar",
+     "alvo": "analogia"
+    },
+    {
+     "tipo": "desenho",
+     "id": "carro",
+     "nome": "carro",
+     "direita_de": "analogia",
+     "distancia": 70,
+     "largura": 260,
+     "cor": "laranja"
+    },
+    {
+     "tipo": "desenho",
+     "id": "termometro",
+     "nome": "termometro",
+     "x": 1640,
+     "y": 230,
+     "largura": 120,
+     "cor": "vermelho"
+    },
+    {
+     "tipo": "texto",
+     "id": "inflacao",
+     "texto": "inflação",
+     "abaixo_de": "termometro",
+     "distancia": 20,
+     "tamanho": 40,
+     "cor": "vermelho"
+    },
+    {
+     "tipo": "texto",
+     "id": "fixe",
+     "x": 120,
+     "y": 840,
+     "tamanho": 40,
+     "cor": "amarelo",
+     "texto": "Selic alta segura preço; Selic baixa acelera economia",
+     "largura": 1250
+    },
+    {
+     "tipo": "circular",
+     "alvo": "fixe",
+     "margem": 24
+    },
+    {
+     "tipo": "seta",
+     "de": "cadeia",
+     "para": "analogia",
+     "curva": -0.15
     }
-  ]
+   ]
+  },
+  {
+   "saida": "monetaria-x-fiscal_02.png",
+   "semente": 3,
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "MONETÁRIA x FISCAL: quem mexe em quê?",
+     "cor": "branco"
+    },
+    {
+     "tipo": "texto",
+     "id": "col1",
+     "x": 120,
+     "y": 170,
+     "tamanho": 58,
+     "cor": "amarelo",
+     "texto": "MONETÁRIA"
+    },
+    {
+     "tipo": "sublinhar",
+     "alvo": "col1"
+    },
+    {
+     "tipo": "texto",
+     "id": "itens1",
+     "x": 120,
+     "y": 300,
+     "largura": 700,
+     "tamanho": 46,
+     "texto": "Quem: Banco Central (Copom)\nFerramenta: juros (Selic)"
+    },
+    {
+     "tipo": "desenho",
+     "nome": "banco",
+     "x": 300,
+     "y": 620,
+     "largura": 260,
+     "cor": "amarelo"
+    },
+    {
+     "tipo": "linha",
+     "pontos": [
+      [
+       960,
+       170
+      ],
+      [
+       955,
+       600
+      ],
+      [
+       962,
+       980
+      ]
+     ],
+     "cor": "branco",
+     "espessura": 4
+    },
+    {
+     "tipo": "texto",
+     "id": "col2",
+     "x": 1080,
+     "y": 170,
+     "tamanho": 58,
+     "cor": "ciano",
+     "texto": "FISCAL"
+    },
+    {
+     "tipo": "sublinhar",
+     "alvo": "col2"
+    },
+    {
+     "tipo": "texto",
+     "id": "itens2",
+     "x": 1080,
+     "y": 300,
+     "largura": 720,
+     "tamanho": 46,
+     "texto": "Quem: Governo (Tesouro)\nFerramentas: gastos e tributos"
+    },
+    {
+     "tipo": "desenho",
+     "nome": "dinheiro",
+     "x": 1260,
+     "y": 640,
+     "largura": 300,
+     "cor": "ciano"
+    },
+    {
+     "tipo": "texto",
+     "id": "erro",
+     "x": 1060,
+     "y": 860,
+     "tamanho": 32,
+     "cor": "vermelho",
+     "texto": "fiscal é o Banco Central"
+    },
+    {
+     "tipo": "riscar",
+     "alvo": "erro",
+     "estilo": "linha"
+    },
+    {
+     "tipo": "desenho",
+     "nome": "exclamacao",
+     "esquerda_de": "erro",
+     "distancia": 30,
+     "largura": 70,
+     "cor": "vermelho"
+    }
+   ]
+  }
+ ]
 }

@@ -34,6 +34,8 @@ import desenhos as DES  # noqa: E402
 
 RAIZ = os.path.dirname(AQUI)
 FONTE_PADRAO = os.path.join(RAIZ, "assets", "fontes", "PermanentMarker-Regular.ttf")
+# Rótulo das teclas da HP12C: letra de mão mais limpa (na Permanent Marker, G e S parecem 6 e 5).
+FONTE_TECLA = os.path.join(RAIZ, "assets", "fontes", "Pangolin-Regular.ttf")
 
 SS = 2  # desenha em 2x e reduz no fim: borda suave sem perder o tremor
 
@@ -48,13 +50,28 @@ PALETA = {
     "rosa": "#FF5FC8",
     "roxo": "#B98CFF",
     "cinza": "#9A9A9A",
+    "ciano": "#2FE0F5",  # subtítulos (padrão visual X8)
 }
 FUNDOS = {"preto": "#000000", "grafite": "#1B1B1D", "lousa": "#1E3528", "azul-noite": "#0D1B2A"}
 
 # Símbolos que a fonte não tem: as setas viram rabisco de seta; o resto vira texto equivalente.
 SETAS_TEXTO = {"→": 0, "←": 180, "↑": -90, "↓": 90, "↗": -40, "↘": 40, "⇒": 0}
-TROCAS = {"≥": ">=", "≤": "<=", "≠": "=/=", "\t": " ", "\r": ""}
+TROCAS = {"≥": ">=", "≤": "<=", "≠": "=/=", "\t": " ", "\r": "", "∑": "Σ"}
 MARCA = re.compile(r"\{([#\w-]+):([^{}]*)\}")
+# Emojis viram desenho (padrão X8): check verde, X vermelho, triângulo de alerta vermelho.
+EMOJIS = {"✅": "✓", "✔": "✓", "☑": "✓", "✓": "✓", "❌": "✗", "✗": "✗", "✘": "✗", "❎": "✗",
+          "✖": "✗", "⚠": "⚠"}
+DESENHADOS = set(SETAS_TEXTO) | {"✓", "✗", "⚠", "Σ"}  # desenhados à mão, não vêm da fonte
+INVISIVEIS = {"\ufe0f", "\ufe0e", "\u200d"}  # seletores de emoji
+MACRON = "\u0304"  # barra em cima (x̄ da HP12C)
+TECLA = re.compile(r"\[([^\[\]\n]{1,14})\]")  # [ENTER] = tecla da HP12C em caixinha
+MARCADOR_NUM = re.compile(r"(\d{1,2})[.)] ")  # "1. " no começo da linha = número em circulinho
+# Cantos que ficam livres (padrão X8): logo no alto à direita, webcam embaixo à direita.
+AREAS_LIVRES = [["logo X8", 1560, 0, 1920, 190], ["webcam", 1600, 760, 1920, 1080]]
+LATEX = re.compile(r"\\[A-Za-z]+|\$[^$\n]+\$|\^\{|_\{")
+DECIMAL_PONTO = re.compile(r"(?<![\d.,])\d+\.\d{1,2}(?![\d.])")
+SEM_MILHAR = re.compile(r"(?<![\d.,])\d{5,}(?![\d.,])")
+ITEM_PD = re.compile(r"(cpa|c-?pro[- ]?[ri]?|cfp|cga|cge|pd|item|itens|art|módulo|modulo|r)\W*$")
 
 
 class ErroRoteiro(Exception):
@@ -141,6 +158,11 @@ class Lousa:
         self.H = int(spec.get("altura", 1080))
         self.imp_base = self.imp = float(spec.get("imperfeicao", 1.0))
         self.peso_base = self.peso = float(spec.get("peso", 1.0))  # engrossa a letra (0 = fonte pura)
+        # padrão X8: letra reta, alinhada e em caixa alta; o tremor fica nos traços (caixas, setas, desenhos)
+        self.tremor_texto = float(spec.get("tremor_texto", 0.0))
+        self.maiusculas = bool(spec.get("maiusculas", True))
+        areas = spec.get("areas_livres", AREAS_LIVRES)
+        self.areas = [list(a) for a in (areas or [])]
         self.rng = random.Random(spec.get("semente", 7))
         # ruído do fundo/giz com semente própria: mesma semente = mesma imagem, byte a byte
         self.rng_fundo = random.Random(f"fundo-{spec.get('semente', 7)}")
@@ -163,6 +185,7 @@ class Lousa:
         self.reg = {}
         self._fontes, self._masc, self._tem = {}, {}, {}
         self._notdef = None
+        self._modo_tecla = False  # True enquanto mede/desenha o rótulo de uma tecla
 
     # ------------------------------------------------------------------ fundo
     def criar_fundo(self, nome, textura):
@@ -244,13 +267,22 @@ class Lousa:
 
     # ------------------------------------------------------------------ letras
     def fonte(self, tam):
-        k = max(4, round(tam * SS))
+        caminho = FONTE_TECLA if self._modo_tecla and os.path.exists(FONTE_TECLA) else self.fonte_path
+        k = (caminho, max(4, round(tam * SS)))
         if k not in self._fontes:
-            self._fontes[k] = ImageFont.truetype(self.fonte_path, k)
+            self._fontes[k] = ImageFont.truetype(caminho, k[1])
         return self._fontes[k]
 
+    def em_tecla(self, func, *args):
+        """Executa func com a fonte das teclas ligada."""
+        antes, self._modo_tecla = self._modo_tecla, True
+        try:
+            return func(*args)
+        finally:
+            self._modo_tecla = antes
+
     def tem_glifo(self, ch):
-        if ch.isspace() or ch in SETAS_TEXTO or ord(ch) < 127:
+        if ch.isspace() or ch in DESENHADOS or ord(ch) < 127:
             return True
         if ch not in self._tem:
             f = self.fonte(40)
@@ -266,9 +298,34 @@ class Lousa:
         return self._tem[ch]
 
     def avanco(self, ch, tam):
-        if ch in SETAS_TEXTO:
+        """Largura de um item de texto: letra, tecla "\\x01ROTULO", letra com barra "\\x02x" ou símbolo desenhado."""
+        if ch.startswith("\x01"):
+            tk = self.tam_tecla(tam)
+            return self.em_tecla(lambda: sum(self.avanco(t, tk) for t in self.rotulo(ch[1:]))) + tam * 0.62
+        if ch.startswith("\x02"):
+            ch = ch[1:]
+        if ch in SETAS_TEXTO or ch in ("✓", "✗", "⚠"):
             return tam * 0.95
+        if ch == "Σ":
+            return tam * 0.62
         return self.fonte(tam).getlength(ch) / SS
+
+    @staticmethod
+    def tam_tecla(tam):
+        return max(28.0, tam * 0.8)  # rótulo da tecla: nunca abaixo do mínimo de 28 px
+
+    @staticmethod
+    def rotulo(rot):
+        """Itens do rótulo de uma tecla (x̄ vira "\\x02x"; ∑ vira Σ)."""
+        out = []
+        for c in rot:
+            if c in INVISIVEIS:
+                continue
+            if c == MACRON and out:
+                out[-1] = "\x02" + out[-1][-1]
+                continue
+            out.append(TROCAS.get(c, c) if c == "∑" else c)
+        return out
 
     def metricas(self, tam):
         f = self.fonte(tam)
@@ -278,7 +335,7 @@ class Lousa:
 
     def mascara(self, ch, tam):
         raio = round(self.peso * tam * SS * 0.015)
-        k = (ch, round(tam * SS), raio)
+        k = (ch, round(tam * SS), raio, self._modo_tecla)
         if k not in self._masc:
             f = self.fonte(tam)
             l, t, r, b = f.getbbox(ch, anchor="ls")
@@ -294,7 +351,7 @@ class Lousa:
     def letra(self, ch, x, base, tam, cor, ang=0.0, esc=1.0):
         """Desenha uma letra com a base em (x, base), girada/escalada e endireitada."""
         im, ax, ay = self.mascara(ch, tam)
-        k, c, s = self.deslant, math.cos(ang), math.sin(ang)
+        k, c, s = (0.0 if self._modo_tecla else self.deslant), math.cos(ang), math.sin(ang)
         F = (esc * c, esc * (c * k - s), esc * s, esc * (s * k + c))
         det = F[0] * F[3] - F[1] * F[2]
         i00, i01, i10, i11 = F[3] / det, -F[1] / det, -F[2] / det, F[0] / det
@@ -313,27 +370,172 @@ class Lousa:
         self.tracar([p0, p1], cor, larg, ondula=0.15, tremor=0.3)
         self.ponta_seta(p1, ang, tam * 0.28, cor, larg)
 
-    def marcar(self, texto, cor_base, onde):
-        """Aplica {cor:trecho}, troca símbolos ausentes e devolve [(caractere, cor)]."""
-        brutos, pos = [], 0
+    def glifo_desenhado(self, ch, x, base, tam, cor):
+        """Emojis e símbolos sem glifo na fonte, desenhados à mão: ✓ verde, ✗ vermelho, ⚠ vermelho, Σ."""
+        cap, _ = self.metricas(tam)
+        w = self.avanco(ch, tam)
+        larg = max(2.5, tam * 0.085)
+        if ch == "✓":
+            self.tracar([(x + 0.12 * w, base - 0.48 * cap), (x + 0.4 * w, base - 0.04 * cap),
+                         (x + 0.9 * w, base - cap)], rgb(None, "verde"), larg * 1.2, ondula=0.15, serrilha=0.2,
+                        tremor=0.3)
+        elif ch == "✗":
+            vm = rgb(None, "vermelho")
+            self.tracar([(x + 0.15 * w, base - 0.95 * cap), (x + 0.85 * w, base)], vm, larg * 1.1, ondula=0.15,
+                        serrilha=0.2, tremor=0.3)
+            self.tracar([(x + 0.85 * w, base - 0.95 * cap), (x + 0.15 * w, base)], vm, larg * 1.1, ondula=0.15,
+                        serrilha=0.2, tremor=0.3)
+        elif ch == "⚠":
+            vm = rgb(None, "vermelho")
+            self.tracar([(x + 0.5 * w, base - 1.05 * cap), (x + 0.97 * w, base), (x + 0.03 * w, base),
+                         (x + 0.5 * w, base - 1.05 * cap), (x + 0.56 * w, base - 0.95 * cap)], vm, larg,
+                        ondula=0.12, serrilha=0.2, tremor=0.3)
+            self.tracar([(x + 0.5 * w, base - 0.7 * cap), (x + 0.5 * w, base - 0.34 * cap)], vm, larg,
+                        ondula=0.05, serrilha=0.1, tremor=0.2)
+            r = larg * 0.8
+            px, py = (x + 0.5 * w) * SS, (base - 0.15 * cap) * SS
+            self.draw.ellipse([px - r * SS, py - r * SS, px + r * SS, py + r * SS], fill=vm)
+        elif ch == "Σ":
+            self.tracar([(x + 0.9 * w, base - cap), (x + 0.1 * w, base - cap), (x + 0.55 * w, base - 0.5 * cap),
+                         (x + 0.1 * w, base), (x + 0.9 * w, base)], cor, larg, ondula=0.08, serrilha=0.15,
+                        tremor=0.2)
+
+    def retangulo(self, x0, y0, x1, y1, cor, larg, passada=9.0, ondula=0.5, serrilha=1.5, tremor=0.6):
+        """Retângulo à mão: quatro traços, cantos que não batem e passam um pouco do ponto."""
+        rng, imp = self.rng, self.imp
+        j = min(3.0, (x1 - x0) / 40, (y1 - y0) / 15) * imp
+        cantos = [(x0, y0), (x1, y0), (x1, y1), (x0, y1)]
+        cantos = [(cx + rng.gauss(0, j), cy + rng.gauss(0, j)) for cx, cy in cantos]
+        for i in range(4):
+            p, q = cantos[i], cantos[(i + 1) % 4]
+            L = math.hypot(q[0] - p[0], q[1] - p[1]) or 1
+            ux, uy = (q[0] - p[0]) / L, (q[1] - p[1]) / L
+            e0, e1 = rng.uniform(-0.25, 0.8) * passada * imp, rng.uniform(0, 1) * passada * imp
+            self.tracar([(p[0] - ux * e0, p[1] - uy * e0), (q[0] + ux * e1, q[1] + uy * e1)],
+                        cor, larg, ondula=ondula, serrilha=serrilha, tremor=tremor)
+        return cantos
+
+    def tecla(self, rot, x, base, tam, cor):
+        """Tecla da HP12C: rótulo dentro de uma caixinha desenhada à mão, na linha do texto."""
+        self.em_tecla(self._tecla, rot, x, base, tam, cor)
+
+    def _tecla(self, rot, x, base, tam, cor):
+        tk = self.tam_tecla(tam)
+        capk, _ = self.metricas(tk)
+        itens = self.rotulo(rot)
+        padx, gap = tam * 0.22, tam * 0.18
+        lw = sum(self.avanco(t, tk) for t in itens)
+        x0 = x + gap / 2
+        self.retangulo(x0, base - capk - tam * 0.34, x0 + lw + 2 * padx, base + tam * 0.2, cor,
+                       max(2.2, tam * 0.06), passada=3.0, ondula=0.12, serrilha=0.3, tremor=0.3)
+        cx = x0 + padx
+        for t in itens:
+            self.desenhar_token(t, cx, base, tk, cor)
+            cx += self.avanco(t, tk)
+
+    def desenhar_token(self, ch, x, base, tam, cor, ang=0.0, esc=1.0):
+        if ch.startswith("\x01"):
+            self.tecla(ch[1:], x, base, tam, cor)
+        elif ch.startswith("\x02"):  # letra com barra em cima (x̄)
+            c = ch[1:]
+            self.desenhar_token(c, x, base, tam, cor, ang, esc)
+            cap, _ = self.metricas(tam)
+            w, yb = self.avanco(c, tam), base - cap - tam * 0.11
+            self.tracar([(x + w * 0.12, yb), (x + w * 0.88, yb)], cor, max(2.0, tam * 0.07), ondula=0.05,
+                        serrilha=0.1, tremor=0.2)
+        elif ch in SETAS_TEXTO:
+            self.seta_no_texto(ch, x, base, tam, cor)
+        elif ch in DESENHADOS:
+            self.glifo_desenhado(ch, x, base, tam, cor)
+        else:
+            self.letra(ch, x, base, tam, cor, ang, esc)
+
+    def dim_circulo(self, num, tam, cap):
+        tn = max(28.0, tam * 0.66)
+        capn, _ = self.metricas(tn)
+        wn = sum(self.avanco(c, tn) for c in num)
+        return max(cap * 1.32, capn * 1.85, wn * 1.45 + 4), tn
+
+    def largura_marcador(self, marcador, tam, cap):
+        if marcador[0] == "num":
+            return self.dim_circulo(marcador[1], tam, cap)[0] + tam * 0.42
+        return tam * 0.72
+
+    def desenhar_marcador(self, marcador, x, base, tam, cap):
+        """Número de lista dentro de circulinho (padrão X8) ou marcador de tópico/subitem."""
+        cor = marcador[2]
+        if marcador[0] == "num":
+            d, tn = self.dim_circulo(marcador[1], tam, cap)
+            cx, cy = x + d / 2, base - cap / 2
+            self.tracar(self.pts_elipse(cx, cy, d / 2, d / 2), cor, max(2.5, tam * 0.07), ondula=0.12,
+                        serrilha=0.3, tremor=0.4)
+            capn, _ = self.metricas(tn)
+            xx = cx - sum(self.avanco(c, tn) for c in marcador[1]) / 2
+            for c in marcador[1]:
+                self.letra(c, xx, cy + capn / 2, tn, cor)
+                xx += self.avanco(c, tn)
+        elif marcador[1] == 0:  # tópico: bolinha cheia
+            r = tam * 0.13
+            px, py = (x + r * 1.4) * SS, (base - cap * 0.45) * SS
+            self.draw.ellipse([px - r * SS, py - r * SS, px + r * SS, py + r * SS], fill=cor)
+        else:  # subtópico/subitem: tracinho
+            self.tracar([(x, base - cap * 0.45), (x + tam * 0.32, base - cap * 0.45)], cor,
+                        max(2.5, tam * 0.08), ondula=0.05, serrilha=0.1, tremor=0.2)
+
+    def checar_texto(self, texto, onde):
+        """Regras do padrão X8 que dá para conferir no texto: sem LaTeX, vírgula decimal, ponto de milhar."""
+        limpo = TECLA.sub(" ", MARCA.sub(r"\2", texto))
+        m = LATEX.search(limpo)
+        if m:
+            self.avisos.append(f"{onde}: sobra de LaTeX ({m.group(0)!r}); escreva como texto comum")
+        for m in DECIMAL_PONTO.finditer(limpo):
+            if not ITEM_PD.search(limpo[max(0, m.start() - 12):m.start()].lower()):
+                self.avisos.append(f"{onde}: {m.group(0)!r} usa ponto decimal; o padrão é vírgula decimal")
+                break
+        m = SEM_MILHAR.search(limpo)
+        if m:
+            self.avisos.append(f"{onde}: {m.group(0)!r} sem ponto de milhar (ex.: 10.000)")
+
+    def marcar(self, texto, cor_base, onde, maiusculas=False):
+        """Aplica {cor:trecho}, [TECLA], caixa alta e trocas; devolve [(item, cor)]."""
+        trechos, pos = [], 0
         for m in MARCA.finditer(texto):
-            brutos += [(c, cor_base) for c in texto[pos:m.start()]]
+            trechos.append((texto[pos:m.start()], cor_base))
             try:
                 c2 = rgb(m.group(1), None)
             except ErroRoteiro:
                 self.avisos.append(f"{onde}: cor desconhecida em {{{m.group(1)}:...}}; usei a cor do texto")
                 c2 = cor_base
-            brutos += [(c, c2) for c in m.group(2)]
+            trechos.append((m.group(2), c2))
             pos = m.end()
-        brutos += [(c, cor_base) for c in texto[pos:]]
+        trechos.append((texto[pos:], cor_base))
         out, faltou = [], set()
-        for c, k in brutos:
+
+        def junta(c, k):
+            if c in INVISIVEIS:
+                return
+            if c == MACRON:
+                if out and len(out[-1][0]) == 1 and out[-1][0] not in " \n":
+                    out[-1] = ("\x02" + out[-1][0], out[-1][1])
+                return
+            c = EMOJIS.get(c, c)
             if c in TROCAS:
-                out += [(t, k) for t in TROCAS[c]]
+                out.extend((t, k) for t in TROCAS[c])
             elif c == "\n" or self.tem_glifo(c):
                 out.append((c, k))
             else:
                 faltou.add(c)
+
+        for trecho, k in trechos:
+            p = 0
+            for m in list(TECLA.finditer(trecho)) + [None]:
+                parte = trecho[p:m.start()] if m else trecho[p:]
+                for c in (parte.upper() if maiusculas else parte):
+                    junta(c, k)
+                if m:  # tecla também em caixa alta: nesta fonte o "g" minúsculo parece "6"
+                    rot = m.group(1).strip()
+                    out.append(("\x01" + (rot.upper() if maiusculas else rot), k))
+                    p = m.end()
         if faltou:
             self.avisos.append(f"{onde}: a fonte não tem {''.join(sorted(faltou))!r}; caractere(s) omitido(s)")
         return out
@@ -401,24 +603,54 @@ class Lousa:
         raise ErroRoteiro(f"{onde}: informe 'alvo' (id) ou x, y, largura e altura")
 
     # ------------------------------------------------------------------ elementos
-    def el_texto(self, el, onde, titulo=False):
-        tam = float(el.get("tamanho", 36 if titulo else 56))
-        cor_base = rgb(el.get("cor"), "amarelo" if titulo else "branco")
+    def el_texto(self, el, onde, tipo="texto"):
+        titulo = tipo == "titulo"
+        tam = float(el.get("tamanho", {"titulo": 44, "subtitulo": 40}.get(tipo, 36)))
+        cor_base = rgb(el.get("cor"), {"titulo": "amarelo", "subtitulo": "ciano"}.get(tipo, "branco"))
         esp = float(el.get("espacamento", 0.1))
         entre = float(el.get("entrelinha", 1.38))
         alinhar = el.get("alinhar", "esquerda")
         larg_max = el.get("largura")
         larg_max = float(larg_max) if larg_max else None
-        chars = self.marcar(str(el.get("texto", "")), cor_base, onde)
+        texto = str(el.get("texto", ""))
+        self.checar_texto(texto, onde)
+        toks = self.marcar(texto, cor_base, onde, bool(el.get("maiusculas", self.maiusculas)))
+        usar_lista = bool(el.get("lista", tipo == "texto"))
+        cap, desc = self.metricas(tam)
 
         def medir(cs):
             return sum(self.avanco(c, tam) * (1 + esp) + (tam * 0.1 if c == " " else 0) for c, _ in cs)
 
-        linhas = quebrar(chars, larg_max, medir)
-        lws = [medir(l) for l in linhas]
+        # parágrafos: 2 espaços no início = 1 nível de recuo; "1. " = circulinho; "- " ou "• " = tópico
+        pars = [[]]
+        for t in toks:
+            if t[0] == "\n":
+                pars.append([])
+            else:
+                pars[-1].append(t)
+        linhas = []
+        for par in pars:
+            nivel = 0
+            while len(par) >= 2 and par[0][0] == " " and par[1][0] == " ":
+                par, nivel = par[2:], nivel + 1
+            while par and par[0][0] == " ":
+                par = par[1:]
+            marcador = None
+            if usar_lista and par:
+                inicio = "".join(t[0] if len(t[0]) == 1 else "#" for t in par[:5])
+                m = MARCADOR_NUM.match(inicio)
+                if m:
+                    marcador, par = ("num", m.group(1), par[0][1]), par[m.end():]
+                elif inicio[:2] in ("- ", "• "):
+                    marcador, par = ("ponto", nivel, par[0][1]), par[2:]
+            recuo = nivel * tam * 1.1
+            lm = self.largura_marcador(marcador, tam, cap) if marcador else 0.0
+            disp = max(tam * 3, larg_max - recuo - lm) if larg_max else None
+            for j, l in enumerate(quebrar(par, disp, medir)):
+                linhas.append(dict(toks=l, xm=recuo, recuo=recuo + lm, marcador=marcador if j == 0 else None))
+        lws = [ln["recuo"] + medir(ln["toks"]) for ln in linhas]
         if larg_max and any(lw > larg_max + 1 for lw in lws):
             self.avisos.append(f"{onde}: palavra não cabe em largura={larg_max:.0f}; aumente a largura")
-        cap, desc = self.metricas(tam)
         lh = tam * entre
         wref = larg_max if (larg_max and alinhar != "esquerda") else max(lws or [0])
         h = cap + (len(linhas) - 1) * lh + desc
@@ -426,45 +658,43 @@ class Lousa:
             el = dict({"x": 40, "y": 24}, **el)
         x, y = self.posicionar(el, wref, h, onde)
 
-        imp, rng = self.imp, self.rng
-        caixas = []
-        for i, (linha, lw) in enumerate(zip(linhas, lws)):
+        imp, rng = self.tremor_texto, self.rng  # padrão X8: 0 = reta e alinhada
+        caixas, xs0 = [], []
+        for i, (ln, lw) in enumerate(zip(linhas, lws)):
             off = {"centro": (wref - lw) / 2, "direita": wref - lw}.get(alinhar, 0.0)
             lx = x + off + rng.gauss(0, 3) * imp
             base0 = y + cap + i * lh
-            incl = rng.gauss(0, 0.006) * imp  # linha um pouco torta
+            incl = rng.gauss(0, 0.006) * imp
             onda = Ruido(rng, [(tam * 6, tam * 0.022 * imp), (tam * 2.5, tam * 0.012 * imp)])
-            cx = lx
-            for ch, cor in linha:
+            if ln["marcador"]:
+                self.desenhar_marcador(ln["marcador"], lx + ln["xm"], base0, tam, cap)
+            cx = lx + ln["recuo"]
+            for ch, cor in ln["toks"]:
                 adv = self.avanco(ch, tam) * (1 + esp)
                 if ch == " ":
                     cx += adv + tam * 0.1 + rng.gauss(0, tam * 0.03) * imp
                     continue
                 base = base0 + incl * (cx - lx) + onda(cx - lx) + rng.gauss(0, tam * 0.028) * imp
-                if ch in SETAS_TEXTO:
-                    self.seta_no_texto(ch, cx, base, tam, cor)
-                else:
-                    ang = max(-0.09, min(0.09, rng.gauss(0, math.radians(2.2) * imp) + incl))
-                    esc = max(0.9, min(1.1, 1 + rng.gauss(0, 0.035) * imp))
-                    self.letra(ch, cx, base, tam, cor, ang, esc)
+                ang = max(-0.09, min(0.09, rng.gauss(0, math.radians(2.2) * imp) + incl))
+                esc = max(0.9, min(1.1, 1 + rng.gauss(0, 0.035) * imp))
+                self.desenhar_token(ch, cx, base, tam, cor, ang, esc)
                 cx += adv + rng.gauss(0, tam * 0.018) * imp
-            caixas.append((lx, base0, max(cx, lx)))
-        x0 = min((c[0] for c in caixas), default=x)
+            caixas.append((lx + ln["recuo"], base0, max(cx, lx + ln["recuo"])))
+            xs0.append(lx + ln["xm"])
+        x0 = min(xs0, default=x)
         x1 = max((c[2] for c in caixas), default=x)
         bbox = (x0, y, x1, y + h)
-        if titulo and el.get("sublinhado", True):
+        if el.get("sublinhado", titulo):
             yb = caixas[-1][1] + tam * 0.45 if caixas else y + h
             self.tracar([(x0 - 6, yb), (x1 + 10, yb + rng.gauss(0, 1.5))], cor_base,
                         float(el.get("espessura_sublinhado", 3.4)), ondula=0.55, tremor=0.7)
             bbox = (bbox[0] - 6, bbox[1], bbox[2] + 10, yb + 4)
-        palavras = len(re.findall(r"\w+", MARCA.sub(r"\2", str(el.get("texto", "")))))
-        return self.registrar(el, "titulo" if titulo else "texto", bbox, cor_base,
-                              linhas=caixas, tam=tam, cap=cap, palavras=palavras)
+        return self.registrar(el, tipo, bbox, cor_base, linhas=caixas, tam=tam, cap=cap)
 
     def el_caixa(self, el, onde):
         b, cor_alvo, _ = self.alvo(el, onde)
         m = float(el.get("margem", 30))
-        cor = rgb(el.get("cor"), cor_alvo or PALETA["branco"])
+        cor = rgb(el.get("cor"), "amarelo")  # padrão X8: molduras em amarelo
         larg = float(el.get("espessura", 5.5))
         rng, imp = self.rng, self.imp
         cantos = [(b[0] - m, b[1] - m), (b[2] + m, b[1] - m), (b[2] + m, b[3] + m), (b[0] - m, b[3] + m)]
@@ -484,7 +714,7 @@ class Lousa:
     def el_circular(self, el, onde):
         b, cor_alvo, _ = self.alvo(el, onde)
         m = float(el.get("margem", 22))
-        cor = rgb(el.get("cor"), cor_alvo or PALETA["branco"])
+        cor = rgb(el.get("cor"), "amarelo")
         larg = float(el.get("espessura", 5.0))
         cx, cy = (b[0] + b[2]) / 2, (b[1] + b[3]) / 2
         w, h = b[2] - b[0], b[3] - b[1]
@@ -516,7 +746,7 @@ class Lousa:
 
     def el_riscar(self, el, onde):
         b, cor_alvo, info = self.alvo(el, onde)
-        cor = rgb(el.get("cor"), cor_alvo or PALETA["vermelho"])
+        cor = rgb(el.get("cor"), "vermelho")  # padrão X8: vermelho = errado
         larg = float(el.get("espessura", 4.2))
         rng, imp = self.rng, self.imp
         if el.get("estilo", "x") == "linha":
@@ -660,8 +890,9 @@ class Lousa:
     # ------------------------------------------------------------------ montagem
     def desenhar(self, elementos):
         acoes = {
-            "titulo": lambda e, o: self.el_texto(e, o, titulo=True),
-            "texto": self.el_texto,
+            "titulo": lambda e, o: self.el_texto(e, o, "titulo"),
+            "subtitulo": lambda e, o: self.el_texto(e, o, "subtitulo"),
+            "texto": lambda e, o: self.el_texto(e, o, "texto"),
             "caixa": self.el_caixa,
             "circular": self.el_circular,
             "riscar": self.el_riscar,
@@ -698,9 +929,12 @@ class Lousa:
             if x0 < mx or y0 < my or x1 > self.W - mx or y1 > self.H - my:
                 self.avisos.append(f"{i!r} encosta/sai da borda: x {x0:.0f}–{x1:.0f}, y {y0:.0f}–{y1:.0f} "
                                    f"(tela {self.W}x{self.H})")
-            if r["tipo"] in ("texto", "titulo") and r["tam"] < 30:
-                self.avisos.append(f"{i!r} com tamanho {r['tam']:.0f}: pequeno para slide (use >= 34)")
-        itens = [(i, r) for i, r in self.reg.items() if r["tipo"] in ("texto", "titulo", "desenho")]
+            if r["tipo"] in ("texto", "titulo", "subtitulo") and r["tam"] < 28:
+                self.avisos.append(f"{i!r} com tamanho {r['tam']:.0f}: abaixo do mínimo de 28 px do padrão")
+            for nome, zx0, zy0, zx1, zy1 in self.areas:  # cantos do logo X8 e da webcam
+                if min(x1, zx1) - max(x0, zx0) > 2 and min(y1, zy1) - max(y0, zy0) > 2:
+                    self.avisos.append(f"{i!r} invade a área livre do {nome} (x {zx0}–{zx1}, y {zy0}–{zy1})")
+        itens = [(i, r) for i, r in self.reg.items() if r["tipo"] in ("texto", "titulo", "subtitulo", "desenho")]
         for a in range(len(itens)):
             for b in range(a + 1, len(itens)):
                 (ia, ra), (ib, rb) = itens[a], itens[b]
@@ -709,15 +943,15 @@ class Lousa:
                 iy = min(A[3], B[3]) - max(A[1], B[1])
                 if ix > 4 and iy > 4:
                     self.avisos.append(f"{ia!r} e {ib!r} se sobrepõem ({ix:.0f}x{iy:.0f} px)")
-        total = sum(r.get("palavras", 0) for r in self.reg.values())
-        if total > 45:
-            self.avisos.append(f"{total} palavras na lousa: muito texto para fundo de slide (ideal <= 35)")
 
 
-def grade(img, reg):
+def grade(img, reg, areas=()):
     g = img.convert("RGB").copy()
     d = ImageDraw.Draw(g)
     W, H = g.size
+    for nome, zx0, zy0, zx1, zy1 in areas:  # cantos reservados (logo, webcam)
+        d.rectangle([zx0, zy0, zx1 - 1, zy1 - 1], outline=(255, 0, 200), width=3)
+        d.text((zx0 + 6, zy0 + 6), f"livre: {nome}", fill=(255, 0, 200))
     for x in range(0, W, 100):
         d.line([(x, 0), (x, H)], fill=(70, 70, 70) if x % 500 else (120, 120, 120), width=1)
         d.text((x + 3, 3), str(x), fill=(160, 160, 160))
@@ -827,7 +1061,7 @@ def main(argv=None):
             dizer(f"   ⚠ {av}")
         if a.grade:
             gpath = os.path.splitext(destino)[0] + "_grade.png"
-            grade(img, lousa.reg).save(gpath)
+            grade(img, lousa.reg, lousa.areas).save(gpath)
             dizer(f"   grade: {gpath}")
     if a.pptx and gerados and montar_pptx(gerados, a.pptx, *dims):
         dizer(f"✔ {a.pptx} ({len(gerados)} slide(s))")
