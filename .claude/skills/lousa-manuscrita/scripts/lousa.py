@@ -743,12 +743,20 @@ def carregar(caminho):
     return [spec]
 
 
+def dizer(msg):
+    """print que aguenta a saída cortada (ex.: "| head"): as lousas seguintes continuam sendo geradas."""
+    try:
+        print(msg, flush=True)
+    except BrokenPipeError:
+        sys.stdout = open(os.devnull, "w")
+
+
 def montar_pptx(pngs, destino, W, H):
     try:
         from pptx import Presentation
         from pptx.util import Emu
     except ImportError:
-        print("⚠ python-pptx não instalado (pip install python-pptx); .pptx não gerado")
+        dizer("⚠ python-pptx não instalado (pip install python-pptx); .pptx não gerado")
         return False
     prs = Presentation()
     prs.slide_width = Emu(12192000)
@@ -769,7 +777,7 @@ def main(argv=None):
     ap.add_argument("--desenhos", action="store_true", help="lista os desenhos prontos e sai")
     a = ap.parse_args(argv)
     if a.desenhos:
-        print("Desenhos prontos (tipo \"desenho\", campo \"nome\"):\n" + DES.lista())
+        dizer("Desenhos prontos (tipo \"desenho\", campo \"nome\"):\n" + DES.lista())
         return 0
     if not a.roteiro:
         ap.error("informe o roteiro .json (ou use --desenhos)")
@@ -778,7 +786,7 @@ def main(argv=None):
     try:
         slides = carregar(a.roteiro)
     except (OSError, json.JSONDecodeError) as e:
-        print(f"✖ não consegui ler o roteiro: {e}")
+        dizer(f"✖ não consegui ler o roteiro: {e}")
         return 2
     gerados, falhas, dims = [], 0, (1920, 1080)
     dir_saida = a.saida or pasta
@@ -799,11 +807,11 @@ def main(argv=None):
             lousa.desenhar(spec.get("elementos", []))
             lousa.conferir()
         except ErroRoteiro as e:
-            print(f"✖ lousa {n}: {e}")
+            dizer(f"✖ lousa {n}: {e}")
             falhas += 1
             continue
         except (ValueError, TypeError, AttributeError) as e:  # ex.: "x": "abc" ou elemento que não é objeto
-            print(f"✖ lousa {n}: valor inválido no roteiro ({e}). Números (x, y, tamanho, largura…) "
+            dizer(f"✖ lousa {n}: valor inválido no roteiro ({e}). Números (x, y, tamanho, largura…) "
                   "devem ser números; cada elemento deve ser um objeto {...}")
             falhas += 1
             continue
@@ -811,18 +819,18 @@ def main(argv=None):
         img.save(destino, optimize=True)
         gerados.append(destino)
         dims = (lousa.W, lousa.H)
-        print(f"✔ {destino} ({lousa.W}x{lousa.H})")
+        dizer(f"✔ {destino} ({lousa.W}x{lousa.H})")
         for i, r in lousa.reg.items():
             x0, y0, x1, y1 = r["bbox"]
-            print(f"   {i:<16} {r['tipo']:<10} x {x0:6.0f}–{x1:<6.0f} y {y0:6.0f}–{y1:<6.0f}")
+            dizer(f"   {i:<16} {r['tipo']:<10} x {x0:6.0f}–{x1:<6.0f} y {y0:6.0f}–{y1:<6.0f}")
         for av in avisos:
-            print(f"   ⚠ {av}")
+            dizer(f"   ⚠ {av}")
         if a.grade:
             gpath = os.path.splitext(destino)[0] + "_grade.png"
             grade(img, lousa.reg).save(gpath)
-            print(f"   grade: {gpath}")
+            dizer(f"   grade: {gpath}")
     if a.pptx and gerados and montar_pptx(gerados, a.pptx, *dims):
-        print(f"✔ {a.pptx} ({len(gerados)} slide(s))")
+        dizer(f"✔ {a.pptx} ({len(gerados)} slide(s))")
     return 1 if falhas else 0
 
 
