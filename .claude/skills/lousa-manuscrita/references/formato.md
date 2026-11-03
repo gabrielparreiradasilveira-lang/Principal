@@ -84,7 +84,7 @@ Fórmula com fração à mão: `antes` (ex.: `"SHARPE ="`), `num`, `den`, `depoi
 `cor_barra`, posição como `texto`. Ex.: `{"tipo": "fracao", "x": 130, "y": 230, "antes": "SHARPE =",
 "num": "R_{c} − R_{f}", "den": "σ_{c}", "tamanho": 64}` + `caixa` em volta.
 
-**Símbolos e índices (valem em qualquer texto):** `σ` e `β` saem desenhados à mão e não viram Σ/Β na caixa alta;
+**Símbolos e índices (valem em qualquer texto):** `σ`, `β` e `ρ` saem desenhados à mão e não viram Σ/Β/Ρ na caixa alta; `√` e `≠` também são desenhados;
 `R_{f}` escreve o índice menor e mais baixo (mínimo 28 px); `\u00a0` (espaço que não quebra) prende pedaços
 que não podem ficar em linhas diferentes: `"20%\u00a0A.A."`, `"(σ\u00a0=\u00a020%)"`.
 
@@ -189,7 +189,7 @@ cima. Exemplo completo: `aulas-certificacoes/materiais/cpro-r/lousas/r61-medidas
 | `mito_verdade` | `titulo`, `mitos` (lista, saem em vermelho riscados), `verdade` (verde, moldura), `desenho` |
 | `metafora` | `titulo`, `itens`: `[{desenho, cor, extra, cor_extra, nome, legenda}]` (2 a 4, sobre uma estrada; `"estrada": false` tira) |
 | `topicos` | `titulo`, `formula` ({antes, num, den}), `desenho`, `subtitulo`, `texto` (tópicos), `destaque` (frase com moldura na base), `largura_texto` (abre espaço à direita para `elementos` extras) |
-| `colunas` | `titulo`, `formula`, `desenho`, `topo` (texto acima), `colunas`: `[{titulo, texto}, {titulo, texto}]`, `destaque` |
+| `colunas` | `titulo`, `formula`, `desenho`, `topo` (texto acima), `colunas`: 2 ou 3 `[{titulo, texto}]` (com 3, letra até 36 px), `destaque` |
 | `pegadinhas` | `titulo`, `itens`: `[{frase, correcao, veredito}]` (veredito padrão FALSO), moldura vermelha |
 | `hp12c` | `titulo`, `passos`: `[{nome, teclas, visor, leitura}]`, `primeiro` (número do 1º passo) |
 

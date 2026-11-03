@@ -57,14 +57,14 @@ FUNDOS = {"preto": "#000000", "grafite": "#1B1B1D", "lousa": "#1E3528", "azul-no
 
 # Símbolos que a fonte não tem: as setas viram rabisco de seta; o resto vira texto equivalente.
 SETAS_TEXTO = {"→": 0, "←": 180, "↑": -90, "↓": 90, "↗": -40, "↘": 40, "⇒": 0}
-TROCAS = {"≥": ">=", "≤": "<=", "≠": "=/=", "\t": " ", "\r": "", "∑": "Σ", "∆": "Δ"}
+TROCAS = {"≥": ">=", "≤": "<=", "\t": " ", "\r": "", "∑": "Σ", "∆": "Δ"}
 MARCA = re.compile(r"\{([#\w-]+):((?:[^{}]|_\{[^{}]*\})*)\}")  # {cor:trecho}, aceita _{índice} dentro
 SUB = re.compile(r"_\{([^{}]*)\}")  # R_{f} = índice (subscrito) escrito menor e mais baixo
 # Emojis viram desenho (padrão X8): check verde, X vermelho, triângulo de alerta vermelho.
 EMOJIS = {"✅": "✓", "✔": "✓", "☑": "✓", "✓": "✓", "❌": "✗", "✗": "✗", "✘": "✗", "❎": "✗",
           "✖": "✗", "⚠": "⚠"}
-GREGOS = {"σ", "β"}  # minúsculas gregas: a fonte não tem, e .upper() viraria Σ (somatório) e Β (parece B)
-DESENHADOS = set(SETAS_TEXTO) | {"✓", "✗", "⚠", "Σ", "Δ"} | GREGOS  # desenhados à mão, não vêm da fonte
+GREGOS = {"σ", "β", "ρ"}  # minúsculas gregas: a fonte não tem, e .upper() viraria Σ (somatório) e Β (parece B)
+DESENHADOS = set(SETAS_TEXTO) | {"✓", "✗", "⚠", "Σ", "Δ", "√", "≠"} | GREGOS  # desenhados à mão, não vêm da fonte
 SUB_ESC, SUB_DESCE = 0.6, 0.22  # índice: 60% do tamanho (nunca abaixo de 28 px), 22% abaixo da linha
 INVISIVEIS = {"\ufe0f", "\ufe0e", "\u200d"}  # seletores de emoji
 ESPACOS = (" ", "\u00a0")  # \u00a0 = espaço que não quebra linha (ex.: "20%\u00a0A.A.")
@@ -76,6 +76,7 @@ AREAS_LIVRES = [["logo X8", 1560, 0, 1920, 190], ["webcam", 1600, 760, 1920, 108
 LATEX = re.compile(r"\\[A-Za-z]+|\$[^$\n]+\$|\^\{|_\{")
 DECIMAL_PONTO = re.compile(r"(?<![\d.,])\d+\.\d{1,2}(?![\d.])")
 SEM_MILHAR = re.compile(r"(?<![\d.,])\d{5,}(?![\d.,])")
+ITEM_SEQ = re.compile(r"(cpa|c-?pro[- ]?[ri]?|cfp|cga|cge|itens?)\s*[\d.]+(\s*(,|e|a)\s*[\d.]+)*\s*(,|e|a)\s*$")  # "4.5 e 4.6"
 ITEM_PD = re.compile(r"(cpa|c-?pro[- ]?[ri]?|cfp|cga|cge|pd|item|itens|art|módulo|modulo|r)\W*$")
 
 
@@ -315,8 +316,12 @@ class Lousa:
             ch = " "
         if ch == "σ":
             return tam * 0.6
-        if ch == "β":
+        if ch in ("β", "ρ"):
             return tam * 0.56
+        if ch == "√":
+            return tam * 0.72
+        if ch == "≠":
+            return tam * 0.62
         if ch in SETAS_TEXTO or ch in ("✓", "✗", "⚠"):
             return tam * 0.95
         if ch in ("Σ", "Δ"):
@@ -423,6 +428,22 @@ class Lousa:
                         tremor=0.2)
             self.tracar([(cx, cy - ry), (x + 0.98 * w, cy - ry - 0.03 * cap)], cor, larg, ondula=0.05,
                         serrilha=0.1, tremor=0.2)
+        elif ch == "ρ":  # rô (correlação): bolinha com a haste descendo pela esquerda
+            ry = 0.37 * cap
+            cx, cy, rx = x + 0.5 * w, base - ry, 0.32 * w
+            self.tracar(self.pts_elipse(cx, cy, rx, ry, -90, 270), cor, larg, ondula=0.08, serrilha=0.15, tremor=0.2)
+            self.tracar([(cx - rx, cy), (cx - rx, base + 0.3 * tam)], cor, larg, ondula=0.05, serrilha=0.1,
+                        tremor=0.2)
+        elif ch == "√":  # raiz quadrada
+            self.tracar([(x + 0.02 * w, base - 0.42 * cap), (x + 0.16 * w, base - 0.52 * cap), (x + 0.36 * w, base),
+                         (x + 0.66 * w, base - 1.12 * cap), (x + 1.0 * w, base - 1.12 * cap)], cor, larg, ondula=0.06,
+                        serrilha=0.12, tremor=0.2)
+        elif ch == "≠":  # diferente
+            for yy in (0.3, 0.62):
+                self.tracar([(x + 0.1 * w, base - yy * cap), (x + 0.9 * w, base - yy * cap)], cor, larg, ondula=0.04,
+                            serrilha=0.1, tremor=0.2)
+            self.tracar([(x + 0.68 * w, base - 0.98 * cap), (x + 0.32 * w, base + 0.05 * cap)], cor, larg,
+                        ondula=0.04, serrilha=0.1, tremor=0.2)
         elif ch == "β":  # beta minúsculo (risco sistemático): haste que desce da linha e duas barrigas
             xh = x + 0.16 * w
             self.tracar([(xh, base - 0.98 * cap), (xh, base + 0.3 * tam)], cor, larg, ondula=0.05, serrilha=0.1,
@@ -523,12 +544,13 @@ class Lousa:
 
     def checar_texto(self, texto, onde):
         """Regras do padrão X8 que dá para conferir no texto: sem LaTeX, vírgula decimal, ponto de milhar."""
-        limpo = TECLA.sub(" ", SUB.sub(r"\1", MARCA.sub(r"\2", texto))).replace("R$", "R ")  # R$ não é LaTeX
+        limpo = TECLA.sub(" ", SUB.sub(r"\1", MARCA.sub(r"\2", texto))).replace("R$", "R ").replace("\u00a0", " ")  # R$ não é LaTeX
         m = LATEX.search(limpo)
         if m:
             self.avisos.append(f"{onde}: sobra de LaTeX ({m.group(0)!r}); escreva como texto comum")
         for m in DECIMAL_PONTO.finditer(limpo):
-            if not ITEM_PD.search(limpo[max(0, m.start() - 12):m.start()].lower()):
+            antes = limpo[max(0, m.start() - 40):m.start()].lower()
+            if not ITEM_PD.search(antes[-12:]) and not ITEM_SEQ.search(antes):
                 self.avisos.append(f"{onde}: {m.group(0)!r} usa ponto decimal; o padrão é vírgula decimal")
                 break
         m = SEM_MILHAR.search(limpo)

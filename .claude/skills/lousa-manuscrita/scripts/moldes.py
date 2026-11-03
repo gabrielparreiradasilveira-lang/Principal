@@ -203,8 +203,8 @@ def colunas(L, spec, els):
                 "tamanho": spec.get("tamanho_topo", 36), "entrelinha": 1.45}
         els.append(topo)
         y += _medir(L, topo)[1] + 50
-    cols = spec.get("colunas", [])[:2]
-    pos = [(X0, 780), (980, 600)]
+    cols = spec.get("colunas", [])[:3]
+    pos = [(X0, 780), (980, 600)] if len(cols) < 3 else [(X0, 450), (600, 450), (1120, 440)]
     hts = []
     for (x, w), c in zip(pos, cols):
         ct = {"tipo": "subtitulo", "id": f"ct{len(hts) + 1}", "texto": c["titulo"], "x": x, "y": y,
@@ -219,17 +219,20 @@ def colunas(L, spec, els):
                  "tamanho": t, "entrelinha": 1.42} for i, ((x, w), c) in enumerate(zip(pos, cols))]
 
     _, cs = _maior_que_cabe(L, montar, lambda es, t: max(_medir(L, e)[1] for e in es) <= fim - yc,
-                            [44, 42, 40, 38, 36, 34, 32, 30, 28])
+                            [44, 42, 40, 38, 36, 34, 32, 30, 28][4 if len(cols) == 3 else 0:])
     hmax = max(_medir(L, e)[1] for e in cs)
     desce = max(0.0, fim - yc - hmax) * 0.3  # sobra de espaço: desce colunas e títulos juntos
     for e in els:
-        if e.get("id") in ("ct1", "ct2"):
+        if str(e.get("id", "")).startswith("ct") and e.get("tipo") == "subtitulo":
             e["y"] += desce
     for e in cs:
         e["y"] += desce
     y, yc = y + desce, yc + desce
-    els += cs + [{"tipo": "linha", "pontos": [[925, y - 10], [920, (y + yc + hmax) / 2], [927, yc + hmax]],
-                  "espessura": 4}]
+    els += cs
+    for (xa, wa), (xb, _) in zip(pos, pos[1:len(cols)]):  # linha à mão entre as colunas
+        xd = (xa + wa + xb) / 2
+        els.append({"tipo": "linha", "pontos": [[xd, y - 10], [xd - 5, (y + yc + hmax) / 2], [xd + 2, yc + hmax]],
+                    "espessura": 4})
 
 
 def pegadinhas(L, spec, els):
