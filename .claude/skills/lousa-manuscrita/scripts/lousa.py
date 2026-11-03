@@ -57,12 +57,16 @@ FUNDOS = {"preto": "#000000", "grafite": "#1B1B1D", "lousa": "#1E3528", "azul-no
 # Símbolos que a fonte não tem: as setas viram rabisco de seta; o resto vira texto equivalente.
 SETAS_TEXTO = {"→": 0, "←": 180, "↑": -90, "↓": 90, "↗": -40, "↘": 40, "⇒": 0}
 TROCAS = {"≥": ">=", "≤": "<=", "≠": "=/=", "\t": " ", "\r": "", "∑": "Σ", "∆": "Δ"}
-MARCA = re.compile(r"\{([#\w-]+):([^{}]*)\}")
+MARCA = re.compile(r"\{([#\w-]+):((?:[^{}]|_\{[^{}]*\})*)\}")  # {cor:trecho}, aceita _{índice} dentro
+SUB = re.compile(r"_\{([^{}]*)\}")  # R_{f} = índice (subscrito) escrito menor e mais baixo
 # Emojis viram desenho (padrão X8): check verde, X vermelho, triângulo de alerta vermelho.
 EMOJIS = {"✅": "✓", "✔": "✓", "☑": "✓", "✓": "✓", "❌": "✗", "✗": "✗", "✘": "✗", "❎": "✗",
           "✖": "✗", "⚠": "⚠"}
-DESENHADOS = set(SETAS_TEXTO) | {"✓", "✗", "⚠", "Σ", "Δ"}  # desenhados à mão, não vêm da fonte
+GREGOS = {"σ", "β"}  # minúsculas gregas: a fonte não tem, e .upper() viraria Σ (somatório) e Β (parece B)
+DESENHADOS = set(SETAS_TEXTO) | {"✓", "✗", "⚠", "Σ", "Δ"} | GREGOS  # desenhados à mão, não vêm da fonte
+SUB_ESC, SUB_DESCE = 0.6, 0.22  # índice: 60% do tamanho (nunca abaixo de 28 px), 22% abaixo da linha
 INVISIVEIS = {"\ufe0f", "\ufe0e", "\u200d"}  # seletores de emoji
+ESPACOS = (" ", "\u00a0")  # \u00a0 = espaço que não quebra linha (ex.: "20%\u00a0A.A.")
 MACRON = "\u0304"  # barra em cima (x̄ da HP12C)
 TECLA = re.compile(r"\[([^\[\]\n]{1,14})\]")  # [ENTER] = tecla da HP12C em caixinha
 MARCADOR_NUM = re.compile(r"(\d{1,2})[.)] ")  # "1. " no começo da linha = número em circulinho
@@ -302,13 +306,25 @@ class Lousa:
         if ch.startswith("\x01"):
             tk = self.tam_tecla(tam)
             return self.em_tecla(lambda: sum(self.avanco(t, tk) for t in self.rotulo(ch[1:]))) + tam * 0.62
+        if ch.startswith("\x03"):  # índice (subscrito)
+            return self.avanco(ch[1:], self.tam_sub(tam))
         if ch.startswith("\x02"):
             ch = ch[1:]
+        if ch == "\u00a0":
+            ch = " "
+        if ch == "σ":
+            return tam * 0.6
+        if ch == "β":
+            return tam * 0.56
         if ch in SETAS_TEXTO or ch in ("✓", "✗", "⚠"):
             return tam * 0.95
         if ch in ("Σ", "Δ"):
             return tam * 0.62
         return self.fonte(tam).getlength(ch) / SS
+
+    @staticmethod
+    def tam_sub(tam):
+        return max(28.0, tam * SUB_ESC)  # índice também respeita o mínimo de 28 px do padrão X8
 
     @staticmethod
     def tam_tecla(tam):
@@ -399,6 +415,21 @@ class Lousa:
             self.tracar([(x + 0.5 * w, base - cap), (x + 0.92 * w, base), (x + 0.08 * w, base),
                          (x + 0.5 * w, base - cap), (x + 0.6 * w, base - 0.8 * cap)], cor, larg, ondula=0.08,
                         serrilha=0.15, tremor=0.2)
+        elif ch == "σ":  # sigma minúsculo (desvio-padrão): bolinha com o traço saindo pela direita, no topo
+            ry = 0.37 * cap
+            cx, cy, rx = x + 0.4 * w, base - ry, 0.32 * w
+            self.tracar(self.pts_elipse(cx, cy, rx, ry, -60, 300), cor, larg, ondula=0.08, serrilha=0.15,
+                        tremor=0.2)
+            self.tracar([(cx, cy - ry), (x + 0.98 * w, cy - ry - 0.03 * cap)], cor, larg, ondula=0.05,
+                        serrilha=0.1, tremor=0.2)
+        elif ch == "β":  # beta minúsculo (risco sistemático): haste que desce da linha e duas barrigas
+            xh = x + 0.16 * w
+            self.tracar([(xh, base - 0.98 * cap), (xh, base + 0.3 * tam)], cor, larg, ondula=0.05, serrilha=0.1,
+                        tremor=0.2)
+            self.tracar(self.pts_elipse(xh, base - 0.78 * cap, 0.56 * w, 0.2 * cap, -90, 90), cor, larg,
+                        ondula=0.06, serrilha=0.12, tremor=0.2)
+            self.tracar(self.pts_elipse(xh, base - 0.29 * cap, 0.74 * w, 0.29 * cap, -90, 90), cor, larg,
+                        ondula=0.06, serrilha=0.12, tremor=0.2)
         elif ch == "Σ":
             self.tracar([(x + 0.9 * w, base - cap), (x + 0.1 * w, base - cap), (x + 0.55 * w, base - 0.5 * cap),
                          (x + 0.1 * w, base), (x + 0.9 * w, base)], cor, larg, ondula=0.08, serrilha=0.15,
@@ -438,7 +469,10 @@ class Lousa:
             cx += self.avanco(t, tk)
 
     def desenhar_token(self, ch, x, base, tam, cor, ang=0.0, esc=1.0):
-        if ch.startswith("\x01"):
+        if ch.startswith("\x03"):  # índice: menor e abaixo da linha
+            if ch[1:] != " ":
+                self.desenhar_token(ch[1:], x, base + tam * SUB_DESCE, self.tam_sub(tam), cor, ang, esc)
+        elif ch.startswith("\x01"):
             self.tecla(ch[1:], x, base, tam, cor)
         elif ch.startswith("\x02"):  # letra com barra em cima (x̄)
             c = ch[1:]
@@ -488,7 +522,7 @@ class Lousa:
 
     def checar_texto(self, texto, onde):
         """Regras do padrão X8 que dá para conferir no texto: sem LaTeX, vírgula decimal, ponto de milhar."""
-        limpo = TECLA.sub(" ", MARCA.sub(r"\2", texto))
+        limpo = TECLA.sub(" ", SUB.sub(r"\1", MARCA.sub(r"\2", texto)))
         m = LATEX.search(limpo)
         if m:
             self.avisos.append(f"{onde}: sobra de LaTeX ({m.group(0)!r}); escreva como texto comum")
@@ -530,16 +564,35 @@ class Lousa:
             else:
                 faltou.add(c)
 
-        for trecho, k in trechos:
-            p = 0
-            for m in list(TECLA.finditer(trecho)) + [None]:
-                parte = trecho[p:m.start()] if m else trecho[p:]
-                for c in (parte.upper() if maiusculas else parte):
-                    junta(c, k)
-                if m:  # tecla também em caixa alta: nesta fonte o "g" minúsculo parece "6"
-                    rot = m.group(1).strip()
-                    out.append(("\x01" + (rot.upper() if maiusculas else rot), k))
-                    p = m.end()
+        def alta(s):  # caixa alta sem estragar σ e β
+            return "".join(c if c in GREGOS else c.upper() for c in s) if maiusculas else s
+
+        for trecho0, k in trechos:
+            pedacos, q = [], 0
+            for ms in SUB.finditer(trecho0):
+                pedacos += [(trecho0[q:ms.start()], False), (ms.group(1), True)]
+                q = ms.end()
+            pedacos.append((trecho0[q:], False))
+            for trecho, sub in pedacos:
+                if sub:  # índice: cada letra vira "\x03letra"
+                    for c in alta(trecho):
+                        c = TROCAS.get(c, c) if len(TROCAS.get(c, c)) == 1 else c
+                        if c in INVISIVEIS:
+                            continue
+                        if c == " " or self.tem_glifo(c):
+                            out.append(("\x03" + c, k))
+                        else:
+                            faltou.add(c)
+                    continue
+                p = 0
+                for m in list(TECLA.finditer(trecho)) + [None]:
+                    parte = trecho[p:m.start()] if m else trecho[p:]
+                    for c in alta(parte):
+                        junta(c, k)
+                    if m:  # tecla também em caixa alta: nesta fonte o "g" minúsculo parece "6"
+                        rot = m.group(1).strip()
+                        out.append(("\x01" + (rot.upper() if maiusculas else rot), k))
+                        p = m.end()
         if faltou:
             self.avisos.append(f"{onde}: a fonte não tem {''.join(sorted(faltou))!r}; caractere(s) omitido(s)")
         return out
@@ -623,7 +676,7 @@ class Lousa:
         cap, desc = self.metricas(tam)
 
         def medir(cs):
-            return sum(self.avanco(c, tam) * (1 + esp) + (tam * 0.1 if c == " " else 0) for c, _ in cs)
+            return sum(self.avanco(c, tam) * (1 + esp) + (tam * 0.1 if c in ESPACOS else 0) for c, _ in cs)
 
         # parágrafos: 2 espaços no início = 1 nível de recuo; "1. " = circulinho; "- " ou "• " = tópico
         pars = [[]]
@@ -675,7 +728,7 @@ class Lousa:
             cx = lx + ln["recuo"]
             for ch, cor in ln["toks"]:
                 adv = self.avanco(ch, tam) * (1 + esp)
-                if ch == " ":
+                if ch in ESPACOS:
                     cx += adv + tam * 0.1 + rng.gauss(0, tam * 0.03) * imp
                     continue
                 base = base0 + incl * (cx - lx) + onda(cx - lx) + rng.gauss(0, tam * 0.028) * imp
@@ -694,6 +747,51 @@ class Lousa:
                         float(el.get("espessura_sublinhado", 3.4)), ondula=0.55, tremor=0.7)
             bbox = (bbox[0] - 6, bbox[1], bbox[2] + 10, yb + 4)
         return self.registrar(el, tipo, bbox, cor_base, linhas=caixas, tam=tam, cap=cap)
+
+    def largura_texto(self, texto, tam, maiusculas, esp=0.1):
+        """Largura de uma linha de texto (sem desenhar e sem repetir avisos)."""
+        guarda, self.avisos = self.avisos, []
+        try:
+            toks = self.marcar(texto, (255, 255, 255), "", maiusculas)
+        finally:
+            self.avisos = guarda
+        return sum(self.avanco(c, tam) * (1 + esp) + (tam * 0.1 if c in ESPACOS else 0) for c, _ in toks)
+
+    def el_fracao(self, el, onde):
+        """Fórmula com fração escrita à mão: [antes] numerador sobre denominador [depois]."""
+        tam = float(el.get("tamanho", 52))
+        maiusc = bool(el.get("maiusculas", self.maiusculas))
+        cor = el.get("cor", "branco")
+        antes, depois = str(el.get("antes", "")), str(el.get("depois", ""))
+        num, den = str(el.get("num", "")), str(el.get("den", ""))
+        if not num or not den:
+            raise ErroRoteiro(f"{onde}: 'fracao' precisa de 'num' (numerador) e 'den' (denominador)")
+        cap, desc = self.metricas(tam)
+        gap = tam * 0.35
+        wa = self.largura_texto(antes, tam, maiusc) if antes else 0.0
+        wd_ = self.largura_texto(depois, tam, maiusc) if depois else 0.0
+        wn, wd = self.largura_texto(num, tam, maiusc), self.largura_texto(den, tam, maiusc)
+        wb = max(wn, wd) + tam * 0.5
+        y_bar = cap + max(desc * 0.8, tam * (SUB_DESCE + 0.2)) + tam * 0.08  # do topo do numerador (cabe índice)
+        y_den = y_bar + tam * 0.3
+        W = wa + (gap if antes else 0) + wb + (gap if depois else 0) + wd_
+        H = y_den + cap + desc
+        x, y = self.posicionar(el, W, H, onde)
+        antes_reg = set(self.reg)
+        base = dict(tamanho=tam, cor=cor, lista=False, maiusculas=maiusc, espacamento=0.1)
+        xb = x + wa + (gap if antes else 0)
+        if antes:
+            self.el_texto(dict(base, texto=antes, x=x, y=y + y_bar - cap / 2), onde + " antes")
+        self.el_texto(dict(base, texto=num, x=xb + (wb - wn) / 2, y=y), onde + " numerador")
+        self.el_texto(dict(base, texto=den, x=xb + (wb - wd) / 2, y=y + y_den), onde + " denominador")
+        if depois:
+            self.el_texto(dict(base, texto=depois, x=xb + wb + gap, y=y + y_bar - cap / 2), onde + " depois")
+        for i in set(self.reg) - antes_reg:  # as partes contam como um elemento só
+            del self.reg[i]
+        cb = rgb(el.get("cor_barra", cor), "branco")
+        self.tracar([(xb, y + y_bar), (xb + wb, y + y_bar + self.rng.gauss(0, 1.2))], cb, max(3.0, tam * 0.075),
+                    ondula=0.25, serrilha=0.3, tremor=0.4)
+        return self.registrar(el, "fracao", (x, y, x + W, y + H), rgb(cor, "branco"), tam=tam, cap=cap)
 
     def el_caixa(self, el, onde):
         b, cor_alvo, _ = self.alvo(el, onde)
@@ -897,6 +995,7 @@ class Lousa:
             "titulo": lambda e, o: self.el_texto(e, o, "titulo"),
             "subtitulo": lambda e, o: self.el_texto(e, o, "subtitulo"),
             "texto": lambda e, o: self.el_texto(e, o, "texto"),
+            "fracao": self.el_fracao,
             "caixa": self.el_caixa,
             "circular": self.el_circular,
             "riscar": self.el_riscar,
@@ -933,12 +1032,13 @@ class Lousa:
             if x0 < mx or y0 < my or x1 > self.W - mx or y1 > self.H - my:
                 self.avisos.append(f"{i!r} encosta/sai da borda: x {x0:.0f}–{x1:.0f}, y {y0:.0f}–{y1:.0f} "
                                    f"(tela {self.W}x{self.H})")
-            if r["tipo"] in ("texto", "titulo", "subtitulo") and r["tam"] < 28:
+            if r["tipo"] in ("texto", "titulo", "subtitulo", "fracao") and r["tam"] < 28:
                 self.avisos.append(f"{i!r} com tamanho {r['tam']:.0f}: abaixo do mínimo de 28 px do padrão")
             for nome, zx0, zy0, zx1, zy1 in self.areas:  # cantos do logo X8 e da webcam
                 if min(x1, zx1) - max(x0, zx0) > 2 and min(y1, zy1) - max(y0, zy0) > 2:
                     self.avisos.append(f"{i!r} invade a área livre do {nome} (x {zx0}–{zx1}, y {zy0}–{zy1})")
-        itens = [(i, r) for i, r in self.reg.items() if r["tipo"] in ("texto", "titulo", "subtitulo", "desenho")]
+        itens = [(i, r) for i, r in self.reg.items()
+                 if r["tipo"] in ("texto", "titulo", "subtitulo", "desenho", "fracao")]
         for a in range(len(itens)):
             for b in range(a + 1, len(itens)):
                 (ia, ra), (ib, rb) = itens[a], itens[b]

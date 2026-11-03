@@ -79,6 +79,15 @@ alta numa letra de mão mais limpa (Pangolin), para G e S não parecerem 6 e 5. 
 fora da caixinha; o dígito depois de `f` (casas decimais) vai em caixinha: `[f] [2]`. Use `entrelinha` ~1.55
 nas linhas com teclas.
 
+### `fracao`
+Fórmula com fração à mão: `antes` (ex.: `"SHARPE ="`), `num`, `den`, `depois` (opcional), `tamanho` 52, `cor`,
+`cor_barra`, posição como `texto`. Ex.: `{"tipo": "fracao", "x": 130, "y": 230, "antes": "SHARPE =",
+"num": "R_{c} − R_{f}", "den": "σ_{c}", "tamanho": 64}` + `caixa` em volta.
+
+**Símbolos e índices (valem em qualquer texto):** `σ` e `β` saem desenhados à mão e não viram Σ/Β na caixa alta;
+`R_{f}` escreve o índice menor e mais baixo (mínimo 28 px); `\u00a0` (espaço que não quebra) prende pedaços
+que não podem ficar em linhas diferentes: `"20%\u00a0A.A."`, `"(σ\u00a0=\u00a020%)"`.
+
 ### `caixa`
 Moldura tremida em volta do `alvo` (ou da área `x`, `y`, `largura`, `altura`).
 `margem` 30 · `espessura` 5.5 · `cor` amarelo (padrão X8; "quadro vermelho" do roteiro → `"cor": "vermelho"`).
@@ -108,8 +117,7 @@ Traço tremido sob cada linha do alvo. `so_ultima_linha` false · `espessura` 4 
 ### `desenho`
 `nome` (lista: `python3 scripts/lousa.py --desenhos` ou `assets/exemplos/desenhos.png`), `largura` 200
 (a altura vem do formato do desenho), `cor` branco, `espessura` automática.
-Nomes (lista com desenho: `assets/exemplos/desenhos.png`): alvo, ampulheta, balanca, balanca_peso, balao, banco, caminhao, carro, casa, check, cofrinho, dinheiro, estrela,
-exclamacao, grafico_alta, grafico_baixa, lampada, moeda, pessoa, prancheta, receita, termometro, tubo_ensaio, xis.
+Nomes (lista com desenho: `assets/exemplos/desenhos.png`): alvo, ampulheta, balanca, balanca_peso, balao, banco, caminhao, carro, casa, check, cofrinho, combustivel, dinheiro, estrela, exclamacao, grafico_alta, grafico_baixa, lampada, moeda, onibus, pessoa, placa, prancheta, receita, serra, termometro, tubo_ensaio, xis.
 
 ### `livre`
 Traço à mão por pontos: `pontos` `[[x, y], ...]`, `fechado` false, `cor`, `espessura` 4.5.

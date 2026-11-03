@@ -1,0 +1,923 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "mp_01_abertura-mito.png",
+   "semente": 21,
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "MEDIDAS DE PERFORMANCE (C-PRO R 4.9.4 a 4.9.6)"
+    },
+    {
+     "tipo": "texto",
+     "id": "mito1",
+     "x": 90,
+     "y": 230,
+     "largura": 760,
+     "tamanho": 40,
+     "cor": "vermelho",
+     "texto": "\"O MELHOR FUNDO É O QUE MAIS RENDEU NO ANO\""
+    },
+    {
+     "tipo": "riscar",
+     "alvo": "mito1"
+    },
+    {
+     "tipo": "texto",
+     "id": "mito2",
+     "x": 90,
+     "y": 580,
+     "largura": 760,
+     "tamanho": 40,
+     "cor": "vermelho",
+     "texto": "\"SHARPE NEGATIVO = FUNDO DEU PREJUÍZO\""
+    },
+    {
+     "tipo": "riscar",
+     "alvo": "mito2"
+    },
+    {
+     "tipo": "texto",
+     "id": "verdade",
+     "x": 1070,
+     "y": 330,
+     "largura": 460,
+     "tamanho": 44,
+     "cor": "verde",
+     "texto": "RETORNO SEM OLHAR O RISCO É CEGUEIRA FINANCEIRA"
+    },
+    {
+     "tipo": "caixa",
+     "alvo": "verdade"
+    },
+    {
+     "tipo": "desenho",
+     "nome": "balanca",
+     "abaixo_de": "verdade",
+     "distancia": 70,
+     "largura": 220
+    },
+    {
+     "tipo": "seta",
+     "de": "mito1",
+     "para": "verdade",
+     "curva": 0.1
+    },
+    {
+     "tipo": "seta",
+     "de": "mito2",
+     "para": "verdade",
+     "curva": -0.1
+    }
+   ]
+  },
+  {
+   "saida": "mp_02_estrada-1-de-2.png",
+   "semente": 22,
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A VIAGEM NA ESTRADA (1/2)"
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       70,
+       522
+      ],
+      [
+       700,
+       517
+      ],
+      [
+       1540,
+       523
+      ]
+     ],
+     "espessura": 5
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       70,
+       612
+      ],
+      [
+       800,
+       616
+      ],
+      [
+       1540,
+       608
+      ]
+     ],
+     "espessura": 5
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       120,
+       566
+      ],
+      [
+       200,
+       565
+      ]
+     ],
+     "espessura": 4
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       310,
+       566
+      ],
+      [
+       390,
+       565
+      ]
+     ],
+     "espessura": 4
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       500,
+       566
+      ],
+      [
+       580,
+       565
+      ]
+     ],
+     "espessura": 4
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       690,
+       566
+      ],
+      [
+       770,
+       565
+      ]
+     ],
+     "espessura": 4
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       880,
+       566
+      ],
+      [
+       960,
+       565
+      ]
+     ],
+     "espessura": 4
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       1070,
+       566
+      ],
+      [
+       1150,
+       565
+      ]
+     ],
+     "espessura": 4
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       1260,
+       566
+      ],
+      [
+       1340,
+       565
+      ]
+     ],
+     "espessura": 4
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       1450,
+       566
+      ],
+      [
+       1530,
+       565
+      ]
+     ],
+     "espessura": 4
+    },
+    {
+     "tipo": "desenho",
+     "nome": "onibus",
+     "x": 150,
+     "y": 318,
+     "largura": 430
+    },
+    {
+     "tipo": "desenho",
+     "nome": "carro",
+     "x": 1010,
+     "y": 322,
+     "largura": 330,
+     "cor": "laranja"
+    },
+    {
+     "tipo": "desenho",
+     "nome": "combustivel",
+     "x": 1380,
+     "y": 250,
+     "largura": 160,
+     "cor": "vermelho"
+    },
+    {
+     "tipo": "texto",
+     "id": "leg1",
+     "x": 80,
+     "y": 680,
+     "largura": 800,
+     "tamanho": 34,
+     "texto": "1. {laranja:O ÔNIBUS DE LINHA (SEGURO E CONSTANTE)} → ATIVO LIVRE DE RISCO (R_{f} / CDI / SELIC)"
+    },
+    {
+     "tipo": "texto",
+     "id": "leg2",
+     "x": 960,
+     "y": 680,
+     "largura": 600,
+     "tamanho": 34,
+     "texto": "2. {laranja:O CARRO ESPORTIVO (A CARTEIRA)} COM O MARCADOR DE {laranja:TANQUE INTEIRO GASTO} → SHARPE = COMBUSTÍVEL TOTAL (σ = RISCO SISTEMÁTICO + ESPECÍFICO)"
+    }
+   ]
+  },
+  {
+   "saida": "mp_03_estrada-2-de-2.png",
+   "semente": 23,
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A VIAGEM NA ESTRADA (2/2)"
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       70,
+       522
+      ],
+      [
+       700,
+       517
+      ],
+      [
+       1540,
+       523
+      ]
+     ],
+     "espessura": 5
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       70,
+       612
+      ],
+      [
+       800,
+       616
+      ],
+      [
+       1540,
+       608
+      ]
+     ],
+     "espessura": 5
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       120,
+       566
+      ],
+      [
+       200,
+       565
+      ]
+     ],
+     "espessura": 4
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       310,
+       566
+      ],
+      [
+       390,
+       565
+      ]
+     ],
+     "espessura": 4
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       500,
+       566
+      ],
+      [
+       580,
+       565
+      ]
+     ],
+     "espessura": 4
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       690,
+       566
+      ],
+      [
+       770,
+       565
+      ]
+     ],
+     "espessura": 4
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       880,
+       566
+      ],
+      [
+       960,
+       565
+      ]
+     ],
+     "espessura": 4
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       1070,
+       566
+      ],
+      [
+       1150,
+       565
+      ]
+     ],
+     "espessura": 4
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       1260,
+       566
+      ],
+      [
+       1340,
+       565
+      ]
+     ],
+     "espessura": 4
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       1450,
+       566
+      ],
+      [
+       1530,
+       565
+      ]
+     ],
+     "espessura": 4
+    },
+    {
+     "tipo": "desenho",
+     "nome": "placa",
+     "x": 260,
+     "y": 292,
+     "largura": 230,
+     "cor": "verde"
+    },
+    {
+     "tipo": "desenho",
+     "nome": "serra",
+     "x": 1080,
+     "y": 230,
+     "largura": 360
+    },
+    {
+     "tipo": "texto",
+     "id": "leg3",
+     "x": 80,
+     "y": 680,
+     "largura": 800,
+     "tamanho": 34,
+     "texto": "3. {laranja:A PLACA DA CIDADE DO CLIENTE} → SHARPE MODIFICADO = META / BENCHMARK DO OBJETIVO"
+    },
+    {
+     "tipo": "texto",
+     "id": "leg4",
+     "x": 960,
+     "y": 680,
+     "largura": 600,
+     "tamanho": 34,
+     "texto": "4. {laranja:APENAS AS SUBIDAS DA SERRA NA ESTRADA} → TREYNOR = SÓ A INCLINAÇÃO DA PISTA (β = RISCO DE MERCADO)"
+    }
+   ]
+  },
+  {
+   "saida": "mp_04_conceito-limitacoes.png",
+   "semente": 24,
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "1. RETORNO AJUSTADO AO RISCO: CONCEITO E LIMITAÇÕES",
+     "tamanho": 42
+    },
+    {
+     "tipo": "texto",
+     "id": "corpo",
+     "x": 80,
+     "y": 160,
+     "largura": 1440,
+     "tamanho": 32,
+     "entrelinha": 1.45,
+     "texto": "- {ciano:OBJETIVO:} COMPARAR CARTEIRAS, FUNDOS OU ATIVOS CONSIDERANDO O RISCO ASSUMIDO → RESPONDER: \"O DESEMPENHO COMPENSOU O RISCO?\"\n\n- {ciano:REGRA DE COMPARABILIDADE:} COMPARAR ATIVOS/FUNDOS DENTRO DA {laranja:MESMA CATEGORIA/ESTRATÉGIA}.\n\n- {ciano:AS 4 LIMITAÇÕES CLÁSSICAS DE PROVA:}\n  1. DEPENDEM EXCLUSIVAMENTE DE {laranja:DADOS HISTÓRICOS} (EX-POST / RETROVISOR).\n  2. {laranja:NÃO GARANTEM} RESULTADOS FUTUROS.\n  3. PODEM SER {laranja:DISTORCIDAS POR PERÍODOS CURTOS} OU {laranja:EVENTOS EXTREMOS} (OUTLIERS).\n  4. EXIGEM A {laranja:ESCOLHA ADEQUADA DO BENCHMARK} DE REFERÊNCIA."
+    },
+    {
+     "tipo": "texto",
+     "id": "apoio",
+     "x": 90,
+     "y": 880,
+     "tamanho": 40,
+     "cor": "verde",
+     "texto": "FERRAMENTA DE APOIO À DECISÃO, NUNCA CRITÉRIO ÚNICO"
+    },
+    {
+     "tipo": "caixa",
+     "alvo": "apoio",
+     "margem": 26
+    }
+   ]
+  },
+  {
+   "saida": "mp_05_sharpe-1-de-2.png",
+   "semente": 25,
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "2. ÍNDICE DE SHARPE ORIGINAL = RISCO TOTAL\n(TANQUE INTEIRO) (1/2)",
+     "tamanho": 42
+    },
+    {
+     "tipo": "fracao",
+     "id": "formula",
+     "x": 130,
+     "y": 230,
+     "antes": "SHARPE =",
+     "num": "R_{c} − R_{f}",
+     "den": "σ_{c}",
+     "tamanho": 64
+    },
+    {
+     "tipo": "caixa",
+     "alvo": "formula",
+     "margem": 34
+    },
+    {
+     "tipo": "desenho",
+     "nome": "combustivel",
+     "x": 1180,
+     "y": 200,
+     "largura": 250,
+     "cor": "vermelho"
+    },
+    {
+     "tipo": "subtitulo",
+     "id": "sub",
+     "x": 80,
+     "y": 520,
+     "tamanho": 38,
+     "texto": "DECOMPOSIÇÃO DAS PEÇAS:"
+    },
+    {
+     "tipo": "texto",
+     "id": "corpo",
+     "x": 80,
+     "y": 610,
+     "largura": 1440,
+     "tamanho": 34,
+     "entrelinha": 1.45,
+     "texto": "- {laranja:NUMERADOR (R_{c} − R_{f}):} RETORNO EXCEDENTE (PRÊMIO DE RISCO GERADO ACIMA DO ATIVO LIVRE DE RISCO — CDI/SELIC).\n\n- {laranja:DENOMINADOR (σ_{c}):} DESVIO-PADRÃO DA CARTEIRA = {laranja:RISCO TOTAL} (RISCO SISTEMÁTICO + RISCO ESPECÍFICO/NÃO SISTEMÁTICO)."
+    }
+   ]
+  },
+  {
+   "saida": "mp_06_sharpe-2-de-2.png",
+   "semente": 26,
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "2. ÍNDICE DE SHARPE ORIGINAL = RISCO TOTAL\n(TANQUE INTEIRO) (2/2)",
+     "tamanho": 42
+    },
+    {
+     "tipo": "subtitulo",
+     "id": "sub",
+     "x": 80,
+     "y": 200,
+     "tamanho": 38,
+     "texto": "REGRAS DE LEITURA:"
+    },
+    {
+     "tipo": "texto",
+     "id": "corpo",
+     "x": 80,
+     "y": 290,
+     "largura": 1440,
+     "tamanho": 36,
+     "entrelinha": 1.45,
+     "texto": "- {verde:QUANTO MAIOR, MELHOR} A RELAÇÃO RETORNO × RISCO (MAIOR EFICIÊNCIA POR UNIDADE DE VOLATILIDADE).\n\n- {laranja:SHARPE = 0:} CARTEIRA RENDEU EXATAMENTE IGUAL AO ATIVO LIVRE DE RISCO (R_{c} = R_{f}).\n\n- {vermelho:SHARPE NEGATIVO (< 0):} CARTEIRA RENDEU {vermelho:MENOS QUE O ATIVO LIVRE DE RISCO (R_{c} < R_{f})} → {laranja:NÃO SIGNIFICA NECESSARIAMENTE PREJUÍZO NOMINAL!}"
+    }
+   ]
+  },
+  {
+   "saida": "mp_07_sharpe-modificado.png",
+   "semente": 27,
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "3. SHARPE MODIFICADO = FOCO NO DESTINO DO CLIENTE",
+     "tamanho": 42
+    },
+    {
+     "tipo": "fracao",
+     "id": "formula",
+     "x": 110,
+     "y": 200,
+     "antes": "SHARPE MODIFICADO =",
+     "num": "R_{c} − R_{benchmark / objetivo}",
+     "den": "σ_{c}",
+     "tamanho": 54
+    },
+    {
+     "tipo": "caixa",
+     "alvo": "formula",
+     "margem": 26
+    },
+    {
+     "tipo": "subtitulo",
+     "id": "sub",
+     "x": 80,
+     "y": 440,
+     "tamanho": 38,
+     "texto": "CONTRASTE DIRETO DE PERGUNTAS:"
+    },
+    {
+     "tipo": "texto",
+     "id": "corpo",
+     "x": 80,
+     "y": 520,
+     "largura": 1160,
+     "tamanho": 32,
+     "entrelinha": 1.45,
+     "texto": "- {laranja:SHARPE ORIGINAL:} \"QUANTO RENDEU ACIMA DO ATIVO LIVRE DE RISCO (R_{f}) POR UNIDADE DE RISCO TOTAL?\"\n\n- {verde:SHARPE MODIFICADO:} \"QUANTO RENDEU ACIMA DO OBJETIVO/BENCHMARK DEFINIDO PELO CLIENTE POR UNIDADE DE RISCO TOTAL?\"\n\n- {ciano:APLICAÇÃO PRÁTICA:} PLANEJAMENTO FINANCEIRO ORIENTADO A METAS (GOAL-BASED INVESTING — EX.: META ATUARIAL DE APOSENTADORIA DE IPCA + 5% A.A.)."
+    },
+    {
+     "tipo": "desenho",
+     "nome": "placa",
+     "x": 1320,
+     "y": 540,
+     "largura": 210,
+     "cor": "verde"
+    }
+   ]
+  },
+  {
+   "saida": "mp_08_treynor.png",
+   "semente": 28,
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "4. ÍNDICE DE TREYNOR = SÓ AS SUBIDAS DA ESTRADA\n(RISCO SISTEMÁTICO)",
+     "tamanho": 42
+    },
+    {
+     "tipo": "fracao",
+     "id": "formula",
+     "x": 130,
+     "y": 250,
+     "antes": "TREYNOR =",
+     "num": "R_{c} − R_{f}",
+     "den": "β_{c}",
+     "tamanho": 64
+    },
+    {
+     "tipo": "caixa",
+     "alvo": "formula",
+     "margem": 34
+    },
+    {
+     "tipo": "desenho",
+     "nome": "serra",
+     "x": 1100,
+     "y": 220,
+     "largura": 380
+    },
+    {
+     "tipo": "texto",
+     "id": "corpo",
+     "x": 80,
+     "y": 640,
+     "largura": 1440,
+     "tamanho": 36,
+     "entrelinha": 1.45,
+     "texto": "- {ciano:LEITURA:} RETORNO EXCEDENTE POR UNIDADE DE {laranja:RISCO SISTEMÁTICO (BETA, β_{c})} · {verde:QUANTO MAIOR, MELHOR}."
+    }
+   ]
+  },
+  {
+   "saida": "mp_09_quadro-sharpe-treynor.png",
+   "semente": 29,
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "QUADRO COMPARATIVO DEFINITIVO (SHARPE × TREYNOR)",
+     "tamanho": 42
+    },
+    {
+     "tipo": "subtitulo",
+     "id": "h1",
+     "x": 80,
+     "y": 150,
+     "tamanho": 42,
+     "texto": "ÍNDICE DE SHARPE"
+    },
+    {
+     "tipo": "sublinhar",
+     "alvo": "h1"
+    },
+    {
+     "tipo": "subtitulo",
+     "id": "h2",
+     "x": 980,
+     "y": 150,
+     "tamanho": 42,
+     "texto": "ÍNDICE DE TREYNOR"
+    },
+    {
+     "tipo": "sublinhar",
+     "alvo": "h2"
+    },
+    {
+     "tipo": "texto",
+     "id": "col1",
+     "x": 80,
+     "y": 240,
+     "largura": 800,
+     "tamanho": 32,
+     "entrelinha": 1.42,
+     "texto": "- {laranja:DENOMINADOR (MEDIDA DE RISCO):} DESVIO-PADRÃO (σ) → RISCO TOTAL\n\n- {laranja:RISCO ESPECÍFICO (NÃO SISTEMÁTICO):} CAPTURADO E PENALIZADO NO CÁLCULO\n\n- {laranja:INDICAÇÃO IDEAL DE USO:} CARTEIRA TOTAL DO CLIENTE OU CARTEIRAS POUCO DIVERSIFICADAS / CONCENTRADAS"
+    },
+    {
+     "tipo": "texto",
+     "id": "col2",
+     "x": 980,
+     "y": 240,
+     "largura": 600,
+     "tamanho": 32,
+     "entrelinha": 1.42,
+     "texto": "- {laranja:DENOMINADOR (MEDIDA DE RISCO):} BETA (β) → RISCO SISTEMÁTICO (MERCADO)\n\n- {laranja:RISCO ESPECÍFICO (NÃO SISTEMÁTICO):} IGNORADO (ASSUME QUE FOI ELIMINADO)\n\n- {laranja:INDICAÇÃO IDEAL DE USO:} CARTEIRAS BEM DIVERSIFICADAS (OU SUBCARTEIRAS DENTRO DE UM PORTFÓLIO AMPLO)"
+    },
+    {
+     "tipo": "linha",
+     "pontos": [
+      [
+       925,
+       150
+      ],
+      [
+       920,
+       480
+      ],
+      [
+       927,
+       800
+      ]
+     ],
+     "espessura": 4
+    },
+    {
+     "tipo": "texto",
+     "id": "oposta",
+     "x": 90,
+     "y": 890,
+     "largura": 1300,
+     "tamanho": 40,
+     "cor": "laranja",
+     "texto": "SHARPE E TREYNOR PODEM ORDENAR OS MESMOS FUNDOS DE FORMA OPOSTA!"
+    },
+    {
+     "tipo": "caixa",
+     "alvo": "oposta",
+     "margem": 26
+    }
+   ]
+  },
+  {
+   "saida": "mp_10_pegadinhas.png",
+   "semente": 30,
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "⚠️ AS 5 PEGADINHAS DA BANCA (C-PRO R 4.9.4 a 4.9.6)",
+     "tamanho": 42
+    },
+    {
+     "tipo": "texto",
+     "id": "pegas",
+     "x": 80,
+     "y": 165,
+     "largura": 1430,
+     "tamanho": 32,
+     "entrelinha": 1.42,
+     "texto": "1. \"SHARPE DIVIDE PELO BETA (β)\" → {vermelho:FALSO} {verde:(SHARPE DIVIDE PELO DESVIO-PADRÃO σ; QUEM DIVIDE PELO BETA É O TREYNOR).}\n\n2. \"SHARPE NEGATIVO SIGNIFICA QUE O FUNDO TEVE RENTABILIDADE NEGATIVA\" → {vermelho:FALSO} {verde:(SIGNIFICA QUE RENDEU ABAIXO DO ATIVO LIVRE DE RISCO: R_{c} < R_{f}).}\n\n3. \"TREYNOR É O MAIS ADEQUADO PARA CARTEIRAS CONCENTRADAS\" → {vermelho:FALSO} {verde:(TREYNOR IGNORA O RISCO ESPECÍFICO; É INDICADO PARA CARTEIRAS BEM DIVERSIFICADAS).}\n\n4. \"SHARPE MODIFICADO COMPARA COM O ATIVO LIVRE DE RISCO\" → {vermelho:FALSO} {verde:(COMPARA COM O BENCHMARK/META DO OBJETIVO DO CLIENTE).}\n\n5. \"O FUNDO COM MAIOR SHARPE HISTÓRICO GARANTE O MELHOR DESEMPENHO FUTURO\" → {vermelho:FALSO} {verde:(MEDIDAS SÃO EX-POST, BASEADAS NO PASSADO, SEM GARANTIA FUTURA).}"
+    },
+    {
+     "tipo": "caixa",
+     "alvo": "pegas",
+     "margem": 26,
+     "cor": "vermelho"
+    }
+   ]
+  },
+  {
+   "saida": "mp_11_inversao-ranking-dados.png",
+   "semente": 31,
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "INVERSÃO DE RANKING (números hipotéticos)",
+     "tamanho": 42
+    },
+    {
+     "tipo": "subtitulo",
+     "id": "par",
+     "x": 80,
+     "y": 160,
+     "tamanho": 38,
+     "texto": "PARÂMETROS DO PERÍODO:"
+    },
+    {
+     "tipo": "texto",
+     "id": "pars",
+     "x": 80,
+     "y": 240,
+     "largura": 1440,
+     "tamanho": 34,
+     "entrelinha": 1.45,
+     "texto": "- ATIVO LIVRE DE RISCO (CDI) = {laranja:10% A.A.}\n- META DO CLIENTE (OBJETIVO) = {laranja:12% A.A.}"
+    },
+    {
+     "tipo": "texto",
+     "id": "c1",
+     "x": 80,
+     "y": 440,
+     "largura": 820,
+     "tamanho": 38,
+     "cor": "ciano",
+     "texto": "CENÁRIO 1 · FUNDO ALFA\n(CARTEIRA BEM DIVERSIFICADA)"
+    },
+    {
+     "tipo": "texto",
+     "id": "c1i",
+     "x": 80,
+     "y": 690,
+     "largura": 820,
+     "tamanho": 36,
+     "entrelinha": 1.5,
+     "texto": "- RETORNO (R_{ALFA}) = {laranja:18% A.A.}\n- VOLATILIDADE (σ_{ALFA}) = {laranja:10%}\n- BETA (β_{ALFA}) = {laranja:1,0}"
+    },
+    {
+     "tipo": "texto",
+     "id": "c2",
+     "x": 980,
+     "y": 440,
+     "largura": 600,
+     "tamanho": 38,
+     "cor": "ciano",
+     "texto": "CENÁRIO 2 · FUNDO BETA\n(CARTEIRA CONCENTRADA — ALTO RISCO ESPECÍFICO)"
+    },
+    {
+     "tipo": "texto",
+     "id": "c2i",
+     "x": 980,
+     "y": 690,
+     "largura": 600,
+     "tamanho": 36,
+     "entrelinha": 1.5,
+     "texto": "- RETORNO (R_{BETA}) = {laranja:20% A.A.}\n- VOLATILIDADE (σ_{BETA}) = {laranja:20%}\n- BETA (β_{BETA}) = {laranja:1,0}"
+    },
+    {
+     "tipo": "linha",
+     "pontos": [
+      [
+       925,
+       430
+      ],
+      [
+       920,
+       700
+      ],
+      [
+       927,
+       960
+      ]
+     ],
+     "espessura": 4
+    }
+   ]
+  },
+  {
+   "saida": "mp_12_hp12c-sharpe.png",
+   "semente": 32,
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "HP12C · SHARPE E SHARPE MODIFICADO",
+     "tamanho": 42
+    },
+    {
+     "tipo": "texto",
+     "id": "hp",
+     "x": 80,
+     "y": 160,
+     "largura": 1440,
+     "tamanho": 32,
+     "entrelinha": 1.55,
+     "texto": "1. {ciano:SHARPE FUNDO ALFA}\n  - [f] [REG] [f] [2] 18 [ENTER] 10 [−] 10 [÷] → VISOR {laranja:0,80}\n  - {verde:1º LUGAR NO SHARPE!} (0,80 DE PRÊMIO POR PONTO DE RISCO TOTAL)\n\n2. {ciano:SHARPE FUNDO BETA}\n  - 20 [ENTER] 10 [−] 20 [÷] → VISOR {laranja:0,50}\n  - 2º LUGAR NO SHARPE! PENALIZADO PELO ALTO RISCO ESPECÍFICO (σ = 20%)\n\n3. {ciano:SHARPE MOD. ALFA}\n  - 18 [ENTER] 12 [−] 10 [÷] → VISOR {laranja:0,60}\n  - SUPEROU A META DE 12% DO CLIENTE COM MAIOR EFICIÊNCIA (0,60 VS. 0,40 DO BETA)"
+    }
+   ]
+  },
+  {
+   "saida": "mp_13_hp12c-treynor.png",
+   "semente": 33,
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "HP12C · TREYNOR",
+     "tamanho": 42
+    },
+    {
+     "tipo": "texto",
+     "id": "hp",
+     "x": 80,
+     "y": 160,
+     "largura": 1440,
+     "tamanho": 32,
+     "entrelinha": 1.55,
+     "texto": "4. {ciano:TREYNOR FUNDO ALFA}\n  - 18 [ENTER] 10 [−] 1 [÷] → VISOR {laranja:8,00}\n  - 2º LUGAR NO TREYNOR! (8,00 POR UNIDADE DE BETA)\n\n5. {ciano:TREYNOR FUNDO BETA}\n  - 20 [ENTER] 10 [−] 1 [÷] → VISOR {laranja:10,00}\n  - {verde:1º LUGAR NO TREYNOR!} COMO O TREYNOR SÓ OLHA O β = 1,0, ELE IGNOROU A CONCENTRAÇÃO!"
+    }
+   ]
+  }
+ ]
+}
