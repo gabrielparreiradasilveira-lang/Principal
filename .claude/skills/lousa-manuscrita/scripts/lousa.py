@@ -31,6 +31,7 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, AQUI)
 sys.dont_write_bytecode = True  # não deixa __pycache__ dentro da pasta da skill
 import desenhos as DES  # noqa: E402
+import moldes as MOLDES  # noqa: E402
 
 RAIZ = os.path.dirname(AQUI)
 FONTE_PADRAO = os.path.join(RAIZ, "assets", "fontes", "PermanentMarker-Regular.ttf")
@@ -660,7 +661,15 @@ class Lousa:
         raise ErroRoteiro(f"{onde}: informe 'alvo' (id) ou x, y, largura e altura")
 
     # ------------------------------------------------------------------ elementos
-    def el_texto(self, el, onde, tipo="texto"):
+    def el_texto(self, el, onde, tipo="texto", medir=False):
+        so_medir = medir
+        """Desenha um bloco de texto; com medir=True só devolve (largura, altura), sem desenhar nem avisar."""
+        if so_medir is True:  # mede sem deixar avisos (a medida de verdade roda com medir="ja")
+            guarda, self.avisos = self.avisos, []
+            try:
+                return self.el_texto(el, onde, tipo, medir="ja")
+            finally:
+                self.avisos = guarda
         titulo = tipo == "titulo"
         tam = float(el.get("tamanho", {"titulo": 44, "subtitulo": 40}.get(tipo, 36)))
         cor_base = rgb(el.get("cor"), {"titulo": "amarelo", "subtitulo": "ciano"}.get(tipo, "branco"))
@@ -711,6 +720,8 @@ class Lousa:
         lh = tam * entre
         wref = larg_max if (larg_max and alinhar != "esquerda") else max(lws or [0])
         h = cap + (len(linhas) - 1) * lh + desc
+        if so_medir:
+            return max(lws or [0.0]), h
         if titulo:
             el = dict({"x": 40, "y": 24}, **el)
         x, y = self.posicionar(el, wref, h, onde)
@@ -757,7 +768,7 @@ class Lousa:
             self.avisos = guarda
         return sum(self.avanco(c, tam) * (1 + esp) + (tam * 0.1 if c in ESPACOS else 0) for c, _ in toks)
 
-    def el_fracao(self, el, onde):
+    def el_fracao(self, el, onde, medir=False):
         """Fórmula com fração escrita à mão: [antes] numerador sobre denominador [depois]."""
         tam = float(el.get("tamanho", 52))
         maiusc = bool(el.get("maiusculas", self.maiusculas))
@@ -776,6 +787,8 @@ class Lousa:
         y_den = y_bar + tam * 0.3
         W = wa + (gap if antes else 0) + wb + (gap if depois else 0) + wd_
         H = y_den + cap + desc
+        if medir:
+            return W, H
         x, y = self.posicionar(el, W, H, onde)
         antes_reg = set(self.reg)
         base = dict(tamanho=tam, cor=cor, lista=False, maiusculas=maiusc, espacamento=0.1)
@@ -1142,9 +1155,12 @@ def main(argv=None):
         avisos = []
         try:
             lousa = Lousa(spec, pasta, avisos)
-            lousa.desenhar(spec.get("elementos", []))
+            elementos = spec.get("elementos", [])
+            if spec.get("molde"):  # molde = posições e tamanhos calculados sozinhos (scripts/moldes.py)
+                elementos = MOLDES.expandir(lousa, spec) + elementos
+            lousa.desenhar(elementos)
             lousa.conferir()
-        except ErroRoteiro as e:
+        except (ErroRoteiro, MOLDES.ErroMolde) as e:
             dizer(f"✖ lousa {n}: {e}")
             falhas += 1
             continue

@@ -100,3 +100,12 @@ dividido, os títulos criados e as lousas montadas a partir de tabela da HP12C.
 - Texto saindo da tela → falta `largura` (sem ela o texto não quebra).
 - Seta invertida/minúscula entre dois blocos → falta espaço entre eles; afaste os blocos ou quebre o texto.
 - Desenho novo → `livre` (pontos do traço) ou acrescente em `scripts/desenhos.py` (instruções no topo).
+
+## Decisões do professor (03/11/2026) — valem para todo roteiro
+1. **Uma lousa por bloco [Ação na Lousa].** Só divide em (1/2), (2/2) se nem 28 px couber depois de condensar.
+2. **Palavras-chave, não texto corrido:** condensar o texto do roteiro em termos-chave e frases curtas, mantendo
+   todo conceito, número e fórmula; a explicação fica na fala. No relatório, listar o que foi condensado.
+3. **HP12C só se o [Ação na Lousa] pedir** (tabela de teclas que está só na locução não vira lousa).
+4. **Montar com `molde`** (references/formato.md, seção 7): sem coordenadas à mão; uma renderização, conferência
+   da prancha, entrega.
+5. **Antes de desenhar, conferir o roteiro na apostila** e devolver uma lista curta de alertas técnicos.

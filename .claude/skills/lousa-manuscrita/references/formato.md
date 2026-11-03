@@ -177,3 +177,20 @@ tamanho 46); à direita (x ~1250) o desenho da analogia (largura ~380) com a leg
 **E. Pegadinha de prova.**
 Enunciado errado em rosa/vermelho + `riscar` com `"estilo": "linha"`; desenho `exclamacao` `esquerda_de` ele;
 forma correta em verde abaixo + `caixa`; uma palavra-chave em `{amarelo:...}`.
+
+## 7. Moldes automáticos (use primeiro)
+
+Em vez de `elementos` com x/y, o slide pode ter `"molde"`: o gerador calcula posição e o maior tamanho de letra
+que cabe (40 → 28 px). Se nem 28 couber, avisa para condensar ou dividir. `elementos` extras são desenhados por
+cima. Exemplo completo: `aulas-certificacoes/materiais/cpro-r/lousas/medidas-performance-sharpe-treynor/mp-lousas.json`.
+
+| molde | campos |
+|---|---|
+| `mito_verdade` | `titulo`, `mitos` (lista, saem em vermelho riscados), `verdade` (verde, moldura), `desenho` |
+| `metafora` | `titulo`, `itens`: `[{desenho, cor, extra, cor_extra, nome, legenda}]` (2 a 4, sobre uma estrada; `"estrada": false` tira) |
+| `topicos` | `titulo`, `formula` ({antes, num, den}), `desenho`, `subtitulo`, `texto` (tópicos), `destaque` (frase com moldura na base) |
+| `colunas` | `titulo`, `formula`, `desenho`, `topo` (texto acima), `colunas`: `[{titulo, texto}, {titulo, texto}]`, `destaque` |
+| `pegadinhas` | `titulo`, `itens`: `[{frase, correcao, veredito}]` (veredito padrão FALSO), moldura vermelha |
+| `hp12c` | `titulo`, `passos`: `[{nome, teclas, visor, leitura}]`, `primeiro` (número do 1º passo) |
+
+`destaque` aceita texto ou `{texto, cor, moldura}`; `desenho` aceita nome ou `{nome, cor, largura}`.
