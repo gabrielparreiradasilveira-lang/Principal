@@ -523,7 +523,7 @@ class Lousa:
 
     def checar_texto(self, texto, onde):
         """Regras do padrão X8 que dá para conferir no texto: sem LaTeX, vírgula decimal, ponto de milhar."""
-        limpo = TECLA.sub(" ", SUB.sub(r"\1", MARCA.sub(r"\2", texto)))
+        limpo = TECLA.sub(" ", SUB.sub(r"\1", MARCA.sub(r"\2", texto))).replace("R$", "R ")  # R$ não é LaTeX
         m = LATEX.search(limpo)
         if m:
             self.avisos.append(f"{onde}: sobra de LaTeX ({m.group(0)!r}); escreva como texto comum")
