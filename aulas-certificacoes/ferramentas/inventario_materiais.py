@@ -97,7 +97,10 @@ def main():
             # o JSON ao lado do .pptx descreve as lousas; o título da primeira traz o item do PD
             spec = next(p.parent.glob("*-lousas.json"), None)
             slides = json.loads(spec.read_text(encoding="utf-8")).get("slides", []) if spec else []
-            cabeca = " ".join(e.get("texto", "") for s in slides[:1] for e in s.get("elementos", []) if e.get("tipo") == "titulo")
+            # o título vem em "elementos" (lousa montada à mão) ou no próprio slide (lousa com "molde")
+            cabeca = " ".join([s.get("titulo", "") for s in slides[:1]] +
+                              [e.get("texto", "") for s in slides[:1] for e in s.get("elementos", [])
+                               if e.get("tipo") == "titulo"]).replace("\u00a0", " ")
             mm = re.match(r"r(\d{2}[a-h]?)", chave)
             codigo = "R" + mm.group(1).upper() if mm else ""
             texto_titulo = f"Lousas {codigo} · {len(slides)} lousas · {chave[len(codigo):].strip('-').replace('-', ' ')}"
