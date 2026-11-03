@@ -84,11 +84,17 @@ Teste feito em servidor de **4 núcleos, sem placa de vídeo**, com áudio sint�
 
 | Modo | Velocidade | 1 h de aula levaria |
 |---|---|---|
-| rapido | 3,1× o tempo real | ~20 min |
-| equilibrado | 2,4× o tempo real | ~25 min |
-| maximo | 0,8× o tempo real | ~75 min |
+| rapido | 6,1× o tempo real | ~10 min |
+| equilibrado | 5,2× o tempo real | ~12 min |
+| maximo | 0,8× o tempo real* | ~75 min |
+
+\* `rapido` e `equilibrado` medidos num vídeo de 5 min (03/11/2026). `maximo` vem de um teste anterior de 1min43s, que superestima o tempo.
 
 - Notebook com 8+ núcleos tende a ser mais rápido. Placa NVIDIA (GPU) costuma acelerar várias vezes (ordem de 5–10×).
+- **Lote (`--lote`):** processa vários trechos de 30 s de uma vez. O padrão é automático: **8 na placa de vídeo, 1 no processador**.
+  - Na CPU o lote deixou o turbo **mais lento** (5,2× → 4,1×) e o modelo `rapido` mais rápido (6,1× → 9,7×).
+  - Na GPU, o benchmark oficial do faster-whisper mostra o lote 3,7× mais rápido.
+  - Para testar no seu PC: rode o mesmo vídeo com `--lote 1` e sem a opção, e compare o "x o tempo real".
 - O script detecta GPU NVIDIA sozinho. Se der erro na GPU, ele refaz na CPU.
 - **Memória (RAM):** o áudio é transcrito em blocos de 10 min, cortados num silêncio. Num vídeo de 2 h o pico foi de ~0,9 GB além do modelo, e esse valor quase não cresce com a duração.
 - **OBS com várias faixas de áudio:** o script usa a **faixa 1** (a mixagem principal).

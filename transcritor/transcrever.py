@@ -37,6 +37,10 @@ MODOS = {
 
 TAXA = 16000      # o Whisper trabalha com áudio em 16 kHz
 BLOCO_SEG = 600   # transcreve em blocos de 10 min: RAM constante para qualquer duração
+# Trechos de 30 s processados juntos. Medido na CPU com o turbo: o lote PIORA
+# (5,2x -> 4,1x o tempo real), porque o codificador já ocupa todos os núcleos.
+# Na GPU o lote ocupa a placa ociosa (benchmark oficial: 3,7x mais rápido).
+LOTE_GPU = 8
 
 EXTENSOES = {
     ".mp4", ".mov", ".mkv", ".avi", ".webm", ".m4v", ".wmv",
@@ -308,16 +312,20 @@ def pontos_de_corte(audio, bloco_seg: int, busca_seg: int = 20) -> list[int]:
     return cortes
 
 
-def transcrever(model, audio, contexto: str, bloco_seg: int = BLOCO_SEG):
+def transcrever(model, audio, contexto: str, bloco_seg: int = BLOCO_SEG, lote: int = 1):
     import numpy as np
+    from faster_whisper import BatchedInferencePipeline
+    motor = BatchedInferencePipeline(model=model) if lote > 1 else model
+    extra = {"batch_size": lote} if lote > 1 else {}
     duracao = len(audio) / TAXA
     palavras, ultimo_texto = [], None
     cortes = pontos_de_corte(audio, bloco_seg)
     for a, b in zip(cortes, cortes[1:]):
         inicio = a / TAXA
         trecho = audio[a:b].astype(np.float32) / 32768.0
-        segs_iter, _ = model.transcribe(
+        segs_iter, _ = motor.transcribe(
             trecho,
+            **extra,
             language="pt",
             beam_size=5,
             vad_filter=True,                          # pula silêncios (menos alucinação)
@@ -483,6 +491,9 @@ def main():
     ap.add_argument("--threads", type=int, default=os.cpu_count() or 4)
     ap.add_argument("--forcar", action="store_true", help="refaz arquivos já transcritos")
     ap.add_argument("--bloco", type=int, default=BLOCO_SEG, help=argparse.SUPPRESS)  # testes
+    ap.add_argument("--lote", type=int, default=None,
+                    help="trechos processados juntos. Padrão: 8 na placa de vídeo, "
+                         "1 no processador")
     ap.add_argument("--diagnostico", action="store_true",
                     help="só mostra versões, RAM e faixas do arquivo (não transcreve)")
     args = ap.parse_args()
@@ -518,6 +529,10 @@ def main():
         dispositivo = "cpu"
         model = carregar_modelo(MODOS[args.modo], dispositivo, args.threads)
     contexto = montar_contexto(args.estilo, termos, model)
+    lote_escolhido = args.lote is not None
+    if not lote_escolhido:
+        args.lote = LOTE_GPU if dispositivo == "cuda" else 1
+    print(f"  Lote: {args.lote} trecho(s) por vez")
 
     for n, arquivo in enumerate(pendentes, 1):
         print(f"\n[{n}/{len(pendentes)}] {arquivo.name}")
@@ -529,22 +544,39 @@ def main():
             continue
         print(f"  Áudio extraído: {tempo_curto(len(audio) / TAXA)} de duração | {texto_memoria()}")
 
-        resultado, falhou_na_gpu = None, False
+        resultado, falhou_na_gpu, placa_cheia = None, False, False
         try:
-            resultado = transcrever(model, audio, contexto, args.bloco)
+            resultado = transcrever(model, audio, contexto, args.bloco, args.lote)
         except Exception as erro:
             if dispositivo == "cuda" and erro_de_gpu(erro):
-                falhou_na_gpu = True
-                print(f"\n  GPU falhou ({erro}). Tentando de novo na CPU...")
+                placa_cheia = args.lote > 1 and "out of memory" in str(erro).lower()
+                falhou_na_gpu = not placa_cheia
+                print(f"\n  GPU falhou ({erro}).")
             else:
                 print(f"\n  ERRO: {descrever_erro(erro)}  (arquivo pulado)")
+        if placa_cheia:  # memória da placa cheia: tenta sem lote antes de desistir da GPU
+            print("  Memória da placa de vídeo cheia. Repetindo sem lote "
+                  "(vale para os próximos arquivos também)...")
+            args.lote = 1
+            gc.collect()
+            try:
+                resultado = transcrever(model, audio, contexto, args.bloco, args.lote)
+            except Exception as erro:
+                if erro_de_gpu(erro):
+                    falhou_na_gpu = True
+                    print(f"\n  GPU falhou de novo ({erro}).")
+                else:
+                    print(f"\n  ERRO: {descrever_erro(erro)}  (arquivo pulado)")
         if falhou_na_gpu:  # fora do except: a memória do erro já foi liberada
+            print("  Tentando de novo na CPU...")
             del model
             gc.collect()
             dispositivo = "cpu"
+            if not lote_escolhido:
+                args.lote = 1  # na CPU o lote deixa o turbo mais lento
             try:
                 model = carregar_modelo(MODOS[args.modo], "cpu", args.threads)
-                resultado = transcrever(model, audio, contexto, args.bloco)
+                resultado = transcrever(model, audio, contexto, args.bloco, args.lote)
             except Exception as erro:
                 print(f"\n  ERRO na CPU: {descrever_erro(erro)}")
                 return 1
