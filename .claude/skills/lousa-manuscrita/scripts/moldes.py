@@ -174,6 +174,8 @@ def topicos(L, spec, els):
         els.append(sub)
         y += _medir(L, sub, "subtitulo")[1] + 34
     fim = _destaque(L, spec.get("destaque"), els) - 40
+    if spec.get("largura_texto"):  # deixa espaço à direita para elementos extras
+        larg = min(larg, float(spec["largura_texto"]))
     if d:  # desenho à direita do texto
         larg -= wd + 60
         els.append({"tipo": "desenho", "nome": d["nome"], "cor": d.get("cor", "branco"), "largura": wd,

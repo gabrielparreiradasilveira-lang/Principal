@@ -11,9 +11,9 @@
    "tipo": "desenho",
    "id": "alvo",
    "nome": "alvo",
-   "x": 70,
-   "y": 115,
-   "largura": 125,
+   "x": 60,
+   "y": 100,
+   "largura": 95,
    "cor": "verde"
   },
   {
@@ -28,9 +28,9 @@
    "tipo": "desenho",
    "id": "ampulheta",
    "nome": "ampulheta",
-   "x": 332,
-   "y": 115,
-   "largura": 88,
+   "x": 322,
+   "y": 100,
+   "largura": 80,
    "cor": "amarelo"
   },
   {
@@ -45,9 +45,9 @@
    "tipo": "desenho",
    "id": "balanca",
    "nome": "balanca",
-   "x": 594,
-   "y": 115,
-   "largura": 125,
+   "x": 584,
+   "y": 100,
+   "largura": 95,
    "cor": "ciano"
   },
   {
@@ -62,9 +62,9 @@
    "tipo": "desenho",
    "id": "balanca_peso",
    "nome": "balanca_peso",
-   "x": 856,
-   "y": 115,
-   "largura": 125,
+   "x": 846,
+   "y": 100,
+   "largura": 95,
    "cor": "laranja"
   },
   {
@@ -79,9 +79,9 @@
    "tipo": "desenho",
    "id": "balao",
    "nome": "balao",
-   "x": 1118,
-   "y": 115,
-   "largura": 88,
+   "x": 1108,
+   "y": 100,
+   "largura": 80,
    "cor": "rosa"
   },
   {
@@ -96,9 +96,9 @@
    "tipo": "desenho",
    "id": "banco",
    "nome": "banco",
-   "x": 1380,
-   "y": 115,
-   "largura": 125,
+   "x": 1370,
+   "y": 100,
+   "largura": 95,
    "cor": "roxo"
   },
   {
@@ -113,9 +113,9 @@
    "tipo": "desenho",
    "id": "caminhao",
    "nome": "caminhao",
-   "x": 1642,
-   "y": 115,
-   "largura": 125,
+   "x": 1632,
+   "y": 100,
+   "largura": 95,
    "cor": "branco"
   },
   {
@@ -130,9 +130,9 @@
    "tipo": "desenho",
    "id": "carro",
    "nome": "carro",
-   "x": 70,
-   "y": 337,
-   "largura": 125,
+   "x": 60,
+   "y": 288,
+   "largura": 95,
    "cor": "vermelho"
   },
   {
@@ -147,9 +147,9 @@
    "tipo": "desenho",
    "id": "casa",
    "nome": "casa",
-   "x": 332,
-   "y": 337,
-   "largura": 125,
+   "x": 322,
+   "y": 288,
+   "largura": 95,
    "cor": "verde"
   },
   {
@@ -164,9 +164,9 @@
    "tipo": "desenho",
    "id": "check",
    "nome": "check",
-   "x": 594,
-   "y": 337,
-   "largura": 125,
+   "x": 584,
+   "y": 288,
+   "largura": 95,
    "cor": "amarelo"
   },
   {
@@ -181,9 +181,9 @@
    "tipo": "desenho",
    "id": "cofrinho",
    "nome": "cofrinho",
-   "x": 856,
-   "y": 337,
-   "largura": 125,
+   "x": 846,
+   "y": 288,
+   "largura": 95,
    "cor": "ciano"
   },
   {
@@ -198,9 +198,9 @@
    "tipo": "desenho",
    "id": "combustivel",
    "nome": "combustivel",
-   "x": 1118,
-   "y": 337,
-   "largura": 125,
+   "x": 1108,
+   "y": 288,
+   "largura": 95,
    "cor": "laranja"
   },
   {
@@ -215,9 +215,9 @@
    "tipo": "desenho",
    "id": "dinheiro",
    "nome": "dinheiro",
-   "x": 1380,
-   "y": 337,
-   "largura": 125,
+   "x": 1370,
+   "y": 288,
+   "largura": 95,
    "cor": "rosa"
   },
   {
@@ -230,12 +230,29 @@
   },
   {
    "tipo": "desenho",
+   "id": "diversificacao",
+   "nome": "diversificacao",
+   "x": 1632,
+   "y": 288,
+   "largura": 95,
+   "cor": "roxo"
+  },
+  {
+   "tipo": "texto",
+   "texto": "diversificacao",
+   "abaixo_de": "diversificacao",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
    "id": "estrela",
    "nome": "estrela",
-   "x": 1642,
-   "y": 337,
-   "largura": 125,
-   "cor": "roxo"
+   "x": 60,
+   "y": 476,
+   "largura": 95,
+   "cor": "branco"
   },
   {
    "tipo": "texto",
@@ -249,10 +266,10 @@
    "tipo": "desenho",
    "id": "exclamacao",
    "nome": "exclamacao",
-   "x": 70,
-   "y": 559,
-   "largura": 125,
-   "cor": "branco"
+   "x": 322,
+   "y": 476,
+   "largura": 95,
+   "cor": "vermelho"
   },
   {
    "tipo": "texto",
@@ -264,12 +281,29 @@
   },
   {
    "tipo": "desenho",
+   "id": "fronteira_eficiente",
+   "nome": "fronteira_eficiente",
+   "x": 584,
+   "y": 476,
+   "largura": 95,
+   "cor": "verde"
+  },
+  {
+   "tipo": "texto",
+   "texto": "fronteira_eficiente",
+   "abaixo_de": "fronteira_eficiente",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
    "id": "grafico_alta",
    "nome": "grafico_alta",
-   "x": 332,
-   "y": 559,
-   "largura": 125,
-   "cor": "vermelho"
+   "x": 846,
+   "y": 476,
+   "largura": 95,
+   "cor": "amarelo"
   },
   {
    "tipo": "texto",
@@ -283,10 +317,10 @@
    "tipo": "desenho",
    "id": "grafico_baixa",
    "nome": "grafico_baixa",
-   "x": 594,
-   "y": 559,
-   "largura": 125,
-   "cor": "verde"
+   "x": 1108,
+   "y": 476,
+   "largura": 95,
+   "cor": "ciano"
   },
   {
    "tipo": "texto",
@@ -300,10 +334,10 @@
    "tipo": "desenho",
    "id": "lampada",
    "nome": "lampada",
-   "x": 856,
-   "y": 559,
-   "largura": 125,
-   "cor": "amarelo"
+   "x": 1370,
+   "y": 476,
+   "largura": 95,
+   "cor": "laranja"
   },
   {
    "tipo": "texto",
@@ -315,12 +349,29 @@
   },
   {
    "tipo": "desenho",
+   "id": "mar",
+   "nome": "mar",
+   "x": 1632,
+   "y": 476,
+   "largura": 95,
+   "cor": "rosa"
+  },
+  {
+   "tipo": "texto",
+   "texto": "mar",
+   "abaixo_de": "mar",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
    "id": "moeda",
    "nome": "moeda",
-   "x": 1118,
-   "y": 559,
-   "largura": 125,
-   "cor": "ciano"
+   "x": 60,
+   "y": 664,
+   "largura": 95,
+   "cor": "roxo"
   },
   {
    "tipo": "texto",
@@ -334,10 +385,10 @@
    "tipo": "desenho",
    "id": "onibus",
    "nome": "onibus",
-   "x": 1380,
-   "y": 559,
-   "largura": 125,
-   "cor": "laranja"
+   "x": 322,
+   "y": 664,
+   "largura": 95,
+   "cor": "branco"
   },
   {
    "tipo": "texto",
@@ -351,10 +402,10 @@
    "tipo": "desenho",
    "id": "pessoa",
    "nome": "pessoa",
-   "x": 1642,
-   "y": 559,
-   "largura": 88,
-   "cor": "rosa"
+   "x": 584,
+   "y": 664,
+   "largura": 80,
+   "cor": "vermelho"
   },
   {
    "tipo": "texto",
@@ -368,10 +419,10 @@
    "tipo": "desenho",
    "id": "placa",
    "nome": "placa",
-   "x": 70,
-   "y": 781,
-   "largura": 125,
-   "cor": "roxo"
+   "x": 846,
+   "y": 664,
+   "largura": 95,
+   "cor": "verde"
   },
   {
    "tipo": "texto",
@@ -385,10 +436,10 @@
    "tipo": "desenho",
    "id": "prancheta",
    "nome": "prancheta",
-   "x": 332,
-   "y": 781,
-   "largura": 88,
-   "cor": "branco"
+   "x": 1108,
+   "y": 664,
+   "largura": 80,
+   "cor": "amarelo"
   },
   {
    "tipo": "texto",
@@ -402,10 +453,10 @@
    "tipo": "desenho",
    "id": "receita",
    "nome": "receita",
-   "x": 594,
-   "y": 781,
-   "largura": 88,
-   "cor": "vermelho"
+   "x": 1370,
+   "y": 664,
+   "largura": 80,
+   "cor": "ciano"
   },
   {
    "tipo": "texto",
@@ -419,10 +470,10 @@
    "tipo": "desenho",
    "id": "serra",
    "nome": "serra",
-   "x": 856,
-   "y": 781,
-   "largura": 125,
-   "cor": "verde"
+   "x": 1632,
+   "y": 664,
+   "largura": 95,
+   "cor": "laranja"
   },
   {
    "tipo": "texto",
@@ -436,10 +487,10 @@
    "tipo": "desenho",
    "id": "termometro",
    "nome": "termometro",
-   "x": 1118,
-   "y": 781,
-   "largura": 88,
-   "cor": "amarelo"
+   "x": 60,
+   "y": 852,
+   "largura": 80,
+   "cor": "rosa"
   },
   {
    "tipo": "texto",
@@ -453,10 +504,10 @@
    "tipo": "desenho",
    "id": "tubo_ensaio",
    "nome": "tubo_ensaio",
-   "x": 1380,
-   "y": 781,
-   "largura": 88,
-   "cor": "ciano"
+   "x": 322,
+   "y": 852,
+   "largura": 80,
+   "cor": "roxo"
   },
   {
    "tipo": "texto",
@@ -470,10 +521,10 @@
    "tipo": "desenho",
    "id": "xis",
    "nome": "xis",
-   "x": 1642,
-   "y": 781,
-   "largura": 125,
-   "cor": "laranja"
+   "x": 584,
+   "y": 852,
+   "largura": 95,
+   "cor": "branco"
   },
   {
    "tipo": "texto",

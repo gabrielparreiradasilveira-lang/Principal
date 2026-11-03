@@ -117,7 +117,7 @@ Traço tremido sob cada linha do alvo. `so_ultima_linha` false · `espessura` 4 
 ### `desenho`
 `nome` (lista: `python3 scripts/lousa.py --desenhos` ou `assets/exemplos/desenhos.png`), `largura` 200
 (a altura vem do formato do desenho), `cor` branco, `espessura` automática.
-Nomes (lista com desenho: `assets/exemplos/desenhos.png`): alvo, ampulheta, balanca, balanca_peso, balao, banco, caminhao, carro, casa, check, cofrinho, combustivel, dinheiro, estrela, exclamacao, grafico_alta, grafico_baixa, lampada, moeda, onibus, pessoa, placa, prancheta, receita, serra, termometro, tubo_ensaio, xis.
+Nomes (lista com desenho: `assets/exemplos/desenhos.png`): alvo, ampulheta, balanca, balanca_peso, balao, banco, caminhao, carro, casa, check, cofrinho, combustivel, dinheiro, diversificacao, estrela, exclamacao, fronteira_eficiente, grafico_alta, grafico_baixa, lampada, mar, moeda, onibus, pessoa, placa, prancheta, receita, serra, termometro, tubo_ensaio, xis.
 
 ### `livre`
 Traço à mão por pontos: `pontos` `[[x, y], ...]`, `fechado` false, `cor`, `espessura` 4.5.
@@ -182,13 +182,13 @@ forma correta em verde abaixo + `caixa`; uma palavra-chave em `{amarelo:...}`.
 
 Em vez de `elementos` com x/y, o slide pode ter `"molde"`: o gerador calcula posição e o maior tamanho de letra
 que cabe (40 → 28 px). Se nem 28 couber, avisa para condensar ou dividir. `elementos` extras são desenhados por
-cima. Exemplo completo: `aulas-certificacoes/materiais/cpro-r/lousas/medidas-performance-sharpe-treynor/mp-lousas.json`.
+cima. Exemplo completo: `aulas-certificacoes/materiais/cpro-r/lousas/r61-medidas-performance-sharpe-treynor/r61-lousas.json`.
 
 | molde | campos |
 |---|---|
 | `mito_verdade` | `titulo`, `mitos` (lista, saem em vermelho riscados), `verdade` (verde, moldura), `desenho` |
 | `metafora` | `titulo`, `itens`: `[{desenho, cor, extra, cor_extra, nome, legenda}]` (2 a 4, sobre uma estrada; `"estrada": false` tira) |
-| `topicos` | `titulo`, `formula` ({antes, num, den}), `desenho`, `subtitulo`, `texto` (tópicos), `destaque` (frase com moldura na base) |
+| `topicos` | `titulo`, `formula` ({antes, num, den}), `desenho`, `subtitulo`, `texto` (tópicos), `destaque` (frase com moldura na base), `largura_texto` (abre espaço à direita para `elementos` extras) |
 | `colunas` | `titulo`, `formula`, `desenho`, `topo` (texto acima), `colunas`: `[{titulo, texto}, {titulo, texto}]`, `destaque` |
 | `pegadinhas` | `titulo`, `itens`: `[{frase, correcao, veredito}]` (veredito padrão FALSO), moldura vermelha |
 | `hp12c` | `titulo`, `passos`: `[{nome, teclas, visor, leitura}]`, `primeiro` (número do 1º passo) |

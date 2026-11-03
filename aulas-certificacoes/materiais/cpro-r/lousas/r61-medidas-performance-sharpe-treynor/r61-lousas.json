@@ -4,7 +4,7 @@
  },
  "slides": [
   {
-   "saida": "mp_01_abertura-mito.png",
+   "saida": "r61_01_abertura-mito.png",
    "semente": 21,
    "molde": "mito_verdade",
    "titulo": "MEDIDAS DE PERFORMANCE (C-PRO R 4.9.4 a 4.9.6)",
@@ -19,7 +19,7 @@
    }
   },
   {
-   "saida": "mp_02_estrada.png",
+   "saida": "r61_02_estrada.png",
    "semente": 22,
    "molde": "metafora",
    "titulo": "A VIAGEM NA ESTRADA",
@@ -50,7 +50,7 @@
    ]
   },
   {
-   "saida": "mp_03_conceito-limitacoes.png",
+   "saida": "r61_03_conceito-limitacoes.png",
    "semente": 24,
    "molde": "topicos",
    "titulo": "1. RETORNO AJUSTADO AO RISCO: CONCEITO E LIMITAÇÕES",
@@ -58,7 +58,7 @@
    "destaque": "APOIO À DECISÃO, NUNCA CRITÉRIO ÚNICO"
   },
   {
-   "saida": "mp_04_sharpe.png",
+   "saida": "r61_04_sharpe.png",
    "semente": 25,
    "molde": "topicos",
    "titulo": "2. ÍNDICE DE SHARPE ORIGINAL = RISCO TOTAL (TANQUE INTEIRO)",
@@ -76,7 +76,7 @@
    "texto": "- {laranja:R_{c} − R_{f}:} RETORNO EXCEDENTE (PRÊMIO ACIMA DO CDI/SELIC)\n- {laranja:σ_{c}:} RISCO TOTAL (SISTEMÁTICO + ESPECÍFICO)\n- {verde:QUANTO MAIOR, MELHOR}\n- SHARPE = 0 → R_{c} = R_{f}\n- {vermelho:SHARPE < 0} → R_{c} < R_{f}: {laranja:NÃO É NECESSARIAMENTE PREJUÍZO!}"
   },
   {
-   "saida": "mp_05_sharpe-modificado.png",
+   "saida": "r61_05_sharpe-modificado.png",
    "semente": 27,
    "molde": "topicos",
    "titulo": "3. SHARPE MODIFICADO = FOCO NO DESTINO DO CLIENTE",
@@ -94,7 +94,7 @@
    "texto": "- {laranja:SHARPE ORIGINAL:} QUANTO RENDEU ACIMA DO {laranja:LIVRE DE RISCO}?\n- {verde:SHARPE MODIFICADO:} QUANTO RENDEU ACIMA DA {verde:META DO CLIENTE}?\n- OS DOIS DIVIDEM POR {laranja:σ} (RISCO TOTAL)\n- USO: PLANEJAMENTO POR METAS (EX.: IPCA + 5% A.A.)"
   },
   {
-   "saida": "mp_06_treynor.png",
+   "saida": "r61_06_treynor.png",
    "semente": 28,
    "molde": "colunas",
    "titulo": "4. ÍNDICE DE TREYNOR = SÓ AS SUBIDAS DA ESTRADA (RISCO SISTEMÁTICO)",
@@ -124,7 +124,7 @@
    }
   },
   {
-   "saida": "mp_07_pegadinhas.png",
+   "saida": "r61_07_pegadinhas.png",
    "semente": 30,
    "molde": "pegadinhas",
    "titulo": "⚠️ AS 5 PEGADINHAS DA BANCA (C-PRO R 4.9.4 a 4.9.6)",
@@ -152,7 +152,7 @@
    ]
   },
   {
-   "saida": "mp_08_inversao-ranking.png",
+   "saida": "r61_08_inversao-ranking.png",
    "semente": 31,
    "molde": "colunas",
    "titulo": "INVERSÃO DE RANKING (números hipotéticos)",
