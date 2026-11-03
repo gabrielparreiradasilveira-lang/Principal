@@ -266,6 +266,10 @@ def carregar_audio(arquivo: Path):
             raise ValueError("o arquivo não tem faixa de áudio")
         faixa = cont.streams.audio[0]  # OBS: faixa 1 = mixagem principal
         reamostrador = av.audio.resampler.AudioResampler(format="s16", layout="mono", rate=TAXA)
+        # Trava: áudio muito maior que a duração declarada = arquivo anormal.
+        # Melhor parar com aviso do que encher a RAM do computador.
+        declarada = cont.duration / 1e6 if cont.duration else None
+        limite = int((declarada * 1.2 + 60) * TAXA * 2) if declarada else None  # bytes int16
         for pacote in cont.demux(faixa):
             try:
                 quadros = pacote.decode()
@@ -274,6 +278,12 @@ def carregar_audio(arquivo: Path):
             for quadro in quadros:
                 for q in reamostrador.resample(quadro):
                     dados += q.to_ndarray().tobytes()
+            if limite and len(dados) > limite:
+                raise ValueError(
+                    f"o áudio passou de {tempo_curto(len(dados) / 2 / TAXA)}, mas o arquivo "
+                    f"declara {tempo_curto(declarada)}. Arquivo possivelmente corrompido "
+                    "(ex.: gravação do OBS interrompida). Tente remuxar no OBS: "
+                    "Arquivo > Remuxar gravações")
         for q in reamostrador.resample(None):  # esvazia o que sobrou
             dados += q.to_ndarray().tobytes()
     return np.frombuffer(dados, dtype=np.int16)
@@ -342,9 +352,111 @@ def erro_de_gpu(erro: Exception) -> bool:
 
 def descrever_erro(erro: Exception) -> str:
     if isinstance(erro, MemoryError) or "allocate" in str(erro).lower():
-        return ("memória RAM insuficiente. Feche OBS, navegador e editores de vídeo "
-                "e rode de novo (ou use --modo rapido)")
+        return (f"memória RAM insuficiente ({texto_memoria()}). Feche OBS, navegador e "
+                "editores de vídeo e rode de novo")
     return f"{type(erro).__name__}: {erro}"
+
+
+def memoria():
+    """RAM do sistema e pico de memória deste programa, em GB (Windows e Linux)."""
+    gb = 1024 ** 3
+    try:
+        if sys.platform == "win32":
+            import ctypes
+            from ctypes import wintypes
+
+            class Sistema(ctypes.Structure):
+                _fields_ = [("dwLength", wintypes.DWORD), ("dwMemoryLoad", wintypes.DWORD)] + [
+                    (n, ctypes.c_ulonglong) for n in (
+                        "total", "livre", "commit_total", "commit_livre",
+                        "virtual_total", "virtual_livre", "virtual_ext")]
+
+            class Processo(ctypes.Structure):
+                _fields_ = [("cb", wintypes.DWORD), ("faltas", wintypes.DWORD)] + [
+                    (n, ctypes.c_size_t) for n in (
+                        "pico_ws", "ws", "pico_paged", "paged", "pico_nonpaged", "nonpaged",
+                        "commit", "pico_commit")]
+
+            s = Sistema()
+            s.dwLength = ctypes.sizeof(s)
+            ctypes.windll.kernel32.GlobalMemoryStatusEx(ctypes.byref(s))
+            k32 = ctypes.windll.kernel32
+            k32.GetCurrentProcess.restype = wintypes.HANDLE
+            k32.K32GetProcessMemoryInfo.argtypes = [wintypes.HANDLE, ctypes.POINTER(Processo),
+                                                    wintypes.DWORD]
+            p = Processo()
+            p.cb = ctypes.sizeof(p)
+            ok = k32.K32GetProcessMemoryInfo(k32.GetCurrentProcess(), ctypes.byref(p), p.cb)
+            return {"total": s.total / gb, "livre": s.livre / gb,
+                    "commit_livre": s.commit_livre / gb,
+                    "pico_programa": p.pico_commit / gb if ok else None}
+        if sys.platform.startswith("linux"):
+            import resource
+            info = {}
+            with open("/proc/meminfo") as f:
+                for linha in f:
+                    chave, valor = linha.split(":")
+                    info[chave] = int(valor.split()[0]) * 1024
+            return {"total": info["MemTotal"] / gb, "livre": info["MemAvailable"] / gb,
+                    "commit_livre": None,
+                    "pico_programa": resource.getrusage(resource.RUSAGE_SELF).ru_maxrss * 1024 / gb}
+    except Exception:
+        return None
+    return None
+
+
+def texto_memoria() -> str:
+    m = memoria()
+    if not m:
+        return "RAM: sem leitura neste sistema"
+    partes = [f"RAM {m['total']:.1f} GB, livre {m['livre']:.1f} GB"]
+    if m["commit_livre"] is not None:
+        partes.append(f"limite do Windows livre {m['commit_livre']:.1f} GB")
+    if m["pico_programa"] is not None:
+        partes.append(f"pico deste programa {m['pico_programa']:.1f} GB")
+    return " | ".join(partes)
+
+
+def diagnosticar(arquivos: list[Path]) -> int:
+    """Mostra versões, RAM e as faixas de cada arquivo, e extrai o áudio sem
+    carregar o modelo. Serve para separar problema do arquivo x do modelo/GPU."""
+    import platform
+    import struct
+    print(f"Python {platform.python_version()} ({struct.calcsize('P') * 8} bits) | "
+          f"{platform.system()} {platform.release()}")
+    for nome in ("faster_whisper", "ctranslate2", "av", "numpy"):
+        try:
+            print(f"  {nome} {__import__(nome).__version__}")
+        except Exception as erro:
+            print(f"  {nome}: ERRO {erro}")
+    try:
+        import ctranslate2
+        print(f"  placas NVIDIA visíveis: {ctranslate2.get_cuda_device_count()}")
+    except Exception:
+        pass
+    print(f"  {texto_memoria()}")
+    import av
+    for arquivo in arquivos:
+        print(f"\n{arquivo.name}  ({arquivo.stat().st_size / 1e6:.0f} MB)")
+        try:
+            with av.open(str(arquivo)) as cont:
+                dur = cont.duration / 1e6 if cont.duration else None
+                print(f"  duração declarada: {tempo_curto(dur) if dur else 'desconhecida'}")
+                for i, s in enumerate(cont.streams.audio, 1):
+                    cc = s.codec_context
+                    print(f"  faixa de áudio {i}: {cc.name}, {cc.sample_rate} Hz, "
+                          f"{cc.channels} canais ({cc.layout.name})")
+                for s in cont.streams.video:
+                    print(f"  vídeo: {s.codec_context.name} {s.codec_context.width}x"
+                          f"{s.codec_context.height}")
+            t0 = time.time()
+            audio = carregar_audio(arquivo)
+            print(f"  áudio extraído: {tempo_curto(len(audio) / TAXA)} em "
+                  f"{time.time() - t0:.0f} s | {texto_memoria()}")
+            del audio
+        except Exception as erro:
+            print(f"  ERRO: {descrever_erro(erro)}")
+    return 0
 
 
 def listar_arquivos(alvos: list[str]) -> list[Path]:
@@ -371,12 +483,16 @@ def main():
     ap.add_argument("--threads", type=int, default=os.cpu_count() or 4)
     ap.add_argument("--forcar", action="store_true", help="refaz arquivos já transcritos")
     ap.add_argument("--bloco", type=int, default=BLOCO_SEG, help=argparse.SUPPRESS)  # testes
+    ap.add_argument("--diagnostico", action="store_true",
+                    help="só mostra versões, RAM e faixas do arquivo (não transcreve)")
     args = ap.parse_args()
 
     arquivos = listar_arquivos(args.alvos)
     if not arquivos:
         print("Nenhum vídeo/áudio encontrado. Coloque os arquivos na pasta 'entrada'.")
         return 1
+    if args.diagnostico:
+        return diagnosticar(arquivos)
 
     destino = Path(args.saida)
     pendentes = [a for a in arquivos
@@ -384,7 +500,8 @@ def main():
     if not pendentes:
         print("Tudo já transcrito. Use --forcar para refazer.")
         return 0
-    print(f"{len(pendentes)} arquivo(s) para transcrever.\n")
+    print(f"{len(pendentes)} arquivo(s) para transcrever.")
+    print(f"  {texto_memoria()}\n")
 
     termos = carregar_glossario(PASTA / "glossario.txt")
     regras = carregar_correcoes(PASTA / "correcoes.csv")
@@ -410,7 +527,7 @@ def main():
         except Exception as erro:
             print(f"  ERRO ao ler o áudio: {descrever_erro(erro)}  (arquivo pulado)")
             continue
-        print(f"  Áudio extraído: {tempo_curto(len(audio) / TAXA)} de duração")
+        print(f"  Áudio extraído: {tempo_curto(len(audio) / TAXA)} de duração | {texto_memoria()}")
 
         resultado, falhou_na_gpu = None, False
         try:
@@ -440,6 +557,7 @@ def main():
         gasto = time.time() - t0
         print(f"  OK: {tempo_curto(duracao)} de aula em {tempo_curto(gasto)} "
               f"({duracao / max(gasto, 0.01):.1f}x o tempo real) -> {destino / arquivo.stem}.*")
+        print(f"  {texto_memoria()}")
 
     print("\nPronto.")
     return 0

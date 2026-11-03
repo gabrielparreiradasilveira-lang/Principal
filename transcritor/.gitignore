@@ -8,3 +8,6 @@ entrada/*
 !entrada/.gitkeep
 saida/*
 !saida/.gitkeep
+
+# Saída do diagnosticar_windows.bat
+diagnostico.txt

@@ -39,6 +39,7 @@ Motor: **Whisper** (modelo aberto da OpenAI), na versão otimizada **faster-whis
 
 - Vídeo que já tem `.txt` na `saida/` é **pulado** (pode jogar a pasta inteira de novo sem medo).
 - No Windows, dá para **arrastar um vídeo em cima** do `transcrever_windows.bat`.
+- **Deu erro?** Arraste o vídeo em cima do `diagnosticar_windows.bat`. Ele não transcreve, só mede (versões, RAM e faixas de áudio) e salva tudo em `diagnostico.txt`.
 
 ---
 
@@ -103,7 +104,7 @@ Teste feito em servidor de **4 núcleos, sem placa de vídeo**, com áudio sint�
 | Frases que você não falou ("Legendas pela comunidade Amara.org") | Alucinação do Whisper em silêncio/música. O script já remove as mais comuns. |
 | Muito lento | Use `--modo rapido` para rascunho, ou rode à noite com a pasta cheia. |
 | Erro de GPU / CUDA | Rode com `--dispositivo cpu`. |
-| `MemoryError`, `cannot allocate AudioFrame buffer`, `mkl_malloc` | Falta de RAM. Corrigido em 02/11/2026: antes, um vídeo de 2 h consumia ~6,4 GB; agora ~0,9 GB. Se ainda acontecer, feche OBS, navegador e editores de vídeo. |
+| `MemoryError`, `cannot allocate AudioFrame buffer`, `mkl_malloc` | Faltou RAM durante a execução. Arraste o vídeo em cima do `diagnosticar_windows.bat` e olhe **livre** e **pico deste programa**. Se o "livre" já estiver baixo antes de começar, outro programa ocupou a memória (OBS, navegador, editor de vídeo). |
 
 ---
 
