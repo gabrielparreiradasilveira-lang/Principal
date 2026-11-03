@@ -12,7 +12,7 @@
    "id": "alvo",
    "nome": "alvo",
    "x": 60,
-   "y": 100,
+   "y": 92,
    "largura": 95,
    "cor": "verde"
   },
@@ -29,7 +29,7 @@
    "id": "ampulheta",
    "nome": "ampulheta",
    "x": 322,
-   "y": 100,
+   "y": 92,
    "largura": 80,
    "cor": "amarelo"
   },
@@ -46,7 +46,7 @@
    "id": "balanca",
    "nome": "balanca",
    "x": 584,
-   "y": 100,
+   "y": 92,
    "largura": 95,
    "cor": "ciano"
   },
@@ -63,7 +63,7 @@
    "id": "balanca_peso",
    "nome": "balanca_peso",
    "x": 846,
-   "y": 100,
+   "y": 92,
    "largura": 95,
    "cor": "laranja"
   },
@@ -80,7 +80,7 @@
    "id": "balao",
    "nome": "balao",
    "x": 1108,
-   "y": 100,
+   "y": 92,
    "largura": 80,
    "cor": "rosa"
   },
@@ -97,7 +97,7 @@
    "id": "banco",
    "nome": "banco",
    "x": 1370,
-   "y": 100,
+   "y": 92,
    "largura": 95,
    "cor": "roxo"
   },
@@ -114,7 +114,7 @@
    "id": "caminhao",
    "nome": "caminhao",
    "x": 1632,
-   "y": 100,
+   "y": 92,
    "largura": 95,
    "cor": "branco"
   },
@@ -131,7 +131,7 @@
    "id": "carro",
    "nome": "carro",
    "x": 60,
-   "y": 288,
+   "y": 270,
    "largura": 95,
    "cor": "vermelho"
   },
@@ -148,7 +148,7 @@
    "id": "casa",
    "nome": "casa",
    "x": 322,
-   "y": 288,
+   "y": 270,
    "largura": 95,
    "cor": "verde"
   },
@@ -165,7 +165,7 @@
    "id": "check",
    "nome": "check",
    "x": 584,
-   "y": 288,
+   "y": 270,
    "largura": 95,
    "cor": "amarelo"
   },
@@ -182,7 +182,7 @@
    "id": "cofrinho",
    "nome": "cofrinho",
    "x": 846,
-   "y": 288,
+   "y": 270,
    "largura": 95,
    "cor": "ciano"
   },
@@ -199,7 +199,7 @@
    "id": "combustivel",
    "nome": "combustivel",
    "x": 1108,
-   "y": 288,
+   "y": 270,
    "largura": 95,
    "cor": "laranja"
   },
@@ -216,7 +216,7 @@
    "id": "dinheiro",
    "nome": "dinheiro",
    "x": 1370,
-   "y": 288,
+   "y": 270,
    "largura": 95,
    "cor": "rosa"
   },
@@ -233,7 +233,7 @@
    "id": "diversificacao",
    "nome": "diversificacao",
    "x": 1632,
-   "y": 288,
+   "y": 270,
    "largura": 95,
    "cor": "roxo"
   },
@@ -250,7 +250,7 @@
    "id": "estrela",
    "nome": "estrela",
    "x": 60,
-   "y": 476,
+   "y": 448,
    "largura": 95,
    "cor": "branco"
   },
@@ -267,7 +267,7 @@
    "id": "exclamacao",
    "nome": "exclamacao",
    "x": 322,
-   "y": 476,
+   "y": 448,
    "largura": 95,
    "cor": "vermelho"
   },
@@ -284,7 +284,7 @@
    "id": "fronteira_eficiente",
    "nome": "fronteira_eficiente",
    "x": 584,
-   "y": 476,
+   "y": 448,
    "largura": 95,
    "cor": "verde"
   },
@@ -301,7 +301,7 @@
    "id": "grafico_alta",
    "nome": "grafico_alta",
    "x": 846,
-   "y": 476,
+   "y": 448,
    "largura": 95,
    "cor": "amarelo"
   },
@@ -318,7 +318,7 @@
    "id": "grafico_baixa",
    "nome": "grafico_baixa",
    "x": 1108,
-   "y": 476,
+   "y": 448,
    "largura": 95,
    "cor": "ciano"
   },
@@ -335,7 +335,7 @@
    "id": "lampada",
    "nome": "lampada",
    "x": 1370,
-   "y": 476,
+   "y": 448,
    "largura": 95,
    "cor": "laranja"
   },
@@ -352,7 +352,7 @@
    "id": "mar",
    "nome": "mar",
    "x": 1632,
-   "y": 476,
+   "y": 448,
    "largura": 95,
    "cor": "rosa"
   },
@@ -369,7 +369,7 @@
    "id": "moeda",
    "nome": "moeda",
    "x": 60,
-   "y": 664,
+   "y": 626,
    "largura": 95,
    "cor": "roxo"
   },
@@ -386,7 +386,7 @@
    "id": "onibus",
    "nome": "onibus",
    "x": 322,
-   "y": 664,
+   "y": 626,
    "largura": 95,
    "cor": "branco"
   },
@@ -403,7 +403,7 @@
    "id": "pessoa",
    "nome": "pessoa",
    "x": 584,
-   "y": 664,
+   "y": 626,
    "largura": 80,
    "cor": "vermelho"
   },
@@ -420,7 +420,7 @@
    "id": "placa",
    "nome": "placa",
    "x": 846,
-   "y": 664,
+   "y": 626,
    "largura": 95,
    "cor": "verde"
   },
@@ -437,7 +437,7 @@
    "id": "prancheta",
    "nome": "prancheta",
    "x": 1108,
-   "y": 664,
+   "y": 626,
    "largura": 80,
    "cor": "amarelo"
   },
@@ -454,7 +454,7 @@
    "id": "receita",
    "nome": "receita",
    "x": 1370,
-   "y": 664,
+   "y": 626,
    "largura": 80,
    "cor": "ciano"
   },
@@ -471,7 +471,7 @@
    "id": "serra",
    "nome": "serra",
    "x": 1632,
-   "y": 664,
+   "y": 626,
    "largura": 95,
    "cor": "laranja"
   },
@@ -488,7 +488,7 @@
    "id": "termometro",
    "nome": "termometro",
    "x": 60,
-   "y": 852,
+   "y": 804,
    "largura": 80,
    "cor": "rosa"
   },
@@ -505,7 +505,7 @@
    "id": "tubo_ensaio",
    "nome": "tubo_ensaio",
    "x": 322,
-   "y": 852,
+   "y": 804,
    "largura": 80,
    "cor": "roxo"
   },
@@ -522,7 +522,7 @@
    "id": "xis",
    "nome": "xis",
    "x": 584,
-   "y": 852,
+   "y": 804,
    "largura": 95,
    "cor": "branco"
   },
