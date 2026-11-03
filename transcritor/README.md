@@ -33,9 +33,17 @@ Motor: **Whisper** (modelo aberto da OpenAI), na versão otimizada **faster-whis
 
 ## 2. Uso no dia a dia (3 passos)
 
-1. Coloque os vídeos na pasta **`entrada/`**.
-2. Dê dois cliques em **`transcrever_windows.bat`** (ou `transcrever_mac.command`).
-3. Pegue os arquivos na pasta **`saida/`**.
+**Pela janela (recomendado):**
+
+1. Dê dois cliques em **`abrir_janela_windows.bat`** (ou `abrir_janela_mac.command`).
+2. **Arraste os vídeos** para a janela, escolha o modo e clique em **▶ Transcrever**.
+3. No fim, clique em **Abrir pasta de resultados**.
+
+A janela mostra a situação de cada vídeo, a porcentagem e o tempo restante. Ela também tem um botão **Cancelar**.
+
+> **Já tinha instalado antes desta versão?** Rode o `instalar_windows.bat` de novo, uma vez, para ganhar o arrastar e soltar. Sem isso a janela funciona, mas só pelo clique na área azul.
+
+**Pela pasta (alternativa):** coloque os vídeos em `entrada/` e dê dois cliques em `transcrever_windows.bat`. Os resultados saem em `saida/`.
 
 - Vídeo que já tem `.txt` na `saida/` é **pulado** (pode jogar a pasta inteira de novo sem medo).
 - No Windows, dá para **arrastar um vídeo em cima** do `transcrever_windows.bat`.
@@ -116,8 +124,7 @@ Teste feito em servidor de **4 núcleos, sem placa de vídeo**, com áudio sint�
 
 ## 7. Próximos passos (fora do MVP)
 
-1. **Interface com arrastar-e-soltar** (janela no navegador, sem terminal).
-2. **Motor nativo do Mac** (mlx-whisper), que usa a GPU dos chips M (hoje o MVP usa só a CPU no Mac).
-3. **Revisão com IA**: pontuação, parágrafos e títulos de seção, sem mudar o conteúdo.
-4. **Saídas pedagógicas**: resumo, capítulos para YouTube, questões no padrão ANBIMA a partir da transcrição.
-5. **Pasta vigiada**: transcreve sozinho quando um vídeo novo aparece.
+1. **Motor nativo do Mac** (mlx-whisper), que usa a GPU dos chips M (hoje o MVP usa só a CPU no Mac).
+2. **Revisão com IA**: pontuação, parágrafos e títulos de seção, sem mudar o conteúdo.
+3. **Saídas pedagógicas**: resumo, capítulos para YouTube, questões no padrão ANBIMA a partir da transcrição.
+4. **Pasta vigiada**: transcreve sozinho quando um vídeo novo aparece.
