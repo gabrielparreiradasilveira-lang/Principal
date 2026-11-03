@@ -56,6 +56,8 @@ def classificar(p: Path):
     if s.startswith("materiais/"):
         partes = s.split("/")
         cert, pasta = partes[1], partes[2]
+        if pasta == "lousas" and len(partes) > 4:
+            return cert, "Lousa (PPTX)", partes[3]
         if pasta.startswith("manual-revisao"):
             return cert, "Manual de revisão (PDF)", pasta
         if pasta.startswith("slides-modulo"):
@@ -90,8 +92,19 @@ def main():
             continue
         texto = p.read_text(encoding="utf-8", errors="ignore") if p.suffix == ".md" else ""
         cabeca = "\n".join(texto.splitlines()[:15])
+        codigo = codigo_de(p.name) if p.suffix == ".md" else ""
+        if tipo == "Lousa (PPTX)":
+            # o JSON ao lado do .pptx descreve as lousas; o título da primeira traz o item do PD
+            spec = next(p.parent.glob("*-lousas.json"), None)
+            slides = json.loads(spec.read_text(encoding="utf-8")).get("slides", []) if spec else []
+            cabeca = " ".join(e.get("texto", "") for s in slides[:1] for e in s.get("elementos", []) if e.get("tipo") == "titulo")
+            mm = re.match(r"r(\d{2}[a-h]?)", chave)
+            codigo = "R" + mm.group(1).upper() if mm else ""
+            texto_titulo = f"Lousas {codigo} · {len(slides)} lousas · {chave[len(codigo):].strip('-').replace('-', ' ')}"
         titulo = next((l.lstrip("# ").strip() for l in texto.splitlines() if l.startswith("# ")), p.stem)
-        m = ITEM_RE.search(chave) or ITEM_RE.search(cabeca)
+        if tipo == "Lousa (PPTX)":
+            titulo = texto_titulo
+        m = (ITEM_RE.search(cabeca) if tipo == "Lousa (PPTX)" else None) or ITEM_RE.search(chave) or ITEM_RE.search(cabeca)
         item = m.group(0) if m else ""
         if tipo in {"Planejamento", "Modelo", "Roteiro comentado"}:
             item = ""
@@ -109,7 +122,7 @@ def main():
         validos = PD_ITENS.get(CERT_NOME.get(cert, cert), set())
         # o item principal; nas aulas com deck X8 o cabeçalho lista vários ("Itens 1.3, 1.5 e 1.6")
         # e o nome do arquivo pode trazer uma faixa ("aula-4.2.6-4.3-...")
-        fonte_itens = (limpo + " " + item) if tipo in {"Roteiro + deck X8", "Deck X8 (PPTX)"} else item + " " + chave
+        fonte_itens = (limpo + " " + item) if tipo in {"Roteiro + deck X8", "Deck X8 (PPTX)", "Lousa (PPTX)"} else item + " " + chave
         itens = sorted({".".join(i.split(".")[:2]) for i in ITEM_RE.findall(fonte_itens)} & validos,
                        key=lambda i: [int(n) for n in i.split(".")]) if item and not item.startswith("M") else []
         dur = re.search(r"(\d{1,3})\s*min", cabeca)
@@ -117,7 +130,7 @@ def main():
         linhas.append({
             "cert": CERT_NOME.get(cert, cert),
             "tipo": tipo,
-            "codigo": codigo_de(p.name) if p.suffix == ".md" else "",
+            "codigo": codigo,
             "item": item,
             "itens": " ".join(itens),
             "modulo": item[1:] if item.startswith("M") else item[:1],
