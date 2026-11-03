@@ -108,7 +108,7 @@ Traço tremido sob cada linha do alvo. `so_ultima_linha` false · `espessura` 4 
 ### `desenho`
 `nome` (lista: `python3 scripts/lousa.py --desenhos` ou `assets/exemplos/desenhos.png`), `largura` 200
 (a altura vem do formato do desenho), `cor` branco, `espessura` automática.
-Nomes (lista com desenho: `assets/exemplos/desenhos.png`): alvo, ampulheta, balanca, balanca_peso, balao, banco, carro, casa, check, cofrinho, dinheiro, estrela,
+Nomes (lista com desenho: `assets/exemplos/desenhos.png`): alvo, ampulheta, balanca, balanca_peso, balao, banco, caminhao, carro, casa, check, cofrinho, dinheiro, estrela,
 exclamacao, grafico_alta, grafico_baixa, lampada, moeda, pessoa, prancheta, receita, termometro, tubo_ensaio, xis.
 
 ### `livre`

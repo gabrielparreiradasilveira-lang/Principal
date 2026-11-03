@@ -1,5 +1,7 @@
 {
  "saida": "desenhos.png",
+ "areas_livres": [],
+ "maiusculas": false,
  "elementos": [
   {
    "tipo": "titulo",
@@ -109,12 +111,29 @@
   },
   {
    "tipo": "desenho",
-   "id": "carro",
-   "nome": "carro",
+   "id": "caminhao",
+   "nome": "caminhao",
    "x": 1452.0,
    "y": 140,
    "largura": 125,
    "cor": "vermelho"
+  },
+  {
+   "tipo": "texto",
+   "texto": "caminhao",
+   "abaixo_de": "caminhao",
+   "distancia": 12,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "carro",
+   "nome": "carro",
+   "x": 1684.0,
+   "y": 140,
+   "largura": 125,
+   "cor": "roxo"
   },
   {
    "tipo": "texto",
@@ -128,10 +147,10 @@
    "tipo": "desenho",
    "id": "casa",
    "nome": "casa",
-   "x": 1684.0,
-   "y": 140,
+   "x": 60.0,
+   "y": 450,
    "largura": 125,
-   "cor": "roxo"
+   "cor": "verde"
   },
   {
    "tipo": "texto",
@@ -145,10 +164,10 @@
    "tipo": "desenho",
    "id": "check",
    "nome": "check",
-   "x": 60.0,
+   "x": 292.0,
    "y": 450,
    "largura": 125,
-   "cor": "verde"
+   "cor": "amarelo"
   },
   {
    "tipo": "texto",
@@ -162,10 +181,10 @@
    "tipo": "desenho",
    "id": "cofrinho",
    "nome": "cofrinho",
-   "x": 292.0,
+   "x": 524.0,
    "y": 450,
    "largura": 125,
-   "cor": "amarelo"
+   "cor": "azul"
   },
   {
    "tipo": "texto",
@@ -179,10 +198,10 @@
    "tipo": "desenho",
    "id": "dinheiro",
    "nome": "dinheiro",
-   "x": 524.0,
+   "x": 756.0,
    "y": 450,
    "largura": 125,
-   "cor": "azul"
+   "cor": "laranja"
   },
   {
    "tipo": "texto",
@@ -196,10 +215,10 @@
    "tipo": "desenho",
    "id": "estrela",
    "nome": "estrela",
-   "x": 756.0,
+   "x": 988.0,
    "y": 450,
    "largura": 125,
-   "cor": "laranja"
+   "cor": "rosa"
   },
   {
    "tipo": "texto",
@@ -213,10 +232,10 @@
    "tipo": "desenho",
    "id": "exclamacao",
    "nome": "exclamacao",
-   "x": 988.0,
+   "x": 1220.0,
    "y": 450,
    "largura": 125,
-   "cor": "rosa"
+   "cor": "branco"
   },
   {
    "tipo": "texto",
@@ -230,10 +249,10 @@
    "tipo": "desenho",
    "id": "grafico_alta",
    "nome": "grafico_alta",
-   "x": 1220.0,
+   "x": 1452.0,
    "y": 450,
    "largura": 125,
-   "cor": "branco"
+   "cor": "vermelho"
   },
   {
    "tipo": "texto",
@@ -247,10 +266,10 @@
    "tipo": "desenho",
    "id": "grafico_baixa",
    "nome": "grafico_baixa",
-   "x": 1452.0,
+   "x": 1684.0,
    "y": 450,
    "largura": 125,
-   "cor": "vermelho"
+   "cor": "roxo"
   },
   {
    "tipo": "texto",
@@ -264,10 +283,10 @@
    "tipo": "desenho",
    "id": "lampada",
    "nome": "lampada",
-   "x": 1684.0,
-   "y": 450,
+   "x": 60.0,
+   "y": 760,
    "largura": 125,
-   "cor": "roxo"
+   "cor": "verde"
   },
   {
    "tipo": "texto",
@@ -281,10 +300,10 @@
    "tipo": "desenho",
    "id": "moeda",
    "nome": "moeda",
-   "x": 60.0,
+   "x": 292.0,
    "y": 760,
    "largura": 125,
-   "cor": "verde"
+   "cor": "amarelo"
   },
   {
    "tipo": "texto",
@@ -298,10 +317,10 @@
    "tipo": "desenho",
    "id": "pessoa",
    "nome": "pessoa",
-   "x": 317.0,
+   "x": 549.0,
    "y": 760,
    "largura": 75,
-   "cor": "amarelo"
+   "cor": "azul"
   },
   {
    "tipo": "texto",
@@ -315,10 +334,10 @@
    "tipo": "desenho",
    "id": "prancheta",
    "nome": "prancheta",
-   "x": 524.0,
+   "x": 756.0,
    "y": 760,
    "largura": 125,
-   "cor": "azul"
+   "cor": "laranja"
   },
   {
    "tipo": "texto",
@@ -332,10 +351,10 @@
    "tipo": "desenho",
    "id": "receita",
    "nome": "receita",
-   "x": 756.0,
+   "x": 988.0,
    "y": 760,
    "largura": 125,
-   "cor": "laranja"
+   "cor": "rosa"
   },
   {
    "tipo": "texto",
@@ -349,10 +368,10 @@
    "tipo": "desenho",
    "id": "termometro",
    "nome": "termometro",
-   "x": 1013.0,
+   "x": 1245.0,
    "y": 760,
    "largura": 75,
-   "cor": "rosa"
+   "cor": "branco"
   },
   {
    "tipo": "texto",
@@ -366,10 +385,10 @@
    "tipo": "desenho",
    "id": "tubo_ensaio",
    "nome": "tubo_ensaio",
-   "x": 1220.0,
+   "x": 1452.0,
    "y": 760,
    "largura": 125,
-   "cor": "branco"
+   "cor": "vermelho"
   },
   {
    "tipo": "texto",
@@ -383,10 +402,10 @@
    "tipo": "desenho",
    "id": "xis",
    "nome": "xis",
-   "x": 1452.0,
+   "x": 1684.0,
    "y": 760,
    "largura": 125,
-   "cor": "vermelho"
+   "cor": "roxo"
   },
   {
    "tipo": "texto",
@@ -396,7 +415,5 @@
    "tamanho": 28,
    "cor": "cinza"
   }
- ],
- "areas_livres": [],
- "maiusculas": false
+ ]
 }

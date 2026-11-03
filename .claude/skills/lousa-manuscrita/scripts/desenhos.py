@@ -225,6 +225,19 @@ DESENHOS = {
             ("ponto", 0.5, 0.75, 0.035),
         ],
     },
+    "caminhao": {
+        "aspecto": 0.55,
+        "descricao": "caminhão de mudança (transferência de custódia, levar os ativos)",
+        "tracos": [
+            ("fechada", [(0.02, 0.04), (0.62, 0.04), (0.62, 0.42), (0.02, 0.42)]),
+            ("linha", [(0.62, 0.15), (0.8, 0.15), (0.96, 0.29), (0.96, 0.42), (0.62, 0.42)]),
+            ("fechada", [(0.67, 0.19), (0.79, 0.19), (0.89, 0.28), (0.67, 0.28)]),
+            ("linha", [(0.12, 0.14), (0.3, 0.14), (0.3, 0.32), (0.12, 0.32), (0.12, 0.14)]),
+            ("linha", [(0.36, 0.2), (0.52, 0.2), (0.52, 0.32), (0.36, 0.32), (0.36, 0.2)]),
+            ("elipse", 0.19, 0.44, 0.075, 0.075),
+            ("elipse", 0.8, 0.44, 0.075, 0.075),
+        ],
+    },
     "prancheta": {
         "aspecto": 1.3,
         "descricao": "prancheta com ficha (cadastro, perfil do cliente, ficha do paciente)",

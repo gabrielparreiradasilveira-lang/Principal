@@ -56,12 +56,12 @@ FUNDOS = {"preto": "#000000", "grafite": "#1B1B1D", "lousa": "#1E3528", "azul-no
 
 # Símbolos que a fonte não tem: as setas viram rabisco de seta; o resto vira texto equivalente.
 SETAS_TEXTO = {"→": 0, "←": 180, "↑": -90, "↓": 90, "↗": -40, "↘": 40, "⇒": 0}
-TROCAS = {"≥": ">=", "≤": "<=", "≠": "=/=", "\t": " ", "\r": "", "∑": "Σ"}
+TROCAS = {"≥": ">=", "≤": "<=", "≠": "=/=", "\t": " ", "\r": "", "∑": "Σ", "∆": "Δ"}
 MARCA = re.compile(r"\{([#\w-]+):([^{}]*)\}")
 # Emojis viram desenho (padrão X8): check verde, X vermelho, triângulo de alerta vermelho.
 EMOJIS = {"✅": "✓", "✔": "✓", "☑": "✓", "✓": "✓", "❌": "✗", "✗": "✗", "✘": "✗", "❎": "✗",
           "✖": "✗", "⚠": "⚠"}
-DESENHADOS = set(SETAS_TEXTO) | {"✓", "✗", "⚠", "Σ"}  # desenhados à mão, não vêm da fonte
+DESENHADOS = set(SETAS_TEXTO) | {"✓", "✗", "⚠", "Σ", "Δ"}  # desenhados à mão, não vêm da fonte
 INVISIVEIS = {"\ufe0f", "\ufe0e", "\u200d"}  # seletores de emoji
 MACRON = "\u0304"  # barra em cima (x̄ da HP12C)
 TECLA = re.compile(r"\[([^\[\]\n]{1,14})\]")  # [ENTER] = tecla da HP12C em caixinha
@@ -306,7 +306,7 @@ class Lousa:
             ch = ch[1:]
         if ch in SETAS_TEXTO or ch in ("✓", "✗", "⚠"):
             return tam * 0.95
-        if ch == "Σ":
+        if ch in ("Σ", "Δ"):
             return tam * 0.62
         return self.fonte(tam).getlength(ch) / SS
 
@@ -324,7 +324,7 @@ class Lousa:
             if c == MACRON and out:
                 out[-1] = "\x02" + out[-1][-1]
                 continue
-            out.append(TROCAS.get(c, c) if c == "∑" else c)
+            out.append(TROCAS[c] if c in ("∑", "∆") else c)
         return out
 
     def metricas(self, tam):
@@ -395,6 +395,10 @@ class Lousa:
             r = larg * 0.8
             px, py = (x + 0.5 * w) * SS, (base - 0.15 * cap) * SS
             self.draw.ellipse([px - r * SS, py - r * SS, px + r * SS, py + r * SS], fill=vm)
+        elif ch == "Δ":  # tecla Δ% da HP12C
+            self.tracar([(x + 0.5 * w, base - cap), (x + 0.92 * w, base), (x + 0.08 * w, base),
+                         (x + 0.5 * w, base - cap), (x + 0.6 * w, base - 0.8 * cap)], cor, larg, ondula=0.08,
+                        serrilha=0.15, tremor=0.2)
         elif ch == "Σ":
             self.tracar([(x + 0.9 * w, base - cap), (x + 0.1 * w, base - cap), (x + 0.55 * w, base - 0.5 * cap),
                          (x + 0.1 * w, base), (x + 0.9 * w, base)], cor, larg, ondula=0.08, serrilha=0.15,
