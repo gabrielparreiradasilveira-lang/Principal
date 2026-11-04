@@ -1,0 +1,291 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r50-1_1_abertura.png",
+   "semente": 511,
+   "molde": "mito_verdade",
+   "titulo": "VGBL · C-PRO R 3.7.4 E 3.7.4.1",
+   "mitos": [
+    "\"VGBL = PGBL PIORADO, SEM DEDUÇÃO\""
+   ],
+   "verdade": "OUTRO CLIENTE, OUTRA BASE: IR SÓ SOBRE OS RENDIMENTOS",
+   "desenho": {
+    "nome": "placa",
+    "largura": 200
+   },
+   "apoio": "- VIDA GERADOR DE BENEFÍCIO LIVRE: {laranja:SEGURO DE VIDA COM COBERTURA POR SOBREVIVÊNCIA}\n- PÚBLICO: DECLARAÇÃO SIMPLIFICADA · SEM INSS · JÁ USOU OS 12% DO PGBL · SUCESSÃO"
+  },
+  {
+   "saida": "r50-1_2_duas-rodovias.png",
+   "semente": 512,
+   "molde": "comparacao",
+   "titulo": "DUAS RODOVIAS ATÉ A APOSENTADORIA",
+   "colunas": [
+    {
+     "titulo": "RODOVIA VGBL",
+     "desenho": "rodovia_pedagio",
+     "rotulos": [
+      "ENTRADA = APORTE",
+      "SAÍDA = RESGATE"
+     ],
+     "texto": "- ENTRADA: {vermelho:SEM VALE-PEDÁGIO}\n- SAÍDA: PEDÁGIO SÓ SOBRE O {verde:LUCRO DA VIAGEM} = RENDIMENTOS\n- MESMA CARGA, BASE MENOR: SÓ O QUE A CARGA GANHOU NO CAMINHO"
+    },
+    {
+     "titulo": "RODOVIA PGBL",
+     "desenho": "rodovia_pedagio",
+     "rotulos": [
+      "ENTRADA = APORTE",
+      "SAÍDA = RESGATE"
+     ],
+     "texto": "- ENTRADA: {verde:VALE-PEDÁGIO} DE ATÉ {laranja:12% DA RENDA BRUTA TRIBUTÁVEL}\n- VALE SÓ NA {laranja:DECLARAÇÃO COMPLETA} E, EM REGRA, COM INSS OU REGIME PRÓPRIO\n- SAÍDA: PEDÁGIO SOBRE A {vermelho:CARGA INTEIRA} (VALOR TOTAL)"
+    }
+   ],
+   "faixas": [
+    "{ciano:TARIFA DA SAÍDA, NAS DUAS:} REGRESSIVO {laranja:35% → 10%} PELO TEMPO DE CADA APORTE · PROGRESSIVO: {laranja:TABELA DO IR}",
+    "{ciano:CARGA DE EXEMPLO:} APORTES DE R$ 50.000 QUE VIRARAM R$ 80.000 → BASE NO VGBL {verde:R$ 30.000} · NO PGBL {vermelho:R$ 80.000}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:RODOVIA ERRADA:} PGBL NA DECLARAÇÃO SIMPLIFICADA NÃO USA O VALE E AINDA PAGA PEDÁGIO SOBRE A CARGA INTEIRA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50-1_3_regras.png",
+   "semente": 513,
+   "molde": "topicos",
+   "titulo": "1. A RODOVIA VGBL E AS SUAS REGRAS",
+   "formula": {
+    "antes": "APORTES QUE SAEM = APORTES ×",
+    "num": "RESGATE",
+    "den": "SALDO"
+   },
+   "texto": "- {laranja:BASE DO IR} = RESGATE − APORTES QUE SAEM\n- {ciano:OUTRO EXEMPLO:} SALDO DE R$ 200.000 COM R$ 160.000 APORTADOS → RESGATE DE R$ 50.000 = 25% → SAEM R$ 40.000 DE APORTE → {verde:BASE = R$ 10.000}\n- {ciano:DECLARAÇÃO:} BENS E DIREITOS · GRUPO 99 · CÓDIGO 06 · {laranja:SEM CORREÇÃO}\n- {ciano:PAGO PELA EMPRESA:} O PRÊMIO É RENDIMENTO TRIBUTÁVEL DO EMPREGADO (IN SRF 588/2005, ART. 9º)\n- {ciano:CINCO CARACTERÍSTICAS:} NÃO DEDUZ · IR SÓ NOS RENDIMENTOS · PROGRESSIVO OU REGRESSIVO · APORTES MENSAIS OU ESPORÁDICOS · FUNDOS COM PERFIS DE RISCO",
+   "destaque": {
+    "texto": "COMPLETA + INSS + IMPOSTO A PAGAR → {laranja:PGBL ATÉ 12%} E O RESTO NO VGBL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50-1_4_resolucao.png",
+   "semente": 514,
+   "molde": "exercicio",
+   "titulo": "MESMO RESGATE, MUDA SÓ O PRODUTO",
+   "dados": "- SALDO DE R$ 150.000, COM R$ 100.000 APORTADOS HÁ MAIS DE 10 ANOS · REGRESSIVO ({laranja:10%})\n- RESGATE DE {laranja:R$ 30.000} (NÚMEROS HIPOTÉTICOS)",
+   "cenarios": [
+    {
+     "titulo": "VGBL",
+     "passos": "- R$ 30.000 ÷ R$ 150.000 = 20% DO SALDO\n- SAEM 20% DOS APORTES: R$ 20.000\n- RENDIMENTO = R$ 30.000 − R$ 20.000 = R$ 10.000",
+     "resultado": "IR = 10% × R$ 10.000 = R$ 1.000"
+    },
+    {
+     "titulo": "PGBL",
+     "passos": "- BASE = VALOR TOTAL DO RESGATE\n- BASE = R$ 30.000",
+     "resultado": "IR = 10% × R$ 30.000 = R$ 3.000"
+    }
+   ],
+   "conclusao": {
+    "texto": "NA PROVA: BASE DO VGBL = {verde:RENDIMENTOS} · BASE DO PGBL = {vermelho:VALOR TOTAL} → AQUI, R$ 2.000 DE DIFERENÇA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50-2_1_abertura.png",
+   "semente": 521,
+   "molde": "mito_verdade",
+   "titulo": "VANTAGENS DO VGBL (1) · C-PRO R 3.7.4.2",
+   "mitos": [
+    "\"FUNDO DE VGBL TEM COME-COTAS\""
+   ],
+   "verdade": "RESERVAS DA PREVIDÊNCIA: SEM RETENÇÃO NO CAMINHO",
+   "desenho": {
+    "nome": "cofrinho",
+    "largura": 200
+   },
+   "apoio": "- {laranja:LEI 11.053/2004, ART. 5º:} DISPENSA DE RETENÇÃO SOBRE OS RENDIMENTOS DAS RESERVAS, INCLUSIVE DO VGBL\n- FUNDO COMUM: COME-COTAS NO ÚLTIMO DIA ÚTIL DE MAIO E DE NOVEMBRO (LEI 14.754/2023)"
+  },
+  {
+   "saida": "r50-2_2_estrada-rodovia.png",
+   "semente": 522,
+   "molde": "comparacao",
+   "titulo": "ESTRADA DO FUNDO × RODOVIA VGBL",
+   "colunas": [
+    {
+     "titulo": "ESTRADA DO FUNDO COMUM",
+     "desenho": "rodovia_pedagio",
+     "rotulos": [
+      "MAIO",
+      "NOVEMBRO"
+     ],
+     "texto": "- CABINE A CADA 6 MESES = {vermelho:COME-COTAS}\n- LONGO PRAZO 15% · CURTO PRAZO 20%\n- TÍTULO DIRETO: PARA NO FIM DO TRECHO = {laranja:VENCIMENTO}, IR E REAPLICAÇÃO"
+    },
+    {
+     "titulo": "RODOVIA VGBL",
+     "desenho": "rodovia_pedagio",
+     "rotulos": [
+      "APORTE",
+      "RESGATE"
+     ],
+     "texto": "- NENHUMA CABINE NO MEIO: {verde:DIFERIMENTO}\n- TROCA DE FAIXA = MUDAR DE FUNDO NO PLANO, {verde:SEM IR}\n- VIADUTO = {laranja:PORTABILIDADE}, SEM IR SE O DINHEIRO NÃO PASSA PELO PARTICIPANTE"
+    }
+   ],
+   "faixas": [
+    "{ciano:VIADUTO SÓ ENTRE PLANOS DO MESMO PARTICIPANTE} (IN SRF 588/2005, ART. 20) · NO REGRESSIVO, O PRAZO DO APORTE {verde:CONTINUA}",
+    "{ciano:SAIR DA PISTA} = RESGATE: PEDÁGIO NA HORA E O APORTE NOVO {vermelho:RECOMEÇA O PRAZO}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:FALSO VIADUTO:} RESGATAR, RECEBER NA CONTA E APLICAR EM OUTRA SEGURADORA É RESGATE, COM IR",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50-2_3_sem-pedagio-no-meio.png",
+   "semente": 523,
+   "molde": "colunas",
+   "titulo": "2. SEM PEDÁGIO NO MEIO",
+   "topo": "MESMO DINHEIRO, DOIS CAMINHOS: O QUE MUDA DO {laranja:FUNDO DE INVESTIMENTO} PARA O {laranja:VGBL}",
+   "colunas": [
+    {
+     "titulo": "FUNDO DE INVESTIMENTO",
+     "texto": "- COME-COTAS EM MAIO E NOVEMBRO\n- ACERTO NO RESGATE, SE A TABELA PEDIR\n- TROCAR DE FUNDO = {vermelho:RESGATAR} → IR\n- TÍTULO DIRETO: IR EM {vermelho:CADA VENCIMENTO}"
+    },
+    {
+     "titulo": "VGBL",
+     "texto": "- {verde:SEM COME-COTAS} (LEI 11.053/2004)\n- IR SÓ NO RESGATE OU NO BENEFÍCIO\n- TROCAR DE FUNDO NO PLANO: {verde:SEM IR}\n- SEM VENCIMENTO PARA O PARTICIPANTE"
+    }
+   ],
+   "destaque": {
+    "texto": "O IMPOSTO NÃO RETIDO FICA NO SALDO E RENDE JUROS COMPOSTOS ATÉ O RESGATE",
+    "cor": "verde",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50-2_4_resolucao.png",
+   "semente": 524,
+   "molde": "exercicio",
+   "titulo": "MESMA TAXA, MUDA SÓ O COME-COTAS",
+   "dados": "- R$ 100.000 POR 9 ANOS (108 MESES, 18 SEMESTRES) A {laranja:0,6% AO MÊS} · SEM TAXAS\n- ALÍQUOTA FINAL DE {laranja:15%} NOS DOIS (NÚMEROS HIPOTÉTICOS)",
+   "cenarios": [
+    {
+     "titulo": "FUNDO DE LONGO PRAZO",
+     "passos": "- COME-COTAS DE 15% A CADA SEMESTRE\n- 18 RETENÇÕES EM 9 ANOS\n- IR PAGO NO CAMINHO: R$ 12.958,73",
+     "resultado": "LÍQUIDO = R$ 173.432,82"
+    },
+    {
+     "titulo": "VGBL NO REGRESSIVO",
+     "passos": "- NENHUMA RETENÇÃO NO CAMINHO\n- BRUTO: R$ 190.801,56\n- IR DE 15% SÓ NO FIM: {vermelho:R$ 13.620,23}",
+     "resultado": "LÍQUIDO = R$ 177.181,32"
+    }
+   ],
+   "conclusao": {
+    "texto": "MAIS IR EM REAIS E, MESMO ASSIM, {verde:R$ 3.748,51 A MAIS} NO VGBL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50-3_1_abertura.png",
+   "semente": 531,
+   "molde": "mito_verdade",
+   "titulo": "VANTAGENS DO VGBL (2) · C-PRO R 3.7.4.2",
+   "mitos": [
+    "\"HERDEIRO DE VGBL NÃO PAGA NADA\""
+   ],
+   "verdade": "SEM INVENTÁRIO E SEM ITCMD, MAS COM IR SOBRE OS RENDIMENTOS",
+   "desenho": {
+    "nome": "casa",
+    "largura": 190
+   },
+   "apoio": "- {ciano:EM NÚMEROS (HIPOTÉTICO):} SALDO DE R$ 1.000.000, COM R$ 700.000 APORTADOS HÁ MAIS DE 10 ANOS\n- ITCMD DE 4% QUE NÃO INCIDE: {verde:R$ 40.000} · IR DE 10% SOBRE R$ 300.000: {vermelho:R$ 30.000} · FAMÍLIA RECEBE R$ 970.000"
+  },
+  {
+   "saida": "r50-3_2_saida-direta-balanca.png",
+   "semente": 532,
+   "molde": "comparacao",
+   "titulo": "SAÍDA DIRETA E BALANÇA NA ENTRADA",
+   "colunas": [
+    {
+     "titulo": "SAÍDA DIRETA",
+     "desenho": {
+      "nome": "casa",
+      "largura": 220
+     },
+     "texto": "- {verde:SEM INVENTÁRIO}: RESGATE OU RENDA AOS BENEFICIÁRIOS (LEI 11.196/2005, ART. 79)\n- {verde:SEM ITCMD}, MESMO PARA TERCEIRO (STF, TEMA 1214)\n- CABINE DO IR: {vermelho:CONTINUA}, SOBRE OS RENDIMENTOS"
+    },
+    {
+     "titulo": "BALANÇA (IOF)",
+     "desenho": {
+      "nome": "balanca_peso",
+      "largura": 240
+     },
+     "texto": "- 2026: APORTES DE PF SOMADOS EM {laranja:TODAS AS SEGURADORAS}\n- ATÉ R$ 600.000 NO ANO: ZERO · ACIMA: {vermelho:5% SOBRE O EXCESSO}\n- APORTE PAGO PELO EMPREGADOR: ALÍQUOTA ZERO"
+    }
+   ],
+   "faixas": [
+    "{ciano:2025:} R$ 300.000 POR SEGURADORA (DECRETO 12.499/2025) · {ciano:2026:} R$ 600.000 POR CPF, SOMANDO TUDO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE A RODOVIA ENGANA:} A SAÍDA DIRETA NÃO É EXCLUSIVA DO VGBL; VALE TAMBÉM PARA O PGBL",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50-3_3_tres-impostos.png",
+   "semente": 533,
+   "molde": "colunas",
+   "titulo": "3. TRÊS IMPOSTOS, TRÊS MOMENTOS",
+   "topo": "QUAL IMPOSTO INCIDE {laranja:ONDE} NA VIAGEM DO VGBL · O IOF NÃO SUBSTITUI O IR, E O ITCMD NÃO ENTRA NA CONTA",
+   "colunas": [
+    {
+     "titulo": "IOF · ENTRADA",
+     "texto": "- SOBRE O APORTE, ANTES DE APLICAR\n- PF: 5% DO QUE PASSA DE R$ 600.000 NO ANO\n- SOMA TODAS AS SEGURADORAS\n- EMPREGADOR: ZERO"
+    },
+    {
+     "titulo": "IR · SAÍDA",
+     "texto": "- SOBRE OS RENDIMENTOS\n- NO RESGATE OU NA RENDA\n- TITULAR OU BENEFICIÁRIOS\n- TABELA: AULA R50A"
+    },
+    {
+     "titulo": "ITCMD · HERANÇA",
+     "texto": "- {verde:NÃO INCIDE}\n- STF, TEMA 1214\n- LC 227/2026\n- HERDEIRO OU TERCEIRO\n- PGBL TAMBÉM"
+    }
+   ],
+   "destaque": {
+    "texto": "APORTE GRANDE? SEPARAR EM DOIS ANOS PODE ZERAR O IOF, SE CADA ANO FICAR ATÉ {laranja:R$ 600.000}, SOMANDO TODOS OS PLANOS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50-3_4_resolucao.png",
+   "semente": 534,
+   "molde": "exercicio",
+   "titulo": "MESMO VALOR, MUDA SÓ O CALENDÁRIO",
+   "dados": "- MESMO CLIENTE, {laranja:R$ 1.000.000} PARA APORTAR EM VGBL\n- LIMITE DE 2026: R$ 600.000 POR ANO, SOMANDO TODAS AS SEGURADORAS DO CPF\n- NENHUM OUTRO PLANO NOS ANOS DO EXEMPLO (NÚMEROS HIPOTÉTICOS)",
+   "cenarios": [
+    {
+     "titulo": "A: TUDO EM 2026",
+     "passos": "- R$ 1.000.000 − R$ 600.000 = R$ 400.000 ACIMA DO LIMITE\n- IOF = 5% × R$ 400.000",
+     "resultado": "IOF = R$ 20.000 (2% DO APORTE)"
+    },
+    {
+     "titulo": "B: 2026 E 2027",
+     "passos": "- 2026: R$ 600.000 · 2027: R$ 400.000\n- CADA ANO DENTRO DO LIMITE",
+     "resultado": "IOF = ZERO"
+    }
+   ],
+   "conclusao": {
+    "texto": "SÓ O CALENDÁRIO: {verde:R$ 20.000 A MENOS} DE IOF",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
