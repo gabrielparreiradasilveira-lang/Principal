@@ -1,6 +1,6 @@
 # Onde pesquisar (endereços conferidos em 04/11/2026)
 
-Use esta lista na Etapa 0 e sempre que precisar confirmar uma regra ou um dado. Endereços mudam: se um deles falhar, procure no mesmo domínio oficial (busca com `site:`) e registre na Nota de bastidor o endereço que funcionou e a data.
+Use esta lista na Etapa 0 e sempre que precisar confirmar uma regra ou um dado. Endereços mudam: se um deles falhar, procure no mesmo domínio oficial (busca com `site:`) e anote o endereço que funcionou e a data para o checklist de entrega.
 
 Status: **ok** = carregou e o conteúdo foi lido · **carrega** = respondeu, mas o conteúdo não foi lido de forma automática (página feita em JavaScript) · **bloqueia** = o site recusa leitura automática; use o resultado da busca ou peça ao professor para abrir.
 
@@ -26,7 +26,7 @@ Prefira os arquivos do próprio professor: a busca também traz cópias comparti
 | Renda variável: isenções (R$ 20 mil em ações, o que fica de fora, como FII e ETF) | Receita, página "Isenções" de bolsa de valores | https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/pagamento/renda-variavel/bolsa-de-valores-1/isencoes | confirmar: endereço achado por busca, não aberto |
 | IR da pessoa física (perguntas e respostas do ano) | Receita, página do Perguntas e Respostas | https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/perguntas-e-respostas/dirpf | ok (o PDF do ano muda; use a página) |
 | Receita Federal, geral | Receita | https://www.gov.br/receitafederal/pt-br | ok |
-| Leis (ex.: 14.754/2023 fundos; 15.270/2025 dividendos e alta renda) | Planalto | https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14754.htm · https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm | bloqueia: confirme pelo resultado da busca ou por fonte secundária séria, e diga isso na nota |
+| Leis (ex.: 14.754/2023 fundos; 15.270/2025 dividendos e alta renda) | Planalto | https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14754.htm · https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm | bloqueia: confirme pelo resultado da busca ou por fonte secundária séria, e diga isso no checklist de entrega |
 | Fundos de investimento | CVM, Resolução 175 | https://conteudo.cvm.gov.br/legislacao/resolucoes/resol175.html | ok |
 | Suitability (perfil do investidor) | CVM, Resolução 30 | https://conteudo.cvm.gov.br/legislacao/resolucoes/resol030.html | ok |
 | Normas do CMN e do Banco Central (ex.: LCI, LCA, FGC) | BCB, busca de normas | https://www.bcb.gov.br/estabilidadefinanceira/buscanormas | carrega |
@@ -48,7 +48,7 @@ Prefira os arquivos do próprio professor: a busca também traz cópias comparti
 
 ## Regras de uso
 
-- **Fonte oficial primeiro.** Imprensa só confirma data ou contexto, e sempre como fonte secundária, dita na nota.
-- **Data da consulta.** Toda regra ou dado usado na fala tem, na Nota de bastidor, a fonte e a data em que foi conferido.
+- **Fonte oficial primeiro.** Imprensa só confirma data ou contexto, e sempre como fonte secundária, dita no checklist de entrega.
+- **Data da consulta.** Toda regra ou dado usado na fala ou na lousa tem, no checklist de entrega (na conversa), a fonte e a data em que foi conferido. O roteiro não leva Nota de bastidor.
 - **Site bloqueado não é fonte lida.** Se só viu o resultado da busca, escreva isso; não cite artigo ou número que não leu.
 - **Caso real sem fonte vira hipotético.** Se não achou como confirmar, troque por um exemplo hipotético declarado.

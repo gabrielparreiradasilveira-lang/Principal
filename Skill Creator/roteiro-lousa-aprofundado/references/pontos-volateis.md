@@ -1,6 +1,6 @@
 # Pontos voláteis: regras que mudaram (levantamento de 03/11/2026, atualizado em 04/11/2026)
 
-Use como ponto de partida, não como palavra final. Leis, decretos e regras de certificação mudam; antes de colocar qualquer número desta lista numa aula, confira na fonte oficial (`fontes.md`) e anote a data da conferência na Nota de bastidor. Se este levantamento tiver mais de 90 dias, trate todas as linhas como PROVÁVEL até conferir.
+Use como ponto de partida, não como palavra final. Leis, decretos e regras de certificação mudam; antes de colocar qualquer número desta lista numa aula, confira na fonte oficial (`fontes.md`) e anote a data da conferência no checklist de entrega. Se este levantamento tiver mais de 90 dias, trate todas as linhas como PROVÁVEL até conferir.
 
 Graus de confirmação:
 - **VERIFICADO**: fonte oficial lida em 03/11/2026.

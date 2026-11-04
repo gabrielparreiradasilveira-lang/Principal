@@ -1,35 +1,35 @@
-# Exemplo: um subitem completo, do inventário à fala
+# Exemplo: um bloco de conteúdo completo, do inventário à fala e à lousa
 
-Tema de exemplo: come-cotas, como Bloco 3 (conteúdo) de um vídeo de ~7 min, que tem ~350 palavras de fala nesse bloco. O objetivo é mostrar a densidade esperada; não copie o texto, copie o método. Regras conferidas em 03/11/2026; confira de novo antes de usar.
+Tema de exemplo: come-cotas, como Bloco 3 (conteúdo) de um vídeo de ~7 min, que tem ~370 palavras de fala nesse bloco. O objetivo é mostrar a densidade esperada e como a lousa complementa a fala; não copie o texto, copie o método. Regras conferidas em 03/11/2026; confira de novo antes de usar.
 
 ## 1. Inventário (trabalho interno)
 
-| Campo | Conteúdo | Prioridade |
+| Campo | Conteúdo | Vai para |
 |---|---|---|
-| Definição + sinônimos | Recolhimento antecipado e semestral do IR dos fundos, feito pela redução da quantidade de cotas. Sinônimo na prova: "antecipação semestral do IR". | núcleo |
-| Mecanismo | O governo antecipa o imposto em vez de esperar o resgate → o administrador retém no último dia útil de maio e de novembro → as cotas retidas deixam de render. | núcleo |
-| Espectro | Longo prazo: 15%. Curto prazo: 20%. Fundos de ações: não têm. FII, Fiagro e FIP: fora. Fechados: têm, desde 2024. Curto prazo resgatado depois de 180 dias: nada a completar. Semestre sem rendimento: nada a reter. | núcleo |
-| Exemplo numérico | R$ 100 mil em fundo de longo prazo, rendimento de R$ 6 mil no semestre → R$ 900 em cotas. Resgate com 400 dias (17,5%) → complemento de 2,5 pontos sobre os R$ 6 mil: R$ 150. | núcleo |
-| Conceito vizinho | Come-cotas × IR no resgate (um antecipa, o outro acerta a diferença). Come-cotas × IOF (nas aplicações, o IOF sobre o rendimento só incide em resgates antes de 30 dias). | núcleo |
-| Consequência | Com a mesma rentabilidade bruta, um título que só paga IR no vencimento tende a render mais que um fundo com come-cotas. | núcleo |
-| Pegadinha | "O come-cotas incide sobre o valor aplicado" (falso: incide sobre o rendimento). "Fundo de ações tem come-cotas em novembro" (falso). | núcleo |
-| Caso real | Desde 01/01/2024 (Lei 14.754/2023), fundos fechados, formato de muitos exclusivos, passaram a ter come-cotas; antes, o imposto só vinha no resgate ou na amortização. | núcleo |
-| Simplificações | Classificação longo × curto prazo pelo prazo médio da carteira; exceção de "entidade de investimento" para fechados; ETF de renda fixa também fora. | apoio → Nota de bastidor |
+| Definição + sinônimos | Recolhimento antecipado e semestral do IR dos fundos, feito pela redução da quantidade de cotas. Sinônimo na prova: "antecipação semestral do IR". | fala |
+| Mecanismo | O governo antecipa o imposto em vez de esperar o resgate → o administrador retém no último dia útil de maio e de novembro → as cotas retidas deixam de render. | fala |
+| Espectro | Longo prazo: 15%. Curto prazo: 20%. Fundos de ações: não têm. FII, Fiagro e FIP: fora. Fechados: têm, desde 2024. Curto prazo resgatado depois de 180 dias: nada a completar. | fala (núcleo) e lousa (a lista completa de quem tem e quem não tem) |
+| Exemplo numérico | Longo prazo: R$ 100 mil, rendimento de R$ 6 mil → R$ 900 em cotas; resgate com 400 dias → complemento de R$ 150. | fala |
+| Segundo exemplo | Curto prazo: rendimento de R$ 4.000 → R$ 800 em cotas; resgate com 150 dias → completa R$ 100; depois de 180 dias, nada. | lousa |
+| Conceito vizinho | Come-cotas × IR no resgate; come-cotas × IOF (só em resgates antes de 30 dias). | fala |
+| Consequência | Com a mesma rentabilidade bruta, um título que só paga IR no vencimento tende a render mais que um fundo com come-cotas. | fala |
+| Pegadinha | "O come-cotas incide sobre o valor aplicado" (falso). "Fundo de ações tem come-cotas em novembro" (falso). | pergunta-gatilho da fala |
+| Caso real | Desde 01/01/2024 (Lei 14.754/2023), fundos fechados passaram a ter come-cotas. | fala; a lousa repete o ano |
+| Simplificações | Longo × curto prazo pelo prazo médio da carteira; fechado "entidade de investimento" fica fora; ETF de renda fixa também fora. | lousa |
 
-## 2. Lousa (escrita enquanto fala)
+Repare na última coluna: o que a fala não comporta (o segundo exemplo, a lista completa, as exceções) vai para a lousa, e não para uma nota que ninguém lê.
 
-**[Ação na Lousa - Wacom One / Goodnotes]**
+## 2. Roteiro do bloco
 
-- Título: **2. COME-COTAS = IR ANTECIPADO**
-- Último dia útil de **MAIO** e **NOVEMBRO**
-- Longo prazo → **15%** · Curto prazo → **20%**
-- Cobrado em **COTAS** (a quantidade cai)
-- Resgate → **completa** até a alíquota da tabela
-- Fora: **ações · FII/Fiagro · FIP** · Fechados: **sim, desde 2024**
+```
+## 3. Conteúdo Técnico e Roteiro Visual — [4 min]
+**[Ação na Lousa - Google Slides]**
+- Slide 3 · ao dizer "maio e de novembro", sublinhe MAIO e NOVEMBRO · ao dizer "Quem fica de fora", circule a coluna NÃO TEM
+**[Locução Direta]**
+"..."
+```
 
 ## 3. Fala
-
-**[Locução Direta]**
 
 "Neste vídeo, o come-cotas. É a antecipação semestral do imposto de renda dos fundos. O nome é literal: o imposto é cobrado em cotas. A quantidade de cotas diminui; o valor de cada cota, não.
 
@@ -47,20 +47,26 @@ E daí, para o cliente? Com a mesma rentabilidade bruta, um título que só paga
 
 *Pergunta-gatilho rápida:* o fundo de ações do seu cliente vai ter cotas retidas em novembro? **Não.** Fundo de ações não tem come-cotas: o imposto de 15% é cobrado só no resgate."
 
-## 4. O que este exemplo faz que um rascunho raso não faz
+## 4. Lousa (o que a fala não mostra)
 
-- Diz **por que** a regra existe, e não só o que ela diz.
-- Cobre o **espectro**: longo, curto, ações, os que ficam de fora, e a mudança de 2024.
-- Faz a **conta**, incluindo o complemento no resgate, que é onde o aluno erra.
-- Separa o **conceito vizinho** (IOF) em uma frase.
+```json
+{"saida": "r00a_3_come-cotas.png", "semente": 302, "molde": "colunas",
+ "titulo": "2. COME-COTAS = IR ANTECIPADO EM COTAS",
+ "topo": "ÚLTIMO DIA ÚTIL DE {laranja:MAIO} E DE {laranja:NOVEMBRO} · A QUANTIDADE DE COTAS CAI · NO RESGATE, ACERTO ATÉ A ALÍQUOTA DA TABELA",
+ "colunas": [
+  {"titulo": "TEM COME-COTAS", "texto": "- RENDA FIXA, MULTIMERCADO, CAMBIAL\n- LONGO PRAZO: {laranja:15%} · CURTO PRAZO: {laranja:20%}\n- FECHADOS: {verde:DESDE 2024} (LEI 14.754/2023)\n- PRAZO MÉDIO DA CARTEIRA DEFINE LONGO OU CURTO"},
+  {"titulo": "NÃO TEM", "texto": "- FUNDOS DE AÇÕES: IR SÓ NO RESGATE\n- FII · FIAGRO · FIP\n- ETF DE RENDA FIXA\n- FECHADO \"ENTIDADE DE INVESTIMENTO\""}],
+ "destaque": {"texto": "CURTO PRAZO, R$ 4.000 DE RENDIMENTO → SAEM R$ 800 EM COTAS · RESGATE COM 150 DIAS: COMPLETA R$ 100 · DEPOIS DE 180 DIAS: NADA", "cor": "branco", "moldura": "amarelo"}}
+```
+
+Conferido: sem avisos, ocupação de 100%, maior faixa vazia de 44 px.
+
+## 5. O que este exemplo faz que um material raso não faz
+
+- A fala diz **por que** a regra existe, faz a **conta** com o complemento no resgate e separa o **vizinho** (IOF).
 - A pergunta-gatilho responde com a **regra**, não só com "errado".
-- O que é apoio vai para a Nota de bastidor, em vez de ser espremido na fala.
+- A lousa não repete a fala: traz a **lista completa** de quem tem e quem não tem, as **exceções** (ETF de renda fixa, entidade de investimento, prazo médio) e um **segundo exemplo** (curto prazo), com números que a fala não usa.
 
-## 5. Linha do checklist
+## 6. Linha do checklist
 
-3.2 come-cotas: definição ✓ · mecanismo ✓ · espectro ✓ · exemplo ✓ · vizinho ✓ (IOF; IR no resgate) · consequência ✓ · pegadinha ✓ · caso real ✓ (Lei 14.754/2023, fundos fechados) · simplificações → nota.
-
-## 6. Trecho da Nota de bastidor
-
-- **Fontes:** Lei 14.754/2023; manual da Receita Federal sobre tributação de fundos (abr/2025). Conferido em 03/11/2026.
-- **Simplificações:** a classificação longo × curto prazo depende do prazo médio da carteira, não detalhado na fala. Fechados classificados como "entidade de investimento" não têm come-cotas. ETF de renda fixa também fica fora do come-cotas. No exemplo, só o rendimento do semestre de maio entra na conta.
+3.2 come-cotas: definição ✓ · mecanismo ✓ · espectro ✓ (fala e lousa) · exemplo ✓ (fala; segundo exemplo na lousa) · vizinho ✓ (IOF; IR no resgate) · consequência ✓ · pegadinha ✓ (pergunta-gatilho) · caso real ✓ (Lei 14.754/2023, fundos fechados) · simplificações → lousa.

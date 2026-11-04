@@ -1,227 +1,226 @@
 ---
 name: roteiro-lousa-aprofundado
-description: Cria, valida, aprofunda e reescreve roteiros de videoaula gravados em lousa digital (Wacom One + Goodnotes) para certificações financeiras (ANBIMA CPA, C-Pro R, C-Pro I, CFG, CGA, CGE e CFP), no formato de 5 blocos com [Ação na Lousa] e [Locução Direta] - divide o tema em vídeos de 6 a 8 minutos, pesquisa no Programa Detalhado, na apostila e em fontes oficiais, e salva o roteiro no Google Drive. Use sempre que o professor pedir para criar, fazer, escrever ou montar o roteiro de uma aula (por exemplo, R61) ou de itens do Programa Detalhado, ou enviar um roteiro ou rascunho de aula e pedir para validar, revisar, aprimorar, completar ou aprofundar, inclusive quando disser que o roteiro está raso ou que falta informação, exemplo ou analogia. Não use para apostilas, slides ou questões de prova. Para roteiro de videoaula em 5 blocos, use esta skill em vez de engenharia-didatica, aula-certificacao-financeira ou roteiro-validado-lousa.
+description: Cria, valida, aprofunda e reescreve roteiros de videoaula para certificações financeiras (ANBIMA CPA, C-Pro R, C-Pro I, CFG, CGA, CGE e CFP) em 4 blocos com [Ação na Lousa] e [Locução Direta], e gera as lousas no padrão X8 (PNG de fundo preto, letra de mão) que complementam a fala - divide o tema em vídeos de 6 a 8 minutos, pesquisa no Programa Detalhado, na apostila e em fontes oficiais, salva o roteiro no Google Drive, as lousas no GitHub e monta a apresentação no Google Slides com uma lousa por slide. Use sempre que o professor pedir para criar, fazer, escrever ou montar o roteiro ou as lousas de uma aula (por exemplo, R61) ou de itens do Programa Detalhado, ou enviar um roteiro ou rascunho e pedir para validar, revisar, aprimorar, completar ou aprofundar, inclusive quando disser que está raso ou que falta informação, exemplo ou analogia. Não use para apostilas ou questões de prova. Use esta skill em vez de engenharia-didatica, aula-certificacao-financeira, roteiro-validado-lousa ou lousa-manuscrita.
 ---
 
 # Roteiro de Lousa Aprofundado
 
-Transforma um rascunho, ou um item do Programa Detalhado, em uma série de vídeos curtos prontos para gravar. Cada vídeo tem os 5 blocos, lousa esquemática e locução completa, e funciona sozinho.
+Transforma um rascunho, ou um item do Programa Detalhado, em uma série de vídeos curtos prontos para gravar. Cada vídeo tem 4 blocos de locução e 4 lousas, e funciona sozinho.
 
-O problema que esta skill resolve é o roteiro raso. A causa raramente é falta de espaço. O que falta é **densidade**: o caso-limite, o porquê de cada regra, o conceito vizinho que confunde, a consequência prática. A profundidade vem de trocar palavras que não ensinam por palavras que ensinam. Quando o conteúdo completo passa do tamanho de um vídeo, ele vira mais um vídeo, não um vídeo maior e nem um vídeo espremido: vídeos curtos cansam menos o aluno, e a atenção cai bastante depois de uns 6 a 8 minutos.
+**Como o professor grava:** cada lousa (PNG 1920×1080, fundo preto) é o **fundo parado** de um slide no **Google Slides**. Ele fala lendo o roteiro e, com a **Wacom**, só circula, sublinha e puxa setas por cima. As contas, ele faz ao vivo num emulador da HP12C no computador. Por isso a lousa chega **pronta e completa**, sem espaço em branco para escrever.
+
+O problema que esta skill resolve é o material raso. A causa raramente é falta de espaço; o que falta é **densidade**: o caso-limite, o porquê de cada regra, o conceito vizinho que confunde, a consequência prática. Quando o conteúdo passa do tamanho de um vídeo, ele vira mais um vídeo: a atenção cai depois de uns 6 a 8 minutos.
 
 ## Etapa 0 — Fontes (antes de escrever)
 
-Um roteiro completo e atualizado depende de pesquisar nos lugares certos antes de escrever. Antes de perguntar, procure no Drive o que der para achar sozinho. Pergunte ao professor só o que faltar: a certificação, os itens do PD e, se não houver rascunho, o número da aula (Rxx). Se o rascunho já traz **Base** e **Escopo**, use-os.
+Antes de perguntar, procure no Drive o que der para achar sozinho. Pergunte ao professor só o que faltar: a certificação, os itens do PD e, se não houver rascunho, o número da aula (Rxx). Se o rascunho já traz **Base** e **Escopo**, use-os.
 
-Se o professor pedir só validação ("só valida", "confere se está certo"), faça a Etapa 0 e a Etapa 1 e entregue o diagnóstico com a lista de correções, sem reescrever o roteiro e sem salvar no Drive. Se diz "15 min" ou outra duração total, trate como o tempo do tema inteiro, a ser dividido em vídeos.
+Se o professor pedir só validação ("só valida", "confere se está certo"), faça a Etapa 0 e a Etapa 1 e entregue o diagnóstico com a lista de correções, sem reescrever, sem lousas e sem salvar. Se ele diz "15 min" ou outra duração total, trate como o tempo do tema inteiro, a ser dividido em vídeos. Se pedir só as lousas de um roteiro pronto, pule para a Etapa 6.
 
-Depois, pesquise nesta ordem:
+Pesquise nesta ordem:
 
-1. **Drive do professor**, se o conector do Google Drive estiver disponível. A pesquisa custa contexto, e o roteiro precisa caber depois dela, então siga este orçamento. Prefira sempre os arquivos que são do professor (dono = ele); há cópias compartilhadas por outras pessoas.
-   - **Programa Detalhado (PD), em PDF:** procure "Programa-Detalhado" e a certificação no título. O PDF é curto (cerca de 30 páginas): leia inteiro e confirme o texto exato do item, os itens vizinhos, a numeração e a versão vigente. Não use a planilha, que vem incompleta pelo conector.
-   - **Apostila:** procure "APOSTILA" e a certificação no título. **Não leia a apostila inteira**: o PDF tem centenas de páginas e esgota o contexto. O começo do arquivo, que a busca já mostra, traz o sumário com as páginas de cada capítulo; use-o para citar capítulo e páginas. Se o rascunho já cita páginas, confie nelas. Se precisar do texto exato de um trecho, peça ao professor para colar ou anexar as páginas.
-   - **Roteiros vizinhos** (o Rxx anterior e o seguinte, pelo título): o começo do documento, que a busca mostra, já traz Base e Escopo. Use isso para as pontes; abra o documento inteiro só se precisar conferir algo que foi dito.
+1. **Drive do professor**, se o conector do Google Drive estiver disponível. A pesquisa custa contexto, e o roteiro e as lousas precisam caber depois dela. Prefira os arquivos do próprio professor (há cópias compartilhadas por outras pessoas).
+   - **Programa Detalhado (PD), em PDF:** procure "Programa-Detalhado" e a certificação no título. É curto (cerca de 30 páginas): leia inteiro e confirme o texto exato do item, os vizinhos, a numeração e a versão. Não use a planilha, que vem incompleta.
+   - **Apostila:** procure "APOSTILA" e a certificação. **Não leia a apostila inteira**: o começo do arquivo, que a busca já mostra, traz o sumário com as páginas. Se precisar do texto exato de um trecho, peça ao professor as páginas.
+   - **Roteiros vizinhos** (o Rxx anterior e o seguinte): o começo do documento traz Base e Escopo; use para as pontes.
    - O **rascunho**, se o professor citou pelo nome.
-2. **Fontes oficiais**, quando o tema tiver norma, alíquota, prazo, limite ou regra de certificação: a lista por assunto está em `references/fontes.md`. Comece por `references/pontos-volateis.md`, que diz o que mudou recentemente, e confirme na fonte. Abra no máximo uma página por regra que vai para a fala, e só para as regras que mudaram ou que o rascunho e a apostila não sustentam.
+2. **Fontes oficiais**, quando o tema tiver norma, alíquota, prazo, limite ou regra de certificação: `references/fontes.md`. Comece por `references/pontos-volateis.md` (o que mudou recentemente) e confirme na fonte. No máximo uma página por regra que vai para a fala ou para a lousa.
 3. **Dados para o caso real** (índices, juros, câmbio, inflação, eventos de mercado): também em `references/fontes.md`.
 
-Leia só o que o item precisa. Registre na Nota de bastidor cada fonte usada: arquivo e páginas, ou link e data da consulta. Se uma fonte não estava acessível, diga isso em vez de supor o conteúdo.
+Anote para você cada fonte usada (arquivo e páginas, ou link e data): elas vão no checklist da Etapa 7, na conversa. O roteiro **não leva Nota de bastidor** — o professor não usa. Se uma fonte não estava acessível, diga isso em vez de supor o conteúdo.
 
 ## Orçamento de fala por vídeo
 
-Ritmo medido do professor: cerca de **95 palavras por minuto** de prosa falada, já contando o tempo de desenhar na lousa. Referência: o R57 tinha 1.402 palavras de locução e rendeu cerca de 15 min de vídeo, com uma tabela de HP12C. Conte só a prosa da `[Locução Direta]`; a lousa e as tabelas não entram na conta.
+Ritmo medido do professor: cerca de **95 palavras por minuto**. Conte só a prosa da `[Locução Direta]`; a lousa e as tabelas não entram.
 
-Cada vídeo tem de **6 a 8 minutos: entre 570 e 760 palavras de fala**, com alvo de ~665 (7 min). Mire os 7 minutos; os 8 são teto, não meta. Se todos os vídeos ficaram perto de 760 palavras, você encheu em vez de priorizar.
+Cada vídeo tem de **6 a 8 minutos: entre 570 e 760 palavras de fala**, com alvo de ~665 (7 min). Os 8 minutos são teto, não meta.
 
 | Bloco | Tempo | Palavras (vídeo de 7 min) |
 |---|---|---|
-| 1. Abertura | ~40 s | ~60 |
-| 2. Metáfora | ~1 min | ~90 |
-| 3. Conteúdo | ~3,5 min | ~350 |
-| 4. Pegadinha | ~45 s | ~70 |
-| 5. Fixação | ~1 min | ~95 |
+| 1. Abertura | ~45 s | ~70 |
+| 2. Metáfora | ~1 min | ~100 |
+| 3. Conteúdo | ~4 min | ~370 |
+| 4. Resolução | ~1,3 min | ~125 |
 | **Total** | **~7 min** | **~665** |
 
-Fora da faixa de 570 a 760, o vídeo está mal dividido: acima, cansa e o professor corta improvisando; abaixo, ou ficou raso ou o item devia ter sido juntado ao vizinho.
+Fora da faixa de 570 a 760, o vídeo está mal dividido: acima, cansa; abaixo, ficou raso ou devia ter sido juntado ao vizinho.
 
 ## Etapa 1 — Diagnóstico (quando houver rascunho)
 
-Abra a resposta com um diagnóstico curto do material inteiro, de até ~250 palavras. Ele é para o professor, não para o teleprompter:
+Abra a resposta, na conversa, com um diagnóstico curto de até ~250 palavras:
 - **O que está exato:** os pontos e cálculos que você conferiu.
 - **Lacunas:** numeradas; cada uma diz o item, o que falta e qual campo do inventário (Etapa 2) resolve.
 - **Imprecisões:** o trecho, o erro e a correção.
 
-Seja específico. "Falta aprofundar a tributação" não ajuda o professor; "3.3 cita a tabela regressiva mas não diz o que acontece no 181º dia" ajuda.
+Seja específico: "3.3 cita a tabela regressiva mas não diz o que acontece no 181º dia" ajuda; "falta aprofundar a tributação" não.
 
-## Etapa 2 — Inventário de profundidade (antes de escrever a fala)
+## Etapa 2 — Inventário de profundidade (antes de escrever)
 
-É esta etapa que separa um roteiro raso de um completo. Para **cada item do PD**, levante os nove campos abaixo antes de redigir. É trabalho interno: não imprima o inventário inteiro; o checklist final informa o que entrou.
+Para **cada item do PD**, levante os nove campos antes de redigir. É trabalho interno: não imprima o inventário.
 
-1. **Definição exata**, com os **sinônimos que a banca usa** (ex.: come-cotas = antecipação semestral do IR; marcação a mercado = precificação a valor de mercado).
-2. **Mecanismo:** por que a regra é assim, em pelo menos dois níveis: regra → causa → consequência. Ex.: o prefixado perde valor quando os juros sobem *porque* o fluxo fixo passa a ser descontado a uma taxa maior; *então* quem vende antes do vencimento realiza a perda.
-3. **Espectro completo:** todos os casos, inclusive os limites — o valor igual ao limite, o zero, o negativo, o dia da virada de faixa. Ex.: na tabela regressiva, o 180º dia ainda paga 22,5% e o 181º já paga 20%. É nos casos-limite que a prova costuma morar, e é o que um rascunho raso mais esquece. Dê a cada caso um exemplo concreto, com nome (um ativo, um produto, uma situação), e não só a descrição do comportamento: "tende a andar contra o mercado" sem dizer o quê não fica na memória.
+1. **Definição exata**, com os **sinônimos que a banca usa** (ex.: come-cotas = antecipação semestral do IR).
+2. **Mecanismo:** regra → causa → consequência. Ex.: o prefixado perde valor quando os juros sobem *porque* o fluxo fixo é descontado a uma taxa maior; *então* quem vende antes do vencimento realiza a perda.
+3. **Espectro completo:** todos os casos, inclusive os limites (o valor igual ao limite, o zero, o dia da virada de faixa). Ex.: na tabela regressiva, o 180º dia ainda paga 22,5% e o 181º já paga 20%. Dê a cada caso um exemplo concreto, com nome.
 4. **Exemplo numérico resolvido**, com números hipotéticos declarados e a interpretação do resultado.
-5. **Conceito vizinho que confunde** e a diferença em uma frase. Ex.: isenção × alíquota zero; come-cotas × IR no resgate; rentabilidade bruta × líquida.
-6. **Consequência prática:** o "e daí?" para o profissional e o cliente. Ex.: esperar alguns dias para passar do 180º dia pode reduzir o imposto. Em temas de decisão (o que vender primeiro, qual produto escolher), mostre também o caso em que a regra de bolso engana: alíquota menor pode sair mais cara em reais quando o ganho tributado é maior. Nesse exemplo, dê todos os números (valor, ganho, alíquota, imposto em reais) e diga o que fica para depois: imposto adiado não é imposto perdoado.
-7. **Pegadinha provável** e a pergunta-gatilho que a desmonta.
-8. **Simplificações:** onde a lousa simplifica a matemática ou a norma, e o que fica de fora.
-9. **Caso real:** um episódio de mercado com data e número que mostre o conceito acontecendo (a queda de um índice num mês de crise, uma decisão do Copom, a liquidação de um banco, a taxa de um ETF listado). Confira em fonte de dados ou oficial (`references/fontes.md`) e registre data e fonte na Nota de bastidor. Mudança de lei só conta como caso real quando a aula é sobre a própria regra (ex.: desde 2024, pela Lei 14.754/2023, fundos fechados passaram a ter come-cotas). História acadêmica (quem criou a teoria) não conta. Em temas de regra, como tributação, o caso real costuma ser um episódio de mercado que mudou a decisão do investidor (ex.: um mês de queda forte que desequilibrou as carteiras e obrigou a rebalancear) ou a mudança recente da própria regra. Sem caso conferível, use um exemplo hipotético declarado e diga isso na nota. O caso real dá concretude e credibilidade; ele não substitui o exemplo numérico.
+5. **Conceito vizinho que confunde** e a diferença em uma frase (isenção × alíquota zero; come-cotas × IR no resgate).
+6. **Consequência prática:** o "e daí?" para o profissional e o cliente. Em temas de decisão, mostre o caso em que a regra de bolso engana, com todos os números, e diga o que fica para depois: imposto adiado não é imposto perdoado.
+7. **Pegadinha provável:** vira a pergunta-gatilho do Bloco 3 ou um item da lousa.
+8. **Simplificações:** o que a lousa ou a fala simplifica; declare na fala ou na lousa.
+9. **Caso real:** um episódio de mercado com data e número que mostre o conceito acontecendo (a queda de um índice num mês de crise, uma decisão do Copom, a liquidação de um banco). Mudança de lei só conta quando a aula é sobre a própria regra. Sem caso conferível, use um exemplo hipotético e diga "hipotético" na fala.
 
-Marque cada elemento como **núcleo** (cai na prova ou é necessário para entender) ou **apoio**. O núcleo vai para a fala. O apoio vai para a Nota de bastidor. Mecanismo, casos-limite e conceito vizinho quase sempre são núcleo. Regra que cai na prova (alíquota, prazo, quem paga, o que fica de fora) é sempre núcleo: vai para a fala, e não só para a nota, porque o aluno não lê a nota.
+Marque cada elemento como **núcleo** (cai na prova ou é necessário para entender) ou **apoio**. O núcleo vai para a fala. O apoio vai para a **lousa**, quando complementa a fala, ou fica de fora. Regra que cai na prova (alíquota, prazo, quem paga, o que fica de fora) é sempre núcleo.
 
-Mesmo com espaço, corte o que não ensina:
-1. leitura em voz alta do que já está escrito na lousa;
-2. transições vazias ("agora vamos ver...", "fechando com chave de ouro");
-3. adjetivos de efeito ("implacável", "cirúrgico", "absolutamente");
-4. resumos repetidos — fica só o resumo do fim do vídeo;
-5. histórias longas — a abertura precisa de uma situação, não de um conto.
+**Planeje as 4 lousas aqui, junto com a fala** (Etapa 6): para cada bloco, decida o que a fala explica e o que a lousa mostra a mais.
+
+Mesmo com espaço, corte o que não ensina: leitura em voz alta do que está na lousa; transições vazias ("agora vamos ver..."); adjetivos de efeito; resumos repetidos (fica só o do fim); histórias longas.
 
 ## Etapa 3 — Plano da série
 
-Com o inventário pronto, divida o tema em vídeos:
-- **Um vídeo por item do PD, na ordem do PD.** Não reordene os itens, mesmo que outra ordem pareça mais lógica: o aluno estuda seguindo o Programa Detalhado.
+- **Um vídeo por item do PD, na ordem do PD.** Não reordene: o aluno estuda seguindo o Programa Detalhado.
 - **Junte** itens vizinhos quando o núcleo de um deles não enche um vídeo (menos de ~300 palavras de conteúdo).
-- **Divida** um item em dois vídeos quando o núcleo dele passa de ~400 palavras de conteúdo, cortando por subtema (ex.: conceito num vídeo, cálculo no outro). Os outros quatro blocos somam ~315 palavras, então mais de 400 no Bloco 3 estoura o teto de 760.
-- Não separe um conceito do vizinho que confunde. Se o vizinho é um item que vem depois no PD, faça o contraste em uma frase neste vídeo e deixe o conteúdo completo para o vídeo do próprio item.
-- Nomeie com o número da aula e uma letra: R60A, R60B, R60C...
+- **Divida** um item em dois vídeos quando o núcleo passa de ~400 palavras (os outros três blocos somam ~295, então mais de 400 no Bloco 3 estoura o teto de 760).
+- Não separe um conceito do vizinho que confunde; se o vizinho vem depois no PD, faça o contraste em uma frase.
+- Nomeie com o número da aula e uma letra: R60A, R60B... (ou R50-1, R50-2, se o professor pedir, para não colidir com aulas de mesmo número).
 
-Mostre o plano logo depois do diagnóstico, numa tabela. A minutagem vem da contagem final do conferidor (palavras de fala ÷ 95), e não de estimativa; atualize a tabela depois de rodar o conferidor.
+Mostre o plano depois do diagnóstico, numa tabela; a minutagem vem do conferidor (palavras ÷ 95):
 
-| Vídeo | Itens do PD | Minutagem estimada | Mito da abertura |
+| Vídeo | Itens do PD | Minutagem | Mito da abertura |
 |---|---|---|---|
 
-## Etapa 4 — Precisão (antes de dar a fala por pronta)
+## Etapa 4 — Precisão (antes de dar a fala e a lousa por prontas)
 
-- **Teste do contraexemplo.** Toda frase absoluta ("sempre", "nunca", "impossível", "garante", "elimina", "zera", "isento") precisa sobreviver a uma tentativa de contraexemplo. Ex.: "LCI é isenta de IR" cai diante de uma pessoa jurídica, que é tributada; a frase certa é "LCI é isenta para pessoa física". Se o contraexemplo existe, reescreva com a condição certa. O contraexemplo também precisa ser verdadeiro: confirme-o antes de mudar a fala, porque uma exceção inventada derruba uma regra certa. E se a frase vale com a condição certa, mantenha a frase e acrescente a condição; não a apague. Faça isso com toda a fala, inclusive as frases de regra geral ("o imposto nasce na venda", "a isenção vale só para...", "renda fixa não tem risco"), e não só com as perguntas-gatilho e as pegadinhas. O `scripts/conferir_roteiro.py` lista as principais para você revisar uma a uma; a lista é um mínimo.
-- **Termo vago.** Quando a definição usar "ajustado", "relativo", "proporcional" ou "equivalente", diga a quê e por qual medida: ajustado a qual risco? relativo a qual referência? E não atribua a uma medida uma propriedade que é de outra.
-- **Declare toda simplificação** na fala ou na nota (ex.: "corretagem desconsiderada"; "ignorando o IOF, porque o prazo passa de 30 dias"). Uma simplificação escondida vira erro quando o aluno encontra o caso completo na prova.
-- **Normas, alíquotas, prazos, limites e regras de certificação mudam.** Quando o tema tocar nisso, confira na fonte oficial do assunto (`references/fontes.md`), com pesquisa na web se ela estiver disponível. Use `references/pontos-volateis.md` como ponto de partida datado, nunca como palavra final. O que não for confirmado vai marcado `[VERIFICAR]` na Nota de bastidor, e a fala usa só a regra central. Sem pesquisa na web: linhas VERIFICADO do `pontos-volateis.md` com menos de 90 dias podem ir para a fala, citando a data do levantamento na nota; PROVÁVEL e NÃO VERIFICADO vão marcadas `[VERIFICAR]`.
-- **Apostila × norma vigente:** se divergirem, a fala segue a norma e a Nota de bastidor registra a divergência e a página.
-- **Recalcule todos os números**, incluindo cada passo e cada visor da HP12C (use Python se estiver disponível). Não confie no número que veio no rascunho.
+- **Teste do contraexemplo.** Toda frase absoluta ("sempre", "nunca", "garante", "elimina", "isento") precisa sobreviver a um contraexemplo. Ex.: "LCI é isenta de IR" cai diante de pessoa jurídica; a frase certa é "LCI é isenta para pessoa física". O contraexemplo também precisa ser verdadeiro: confirme-o antes de mudar o texto. Se a frase vale com uma condição, mantenha-a e acrescente a condição. Vale para a fala **e para a lousa**. O `scripts/conferir_roteiro.py` lista as principais; a lista é um mínimo.
+- **Termo vago.** "Ajustado", "relativo", "proporcional": diga a quê e por qual medida.
+- **Declare toda simplificação** na fala ou na lousa ("corretagem desconsiderada").
+- **Normas, alíquotas, prazos e limites mudam.** Confira na fonte oficial (`references/fontes.md`). Use `references/pontos-volateis.md` como ponto de partida datado. O que não for confirmado fica marcado **`[VERIFICAR]` no próprio texto** e listado na mensagem de entrega. Sem pesquisa na web, só linhas VERIFICADO com menos de 90 dias vão sem marca.
+- **Apostila × norma:** se divergirem, a fala segue a norma; a divergência vai para a mensagem de entrega, com a página.
+- **Recalcule todos os números**, da fala, da lousa e de cada visor da HP12C (use Python se houver).
 
-## Etapa 5 — Roteiro de cada vídeo em 5 blocos
+## Etapa 5 — Roteiro de cada vídeo em 4 blocos
 
-Mantenha o padrão do professor. Cada vídeo é completo e **funciona sozinho**: o aluno pode assistir só a ele. Não dependa de "como vimos no vídeo anterior" sem repetir, em uma frase, o que for preciso. Se o mesmo mecanismo explica itens que caíram em vídeos diferentes, explique-o nos dois (no segundo, em uma ou duas frases). Ex.: a marcação a mercado explica tanto a perda de quem vende um prefixado antes do vencimento quanto a oscilação da cota de um fundo de renda fixa.
+Cada vídeo **funciona sozinho**: não dependa de "como vimos no vídeo anterior" sem repetir, em uma frase, o que for preciso.
 
-**Cabeçalho de cada vídeo:** `# R60A · Tema do vídeo (7 min)`, seguido de **Base** (item do PD, páginas da apostila, normas) e **Escopo** (o que entra neste vídeo e em qual vídeo da série está o resto).
-
-Cada bloco traz o tempo no título e as duas marcações: `[Ação na Lousa - Wacom One / Goodnotes]` e `[Locução Direta]`. Siga este esqueleto, com cada marcação sozinha na linha e sem outros títulos dentro da fala (o conferidor depende disso):
+Cada bloco traz o tempo no título e as duas marcações, cada uma sozinha na linha (o conferidor depende disso). O `[Ação na Lousa]` diz **qual slide está no fundo** e de 1 a 3 **marcações para a Wacom**, presas a uma frase da fala; o conteúdo da lousa fica só na lousa:
 
 ```
 # R60A · Tema do vídeo (7 min)
 **Base:** item do PD · páginas da apostila · normas
 **Escopo:** o que entra neste vídeo; onde está o resto da série
 
-## 1. Abertura Instigante (Destruição de Mito) — [40 s]
-**[Ação na Lousa - Wacom One / Goodnotes]**
-- ...
+## 1. Abertura Instigante (Destruição de Mito) — [45 s]
+**[Ação na Lousa - Google Slides]**
+- Slide 1 · ao dizer "Afirmação falsa", circule o mito · ao dizer "a regra", sublinhe a verdade
 **[Locução Direta]**
 "..."
 
 ## 2. Metáfora Central de Fixação — [1 min]
-## 3. Conteúdo Técnico e Roteiro Visual — [3,5 min]
-## 4. Alerta de Prova e Pegadinha da Banca — [45 s]
-## 5. Resolução Rápida de Fixação — [1 min]
+## 3. Conteúdo Técnico e Roteiro Visual — [4 min]
+## 4. Resolução Rápida de Fixação — [1,3 min]
 (cada um com as mesmas duas marcações)
-
-### Nota de bastidor (fora do teleprompter)
-- ...
 ```
 
 ### 1. Abertura Instigante (Destruição de Mito)
-- Lousa: título com o item do PD; o mito em vermelho, riscado; a regra matriz em verde.
-- Fala: uma situação concreta com números, específica do item deste vídeo (de preferência o caso real do inventário); o mito anunciado como mito ("Afirmação falsa: ..."); por que ele parece verdadeiro; a regra matriz; o que este vídeo vai mostrar.
+- Fala: uma situação concreta com números, de preferência o caso real; o mito anunciado como mito ("Afirmação falsa: ..."); por que ele parece verdadeiro; a regra matriz; o que o vídeo vai mostrar.
 
 ### 2. Metáfora Central de Fixação
-- Use **uma metáfora central para a série inteira**, para o aluno ter um fio só. Em cada vídeo, apresente a moldura em uma frase e desenvolva só os elementos que servem ao item deste vídeo.
-- Lousa: o desenho, com 2 a 4 elementos, e a lista "elemento → conceito".
-- Fala: ligue cada elemento ao conceito técnico, um a um, e feche dizendo **onde a analogia quebra** para este item (uma ou duas frases) e qual é o termo técnico correto. Sem esse limite, o aluno leva para a prova características da metáfora que o conceito não tem. Veja `references/analogias.md`.
+- **Uma metáfora para a série inteira.** Em cada vídeo, apresente a moldura em uma frase e desenvolva só os elementos que servem ao item.
+- Fala: ligue cada elemento ao conceito, um a um, e diga **onde a analogia quebra** e qual é o termo técnico correto. Veja `references/analogias.md`.
 
 ### 3. Conteúdo Técnico e Roteiro Visual
-- Lousa: título numerado; de 3 a 6 linhas de palavras-chave, setas e números; fórmula na **forma resumida** (ex.: "IR = ganho × alíquota da faixa"). A fórmula completa vai para a Nota de bastidor. Escreva só o que dá para desenhar enquanto fala.
-- Fala: o núcleo do inventário — definição com sinônimos, mecanismo, espectro com os casos-limite e seus exemplos concretos, exemplo numérico, conceito vizinho, consequência prática, caso real.
-- Feche com a **pergunta-gatilho** e a resposta com o porquê. Não basta "Errado!": diga o que está errado e qual é a regra.
-- Use a mesma ordem interna em todos os vídeos da série. A previsibilidade ajuda quem tem TEA ou TDAH a acompanhar.
+- Fala: o núcleo do inventário — definição com sinônimos, mecanismo, espectro com casos-limite e exemplos concretos, exemplo numérico, conceito vizinho, consequência prática, caso real.
+- Feche com a **pergunta-gatilho** e a resposta com o porquê (não basta "Errado!": diga qual é a regra).
+- Mesma ordem interna em todos os vídeos da série: a previsibilidade ajuda quem tem TEA ou TDAH.
 
-### 4. Alerta de Prova e Pegadinha da Banca
-- Lousa: quadro "⚠️ PEGADINHAS" com 2 a 4 afirmações falsas sobre o item e a correção de cada uma.
-- Fala: um caso curto no estilo ANBIMA, de uma ou duas frases (cliente, profissional, decisão) e sem alternativas, já que a prova usa cases e árvore de diálogo. Comece cada pegadinha com "Afirmação falsa:", para não deixar dúvida. Explique o raciocínio que leva ao erro e dê a **regra de bolso**, com o caso em que ela não vale, se houver.
+### 4. Resolução Rápida de Fixação
+- Dois cenários que diferem em **um único atributo decisivo**, com números hipotéticos declarados. O exercício treina a regra deste vídeo.
+- Quando houver cálculo, use a tabela `Passo | Teclas na HP12C | Visor | O que significa`, com cada visor recalculado (o professor faz a conta ao vivo no emulador).
+- Fala: a interpretação dos números; o **resumo do vídeo para a prova** (o único resumo); a ponte para o próximo vídeo ou, no último, para a próxima aula.
 
-### 5. Resolução Rápida de Fixação
-- Lousa: dois cenários que diferem em **um único atributo decisivo**, com números hipotéticos declarados. O exercício treina a regra deste vídeo, e não a de outro vídeo da série.
-- Quando houver cálculo, use a tabela `Passo | Teclas na HP12C | Visor | O que significa`, com cada visor recalculado.
-- Fala: a interpretação dos números; o **resumo do vídeo para a prova** (o único resumo do vídeo); a ponte para o próximo vídeo da série. No último vídeo, a ponte vai para a próxima aula.
+Não há bloco de pegadinhas nem Nota de bastidor: o professor não usa.
 
-### Nota de bastidor (fora do teleprompter)
-Uma por vídeo. Ao reescrever um rascunho, preserve o que a nota original já tinha e distribua pelos vídeos. Ela contém:
-- fontes: item do PD, páginas da apostila, normas com número e data;
-- decisões do professor: o que foi acrescentado além da apostila e por quê;
-- simplificações declaradas e fórmulas completas, em texto simples (ex.: "TE = desvio padrão de (Rc − Rb)"), nunca em LaTeX: o Google Docs mostra o código cru;
-- itens `[VERIFICAR]`;
-- a conferência dos cálculos;
-- o conteúdo de apoio que ficou fora da fala.
+## Etapa 6 — Lousas (uma por bloco)
 
-## Etapa 6 — Checklist de entrega
+Leia `references/lousas.md` antes da primeira lousa: tem o padrão visual, os moldes e os campos do JSON.
 
-Antes de entregar, se houver execução de código, grave a resposta completa num arquivo de trabalho (ex.: `R57.md`) e rode o conferidor que está na pasta desta skill:
+**A regra: a lousa mostra o que a fala não mostra.** Ela é ligada ao bloco (mesma metáfora, mesmos conceitos), mas não repete a fala: traz condições de uso, caso-limite, números, um segundo exemplo, a metáfora desenhada, o erro de quem escolhe mal. Tudo verdadeiro e tirado do conteúdo da aula (PD, apostila, normas) — **nada inventado**; o que não estiver confirmado fica fora da lousa. O conferidor reprova 8 palavras seguidas iguais à fala do mesmo bloco.
+
+| Bloco | Molde | O que a lousa traz |
+|---|---|---|
+| 1. Abertura | `mito_verdade` com `apoio` | mito riscado, verdade emoldurada, desenho; no apoio, o caso real em números e para quem a regra vale |
+| 2. Metáfora | `comparacao` ou `metafora` | a metáfora **sempre desenhada** (crie o desenho se faltar), o mapa elemento → conceito e o que a fala não detalha (condição, tarifa, exemplo diferente) |
+| 3. Conteúdo | `topicos`, `colunas` ou `comparacao` | fórmula na forma resumida, casos-limite com números, o vizinho que confunde, a regra que cai na prova |
+| 4. Resolução | `exercicio` | os cenários, as contas resumidas e o **resultado** (sem as teclas da HP, que ficam no roteiro) |
+
+Quantidade de informação: a tela útil ocupada, letra do corpo entre 30 e 34 px. Referência aprovada pelo professor: a lousa "Duas rodovias" em `references/lousas.md`.
+
+Escreva um JSON por aula (`rXX-lousas.json`), com `"padrao": {"fundo": "preto"}` e uma lousa por bloco, nomeadas `{video}_{bloco}_{slug}.png` (ex.: `r60a_2_mar-mare-barcos.png`) e com uma `semente` diferente por lousa. Depois rode:
+
+`python3 <pasta desta skill>/scripts/conferir_lousas.py roteiro.md rXX-lousas.json -o <pasta das lousas>`
+
+Ele desenha tudo e reprova: aviso do gerador (texto cortado, canto do logo ou da webcam invadido, letra abaixo de 28 px), ocupação abaixo de 70%, faixa vazia de mais de 120 px, repetição da fala e nome fora do padrão. Corrija até zerar. **Depois, abra cada PNG** (uma prancha com todas ajuda) e confira: nada sobreposto, seta no lugar, número igual ao da fala.
+
+## Etapa 7 — Checklist de entrega
+
+Grave o roteiro num arquivo de trabalho (ex.: `R57.md`) e rode o conferidor:
 
 `python3 <pasta desta skill>/scripts/conferir_roteiro.py R57.md --pd <itens do PD na ordem oficial, separados por vírgula>`
 
-Ele conta as palavras por bloco e por vídeo, confere os 5 blocos, as marcações, a Nota de bastidor, a data do caso real, a ordem do PD, LaTeX na fala, fórmula pesada na lousa e negrito em tabela, e lista as frases absolutas. Corrija toda PENDÊNCIA, revise as frases absolutas uma a uma e rode de novo. Sem execução de código, faça as mesmas conferências à mão.
+Ele confere os 4 blocos, as marcações, a ausência de Nota de bastidor, a data do caso real (ou "hipotético" na fala), a ordem do PD, LaTeX na fala, negrito em tabela e lista as frases absolutas. Corrija toda PENDÊNCIA e rode de novo. Sem execução de código, confira à mão.
 
-Depois, feche a resposta com este checklist, no lugar de qualquer nota de autoavaliação, e, por último, com o link do Drive (Etapa 7):
-
-- Resultado do conferidor: pendências zeradas, ou quais ficaram e por quê.
-- Por vídeo: palavras de fala por bloco e no total (ex.: "R60B: 60 / 92 / 341 / 70 / 98 = 661 → ~7 min").
-- Série: número de vídeos e minutagem total.
-- Por item do PD: quais dos 9 campos do inventário entraram na fala, quais foram para a nota, e quais não se aplicam.
-- Caso real de cada vídeo: qual, com data e fonte.
+Feche a resposta, **na conversa** (não no documento), com:
+- Conferidores: pendências zeradas, ou quais ficaram e por quê.
+- Por vídeo: palavras por bloco e total (ex.: "R60B: 70 / 98 / 371 / 124 = 663 → ~7 min").
+- Série: número de vídeos, minutagem total, número de lousas.
+- Por item do PD: quais dos 9 campos do inventário entraram na fala e quais na lousa.
+- Caso real de cada vídeo, com data e fonte.
 - A analogia diz onde quebra, em cada vídeo? (sim/não)
-- Frases absolutas testadas contra contraexemplo: quais, e o resultado.
-- Simplificações declaradas: quais.
-- Cálculos recalculados: sim/não.
-- **Revisão e atualização:** as fontes consultadas (Drive e oficiais) com a data da consulta; o que mudou em relação ao rascunho e à apostila; as regras confirmadas; os itens `[VERIFICAR]` pendentes.
+- Frases absolutas testadas contra contraexemplo e o resultado.
+- **Fontes e atualização:** as fontes consultadas com a data; divergências apostila × norma; os `[VERIFICAR]` pendentes.
+- Os links (Etapa 8).
 
-Por que não uma nota de 0 a 10: quem escreveu tende a dar nota alta ao próprio texto, mesmo com erro. Contagens e itens marcados o professor consegue conferir; uma nota, não.
+Nada de nota de 0 a 10: quem escreveu tende a dar nota alta ao próprio texto. Contagens e itens marcados o professor consegue conferir.
 
-## Etapa 7 — Salvar no Google Drive
+## Etapa 8 — Entrega: GitHub, Google Slides e Google Drive
 
-Toda vez que criar ou reescrever um roteiro, salve o resultado no Google Drive do professor, sem perguntar. Ele quer encontrar o roteiro no Drive, e não só na conversa. Salve logo depois que o conferidor zerar as pendências, antes de escrever o resumo da conversa: se o contexto acabar no fim, o roteiro já está salvo.
+Faça tudo sem perguntar, logo depois de zerar os conferidores (se o contexto acabar, o material já está salvo). **Só dê como salvo o que a ferramenta confirmou**, e nunca apague uma versão anterior: numa refação, use " (2)", " (3)" no nome e avise.
 
-- **Nome:** `Rxx · skill nova · Tema da aula (itens do PD)`. Ex.: `R60 · skill nova · Dominância entre carteiras, beta, risco absoluto × relativo e sistemático (4.9 a 4.9.3)`. Use o número da aula (R60), não o do vídeo (R60A): a série inteira vai num documento só.
-- **Pasta:** a do roteiro anterior da mesma certificação (o Rxx − 1). Se não achar, a de qualquer roteiro "Rxx" recente da mesma certificação. Se não achar nenhum, pergunte ao professor.
-- **Formato:** Google Docs, enviando o Markdown da resposta completa (diagnóstico, plano, vídeos e checklist) uma única vez, pela ferramenta do conector que cria arquivos, para que títulos, negrito e tabelas sejam convertidos. Dentro das células de tabela, não use negrito (`**`): a conversão deixa esses asteriscos aparentes.
-- **Não sobrescreva nada:** se já existir um documento com o mesmo nome, use " (2)", " (3)" e assim por diante, e avise.
-- **Só dê como salvo o que a ferramenta confirmou.** Depois de criar, procure o documento pelo título para confirmar que ele existe (o tamanho pode aparecer como 1 logo após a criação; isso não quer dizer vazio). No fim da resposta, dê o link que a própria ferramenta devolveu. Se o conector não estiver disponível, não tiver ferramenta para criar arquivo ou a criação falhar, gere um .docx com o mesmo nome por execução de código, entregue o arquivo e escreva claramente: "NÃO foi salvo no Drive".
-- **Tamanho:** o roteiro completo vai para o documento; na conversa, mostre o diagnóstico, o plano da série, o checklist e o link. Se a série passar de 4 vídeos, faça em duas rodadas, cada uma salva como documento próprio ("(parte 1)", "(parte 2)").
+1. **GitHub.** No repositório `gabrielparreiradasilveira-lang/Principal` (público), salve o JSON e os PNG em `aulas-certificacoes/materiais/{cert}/lousas/{rxx-tema}/` (ex.: `cpro-r/lousas/r60-dominancia-beta-risco/`). Faça commit e push na branch da sessão e anote o SHA (`git rev-parse HEAD`). O push vem antes dos slides: o Google baixa cada imagem do GitHub por esse SHA.
+2. **Pasta do Drive:** a do roteiro anterior da mesma certificação (o Rxx − 1); se não achar, a de um "Rxx" recente da mesma certificação; se não achar nenhuma, pergunte.
+3. **Google Slides** (uma apresentação por aula, com as lousas dos vídeos em ordem):
+   - `create_file` do Drive com `contentMimeType` `application/vnd.google-apps.presentation`, sem conteúdo, `parentId` da pasta e título `Rxx · skill nova · Tema (itens do PD) · lousas`;
+   - `read_presentation` com `fields` `["slides.objectId"]` para pegar o id do slide em branco;
+   - `python3 <pasta desta skill>/scripts/slides.py --dono gabrielparreiradasilveira-lang --repo Principal --sha <SHA> --slide-inicial <id> <caminhos dos PNG a partir da raiz do repositório, em ordem>`;
+   - `update_presentation` com a lista impressa (o professor pode ter configurado o conector para pedir confirmação);
+   - `read_slide_page_thumbnail` do primeiro e do último slide: abra as miniaturas e confira a lousa no fundo.
+4. **Roteiro no Google Docs:** `create_file` com `contentMimeType` `text/markdown`, título `Rxx · skill nova · Tema da aula (itens do PD)` (o número da aula, não o do vídeo) e o mesmo `parentId`. O documento leva: o link da apresentação no topo, o plano da série e os vídeos. Diagnóstico e checklist ficam na conversa. Não use negrito dentro de células de tabela (o Drive mostra os asteriscos). Confirme pelo título com `search_files`.
+5. **Sem conector do Slides ou sem git:** gere o `.pptx` (`python3 <pasta desta skill>/scripts/lousa.py rXX-lousas.json -o <pasta> --pptx rXX-lousas.pptx`), entregue os arquivos e escreva claramente: "a apresentação NÃO foi criada no Google Slides". Sem conector do Drive, gere um .docx com o mesmo nome e escreva "NÃO foi salvo no Drive".
+
+Na conversa: diagnóstico, plano, checklist e os links que as ferramentas devolveram. Se a série passar de 4 vídeos, faça em duas rodadas ("(parte 1)", "(parte 2)").
 
 ## Estilo da locução
 
-- **Falável:** nada de LaTeX, de símbolos soltos ou de fórmula escrita no meio da fala. Escreva "alíquota de 22,5%", "maior que", "dividido por". O teleprompter é lido em voz alta.
-- Frases curtas, uma ideia por frase, em segunda pessoa ("você calcula..."), em tom técnico e direto.
-- Defina cada termo técnico na primeira vez que ele aparecer em cada vídeo.
-- Repita a regra matriz do vídeo em três momentos: abertura, conteúdo e resumo.
-- Sinalize a estrutura e avise quando algo é metáfora. Linguagem literal, sem ironia.
-
-## Lousa
-
-- Esquemática: palavras-chave, setas e números; de 3 a 6 linhas por bloco de conteúdo.
-- Progressão: primeiro a pergunta, depois a palavra-chave, a explicação e, por último, a conclusão ou a pegadinha.
-- Cor com função: vermelho para erro e pegadinha, verde para regra.
+- **Falável:** nada de LaTeX, símbolos soltos ou fórmula no meio da fala. Escreva "alíquota de 22,5%", "maior que", "dividido por".
+- Frases curtas, uma ideia por frase, em segunda pessoa, tom técnico e direto.
+- Defina cada termo técnico na primeira vez que aparecer em cada vídeo.
+- Repita a regra matriz em três momentos: abertura, conteúdo e resumo.
+- Avise quando algo é metáfora. Linguagem literal, sem ironia.
 
 ## Armadilhas
 
-- **Mais completo não é vídeo mais longo.** Se o conteúdo cresceu, ele vira mais um vídeo; não estique um vídeo além de 8 minutos.
-- **Sem bateria de questões, simulado ou lista de exercícios.** O roteiro tem uma pergunta-gatilho por Bloco 3 e, no Bloco 4, um caso curto sem alternativas. Questões de prova são outro pedido.
+- **Mais completo não é vídeo mais longo.** Conteúdo a mais vira mais um vídeo.
+- **Lousa não é cópia da fala** nem resumo dela: é o segundo canal, com o que a fala não mostra.
+- **Lousa sem fonte não entra.** Número, regra ou caso que você não confirmou fica fora da lousa.
+- **Sem bateria de questões, simulado ou lista de exercícios.** Há uma pergunta-gatilho por Bloco 3 e um exercício resolvido no Bloco 4.
 - **Nomes de certificação atuais:** CPA, C-Pro R e C-Pro I desde jan/2026; CPA-10, CPA-20 e CEA foram encerradas em dez/2025. Gestão: CFG, CGA e CGE.
-- **Não invente páginas de apostila nem números de artigo.** Se não leu a fonte, diga isso na nota.
-- **Precisão terminológica:** simplificar a didática nunca é afrouxar o conceito (isenção ≠ alíquota zero; fato gerador ≠ base de cálculo; dias corridos ≠ dias úteis).
-- **Ferramentas:** só Wacom One, Goodnotes e HP12C, que são as que o professor usa.
+- **Não invente páginas de apostila nem números de artigo.**
+- **Precisão terminológica:** isenção ≠ alíquota zero; fato gerador ≠ base de cálculo; dias corridos ≠ dias úteis.
+- **Ferramentas do professor:** Google Slides com a Wacom por cima e a HP12C (emulador no computador).
 
 ## Referências
 
-- `references/fontes.md`: onde pesquisar cada assunto (Drive do professor, órgãos oficiais, bases de dados para o caso real). Leia na Etapa 0.
-- `scripts/conferir_roteiro.py`: conferidor do roteiro final. Rode na Etapa 6.
-- `references/pontos-volateis.md`: regras que mudaram de 2023 a 2026 (fundos, IR, IOF, dividendos, LCI/LCA, certificações), com data e grau de confirmação. Leia quando o tema envolver tributação, limites, prazos ou certificações.
-- `references/analogias.md`: o método para montar a metáfora (mapa + onde quebra) e analogias já prontas. Leia ao montar o Bloco 2.
-- `references/exemplo-item.md`: um bloco de conteúdo completo, do inventário à fala. Leia sempre, antes de escrever o primeiro Bloco 3, para calibrar a densidade.
+- `references/fontes.md`: onde pesquisar cada assunto. Leia na Etapa 0.
+- `references/pontos-volateis.md`: regras que mudaram de 2023 a 2026, com data e grau de confirmação.
+- `references/analogias.md`: o método da metáfora (mapa + onde quebra), analogias prontas e o desenho de cada uma. Leia ao montar o Bloco 2.
+- `references/exemplo-item.md`: um bloco de conteúdo completo, do inventário à fala e à lousa. Leia antes do primeiro Bloco 3, para calibrar a densidade.
+- `references/lousas.md`: padrão X8, moldes, campos do JSON, desenhos e a lousa de referência. Leia na Etapa 6.
+- `scripts/conferir_roteiro.py` (Etapa 7), `scripts/conferir_lousas.py` (Etapa 6), `scripts/lousa.py` (o gerador), `scripts/slides.py` (Etapa 8).
