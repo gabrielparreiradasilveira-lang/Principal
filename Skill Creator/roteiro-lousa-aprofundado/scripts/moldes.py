@@ -235,6 +235,70 @@ def colunas(L, spec, els):
                     "espessura": 4})
 
 
+def comparacao(L, spec, els):
+    """Duas colunas com desenho, rótulos e tópicos; faixas de largura total; destaque emoldurado na base.
+
+    Geometria da amostra aprovada pelo professor ("Duas rodovias", R50-1, 04/11/2026).
+    """
+    _titulo(L, spec, els)
+    cols = spec.get("colunas", [])
+    if len(cols) != 2:
+        raise ErroMolde("o molde comparacao pede exatamente 2 colunas")
+    pos = [(X0, 820, 130), (1000, 860, 1050)]  # x do texto, largura do texto, x do desenho
+    y_sub, y_des, w_des, y_rot, y_txt, fim_txt = 132, 196, 660, 380, 432, 735
+    for i, ((x, w, xd), c) in enumerate(zip(pos, cols), 1):
+        els += [{"tipo": "subtitulo", "id": f"cc{i}", "texto": c["titulo"], "x": x, "y": y_sub, "tamanho": 40},
+                {"tipo": "sublinhar", "alvo": f"cc{i}"}]
+        d = c.get("desenho")
+        if d:
+            d = {"nome": d} if isinstance(d, str) else d
+            _aspecto(d["nome"])
+            els.append({"tipo": "desenho", "nome": d["nome"], "cor": d.get("cor", "branco"),
+                        "largura": d.get("largura", w_des), "x": xd, "y": y_des})
+        rot = c.get("rotulos") or []
+        if len(rot) > 0 and rot[0]:
+            els.append({"tipo": "texto", "texto": rot[0], "x": x, "y": y_rot, "largura": 380, "tamanho": 28,
+                        "cor": "laranja", "lista": False})
+        if len(rot) > 1 and rot[1]:
+            els.append({"tipo": "texto", "texto": rot[1], "x": xd + w_des - 290, "y": y_rot, "largura": 320,
+                        "tamanho": 28, "cor": "laranja", "alinhar": "direita", "lista": False})
+
+    def montar(t):
+        return [{"tipo": "texto", "id": f"ct{i}", "texto": c.get("texto", ""), "x": x, "y": y_txt, "largura": w,
+                 "tamanho": t, "entrelinha": 1.42} for i, ((x, w, _), c) in enumerate(zip(pos, cols), 1)]
+
+    _, cs = _maior_que_cabe(L, montar, lambda es, t: max(_medir(L, e)[1] for e in es) <= fim_txt - y_txt,
+                            [34, 33, 32, 31, 30])
+    els += cs
+    hmax = max(_medir(L, e)[1] for e in cs)
+    els.append({"tipo": "linha", "pontos": [[945, y_sub], [940, (y_sub + y_txt + hmax) / 2], [947, y_txt + hmax]],
+                "espessura": 4})
+    d = spec.get("destaque")
+    if d:
+        d = {"texto": d} if isinstance(d, str) else dict(d)
+        d.setdefault("tamanho", 30)
+    topo_destaque = _destaque(L, d, els, x=100, largura=1440) if d else BASE
+    faixas = spec.get("faixas", [])
+    if faixas:
+        y0 = max(750, y_txt + hmax + 20)
+
+        def montar_f(t):
+            out, y = [], y0
+            for i, f in enumerate(faixas, 1):
+                e = {"tipo": "texto", "id": f"cf{i}", "texto": f, "x": X0, "y": y, "largura": 1500, "tamanho": t,
+                     "entrelinha": 1.38, "lista": False}
+                out.append(e)
+                y += _medir(L, e)[1] + 12
+            return out
+
+        def cabe_f(es, t):
+            ult = es[-1]
+            return ult["y"] + _medir(L, ult)[1] <= topo_destaque - 14
+
+        _, fs = _maior_que_cabe(L, montar_f, cabe_f, [30, 29, 28])
+        els += fs
+
+
 def pegadinhas(L, spec, els):
     y = _titulo(L, spec, els)
     linhas = []
@@ -272,7 +336,7 @@ def hp12c(L, spec, els):
     els += corpo
 
 
-MOLDES = {"mito_verdade": mito_verdade, "metafora": metafora, "topicos": topicos, "colunas": colunas,
+MOLDES = {"mito_verdade": mito_verdade, "comparacao": comparacao, "metafora": metafora, "topicos": topicos, "colunas": colunas,
           "pegadinhas": pegadinhas, "hp12c": hp12c}
 
 
