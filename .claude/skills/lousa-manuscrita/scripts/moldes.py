@@ -79,6 +79,11 @@ def _formula(L, f, d, wd, hd, y, els):
 # ---------------------------------------------------------------- moldes
 def mito_verdade(L, spec, els):
     y0 = _titulo(L, spec, els)
+    if spec.get("caso"):  # linha "Caso:" das aberturas dos roteiros novos, logo abaixo do título
+        c = {"tipo": "texto", "id": "caso", "texto": spec["caso"], "x": X0, "y": y0 + 10, "largura": X1 - X0,
+             "tamanho": 32, "lista": False}
+        els.append(c)
+        y0 += 10 + _medir(L, c)[1]
     mitos, verdade = spec.get("mitos", []), spec.get("verdade", "")
     fim = BASE - 40
     gap = 170  # o X do riscar passa da letra: espaço para não encostar no mito de baixo

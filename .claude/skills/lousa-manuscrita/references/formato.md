@@ -186,7 +186,7 @@ cima. Exemplo completo: `aulas-certificacoes/materiais/cpro-r/lousas/r61-medidas
 
 | molde | campos |
 |---|---|
-| `mito_verdade` | `titulo`, `mitos` (lista, saem em vermelho riscados), `verdade` (verde, moldura), `desenho` |
+| `mito_verdade` | `titulo`, `caso` (linha "Caso:" logo abaixo do título, 32 px, aceita `{cor:…}`), `mitos` (lista, saem em vermelho riscados), `verdade` (verde, moldura), `desenho` |
 | `metafora` | `titulo`, `itens`: `[{desenho, cor, extra, cor_extra, nome, legenda}]` (2 a 4, sobre uma estrada; `"estrada": false` tira) |
 | `topicos` | `titulo`, `formula` ({antes, num, den}), `desenho`, `subtitulo`, `texto` (tópicos), `destaque` (frase com moldura na base), `largura_texto` (abre espaço à direita para `elementos` extras) |
 | `colunas` | `titulo`, `formula`, `desenho`, `topo` (texto acima), `colunas`: 2 ou 3 `[{titulo, texto}]` (com 3, letra até 36 px), `destaque` |
