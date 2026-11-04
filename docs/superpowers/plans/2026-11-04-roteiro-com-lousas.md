@@ -49,7 +49,7 @@ Pasta da skill (chamada de `S` abaixo): `Skill Creator/roteiro-lousa-aprofundado
 
 ---
 
-### Tarefa 1: Copiar o motor e provar que ele reproduz as lousas
+### Task 1: Copiar o motor e provar que ele reproduz as lousas
 
 **Arquivos:**
 - Criar (cópia exata da origem): `S/scripts/lousa.py`, `S/scripts/moldes.py`, `S/scripts/desenhos.py`, `S/assets/fontes/` (PermanentMarker-Regular.ttf, Pangolin-Regular.ttf, LICENSE-PermanentMarker.txt, LICENSE-Pangolin-OFL.txt).
@@ -63,7 +63,7 @@ Pasta da skill (chamada de `S` abaixo): `Skill Creator/roteiro-lousa-aprofundado
 - [ ] **Passo 3:** rodar `python3 -m unittest discover -s "S/tests" -v` e esperar OK. Se falhar, a cópia está errada; não "conserte" o teste.
 - [ ] **Passo 4:** commit `Copia o motor de lousas para a skill roteiro-lousa-aprofundado`.
 
-### Tarefa 2: Desenho `rodovia_pedagio` e molde `comparacao`
+### Task 2: Desenho `rodovia_pedagio` e molde `comparacao`
 
 **Arquivos:**
 - Modificar: `S/scripts/desenhos.py` (nova entrada em `DESENHOS`) e `S/scripts/moldes.py` (função `comparacao` e registro em `MOLDES`).
@@ -105,7 +105,7 @@ Pasta da skill (chamada de `S` abaixo): `Skill Creator/roteiro-lousa-aprofundado
 - [ ] **Passo 5:** rodar e esperar OK. Abrir o PNG e comparar com a amostra 2: as duas devem ficar equivalentes.
 - [ ] **Passo 6:** commit `Molde comparacao e desenho rodovia_pedagio`.
 
-### Tarefa 3: Moldes `exercicio` e `mito_verdade` com apoio
+### Task 3: Moldes `exercicio` e `mito_verdade` com apoio
 
 **Arquivos:**
 - Modificar: `S/scripts/moldes.py`.
@@ -131,7 +131,7 @@ Pasta da skill (chamada de `S` abaixo): `Skill Creator/roteiro-lousa-aprofundado
 - [ ] **Passo 5:** rodar e esperar OK. Abrir os dois PNG.
 - [ ] **Passo 6:** commit `Moldes exercicio e mito_verdade com apoio`.
 
-### Tarefa 4: `conferir_lousas.py`
+### Task 4: `conferir_lousas.py`
 
 **Arquivos:**
 - Criar: `S/scripts/conferir_lousas.py`.
@@ -160,7 +160,7 @@ Pasta da skill (chamada de `S` abaixo): `Skill Creator/roteiro-lousa-aprofundado
 - [ ] **Passo 3:** rodar e esperar OK. Tirar o `skip` da Tarefa 2 e rodar toda a pasta `tests`.
 - [ ] **Passo 4:** commit `Conferidor de lousas: avisos, ocupação e repetição da fala`.
 
-### Tarefa 5: `slides.py`
+### Task 5: `slides.py`
 
 **Arquivos:**
 - Criar: `S/scripts/slides.py`.
@@ -185,7 +185,7 @@ Pasta da skill (chamada de `S` abaixo): `Skill Creator/roteiro-lousa-aprofundado
 - [ ] **Passo 3:** rodar e esperar OK.
 - [ ] **Passo 4:** commit `Gerador dos pedidos do Google Slides`.
 
-### Tarefa 6: Conferidor do roteiro com 4 blocos e sem Nota
+### Task 6: Conferidor do roteiro com 4 blocos e sem Nota
 
 **Arquivos:**
 - Modificar: `S/scripts/conferir_roteiro.py`.
@@ -207,7 +207,7 @@ Pasta da skill (chamada de `S` abaixo): `Skill Creator/roteiro-lousa-aprofundado
 - [ ] **Passo 3:** rodar e esperar OK.
 - [ ] **Passo 4:** commit `Conferidor do roteiro: 4 blocos e sem Nota de bastidor`.
 
-### Tarefa 7: SKILL.md e referências
+### Task 7: SKILL.md e referências
 
 **Arquivos:**
 - Modificar: `S/SKILL.md`, `S/references/exemplo-item.md`, `S/references/analogias.md`.
@@ -251,7 +251,7 @@ Pasta da skill (chamada de `S` abaixo): `Skill Creator/roteiro-lousa-aprofundado
   - `wc -l "S/SKILL.md"` deve ficar abaixo de 500.
 - [ ] **Passo 3:** commit `Skill: 4 blocos, lousas complementares e entrega no Google Slides`.
 
-### Tarefa 8: Pacote e teste de ponta a ponta com a R50
+### Task 8: Pacote e teste de ponta a ponta com a R50
 
 **Arquivos:**
 - Recriar: `Skill Creator/roteiro-lousa-aprofundado.zip`, sem a pasta `tests/`.
