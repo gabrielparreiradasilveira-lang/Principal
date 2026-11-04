@@ -5,9 +5,9 @@ Uso:
 
 Lê o Markdown da resposta completa (diagnóstico, plano, vídeos, checklist) e
 aponta o que precisa ser corrigido. Sai com código 1 se houver pendência.
-Espera o formato do esqueleto do SKILL.md: título "# Rxx · ..." por vídeo,
-blocos "## 1." a "## 5.", marcações [Ação na Lousa] e [Locução Direta] e
-"### Nota de bastidor" no fim de cada vídeo.
+Espera o formato do esqueleto do SKILL.md: título "# R60A · ..." ou "# R50-1 · ..." por vídeo,
+blocos "## 1." a "## 4." e as marcações [Ação na Lousa] e [Locução Direta] em cada bloco.
+O roteiro não leva Nota de bastidor (o professor não usa).
 """
 import argparse
 import re
@@ -17,8 +17,9 @@ PALAVRAS_POR_MIN = 95
 MIN_PAL, ALVO_PAL, MAX_PAL = 570, 665, 760
 
 WORD = re.compile(r"[0-9A-Za-zÀ-ÿ]+(?:[.,'’-][0-9A-Za-zÀ-ÿ]+)*")
-VIDEO = re.compile(r"^#{1,2}\s*\**\s*(R\d{2,3}[A-Z])\b")
-BLOCO = re.compile(r"^#{2,4}\s*\**\s*(?:Bloco\s*)?([1-5])[.\s—-]")
+VIDEO = re.compile(r"^#{1,2}\s*\**\s*(R\d{2,3}(?:[A-Z]|-\d))\b")
+BLOCO = re.compile(r"^#{2,4}\s*\**\s*(?:Bloco\s*)?([1-9])[.\s—-]")
+BLOCOS_ESPERADOS = [1, 2, 3, 4]
 TITULO_FORTE = re.compile(r"^#{1,3}\s")
 NOTA_INICIO = re.compile(r"^\s*(?:#{1,6}\s*|\*\*\s*)\**\s*Nota de bastidor", re.IGNORECASE)
 ITEM_PD = re.compile(r"\b(\d{1,2}(?:\.\d{1,2}){1,3})\b")
@@ -118,19 +119,17 @@ def main():
         detalhe = " · ".join(f"{b}) {n}" for b, n in por_bloco.items())
         print(f"{nome}: {detalhe} = {total} palavras → ~{total / PALAVRAS_POR_MIN:.1f} min [{situacao}]")
 
-        if blocos != [1, 2, 3, 4, 5]:
-            pendencias.append(f"{nome}: blocos encontrados {blocos}; faltam blocos")
-        if corpo.count("Ação na Lousa") < 5 or corpo.count("Locução Direta") < 5:
+        if blocos != BLOCOS_ESPERADOS:
+            pendencias.append(f"{nome}: blocos encontrados {blocos}; o vídeo tem os blocos {BLOCOS_ESPERADOS}")
+        if corpo.count("Ação na Lousa") < 4 or corpo.count("Locução Direta") < 4:
             pendencias.append(f"{nome}: faltam marcações [Ação na Lousa] ou [Locução Direta]")
-        if not nota:
-            pendencias.append(f"{nome}: sem Nota de bastidor")
-        elif not re.search(r"https?://|fonte", nota, re.IGNORECASE):
-            avisos.append(f"{nome}: Nota de bastidor sem fonte ou link")
+        if nota:
+            pendencias.append(f"{nome}: o roteiro não leva Nota de bastidor; tire a seção")
         if not DATA.search(fala_txt):
-            if re.search(r"hipot[ée]tic", nota, re.IGNORECASE):
-                avisos.append(f"{nome}: sem data na fala; caso hipotético declarado na nota (confira se não havia caso real)")
+            if re.search(r"hipot[ée]tic", fala_txt, re.IGNORECASE):
+                avisos.append(f"{nome}: sem data na fala; caso hipotético declarado (confira se não havia caso real)")
             else:
-                pendencias.append(f"{nome}: sem data na fala e sem caso hipotético declarado na nota")
+                pendencias.append(f"{nome}: sem data na fala e sem caso hipotético declarado")
         for f in frases(fala_txt):
             if ABSOLUTA.search(f):
                 absolutas.append(f"{nome}: {f[:160]}")
