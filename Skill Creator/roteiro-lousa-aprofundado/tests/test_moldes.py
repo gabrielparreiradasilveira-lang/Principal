@@ -44,6 +44,13 @@ class TesteComparacao(unittest.TestCase):
             self.assertEqual(img.size, (1920, 1080))
             self.assertTrue(os.path.exists(png))
 
+    def test_comparacao_desenho_alto_nao_sobrepoe(self):
+        spec = dict(DUAS_RODOVIAS, colunas=[
+            dict(DUAS_RODOVIAS["colunas"][0], desenho={"nome": "casa", "largura": 220}, rotulos=[]),
+            dict(DUAS_RODOVIAS["colunas"][1], desenho={"nome": "balanca_peso", "largura": 240}, rotulos=[])])
+        avisos, _, _ = renderizar(spec)
+        self.assertEqual(avisos, [])
+
     def test_comparacao_amostra_ocupa_70(self):
         import conferir_lousas  # noqa: E402
         with tempfile.TemporaryDirectory() as tmp:

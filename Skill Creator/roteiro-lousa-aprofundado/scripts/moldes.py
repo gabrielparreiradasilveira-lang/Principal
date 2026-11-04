@@ -269,9 +269,9 @@ def comparacao(L, spec, els):
         d = c.get("desenho")
         if d:
             d = {"nome": d} if isinstance(d, str) else d
-            _aspecto(d["nome"])
+            larg = min(d.get("largura", w_des), (y_rot - y_des - 8) / _aspecto(d["nome"]))  # desenho alto encolhe
             els.append({"tipo": "desenho", "nome": d["nome"], "cor": d.get("cor", "branco"),
-                        "largura": d.get("largura", w_des), "x": xd, "y": y_des})
+                        "largura": larg, "x": xd + (w_des - larg) / 2 if larg < w_des else xd, "y": y_des})
         rot = c.get("rotulos") or []
         if len(rot) > 0 and rot[0]:
             els.append({"tipo": "texto", "texto": rot[0], "x": x, "y": y_rot, "largura": 380, "tamanho": 28,
