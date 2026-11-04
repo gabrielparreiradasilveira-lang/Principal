@@ -46,7 +46,7 @@ def _destaque(L, d, els, x=90, largura=1380):
     if not d:
         return BASE
     d = {"texto": d} if isinstance(d, str) else d
-    el = {"tipo": "texto", "id": "destaque", "texto": d["texto"], "x": x, "largura": largura,
+    el = {"tipo": "texto", "id": "destaque", "texto": _prender(d["texto"]), "x": x, "largura": largura,
           "tamanho": d.get("tamanho", 40), "cor": d.get("cor", "verde"), "lista": False}
     _, h = _medir(L, el)
     el["y"] = BASE - 26 - h
@@ -199,7 +199,7 @@ def topicos(L, spec, els):
                     "x": X1 + 20 - wd, "y": y})
     if spec.get("texto"):
         def montar(t):
-            return [{"tipo": "texto", "id": "corpo", "texto": spec["texto"], "x": X0, "y": y, "largura": larg,
+            return [{"tipo": "texto", "id": "corpo", "texto": _prender(spec["texto"]), "x": X0, "y": y, "largura": larg,
                      "tamanho": t, "entrelinha": 1.45}]
 
         _, corpo = _maior_que_cabe(L, montar, lambda es, t: _medir(L, es[0])[1] <= fim - y,
@@ -216,7 +216,7 @@ def colunas(L, spec, els):
         wd = d.get("largura", 240) if d else 0
         y = _formula(L, spec["formula"], d, wd, wd * _aspecto(d["nome"]) if d else 0, y, els) - 20
     if spec.get("topo"):
-        topo = {"tipo": "texto", "id": "topo", "texto": spec["topo"], "x": X0, "y": y, "largura": X1 - X0,
+        topo = {"tipo": "texto", "id": "topo", "texto": _prender(spec["topo"]), "x": X0, "y": y, "largura": X1 - X0,
                 "tamanho": spec.get("tamanho_topo", 36), "entrelinha": 1.45}
         els.append(topo)
         y += _medir(L, topo)[1] + 50
@@ -232,7 +232,7 @@ def colunas(L, spec, els):
     fim = _destaque(L, spec.get("destaque"), els) - 40
 
     def montar(t):
-        return [{"tipo": "texto", "id": f"col{i + 1}", "texto": c["texto"], "x": x, "y": yc, "largura": w,
+        return [{"tipo": "texto", "id": f"col{i + 1}", "texto": _prender(c["texto"]), "x": x, "y": yc, "largura": w,
                  "tamanho": t, "entrelinha": 1.42} for i, ((x, w), c) in enumerate(zip(pos, cols))]
 
     _, cs = _maior_que_cabe(L, montar, lambda es, t: max(_medir(L, e)[1] for e in es) <= fim - yc,

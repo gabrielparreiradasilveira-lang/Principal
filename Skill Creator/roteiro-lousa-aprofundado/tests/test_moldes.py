@@ -120,6 +120,18 @@ def maior_faixa_vazia(img, y0, y1):
     return maior
 
 
+class TesteMoldesAntigos(unittest.TestCase):
+    def test_topicos_e_colunas_valores_nao_quebram(self):
+        topicos = {"molde": "topicos", "titulo": "T", "texto": "- BASE = R$ 10.000", "destaque": "SAEM R$ 40.000"}
+        colunas = {"molde": "colunas", "titulo": "T", "topo": "TOPO R$ 1", "destaque": "X R$ 2",
+                   "colunas": [{"titulo": "A", "texto": "- R$ 3"}, {"titulo": "B", "texto": "- R$ 4"}]}
+        for spec in (topicos, colunas):
+            _, _, elementos = renderizar(spec)
+            for e in elementos:
+                if isinstance(e.get("texto"), str):
+                    self.assertNotIn("R$ ", e["texto"], (spec["molde"], e.get("id")))
+
+
 class TesteMitoComApoio(unittest.TestCase):
     def test_apoio_valores_nao_quebram(self):
         _, _, elementos = renderizar(MITO_COM_APOIO)
