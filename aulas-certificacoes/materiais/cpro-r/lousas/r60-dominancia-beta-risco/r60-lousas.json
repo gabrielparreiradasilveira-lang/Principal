@@ -1,0 +1,153 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r60_01_abertura-mito.png",
+   "semente": 61,
+   "molde": "mito_verdade",
+   "titulo": "DOMINÂNCIA ENTRE CARTEIRAS, BETA, RISCO ABSOLUTO × RISCO RELATIVO E SISTEMÁTICO (C-PRO R 4.9)",
+   "mitos": [
+    "\"COM DIVERSIFICAÇÃO SUFICIENTE, O RISCO DESAPARECE\""
+   ],
+   "verdade": "A DIVERSIFICAÇÃO ELIMINA O RISCO DE CADA EMPRESA, NÃO O RISCO DO MERCADO",
+   "desenho": {
+    "nome": "grafico_baixa",
+    "cor": "vermelho",
+    "largura": 230
+   }
+  },
+  {
+   "saida": "r60_02_mar-mare-barcos.png",
+   "semente": 62,
+   "molde": "topicos",
+   "titulo": "O MAR, A MARÉ E OS BARCOS",
+   "desenho": {
+    "nome": "mar",
+    "largura": 420
+   },
+   "texto": "- {laranja:MARÉ} → RISCO SISTEMÁTICO: SOBE E DESCE {laranja:TODOS} OS BARCOS\n- {laranja:FURO NO CASCO} → RISCO NÃO SISTEMÁTICO: SÓ AQUELE AFUNDA (NA FROTA, NÃO AFUNDA TUDO)\n- {laranja:LANCHA LEVE} → β > 1\n- {laranja:NAVIO PESADO} → β < 1\n- {laranja:QUANTO O BARCO BALANÇA} → RISCO ABSOLUTO\n- {laranja:DISTÂNCIA DO NAVIO-GUIA} → RISCO RELATIVO (TRACKING ERROR)",
+   "destaque": "A FROTA RESOLVE O FURO NO CASCO, MAS NÃO SEGURA A MARÉ"
+  },
+  {
+   "saida": "r60_03_dominancia-fronteira.png",
+   "semente": 63,
+   "molde": "topicos",
+   "titulo": "1. CARTEIRA DOMINADA NÃO SE ESCOLHE",
+   "desenho": {
+    "nome": "fronteira_eficiente",
+    "largura": 400
+   },
+   "texto": "- {ciano:DOMINÂNCIA FORTE:} RETORNO MAIOR {laranja:E} RISCO MENOR\n- {ciano:DOMINÂNCIA FRACA:} MESMO RETORNO COM RISCO MENOR {laranja:OU} MESMO RISCO COM RETORNO MAIOR\n- {ciano:FRONTEIRA EFICIENTE:} MAIOR RETORNO PARA CADA NÍVEL DE RISCO\n- ABAIXO DA CURVA = {vermelho:DOMINADA}",
+   "destaque": "NA FRONTEIRA, QUEM ESCOLHE O PONTO É O PERFIL"
+  },
+  {
+   "saida": "r60_04_beta.png",
+   "semente": 64,
+   "molde": "topicos",
+   "titulo": "2. BETA (β) = O QUANTO O BARCO REAGE À MARÉ",
+   "texto": "- {ciano:MEDE:} SENSIBILIDADE AO MERCADO = {laranja:RISCO SISTEMÁTICO}\n- β = 1 → ANDA COMO O MERCADO\n- β > 1 → {vermelho:AGRESSIVA}: OSCILA MAIS\n- β < 1 → {verde:DEFENSIVA}: OSCILA MENOS\n- EX.: β = 1,5 E MERCADO −10% → CARTEIRA TENDE A −15%\n- β DA CARTEIRA = {laranja:MÉDIA PONDERADA} DOS β DOS ATIVOS\n- REFERÊNCIA: IBOVESPA OU BENCHMARK ADEQUADO (RENDA VARIÁVEL)",
+   "elementos": [
+    {
+     "tipo": "fracao",
+     "id": "cov",
+     "x": 1150,
+     "y": 200,
+     "antes": "β =",
+     "num": "COV(R_{c}, R_{m})",
+     "den": "VAR(R_{m})",
+     "tamanho": 34,
+     "cor": "cinza"
+    },
+    {
+     "tipo": "texto",
+     "id": "neg",
+     "abaixo_de": "cov",
+     "distancia": 40,
+     "tamanho": 30,
+     "cor": "cinza",
+     "largura": 380,
+     "alinhar": "centro",
+     "texto": "EXISTE β NEGATIVO (ANDA CONTRA O MERCADO)"
+    }
+   ],
+   "largura_texto": 1020
+  },
+  {
+   "saida": "r60_05_absoluto-relativo.png",
+   "semente": 65,
+   "molde": "colunas",
+   "titulo": "3. BALANÇO DO BARCO × DISTÂNCIA DO NAVIO-GUIA",
+   "colunas": [
+    {
+     "titulo": "RISCO ABSOLUTO",
+     "texto": "- VOLATILIDADE {laranja:TOTAL} DA CARTEIRA\n- OLHADA {laranja:SOZINHA}, SEM COMPARAR COM ÍNDICE"
+    },
+    {
+     "titulo": "RISCO RELATIVO",
+     "texto": "- QUANTO A CARTEIRA SE {laranja:DESVIA DO BENCHMARK}\n- {ciano:TRACKING ERROR:} DESVIO PADRÃO DAS DIFERENÇAS DE RETORNO\n- {ciano:ALPHA:} RETORNO ACIMA DO BENCHMARK, AJUSTADO AO RISCO"
+    }
+   ],
+   "destaque": {
+    "texto": "ETF PASSIVO COPIA → TRACKING ERROR BAIXO · FUNDO ATIVO QUER BATER → TRACKING ERROR MAIOR, BUSCANDO ALPHA",
+    "cor": "laranja"
+   }
+  },
+  {
+   "saida": "r60_06_sistematico-especifico.png",
+   "semente": 66,
+   "molde": "topicos",
+   "titulo": "4. MARÉ × FURO NO CASCO",
+   "desenho": {
+    "nome": "diversificacao",
+    "largura": 400
+   },
+   "texto": "{amarelo:RISCO TOTAL = SISTEMÁTICO + NÃO SISTEMÁTICO}\n- {ciano:SISTEMÁTICO (DE MERCADO):}\n  - AFETA {laranja:TODOS} OS ATIVOS: JUROS, CRISES, CHOQUES MACRO\n  - {vermelho:NÃO} SE ELIMINA COM DIVERSIFICAÇÃO · MEDIDO PELO {laranja:β}\n- {ciano:NÃO SISTEMÁTICO (ESPECÍFICO):}\n  - DE CADA EMPRESA: GESTÃO, ESTRUTURA FINANCEIRA, EVENTOS PRÓPRIOS\n  - {verde:REDUZ MUITO} NUMA CARTEIRA BEM DIVERSIFICADA"
+  },
+  {
+   "saida": "r60_07_pegadinhas.png",
+   "semente": 67,
+   "molde": "pegadinhas",
+   "titulo": "⚠️ AS 5 PEGADINHAS DA BANCA",
+   "itens": [
+    {
+     "frase": "A DIVERSIFICAÇÃO ELIMINA O RISCO SISTEMÁTICO",
+     "correcao": "ELIMINA O ESPECÍFICO"
+    },
+    {
+     "frase": "O BETA MEDE O RISCO TOTAL",
+     "correcao": "MEDE O SISTEMÁTICO"
+    },
+    {
+     "frase": "BETA MENOR QUE 1 SIGNIFICA QUE A CARTEIRA NÃO PERDE",
+     "correcao": "OSCILA MENOS, MAS OSCILA"
+    },
+    {
+     "frase": "RISCO ABSOLUTO COMPARA A CARTEIRA COM O BENCHMARK",
+     "correcao": "ISSO É O RELATIVO"
+    },
+    {
+     "frase": "CARTEIRA ABAIXO DA FRONTEIRA EFICIENTE PODE SER RACIONAL",
+     "correcao": "É DOMINADA"
+    }
+   ]
+  },
+  {
+   "saida": "r60_08_dois-exames.png",
+   "semente": 68,
+   "molde": "colunas",
+   "titulo": "DOIS EXAMES DA CARTEIRA (números hipotéticos)",
+   "colunas": [
+    {
+     "titulo": "EXAME 1 · BETA DA CARTEIRA",
+     "texto": "- AÇÃO A: {laranja:40%} · β {laranja:1,4}\n- AÇÃO B: {laranja:30%} · β {laranja:0,8}\n- AÇÃO C: {laranja:30%} · β {laranja:0,5}\n- {ciano:PERGUNTA:} β DA CARTEIRA? E SE O IBOVESPA CAIR 10%?"
+    },
+    {
+     "titulo": "EXAME 2 · TRACKING ERROR",
+     "texto": "- DIFERENÇA MENSAL CONTRA O BENCHMARK (PONTOS PERCENTUAIS)\n- {laranja:FUNDO ATIVO:}\n  0,5 · −0,3 · 0,8\n  −0,2 · 0,4 · −0,4\n- {laranja:ETF:}\n  0,1 · −0,1 · 0,2\n  0 · −0,1 · 0,1"
+    }
+   ]
+  }
+ ]
+}

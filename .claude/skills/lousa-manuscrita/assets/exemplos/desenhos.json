@@ -1,0 +1,538 @@
+{
+ "saida": "desenhos.png",
+ "areas_livres": [],
+ "maiusculas": false,
+ "elementos": [
+  {
+   "tipo": "titulo",
+   "texto": "Desenhos prontos (tipo desenho)"
+  },
+  {
+   "tipo": "desenho",
+   "id": "alvo",
+   "nome": "alvo",
+   "x": 80,
+   "y": 92,
+   "largura": 95,
+   "cor": "verde"
+  },
+  {
+   "tipo": "texto",
+   "texto": "alvo",
+   "abaixo_de": "alvo",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "ampulheta",
+   "nome": "ampulheta",
+   "x": 342,
+   "y": 92,
+   "largura": 80,
+   "cor": "amarelo"
+  },
+  {
+   "tipo": "texto",
+   "texto": "ampulheta",
+   "abaixo_de": "ampulheta",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "balanca",
+   "nome": "balanca",
+   "x": 604,
+   "y": 92,
+   "largura": 95,
+   "cor": "ciano"
+  },
+  {
+   "tipo": "texto",
+   "texto": "balanca",
+   "abaixo_de": "balanca",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "balanca_peso",
+   "nome": "balanca_peso",
+   "x": 866,
+   "y": 92,
+   "largura": 95,
+   "cor": "laranja"
+  },
+  {
+   "tipo": "texto",
+   "texto": "balanca_peso",
+   "abaixo_de": "balanca_peso",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "balao",
+   "nome": "balao",
+   "x": 1128,
+   "y": 92,
+   "largura": 80,
+   "cor": "rosa"
+  },
+  {
+   "tipo": "texto",
+   "texto": "balao",
+   "abaixo_de": "balao",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "banco",
+   "nome": "banco",
+   "x": 1390,
+   "y": 92,
+   "largura": 95,
+   "cor": "roxo"
+  },
+  {
+   "tipo": "texto",
+   "texto": "banco",
+   "abaixo_de": "banco",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "caminhao",
+   "nome": "caminhao",
+   "x": 1652,
+   "y": 92,
+   "largura": 95,
+   "cor": "branco"
+  },
+  {
+   "tipo": "texto",
+   "texto": "caminhao",
+   "abaixo_de": "caminhao",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "carro",
+   "nome": "carro",
+   "x": 80,
+   "y": 270,
+   "largura": 95,
+   "cor": "vermelho"
+  },
+  {
+   "tipo": "texto",
+   "texto": "carro",
+   "abaixo_de": "carro",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "casa",
+   "nome": "casa",
+   "x": 342,
+   "y": 270,
+   "largura": 95,
+   "cor": "verde"
+  },
+  {
+   "tipo": "texto",
+   "texto": "casa",
+   "abaixo_de": "casa",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "check",
+   "nome": "check",
+   "x": 604,
+   "y": 270,
+   "largura": 95,
+   "cor": "amarelo"
+  },
+  {
+   "tipo": "texto",
+   "texto": "check",
+   "abaixo_de": "check",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "cofrinho",
+   "nome": "cofrinho",
+   "x": 866,
+   "y": 270,
+   "largura": 95,
+   "cor": "ciano"
+  },
+  {
+   "tipo": "texto",
+   "texto": "cofrinho",
+   "abaixo_de": "cofrinho",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "combustivel",
+   "nome": "combustivel",
+   "x": 1128,
+   "y": 270,
+   "largura": 95,
+   "cor": "laranja"
+  },
+  {
+   "tipo": "texto",
+   "texto": "combustivel",
+   "abaixo_de": "combustivel",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "dinheiro",
+   "nome": "dinheiro",
+   "x": 1390,
+   "y": 270,
+   "largura": 95,
+   "cor": "rosa"
+  },
+  {
+   "tipo": "texto",
+   "texto": "dinheiro",
+   "abaixo_de": "dinheiro",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "diversificacao",
+   "nome": "diversificacao",
+   "x": 1652,
+   "y": 270,
+   "largura": 95,
+   "cor": "roxo"
+  },
+  {
+   "tipo": "texto",
+   "texto": "diversificacao",
+   "abaixo_de": "diversificacao",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "estrela",
+   "nome": "estrela",
+   "x": 80,
+   "y": 448,
+   "largura": 95,
+   "cor": "branco"
+  },
+  {
+   "tipo": "texto",
+   "texto": "estrela",
+   "abaixo_de": "estrela",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "exclamacao",
+   "nome": "exclamacao",
+   "x": 342,
+   "y": 448,
+   "largura": 95,
+   "cor": "vermelho"
+  },
+  {
+   "tipo": "texto",
+   "texto": "exclamacao",
+   "abaixo_de": "exclamacao",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "fronteira_eficiente",
+   "nome": "fronteira_eficiente",
+   "x": 604,
+   "y": 448,
+   "largura": 95,
+   "cor": "verde"
+  },
+  {
+   "tipo": "texto",
+   "texto": "fronteira_eficiente",
+   "abaixo_de": "fronteira_eficiente",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "grafico_alta",
+   "nome": "grafico_alta",
+   "x": 866,
+   "y": 448,
+   "largura": 95,
+   "cor": "amarelo"
+  },
+  {
+   "tipo": "texto",
+   "texto": "grafico_alta",
+   "abaixo_de": "grafico_alta",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "grafico_baixa",
+   "nome": "grafico_baixa",
+   "x": 1128,
+   "y": 448,
+   "largura": 95,
+   "cor": "ciano"
+  },
+  {
+   "tipo": "texto",
+   "texto": "grafico_baixa",
+   "abaixo_de": "grafico_baixa",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "lampada",
+   "nome": "lampada",
+   "x": 1390,
+   "y": 448,
+   "largura": 95,
+   "cor": "laranja"
+  },
+  {
+   "tipo": "texto",
+   "texto": "lampada",
+   "abaixo_de": "lampada",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "mar",
+   "nome": "mar",
+   "x": 1652,
+   "y": 448,
+   "largura": 95,
+   "cor": "rosa"
+  },
+  {
+   "tipo": "texto",
+   "texto": "mar",
+   "abaixo_de": "mar",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "moeda",
+   "nome": "moeda",
+   "x": 80,
+   "y": 626,
+   "largura": 95,
+   "cor": "roxo"
+  },
+  {
+   "tipo": "texto",
+   "texto": "moeda",
+   "abaixo_de": "moeda",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "onibus",
+   "nome": "onibus",
+   "x": 342,
+   "y": 626,
+   "largura": 95,
+   "cor": "branco"
+  },
+  {
+   "tipo": "texto",
+   "texto": "onibus",
+   "abaixo_de": "onibus",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "pessoa",
+   "nome": "pessoa",
+   "x": 604,
+   "y": 626,
+   "largura": 80,
+   "cor": "vermelho"
+  },
+  {
+   "tipo": "texto",
+   "texto": "pessoa",
+   "abaixo_de": "pessoa",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "placa",
+   "nome": "placa",
+   "x": 866,
+   "y": 626,
+   "largura": 95,
+   "cor": "verde"
+  },
+  {
+   "tipo": "texto",
+   "texto": "placa",
+   "abaixo_de": "placa",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "prancheta",
+   "nome": "prancheta",
+   "x": 1128,
+   "y": 626,
+   "largura": 80,
+   "cor": "amarelo"
+  },
+  {
+   "tipo": "texto",
+   "texto": "prancheta",
+   "abaixo_de": "prancheta",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "receita",
+   "nome": "receita",
+   "x": 1390,
+   "y": 626,
+   "largura": 80,
+   "cor": "ciano"
+  },
+  {
+   "tipo": "texto",
+   "texto": "receita",
+   "abaixo_de": "receita",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "serra",
+   "nome": "serra",
+   "x": 1652,
+   "y": 626,
+   "largura": 95,
+   "cor": "laranja"
+  },
+  {
+   "tipo": "texto",
+   "texto": "serra",
+   "abaixo_de": "serra",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "termometro",
+   "nome": "termometro",
+   "x": 80,
+   "y": 804,
+   "largura": 80,
+   "cor": "rosa"
+  },
+  {
+   "tipo": "texto",
+   "texto": "termometro",
+   "abaixo_de": "termometro",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "tubo_ensaio",
+   "nome": "tubo_ensaio",
+   "x": 342,
+   "y": 804,
+   "largura": 80,
+   "cor": "roxo"
+  },
+  {
+   "tipo": "texto",
+   "texto": "tubo_ensaio",
+   "abaixo_de": "tubo_ensaio",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  },
+  {
+   "tipo": "desenho",
+   "id": "xis",
+   "nome": "xis",
+   "x": 604,
+   "y": 804,
+   "largura": 95,
+   "cor": "branco"
+  },
+  {
+   "tipo": "texto",
+   "texto": "xis",
+   "abaixo_de": "xis",
+   "distancia": 10,
+   "tamanho": 28,
+   "cor": "cinza"
+  }
+ ]
+}

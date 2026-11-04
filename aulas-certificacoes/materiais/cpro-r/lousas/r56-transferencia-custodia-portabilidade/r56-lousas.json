@@ -1,0 +1,138 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r56_01_abertura-mito.png",
+   "semente": 51,
+   "molde": "mito_verdade",
+   "titulo": "TRANSFERÊNCIA E PORTABILIDADE (C-PRO R 4.3)",
+   "mitos": [
+    "\"PARA TROCAR DE CORRETORA, É PRECISO VENDER TUDO\""
+   ],
+   "verdade": "DÁ PARA LEVAR OS INVESTIMENTOS SEM VENDER: É A TRANSFERÊNCIA DE CUSTÓDIA",
+   "desenho": {
+    "nome": "caminhao",
+    "cor": "verde",
+    "largura": 240
+   }
+  },
+  {
+   "saida": "r56_02_mudanca-de-casa.png",
+   "semente": 52,
+   "molde": "topicos",
+   "titulo": "A MUDANÇA DE CASA",
+   "largura_texto": 1000,
+   "texto": "- {laranja:CAMINHÃO DE MUDANÇA} → TRANSFERÊNCIA DE CUSTÓDIA (MESMOS MÓVEIS, OUTRO ENDEREÇO)\n- {laranja:TRANSPORTADORA OFICIAL} → STVM, DA B3\n- {laranja:DAR O MÓVEL AO VIZINHO} → MUDANÇA DE TITULARIDADE (DOAÇÃO OU CESSÃO)\n- {laranja:TROCAR O MÓVEL DE CÔMODO} → PORTABILIDADE INTERNA\n- {laranja:LEVAR O MÓVEL PARA OUTRA CASA} → PORTABILIDADE EXTERNA\n- {laranja:VENDER O MÓVEL NA CALÇADA} → RESGATE ANTECIPADO (PREÇO RUIM)",
+   "destaque": "QUEM MUDA DE CASA LEVA OS MÓVEIS: NÃO VENDE TUDO PARA COMPRAR DE NOVO",
+   "elementos": [
+    {
+     "tipo": "desenho",
+     "nome": "casa",
+     "x": 1110,
+     "y": 215,
+     "largura": 120
+    },
+    {
+     "tipo": "desenho",
+     "nome": "caminhao",
+     "x": 1245,
+     "y": 250,
+     "largura": 170,
+     "cor": "laranja"
+    },
+    {
+     "tipo": "desenho",
+     "nome": "casa",
+     "x": 1430,
+     "y": 215,
+     "largura": 110,
+     "cor": "verde"
+    }
+   ]
+  },
+  {
+   "saida": "r56_03_caminhao-de-mudanca.png",
+   "semente": 53,
+   "molde": "topicos",
+   "titulo": "1. O CAMINHÃO DE MUDANÇA",
+   "texto": "- {ciano:TRANSFERÊNCIA DE CUSTÓDIA:} MESMO ATIVO, MESMO DONO, {laranja:OUTRA INSTITUIÇÃO}\n- {ciano:POR QUE USAR:}\n  1. NÃO REALIZA GANHO OU PERDA TRIBUTÁVEL\n  2. {laranja:PRESERVA O PREÇO MÉDIO}\n  3. NÃO TIRA DO MERCADO NUM MOMENTO RUIM\n  4. EVITA CUSTOS DE VENDER E RECOMPRAR\n- {ciano:STVM (B3):} AÇÕES · FII · ETF · BDR · RENDA FIXA CUSTODIADA NA B3\n- {ciano:COTAS DE FUNDOS:} DISTRIBUIDOR + {laranja:ADMINISTRADOR FIDUCIÁRIO} (FUNDO NEGOCIADO EM BOLSA → STVM)\n- {ciano:CÓDIGO ANBIMA:}\n  - ORIGEM TRANSFERE EM {laranja:ATÉ 2 DIAS ÚTEIS}\n  - COTAS DE FUNDOS {vermelho:SUSPENSAS} 10 DIAS ANTES E 10 DEPOIS DO COME-COTAS\n  - PODE SER {vermelho:RECUSADA}: BLOQUEIO JUDICIAL OU GARANTIA · RESGATE NÃO LIQUIDADO · CADASTRO INCONSISTENTE · POSIÇÃO NÃO RECONHECIDA · DESISTÊNCIA"
+  },
+  {
+   "saida": "r56_04_mudou-de-dono.png",
+   "semente": 54,
+   "molde": "topicos",
+   "titulo": "2. O MÓVEL MUDOU DE DONO",
+   "desenho": {
+    "nome": "pessoa",
+    "cor": "laranja",
+    "largura": 170
+   },
+   "texto": "- {ciano:MUDOU O TITULAR} (CPF → OUTRO CPF, CPF → CNPJ) → {vermelho:NÃO} É TRANSFERÊNCIA DE CUSTÓDIA\n- É {laranja:CESSÃO DE DIREITOS · DOAÇÃO · OUTRA TRANSMISSÃO PATRIMONIAL}\n- {ciano:CASOS:} DOAÇÃO ENTRE FAMILIARES · PARTILHA NO DIVÓRCIO · HOLDING FAMILIAR · REORGANIZAÇÃO PF/PJ\n- {ciano:ATENÇÃO:}\n  - PODE GERAR {laranja:IR SOBRE GANHO DE CAPITAL}\n  - NA DOAÇÃO, {laranja:ITCMD} (IMPOSTO ESTADUAL)\n  - DOCUMENTAÇÃO ADICIONAL (ÀS VEZES, REGISTROS REGULATÓRIOS)\n  - {vermelho:NEM TODA INSTITUIÇÃO ACEITA}"
+  },
+  {
+   "saida": "r56_05_comodo-ou-casa.png",
+   "semente": 55,
+   "molde": "topicos",
+   "titulo": "3. TROCAR DE CÔMODO OU DE CASA",
+   "desenho": {
+    "nome": "casa",
+    "largura": 200
+   },
+   "texto": "- {ciano:INTERNA:} DENTRO DA {laranja:MESMA INSTITUIÇÃO} (EX.: TROCAR DE PLANO DE PREVIDÊNCIA NA MESMA SEGURADORA)\n- {ciano:EXTERNA:} PARA {laranja:OUTRA INSTITUIÇÃO} (EX.: LEVAR A PREVIDÊNCIA PARA OUTRA SEGURADORA)\n- {ciano:NO REBALANCEAMENTO:}\n  1. CENTRALIZAR E ENXERGAR A ALOCAÇÃO REAL\n  2. AJUSTAR {laranja:SEM VENDER} E SEM REALIZAR IMPOSTO\n  3. TROCAR DE PLATAFORMA (PRODUTOS MAIS ADEQUADOS AO PERFIL)\n  4. COM {laranja:NOVOS APORTES}, FECHAR OS GAPS DA CARTEIRA (R53)"
+  },
+  {
+   "saida": "r56_06_vender-na-calcada.png",
+   "semente": 56,
+   "molde": "topicos",
+   "titulo": "4. VENDER O MÓVEL NA CALÇADA",
+   "texto": "- {ciano:RF BANCÁRIA (CDB, LCI, LCA):} LIQUIDEZ DIÁRIA → SEM IMPACTO RELEVANTE · {vermelho:CARÊNCIA} → PROIBIDO OU COM PERDAS · DEPENDE DE DURATION, PRÉ OU PÓS, RATING E MOMENTO DO MERCADO\n- {ciano:DEBÊNTURES, CRI, CRA:} SAÍDA NO {laranja:SECUNDÁRIO} · PREÇO PODE FICAR {vermelho:ABAIXO DO NOMINAL} (MARCAÇÃO A MERCADO)\n- {ciano:RENDA VARIÁVEL (AÇÕES, FII, ETF):} NÃO É RESGATE, É {laranja:VENDA A MERCADO} · PREÇO PODE ESTAR RUIM · {laranja:IR SOBRE GANHO} · RISCO DE DECISÃO EMOCIONAL\n- {ciano:ALTERNATIVOS (FUNDO FECHADO, PRIVATE EQUITY, VENTURE CAPITAL):} EM REGRA {vermelho:SEM RESGATE} · SECUNDÁRIO POUCO LÍQUIDO · {vermelho:DESÁGIOS RELEVANTES}\n- {ciano:COE:} RARAMENTE VANTAJOSO · PENALIDADES · QUEBRA A ESTRUTURA · PODE DEVOLVER {vermelho:MENOS QUE O CAPITAL INVESTIDO}"
+  },
+  {
+   "saida": "r56_07_pegadinhas.png",
+   "semente": 57,
+   "molde": "pegadinhas",
+   "titulo": "⚠️ AS 5 PEGADINHAS DA BANCA",
+   "itens": [
+    {
+     "frase": "TRANSFERÊNCIA DE CUSTÓDIA GERA IR SOBRE O GANHO",
+     "correcao": "NÃO HÁ VENDA; PREÇO MÉDIO PRESERVADO"
+    },
+    {
+     "frase": "DOAÇÃO DE ATIVOS É TRANSFERÊNCIA DE CUSTÓDIA",
+     "correcao": "MUDOU O TITULAR: É TRANSMISSÃO PATRIMONIAL"
+    },
+    {
+     "frase": "COTAS DE FUNDOS ABERTOS SÃO TRANSFERIDAS PELO STVM",
+     "correcao": "PELO DISTRIBUIDOR E PELO ADMINISTRADOR FIDUCIÁRIO"
+    },
+    {
+     "frase": "PORTABILIDADE INTERNA LEVA O PLANO PARA OUTRA INSTITUIÇÃO",
+     "correcao": "ISSO É A EXTERNA"
+    },
+    {
+     "frase": "COE PODE SER RESGATADO ANTES SEM PERDA",
+     "correcao": "PENALIDADES E POSSÍVEL PERDA DE CAPITAL"
+    }
+   ]
+  },
+  {
+   "saida": "r56_08_seu-paulo.png",
+   "semente": 58,
+   "molde": "colunas",
+   "titulo": "SEU PAULO: VENDER E RECOMPRAR × TRANSFERIR (números hipotéticos)",
+   "topo": "- AÇÕES COMPRADAS POR {laranja:R$ 50.000} · VALEM HOJE {laranja:R$ 80.000}\n- VENDA ACIMA DE R$ 20 MIL NO MÊS · IR DE {laranja:15%} SOBRE O GANHO",
+   "colunas": [
+    {
+     "titulo": "VENDER E RECOMPRAR",
+     "texto": "- GANHO?\n- IMPOSTO?\n- QUANTO SOBRA PARA RECOMPRAR?\n- {vermelho:PERDA?}"
+    },
+    {
+     "titulo": "TRANSFERIR VIA STVM",
+     "texto": "- IMPOSTO {verde:ZERO}\n- CONTINUA COM {verde:R$ 80.000}\n- PREÇO MÉDIO DE {verde:R$ 50.000} PRESERVADO"
+    }
+   ]
+  }
+ ]
+}

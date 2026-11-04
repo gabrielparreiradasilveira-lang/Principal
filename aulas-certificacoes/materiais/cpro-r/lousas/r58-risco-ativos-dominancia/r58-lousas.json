@@ -1,0 +1,127 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r58_01_abertura-mito.png",
+   "semente": 81,
+   "molde": "mito_verdade",
+   "titulo": "RISCO, RETORNO E DOMINÂNCIA (C-PRO R 4.5 E 4.6)",
+   "mitos": [
+    "\"RISCO É A CHANCE DE PERDER DINHEIRO\""
+   ],
+   "verdade": "RISCO É A CHANCE DE O RESULTADO SER DIFERENTE DO ESPERADO",
+   "desenho": {
+    "nome": "alvo",
+    "largura": 200
+   }
+  },
+  {
+   "saida": "r58_02_tres-estradas.png",
+   "semente": 82,
+   "molde": "topicos",
+   "titulo": "AS TRÊS ESTRADAS",
+   "desenho": {
+    "nome": "carro",
+    "cor": "laranja",
+    "largura": 300
+   },
+   "texto": "- {ciano:PLACA:} GANHO DA VIAGEM = {laranja:RETORNO} · BURACOS = {laranja:RISCO}\n- {laranja:ESTRADA A:} RENDE 10 · POUCOS BURACOS\n- {laranja:ESTRADA B:} RENDE 10 · MUITOS BURACOS\n- {laranja:ESTRADA C:} RENDE 12 · MUITOS BURACOS\n- {verde:ASFALTO LISO} → ATIVO LIVRE DE RISCO (TESOURO SELIC)",
+   "destaque": "NINGUÉM ESCOLHE A ESTRADA B"
+  },
+  {
+   "saida": "r58_03_risco-incerteza.png",
+   "semente": 83,
+   "molde": "topicos",
+   "titulo": "1. RISCO = INCERTEZA",
+   "desenho": {
+    "nome": "alvo",
+    "cor": "laranja",
+    "largura": 220
+   },
+   "texto": "- {ciano:DEFINIÇÃO:} PROBABILIDADE DE O RETORNO {laranja:EFETIVO} SER {laranja:DIFERENTE} DO {laranja:ESPERADO}\n- {ciano:CINCO TIPOS:}\n  1. {laranja:MERCADO:} PREÇOS, JUROS, INFLAÇÃO E CÂMBIO\n  2. {laranja:CRÉDITO:} O EMISSOR NÃO PAGAR\n  3. {laranja:LIQUIDEZ:} NÃO CONSEGUIR VENDER SEM PERDA RELEVANTE\n  4. {laranja:OPERACIONAL:} FALHAS DE SISTEMAS, PROCESSOS OU CONTROLES\n  5. {laranja:LEGAL OU REGULATÓRIO:} MUDANÇA EM LEIS E NORMAS"
+  },
+  {
+   "saida": "r58_04_livre-de-risco-credito.png",
+   "semente": 84,
+   "molde": "colunas",
+   "titulo": "2. ASFALTO LISO × ESTRADA COM BURACOS",
+   "colunas": [
+    {
+     "titulo": "ATIVO LIVRE DE RISCO",
+     "texto": "- TEORIA: {laranja:SEM RISCO DE CRÉDITO} E BAIXA VOLATILIDADE\n- NO BRASIL: {verde:TESOURO SELIC}\n  1. EMISSOR SOBERANO\n  2. ALTA LIQUIDEZ\n  3. RETORNO MUITO PREVISÍVEL"
+    },
+    {
+     "titulo": "COM RISCO DE CRÉDITO",
+     "texto": "- DEBÊNTURES · CRI · CRA · CDB · LCI · LCA · FUNDOS DE CRÉDITO\n- RETORNO DEPENDE DA {laranja:CAPACIDADE DO EMISSOR}\n- RISCO AVALIADO POR {laranja:RATING}\n- CDB, LCI, LCA: O FGC {laranja:MITIGA}, NÃO ELIMINA"
+    }
+   ],
+   "destaque": {
+    "texto": "MAIS RISCO DE CRÉDITO → MAIOR RETORNO EXIGIDO",
+    "cor": "laranja"
+   }
+  },
+  {
+   "saida": "r58_05_risco-retorno-dominancia.png",
+   "semente": 85,
+   "molde": "topicos",
+   "titulo": "3. QUEM CORRE MAIS RISCO EXIGE MAIS RETORNO",
+   "desenho": {
+    "nome": "fronteira_eficiente",
+    "largura": 360
+   },
+   "texto": "- {ciano:PRINCÍPIO:} MAIS RISCO → MAIS RETORNO {laranja:ESPERADO} · \"NÃO EXISTE ALMOÇO GRÁTIS\"\n- {ciano:FRONTEIRA EFICIENTE:} MAIOR RETORNO PARA CADA NÍVEL DE RISCO · ABAIXO DELA = INEFICIENTE (R60)\n- {ciano:DOMINÂNCIA:}\n  - {verde:FORTE:} RETORNO MAIOR {laranja:E} RISCO MENOR\n  - {verde:FRACA:} MESMO RETORNO COM MENOS RISCO {laranja:OU} MESMO RISCO COM MAIS RETORNO\n  - {laranja:SEM DOMINÂNCIA:} MAIS RETORNO COM MAIS RISCO → DECIDE O PERFIL",
+   "destaque": "ATIVO DOMINADO NÃO SE ESCOLHE"
+  },
+  {
+   "saida": "r58_06_pegadinhas.png",
+   "semente": 86,
+   "molde": "pegadinhas",
+   "titulo": "⚠️ AS 5 PEGADINHAS DA BANCA",
+   "itens": [
+    {
+     "frase": "RISCO É SÓ A CHANCE DE PERDER",
+     "correcao": "É A INCERTEZA, PARA CIMA OU PARA BAIXO"
+    },
+    {
+     "frase": "CDB COM FGC É ATIVO LIVRE DE RISCO",
+     "correcao": "A REFERÊNCIA É O TESOURO SELIC"
+    },
+    {
+     "frase": "MAIS RISCO GARANTE MAIS RETORNO",
+     "correcao": "AUMENTA O RETORNO ESPERADO EXIGIDO, NÃO GARANTE"
+    },
+    {
+     "frase": "MAIOR RETORNO SEMPRE DOMINA",
+     "correcao": "COM MAIS RISCO, NÃO HÁ DOMINÂNCIA"
+    },
+    {
+     "frase": "DOMINÂNCIA SÓ EXISTE QUANDO UM ATIVO É MELHOR NAS DUAS DIMENSÕES",
+     "correcao": "ESSA É A FORTE; EXISTE A FRACA"
+    }
+   ]
+  },
+  {
+   "saida": "r58_07_qual-e-dominado.png",
+   "semente": 87,
+   "molde": "colunas",
+   "titulo": "QUAL ATIVO É DOMINADO? (números hipotéticos)",
+   "topo": "- RETORNOS ANUAIS, EM %, NOS ÚLTIMOS 3 ANOS",
+   "colunas": [
+    {
+     "titulo": "ATIVO A",
+     "texto": "- RETORNOS: {laranja:6 · 10 · 14}\n- RETORNO MÉDIO: ?\n- DESVIO PADRÃO (RISCO): ?"
+    },
+    {
+     "titulo": "ATIVO B",
+     "texto": "- RETORNOS: {laranja:2 · 10 · 18}\n- RETORNO MÉDIO: ?\n- DESVIO PADRÃO (RISCO): ?"
+    },
+    {
+     "titulo": "ATIVO C",
+     "texto": "- RETORNOS: {laranja:4 · 12 · 20}\n- RETORNO MÉDIO: ?\n- DESVIO PADRÃO (RISCO): ?"
+    }
+   ]
+  }
+ ]
+}

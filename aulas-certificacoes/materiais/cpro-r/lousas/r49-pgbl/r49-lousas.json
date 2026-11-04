@@ -1,0 +1,332 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r49-1_01_abertura-mito.png",
+   "semente": 4901,
+   "molde": "mito_verdade",
+   "titulo": "PGBL · C-PRO R 3.7.3.1",
+   "mitos": [
+    "TODO MUNDO QUE APLICA NO PGBL PAGA MENOS IMPOSTO"
+   ],
+   "verdade": "PGBL SÓ REDUZ O IMPOSTO DE QUEM CUMPRE AS CONDIÇÕES E TEM IMPOSTO A PAGAR",
+   "desenho": {
+    "nome": "dinheiro",
+    "largura": 230
+   }
+  },
+  {
+   "saida": "r49-1_02_emprestimo-do-leao.png",
+   "semente": 4902,
+   "molde": "metafora",
+   "titulo": "O EMPRÉSTIMO DO LEÃO",
+   "estrada": false,
+   "itens": [
+    {
+     "desenho": "placa",
+     "cor": "amarelo",
+     "nome": "BALCÃO: \"EMPRÉSTIMO SEM JUROS\"",
+     "legenda": "LEÃO → RECEITA · EMPRÉSTIMO → IMPOSTO ADIADO"
+    },
+    {
+     "desenho": "prancheta",
+     "cor": "ciano",
+     "nome": "CONTRATO: 3 CLÁUSULAS",
+     "legenda": "DECLARAÇÃO COMPLETA · INSS · ATÉ 12% → CONDIÇÕES LEGAIS"
+    },
+    {
+     "desenho": "pessoa",
+     "cor": "vermelho",
+     "nome": "FORA DA FILA: \"IMPOSTO ZERO\"",
+     "legenda": "SEM IMPOSTO, SEM BENEFÍCIO"
+    }
+   ]
+  },
+  {
+   "saida": "r49-1_03_clausulas.png",
+   "semente": 4903,
+   "molde": "topicos",
+   "titulo": "1. AS CLÁUSULAS DO CONTRATO",
+   "texto": "- PGBL = PREVIDÊNCIA COMPLEMENTAR {laranja:ABERTA} · {laranja:CAPITALIZAÇÃO}\n- DEDUZ HOJE → {verde:BASE MENOR} → RESGATE TRIBUTADO SOBRE O {vermelho:TOTAL}\n- CONDIÇÕES: {laranja:COMPLETA + INSS OU RPPS + ATÉ 12%}\n  - APOSENTADO E PENSIONISTA → {verde:DISPENSADOS DO INSS}\n- LEI 15.270 (2026):\n  - ATÉ {laranja:R$ 60 MIL} → {verde:IMPOSTO ZERO}\n  - {laranja:R$ 60 MIL A R$ 88,2 MIL} → REDUÇÃO PARCIAL\n  - ACIMA → {vermelho:SEM REDUÇÃO}\n- ANTES DE INDICAR: {laranja:DECLARAÇÃO · INSS · IMPOSTO A PAGAR?}"
+  },
+  {
+   "saida": "r49-1_04_pegadinhas.png",
+   "semente": 4904,
+   "molde": "pegadinhas",
+   "titulo": "⚠️ PEGADINHAS",
+   "itens": [
+    {
+     "frase": "BASTA A DECLARAÇÃO COMPLETA PARA DEDUZIR",
+     "correcao": "TAMBÉM INSS OU RPPS (SALVO APOSENTADO E PENSIONISTA)"
+    },
+    {
+     "frase": "ATÉ R$ 60 MIL POR ANO, O PGBL ECONOMIZA 12% × ALÍQUOTA",
+     "correcao": "O IMPOSTO JÁ É ZERO: ECONOMIA ZERO"
+    },
+    {
+     "frase": "SEM AS CONDIÇÕES, O PGBL DEIXA DE EXISTIR",
+     "correcao": "CONTINUA INVESTIMENTO, SEM VANTAGEM FISCAL"
+    }
+   ]
+  },
+  {
+   "saida": "r49-1_05_exercicio-renda.png",
+   "semente": 4905,
+   "molde": "colunas",
+   "titulo": "DOIS CLIENTES, MUDA SÓ A RENDA",
+   "topo": "- TUDO IGUAL, MENOS A {laranja:RENDA} (NÚMEROS HIPOTÉTICOS)\n- DECLARAÇÃO COMPLETA · INSS EM DIA",
+   "colunas": [
+    {
+     "titulo": "ANA",
+     "texto": "- {laranja:R$ 50.000} DE RENDIMENTOS TRIBUTÁVEIS EM 2026\n- LIMITE DE DEDUÇÃO: ?\n- ECONOMIA: ?"
+    },
+    {
+     "titulo": "BRUNO",
+     "texto": "- {laranja:R$ 100.000} DE RENDIMENTOS TRIBUTÁVEIS EM 2026\n- ÚLTIMA FAIXA: {laranja:27,5%}\n- LIMITE DE DEDUÇÃO: ?\n- IMPOSTO A MENOS: ?"
+    }
+   ]
+  },
+  {
+   "saida": "r49-2_01_abertura-mito.png",
+   "semente": 4906,
+   "molde": "mito_verdade",
+   "titulo": "PGBL NA DECLARAÇÃO · C-PRO R 3.7.3.1",
+   "mitos": [
+    "NA SIMPLIFICADA, O PGBL TAMBÉM DEDUZ"
+   ],
+   "verdade": "O PGBL SÓ DEDUZ NA DECLARAÇÃO COMPLETA",
+   "desenho": {
+    "nome": "prancheta",
+    "largura": 200
+   }
+  },
+  {
+   "saida": "r49-2_02_dois-guiches.png",
+   "semente": 4907,
+   "molde": "colunas",
+   "titulo": "OS DOIS GUICHÊS DO LEÃO",
+   "colunas": [
+    {
+     "titulo": "GUICHÊ \"COMPLETA\"",
+     "texto": "- {verde:ACEITA O CONTRATO DO PGBL}\n- DEDUÇÕES {laranja:UMA A UMA}"
+    },
+    {
+     "titulo": "GUICHÊ \"SIMPLIFICADA\"",
+     "texto": "- DESCONTO PRONTO DE {laranja:20%}\n- DESCONTO PADRÃO, {vermelho:SEM CONTRATO}"
+    }
+   ],
+   "destaque": {
+    "texto": "UMA ESCOLHA SÓ, POR DECLARAÇÃO: O GUICHÊ QUE DER MENOS IMPOSTO",
+    "cor": "laranja"
+   }
+  },
+  {
+   "saida": "r49-2_03_guiche-certo.png",
+   "semente": 4908,
+   "molde": "topicos",
+   "titulo": "2. O GUICHÊ CERTO",
+   "texto": "- PGBL → {laranja:PAGAMENTOS EFETUADOS · CÓDIGO 36}\n- VGBL → {laranja:BENS E DIREITOS · GRUPO 99 · CÓDIGO 06} · NÃO DEDUZ\n- RESGATE: PGBL → IR SOBRE O {vermelho:TOTAL} · VGBL → IR SÓ SOBRE OS {verde:RENDIMENTOS}\n- SIMPLIFICADA: {laranja:20% DOS RENDIMENTOS TRIBUTÁVEIS, ATÉ R$ 16.754,34} · SUBSTITUI {vermelho:TODAS} AS DEDUÇÕES\n- COMPLETA VALE QUANDO: {verde:DEDUÇÕES + PGBL > DESCONTO SIMPLIFICADO}"
+  },
+  {
+   "saida": "r49-2_04_pegadinhas.png",
+   "semente": 4909,
+   "molde": "pegadinhas",
+   "titulo": "⚠️ PEGADINHAS",
+   "itens": [
+    {
+     "frase": "SIMPLIFICADA + PGBL",
+     "correcao": "SIMPLIFICADA SUBSTITUI TODAS AS DEDUÇÕES"
+    },
+    {
+     "frase": "PGBL EM BENS E DIREITOS",
+     "correcao": "PAGAMENTOS EFETUADOS, CÓDIGO 36 (VGBL É QUE VAI EM BENS E DIREITOS)"
+    },
+    {
+     "frase": "RESGATE DO PGBL: IR SÓ SOBRE OS RENDIMENTOS",
+     "correcao": "SOBRE O TOTAL; SÓ RENDIMENTOS É O VGBL"
+    }
+   ]
+  },
+  {
+   "saida": "r49-2_05_exercicio-com-sem-pgbl.png",
+   "semente": 4910,
+   "molde": "colunas",
+   "titulo": "MESMO CLIENTE, COM OU SEM PGBL",
+   "topo": "- RENDIMENTOS TRIBUTÁVEIS {laranja:R$ 100.000} · OUTRAS DEDUÇÕES {laranja:R$ 10.000} · PGBL {laranja:R$ 12.000}\n- DESCONTO SIMPLIFICADO: LIMITE DE {laranja:R$ 16.754,34} · BASES NA FAIXA DE {laranja:27,5%} (NÚMEROS HIPOTÉTICOS)",
+   "colunas": [
+    {
+     "titulo": "SIMPLIFICADA",
+     "texto": "- BASE: ?"
+    },
+    {
+     "titulo": "COMPLETA SEM PGBL",
+     "texto": "- BASE: ?\n- PAGA A MAIS: ?"
+    },
+    {
+     "titulo": "COMPLETA COM PGBL",
+     "texto": "- BASE: ?\n- PAGA A MENOS: ?"
+    }
+   ]
+  },
+  {
+   "saida": "r49-3_01_abertura-mito.png",
+   "semente": 4911,
+   "molde": "mito_verdade",
+   "titulo": "DIFERIMENTO FISCAL · C-PRO R 3.7.3.2",
+   "mitos": [
+    "QUALQUER RENDA ENTRA NA BASE DOS 12%"
+   ],
+   "verdade": "SÓ ENTRAM OS RENDIMENTOS TRIBUTÁVEIS DA DECLARAÇÃO",
+   "desenho": {
+    "nome": "cofrinho",
+    "largura": 220
+   }
+  },
+  {
+   "saida": "r49-3_02_saco-do-leao.png",
+   "semente": 4912,
+   "molde": "metafora",
+   "titulo": "O EMPRÉSTIMO VIRA UM SACO DE DINHEIRO",
+   "estrada": false,
+   "itens": [
+    {
+     "desenho": "dinheiro",
+     "cor": "verde",
+     "nome": "SACO DE DINHEIRO DO LEÃO",
+     "legenda": "IMPOSTO DIFERIDO"
+    },
+    {
+     "desenho": "cofrinho",
+     "cor": "laranja",
+     "nome": "DENTRO DO PGBL, RENDENDO",
+     "legenda": "CONTINUA APLICADO"
+    },
+    {
+     "desenho": "placa",
+     "cor": "amarelo",
+     "nome": "\"LIMITE: 12% DA RENDA TRIBUTÁVEL\"",
+     "legenda": "12%"
+    }
+   ]
+  },
+  {
+   "saida": "r49-3_03_saco-rendendo.png",
+   "semente": 4913,
+   "molde": "topicos",
+   "titulo": "3. O SACO DO LEÃO RENDENDO NO PLANO",
+   "texto": "- DIFERIMENTO = {laranja:ADIAR} O IR · O VALOR {verde:FICA APLICADO}\n- LIMITE: {laranja:12% DOS RENDIMENTOS TRIBUTÁVEIS}\n  - ACIMA DISSO → {vermelho:NÃO DEDUZ}, MAS {verde:CONTINUA INVESTIDO}\n- {verde:ENTRAM}: SALÁRIO · PRÓ-LABORE · ALUGUEL · HONORÁRIOS · APOSENTADORIA E PENSÃO\n- {vermelho:FORA}: DIVIDENDOS · JCP · 13º (ISENTOS OU DE TRIBUTAÇÃO EXCLUSIVA)",
+   "destaque": {
+    "texto": "IMPOSTO DIFERIDO = RENDA TRIBUTÁVEL × 12% × ALÍQUOTA MARGINAL",
+    "cor": "laranja"
+   }
+  },
+  {
+   "saida": "r49-3_04_pegadinhas.png",
+   "semente": 4914,
+   "molde": "pegadinhas",
+   "titulo": "⚠️ PEGADINHAS",
+   "itens": [
+    {
+     "frase": "O QUE PASSA DE 12% DEDUZ NO ANO SEGUINTE",
+     "correcao": "NÃO DEDUZ; CONTINUA INVESTIDO"
+    },
+    {
+     "frase": "DIVIDENDOS E JCP ENTRAM NA BASE",
+     "correcao": "SÓ RENDIMENTOS TRIBUTÁVEIS"
+    },
+    {
+     "frase": "IMPOSTO DIFERIDO = 12% × ALÍQUOTA MÉDIA",
+     "correcao": "× ALÍQUOTA MARGINAL"
+    }
+   ]
+  },
+  {
+   "saida": "r49-3_05_exercicio-tipo-renda.png",
+   "semente": 4915,
+   "molde": "colunas",
+   "titulo": "MESMA RENDA, MUDA SÓ O TIPO",
+   "topo": "DOIS CLIENTES COM {laranja:R$ 200.000} NO ANO (NÚMEROS HIPOTÉTICOS)",
+   "colunas": [
+    {
+     "titulo": "CARLA",
+     "texto": "- SALÁRIO · ÚLTIMA FAIXA DE {laranja:27,5%}\n- DEDUÇÃO MÁXIMA: ?\n- IMPOSTO DIFERIDO: ?\n- RENDE EM 1 ANO A {laranja:13,75%}: ?"
+    },
+    {
+     "titulo": "DIEGO",
+     "texto": "- DIVIDENDOS ISENTOS\n- DEDUÇÃO MÁXIMA: ?"
+    }
+   ]
+  },
+  {
+   "saida": "r49-4_01_abertura-mito.png",
+   "semente": 4916,
+   "molde": "mito_verdade",
+   "titulo": "RENÚNCIA E RETROALIMENTAÇÃO · C-PRO R 3.7.3.3 E 3.7.3.4",
+   "mitos": [
+    "A RENÚNCIA FISCAL DO PGBL É SÓ UM ADIAMENTO"
+   ],
+   "verdade": "NO REGRESSIVO, QUEM DEDUZ A 27,5% E FICA MAIS DE 10 ANOS PAGA 10%",
+   "desenho": {
+    "nome": "ampulheta",
+    "largura": 200
+   }
+  },
+  {
+   "saida": "r49-4_02_relogio-devolucao.png",
+   "semente": 4917,
+   "molde": "topicos",
+   "titulo": "O RELÓGIO DE DEVOLUÇÃO DO LEÃO",
+   "desenho": {
+    "nome": "ampulheta",
+    "largura": 260
+   },
+   "texto": "- RELÓGIO: {vermelho:35%} → 30% → 25% → 20% → 15% → {verde:10%}\n- SETA CIRCULAR: DEVOLVE COM DESCONTO E PEGA DE NOVO → {laranja:RETROALIMENTAÇÃO}\n- {laranja:RELÓGIO} → TABELA REGRESSIVA\n- {laranja:DESCONTO} → RENÚNCIA DEFINITIVA\n- {laranja:SETA} → NOVO DIFERIMENTO"
+  },
+  {
+   "saida": "r49-4_03_desconto-e-volta.png",
+   "semente": 4918,
+   "molde": "topicos",
+   "titulo": "4. O DESCONTO NA DEVOLUÇÃO E A VOLTA NO BALCÃO",
+   "texto": "- REGRESSIVO: {vermelho:35%} (ATÉ 2 ANOS) ... {verde:10%} (ACIMA DE 10 ANOS) · PRAZO {laranja:DE CADA APORTE} · RETENÇÃO {laranja:DEFINITIVA}\n- RENÚNCIA = {laranja:ADIAMENTO (TEMPORÁRIO)} + {verde:DIFERENÇA DE ALÍQUOTA (DEFINITIVA)}\n- DEDUZ A 27,5% → RESGATA A 10% → {verde:17,5 PONTOS A FAVOR}\n- RESGATA COM ATÉ 2 ANOS → {vermelho:35%: PAGA MAIS}\n- RETROALIMENTAÇÃO: RESTITUIÇÃO → NOVO APORTE · RESGATE ANTIGO A 10% → NOVO PGBL\n- LIMITES: {laranja:MESMOS 12% DO ANO} · NOVO APORTE {vermelho:RECOMEÇA EM 35%}"
+  },
+  {
+   "saida": "r49-4_04_pegadinhas.png",
+   "semente": 4919,
+   "molde": "pegadinhas",
+   "titulo": "⚠️ PEGADINHAS",
+   "itens": [
+    {
+     "frase": "RENÚNCIA = SÓ ADIAMENTO",
+     "correcao": "HÁ DIFERENÇA DEFINITIVA DE ALÍQUOTA"
+    },
+    {
+     "frase": "RETROALIMENTAÇÃO CRIA LIMITE ALÉM DOS 12%",
+     "correcao": "MESMOS 12% DO ANO"
+    },
+    {
+     "frase": "O REAPLICADO NASCE EM 10%",
+     "correcao": "RECOMEÇA EM 35%"
+    }
+   ]
+  },
+  {
+   "saida": "r49-4_05_exercicio-prazo.png",
+   "semente": 4920,
+   "molde": "colunas",
+   "titulo": "MESMO PGBL, MUDA SÓ O PRAZO DO RESGATE",
+   "topo": "- APORTE DE {laranja:R$ 24.000}, DEDUZIDO A {laranja:27,5%} · REGIME REGRESSIVO (NÚMEROS HIPOTÉTICOS)\n- IMPOSTO ECONOMIZADO NA DEDUÇÃO: ?",
+   "colunas": [
+    {
+     "titulo": "CENÁRIO A",
+     "texto": "- RESGATE DEPOIS DE {laranja:10 ANOS} ({laranja:10%})\n- IR NO RESGATE: ?\n- GANHO DEFINITIVO: ?"
+    },
+    {
+     "titulo": "CENÁRIO B",
+     "texto": "- RESGATE COM {laranja:ATÉ 2 ANOS} ({laranja:35%})\n- IR NO RESGATE: ?\n- PAGA A MAIS: ?"
+    }
+   ]
+  }
+ ]
+}

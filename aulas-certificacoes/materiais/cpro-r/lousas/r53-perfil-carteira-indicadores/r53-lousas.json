@@ -1,0 +1,181 @@
+{
+  "padrao": {"fundo": "preto"},
+  "slides": [
+    {
+      "saida": "r53_01_abertura-mito.png",
+      "semente": 7,
+      "elementos": [
+        {"tipo": "titulo", "texto": "ANÁLISE DA CARTEIRA (C-PRO R 4.1.3)"},
+        {"tipo": "texto", "id": "mito", "texto": "\"A CARTEIRA\nDEU LUCRO,\nENTÃO ESTÁ\nTUDO CERTO\"",
+         "x": 110, "y": 300, "largura": 820, "tamanho": 56, "entrelinha": 1.5, "cor": "vermelho"},
+        {"tipo": "riscar", "alvo": "mito"},
+        {"tipo": "texto", "id": "verdade", "texto": "\"LUCRO NÃO É DIAGNÓSTICO: A CARTEIRA ESTÁ CUMPRINDO O PAPEL DELA?\"",
+         "x": 1010, "y": 290, "largura": 540, "tamanho": 48, "entrelinha": 1.45, "cor": "verde"},
+        {"tipo": "caixa", "alvo": "verdade", "margem": 28},
+        {"tipo": "desenho", "nome": "alvo", "abaixo_de": "verdade", "distancia": 40, "largura": 120, "cor": "verde"},
+        {"tipo": "seta", "de": "mito", "para": "verdade", "curva": 0.1}
+      ]
+    },
+    {
+      "saida": "r53_02_metafora-consultorio.png",
+      "semente": 21,
+      "elementos": [
+        {"tipo": "titulo", "texto": "CONSULTÓRIO MÉDICO: 4 ESTAÇÕES"},
+        {"tipo": "desenho", "id": "d1", "nome": "prancheta", "x": 180, "y": 210, "largura": 130},
+        {"tipo": "desenho", "id": "d2", "nome": "balanca_peso", "x": 635, "y": 225, "largura": 150},
+        {"tipo": "desenho", "id": "d3", "nome": "tubo_ensaio", "x": 1110, "y": 215, "largura": 110},
+        {"tipo": "desenho", "id": "d4", "nome": "receita", "x": 1560, "y": 210, "largura": 130},
+        {"tipo": "texto", "id": "e1", "x": 50, "y": 440, "largura": 400, "tamanho": 30, "entrelinha": 1.45,
+         "texto": "1. Ficha do paciente atualizada → {laranja:avaliação do perfil (o paciente mudou?)}"},
+        {"tipo": "texto", "id": "e2", "x": 510, "y": 440, "largura": 400, "tamanho": 30, "entrelinha": 1.45,
+         "texto": "2. Balança × peso ideal → {laranja:estrutura atual × estrutura ideal}"},
+        {"tipo": "texto", "id": "e3", "x": 970, "y": 440, "largura": 400, "tamanho": 30, "entrelinha": 1.45,
+         "texto": "3. Exames de sangue → {laranja:indicadores: rentabilidade real, volatilidade, correlação}"},
+        {"tipo": "texto", "id": "e4", "x": 1430, "y": 440, "largura": 420, "tamanho": 30, "entrelinha": 1.45,
+         "texto": "4. Médico explicando o laudo e a receita → {laranja:interpretação e recomendação}"},
+        {"tipo": "texto", "id": "fixe", "texto": "\"CHECK-UP NÃO É SÓ SUBIR NA BALANÇA\"", "x": 300, "y": 880, "tamanho": 46, "cor": "verde"},
+        {"tipo": "caixa", "alvo": "fixe", "margem": 22},
+        {"tipo": "seta", "de": "d1", "para": "d2"},
+        {"tipo": "seta", "de": "d2", "para": "d3"},
+        {"tipo": "seta", "de": "d3", "para": "d4"}
+      ]
+    },
+    {
+      "saida": "r53_03_perfil-nao-estatico.png",
+      "semente": 3,
+      "elementos": [
+        {"tipo": "titulo", "texto": "1. O PERFIL NÃO É ESTÁTICO"},
+        {"tipo": "subtitulo", "texto": "Sete gatilhos de mudança:", "x": 80, "y": 140},
+        {"tipo": "texto", "id": "lista", "x": 80, "y": 215, "largura": 840, "tamanho": 34, "entrelinha": 1.45,
+         "texto": "1. Fase de vida.\n2. Evolução do patrimônio.\n3. Nível e estabilidade da renda.\n4. Mudança de objetivos financeiros.\n5. Tolerância ao risco.\n6. Eventos familiares relevantes.\n7. Mudanças relevantes no cenário econômico e de mercado."},
+        {"tipo": "texto", "id": "regra", "x": 1010, "y": 240, "largura": 600, "tamanho": 32, "entrelinha": 1.42,
+         "texto": "- {laranja:Perfil do cliente:} atualizado junto com o cadastro, no máximo a cada {laranja:5 anos} (Res. CVM 30, art. 9º, I).\n\n- {laranja:Classificação das categorias de produtos:} refeita a cada {laranja:24 meses}, no máximo (Res. CVM 30, art. 9º, II)."},
+        {"tipo": "caixa", "alvo": "regra", "margem": 26},
+        {"tipo": "desenho", "nome": "ampulheta", "x": 400, "y": 760, "largura": 110, "cor": "laranja"}
+      ]
+    },
+    {
+      "saida": "r53_04_balanca-peso-ideal.png",
+      "semente": 4,
+      "elementos": [
+        {"tipo": "titulo", "texto": "2. BALANÇA × PESO IDEAL"},
+        {"tipo": "subtitulo", "texto": "ATUAL (como está):", "x": 80, "y": 200},
+        {"tipo": "texto", "id": "atual", "x": 80, "y": 270, "largura": 560, "tamanho": 32, "entrelinha": 1.42,
+         "texto": "- % em renda fixa\n- renda variável\n- exterior\n- alternativos\n- caixa"},
+        {"tipo": "subtitulo", "texto": "IDEAL (como deveria estar):", "x": 1060, "y": 200},
+        {"tipo": "texto", "id": "ideal", "x": 1060, "y": 270, "largura": 800, "tamanho": 32, "entrelinha": 1.42,
+         "texto": "- perfil de risco\n- horizonte\n- objetivos\n- necessidade de retorno real\n- situações específicas"},
+        {"tipo": "texto", "id": "gap", "texto": "DIFERENÇA\n= GAP", "x": 560, "y": 300, "largura": 440, "alinhar": "centro", "tamanho": 42, "cor": "laranja"},
+        {"tipo": "seta", "de": [570, 450], "para": [1020, 450], "curva": 0.04},
+        {"tipo": "subtitulo", "texto": "Três formas de corrigir o gap:", "x": 80, "y": 580},
+        {"tipo": "texto", "id": "formas", "x": 80, "y": 650, "largura": 1150, "tamanho": 32, "entrelinha": 1.45,
+         "texto": "1. Novos aportes nas classes que estão abaixo do ideal.\n2. Realocação gradual.\n3. Portabilidade ou transferência de produtos."},
+        {"tipo": "desenho", "nome": "balanca_peso", "x": 1330, "y": 560, "largura": 160},
+        {"tipo": "texto", "id": "fixe", "texto": "\"REBALANCEAR NÃO É CORRIGIR ERRO: É AJUSTE NATURAL\"", "x": 80, "y": 905, "tamanho": 38, "cor": "verde"},
+        {"tipo": "caixa", "alvo": "fixe", "margem": 20}
+      ]
+    },
+    {
+      "saida": "r53_05_exames-1-de-2.png",
+      "semente": 5,
+      "elementos": [
+        {"tipo": "titulo", "texto": "3. OS EXAMES DA CARTEIRA (1/2)"},
+        {"tipo": "subtitulo", "texto": "Rentabilidade real:", "x": 80, "y": 150},
+        {"tipo": "texto", "id": "rr", "x": 80, "y": 225, "largura": 1380, "tamanho": 36, "entrelinha": 1.5,
+         "texto": "- retorno acima da inflação\n- fórmula: {laranja:(1 + nominal) ÷ (1 + inflação) − 1}"},
+        {"tipo": "subtitulo", "texto": "Volatilidade:", "x": 80, "y": 430},
+        {"tipo": "texto", "id": "vol", "x": 80, "y": 505, "largura": 1380, "tamanho": 36, "entrelinha": 1.5,
+         "texto": "- oscilação dos retornos\n- medida pelo {laranja:desvio padrão}\n- problema não é ela existir, é passar do {vermelho:limite emocional} do cliente"},
+        {"tipo": "desenho", "nome": "tubo_ensaio", "x": 1660, "y": 230, "largura": 130},
+        {"tipo": "livre", "cor": "laranja", "espessura": 4.5,
+         "pontos": [[1520, 600], [1565, 545], [1610, 650], [1655, 560], [1700, 665], [1745, 535], [1790, 630], [1840, 590]]}
+      ]
+    },
+    {
+      "saida": "r53_06_exames-2-de-2.png",
+      "semente": 6,
+      "elementos": [
+        {"tipo": "titulo", "texto": "3. OS EXAMES DA CARTEIRA (2/2)"},
+        {"tipo": "subtitulo", "texto": "Correlação: de −1 a +1:", "x": 80, "y": 150},
+        {"tipo": "texto", "id": "corr", "x": 80, "y": 225, "largura": 1100, "tamanho": 36, "entrelinha": 1.5,
+         "texto": "- {verde:+1} → andam juntos.\n- {vermelho:−1} → andam em sentidos opostos.\n- {laranja:0} → independentes."},
+        {"tipo": "subtitulo", "texto": "Coeficiente de diversificação:", "x": 80, "y": 470},
+        {"tipo": "texto", "id": "coef", "x": 80, "y": 545, "largura": 1450, "tamanho": 34, "entrelinha": 1.5,
+         "texto": "- soma ponderada das volatilidades dos ativos ÷ volatilidade da carteira\n- {laranja:= 1} → nenhum ganho de diversificação\n- {laranja:> 1} → a mistura reduziu o risco"},
+        {"tipo": "texto", "id": "fixe", "x": 80, "y": 845, "largura": 1440, "tamanho": 36, "entrelinha": 1.4, "cor": "verde",
+         "texto": "\"DIVERSIFICAR NÃO É TER MUITOS ATIVOS, É TER ATIVOS QUE SE COMPORTAM DIFERENTE\""},
+        {"tipo": "caixa", "alvo": "fixe", "margem": 20}
+      ]
+    },
+    {
+      "saida": "r53_07_laudo-receita.png",
+      "semente": 8,
+      "elementos": [
+        {"tipo": "titulo", "texto": "4. DO LAUDO À RECEITA"},
+        {"tipo": "subtitulo", "texto": "DIAGNÓSTICO (4 perguntas):", "x": 80, "y": 150},
+        {"tipo": "texto", "id": "diag", "x": 80, "y": 225, "largura": 900, "tamanho": 32, "entrelinha": 1.45,
+         "texto": "1. A rentabilidade real está na meta?\n2. A volatilidade cabe no perfil?\n3. A correlação está funcionando?\n4. Há riscos ocultos? (concentração em um fundo · duration longa demais · um único fator de risco · dependência de um cenário)."},
+        {"tipo": "subtitulo", "texto": "EXPLICAR O PORQUÊ:", "x": 1080, "y": 210},
+        {"tipo": "texto", "id": "pq", "x": 1080, "y": 285, "largura": 760, "tamanho": 32, "entrelinha": 1.45,
+         "texto": "- motivo\n- benefício\n- {vermelho:risco de não agir}"},
+        {"tipo": "subtitulo", "texto": "RECOMENDAÇÃO PRÁTICA:", "x": 1080, "y": 460},
+        {"tipo": "texto", "id": "rec", "x": 1080, "y": 535, "largura": 760, "tamanho": 32, "entrelinha": 1.45,
+         "texto": "- o que reduzir e aumentar\n- como executar (% e ativos)\n- quando revisar (trimestral, semestral ou anual)"},
+        {"tipo": "desenho", "id": "laudo", "nome": "tubo_ensaio", "x": 250, "y": 700, "largura": 100},
+        {"tipo": "desenho", "id": "receita", "nome": "receita", "x": 680, "y": 690, "largura": 130, "cor": "verde"},
+        {"tipo": "seta", "de": "laudo", "para": "receita"}
+      ]
+    },
+    {
+      "saida": "r53_08_pegadinhas.png",
+      "semente": 9,
+      "elementos": [
+        {"tipo": "titulo", "texto": "⚠️ AS 5 PEGADINHAS DA BANCA"},
+        {"tipo": "texto", "id": "pegas", "x": 80, "y": 160, "largura": 1430, "tamanho": 32, "entrelinha": 1.42,
+         "texto": "1. \"O perfil deve ser atualizado a cada 24 meses\" → {vermelho:FALSO} {verde:(perfil acompanha o cadastro, até 5 anos; 24 meses é a reclassificação dos produtos).}\n\n2. \"Retorno positivo significa carteira adequada\" → {vermelho:FALSO} {verde:(compare com a inflação e com a meta).}\n\n3. \"Volatilidade é sempre negativa\" → {vermelho:FALSO} {verde:(o problema é passar do limite emocional do cliente).}\n\n4. \"Mais ativos = mais diversificação\" → {vermelho:FALSO} {verde:(o que diversifica é baixa correlação).}\n\n5. \"Rentabilidade real = nominal − inflação\" → {vermelho:FALSO} {verde:(a conta exata é por divisão).}"},
+        {"tipo": "caixa", "alvo": "pegas", "margem": 26, "cor": "vermelho"}
+      ]
+    },
+    {
+      "saida": "r53_09_checkup-dados.png",
+      "semente": 10,
+      "elementos": [
+        {"tipo": "titulo", "texto": "CHECK-UP DA CARTEIRA (números hipotéticos)"},
+        {"tipo": "subtitulo", "texto": "Exame 1 · Rentabilidade real:", "x": 80, "y": 160},
+        {"tipo": "texto", "id": "ex1", "x": 80, "y": 235, "largura": 1400, "tamanho": 38, "entrelinha": 1.45,
+         "texto": "- carteira rendeu {laranja:10%} no ano\n- inflação {laranja:5%}\n- meta do cliente: {laranja:IPCA + 4%}"},
+        {"tipo": "subtitulo", "texto": "Exame 2 · Volatilidade:", "x": 80, "y": 470},
+        {"tipo": "texto", "id": "ex2", "x": 80, "y": 545, "largura": 1480, "tamanho": 36, "entrelinha": 1.5,
+         "texto": "retornos mensais de duas carteiras com a mesma média:\n- Carteira A: {laranja:0,90 · 1,00 · 1,10 · 0,95 · 1,05 · 1,00} (% ao mês).\n- Carteira B: {laranja:4 · −2 · 3 · −1 · 2 · 0} (% ao mês)."},
+        {"tipo": "desenho", "nome": "tubo_ensaio", "x": 1680, "y": 250, "largura": 120}
+      ]
+    },
+    {
+      "saida": "r53_10_hp12c-exame-1.png",
+      "semente": 11,
+      "elementos": [
+        {"tipo": "titulo", "texto": "HP12C · EXAME 1 (RENTABILIDADE REAL)"},
+        {"tipo": "texto", "id": "hp", "x": 80, "y": 150, "largura": 1440, "tamanho": 34, "entrelinha": 1.55,
+         "texto": "1. Limpar e ajustar casas\n  - [f] [REG] [f] [2] → visor {laranja:0,00}\n  - memórias zeradas e visor com 2 casas decimais\n2. Rentabilidade real\n  - 1,10 [ENTER] 1,05 [÷] 1 [−] 100 [×] → visor {laranja:4,76}\n  - a carteira ganhou 4,76% acima da inflação (e não 5%, como daria subtraindo)\n3. Meta em termos nominais\n  - 1,05 [ENTER] 1,04 [×] 1 [−] 100 [×] → visor {laranja:9,20}\n  - com inflação de 5%, a meta IPCA + 4% equivale a 9,20% nominais: a carteira, com 10%, {verde:superou a meta}"}
+      ]
+    },
+    {
+      "saida": "r53_11_hp12c-carteira-a.png",
+      "semente": 12,
+      "elementos": [
+        {"tipo": "titulo", "texto": "HP12C · EXAME 2 (CARTEIRA A)"},
+        {"tipo": "texto", "id": "hp", "x": 80, "y": 140, "largura": 1440, "tamanho": 33, "entrelinha": 1.55,
+         "texto": "4. Limpar a estatística\n  - [f] [REG] → visor {laranja:0,00}\n  - zera os registradores estatísticos antes de lançar os dados da carteira A\n5. Lançar a carteira A\n  - 0,9 [Σ+] 1 [Σ+] 1,1 [Σ+] 0,95 [Σ+] 1,05 [Σ+] 1 [Σ+] → visor {laranja:6,00}\n  - o visor conta os dados lançados: 6 meses\n6. Média da carteira A\n  - [g] [x̄] → visor {laranja:1,00}\n  - retorno médio de 1,00% ao mês\n7. Volatilidade da carteira A\n  - [g] [s] → visor {laranja:0,07}\n  - desvio padrão de 0,07 ponto percentual: os retornos quase não oscilam"}
+      ]
+    },
+    {
+      "saida": "r53_12_hp12c-carteira-b.png",
+      "semente": 13,
+      "elementos": [
+        {"tipo": "titulo", "texto": "HP12C · EXAME 2 (CARTEIRA B)"},
+        {"tipo": "texto", "id": "hp", "x": 80, "y": 150, "largura": 1440, "tamanho": 34, "entrelinha": 1.55,
+         "texto": "8. Limpar e lançar a carteira B\n  - [f] [REG] 4 [Σ+] 2 [CHS] [Σ+] 3 [Σ+] 1 [CHS] [Σ+] 2 [Σ+] 0 [Σ+] → visor {laranja:6,00}\n  - os 6 meses da carteira B; os meses negativos entram com [CHS] antes do [Σ+]\n9. Média da carteira B\n  - [g] [x̄] → visor {laranja:1,00}\n  - o mesmo retorno médio de 1,00% ao mês\n10. Volatilidade da carteira B\n  - [g] [s] → visor {laranja:2,37}\n  - desvio padrão de 2,37 pontos percentuais: cerca de {vermelho:33 vezes} a oscilação da carteira A"}
+      ]
+    }
+  ]
+}

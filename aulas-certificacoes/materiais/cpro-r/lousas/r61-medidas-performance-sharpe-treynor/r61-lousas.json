@@ -1,0 +1,172 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r61_01_abertura-mito.png",
+   "semente": 21,
+   "molde": "mito_verdade",
+   "titulo": "MEDIDAS DE PERFORMANCE (C-PRO R 4.9.4 a 4.9.6)",
+   "mitos": [
+    "\"O MELHOR FUNDO É O QUE MAIS RENDEU NO ANO\"",
+    "\"SHARPE NEGATIVO = FUNDO DEU PREJUÍZO\""
+   ],
+   "verdade": "RETORNO SEM OLHAR O RISCO É CEGUEIRA FINANCEIRA",
+   "desenho": {
+    "nome": "balanca",
+    "largura": 220
+   }
+  },
+  {
+   "saida": "r61_02_estrada.png",
+   "semente": 22,
+   "molde": "metafora",
+   "titulo": "A VIAGEM NA ESTRADA",
+   "itens": [
+    {
+     "desenho": "onibus",
+     "nome": "ÔNIBUS DE LINHA",
+     "legenda": "LIVRE DE RISCO (R_{f}: CDI/SELIC)"
+    },
+    {
+     "desenho": "carro",
+     "cor": "laranja",
+     "extra": "combustivel",
+     "nome": "CARRO + TANQUE INTEIRO",
+     "legenda": "SHARPE: σ = RISCO TOTAL"
+    },
+    {
+     "desenho": "placa",
+     "cor": "verde",
+     "nome": "PLACA DA CIDADE",
+     "legenda": "SHARPE MODIFICADO: META DO CLIENTE"
+    },
+    {
+     "desenho": "serra",
+     "nome": "SUBIDAS DA SERRA",
+     "legenda": "TREYNOR: β = RISCO DE MERCADO"
+    }
+   ]
+  },
+  {
+   "saida": "r61_03_conceito-limitacoes.png",
+   "semente": 24,
+   "molde": "topicos",
+   "titulo": "1. RETORNO AJUSTADO AO RISCO: CONCEITO E LIMITAÇÕES",
+   "texto": "- {ciano:OBJETIVO:} O DESEMPENHO COMPENSOU O RISCO?\n- {ciano:COMPARAR:} SÓ NA {laranja:MESMA CATEGORIA/ESTRATÉGIA}\n- {ciano:4 LIMITAÇÕES:}\n  1. {laranja:DADOS HISTÓRICOS} (EX-POST)\n  2. {laranja:NÃO GARANTEM} O FUTURO\n  3. DISTORCIDAS POR {laranja:PERÍODOS CURTOS} E {laranja:EVENTOS EXTREMOS}\n  4. EXIGEM {laranja:BENCHMARK ADEQUADO}",
+   "destaque": "APOIO À DECISÃO, NUNCA CRITÉRIO ÚNICO"
+  },
+  {
+   "saida": "r61_04_sharpe.png",
+   "semente": 25,
+   "molde": "topicos",
+   "titulo": "2. ÍNDICE DE SHARPE ORIGINAL = RISCO TOTAL (TANQUE INTEIRO)",
+   "formula": {
+    "antes": "SHARPE =",
+    "num": "R_{c} − R_{f}",
+    "den": "σ_{c}",
+    "tamanho": 60
+   },
+   "desenho": {
+    "nome": "combustivel",
+    "cor": "vermelho",
+    "largura": 230
+   },
+   "texto": "- {laranja:R_{c} − R_{f}:} RETORNO EXCEDENTE (PRÊMIO ACIMA DO CDI/SELIC)\n- {laranja:σ_{c}:} RISCO TOTAL (SISTEMÁTICO + ESPECÍFICO)\n- {verde:QUANTO MAIOR, MELHOR}\n- SHARPE = 0 → R_{c} = R_{f}\n- {vermelho:SHARPE < 0} → R_{c} < R_{f}: {laranja:NÃO É NECESSARIAMENTE PREJUÍZO!}"
+  },
+  {
+   "saida": "r61_05_sharpe-modificado.png",
+   "semente": 27,
+   "molde": "topicos",
+   "titulo": "3. SHARPE MODIFICADO = FOCO NO DESTINO DO CLIENTE",
+   "formula": {
+    "antes": "SHARPE MOD. =",
+    "num": "R_{c} − R_{benchmark/objetivo}",
+    "den": "σ_{c}",
+    "tamanho": 56
+   },
+   "desenho": {
+    "nome": "placa",
+    "cor": "verde",
+    "largura": 200
+   },
+   "texto": "- {laranja:SHARPE ORIGINAL:} QUANTO RENDEU ACIMA DO {laranja:LIVRE DE RISCO}?\n- {verde:SHARPE MODIFICADO:} QUANTO RENDEU ACIMA DA {verde:META DO CLIENTE}?\n- OS DOIS DIVIDEM POR {laranja:σ} (RISCO TOTAL)\n- USO: PLANEJAMENTO POR METAS (EX.: IPCA + 5% A.A.)"
+  },
+  {
+   "saida": "r61_06_treynor.png",
+   "semente": 28,
+   "molde": "colunas",
+   "titulo": "4. ÍNDICE DE TREYNOR = SÓ AS SUBIDAS DA ESTRADA (RISCO SISTEMÁTICO)",
+   "formula": {
+    "antes": "TREYNOR =",
+    "num": "R_{c} − R_{f}",
+    "den": "β_{c}",
+    "tamanho": 52
+   },
+   "desenho": {
+    "nome": "serra",
+    "largura": 250
+   },
+   "colunas": [
+    {
+     "titulo": "SHARPE",
+     "texto": "- DIVIDE POR {laranja:σ} → RISCO TOTAL\n- RISCO ESPECÍFICO: {vermelho:PENALIZA}\n- USO: CARTEIRA TOTAL OU {laranja:CONCENTRADA}"
+    },
+    {
+     "titulo": "TREYNOR",
+     "texto": "- DIVIDE POR {laranja:β} → RISCO DE MERCADO\n- RISCO ESPECÍFICO: {laranja:IGNORA}\n- USO: CARTEIRA {verde:BEM DIVERSIFICADA}"
+    }
+   ],
+   "destaque": {
+    "texto": "SHARPE E TREYNOR PODEM ORDENAR OS MESMOS FUNDOS DE FORMA OPOSTA!",
+    "cor": "laranja"
+   }
+  },
+  {
+   "saida": "r61_07_pegadinhas.png",
+   "semente": 30,
+   "molde": "pegadinhas",
+   "titulo": "⚠️ AS 5 PEGADINHAS DA BANCA (C-PRO R 4.9.4 a 4.9.6)",
+   "itens": [
+    {
+     "frase": "SHARPE DIVIDE PELO β",
+     "correcao": "DIVIDE POR σ; QUEM DIVIDE POR β É O TREYNOR"
+    },
+    {
+     "frase": "SHARPE NEGATIVO = RENTABILIDADE NEGATIVA",
+     "correcao": "RENDEU ABAIXO DO LIVRE DE RISCO: R_{c} < R_{f}"
+    },
+    {
+     "frase": "TREYNOR É O MELHOR PARA CARTEIRA CONCENTRADA",
+     "correcao": "IGNORA O RISCO ESPECÍFICO; É PARA CARTEIRA BEM DIVERSIFICADA"
+    },
+    {
+     "frase": "SHARPE MODIFICADO COMPARA COM O LIVRE DE RISCO",
+     "correcao": "COMPARA COM A META DO CLIENTE"
+    },
+    {
+     "frase": "MAIOR SHARPE HISTÓRICO GARANTE O FUTURO",
+     "correcao": "MEDIDAS SÃO EX-POST, SEM GARANTIA"
+    }
+   ]
+  },
+  {
+   "saida": "r61_08_inversao-ranking.png",
+   "semente": 31,
+   "molde": "colunas",
+   "titulo": "INVERSÃO DE RANKING (números hipotéticos)",
+   "topo": "- CDI (LIVRE DE RISCO) = {laranja:10% A.A.}\n- META DO CLIENTE = {laranja:12% A.A.}",
+   "colunas": [
+    {
+     "titulo": "FUNDO ALFA · BEM DIVERSIFICADO",
+     "texto": "- RETORNO = {laranja:18% A.A.}\n- VOLATILIDADE (σ) = {laranja:10%}\n- BETA (β) = {laranja:1,0}"
+    },
+    {
+     "titulo": "FUNDO BETA · CONCENTRADO (ALTO RISCO ESPECÍFICO)",
+     "texto": "- RETORNO = {laranja:20% A.A.}\n- VOLATILIDADE (σ) = {laranja:20%}\n- BETA (β) = {laranja:1,0}"
+    }
+   ]
+  }
+ ]
+}

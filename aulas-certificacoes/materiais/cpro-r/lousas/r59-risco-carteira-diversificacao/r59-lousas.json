@@ -1,0 +1,140 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r59_01_abertura-mito.png",
+   "semente": 91,
+   "molde": "mito_verdade",
+   "titulo": "RISCO DA CARTEIRA (C-PRO R 4.7 E 4.8)",
+   "mitos": [
+    "\"O RISCO DA CARTEIRA É A MÉDIA DOS RISCOS DOS ATIVOS\""
+   ],
+   "verdade": "O RISCO DA CARTEIRA DEPENDE DE COMO OS ATIVOS ANDAM JUNTOS",
+   "desenho": {
+    "nome": "balanca",
+    "largura": 220
+   }
+  },
+  {
+   "saida": "r59_02_tres-lojas.png",
+   "semente": 92,
+   "molde": "colunas",
+   "titulo": "TRÊS LOJAS NA PRAIA",
+   "colunas": [
+    {
+     "titulo": "LOJA 1 · SORVETE + PICOLÉ",
+     "texto": "- SOL: VENDE OS DOIS\n- CHUVA: NADA\n- {laranja:ρ = +1}\n- FATURAMENTO SOBE E DESPENCA"
+    },
+    {
+     "titulo": "LOJA 2 · SORVETE + JORNAL",
+     "texto": "- UM NÃO INTERFERE NO OUTRO\n- {laranja:ρ = 0}\n- FATURAMENTO OSCILA MENOS"
+    },
+    {
+     "titulo": "LOJA 3 · SORVETE + GUARDA-CHUVA",
+     "texto": "- SOL: SORVETE\n- CHUVA: GUARDA-CHUVA\n- {laranja:ρ = −1}\n- FATURAMENTO QUASE RETO"
+    }
+   ],
+   "destaque": "NÃO É SÓ O QUE VOCÊ VENDE, É COMO OS PRODUTOS SE COMBINAM"
+  },
+  {
+   "saida": "r59_03_tres-ingredientes.png",
+   "semente": 93,
+   "molde": "topicos",
+   "titulo": "1. OS 3 INGREDIENTES DO RISCO DA CARTEIRA",
+   "desenho": {
+    "nome": "balanca",
+    "cor": "laranja",
+    "largura": 220
+   },
+   "texto": "1. {laranja:VOLATILIDADE} DE CADA ATIVO (σ)\n2. {laranja:PESO} DE CADA ATIVO NA CARTEIRA (W)\n3. {laranja:CORRELAÇÃO} ENTRE OS ATIVOS (ρ, DE −1 A +1)\n\n{amarelo:RISCO DA CARTEIRA ≠ SOMA (NEM MÉDIA) DOS RISCOS}\n- SÓ É IGUAL À MÉDIA PONDERADA QUANDO ρ = +1\n- CORRELAÇÃO BAIXA OU NEGATIVA → OS ATIVOS SE COMPENSAM → {verde:RISCO TOTAL MENOR}"
+  },
+  {
+   "saida": "r59_04_duas-formulas.png",
+   "semente": 94,
+   "molde": "topicos",
+   "titulo": "2. AS DUAS FÓRMULAS DA CARTEIRA",
+   "texto": "{ciano:RETORNO ESPERADO (MÉDIA PONDERADA):}\n  E(R_{P}) = W_{1} × E(R_{1}) + W_{2} × E(R_{2})\n{ciano:RISCO (DESVIO PADRÃO) DE 2 ATIVOS:}\n  σ_{P} = √( W_{1}²σ_{1}² + W_{2}²σ_{2}² + 2 × W_{1} × W_{2} × ρ × σ_{1} × σ_{2} )\n- W_{1}²σ_{1}² → RISCO DO ATIVO 1 COM O SEU PESO\n- W_{2}²σ_{2}² → RISCO DO ATIVO 2 COM O SEU PESO\n- 2·W_{1}·W_{2}·ρ·σ_{1}·σ_{2} → {laranja:PARCELA DA CORRELAÇÃO} (A ÚNICA QUE PODE DIMINUIR O TOTAL)\n- ρ = +1 → PARCELA CRUZADA MÁXIMA → σ_{P} = MÉDIA PONDERADA → {vermelho:SEM BENEFÍCIO}\n- ρ < 1 → σ_{P} ABAIXO DA MÉDIA PONDERADA → {verde:BENEFÍCIO DA DIVERSIFICAÇÃO}\n- ρ = −1 → {verde:MÁXIMO BENEFÍCIO} (COM OS PESOS CERTOS, O RISCO PODE ZERAR)"
+  },
+  {
+   "saida": "r59_05_diversificar.png",
+   "semente": 95,
+   "molde": "topicos",
+   "titulo": "3. DIVERSIFICAR = MISTURAR O QUE SE COMPORTA DIFERENTE",
+   "largura_texto": 1020,
+   "texto": "- {ciano:REGRA:} HÁ BENEFÍCIO {verde:SEMPRE QUE ρ < 1} · QUANTO MENOR O ρ, MAIOR A REDUÇÃO DE RISCO\n- {ciano:NA PRÁTICA:}\n  1. RENDA FIXA + RENDA VARIÁVEL\n  2. ATIVOS LOCAIS + INTERNACIONAIS\n  3. CLASSES DIFERENTES: IMÓVEIS · COMMODITIES · EM ALGUNS CASOS, CRIPTOATIVOS",
+   "destaque": {
+    "texto": "⚠️ DIVERSIFICAÇÃO ≠ PULVERIZAÇÃO · MUITOS ATIVOS MUITO CORRELACIONADOS NÃO REDUZEM O RISCO",
+    "cor": "vermelho",
+    "moldura": "vermelho"
+   },
+   "elementos": [
+    {
+     "tipo": "texto",
+     "id": "ponte",
+     "x": 1160,
+     "y": 200,
+     "largura": 360,
+     "tamanho": 30,
+     "cor": "cinza",
+     "lista": false,
+     "texto": "PONTE PARA A R60: A DIVERSIFICAÇÃO REDUZ O RISCO DE CADA ATIVO, MAS NÃO ELIMINA O RISCO DO MERCADO"
+    }
+   ]
+  },
+  {
+   "saida": "r59_06_pegadinhas.png",
+   "semente": 96,
+   "molde": "pegadinhas",
+   "titulo": "⚠️ AS 5 PEGADINHAS DA BANCA",
+   "itens": [
+    {
+     "frase": "O RISCO DA CARTEIRA É A MÉDIA PONDERADA DOS RISCOS",
+     "correcao": "SÓ QUANDO ρ = +1"
+    },
+    {
+     "frase": "DIVERSIFICAR REDUZ O RETORNO ESPERADO",
+     "correcao": "O RETORNO É A MÉDIA PONDERADA; O QUE CAI É O RISCO"
+    },
+    {
+     "frase": "CORRELAÇÃO ZERO ELIMINA O RISCO DA CARTEIRA",
+     "correcao": "REDUZ; QUEM PODE ZERAR É ρ = −1 COM OS PESOS CERTOS"
+    },
+    {
+     "frase": "MAIS ATIVOS = MAIS DIVERSIFICAÇÃO",
+     "correcao": "PULVERIZAÇÃO COM ATIVOS CORRELACIONADOS NÃO AJUDA"
+    },
+    {
+     "frase": "A DIVERSIFICAÇÃO ELIMINA TODO O RISCO",
+     "correcao": "O RISCO DE MERCADO PERMANECE"
+    }
+   ]
+  },
+  {
+   "saida": "r59_07_carteira-50-50.png",
+   "semente": 97,
+   "molde": "colunas",
+   "titulo": "CARTEIRA 50/50 (números hipotéticos)",
+   "topo": "- CARTEIRA COM {laranja:50%} EM CADA ATIVO\n- ATIVO 1: RETORNO ESPERADO {laranja:8%} · RISCO (σ) {laranja:5%}\n- ATIVO 2: RETORNO ESPERADO {laranja:14%} · RISCO (σ) {laranja:20%}",
+   "colunas": [
+    {
+     "titulo": "ρ = +1",
+     "texto": "- RETORNO: ?\n- RISCO: ?"
+    },
+    {
+     "titulo": "ρ = +0,3",
+     "texto": "- RETORNO: ?\n- RISCO: ?"
+    },
+    {
+     "titulo": "ρ = −0,5",
+     "texto": "- RETORNO: ?\n- RISCO: ?"
+    }
+   ],
+   "destaque": {
+    "texto": "COEFICIENTE DE DIVERSIFICAÇÃO = MÉDIA PONDERADA DOS RISCOS ÷ RISCO DA CARTEIRA",
+    "cor": "laranja"
+   }
+  }
+ ]
+}

@@ -1,0 +1,559 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r50a-1_01_abertura-mito.png",
+   "semente": 5001,
+   "molde": "mito_verdade",
+   "titulo": "R50A-1 · REGIMES DE TRIBUTAÇÃO (C-PRO R 3.7.5)",
+   "caso": "CASO: {laranja:JAN/2024} · LEI {laranja:14.803} · A ESCOLHA PASSA PARA O 1º RESGATE OU BENEFÍCIO",
+   "mitos": [
+    "O REGIME SE ESCOLHE NA CONTRATAÇÃO DO PLANO"
+   ],
+   "verdade": "ESCOLHA ATÉ O 1º RESGATE OU BENEFÍCIO · DEPOIS, NÃO VOLTA",
+   "desenho": {
+    "nome": "placa",
+    "largura": 220
+   }
+  },
+  {
+   "saida": "r50a-1_02_porta-de-saida.png",
+   "semente": 5002,
+   "molde": "metafora",
+   "titulo": "A PORTA DE SAÍDA",
+   "estrada": false,
+   "itens": [
+    {
+     "desenho": "ampulheta",
+     "cor": "laranja",
+     "nome": "RELÓGIO (35% → 10%)",
+     "legenda": "REGIME REGRESSIVO"
+    },
+    {
+     "desenho": "balanca",
+     "cor": "ciano",
+     "nome": "BALANÇA (0% → 27,5%)",
+     "legenda": "REGIME PROGRESSIVO"
+    },
+    {
+     "desenho": "placa",
+     "cor": "amarelo",
+     "nome": "PLACA: \"ESCOLHA ATÉ O 1º RESGATE; DEPOIS, NÃO VOLTA\"",
+     "legenda": "OPÇÃO IRRETRATÁVEL"
+    }
+   ]
+  },
+  {
+   "saida": "r50a-1_03_placa-na-porta.png",
+   "semente": 5003,
+   "molde": "topicos",
+   "titulo": "1. A PLACA NA PORTA",
+   "texto": "- {laranja:PROGRESSIVO} = TRIBUTÁVEL = COMPENSÁVEL\n- {laranja:REGRESSIVO} = DEFINITIVO = EXCLUSIVO\n- OS DOIS VALEM PARA {laranja:PGBL E VGBL}\n- BALANÇA → DEPENDE DE {laranja:QUANTO} · RELÓGIO → DEPENDE DE {laranja:QUANTO TEMPO}\n- ESCOLHA: {verde:ATÉ} O 1º RESGATE OU BENEFÍCIO · {vermelho:IRRETRATÁVEL} (LEI 14.803/2024)\n- NÃO OPTOU → {laranja:PROGRESSIVO}\n  - BENEFICIÁRIOS PODEM OPTAR · REOPÇÃO PARA QUEM JÁ ERA REGRESSIVO\n- APOSTILA: {vermelho:\"A SUSEP MUDOU\"} → FOI A {verde:LEI}"
+  },
+  {
+   "saida": "r50a-1_04_pegadinhas.png",
+   "semente": 5004,
+   "molde": "pegadinhas",
+   "titulo": "⚠️ PEGADINHAS",
+   "itens": [
+    {
+     "frase": "O REGIME SE ESCOLHE NA CONTRATAÇÃO",
+     "correcao": "ATÉ O 1º RESGATE OU BENEFÍCIO"
+    },
+    {
+     "frase": "DÁ PARA TROCAR DE REGIME A CADA RESGATE",
+     "correcao": "A OPÇÃO É IRRETRATÁVEL"
+    },
+    {
+     "frase": "QUEM NÃO ESCOLHE FICA NO REGRESSIVO",
+     "correcao": "FICA NO PROGRESSIVO"
+    },
+    {
+     "frase": "FOI A SUSEP QUE MUDOU A REGRA",
+     "correcao": "FOI A LEI 14.803/2024"
+    }
+   ]
+  },
+  {
+   "saida": "r50a-1_05_exercicio.png",
+   "semente": 5005,
+   "molde": "colunas",
+   "titulo": "MESMO RESGATE, MESMA FAIXA",
+   "topo": "- PGBL · RESGATE DE {laranja:R$ 20.000} · APORTES DE {laranja:1 ANO} · CLIENTE NA FAIXA DE {laranja:27,5%}\n- MUDA SÓ SE A ESCOLHA AINDA ESTÁ ABERTA (NÚMEROS HIPOTÉTICOS)",
+   "colunas": [
+    {
+     "titulo": "CENÁRIO 1 · ANA",
+     "texto": "- NUNCA OPTOU → {laranja:PROGRESSIVO}\n- RETIDO NA FONTE: ?\n- IMPOSTO FINAL: ?"
+    },
+    {
+     "titulo": "CENÁRIO 2 · BRUNO",
+     "texto": "- OPTOU PELO REGRESSIVO EM {laranja:2018}\n- RESGATOU EM {laranja:2025} SEM REOPTAR → {laranja:REGRESSIVO, 35%}\n- IMPOSTO: ?\n- A MAIS QUE ANA: ?"
+    }
+   ]
+  },
+  {
+   "saida": "r50a-1_06_hp12c.png",
+   "semente": 5006,
+   "molde": "hp12c",
+   "titulo": "NA HP12C",
+   "primeiro": 1,
+   "passos": [
+    {
+     "nome": "MEMÓRIAS ZERADAS, 2 CASAS DECIMAIS",
+     "teclas": "[f] [REG] [f] [2]",
+     "visor": "0,00"
+    },
+    {
+     "nome": "ANA: 15% RETIDOS NA FONTE, COMO ANTECIPAÇÃO",
+     "teclas": "20.000 [ENTER] 15 [%]",
+     "visor": "3.000,00"
+    },
+    {
+     "nome": "ANA: IMPOSTO FINAL NA FAIXA DE 27,5%, ACERTADO NA DECLARAÇÃO",
+     "teclas": "20.000 [ENTER] 27,5 [%] [STO] 1",
+     "visor": "5.500,00"
+    },
+    {
+     "nome": "BRUNO: 35%, DEFINITIVOS",
+     "teclas": "20.000 [ENTER] 35 [%]",
+     "visor": "7.000,00"
+    },
+    {
+     "nome": "BRUNO PAGA R$ 1.500 A MAIS",
+     "teclas": "[RCL] 1 [−]",
+     "visor": "1.500,00"
+    }
+   ]
+  },
+  {
+   "saida": "r50a-2_01_abertura-mito.png",
+   "semente": 5007,
+   "molde": "mito_verdade",
+   "titulo": "R50A-2 · REGIME PROGRESSIVO (C-PRO R 3.7.5.1)",
+   "caso": "CASO: {laranja:JAN/2026} · LEI {laranja:15.270} · IR MENSAL ZERO ATÉ {laranja:R$ 5.000}",
+   "mitos": [
+    "OS 15% RETIDOS NO RESGATE SÃO O IMPOSTO FINAL"
+   ],
+   "verdade": "NO PROGRESSIVO, O IMPOSTO É ACERTADO NA DECLARAÇÃO, PELA RENDA DO ANO",
+   "desenho": {
+    "nome": "balanca",
+    "largura": 220
+   }
+  },
+  {
+   "saida": "r50a-2_02_balanca.png",
+   "semente": 5008,
+   "molde": "metafora",
+   "titulo": "A BALANÇA DA PORTA DE SAÍDA",
+   "estrada": false,
+   "itens": [
+    {
+     "desenho": "balanca_peso",
+     "cor": "ciano",
+     "nome": "O QUE VAI NO PRATO",
+     "legenda": "RENDA TRIBUTÁVEL DO ANO"
+    },
+    {
+     "desenho": "termometro",
+     "cor": "laranja",
+     "nome": "ESCALA DE 0% A 27,5%",
+     "legenda": "TABELA PROGRESSIVA"
+    },
+    {
+     "desenho": "prancheta",
+     "cor": "amarelo",
+     "nome": "RECIBO PROVISÓRIO",
+     "legenda": "15% RETIDOS NO RESGATE, ACERTADOS NA DECLARAÇÃO"
+    }
+   ]
+  },
+  {
+   "saida": "r50a-2_03_a-balanca.png",
+   "semente": 5009,
+   "molde": "topicos",
+   "titulo": "2. A BALANÇA",
+   "texto": "- {laranja:BENEFÍCIO} (RENDA) → TABELA {laranja:MENSAL} + AJUSTE\n- {laranja:RESGATE} → {laranja:15%} DE ANTECIPAÇÃO + AJUSTE\n- BASE: {laranja:PGBL} → VALOR {vermelho:TOTAL} · {laranja:VGBL} → SÓ {verde:RENDIMENTOS}\n- TABELA 2026: ATÉ {laranja:R$ 2.428,80} → {verde:0}\n  - ACIMA DE {laranja:R$ 4.664,68} → {vermelho:27,5%}\n  - DESCONTO SIMPLIFICADO {laranja:R$ 607,20}\n- LEI 15.270: MENSAL {verde:0 ATÉ R$ 5.000} · REDUÇÃO ATÉ {laranja:R$ 7.350}\n  - ANUAL {verde:0 ATÉ R$ 60.000}\n- 65+: PARCELA ISENTA {laranja:R$ 1.903,98/MÊS} · {vermelho:SÓ NO PROGRESSIVO}"
+  },
+  {
+   "saida": "r50a-2_04_pegadinhas.png",
+   "semente": 5010,
+   "molde": "pegadinhas",
+   "titulo": "⚠️ PEGADINHAS",
+   "itens": [
+    {
+     "frase": "OS 15% DO RESGATE SÃO DEFINITIVOS",
+     "correcao": "ANTECIPAÇÃO, COM AJUSTE"
+    },
+    {
+     "frase": "NO VGBL PROGRESSIVO, O IR INCIDE SOBRE O VALOR TOTAL",
+     "correcao": "SÓ SOBRE OS RENDIMENTOS"
+    },
+    {
+     "frase": "A RENDA DA PREVIDÊNCIA É TRIBUTADA SEPARADA DAS OUTRAS RENDAS",
+     "correcao": "SOMA NA DECLARAÇÃO"
+    },
+    {
+     "frase": "A PARCELA ISENTA DE 65 ANOS VALE NO REGRESSIVO",
+     "correcao": "SÓ NO PROGRESSIVO"
+    }
+   ]
+  },
+  {
+   "saida": "r50a-2_05_exercicio.png",
+   "semente": 5011,
+   "molde": "colunas",
+   "titulo": "MESMO PGBL, MESMA PESSOA SEM OUTRA RENDA, SÓ COM O DESCONTO SIMPLIFICADO",
+   "topo": "- VALORES DE 2026 · DESCONTO SIMPLIFICADO {laranja:R$ 607,20} (NÚMEROS HIPOTÉTICOS)\n- MUDA SÓ O TAMANHO DA RENDA MENSAL",
+   "colunas": [
+    {
+     "titulo": "CENÁRIO 1",
+     "texto": "- RENDA DE {laranja:R$ 4.000} POR MÊS\n- BASE: ?\n- IR DO MÊS: ?"
+    },
+    {
+     "titulo": "CENÁRIO 2",
+     "texto": "- RENDA DE {laranja:R$ 8.000} POR MÊS\n- BASE: ?\n- IR DO MÊS: ?"
+    }
+   ]
+  },
+  {
+   "saida": "r50a-2_06_hp12c.png",
+   "semente": 5012,
+   "molde": "hp12c",
+   "titulo": "NA HP12C",
+   "primeiro": 1,
+   "passos": [
+    {
+     "nome": "MEMÓRIAS ZERADAS, 2 CASAS DECIMAIS",
+     "teclas": "[f] [REG] [f] [2]",
+     "visor": "0,00"
+    },
+    {
+     "nome": "CENÁRIO 1: BASE DEPOIS DO DESCONTO SIMPLIFICADO",
+     "teclas": "4.000 [ENTER] 607,20 [−]",
+     "visor": "3.392,80"
+    },
+    {
+     "nome": "FAIXA DE 15%: IR PELA TABELA",
+     "teclas": "15 [%] 394,16 [−]",
+     "visor": "114,76"
+    },
+    {
+     "nome": "A REDUÇÃO (ATÉ R$ 312,89) É MAIOR QUE O IMPOSTO: IR ZERO",
+     "teclas": "312,89 [−]",
+     "visor": "−198,13"
+    },
+    {
+     "nome": "CENÁRIO 2: BASE DEPOIS DO DESCONTO SIMPLIFICADO",
+     "teclas": "8.000 [ENTER] 607,20 [−]",
+     "visor": "7.392,80"
+    },
+    {
+     "nome": "IR PELA TABELA, SEM REDUÇÃO (ACIMA DE R$ 7.350)",
+     "teclas": "27,5 [%] 908,73 [−]",
+     "visor": "1.124,29"
+    }
+   ]
+  },
+  {
+   "saida": "r50a-3_01_abertura-mito.png",
+   "semente": 5013,
+   "molde": "mito_verdade",
+   "titulo": "R50A-3 · REGIME REGRESSIVO (C-PRO R 3.7.5.2)",
+   "caso": "CASO: PGBL REGRESSIVO DESDE {laranja:2014} · APORTE NOVO EM {laranja:2025} · RESGATE DE {laranja:R$ 100 MIL} EM {laranja:2026}",
+   "mitos": [
+    "NO REGRESSIVO, A ALÍQUOTA DEPENDE DA IDADE DO PLANO"
+   ],
+   "verdade": "CADA APORTE TEM O SEU RELÓGIO · SAEM PRIMEIRO OS MAIS ANTIGOS",
+   "desenho": {
+    "nome": "ampulheta",
+    "largura": 200
+   }
+  },
+  {
+   "saida": "r50a-3_02_relogio-e-fila.png",
+   "semente": 5014,
+   "molde": "metafora",
+   "titulo": "O RELÓGIO E A FILA DE CAIXAS",
+   "estrada": false,
+   "itens": [
+    {
+     "desenho": "ampulheta",
+     "cor": "laranja",
+     "nome": "CADA CAIXA COM O SEU RELÓGIO",
+     "legenda": "PRAZO DE CADA APORTE"
+    },
+    {
+     "desenho": "grafico_baixa",
+     "cor": "ciano",
+     "nome": "ESCALA DE 35% A 10%",
+     "legenda": "TABELA REGRESSIVA"
+    },
+    {
+     "desenho": "caminhao",
+     "cor": "amarelo",
+     "nome": "FILA: SAEM PRIMEIRO AS MAIS ANTIGAS",
+     "legenda": "PEPS"
+    },
+    {
+     "desenho": "check",
+     "cor": "verde",
+     "nome": "CARIMBO: PAGO E ENCERRADO",
+     "legenda": "TRIBUTO DEFINITIVO"
+    }
+   ]
+  },
+  {
+   "saida": "r50a-3_03_o-relogio.png",
+   "semente": 5015,
+   "molde": "topicos",
+   "titulo": "3. O RELÓGIO",
+   "texto": "- {vermelho:35%} (ATÉ 2 ANOS) · 30% · 25% · 20% · 15% · {verde:10%} (MAIS DE 10 ANOS)\n- PRAZO: DE {laranja:CADA APORTE} ATÉ O PAGAMENTO\n  - 2 ANOS EXATOS → AINDA {vermelho:35%}\n- {laranja:DEFINITIVO / EXCLUSIVO} NA FONTE → {vermelho:SEM} AJUSTE ANUAL\n- RESGATE E RENDA NÃO ATUARIAL → {laranja:PEPS}\n- RENDA ATUARIAL (VITALÍCIA) → {laranja:PRAZO MÉDIO}, ALÍQUOTA CONTINUA {verde:CAINDO}\n- 65+: PARCELA ISENTA {vermelho:NÃO} VALE NO REGRESSIVO (COSIT 280/2017)"
+  },
+  {
+   "saida": "r50a-3_04_pegadinhas.png",
+   "semente": 5016,
+   "molde": "pegadinhas",
+   "titulo": "⚠️ PEGADINHAS",
+   "itens": [
+    {
+     "frase": "O PRAZO CONTA DA CONTRATAÇÃO DO PLANO",
+     "correcao": "DE CADA APORTE"
+    },
+    {
+     "frase": "NO PEPS, SAEM PRIMEIRO OS APORTES RECENTES",
+     "correcao": "OS MAIS ANTIGOS"
+    },
+    {
+     "frase": "O REGRESSIVO ENTRA NO AJUSTE ANUAL",
+     "correcao": "É DEFINITIVO NA FONTE"
+    },
+    {
+     "frase": "COM EXATAMENTE 2 ANOS, JÁ PAGA 30%",
+     "correcao": "ATÉ 2 ANOS, INCLUSIVE, 35%"
+    }
+   ]
+  },
+  {
+   "saida": "r50a-3_05_exercicio.png",
+   "semente": 5017,
+   "molde": "colunas",
+   "titulo": "MESMO PGBL REGRESSIVO",
+   "topo": "- {laranja:APORTE ANTIGO}: 12 ANOS, VALE {laranja:R$ 90 MIL} → {verde:10%}\n- {laranja:APORTE RECENTE}: 1 ANO, VALE {laranja:R$ 52 MIL} → {vermelho:35%}\n- MUDA SÓ O VALOR DO RESGATE (NÚMEROS HIPOTÉTICOS)",
+   "colunas": [
+    {
+     "titulo": "CENÁRIO 1",
+     "texto": "- RESGATE DE {laranja:R$ 60 MIL}\n- DE QUAL APORTE SAI: ?\n- IR: ?"
+    },
+    {
+     "titulo": "CENÁRIO 2",
+     "texto": "- RESGATE DE {laranja:R$ 100 MIL}\n- IR TOTAL: ?\n- ALÍQUOTA MÉDIA: ?"
+    }
+   ]
+  },
+  {
+   "saida": "r50a-3_06_hp12c.png",
+   "semente": 5018,
+   "molde": "hp12c",
+   "titulo": "NA HP12C",
+   "primeiro": 1,
+   "passos": [
+    {
+     "nome": "MEMÓRIAS ZERADAS, 2 CASAS DECIMAIS",
+     "teclas": "[f] [REG] [f] [2]",
+     "visor": "0,00"
+    },
+    {
+     "nome": "CENÁRIO 1: SAI TODO DO APORTE ANTIGO, A 10%",
+     "teclas": "60.000 [ENTER] 10 [%]",
+     "visor": "6.000,00"
+    },
+    {
+     "nome": "CENÁRIO 2: OS R$ 90 MIL DO APORTE ANTIGO, A 10%",
+     "teclas": "90.000 [ENTER] 10 [%] [STO] 1",
+     "visor": "9.000,00"
+    },
+    {
+     "nome": "R$ 10 MIL SAEM DO APORTE RECENTE",
+     "teclas": "100.000 [ENTER] 90.000 [−]",
+     "visor": "10.000,00"
+    },
+    {
+     "nome": "ESSA PARTE PAGA 35%",
+     "teclas": "35 [%]",
+     "visor": "3.500,00"
+    },
+    {
+     "nome": "IR TOTAL DO RESGATE DE R$ 100 MIL",
+     "teclas": "[RCL] 1 [+]",
+     "visor": "12.500,00"
+    },
+    {
+     "nome": "ALÍQUOTA MÉDIA DE 12,5%",
+     "teclas": "100.000 [÷] 100 [×]",
+     "visor": "12,50"
+    }
+   ]
+  },
+  {
+   "saida": "r50a-4_01_abertura-mito.png",
+   "semente": 5019,
+   "molde": "mito_verdade",
+   "titulo": "R50A-4 · QUAL REGIME? (C-PRO R 3.7.5.1 E 3.7.5.2)",
+   "caso": "CASO: RENDA DE {laranja:R$ 5.500/MÊS} DO PLANO · REGRESSIVO {laranja:R$ 550} · PROGRESSIVO 2026 CERCA DE {laranja:R$ 190}",
+   "mitos": [
+    "O REGRESSIVO É SEMPRE O MELHOR PARA A APOSENTADORIA"
+   ],
+   "verdade": "O MELHOR REGIME DEPENDE DO PRAZO, DO TAMANHO DA RENDA E DAS OUTRAS RENDAS",
+   "desenho": {
+    "nome": "balanca",
+    "largura": 220
+   }
+  },
+  {
+   "saida": "r50a-4_02_balanca-ou-relogio.png",
+   "semente": 5020,
+   "molde": "metafora",
+   "titulo": "A BALANÇA, O RELÓGIO E A RÉGUA",
+   "estrada": false,
+   "itens": [
+    {
+     "desenho": "dinheiro",
+     "cor": "vermelho",
+     "nome": "DINHEIRO QUE SAI CEDO",
+     "legenda": "RELÓGIO EM 35%"
+    },
+    {
+     "desenho": "balanca",
+     "cor": "ciano",
+     "nome": "RENDA PEQUENA",
+     "legenda": "BALANÇA PERTO DE ZERO"
+    },
+    {
+     "desenho": "ampulheta",
+     "cor": "verde",
+     "nome": "DINHEIRO ANTIGO E RENDA GRANDE",
+     "legenda": "RELÓGIO EM 10%"
+    },
+    {
+     "desenho": "alvo",
+     "cor": "laranja",
+     "nome": "RÉGUA ENTRE AS DUAS",
+     "legenda": "PONTO DE EQUILÍBRIO"
+    }
+   ]
+  },
+  {
+   "saida": "r50a-4_03_balanca-ou-relogio.png",
+   "semente": 5021,
+   "molde": "topicos",
+   "titulo": "4. BALANÇA OU RELÓGIO?",
+   "texto": "- APOSTILA: {laranja:HORIZONTE · RENDA FUTURA · RESGATE × RENDA · PGBL × VGBL · OUTRAS RENDAS}\n- PRAZO CURTO OU RENDA BAIXA → {laranja:PROGRESSIVO}\n- PRAZO LONGO E RENDA ALTA → {laranja:REGRESSIVO}\n- 2026, SÓ A RENDA DO PLANO: EQUILÍBRIO {laranja:CERCA DE R$ 6.667/MÊS}\n- RESGATE EM ATÉ 2 ANOS NO REGRESSIVO → {vermelho:35%}\n- VGBL NA MORTE (COSIT 28/2026): {verde:RISCO ISENTO}\n  - RENDIMENTOS → {laranja:REGIME DO PLANO}"
+  },
+  {
+   "saida": "r50a-4_04_pegadinhas.png",
+   "semente": 5022,
+   "molde": "pegadinhas",
+   "titulo": "⚠️ PEGADINHAS",
+   "itens": [
+    {
+     "frase": "O REGRESSIVO É SEMPRE O MELHOR PARA A APOSENTADORIA",
+     "correcao": "DEPENDE DA RENDA"
+    },
+    {
+     "frase": "RESGATE EM 1 ANO: ESCOLHA O REGRESSIVO",
+     "correcao": "35%"
+    },
+    {
+     "frase": "O EQUILÍBRIO DE R$ 6.667 VALE PARA TODO CLIENTE",
+     "correcao": "OUTRAS RENDAS E DEDUÇÕES MUDAM"
+    },
+    {
+     "frase": "O REGIME NÃO AFETA O QUE OS BENEFICIÁRIOS RECEBEM",
+     "correcao": "COSIT 28/2026"
+    }
+   ]
+  },
+  {
+   "saida": "r50a-4_05_exercicio.png",
+   "semente": 5023,
+   "molde": "colunas",
+   "titulo": "MESMA PESSOA, SÓ A RENDA DO PLANO, SÓ COM O DESCONTO SIMPLIFICADO",
+   "topo": "- VALORES DE 2026 · REGRESSIVO COM MAIS DE 10 ANOS ({laranja:10%}) · MUDA SÓ A RENDA MENSAL (NÚMEROS HIPOTÉTICOS)\n- CONTA: {laranja:IR = TABELA SOBRE (RENDA − 607,20) − REDUÇÃO DA LEI 15.270}",
+   "colunas": [
+    {
+     "titulo": "CENÁRIO 1",
+     "texto": "- {laranja:R$ 5.500} POR MÊS\n- PROGRESSIVO: ?\n- REGRESSIVO: ?"
+    },
+    {
+     "titulo": "CENÁRIO 2",
+     "texto": "- {laranja:R$ 7.200} POR MÊS\n- PROGRESSIVO: ?\n- REGRESSIVO: ?"
+    }
+   ]
+  },
+  {
+   "saida": "r50a-4_06_hp12c-1.png",
+   "semente": 5024,
+   "molde": "hp12c",
+   "titulo": "NA HP12C (1/2)",
+   "primeiro": 1,
+   "passos": [
+    {
+     "nome": "MEMÓRIAS ZERADAS, 2 CASAS DECIMAIS",
+     "teclas": "[f] [REG] [f] [2]",
+     "visor": "0,00"
+    },
+    {
+     "nome": "CENÁRIO 1: IR PELA TABELA",
+     "teclas": "5.500 [ENTER] 607,20 [−] 27,5 [%] 908,73 [−] [STO] 1",
+     "visor": "436,79"
+    },
+    {
+     "nome": "REDUÇÃO DA LEI 15.270",
+     "teclas": "978,62 [ENTER] 0,133145 [ENTER] 5.500 [×] [−]",
+     "visor": "246,32"
+    },
+    {
+     "nome": "PROGRESSIVO: R$ 190,47 POR MÊS",
+     "teclas": "[RCL] 1 [x<>y] [−]",
+     "visor": "190,47"
+    },
+    {
+     "nome": "REGRESSIVO: R$ 550 POR MÊS",
+     "teclas": "5.500 [ENTER] 10 [%]",
+     "visor": "550,00"
+    }
+   ]
+  },
+  {
+   "saida": "r50a-4_07_hp12c-2.png",
+   "semente": 5025,
+   "molde": "hp12c",
+   "titulo": "NA HP12C (2/2)",
+   "primeiro": 6,
+   "passos": [
+    {
+     "nome": "CENÁRIO 2: IR PELA TABELA",
+     "teclas": "7.200 [ENTER] 607,20 [−] 27,5 [%] 908,73 [−] [STO] 1",
+     "visor": "904,29"
+    },
+    {
+     "nome": "A REDUÇÃO QUASE ACABOU",
+     "teclas": "978,62 [ENTER] 0,133145 [ENTER] 7.200 [×] [−]",
+     "visor": "19,98"
+    },
+    {
+     "nome": "PROGRESSIVO: R$ 884,31 POR MÊS",
+     "teclas": "[RCL] 1 [x<>y] [−]",
+     "visor": "884,31"
+    },
+    {
+     "nome": "REGRESSIVO: R$ 720 POR MÊS",
+     "teclas": "7.200 [ENTER] 10 [%]",
+     "visor": "720,00"
+    }
+   ]
+  }
+ ]
+}
