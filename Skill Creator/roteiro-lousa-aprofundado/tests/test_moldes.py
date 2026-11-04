@@ -44,9 +44,8 @@ class TesteComparacao(unittest.TestCase):
             self.assertEqual(img.size, (1920, 1080))
             self.assertTrue(os.path.exists(png))
 
-    @unittest.skip("Tarefa 4: conferir_lousas.ocupacao")
     def test_comparacao_amostra_ocupa_70(self):
-        import conferir_lousas
+        import conferir_lousas  # noqa: E402
         with tempfile.TemporaryDirectory() as tmp:
             png = os.path.join(tmp, "r50-1_2_duas-rodovias.png")
             renderizar(DUAS_RODOVIAS, salvar=png)
