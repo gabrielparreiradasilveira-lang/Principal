@@ -1,0 +1,649 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r50b-1_01_abertura-mito.png",
+   "semente": 5101,
+   "molde": "mito_verdade",
+   "titulo": "R50B-1 · CONCEITOS TÉCNICOS (C-PRO R 3.7.6)",
+   "caso": "CASO: 2 CLIENTES · 65 ANOS · {laranja:R$ 1 MILHÃO} CADA · RENDA DE {laranja:~R$ 6.156} × {laranja:~R$ 4.433}",
+   "mitos": [
+    "QUEM TEM O MESMO SALDO RECEBE A MESMA RENDA"
+   ],
+   "verdade": "RENDA = SALDO TRANSFORMADO PELO FATOR DE RENDA (JURO, TÁBUA, TIPO DE RENDA, IDADES)",
+   "desenho": {
+    "nome": "dinheiro",
+    "largura": 220
+   }
+  },
+  {
+   "saida": "r50b-1_02_caixinha-dos-amigos.png",
+   "semente": 5102,
+   "molde": "metafora",
+   "titulo": "A CAIXINHA DOS 100 AMIGOS",
+   "estrada": false,
+   "itens": [
+    {
+     "desenho": "cofrinho",
+     "cor": "laranja",
+     "nome": "CAIXINHA + 100 AMIGOS DE 65 ANOS",
+     "legenda": "RENDA A CADA UM"
+    },
+    {
+     "desenho": "prancheta",
+     "cor": "ciano",
+     "nome": "LISTA DE QUEM AINDA ESTARÁ VIVO",
+     "legenda": "TÁBUA BIOMÉTRICA"
+    },
+    {
+     "desenho": "grafico_alta",
+     "cor": "verde",
+     "nome": "SETINHA DE RENDIMENTO",
+     "legenda": "JURO"
+    },
+    {
+     "desenho": "placa",
+     "cor": "amarelo",
+     "nome": "REGRA ESCRITA NA TAMPA",
+     "legenda": "TIPO DE RENDA"
+    }
+   ]
+  },
+  {
+   "saida": "r50b-1_03_maquina-de-renda.png",
+   "semente": 5103,
+   "molde": "topicos",
+   "titulo": "1. A MÁQUINA DE FAZER RENDA",
+   "texto": "- {laranja:BENEFÍCIO} = PAGAMENTO {laranja:ÚNICO} (FATOR 1) OU {laranja:RENDA}\n  - QUEM RECEBE RENDA = {laranja:ASSISTIDO}\n- {laranja:FATOR DE RENDA} = JURO (OU ETTJ) + TÁBUA (QUANDO FOR O CASO) → SALDO VIRA RENDA\n- {laranja:ATUARIAL} (USA TÁBUA: VITALÍCIA, TEMPORÁRIA, REVERSÍVEIS) × {laranja:FINANCEIRA} (SEM TÁBUA: PRAZO CERTO → SALDO AOS BENEFICIÁRIOS)\n- OFERTA: AVISO {laranja:90 DIAS} ANTES · VALE NO {laranja:MÍNIMO 5 DIAS} · PORTABILIDADE P/ OUTRA SEGURADORA · RENDA DE NO {laranja:MÍNIMO 5 ANOS}\n- CONTRATOU → {vermelho:NÃO MUDA · NÃO RESGATA · NÃO PORTA}"
+  },
+  {
+   "saida": "r50b-1_04_pegadinhas.png",
+   "semente": 5104,
+   "molde": "pegadinhas",
+   "titulo": "⚠️ PEGADINHAS",
+   "itens": [
+    {
+     "frase": "TODA RENDA USA A TÁBUA BIOMÉTRICA",
+     "correcao": "SÓ A ATUARIAL"
+    },
+    {
+     "frase": "DEPOIS DE CONTRATADA, A RENDA PODE SER RESGATADA",
+     "correcao": "NÃO MUDA, NÃO SE RESGATA, NÃO SE PORTA"
+    },
+    {
+     "frase": "A RENDA TEM DE SER CONTRATADA NA SEGURADORA DO PLANO",
+     "correcao": "PODE PORTAR ANTES DE CONTRATAR"
+    },
+    {
+     "frase": "O PLANO ESCOLHE SE OFERECE RENDA VITALÍCIA",
+     "correcao": "TODO PLANO OFERECE"
+    }
+   ]
+  },
+  {
+   "saida": "r50b-1_05_exercicio.png",
+   "semente": 5105,
+   "molde": "colunas",
+   "titulo": "MESMO SALDO, MESMO JURO, RENDA FINANCEIRA POR PRAZO CERTO",
+   "topo": "- {laranja:R$ 1 MILHÃO} · JURO REAL DE {laranja:4% A.A.} · MUDA SÓ O PRAZO (NÚMEROS HIPOTÉTICOS)",
+   "colunas": [
+    {
+     "titulo": "CENÁRIO 1",
+     "texto": "- {laranja:10 ANOS} (120 MESES)\n- RENDA MENSAL: ?"
+    },
+    {
+     "titulo": "CENÁRIO 2",
+     "texto": "- {laranja:20 ANOS} (240 MESES)\n- RENDA MENSAL: ?"
+    }
+   ]
+  },
+  {
+   "saida": "r50b-1_06_hp12c.png",
+   "semente": 5106,
+   "molde": "hp12c",
+   "titulo": "NA HP12C",
+   "passos": [
+    {
+     "nome": "MEMÓRIAS ZERADAS, 2 CASAS, PAGAMENTO NO FIM DO MÊS",
+     "teclas": "[f] [REG] [f] [2] [g] [END]",
+     "visor": "0,00"
+    },
+    {
+     "nome": "4% A.A. = CERCA DE 0,3274% A.M.",
+     "teclas": "1,04 [ENTER] 12 [1/x] [y^x] 1 [−] 100 [×] [i]",
+     "visor": "0,33"
+    },
+    {
+     "nome": "SALDO CONVERTIDO EM RENDA",
+     "teclas": "1.000.000 [PV]",
+     "visor": "1.000.000,00"
+    },
+    {
+     "nome": "CENÁRIO 1: POR MÊS, POR 10 ANOS",
+     "teclas": "120 [n] [PMT]",
+     "visor": "−10.090,56"
+    },
+    {
+     "nome": "CENÁRIO 2: POR MÊS, POR 20 ANOS",
+     "teclas": "240 [n] [PMT]",
+     "visor": "−6.022,19"
+    }
+   ]
+  },
+  {
+   "saida": "r50b-2_01_abertura-mito.png",
+   "semente": 5107,
+   "molde": "mito_verdade",
+   "titulo": "R50B-2 · TÁBUA BIOMÉTRICA (C-PRO R 3.7.6.1)",
+   "caso": "CASO: JUL/2026 · BR-EMS V.2026 · AOS 65 ANOS: HOMEM {laranja:20,7 ANOS} · MULHER {laranja:24,7 ANOS}",
+   "mitos": [
+    "TÁBUA COM MAIS LONGEVIDADE PAGA RENDA MAIOR"
+   ],
+   "verdade": "MAIS LONGEVIDADE → MAIS MESES DE PAGAMENTO → RENDA MENOR",
+   "desenho": {
+    "nome": "ampulheta",
+    "largura": 200
+   }
+  },
+  {
+   "saida": "r50b-2_02_lista-da-caixinha.png",
+   "semente": 5108,
+   "molde": "metafora",
+   "titulo": "A LISTA DA CAIXINHA",
+   "estrada": false,
+   "itens": [
+    {
+     "desenho": "prancheta",
+     "cor": "ciano",
+     "nome": "DAQUI A 1 ANO, FICAM 99; DAQUI A 10, FICAM 85...",
+     "legenda": "TÁBUA (PROBABILIDADES IDADE A IDADE)"
+    },
+    {
+     "desenho": "pessoa",
+     "cor": "laranja",
+     "nome": "QUEM PARTE CEDO DEIXA A SUA PARTE",
+     "legenda": "MUTUALISMO"
+    },
+    {
+     "desenho": "grafico_baixa",
+     "cor": "vermelho",
+     "nome": "LISTA MAIS OTIMISTA",
+     "legenda": "RENDA MENOR"
+    }
+   ]
+  },
+  {
+   "saida": "r50b-2_03_lista-de-quem-fica.png",
+   "semente": 5109,
+   "molde": "topicos",
+   "titulo": "2. A LISTA DE QUEM FICA",
+   "texto": "- {laranja:TÁBUA} (BIOMÉTRICA = ATUARIAL): PROBABILIDADES DE {laranja:SOBREVIVÊNCIA E MORTE}, IDADE A IDADE\n- USO: VALOR DA RENDA VITALÍCIA · PRAZO MÉDIO DE PAGAMENTO · RISCO DA SEGURADORA\n- AT-49 → AT-83 → AT-2000 ({laranja:MAIS LONGEVIDADE}) · {laranja:BR-EMS} = MERCADO SEGURADOR BRASILEIRO\n- NORMA: A TÁBUA DO {laranja:PLANO} · NA FALTA, {laranja:AT-2000 MALE} · PODE PREVER {laranja:MELHORIA}\n- {laranja:+ LONGEVIDADE} → {vermelho:RENDA MENOR} · HOMEM × MULHER: {laranja:TÁBUAS DIFERENTES}"
+  },
+  {
+   "saida": "r50b-2_04_pegadinhas.png",
+   "semente": 5110,
+   "molde": "pegadinhas",
+   "titulo": "⚠️ PEGADINHAS",
+   "itens": [
+    {
+     "frase": "MAIS LONGEVIDADE → RENDA MAIOR",
+     "correcao": "RENDA MENOR"
+    },
+    {
+     "frase": "A BR-EMS VEM DA POPULAÇÃO BRASILEIRA",
+     "correcao": "DO MERCADO SEGURADOR"
+    },
+    {
+     "frase": "A SEGURADORA ESCOLHE A TÁBUA NA HORA DA RENDA",
+     "correcao": "VALE A DO PLANO; NA FALTA, AT-2000 MALE"
+    },
+    {
+     "frase": "HOMEM E MULHER DA MESMA IDADE RECEBEM A MESMA VITALÍCIA",
+     "correcao": "TÁBUAS DIFERENTES"
+    }
+   ]
+  },
+  {
+   "saida": "r50b-2_05_exercicio.png",
+   "semente": 5111,
+   "molde": "colunas",
+   "titulo": "MESMO SALDO, MESMO JURO, MESMA IDADE",
+   "topo": "- {laranja:R$ 1 MILHÃO} · {laranja:4% A.A.} · {laranja:65 ANOS} · MUDA SÓ O SEXO (NÚMEROS HIPOTÉTICOS)\n- ATALHO: PRAZO = EXPECTATIVA DA BR-EMSSB V.2026",
+   "colunas": [
+    {
+     "titulo": "HOMEM",
+     "texto": "- 20,7 ANOS ~ {laranja:248 MESES}\n- RENDA MENSAL: ?"
+    },
+    {
+     "titulo": "MULHER",
+     "texto": "- 24,7 ANOS ~ {laranja:296 MESES}\n- RENDA MENSAL: ?\n- QUANTO MENOR: ?"
+    }
+   ]
+  },
+  {
+   "saida": "r50b-2_06_hp12c.png",
+   "semente": 5112,
+   "molde": "hp12c",
+   "titulo": "NA HP12C",
+   "passos": [
+    {
+     "nome": "MEMÓRIAS ZERADAS, 2 CASAS, PAGAMENTO NO FIM DO MÊS",
+     "teclas": "[f] [REG] [f] [2] [g] [END]",
+     "visor": "0,00"
+    },
+    {
+     "nome": "JURO REAL DE 4% A.A., EM TAXA MENSAL",
+     "teclas": "1,04 [ENTER] 12 [1/x] [y^x] 1 [−] 100 [×] [i]",
+     "visor": "0,33"
+    },
+    {
+     "nome": "SALDO CONVERTIDO EM RENDA",
+     "teclas": "1.000.000 [PV]",
+     "visor": "1.000.000,00"
+    },
+    {
+     "nome": "HOMEM: CERCA DE R$ 5.894 POR MÊS",
+     "teclas": "248 [n] [PMT] [CHS] [STO] 1",
+     "visor": "5.894,47"
+    },
+    {
+     "nome": "MULHER: CERCA DE R$ 5.281 POR MÊS",
+     "teclas": "296 [n] [PMT] [CHS]",
+     "visor": "5.280,68"
+    },
+    {
+     "nome": "A RENDA DA MULHER É 10,41% MENOR",
+     "teclas": "[RCL] 1 [x<>y] [Δ%]",
+     "visor": "−10,41"
+    }
+   ]
+  },
+  {
+   "saida": "r50b-3_01_abertura-mito.png",
+   "semente": 5113,
+   "molde": "mito_verdade",
+   "titulo": "R50B-3 · JURO ATUARIAL (C-PRO R 3.7.6.2)",
+   "caso": "CASO: {laranja:R$ 1 MILHÃO} · PRAZO CERTO DE {laranja:20 ANOS} · 3% → {laranja:R$ 5.525,74} · 6% → {laranja:R$ 7.072,92}",
+   "mitos": [
+    "JURO ATUARIAL MAIOR EXIGE RESERVA MAIOR"
+   ],
+   "verdade": "JURO MAIOR → RESERVA MENOR PARA A MESMA RENDA (OU RENDA MAIOR PARA A MESMA RESERVA)",
+   "desenho": {
+    "nome": "grafico_alta",
+    "largura": 220
+   }
+  },
+  {
+   "saida": "r50b-3_02_rendimento-da-caixinha.png",
+   "semente": 5114,
+   "molde": "metafora",
+   "titulo": "A CAIXINHA RENDENDO",
+   "estrada": false,
+   "itens": [
+    {
+     "desenho": "grafico_alta",
+     "cor": "verde",
+     "nome": "RENDIMENTO DA CAIXINHA",
+     "legenda": "JURO ATUARIAL"
+    },
+    {
+     "desenho": "cofrinho",
+     "cor": "laranja",
+     "nome": "QUANTO ELA PRECISA TER HOJE",
+     "legenda": "RESERVA"
+    },
+    {
+     "desenho": "placa",
+     "cor": "amarelo",
+     "nome": "TETO NA SETINHA",
+     "legenda": "6% REAL AO ANO"
+    }
+   ]
+  },
+  {
+   "saida": "r50b-3_03_rendimento-da-caixinha.png",
+   "semente": 5115,
+   "molde": "topicos",
+   "titulo": "3. O RENDIMENTO DA CAIXINHA",
+   "texto": "- {laranja:JURO ATUARIAL} = TAXA PROJETADA QUE TRAZ A {laranja:VALOR PRESENTE} OS PAGAMENTOS → {laranja:RESERVA}\n- {verde:JURO ↑ → RESERVA ↓} (MESMA RENDA) · {verde:RENDA ↑} (MESMA RESERVA)\n- TETO {laranja:6% A.A. REAL} + ÍNDICE (IPCA, IGP-M) · APOSTILA \"3% A 6%\" → A NORMA FIXA SÓ O {laranja:TETO}\n- {laranja:ETTJ} (CURVA DA ANBIMA): {vermelho:FORA DO TETO} · OFERTA INFORMA A TAXA REAL EQUIVALENTE\n- PARÂMETROS: DO {laranja:REGULAMENTO} OU DO {laranja:DIA DA OFERTA}\n- REVERSÃO: {laranja:70%} COM JURO 0 · FACULTATIVA A PARTIR DE {laranja:2,5%}"
+  },
+  {
+   "saida": "r50b-3_04_pegadinhas.png",
+   "semente": 5116,
+   "molde": "pegadinhas",
+   "titulo": "⚠️ PEGADINHAS",
+   "itens": [
+    {
+     "frase": "JURO MAIOR → RESERVA MAIOR",
+     "correcao": "RESERVA MENOR"
+    },
+    {
+     "frase": "JURO REAL DE 7%, SE O REGULAMENTO PREVER",
+     "correcao": "TETO DE 6%, SALVO A ETTJ"
+    },
+    {
+     "frase": "A NORMA EXIGE JURO DE NO MÍNIMO 3%",
+     "correcao": "NÃO HÁ PISO"
+    },
+    {
+     "frase": "O EXCEDENTE DO FUNDO FICA SEMPRE COM A SEGURADORA",
+     "correcao": "PODE HAVER REVERSÃO; MÍNIMO DE 70% COM JURO ZERO"
+    }
+   ]
+  },
+  {
+   "saida": "r50b-3_05_exercicio.png",
+   "semente": 5117,
+   "molde": "colunas",
+   "titulo": "MESMA RENDA, MESMO PRAZO",
+   "topo": "- {laranja:R$ 6.000} POR MÊS · {laranja:20 ANOS} · MUDA SÓ O JURO (NÚMEROS HIPOTÉTICOS)",
+   "colunas": [
+    {
+     "titulo": "CENÁRIO 1",
+     "texto": "- JURO REAL DE {laranja:3% A.A.}\n- RESERVA: ?"
+    },
+    {
+     "titulo": "CENÁRIO 2",
+     "texto": "- JURO REAL DE {laranja:6% A.A.}\n- RESERVA: ?\n- QUANTO A MENOS: ?"
+    }
+   ]
+  },
+  {
+   "saida": "r50b-3_06_hp12c-1.png",
+   "semente": 5118,
+   "molde": "hp12c",
+   "titulo": "NA HP12C (1/2)",
+   "passos": [
+    {
+     "nome": "MEMÓRIAS ZERADAS, 2 CASAS, PAGAMENTO NO FIM DO MÊS",
+     "teclas": "[f] [REG] [f] [2] [g] [END]",
+     "visor": "0,00"
+    },
+    {
+     "nome": "RENDA DESEJADA, QUE SAI DA RESERVA",
+     "teclas": "6.000 [CHS] [PMT]",
+     "visor": "−6.000,00"
+    },
+    {
+     "nome": "20 ANOS, EM MESES",
+     "teclas": "240 [n]",
+     "visor": "240,00"
+    },
+    {
+     "nome": "3% A.A. = CERCA DE 0,2466% A.M.",
+     "teclas": "1,03 [ENTER] 12 [1/x] [y^x] 1 [−] 100 [×] [i]",
+     "visor": "0,25"
+    },
+    {
+     "nome": "RESERVA A 3%",
+     "teclas": "[PV] [STO] 1",
+     "visor": "1.085.828,26"
+    }
+   ]
+  },
+  {
+   "saida": "r50b-3_07_hp12c-2.png",
+   "semente": 5119,
+   "molde": "hp12c",
+   "titulo": "NA HP12C (2/2)",
+   "primeiro": 6,
+   "passos": [
+    {
+     "nome": "6% A.A. = CERCA DE 0,4868% A.M.",
+     "teclas": "1,06 [ENTER] 12 [1/x] [y^x] 1 [−] 100 [×] [i]",
+     "visor": "0,49"
+    },
+    {
+     "nome": "RESERVA A 6%",
+     "teclas": "[PV]",
+     "visor": "848.305,82"
+    },
+    {
+     "nome": "O JURO DE 6% EXIGE R$ 237.522,44 A MENOS",
+     "teclas": "[RCL] 1 [x<>y] [−]",
+     "visor": "237.522,44"
+    }
+   ]
+  },
+  {
+   "saida": "r50b-4_01_abertura-mito.png",
+   "semente": 5201,
+   "molde": "mito_verdade",
+   "titulo": "R50B-4 · TIPOS DE RENDA (C-PRO R 3.7.6.3)",
+   "caso": "CASO: RENDA DE {laranja:20 ANOS} · TITULAR FALECE NO {laranja:6º ANO} · TEMPORÁRIA → FAMÍLIA RECEBE {laranja:0} · PRAZO CERTO → SALDO DE CERCA DE {laranja:R$ 777 MIL}",
+   "mitos": [
+    "NA TEMPORÁRIA, A FAMÍLIA RECEBE AS PARCELAS QUE FALTAM"
+   ],
+   "verdade": "MAIS PROTEÇÃO À FAMÍLIA → RENDA MENSAL MENOR",
+   "desenho": {
+    "nome": "pessoa",
+    "largura": 200
+   }
+  },
+  {
+   "saida": "r50b-4_02_regras-da-tampa.png",
+   "semente": 5202,
+   "molde": "topicos",
+   "titulo": "A TAMPA DA CAIXINHA: 4 REGRAS",
+   "desenho": {
+    "nome": "cofrinho",
+    "largura": 240
+   },
+   "texto": "- \"ENQUANTO VIVER\" → {laranja:VITALÍCIA}\n- \"POR 20 ANOS OU ATÉ PARTIR\" → {laranja:TEMPORÁRIA}\n- \"POR 20 ANOS; SE PARTIR, A FAMÍLIA RECEBE O RESTO\" → {laranja:PRAZO CERTO}\n- \"ENQUANTO UM DOS DOIS VIVER\" → {laranja:REVERSÍVEL}"
+  },
+  {
+   "saida": "r50b-4_03_regras-da-tampa.png",
+   "semente": 5203,
+   "molde": "topicos",
+   "titulo": "4. AS REGRAS DA TAMPA",
+   "texto": "- {laranja:VITALÍCIA}: ENQUANTO VIVER\n- {laranja:TEMPORÁRIA}: ATÉ O PRAZO {vermelho:OU} A MORTE, O QUE VIER PRIMEIRO\n- {laranja:PRAZO MÍNIMO GARANTIDO}: VITALÍCIA + BENEFICIÁRIOS ATÉ O FIM DO PRAZO MÍNIMO\n- {laranja:REVERSÍVEL}:\n  - AO BENEFICIÁRIO INDICADO (% VITALÍCIO)\n  - AO CÔNJUGE COM CONTINUIDADE AOS MENORES ({laranja:18, 21 OU 24 ANOS})\n- {laranja:PRAZO CERTO}: PRAZO FIXO · MORTE → {verde:SALDO AOS BENEFICIÁRIOS} (RENDA FINANCEIRA)",
+   "destaque": {
+    "texto": "+ PROTEÇÃO À FAMÍLIA → RENDA MENOR",
+    "cor": "laranja"
+   }
+  },
+  {
+   "saida": "r50b-4_04_pegadinhas.png",
+   "semente": 5204,
+   "molde": "pegadinhas",
+   "titulo": "⚠️ PEGADINHAS",
+   "itens": [
+    {
+     "frase": "NA TEMPORÁRIA, A FAMÍLIA RECEBE O RESTO",
+     "correcao": "CESSA NO FALECIMENTO"
+    },
+    {
+     "frase": "O PRAZO CERTO USA A TÁBUA",
+     "correcao": "É RENDA FINANCEIRA"
+    },
+    {
+     "frase": "NA REVERSÍVEL, SE O BENEFICIÁRIO MORRE ANTES, HÁ DEVOLUÇÃO",
+     "correcao": "A REVERSÃO SE EXTINGUE, SEM DEVOLUÇÃO"
+    },
+    {
+     "frase": "MAIS PROTEÇÃO À FAMÍLIA → RENDA MAIOR",
+     "correcao": "RENDA MENOR"
+    }
+   ]
+  },
+  {
+   "saida": "r50b-4_05_exercicio.png",
+   "semente": 5205,
+   "molde": "colunas",
+   "titulo": "MESMO SALDO, MESMO PRAZO DE 20 ANOS, MESMO JURO",
+   "topo": "- {laranja:R$ 1 MILHÃO} · {laranja:4% A.A.} · TITULAR FALECE NO {laranja:6º ANO} (DEPOIS DE {laranja:72} PAGAMENTOS)\n- MUDA SÓ O TIPO DE RENDA (NÚMEROS HIPOTÉTICOS)",
+   "colunas": [
+    {
+     "titulo": "CENÁRIO 1 · TEMPORÁRIA DE 20 ANOS",
+     "texto": "- A RENDA {vermelho:CESSA}\n- FAMÍLIA RECEBE {vermelho:0}"
+    },
+    {
+     "titulo": "CENÁRIO 2 · PRAZO CERTO DE 20 ANOS",
+     "texto": "- {laranja:168} PARCELAS RESTANTES → BENEFICIÁRIOS\n- RENDA MENSAL: ?\n- SALDO DAS 168 PARCELAS: ?"
+    }
+   ]
+  },
+  {
+   "saida": "r50b-4_06_hp12c.png",
+   "semente": 5206,
+   "molde": "hp12c",
+   "titulo": "NA HP12C",
+   "passos": [
+    {
+     "nome": "MEMÓRIAS ZERADAS, 2 CASAS, PAGAMENTOS NO FIM DO MÊS",
+     "teclas": "[f] [REG] [f] [2] [g] [END]",
+     "visor": "0,00"
+    },
+    {
+     "nome": "JURO REAL DE 4% A.A., EM TAXA MENSAL",
+     "teclas": "1,04 [ENTER] 12 [1/x] [y^x] 1 [−] 100 [×] [i]",
+     "visor": "0,33"
+    },
+    {
+     "nome": "PRAZO CERTO: RENDA DE R$ 6.022,19 POR MÊS",
+     "teclas": "1.000.000 [PV] 240 [n] [PMT]",
+     "visor": "−6.022,19"
+    },
+    {
+     "nome": "SALDO DAS 168 PARCELAS QUE FALTAM → BENEFICIÁRIOS",
+     "teclas": "168 [n] [PV]",
+     "visor": "777.253,08"
+    }
+   ]
+  },
+  {
+   "saida": "r50b-5_01_abertura-mito.png",
+   "semente": 5207,
+   "molde": "mito_verdade",
+   "titulo": "R50B-5 · IMPACTO DAS IDADES (C-PRO R 3.7.6.4)",
+   "caso": "CASO: HOMEM DE {laranja:65} · {laranja:R$ 1 MILHÃO} · VITALÍCIA CERCA DE {laranja:R$ 6.156} · REVERSÍVEL {laranja:100%} AO CÔNJUGE DE {laranja:55} CERCA DE {laranja:R$ 4.433}",
+   "mitos": [
+    "BENEFICIÁRIO MAIS JOVEM NÃO MUDA A RENDA DO TITULAR"
+   ],
+   "verdade": "PARTICIPANTE MAIS VELHO → RENDA MAIOR · BENEFICIÁRIO MAIS JOVEM → RENDA INICIAL MENOR",
+   "desenho": {
+    "nome": "ampulheta",
+    "largura": 200
+   }
+  },
+  {
+   "saida": "r50b-5_02_idades-na-caixinha.png",
+   "semente": 5208,
+   "molde": "metafora",
+   "titulo": "QUEM ESTÁ NA CAIXINHA",
+   "estrada": false,
+   "itens": [
+    {
+     "desenho": "pessoa",
+     "cor": "ciano",
+     "extra": "pessoa",
+     "cor_extra": "laranja",
+     "nome": "AMIGO DE 60 × AMIGO DE 70",
+     "legenda": "IDADE DO PARTICIPANTE"
+    },
+    {
+     "desenho": "pessoa",
+     "cor": "amarelo",
+     "extra": "pessoa",
+     "cor_extra": "verde",
+     "nome": "DE MÃOS DADAS COM O CÔNJUGE MAIS JOVEM",
+     "legenda": "IDADE DO BENEFICIÁRIO NA REVERSÍVEL"
+    },
+    {
+     "desenho": "ampulheta",
+     "cor": "laranja",
+     "nome": "\"ENQUANTO UM DOS DOIS VIVER\"",
+     "legenda": "PAGAMENTO MAIS LONGO"
+    }
+   ]
+  },
+  {
+   "saida": "r50b-5_03_idade-na-caixinha.png",
+   "semente": 5209,
+   "molde": "topicos",
+   "titulo": "5. A IDADE NA CAIXINHA",
+   "texto": "- PARTICIPANTE {laranja:+ JOVEM} → PAGAMENTO MAIS LONGO → RENDA {vermelho:MENOR}\n- PARTICIPANTE {laranja:+ VELHO} → RENDA {verde:MAIOR}\n- BENEFICIÁRIO (REVERSÍVEL) {laranja:+ JOVEM} → RENDA {laranja:INICIAL} DO TITULAR {vermelho:MENOR}\n- IDADE E SEXO = {laranja:PECULIARIDADES INDIVIDUAIS} (CIRCULAR 698, ART. 45)\n- BR-EMS 2026, HOMEM: {laranja:60 → 24,8 ANOS · 65 → 20,7 · 70 → 16,9}\n- SIMULAÇÃO, R$ 1 MILHÃO, 4%: {laranja:60 → R$ 5.497 · 65 → R$ 6.156 · 70 → R$ 7.057}"
+  },
+  {
+   "saida": "r50b-5_04_pegadinhas.png",
+   "semente": 5210,
+   "molde": "pegadinhas",
+   "titulo": "⚠️ PEGADINHAS",
+   "itens": [
+    {
+     "frase": "PARTICIPANTE MAIS JOVEM RECEBE RENDA MAIOR",
+     "correcao": "RENDA MENOR"
+    },
+    {
+     "frase": "BENEFICIÁRIO MAIS JOVEM AUMENTA A RENDA DO TITULAR",
+     "correcao": "REDUZ A RENDA INICIAL"
+    },
+    {
+     "frase": "A IDADE MUDA O VALOR DO PRAZO CERTO",
+     "correcao": "O PRAZO CERTO NÃO USA TÁBUA"
+    },
+    {
+     "frase": "NO MESMO DIA, AS CONDIÇÕES SÃO IGUAIS PARA TODOS, SEM EXCEÇÃO",
+     "correcao": "IDADE E SEXO ENTRAM"
+    }
+   ]
+  },
+  {
+   "saida": "r50b-5_05_exercicio.png",
+   "semente": 5211,
+   "molde": "colunas",
+   "titulo": "MESMO SALDO, MESMO JURO, MESMO SEXO",
+   "topo": "- {laranja:R$ 1 MILHÃO} · {laranja:4% A.A.} · HOMEM · MUDA SÓ A IDADE DE INÍCIO\n- ATALHO: PRAZO = EXPECTATIVA DA BR-EMSsb v.2026 (NÚMEROS HIPOTÉTICOS)",
+   "colunas": [
+    {
+     "titulo": "CENÁRIO 1 · 60 ANOS",
+     "texto": "- {laranja:24,8 ANOS} → CERCA DE {laranja:298 MESES}\n- RENDA MENSAL: ?"
+    },
+    {
+     "titulo": "CENÁRIO 2 · 70 ANOS",
+     "texto": "- {laranja:16,9 ANOS} → CERCA DE {laranja:203 MESES}\n- RENDA MENSAL: ?\n- QUANTO A MAIS POR MÊS: ?"
+    }
+   ]
+  },
+  {
+   "saida": "r50b-5_06_hp12c.png",
+   "semente": 5212,
+   "molde": "hp12c",
+   "titulo": "NA HP12C",
+   "passos": [
+    {
+     "nome": "MEMÓRIAS ZERADAS, 2 CASAS, PAGAMENTOS NO FIM DO MÊS",
+     "teclas": "[f] [REG] [f] [2] [g] [END]",
+     "visor": "0,00"
+    },
+    {
+     "nome": "JURO REAL DE 4% A.A., EM TAXA MENSAL",
+     "teclas": "1,04 [ENTER] 12 [1/x] [y^x] 1 [−] 100 [×] [i]",
+     "visor": "0,33"
+    },
+    {
+     "nome": "SALDO CONVERTIDO EM RENDA",
+     "teclas": "1.000.000 [PV]",
+     "visor": "1.000.000,00"
+    },
+    {
+     "nome": "AOS 60: CERCA DE R$ 5.260 POR MÊS",
+     "teclas": "298 [n] [PMT] [CHS] [STO] 1",
+     "visor": "5.259,67"
+    },
+    {
+     "nome": "AOS 70: CERCA DE R$ 6.751 POR MÊS",
+     "teclas": "203 [n] [PMT] [CHS]",
+     "visor": "6.750,73"
+    },
+    {
+     "nome": "COMEÇAR AOS 70 PAGA 28,35% A MAIS POR MÊS",
+     "teclas": "[RCL] 1 [x<>y] [Δ%]",
+     "visor": "28,35"
+    }
+   ]
+  }
+ ]
+}
