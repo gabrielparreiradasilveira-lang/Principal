@@ -54,6 +54,11 @@ def _destaque(L, d, els, x=90, largura=1380):
     return el["y"] - 26
 
 
+def _prender(texto):
+    """Valor em reais não quebra no meio da linha ("R$" e o número ficam juntos)."""
+    return texto.replace("R$ ", "R$\u00a0")
+
+
 def _aspecto(nome):
     if nome not in DES.DESENHOS:
         raise ErroMolde(f"desenho {nome!r} não existe. Disponíveis:\n{DES.lista()}")
@@ -80,7 +85,16 @@ def _formula(L, f, d, wd, hd, y, els):
 def mito_verdade(L, spec, els):
     y0 = _titulo(L, spec, els)
     mitos, verdade = spec.get("mitos", []), spec.get("verdade", "")
-    fim = BASE - 40
+    fim, lim_desenho, apoio = BASE - 40, BASE, []
+    if spec.get("apoio"):  # tópicos de complemento em largura total, na parte de baixo da lousa
+        def montar_a(t):
+            return [{"tipo": "texto", "id": "apoio", "texto": _prender(spec["apoio"]), "x": X0, "largura": 1440,
+                     "tamanho": t, "entrelinha": 1.42}]
+
+        _, apoio = _maior_que_cabe(L, montar_a, lambda es, t: _medir(L, es[0])[1] <= BASE - 660,
+                                   [34, 33, 32, 31, 30])
+        apoio[0]["y"] = max(660, BASE - 10 - _medir(L, apoio[0])[1])
+        fim, lim_desenho = apoio[0]["y"] - 50, apoio[0]["y"] - 20
     gap = 170  # o X do riscar passa da letra: espaço para não encostar no mito de baixo
 
     def montar(t):
@@ -113,11 +127,14 @@ def mito_verdade(L, spec, els):
         d = {"nome": d} if isinstance(d, str) else d
         w = d.get("largura", 220)
         yd = v["y"] + hv + 30 + 60
-        if yd + w * _aspecto(d["nome"]) <= BASE:
+        if yd + w * _aspecto(d["nome"]) <= lim_desenho:
             els.append({"tipo": "desenho", "nome": d["nome"], "cor": d.get("cor", "branco"), "largura": w,
                         "x": 1300 - w / 2, "y": yd})
+        else:
+            L.avisos.append(f"molde: o desenho {d['nome']!r} não coube; diminua a largura ou o texto")
     els += [{"tipo": "seta", "de": e["id"], "para": "verdade", "curva": 0.1 if i % 2 == 0 else -0.1}
             for i, e in enumerate(ms)]
+    els += apoio
 
 
 def metafora(L, spec, els):
@@ -264,7 +281,7 @@ def comparacao(L, spec, els):
                         "tamanho": 28, "cor": "laranja", "alinhar": "direita", "lista": False})
 
     def montar(t):
-        return [{"tipo": "texto", "id": f"ct{i}", "texto": c.get("texto", ""), "x": x, "y": y_txt, "largura": w,
+        return [{"tipo": "texto", "id": f"ct{i}", "texto": _prender(c.get("texto", "")), "x": x, "y": y_txt, "largura": w,
                  "tamanho": t, "entrelinha": 1.42} for i, ((x, w, _), c) in enumerate(zip(pos, cols), 1)]
 
     _, cs = _maior_que_cabe(L, montar, lambda es, t: max(_medir(L, e)[1] for e in es) <= fim_txt - y_txt,
@@ -285,7 +302,7 @@ def comparacao(L, spec, els):
         def montar_f(t):
             out, y = [], y0
             for i, f in enumerate(faixas, 1):
-                e = {"tipo": "texto", "id": f"cf{i}", "texto": f, "x": X0, "y": y, "largura": 1500, "tamanho": t,
+                e = {"tipo": "texto", "id": f"cf{i}", "texto": _prender(f), "x": X0, "y": y, "largura": 1500, "tamanho": t,
                      "entrelinha": 1.38, "lista": False}
                 out.append(e)
                 y += _medir(L, e)[1] + 12
@@ -297,6 +314,58 @@ def comparacao(L, spec, els):
 
         _, fs = _maior_que_cabe(L, montar_f, cabe_f, [30, 29, 28])
         els += fs
+
+
+def exercicio(L, spec, els):
+    """Exercício resolvido: dados no topo, dois cenários lado a lado (passos + resultado emoldurado em verde)
+    e a conclusão na base."""
+    y = _titulo(L, spec, els)
+    if spec.get("dados"):
+        def montar_d(t):
+            return [{"tipo": "texto", "id": "dados", "texto": _prender(spec["dados"]), "x": X0, "y": y, "largura": 1440,
+                     "tamanho": t, "entrelinha": 1.42}]
+
+        _, ds = _maior_que_cabe(L, montar_d, lambda es, t: _medir(L, es[0])[1] <= 230, [34, 33, 32, 31, 30])
+        els += ds
+        y += _medir(L, ds[0])[1] + 50
+    cen = spec.get("cenarios", [])
+    if len(cen) != 2:
+        raise ErroMolde("o molde exercicio pede exatamente 2 cenários")
+    pos = [(X0, 780), (940, 620)]  # a coluna da direita termina antes de x 1600 (webcam)
+    d = spec.get("conclusao")
+    if d:
+        d = {"texto": d} if isinstance(d, str) else dict(d)
+        d.setdefault("tamanho", 32)
+    fim = (_destaque(L, d, els, x=100, largura=1440) if d else BASE) - 30
+    for i, ((x, w), c) in enumerate(zip(pos, cen), 1):
+        els += [{"tipo": "subtitulo", "id": f"ec{i}", "texto": c["titulo"], "x": x, "y": y, "tamanho": 40},
+                {"tipo": "sublinhar", "alvo": f"ec{i}"}]
+    yp = y + 80
+
+    def montar(t):
+        out = []
+        for i, ((x, w), c) in enumerate(zip(pos, cen), 1):
+            p = {"tipo": "texto", "id": f"ep{i}", "texto": _prender(c.get("passos", "")), "x": x, "y": yp, "largura": w,
+                 "tamanho": t, "entrelinha": 1.42}
+            r = {"tipo": "texto", "id": f"er{i}", "texto": _prender(c.get("resultado", "")), "x": x + 20,
+                 "y": yp + _medir(L, p)[1] + 50, "largura": w - 40, "tamanho": t + 4, "cor": "verde", "lista": False}
+            out += [p, r]
+        return out
+
+    def cabe(es, t):
+        return all(e["y"] + _medir(L, e)[1] + (26 if e["id"].startswith("er") else 0) <= fim for e in es)
+
+    _, cs = _maior_que_cabe(L, montar, cabe, [40, 38, 36, 34, 33, 32, 31, 30, 29, 28])
+    fundo = max(e["y"] + _medir(L, e)[1] for e in cs) + 26
+    desce = max(0.0, fim - fundo) * 0.5  # sobra de espaço: os cenários descem, sem buraco embaixo
+    for e in els:
+        if str(e.get("id", "")).startswith("ec"):
+            e["y"] += desce
+    for e in cs:
+        e["y"] += desce
+    y, fundo = y + desce, fundo + desce
+    els += cs + [{"tipo": "caixa", "alvo": f"er{i}", "margem": 20, "cor": "verde"} for i in (1, 2)]
+    els.append({"tipo": "linha", "pontos": [[900, y - 10], [895, (y + fundo) / 2], [902, fundo]], "espessura": 4})
 
 
 def pegadinhas(L, spec, els):
@@ -336,7 +405,7 @@ def hp12c(L, spec, els):
     els += corpo
 
 
-MOLDES = {"mito_verdade": mito_verdade, "comparacao": comparacao, "metafora": metafora, "topicos": topicos, "colunas": colunas,
+MOLDES = {"mito_verdade": mito_verdade, "comparacao": comparacao, "exercicio": exercicio, "metafora": metafora, "topicos": topicos, "colunas": colunas,
           "pegadinhas": pegadinhas, "hp12c": hp12c}
 
 

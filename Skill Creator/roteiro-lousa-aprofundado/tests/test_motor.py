@@ -20,6 +20,15 @@ class TesteMotor(unittest.TestCase):
             with open(os.path.join(tmp, pngs[0]), "rb") as a, open(os.path.join(FIX, "mito-x-verdade.png"), "rb") as b:
                 self.assertEqual(a.read(), b.read())
 
+    def test_mito_verdade_sem_apoio_igual_ao_original(self):
+        """Proteção: o molde mito_verdade sem 'apoio' continua desenhando a lousa da outra sessão."""
+        import lousa
+        with tempfile.TemporaryDirectory() as tmp:
+            lousa.main([os.path.join(FIX, "r50-1_01_abertura-mito.json"), "-o", tmp])
+            with open(os.path.join(tmp, "r50-1_01_abertura-mito.png"), "rb") as a, \
+                    open(os.path.join(FIX, "r50-1_01_abertura-mito.png"), "rb") as b:
+                self.assertEqual(a.read(), b.read())
+
 
 if __name__ == "__main__":
     unittest.main()

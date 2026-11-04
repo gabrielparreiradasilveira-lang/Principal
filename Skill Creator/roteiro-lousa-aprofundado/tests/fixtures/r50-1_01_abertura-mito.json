@@ -1,0 +1,21 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r50-1_01_abertura-mito.png",
+   "semente": 501,
+   "molde": "mito_verdade",
+   "titulo": "VGBL · C-PRO R 3.7.4.1",
+   "mitos": [
+    "\"O VGBL É UM PGBL PIORADO, PORQUE NÃO DEDUZ NADA\""
+   ],
+   "verdade": "O VGBL SERVE A OUTRO CLIENTE: O IR INCIDE SÓ SOBRE OS RENDIMENTOS",
+   "desenho": {
+    "nome": "placa",
+    "largura": 230
+   }
+  }
+ ]
+}
