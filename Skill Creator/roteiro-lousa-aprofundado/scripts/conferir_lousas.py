@@ -7,6 +7,7 @@ Uso: python3 conferir_lousas.py roteiro.md lousas.json [-o pasta_dos_png]
 Desenha cada lousa do JSON (o mesmo motor do lousa.py) e aponta como pendência:
 - aviso do gerador (texto cortado, canto do logo ou da webcam invadido, letra abaixo de 28 px...);
 - ocupação abaixo de 70% da altura útil (lousa com metade da tela vazia);
+- faixa horizontal vazia de mais de 120 px (buraco no meio da lousa);
 - 8 palavras seguidas iguais à fala do mesmo vídeo e bloco (a lousa complementa a fala, não a repete);
 - PNG cujo nome não segue {video}_{bloco}_{slug}.png (ex.: r60a_2_metafora.png, r50-1_4_resolucao.png).
 Vídeo sem as 4 lousas sai como aviso. Sai com código 1 se houver pendência.
@@ -29,6 +30,7 @@ import moldes as MOLDES  # noqa: E402
 TOPO_UTIL, BASE_UTIL = 120, 1040
 CANTOS = [(1560, 0, 1920, 190), (1600, 760, 1920, 1080)]  # logo X8 e webcam
 OCUPACAO_MIN = 0.70
+FAIXA_VAZIA_MAX = 120  # px: a amostra aprovada tem até 38; as lousas antigas rejeitadas, de 92 a 463
 N_PALAVRAS = 8
 NOME = re.compile(r"^(r\d{2,3}(?:-\d|[a-z]))_([1-4])_")
 PALAVRA = re.compile(r"[0-9A-ZÀ-Þ]+")
@@ -43,6 +45,22 @@ def ocupacao(png):
     if not caixa:
         return 0.0
     return caixa[3] / (BASE_UTIL - TOPO_UTIL)
+
+
+def faixa_vazia(png):
+    """Maior faixa horizontal sem tinta (em px) entre y 120 e 1040, sem contar os cantos livres."""
+    img = Image.open(png).convert("L").point(lambda v: 255 if v > 40 else 0)
+    for c in CANTOS:
+        img.paste(0, c)
+    faixa = img.crop((0, TOPO_UTIL, img.width, BASE_UTIL))
+    maior = atual = 0
+    for y in range(faixa.height):
+        if faixa.crop((0, y, faixa.width, y + 1)).getbbox():  # qualquer pixel com tinta
+            atual = 0
+        else:
+            atual += 1
+            maior = max(maior, atual)
+    return maior
 
 
 def normalizar(texto):
@@ -131,6 +149,9 @@ def main(argv=None):
         oc = ocupacao(png)
         print(f"{nome}: ocupação {oc:.0%}, {len(av)} aviso(s)")
         pend += [f"{nome}: {x}" for x in av]
+        fv = faixa_vazia(png)
+        if fv > FAIXA_VAZIA_MAX:
+            pend.append(f"{nome}: faixa vazia de {fv} px (máximo {FAIXA_VAZIA_MAX}); distribua ou acrescente conteúdo")
         if oc < OCUPACAO_MIN:
             pend.append(f"{nome}: ocupa só {oc:.0%} da altura útil (mínimo {OCUPACAO_MIN:.0%}); acrescente conteúdo")
         if not vb:

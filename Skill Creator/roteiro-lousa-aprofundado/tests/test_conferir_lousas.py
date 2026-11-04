@@ -38,6 +38,40 @@ class TesteOcupacao(unittest.TestCase):
             self.assertEqual(C.ocupacao(png_com_retangulo(tmp, (1700, 900, 1710, 910))), 0.0)
 
 
+class TesteFaixaVazia(unittest.TestCase):
+    def test_faixa_vazia_no_meio(self):
+        img = Image.new("RGB", (1920, 1080), "black")
+        d = ImageDraw.Draw(img)
+        d.rectangle((80, 140, 900, 300), fill="white")
+        d.rectangle((80, 700, 900, 1000), fill="white")
+        with tempfile.TemporaryDirectory() as tmp:
+            caminho = os.path.join(tmp, "x.png")
+            img.save(caminho)
+            self.assertTrue(395 <= C.faixa_vazia(caminho) <= 400, C.faixa_vazia(caminho))
+
+    def test_traco_fino_conta_como_tinta(self):
+        img = Image.new("RGB", (1920, 1080), "black")
+        d = ImageDraw.Draw(img)
+        d.rectangle((80, 140, 900, 300), fill="white")
+        d.rectangle((945, 300, 946, 700), fill="white")  # linha vertical de 2 px no "buraco"
+        d.rectangle((80, 700, 900, 1000), fill="white")
+        with tempfile.TemporaryDirectory() as tmp:
+            caminho = os.path.join(tmp, "x.png")
+            img.save(caminho)
+            self.assertLessEqual(C.faixa_vazia(caminho), 40)  # sobra só a margem de baixo (y 1001 a 1039)
+
+    def test_faixa_vazia_ignora_cantos(self):
+        img = Image.new("RGB", (1920, 1080), "black")
+        d = ImageDraw.Draw(img)
+        for y in range(130, 1040, 60):
+            d.rectangle((80, y, 900, y + 30), fill="white")
+        d.rectangle((1700, 800, 1900, 1000), fill="black")
+        with tempfile.TemporaryDirectory() as tmp:
+            caminho = os.path.join(tmp, "x.png")
+            img.save(caminho)
+            self.assertLessEqual(C.faixa_vazia(caminho), 40)
+
+
 class TesteRepeticao(unittest.TestCase):
     def test_repeticao_com_marcacao(self):
         lousa = "PEDÁGIO SOBRE A {vermelho:CARGA INTEIRA} DO CAMINHÃO QUE SAI DA RODOVIA"
