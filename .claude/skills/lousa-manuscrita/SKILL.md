@@ -109,3 +109,10 @@ dividido, os títulos criados e as lousas montadas a partir de tabela da HP12C.
 4. **Montar com `molde`** (references/formato.md, seção 7): sem coordenadas à mão; uma renderização, conferência
    da prancha, entrega.
 5. **Antes de desenhar, conferir o roteiro na apostila** e devolver uma lista curta de alertas técnicos.
+6. **Sempre subir as lousas para o Drive ao concluir** (pedido de 04/11/2026). Depois do commit enviado:
+   `python3 scripts/drive_doc.py <pasta-das-lousas> <sha>` gera o HTML; criar com o `create_file` do
+   Google Drive (`contentMimeType` "text/html", título = linha `TITULO:`, `parentId` = pasta
+   **Lousas — C-PRO R**, id `1lPnWusDWmEeJD0V2crINux4SAwPqTNLf`). O Google baixa cada PNG do GitHub
+   (repositório público) e guarda dentro do Doc em 1920×1080. Conferir com `get_file_metadata`: o
+   Doc pronto tem mais de 1 MB. Se a aula for refeita, criar um Doc novo e apagar o antigo só com o
+   ok do professor. Motivo: o conector só recebe o arquivo dentro do comando, e um PNG não cabe.
