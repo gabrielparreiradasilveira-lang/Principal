@@ -4,9 +4,9 @@
 
 | Vídeo | Itens do PD | Minutagem (conferidor) | Mito da abertura |
 |---|---|---|---|
-| R58A | 4.5 (risco de ativos) | ~7 min | "Risco é a chance de perder dinheiro" |
-| R58B | 4.5.1 (ativos livres de risco e ativos com risco de crédito) | ~7 min | "CDB com FGC é ativo livre de risco" |
-| R58C | 4.6 (relação entre risco, retorno e dominância entre ativos) | ~7 min | "Com o mesmo retorno, tanto faz o ativo" |
+| R58A | 4.5 (risco de ativos) | ~7,0 min | "Risco é a chance de perder dinheiro" |
+| R58B | 4.5.1 (ativos livres de risco e ativos com risco de crédito) | ~6,7 min | "CDB com FGC é ativo livre de risco" |
+| R58C | 4.6 (relação entre risco, retorno e dominância entre ativos) | ~6,5 min | "Com o mesmo retorno, tanto faz o ativo" |
 
 Metáfora central da série (do rascunho do professor): as estradas. O ganho da viagem é o retorno; os buracos são o risco; o asfalto liso é o ativo livre de risco.
 
