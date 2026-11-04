@@ -4,23 +4,116 @@
  },
  "slides": [
   {
-   "saida": "r1a_1_maquina-de-calcular.png",
+   "saida": "r1a_1_nobel-2013.png",
    "semente": 1101,
+   "molde": "mito_verdade",
+   "titulo": "AS TRADICIONAIS FORAM DERRUBADAS?",
+   "mitos": [
+    "AS COMPORTAMENTAIS DERRUBARAM AS TRADICIONAIS",
+    "MODELO MATEMÁTICO NÃO SERVE MAIS"
+   ],
+   "verdade": "SÃO DUAS VISÕES: {ciano:NORMATIVA} × {laranja:DESCRITIVA}",
+   "desenho": "estrela",
+   "apoio": "- {ciano:NOBEL 2013:} EUGENE FAMA, LARS PETER HANSEN E ROBERT SHILLER\n- {ciano:FAMA:} {verde:MERCADOS EFICIENTES} · {ciano:SHILLER:} {laranja:OSCILAÇÕES EXCESSIVAS} DOS PREÇOS\n- {ciano:C-PRO R, MÓDULO 4:} DIVERSIFICAÇÃO E BETA (ESCOLA TRADICIONAL)"
+  },
+  {
+   "saida": "r1a_2_manual-caixa-preta.png",
+   "semente": 1102,
+   "molde": "comparacao",
+   "titulo": "A CABINE: MANUAL DE VOO E CAIXA-PRETA",
+   "colunas": [
+    {
+     "titulo": "MANUAL DE VOO",
+     "desenho": "prancheta",
+     "rotulos": [
+      "COMO DEVERIA",
+      "PASSO A PASSO"
+     ],
+     "texto": "- REPRESENTA AS {ciano:FINANÇAS TRADICIONAIS}\n- VISÃO {laranja:NORMATIVA}: A DECISÃO IDEAL\n- MODELOS: UTILIDADE ESPERADA, MARKOWITZ E CAPM"
+    },
+    {
+     "titulo": "CAIXA-PRETA",
+     "desenho": "caixa_preta",
+     "rotulos": [
+      "COMO FOI",
+      "DE FATO"
+     ],
+     "texto": "- REPRESENTA AS {ciano:FINANÇAS COMPORTAMENTAIS}\n- VISÃO {laranja:DESCRITIVA}: A DECISÃO REAL\n- BASE: TEORIA DO PROSPECTO (KAHNEMAN E TVERSKY, 1979)"
+    }
+   ],
+   "faixas": [
+    "{ciano:O PILOTO USA OS DOIS:} O MANUAL PARA {verde:PLANEJAR} O VOO · A CAIXA-PRETA PARA {laranja:ENTENDER O ERRO} E NÃO REPETIR"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} A CAIXA-PRETA SÓ É LIDA DEPOIS DO ACIDENTE; AS COMPORTAMENTAIS SERVEM PARA AGIR {verde:ANTES} DO ERRO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r1a_3_quadro-comparativo.png",
+   "semente": 1103,
+   "molde": "colunas",
+   "titulo": "TRADICIONAIS × COMPORTAMENTAIS: O QUADRO",
+   "topo": "{ciano:LINHA DO TEMPO:} UTILIDADE ESPERADA (1944) → MARKOWITZ (1952) → CAPM (1964) → TEORIA DO PROSPECTO (1979)\n{ciano:NOBEL:} MARKOWITZ E SHARPE (1990) · KAHNEMAN (2002) · FAMA E SHILLER (2013) · THALER (2017)",
+   "colunas": [
+    {
+     "titulo": "TRADICIONAIS",
+     "texto": "- NATUREZA HUMANA: {verde:RACIONAL}\n- DECISÃO: LÓGICA E CALCULADA\n- RISCO: {laranja:MENSURÁVEL}\n- BASE: MATEMÁTICA\n- PREMISSA: MERCADO EFICIENTE\n- NO DECK: \"SER HUMANO ROBOZÃO\""
+    },
+    {
+     "titulo": "COMPORTAMENTAIS",
+     "texto": "- NATUREZA HUMANA: {laranja:EMOCIONAL}\n- DECISÃO: COM VIESES\n- RISCO: {laranja:PERCEPÇÃO SUBJETIVA}\n- BASE: PSICOLOGIA\n- FATORES: PSICOLÓGICOS, EMOCIONAIS, SOCIAIS\n- APOSTILA: MAIS PERTO DA REALIDADE"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:CAI NA PROVA:} TRADICIONAL = {ciano:NORMATIVA} (COMO DEVERIA SER) · COMPORTAMENTAL = {laranja:DESCRITIVA} (COMO É)",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r1a_4_duas-lentes.png",
+   "semente": 1104,
+   "molde": "exercicio",
+   "titulo": "A MESMA CARTEIRA, DUAS PERGUNTAS",
+   "dados": "- R$ 100.000: 60% EM CDB A 10% A.A. · 40% EM AÇÕES (HIPOTÉTICO)\n- SEM IR E SEM CUSTOS; HORIZONTE DE 1 ANO\n- A ÚNICA DIFERENÇA É O RETORNO DAS AÇÕES",
+   "cenarios": [
+    {
+     "titulo": "LENTE TRADICIONAL",
+     "passos": "AÇÕES: +16% (ESPERADO)\n0,6 × 10% + 0,4 × 16% = 12,40%\n100.000 × 12,40% = +12.400",
+     "resultado": "+12,40% NO ANO"
+    },
+    {
+     "titulo": "LENTE COMPORTAMENTAL",
+     "passos": "AÇÕES: −20% (ANO RUIM)\n0,6 × 10% − 0,4 × 20% = −2,00%\n100.000 × (−2,00%) = −2.000",
+     "resultado": "−2,00% NO ANO"
+    }
+   ],
+   "conclusao": {
+    "texto": "A TRADICIONAL PERGUNTA {ciano:QUANTO RENDE NA MÉDIA}; A COMPORTAMENTAL, {laranja:SE O CLIENTE AGUENTA O ANO RUIM} SEM VENDER",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r1b_1_marco-2020.png",
+   "semente": 1201,
    "molde": "mito_verdade",
    "titulo": "O INVESTIDOR É UMA MÁQUINA DE CALCULAR?",
    "mitos": [
-    "O INVESTIDOR DECIDE SEMPRE COM LÓGICA",
-    "ELE AVALIA TODAS AS OPÇÕES E ESCOLHE A MELHOR"
+    "ELE AVALIA TODAS AS OPÇÕES E ESCOLHE A MELHOR",
+    "NA CRISE, DECIDE COM A MESMA CALMA DE SEMPRE"
    ],
    "verdade": "NA DECISÃO REAL PESAM {laranja:EMOÇÕES}, {laranja:HEURÍSTICAS} E {laranja:VIESES}",
    "desenho": "grafico_baixa",
-   "apoio": "- {ciano:IBOVESPA, MAR/2020:} {vermelho:−29,9%}, PIOR MÊS DESDE AGO/1998 · 1º TRIMESTRE: {vermelho:−36,86%}\n- {ciano:ABR/2020:} {verde:+10,25%}, FECHANDO EM 80.505,89 PONTOS\n- {ciano:QUEM VENDEU EM MARÇO:} TROCOU QUEDA NO PAPEL POR {vermelho:PERDA REALIZADA}"
+   "apoio": "- {ciano:MAR/2020:} IBOVESPA {vermelho:−29,9%}, PIOR MÊS DESDE AGO/1998 · 1º TRIMESTRE: {vermelho:−36,86%}\n- {ciano:CIRCUIT BREAKER:} {vermelho:6 ACIONAMENTOS} (DIAS 9, 11, 12 DUAS VEZES, 16 E 18) · EM 16/03, {vermelho:−13,92%} NO DIA\n- {ciano:ABR/2020:} {verde:+10,25%}, FECHANDO EM 80.505,89 PONTOS"
   },
   {
-   "saida": "r1a_2_cabine.png",
-   "semente": 1102,
+   "saida": "r1b_2_dois-pilotos.png",
+   "semente": 1202,
    "molde": "comparacao",
-   "titulo": "A CABINE DE COMANDO: DOIS PILOTOS",
+   "titulo": "OS DOIS PILOTOS DA CABINE",
    "colunas": [
     {
      "titulo": "PILOTO MANUAL",
@@ -29,7 +122,7 @@
       "INSTRUMENTOS",
       "CÁLCULO"
      ],
-     "texto": "- REPRESENTA AS {ciano:FINANÇAS TRADICIONAIS}\n- AVALIA {verde:TODAS AS OPÇÕES} DISPONÍVEIS\n- CALCULA RISCO E RETORNO DE FORMA OBJETIVA\n- O DECK CHAMA DE \"SER HUMANO ROBOZÃO\""
+     "texto": "- REPRESENTA O INVESTIDOR {ciano:PLENAMENTE RACIONAL}\n- AVALIA {verde:TODAS AS OPÇÕES} DISPONÍVEIS\n- CALCULA RISCO E RETORNO DE FORMA OBJETIVA\n- O DECK CHAMA DE \"SER HUMANO ROBOZÃO\""
     },
     {
      "titulo": "PILOTO AUTOMÁTICO",
@@ -38,7 +131,7 @@
       "ROTA PRONTA",
       "SUSTO"
      ],
-     "texto": "- REPRESENTA O QUE AS {ciano:COMPORTAMENTAIS} ESTUDAM\n- ROTA PRONTA = {laranja:HEURÍSTICA} (ATALHO MENTAL)\n- SUSTO = {laranja:EMOÇÃO} (MEDO, EUFORIA, GANÂNCIA)\n- DESVIO QUE SE REPETE = {vermelho:VIÉS COGNITIVO}"
+     "texto": "- REPRESENTA O QUE AS {ciano:COMPORTAMENTAIS} ESTUDAM\n- SUSTO = {laranja:EMOÇÃO} (MEDO, EUFORIA, ANSIEDADE, GANÂNCIA)\n- ROTA PRONTA = {laranja:HEURÍSTICA} (ATALHO MENTAL)\n- DESVIO REPETIDO = {vermelho:VIÉS COGNITIVO}"
     }
    ],
    "faixas": [
@@ -51,30 +144,30 @@
    }
   },
   {
-   "saida": "r1a_3_duas-visoes.png",
-   "semente": 1103,
+   "saida": "r1b_3_emocoes-vieses.png",
+   "semente": 1203,
    "molde": "colunas",
-   "titulo": "DUAS VISÕES DO MESMO INVESTIDOR",
-   "topo": "{ciano:TRADICIONAIS:} COMO ELE {laranja:DEVERIA} DECIDIR (VISÃO NORMATIVA) · {ciano:COMPORTAMENTAIS:} COMO ELE {laranja:DECIDE NA PRÁTICA} (VISÃO DESCRITIVA)",
+   "titulo": "EMOÇÕES, ATALHOS E VIESES NA CARTEIRA",
+   "topo": "{ciano:RACIONAL (APOSTILA):} AVALIA {verde:TODAS} AS OPÇÕES · CALCULA RISCO E RETORNO COM OBJETIVIDADE · ESCOLHE {verde:SEMPRE} A MELHOR\n{verde:NO ATENDIMENTO:} PLANO ESCRITO ANTES DA CRISE · NA QUEDA, \"O OBJETIVO OU O PRAZO MUDOU?\" · NA EUFORIA, \"E SE CAIR 30%?\"",
    "colunas": [
     {
-     "titulo": "TRADICIONAIS",
-     "texto": "- NATUREZA HUMANA: {verde:RACIONAL}\n- DECISÃO: LÓGICA E CALCULADA\n- RISCO: {laranja:MENSURÁVEL}\n- BASE: MATEMÁTICA\n- PREMISSA: MERCADO EFICIENTE"
+     "titulo": "EMOÇÃO → ATITUDE TÍPICA",
+     "texto": "- {vermelho:MEDO} → VENDER NA QUEDA\n- {laranja:EUFORIA E GANÂNCIA} → COMPRAR O QUE JÁ SUBIU MUITO\n- {laranja:ANSIEDADE} → GIRAR DEMAIS A CARTEIRA"
     },
     {
-     "titulo": "COMPORTAMENTAIS",
-     "texto": "- NATUREZA HUMANA: {laranja:EMOCIONAL}\n- DECISÃO: COM VIESES\n- RISCO: {laranja:PERCEPÇÃO SUBJETIVA}\n- BASE: PSICOLOGIA\n- MARCO: TEORIA DO PROSPECTO, 1979 (NOBEL 2002)"
+     "titulo": "ATALHO × VIÉS",
+     "texto": "- {ciano:HEURÍSTICA} = O ATALHO\n- {vermelho:VIÉS} = O ERRO SISTEMÁTICO DO ATALHO\n- EXCESSO DE CONFIANÇA: SUPERESTIMAR O QUE SABE\n- ANCORAGEM: PRESO AO PREÇO PAGO"
     }
    ],
    "destaque": {
-    "texto": "{vermelho:CAI NA PROVA:} \"NEM SEMPRE RACIONAL, MAS {laranja:PREVISIVELMENTE IRRACIONAL}\": O ERRO TEM PADRÃO, NÃO É SORTE",
+    "texto": "{vermelho:CAI NA PROVA:} \"NEM SEMPRE RACIONAL, MAS {laranja:PREVISIVELMENTE IRRACIONAL}\" (DECK): O ERRO TEM PADRÃO",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r1a_4_vender-ou-manter.png",
-   "semente": 1104,
+   "saida": "r1b_4_vender-ou-manter.png",
+   "semente": 1204,
    "molde": "exercicio",
    "titulo": "VENDER NO PÂNICO OU MANTER?",
    "dados": "- R$ 100.000 EM 28/02/2020 NUMA CARTEIRA QUE ACOMPANHA O IBOVESPA (HIPOTÉTICO)\n- RETORNOS REAIS DO ÍNDICE: MARÇO {vermelho:−29,9%} · ABRIL {verde:+10,25%}\n- SIMPLIFICAÇÃO: SEM CUSTOS, SEM IR, CAIXA SEM RENDIMENTO",
@@ -97,8 +190,8 @@
    }
   },
   {
-   "saida": "r1b_1_americanas.png",
-   "semente": 1201,
+   "saida": "r1c_1_americanas.png",
+   "semente": 1301,
    "molde": "mito_verdade",
    "titulo": "AVESSO AO RISCO OU AVESSO À PERDA?",
    "mitos": [
@@ -110,8 +203,8 @@
    "apoio": "- {ciano:11/01/2023, À NOITE:} FATO RELEVANTE APONTA INCONSISTÊNCIAS CONTÁBEIS DE CERCA DE {vermelho:R$ 20 BILHÕES}\n- {ciano:12/01/2023:} AMER3 DE R$ 12,00 PARA {vermelho:R$ 2,72} NUM ÚNICO PREGÃO ({vermelho:−77%})\n- {ciano:EM 1 ANO:} QUEDA DE MAIS DE {vermelho:90%} · PLANO DE RECUPERAÇÃO JUDICIAL APROVADO PELOS CREDORES EM 19/12/2023"
   },
   {
-   "saida": "r1b_2_alarmes.png",
-   "semente": 1202,
+   "saida": "r1c_2_alarmes.png",
+   "semente": 1302,
    "molde": "comparacao",
    "titulo": "OS ALARMES DO PAINEL",
    "colunas": [
@@ -147,8 +240,8 @@
    }
   },
   {
-   "saida": "r1b_3_efeito-disposicao.png",
-   "semente": 1203,
+   "saida": "r1c_3_efeito-disposicao.png",
+   "semente": 1303,
    "molde": "colunas",
    "titulo": "AVERSÃO À PERDA NA CARTEIRA",
    "topo": "{ciano:A RÉGUA DA MENTE:} O {laranja:PREÇO DE COMPRA}. ACIMA DELE, \"ESTOU GANHANDO\"; ABAIXO, \"ESTOU PERDENDO\"",
@@ -163,14 +256,14 @@
     }
    ],
    "destaque": {
-    "texto": "{vermelho:NÃO CONFUNDA:} AVESSO AO RISCO = {ciano:TRADICIONAL} · AVESSO À PERDA = {laranja:COMPORTAMENTAL}",
+    "texto": "{verde:NO ATENDIMENTO:} \"SE NÃO TIVESSE ESTA AÇÃO, COMPRARIA HOJE, A ESTE PREÇO?\" · {vermelho:NÃO CONFUNDA:} RISCO = {ciano:TRADICIONAL}; PERDA = {laranja:COMPORTAMENTAL}",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r1b_4_cara-ou-coroa.png",
-   "semente": 1204,
+   "saida": "r1c_4_cara-ou-coroa.png",
+   "semente": 1304,
    "molde": "exercicio",
    "titulo": "CARA OU COROA: ACEITA A APOSTA?",
    "dados": "- 50% DE CHANCE PARA CADA LADO (HIPOTÉTICO)\n- VALOR ESPERADO = CADA RESULTADO × SUA CHANCE, SOMADOS\n- NA \"CONTA DA MENTE\", A PERDA PESA {laranja:2 VEZES}\n- SIMPLIFICAÇÃO: VALOR LINEAR, SEM PESO PARA A PROBABILIDADE",
@@ -193,8 +286,8 @@
    }
   },
   {
-   "saida": "r1c_1_carteira-2021.png",
-   "semente": 1301,
+   "saida": "r1d_1_carteira-2021.png",
+   "semente": 1401,
    "molde": "mito_verdade",
    "titulo": "CARTEIRA INTEIRA OU UM ATIVO DE CADA VEZ?",
    "mitos": [
@@ -206,8 +299,8 @@
    "apoio": "- {ciano:2021:} IBOVESPA {vermelho:−11,93%} · CDI DE CERCA DE {verde:4,4%} (BCB, SÉRIE 4391)\n- {ciano:CARTEIRA 20/80:} 0,2 × (−11,93%) + 0,8 × 4,4% = {verde:+1,1%}\n- {ciano:CARTEIRA 50/50:} {vermelho:−3,8%} NO MESMO ANO (HIPOTÉTICO, SEM CUSTOS NEM IR)"
   },
   {
-   "saida": "r1c_2_painel.png",
-   "semente": 1302,
+   "saida": "r1d_2_painel.png",
+   "semente": 1402,
    "molde": "comparacao",
    "titulo": "UM MOSTRADOR OU O PAINEL INTEIRO?",
    "colunas": [
@@ -240,8 +333,8 @@
    }
   },
   {
-   "saida": "r1c_3_contabilidade-mental.png",
-   "semente": 1303,
+   "saida": "r1d_3_contabilidade-mental.png",
+   "semente": 1403,
    "molde": "colunas",
    "titulo": "SEGREGAÇÃO: OS POTES DA MENTE",
    "topo": "{ciano:INTEGRAÇÃO (TRADICIONAL):} A CARTEIRA É UM {verde:SISTEMA} · {ciano:SEGREGAÇÃO (COMPORTAMENTAL):} CADA ATIVO É UM {vermelho:POTE SEPARADO}\n{vermelho:NÃO CONFUNDA:} MUITOS ATIVOS NÃO É INTEGRAÇÃO (20 AÇÕES DO MESMO SETOR = CONCENTRAÇÃO)",
@@ -262,8 +355,8 @@
    }
   },
   {
-   "saida": "r1c_4_helena.png",
-   "semente": 1304,
+   "saida": "r1d_4_helena.png",
+   "semente": 1404,
    "molde": "exercicio",
    "titulo": "O MESMO −10% NAS AÇÕES, DUAS CARTEIRAS",
    "dados": "- CARTEIRAS DE R$ 100.000 (HIPOTÉTICO, COM OS RETORNOS DO DECK)\n- AÇÕES {vermelho:−10%} · TESOURO IPCA+ {verde:+5%} · MULTIMERCADO {verde:+2%}\n- A ÚNICA DIFERENÇA É O PESO DAS AÇÕES",
