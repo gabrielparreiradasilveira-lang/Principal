@@ -41,7 +41,7 @@ Motor: **Whisper** (modelo aberto da OpenAI), na versão otimizada **faster-whis
 
 A janela mostra a situação de cada vídeo, a porcentagem e o tempo restante. Ela também tem um botão **Cancelar**.
 
-> **Já tinha instalado antes desta versão?** Rode o `instalar_windows.bat` de novo, uma vez, para ganhar o arrastar e soltar. Sem isso a janela funciona, mas só pelo clique na área azul.
+> **Já tinha instalado antes desta versão?** Feche a janela e rode o `instalar_windows.bat` de novo, uma vez, para ganhar o arrastar e soltar. Sem isso a janela funciona, mas só pelo clique na área azul. Se o ambiente antigo estiver incompatível, o instalador apaga e refaz sozinho; os modelos já baixados ficam.
 
 **Pela pasta (alternativa):** coloque os vídeos em `entrada/` e dê dois cliques em `transcrever_windows.bat`. Os resultados saem em `saida/`.
 
@@ -115,6 +115,7 @@ Teste feito em servidor de **4 núcleos, sem placa de vídeo**, com áudio sint�
 | Sintoma | Causa / solução |
 |---|---|
 | `metadata_errors` | Versão nova da biblioteca `av`. Rode o instalador de novo (o `requirements.txt` já trava a versão certa). |
+| `Importing the numpy C-extensions failed` (com `cp312` e "Python 3.11" na mensagem) | O ambiente `.venv` misturou duas versões do Python. Feche a janela e rode o `instalar_windows.bat` (versão de 04/11/2026), que detecta e refaz o ambiente. Com instalador antigo: apague a pasta `.venv` e rode o instalador. |
 | Frases que você não falou ("Legendas pela comunidade Amara.org") | Alucinação do Whisper em silêncio/música. O script já remove as mais comuns. |
 | Muito lento | Use `--modo rapido` para rascunho, ou rode à noite com a pasta cheia. |
 | Erro de GPU / CUDA | Rode com `--dispositivo cpu`. |
