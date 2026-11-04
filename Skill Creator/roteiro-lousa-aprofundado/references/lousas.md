@@ -48,7 +48,7 @@ O que essa lousa faz: desenha a metáfora; traz a condição de uso (declaraçã
  ]}
 ```
 
-- `saida`: `{video}_{bloco}_{slug}.png`, com o vídeo em minúsculas (`r60a`, `r50-1`) e o bloco de 1 a 4. O conferidor usa o nome para achar a fala do bloco.
+- `saida`: `{video}_{bloco}_{slug}.png`, com o vídeo em minúsculas (`r60a`, `r50-1`) e o bloco de 1 a 4. O conferidor usa o nome para achar a fala do bloco. Bloco dividido em duas lousas (só se não couber nem em 28 px): mesmo bloco, número no fim do slug e título com "(1/2)", "(2/2)": `r60a_3_conteudo-1.png`, `r60a_3_conteudo-2.png`.
 - `semente`: uma por lousa (muda a "caligrafia"; a mesma semente repete a imagem).
 - `molde`: o gerador calcula posição e tamanho. `elementos` extras (com x/y) são desenhados por cima.
 
@@ -65,7 +65,7 @@ O que essa lousa faz: desenha a metáfora; traz a condição de uso (declaraçã
 | `hp12c` | `titulo`, `passos`: `[{nome, teclas, visor, leitura}]` — só se o professor pedir as teclas na lousa |
 | `pegadinhas` | `titulo`, `itens`: `[{frase, correcao, veredito}]` — fora do padrão atual (o professor tirou o bloco de pegadinhas) |
 
-`destaque` e `conclusao` aceitam texto ou `{texto, cor, moldura}`; `desenho` aceita nome ou `{nome, cor, largura}`. Nos moldes `comparacao`, `exercicio` e no `apoio`, "R$ 1.000" nunca quebra no meio da linha.
+No `exercicio`, os passos vão de 40 a 28 px e o resultado sai 4 px maior: a conta precisa ser lida de longe. `destaque` e `conclusao` aceitam texto ou `{texto, cor, moldura}`; `desenho` aceita nome ou `{nome, cor, largura}`. Nos moldes `comparacao`, `exercicio` e no `apoio`, "R$ 1.000" nunca quebra no meio da linha.
 
 ## 5. Texto
 
@@ -85,8 +85,9 @@ Lista: `python3 scripts/lousa.py --desenhos`. Hoje: alvo, ampulheta, balanca, ba
 |---|---|
 | aviso do gerador | texto cortado, canto do logo ou da webcam invadido, letra abaixo de 28 px, sobreposição, LaTeX |
 | ocupação abaixo de 70% da altura útil (y 120 a 1040) | lousa com a parte de baixo vazia |
-| faixa sem tinta de mais de 120 px | buraco no meio da lousa (a de referência tem até 38 px) |
-| 8 palavras seguidas iguais à fala do mesmo vídeo e bloco | a lousa complementa, não copia (compara depois de tirar maiúsculas, pontuação e `{cor:}`) |
+| faixa sem tinta de mais de 120 px | buraco no meio ou pé vazio da lousa (a de referência tem até 38 px) |
+| 8 palavras seguidas iguais à fala do mesmo vídeo e bloco | a lousa complementa, não copia (compara sem maiúsculas, acentos, pontuação e `{cor:}`) |
+| lousa sem fala correspondente no roteiro | roteiro errado ou cabeçalho do vídeo fora do padrão: sem a fala, a repetição não seria conferida |
 | nome fora de `{video}_{bloco}_{slug}.png` | o conferidor não acha a fala do bloco |
 
 Vídeo sem as 4 lousas sai como aviso. Depois de zerar, **abra cada PNG**: o conferidor não vê seta invertida, desenho mal escolhido nem número diferente do da fala.

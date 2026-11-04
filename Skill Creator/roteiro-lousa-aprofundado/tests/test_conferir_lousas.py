@@ -78,6 +78,11 @@ class TesteRepeticao(unittest.TestCase):
         fala = "o pedágio sobre a carga inteira do caminhão que sai da rodovia"
         self.assertEqual(len(C.repeticoes(lousa, fala)), 1)
 
+    def test_repeticao_sem_acento(self):
+        lousa = "PGBL SO VALE A PENA PARA QUEM FAZ A DECLARACAO COMPLETA"
+        fala = "o PGBL só vale a pena para quem faz a declaração completa"
+        self.assertEqual(len(C.repeticoes(lousa, fala)), 1)
+
     def test_sem_repeticao_com_7_palavras(self):
         lousa = "PEDÁGIO SOBRE A {vermelho:CARGA INTEIRA} DO CAMINHÃO"
         fala = "o pedágio sobre a carga inteira do caminhão que sai da rodovia"
@@ -107,6 +112,24 @@ class TesteCLI(unittest.TestCase):
             out = subprocess.run([sys.executable, "-I", SCRIPT, r, j, "-o", tmp], capture_output=True, text=True)
         self.assertEqual(out.returncode, 1, out.stdout + out.stderr)
         self.assertIn("repete a fala", out.stdout)
+
+    def test_cli_sem_fala_do_bloco_e_pendencia(self):
+        roteiro = "# Outro roteiro sem cabeçalho de vídeo\n\nTexto qualquer.\n"
+        lousas = {"padrao": {"fundo": "preto"}, "slides": [{"saida": "r60a_2_metafora.png", "elementos": [
+            {"tipo": "titulo", "texto": "METÁFORA"},
+            {"tipo": "texto", "x": 80, "y": 140, "largura": 1400, "tamanho": 34, "entrelinha": 1.5,
+             "texto": "\n".join(["LINHA DE CONTEÚDO"] * 16)}]}]}
+        with tempfile.TemporaryDirectory() as tmp:
+            r, j = os.path.join(tmp, "r.md"), os.path.join(tmp, "l.json")
+            open(r, "w", encoding="utf-8").write(roteiro)
+            json.dump(lousas, open(j, "w", encoding="utf-8"), ensure_ascii=False)
+            out = subprocess.run([sys.executable, "-I", SCRIPT, r, j, "-o", tmp], capture_output=True, text=True)
+        self.assertEqual(out.returncode, 1, out.stdout + out.stderr)
+        self.assertIn("não achei a fala", out.stdout)
+
+    def test_lousa_dividida_aceita(self):
+        self.assertEqual(C.video_bloco("r60a_3_conteudo-1.png"), ("r60a", 3))
+        self.assertEqual(C.video_bloco("r60a_3_conteudo-2.png"), ("r60a", 3))
 
 
 if __name__ == "__main__":

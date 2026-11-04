@@ -7,7 +7,7 @@ Uso: python3 conferir_lousas.py roteiro.md lousas.json [-o pasta_dos_png]
 Desenha cada lousa do JSON (o mesmo motor do lousa.py) e aponta como pendência:
 - aviso do gerador (texto cortado, canto do logo ou da webcam invadido, letra abaixo de 28 px...);
 - ocupação abaixo de 70% da altura útil (lousa com metade da tela vazia);
-- faixa horizontal vazia de mais de 120 px (buraco no meio da lousa);
+- faixa horizontal vazia de mais de 120 px (buraco no meio ou pé vazio);
 - 8 palavras seguidas iguais à fala do mesmo vídeo e bloco (a lousa complementa a fala, não a repete);
 - PNG cujo nome não segue {video}_{bloco}_{slug}.png (ex.: r60a_2_metafora.png, r50-1_4_resolucao.png).
 Vídeo sem as 4 lousas sai como aviso. Sai com código 1 se houver pendência.
@@ -16,6 +16,7 @@ import argparse
 import os
 import re
 import sys
+import unicodedata
 
 sys.dont_write_bytecode = True
 AQUI = os.path.dirname(os.path.abspath(__file__))
@@ -64,9 +65,12 @@ def faixa_vazia(png):
 
 
 def normalizar(texto):
+    """Palavras em maiúsculas, sem acento, sem marcações {cor:} e com [TECLA] virando TECLA."""
     texto = re.sub(r"\{[a-zA-Z#0-9]+:", " ", texto).replace("}", " ")
-    texto = re.sub(r"\[([^\]]+)\]", r" \1 ", texto).replace(" ", " ")
-    return PALAVRA.findall(texto.upper())
+    texto = re.sub(r"\[([^\]]+)\]", r" \1 ", texto).replace("\u00a0", " ")
+    texto = unicodedata.normalize("NFKD", texto.upper())
+    texto = "".join(c for c in texto if not unicodedata.combining(c))
+    return PALAVRA.findall(texto)
 
 
 def repeticoes(lousa, fala, n=N_PALAVRAS):
@@ -160,7 +164,8 @@ def main(argv=None):
         blocos_por_video.setdefault(vb[0], set()).add(vb[1])
         fala = falas.get(vb)
         if fala is None:
-            avis.append(f"{nome}: não achei a fala do vídeo {vb[0].upper()}, bloco {vb[1]}, no roteiro")
+            pend.append(f"{nome}: não achei a fala do vídeo {vb[0].upper()}, bloco {vb[1]}, no roteiro "
+                        "(confira o roteiro passado e o cabeçalho do vídeo); sem ela, a repetição não é conferida")
             continue
         for r in repeticoes(texto_da_lousa(els), fala):
             pend.append(f"{nome}: repete a fala (\"{r.lower()}\"); a lousa deve complementar, não copiar")

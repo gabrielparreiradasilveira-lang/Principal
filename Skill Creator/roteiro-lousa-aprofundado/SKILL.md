@@ -1,6 +1,6 @@
 ---
 name: roteiro-lousa-aprofundado
-description: Cria, valida, aprofunda e reescreve roteiros de videoaula para certificações financeiras (ANBIMA CPA, C-Pro R, C-Pro I, CFG, CGA, CGE e CFP) em 4 blocos com [Ação na Lousa] e [Locução Direta], e gera as lousas no padrão X8 (PNG de fundo preto, letra de mão) que complementam a fala - divide o tema em vídeos de 6 a 8 minutos, pesquisa no Programa Detalhado, na apostila e em fontes oficiais, salva o roteiro no Google Drive, as lousas no GitHub e monta a apresentação no Google Slides com uma lousa por slide. Use sempre que o professor pedir para criar, fazer, escrever ou montar o roteiro ou as lousas de uma aula (por exemplo, R61) ou de itens do Programa Detalhado, ou enviar um roteiro ou rascunho e pedir para validar, revisar, aprimorar, completar ou aprofundar, inclusive quando disser que está raso ou que falta informação, exemplo ou analogia. Não use para apostilas ou questões de prova. Use esta skill em vez de engenharia-didatica, aula-certificacao-financeira, roteiro-validado-lousa ou lousa-manuscrita.
+description: Cria, valida, aprofunda e reescreve roteiros de videoaula para certificações financeiras (ANBIMA CPA, C-Pro R, C-Pro I, CFG, CGA, CGE e CFP) em 4 blocos com [Ação na Lousa] e [Locução Direta], e gera as lousas no padrão X8 (PNG de fundo preto, letra de mão) que complementam a fala - divide o tema em vídeos de 6 a 8 minutos, pesquisa no Programa Detalhado, na apostila e em fontes oficiais, salva o roteiro no Google Drive, as lousas no GitHub e monta a apresentação no Google Slides com uma lousa por slide. Use sempre que o professor pedir para criar, fazer, escrever ou montar o roteiro ou as lousas de uma aula (por exemplo, R61) ou de itens do Programa Detalhado, ou enviar um roteiro ou rascunho e pedir para validar, revisar, aprimorar, completar ou aprofundar, inclusive quando disser que está raso ou que falta informação, exemplo ou analogia. Não use para apostilas ou questões de prova. Substitui roteiro-validado-lousa e lousa-manuscrita.
 ---
 
 # Roteiro de Lousa Aprofundado
@@ -151,13 +151,13 @@ Leia `references/lousas.md` antes da primeira lousa: tem o padrão visual, os mo
 | 3. Conteúdo | `topicos`, `colunas` ou `comparacao` | fórmula na forma resumida, casos-limite com números, o vizinho que confunde, a regra que cai na prova |
 | 4. Resolução | `exercicio` | os cenários, as contas resumidas e o **resultado** (sem as teclas da HP, que ficam no roteiro) |
 
-Quantidade de informação: a tela útil ocupada, letra do corpo entre 30 e 34 px. Referência aprovada pelo professor: a lousa "Duas rodovias" em `references/lousas.md`.
+Quantidade de informação: a tela útil ocupada, letra do corpo entre 30 e 34 px (no molde `exercicio`, até 40 px nos passos e 44 px no resultado, que precisam ser lidos de longe). Referência aprovada pelo professor: a lousa "Duas rodovias" em `references/lousas.md`.
 
-Escreva um JSON por aula (`rXX-lousas.json`), com `"padrao": {"fundo": "preto"}` e uma lousa por bloco, nomeadas `{video}_{bloco}_{slug}.png` (ex.: `r60a_2_mar-mare-barcos.png`) e com uma `semente` diferente por lousa. Depois rode:
+Escreva um JSON por aula (`rXX-lousas.json`), com `"padrao": {"fundo": "preto"}` e uma lousa por bloco, nomeadas `{video}_{bloco}_{slug}.png` (ex.: `r60a_2_mar-mare-barcos.png`) e com uma `semente` diferente por lousa. Se um bloco não couber nem em 28 px depois de condensar, divida em duas lousas com o título repetido e "(1/2)", "(2/2)", com o mesmo bloco e um número no fim do slug: `r60a_3_conteudo-1.png` e `r60a_3_conteudo-2.png`. Depois rode:
 
 `python3 <pasta desta skill>/scripts/conferir_lousas.py roteiro.md rXX-lousas.json -o <pasta das lousas>`
 
-Ele desenha tudo e reprova: aviso do gerador (texto cortado, canto do logo ou da webcam invadido, letra abaixo de 28 px), ocupação abaixo de 70%, faixa vazia de mais de 120 px, repetição da fala e nome fora do padrão. Corrija até zerar. **Depois, abra cada PNG** (uma prancha com todas ajuda) e confira: nada sobreposto, seta no lugar, número igual ao da fala.
+Ele desenha tudo e reprova: aviso do gerador (texto cortado, canto do logo ou da webcam invadido, letra abaixo de 28 px), ocupação abaixo de 70%, faixa vazia de mais de 120 px (no meio ou no pé da lousa), repetição da fala, lousa sem a fala correspondente no roteiro e nome fora do padrão. Corrija até zerar. **Depois, abra cada PNG** (uma prancha com todas ajuda) e confira: nada sobreposto, seta no lugar, número igual ao da fala.
 
 ## Etapa 7 — Checklist de entrega
 
