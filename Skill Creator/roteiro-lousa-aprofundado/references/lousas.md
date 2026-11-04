@@ -75,7 +75,7 @@ No `exercicio`, os passos vão de 40 a 28 px e o resultado sai 4 px maior: a con
 
 ## 6. Desenhos
 
-Lista: `python3 scripts/lousa.py --desenhos`. Hoje: alvo, ampulheta, balanca, balanca_peso, balao, banco, caminhao, carro, casa, check, cofrinho, combustivel, dinheiro, diversificacao, estrela, exclamacao, fronteira_eficiente, grafico_alta, grafico_baixa, lampada, mar, moeda, onibus, pessoa, placa, prancheta, receita, rodovia_pedagio, serra, termometro, tubo_ensaio, xis.
+Lista: `python3 scripts/lousa.py --desenhos`. Hoje: alvo, ampulheta, balanca, balanca_peso, balao, banco, caminhao, carro, casa, check, cofrinho, combustivel, dinheiro, diversificacao, estrada, estrada_buracos, estrela, exclamacao, fronteira_eficiente, grafico_alta, grafico_baixa, lampada, mar, moeda, onibus, pessoa, placa, prancheta, receita, rodovia_pedagio, serra, termometro, tubo_ensaio, xis.
 
 **Metáfora sem desenho? Crie.** Acrescente uma entrada em `DESENHOS` (`scripts/desenhos.py`): `"aspecto"` (altura ÷ largura), `"descricao"` e `"tracos"` numa caixa de largura 1, com as primitivas `("linha", pontos)`, `("fechada", pontos)`, `("elipse", cx, cy, rx, ry)`, `("arco", cx, cy, rx, ry, a0, a1)`, `("grossa", pontos)`, `("ponto", cx, cy, r)`. Poucos traços: rabisco de professor, não ilustração. Renderize, abra o PNG e ajuste. Se o desenho servir a outras aulas, faça commit dele junto com as lousas.
 

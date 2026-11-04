@@ -28,6 +28,29 @@ def _estrela(n=5, r_ext=0.48, r_int=0.2, cx=0.5, cy=0.52):
 
 
 DESENHOS = {
+    "estrada": {
+        "aspecto": 0.3,
+        "descricao": "estrada lisa vista de lado (ativo livre de risco, caminho sem buracos)",
+        "tracos": [
+            ("linha", [(0.0, 0.05), (0.5, 0.048), (1.0, 0.052)]),
+            ("linha", [(0.0, 0.25), (0.5, 0.252), (1.0, 0.248)]),
+            ("linha", [(0.06, 0.15), (0.16, 0.15)]), ("linha", [(0.27, 0.15), (0.37, 0.15)]),
+            ("linha", [(0.48, 0.15), (0.58, 0.15)]), ("linha", [(0.69, 0.15), (0.79, 0.15)]),
+            ("linha", [(0.9, 0.15), (0.99, 0.15)]),
+        ],
+    },
+    "estrada_buracos": {
+        "aspecto": 0.3,
+        "descricao": "estrada com buracos (risco: o caminho pode sair diferente do previsto)",
+        "tracos": [
+            ("linha", [(0.0, 0.05), (0.5, 0.048), (1.0, 0.052)]),
+            ("linha", [(0.0, 0.25), (0.5, 0.252), (1.0, 0.248)]),
+            ("linha", [(0.06, 0.15), (0.16, 0.15)]), ("linha", [(0.48, 0.15), (0.58, 0.15)]),
+            ("linha", [(0.9, 0.15), (0.99, 0.15)]),
+            ("elipse", 0.27, 0.1, 0.06, 0.025), ("elipse", 0.4, 0.2, 0.05, 0.022),
+            ("elipse", 0.7, 0.09, 0.07, 0.026), ("elipse", 0.82, 0.19, 0.045, 0.02),
+        ],
+    },
     "rodovia_pedagio": {
         "aspecto": 0.26,
         "descricao": "rodovia com cabine de pedágio na entrada (aporte) e na saída (resgate)",
