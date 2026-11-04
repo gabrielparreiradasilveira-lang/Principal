@@ -1,0 +1,21 @@
+{
+  "saida": "mito-x-verdade.png",
+  "fundo": "preto",
+  "imperfeicao": 1.0,
+  "semente": 7,
+  "elementos": [
+    {"tipo": "titulo", "texto": "POLÍTICA MONETÁRIA e POLÍTICA FISCAL (c-pro r 4.1.1)", "x": 34, "y": 22, "tamanho": 32},
+
+    {"tipo": "texto", "id": "mito", "texto": "\"MACROECONOMIA É\nASSUNTO DE\nECONOMISTA, NÃO DE\nQUEM ATENDE CLIENTE\"",
+     "x": 80, "y": 340, "largura": 800, "tamanho": 52, "entrelinha": 1.62, "cor": "vermelho"},
+    {"tipo": "riscar", "alvo": "mito"},
+
+    {"tipo": "texto", "id": "verdade", "texto": "\"quem não lê o Cenário não explica a carteira\"",
+     "x": 1030, "y": 350, "largura": 500, "tamanho": 54, "entrelinha": 1.6, "cor": "verde"},
+    {"tipo": "caixa", "alvo": "verdade", "margem": 34},
+
+    {"tipo": "desenho", "nome": "carro", "abaixo_de": "verdade", "distancia": 50, "largura": 205, "cor": "verde"},
+
+    {"tipo": "seta", "de": "mito", "para": "verdade", "cor": "branco", "curva": 0.12}
+  ]
+}
