@@ -116,3 +116,8 @@ dividido, os títulos criados e as lousas montadas a partir de tabela da HP12C.
    (repositório público) e guarda dentro do Doc em 1920×1080. Conferir com `get_file_metadata`: o
    Doc pronto tem mais de 1 MB. Se a aula for refeita, criar um Doc novo e apagar o antigo só com o
    ok do professor. Motivo: o conector só recebe o arquivo dentro do comando, e um PNG não cabe.
+7. **Não gerar `.pptx`** (pedido de 04/11/2026): a entrega é o Doc do Drive com as lousas embutidas (item 6),
+   mais os PNGs e o `.json` no repositório. Só fazer `.pptx` se o professor pedir de novo, explicitamente.
+8. **Roteiro em série (R49-1, R49-2…)**: uma pasta e um `.json` por aula, PNGs com o prefixo do vídeo
+   (`r49-1_01_…`, `r49-2_01_…`), um Doc do Drive para a série inteira. As pegadinhas usam o título do roteiro
+   ("⚠️ PEGADINHAS") e o número de itens que ele traz.
