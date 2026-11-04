@@ -1,0 +1,252 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r50-1_01_abertura-mito.png",
+   "semente": 501,
+   "molde": "mito_verdade",
+   "titulo": "VGBL · C-PRO R 3.7.4.1",
+   "mitos": [
+    "\"O VGBL É UM PGBL PIORADO, PORQUE NÃO DEDUZ NADA\""
+   ],
+   "verdade": "O VGBL SERVE A OUTRO CLIENTE: O IR INCIDE SÓ SOBRE OS RENDIMENTOS",
+   "desenho": {
+    "nome": "placa",
+    "largura": 230
+   }
+  },
+  {
+   "saida": "r50-1_02_duas-rodovias.png",
+   "semente": 502,
+   "molde": "colunas",
+   "titulo": "DUAS RODOVIAS ATÉ A APOSENTADORIA",
+   "topo": "DE {laranja:HOJE} ATÉ A {laranja:APOSENTADORIA}",
+   "colunas": [
+    {
+     "titulo": "RODOVIA VGBL",
+     "texto": "- ENTRADA: {vermelho:SEM VALE-PEDÁGIO}\n- SAÍDA: PEDÁGIO {verde:SÓ SOBRE O LUCRO DA VIAGEM}"
+    },
+    {
+     "titulo": "RODOVIA PGBL",
+     "texto": "- ENTRADA: {verde:VALE-PEDÁGIO} (A DEDUÇÃO)\n- SAÍDA: PEDÁGIO SOBRE A {vermelho:CARGA INTEIRA}"
+    }
+   ],
+   "destaque": {
+    "texto": "VALE-PEDÁGIO → DEDUÇÃO · LUCRO DA VIAGEM → RENDIMENTOS · CARGA INTEIRA → VALOR TOTAL",
+    "cor": "laranja"
+   }
+  },
+  {
+   "saida": "r50-1_03_regras-vgbl.png",
+   "semente": 503,
+   "molde": "topicos",
+   "titulo": "1. A RODOVIA VGBL E AS SUAS REGRAS",
+   "texto": "- VGBL = {laranja:SEGURO DE VIDA COM COBERTURA POR SOBREVIVÊNCIA} · ACUMULAÇÃO DE LONGO PRAZO\n- {vermelho:NÃO DEDUZ} → NO RESGATE, IR {verde:SÓ SOBRE OS RENDIMENTOS}\n- RESGATE PARCIAL → APORTE SAI {laranja:NA PROPORÇÃO} DO RESGATE\n- DECLARAÇÃO: {laranja:BENS E DIREITOS · GRUPO 99 · CÓDIGO 06} · VALOR HISTÓRICO\n- PÚBLICO:\n  - DECLARAÇÃO SIMPLIFICADA\n  - SEM INSS\n  - JÁ USOU OS 12% DO PGBL\n  - SUCESSÃO"
+  },
+  {
+   "saida": "r50-1_04_pegadinhas.png",
+   "semente": 504,
+   "molde": "pegadinhas",
+   "titulo": "⚠️ PEGADINHAS",
+   "itens": [
+    {
+     "frase": "VGBL SÓ PARA A SIMPLIFICADA",
+     "correcao": "TAMBÉM SEM INSS, JÁ USOU OS 12% E SUCESSÃO"
+    },
+    {
+     "frase": "VGBL: IR SOBRE O TOTAL",
+     "correcao": "SÓ SOBRE OS RENDIMENTOS"
+    },
+    {
+     "frase": "RESGATE PARCIAL: SÓ RENDIMENTO SAI PRIMEIRO",
+     "correcao": "APORTE E RENDIMENTO SAEM NA PROPORÇÃO"
+    }
+   ]
+  },
+  {
+   "saida": "r50-1_05_exercicio-vgbl-pgbl.png",
+   "semente": 505,
+   "molde": "colunas",
+   "titulo": "MESMO RESGATE, MUDA SÓ O PRODUTO",
+   "topo": "- SALDO DE {laranja:R$ 150.000}, COM {laranja:R$ 100.000} APORTADOS HÁ MAIS DE 10 ANOS · REGRESSIVO ({laranja:10%})\n- RESGATE DE {laranja:R$ 30.000} (NÚMEROS HIPOTÉTICOS)",
+   "colunas": [
+    {
+     "titulo": "VGBL",
+     "texto": "- APORTE QUE SAI: ?\n- RENDIMENTO: ?\n- IR: ?"
+    },
+    {
+     "titulo": "PGBL",
+     "texto": "- BASE DO IR: ?\n- IR: ?"
+    }
+   ]
+  },
+  {
+   "saida": "r50-2_01_abertura-mito.png",
+   "semente": 506,
+   "molde": "mito_verdade",
+   "titulo": "VANTAGENS DO VGBL (1) · C-PRO R 3.7.4.2",
+   "mitos": [
+    "\"OS FUNDOS DO VGBL TAMBÉM SOFREM COME-COTAS\""
+   ],
+   "verdade": "NA PREVIDÊNCIA, O RENDIMENTO DAS RESERVAS TEM DISPENSA DE RETENÇÃO",
+   "desenho": {
+    "nome": "ampulheta",
+    "largura": 200
+   }
+  },
+  {
+   "saida": "r50-2_02_estrada-rodovia.png",
+   "semente": 507,
+   "molde": "colunas",
+   "titulo": "A ESTRADA DO FUNDO × A RODOVIA VGBL",
+   "colunas": [
+    {
+     "titulo": "ESTRADA DO FUNDO COMUM",
+     "texto": "- CABINE A CADA 6 MESES → {vermelho:COME-COTAS}\n- PARADA NO FIM DO TRECHO → {vermelho:VENCIMENTO}"
+    },
+    {
+     "titulo": "RODOVIA VGBL",
+     "texto": "- {verde:SEM CABINE NO MEIO}\n- TROCA DE FAIXA GRÁTIS → {verde:TRANSFERÊNCIA INTERNA}\n- VIADUTO → {verde:PORTABILIDADE}"
+    }
+   ],
+   "destaque": {
+    "texto": "SAIR DA PISTA → RESGATE → PAGA PEDÁGIO",
+    "cor": "vermelho"
+   }
+  },
+  {
+   "saida": "r50-2_03_sem-pedagio-no-meio.png",
+   "semente": 508,
+   "molde": "topicos",
+   "titulo": "2. SEM PEDÁGIO NO MEIO",
+   "texto": "- FUNDO COMUM: {vermelho:COME-COTAS EM MAIO E NOVEMBRO} · 15% (LONGO PRAZO) OU 20% (CURTO PRAZO)\n- PREVIDÊNCIA: {verde:DISPENSA DE RETENÇÃO} (LEI 11.053, ART. 5º) → {verde:SEM COME-COTAS}\n- SEM VENCIMENTO → O PARTICIPANTE DECIDE {laranja:QUANDO E QUANTO} RESGATAR\n- TROCA DE FUNDO NO PLANO → {verde:SEM IR}\n- PORTABILIDADE → {verde:SEM IR} SE O DINHEIRO {laranja:NÃO PASSAR PELO PARTICIPANTE}\n- PRAZO DO REGRESSIVO {laranja:CONTINUA}"
+  },
+  {
+   "saida": "r50-2_04_pegadinhas.png",
+   "semente": 509,
+   "molde": "pegadinhas",
+   "titulo": "⚠️ PEGADINHAS",
+   "itens": [
+    {
+     "frase": "RESGATAR E REAPLICAR EM OUTRA SEGURADORA É PORTABILIDADE",
+     "correcao": "É RESGATE: TEM IR"
+    },
+    {
+     "frase": "TROCAR DE FUNDO DENTRO DO PLANO GERA IR",
+     "correcao": "SEM RESGATE, SEM IR"
+    },
+    {
+     "frase": "SEM COME-COTAS, O VGBL PAGA MENOS IR EM REAIS",
+     "correcao": "PODE PAGAR MAIS EM REAIS E AINDA RENDER MAIS"
+    }
+   ]
+  },
+  {
+   "saida": "r50-2_05_exercicio-come-cotas.png",
+   "semente": 510,
+   "molde": "colunas",
+   "titulo": "MESMO DINHEIRO, MUDA SÓ O COME-COTAS",
+   "topo": "- {laranja:R$ 100.000} POR {laranja:9 ANOS} (108 MESES, 18 SEMESTRES) A {laranja:0,6% AO MÊS}\n- MESMA TAXA NOS DOIS (NÚMEROS HIPOTÉTICOS)",
+   "colunas": [
+    {
+     "titulo": "FUNDO DE LONGO PRAZO",
+     "texto": "- COME-COTAS DE {laranja:15%} A CADA SEMESTRE\n- SEM ACERTO NO RESGATE\n- SALDO FINAL: ?"
+    },
+    {
+     "titulo": "VGBL NO REGRESSIVO",
+     "texto": "- DE 8 A 10 ANOS: {laranja:15%}\n- IR SÓ NO FIM, SOBRE O RENDIMENTO\n- SALDO LÍQUIDO: ?"
+    }
+   ],
+   "destaque": {
+    "texto": "QUEM TERMINA COM MAIS? DIFERENÇA: ?",
+    "cor": "laranja"
+   }
+  },
+  {
+   "saida": "r50-3_01_abertura-mito.png",
+   "semente": 511,
+   "molde": "mito_verdade",
+   "titulo": "VANTAGENS DO VGBL (2) · C-PRO R 3.7.4.2",
+   "mitos": [
+    "\"O VGBL VAI AOS HERDEIROS SEM IMPOSTO NENHUM\""
+   ],
+   "verdade": "SEM INVENTÁRIO E SEM ITCMD, MAS COM IR SOBRE OS RENDIMENTOS",
+   "desenho": {
+    "nome": "casa",
+    "largura": 220
+   }
+  },
+  {
+   "saida": "r50-3_02_rodovia-herdeiros.png",
+   "semente": 512,
+   "molde": "metafora",
+   "titulo": "A RODOVIA ATÉ OS HERDEIROS",
+   "itens": [
+    {
+     "desenho": "balanca_peso",
+     "cor": "laranja",
+     "nome": "BALANÇA NA ENTRADA",
+     "legenda": "CARGA ACIMA DE R$ 600 MIL POR ANO: 5% → IOF"
+    },
+    {
+     "desenho": "placa",
+     "cor": "vermelho",
+     "nome": "CABINE DO IR",
+     "legenda": "CONTINUA NA SAÍDA"
+    },
+    {
+     "desenho": "casa",
+     "cor": "verde",
+     "nome": "SAÍDA DIRETA",
+     "legenda": "CASA DOS HERDEIROS → SEM INVENTÁRIO · SEM ITCMD"
+    }
+   ]
+  },
+  {
+   "saida": "r50-3_03_saida-direta-balanca.png",
+   "semente": 513,
+   "molde": "topicos",
+   "titulo": "3. SAÍDA DIRETA E BALANÇA NA ENTRADA",
+   "texto": "- BENEFICIÁRIOS ESCOLHEM {laranja:RESGATE OU RENDA} · {verde:SEM INVENTÁRIO} (LEI 11.196, ART. 79)\n- {verde:SEM ITCMD}, MESMO PARA TERCEIRO (STF, TEMA 1214 · LC 227/2026)\n- {vermelho:IR SOBRE OS RENDIMENTOS CONTINUA}\n- IOF 2026: APORTES DE PF {laranja:SOMADOS EM TODAS AS SEGURADORAS}\n  - ATÉ {laranja:R$ 600 MIL} → {verde:ZERO}\n  - ACIMA → {vermelho:5% SOBRE O EXCESSO}\n- 2025: {laranja:R$ 300 MIL} POR SEGURADORA · APORTE DO EMPREGADOR → {verde:ZERO}"
+  },
+  {
+   "saida": "r50-3_04_pegadinhas.png",
+   "semente": 514,
+   "molde": "pegadinhas",
+   "titulo": "⚠️ PEGADINHAS",
+   "itens": [
+    {
+     "frase": "SEM ITCMD = SEM IMPOSTO",
+     "correcao": "IR SOBRE OS RENDIMENTOS CONTINUA"
+    },
+    {
+     "frase": "LIMITE DE R$ 600 MIL POR SEGURADORA",
+     "correcao": "SOMA TODAS AS SEGURADORAS NO ANO"
+    },
+    {
+     "frase": "SUCESSÃO SEM INVENTÁRIO SÓ NO VGBL",
+     "correcao": "VALE PARA PGBL E VGBL"
+    }
+   ]
+  },
+  {
+   "saida": "r50-3_05_exercicio-iof.png",
+   "semente": 515,
+   "molde": "colunas",
+   "titulo": "MESMO CLIENTE, MUDA SÓ O CALENDÁRIO",
+   "topo": "MESMO CLIENTE E MESMO VALOR (NÚMEROS HIPOTÉTICOS)",
+   "colunas": [
+    {
+     "titulo": "CENÁRIO A",
+     "texto": "- {laranja:R$ 1.000.000} EM 2026\n- SEM OUTROS APORTES NO ANO\n- IOF: ?\n- % DO APORTE: ?"
+    },
+    {
+     "titulo": "CENÁRIO B",
+     "texto": "- {laranja:R$ 600.000} EM 2026\n- {laranja:R$ 400.000} EM 2027\n- SEM OUTROS APORTES\n- IOF: ?"
+    }
+   ]
+  }
+ ]
+}
