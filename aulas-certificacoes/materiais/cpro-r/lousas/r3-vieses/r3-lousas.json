@@ -1,0 +1,297 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r3a_1_duas-descricoes.png",
+   "semente": 3101,
+   "molde": "mito_verdade",
+   "titulo": "MESMA INFORMAÇÃO = MESMA DECISÃO?",
+   "mitos": [
+    "O MESMO CONTEÚDO GERA A MESMA ESCOLHA",
+    "SÓ O NÚMERO IMPORTA, A FORMA NÃO"
+   ],
+   "verdade": "A {laranja:FORMA} DE APRESENTAR MUDA A DECISÃO",
+   "desenho": "placa",
+   "apoio": "- {ciano:TVERSKY E KAHNEMAN, SCIENCE, 1981:} DOENÇA COM 600 VÍTIMAS ESPERADAS\n- \"{verde:200 SERÃO SALVAS}\" → ESCOLHIDA POR {laranja:72%}\n- \"{vermelho:400 MORRERÃO}\" (O MESMO PROGRAMA) → ESCOLHIDA POR {laranja:22%}\n- A CONTA É A MESMA: 200 SALVAS DE 600 = {laranja:400 MORTES}"
+  },
+  {
+   "saida": "r3a_2_duas-placas.png",
+   "semente": 3102,
+   "molde": "comparacao",
+   "titulo": "A MESMA PISTA, DUAS PLACAS",
+   "colunas": [
+    {
+     "titulo": "PLACA 1",
+     "desenho": "placa",
+     "rotulos": [
+      "90% CERTOS",
+      "GANHO"
+     ],
+     "texto": "- DESTACA O QUE {verde:DÁ CERTO}\n- O PILOTO SE SENTE SEGURO E POUSA\n- NO MERCADO: \"CHANCE DE GANHAR 20%\"\n- {ciano:REAÇÃO:} ATRAI"
+    },
+    {
+     "titulo": "PLACA 2",
+     "desenho": {
+      "nome": "placa",
+      "cor": "vermelho"
+     },
+     "rotulos": [
+      "10% ARREMETEM",
+      "PERDA"
+     ],
+     "texto": "- DESTACA O QUE {vermelho:DÁ ERRADO}\n- O PILOTO HESITA E ARREMETE\n- NO MERCADO: \"RISCO DE PERDER 20%\"\n- {ciano:REAÇÃO:} ASSUSTA: A PERDA PESA MAIS (R2E)"
+    }
+   ],
+   "faixas": [
+    "{ciano:AS 5 CENAS DA R3:} 1. DUAS PLACAS (FRAMING) · 2. SÓ O INSTRUMENTO QUE CONCORDA (CONFIRMAÇÃO) · 3. MÉRITO × CULPA DO TEMPO (AUTOATRIBUIÇÃO) · 4. A ROTA ANTIGA (STATUS QUO) · 5. O AVIÃO DA FRENTE (MANADA)"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} A PLACA DO MERCADO NÃO SEGUE PADRÃO OFICIAL · {verde:A SAÍDA:} MOSTRE AS DUAS PLACAS JUNTAS",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r3a_3_vieses-framing.png",
+   "semente": 3103,
+   "molde": "colunas",
+   "titulo": "VIESES E EFEITO FRAMING",
+   "topo": "{ciano:VIÉS (APOSTILA):} PADRÃO SISTEMÁTICO DE ERRO · HEURÍSTICA = ATALHO · VIÉS = {laranja:DISTORÇÃO REPETIDA}\n{ciano:OBJETIVO (DECK):} RECONHECER → MEDIR → MITIGAR · {vermelho:NÃO É ELIMINAR}",
+   "colunas": [
+    {
+     "titulo": "O QUE OS VIESES AFETAM",
+     "texto": "- ESCOLHA DOS ATIVOS\n- HORA DE COMPRAR OU VENDER\n- AVALIAÇÃO DE RISCO\n- LEITURA DE NOTÍCIAS\n- CONFIANÇA EM SI\n- MANTER OU LARGAR A ESTRATÉGIA"
+    },
+    {
+     "titulo": "FRAMING NO MERCADO",
+     "texto": "1. % OU R$\n2. GANHAR 20% × PERDER 20%\n3. SÓ O GANHO, SEM O RISCO\n4. NOTÍCIA ALARMISTA\n- {ciano:CASO-LIMITE:} 1% A.M. = {laranja:12,68% A.A.} (NÃO 12%)\n- 12% A.A. = CERCA DE {laranja:0,95% A.M.}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:ATENDIMENTO (APOSTILA):} {laranja:CLARA, EQUILIBRADA} E SEM VIÉS · GANHO E PERDA LADO A LADO · % E R$ · MUDOU O NÚMERO? {vermelho:NÃO É FRAMING}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r3a_4_mesma-taxa.png",
+   "semente": 3104,
+   "molde": "exercicio",
+   "titulo": "A MESMA TAXA, DUAS MOLDURAS",
+   "dados": "- R$ 10.000 POR 12 MESES, JUROS COMPOSTOS (HIPOTÉTICO)\n- CADA MÊS RENDE SOBRE O SALDO DO MÊS ANTERIOR\n- SEM IMPOSTO E SEM CUSTOS\n- A ÚNICA DIFERENÇA: COMO A TAXA É ANUNCIADA",
+   "cenarios": [
+    {
+     "titulo": "\"1% AO MÊS\"",
+     "passos": "10.000 × 1,01 POR 12 MESES\nFATOR: 1,1268\nPARECE POUCO: \"SÓ 1%\"",
+     "resultado": "R$ 11.268,25"
+    },
+    {
+     "titulo": "\"12,68% AO ANO\"",
+     "passos": "GANHO: R$ 1.268,25\n1.268,25 ÷ 10.000\nPARECE MUITO: \"MAIS DE 12%\"",
+     "resultado": "12,68% A.A."
+    }
+   ],
+   "conclusao": {
+    "texto": "MESMA APLICAÇÃO · {laranja:12% A.A. RENDE MENOS QUE 1% A.M.} · COMPARE {verde:NA MESMA UNIDADE}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r3b_1_irb-2020.png",
+   "semente": 3105,
+   "molde": "mito_verdade",
+   "titulo": "BEM INFORMADO = LÊ OS DOIS LADOS?",
+   "mitos": [
+    "QUEM LÊ MUITO LÊ OS DOIS LADOS",
+    "A NOTÍCIA CONTRÁRIA É SÓ RUÍDO"
+   ],
+   "verdade": "A MENTE BUSCA {laranja:O QUE CONFIRMA} A CRENÇA",
+   "desenho": "grafico_baixa",
+   "apoio": "- {ciano:IRB BRASIL (IRBR3), 2020:} RELATÓRIOS DA SQUADRA EM {laranja:2 E 9/02}\n- EM FEVEREIRO: DE {laranja:R$ 44,92} PARA {vermelho:R$ 33,25}\n- {ciano:03/03/2020:} A BERKSHIRE HATHAWAY NEGA SER ACIONISTA\n- NO DIA SEGUINTE: QUEDA DE {vermelho:MAIS DE 30%}, CERCA DE {vermelho:R$ 8,4 BI} EM VALOR DE MERCADO"
+  },
+  {
+   "saida": "r3b_2_instrumento-que-concorda.png",
+   "semente": 3106,
+   "molde": "comparacao",
+   "titulo": "SÓ O INSTRUMENTO QUE CONCORDA",
+   "colunas": [
+    {
+     "titulo": "O QUE ELE OLHA",
+     "desenho": "mostrador",
+     "rotulos": [
+      "CONCORDA",
+      "É LIDO"
+     ],
+     "texto": "- NOTÍCIA BOA DA AÇÃO QUE JÁ TEM\n- QUEM PENSA IGUAL A ELE\n- {laranja:VISÃO DE TÚNEL} (DECK): UM SÓ CORREDOR\n- {ciano:MEMÓRIA:} LEMBRA MAIS O QUE CONFIRMA"
+    },
+    {
+     "titulo": "O QUE DESCARTA",
+     "desenho": {
+      "nome": "alarme",
+      "cor": "vermelho"
+     },
+     "rotulos": [
+      "DISCORDA",
+      "\"DEFEITO\""
+     ],
+     "texto": "- RELATÓRIO CRÍTICO, BALANÇO RUIM\n- ANÁLISE QUE CONTRADIZ A ESTRATÉGIA\n- DADO NEGATIVO \"EXPLICADO\" PARA MANTER A TESE\n- {ciano:RESULTADO:} {vermelho:METADE DO PAINEL}"
+    }
+   ],
+   "faixas": [
+    "{ciano:O FILTRO DUPLO:} A FAVOR → {verde:ACEITA SEM CONFERIR} · CONTRA → {vermelho:EXIGE PROVA EXTRA}",
+    "{ciano:A PERGUNTA DO DECK:} VOCÊ INVESTE PARA {verde:GANHAR DINHEIRO} OU PARA {vermelho:TER RAZÃO}?"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA AVIAÇÃO, O ALARME QUE DISCORDA {laranja:É CONFERIDO} · {verde:A SAÍDA:} BUSCAR A INFORMAÇÃO CONTRA DE PROPÓSITO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r3b_3_vies-confirmacao.png",
+   "semente": 3107,
+   "molde": "colunas",
+   "titulo": "VIÉS DE CONFIRMAÇÃO",
+   "topo": "{ciano:DEFINIÇÃO (APOSTILA):} BUSCAR, SELECIONAR E INTERPRETAR DADOS PARA {laranja:CONFIRMAR A CRENÇA} · O DECK SOMA: {laranja:LEMBRAR}\n{ciano:EFEITO:} {vermelho:BOLHA INFORMACIONAL} → \"ESTOU CERTO\", MESMO COM FUNDAMENTOS NOVOS",
+   "colunas": [
+    {
+     "titulo": "COMPORTAMENTOS",
+     "texto": "1. SÓ NOTÍCIA BOA DA AÇÃO EM CARTEIRA\n2. INFLUENCIADOR QUE REFORÇA A IDEIA\n3. FOGE DA ANÁLISE CONTRÁRIA\n4. JUSTIFICA O DADO NEGATIVO"
+    },
+    {
+     "titulo": "NA CARTEIRA",
+     "texto": "- SEGURA A POSIÇÃO RUIM {vermelho:TEMPO DEMAIS}\n- COMPRA SÓ PORQUE \"CONFIRMA A TESE\"\n- {ciano:NÃO CONFUNDA:} ANCORAGEM (R2C) = PRESO A UM NÚMERO · CONFIRMAÇÃO = {laranja:FILTRO DA INFORMAÇÃO}"
+    }
+   ],
+   "destaque": {
+    "texto": "{verde:ANTES DE COMPRAR:} CRITÉRIO DE SAÍDA POR ESCRITO: \"O QUE ME FARIA {laranja:MUDAR DE IDEIA}?\" · O MELHOR ARGUMENTO CONTRA · FATO RELEVANTE NA FONTE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r3b_4_dois-lados.png",
+   "semente": 3108,
+   "molde": "exercicio",
+   "titulo": "OS DOIS LADOS × SÓ A DEFESA",
+   "dados": "- R$ 100.000 NUMA AÇÃO A R$ 40 = {laranja:2.500 AÇÕES} (HIPOTÉTICO)\n- SAI UM RELATÓRIO NEGATIVO; A EMPRESA CONTESTA\n- SEM CUSTOS E SEM IMPOSTO\n- A ÚNICA DIFERENÇA: O QUE O INVESTIDOR LÊ",
+   "cenarios": [
+    {
+     "titulo": "LÊ OS DOIS LADOS",
+     "passos": "LÊ O RELATÓRIO E A RESPOSTA\nREAVALIA A TESE\nVENDE A R$ 30\n2.500 × 30",
+     "resultado": "R$ 75.000"
+    },
+    {
+     "titulo": "LÊ SÓ A DEFESA",
+     "passos": "LÊ SÓ A RESPOSTA\n\"É SÓ BOATO\"\nSEGURA ATÉ R$ 10\n2.500 × 10",
+     "resultado": "R$ 25.000"
+    }
+   ],
+   "conclusao": {
+    "texto": "DIFERENÇA: {laranja:R$ 50.000} · NÃO É ADIVINHAR O PREÇO, É {verde:OLHAR O PAINEL INTEIRO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r3c_1_ibovespa-2019.png",
+   "semente": 3109,
+   "molde": "mito_verdade",
+   "titulo": "GANHO E PERDA: A MESMA RÉGUA?",
+   "mitos": [
+    "GANHO E PERDA SÃO MEDIDOS IGUAL",
+    "SE GANHEI, É PORQUE SOU BOM"
+   ],
+   "verdade": "GANHO = {verde:MÉRITO} · PERDA = {vermelho:CULPA DE FORA}",
+   "desenho": "grafico_alta",
+   "apoio": "- {ciano:IBOVESPA 2019:} {verde:+31,58%}, FECHA EM {laranja:115.645} PONTOS\n- 2ª MAIOR ALTA DA DÉCADA, ATRÁS DE 2016 ({verde:+38,93%})\n- {ciano:MARÇO DE 2020:} {vermelho:−29,9%} NO MÊS\n- {ciano:APOSTILA:} \"LUCREI POR SER BOM\", COM O MERCADO {laranja:FAVORÁVEL PARA TODOS}"
+  },
+  {
+   "saida": "r3c_2_merito-culpa-do-tempo.png",
+   "semente": 3110,
+   "molde": "comparacao",
+   "titulo": "POUSO SUAVE × TURBULÊNCIA",
+   "colunas": [
+    {
+     "titulo": "POUSO SUAVE",
+     "desenho": "grafico_alta",
+     "rotulos": [
+      "TEMPO BOM",
+      "\"SOU ÓTIMO\""
+     ],
+     "texto": "- {verde:MÉRITO PRÓPRIO}, HABILIDADE, INTELIGÊNCIA\n- ESQUECE O VENTO A FAVOR\n- REPETE A MANOBRA ARRISCADA\n- {ciano:EFEITO:} CONFIANÇA {laranja:EM EXCESSO}"
+    },
+    {
+     "titulo": "TURBULÊNCIA",
+     "desenho": {
+      "nome": "caixa_preta",
+      "cor": "vermelho"
+     },
+     "rotulos": [
+      "FECHADA",
+      "\"FOI O TEMPO\""
+     ],
+     "texto": "- {vermelho:CULPA DE FORA}: AZAR, MERCADO, TERCEIROS\n- NÃO REVÊ A PRÓPRIA DECISÃO\n- O ERRO {laranja:SE REPETE} NO PRÓXIMO VOO\n- {ciano:EFEITO:} {vermelho:NÃO APRENDE}"
+    }
+   ],
+   "faixas": [
+    "{ciano:A FRASE DO DECK:} \"A CULPA É MINHA E EU COLOCO EM QUEM EU QUISER!\"",
+    "{ciano:NA CARTEIRA (APOSTILA):} CULPA O GESTOR, A CORRETORA OU {laranja:A NOTÍCIA INESPERADA}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA AVIAÇÃO, O INCIDENTE GRAVE {laranja:É INVESTIGADO} · {verde:A SAÍDA:} REVISAR ACERTO E ERRO COM O MESMO ROTEIRO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r3c_3_vies-autoatribuicao.png",
+   "semente": 3111,
+   "molde": "colunas",
+   "titulo": "VIÉS DE AUTOATRIBUIÇÃO",
+   "topo": "{ciano:PADRÃO (APOSTILA):} GANHO → {verde:MÉRITO, HABILIDADE, INTELIGÊNCIA} · PERDA → {vermelho:AZAR, MERCADO, TERCEIROS}\n{ciano:EFEITOS:} REFORÇA A {laranja:AUTOCONFIANÇA EXCESSIVA} E {vermelho:IMPEDE O APRENDIZADO}",
+   "colunas": [
+    {
+     "titulo": "COMO APARECE",
+     "texto": "1. \"LUCREI PORQUE SOU BOM\"\n2. \"A CULPA É DO GESTOR\"\n3. \"MINHA ANÁLISE É MELHOR\"\n4. REPETE A APOSTA ARRISCADA"
+    },
+    {
+     "titulo": "A RÉGUA",
+     "texto": "- {laranja:ÍNDICE DE REFERÊNCIA} DO MESMO PERÍODO\n- ACERTO E ERRO: ESPERADO → POR QUÊ → OCORRIDO\n- CULPOU O GESTOR? CONFIRA {laranja:OBJETIVO E BENCHMARK} DO FUNDO"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:NÃO CONFUNDA:} EXCESSO DE CONFIANÇA (R2D) = SUPERESTIMAR A HABILIDADE · AUTOATRIBUIÇÃO = {laranja:EXPLICAR O RESULTADO COM DOIS PESOS}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r3c_4_regua-do-indice.png",
+   "semente": 3112,
+   "molde": "exercicio",
+   "titulo": "RÉGUA ZERO × RÉGUA DO ÍNDICE",
+   "dados": "- R$ 100.000 EM AÇÕES DURANTE 2019 (CARTEIRA HIPOTÉTICA)\n- A CARTEIRA FECHA O ANO EM {laranja:R$ 125.000}: +25%\n- IBOVESPA 2019: {verde:+31,58%} (DADO REAL)\n- A ÚNICA DIFERENÇA: A RÉGUA DA COMPARAÇÃO",
+   "cenarios": [
+    {
+     "titulo": "RÉGUA ZERO",
+     "passos": "125.000 − 100.000\nGANHO DE R$ 25.000\n25.000 ÷ 100.000\n\"SOU BOM\"",
+     "resultado": "+25%"
+    },
+    {
+     "titulo": "RÉGUA DO ÍNDICE",
+     "passos": "100.000 × 1,3158\nÍNDICE: R$ 131.580\n125.000 CONTRA 131.580\n(125.000 − 131.580) ÷ 131.580",
+     "resultado": "−5,00%"
+    }
+   ],
+   "conclusao": {
+    "texto": "{verde:+R$ 25 MIL} NO BOLSO, {vermelho:R$ 6.580 ATRÁS} DO ÍNDICE · COMPARE {laranja:COM O BENCHMARK}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
