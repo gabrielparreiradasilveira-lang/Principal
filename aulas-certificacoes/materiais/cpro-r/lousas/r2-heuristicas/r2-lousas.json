@@ -281,6 +281,200 @@
     "cor": "branco",
     "moldura": "amarelo"
    }
+  },
+  {
+   "saida": "r2d_1_day-trade.png",
+   "semente": 2401,
+   "molde": "mito_verdade",
+   "titulo": "QUEM CONFIA MAIS GANHA MAIS?",
+   "mitos": [
+    "CONFIAR NA PRÓPRIA ANÁLISE GARANTE ACERTAR O TEMPO DE MERCADO",
+    "EXPERIÊNCIA PROTEGE DO EXCESSO DE CONFIANÇA"
+   ],
+   "verdade": "ACERTO {laranja:NÃO É} PROVA DE HABILIDADE: A SORTE CONTA",
+   "desenho": "grafico_baixa",
+   "apoio": "- {ciano:FGV E USP, DAY TRADE (2013–2015):} DOS QUE INSISTIRAM MAIS DE 300 DIAS, {vermelho:97%} PERDERAM\n- SÓ {vermelho:1,1%} SUPEROU O SALÁRIO MÍNIMO · {vermelho:0,5%}, O SALÁRIO INICIAL DE CAIXA DE BANCO\n- {ciano:BARBER E ODEAN (2000):} QUEM MAIS OPEROU GANHOU {vermelho:11,4%} A.A. × MERCADO {verde:17,9%} A.A. (EUA, 1991–1996)"
+  },
+  {
+   "saida": "r2d_2_instrumentos-desligados.png",
+   "semente": 2402,
+   "molde": "comparacao",
+   "titulo": "A ROTA DOS INSTRUMENTOS DESLIGADOS",
+   "colunas": [
+    {
+     "titulo": "NA CABINE",
+     "desenho": "cabine",
+     "rotulos": [
+      "RADAR",
+      "CHECKLIST"
+     ],
+     "texto": "- \"EU CONHEÇO ESTE CÉU\"\n- {vermelho:DESLIGA O RADAR} E DISPENSA O CHECKLIST\n- VOA MAIS VEZES, COM MAIS CARGA\n- POUSO BOM COM TEMPO BOM VIRA \"SOU ÓTIMO\""
+    },
+    {
+     "titulo": "NA CARTEIRA",
+     "desenho": "alvo",
+     "rotulos": [
+      "CERTEZA",
+      "ACASO"
+     ],
+     "texto": "- \"SEI ESCOLHER AS MELHORES AÇÕES\" (DECK)\n- {vermelho:OPERA DEMAIS}\n- {vermelho:CONCENTRA}: \"NÃO POSSO ESTAR ERRADO\"\n- O ACERTO POR SORTE CONTA COMO MÉRITO"
+    }
+   ],
+   "faixas": [
+    "{ciano:DECK:} \"A MAIORIA DOS MOTORISTAS AFIRMA QUE DIRIGE {laranja:MELHOR DO QUE A MÉDIA}\"",
+    "{ciano:APOSTILA:} QUANTO MAIS {verde:SUCESSO INICIAL}, MAIS CONFIANÇA, E MAIS RISCO NO FUTURO"
+   ],
+   "destaque": {
+    "texto": "{verde:O CHECKLIST DO INVESTIDOR:} LIMITE DE PESO POR ATIVO · DIÁRIO DE PREVISÕES · DIVERSIFICAÇÃO E GESTÃO DE RISCO (APOSTILA)",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r2d_3_excesso-de-confianca.png",
+   "semente": 2403,
+   "molde": "colunas",
+   "titulo": "EXCESSO DE CONFIANÇA NA CARTEIRA",
+   "topo": "{ciano:DEFINIÇÃO (APOSTILA):} SUPERESTIMAR {laranja:HABILIDADES}, {laranja:CONHECIMENTOS} E A CAPACIDADE DE {laranja:PREVER}\n{ciano:CONSEQUÊNCIAS (DECK):} OPERAÇÕES EM EXCESSO · POUCA DIVERSIFICAÇÃO · RISCO SUBESTIMADO",
+   "colunas": [
+    {
+     "titulo": "OS 5 SINAIS (APOSTILA)",
+     "texto": "1. \"ACERTO O TEMPO DE MERCADO\"\n2. OPERAÇÃO ARRISCADA: \"SEI MAIS QUE OS OUTROS\"\n3. IGNORA SINAIS DE ALERTA\n4. SUBESTIMA RISCOS: \"SOU EXPERIENTE\"\n5. CONCENTRA: \"NÃO POSSO ESTAR ERRADO\""
+    },
+    {
+     "titulo": "O CICLO E O PARADOXO",
+     "texto": "- ACERTO → MAIS CONFIANÇA → {vermelho:MAIS RISCO} → MENOS CONFERÊNCIA\n- DECK: MAIS COMUM EM {laranja:EXPERIENTES} (PARADOXO)\n- APOSTILA (P. 37 E 92): EXPERIENTES E ATÉ PROFISSIONAIS {laranja:PODEM} TER"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:NÃO CONFUNDA:} EXCESSO DE CONFIANÇA (HEURÍSTICA) × AUTOATRIBUIÇÃO (VIÉS, R3): \"O SUCESSO É MEU, O FRACASSO É DOS OUTROS\"",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r2d_4_custo-do-giro.png",
+   "semente": 2404,
+   "molde": "exercicio",
+   "titulo": "GIRAR POUCO × GIRAR MUITO",
+   "dados": "- R$ 100.000 POR 10 ANOS; RETORNO BRUTO DE 12% A.A. NOS DOIS (HIPOTÉTICO)\n- CUSTO DE GIRAR A CARTEIRA: 0,5% A.A. × 4% A.A.\n- SIMPLIFICAÇÃO: CUSTO DESCONTADO DA TAXA; SEM IR\n- A ÚNICA DIFERENÇA É QUANTO CUSTA GIRAR",
+   "cenarios": [
+    {
+     "titulo": "GIRA POUCO",
+     "passos": "12% − 0,5% = 11,5% A.A.\nFATOR EM 10 ANOS: 2,9699\n100.000 × 2,9699",
+     "resultado": "R$ 296.994,68"
+    },
+    {
+     "titulo": "GIRA MUITO",
+     "passos": "12% − 4% = 8% A.A.\nFATOR EM 10 ANOS: 2,1589\n100.000 × 2,1589",
+     "resultado": "R$ 215.892,50"
+    }
+   ],
+   "conclusao": {
+    "texto": "DIFERENÇA: {vermelho:R$ 81.102,18} SÓ EM CUSTO · BARBER E ODEAN: O DOMICÍLIO MÉDIO GIRAVA {laranja:75%} DA CARTEIRA POR ANO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r2e_1_odean.png",
+   "semente": 2501,
+   "molde": "mito_verdade",
+   "titulo": "VENDE RÁPIDO O QUE CAI?",
+   "mitos": [
+    "PARA NÃO PERDER MAIS, O INVESTIDOR VENDE LOGO O QUE CAI",
+    "SEGURAR A AÇÃO EM QUEDA EVITA A PERDA"
+   ],
+   "verdade": "O QUE CAI {laranja:FICA}; O QUE SOBE {laranja:SAI CEDO}",
+   "desenho": "alarme",
+   "apoio": "- {ciano:ODEAN (1998):} 10 MIL CONTAS DE UMA CORRETORA AMERICANA, DE 1987 A 1993\n- GANHOS REALIZADOS: {verde:14,8%} · PERDAS REALIZADAS: {vermelho:9,8%} → CERCA DE {laranja:1,5 VEZ}\n- {ciano:EM DEZEMBRO:} O PADRÃO SE INVERTE (VENDE PERDAS PARA ABATER IMPOSTO NOS EUA)"
+  },
+  {
+   "saida": "r2e_2_alarme-dobrado.png",
+   "semente": 2502,
+   "molde": "comparacao",
+   "titulo": "O ALARME DOBRADO",
+   "colunas": [
+    {
+     "titulo": "ALARME DE GANHO",
+     "desenho": {
+      "nome": "alarme",
+      "cor": "verde"
+     },
+     "rotulos": [
+      "PEQUENO",
+      "BAIXO"
+     ],
+     "texto": "- ACIMA DO PREÇO DE COMPRA\n- VENDE CEDO PARA \"GARANTIR O LUCRO\"\n- O PRAZER DE GANHAR TOCA {verde:BAIXO}\n- PESO NA MENTE: GANHO VALE {verde:1}\n- DECK: CORTA AS {verde:FLORES}"
+    },
+    {
+     "titulo": "ALARME DE PERDA",
+     "desenho": {
+      "nome": "alarme",
+      "cor": "vermelho"
+     },
+     "rotulos": [
+      "GRANDE",
+      "CERCA DE 2×"
+     ],
+     "texto": "- ABAIXO DO PREÇO DE COMPRA\n- SEGURA ESPERANDO \"VOLTAR AO ZERO\"\n- A DOR DE PERDER TOCA {vermelho:ALTO}\n- PESO NA MENTE: PERDA VALE {vermelho:CERCA DE 2}\n- DECK: DEIXA AS {vermelho:ERVAS DANINHAS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:QUANTO MAIS ALTO?} DECK: 2 VEZES · TVERSKY E KAHNEMAN (1992): COEFICIENTE DE CERCA DE {laranja:2,25}",
+    "{ciano:A RÉGUA DOS ALARMES:} O {laranja:PREÇO DE COMPRA} · ACIMA DELE, TOCA O DE GANHO; ABAIXO, O DE PERDA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O PREJUÍZO JÁ ESTÁ NO EXTRATO · A VENDA NÃO CRIA A PERDA, SÓ A {laranja:REGISTRA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r2e_3_aversao-a-perda.png",
+   "semente": 2503,
+   "molde": "colunas",
+   "titulo": "AVERSÃO À PERDA NA CARTEIRA",
+   "topo": "{ciano:APOSTILA:} PERDER R$ 1.000 DÓI {vermelho:MUITO MAIS} DO QUE GANHAR R$ 1.000 ALEGRA · DECK: {laranja:2 VEZES}\n{ciano:RÉGUA:} O PREÇO DE COMPRA (A ÂNCORA DA R2C)",
+   "colunas": [
+    {
+     "titulo": "COMPORTAMENTOS (APOSTILA)",
+     "texto": "1. SEGURA O QUE CAI: \"VOLTAR AO ZERO\"\n2. VENDE CEDO O QUE SOBE: \"GARANTIR O LUCRO\"\n3. EVITA INVESTIMENTOS IMPORTANTES\n4. FOCO NO CURTO PRAZO\n5. NA VOLATILIDADE: ESTRESSE E {vermelho:ABANDONO DA ESTRATÉGIA}"
+    },
+    {
+     "titulo": "NOMES E VIZINHOS",
+     "texto": "- 1 + 2 = {laranja:EFEITO DISPOSIÇÃO} (SHEFRIN E STATMAN, 1985)\n- AVERSÃO AO RISCO = VISÃO TRADICIONAL (R1C)\n- REBALANCEAR NO LUCRO {verde:NÃO É} ERRO"
+    }
+   ],
+   "destaque": {
+    "texto": "{verde:NO ATENDIMENTO:} \"COMPRARIA HOJE?\" NO LUGAR DE \"LUCRO OU PREJUÍZO?\" · REGRA DE REBALANCEAMENTO COMBINADA ANTES",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r2e_4_olhar-para-frente.png",
+   "semente": 2504,
+   "molde": "exercicio",
+   "titulo": "SEGURAR × REALIZAR E REALOCAR",
+   "dados": "- AÇÃO COMPRADA A R$ 100 CAIU PARA R$ 60 (HIPOTÉTICO)\n- PRAZO DE 5 ANOS; SEM IR E SEM CUSTOS\n- RETORNOS ESPERADOS HIPOTÉTICOS, SÓ PARA COMPARAR\n- A ÚNICA DIFERENÇA: ONDE OS R$ 60 FICAM",
+   "cenarios": [
+    {
+     "titulo": "SEGURA A AÇÃO",
+     "passos": "RETORNO ESPERADO: 5% A.A.\nPRAZO: 5 ANOS\nFATOR: 1,2763\n60 × 1,2763",
+     "resultado": "R$ 76,58"
+    },
+    {
+     "titulo": "REALIZA E REALOCA",
+     "passos": "ALTERNATIVA: 10% A.A.\nPRAZO: 5 ANOS\nFATOR: 1,6105\n60 × 1,6105",
+     "resultado": "R$ 96,63"
+    }
+   ],
+   "conclusao": {
+    "texto": "OS R$ 40 JÁ ESTAVAM PERDIDOS NOS DOIS · NENHUM VOLTA AOS R$ 100 EM 5 ANOS · A PERGUNTA É {laranja:ONDE O DINHEIRO RENDE MAIS DAQUI PARA FRENTE}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
   }
  ]
 }
