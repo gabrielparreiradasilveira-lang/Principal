@@ -6,6 +6,9 @@ Janela do Transcritor de Videoaulas.
   2. Escolha o modo
   3. Clique em Transcrever
 
+Ou, no quadro "Automático", escolha a pasta onde o OBS grava: cada gravação nova
+é transcrita sozinha assim que o OBS termina de gravar.
+
 Por baixo, a janela roda o mesmo transcrever.py, em um processo separado:
 se algo der errado, a janela continua aberta, e "Cancelar" encerra na hora.
 """
@@ -13,6 +16,7 @@ se algo der errado, a janela continua aberta, e "Cancelar" encerra na hora.
 from __future__ import annotations
 
 import codecs
+import json
 import os
 import queue
 import re
@@ -30,7 +34,13 @@ from transcrever import EXTENSOES
 
 PASTA = Path(__file__).resolve().parent
 SCRIPT = PASTA / "transcrever.py"
-SAIDA = PASTA / "saida"
+SAIDA = PASTA / "saida"             # pasta de resultados padrão
+CONFIG = PASTA / "config.json"       # escolhas da janela (pastas, modo, estilo...)
+REGISTRO = PASTA / "registro.txt"    # cópia de tudo o que aparece em "Detalhes"
+
+ESTAVEL_SEG = 20      # vídeo "pronto" = tamanho parado por esse tempo (OBS terminou)
+INTERVALO_VIGIA = 5   # segundos entre uma olhada e outra na pasta do OBS
+MARGEM_SEG = 5        # folga ao separar vídeos novos dos que já estavam na pasta
 
 try:  # arrastar e soltar (pacote tkinterdnd2); sem ele, só o botão de escolher
     from tkinterdnd2 import DND_FILES, TkinterDnD
@@ -54,6 +64,26 @@ RE_PROGRESSO = re.compile(r"^(\d+(?:\.\d+)?)%\s+\[")
 NA_FILA, JA_FEITO, PRONTO = "Na fila", "Já transcrito", "Pronto ✓"
 
 
+def ler_config() -> dict:
+    """Escolhas salvas; arquivo ausente ou estragado = valores padrão."""
+    try:
+        dados = json.loads(CONFIG.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+    return dados if isinstance(dados, dict) else {}
+
+
+def livre(p: Path) -> bool:
+    """No Windows o OBS deixa o vídeo travado enquanto grava: renomear falha."""
+    if sys.platform != "win32":
+        return True
+    try:
+        os.rename(p, p)
+        return True
+    except OSError:
+        return False
+
+
 class Janela:
     def __init__(self, raiz: tk.Tk):
         self.raiz = raiz
@@ -64,45 +94,65 @@ class Janela:
         self.inicio_arquivo = 0.0
         self.feitos = self.erros = self.total = 0
         self.cancelado = False
-        self.modo = tk.StringVar(value="equilibrado")
-        self.estilo = tk.StringVar(value="fiel")
+        self.automatico = False            # rodada iniciada pela pasta vigiada
+        self.pendente_auto = False         # vídeo novo chegou durante uma rodada
+        self.tamanhos: dict[Path, tuple[int, float]] = {}  # tamanho e quando mudou
+        self.vistos_auto: set[Path] = set()  # já entregues à lista pela pasta vigiada
+        self.vigia_desde = time.time()
+
+        conf = ler_config()
+        texto = lambda chave, padrao: (conf[chave] if isinstance(conf.get(chave), str)  # noqa: E731
+                                       else padrao)
+        modo, estilo = texto("modo", "equilibrado"), texto("estilo", "fiel")
+        self.modo = tk.StringVar(value=modo if modo in {m[0] for m in MODOS} else "equilibrado")
+        self.estilo = tk.StringVar(value=estilo if estilo in {e[0] for e in ESTILOS} else "fiel")
+        self.padronizar = tk.BooleanVar(value=texto("numeros", "padrao") != "original")
         self.refazer = tk.BooleanVar(value=False)
+        self.pasta_obs = tk.StringVar(value=texto("pasta_obs", ""))
+        self.vigiar = tk.BooleanVar(value=conf.get("vigiar") is True)
+        self.saida = tk.StringVar(value=texto("saida", "") or str(SAIDA))
+        for var in (self.modo, self.estilo, self.padronizar, self.pasta_obs, self.vigiar,
+                    self.saida):
+            var.trace_add("write", lambda *_: self._salvar_config())
+        self.vigiar.trace_add("write", lambda *_: self._ao_mudar_vigia())
+
         self._montar()
         self.raiz.protocol("WM_DELETE_WINDOW", self.fechar)
         self.raiz.after(100, self._ler_fila)
+        self.raiz.after(1000, self._vigiar)
 
     # ------------------------------------------------------------------ tela
     def _montar(self):
         r = self.raiz
         r.title("Transcritor de Videoaulas")
-        r.geometry("780x760")
-        r.minsize(640, 600)
+        r.geometry("900x690")  # cabe num notebook 1366x768, já descontada a barra de tarefas
+        r.minsize(720, 560)
         font.nametofont("TkDefaultFont").configure(size=11)
         font.nametofont("TkTextFont").configure(size=10)
         estilo = ttk.Style()
         estilo.configure("Grande.TButton", font=("TkDefaultFont", 13, "bold"), padding=8)
 
-        corpo = ttk.Frame(r, padding=14)
+        corpo = ttk.Frame(r, padding=(14, 10))
         corpo.pack(fill="both", expand=True)
 
         ttk.Label(corpo, text="Transcritor de Videoaulas",
                   font=("TkDefaultFont", 16, "bold")).pack(anchor="w")
         ttk.Label(corpo, text="1. Arraste os vídeos   →   2. Escolha o modo   →   "
-                              "3. Clique em Transcrever").pack(anchor="w", pady=(2, 10))
+                              "3. Clique em Transcrever").pack(anchor="w", pady=(2, 8))
 
         dica = ("Arraste os vídeos aqui\n(ou clique para escolher)" if TEM_ARRASTAR else
                 "Clique aqui para escolher os vídeos\n(para arrastar e soltar, rode o "
                 "instalador de novo)")
-        self.zona = tk.Label(corpo, text=dica, relief="ridge", bd=2, height=4,
+        self.zona = tk.Label(corpo, text=dica, relief="ridge", bd=2, height=2,
                              bg="#eef3fb", fg="#1f3b63", cursor="hand2",
                              font=("TkDefaultFont", 12, "bold"))
         self.zona.pack(fill="x")
         self.zona.bind("<Button-1>", lambda e: self.escolher())
 
         lista = ttk.Frame(corpo)
-        lista.pack(fill="both", expand=True, pady=(10, 4))
+        lista.pack(fill="both", expand=True, pady=(8, 4))
         self.tabela = ttk.Treeview(lista, columns=("arquivo", "status"), show="headings",
-                                   height=6, selectmode="extended")
+                                   height=3, selectmode="extended")
         self.tabela.heading("arquivo", text="Arquivo")
         self.tabela.heading("status", text="Situação")
         self.tabela.column("arquivo", width=480)
@@ -125,20 +175,45 @@ class Janela:
         self.bt_limpar = ttk.Button(botoes_lista, text="Limpar lista", command=self.limpar)
         self.bt_limpar.pack(side="left", padx=6)
 
+        pastas = ttk.Frame(corpo)
+        pastas.pack(fill="x", pady=(8, 0))
+        quadro_auto = ttk.LabelFrame(pastas, text="Automático (pasta do OBS)", padding=(8, 4))
+        quadro_auto.pack(side="left", fill="both", expand=True)
+        linha = ttk.Frame(quadro_auto)
+        linha.pack(fill="x")
+        ttk.Entry(linha, textvariable=self.pasta_obs, state="readonly").pack(
+            side="left", fill="x", expand=True)
+        ttk.Button(linha, text="Escolher pasta do OBS…", command=self.escolher_obs).pack(
+            side="left", padx=(6, 0))
+        ttk.Checkbutton(quadro_auto, text="Transcrever sozinho os vídeos novos desta pasta",
+                        variable=self.vigiar).pack(anchor="w", pady=(4, 0))
+        quadro_saida = ttk.LabelFrame(pastas, text="Pasta de resultados", padding=(8, 4))
+        quadro_saida.pack(side="left", fill="both", expand=True, padx=(10, 0))
+        linha = ttk.Frame(quadro_saida)
+        linha.pack(fill="x")
+        ttk.Entry(linha, textvariable=self.saida, state="readonly").pack(
+            side="left", fill="x", expand=True)
+        self.bt_saida = ttk.Button(linha, text="Escolher…", command=self.escolher_saida)
+        self.bt_saida.pack(side="left", padx=(6, 0))
+        ttk.Button(quadro_saida, text="Abrir pasta de resultados",
+                   command=self.abrir_pasta).pack(anchor="w", pady=(4, 0))
+
         opcoes = ttk.Frame(corpo)
-        opcoes.pack(fill="x", pady=10)
-        quadro_modo = ttk.LabelFrame(opcoes, text="Modo", padding=8)
+        opcoes.pack(fill="x", pady=8)
+        quadro_modo = ttk.LabelFrame(opcoes, text="Modo", padding=(8, 4))
         quadro_modo.pack(side="left", fill="both", expand=True)
         for valor, nome, desc in MODOS:
             ttk.Radiobutton(quadro_modo, text=f"{nome} — {desc}", value=valor,
                             variable=self.modo).pack(anchor="w")
-        quadro_estilo = ttk.LabelFrame(opcoes, text="Estilo do texto", padding=8)
+        quadro_estilo = ttk.LabelFrame(opcoes, text="Estilo do texto", padding=(8, 4))
         quadro_estilo.pack(side="left", fill="both", expand=True, padx=(10, 0))
         for valor, nome, desc in ESTILOS:
             ttk.Radiobutton(quadro_estilo, text=f"{nome} — {desc}", value=valor,
                             variable=self.estilo).pack(anchor="w")
+        ttk.Checkbutton(quadro_estilo, text="Padronizar números (R$, %, D+2)",
+                        variable=self.padronizar).pack(anchor="w", pady=(4, 0))
         ttk.Checkbutton(quadro_estilo, text="Refazer vídeos já transcritos",
-                        variable=self.refazer).pack(anchor="w", pady=(6, 0))
+                        variable=self.refazer).pack(anchor="w")
 
         acoes = ttk.Frame(corpo)
         acoes.pack(fill="x")
@@ -148,18 +223,16 @@ class Janela:
         self.bt_cancelar = ttk.Button(acoes, text="Cancelar", command=self.cancelar,
                                       state="disabled")
         self.bt_cancelar.pack(side="left", padx=8)
-        ttk.Button(acoes, text="Abrir pasta de resultados",
-                   command=self.abrir_pasta).pack(side="right")
 
         self.barra = ttk.Progressbar(corpo, maximum=100)
-        self.barra.pack(fill="x", pady=(12, 2))
+        self.barra.pack(fill="x", pady=(8, 2))
         self.situacao = ttk.Label(corpo, text="Pronto para começar.")
         self.situacao.pack(anchor="w")
 
         detalhes = ttk.LabelFrame(corpo, text="Detalhes (copie daqui se precisar de ajuda)",
                                   padding=4)
-        detalhes.pack(fill="both", expand=True, pady=(10, 0))
-        self.log = scrolledtext.ScrolledText(detalhes, height=7, state="disabled", wrap="word")
+        detalhes.pack(fill="both", expand=True, pady=(6, 0))
+        self.log = scrolledtext.ScrolledText(detalhes, height=3, state="disabled", wrap="word")
         self.log.pack(fill="both", expand=True)
 
     # -------------------------------------------------------------- arquivos
@@ -194,9 +267,10 @@ class Janela:
             self._escrever(f"Ignorados (formato não suportado): {', '.join(ignorados)}")
         self.situacao.config(text=f"{len(self.arquivos)} vídeo(s) na lista.")
 
-    def _status_inicial(self, p: Path) -> str:
-        feito = (SAIDA / f"{p.stem}.txt").exists()
-        return JA_FEITO if feito and not self.refazer.get() else NA_FILA
+    def _status_inicial(self, p: Path, refazer: bool | None = None) -> str:
+        feito = (self._pasta_saida() / f"{p.stem}.txt").exists()
+        refazer = self.refazer.get() if refazer is None else refazer
+        return JA_FEITO if feito and not refazer else NA_FILA
 
     def remover(self):
         if self._ocupado():
@@ -218,31 +292,41 @@ class Janela:
                 self.tabela.set(str(p), "status", status)
 
     # ------------------------------------------------------------- execução
-    def iniciar(self):
-        if self._ocupado():
+    def iniciar(self, automatico: bool = False):
+        """Manual: transcreve a lista toda. Automático (pasta do OBS): só o que está
+        "Na fila", sem refazer nada e sem caixas de mensagem."""
+        if self.processo if automatico else self._ocupado():
             return
         if not self.arquivos:
-            messagebox.showinfo("Transcritor", "Arraste ou escolha pelo menos um vídeo.")
+            if not automatico:
+                messagebox.showinfo("Transcritor", "Arraste ou escolha pelo menos um vídeo.")
             return
-        for p in self.arquivos:
-            self.tabela.set(str(p), "status", self._status_inicial(p))
-        self.total = sum(1 for p in self.arquivos if self._status_inicial(p) == NA_FILA)
+        refazer = self.refazer.get() and not automatico
+        candidatos = [p for p in self.arquivos
+                      if not automatico or self.tabela.set(str(p), "status") == NA_FILA]
+        for p in candidatos:
+            self.tabela.set(str(p), "status", self._status_inicial(p, refazer))
+        pendentes = [p for p in candidatos if self._status_inicial(p, refazer) == NA_FILA]
+        self.total = len(pendentes)
         if self.total == 0:
-            messagebox.showinfo("Transcritor", "Todos esses vídeos já foram transcritos.\n"
-                                "Para refazer, marque “Refazer vídeos já transcritos”.")
+            if automatico:
+                aviso = "Vídeo novo da pasta do OBS já estava transcrito: nada a fazer."
+                self.situacao.config(text=aviso)
+                self._escrever(aviso)
+            else:
+                messagebox.showinfo("Transcritor", "Todos esses vídeos já foram transcritos.\n"
+                                    "Para refazer, marque “Refazer vídeos já transcritos”.")
             return
 
-        comando = [sys.executable, "-u", str(SCRIPT), "--modo", self.modo.get(),
-                   "--estilo", self.estilo.get()]
-        if self.refazer.get():
-            comando.append("--forcar")
-        comando += [str(p) for p in self.arquivos]
+        comando = self._comando(pendentes, refazer)
         ambiente = dict(os.environ, PYTHONIOENCODING="utf-8", PYTHONUNBUFFERED="1")
 
         self.feitos = self.erros = 0
-        self.atual, self.cancelado = None, False
+        self.atual, self.cancelado, self.automatico = None, False, automatico
         self.barra.config(value=0)
-        self._escrever(f"\n=== Início: {self.total} vídeo(s), modo {self.modo.get()} ===")
+        quando = time.strftime("%d/%m/%Y %H:%M:%S")
+        self._escrever(f"\n=== {quando} — Início{' automático' if automatico else ''}: "
+                       f"{self.total} vídeo(s), modo {self.modo.get()} ===")
         self.situacao.config(text="Iniciando...")
         self.processo = subprocess.Popen(
             comando, cwd=PASTA, env=ambiente, stdin=subprocess.DEVNULL,
@@ -250,6 +334,15 @@ class Janela:
             creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
         threading.Thread(target=self._ler_saida, args=(self.processo,), daemon=True).start()
         self._botoes(rodando=True)
+
+    def _comando(self, arquivos: list[Path], refazer: bool) -> list[str]:
+        comando = [sys.executable, "-u", str(SCRIPT), "--modo", self.modo.get(),
+                   "--estilo", self.estilo.get(), "--saida", str(self._pasta_saida())]
+        if not self.padronizar.get():
+            comando += ["--numeros", "original"]
+        if refazer:
+            comando.append("--forcar")
+        return comando + [str(p) for p in arquivos]
 
     def _ler_saida(self, processo: subprocess.Popen):
         """Lê a saída do transcrever.py; as linhas de progresso terminam em \\r."""
@@ -331,7 +424,10 @@ class Janela:
                                                           else ".")
         self.situacao.config(text=resumo)
         self._escrever(f"=== {resumo} ===")
-        if not self.cancelado and prontos and messagebox.askyesno(
+        if self.pendente_auto and not self.cancelado:  # chegou vídeo novo no meio da rodada
+            self.raiz.after(300, lambda: self.iniciar(automatico=True))
+        self.pendente_auto = False
+        if not self.automatico and not self.cancelado and prontos and messagebox.askyesno(
                 "Transcritor", f"{resumo}\n\nAbrir a pasta de resultados?"):
             self.abrir_pasta()
 
@@ -341,15 +437,104 @@ class Janela:
             self.processo.terminate()
             self.situacao.config(text="Cancelando...")
 
-    # ------------------------------------------------------------- utilidades
-    def abrir_pasta(self):
-        SAIDA.mkdir(exist_ok=True)
-        if sys.platform == "win32":
-            os.startfile(SAIDA)  # noqa: S606 (abre a pasta no Explorer)
-        elif sys.platform == "darwin":
-            subprocess.Popen(["open", str(SAIDA)])
+    # ------------------------------------------------------ pasta do OBS
+    def escolher_obs(self):
+        pasta = filedialog.askdirectory(title="Escolha a pasta onde o OBS grava os vídeos",
+                                        initialdir=self.pasta_obs.get() or None)
+        if pasta:
+            self.pasta_obs.set(str(Path(pasta)))
+            self.tamanhos.clear()
+
+    def _ao_mudar_vigia(self):
+        if self.vigiar.get():  # só valem os vídeos gravados a partir de agora
+            self.vigia_desde = time.time()
+            self.tamanhos.clear()
+            if not self.processo:
+                self.situacao.config(text="Vigiando a pasta do OBS: cada vídeo novo será "
+                                          "transcrito quando a gravação terminar.")
+
+    def _vigiar(self):
+        try:
+            self._olhar_pasta()
+        finally:
+            self.raiz.after(INTERVALO_VIGIA * 1000, self._vigiar)
+
+    def _olhar_pasta(self):
+        if not self.vigiar.get():
+            return
+        texto = self.pasta_obs.get().strip()
+        pasta = Path(texto) if texto else None
+        if pasta is None or not pasta.is_dir():
+            if not self.processo:
+                self.situacao.config(text="Escolha a pasta do OBS no quadro “Automático”."
+                                     if pasta is None else
+                                     f"Pasta do OBS não encontrada: {pasta}  (continuo procurando)")
+            return
+        agora, terminados = time.time(), []
+        try:
+            with os.scandir(pasta) as itens:
+                for item in itens:
+                    p = Path(item.path).resolve()
+                    if (not item.is_file() or p.suffix.lower() not in EXTENSOES
+                            or p in self.vistos_auto or p in self.arquivos):
+                        continue
+                    info = item.stat()
+                    if info.st_mtime < self.vigia_desde - MARGEM_SEG:
+                        continue  # gravação antiga, de antes de ligar o automático
+                    anterior = self.tamanhos.get(p)
+                    if anterior is None or anterior[0] != info.st_size:
+                        self.tamanhos[p] = (info.st_size, agora)  # ainda crescendo
+                    elif info.st_size and agora - anterior[1] >= ESTAVEL_SEG and livre(p):
+                        terminados.append(p)
+        except OSError as erro:
+            self._escrever(f"Não consegui olhar a pasta do OBS: {erro}")
+            return
+        if not terminados:
+            return
+        for p in terminados:
+            self.vistos_auto.add(p)
+            self.tamanhos.pop(p, None)
+            self._escrever(f"Vídeo novo na pasta do OBS: {p.name}")
+        self.adicionar(sorted(terminados))
+        if self.processo:
+            self.pendente_auto = True  # espera "Na fila"; começa quando a rodada acabar
         else:
-            subprocess.Popen(["xdg-open", str(SAIDA)])
+            self.iniciar(automatico=True)
+
+    # ------------------------------------------------------------- utilidades
+    def escolher_saida(self):
+        if self._ocupado():
+            return
+        pasta = filedialog.askdirectory(title="Escolha onde salvar as transcrições",
+                                        initialdir=self.saida.get() or None)
+        if pasta:
+            self.saida.set(str(Path(pasta)))
+            for p in self.arquivos:
+                self.tabela.set(str(p), "status", self._status_inicial(p))
+
+    def _pasta_saida(self) -> Path:
+        return Path(self.saida.get().strip() or SAIDA)
+
+    def _salvar_config(self):
+        dados = {"pasta_obs": self.pasta_obs.get(), "vigiar": self.vigiar.get(),
+                 "saida": self.saida.get(), "modo": self.modo.get(),
+                 "estilo": self.estilo.get(),
+                 "numeros": "padrao" if self.padronizar.get() else "original"}
+        try:
+            CONFIG.write_text(json.dumps(dados, ensure_ascii=False, indent=2) + "\n",
+                              encoding="utf-8")
+        except OSError as erro:
+            self._escrever(f"Não consegui salvar as escolhas ({CONFIG.name}): {erro}")
+
+    def abrir_pasta(self):
+        saida = self._pasta_saida()
+        saida.mkdir(parents=True, exist_ok=True)
+        if sys.platform == "win32":
+            os.startfile(saida)  # noqa: S606 (abre a pasta no Explorer)
+        elif sys.platform == "darwin":
+            subprocess.Popen(["open", str(saida)])
+        else:
+            subprocess.Popen(["xdg-open", str(saida)])
 
     def fechar(self):
         if self.processo and not messagebox.askyesno(
@@ -369,7 +554,7 @@ class Janela:
     def _botoes(self, rodando: bool):
         self.bt_iniciar.config(state="disabled" if rodando else "normal")
         self.bt_cancelar.config(state="normal" if rodando else "disabled")
-        for b in (self.bt_remover, self.bt_limpar):
+        for b in (self.bt_remover, self.bt_limpar, self.bt_saida):
             b.config(state="disabled" if rodando else "normal")
 
     def _escrever(self, texto: str):
@@ -377,6 +562,11 @@ class Janela:
         self.log.insert("end", texto + "\n")
         self.log.see("end")
         self.log.config(state="disabled")
+        try:  # registro.txt: os detalhes ficam guardados mesmo depois de fechar a janela
+            with REGISTRO.open("a", encoding="utf-8") as registro:
+                registro.write(texto + "\n")
+        except OSError:
+            pass
 
 
 def main():

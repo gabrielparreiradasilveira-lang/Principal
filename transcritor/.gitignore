@@ -12,3 +12,7 @@ saida/*
 # Saída do diagnosticar_windows.bat
 diagnostico.txt
 janela_erro.log
+
+# Escolhas e registro da janela (de cada computador)
+config.json
+registro.txt
