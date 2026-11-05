@@ -292,6 +292,199 @@
     "cor": "branco",
     "moldura": "amarelo"
    }
+  },
+  {
+   "saida": "r3d_1_poupanca-2023.png",
+   "semente": 3113,
+   "molde": "mito_verdade",
+   "titulo": "FICAR PARADO NÃO É DECIDIR?",
+   "mitos": [
+    "SE NÃO MEXO, NÃO ESTOU DECIDINDO",
+    "PARADO, NÃO PERCO NADA"
+   ],
+   "verdade": "MANTER TAMBÉM É ESCOLHA, {laranja:E TEM CUSTO}",
+   "desenho": "cofrinho",
+   "apoio": "- {ciano:POUPANÇA 2023:} {laranja:8,04%} NO ANO (ANIVERSÁRIO NO DIA 1), ISENTA DE IR PARA PF\n- {ciano:CDI 2023:} {verde:13,03%} · CDB 100% DO CDI POR 1 ANO, LÍQUIDO DE IR: CERCA DE {verde:10,75%}\n- {ciano:IPCA 2023:} 4,62% · {ciano:SELIC EM DEZ/2023:} 11,75% A.A.\n- {ciano:DECK:} O EXEMPLO CLÁSSICO É A POUPANÇA DE SEMPRE"
+  },
+  {
+   "saida": "r3d_2_rota-antiga.png",
+   "semente": 3114,
+   "molde": "comparacao",
+   "titulo": "A ROTA ANTIGA GRAVADA",
+   "colunas": [
+    {
+     "titulo": "ROTA ANTIGA",
+     "desenho": "cabine",
+     "rotulos": [
+      "GRAVADA",
+      "CONHECIDA"
+     ],
+     "texto": "- GRAVADA HÁ ANOS, NUNCA REVISTA\n- NÃO EXIGE ESFORÇO NEM DECISÃO\n- SE DER ERRADO, \"NINGUÉM ERROU\"\n- {ciano:NA CARTEIRA:} A APLICAÇÃO DE SEMPRE"
+    },
+    {
+     "titulo": "ROTA NOVA",
+     "desenho": {
+      "nome": "placa",
+      "cor": "verde"
+     },
+     "rotulos": [
+      "MAIS CURTA",
+      "DÁ TRABALHO"
+     ],
+     "texto": "- MENOS CONSUMO, CHEGA ANTES\n- EXIGE REPROGRAMAR E CONFERIR\n- MEDO DE {vermelho:ERRAR NA TROCA}\n- {ciano:NA CARTEIRA:} REBALANCEAR, NOVAS CLASSES"
+    }
+   ],
+   "faixas": [
+    "{ciano:OS 4 MOTIVOS (APOSTILA):} MEDO DE MUDAR · AVERSÃO AO DESCONHECIDO · ESFORÇO MENTAL · {laranja:EVITAR ARREPENDIMENTO}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA AVIAÇÃO, {laranja:CADA VOO TEM PLANO NOVO}; A CARTEIRA SÓ É REVISTA SE ALGUÉM MARCAR · {verde:A SAÍDA:} REVISÃO COM DATA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r3d_3_vies-status-quo.png",
+   "semente": 3115,
+   "molde": "colunas",
+   "titulo": "VIÉS DO STATUS QUO",
+   "topo": "{ciano:DEFINIÇÃO (APOSTILA):} MANTER TUDO {laranja:EXATAMENTE COMO ESTÁ}, MESMO COM ALTERNATIVA MELHOR\n{ciano:RAIZ (DECK):} DECIDIR DÁ TRABALHO → {laranja:ZONA DE CONFORTO} · RESULTADO: {vermelho:INÉRCIA FINANCEIRA}",
+   "colunas": [
+    {
+     "titulo": "COMPORTAMENTOS",
+     "texto": "1. CARTEIRA DESATUALIZADA POR ANOS\n2. NÃO REBALANCEIA\n3. PRODUTO RUIM POR COMODIDADE\n4. ADIA POR MEDO DE ERRAR\n5. NÃO MIGRA POR INÉRCIA"
+    },
+    {
+     "titulo": "O CUSTO INVISÍVEL",
+     "texto": "- {laranja:CUSTO DE OPORTUNIDADE}: CRESCE COM O TEMPO\n- {ciano:CASO-LIMITE:} MANTER {verde:COM REVISÃO} E ADEQUADO AO PERFIL NÃO É VIÉS\n- {ciano:NÃO CONFUNDA:} ANCORAGEM (R2C) = PRESO A UM NÚMERO · STATUS QUO = PRESO À SITUAÇÃO"
+    }
+   ],
+   "destaque": {
+    "texto": "{verde:NO ATENDIMENTO (APOSTILA):} {laranja:ACOMPANHAMENTO PERIÓDICO} + PLANEJADOR ORIENTANDO AS MUDANÇAS · \"SEM ESSA APLICAÇÃO, EU A COMPRARIA HOJE?\"",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r3d_4_ficar-ou-migrar.png",
+   "semente": 3116,
+   "molde": "exercicio",
+   "titulo": "FICAR × MIGRAR (2023)",
+   "dados": "- R$ 100.000 POR 1 ANO, DE JANEIRO A DEZEMBRO DE 2023 (HIPOTÉTICO)\n- TAXAS REAIS, ARREDONDADAS: POUPANÇA {laranja:8,04%} · CDI {laranja:13,03%}\n- POUPANÇA ISENTA PARA PF · CDB: IR DE {laranja:17,5%} (361 A 720 DIAS)\n- A ÚNICA DIFERENÇA: FICAR OU MIGRAR",
+   "cenarios": [
+    {
+     "titulo": "FICA NA POUPANÇA",
+     "passos": "100.000 × 1,0804\nSEM IR (PESSOA FÍSICA)\nNENHUM ESFORÇO",
+     "resultado": "R$ 108.040,00"
+    },
+    {
+     "titulo": "MIGRA PARA O CDB",
+     "passos": "BRUTO: R$ 13.030\nIR: 17,5% × 13.030 = 2.280,25\nLÍQUIDO: R$ 10.749,75",
+     "resultado": "R$ 110.749,75"
+    }
+   ],
+   "conclusao": {
+    "texto": "CUSTO DE FICAR PARADO: {vermelho:R$ 2.709,75 EM 1 ANO} · SEM IOF (MAIS DE 30 DIAS) · RISCO DE CRÉDITO FORA DA CONTA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r3e_1_gamestop-2021.png",
+   "semente": 3117,
+   "molde": "mito_verdade",
+   "titulo": "TODO MUNDO COMPRA = É BOM?",
+   "mitos": [
+    "SE TODOS COMPRAM, É PORQUE É BOM",
+    "TANTA GENTE NÃO PODE ERRAR"
+   ],
+   "verdade": "A DECISÃO VEM {laranja:DO GRUPO}, NÃO DA ANÁLISE",
+   "desenho": "grafico_baixa",
+   "apoio": "- {ciano:GAMESTOP (GME), JAN/2021:} ONDA DE COMPRAS PUXADA PELO FÓRUM WALLSTREETBETS (REDDIT)\n- {ciano:27/01/2021:} FECHA EM {laranja:US$ 347,51}\n- {ciano:09/02/2021:} FECHA EM {vermelho:US$ 50,31} → {vermelho:−85,5%}\n- PREÇOS DA ÉPOCA, ANTES DO DESDOBRAMENTO DE 2022 (4 PARA 1)"
+  },
+  {
+   "saida": "r3e_2_aviao-da-frente.png",
+   "semente": 3118,
+   "molde": "comparacao",
+   "titulo": "SEGUIR O AVIÃO DA FRENTE",
+   "colunas": [
+    {
+     "titulo": "A MANADA",
+     "desenho": "pessoa",
+     "rotulos": [
+      "TODOS VÃO",
+      "\"DEVE SER BOM\""
+     ],
+     "texto": "- SEGUE O GRUPO, NÃO O RADAR\n- {laranja:SEGURANÇA SOCIAL} (DECK): ERRAR JUNTO DÓI MENOS\n- {laranja:FOMO}: MEDO DE FICAR DE FORA\n- ENTRA TARDE, COM O PREÇO JÁ ALTO"
+    },
+    {
+     "titulo": "O RADAR",
+     "desenho": {
+      "nome": "mostrador",
+      "cor": "verde"
+     },
+     "rotulos": [
+      "DADOS",
+      "PLANO"
+     ],
+     "texto": "- ANÁLISE PRÓPRIA DO ATIVO\n- CABE NO {verde:PERFIL E NOS OBJETIVOS}?\n- LIMITE DE QUANTO ARRISCAR\n- {ciano:PERGUNTA:} \"POR QUE ESTOU COMPRANDO?\""
+    }
+   ],
+   "faixas": [
+    "{ciano:DECK:} EM BOLHAS E CRISES, A MANADA {vermelho:AMPLIFICA MOVIMENTOS IRRACIONAIS}",
+    "{ciano:EXEMPLO DO DECK:} COMPROU {laranja:AMBP3} SÓ PORQUE VIU O PREÇO DISPARAR"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NO CÉU, {laranja:A TORRE COORDENA} OS VOOS; NA BOLSA, A MANADA SEGUE SOZINHA · {verde:A SAÍDA:} OLHAR O RADAR",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r3e_3_efeito-manada.png",
+   "semente": 3119,
+   "molde": "colunas",
+   "titulo": "EFEITO MANADA",
+   "topo": "{ciano:DEFINIÇÃO (APOSTILA):} DECIDIR {laranja:SÓ PORQUE OS OUTROS} FAZEM O MESMO\n\"TODOS COMPRAM → EU COMPRO\" · \"TODOS VENDEM → HORA DE VENDER\"",
+   "colunas": [
+    {
+     "titulo": "CONSEQUÊNCIAS",
+     "texto": "1. ENTRADA TARDIA, PREÇO JÁ ALTO\n2. PÂNICO COLETIVO NA QUEDA\n3. BOLHAS ESPECULATIVAS\n4. DECISÃO RÁPIDA, SEM ANÁLISE"
+    },
+    {
+     "titulo": "O QUE REFORÇA",
+     "texto": "- REDES SOCIAIS E INFLUENCIADORES\n- MANCHETES SENSACIONALISTAS\n- GRUPOS DE INVESTIMENTO\n- AMIGOS E FAMILIARES\n- {ciano:CASO-LIMITE:} GANHO NO {verde:CURTO PRAZO} É POSSÍVEL, COM {vermelho:RISCO ELEVADO}"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:NÃO CONFUNDA:} DISPONIBILIDADE (R2B) = O QUE VEM FÁCIL À MENTE · MANADA = {laranja:O QUE O GRUPO FAZ} · {verde:A PERGUNTA:} \"POR QUE COMPRAR?\"",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r3e_4_manada-ou-pergunta.png",
+   "semente": 3120,
+   "molde": "exercicio",
+   "titulo": "SEGUIR A MANADA × PERGUNTAR",
+   "dados": "- US$ 10.000 NA GAMESTOP (VALOR HIPOTÉTICO, PREÇOS REAIS DE FECHAMENTO)\n- SEM CUSTOS E SEM IMPOSTO; FRAÇÃO DE AÇÃO ADMITIDA\n- PREÇOS DA ÉPOCA, ANTES DO DESDOBRAMENTO DE 2022\n- A ÚNICA DIFERENÇA: O MOTIVO DA DECISÃO",
+   "cenarios": [
+    {
+     "titulo": "SEGUE A MANADA",
+     "passos": "COMPRA EM 27/01 A US$ 347,51\nEM 09/02: US$ 50,31\n10.000 × 50,31 ÷ 347,51",
+     "resultado": "US$ 1.447,73"
+    },
+    {
+     "titulo": "PERGUNTA \"POR QUÊ?\"",
+     "passos": "O ÚNICO MOTIVO É O GRUPO\nNÃO COMPRA\nSEGUE COM O PLANO",
+     "resultado": "US$ 10.000,00"
+    }
+   ],
+   "conclusao": {
+    "texto": "QUEDA DE {vermelho:85,52%} · PARA EMPATAR, PRECISA SUBIR {laranja:590,74%} · QUANTO MAIOR A QUEDA, {vermelho:MAIOR A ALTA} PARA VOLTAR",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
   }
  ]
 }
