@@ -41,6 +41,9 @@ BLOCO_SEG = 600   # transcreve em blocos de 10 min: RAM constante para qualquer 
 # (5,2x -> 4,1x o tempo real), porque o codificador já ocupa todos os núcleos.
 # Na GPU o lote ocupa a placa ociosa (benchmark oficial: 3,7x mais rápido).
 LOTE_GPU = 8
+# Na GPU: pesos em int8 e contas em float16. Benchmark oficial (large-v2, GPU):
+# ~35% menos memória de vídeo que float16, mesma velocidade. Cabe melhor em 4 GB.
+TIPO_GPU = "int8_float16"
 
 EXTENSOES = {
     ".mp4", ".mov", ".mkv", ".avi", ".webm", ".m4v", ".wmv",
@@ -101,9 +104,10 @@ def carregar_correcoes(caminho: Path) -> list[tuple[re.Pattern, str]]:
     return regras
 
 
-def corrigir(texto: str, regras: list[tuple[re.Pattern, str]]) -> str:
-    for padrao, certo in regras:
-        texto = padrao.sub(certo, texto)
+def corrigir(texto: str, regras: list) -> str:
+    """Aplica as regras em ordem: pares (padrão, troca) ou funções texto -> texto."""
+    for regra in regras:
+        texto = regra(texto) if callable(regra) else regra[0].sub(regra[1], texto)
     return re.sub(r"\s{2,}", " ", texto).strip()
 
 
@@ -237,6 +241,52 @@ def salvar_saidas(destino: Path, nome: str, palavras: list[Palavra], regras):
 # Transcrição
 # ----------------------------------------------------------------------------
 
+def preparar_gpu_windows():
+    """No Windows, as bibliotecas da NVIDIA que a GPU exige (cuBLAS e cuDNN) são
+    instaladas pelo instalar_gpu_windows.bat em site-packages/nvidia/*/bin.
+    O Windows só as encontra se essas pastas estiverem no caminho de busca."""
+    if sys.platform != "win32":
+        return
+    import site
+    for base in site.getsitepackages():
+        for pasta in Path(base).glob("nvidia/*/bin"):
+            try:
+                os.add_dll_directory(str(pasta))
+            except OSError:
+                pass
+            os.environ["PATH"] = str(pasta) + os.pathsep + os.environ.get("PATH", "")
+
+
+def testar_gpu() -> int:
+    """Teste rápido da placa de vídeo: transcreve 2 s de som com o modelo pequeno."""
+    try:
+        import ctranslate2
+        placas = ctranslate2.get_cuda_device_count()
+    except Exception as erro:
+        print(f"GPU FALHOU: não foi possível consultar a placa ({erro})")
+        return 1
+    if placas == 0:
+        print("GPU FALHOU: nenhuma placa NVIDIA visível. Confira se o driver da NVIDIA "
+              "está instalado e atualizado.")
+        return 1
+    try:
+        import numpy as np
+        from faster_whisper import WhisperModel
+        print("Testando a placa de vídeo (na 1ª vez baixa um modelo de teste de ~75 MB)...")
+        model = WhisperModel("tiny", device="cuda", compute_type=TIPO_GPU,
+                             download_root=str(PASTA / "modelos"))
+        t = np.linspace(0, 2, 2 * TAXA, dtype=np.float32)
+        segs, _ = model.transcribe(0.1 * np.sin(2 * np.pi * 440 * t), language="pt")
+        list(segs)
+    except Exception as erro:
+        print(f"GPU FALHOU: {type(erro).__name__}: {erro}")
+        if any(k in str(erro).lower() for k in ("cublas", "cudnn", "dll", "library")):
+            print("Faltam as bibliotecas da NVIDIA: rode o instalar_gpu_windows.bat.")
+        return 1
+    print(f"GPU OK: a placa de vídeo está transcrevendo ({placas} placa(s) NVIDIA).")
+    return 0
+
+
 def escolher_dispositivo(pedido: str) -> str:
     if pedido != "auto":
         return pedido
@@ -251,7 +301,7 @@ def escolher_dispositivo(pedido: str) -> str:
 
 def carregar_modelo(nome: str, dispositivo: str, threads: int):
     from faster_whisper import WhisperModel
-    tipo = "float16" if dispositivo == "cuda" else "int8"
+    tipo = TIPO_GPU if dispositivo == "cuda" else "int8"
     print(f"Carregando modelo '{nome}' em {dispositivo.upper()} ({tipo})...")
     print("  (na primeira vez ele é baixado: 0,5 a 3 GB. Depois fica salvo na pasta 'modelos'.)")
     return WhisperModel(nome, device=dispositivo, compute_type=tipo,
@@ -496,7 +546,16 @@ def main():
                          "1 no processador")
     ap.add_argument("--diagnostico", action="store_true",
                     help="só mostra versões, RAM e faixas do arquivo (não transcreve)")
+    ap.add_argument("--numeros", choices=["padrao", "original"], default="padrao",
+                    help="padrao = R$ 250 mil, 10%%, D+2 (estilo de prova); "
+                         "original = como o modelo escreveu")
+    ap.add_argument("--testar-gpu", action="store_true",
+                    help="só testa se a placa de vídeo NVIDIA está funcionando")
     args = ap.parse_args()
+
+    preparar_gpu_windows()
+    if args.testar_gpu:
+        return testar_gpu()
 
     arquivos = listar_arquivos(args.alvos)
     if not arquivos:
@@ -519,6 +578,12 @@ def main():
     # Termos com maiúscula no glossário padronizam a grafia: SELIC/selic -> Selic
     regras += [(re.compile(r"(?<!\w)" + re.escape(t) + r"(?!\w)", re.IGNORECASE), t)
                for t in termos if any(c.isupper() for c in t)]
+    if args.numeros == "padrao":  # por último: atua sobre o texto já corrigido
+        try:
+            from numeros import padronizar
+            regras.append(padronizar)
+        except ImportError:  # ex.: atualizou o transcrever.py sem copiar o numeros.py
+            print("  Aviso: numeros.py não encontrado; os números ficam como o modelo escreveu.")
     dispositivo = escolher_dispositivo(args.dispositivo)
     try:
         model = carregar_modelo(MODOS[args.modo], dispositivo, args.threads)
@@ -544,29 +609,26 @@ def main():
             continue
         print(f"  Áudio extraído: {tempo_curto(len(audio) / TAXA)} de duração | {texto_memoria()}")
 
-        resultado, falhou_na_gpu, placa_cheia = None, False, False
-        try:
-            resultado = transcrever(model, audio, contexto, args.bloco, args.lote)
-        except Exception as erro:
-            if dispositivo == "cuda" and erro_de_gpu(erro):
-                placa_cheia = args.lote > 1 and "out of memory" in str(erro).lower()
-                falhou_na_gpu = not placa_cheia
-                print(f"\n  GPU falhou ({erro}).")
-            else:
-                print(f"\n  ERRO: {descrever_erro(erro)}  (arquivo pulado)")
-        if placa_cheia:  # memória da placa cheia: tenta sem lote antes de desistir da GPU
-            print("  Memória da placa de vídeo cheia. Repetindo sem lote "
-                  "(vale para os próximos arquivos também)...")
-            args.lote = 1
-            gc.collect()
+        # Placa cheia: corta o lote pela metade (8 -> 4 -> 2 -> 1) antes de desistir
+        # da GPU. Outro erro de GPU: vai direto para a CPU.
+        resultado, falhou_na_gpu = None, False
+        while resultado is None and not falhou_na_gpu:
+            placa_cheia = False
             try:
                 resultado = transcrever(model, audio, contexto, args.bloco, args.lote)
             except Exception as erro:
-                if erro_de_gpu(erro):
-                    falhou_na_gpu = True
-                    print(f"\n  GPU falhou de novo ({erro}).")
+                if dispositivo == "cuda" and erro_de_gpu(erro):
+                    placa_cheia = args.lote > 1 and "out of memory" in str(erro).lower()
+                    falhou_na_gpu = not placa_cheia
+                    print(f"\n  GPU falhou ({erro}).")
                 else:
                     print(f"\n  ERRO: {descrever_erro(erro)}  (arquivo pulado)")
+                    break
+            if placa_cheia:  # fora do except: a memória do erro já foi liberada
+                args.lote //= 2
+                print(f"  Memória da placa de vídeo cheia. Repetindo com lote {args.lote} "
+                      "(vale para os próximos arquivos também)...")
+                gc.collect()
         if falhou_na_gpu:  # fora do except: a memória do erro já foi liberada
             print("  Tentando de novo na CPU...")
             del model
