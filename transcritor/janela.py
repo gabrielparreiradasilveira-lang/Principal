@@ -125,8 +125,7 @@ class Janela:
     def _montar(self):
         r = self.raiz
         r.title("Transcritor de Videoaulas")
-        r.geometry("900x690")  # cabe num notebook 1366x768, já descontada a barra de tarefas
-        r.minsize(720, 560)
+        r.minsize(720, 560)  # o tamanho final é calculado em _ajustar_tamanho()
         font.nametofont("TkDefaultFont").configure(size=11)
         font.nametofont("TkTextFont").configure(size=10)
         estilo = ttk.Style()
@@ -234,6 +233,17 @@ class Janela:
         detalhes.pack(fill="both", expand=True, pady=(6, 0))
         self.log = scrolledtext.ScrolledText(detalhes, height=3, state="disabled", wrap="word")
         self.log.pack(fill="both", expand=True)
+        self._ajustar_tamanho()
+
+    def _ajustar_tamanho(self):
+        """Tamanho pelo que o conteúdo pede: com zoom de 125%/150% no Windows as letras
+        crescem e uma altura fixa cortaria o rodapé. Limitado à tela (menos a barra
+        de tarefas); se ainda faltar espaço, só a caixa Detalhes encolhe."""
+        r = self.raiz
+        r.update_idletasks()
+        largura = min(max(900, r.winfo_reqwidth()), r.winfo_screenwidth() - 20)
+        altura = min(r.winfo_reqheight() + 4, r.winfo_screenheight() - 80)
+        r.geometry(f"{largura}x{altura}")
 
     # -------------------------------------------------------------- arquivos
     def escolher(self):
