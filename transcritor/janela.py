@@ -242,7 +242,7 @@ class Janela:
         r = self.raiz
         r.update_idletasks()
         largura = min(max(900, r.winfo_reqwidth()), r.winfo_screenwidth() - 20)
-        altura = min(r.winfo_reqheight() + 4, r.winfo_screenheight() - 80)
+        altura = min(r.winfo_reqheight() + 4, r.winfo_screenheight() - 72)
         r.geometry(f"{largura}x{altura}")
 
     # -------------------------------------------------------------- arquivos
