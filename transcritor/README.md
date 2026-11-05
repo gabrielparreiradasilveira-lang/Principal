@@ -29,6 +29,15 @@ Motor: **Whisper** (modelo aberto da OpenAI), na versão otimizada **faster-whis
 > Na **primeira transcrição** o modelo é baixado (~1,6 GB no modo padrão).
 > Ele fica salvo na pasta `modelos/`. Depois disso, funciona offline.
 
+### Placa de vídeo NVIDIA (opcional, Windows)
+Sem este passo o transcritor funciona, mas só pela CPU (mais lento).
+
+1. Feche a janela do transcritor.
+2. Dê dois cliques em **`instalar_gpu_windows.bat`**. Ele baixa duas bibliotecas da NVIDIA (cuBLAS e cuDNN, ~1,3 GB, uma única vez) e testa a placa no final.
+3. Tem que aparecer **`GPU OK: a placa de vídeo está transcrevendo`**. Se aparecer `GPU FALHOU`, copie a mensagem e envie.
+
+Placas com pouca memória (ex.: GTX 1650, 4 GB) funcionam: o script usa um formato compacto (`int8_float16`) e, se a placa encher, divide o lote pela metade antes de voltar para a CPU.
+
 ---
 
 ## 2. Uso no dia a dia (3 passos)
@@ -40,6 +49,16 @@ Motor: **Whisper** (modelo aberto da OpenAI), na versão otimizada **faster-whis
 3. No fim, clique em **Abrir pasta de resultados**.
 
 A janela mostra a situação de cada vídeo, a porcentagem e o tempo restante. Ela também tem um botão **Cancelar**.
+
+**Automático (pasta do OBS):** na janela, clique em **Escolher pasta do OBS…**, aponte para a pasta onde o OBS grava e marque **"Transcrever sozinho os vídeos novos desta pasta"**. A partir daí:
+- quando você para a gravação, a transcrição começa sozinha, sem clique (o OBS solta o arquivo e a janela espera ~20 s para confirmar);
+- só vídeos gravados **depois** de ligar a opção entram, e vídeos antigos da pasta são ignorados. Gravações feitas com a janela fechada também não entram: arraste-as para a janela;
+- se o OBS gerar `aula.mp4` depois de `aula.mkv`, ele não transcreve duas vezes;
+- **a janela precisa estar aberta** (pode ficar minimizada).
+
+**Pasta de resultados:** clique em **Escolher…** para mandar os textos direto para outra pasta, por exemplo a de outro projeto. A janela lembra das suas escolhas (`config.json`).
+
+**Registro:** tudo o que aparece em "Detalhes" também fica salvo em **`registro.txt`**, na pasta do transcritor. Se der problema, é só mandar esse arquivo.
 
 > **Já tinha instalado antes desta versão?** Feche a janela e rode o `instalar_windows.bat` de novo, uma vez, para ganhar o arrastar e soltar. Sem isso a janela funciona, mas só pelo clique na área azul. Se o ambiente antigo estiver incompatível, o instalador apaga e refaz sozinho; os modelos já baixados ficam.
 
@@ -68,6 +87,19 @@ Pelo terminal: `python transcrever.py --modo maximo --estilo limpo`
 
 > O estilo é um **empurrão**, não uma garantia. O Whisper por natureza
 > limpa parte dos vícios de fala ("é...", "hã") mesmo no modo `fiel`.
+
+**Números padronizados** (ligado por padrão; na janela: "Padronizar números"; no terminal: `--numeros original` desliga):
+
+| O modelo escreve | Fica |
+|---|---|
+| 250 mil reais / R$250 mil | R$ 250 mil |
+| 1,5 milhão de reais | R$ 1,5 milhão |
+| 10 por cento / dez por cento | 10% |
+| 13.75% | 13,75% |
+| 2 pontos percentuais | 2 p.p. |
+| D mais 2 / D + 2 | D+2 |
+
+O padronizador só mexe quando o contexto é claramente numérico. "Juros reais", "dois anos" e "CPA-20" ficam como estão. Limitação: em legenda, um valor partido entre duas linhas pode escapar da padronização. O `.txt` e o `.md` não têm esse problema.
 
 ---
 
@@ -118,7 +150,8 @@ Teste feito em servidor de **4 núcleos, sem placa de vídeo**, com áudio sint�
 | `Importing the numpy C-extensions failed` (com `cp312` e "Python 3.11" na mensagem) | O ambiente `.venv` misturou duas versões do Python. Feche a janela e rode o `instalar_windows.bat` (versão de 04/11/2026), que detecta e refaz o ambiente. Com instalador antigo: apague a pasta `.venv` e rode o instalador. |
 | Frases que você não falou ("Legendas pela comunidade Amara.org") | Alucinação do Whisper em silêncio/música. O script já remove as mais comuns. |
 | Muito lento | Use `--modo rapido` para rascunho, ou rode à noite com a pasta cheia. |
-| Erro de GPU / CUDA | Rode com `--dispositivo cpu`. |
+| `Library cublas64_12.dll is not found` (ou `cudnn…dll`) | Faltam as bibliotecas da NVIDIA. Rode o `instalar_gpu_windows.bat`. Enquanto isso, o script transcreve pela CPU sozinho. |
+| Outro erro de GPU / CUDA | O script já refaz na CPU. Para forçar a CPU: `--dispositivo cpu`. |
 | `MemoryError`, `cannot allocate AudioFrame buffer`, `mkl_malloc` | Faltou RAM durante a execução. Arraste o vídeo em cima do `diagnosticar_windows.bat` e olhe **livre** e **pico deste programa**. Se o "livre" já estiver baixo antes de começar, outro programa ocupou a memória (OBS, navegador, editor de vídeo). |
 
 ---
@@ -128,4 +161,3 @@ Teste feito em servidor de **4 núcleos, sem placa de vídeo**, com áudio sint�
 1. **Motor nativo do Mac** (mlx-whisper), que usa a GPU dos chips M (hoje o MVP usa só a CPU no Mac).
 2. **Revisão com IA**: pontuação, parágrafos e títulos de seção, sem mudar o conteúdo.
 3. **Saídas pedagógicas**: resumo, capítulos para YouTube, questões no padrão ANBIMA a partir da transcrição.
-4. **Pasta vigiada**: transcreve sozinho quando um vídeo novo aparece.
