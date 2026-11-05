@@ -89,6 +89,20 @@ DECIMAL = [
     ("O fundo tem 1.000 cotistas.", "O fundo tem 1.000 cotistas."),
     ("O fundo tem 10.000.000 de cotas.", "O fundo tem 10.000.000 de cotas."),
     ("A Lei 14.754 mudou os fundos fechados.", "A Lei 14.754 mudou os fundos fechados."),
+    # Números de seção e horários não são decimais
+    ("Veja o item 3.2 da apostila.", "Veja o item 3.2 da apostila."),
+    ("No módulo 4.9 há exemplos.", "No módulo 4.9 há exemplos."),
+    ("Veja a tabela 1.10 abaixo.", "Veja a tabela 1.10 abaixo."),
+    ("Leia o artigo 1.2 da norma.", "Leia o artigo 1.2 da norma."),
+    ("A prova começa às 10.30 em ponto.", "A prova começa às 10.30 em ponto."),
+    ("Usamos a versão 2.0 do sistema.", "Usamos a versão 2.0 do sistema."),
+    ("A aula termina 10.30h hoje.", "A aula termina 10.30h hoje."),
+    ("Veja o Item nº 3.2 e a Figura n. 2.5.", "Veja o Item nº 3.2 e a Figura n. 2.5."),
+    ("Veja o cap. 5.1 e o art. 2.3.", "Veja o cap. 5.1 e o art. 2.3."),
+    ("Termina às 9.45 horas.", "Termina às 9.45 horas."),
+    ("A taxa de 13.75% ao ano.", "A taxa de 13,75% ao ano."),
+    ("Rende 1.5 milhão de reais.", "Rende R$ 1,5 milhão."),
+    ("Ele rende 0.5 ao mês.", "Ele rende 0,5 ao mês."),
 ]
 
 LIQUIDACAO = [

@@ -83,6 +83,22 @@ _FLAGS = re.IGNORECASE
 # 13.75 -> 13,75 (ponto seguido de 1 ou 2 dígitos é decimal; de 3 é milhar)
 _RE_PONTO_DECIMAL = re.compile(r"(?<![\w.,])([0-9]+)\.([0-9]{1,2})(?![0-9]|[.,][0-9])")
 
+# Número de seção/horário não é decimal: "item 3.2", "módulo 4.9", "às 10.30", "10.30h"
+_PALAVRAS_SECAO = ("item", "itens", "módulo", "capítulo", "cap.", "seção", "questão",
+                   "questões", "tabela", "quadro", "figura", "anexo", "artigo", "art.",
+                   "parágrafo", "inciso", "versão", "aula", "slide", "às", "as")
+_RE_ANTES_SECAO = re.compile(
+    rf"(?<!\w)(?:{'|'.join(re.escape(p) for p in _PALAVRAS_SECAO)})\s*(?:n[º°o]\.?\s*|n\.\s*)?$",
+    re.IGNORECASE)
+_RE_DEPOIS_HORA = re.compile(r"\s*(?:horas?|h)(?!\w)", re.IGNORECASE)
+
+
+def _troca_ponto_decimal(m: re.Match) -> str:
+    if (_RE_ANTES_SECAO.search(m.string, 0, m.start())
+            or _RE_DEPOIS_HORA.match(m.string, m.end())):
+        return m.group(0)
+    return f"{m.group(1)},{m.group(2)}"
+
 # 10 por cento | 10 % | dez por cento | meio por cento | um e meio por cento
 _RE_PERCENTUAL = re.compile(
     rf"(?:(?P<meio>\bmeio)|{_NUMERO}(?P<emeio>\s+e\s+meio)?)"
@@ -411,7 +427,7 @@ def padronizar(texto: str) -> str:
     """Padroniza números no estilo de prova (bancas ANBIMA/FGV): R$, %, p.p., D+N."""
     if not texto:
         return texto
-    texto = _RE_PONTO_DECIMAL.sub(r"\1,\2", texto)
+    texto = _RE_PONTO_DECIMAL.sub(_troca_ponto_decimal, texto)
     # Porcentagem antes de moeda: o "cento" de "por cento" não vira número
     texto = _RE_PERCENTUAL.sub(_troca_percentual, texto)
     texto = _RE_PONTOS_PERCENTUAIS.sub(_troca_pontos_percentuais, texto)

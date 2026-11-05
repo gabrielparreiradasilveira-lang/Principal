@@ -84,6 +84,15 @@ def livre(p: Path) -> bool:
         return False
 
 
+def _criacao(info: os.stat_result) -> float:
+    """Data de criação do arquivo (0 se o sistema não informa): arquivo copiado para a
+    pasta mantém a data de modificação antiga, mas ganha criação nova."""
+    nascimento = getattr(info, "st_birthtime", None)
+    if nascimento is not None:
+        return nascimento
+    return info.st_ctime if sys.platform == "win32" else 0.0
+
+
 class Janela:
     def __init__(self, raiz: tk.Tk):
         self.raiz = raiz
@@ -434,9 +443,18 @@ class Janela:
                                                           else ".")
         self.situacao.config(text=resumo)
         self._escrever(f"=== {resumo} ===")
-        if self.pendente_auto and not self.cancelado:  # chegou vídeo novo no meio da rodada
-            self.raiz.after(300, lambda: self.iniciar(automatico=True))
-        self.pendente_auto = False
+        if self.cancelado:
+            # Sobrou gente "Na fila": continua na fila p/ a próxima rodada automática
+            # (pendente_auto fica como está), sem recomeçar sozinho após o cancelamento.
+            fila = sum(1 for p in self.arquivos if self.tabela.set(str(p), "status") == NA_FILA)
+            if fila:
+                aviso = f"{fila} vídeo(s) aguardando — clique em Transcrever para continuar"
+                self.situacao.config(text=aviso)
+                self._escrever(aviso)
+        else:
+            if self.pendente_auto:  # chegou vídeo novo no meio da rodada
+                self.raiz.after(300, lambda: self.iniciar(automatico=True))
+            self.pendente_auto = False
         if not self.automatico and not self.cancelado and prontos and messagebox.askyesno(
                 "Transcritor", f"{resumo}\n\nAbrir a pasta de resultados?"):
             self.abrir_pasta()
@@ -489,7 +507,7 @@ class Janela:
                             or p in self.vistos_auto or p in self.arquivos):
                         continue
                     info = item.stat()
-                    if info.st_mtime < self.vigia_desde - MARGEM_SEG:
+                    if max(info.st_mtime, _criacao(info)) < self.vigia_desde - MARGEM_SEG:
                         continue  # gravação antiga, de antes de ligar o automático
                     anterior = self.tamanhos.get(p)
                     if anterior is None or anterior[0] != info.st_size:
@@ -499,6 +517,17 @@ class Janela:
         except OSError as erro:
             self._escrever(f"Não consegui olhar a pasta do OBS: {erro}")
             return
+        # Mesmo nome (aula.mkv + aula.mp4 remuxado): transcreve uma vez só, preferindo o .mkv
+        nomes = {q.stem.lower() for q in list(self.arquivos) + list(self.vistos_auto)}
+        unicos = []
+        for p in sorted(terminados, key=lambda q: (q.suffix.lower() != ".mkv", q.name.lower())):
+            if p.stem.lower() in nomes:
+                self.vistos_auto.add(p)  # duplicata: não volta a aparecer a cada varredura
+                self.tamanhos.pop(p, None)
+                continue
+            nomes.add(p.stem.lower())
+            unicos.append(p)
+        terminados = unicos
         if not terminados:
             return
         for p in terminados:

@@ -567,6 +567,15 @@ def main():
     destino = Path(args.saida)
     pendentes = [a for a in arquivos
                  if args.forcar or not (destino / f"{a.stem}.txt").exists()]
+    # Mesmo nome (ex.: aula.mkv e aula.mp4 do OBS) grava nos mesmos arquivos: só o primeiro
+    vistos, unicos = set(), []
+    for a in pendentes:
+        if a.stem.lower() in vistos:
+            print(f"Ignorado (mesmo nome de outro vídeo): {a.name}")
+            continue
+        vistos.add(a.stem.lower())
+        unicos.append(a)
+    pendentes = unicos
     if not pendentes:
         print("Tudo já transcrito. Use --forcar para refazer.")
         return 0
@@ -618,7 +627,9 @@ def main():
                 resultado = transcrever(model, audio, contexto, args.bloco, args.lote)
             except Exception as erro:
                 if dispositivo == "cuda" and erro_de_gpu(erro):
-                    placa_cheia = args.lote > 1 and "out of memory" in str(erro).lower()
+                    texto_erro = str(erro).lower()
+                    placa_cheia = args.lote > 1 and ("out of memory" in texto_erro
+                                                     or "alloc_failed" in texto_erro)
                     falhou_na_gpu = not placa_cheia
                     print(f"\n  GPU falhou ({erro}).")
                 else:
