@@ -1,0 +1,379 @@
+{
+  "padrao": {
+    "fundo": "preto"
+  },
+  "slides": [
+    {
+      "saida": "r50e-1_1_custo-sem-retorno.png",
+      "semente": 5201,
+      "molde": "mito_verdade",
+      "titulo": "PREVIDÊNCIA DA EMPRESA É SÓ CUSTO?",
+      "mitos": [
+        "É CUSTO SEM RETORNO PARA A EMPRESA",
+        "SÓ O FUNCIONÁRIO GANHA"
+      ],
+      "verdade": "OS DOIS LADOS GANHAM, COM {laranja:DEDUÇÃO LIMITADA}",
+      "desenho": "onibus",
+      "apoio": "- {ciano:SALÁRIO:} R$ 10 MIL · 6% DELE + 6% DA EMPRESA = R$ 1.200 POR MÊS (HIPOTÉTICO)\n- 10 ANOS A 4% REAL AO ANO → {verde:~R$ 176 MIL}\n- {verde:~R$ 88 MIL} SAÍRAM DA EMPRESA, COM OS RENDIMENTOS\n- {ciano:EMPRESA:} RETENÇÃO + DEDUÇÃO NO {laranja:LUCRO REAL}\n- SEM TAXAS E SEM IMPOSTO NA CONTA"
+    },
+    {
+      "saida": "r50e-1_2_frota-da-empresa.png",
+      "semente": 5202,
+      "molde": "comparacao",
+      "titulo": "A FROTA DA EMPRESA",
+      "colunas": [
+        {
+          "titulo": "A FROTA",
+          "desenho": "onibus",
+          "rotulos": [
+            "FROTA",
+            "REGRAS DO GRUPO"
+          ],
+          "texto": "- FROTA → {laranja:PLANO COLETIVO}\n- CARRO → PLANO · MOTOR → FUNDO\n- CHAVE → VÍNCULO DE EMPREGO OU DE ASSOCIAÇÃO\n- AS MESMAS REGRAS PARA TODO O GRUPO"
+        },
+        {
+          "titulo": "A EMPRESA GANHA",
+          "desenho": "pessoa",
+          "rotulos": [
+            "TALENTO",
+            "FICA"
+          ],
+          "texto": "- {verde:RETENÇÃO} E ENGAJAMENTO\n- CULTURA DE LONGO PRAZO\n- DEDUZ ATÉ {laranja:20%} DOS SALÁRIOS DOS VINCULADOS\n- SÓ NO {laranja:LUCRO REAL} E NA CSLL"
+        }
+      ],
+      "faixas": [
+        "{ciano:QUEM ADMINISTRA:} ENTIDADE ABERTA (SEGURADORA, EAPC) OU FECHADA (FUNDO DE PENSÃO, EFPC)"
+      ],
+      "destaque": {
+        "texto": "{vermelho:ONDE QUEBRA:} O CARRO DE FROTA VOLTA · O APORTE DO FUNCIONÁRIO {verde:É DELE} · A PARTE DA EMPRESA SEGUE O {laranja:VESTING}",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
+    },
+    {
+      "saida": "r50e-1_3_plano-coletivo.png",
+      "semente": 5203,
+      "molde": "colunas",
+      "titulo": "PLANO CORPORATIVO E O TETO DE 20%",
+      "topo": "{ciano:LC 109, ART. 26, II:} PLANO COLETIVO = BENEFÍCIOS A PESSOAS LIGADAS A UMA {laranja:PESSOA JURÍDICA CONTRATANTE} · § 1º: UMA OU VÁRIAS EMPRESAS",
+      "colunas": [
+        {
+          "titulo": "QUEM GANHA (APOSTILA)",
+          "texto": "- {ciano:COLABORADOR:} RESERVA, CONTRAPARTIDA, DESCONTO EM FOLHA, FUNDOS COM CUSTO MENOR\n- {ciano:EMPRESA:} RETENÇÃO, CULTURA, BENEFÍCIO FISCAL\n- CRIADO POR EMPRESA {laranja:PATROCINADORA OU INSTITUIDORA}\n- PARA UM {laranja:GRUPO ESPECÍFICO} DE EMPREGADOS OU ASSOCIADOS"
+        },
+        {
+          "titulo": "LEI 9.532, ART. 11",
+          "texto": "- § 2º: ATÉ {laranja:20%} DOS SALÁRIOS E DA REMUNERAÇÃO DOS DIRIGENTES {laranja:VINCULADOS AO PLANO}\n- VALE NO LUCRO REAL E NA CSLL\n- § 3º: O EXCESSO É {vermelho:ADICIONADO DE VOLTA}\n- {ciano:APOSTILA:} \"20% DA FOLHA DE PAGAMENTO\""
+        }
+      ],
+      "destaque": {
+        "texto": "{ciano:VIZINHO:} 20% = LIMITE DA {laranja:EMPRESA} · 12% DA RENDA BRUTA TRIBUTÁVEL = LIMITE DO {laranja:PARTICIPANTE} (R50E-4)",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r50e-1_4_teto-de-20.png",
+      "semente": 5204,
+      "molde": "exercicio",
+      "titulo": "O TETO DE 20% NA PRÁTICA",
+      "dados": "- SALÁRIOS E REMUNERAÇÕES DOS VINCULADOS: R$ 3 MILHÕES POR ANO (HIPOTÉTICO)\n- EMPRESA NO {laranja:LUCRO REAL} · IRPJ + CSLL = 34% (15% + 10% DE ADICIONAL + 9%)\n- TETO: 3.000.000 × 20% = {laranja:600.000}\n- A ÚNICA DIFERENÇA: QUANTO ELA APORTA NO ANO",
+      "cenarios": [
+        {
+          "titulo": "APORTA R$ 600 MIL",
+          "passos": "DEDUZ 600.000\nEXCESSO: 0\n600.000 × 34%",
+          "resultado": "R$ 204.000"
+        },
+        {
+          "titulo": "APORTA R$ 650 MIL",
+          "passos": "DEDUZ 600.000\nEXCESSO: 50.000 → LUCRO\n600.000 × 34%",
+          "resultado": "R$ 204.000"
+        }
+      ],
+      "conclusao": {
+        "texto": "OS {vermelho:R$ 50 MIL} A MAIS NÃO REDUZEM TRIBUTO · NO LUCRO PRESUMIDO E NO SIMPLES, {vermelho:NÃO HÁ ESSA DEDUÇÃO}",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r50e-2_1_dinheiro-da-empresa.png",
+      "semente": 5205,
+      "molde": "mito_verdade",
+      "titulo": "TODO PLANO DA EMPRESA TEM DINHEIRO DELA?",
+      "mitos": [
+        "TODO PLANO DA EMPRESA TEM APORTE DELA",
+        "AVERBADO E INSTITUÍDO SÃO IGUAIS"
+      ],
+      "verdade": "{laranja:AVERBADORA} NÃO PAGA · {verde:INSTITUIDORA} PAGA",
+      "desenho": "dinheiro",
+      "apoio": "- R$ 600 POR MÊS DO FUNCIONÁRIO, 10 ANOS, 4% REAL (HIPOTÉTICO)\n- {ciano:AVERBADO:} ~R$ 88 MIL\n- {ciano:INSTITUÍDO, 1 PARA 1:} {verde:~R$ 176 MIL}\n- O MESMO ESFORÇO DO FUNCIONÁRIO, {verde:O DOBRO} DE SALDO\n- {ciano:CONSIGNANTE:} SÓ DESCONTA EM FOLHA E REPASSA"
+    },
+    {
+      "saida": "r50e-2_2_dois-contratos.png",
+      "semente": 5206,
+      "molde": "comparacao",
+      "titulo": "DOIS CONTRATOS NA PAREDE",
+      "colunas": [
+        {
+          "titulo": "AVERBADO",
+          "desenho": "prancheta",
+          "rotulos": [
+            "AVERBADORA",
+            "NÃO PAGA"
+          ],
+          "texto": "- PROPÕE O PLANO E REPRESENTA O GRUPO\n- {ciano:SÓ PARA CONTRATAR} (RES. 463, ART. 5º, II)\n- QUEM PAGA: {laranja:O FUNCIONÁRIO}\n- SEM CUSTO PARA A EMPRESA"
+        },
+        {
+          "titulo": "INSTITUÍDO",
+          "desenho": "dinheiro",
+          "rotulos": [
+            "INSTITUIDORA",
+            "PAGA"
+          ],
+          "texto": "- PROPÕE, REPRESENTA E {verde:CUSTEIA}\n- TOTAL OU PARCIAL (ART. 5º, XIX)\n- PERCENTUAL FIXO OU MATCHING\n- PODE TER {laranja:VESTING} (R50E-3)"
+        }
+      ],
+      "faixas": [
+        "{ciano:CONSIGNANTE (ART. 5º, XIII):} SÓ DESCONTA EM FOLHA E REPASSA · {vermelho:NÃO É AVERBADORA} (ART. 24)"
+      ],
+      "destaque": {
+        "texto": "{vermelho:ONDE QUEBRA:} ANTES DE LER O NOME DO CONTRATO, VEJA SE O PLANO É {laranja:ABERTO OU FECHADO}",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
+    },
+    {
+      "saida": "r50e-2_3_averbado-instituido.png",
+      "semente": 5207,
+      "molde": "colunas",
+      "titulo": "AVERBADO × INSTITUÍDO NA PROVA",
+      "topo": "{ciano:APOSTILA × NORMA:} \"INTERVENIENTE ANUENTE\" QUE PERMITE O DESCONTO E \"PATROCINADO\" → NA ABERTA, {laranja:AVERBADORA} CONTRATA E REPRESENTA; QUEM PAGA É A {laranja:INSTITUIDORA}",
+      "colunas": [
+        {
+          "titulo": "AVERBADO (APOSTILA)",
+          "texto": "- VANTAGEM: SIMPLES, SEM IMPACTO FINANCEIRO\n- DESVANTAGEM: {vermelho:MENOS ENGAJAMENTO}\n- MAIS COMUM: {laranja:VGBL}\n- FUNDOS ABERTOS, EM EAPC"
+        },
+        {
+          "titulo": "INSTITUÍDO (APOSTILA)",
+          "texto": "- VANTAGEM: VÍNCULO, CULTURA E DEDUÇÃO\n- DESVANTAGEM: {vermelho:GESTÃO E COMPLIANCE}\n- MAIS COMUM: {laranja:PGBL}\n- EFPC OU, EM ALGUNS CASOS, EAPC"
+        }
+      ],
+      "destaque": {
+        "texto": "{ciano:MESMA PALAVRA:} ABERTA → INSTITUIDORA = EMPRESA QUE CUSTEIA · FECHADA → EMPRESA = {laranja:PATROCINADOR}, INSTITUIDOR = {laranja:ENTIDADE PROFISSIONAL, CLASSISTA OU SETORIAL} (LC 109, ART. 31)",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r50e-2_4_quem-paga.png",
+      "semente": 5208,
+      "molde": "exercicio",
+      "titulo": "QUEM PAGA MUDA O SALDO",
+      "dados": "- SALÁRIO DE R$ 10 MIL · FUNCIONÁRIO: 6% = R$ 600 POR MÊS (HIPOTÉTICO)\n- 120 MESES · 4% REAL AO ANO (~0,33% AO MÊS)\n- SEM TAXAS E SEM IMPOSTO\n- A ÚNICA DIFERENÇA: A EMPRESA PAGA OU NÃO",
+      "cenarios": [
+        {
+          "titulo": "AVERBADO",
+          "passos": "SÓ O FUNCIONÁRIO\nR$ 600 POR MÊS\n120 MESES",
+          "resultado": "R$ 88.017,56"
+        },
+        {
+          "titulo": "INSTITUÍDO, 1 PARA 1",
+          "passos": "600 DELE + 600 DA EMPRESA\nR$ 1.200 POR MÊS\n120 MESES",
+          "resultado": "R$ 176.035,11"
+        }
+      ],
+      "conclusao": {
+        "texto": "CONTRAPARTIDA COM RENDIMENTOS: {verde:R$ 88.017,56} · NO INSTITUÍDO, ESSA PARTE AINDA DEPENDE DO {laranja:VESTING}",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r50e-3_1_volta-ao-patrao.png",
+      "semente": 5209,
+      "molde": "mito_verdade",
+      "titulo": "SAIU ANTES: O DINHEIRO VOLTA AO PATRÃO?",
+      "mitos": [
+        "SE EU SAIR, PERCO TUDO",
+        "A PARTE DA EMPRESA VOLTA AO CAIXA"
+      ],
+      "verdade": "O SEU É SEU · O NÃO ADQUIRIDO {laranja:FICA COM OS PARTICIPANTES}",
+      "desenho": "carro",
+      "apoio": "- PARTE DA EMPRESA NO 6º ANO: ~R$ 48,6 MIL (HIPOTÉTICO)\n- VESTING DE 10% AO ANO → LEVA {verde:60%}: ~R$ 29,2 MIL\n- {vermelho:~R$ 19,5 MIL} NÃO ADQUIRIDOS → PARTICIPANTE OU GRUPO\n- {vermelho:VEDADO} À INSTITUIDORA RECEBER (RES. 463, ART. 67, § 1º)\n- O QUE ELE APORTOU: {verde:100% DELE}"
+    },
+    {
+      "saida": "r50e-3_2_adesivo-no-painel.png",
+      "semente": 5210,
+      "molde": "comparacao",
+      "titulo": "O ADESIVO NO PAINEL",
+      "colunas": [
+        {
+          "titulo": "DE UMA VEZ",
+          "desenho": "ampulheta",
+          "rotulos": [
+            "PRAZO",
+            "0% → 100%"
+          ],
+          "texto": "- ANTES DO PRAZO: {vermelho:0%} DA PARTE DA EMPRESA\n- CUMPRIU O PRAZO: {verde:100%}\n- {ciano:APOSTILA:} R$ 500 POR MÊS, VESTING DE 5 ANOS\n- QUEM SAI ANTES PERDE {vermelho:PARTE OU TUDO}"
+        },
+        {
+          "titulo": "ESCALONADO",
+          "desenho": "grafico_alta",
+          "rotulos": [
+            "FATIAS",
+            "POR ANO"
+          ],
+          "texto": "- CADA ANO DE VÍNCULO LIBERA UMA FATIA\n- EX.: 10% AO ANO → NO 6º ANO, {verde:60%}\n- O RESTO: {laranja:PARTICIPANTE OU GRUPO}\n- AS FATIAS ESTÃO NO {laranja:CONTRATO COLETIVO}"
+        }
+      ],
+      "faixas": [
+        "{ciano:NO PORTÃO (RES. 463, ART. 64):} FICAR NO PLANO OU PORTAR, {verde:SEM CARÊNCIA}, RESSALVADO O VESTING"
+      ],
+      "destaque": {
+        "texto": "{vermelho:ONDE QUEBRA:} NA FROTA, O CARRO VOLTA · NA PREVIDÊNCIA, A EMPRESA {vermelho:NÃO PODE RECEBER} A PARTE NÃO ADQUIRIDA",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
+    },
+    {
+      "saida": "r50e-3_3_vesting-na-norma.png",
+      "semente": 5211,
+      "molde": "colunas",
+      "titulo": "VESTING NA NORMA",
+      "topo": "{ciano:RES. 463, ART. 5º, XLIII:} CLÁUSULAS DO CONTRATO SEGURADORA–INSTITUIDORA · {laranja:CONHECIMENTO PRÉVIO} DO PARTICIPANTE · CONDIÇÃO PARA {laranja:RESGATAR OU PORTAR}",
+      "colunas": [
+        {
+          "titulo": "QUEM FAZ O QUÊ",
+          "texto": "- DEFINE: {laranja:O CONTRATO COLETIVO}\n- ABERTA: CNSP + SUSEP (CIRCULAR 698)\n- FECHADA: CNPC + PREVIC\n- OBJETIVO: FIDELIZAR, LONGO PRAZO\n- {ciano:APOSTILA:} \"PRAZO MÍNIMO\" DA \"PATROCINADORA\""
+        },
+        {
+          "titulo": "A PARTE NÃO ADQUIRIDA",
+          "texto": "- VAI AO {laranja:PARTICIPANTE} OU AO {laranja:GRUPO QUE FICA} (ART. 67)\n- PODE PAGAR CONTRIBUIÇÕES FUTURAS DA EMPRESA (CIRC. 698, ART. 19)\n- PODE IR PARA {laranja:OUTRO PLANO} (ART. 51)\n- {vermelho:VEDADO} À INSTITUIDORA RECEBER"
+        }
+      ],
+      "destaque": {
+        "texto": "{ciano:FUNDO DE PENSÃO (LC 109, ART. 14):} BENEFÍCIO PROPORCIONAL DIFERIDO · PORTABILIDADE · RESGATE DO QUE ELE PAGOU · AUTOPATROCÍNIO",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r50e-3_4_dois-adesivos.png",
+      "semente": 5212,
+      "molde": "exercicio",
+      "titulo": "MESMA SAÍDA, DOIS ADESIVOS",
+      "dados": "- EMPRESA: R$ 600 POR MÊS · 4% REAL AO ANO (~0,33% AO MÊS) (HIPOTÉTICO)\n- SAÍDA NO 6º ANO (72 MESES) · PARTE DA EMPRESA: {laranja:R$ 48.626,78}\n- SEM TAXAS E SEM IMPOSTO · O APORTE DELE É {verde:100% DELE}\n- A ÚNICA DIFERENÇA: A REGRA DE VESTING DO CONTRATO",
+      "cenarios": [
+        {
+          "titulo": "ESCALONADO, 10% AO ANO",
+          "passos": "6 ANOS → 60%\n48.626,78 × 60%\nNÃO ADQUIRIDO: 19.450,71",
+          "resultado": "R$ 29.176,07"
+        },
+        {
+          "titulo": "DE UMA VEZ, 5 ANOS",
+          "passos": "6 ANOS: PASSOU DOS 5\nCUMPRIU O PRAZO\nNÃO ADQUIRIDO: 0",
+          "resultado": "R$ 48.626,78"
+        }
+      ],
+      "conclusao": {
+        "texto": "OS {vermelho:R$ 19.450,71} FICAM COM OS PARTICIPANTES, CONFORME O CONTRATO · {vermelho:NADA} VOLTA PARA A EMPRESA",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r50e-4_1_seus-12.png",
+      "semente": 5213,
+      "molde": "mito_verdade",
+      "titulo": "A PARTE DA EMPRESA COME OS SEUS 12%?",
+      "mitos": [
+        "O APORTE DA EMPRESA ENTRA NOS MEUS 12%",
+        "JÁ USEI TODO O LIMITE"
+      ],
+      "verdade": "OS 12% CONTAM SÓ O QUE {laranja:VOCÊ PAGA}",
+      "desenho": "cofrinho",
+      "apoio": "- RENDA BRUTA TRIBUTÁVEL: R$ 120 MIL POR ANO (HIPOTÉTICO)\n- 6% DELE (R$ 7.200) + 6% DA EMPRESA, NO PGBL\n- {verde:ESPAÇO LIVRE: R$ 7.200}\n- {ciano:LEI 9.532, ART. 11:} \"CUJO ÔNUS SEJA DA PRÓPRIA PESSOA FÍSICA\"\n- EXIGE DECLARAÇÃO COMPLETA E CONTRIBUIÇÃO AO REGIME GERAL OU PRÓPRIO"
+    },
+    {
+      "saida": "r50e-4_2_quem-paga-parcelas.png",
+      "semente": 5214,
+      "molde": "comparacao",
+      "titulo": "QUEM PAGA AS PARCELAS",
+      "colunas": [
+        {
+          "titulo": "A EMPRESA",
+          "desenho": "banco",
+          "rotulos": [
+            "FIXO",
+            "OU MATCHING"
+          ],
+          "texto": "- % FIXO DO SALÁRIO\n- OU IGUALA O QUE O EMPREGADO PÕE\n- DEDUZ ATÉ {laranja:20%} DOS SALÁRIOS DOS VINCULADOS\n- PODE TER {laranja:VESTING} (R50E-3)"
+        },
+        {
+          "titulo": "O CARRO NA VAGA",
+          "desenho": "carro",
+          "rotulos": [
+            "ADESÃO",
+            "AUTOMÁTICA"
+          ],
+          "texto": "- SÓ NO PLANO {laranja:INSTITUÍDO PELO EMPREGADOR}\n- PERÍODO INICIAL: {verde:60 A 120 DIAS}\n- AVISO NO MÍNIMO {laranja:30 DIAS} ANTES DO FIM\n- CANCELOU: O DINHEIRO DA EMPRESA VAI AO {laranja:GRUPO}"
+        }
+      ],
+      "faixas": [
+        "{ciano:O PARTICIPANTE:} % FIXO OU VOLUNTÁRIO · DESCONTO EM FOLHA · ESCOLHE O PERFIL DO FUNDO"
+      ],
+      "destaque": {
+        "texto": "{vermelho:ONDE QUEBRA:} NO CARNÊ, AS PARCELAS SOMAM · NA DEDUÇÃO, {laranja:CADA BOLSO TEM O SEU LIMITE}",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
+    },
+    {
+      "saida": "r50e-4_3_duas-camadas.png",
+      "semente": 5215,
+      "molde": "colunas",
+      "titulo": "DUAS CAMADAS DE DEDUÇÃO",
+      "topo": "{ciano:CONTA DO PARTICIPANTE:} 12% × RENDA BRUTA TRIBUTÁVEL − O QUE ELE JÁ PAGA = {verde:ESPAÇO PARA UM PGBL INDIVIDUAL}",
+      "colunas": [
+        {
+          "titulo": "EMPRESA (ART. 11, § 2º)",
+          "texto": "- BASE: SALÁRIOS E REMUNERAÇÃO DOS DIRIGENTES {laranja:VINCULADOS}\n- TETO: {laranja:20%}\n- SÓ NO LUCRO REAL E NA CSLL\n- EXCESSO: {vermelho:VOLTA AO LUCRO} (§ 3º)"
+        },
+        {
+          "titulo": "PARTICIPANTE (ART. 11)",
+          "texto": "- BASE: {laranja:RENDA BRUTA TRIBUTÁVEL}\n- TETO: {laranja:12%}\n- SÓ O ÔNUS DELE, NO PGBL\n- DECLARAÇÃO COMPLETA + REGIME GERAL OU PRÓPRIO"
+        }
+      ],
+      "destaque": {
+        "texto": "{ciano:CASO-LIMITE:} APORTE DA EMPRESA → CARÊNCIA DE {laranja:1 ANO CIVIL COMPLETO} (RES. 463, ART. 53, § 4º) · DESCONTOU E NÃO REPASSOU → O PARTICIPANTE {verde:NÃO É PREJUDICADO} (ARTS. 31 E 32)",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r50e-4_4_espaco-livre.png",
+      "semente": 5216,
+      "molde": "exercicio",
+      "titulo": "O ESPAÇO QUE SOBROU",
+      "dados": "- RENDA BRUTA TRIBUTÁVEL: R$ 120 MIL POR ANO (HIPOTÉTICO)\n- DECLARAÇÃO COMPLETA, CONTRIBUI AO INSS, FAIXA DE 27,5%\n- PLANO DA EMPRESA: 6% DELE + 6% DA EMPRESA\n- LIMITE: 120.000 × 12% = {laranja:14.400}\n- OS 6% DA EMPRESA {verde:NÃO ENTRAM} NA CONTA DOS 12%",
+      "cenarios": [
+        {
+          "titulo": "PARA NOS 6% DELE",
+          "passos": "PAGA 7.200\n7.200 × 27,5%\nESPAÇO PARADO: 7.200",
+          "resultado": "R$ 1.980"
+        },
+        {
+          "titulo": "COMPLETA OS 12%",
+          "passos": "7.200 + PGBL DE 7.200\n14.400 × 27,5%\nESPAÇO PARADO: 0",
+          "resultado": "R$ 3.960"
+        }
+      ],
+      "conclusao": {
+        "texto": "{verde:R$ 1.980} A MAIS DE IMPOSTO ADIADO NO CENÁRIO 2 · ADIADO {vermelho:NÃO É PERDOADO}: O PGBL É TRIBUTADO NO RESGATE",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    }
+  ]
+}
