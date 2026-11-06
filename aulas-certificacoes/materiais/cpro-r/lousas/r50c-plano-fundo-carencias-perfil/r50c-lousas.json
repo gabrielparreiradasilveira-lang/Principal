@@ -1,390 +1,390 @@
 {
- "padrao": {
-  "fundo": "preto"
- },
- "slides": [
-  {
-   "saida": "r50c-1_1_mesmo-plano.png",
-   "semente": 5031,
-   "molde": "mito_verdade",
-   "titulo": "MESMO PLANO = MESMO RESULTADO?",
-   "mitos": [
-    "O MESMO PLANO RENDE IGUAL PARA TODOS",
-    "O NOME DO PRODUTO DECIDE O GANHO"
-   ],
-   "verdade": "O PLANO DÁ AS REGRAS; {laranja:O FUNDO DÁ O RESULTADO}",
-   "desenho": "carro",
-   "apoio": "- {ciano:HIPOTÉTICO:} R$ 100.000 NO MESMO PGBL, POR 25 ANOS, RETORNO BRUTO DE 9% A.A.\n- FUNDO COM TAXA DE 1%: {verde:R$ 684.847,52}\n- FUNDO COM TAXA DE 2%: {vermelho:R$ 542.743,26}\n- UM PONTO DE TAXA: {laranja:R$ 142.104,26}, MAIS QUE O APORTE"
+  "padrao": {
+    "fundo": "preto"
   },
-  {
-   "saida": "r50c-1_2_carro-e-motor.png",
-   "semente": 5032,
-   "molde": "comparacao",
-   "titulo": "O CARRO E O MOTOR",
-   "colunas": [
+  "slides": [
     {
-     "titulo": "O CARRO = PLANO",
-     "desenho": "carro",
-     "rotulos": [
-      "DOCUMENTO",
-      "REGRAS"
-     ],
-     "texto": "- CONTRIBUIÇÃO E REGIME DE IR\n- CARÊNCIAS E BENEFICIÁRIOS\n- RESGATE E PORTABILIDADE\n- {ciano:EXEMPLOS:} PGBL E VGBL\n- É O QUE O CLIENTE {laranja:ASSINA}"
+      "saida": "r50c-1_1_mesmo-plano.png",
+      "semente": 5031,
+      "molde": "mito_verdade",
+      "titulo": "MESMO PLANO = MESMO RESULTADO?",
+      "mitos": [
+        "O MESMO PLANO RENDE IGUAL PARA TODOS",
+        "O NOME DO PRODUTO DECIDE O GANHO"
+      ],
+      "verdade": "O PLANO DÁ AS REGRAS; {laranja:O FUNDO DÁ O RESULTADO}",
+      "desenho": "carro",
+      "apoio": "- {ciano:HIPOTÉTICO:} R$ 100.000 NO MESMO PGBL, POR 25 ANOS, RETORNO BRUTO DE 9% A.A.\n- FUNDO COM TAXA DE 1%: {verde:R$ 684.847,52}\n- FUNDO COM TAXA DE 2%: {vermelho:R$ 542.743,26}\n- UM PONTO DE TAXA: {laranja:R$ 142.104,26}, MAIS QUE O APORTE"
     },
     {
-     "titulo": "O MOTOR = FUNDO",
-     "desenho": "motor",
-     "rotulos": [
-      "FIE",
-      "DESEMPENHO"
-     ],
-     "texto": "- ESTRATÉGIA E CARTEIRA\n- NÍVEL DE RISCO\n- TAXA E RENTABILIDADE\n- UM PLANO PODE TER {laranja:VÁRIOS MOTORES}\n- O EXTRATO SOBE E DESCE {laranja:COM A COTA}"
-    }
-   ],
-   "faixas": [
-    "{ciano:QUEM TEM AS COTAS DO MOTOR?} NA REGRA GERAL, A {laranja:SEGURADORA}; O PARTICIPANTE TEM A {verde:PROVISÃO} (PMBAC)",
-    "{ciano:REGRAS DO PLANO:} SUSEP E CNSP · {ciano:LIMITES DE APLICAÇÃO DO FUNDO:} RESOLUÇÃO {laranja:CMN 4.993}"
-   ],
-   "destaque": {
-    "texto": "{vermelho:ONDE QUEBRA:} O PARTICIPANTE {laranja:NÃO É DONO DAS COTAS} · {verde:MAS:} O SALDO DELE ACOMPANHA A COTA, DIA A DIA",
-    "cor": "branco",
-    "moldura": "vermelho"
-   }
-  },
-  {
-   "saida": "r50c-1_3_plano-fundo-norma.png",
-   "semente": 5033,
-   "molde": "colunas",
-   "titulo": "PLANO × FUNDO NA NORMA",
-   "topo": "{ciano:FIE:} COTISTAS NA REGRA GERAL = {laranja:SEGURADORAS E EAPC} (RES. CNSP 463, ART. 5º · CMN 4.993, ART. 17)\n{ciano:EXCEÇÃO:} FUNDO COM {laranja:PATRIMÔNIO SEGREGADO}: O PARTICIPANTE PODE SER O COTISTA",
-   "colunas": [
-    {
-     "titulo": "O PARTICIPANTE (CIRC. 698)",
-     "texto": "- PGBL: {laranja:100%} DA PMBAC EM COTAS DE FIE\n- PROVISÃO CALCULADA {laranja:DIARIAMENTE}\n- APORTE − CARREGAMENTO → COTAS EM ATÉ {laranja:2 DIAS ÚTEIS}\n- SALDO = COTAS × COTA"
+      "saida": "r50c-1_2_carro-e-motor.png",
+      "semente": 5032,
+      "molde": "comparacao",
+      "titulo": "O CARRO E O MOTOR",
+      "colunas": [
+        {
+          "titulo": "O CARRO = PLANO",
+          "desenho": "carro",
+          "rotulos": [
+            "DOCUMENTO",
+            "REGRAS"
+          ],
+          "texto": "- CONTRIBUIÇÃO E REGIME DE IR\n- CARÊNCIAS E BENEFICIÁRIOS\n- RESGATE E PORTABILIDADE\n- {ciano:EXEMPLOS:} PGBL E VGBL\n- É O QUE O CLIENTE {laranja:ASSINA}"
+        },
+        {
+          "titulo": "O MOTOR = FUNDO",
+          "desenho": "motor",
+          "rotulos": [
+            "FIE",
+            "DESEMPENHO"
+          ],
+          "texto": "- ESTRATÉGIA E CARTEIRA\n- NÍVEL DE RISCO\n- TAXA E RENTABILIDADE\n- UM PLANO PODE TER {laranja:VÁRIOS MOTORES}\n- O EXTRATO SOBE E DESCE {laranja:COM A COTA}"
+        }
+      ],
+      "faixas": [
+        "{ciano:QUEM TEM AS COTAS DO MOTOR?} NA REGRA GERAL, A {laranja:SEGURADORA}; O PARTICIPANTE TEM A {verde:PROVISÃO} (PMBAC)",
+        "{ciano:REGRAS DO PLANO:} SUSEP E CNSP · {ciano:LIMITES DE APLICAÇÃO DO FUNDO:} RESOLUÇÃO {laranja:CMN 4.993}"
+      ],
+      "destaque": {
+        "texto": "{vermelho:ONDE QUEBRA:} O PARTICIPANTE {laranja:NÃO É DONO DAS COTAS} · {verde:MAS:} O SALDO DELE ACOMPANHA A COTA, DIA A DIA",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
     },
     {
-     "titulo": "CASOS-LIMITE",
-     "texto": "- PGBL {vermelho:SEM GARANTIA} DE RENTABILIDADE MÍNIMA (RES. 463, ART. 6º)\n- TAXA DE PERFORMANCE: SÓ COM PREVISÃO NO REGULAMENTO E LIMITE MÁXIMO INFORMADO\n- TROCAR DE FUNDO NO PLANO {vermelho:≠} PORTABILIDADE"
-    }
-   ],
-   "destaque": {
-    "texto": "{verde:NA RECOMENDAÇÃO:} COMPARE OS {laranja:FUNDOS DO PLANO}: ESTRATÉGIA, RISCO E TAXA · O NOME DO PLANO NÃO DIZ O RESULTADO",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r50c-1_4_dois-motores.png",
-   "semente": 5034,
-   "molde": "exercicio",
-   "titulo": "MESMO PLANO, DOIS MOTORES",
-   "dados": "- R$ 10.000 NO MESMO PLANO, NO MESMO DIA (HIPOTÉTICO)\n- COTA DE COMPRA: R$ 2,50 NOS DOIS FUNDOS\n- SEM CARREGAMENTO E SEM IR\n- A ÚNICA DIFERENÇA: O FUNDO ESCOLHIDO",
-   "cenarios": [
-    {
-     "titulo": "FUNDO A",
-     "passos": "10.000 ÷ 2,50\n= 4.000 COTAS\nCOTA DEPOIS: R$ 2,70\n4.000 × 2,70",
-     "resultado": "R$ 10.800"
+      "saida": "r50c-1_3_plano-fundo-norma.png",
+      "semente": 5033,
+      "molde": "colunas",
+      "titulo": "PLANO × FUNDO NA NORMA",
+      "topo": "{ciano:FIE:} COTISTAS NA REGRA GERAL = {laranja:SEGURADORAS E EAPC} (RES. CNSP 463, ART. 5º · CMN 4.993, ART. 17)\n{ciano:EXCEÇÃO:} FUNDO COM {laranja:PATRIMÔNIO SEGREGADO}: O PARTICIPANTE PODE SER O COTISTA",
+      "colunas": [
+        {
+          "titulo": "O PARTICIPANTE (CIRC. 698)",
+          "texto": "- PGBL: {laranja:100%} DA PMBAC EM COTAS DE FIE\n- PROVISÃO CALCULADA {laranja:DIARIAMENTE}\n- APORTE − CARREGAMENTO → COTAS EM ATÉ {laranja:2 DIAS ÚTEIS}\n- SALDO = COTAS × COTA"
+        },
+        {
+          "titulo": "CASOS-LIMITE",
+          "texto": "- PGBL {vermelho:SEM GARANTIA} DE RENTABILIDADE MÍNIMA (RES. 463, ART. 6º)\n- TAXA DE PERFORMANCE: SÓ COM PREVISÃO NO REGULAMENTO E LIMITE MÁXIMO INFORMADO\n- TROCAR DE FUNDO NO PLANO {vermelho:≠} PORTABILIDADE"
+        }
+      ],
+      "destaque": {
+        "texto": "{verde:NA RECOMENDAÇÃO:} COMPARE OS {laranja:FUNDOS DO PLANO}: ESTRATÉGIA, RISCO E TAXA · O NOME DO PLANO NÃO DIZ O RESULTADO",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
     },
     {
-     "titulo": "FUNDO B",
-     "passos": "10.000 ÷ 2,50\n= 4.000 COTAS\nCOTA DEPOIS: R$ 2,30\n4.000 × 2,30",
-     "resultado": "R$ 9.200"
-    }
-   ],
-   "conclusao": {
-    "texto": "DIFERENÇA: {laranja:R$ 1.600} · MESMAS REGRAS, MESMO APORTE · {verde:O RESULTADO VEIO DO FUNDO}",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r50c-2_1_carencia-qualificado.png",
-   "semente": 5035,
-   "molde": "mito_verdade",
-   "titulo": "CARÊNCIA = SEMPRE 60 DIAS?",
-   "mitos": [
-    "TODA CARÊNCIA TEM 60 DIAS",
-    "QUALIFICADO É IGUAL"
-   ],
-   "verdade": "QUALIFICADO: {laranja:180 DIAS}",
-   "desenho": "carro",
-   "apoio": "- {ciano:HIPOTÉTICO:} R$ 500.000 NUM PGBL PARA QUALIFICADOS\n- PORTABILIDADE PEDIDA {vermelho:30 DIAS DEPOIS}: RECUSADA\n- CARÊNCIA DE PORTABILIDADE DO QUALIFICADO: {laranja:180 DIAS}\n- NUM PLANO COMUM, SERIAM {verde:60 DIAS}\n- {ciano:RESGATE NO PLANO COMUM:} DE 60 DIAS A 60 MESES, CONFORME O PLANO"
-  },
-  {
-   "saida": "r50c-2_2_adesivo-no-vidro.png",
-   "semente": 5036,
-   "molde": "comparacao",
-   "titulo": "O ADESIVO NO VIDRO",
-   "colunas": [
-    {
-     "titulo": "CARRO COMUM",
-     "desenho": "carro",
-     "rotulos": [
-      "60 DIAS",
-      "PÚBLICO GERAL"
-     ],
-     "texto": "- VENDER (RESGATE): {laranja:60 DIAS A 60 MESES}\n- TROCAR (PORTABILIDADE): {laranja:60 DIAS}\n- PAGAMENTO ATÉ O {laranja:26º DIA ÚTIL}\n- MESMA SEGURADORA: PRAZO {verde:MENOR}\n- ENTRE RESGATES: 60 DIAS A 6 MESES"
+      "saida": "r50c-1_4_dois-motores.png",
+      "semente": 5034,
+      "molde": "exercicio",
+      "titulo": "MESMO PLANO, DOIS MOTORES",
+      "dados": "- R$ 10.000 NO MESMO PLANO, NO MESMO DIA (HIPOTÉTICO)\n- COTA DE COMPRA: R$ 2,50 NOS DOIS FUNDOS\n- SEM CARREGAMENTO E SEM IR\n- A ÚNICA DIFERENÇA: O FUNDO ESCOLHIDO",
+      "cenarios": [
+        {
+          "titulo": "FUNDO A",
+          "passos": "10.000 ÷ 2,50\n= 4.000 COTAS\nCOTA DEPOIS: R$ 2,70\n4.000 × 2,70",
+          "resultado": "R$ 10.800"
+        },
+        {
+          "titulo": "FUNDO B",
+          "passos": "10.000 ÷ 2,50\n= 4.000 COTAS\nCOTA DEPOIS: R$ 2,30\n4.000 × 2,30",
+          "resultado": "R$ 9.200"
+        }
+      ],
+      "conclusao": {
+        "texto": "DIFERENÇA: {laranja:R$ 1.600} · MESMAS REGRAS, MESMO APORTE · {verde:O RESULTADO VEIO DO FUNDO}",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
     },
     {
-     "titulo": "CARRO DE PISTA",
-     "desenho": {
-      "nome": "carro",
-      "cor": "vermelho"
-     },
-     "rotulos": [
-      "180 DIAS",
-      "QUALIFICADO"
-     ],
-     "texto": "- RESGATE: MÍNIMO DE {laranja:180 DIAS}\n- PORTABILIDADE: {laranja:180 DIAS}\n- PAGAMENTO ATÉ O {laranja:180º DIA ÚTIL}\n- PODE TER FUNDOS {verde:SÓ PARA QUALIFICADOS}\n- ENTRE RESGATES: ATÉ {laranja:24 MESES}"
-    }
-   ],
-   "faixas": [
-    "{ciano:A CONTAGEM COMEÇA NO:} PROTOCOLO DA PROPOSTA · A CARÊNCIA É {laranja:IGUAL PARA TODOS} OS PARTICIPANTES DO MESMO PLANO"
-   ],
-   "destaque": {
-    "texto": "{vermelho:ONDE QUEBRA:} O PRAZO NÃO É LIVRE: VEM DE {laranja:FAIXAS DA SUSEP} · {verde:SEM CARÊNCIA:} MORTE OU INVALIDEZ NA ACUMULAÇÃO",
-    "cor": "branco",
-    "moldura": "vermelho"
-   }
-  },
-  {
-   "saida": "r50c-2_3_tabela-carencias.png",
-   "semente": 5037,
-   "molde": "colunas",
-   "titulo": "CARÊNCIAS: COMUM × QUALIFICADO",
-   "topo": "{ciano:CIRC. SUSEP 698 (PGBL) E 699 (VGBL):} OS MESMOS NÚMEROS\n{ciano:QUALIFICADO (CVM 30):} EX.: MAIS DE {laranja:R$ 1 MILHÃO} APLICADO + TERMO · DECLARAÇÃO NA PROPOSTA",
-   "colunas": [
-    {
-     "titulo": "COMUM × QUALIFICADO",
-     "texto": "- 1º RESGATE: 60 DIAS A 60 MESES × {laranja:MÍNIMO 180 DIAS}\n- ENTRE RESGATES: 60 DIAS A 6 MESES × {laranja:ATÉ 24 MESES}\n- PORTABILIDADE: 60 DIAS × {laranja:180 DIAS}\n- ENTRE PORTABILIDADES: MÍNIMO DE 60 DIAS\n- MESMA SEGURADORA: PRAZOS {verde:MENORES}"
+      "saida": "r50c-2_1_carencia-qualificado.png",
+      "semente": 5035,
+      "molde": "mito_verdade",
+      "titulo": "CARÊNCIA = SEMPRE 60 DIAS?",
+      "mitos": [
+        "TODA CARÊNCIA TEM 60 DIAS",
+        "QUALIFICADO É IGUAL"
+      ],
+      "verdade": "QUALIFICADO: {laranja:180 DIAS}",
+      "desenho": "carro",
+      "apoio": "- {ciano:HIPOTÉTICO:} R$ 500.000 NUM PGBL PARA QUALIFICADOS\n- PORTABILIDADE PEDIDA {vermelho:30 DIAS DEPOIS}: RECUSADA\n- CARÊNCIA DE PORTABILIDADE DO QUALIFICADO: {laranja:180 DIAS}\n- NUM PLANO COMUM, SERIAM {verde:60 DIAS}\n- {ciano:RESGATE NO PLANO COMUM:} DE 60 DIAS A 60 MESES, CONFORME O PLANO"
     },
     {
-     "titulo": "CASOS ESPECIAIS",
-     "texto": "- {verde:MORTE OU INVALIDEZ}: SEM CARÊNCIA\n- APORTE DA {laranja:EMPRESA}: 1 ANO CIVIL COMPLETO\n- VEIO DE {laranja:FUNDO DE PENSÃO}: NÃO RESGATA, SÓ RENDA\n- PLANO CONJUGADO: 12 A 24 MESES"
-    }
-   ],
-   "destaque": {
-    "texto": "{vermelho:APOSTILA:} QUALIFICADO \"60 DIAS A 24 MESES\" · INTERNA \"0 A 30 DIAS\" · {verde:NORMA:} 60 DIAS A 60 MESES PARA TODOS; 24 MESES É O {laranja:INTERVALO} DO QUALIFICADO",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r50c-2_4_calendario.png",
-   "semente": 5038,
-   "molde": "exercicio",
-   "titulo": "COMUM × QUALIFICADO NO CALENDÁRIO",
-   "dados": "- PROPOSTA PROTOCOLADA EM {laranja:03/11/2026} (HIPOTÉTICO)\n- CARÊNCIA DE PORTABILIDADE, EM DIAS CORRIDOS\n- NA HP: 1 = SEGUNDA · 6 = SÁBADO · 7 = DOMINGO\n- A ÚNICA DIFERENÇA: O TIPO DE PLANO",
-   "cenarios": [
-    {
-     "titulo": "PLANO COMUM",
-     "passos": "CARÊNCIA: 60 DIAS\nPROTOCOLO: 03/11/2026\n03/11/2026 + 60 DIAS\nVISOR: 2,01,2027 6",
-     "resultado": "02/01/2027, SÁBADO"
+      "saida": "r50c-2_2_adesivo-no-vidro.png",
+      "semente": 5036,
+      "molde": "comparacao",
+      "titulo": "O ADESIVO NO VIDRO",
+      "colunas": [
+        {
+          "titulo": "CARRO COMUM",
+          "desenho": "carro",
+          "rotulos": [
+            "60 DIAS",
+            "PÚBLICO GERAL"
+          ],
+          "texto": "- VENDER (RESGATE): {laranja:60 DIAS A 60 MESES}\n- TROCAR (PORTABILIDADE): {laranja:60 DIAS}\n- PAGAMENTO ATÉ O {laranja:26º DIA ÚTIL}\n- MESMA SEGURADORA: PRAZO {verde:MENOR}\n- ENTRE RESGATES: 60 DIAS A 6 MESES"
+        },
+        {
+          "titulo": "CARRO DE PISTA",
+          "desenho": {
+            "nome": "carro",
+            "cor": "vermelho"
+          },
+          "rotulos": [
+            "180 DIAS",
+            "QUALIFICADO"
+          ],
+          "texto": "- RESGATE: MÍNIMO DE {laranja:180 DIAS}\n- PORTABILIDADE: {laranja:180 DIAS}\n- PAGAMENTO ATÉ O {laranja:180º DIA ÚTIL}\n- PODE TER FUNDOS {verde:SÓ PARA QUALIFICADOS}\n- ENTRE RESGATES: ATÉ {laranja:24 MESES}"
+        }
+      ],
+      "faixas": [
+        "{ciano:A CONTAGEM COMEÇA NO:} PROTOCOLO DA PROPOSTA · A CARÊNCIA É {laranja:IGUAL PARA TODOS} OS PARTICIPANTES DO MESMO PLANO"
+      ],
+      "destaque": {
+        "texto": "{vermelho:ONDE QUEBRA:} O PRAZO NÃO É LIVRE: VEM DE {laranja:FAIXAS DA SUSEP} · {verde:SEM CARÊNCIA:} MORTE OU INVALIDEZ NA ACUMULAÇÃO",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
     },
     {
-     "titulo": "QUALIFICADO",
-     "passos": "CARÊNCIA: 180 DIAS\nPROTOCOLO: 03/11/2026\n03/11/2026 + 180 DIAS\nVISOR: 2,05,2027 7",
-     "resultado": "02/05/2027, DOMINGO"
-    }
-   ],
-   "conclusao": {
-    "texto": "{laranja:120 DIAS A MAIS} COM O DINHEIRO PRESO · A CARÊNCIA {verde:ENTRA NA RECOMENDAÇÃO}",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r50c-3_1_marco-2020.png",
-   "semente": 5039,
-   "molde": "mito_verdade",
-   "titulo": "PERFIL SE PREENCHE UMA VEZ?",
-   "mitos": [
-    "PERFIL É SÓ O FORMULÁRIO DA VENDA",
-    "DEPOIS DE ASSINAR, NÃO MUDA"
-   ],
-   "verdade": "O FUNDO TEM DE {laranja:CABER NO PERFIL} A VIDA TODA",
-   "desenho": "grafico_baixa",
-   "apoio": "- {ciano:IBOVESPA, MARÇO DE 2020:} {vermelho:−29,9%} NO MÊS, FECHANDO EM 73.019 PONTOS\n- {ciano:PREVIDÊNCIA AÇÕES (ANBIMA):} NO MÍNIMO {laranja:67%} EM AÇÕES\n- CONSERVADOR NESSE FUNDO = {vermelho:DESENQUADRAMENTO}\n- {ciano:SUITABILITY:} PERFIL REVISTO {verde:PERIODICAMENTE}"
-  },
-  {
-   "saida": "r50c-3_2_quem-dirige.png",
-   "semente": 5040,
-   "molde": "comparacao",
-   "titulo": "QUEM ESTÁ AO VOLANTE",
-   "colunas": [
-    {
-     "titulo": "O MOTORISTA = PERFIL",
-     "desenho": "pessoa",
-     "rotulos": [
-      "PERFIL",
-      "TOLERÂNCIA"
-     ],
-     "texto": "- CAUTELOSO → {verde:RENDA FIXA}\n- EQUILIBRADO → {laranja:MULTIMERCADO OU BALANCEADO}\n- VELOCIDADE → {vermelho:AÇÕES}\n- (DIRECIONAMENTO DA APOSTILA)"
+      "saida": "r50c-2_3_tabela-carencias.png",
+      "semente": 5037,
+      "molde": "colunas",
+      "titulo": "CARÊNCIAS: COMUM × QUALIFICADO",
+      "topo": "{ciano:CIRC. SUSEP 698 (PGBL) E 699 (VGBL):} OS MESMOS NÚMEROS\n{ciano:QUALIFICADO (CVM 30):} EX.: MAIS DE {laranja:R$ 1 MILHÃO} APLICADO + TERMO · DECLARAÇÃO NA PROPOSTA",
+      "colunas": [
+        {
+          "titulo": "COMUM × QUALIFICADO",
+          "texto": "- 1º RESGATE: 60 DIAS A 60 MESES × {laranja:MÍNIMO 180 DIAS}\n- ENTRE RESGATES: 60 DIAS A 6 MESES × {laranja:ATÉ 24 MESES}\n- PORTABILIDADE: 60 DIAS × {laranja:180 DIAS}\n- ENTRE PORTABILIDADES: MÍNIMO DE 60 DIAS\n- MESMA SEGURADORA: PRAZOS {verde:MENORES}"
+        },
+        {
+          "titulo": "CASOS ESPECIAIS",
+          "texto": "- {verde:MORTE OU INVALIDEZ}: SEM CARÊNCIA\n- APORTE DA {laranja:EMPRESA}: 1 ANO CIVIL COMPLETO\n- VEIO DE {laranja:FUNDO DE PENSÃO}: NÃO RESGATA, SÓ RENDA\n- PLANO CONJUGADO: 12 A 24 MESES"
+        }
+      ],
+      "destaque": {
+        "texto": "{ciano:NA NORMA:} CARÊNCIA DE RESGATE ATÉ {laranja:60 MESES} PARA TODOS · QUALIFICADO: {laranja:24 MESES} = LIMITE DO {laranja:INTERVALO}, NÃO DA CARÊNCIA · PORTABILIDADE INTERNA: PRAZOS {verde:MENORES}, SEM FAIXA FIXA",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
     },
     {
-     "titulo": "MOTOR ERRADO",
-     "desenho": {
-      "nome": "motor",
-      "cor": "vermelho"
-     },
-     "rotulos": [
-      "RISCO DEMAIS",
-      "DESENQUADRADO"
-     ],
-     "texto": "- O FUNDO MUDOU O RISCO\n- O CLIENTE MUDOU: IDADE, RENDA, OBJETIVO\n- {verde:SAÍDA:} TROCAR DE FUNDO OU PORTAR\n- O PLANO {verde:CONTINUA}"
-    }
-   ],
-   "faixas": [
-    "{ciano:SUITABILITY:} O PERFIL É REAVALIADO {laranja:DE TEMPOS EM TEMPOS}, NÃO SÓ NA CONTRATAÇÃO"
-   ],
-   "destaque": {
-    "texto": "{vermelho:ONDE QUEBRA:} O LIMITE REAL APARECE NA {laranja:PRIMEIRA QUEDA FORTE} · {verde:POR ISSO:} MEDIR A CAPACIDADE DE PERDA ANTES",
-    "cor": "branco",
-    "moldura": "vermelho"
-   }
-  },
-  {
-   "saida": "r50c-3_3_perfil-desenquadramento.png",
-   "semente": 5041,
-   "molde": "colunas",
-   "titulo": "PERFIL E DESENQUADRAMENTO",
-   "topo": "{ciano:PERFIL (APOSTILA):} CONSERVADOR · MODERADO · ARROJADO OU AGRESSIVO · ETAPA OBRIGATÓRIA\n{ciano:TRATAMENTO ADEQUADO (CNSP 382):} EVITAR VENDA INADEQUADA, {laranja:INCLUSIVE NA PORTABILIDADE}",
-   "colunas": [
-    {
-     "titulo": "A ANÁLISE (CNSP 382, ART. 6º)",
-     "texto": "1. OBJETIVOS E NECESSIDADES\n2. SITUAÇÃO FINANCEIRA\n3. CONHECIMENTO DOS RISCOS, TOLERÂNCIA E {laranja:CAPACIDADE DE SUPORTAR PERDAS}"
+      "saida": "r50c-2_4_calendario.png",
+      "semente": 5038,
+      "molde": "exercicio",
+      "titulo": "COMUM × QUALIFICADO NO CALENDÁRIO",
+      "dados": "- PROPOSTA PROTOCOLADA EM {laranja:03/11/2026} (HIPOTÉTICO)\n- CARÊNCIA DE PORTABILIDADE, EM DIAS CORRIDOS\n- NA HP: 1 = SEGUNDA · 6 = SÁBADO · 7 = DOMINGO\n- A ÚNICA DIFERENÇA: O TIPO DE PLANO",
+      "cenarios": [
+        {
+          "titulo": "PLANO COMUM",
+          "passos": "CARÊNCIA: 60 DIAS\nPROTOCOLO: 03/11/2026\n03/11/2026 + 60 DIAS\nVISOR: 2,01,2027 6",
+          "resultado": "02/01/2027, SÁBADO"
+        },
+        {
+          "titulo": "QUALIFICADO",
+          "passos": "CARÊNCIA: 180 DIAS\nPROTOCOLO: 03/11/2026\n03/11/2026 + 180 DIAS\nVISOR: 2,05,2027 7",
+          "resultado": "02/05/2027, DOMINGO"
+        }
+      ],
+      "conclusao": {
+        "texto": "{laranja:120 DIAS A MAIS} COM O DINHEIRO PRESO · A CARÊNCIA {verde:ENTRA NA RECOMENDAÇÃO}",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
     },
     {
-     "titulo": "DOIS DESENQUADRAMENTOS",
-     "texto": "- {ciano:DO CLIENTE (APOSTILA):} FUNDO OU PERFIL MUDOU → REAVALIAR E READEQUAR\n- {ciano:DO FUNDO (CMN 4.993, ART. 30):} PASSOU DO LIMITE POR OSCILAÇÃO OU RESGATE → {laranja:1 ANO} PARA REENQUADRAR, SEM AGRAVAR"
-    }
-   ],
-   "destaque": {
-    "texto": "{vermelho:APOSTILA × NORMA:} A \"COMUNICAÇÃO FORMAL\" NÃO ESTÁ NA CNSP 382 · ELA TRAZ PRINCÍPIOS E TRATAMENTO ADEQUADO NO {laranja:CICLO DE VIDA}",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r50c-3_4_perda-cabe.png",
-   "semente": 5042,
-   "molde": "exercicio",
-   "titulo": "A PERDA CABE NO PERFIL?",
-   "dados": "- R$ 200.000 NO PGBL; O CLIENTE ACEITA PERDER {laranja:ATÉ 10%} (HIPOTÉTICO)\n- AÇÕES CAEM {vermelho:30%}; A RENDA FIXA FICA PARADA\n- A ÚNICA DIFERENÇA: A FATIA EM AÇÕES DO FUNDO\n- FATIA MÁXIMA: 10% ÷ 30% = {laranja:33,33%} EM AÇÕES",
-   "cenarios": [
-    {
-     "titulo": "BALANCEADO (30%)",
-     "passos": "200.000 × 30% = 60.000\n60.000 × 30% = 18.000\n18.000 ÷ 200.000\nABAIXO DO LIMITE DE 10%",
-     "resultado": "−9%: CABE"
+      "saida": "r50c-3_1_marco-2020.png",
+      "semente": 5039,
+      "molde": "mito_verdade",
+      "titulo": "PERFIL SE PREENCHE UMA VEZ?",
+      "mitos": [
+        "PERFIL É SÓ O FORMULÁRIO DA VENDA",
+        "DEPOIS DE ASSINAR, NÃO MUDA"
+      ],
+      "verdade": "O FUNDO TEM DE {laranja:CABER NO PERFIL} A VIDA TODA",
+      "desenho": "grafico_baixa",
+      "apoio": "- {ciano:IBOVESPA, MARÇO DE 2020:} {vermelho:−29,9%} NO MÊS, FECHANDO EM 73.019 PONTOS\n- {ciano:PREVIDÊNCIA AÇÕES (ANBIMA):} NO MÍNIMO {laranja:67%} EM AÇÕES\n- CONSERVADOR NESSE FUNDO = {vermelho:DESENQUADRAMENTO}\n- {ciano:SUITABILITY:} PERFIL REVISTO {verde:PERIODICAMENTE}"
     },
     {
-     "titulo": "AÇÕES (80%)",
-     "passos": "200.000 × 80% = 160.000\n160.000 × 30% = 48.000\n48.000 ÷ 200.000\nACIMA DO LIMITE DE 10%",
-     "resultado": "−24%: NÃO CABE"
-    }
-   ],
-   "conclusao": {
-    "texto": "O FUNDO DE AÇÕES É O {vermelho:MOTOR DE CORRIDA} DESSE MOTORISTA · PERDA {laranja:2,4 VEZES} O LIMITE",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r50c-4_1_cliente-oculto.png",
-   "semente": 5043,
-   "molde": "mito_verdade",
-   "titulo": "CLIENTE OCULTO = CLIENTE DA LOJA?",
-   "mitos": [
-    "A EMPRESA CONTRATA O OCULTO",
-    "A EMPRESA É AVISADA"
-   ],
-   "verdade": "É A {laranja:SUSEP} TESTANDO",
-   "desenho": "prancheta",
-   "apoio": "- {ciano:RES. CNSP 382/2020:} EM VIGOR DESDE {laranja:01/07/2020} (ART. 17)\n- ALCANÇA SEGURADORAS, CAPITALIZAÇÃO, EAPC E {laranja:INTERMEDIÁRIOS}\n- CLIENTE OCULTO: {laranja:SERVIDOR DA SUSEP} (ARTS. 2º E 9º)\n- ATUA PRESENCIALMENTE OU A DISTÂNCIA\n- PESQUISA, SIMULA E TESTA A CONTRATAÇÃO, {vermelho:SEM AVISO}"
-  },
-  {
-   "saida": "r50c-4_2_concessionaria.png",
-   "semente": 5044,
-   "molde": "comparacao",
-   "titulo": "AS REGRAS DA CONCESSIONÁRIA",
-   "colunas": [
-    {
-     "titulo": "QUEM VENDE",
-     "desenho": "pessoa",
-     "rotulos": [
-      "CONDUTA",
-      "CICLO DE VIDA"
-     ],
-     "texto": "- PRODUTO DE ACORDO COM O PERFIL\n- INFORMAÇÃO CLARA, ANTES E DEPOIS\n- CONFLITO DE INTERESSES À VISTA\n- RESGATE E RECLAMAÇÃO NO PRAZO\n- CAPACITAÇÃO {laranja:PERIÓDICA}"
+      "saida": "r50c-3_2_quem-dirige.png",
+      "semente": 5040,
+      "molde": "comparacao",
+      "titulo": "QUEM ESTÁ AO VOLANTE",
+      "colunas": [
+        {
+          "titulo": "O MOTORISTA = PERFIL",
+          "desenho": "pessoa",
+          "rotulos": [
+            "PERFIL",
+            "TOLERÂNCIA"
+          ],
+          "texto": "- CAUTELOSO → {verde:RENDA FIXA}\n- EQUILIBRADO → {laranja:MULTIMERCADO OU BALANCEADO}\n- VELOCIDADE → {vermelho:AÇÕES}\n- (CORRESPONDÊNCIA USUAL; A NORMA {laranja:NÃO FIXA})"
+        },
+        {
+          "titulo": "MOTOR ERRADO",
+          "desenho": {
+            "nome": "motor",
+            "cor": "vermelho"
+          },
+          "rotulos": [
+            "RISCO DEMAIS",
+            "DESENQUADRADO"
+          ],
+          "texto": "- O FUNDO MUDOU O RISCO\n- O CLIENTE MUDOU: IDADE, RENDA, OBJETIVO\n- {verde:SAÍDA:} TROCAR DE FUNDO OU PORTAR\n- O PLANO {verde:CONTINUA}"
+        }
+      ],
+      "faixas": [
+        "{ciano:SUITABILITY:} O PERFIL É REAVALIADO {laranja:DE TEMPOS EM TEMPOS}, NÃO SÓ NA CONTRATAÇÃO"
+      ],
+      "destaque": {
+        "texto": "{vermelho:ONDE QUEBRA:} O LIMITE REAL APARECE NA {laranja:PRIMEIRA QUEDA FORTE} · {verde:POR ISSO:} MEDIR A CAPACIDADE DE PERDA ANTES",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
     },
     {
-     "titulo": "O FISCAL",
-     "desenho": {
-      "nome": "prancheta",
-      "cor": "vermelho"
-     },
-     "rotulos": [
-      "SUSEP",
-      "SEM AVISO"
-     ],
-     "texto": "- PARECE UM INTERESSADO COMUM\n- PESQUISA, SIMULA, TESTA\n- AVALIA OFERTA E DISTRIBUIÇÃO\n- {vermelho:SANÇÃO:} ATÉ SUSPENDER A VENDA\n- PRESENCIAL OU {laranja:A DISTÂNCIA}"
-    }
-   ],
-   "faixas": [
-    "{ciano:NA NORMA, QUEM VENDE:} SEGURADORA, EAPC E {laranja:INTERMEDIÁRIO} · A SEGURADORA {laranja:RESPONDE PELO INTERMEDIÁRIO}",
-    "{ciano:CICLO DE VIDA:} DA {laranja:CONCEPÇÃO} DO PRODUTO ATÉ A ÚLTIMA OBRIGAÇÃO COM O CLIENTE"
-   ],
-   "destaque": {
-    "texto": "{vermelho:ONDE QUEBRA:} NO VAREJO, QUEM CONTRATA O AVALIADOR É A LOJA · {verde:AQUI:} É O SUPERVISOR, SEM AVISAR",
-    "cor": "branco",
-    "moldura": "vermelho"
-   }
-  },
-  {
-   "saida": "r50c-4_3_cnsp-382.png",
-   "semente": 5045,
-   "molde": "colunas",
-   "titulo": "RES. CNSP 382: O QUE CAI",
-   "topo": "{ciano:10 PRINCÍPIOS (ART. 3º):} {laranja:TRANSPARÊNCIA · DILIGÊNCIA · LEALDADE} (OS 3 QUE A APOSTILA CITA) · ÉTICA · PROBIDADE · HONESTIDADE · BOA-FÉ OBJETIVA · RESPONSABILIDADE · LIVRE INICIATIVA E LIVRE CONCORRÊNCIA",
-   "colunas": [
-    {
-     "titulo": "O INTERMEDIÁRIO INFORMA",
-     "texto": "1. PARTICIPAÇÃO DE {laranja:10% OU MAIS}, NUM SENTIDO OU NOUTRO\n2. EXCLUSIVIDADE OU AS EMPRESAS REPRESENTADAS\n3. {laranja:MONTANTE DA REMUNERAÇÃO} + VALOR DA CONTRIBUIÇÃO\n- PRODUTO ACESSÓRIO: {vermelho:NÃO É OBRIGATÓRIO}"
+      "saida": "r50c-3_3_perfil-desenquadramento.png",
+      "semente": 5041,
+      "molde": "colunas",
+      "titulo": "PERFIL E DESENQUADRAMENTO",
+      "topo": "{ciano:PERFIL:} CONSERVADOR · MODERADO · ARROJADO OU AGRESSIVO · ETAPA OBRIGATÓRIA\n{ciano:TRATAMENTO ADEQUADO (CNSP 382):} EVITAR VENDA INADEQUADA, {laranja:INCLUSIVE NA PORTABILIDADE}",
+      "colunas": [
+        {
+          "titulo": "A ANÁLISE (CNSP 382, ART. 6º)",
+          "texto": "1. OBJETIVOS E NECESSIDADES\n2. SITUAÇÃO FINANCEIRA\n3. CONHECIMENTO DOS RISCOS, TOLERÂNCIA E {laranja:CAPACIDADE DE SUPORTAR PERDAS}"
+        },
+        {
+          "titulo": "DOIS DESENQUADRAMENTOS",
+          "texto": "- {ciano:DO CLIENTE:} FUNDO OU PERFIL MUDOU → REAVALIAR E READEQUAR\n- {ciano:DO FUNDO (CMN 4.993, ART. 30):} PASSOU DO LIMITE POR OSCILAÇÃO OU RESGATE → {laranja:1 ANO} PARA REENQUADRAR, SEM AGRAVAR"
+        }
+      ],
+      "destaque": {
+        "texto": "{ciano:CNSP 382:} PRINCÍPIOS E TRATAMENTO ADEQUADO EM {laranja:TODAS AS FASES} · DESENQUADRAMENTO E \"COMUNICAÇÃO FORMAL\": {vermelho:NÃO ESTÃO NELA}",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
     },
     {
-     "titulo": "A EMPRESA GARANTE",
-     "texto": "- POLÍTICA DE CONDUTA APROVADA PELO {laranja:CONSELHO} (OU DIRETORIA)\n- {laranja:DIRETOR RESPONSÁVEL} E AVALIAÇÃO PERIÓDICA\n- CAPACITAÇÃO PERIÓDICA DE QUEM ATENDE\n- REMUNERAÇÃO {vermelho:SEM CONFLITO} COM O CLIENTE"
-    }
-   ],
-   "destaque": {
-    "texto": "{vermelho:APOSTILA × NORMA:} A APOSTILA CITA 4 PRINCÍPIOS; A NORMA LISTA {laranja:10} · CAPACIDADE FINANCEIRA FICA NA {laranja:ANÁLISE DO PERFIL} (ART. 6º)",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r50c-4_4_fundo-mais-caro.png",
-   "semente": 5046,
-   "molde": "exercicio",
-   "titulo": "O FUNDO QUE PAGA MAIS A QUEM VENDE",
-   "dados": "- R$ 100.000 NUM PGBL POR 25 ANOS (HIPOTÉTICO)\n- RETORNO BRUTO DE 9% AO ANO NOS DOIS FUNDOS\n- SEM CARREGAMENTO E SEM IR NO RESGATE\n- A ÚNICA DIFERENÇA: A TAXA DO FUNDO",
-   "cenarios": [
-    {
-     "titulo": "FUNDO A · TAXA 1%",
-     "passos": "TAXA: 1% AO ANO\nLÍQUIDO: 8% AO ANO\nFATOR 1,08 POR 25 ANOS\n= 6,8485",
-     "resultado": "R$ 684.847,52"
+      "saida": "r50c-3_4_perda-cabe.png",
+      "semente": 5042,
+      "molde": "exercicio",
+      "titulo": "A PERDA CABE NO PERFIL?",
+      "dados": "- R$ 200.000 NO PGBL; O CLIENTE ACEITA PERDER {laranja:ATÉ 10%} (HIPOTÉTICO)\n- AÇÕES CAEM {vermelho:30%}; A RENDA FIXA FICA PARADA\n- A ÚNICA DIFERENÇA: A FATIA EM AÇÕES DO FUNDO\n- FATIA MÁXIMA: 10% ÷ 30% = {laranja:33,33%} EM AÇÕES",
+      "cenarios": [
+        {
+          "titulo": "BALANCEADO (30%)",
+          "passos": "200.000 × 30% = 60.000\n60.000 × 30% = 18.000\n18.000 ÷ 200.000\nABAIXO DO LIMITE DE 10%",
+          "resultado": "−9%: CABE"
+        },
+        {
+          "titulo": "AÇÕES (80%)",
+          "passos": "200.000 × 80% = 160.000\n160.000 × 30% = 48.000\n48.000 ÷ 200.000\nACIMA DO LIMITE DE 10%",
+          "resultado": "−24%: NÃO CABE"
+        }
+      ],
+      "conclusao": {
+        "texto": "O FUNDO DE AÇÕES É O {vermelho:MOTOR DE CORRIDA} DESSE MOTORISTA · PERDA {laranja:2,4 VEZES} O LIMITE",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
     },
     {
-     "titulo": "FUNDO B · TAXA 2%",
-     "passos": "TAXA: 2% AO ANO\nLÍQUIDO: 7% AO ANO\nFATOR 1,07 POR 25 ANOS\n= 5,4274",
-     "resultado": "R$ 542.743,26"
+      "saida": "r50c-4_1_cliente-oculto.png",
+      "semente": 5043,
+      "molde": "mito_verdade",
+      "titulo": "CLIENTE OCULTO = CLIENTE DA LOJA?",
+      "mitos": [
+        "A EMPRESA CONTRATA O OCULTO",
+        "A EMPRESA É AVISADA"
+      ],
+      "verdade": "É A {laranja:SUSEP} TESTANDO",
+      "desenho": "prancheta",
+      "apoio": "- {ciano:RES. CNSP 382/2020:} EM VIGOR DESDE {laranja:01/07/2020} (ART. 17)\n- ALCANÇA SEGURADORAS, CAPITALIZAÇÃO, EAPC E {laranja:INTERMEDIÁRIOS}\n- CLIENTE OCULTO: {laranja:SERVIDOR DA SUSEP} (ARTS. 2º E 9º)\n- ATUA PRESENCIALMENTE OU A DISTÂNCIA\n- PESQUISA, SIMULA E TESTA A CONTRATAÇÃO, {vermelho:SEM AVISO}"
+    },
+    {
+      "saida": "r50c-4_2_concessionaria.png",
+      "semente": 5044,
+      "molde": "comparacao",
+      "titulo": "AS REGRAS DA CONCESSIONÁRIA",
+      "colunas": [
+        {
+          "titulo": "QUEM VENDE",
+          "desenho": "pessoa",
+          "rotulos": [
+            "CONDUTA",
+            "CICLO DE VIDA"
+          ],
+          "texto": "- PRODUTO DE ACORDO COM O PERFIL\n- INFORMAÇÃO CLARA, ANTES E DEPOIS\n- CONFLITO DE INTERESSES À VISTA\n- RESGATE E RECLAMAÇÃO NO PRAZO\n- CAPACITAÇÃO {laranja:PERIÓDICA}"
+        },
+        {
+          "titulo": "O FISCAL",
+          "desenho": {
+            "nome": "prancheta",
+            "cor": "vermelho"
+          },
+          "rotulos": [
+            "SUSEP",
+            "SEM AVISO"
+          ],
+          "texto": "- PARECE UM INTERESSADO COMUM\n- PESQUISA, SIMULA, TESTA\n- AVALIA OFERTA E DISTRIBUIÇÃO\n- {vermelho:SANÇÃO:} ATÉ SUSPENDER A VENDA\n- PRESENCIAL OU {laranja:A DISTÂNCIA}"
+        }
+      ],
+      "faixas": [
+        "{ciano:NA NORMA, QUEM VENDE:} SEGURADORA, EAPC E {laranja:INTERMEDIÁRIO} · A SEGURADORA {laranja:RESPONDE PELO INTERMEDIÁRIO}",
+        "{ciano:CICLO DE VIDA:} DA {laranja:CONCEPÇÃO} DO PRODUTO ATÉ A ÚLTIMA OBRIGAÇÃO COM O CLIENTE"
+      ],
+      "destaque": {
+        "texto": "{vermelho:ONDE QUEBRA:} NO VAREJO, QUEM CONTRATA O AVALIADOR É A LOJA · {verde:AQUI:} É O SUPERVISOR, SEM AVISAR",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
+    },
+    {
+      "saida": "r50c-4_3_cnsp-382.png",
+      "semente": 5045,
+      "molde": "colunas",
+      "titulo": "RES. CNSP 382: O QUE CAI",
+      "topo": "{ciano:10 PRINCÍPIOS (ART. 3º):} {laranja:TRANSPARÊNCIA · DILIGÊNCIA · LEALDADE} · ÉTICA · PROBIDADE · HONESTIDADE · BOA-FÉ OBJETIVA · RESPONSABILIDADE · LIVRE INICIATIVA E LIVRE CONCORRÊNCIA",
+      "colunas": [
+        {
+          "titulo": "O INTERMEDIÁRIO INFORMA",
+          "texto": "1. PARTICIPAÇÃO DE {laranja:10% OU MAIS}, NUM SENTIDO OU NOUTRO\n2. EXCLUSIVIDADE OU AS EMPRESAS REPRESENTADAS\n3. {laranja:MONTANTE DA REMUNERAÇÃO} + VALOR DA CONTRIBUIÇÃO\n- PRODUTO ACESSÓRIO: {vermelho:NÃO É OBRIGATÓRIO}"
+        },
+        {
+          "titulo": "A EMPRESA GARANTE",
+          "texto": "- POLÍTICA DE CONDUTA APROVADA PELO {laranja:CONSELHO} (OU DIRETORIA)\n- {laranja:DIRETOR RESPONSÁVEL} E AVALIAÇÃO PERIÓDICA\n- CAPACITAÇÃO PERIÓDICA DE QUEM ATENDE\n- REMUNERAÇÃO {vermelho:SEM CONFLITO} COM O CLIENTE"
+        }
+      ],
+      "destaque": {
+        "texto": "{ciano:ATENÇÃO:} SÃO {laranja:10} PRINCÍPIOS NA NORMA · \"CAPACIDADE FINANCEIRA\" {vermelho:NÃO É PRINCÍPIO}: ENTRA NA {laranja:ANÁLISE DO PERFIL} (ART. 6º)",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r50c-4_4_fundo-mais-caro.png",
+      "semente": 5046,
+      "molde": "exercicio",
+      "titulo": "O FUNDO QUE PAGA MAIS A QUEM VENDE",
+      "dados": "- R$ 100.000 NUM PGBL POR 25 ANOS (HIPOTÉTICO)\n- RETORNO BRUTO DE 9% AO ANO NOS DOIS FUNDOS\n- SEM CARREGAMENTO E SEM IR NO RESGATE\n- A ÚNICA DIFERENÇA: A TAXA DO FUNDO",
+      "cenarios": [
+        {
+          "titulo": "FUNDO A · TAXA 1%",
+          "passos": "TAXA: 1% AO ANO\nLÍQUIDO: 8% AO ANO\nFATOR 1,08 POR 25 ANOS\n= 6,8485",
+          "resultado": "R$ 684.847,52"
+        },
+        {
+          "titulo": "FUNDO B · TAXA 2%",
+          "passos": "TAXA: 2% AO ANO\nLÍQUIDO: 7% AO ANO\nFATOR 1,07 POR 25 ANOS\n= 5,4274",
+          "resultado": "R$ 542.743,26"
+        }
+      ],
+      "conclusao": {
+        "texto": "1 PONTO DE TAXA: {vermelho:R$ 142.104,26} · POR ISSO A 382 PEDE {laranja:REMUNERAÇÃO INFORMADA} E SEM CONFLITO",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
     }
-   ],
-   "conclusao": {
-    "texto": "1 PONTO DE TAXA: {vermelho:R$ 142.104,26} · POR ISSO A 382 PEDE {laranja:REMUNERAÇÃO INFORMADA} E SEM CONFLITO",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  }
- ]
+  ]
 }

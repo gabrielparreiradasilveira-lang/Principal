@@ -14,7 +14,7 @@
       ],
       "verdade": "CONTA O QUE {laranja:PAGA CONTAS} E O QUE {verde:VIRA POUPANÇA}",
       "desenho": "casa",
-      "apoio": "- ATIVOS: R$ 1 MILHÃO, DOS QUAIS {vermelho:R$ 800 MIL} EM APARTAMENTO E CARRO (HIPOTÉTICO)\n- DÍVIDAS: R$ 288 MIL → PATRIMÔNIO LÍQUIDO DE R$ 712 MIL\n- RESERVA LÍQUIDA: R$ 37.200 ÷ DESPESA DE R$ 12.400 = {vermelho:3 MESES}\n- {ciano:APOSTILA:} SEPARAR USO E NÃO USO {laranja:EVITA SUPERESTIMAR} O PATRIMÔNIO"
+      "apoio": "- ATIVOS: R$ 1 MILHÃO, DOS QUAIS {vermelho:R$ 800 MIL} EM APARTAMENTO E CARRO (HIPOTÉTICO)\n- DÍVIDAS: R$ 288 MIL → PATRIMÔNIO LÍQUIDO DE R$ 712 MIL\n- RESERVA LÍQUIDA: R$ 37.200 ÷ DESPESA DE R$ 12.400 = {vermelho:3 MESES}\n- {ciano:REGRA:} SEPARAR USO E NÃO USO {laranja:EVITA SUPERESTIMAR} O PATRIMÔNIO"
     },
     {
       "saida": "r17_2_foto-e-filme.png",
@@ -55,7 +55,7 @@
       "semente": 1703,
       "molde": "colunas",
       "titulo": "OS INDICADORES E O ORÇAMENTO",
-      "topo": "{ciano:FÓRMULAS:} PL = ATIVOS − PASSIVOS · COBERTURA = ATIVOS LÍQUIDOS ÷ DESPESAS MENSAIS (EM MESES) · POUPANÇA = VALOR POUPADO ÷ {laranja:RENDA TOTAL} DO PERÍODO (APOSTILA, P. 88)",
+      "topo": "{ciano:FÓRMULAS:} PL = ATIVOS − PASSIVOS · COBERTURA = ATIVOS LÍQUIDOS ÷ DESPESAS MENSAIS (EM MESES) · POUPANÇA = VALOR POUPADO ÷ {laranja:RENDA TOTAL} DO PERÍODO",
       "colunas": [
         {
           "titulo": "O QUE ENTRA NA COBERTURA",

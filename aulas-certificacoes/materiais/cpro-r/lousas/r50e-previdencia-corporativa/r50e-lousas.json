@@ -58,12 +58,12 @@
       "topo": "{ciano:LC 109, ART. 26, II:} PLANO COLETIVO = BENEFÍCIOS A PESSOAS LIGADAS A UMA {laranja:PESSOA JURÍDICA CONTRATANTE} · § 1º: UMA OU VÁRIAS EMPRESAS",
       "colunas": [
         {
-          "titulo": "QUEM GANHA (APOSTILA)",
+          "titulo": "QUEM GANHA",
           "texto": "- {ciano:COLABORADOR:} RESERVA, CONTRAPARTIDA, DESCONTO EM FOLHA, FUNDOS COM CUSTO MENOR\n- {ciano:EMPRESA:} RETENÇÃO, CULTURA, BENEFÍCIO FISCAL\n- CRIADO POR EMPRESA {laranja:PATROCINADORA OU INSTITUIDORA}\n- PARA UM {laranja:GRUPO ESPECÍFICO} DE EMPREGADOS OU ASSOCIADOS"
         },
         {
           "titulo": "LEI 9.532, ART. 11",
-          "texto": "- § 2º: ATÉ {laranja:20%} DOS SALÁRIOS E DA REMUNERAÇÃO DOS DIRIGENTES {laranja:VINCULADOS AO PLANO}\n- VALE NO LUCRO REAL E NA CSLL\n- § 3º: O EXCESSO É {vermelho:ADICIONADO DE VOLTA}\n- {ciano:APOSTILA:} \"20% DA FOLHA DE PAGAMENTO\""
+          "texto": "- § 2º: ATÉ {laranja:20%} DOS SALÁRIOS E DA REMUNERAÇÃO DOS DIRIGENTES {laranja:VINCULADOS AO PLANO}\n- VALE NO LUCRO REAL E NA CSLL\n- § 3º: O EXCESSO É {vermelho:ADICIONADO DE VOLTA}\n- BASE: SÓ QUEM ESTÁ {laranja:NO PLANO}, NÃO A FOLHA INTEIRA"
         }
       ],
       "destaque": {
@@ -148,15 +148,15 @@
       "semente": 5207,
       "molde": "colunas",
       "titulo": "AVERBADO × INSTITUÍDO NA PROVA",
-      "topo": "{ciano:APOSTILA × NORMA:} \"INTERVENIENTE ANUENTE\" QUE PERMITE O DESCONTO E \"PATROCINADO\" → NA ABERTA, {laranja:AVERBADORA} CONTRATA E REPRESENTA; QUEM PAGA É A {laranja:INSTITUIDORA}",
+      "topo": "{ciano:NA PREVIDÊNCIA ABERTA (RES. CNSP 463):} {laranja:AVERBADORA} CONTRATA E REPRESENTA · {laranja:INSTITUIDORA} TAMBÉM PAGA · {laranja:CONSIGNANTE} SÓ DESCONTA E REPASSA",
       "colunas": [
         {
-          "titulo": "AVERBADO (APOSTILA)",
-          "texto": "- VANTAGEM: SIMPLES, SEM IMPACTO FINANCEIRO\n- DESVANTAGEM: {vermelho:MENOS ENGAJAMENTO}\n- MAIS COMUM: {laranja:VGBL}\n- FUNDOS ABERTOS, EM EAPC"
+          "titulo": "AVERBADO",
+          "texto": "- VANTAGEM: SIMPLES, SEM IMPACTO FINANCEIRO\n- DESVANTAGEM: {vermelho:MENOS ENGAJAMENTO}\n- MAIS USADO NA PRÁTICA: {laranja:VGBL}\n- FUNDOS ABERTOS, EM EAPC"
         },
         {
-          "titulo": "INSTITUÍDO (APOSTILA)",
-          "texto": "- VANTAGEM: VÍNCULO, CULTURA E DEDUÇÃO\n- DESVANTAGEM: {vermelho:GESTÃO E COMPLIANCE}\n- MAIS COMUM: {laranja:PGBL}\n- EFPC OU, EM ALGUNS CASOS, EAPC"
+          "titulo": "INSTITUÍDO",
+          "texto": "- VANTAGEM: VÍNCULO, CULTURA E DEDUÇÃO\n- DESVANTAGEM: {vermelho:GESTÃO E COMPLIANCE}\n- MAIS USADO NA PRÁTICA: {laranja:PGBL}\n- EFPC OU, EM ALGUNS CASOS, EAPC"
         }
       ],
       "destaque": {
@@ -215,7 +215,7 @@
             "PRAZO",
             "0% → 100%"
           ],
-          "texto": "- ANTES DO PRAZO: {vermelho:0%} DA PARTE DA EMPRESA\n- CUMPRIU O PRAZO: {verde:100%}\n- {ciano:APOSTILA:} R$ 500 POR MÊS, VESTING DE 5 ANOS\n- QUEM SAI ANTES PERDE {vermelho:PARTE OU TUDO}"
+          "texto": "- ANTES DO PRAZO: {vermelho:0%} DA PARTE DA EMPRESA\n- CUMPRIU O PRAZO: {verde:100%}\n- {ciano:EXEMPLO:} R$ 500 POR MÊS, VESTING DE 5 ANOS\n- QUEM SAI ANTES PERDE {vermelho:PARTE OU TUDO}"
         },
         {
           "titulo": "ESCALONADO",
@@ -245,7 +245,7 @@
       "colunas": [
         {
           "titulo": "QUEM FAZ O QUÊ",
-          "texto": "- DEFINE: {laranja:O CONTRATO COLETIVO}\n- ABERTA: CNSP + SUSEP (CIRCULAR 698)\n- FECHADA: CNPC + PREVIC\n- OBJETIVO: FIDELIZAR, LONGO PRAZO\n- {ciano:APOSTILA:} \"PRAZO MÍNIMO\" DA \"PATROCINADORA\""
+          "texto": "- DEFINE: {laranja:O CONTRATO COLETIVO}\n- ABERTA: CNSP + SUSEP (CIRCULAR 698)\n- FECHADA: CNPC + PREVIC\n- OBJETIVO: FIDELIZAR, LONGO PRAZO\n- {vermelho:ATENÇÃO:} NÃO É SÓ PRAZO · NA ABERTA, A EMPRESA É A {laranja:INSTITUIDORA}"
         },
         {
           "titulo": "A PARTE NÃO ADQUIRIDA",
