@@ -1,0 +1,100 @@
+{
+  "padrao": {
+    "fundo": "preto"
+  },
+  "slides": [
+    {
+      "saida": "r17_1_milhao-resolvido.png",
+      "semente": 1701,
+      "molde": "mito_verdade",
+      "titulo": "R$ 1 MILHÃO = VIDA RESOLVIDA?",
+      "mitos": [
+        "PATRIMÔNIO ALTO = SAÚDE",
+        "TODO BEM PAGA CONTAS"
+      ],
+      "verdade": "CONTA O QUE {laranja:PAGA CONTAS} E O QUE {verde:VIRA POUPANÇA}",
+      "desenho": "casa",
+      "apoio": "- ATIVOS: R$ 1 MILHÃO, DOS QUAIS {vermelho:R$ 800 MIL} EM APARTAMENTO E CARRO (HIPOTÉTICO)\n- DÍVIDAS: R$ 288 MIL → PATRIMÔNIO LÍQUIDO DE R$ 712 MIL\n- RESERVA LÍQUIDA: R$ 37.200 ÷ DESPESA DE R$ 12.400 = {vermelho:3 MESES}\n- {ciano:APOSTILA:} SEPARAR USO E NÃO USO {laranja:EVITA SUPERESTIMAR} O PATRIMÔNIO"
+    },
+    {
+      "saida": "r17_2_foto-e-filme.png",
+      "semente": 1702,
+      "molde": "comparacao",
+      "titulo": "A FOTO E O FILME",
+      "colunas": [
+        {
+          "titulo": "A FOTO",
+          "desenho": "camera",
+          "rotulos": [
+            "UM DIA",
+            "POSSUI × DEVE"
+          ],
+          "texto": "- BALANÇO = {laranja:FOTO} DE UM DIA\n- CASA E CARRO → {laranja:USO}: SERVEM, NÃO RENDEM\n- INVESTIMENTOS → {verde:NÃO USO}: TRABALHAM PELOS OBJETIVOS\n- PATRIMÔNIO LÍQUIDO = ATIVOS − PASSIVOS"
+        },
+        {
+          "titulo": "O FILME",
+          "desenho": "filmadora",
+          "rotulos": [
+            "MÊS A MÊS",
+            "ENTRA × FICA"
+          ],
+          "texto": "- ÍNDICE DE POUPANÇA = {laranja:FILME}\n- DE CADA REAL QUE ENTRA, QUANTO {verde:FICA}\n- O FILME PAROU (SEM RENDA)? → {laranja:COBERTURA}\n- RESPOSTA EM {laranja:MESES}"
+        }
+      ],
+      "faixas": [
+        "{ciano:PARA QUE SERVE A FOTO:} AVALIAR SOLIDEZ, PESO DAS DÍVIDAS E CAPACIDADE DE ACUMULAR RIQUEZA"
+      ],
+      "destaque": {
+        "texto": "{vermelho:ONDE QUEBRA:} FOTO = IMAGEM EXATA · BALANÇO = {laranja:VALORES ESTIMADOS}, A PREÇO DE MERCADO NA DATA",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
+    },
+    {
+      "saida": "r17_3_indicadores-orcamento.png",
+      "semente": 1703,
+      "molde": "colunas",
+      "titulo": "OS INDICADORES E O ORÇAMENTO",
+      "topo": "{ciano:FÓRMULAS:} PL = ATIVOS − PASSIVOS · COBERTURA = ATIVOS LÍQUIDOS ÷ DESPESAS MENSAIS (EM MESES) · POUPANÇA = VALOR POUPADO ÷ {laranja:RENDA TOTAL} DO PERÍODO (APOSTILA, P. 88)",
+      "colunas": [
+        {
+          "titulo": "O QUE ENTRA NA COBERTURA",
+          "texto": "- SÓ O QUE VIRA DINHEIRO {verde:RÁPIDO E SEM PERDA}\n- FORA: ATIVOS DE USO E O QUE TEM {vermelho:PERDA OU DEMORA} NO RESGATE\n- DESPESAS (BCB): FIXAS, VARIÁVEIS, {laranja:SAZONAIS} (IMPOSTOS, SEGUROS, MATRÍCULA) E PRESTAÇÕES A VENCER\n- {ciano:ALERTA:} SOBRE A RENDA LÍQUIDA, O ÍNDICE {vermelho:MUDA}"
+        },
+        {
+          "titulo": "ORÇAMENTO (BCB)",
+          "texto": "- {vermelho:DEFICITÁRIO}: DESPESA MAIOR QUE A RECEITA → ÍNDICE NEGATIVO\n- NEUTRO (EQUILIBRADO): DESPESA IGUAL À RECEITA → {laranja:ÍNDICE ZERO}\n- {verde:SUPERAVITÁRIO}: DESPESA MENOR → HÁ POUPANÇA\n- META BÁSICA DO BCB: {verde:SUPERAVITÁRIO}"
+        }
+      ],
+      "destaque": {
+        "texto": "{ciano:COBERTURA × META:} A COBERTURA DIZ QUANTOS MESES O CLIENTE {laranja:TEM} · A RESERVA DE EMERGÊNCIA (R16) DIZ QUANTOS ELE {laranja:DEVERIA TER}",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r17_4_mesmo-milhao.png",
+      "semente": 1704,
+      "molde": "exercicio",
+      "titulo": "MESMO MILHÃO, OUTRA COBERTURA",
+      "dados": "- ATIVOS DE R$ 1 MILHÃO, R$ 800 MIL EM APARTAMENTO E CARRO (HIPOTÉTICO)\n- DÍVIDAS DE R$ 288 MIL → PL DE {laranja:R$ 712 MIL} · USO = {laranja:80%}\n- DESPESA DE {laranja:R$ 12.400} POR MÊS NAS DUAS\n- A ÚNICA DIFERENÇA: QUANTO DOS INVESTIMENTOS É LÍQUIDO",
+      "cenarios": [
+        {
+          "titulo": "CARLA",
+          "passos": "LÍQUIDO: 37.200\nFORA: IPCA+ E PREVIDÊNCIA\n37.200 ÷ 12.400",
+          "resultado": "3 MESES"
+        },
+        {
+          "titulo": "BEATRIZ",
+          "passos": "LÍQUIDO: 148.800\nFORA: PREVIDÊNCIA\n148.800 ÷ 12.400",
+          "resultado": "12 MESES"
+        }
+      ],
+      "conclusao": {
+        "texto": "META DE 6 MESES (PRÁTICA DE MERCADO) = R$ 74.400 · CARLA AINDA PRECISA DE {vermelho:R$ 37.200}; BEATRIZ JÁ PASSOU DA META",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    }
+  ]
+}
