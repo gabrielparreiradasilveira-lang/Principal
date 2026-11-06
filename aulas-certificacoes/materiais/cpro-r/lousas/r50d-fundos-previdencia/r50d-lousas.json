@@ -14,7 +14,7 @@
    ],
    "verdade": "PRAZO, PERFIL E {laranja:FASE DA VIDA} ESCOLHEM",
    "desenho": "grafico_baixa",
-   "apoio": "- {ciano:IBOVESPA 2019:} {verde:+31,58%}\n- {ciano:IBOVESPA 2021:} {vermelho:−11,93%}, FECHANDO EM 104.822 PONTOS\n- O ÍNDICE QUE LIDEROU UM ANO PERDEU DOIS ANOS DEPOIS\n- PERTO DA APOSENTADORIA, UM ANO RUIM {vermelho:NÃO TEM TEMPO} DE VOLTAR\n- {ciano:APOSTILA:} O FUNDO SEGUE O PERFIL {laranja:E A FASE DE VIDA}"
+   "apoio": "- {ciano:IBOVESPA 2019:} {verde:+31,58%}\n- {ciano:IBOVESPA 2021:} {vermelho:−11,93%}, FECHANDO EM 104.822 PONTOS\n- O ÍNDICE QUE LIDEROU UM ANO PERDEU DOIS ANOS DEPOIS\n- PERTO DA APOSENTADORIA, PODE {vermelho:NÃO HAVER TEMPO} PARA RECUPERAR UM ANO RUIM\n- {ciano:APOSTILA:} O FUNDO SEGUE O PERFIL {laranja:E A FASE DE VIDA}"
   },
   {
    "saida": "r50d-1_2_motor-para-estrada.png",
@@ -278,6 +278,192 @@
    ],
    "conclusao": {
     "texto": "NA COMPANHIA, SÓ CABEM {laranja:R$ 7,5 MILHÕES} · OS {vermelho:R$ 2,5 MILHÕES} RESTANTES VÃO PARA OUTRO EMISSOR",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50d-4_1_um-plano-so.png",
+   "semente": 5113,
+   "molde": "mito_verdade",
+   "titulo": "UM PLANO RESOLVE TUDO?",
+   "mitos": [
+    "UM ÚNICO PLANO BASTA PARA TODOS OS OBJETIVOS",
+    "TUDO NO PGBL É SEMPRE MELHOR"
+   ],
+   "verdade": "UM PLANO {laranja:POR OBJETIVO}",
+   "desenho": "carro",
+   "apoio": "- {ciano:HIPOTÉTICO:} RENDA BRUTA TRIBUTÁVEL DE R$ 180.000 · APORTE DE R$ 36.000\n- DEDUTÍVEL NO PGBL: {laranja:12%} = R$ 21.600\n- OS {vermelho:R$ 14.400} QUE PASSAM NÃO REDUZEM O IR DO ANO\n- E, NO RESGATE, O PGBL COBRA IR SOBRE {vermelho:TUDO}\n- {ciano:A SAÍDA:} R$ 21.600 NO PGBL E R$ 14.400 NO {verde:VGBL}"
+  },
+  {
+   "saida": "r50d-4_2_carro-por-destino.png",
+   "semente": 5114,
+   "molde": "comparacao",
+   "titulo": "UM CARRO PARA CADA DESTINO",
+   "colunas": [
+    {
+     "titulo": "A GARAGEM",
+     "desenho": "carro",
+     "rotulos": [
+      "UM PLANO",
+      "UM OBJETIVO"
+     ],
+     "texto": "- APOSENTADORIA: LONGO PRAZO, REGRESSIVO CHEGA A {verde:10%}\n- EDUCAÇÃO DOS FILHOS: PRAZO DEFINIDO\n- SUCESSÃO: {laranja:BENEFICIÁRIOS} CERTOS\n- CADA PLANO COM O {laranja:SEU REGIME}"
+    },
+    {
+     "titulo": "CÂMBIO AUTOMÁTICO",
+     "desenho": "motor",
+     "rotulos": [
+      "RISCO",
+      "DIMINUI"
+     ],
+     "texto": "- CICLO DE VIDA: MENOS AÇÕES COM O TEMPO\n- TRAJETÓRIA FIXADA {laranja:NA CONTRATAÇÃO}\n- DATA ALVO (ANBIMA): A MESMA IDEIA\n- TROCA DE FUNDO PELO SALDO, {verde:SEM CUSTO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:SÓ ENTRE IGUAIS:} PGBL → PLANO DE PREVIDÊNCIA · VGBL → SEGURO DE PESSOAS COM SOBREVIVÊNCIA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} CARRO SE TROCA POR QUALQUER CARRO · {laranja:PGBL NÃO VIRA VGBL}, NEM O CONTRÁRIO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50d-4_3_quatro-camadas.png",
+   "semente": 5115,
+   "molde": "colunas",
+   "titulo": "AS 4 CAMADAS DA DIVERSIFICAÇÃO",
+   "topo": "{ciano:PD 3.7.7.5:} COMPOSIÇÃO COM {laranja:DIVERSOS PLANOS} E OS OBJETIVOS DO CLIENTE · APOSTILA: REVISAR A {laranja:DISTRIBUIÇÃO ENTRE PGBL E VGBL}",
+   "colunas": [
+    {
+     "titulo": "ENTRE PLANOS",
+     "texto": "1. UM PLANO POR OBJETIVO\n2. REGIME DE IR {laranja:POR PLANO}\n3. PGBL ATÉ {laranja:12%} DA RENDA BRUTA TRIBUTÁVEL; O EXCEDENTE NO VGBL\n- PGBL EXIGE DECLARAÇÃO COMPLETA E PREVIDÊNCIA OFICIAL"
+    },
+    {
+     "titulo": "DENTRO DO PLANO",
+     "texto": "- MAIS DE UM FUNDO, DE FAMÍLIAS ANBIMA DIFERENTES\n- MULTIFUNDOS: MÍNIMO DE {laranja:3 FUNDOS} ABERTOS (CIRC. 698, ART. 7º)\n- FUNDO FECHADO A APORTES → SIMILAR, TAXA {verde:IGUAL OU MENOR}\n- VIDA PLANEJADA (RES. 463, ART. 6º): RISCO DECRESCENTE"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:PORTABILIDADE (CIRC. 698, ART. 34):} OS RECURSOS SEGUEM {laranja:DE SEGURADORA PARA SEGURADORA} · TROCA DE FUNDO NO PLANO = {vermelho:REALOCAÇÃO}, NÃO RESGATE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50d-4_4_onde-ficam-14400.png",
+   "semente": 5116,
+   "molde": "exercicio",
+   "titulo": "ONDE FICAM OS R$ 14.400?",
+   "dados": "- RENDA BRUTA TRIBUTÁVEL: R$ 180.000 · APORTE: R$ 36.000 (HIPOTÉTICO)\n- DECLARAÇÃO COMPLETA · FAIXA DE 27,5%\n- TETO DO PGBL: 12% = {laranja:R$ 21.600} → IR ADIADO DE R$ 5.940 NOS DOIS\n- A ÚNICA DIFERENÇA: ONDE FICA O EXCEDENTE",
+   "cenarios": [
+    {
+     "titulo": "TUDO NO PGBL",
+     "passos": "36.000 − 21.600 = 14.400\nSEM DEDUÇÃO NO ANO\nRESGATE: IR SOBRE O TOTAL\n14.400 × 10% (MENOR ALÍQUOTA)",
+     "resultado": "+R$ 1.440 DE IR"
+    },
+    {
+     "titulo": "PGBL + VGBL",
+     "passos": "21.600 NO PGBL\n14.400 NO VGBL\nVGBL: IR SÓ NO RENDIMENTO\nPRINCIPAL NÃO É TRIBUTADO",
+     "resultado": "R$ 0 NOS 14.400"
+    }
+   ],
+   "conclusao": {
+    "texto": "O EXCEDENTE NO PGBL {vermelho:NÃO ADIA NADA} E PAGA IR NO PRINCIPAL · {verde:VGBL PARA O QUE PASSA DE 12%}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50d-5_1_contratou-esqueceu.png",
+   "semente": 5117,
+   "molde": "mito_verdade",
+   "titulo": "CONTRATOU, ESQUECEU?",
+   "mitos": [
+    "CONTRATAR E ESQUECER",
+    "LONGO PRAZO NÃO SE REVISA"
+   ],
+   "verdade": "PREVIDÊNCIA {laranja:SE REVISA}",
+   "desenho": "cofrinho",
+   "apoio": "- {ciano:HIPOTÉTICO:} 40 ANOS · SALDO DE R$ 300.000 · META DE {laranja:R$ 1,5 MILHÃO} AOS 60\n- JURO REAL DE 4% AO ANO, SEM NOVOS APORTES\n- RESULTADO AOS 60: {vermelho:R$ 657.336,98}\n- {ciano:LEI 14.803/2024:} REGIME DE IR ESCOLHIDO ATÉ O 1º RESGATE OU BENEFÍCIO\n- FALTAM {vermelho:R$ 842.663}, E NINGUÉM FEZ A CONTA"
+  },
+  {
+   "saida": "r50d-5_2_revisao-programada.png",
+   "semente": 5118,
+   "molde": "comparacao",
+   "titulo": "A REVISÃO PROGRAMADA",
+   "colunas": [
+    {
+     "titulo": "O CALENDÁRIO",
+     "desenho": "prancheta",
+     "rotulos": [
+      "DATA",
+      "LISTA"
+     ],
+     "texto": "- REVISÃO COM DATA MARCADA\n- LISTA DE 6 ITENS (PD + APOSTILA)\n- CONFERE ANTES DE QUEBRAR\n- CONFIRMAR O PLANO {verde:TAMBÉM É RESULTADO}"
+    },
+    {
+     "titulo": "OS GATILHOS",
+     "desenho": "alarme",
+     "rotulos": [
+      "FORA DO",
+      "CALENDÁRIO"
+     ],
+     "texto": "- CASAMENTO OU DIVÓRCIO\n- NASCIMENTO DE FILHO\n- MUDANÇA DE RENDA OU DE PERFIL\n- {laranja:MUDANÇA DE LEI} TRIBUTÁRIA"
+    }
+   ],
+   "faixas": [
+    "{ciano:INFORMAÇÃO:} A SEGURADORA DISPONIBILIZA OS DADOS DO PLANO {laranja:TODOS OS DIAS} (CIRC. 698, ART. 78)"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA OFICINA, A PEÇA ERRADA SE TROCA DE NOVO · O REGIME DE IR, UMA VEZ ESCOLHIDO, {vermelho:NÃO VOLTA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50d-5_3_checklist.png",
+   "semente": 5119,
+   "molde": "colunas",
+   "titulo": "O CHECKLIST DA REVISÃO",
+   "topo": "{ciano:POR QUE REVISAR (APOSTILA):} PERFIL, IDADE, RENDA OU OBJETIVOS MUDARAM · REGRAS TRIBUTÁRIAS · DESEMPENHO DOS FUNDOS × METAS",
+   "colunas": [
+    {
+     "titulo": "OS 6 ITENS",
+     "texto": "1. OBJETIVOS\n2. VALORES DE ACUMULAÇÃO\n3. REGIME DE TRIBUTAÇÃO\n4. BENEFICIÁRIOS\n5. ESTRATÉGIA DOS FUNDOS\n6. PGBL × VGBL (APOSTILA)"
+    },
+    {
+     "titulo": "O QUE OLHAR EM CADA UM",
+     "texto": "- REGIME: {laranja:IRRETRATÁVEL} DEPOIS DE ESCOLHIDO (LEI 14.803)\n- BENEFICIÁRIOS: INDICAÇÃO {verde:LIVRE} (RES. CNSP 463, ART. 5º)\n- FUNDOS: RISCO, TAXA, DESEMPENHO E PERFIL (R50C)\n- PGBL: A DECLARAÇÃO {laranja:CONTINUA COMPLETA}?"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:NÃO CONFUNDA:} O SUITABILITY É {laranja:UM DOS ITENS}; A REVISÃO OLHA O PLANO INTEIRO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50d-5_4_conta-da-revisao.png",
+   "semente": 5120,
+   "molde": "exercicio",
+   "titulo": "A CONTA QUE A REVISÃO FAZ",
+   "dados": "- 40 ANOS · SALDO DE R$ 300.000 · META DE R$ 1.500.000 AOS 60 (HIPOTÉTICO)\n- JURO REAL DE 4% AO ANO = CERCA DE 0,33% AO MÊS\n- 240 MESES · APORTE NO FIM DO MÊS · SEM TAXAS E SEM IR\n- A ÚNICA DIFERENÇA: O APORTE MENSAL",
+   "cenarios": [
+    {
+     "titulo": "SEM APORTES",
+     "passos": "SALDO: 300.000\nAPORTE: ZERO\n240 MESES A 0,327%\nVALOR FINAL = ?",
+     "resultado": "R$ 657.336,98"
+    },
+    {
+     "titulo": "COM APORTE",
+     "passos": "SALDO: 300.000\nMETA: 1.500.000\n240 MESES A 0,327%\nAPORTE MENSAL = ?",
+     "resultado": "R$ 2.316,02/MÊS"
+    }
+   ],
+   "conclusao": {
+    "texto": "SEM REVISÃO, {vermelho:FALTAM R$ 842.663} · COM A CONTA, O CLIENTE SABE {verde:QUANTO APORTAR}",
     "cor": "branco",
     "moldura": "amarelo"
    }
