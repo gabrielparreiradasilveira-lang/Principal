@@ -9,6 +9,8 @@ Transforma um rascunho, ou um item do Programa Detalhado, em uma série de víde
 
 **Como o professor grava:** cada lousa (PNG 1920×1080, fundo preto) é o **fundo parado** de um slide no **Google Slides**. Ele fala lendo o roteiro e, com a **Wacom**, só circula, sublinha e puxa setas por cima. As contas, ele faz ao vivo num emulador da HP12C no computador. Por isso a lousa chega **pronta e completa**, sem espaço em branco para escrever.
 
+**A apostila nunca aparece no material.** Ela é fonte interna de pesquisa. Nunca cite a apostila — nem na fala, nem na lousa, nem no cabeçalho do roteiro — e não escreva que um conteúdo veio dela, que ela diz algo ou que ela diverge da norma. Roteiro, lousa e apostila são materiais que se complementam; citar um dentro do outro soa como fonte oculta. Os conferidores reprovam qualquer menção.
+
 O problema que esta skill resolve é o material raso. A causa raramente é falta de espaço; o que falta é **densidade**: o caso-limite, o porquê de cada regra, o conceito vizinho que confunde, a consequência prática. Quando o conteúdo passa do tamanho de um vídeo, ele vira mais um vídeo: a atenção cai depois de uns 6 a 8 minutos.
 
 ## Etapa 0 — Fontes (antes de escrever)
@@ -21,7 +23,7 @@ Pesquise nesta ordem:
 
 1. **Drive do professor**, se o conector do Google Drive estiver disponível. A pesquisa custa contexto, e o roteiro e as lousas precisam caber depois dela. Prefira os arquivos do próprio professor (há cópias compartilhadas por outras pessoas).
    - **Programa Detalhado (PD), em PDF:** procure "Programa-Detalhado" e a certificação no título. É curto (cerca de 30 páginas): leia inteiro e confirme o texto exato do item, os vizinhos, a numeração e a versão. Não use a planilha, que vem incompleta.
-   - **Apostila:** procure "APOSTILA" e a certificação. **Não leia a apostila inteira**: o começo do arquivo, que a busca já mostra, traz o sumário com as páginas. Se precisar do texto exato de um trecho, peça ao professor as páginas.
+   - **Apostila** (só para você pesquisar; nunca citada no material): procure "APOSTILA" e a certificação. **Não leia a apostila inteira**: o começo do arquivo, que a busca já mostra, traz o sumário com as páginas. Se precisar do texto exato de um trecho, peça ao professor as páginas.
    - **Roteiros vizinhos** (o Rxx anterior e o seguinte): o começo do documento traz Base e Escopo; use para as pontes.
    - O **rascunho**, se o professor citou pelo nome.
 2. **Fontes oficiais**, quando o tema tiver norma, alíquota, prazo, limite ou regra de certificação: `references/fontes.md`. Comece por `references/pontos-volateis.md` (o que mudou recentemente) e confirme na fonte. No máximo uma página por regra que vai para a fala ou para a lousa.
@@ -93,10 +95,12 @@ Mostre o plano depois do diagnóstico, numa tabela; a minutagem vem do conferido
 - **Termo vago.** "Ajustado", "relativo", "proporcional": diga a quê e por qual medida.
 - **Declare toda simplificação** na fala ou na lousa ("corretagem desconsiderada").
 - **Normas, alíquotas, prazos e limites mudam.** Confira na fonte oficial (`references/fontes.md`). Use `references/pontos-volateis.md` como ponto de partida datado. O que não for confirmado fica marcado **`[VERIFICAR]` no próprio texto** e listado na mensagem de entrega. Sem pesquisa na web, só linhas VERIFICADO com menos de 90 dias vão sem marca.
-- **Apostila × norma:** se divergirem, a fala segue a norma; a divergência vai para a mensagem de entrega, com a página.
+- **Apostila × norma:** se divergirem, a fala e a lousa seguem a norma, sem mencionar a apostila nem a divergência (nada de "a apostila diz", "um alerta sobre a apostila"). A divergência vai só para a mensagem de entrega, na conversa, com a página.
 - **Recalcule todos os números**, da fala, da lousa e de cada visor da HP12C (use Python se houver).
 
 ## Etapa 5 — Roteiro de cada vídeo em 4 blocos
+
+No cabeçalho, a **Base** traz o item do PD e as normas; **nunca a apostila** (veja a regra no topo).
 
 Cada vídeo **funciona sozinho**: não dependa de "como vimos no vídeo anterior" sem repetir, em uma frase, o que for preciso.
 
@@ -104,7 +108,7 @@ Cada bloco traz o tempo no título e as duas marcações, cada uma sozinha na li
 
 ```
 # R60A · Tema do vídeo (7 min)
-**Base:** item do PD · páginas da apostila · normas
+**Base:** item do PD · normas e fontes oficiais
 **Escopo:** o que entra neste vídeo; onde está o resto da série
 
 ## 1. Abertura Instigante (Destruição de Mito) — [45 s]
@@ -142,7 +146,7 @@ Não há bloco de pegadinhas nem Nota de bastidor: o professor não usa.
 
 Leia `references/lousas.md` antes da primeira lousa: tem o padrão visual, os moldes e os campos do JSON.
 
-**A regra: a lousa mostra o que a fala não mostra.** Ela é ligada ao bloco (mesma metáfora, mesmos conceitos), mas não repete a fala: traz condições de uso, caso-limite, números, um segundo exemplo, a metáfora desenhada, o erro de quem escolhe mal. Tudo verdadeiro e tirado do conteúdo da aula (PD, apostila, normas) — **nada inventado**; o que não estiver confirmado fica fora da lousa. O conferidor reprova 8 palavras seguidas iguais à fala do mesmo bloco.
+**A regra: a lousa mostra o que a fala não mostra.** Ela é ligada ao bloco (mesma metáfora, mesmos conceitos), mas não repete a fala: traz condições de uso, caso-limite, números, um segundo exemplo, a metáfora desenhada, o erro de quem escolhe mal. Tudo verdadeiro e tirado do conteúdo da aula (PD, normas e o material de pesquisa, que nunca é citado) — **nada inventado**; o que não estiver confirmado fica fora da lousa. O conferidor reprova 8 palavras seguidas iguais à fala do mesmo bloco.
 
 | Bloco | Molde | O que a lousa traz |
 |---|---|---|
@@ -175,7 +179,7 @@ Feche a resposta, **na conversa** (não no documento), com:
 - Caso real de cada vídeo, com data e fonte.
 - A analogia diz onde quebra, em cada vídeo? (sim/não)
 - Frases absolutas testadas contra contraexemplo e o resultado.
-- **Fontes e atualização:** as fontes consultadas com a data; divergências apostila × norma; os `[VERIFICAR]` pendentes.
+- **Fontes e atualização:** as fontes consultadas com a data; divergências apostila × norma (só aqui, na conversa; nunca no material); os `[VERIFICAR]` pendentes.
 - Os links (Etapa 8).
 
 Nada de nota de 0 a 10: quem escreveu tende a dar nota alta ao próprio texto. Contagens e itens marcados o professor consegue conferir.
@@ -212,6 +216,7 @@ Na conversa: diagnóstico, plano, checklist e os links que as ferramentas devolv
 - **Lousa sem fonte não entra.** Número, regra ou caso que você não confirmou fica fora da lousa.
 - **Sem bateria de questões, simulado ou lista de exercícios.** Há uma pergunta-gatilho por Bloco 3 e um exercício resolvido no Bloco 4.
 - **Nomes de certificação atuais:** CPA, C-Pro R e C-Pro I desde jan/2026; CPA-10, CPA-20 e CEA foram encerradas em dez/2025. Gestão: CFG, CGA e CGE.
+- **Nunca cite a apostila** no material (fala, lousa, cabeçalho). Ela orienta a pesquisa, mas não aparece.
 - **Não invente páginas de apostila nem números de artigo.**
 - **Precisão terminológica:** isenção ≠ alíquota zero; fato gerador ≠ base de cálculo; dias corridos ≠ dias úteis.
 - **Ferramentas do professor:** Google Slides com a Wacom por cima e a HP12C (emulador no computador).

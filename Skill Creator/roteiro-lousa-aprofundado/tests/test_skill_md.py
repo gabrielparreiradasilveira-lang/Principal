@@ -20,6 +20,15 @@ class TesteSkillMd(unittest.TestCase):
     def test_explica_como_dividir_lousa(self):
         self.assertIn("conteudo-1.png", self.texto)
 
+    def test_regra_de_nao_citar_a_apostila(self):
+        self.assertIn("Nunca cite a apostila", self.texto)
+
+    def test_esqueleto_sem_apostila_na_base(self):
+        base = [l for l in self.texto.splitlines() if l.startswith("**Base:**")]
+        self.assertTrue(base)
+        for l in base:
+            self.assertNotIn("apostila", l.lower())
+
     def test_sem_goodnotes(self):
         self.assertNotIn("goodnotes", self.texto.lower())
 

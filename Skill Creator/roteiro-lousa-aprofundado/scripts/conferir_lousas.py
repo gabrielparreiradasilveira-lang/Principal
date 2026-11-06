@@ -9,6 +9,7 @@ Desenha cada lousa do JSON (o mesmo motor do lousa.py) e aponta como pendência:
 - ocupação abaixo de 70% da altura útil (lousa com metade da tela vazia);
 - faixa horizontal vazia de mais de 120 px (buraco no meio ou pé vazio);
 - 8 palavras seguidas iguais à fala do mesmo vídeo e bloco (a lousa complementa a fala, não a repete);
+- menção à apostila (ela é fonte interna e não aparece no material);
 - PNG cujo nome não segue {video}_{bloco}_{slug}.png (ex.: r60a_2_metafora.png, r50-1_4_resolucao.png).
 Vídeo sem as 4 lousas sai como aviso. Sai com código 1 se houver pendência.
 """
@@ -158,6 +159,8 @@ def main(argv=None):
             pend.append(f"{nome}: faixa vazia de {fv} px (máximo {FAIXA_VAZIA_MAX}); distribua ou acrescente conteúdo")
         if oc < OCUPACAO_MIN:
             pend.append(f"{nome}: ocupa só {oc:.0%} da altura útil (mínimo {OCUPACAO_MIN:.0%}); acrescente conteúdo")
+        if "APOSTILA" in normalizar(texto_da_lousa(els)):
+            pend.append(f"{nome}: cita a apostila; a lousa nunca menciona a apostila")
         if not vb:
             pend.append(f"{nome}: nome fora do padrão {{video}}_{{bloco}}_{{slug}}.png")
             continue

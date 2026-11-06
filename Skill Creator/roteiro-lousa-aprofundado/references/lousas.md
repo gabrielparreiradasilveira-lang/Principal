@@ -88,6 +88,7 @@ Lista: `python3 scripts/lousa.py --desenhos`. Hoje: alvo, ampulheta, balanca, ba
 | faixa sem tinta de mais de 120 px | buraco no meio ou pé vazio da lousa (a de referência tem até 38 px) |
 | 8 palavras seguidas iguais à fala do mesmo vídeo e bloco | a lousa complementa, não copia (compara sem maiúsculas, acentos, pontuação e `{cor:}`) |
 | lousa sem fala correspondente no roteiro | roteiro errado ou cabeçalho do vídeo fora do padrão: sem a fala, a repetição não seria conferida |
+| menção à apostila | a apostila é fonte interna: nunca aparece na lousa |
 | nome fora de `{video}_{bloco}_{slug}.png` | o conferidor não acha a fala do bloco |
 
 Vídeo sem as 4 lousas sai como aviso. Depois de zerar, **abra cada PNG**: o conferidor não vê seta invertida, desenho mal escolhido nem número diferente do da fala.

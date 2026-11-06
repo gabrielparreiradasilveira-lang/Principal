@@ -8,6 +8,7 @@ aponta o que precisa ser corrigido. Sai com código 1 se houver pendência.
 Espera o formato do esqueleto do SKILL.md: título "# R60A · ..." ou "# R50-1 · ..." por vídeo,
 blocos "## 1." a "## 4." e as marcações [Ação na Lousa] e [Locução Direta] em cada bloco.
 O roteiro não leva Nota de bastidor (o professor não usa).
+Também aponta qualquer menção à apostila: ela é fonte interna e não aparece no material.
 """
 import argparse
 import re
@@ -140,6 +141,9 @@ def main():
     fala_txt = "\n".join(fala_toda)
     if (latex := sorted({m.group(0) for m in LATEX.finditer(fala_txt)})):
         pendencias.append(f"LaTeX ou símbolo de fórmula na fala: {latex[:6]}")
+    if (apostila := len(re.findall(r"apostila", texto, re.IGNORECASE))):
+        pendencias.append(f"A apostila é citada {apostila} vez(es); o material nunca menciona a apostila "
+                          "(nem na fala, nem na lousa, nem na Base)")
     if (nota := sorted({m.group(0) for m in NOTA_0_10.finditer(texto)})):
         pendencias.append(f"Autoavaliação de 0 a 10 encontrada: {nota[:4]}")
     if (formula := sorted({m.group(0) for m in FORMULA_PESADA.finditer(chr(10).join(lousa_toda))})):

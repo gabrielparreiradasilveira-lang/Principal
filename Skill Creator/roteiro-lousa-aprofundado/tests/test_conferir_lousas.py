@@ -113,6 +113,21 @@ class TesteCLI(unittest.TestCase):
         self.assertEqual(out.returncode, 1, out.stdout + out.stderr)
         self.assertIn("repete a fala", out.stdout)
 
+    def test_cli_lousa_que_cita_apostila_e_pendencia(self):
+        roteiro = ("# R60A · Teste (7 min)\n\n## 2. Metáfora Central de Fixação — [1 min]\n"
+                   "**[Ação na Lousa - Google Slides]**\n- Slide 2\n**[Locução Direta]**\n\"Fala sem relação.\"\n")
+        lousas = {"padrao": {"fundo": "preto"}, "slides": [{"saida": "r60a_2_metafora.png", "elementos": [
+            {"tipo": "titulo", "texto": "METÁFORA"},
+            {"tipo": "texto", "x": 80, "y": 140, "largura": 1400, "tamanho": 34, "entrelinha": 1.5,
+             "texto": "A APOSTILA DIZ OUTRA COISA\n" + "\n".join(["LINHA DE CONTEÚDO"] * 15)}]}]}
+        with tempfile.TemporaryDirectory() as tmp:
+            r, j = os.path.join(tmp, "r.md"), os.path.join(tmp, "l.json")
+            open(r, "w", encoding="utf-8").write(roteiro)
+            json.dump(lousas, open(j, "w", encoding="utf-8"), ensure_ascii=False)
+            out = subprocess.run([sys.executable, "-I", SCRIPT, r, j, "-o", tmp], capture_output=True, text=True)
+        self.assertEqual(out.returncode, 1, out.stdout + out.stderr)
+        self.assertIn("apostila", out.stdout.lower())
+
     def test_cli_sem_fala_do_bloco_e_pendencia(self):
         roteiro = "# Outro roteiro sem cabeçalho de vídeo\n\nTexto qualquer.\n"
         lousas = {"padrao": {"fundo": "preto"}, "slides": [{"saida": "r60a_2_metafora.png", "elementos": [

@@ -14,8 +14,8 @@ NOMES = {1: "Abertura Instigante (Destruição de Mito)", 2: "Metáfora Central 
          5: "Alerta de Prova e Pegadinha da Banca"}
 
 
-def roteiro(blocos=(1, 2, 3, 4), palavras=(70, 100, 370, 125), nota=False, video="R50-1"):
-    partes = [f"# {video} · Tema de teste (7 min)", "**Base:** item 3.7.4 · apostila p. 150", ""]
+def roteiro(blocos=(1, 2, 3, 4), palavras=(70, 100, 370, 125), nota=False, video="R50-1", base="item 3.7.4 · Lei 11.053"):
+    partes = [f"# {video} · Tema de teste (7 min)", f"**Base:** {base}", ""]
     for b, n in zip(blocos, palavras):
         fala = " ".join(["termo"] * (n - 2)) + (" em 2026" if b == 1 else " fim.")
         partes += [f"## {b}. {NOMES[b]} — [1 min]", "**[Ação na Lousa - Google Slides]**", f"- Slide {b}",
@@ -46,6 +46,17 @@ class TesteConferirRoteiro(unittest.TestCase):
         r = conferir(roteiro(nota=True))
         self.assertEqual(r.returncode, 1, r.stdout)
         self.assertIn("Nota de bastidor", r.stdout)
+
+    def test_apostila_na_base_e_pendencia(self):
+        r = conferir(roteiro(base="item 3.7.4 · apostila C-PRO R, p. 150"))
+        self.assertEqual(r.returncode, 1, r.stdout)
+        self.assertIn("apostila", r.stdout.lower())
+
+    def test_apostila_na_fala_e_pendencia(self):
+        texto = roteiro().replace("fim.\"", "fim. A Apostila lista cinco.\"", 1)
+        r = conferir(texto)
+        self.assertEqual(r.returncode, 1, r.stdout)
+        self.assertIn("apostila", r.stdout.lower())
 
     def test_id_r60a_aceito(self):
         r = conferir(roteiro(video="R60A"))

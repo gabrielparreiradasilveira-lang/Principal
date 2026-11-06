@@ -9,7 +9,7 @@ Status: **ok** = carregou e o conteúdo foi lido · **carrega** = respondeu, mas
 | O que | Como achar | Para quê |
 |---|---|---|
 | Programa Detalhado (PD) | título com "Programa-Detalhado" + certificação (ex.: "Programa-Detalhado-C-Pro-R-ANBIMA.pdf"). Use o PDF (curto, leia inteiro); a planilha vem incompleta pelo conector. | Texto exato, numeração e versão vigente do item; itens vizinhos. A ANBIMA não tem página fixa que publique o PD de cada prova, então a cópia do Drive é a referência. |
-| Apostila | título com "APOSTILA" + certificação (ex.: "APOSTILA C-PRO R"). Não leia inteira: o começo do arquivo, que a busca mostra, traz o sumário com as páginas. | Capítulo e páginas do item. Texto exato de um trecho: peça ao professor as páginas. |
+| Apostila | título com "APOSTILA" + certificação (ex.: "APOSTILA C-PRO R"). Não leia inteira: o começo do arquivo, que a busca mostra, traz o sumário com as páginas. | Capítulo e páginas do item, só para a sua pesquisa: a apostila nunca é citada no material (fala, lousa ou cabeçalho). Texto exato de um trecho: peça ao professor as páginas. |
 | Roteiros já feitos | título com o número da aula (ex.: "R59", "R61"). Os gravados costumam ter "GRAVADO" no nome. O começo do documento, que a busca mostra, traz Base e Escopo. | Pontes, consistência, e não repetir o que já foi gravado. |
 
 Prefira os arquivos do próprio professor: a busca também traz cópias compartilhadas por outras pessoas.
