@@ -1,0 +1,100 @@
+{
+  "padrao": {
+    "fundo": "preto"
+  },
+  "slides": [
+    {
+      "saida": "r29_1_garantia-sem-risco.png",
+      "semente": 2901,
+      "molde": "mito_verdade",
+      "titulo": "GARANTIA REAL = RISCO ZERO?",
+      "mitos": [
+        "GARANTIA REAL = SEM RISCO",
+        "A GARANTIA COBRE TUDO"
+      ],
+      "verdade": "GARANTIA = {laranja:PRIORIDADE}, NÃO {vermelho:CERTEZA}",
+      "desenho": "casa",
+      "apoio": "- R$ 100 MIL EM DEBÊNTURES COM GARANTIA REAL (HIPOTÉTICO)\n- IMÓVEL VENDIDO POR 60% DA EMISSÃO → {verde:R$ 60 MIL} PELA GARANTIA\n- {vermelho:R$ 40 MIL} → FILA DOS QUIROGRAFÁRIOS\n- {ciano:LEI 11.101, ART. 83, II:} GARANTIA REAL {laranja:ATÉ O VALOR DO BEM}\n- § 1º: VALOR DO BEM = O QUE A VENDA {laranja:ARRECADOU}"
+    },
+    {
+      "saida": "r29_2_fila-massa-falida.png",
+      "semente": 2902,
+      "molde": "comparacao",
+      "titulo": "A FILA DA MASSA FALIDA",
+      "colunas": [
+        {
+          "titulo": "NA FILA",
+          "desenho": "pessoa",
+          "rotulos": [
+            "SENHA",
+            "GUICHÊ"
+          ],
+          "texto": "1. SENHA ESPECIAL + BEM NO COFRE → {laranja:REAL}\n2. SENHA GERAL → {laranja:FLUTUANTE}\n3. FILA COMUM → {laranja:QUIROGRAFÁRIA}\n4. FIM DA FILA → {laranja:SUBORDINADA}"
+        },
+        {
+          "titulo": "FORA DA FILA",
+          "desenho": "alarme",
+          "rotulos": [
+            "FIADOR",
+            "ALARME"
+          ],
+          "texto": "- FIADOR → {laranja:FIDEJUSSÓRIA} (FIANÇA OU AVAL)\n- ALARME → {laranja:COVENANTS}\n- O ALARME TOCA {verde:ANTES} DA QUEBRA\n- AS GARANTIAS PODEM SER {laranja:CUMULATIVAS} (ART. 58, § 2º)"
+        }
+      ],
+      "faixas": [
+        "{ciano:DUAS FLUTUANTES NA FILA?} A EMISSÃO {laranja:MAIS ANTIGA} PASSA NA FRENTE (LEI 6.404, ART. 58, § 3º)"
+      ],
+      "destaque": {
+        "texto": "{vermelho:ONDE QUEBRA:} NA FALÊNCIA, QUEM ORDENA A FILA É A {laranja:LEI 11.101} · DESDE A LEI 14.112/2020, A SENHA GERAL {vermelho:VIROU FILA COMUM}",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
+    },
+    {
+      "saida": "r29_3_garantias-e-covenants.png",
+      "semente": 2903,
+      "molde": "colunas",
+      "titulo": "AS 5 GARANTIAS, A FALÊNCIA E O ALARME",
+      "topo": "{ciano:LEI 6.404, ART. 58:} REAL · FLUTUANTE (§ 1º: {laranja:NÃO IMPEDE} VENDER OS BENS) · SEM PREFERÊNCIA · SUBORDINADA (§ 4º: SÓ À FRENTE DOS {laranja:ACIONISTAS}) · FIDEJUSSÓRIA = {laranja:PESSOA}, NÃO BEM",
+      "colunas": [
+        {
+          "titulo": "LEI 11.101, ART. 83",
+          "texto": "1. TRABALHISTAS (ATÉ 150 SALÁRIOS MÍNIMOS)\n2. {laranja:GARANTIA REAL}, ATÉ O VALOR DO BEM\n3. TRIBUTÁRIOS\n4. {laranja:QUIROGRAFÁRIOS} + FLUTUANTE (§ 6º) + SALDO DA REAL\n5. MULTAS\n6. {laranja:SUBORDINADOS}"
+        },
+        {
+          "titulo": "LEI 6.404, ART. 68",
+          "texto": "- O {laranja:AGENTE FIDUCIÁRIO} REPRESENTA OS DEBENTURISTAS\n- AVISA DESCUMPRIMENTO EM ATÉ {laranja:60 DIAS}\n- DECLARA O {vermelho:VENCIMENTO ANTECIPADO}, CONFORME A ESCRITURA\n- EXECUTA AS GARANTIAS REAIS\n- PEDE A FALÊNCIA {laranja:SE NÃO HOUVER GARANTIA REAL}"
+        }
+      ],
+      "destaque": {
+        "texto": "{ciano:COVENANT (EX. DE MERCADO):} DÍVIDA LÍQUIDA ÷ EBITDA ABAIXO DE UM TETO · SEM VENDA DE ATIVOS RELEVANTES · ROMPEU → {vermelho:A ESCRITURA DECIDE} AS CONSEQUÊNCIAS",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r29_4_senha-especial.png",
+      "semente": 2904,
+      "molde": "exercicio",
+      "titulo": "QUANTO VALE A SENHA ESPECIAL?",
+      "dados": "- EMISSÃO DE {laranja:R$ 10 MILHÕES} COM GARANTIA REAL DE UM IMÓVEL (HIPOTÉTICO)\n- A EMISSORA FALIU · O IMÓVEL VAI A LEILÃO\n- SIMPLIFICAÇÃO: NENHUM CRÉDITO À FRENTE DA GARANTIA REAL\n- A ÚNICA DIFERENÇA: POR QUANTO O IMÓVEL É VENDIDO",
+      "cenarios": [
+        {
+          "titulo": "VENDIDO POR R$ 6 MI",
+          "passos": "COBRE 6 ÷ 10\nFALTAM 10 − 6 = 4 MI\n→ FILA DOS QUIROGRAFÁRIOS",
+          "resultado": "60%"
+        },
+        {
+          "titulo": "VENDIDO POR R$ 12 MI",
+          "passos": "COBRE OS 10 MI\nSOBRAM 12 − 10 = 2 MI\n→ VOLTAM PARA A MASSA",
+          "resultado": "100%"
+        }
+      ],
+      "conclusao": {
+        "texto": "O MESMO PAPEL, DOIS RESULTADOS · OS {vermelho:R$ 4 MI} DISPUTAM A SOBRA COM TODOS OS CREDORES COMUNS",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    }
+  ]
+}
