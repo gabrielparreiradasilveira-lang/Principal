@@ -82,9 +82,11 @@ def video_bloco(nome):
 def referencias(spec):
     """As referências do campo "referencia" (texto ou lista); vazia se o campo falta ou é false."""
     r = spec.get("referencia")
-    if not r:
-        return []
-    return [r] if isinstance(r, str) else [str(x) for x in r]
+    if isinstance(r, str):
+        return [r] if r.strip() else []
+    if isinstance(r, (list, tuple)):
+        return [str(x) for x in r if str(x).strip()]
+    return []  # false, true ou outro valor: nada a desenhar (o conferidor aponta)
 
 
 def _marca(L, spec, els):
@@ -426,7 +428,8 @@ def exercicio(L, spec, els):
             p = {"tipo": "texto", "id": f"ep{i}", "texto": _prender(c.get("passos", "")), "x": x, "y": yp, "largura": w,
                  "tamanho": t, "entrelinha": 1.42}
             r = {"tipo": "texto", "id": f"er{i}", "texto": _prender(c.get("resultado", "")), "x": x + 20,
-                 "y": yp + _medir(L, p)[1] + 50, "largura": w - 40, "tamanho": t + 4, "cor": "verde", "lista": False}
+                 "y": yp + _medir(L, p)[1] + 50, "largura": w - 40, "tamanho": t + 4, "cor": c.get("cor", "verde"),
+                 "lista": False}
             out += [p, r]
         return out
 
@@ -442,7 +445,8 @@ def exercicio(L, spec, els):
     for e in cs:
         e["y"] += desce
     y, fundo = y + desce, fundo + desce
-    els += cs + [{"tipo": "caixa", "alvo": f"er{i}", "margem": 20, "cor": "verde"} for i in (1, 2)]
+    els += cs + [{"tipo": "caixa", "alvo": f"er{i}", "margem": 20, "cor": c.get("cor", "verde")}
+                 for i, c in enumerate(cen, 1)]
     els.append({"tipo": "linha", "pontos": [[900, y - 10], [895, (y + fundo) / 2], [902, fundo]], "espessura": 4})
 
 
@@ -505,7 +509,17 @@ def montar(L, spec):
             els = expandir(L, s) + els
         finally:
             BASE = guarda
-    return els + list(spec.get("elementos", []))
+    extras = list(spec.get("elementos", []))
+    if w:  # título escrito à mão em "elementos" também termina antes da marca
+        extras = [_titulo_antes_da_marca(e, w) if e.get("tipo") == "titulo" else e for e in extras]
+    return els + extras
+
+
+def _titulo_antes_da_marca(el, w):
+    x = el.get("x", 40)
+    if not isinstance(x, (int, float)):
+        return el
+    return dict(el, largura=min(float(el.get("largura", 1500)), MARCA_X1 - w - 30 - x))
 
 
 def expandir(L, spec):

@@ -19,8 +19,8 @@
    "dados": "- CLIENTE COM {laranja:R$ 400.000} EM CDB, JÁ COM OS RENDIMENTOS\n- FGC: ATÉ {laranja:R$ 250.000} POR CPF E POR CONGLOMERADO\n  - TETO DE R$ 1 MILHÃO A CADA 4 ANOS",
    "premissas": "VALORES HIPOTÉTICOS · X E Y SÃO DE CONGLOMERADOS DIFERENTES",
    "cenarios": [
-    {"titulo": "A: TUDO NO BANCO X", "passos": "- COBERTO: R$ 250.000\n- DESCOBERTO: R$ 400.000 − R$ 250.000 = R$ 150.000\n- O EXCESSO VAI PARA A LIQUIDAÇÃO", "resultado": "37,5% FORA DO FGC"},
-    {"titulo": "B: R$ 200.000 EM X E EM Y", "passos": "- CADA BANCO ABAIXO DE R$ 250.000\n- TOTAL ABAIXO DO TETO DE R$ 1 MILHÃO", "resultado": "100% COBERTO"}],
+    {"titulo": "A: TUDO NO BANCO X", "passos": "- COBERTO: R$ 250.000\n- DESCOBERTO: R$ 400.000 − R$ 250.000 = R$ 150.000\n- O EXCESSO VAI PARA A LIQUIDAÇÃO", "resultado": "✗ 37,5% FORA DO FGC", "cor": "vermelho"},
+    {"titulo": "B: R$ 200.000 EM X E EM Y", "passos": "- CADA BANCO ABAIXO DE R$ 250.000\n- TOTAL ABAIXO DO TETO DE R$ 1 MILHÃO", "resultado": "✓ 100% COBERTO"}],
    "conclusao": {"texto": "{ciano:POR QUÊ:} O LIMITE VALE POR CONGLOMERADO → DIVIDIR TIROU R$ 150.000 DO RISCO", "cor": "branco", "moldura": "amarelo"},
    "pergunta": "E SE X E Y FOSSEM DO MESMO CONGLOMERADO?",
    "referencia": "GARANTIA DO FUNDO GARANTIDOR DE CRÉDITOS (FGC.ORG.BR, NOV./2026)"},

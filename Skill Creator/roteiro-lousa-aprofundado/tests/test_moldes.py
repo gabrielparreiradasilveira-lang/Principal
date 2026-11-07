@@ -240,6 +240,24 @@ class TesteRodape(unittest.TestCase):
         _, _, elementos = renderizar(spec)
         self.assertIn("referencia", por_id(elementos))
 
+    def test_lousa_sem_molde_titulo_termina_antes_da_marca(self):
+        spec = {"saida": "r58c_2_grafico.png", "referencia": "TEORIA DE CARTEIRAS DE MARKOWITZ (ARTIGO DE 1952)",
+                "elementos": [{"tipo": "titulo", "largura": 1500,
+                               "texto": "TRÊS ESTRADAS NO GRÁFICO DE RISCO × RETORNO DE A, B"}]}
+        avisos, _, _ = renderizar(spec)
+        self.assertEqual(avisos, [])
+
+    def test_resultado_do_cenario_com_cor_propria(self):
+        cen = [dict(EXERCICIO_V5["cenarios"][0], resultado="✗ 37,5% FORA DO FGC", cor="vermelho"),
+               dict(EXERCICIO_V5["cenarios"][1], resultado="✓ 100% COBERTO")]
+        avisos, _, elementos = renderizar(dict(EXERCICIO_V5, cenarios=cen))
+        self.assertEqual(avisos, [])
+        ids = por_id(elementos)
+        self.assertEqual(ids["er1"]["cor"], "vermelho")
+        self.assertEqual(ids["er2"]["cor"], "verde")
+        caixas = [e for e in elementos if e.get("tipo") == "caixa" and e.get("alvo") == "er1"]
+        self.assertEqual(caixas[0]["cor"], "vermelho")
+
     def test_comparacao_com_referencia_sem_avisos(self):
         avisos, _, _ = renderizar(dict(DUAS_RODOVIAS, saida="r50-1_2_duas-rodovias.png"))
         self.assertEqual(avisos, [])

@@ -165,6 +165,9 @@ class TesteCorComRotulo(unittest.TestCase):
     def test_numero_com_sinal_dispensa_rotulo(self):
         self.assertEqual(C.cor_sem_rotulo("MARÇO {vermelho:−29,90%} · NOVEMBRO {verde:+15,90%}"), [])
 
+    def test_sinal_sem_numero_nao_dispensa(self):
+        self.assertEqual(len(C.cor_sem_rotulo("{verde:+ LUCRO} · {vermelho:- SEM VALE}")), 2)
+
     def test_laranja_nao_precisa_de_rotulo(self):
         self.assertEqual(C.cor_sem_rotulo("BASE {laranja:R$ 30.000}"), [])
 
@@ -190,6 +193,15 @@ class TesteTopicosCurtos(unittest.TestCase):
         t = "- RETORNOS DE 3 ANOS: A = 6 · 10 · 14 · B = 2 · 10 · 18 · C = 4 · 12 · 20"
         self.assertEqual(C.topicos_longos(t), [])
 
+    def test_rs_nao_conta_como_palavra(self):
+        t = "- DESCOBERTO NO BANCO X: R$ 400.000 − R$ 250.000 = R$ 150.000 VÃO PARA A LIQUIDAÇÃO"
+        self.assertEqual(C.topicos_longos(t), [])
+
+    def test_titulo_numerado_nao_e_topico(self):
+        els = [{"tipo": "titulo", "texto": "2. UM TÍTULO NUMERADO COM MUITAS PALAVRAS QUE PASSA DO LIMITE DE DOZE"},
+               {"tipo": "texto", "texto": "- TÓPICO CURTO"}]
+        self.assertEqual(C.topicos_longos(C.texto_corpo(els)), [])
+
     def test_linha_sem_marcador_nao_e_topico(self):
         t = "{ciano:TARIFA DA SAÍDA, NAS DUAS:} REGRESSIVO 35% → 10% PELO TEMPO DE CADA APORTE · PROGRESSIVO"
         self.assertEqual(C.topicos_longos(t), [])
@@ -201,6 +213,7 @@ class TesteReferencia(unittest.TestCase):
         self.assertTrue(C.referencia_ok("LEI DO IR DA PREVIDÊNCIA (LEI 11.053/2004)"))
 
     def test_referencia_so_com_codigo_reprova(self):
+        self.assertFalse(C.referencia_ok("IN RFB 1.585/2015 (ART. 46)"))
         self.assertFalse(C.referencia_ok("LEI 11.053/2004"))
         self.assertFalse(C.referencia_ok("(LEI 11.053/2004)"))
         self.assertFalse(C.referencia_ok("LEI (11.053/2004)"))
@@ -213,7 +226,7 @@ def lousa(saida, **campos):
 
 def exercicio(saida, **campos):
     base = {"saida": saida, "molde": "exercicio", "referencia": "PROGRAMA DA PROVA C-PRO R (ITEM 4.5)",
-            "premissas": "VALORES HIPOTÉTICOS", "conclusao": "LIMITE POR CONGLOMERADO → DIVIDIR REDUZ O RISCO",
+            "premissas": "VALORES HIPOTÉTICOS", "conclusao": "REGRA: LIMITE POR CONGLOMERADO → DIVIDIR REDUZ O RISCO",
             "pergunta": "QUANTO FICA DESCOBERTO?"}
     return dict(base, **campos)
 
@@ -263,13 +276,13 @@ class TesteRegrasDaAula(unittest.TestCase):
 
     def test_conclusao_sem_mecanismo(self):
         aula = self.aula()
-        aula[1] = exercicio("r60a_4_resolucao.png", conclusao={"texto": "B É MELHOR"})
+        aula[1] = exercicio("r60a_4_resolucao.png", conclusao={"texto": "B É MELHOR", "cor": "branco"})
         pend, _ = C.regras_da_aula(aula)
         self.assertTrue(any("regra" in p and "efeito" in p for p in pend), pend)
 
     def test_conclusao_com_porque_passa(self):
         aula = self.aula()
-        aula[1] = exercicio("r60a_4_resolucao.png", conclusao="B PAGA MENOS PORQUE A BASE É SÓ O RENDIMENTO")
+        aula[1] = exercicio("r60a_4_resolucao.png", conclusao="✓ B PAGA MENOS PORQUE A BASE É SÓ O RENDIMENTO")
         pend, _ = C.regras_da_aula(aula)
         self.assertEqual(pend, [])
 
@@ -285,6 +298,40 @@ class TesteRegrasDaAula(unittest.TestCase):
         pend, avis = C.regras_da_aula(aula)
         self.assertEqual(pend, [])
         self.assertTrue(any("r60b_1" in a for a in avis), avis)
+
+    def test_referencia_true_e_pendencia_sem_quebrar(self):
+        aula = self.aula()
+        aula[2]["referencia"] = True
+        pend, _ = C.regras_da_aula(aula)
+        self.assertTrue(any("r60b_1" in p and "referência" in p for p in pend), pend)
+
+    def test_resultado_vermelho_sem_xis_e_pendencia(self):
+        aula = self.aula()
+        aula[1] = exercicio("r60a_4_resolucao.png", cenarios=[
+            {"titulo": "A", "passos": "- X", "resultado": "37,5% FORA DO FGC", "cor": "vermelho"},
+            {"titulo": "B", "passos": "- Y", "resultado": "✓ 100% COBERTO", "cor": "verde"}])
+        pend, _ = C.regras_da_aula(aula)
+        self.assertTrue(any("r60a_4" in p and "cor sem rótulo" in p for p in pend), pend)
+
+    def test_resultado_com_rotulo_e_resultado_padrao_passam(self):
+        aula = self.aula()
+        aula[1] = exercicio("r60a_4_resolucao.png", cenarios=[
+            {"titulo": "A", "passos": "- X", "resultado": "✗ 37,5% FORA DO FGC", "cor": "vermelho"},
+            {"titulo": "B", "passos": "- Y", "resultado": "100% COBERTO"}])
+        pend, _ = C.regras_da_aula(aula)
+        self.assertEqual(pend, [])
+
+    def test_destaque_verde_padrao_sem_rotulo_e_pendencia(self):
+        aula = self.aula()
+        aula[2] = lousa("r60b_1_abertura.png", destaque="DIVIDIR ENTRE BANCOS TIRA O EXCESSO DO RISCO")
+        pend, _ = C.regras_da_aula(aula)
+        self.assertTrue(any("r60b_1" in p and "cor sem rótulo" in p for p in pend), pend)
+
+    def test_destaque_branco_nao_precisa_de_rotulo(self):
+        aula = self.aula()
+        aula[2] = lousa("r60b_1_abertura.png", destaque={"texto": "DIVIDIR TIRA O EXCESSO", "cor": "branco"})
+        pend, _ = C.regras_da_aula(aula)
+        self.assertEqual(pend, [])
 
     def test_referencia_mal_escrita_e_pendencia(self):
         aula = self.aula()

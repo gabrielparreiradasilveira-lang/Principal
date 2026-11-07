@@ -159,7 +159,7 @@ Leia `references/lousas.md` antes da primeira lousa: tem o padrão visual, os mo
 
 1. **Premissas à vista.** Todo exercício tem `premissas`: valores hipotéticos ou reais, bruto ou líquido quando houver retorno, o que ficou de fora (IR, custos, inflação) e a condição que o cenário exige. Exemplo com números fora do exercício leva a condição na própria linha.
 2. **Regra → efeito.** Ao comparar dois cenários, a conclusão diz qual regra produziu a diferença, não só o resultado.
-3. **A cor nunca sozinha.** Verde com ✓ ou palavra-rótulo (CERTO, REGRA); vermelho com ✗, ⚠ ou ERRADO, FALSO, ALERTA. Número neutro em laranja. A primeira lousa da aula leva a `legenda` das cores.
+3. **A cor nunca sozinha.** Verde com ✓ ou palavra-rótulo (CERTO, REGRA); vermelho com ✗, ⚠ ou ERRADO, FALSO, ALERTA; vale para destaque e conclusão (verdes por padrão) e para o cenário que dá errado (resultado em vermelho com ✗). Número neutro em laranja. A primeira lousa da aula leva a `legenda` das cores.
 4. **Onde o aluno está.** A marca `R58A · 2/4` sai sozinha no topo. O Bloco 4 de cada vídeo fecha com a `pergunta` de recuperação ("PAUSE E RESPONDA: …?"), e o do último vídeo, também com a `sintese` da aula em uma linha.
 5. **Tópico curto.** Uma ideia por tópico, palavra-chave na frente, no máximo 12 palavras (números não contam); passou disso, vira subtópico.
 6. **Referência que qualquer aluno entende.** Toda lousa com conceito técnico, norma ou dado leva `referencia`: `"DESCRIÇÃO SIMPLES (IDENTIFICADOR)"`, como `"IR DA PREVIDÊNCIA (LEI 11.053/2004)"`. Só o que você consultou; nunca a apostila; história ou caso ilustrativo não leva referência.

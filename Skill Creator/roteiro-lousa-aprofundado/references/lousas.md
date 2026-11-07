@@ -11,7 +11,7 @@ Gerador: `scripts/lousa.py` (Python 3 + Pillow; `--pptx` precisa de `python-pptx
 | Cores chapadas, sem brilho | paleta fixa |
 | Amarelo: títulos e molduras · ciano: subtítulos · branco: texto | `titulo`, `subtitulo`, `texto`; `caixa` sai amarela |
 | Laranja: destaque · verde: certo · vermelho: errado ou alerta | `{laranja:trecho}`, `{verde:…}`, `{vermelho:…}`; `riscar` sai vermelho |
-| **A cor nunca carrega o sentido sozinha** (quem não distingue verde de vermelho, ou vê a gravação comprimida, perde a informação) | verde vem com ✓ ou uma palavra-rótulo (CERTO, REGRA, VERDADE) na mesma linha; vermelho, com ✗ (⚠ no alerta) ou ERRADO, FALSO, MITO, ALERTA; número com sinal (+15,90%, −29,90%) dispensa. Número neutro vai em laranja, não em verde ou vermelho |
+| **A cor nunca carrega o sentido sozinha** (quem não distingue verde de vermelho, ou vê a gravação comprimida, perde a informação) | verde vem com ✓ (ou ↑) ou uma palavra-rótulo (CERTO, REGRA, VERDADE) na mesma linha; vermelho, com ✗ (⚠ no alerta, ↓ na queda) ou ERRADO, FALSO, MITO, ALERTA; número com sinal (+15,90%, −29,90%) dispensa. Vale também para `destaque` e `conclusao`, que saem em verde se você não der outra `cor` (use `"cor": "branco"` quando a frase não for certo/errado), e para o resultado de cenário com `cor` própria. Número neutro vai em laranja |
 | Marca do vídeo e do bloco no topo, à direita do título: `R58A · 2/4` | automática, tirada do nome do PNG; o título termina antes dela |
 | Rodapé de linhas curtas, cada uma em uma linha: síntese, pergunta, legenda e fonte | campos `sintese`, `pergunta`, `legenda` e `referencia` (seção 4); o molde se acomoda acima |
 | Números de lista em circulinhos; tópicos sem tabela com grade | linha que começa com `1. ` vira circulinho; `- ` tópico; 2 espaços + `- ` subtópico |
@@ -65,7 +65,7 @@ O que essa lousa faz: desenha a metáfora; traz a condição de uso (declaraçã
 | `metafora` | `titulo`, `itens`: 2 a 4 `[{desenho, cor, extra, cor_extra, nome, legenda}]`, sobre uma estrada (`"estrada": false` tira) |
 | `topicos` | `titulo`, `formula` ({antes, num, den}), `desenho`, `subtitulo`, `texto`, `destaque`, `largura_texto` |
 | `colunas` | `titulo`, `formula`, `desenho`, `topo`, `colunas`: 2 ou 3 `[{titulo, texto}]`, `destaque` |
-| `exercicio` | `titulo`, `dados` (enunciado em tópicos), `premissas` (obrigatório; sai logo abaixo dos dados), `cenarios`: exatamente 2 `[{titulo, passos, resultado}]` (resultado em verde, emoldurado), `conclusao` (destaque na base, no formato regra → efeito) |
+| `exercicio` | `titulo`, `dados` (enunciado em tópicos), `premissas` (obrigatório; sai logo abaixo dos dados), `cenarios`: exatamente 2 `[{titulo, passos, resultado, cor}]` (resultado emoldurado; em verde é a resposta certa da conta; no cenário que dá errado, `"cor": "vermelho"` e ✗ no resultado), `conclusao` (destaque na base, no formato regra → efeito) |
 | `hp12c` | `titulo`, `passos`: `[{nome, teclas, visor, leitura}]` — só se o professor pedir as teclas na lousa |
 | `pegadinhas` | `titulo`, `itens`: `[{frase, correcao, veredito}]` — fora do padrão atual (o professor tirou o bloco de pegadinhas) |
 
@@ -110,7 +110,7 @@ Lista: `python3 scripts/lousa.py --desenhos`. Hoje: alvo, ampulheta, balanca, ba
 | 8 palavras seguidas iguais à fala do mesmo vídeo e bloco | a lousa complementa, não copia (compara sem maiúsculas, acentos, pontuação e `{cor:}`) |
 | lousa sem fala correspondente no roteiro | roteiro errado ou cabeçalho do vídeo fora do padrão: sem a fala, a repetição não seria conferida |
 | menção à apostila | a apostila é fonte interna: nunca aparece na lousa |
-| verde ou vermelho sem ✓/✗ ou palavra-rótulo na mesma linha | a cor nunca carrega o sentido sozinha |
+| verde ou vermelho sem ✓/✗ ou palavra-rótulo na mesma linha (no texto, no destaque e na conclusão verdes e no resultado com cor própria) | a cor nunca carrega o sentido sozinha |
 | tópico com mais de 12 palavras (números não contam) | uma ideia por tópico, palavra-chave na frente |
 | lousa sem `referencia`, ou referência sem a descrição simples antes do identificador entre parênteses | conceito técnico, norma e dado têm fonte que o aluno entende |
 | primeira lousa sem `legenda` · Bloco 4 sem `pergunta` (terminada em "?") · último vídeo sem `sintese` | legenda uma vez; recuperação no fim de cada vídeo; síntese no fim da aula |

@@ -49,6 +49,7 @@ ROTULOS = {"vermelho": {"ERRADO", "ERRADA", "ERRADOS", "ERRADAS", "ERRO", "FALSO
                         "CUIDADO", "ATENCAO"},
            "verde": {"CERTO", "CERTA", "CORRETO", "CORRETA", "VERDADE", "VERDADEIRO", "VERDADEIRA", "REGRA"}}
 REFERENCIA = re.compile(r"^([^()]+)\(([^()]*\w[^()]*)\)\s*$")
+NUMERO_COM_SINAL = re.compile(r"^[+−-]\s?\d")
 MECANISMO = re.compile(r"→|\bporque\b|\bpois\b", re.IGNORECASE)
 
 
@@ -118,7 +119,7 @@ def cor_sem_rotulo(texto):
         palavras = set(normalizar(linha))
         for cor in ("vermelho", "verde"):
             trechos = [t.strip() for c, t in MARCA_COR.findall(linha) if c == cor]
-            sem_sinal = [t for t in trechos if not (t and t[0] in "+−-")]
+            sem_sinal = [t for t in trechos if not NUMERO_COM_SINAL.match(t)]
             if sem_sinal and not (any(x in linha for x in SIMBOLOS[cor]) or palavras & ROTULOS[cor]):
                 out.append((cor, linha.strip()))
     return out
@@ -133,7 +134,7 @@ def topicos_longos(texto, n=N_TOPICO):
             continue
         corpo = re.sub(r"\{[a-zA-Z#0-9]+:", " ", linha[m.end():]).replace("}", " ").replace("\u00a0", " ")
         corpo = re.sub(r"\[([^\]]+)\]", r" \1 ", corpo)
-        k = sum(1 for t in corpo.split() if any(c.isalpha() for c in t))  # número não conta como palavra
+        k = sum(1 for t in corpo.split() if t != "R$" and any(c.isalpha() for c in t))  # número e R$ não contam
         if k > n:
             out.append((k, linha.strip()))
     return out
@@ -143,7 +144,36 @@ def referencia_ok(r):
     """Descrição que qualquer aluno entende (2 palavras ou mais) e o identificador entre parênteses:
     "LEI DO IR DA PREVIDÊNCIA (LEI 11.053/2004)"."""
     m = REFERENCIA.match(str(r).strip())
-    return bool(m) and sum(1 for t in m.group(1).split() if any(c.isalpha() for c in t)) >= 2
+    if not m:
+        return False
+    palavras = [re.sub(r"[^\w]|\d|_", "", t) for t in m.group(1).split()]
+    palavras = [t for t in palavras if t]
+    return len(palavras) >= 2 and any(len(t) >= 5 for t in palavras)  # sigla solta ("IN RFB") não basta
+
+
+def texto_corpo(elementos):
+    """Só os blocos de texto (sem título e subtítulo): onde moram os tópicos."""
+    return texto_da_lousa([e for e in elementos if e.get("tipo") == "texto"])
+
+
+def linhas_de_cor(spec):
+    """Trechos que o molde pinta inteiros de verde ou vermelho (destaque, conclusão e resultado com cor
+    própria), escritos como {cor:texto} para a mesma checagem do texto. O resultado sem cor própria é a
+    resposta certa da conta, em verde, e não precisa de rótulo."""
+    def limpo(t):
+        return re.sub(r"\{[a-zA-Z#0-9]+:([^{}]*)\}", r"\1", str(t))
+    out = []
+    for chave in ("destaque", "conclusao"):
+        d = spec.get(chave)
+        if not d:
+            continue
+        texto, cor = (d, "verde") if isinstance(d, str) else (d.get("texto", ""), d.get("cor", "verde"))
+        if cor in ("verde", "vermelho"):
+            out.append(f"{{{cor}:{limpo(texto)}}}")
+    for c in spec.get("cenarios") or []:
+        if isinstance(c, dict) and c.get("cor") in ("verde", "vermelho"):
+            out.append(f"{{{c['cor']}:{limpo(c.get('resultado', ''))}}}")
+    return out
 
 
 def absolutas(texto):
@@ -165,13 +195,16 @@ def regras_da_aula(specs):
         if r is False:
             avis.append(f"{nome}: sem referência (referencia false); confirme que a lousa não traz norma, "
                         "dado nem conceito técnico")
-        elif not r:
+        elif not r or not isinstance(r, (str, list, tuple)):
             pend.append(f"{nome}: sem referência; escreva \"referencia\": \"DESCRIÇÃO SIMPLES (IDENTIFICADOR)\"")
         else:
             for x in MOLDES.referencias(spec):
                 if not referencia_ok(x):
                     pend.append(f"{nome}: referência \"{x}\" fora do formato \"DESCRIÇÃO SIMPLES (IDENTIFICADOR)\", "
                                 "que qualquer aluno entende (ex.: LEI DO IR DA PREVIDÊNCIA (LEI 11.053/2004))")
+        for cor, linha in (x for t in linhas_de_cor(spec) for x in cor_sem_rotulo(t)):
+            pend.append(f"{nome}: cor sem rótulo ({cor} em \"{linha[:90]}\"); junte ✓ ou ✗ (⚠ no alerta) "
+                        "ou uma palavra-rótulo (CERTO, REGRA, ERRADO, ALERTA), ou use \"cor\": \"branco\"")
         if vb and vb[1] == 4:
             bloco4.setdefault(vb[0], []).append(nome)
             p = str(spec.get("pergunta") or "").strip()
@@ -266,7 +299,7 @@ def main(argv=None):
         for cor, linha in cor_sem_rotulo(texto):
             pend.append(f"{nome}: cor sem rótulo ({cor} em \"{linha[:90]}\"); junte ✓ ou ✗ (⚠ no alerta) "
                         "ou uma palavra-rótulo (CERTO, REGRA, ERRADO, ALERTA)")
-        for k, linha in topicos_longos(texto):
+        for k, linha in topicos_longos(texto_corpo(els)):
             pend.append(f"{nome}: tópico com {k} palavras (máximo {N_TOPICO}): \"{linha[:90]}\"; "
                         "uma ideia por tópico, palavra-chave na frente")
         for linha in absolutas(texto_da_lousa([e for e in els if e.get("id") != "referencia"])):  # fonte não é afirmação
