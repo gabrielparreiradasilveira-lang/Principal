@@ -54,12 +54,13 @@ E daí, para o cliente? Com a mesma rentabilidade bruta, um título que só paga
  "titulo": "2. COME-COTAS = IR ANTECIPADO EM COTAS",
  "topo": "ÚLTIMO DIA ÚTIL DE {laranja:MAIO} E DE {laranja:NOVEMBRO} · A QUANTIDADE DE COTAS CAI · NO RESGATE, ACERTO ATÉ A ALÍQUOTA DA TABELA",
  "colunas": [
-  {"titulo": "TEM COME-COTAS", "texto": "- RENDA FIXA, MULTIMERCADO, CAMBIAL\n- LONGO PRAZO: {laranja:15%} · CURTO PRAZO: {laranja:20%}\n- FECHADOS: {verde:DESDE 2024} (LEI 14.754/2023)\n- PRAZO MÉDIO DA CARTEIRA DEFINE LONGO OU CURTO"},
+  {"titulo": "TEM COME-COTAS", "texto": "- RENDA FIXA, MULTIMERCADO, CAMBIAL\n- LONGO PRAZO: {laranja:15%} · CURTO PRAZO: {laranja:20%}\n- FECHADOS: {laranja:DESDE 2024} (LEI 14.754/2023)\n- PRAZO MÉDIO DA CARTEIRA DEFINE LONGO OU CURTO"},
   {"titulo": "NÃO TEM", "texto": "- FUNDOS DE AÇÕES: IR SÓ NO RESGATE\n- FII · FIAGRO · FIP\n- ETF DE RENDA FIXA\n- FECHADO \"ENTIDADE DE INVESTIMENTO\""}],
- "destaque": {"texto": "CURTO PRAZO, R$ 4.000 DE RENDIMENTO → SAEM R$ 800 EM COTAS · RESGATE COM 150 DIAS: COMPLETA R$ 100 · DEPOIS DE 180 DIAS: NADA", "cor": "branco", "moldura": "amarelo"}}
+ "destaque": {"texto": "CURTO PRAZO, R$ 4.000 DE RENDIMENTO → SAEM R$ 800 EM COTAS · RESGATE COM 150 DIAS: COMPLETA R$ 100 · DEPOIS DE 180 DIAS: NADA", "cor": "branco", "moldura": "amarelo"},
+ "referencia": "TRIBUTAÇÃO DOS FUNDOS DE INVESTIMENTO (LEI 14.754/2023)"}
 ```
 
-Conferido: sem avisos, ocupação de 100%, maior faixa vazia de 44 px.
+Conferido: sem avisos; a marca `R00A · 3/4` no topo e a fonte no rodapé.
 
 ## 5. O que este exemplo faz que um material raso não faz
 

@@ -1177,9 +1177,7 @@ def main(argv=None):
         avisos = []
         try:
             lousa = Lousa(spec, pasta, avisos)
-            elementos = spec.get("elementos", [])
-            if spec.get("molde"):  # molde = posições e tamanhos calculados sozinhos (scripts/moldes.py)
-                elementos = MOLDES.expandir(lousa, spec) + elementos
+            elementos = MOLDES.montar(lousa, spec)  # molde, marca e rodapé (scripts/moldes.py)
             lousa.desenhar(elementos)
             lousa.conferir()
         except (ErroRoteiro, MOLDES.ErroMolde) as e:

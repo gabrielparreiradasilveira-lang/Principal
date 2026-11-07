@@ -147,5 +147,193 @@ class TesteCLI(unittest.TestCase):
         self.assertEqual(C.video_bloco("r60a_3_conteudo-2.png"), ("r60a", 3))
 
 
+class TesteCorComRotulo(unittest.TestCase):
+    def test_vermelho_sem_rotulo_reprova(self):
+        self.assertEqual(len(C.cor_sem_rotulo("- ENTRADA: {vermelho:SEM VALE-PEDÁGIO}")), 1)
+
+    def test_vermelho_com_xis_ou_palavra_passa(self):
+        self.assertEqual(C.cor_sem_rotulo("- ✗ ENTRADA: {vermelho:SEM VALE-PEDÁGIO}"), [])
+        self.assertEqual(C.cor_sem_rotulo("❌ {vermelho:SEM VALE}"), [])
+        self.assertEqual(C.cor_sem_rotulo("{vermelho:RODOVIA ERRADA:} PGBL NA SIMPLIFICADA"), [])
+        self.assertEqual(C.cor_sem_rotulo("⚠ {vermelho:ONDE QUEBRA:} BURACO SÓ ATRASA"), [])
+
+    def test_verde_sem_rotulo_reprova_e_com_check_passa(self):
+        self.assertEqual(len(C.cor_sem_rotulo("- SAÍDA: SÓ SOBRE O {verde:LUCRO}")), 1)
+        self.assertEqual(C.cor_sem_rotulo("- ✓ SAÍDA: SÓ SOBRE O {verde:LUCRO}"), [])
+        self.assertEqual(C.cor_sem_rotulo("{verde:REGRA:} O IR INCIDE SÓ SOBRE O RENDIMENTO"), [])
+
+    def test_numero_com_sinal_dispensa_rotulo(self):
+        self.assertEqual(C.cor_sem_rotulo("MARÇO {vermelho:−29,90%} · NOVEMBRO {verde:+15,90%}"), [])
+
+    def test_laranja_nao_precisa_de_rotulo(self):
+        self.assertEqual(C.cor_sem_rotulo("BASE {laranja:R$ 30.000}"), [])
+
+    def test_conta_cada_linha(self):
+        texto = "- ✓ {verde:CERTO}\n- {vermelho:SEM VALE}\n- {verde:LUCRO}"
+        self.assertEqual(len(C.cor_sem_rotulo(texto)), 2)
+
+
+class TesteTopicosCurtos(unittest.TestCase):
+    def test_topico_de_13_palavras_reprova(self):
+        t = "- VALE SÓ NA {laranja:DECLARAÇÃO COMPLETA} E, EM REGRA, COM INSS OU REGIME PRÓPRIO NO BRASIL"
+        self.assertEqual(len(C.topicos_longos(t)), 1)
+
+    def test_topico_de_12_palavras_passa(self):
+        self.assertEqual(C.topicos_longos("- O MESMO ÍNDICE, NO MESMO ANO: O RESULTADO FINAL ESCONDE A VIAGEM"), [])
+
+    def test_numerado_e_subtopico_contam(self):
+        t = ("3. LIQUIDEZ → CASAR O PRAZO DO ATIVO COM O OBJETIVO · RESERVA EM ATIVO LÍQUIDO\n"
+             "  - UM SUBTÓPICO COMPRIDO DEMAIS COM MUITAS PALAVRAS PARA UMA LINHA SÓ DA LOUSA")
+        self.assertEqual(len(C.topicos_longos(t)), 2)
+
+    def test_numero_nao_conta_como_palavra(self):
+        t = "- RETORNOS DE 3 ANOS: A = 6 · 10 · 14 · B = 2 · 10 · 18 · C = 4 · 12 · 20"
+        self.assertEqual(C.topicos_longos(t), [])
+
+    def test_linha_sem_marcador_nao_e_topico(self):
+        t = "{ciano:TARIFA DA SAÍDA, NAS DUAS:} REGRESSIVO 35% → 10% PELO TEMPO DE CADA APORTE · PROGRESSIVO"
+        self.assertEqual(C.topicos_longos(t), [])
+
+
+class TesteReferencia(unittest.TestCase):
+    def test_referencia_com_descricao_e_identificador(self):
+        self.assertTrue(C.referencia_ok("GARANTIA DO FUNDO GARANTIDOR DE CRÉDITOS (FGC.ORG.BR, NOV./2026)"))
+        self.assertTrue(C.referencia_ok("LEI DO IR DA PREVIDÊNCIA (LEI 11.053/2004)"))
+
+    def test_referencia_so_com_codigo_reprova(self):
+        self.assertFalse(C.referencia_ok("LEI 11.053/2004"))
+        self.assertFalse(C.referencia_ok("(LEI 11.053/2004)"))
+        self.assertFalse(C.referencia_ok("LEI (11.053/2004)"))
+        self.assertFalse(C.referencia_ok(""))
+
+
+def lousa(saida, **campos):
+    return dict({"saida": saida, "molde": "topicos", "referencia": "PROGRAMA DA PROVA C-PRO R (ITEM 4.5)"}, **campos)
+
+
+def exercicio(saida, **campos):
+    base = {"saida": saida, "molde": "exercicio", "referencia": "PROGRAMA DA PROVA C-PRO R (ITEM 4.5)",
+            "premissas": "VALORES HIPOTÉTICOS", "conclusao": "LIMITE POR CONGLOMERADO → DIVIDIR REDUZ O RISCO",
+            "pergunta": "QUANTO FICA DESCOBERTO?"}
+    return dict(base, **campos)
+
+
+class TesteRegrasDaAula(unittest.TestCase):
+    def aula(self):
+        return [lousa("r60a_1_abertura.png", legenda=True), exercicio("r60a_4_resolucao.png"),
+                lousa("r60b_1_abertura.png"), exercicio("r60b_4_resolucao.png", sintese="A → B")]
+
+    def test_aula_completa_sem_pendencias(self):
+        pend, _ = C.regras_da_aula(self.aula())
+        self.assertEqual(pend, [])
+
+    def test_primeira_lousa_sem_legenda(self):
+        aula = self.aula()
+        aula[0] = lousa("r60a_1_abertura.png")
+        pend, _ = C.regras_da_aula(aula)
+        self.assertTrue(any("legenda" in p for p in pend), pend)
+
+    def test_bloco_4_sem_pergunta(self):
+        aula = self.aula()
+        aula[1] = exercicio("r60a_4_resolucao.png", pergunta="")
+        pend, _ = C.regras_da_aula(aula)
+        self.assertTrue(any("r60a_4" in p and "pergunta" in p for p in pend), pend)
+
+    def test_pergunta_sem_interrogacao(self):
+        aula = self.aula()
+        aula[1] = exercicio("r60a_4_resolucao.png", pergunta="RESPONDA QUANTO FICA DESCOBERTO")
+        pend, _ = C.regras_da_aula(aula)
+        self.assertTrue(any("?" in p for p in pend), pend)
+
+    def test_ultimo_video_sem_sintese(self):
+        aula = self.aula()
+        aula[3] = exercicio("r60b_4_resolucao.png")
+        pend, _ = C.regras_da_aula(aula)
+        self.assertTrue(any("síntese" in p for p in pend), pend)
+
+    def test_sintese_so_e_exigida_no_ultimo_video(self):
+        pend, _ = C.regras_da_aula(self.aula())
+        self.assertFalse(any("r60a" in p and "síntese" in p for p in pend), pend)
+
+    def test_exercicio_sem_premissas(self):
+        aula = self.aula()
+        aula[1] = exercicio("r60a_4_resolucao.png", premissas="")
+        pend, _ = C.regras_da_aula(aula)
+        self.assertTrue(any("premissas" in p for p in pend), pend)
+
+    def test_conclusao_sem_mecanismo(self):
+        aula = self.aula()
+        aula[1] = exercicio("r60a_4_resolucao.png", conclusao={"texto": "B É MELHOR"})
+        pend, _ = C.regras_da_aula(aula)
+        self.assertTrue(any("regra" in p and "efeito" in p for p in pend), pend)
+
+    def test_conclusao_com_porque_passa(self):
+        aula = self.aula()
+        aula[1] = exercicio("r60a_4_resolucao.png", conclusao="B PAGA MENOS PORQUE A BASE É SÓ O RENDIMENTO")
+        pend, _ = C.regras_da_aula(aula)
+        self.assertEqual(pend, [])
+
+    def test_lousa_sem_referencia_e_pendencia(self):
+        aula = self.aula()
+        del aula[2]["referencia"]
+        pend, _ = C.regras_da_aula(aula)
+        self.assertTrue(any("r60b_1" in p and "referência" in p for p in pend), pend)
+
+    def test_referencia_false_vira_aviso(self):
+        aula = self.aula()
+        aula[2]["referencia"] = False
+        pend, avis = C.regras_da_aula(aula)
+        self.assertEqual(pend, [])
+        self.assertTrue(any("r60b_1" in a for a in avis), avis)
+
+    def test_referencia_mal_escrita_e_pendencia(self):
+        aula = self.aula()
+        aula[2]["referencia"] = ["LEI 11.053/2004"]
+        pend, _ = C.regras_da_aula(aula)
+        self.assertTrue(any("r60b_1" in p and "referência" in p for p in pend), pend)
+
+
+class TesteAbsolutas(unittest.TestCase):
+    def test_lista_frase_absoluta_da_lousa(self):
+        self.assertEqual(len(C.absolutas("- LCI É ISENTA DE IR\n- O RISCO CAI COM PRAZO")), 1)
+
+
+class TesteCLIRegrasNovas(unittest.TestCase):
+    ROTEIRO = ("# R60A · Teste (7 min)\n\n## 4. Resolução Rápida de Fixação — [1,3 min]\n"
+               "**[Ação na Lousa - Google Slides]**\n- Slide 4\n**[Locução Direta]**\n\"Fala sem relação.\"\n")
+
+    def rodar(self, spec):
+        with tempfile.TemporaryDirectory() as tmp:
+            r, j = os.path.join(tmp, "r.md"), os.path.join(tmp, "l.json")
+            open(r, "w", encoding="utf-8").write(self.ROTEIRO)
+            json.dump({"padrao": {"fundo": "preto"}, "slides": [spec]}, open(j, "w", encoding="utf-8"),
+                      ensure_ascii=False)
+            return subprocess.run([sys.executable, "-I", SCRIPT, r, j, "-o", tmp], capture_output=True, text=True)
+
+    def test_exercicio_completo_passa(self):
+        import test_moldes
+        spec = dict(test_moldes.EXERCICIO_V5, saida="r60a_4_resolucao.png", legenda=True)
+        out = self.rodar(spec)
+        self.assertEqual(out.returncode, 0, out.stdout + out.stderr)
+        self.assertNotIn("GARANTIDOR", out.stdout)  # a linha da fonte não é afirmação
+
+    def test_exercicio_sem_pergunta_reprova(self):
+        import test_moldes
+        spec = dict(test_moldes.EXERCICIO_V5, saida="r60a_4_resolucao.png", legenda=True)
+        del spec["pergunta"]
+        out = self.rodar(spec)
+        self.assertEqual(out.returncode, 1, out.stdout + out.stderr)
+        self.assertIn("pergunta", out.stdout)
+
+    def test_cor_sem_rotulo_reprova_na_cli(self):
+        import test_moldes
+        spec = dict(test_moldes.EXERCICIO_V5, saida="r60a_4_resolucao.png", legenda=True,
+                    conclusao={"texto": "{vermelho:B PERDE} PORQUE O LIMITE VALE POR CONGLOMERADO",
+                               "cor": "branco", "moldura": "amarelo"})
+        out = self.rodar(spec)
+        self.assertEqual(out.returncode, 1, out.stdout + out.stderr)
+        self.assertIn("cor sem rótulo", out.stdout)
+
+
 if __name__ == "__main__":
     unittest.main()

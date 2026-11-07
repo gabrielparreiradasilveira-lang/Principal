@@ -15,9 +15,7 @@ def renderizar(spec, salvar=None):
     spec = dict({"fundo": "preto"}, **spec)
     avisos = []
     L = LOUSA.Lousa(spec, RAIZ, avisos)
-    elementos = spec.get("elementos", [])
-    if spec.get("molde"):
-        elementos = MOLDES.expandir(L, spec) + elementos
+    elementos = MOLDES.montar(L, spec)
     L.desenhar(elementos)
     L.conferir()
     img = L.finalizar()

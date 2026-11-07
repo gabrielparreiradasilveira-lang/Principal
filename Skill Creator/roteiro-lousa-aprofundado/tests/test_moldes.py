@@ -11,21 +11,22 @@ DUAS_RODOVIAS = {
     "titulo": "DUAS RODOVIAS ATÉ A APOSENTADORIA",
     "colunas": [
         {"titulo": "RODOVIA VGBL", "desenho": "rodovia_pedagio", "rotulos": ["ENTRADA = APORTE", "SAÍDA = RESGATE"],
-         "texto": "- ENTRADA: {vermelho:SEM VALE-PEDÁGIO}\n- SAÍDA: PEDÁGIO SÓ SOBRE O {verde:LUCRO DA VIAGEM} "
+         "texto": "- ✗ ENTRADA: {vermelho:SEM VALE-PEDÁGIO}\n- ✓ SAÍDA: PEDÁGIO SÓ SOBRE O {verde:LUCRO DA VIAGEM} "
                   "(OS RENDIMENTOS)\n- MESMA CARGA, BASE MENOR: SÓ O QUE A CARGA GANHOU NO CAMINHO"},
         {"titulo": "RODOVIA PGBL", "desenho": "rodovia_pedagio", "rotulos": ["ENTRADA = APORTE", "SAÍDA = RESGATE"],
-         "texto": "- ENTRADA: {verde:VALE-PEDÁGIO} DE ATÉ {laranja:12% DA RENDA BRUTA TRIBUTÁVEL}\n- VALE SÓ NA "
-                  "{laranja:DECLARAÇÃO COMPLETA} E, EM REGRA, COM INSS OU REGIME PRÓPRIO\n- SAÍDA: PEDÁGIO SOBRE A "
-                  "{vermelho:CARGA INTEIRA} (VALOR TOTAL)"},
+         "texto": "- ✓ ENTRADA: {verde:VALE-PEDÁGIO} DE ATÉ {laranja:12% DA RENDA BRUTA TRIBUTÁVEL}\n"
+                  "  - SÓ NA {laranja:DECLARAÇÃO COMPLETA} E, EM REGRA, COM INSS OU REGIME PRÓPRIO\n"
+                  "- ✗ SAÍDA: PEDÁGIO SOBRE A {vermelho:CARGA INTEIRA} (VALOR TOTAL)"},
     ],
     "faixas": [
         "{ciano:TARIFA DA SAÍDA, NAS DUAS:} REGRESSIVO {laranja:35% → 10%} PELO TEMPO DE CADA APORTE · "
         "PROGRESSIVO: {laranja:TABELA DO IR}",
-        "{ciano:CARGA DE EXEMPLO:} APORTES DE R$ 50.000 QUE VIRARAM R$ 80.000 → BASE NO VGBL {verde:R$ 30.000} · "
-        "NO PGBL {vermelho:R$ 80.000}",
+        "{ciano:CARGA DE EXEMPLO:} APORTES DE R$ 50.000 QUE VIRARAM R$ 80.000 → BASE NO VGBL {laranja:R$ 30.000} · "
+        "NO PGBL {laranja:R$ 80.000}",
     ],
-    "destaque": {"texto": "{vermelho:RODOVIA ERRADA:} PGBL NA DECLARAÇÃO SIMPLIFICADA NÃO USA O VALE E AINDA PAGA "
+    "destaque": {"texto": "✗ {vermelho:RODOVIA ERRADA:} PGBL NA DECLARAÇÃO SIMPLIFICADA NÃO USA O VALE E AINDA PAGA "
                           "PEDÁGIO SOBRE A CARGA INTEIRA", "cor": "branco", "moldura": "vermelho"},
+    "referencia": ["IR DA PREVIDÊNCIA (LEI 11.053/2004)", "DEDUÇÃO DO PGBL (LEI 9.532/1997)"],
 }
 
 
@@ -143,6 +144,105 @@ class TesteMitoComApoio(unittest.TestCase):
         apoio = [e for e in elementos if e.get("id") == "apoio"]
         self.assertEqual(len(apoio), 1)
         self.assertGreater(apoio[0]["y"], 640)
+
+
+EXERCICIO_V5 = {
+    "molde": "exercicio", "semente": 588, "saida": "r58b_4_resolucao.png",
+    "titulo": "MESMO DINHEIRO, MUDA SÓ A CONCENTRAÇÃO",
+    "dados": "- CLIENTE COM {laranja:R$ 400.000} EM CDB, JÁ COM OS RENDIMENTOS\n"
+             "- FGC: ATÉ {laranja:R$ 250.000} POR CPF E POR CONGLOMERADO\n"
+             "  - TETO DE R$ 1 MILHÃO A CADA 4 ANOS",
+    "premissas": "VALORES HIPOTÉTICOS · X E Y SÃO DE CONGLOMERADOS DIFERENTES",
+    "cenarios": [
+        {"titulo": "A: TUDO NO BANCO X",
+         "passos": "- COBERTO: R$ 250.000\n- DESCOBERTO: R$ 400.000 − R$ 250.000 = R$ 150.000\n"
+                   "- O EXCESSO VAI PARA A LIQUIDAÇÃO",
+         "resultado": "37,5% FORA DO FGC"},
+        {"titulo": "B: R$ 200.000 EM X E EM Y",
+         "passos": "- CADA BANCO ABAIXO DE R$ 250.000\n- TOTAL ABAIXO DO TETO DE R$ 1 MILHÃO",
+         "resultado": "100% COBERTO"},
+    ],
+    "conclusao": {"texto": "{ciano:POR QUÊ:} O LIMITE VALE POR CONGLOMERADO → DIVIDIR TIROU R$ 150.000 DO RISCO",
+                  "cor": "branco", "moldura": "amarelo"},
+    "pergunta": "E SE X E Y FOSSEM DO MESMO CONGLOMERADO?",
+    "sintese": "RISCO = INCERTEZA → RÉGUA: SELIC → MAIS RISCO EXIGE MAIS RETORNO",
+    "referencia": "GARANTIA DO FUNDO GARANTIDOR DE CRÉDITOS (FGC.ORG.BR, NOV./2026)",
+}
+
+RODAPE = ("sintese", "pergunta", "legenda", "referencia")
+
+
+def por_id(elementos):
+    return {e.get("id"): e for e in elementos if e.get("id")}
+
+
+class TesteMarcaDoBloco(unittest.TestCase):
+    def test_marca_do_video_e_do_bloco_no_topo(self):
+        avisos, _, elementos = renderizar(dict(DUAS_RODOVIAS, saida="r50-1_2_duas-rodovias.png"))
+        self.assertEqual(avisos, [])
+        marca = por_id(elementos)["marca"]
+        self.assertEqual(marca["texto"], "R50-1 · 2/4")
+        self.assertLess(marca["y"], 120)
+
+    def test_sem_marca_quando_o_nome_foge_do_padrao(self):
+        _, _, elementos = renderizar(DUAS_RODOVIAS)
+        self.assertNotIn("marca", por_id(elementos))
+
+
+class TesteRodape(unittest.TestCase):
+    def test_rodape_em_ordem_e_abaixo_do_conteudo(self):
+        avisos, _, elementos = renderizar(EXERCICIO_V5)
+        self.assertEqual(avisos, [])
+        ids = por_id(elementos)
+        self.assertLess(ids["sintese"]["y"], ids["pergunta"]["y"])
+        self.assertLess(ids["pergunta"]["y"], ids["referencia"]["y"])
+        conteudo = [e["y"] for e in elementos if e.get("tipo") == "texto" and e.get("id") not in RODAPE]
+        self.assertLess(max(conteudo), ids["sintese"]["y"])
+
+    def test_rotulos_do_rodape(self):
+        _, _, elementos = renderizar(EXERCICIO_V5)
+        ids = por_id(elementos)
+        self.assertIn("PAUSE E RESPONDA", ids["pergunta"]["texto"])
+        self.assertIn("SÍNTESE:", ids["sintese"]["texto"])
+        self.assertIn("FONTE", ids["referencia"]["texto"])
+        self.assertIn("FGC.ORG.BR", ids["referencia"]["texto"])
+
+    def test_legenda_de_cores_com_simbolos(self):
+        _, _, elementos = renderizar(dict(MITO_COM_APOIO, legenda=True, referencia="X Y (Z)"))
+        legenda = por_id(elementos)["legenda"]["texto"]
+        self.assertIn("✓", legenda)
+        self.assertIn("✗", legenda)
+
+    def test_linha_longa_no_rodape_gera_aviso(self):
+        avisos, _, _ = renderizar(dict(EXERCICIO_V5, pergunta="E SE X E Y FOSSEM DO MESMO CONGLOMERADO FINANCEIRO, "
+                                                         "QUANTO DO DINHEIRO DO CLIENTE FICARIA FORA DA GARANTIA?"))
+        self.assertTrue(any("rodapé" in a and "pergunta" in a for a in avisos), avisos)
+
+    def test_exercicio_v5_cheio_e_sem_avisos(self):
+        import conferir_lousas  # noqa: E402
+        with tempfile.TemporaryDirectory() as tmp:
+            png = os.path.join(tmp, "r58b_4_resolucao.png")
+            avisos, _, _ = renderizar(EXERCICIO_V5, salvar=png)
+            self.assertEqual(avisos, [])
+            self.assertGreaterEqual(conferir_lousas.ocupacao(png), 0.70)
+            self.assertLessEqual(conferir_lousas.faixa_vazia(png), 120)
+
+    def test_premissas_logo_abaixo_dos_dados(self):
+        _, _, elementos = renderizar(EXERCICIO_V5)
+        ids = por_id(elementos)
+        self.assertIn("PREMISSAS", ids["premissas"]["texto"])
+        self.assertGreater(ids["premissas"]["y"], ids["dados"]["y"])
+        self.assertLess(ids["premissas"]["y"], ids["ec1"]["y"])
+
+    def test_lousa_sem_molde_tambem_ganha_rodape(self):
+        spec = {"saida": "r58c_2_grafico.png", "referencia": "TEORIA DE CARTEIRAS DE MARKOWITZ (ARTIGO DE 1952)",
+                "elementos": [{"tipo": "titulo", "texto": "GRÁFICO", "largura": 1000}]}
+        _, _, elementos = renderizar(spec)
+        self.assertIn("referencia", por_id(elementos))
+
+    def test_comparacao_com_referencia_sem_avisos(self):
+        avisos, _, _ = renderizar(dict(DUAS_RODOVIAS, saida="r50-1_2_duas-rodovias.png"))
+        self.assertEqual(avisos, [])
 
 
 if __name__ == "__main__":

@@ -10,8 +10,14 @@ Desenha cada lousa do JSON (o mesmo motor do lousa.py) e aponta como pendência:
 - faixa horizontal vazia de mais de 120 px (buraco no meio ou pé vazio);
 - 8 palavras seguidas iguais à fala do mesmo vídeo e bloco (a lousa complementa a fala, não a repete);
 - menção à apostila (ela é fonte interna e não aparece no material);
-- PNG cujo nome não segue {video}_{bloco}_{slug}.png (ex.: r60a_2_metafora.png, r50-1_4_resolucao.png).
-Vídeo sem as 4 lousas sai como aviso. Sai com código 1 se houver pendência.
+- PNG cujo nome não segue {video}_{bloco}_{slug}.png (ex.: r60a_2_metafora.png, r50-1_4_resolucao.png);
+- verde ou vermelho sem ✓/✗ ou palavra-rótulo na mesma linha (a cor nunca carrega o sentido sozinha);
+- tópico com mais de 12 palavras;
+- lousa sem referência, ou referência sem a descrição simples antes do identificador entre parênteses;
+- primeira lousa da aula sem a legenda das cores; Bloco 4 sem a pergunta de recuperação; último vídeo
+  sem a síntese da aula; exercício sem premissas ou com conclusão que não diz qual regra gerou a diferença.
+Vídeo sem as 4 lousas, referencia false e frase absoluta na lousa saem como aviso.
+Sai com código 1 se houver pendência.
 """
 import argparse
 import os
@@ -34,8 +40,16 @@ CANTOS = [(1560, 0, 1920, 190), (1600, 760, 1920, 1080)]  # logo X8 e webcam
 OCUPACAO_MIN = 0.70
 FAIXA_VAZIA_MAX = 120  # px: a amostra aprovada tem até 38; as lousas antigas rejeitadas, de 92 a 463
 N_PALAVRAS = 8
-NOME = re.compile(r"^(r\d{2,3}(?:-\d|[a-z]))_([1-4])_")
 PALAVRA = re.compile(r"[0-9A-ZÀ-Þ]+")
+N_TOPICO = 12  # palavras por tópico: uma ideia, palavra-chave na frente
+TOPICO = re.compile(r"^\s*(?:[-•]|\d{1,2}\.)\s+")
+MARCA_COR = re.compile(r"\{(vermelho|verde):([^{}]*)\}")
+SIMBOLOS = {"vermelho": "✗✘❌❎✖⚠↓", "verde": "✓✔✅☑↑"}
+ROTULOS = {"vermelho": {"ERRADO", "ERRADA", "ERRADOS", "ERRADAS", "ERRO", "FALSO", "FALSA", "MITO", "ALERTA",
+                        "CUIDADO", "ATENCAO"},
+           "verde": {"CERTO", "CERTA", "CORRETO", "CORRETA", "VERDADE", "VERDADEIRO", "VERDADEIRA", "REGRA"}}
+REFERENCIA = re.compile(r"^([^()]+)\(([^()]*\w[^()]*)\)\s*$")
+MECANISMO = re.compile(r"→|\bporque\b|\bpois\b", re.IGNORECASE)
 
 
 def ocupacao(png):
@@ -93,17 +107,103 @@ def repeticoes(lousa, fala, n=N_PALAVRAS):
 
 
 def video_bloco(nome_png):
-    m = NOME.match(os.path.basename(nome_png).lower())
-    return (m.group(1), int(m.group(2))) if m else None
+    return MOLDES.video_bloco(nome_png)
+
+
+def cor_sem_rotulo(texto):
+    """[(cor, linha)] das linhas com {verde:} ou {vermelho:} sem ✓/✗ (ou ⚠, ↑, ↓) nem palavra-rótulo.
+    Número com sinal (+15,90%, −29,90%) já diz o sentido sem a cor."""
+    out = []
+    for linha in texto.split("\n"):
+        palavras = set(normalizar(linha))
+        for cor in ("vermelho", "verde"):
+            trechos = [t.strip() for c, t in MARCA_COR.findall(linha) if c == cor]
+            sem_sinal = [t for t in trechos if not (t and t[0] in "+−-")]
+            if sem_sinal and not (any(x in linha for x in SIMBOLOS[cor]) or palavras & ROTULOS[cor]):
+                out.append((cor, linha.strip()))
+    return out
+
+
+def topicos_longos(texto, n=N_TOPICO):
+    """[(palavras, linha)] dos tópicos ("- ", "• ", "1. ", com ou sem recuo) com mais de n palavras (números não contam)."""
+    out = []
+    for linha in texto.split("\n"):
+        m = TOPICO.match(linha)
+        if not m:
+            continue
+        corpo = re.sub(r"\{[a-zA-Z#0-9]+:", " ", linha[m.end():]).replace("}", " ").replace("\u00a0", " ")
+        corpo = re.sub(r"\[([^\]]+)\]", r" \1 ", corpo)
+        k = sum(1 for t in corpo.split() if any(c.isalpha() for c in t))  # número não conta como palavra
+        if k > n:
+            out.append((k, linha.strip()))
+    return out
+
+
+def referencia_ok(r):
+    """Descrição que qualquer aluno entende (2 palavras ou mais) e o identificador entre parênteses:
+    "LEI DO IR DA PREVIDÊNCIA (LEI 11.053/2004)"."""
+    m = REFERENCIA.match(str(r).strip())
+    return bool(m) and sum(1 for t in m.group(1).split() if any(c.isalpha() for c in t)) >= 2
+
+
+def absolutas(texto):
+    """Linhas da lousa com frase absoluta, para o teste do contraexemplo."""
+    return [l.strip() for l in texto.split("\n") if CR.ABSOLUTA.search(l)]
+
+
+def regras_da_aula(specs):
+    """Regras que dependem da posição da lousa na aula; devolve (pendências, avisos)."""
+    pend, avis = [], []
+    nomes = [s.get("saida") or f"lousa_{n:02d}.png" for n, s in enumerate(specs, 1)]
+    vbs = [video_bloco(nm) for nm in nomes]
+    videos = [vb[0] for vb in vbs if vb]
+    if specs and not specs[0].get("legenda"):
+        pend.append(f"{nomes[0]}: a primeira lousa da aula leva a legenda das cores (\"legenda\": true)")
+    bloco4, com_pergunta, com_sintese = {}, set(), set()
+    for spec, nome, vb in zip(specs, nomes, vbs):
+        r = spec.get("referencia")
+        if r is False:
+            avis.append(f"{nome}: sem referência (referencia false); confirme que a lousa não traz norma, "
+                        "dado nem conceito técnico")
+        elif not r:
+            pend.append(f"{nome}: sem referência; escreva \"referencia\": \"DESCRIÇÃO SIMPLES (IDENTIFICADOR)\"")
+        else:
+            for x in MOLDES.referencias(spec):
+                if not referencia_ok(x):
+                    pend.append(f"{nome}: referência \"{x}\" fora do formato \"DESCRIÇÃO SIMPLES (IDENTIFICADOR)\", "
+                                "que qualquer aluno entende (ex.: LEI DO IR DA PREVIDÊNCIA (LEI 11.053/2004))")
+        if vb and vb[1] == 4:
+            bloco4.setdefault(vb[0], []).append(nome)
+            p = str(spec.get("pergunta") or "").strip()
+            if p.endswith("?"):
+                com_pergunta.add(vb[0])
+            elif p:
+                pend.append(f"{nome}: a pergunta de recuperação termina com \"?\"")
+            if str(spec.get("sintese") or "").strip():
+                com_sintese.add(vb[0])
+        if spec.get("molde") == "exercicio":
+            if not str(spec.get("premissas") or "").strip():
+                pend.append(f"{nome}: exercício sem premissas (hipotético ou real, bruto ou líquido, o que ficou de fora)")
+            c = spec.get("conclusao")
+            c = c.get("texto", "") if isinstance(c, dict) else str(c or "")
+            if not MECANISMO.search(c):
+                pend.append(f"{nome}: a conclusão não diz qual regra produziu a diferença; escreva regra → efeito "
+                            "(ou use \"porque\")")
+    for v, ns in bloco4.items():
+        if v not in com_pergunta:
+            pend.append(f"{ns[-1]}: o Bloco 4 do {v.upper()} fecha com a pergunta de recuperação (\"pergunta\": \"...?\")")
+    final = videos[-1] if videos else None
+    if final in bloco4 and final not in com_sintese:
+        pend.append(f"{bloco4[final][-1]}: o último vídeo da aula ({final.upper()}) fecha com a síntese da aula "
+                    "(\"sintese\")")
+    return pend, avis
 
 
 def desenhar(spec, pasta):
     """Desenha uma lousa; devolve (avisos, imagem, elementos expandidos)."""
     avisos = []
     L = LOUSA.Lousa(spec, pasta, avisos)
-    elementos = spec.get("elementos", [])
-    if spec.get("molde"):
-        elementos = MOLDES.expandir(L, spec) + elementos
+    elementos = MOLDES.montar(L, spec)
     L.desenhar(elementos)
     L.conferir()
     return avisos, L.finalizar(), elementos
@@ -140,8 +240,9 @@ def main(argv=None):
     os.makedirs(destino, exist_ok=True)
     falas = falas_do_roteiro(a.roteiro)
     pend, avis, blocos_por_video = [], [], {}
+    specs = LOUSA.carregar(a.lousas)
     print("=== Conferência das lousas ===\n")
-    for n, spec in enumerate(LOUSA.carregar(a.lousas), 1):
+    for n, spec in enumerate(specs, 1):
         nome = spec.get("saida") or f"lousa_{n:02d}.png"
         vb = video_bloco(nome)
         try:
@@ -159,8 +260,17 @@ def main(argv=None):
             pend.append(f"{nome}: faixa vazia de {fv} px (máximo {FAIXA_VAZIA_MAX}); distribua ou acrescente conteúdo")
         if oc < OCUPACAO_MIN:
             pend.append(f"{nome}: ocupa só {oc:.0%} da altura útil (mínimo {OCUPACAO_MIN:.0%}); acrescente conteúdo")
-        if "APOSTILA" in normalizar(texto_da_lousa(els)):
+        texto = texto_da_lousa(els)
+        if "APOSTILA" in normalizar(texto):
             pend.append(f"{nome}: cita a apostila; a lousa nunca menciona a apostila")
+        for cor, linha in cor_sem_rotulo(texto):
+            pend.append(f"{nome}: cor sem rótulo ({cor} em \"{linha[:90]}\"); junte ✓ ou ✗ (⚠ no alerta) "
+                        "ou uma palavra-rótulo (CERTO, REGRA, ERRADO, ALERTA)")
+        for k, linha in topicos_longos(texto):
+            pend.append(f"{nome}: tópico com {k} palavras (máximo {N_TOPICO}): \"{linha[:90]}\"; "
+                        "uma ideia por tópico, palavra-chave na frente")
+        for linha in absolutas(texto_da_lousa([e for e in els if e.get("id") != "referencia"])):  # fonte não é afirmação
+            avis.append(f"{nome}: frase absoluta na lousa, faça o teste do contraexemplo: \"{linha[:90]}\"")
         if not vb:
             pend.append(f"{nome}: nome fora do padrão {{video}}_{{bloco}}_{{slug}}.png")
             continue
@@ -172,6 +282,8 @@ def main(argv=None):
             continue
         for r in repeticoes(texto_da_lousa(els), fala):
             pend.append(f"{nome}: repete a fala (\"{r.lower()}\"); a lousa deve complementar, não copiar")
+    p2, a2 = regras_da_aula(specs)
+    pend, avis = pend + p2, avis + a2
     for v, bs in sorted(blocos_por_video.items()):
         if bs != {1, 2, 3, 4}:
             avis.append(f"{v.upper()}: lousas dos blocos {sorted(bs)}; o esperado é uma por bloco (1 a 4)")

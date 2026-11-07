@@ -91,7 +91,7 @@ Mostre o plano depois do diagnóstico, numa tabela; a minutagem vem do conferido
 
 ## Etapa 4 — Precisão (antes de dar a fala e a lousa por prontas)
 
-- **Teste do contraexemplo.** Toda frase absoluta ("sempre", "nunca", "garante", "elimina", "isento") precisa sobreviver a um contraexemplo. Ex.: "LCI é isenta de IR" cai diante de pessoa jurídica; a frase certa é "LCI é isenta para pessoa física". O contraexemplo também precisa ser verdadeiro: confirme-o antes de mudar o texto. Se a frase vale com uma condição, mantenha-a e acrescente a condição. Vale para a fala **e para a lousa**. O `scripts/conferir_roteiro.py` lista as principais; a lista é um mínimo.
+- **Teste do contraexemplo.** Toda frase absoluta ("sempre", "nunca", "garante", "elimina", "isento") precisa sobreviver a um contraexemplo. Ex.: "LCI é isenta de IR" cai diante de pessoa jurídica; a frase certa é "LCI é isenta para pessoa física". O contraexemplo também precisa ser verdadeiro: confirme-o antes de mudar o texto. Se a frase vale com uma condição, mantenha-a e acrescente a condição. Vale para a fala **e para a lousa**. O `scripts/conferir_roteiro.py` lista as principais da fala e o `scripts/conferir_lousas.py`, as da lousa; a lista é um mínimo.
 - **Termo vago.** "Ajustado", "relativo", "proporcional": diga a quê e por qual medida.
 - **Declare toda simplificação** na fala ou na lousa ("corretagem desconsiderada").
 - **Normas, alíquotas, prazos e limites mudam.** Confira na fonte oficial (`references/fontes.md`). Use `references/pontos-volateis.md` como ponto de partida datado. O que não for confirmado fica marcado **`[VERIFICAR]` no próprio texto** e listado na mensagem de entrega. Sem pesquisa na web, só linhas VERIFICADO com menos de 90 dias vão sem marca.
@@ -138,7 +138,7 @@ Cada bloco traz o tempo no título e as duas marcações, cada uma sozinha na li
 ### 4. Resolução Rápida de Fixação
 - Dois cenários que diferem em **um único atributo decisivo**, com números hipotéticos declarados. O exercício treina a regra deste vídeo.
 - Quando houver cálculo, use a tabela `Passo | Teclas na HP12C | Visor | O que significa`, com cada visor recalculado (o professor faz a conta ao vivo no emulador).
-- Fala: a interpretação dos números; o **resumo do vídeo para a prova** (o único resumo); a ponte para o próximo vídeo ou, no último, para a próxima aula.
+- Fala: a interpretação dos números; o **resumo do vídeo para a prova** (o único resumo); o convite para pausar e responder a pergunta da lousa ("pause e responda a pergunta da tela") e, depois da pausa, a resposta em uma frase; a ponte para o próximo vídeo ou, no último, para a próxima aula. No último vídeo, a fala liga os vídeos da aula em uma frase; a lousa traz a síntese escrita.
 
 Não há bloco de pegadinhas nem Nota de bastidor: o professor não usa.
 
@@ -150,10 +150,19 @@ Leia `references/lousas.md` antes da primeira lousa: tem o padrão visual, os mo
 
 | Bloco | Molde | O que a lousa traz |
 |---|---|---|
-| 1. Abertura | `mito_verdade` com `apoio` | mito riscado, verdade emoldurada, desenho; no apoio, o caso real em números e para quem a regra vale |
+| 1. Abertura | `mito_verdade` com `apoio` | mito riscado, verdade emoldurada, desenho; no apoio, o caso real em números e para quem a regra vale (na primeira lousa da aula, também a legenda das cores) |
 | 2. Metáfora | `comparacao` ou `metafora` | a metáfora **sempre desenhada** (crie o desenho se faltar), o mapa elemento → conceito e o que a fala não detalha (condição, tarifa, exemplo diferente) |
 | 3. Conteúdo | `topicos`, `colunas` ou `comparacao` | fórmula na forma resumida, casos-limite com números, o vizinho que confunde, a regra que cai na prova |
-| 4. Resolução | `exercicio` | os cenários, as contas resumidas e o **resultado** (sem as teclas da HP, que ficam no roteiro) |
+| 4. Resolução | `exercicio` | as premissas, os cenários, as contas resumidas, o **resultado** (sem as teclas da HP, que ficam no roteiro), a conclusão regra → efeito e a pergunta de recuperação |
+
+**Regras de toda lousa** (detalhes em `references/lousas.md`; o conferidor cobra):
+
+1. **Premissas à vista.** Todo exercício tem `premissas`: valores hipotéticos ou reais, bruto ou líquido quando houver retorno, o que ficou de fora (IR, custos, inflação) e a condição que o cenário exige. Exemplo com números fora do exercício leva a condição na própria linha.
+2. **Regra → efeito.** Ao comparar dois cenários, a conclusão diz qual regra produziu a diferença, não só o resultado.
+3. **A cor nunca sozinha.** Verde com ✓ ou palavra-rótulo (CERTO, REGRA); vermelho com ✗, ⚠ ou ERRADO, FALSO, ALERTA. Número neutro em laranja. A primeira lousa da aula leva a `legenda` das cores.
+4. **Onde o aluno está.** A marca `R58A · 2/4` sai sozinha no topo. O Bloco 4 de cada vídeo fecha com a `pergunta` de recuperação ("PAUSE E RESPONDA: …?"), e o do último vídeo, também com a `sintese` da aula em uma linha.
+5. **Tópico curto.** Uma ideia por tópico, palavra-chave na frente, no máximo 12 palavras (números não contam); passou disso, vira subtópico.
+6. **Referência que qualquer aluno entende.** Toda lousa com conceito técnico, norma ou dado leva `referencia`: `"DESCRIÇÃO SIMPLES (IDENTIFICADOR)"`, como `"IR DA PREVIDÊNCIA (LEI 11.053/2004)"`. Só o que você consultou; nunca a apostila; história ou caso ilustrativo não leva referência.
 
 Quantidade de informação: a tela útil ocupada, letra do corpo entre 30 e 34 px (no molde `exercicio`, até 40 px nos passos e 44 px no resultado, que precisam ser lidos de longe). Referência aprovada pelo professor: a lousa "Duas rodovias" em `references/lousas.md`.
 
@@ -161,7 +170,7 @@ Escreva um JSON por aula (`rXX-lousas.json`), com `"padrao": {"fundo": "preto"}`
 
 `python3 <pasta desta skill>/scripts/conferir_lousas.py roteiro.md rXX-lousas.json -o <pasta das lousas>`
 
-Ele desenha tudo e reprova: aviso do gerador (texto cortado, canto do logo ou da webcam invadido, letra abaixo de 28 px), ocupação abaixo de 70%, faixa vazia de mais de 120 px (no meio ou no pé da lousa), repetição da fala, lousa sem a fala correspondente no roteiro e nome fora do padrão. Corrija até zerar. **Depois, abra cada PNG** (uma prancha com todas ajuda) e confira: nada sobreposto, seta no lugar, número igual ao da fala.
+Ele desenha tudo e reprova: aviso do gerador (texto cortado, canto do logo ou da webcam invadido, letra abaixo de 28 px, linha do rodapé que quebra), ocupação abaixo de 70%, faixa vazia de mais de 120 px (no meio ou no pé da lousa), repetição da fala, lousa sem a fala correspondente no roteiro, nome fora do padrão, menção à apostila e as seis regras acima (cor sem rótulo, tópico com mais de 12 palavras, lousa sem referência ou com referência só em código, primeira lousa sem legenda, Bloco 4 sem pergunta, último vídeo sem síntese, exercício sem premissas ou sem regra → efeito). Corrija até zerar. As frases absolutas da lousa saem como aviso: faça o teste do contraexemplo em cada uma. **Depois, abra cada PNG** (uma prancha com todas ajuda) e confira: nada sobreposto, seta no lugar, número igual ao da fala.
 
 ## Etapa 7 — Checklist de entrega
 
@@ -178,7 +187,7 @@ Feche a resposta, **na conversa** (não no documento), com:
 - Por item do PD: quais dos 9 campos do inventário entraram na fala e quais na lousa.
 - Caso real de cada vídeo, com data e fonte.
 - A analogia diz onde quebra, em cada vídeo? (sim/não)
-- Frases absolutas testadas contra contraexemplo e o resultado.
+- Frases absolutas testadas contra contraexemplo e o resultado, da fala e da lousa.
 - **Fontes e atualização:** as fontes consultadas com a data; divergências apostila × norma (só aqui, na conversa; nunca no material); os `[VERIFICAR]` pendentes.
 - Os links (Etapa 8).
 
@@ -213,7 +222,7 @@ Na conversa: diagnóstico, plano, checklist e os links que as ferramentas devolv
 
 - **Mais completo não é vídeo mais longo.** Conteúdo a mais vira mais um vídeo.
 - **Lousa não é cópia da fala** nem resumo dela: é o segundo canal, com o que a fala não mostra.
-- **Lousa sem fonte não entra.** Número, regra ou caso que você não confirmou fica fora da lousa.
+- **Lousa sem fonte não entra.** Número, regra ou caso que você não confirmou fica fora da lousa; o que entra leva a `referencia` no rodapé.
 - **Sem bateria de questões, simulado ou lista de exercícios.** Há uma pergunta-gatilho por Bloco 3 e um exercício resolvido no Bloco 4.
 - **Nomes de certificação atuais:** CPA, C-Pro R e C-Pro I desde jan/2026; CPA-10, CPA-20 e CEA foram encerradas em dez/2025. Gestão: CFG, CGA e CGE.
 - **Nunca cite a apostila** no material (fala, lousa, cabeçalho). Ela orienta a pesquisa, mas não aparece.

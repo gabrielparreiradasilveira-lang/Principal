@@ -6,13 +6,27 @@ Cada slide com "molde" vira a lista de elementos comum do lousa.py (titulo, text
 O tamanho da letra é o maior que cabe (de 40 até o mínimo de 28 px do padrão X8); se nem 28 couber,
 sai um aviso pedindo para dividir a lousa. Elementos extras em "elementos" são desenhados por cima.
 
-Moldes: mito_verdade, metafora, topicos, colunas, pegadinhas, hp12c (campos em references/formato.md).
+Moldes: mito_verdade, comparacao, exercicio, metafora, topicos, colunas, pegadinhas, hp12c
+(campos em references/lousas.md).
+
+montar() junta tudo: a marca do vídeo e do bloco no topo ("R58A · 2/4", tirada do nome do PNG), o rodapé
+(síntese da aula, pergunta de recuperação, legenda das cores e referência) e o molde, que se acomoda acima
+do rodapé.
 """
+import os
+import re
+
 import desenhos as DES
 
-TOPO, BASE = 24, 1040         # título começa em y 24; nada passa de y 1040
+TOPO, BASE = 24, 1040         # título começa em y 24; nada passa de y 1040 (com rodapé, o molde para acima dele)
+BASE_LOUSA = BASE
 X0, X1 = 80, 1520             # faixa do texto: livre do logo (x >= 1560) e da webcam (x >= 1600)
 TAMS = [40, 38, 36, 34, 32, 30, 28]
+NOME_LOUSA = re.compile(r"^(r\d{2,3}(?:-\d|[a-z]))_([1-4])_")  # {video}_{bloco}_{slug}.png
+MARCA_X1 = 1540               # a marca termina antes do canto do logo (x >= 1560)
+RODAPE_X0, RODAPE_X1 = 40, 1590  # rodapé alinhado ao título e livre da webcam (x >= 1600)
+LEGENDA = ("{ciano:CORES:} ✓ {verde:VERDE = CERTO} · ✗ {vermelho:VERMELHO = ERRADO OU ALERTA} · "
+           "{laranja:LARANJA = DESTAQUE}")
 
 
 class ErroMolde(Exception):
@@ -35,7 +49,7 @@ def _maior_que_cabe(L, montar, cabe, tams=TAMS):
 
 def _titulo(L, spec, els):
     el = {"tipo": "titulo", "texto": spec.get("titulo", ""), "tamanho": spec.get("tamanho_titulo", 42),
-          "largura": 1500}
+          "largura": spec.get("largura_titulo", 1500)}
     _, h = _medir(L, el, "titulo")
     els.append(el)
     return TOPO + h + el["tamanho"] * 0.45 + 40  # sublinhado + respiro
@@ -57,6 +71,63 @@ def _destaque(L, d, els, x=90, largura=1380):
 def _prender(texto):
     """Valor em reais não quebra no meio da linha ("R$" e o número ficam juntos)."""
     return texto.replace("R$ ", "R$\u00a0")
+
+
+def video_bloco(nome):
+    """('r60a', 2) para 'r60a_2_metafora.png'; None se o nome foge do padrão {video}_{bloco}_{slug}.png."""
+    m = NOME_LOUSA.match(os.path.basename(str(nome or "")).lower())
+    return (m.group(1), int(m.group(2))) if m else None
+
+
+def referencias(spec):
+    """As referências do campo "referencia" (texto ou lista); vazia se o campo falta ou é false."""
+    r = spec.get("referencia")
+    if not r:
+        return []
+    return [r] if isinstance(r, str) else [str(x) for x in r]
+
+
+def _marca(L, spec, els):
+    """Marca do vídeo e do bloco no topo, à direita do título; devolve a largura dela (0 se não houver)."""
+    vb = video_bloco(spec.get("saida"))
+    if not vb:
+        return 0
+    el = {"tipo": "texto", "id": "marca", "texto": f"{vb[0].upper()} · {vb[1]}/4", "tamanho": 28, "cor": "ciano",
+          "lista": False, "y": TOPO + 10}
+    w = _medir(L, el)[0]
+    el["x"] = MARCA_X1 - w
+    els.append(el)
+    return w
+
+
+def _rodape(L, spec, els):
+    """Linhas de largura total no pé da lousa, de cima para baixo: síntese da aula, pergunta de recuperação,
+    legenda das cores e referência. Devolve o y onde o rodapé começa (BASE se não houver rodapé)."""
+    linhas = []
+    if spec.get("sintese"):
+        linhas.append(("sintese", "{ciano:SÍNTESE:} " + spec["sintese"], 30))
+    if spec.get("pergunta"):
+        linhas.append(("pergunta", "{laranja:PAUSE E RESPONDA:} " + spec["pergunta"], 30))
+    if spec.get("legenda"):
+        linhas.append(("legenda", LEGENDA, 28))
+    refs = referencias(spec)
+    if refs:
+        linhas.append(("referencia", "{ciano:FONTE:} " + " · ".join(refs), 28))
+    if not linhas:
+        return BASE
+    y, novos = BASE, []
+    for id_, texto, tam in reversed(linhas):
+        el = {"tipo": "texto", "id": id_, "texto": _prender(texto), "x": RODAPE_X0, "largura": RODAPE_X1 - RODAPE_X0,
+              "tamanho": tam, "lista": False}
+        h = _medir(L, el)[1]
+        if h > _medir(L, dict(el, texto="X"))[1] + 4:
+            L.avisos.append(f"rodapé: {id_} passa de uma linha; encurte (cada linha do rodapé cabe em uma)")
+        y -= h
+        el["y"] = y
+        novos.insert(0, el)
+        y -= 10
+    els += novos
+    return y + 10
 
 
 def _aspecto(nome):
@@ -263,6 +334,8 @@ def comparacao(L, spec, els):
         raise ErroMolde("o molde comparacao pede exatamente 2 colunas")
     pos = [(X0, 820, 130), (1000, 860, 1050)]  # x do texto, largura do texto, x do desenho
     y_sub, y_des, w_des, y_rot, y_txt, fim_txt = 132, 196, 660, 380, 432, 735
+    folga = BASE_LOUSA - BASE  # altura do rodapé: as colunas e as faixas sobem juntas
+    fim_txt -= folga
     for i, ((x, w, xd), c) in enumerate(zip(pos, cols), 1):
         els += [{"tipo": "subtitulo", "id": f"cc{i}", "texto": c["titulo"], "x": x, "y": y_sub, "tamanho": 40},
                 {"tipo": "sublinhar", "alvo": f"cc{i}"}]
@@ -297,7 +370,7 @@ def comparacao(L, spec, els):
     topo_destaque = _destaque(L, d, els, x=100, largura=1440) if d else BASE
     faixas = spec.get("faixas", [])
     if faixas:
-        y0 = max(750, y_txt + hmax + 20)
+        y0 = max(750 - folga, y_txt + hmax + 20)
 
         def montar_f(t):
             out, y = [], y0
@@ -328,6 +401,11 @@ def exercicio(L, spec, els):
         _, ds = _maior_que_cabe(L, montar_d, lambda es, t: _medir(L, es[0])[1] <= 230, [34, 33, 32, 31, 30])
         els += ds
         y += _medir(L, ds[0])[1] + 50
+    if spec.get("premissas"):  # o que o exemplo supõe e o que deixa de fora
+        pr = {"tipo": "texto", "id": "premissas", "texto": _prender("{ciano:PREMISSAS:} " + spec["premissas"]),
+              "x": X0, "y": y - 20, "largura": 1440, "tamanho": 30, "entrelinha": 1.38, "lista": False}
+        els.append(pr)
+        y = pr["y"] + _medir(L, pr)[1] + 50
     cen = spec.get("cenarios", [])
     if len(cen) != 2:
         raise ErroMolde("o molde exercicio pede exatamente 2 cenários")
@@ -407,6 +485,27 @@ def hp12c(L, spec, els):
 
 MOLDES = {"mito_verdade": mito_verdade, "comparacao": comparacao, "exercicio": exercicio, "metafora": metafora, "topicos": topicos, "colunas": colunas,
           "pegadinhas": pegadinhas, "hp12c": hp12c}
+
+
+def montar(L, spec):
+    """Todos os elementos da lousa: o molde (acima do rodapé), a marca do vídeo e do bloco, o rodapé e, por
+    cima, os elementos extras do campo "elementos"."""
+    global BASE
+    els = []
+    w = _marca(L, spec, els)
+    topo = _rodape(L, spec, els)
+    if spec.get("molde"):
+        s = dict(spec)
+        if w:  # o título termina antes da marca
+            s["largura_titulo"] = min(float(spec.get("largura_titulo", 1500)), MARCA_X1 - w - 80)
+        guarda = BASE
+        if topo < BASE:  # com rodapé, o molde termina 18 px acima dele
+            BASE = topo - 18
+        try:
+            els = expandir(L, s) + els
+        finally:
+            BASE = guarda
+    return els + list(spec.get("elementos", []))
 
 
 def expandir(L, spec):
