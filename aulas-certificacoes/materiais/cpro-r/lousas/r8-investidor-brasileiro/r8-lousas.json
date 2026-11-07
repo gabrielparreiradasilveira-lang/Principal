@@ -1,0 +1,382 @@
+{
+  "padrao": {
+    "fundo": "preto"
+  },
+  "slides": [
+    {
+      "saida": "r8a_1_rendimento-ou-confianca.png",
+      "semente": 801,
+      "molde": "mito_verdade",
+      "titulo": "ESCOLHE PELO RENDIMENTO?",
+      "mitos": [
+        "ESCOLHE O QUE RENDE MAIS",
+        "POUPAR JÁ É INVESTIR"
+      ],
+      "verdade": "INVESTE ONDE {laranja:CONFIA}",
+      "desenho": "cofrinho",
+      "apoio": "- {ciano:RAIO X 9ª EDIÇÃO (ANBIMA/DATAFOLHA, ABR/2026):} 36% INVESTEM (31% EM 2021)\n- DE QUEM ECONOMIZOU EM 2025: {verde:38% APLICARAM} · {vermelho:19% SÓ GUARDARAM}\n- POUPANÇA: {laranja:22% DA POPULAÇÃO}, AINDA O INVESTIMENTO MAIS USADO\n- POPULAÇÃO QUE ECONOMIZOU NO ANO: 27% (2021) → 33% (2025)\n- {ciano:REGRA:} O OBJETIVO DEFINE {verde:PRODUTO, PRAZO E RISCO}"
+    },
+    {
+      "saida": "r8a_2_andares-e-degrau.png",
+      "semente": 802,
+      "molde": "comparacao",
+      "titulo": "OS ANDARES E O DEGRAU",
+      "colunas": [
+        {
+          "titulo": "CADA OBJETIVO, UM ANDAR",
+          "desenho": "predio_andares",
+          "rotulos": [
+            "PERTO",
+            "NO ALTO"
+          ],
+          "texto": "- 1º ANDAR → {verde:RESERVA DE EMERGÊNCIA}: LIQUIDEZ\n- ANDARES DO MEIO → BENS, EDUCAÇÃO, NEGÓCIO\n- ÚLTIMO ANDAR → {laranja:APOSENTADORIA}: LONGO PRAZO"
+        },
+        {
+          "titulo": "PARADO NO DEGRAU",
+          "desenho": "escada_desce",
+          "rotulos": [
+            "CONHECIDO",
+            "DESCE"
+          ],
+          "texto": "- DEGRAU CONHECIDO → {laranja:POUPANÇA E CONTA CORRENTE}\n- \"PARECE SEGURO\" → {vermelho:NÃO É EFICIENTE}\n- SAIR AOS POUCOS → {verde:MIGRAÇÃO GRADUAL}"
+        }
+      ],
+      "faixas": [
+        "{ciano:FRASE PARA O CLIENTE:} O BRASILEIRO INVESTE ONDE CONFIA, NÃO NECESSARIAMENTE ONDE RENDE MAIS"
+      ],
+      "destaque": {
+        "texto": "{vermelho:ONDE QUEBRA:} A ESCADA DESCE SEMPRE NO MESMO RITMO · A INFLAÇÃO {laranja:MUDA DE VELOCIDADE} A CADA ANO",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
+    },
+    {
+      "saida": "r8a_3_retrato-objetivos-destino.png",
+      "semente": 803,
+      "molde": "colunas",
+      "titulo": "RETRATO, OBJETIVOS E DESTINO",
+      "topo": "{ciano:6 FATORES:} POUCA EDUCAÇÃO FINANCEIRA · {laranja:SEGURANÇA E LIQUIDEZ} · DESCONFIANÇA DO COMPLEXO · MEMÓRIA DOS {laranja:JUROS ALTOS} · DIGITALIZAÇÃO · DESIGUALDADE",
+      "colunas": [
+        {
+          "titulo": "OBJETIVO → PRAZO TÍPICO",
+          "texto": "- RESERVA DE EMERGÊNCIA → {verde:CURTO}, LIQUIDEZ DIÁRIA\n- BENS (CARRO, CASA, REFORMA, VIAGEM) → {laranja:MÉDIO}\n- EDUCAÇÃO E NEGÓCIO → O PRAZO DA META\n- APOSENTADORIA → {vermelho:LONGO}: RENDA COMPLEMENTAR"
+        },
+        {
+          "titulo": "QUEM INVESTE: 2021 → 2025",
+          "texto": "- POUPANÇA: {vermelho:75% → 61%}\n- TÍTULOS PRIVADOS: {verde:8% → 20%}\n- FUNDOS: {verde:9% → 14%}\n- {ciano:FONTE:} RAIO X 9ª EDIÇÃO, BASE: INVESTIDORES"
+        }
+      ],
+      "destaque": {
+        "texto": "{ciano:NA PROVA:} A CLAREZA DO OBJETIVO DEFINE {verde:PRODUTO, PRAZO E RISCO} · GUARDAR {laranja:≠} INVESTIR",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r8a_4_parado-ou-aplicado.png",
+      "semente": 804,
+      "molde": "exercicio",
+      "titulo": "GUARDAR OU APLICAR PARA A META?",
+      "dados": "- META: {ciano:R$ 30.000} PARA A ENTRADA DE UM IMÓVEL EM {ciano:36 MESES} (HIPOTÉTICO)\n- APLICAÇÃO A {verde:0,8% AO MÊS} · SEM IMPOSTOS · INFLAÇÃO FORA DA CONTA\n- DEPÓSITO NO FIM DE CADA MÊS\n- A ÚNICA DIFERENÇA: O DESTINO DO DINHEIRO\n- PRAZO CURTO E DEFINIDO → APLICAÇÃO {verde:CONSERVADORA E LÍQUIDA}",
+      "cenarios": [
+        {
+          "titulo": "PARADO NA CONTA",
+          "passos": "30.000 ÷ 36\nSEM JUROS\nTOTAL: R$ 30.000",
+          "resultado": "R$ 833,33/MÊS"
+        },
+        {
+          "titulo": "APLICADO",
+          "passos": "FV 30.000 · n 36\ni 0,8 → PMT\nTOTAL: R$ 26.006,09",
+          "resultado": "R$ 722,39/MÊS"
+        }
+      ],
+      "conclusao": {
+        "texto": "{verde:R$ 110,94 A MENOS POR MÊS} · OS JUROS COBREM {verde:R$ 3.993,91} DA META · PARADO, O DINHEIRO AINDA {vermelho:PERDE PARA A INFLAÇÃO}",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r8b_1_saldo-cresceu.png",
+      "semente": 805,
+      "molde": "mito_verdade",
+      "titulo": "SALDO CRESCEU = GANHEI?",
+      "mitos": [
+        "SALDO MAIOR = GANHO",
+        "POUPANÇA NUNCA PERDE"
+      ],
+      "verdade": "GANHO {verde:REAL} VEM DEPOIS DA {laranja:INFLAÇÃO}",
+      "desenho": "grafico_baixa",
+      "apoio": "- {ciano:2021:} POUPANÇA {verde:+2,99%} (BCB) · IPCA {vermelho:+10,06%} (IBGE)\n- PERDA REAL DE {vermelho:CERCA DE 6,4%}: A PIOR DESDE 1990 (ECONOMATICA)\n- O SALDO SUBIU; O {laranja:CARRINHO DE COMPRAS} ENCOLHEU\n- POUPANÇA É ISENTA DE IR PARA PESSOA FÍSICA\n- DINHEIRO PARADO NA CONTA PERDEU {vermelho:9,14%} DE PODER DE COMPRA"
+    },
+    {
+      "saida": "r8b_2_desce-ou-sobe.png",
+      "semente": 806,
+      "molde": "comparacao",
+      "titulo": "QUEM DESCE E QUEM SOBE",
+      "colunas": [
+        {
+          "titulo": "PARADO NO DEGRAU",
+          "desenho": "escada_desce",
+          "rotulos": [
+            "CONTA PARADA",
+            "DESCE"
+          ],
+          "texto": "- VELOCIDADE DA ESCADA → {vermelho:INFLAÇÃO}\n- SUBIR DEVAGAR → {laranja:GANHO NOMINAL, PERDA REAL}\n- 2021: POUPANÇA {laranja:+3%}, ESCADA {vermelho:−10%}\n- QUEM PARA {vermelho:DESCE SEM SENTIR}"
+        },
+        {
+          "titulo": "SUBINDO MAIS RÁPIDO",
+          "desenho": "escada_sobe",
+          "rotulos": [
+            "ACIMA DO IPCA",
+            "SOBE"
+          ],
+          "texto": "- PASSO MAIOR QUE A DESCIDA → {verde:GANHO REAL}\n- PASSO IGUAL → {laranja:GANHO REAL ZERO}\n- O EXTRATO MOSTRA O PASSO; {vermelho:NÃO MOSTRA A ESCADA}\n- PASSO CERTO → {verde:SUPERAR O IPCA}"
+        }
+      ],
+      "faixas": [
+        "{ciano:FRASE PARA O CLIENTE:} NÃO INVESTIR TAMBÉM É UMA DECISÃO",
+        "{ciano:EM 2021:} QUEM FICOU PARADO DESCEU {vermelho:9,14%}; QUEM ESTAVA NA POUPANÇA, {vermelho:6,42%}"
+      ],
+      "destaque": {
+        "texto": "{vermelho:ONDE QUEBRA:} NA ESCADA, VOCÊ VÊ QUE DESCE · A INFLAÇÃO NÃO APARECE NO {laranja:EXTRATO}",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
+    },
+    {
+      "saida": "r8b_3_nominal-real-tempo.png",
+      "semente": 807,
+      "molde": "colunas",
+      "titulo": "NOMINAL, REAL E O TEMPO",
+      "topo": "{ciano:TAXA REAL} = (1 + RENDIMENTO) ÷ (1 + INFLAÇÃO) − 1 · 2021: 1,0299 ÷ 1,1006 − 1 = {vermelho:−6,42%}",
+      "colunas": [
+        {
+          "titulo": "NOMINAL × REAL",
+          "texto": "- NOMINAL: QUANTO O {laranja:SALDO} MUDOU EM REAIS\n- REAL: QUANTO O {verde:PODER DE COMPRA} MUDOU\n- SUBTRAÇÃO: 2,99 − 10,06 = {vermelho:−7,07%} → ERRADO\n- DIVISÃO: {verde:−6,42%} → CERTO"
+        },
+        {
+          "titulo": "O TEMPO ACUMULA",
+          "texto": "- 10 ANOS A {vermelho:−3% REAL} AO ANO (HIPOTÉTICO) → SOBRAM {vermelho:73,7%} DO PODER DE COMPRA\n- RENDIMENTO = INFLAÇÃO → {laranja:REAL ZERO}\n- RENDIMENTO > INFLAÇÃO → {verde:REAL POSITIVO}"
+        }
+      ],
+      "destaque": {
+        "texto": "{ciano:NA PROVA:} SALDO NOMINAL MAIOR {laranja:NÃO GARANTE} GANHO REAL · O IPCA {vermelho:NÃO APARECE} NO EXTRATO",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r8b_4_parado-ou-poupanca.png",
+      "semente": 808,
+      "molde": "exercicio",
+      "titulo": "PARADO OU NA POUPANÇA EM 2021?",
+      "dados": "- R$ 10.000 NO INÍCIO DE 2021 · IPCA DO ANO: {vermelho:10,06%}\n- POUPANÇA EM 2021: {verde:2,99%}, ISENTA DE IR PARA PESSOA FÍSICA\n- PODER DE COMPRA = SALDO ÷ 1,1006\n- A ÚNICA DIFERENÇA: O DESTINO\n- PERDA DO PARADO: {vermelho:R$ 914,05} · DA POUPANÇA: {vermelho:R$ 642,38}",
+      "cenarios": [
+        {
+          "titulo": "PARADO NA CONTA",
+          "passos": "SALDO: 10.000\n10.000 ÷ 1,1006\nREAL: −9,14%",
+          "resultado": "R$ 9.085,95"
+        },
+        {
+          "titulo": "NA POUPANÇA",
+          "passos": "SALDO: 10.299\n10.299 ÷ 1,1006\nREAL: −6,42%",
+          "resultado": "R$ 9.357,62"
+        }
+      ],
+      "conclusao": {
+        "texto": "OS DOIS {vermelho:PERDERAM} PODER DE COMPRA · A POUPANÇA PERDEU {laranja:MENOS}: R$ 271,67 DE DIFERENÇA",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r8c_1_so-beneficios.png",
+      "semente": 809,
+      "molde": "mito_verdade",
+      "titulo": "BANCO DIGITAL SÓ AJUDA?",
+      "mitos": [
+        "MAIS FÁCIL = MAIS CERTO",
+        "O APP NÃO INFLUENCIA"
+      ],
+      "verdade": "FACILIDADE: {verde:ACESSO} E {vermelho:IMPULSO}",
+      "desenho": "lampada",
+      "apoio": "- {ciano:COMO APLICA (INVESTIDORES):} APLICATIVO DO BANCO {verde:33% → 46%}\n- IR AO BANCO: {vermelho:43% → 32%} · MEIOS DIGITAIS: 48% → 63% (2021 → 2025)\n- {ciano:FONTE:} RAIO X 9ª EDIÇÃO, ANBIMA/DATAFOLHA\n- {laranja:RISCOS:} DECISÃO RÁPIDA, PRODUTO INADEQUADO, FILTRO FRACO\n- {ciano:GANHOS:} ACESSO, TARIFA MENOR, APP INTUITIVO, ACOMPANHAMENTO"
+    },
+    {
+      "saida": "r8c_2_elevador-expresso.png",
+      "semente": 810,
+      "molde": "comparacao",
+      "titulo": "O ELEVADOR EXPRESSO",
+      "colunas": [
+        {
+          "titulo": "A PORTA ABERTA",
+          "desenho": "elevador",
+          "rotulos": [
+            "ACESSO",
+            "TARIFA MENOR"
+          ],
+          "texto": "- QUEM NUNCA SUBIU ENTRA → {verde:PORTA DE ENTRADA}\n- VIAGEM MAIS BARATA → {verde:MENOS TARIFA}\n- TODOS OS ANDARES NA TELA → {verde:ACOMPANHAMENTO}\n- PREÇOS NA TELA → {verde:COMPARAR TAXAS}"
+        },
+        {
+          "titulo": "OS BOTÕES PISCANDO",
+          "desenho": "painel_confuso",
+          "rotulos": [
+            "IMPULSO",
+            "RUÍDO"
+          ],
+          "texto": "- NOTIFICAÇÃO E JOGO NO APP → {vermelho:IMPULSO}\n- BOTÃO ERRADO → {vermelho:PRODUTO INADEQUADO}\n- QUEM FALA MAIS ALTO → {laranja:INFORMAÇÃO SEM FILTRO}\n- PRESSA → {vermelho:DECIDIR SEM LER}"
+        }
+      ],
+      "faixas": [
+        "{ciano:LIGA COM A R5:} O MESMO DESENHO DE TELA SERVE AO {verde:NUDGE} OU AO {vermelho:IMPULSO}",
+        "{ciano:NA PESQUISA:} APLICAR PELO APP DO BANCO: {verde:46%} DOS INVESTIDORES EM 2025"
+      ],
+      "destaque": {
+        "texto": "{vermelho:ONDE QUEBRA:} NO ELEVADOR, O ERRO SE CORRIGE NO PRÓXIMO ANDAR · NO INVESTIMENTO, SAIR {laranja:CUSTA OU DEMORA}",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
+    },
+    {
+      "saida": "r8c_3_geracao-renda-canais.png",
+      "semente": 811,
+      "molde": "colunas",
+      "titulo": "GERAÇÃO, RENDA E CANAIS",
+      "topo": "{ciano:CANAIS DOS INVESTIDORES (RAIO X 2026):} YOUTUBE {verde:35%} · INSTAGRAM {verde:27%} · TV {vermelho:21%} (34% EM 2021) · ASSISTENTE DE IA {laranja:9%}",
+      "colunas": [
+        {
+          "titulo": "POR GERAÇÃO",
+          "texto": "- {ciano:Z (DESDE 1997):} APP SIMPLES, {laranja:MAIS RISCO}, REDES SOCIAIS\n- {ciano:MILLENNIALS (1981–1996):} BAIXO CUSTO, RENDA VARIÁVEL E CRIPTO\n- {ciano:X E BOOMERS:} {verde:ATENDIMENTO HUMANO}, RENDA FIXA\n- NA PESQUISA, A GERAÇÃO Z CITA YOUTUBE {verde:49%} E INSTAGRAM {verde:45%}"
+        },
+        {
+          "titulo": "POR RENDA",
+          "texto": "- {ciano:BAIXA:} DIGITAL É A {verde:PORTA DE ENTRADA}: POUPANÇA DIGITAL E CAIXINHAS\n- {ciano:MÉDIA:} COMPARA TAXAS, DIVERSIFICA, ESTUDA\n- {ciano:ALTA:} DIGITAL COMO {laranja:COMPLEMENTO}; MANTÉM A ASSESSORIA\n- ALTA RENDA: MULTIMERCADO, ALTERNATIVOS, EXTERIOR"
+        }
+      ],
+      "destaque": {
+        "texto": "{ciano:NA PROVA:} ACESSO {laranja:≠} ORIENTAÇÃO · AS FONTES VARIAM EM QUALIDADE: {verde:FILTRAR} ANTES DE SEGUIR",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r8c_4_tarifa-ou-zero.png",
+      "semente": 812,
+      "molde": "exercicio",
+      "titulo": "TARIFA OU TARIFA ZERO?",
+      "dados": "- MESMO PERFIL, POR 10 ANOS (HIPOTÉTICO)\n- PACOTE DE TARIFAS: {vermelho:R$ 50 POR MÊS}\n- APLICAÇÃO A {verde:0,8% AO MÊS}, SEM IMPOSTOS, NO FIM DO MÊS\n- A ÚNICA DIFERENÇA: A TARIFA\n- R$ 50 POR MÊS = {laranja:R$ 600 POR ANO}",
+      "cenarios": [
+        {
+          "titulo": "PAGA A TARIFA",
+          "passos": "50 × 120 MESES\nVAI PARA O BANCO\nNADA FICA",
+          "resultado": "−R$ 6.000"
+        },
+        {
+          "titulo": "TARIFA ZERO",
+          "passos": "PMT −50 · i 0,8\nn 120\nFV",
+          "resultado": "R$ 10.010,87"
+        }
+      ],
+      "conclusao": {
+        "texto": "OS JUROS ACRESCENTAM {verde:R$ 4.010,87} AOS R$ 6.000 · TARIFA PEQUENA NO MÊS, {vermelho:GRANDE NA DÉCADA}",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r8d_1_coisa-de-rico.png",
+      "semente": 813,
+      "molde": "mito_verdade",
+      "titulo": "INVESTIR É COISA DE RICO?",
+      "mitos": [
+        "SÓ COM MUITO DINHEIRO",
+        "ESPERO SOBRAR"
+      ],
+      "verdade": "APLICAR {verde:O QUE SOBRA}, MESMO {laranja:POUCO}",
+      "desenho": "moeda",
+      "apoio": "- {ciano:2025:} {vermelho:64%} NÃO INVESTEM; DESTES, {vermelho:55%} NÃO GUARDAM NADA\n- NESSE GRUPO, {vermelho:82%} CITAM CONDIÇÕES FINANCEIRAS (ERAM 75% EM 2021)\n- {ciano:FONTE:} RAIO X 9ª EDIÇÃO, ANBIMA/DATAFOLHA\n- O DESEMPREGO COMO RAZÃO CAIU: 9% (2021) → 6% (2025)\n- {ciano:VANTAGENS MAIS CITADAS:} SEGURANÇA {verde:44%} · RETORNO {verde:33%}"
+    },
+    {
+      "saida": "r8d_2_sobe-ou-terreo.png",
+      "semente": 814,
+      "molde": "comparacao",
+      "titulo": "QUEM SOBE E QUEM FICA NO TÉRREO",
+      "colunas": [
+        {
+          "titulo": "SOBE MAIS RÁPIDO",
+          "desenho": "escada_sobe",
+          "rotulos": [
+            "GANHO REAL",
+            "PATRIMÔNIO"
+          ],
+          "texto": "- PASSO ACIMA DA DESCIDA → {verde:RENTABILIDADE REAL}\n- DEGRAU A DEGRAU → {verde:PATRIMÔNIO}\n- VÁRIAS ESCADAS → {verde:DIVERSIFICAÇÃO}\n- FRUTO DA SUBIDA → {verde:RENDA PASSIVA}"
+        },
+        {
+          "titulo": "FICA NO TÉRREO",
+          "desenho": "pessoa",
+          "rotulos": [
+            "SEM FÔLEGO",
+            "COM MEDO"
+          ],
+          "texto": "- SEM FÔLEGO → {laranja:RENDA}\n- MEDO DA ESCADA → {laranja:MEDO DE PERDER}\n- NÃO SABE QUAL → {laranja:EDUCAÇÃO FINANCEIRA}\n- GASTA A ENERGIA AGORA → {laranja:CONSUMO IMEDIATO}"
+        }
+      ],
+      "faixas": [
+        "{ciano:CRENÇA COMUM:} \"INVESTIR É COISA DE RICO\" · O DESAFIO É TRANSFORMAR {verde:MEDO EM CONHECIMENTO}",
+        "{ciano:CADA MOTIVO, UMA PORTA:} RENDA → COMEÇAR PEQUENO · MEDO → ENTENDER O RISCO · DÚVIDA → EDUCAÇÃO"
+      ],
+      "destaque": {
+        "texto": "{vermelho:ONDE QUEBRA:} ESCADA SOBE COM CERTEZA · APLICAÇÃO {laranja:PODE OSCILAR E PERDER}",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
+    },
+    {
+      "saida": "r8d_3_vantagens-motivos.png",
+      "semente": 815,
+      "molde": "colunas",
+      "titulo": "POR QUE INVESTIR E POR QUE NÃO",
+      "topo": "{ciano:RESPEITAR SEMPRE:} PRAZO · RISCO · LIQUIDEZ · {laranja:TOLERÂNCIA EMOCIONAL} · INVESTIR = SEGURANÇA E {verde:LIBERDADE FINANCEIRA}",
+      "colunas": [
+        {
+          "titulo": "VANTAGEM → EXEMPLO",
+          "texto": "- PROTEÇÃO CONTRA A INFLAÇÃO → TÍTULO ATRELADO AO {verde:IPCA}\n- LIQUIDEZ → RESERVA COM {verde:RESGATE DIÁRIO}\n- DIVERSIFICAÇÃO → VÁRIAS CLASSES NA CARTEIRA\n- RENDA PASSIVA → JUROS, DIVIDENDOS, RENDIMENTOS DE FII"
+        },
+        {
+          "titulo": "MOTIVO → RESPOSTA",
+          "texto": "- DESCONFIANÇA E EXPERIÊNCIA RUIM → {verde:TRANSPARÊNCIA}\n- CONSUMO IMEDIATO → {verde:META PEQUENA E VISÍVEL}\n- FAMÍLIA QUE NÃO INVESTE → {verde:NÚMEROS E EXEMPLOS}\n- RENDA CURTA → {verde:COMEÇAR PEQUENO}"
+        }
+      ],
+      "destaque": {
+        "texto": "{ciano:NA PROVA:} SÃO {laranja:9 MOTIVOS}, NÃO SÓ A RENDA · O CAMINHO: EDUCAÇÃO, COMUNICAÇÃO CLARA E {verde:ORIENTAÇÃO PROFISSIONAL}",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r8d_4_agora-ou-depois.png",
+      "semente": 816,
+      "molde": "exercicio",
+      "titulo": "COMEÇAR AGORA OU ESPERAR SOBRAR?",
+      "dados": "- O MESMO TOTAL APORTADO: {ciano:R$ 24.000}\n- {verde:0,5% REAL AO MÊS} (HIPOTÉTICO) · SEM IR · APORTE NO FIM DO MÊS\n- HORIZONTE: 20 ANOS\n- A ÚNICA DIFERENÇA: O MOMENTO DE COMEÇAR\n- CENÁRIO 2 = A CRENÇA \"VOU ESPERAR SOBRAR\"",
+      "cenarios": [
+        {
+          "titulo": "COMEÇA AGORA",
+          "passos": "R$ 100 POR MÊS\n240 MESES\nPMT −100 · i 0,5",
+          "resultado": "R$ 46.204,09"
+        },
+        {
+          "titulo": "ESPERA SOBRAR",
+          "passos": "R$ 200 POR MÊS\nSÓ 120 MESES\nPMT −200 · i 0,5",
+          "resultado": "R$ 32.775,87"
+        }
+      ],
+      "conclusao": {
+        "texto": "MESMO BOLSO, {verde:R$ 13.428,22} A MAIS PARA QUEM COMEÇOU CEDO · O TEMPO {verde:TRABALHA} PARA QUEM COMEÇA",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    }
+  ]
+}
