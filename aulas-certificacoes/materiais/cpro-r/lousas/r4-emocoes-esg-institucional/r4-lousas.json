@@ -1,0 +1,100 @@
+{
+  "padrao": {
+    "fundo": "preto"
+  },
+  "slides": [
+    {
+      "saida": "r4_1_decisao-tecnica.png",
+      "semente": 401,
+      "molde": "mito_verdade",
+      "titulo": "DECISÃO TÉCNICA NÃO TEM EMOÇÃO?",
+      "mitos": [
+        "NÚMERO É FRIO, DECISÃO TAMBÉM",
+        "EMOÇÃO É DEFEITO A ELIMINAR"
+      ],
+      "verdade": "TODA DECISÃO TEM EMOÇÃO: {laranja:RECONHECER} E CRIAR {verde:DISCIPLINA}",
+      "desenho": "grafico_baixa",
+      "apoio": "- {ciano:IBOVESPA, FIM DE 2019:} 115.645 PONTOS\n- {ciano:MARÇO DE 2020:} {vermelho:−29,9%} NO MÊS · {vermelho:−36,86%} NO TRIMESTRE\n- {ciano:FIM DE 2020:} 119.017 PONTOS · {verde:+2,92%} NO ANO\n- A EMOÇÃO MEXE NA {laranja:PERCEPÇÃO DE RISCO}, NAS {laranja:EXPECTATIVAS} E NA {laranja:TOLERÂNCIA A PERDAS}"
+    },
+    {
+      "saida": "r4_2_turbulencia-duas-cabines.png",
+      "semente": 402,
+      "molde": "comparacao",
+      "titulo": "TURBULÊNCIA, DESTINO E DUAS CABINES",
+      "colunas": [
+        {
+          "titulo": "A TURBULÊNCIA",
+          "desenho": "mostrador",
+          "rotulos": [
+            "CHACOALHA",
+            "MANOBRA?"
+          ],
+          "texto": "- TURBULÊNCIA → {laranja:EMOÇÃO}\n- NATURAL: TODO VOO TEM\n- O PERIGO: A {vermelho:MANOBRA BRUSCA}\n- DESTINO PELOS VALORES → {verde:ESG}"
+        },
+        {
+          "titulo": "DUAS CABINES",
+          "desenho": "cabine",
+          "rotulos": [
+            "SOZINHO",
+            "COM CHECKLIST"
+          ],
+          "texto": "- PILOTO SOZINHO → {laranja:INDIVIDUAL}\n- COPILOTO, CHECKLIST, TORRE → {laranja:INSTITUCIONAL}\n- OS DOIS SÃO {vermelho:HUMANOS}\n- A SEGUNDA TEM {verde:REDE DE PROTEÇÃO}"
+        }
+      ],
+      "faixas": [
+        "{ciano:APELIDOS DE MERCADO:} INDIVIDUAL = \"SARDINHA\" · INSTITUCIONAL = \"TUBARÃO\" OU \"BALEIA\" (SEM DEFINIÇÃO EM NORMA)"
+      ],
+      "destaque": {
+        "texto": "{vermelho:ONDE QUEBRA:} NA AVIAÇÃO, A TORRE {laranja:PODE PROIBIR} · NO MERCADO, O CLIENTE DECIDE, E O INSTITUCIONAL {vermelho:TAMBÉM ERRA}",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
+    },
+    {
+      "saida": "r4_3_emocoes-esg-estrutura.png",
+      "semente": 403,
+      "molde": "colunas",
+      "titulo": "EMOÇÕES, ESG E QUEM DECIDE",
+      "topo": "{ciano:5 EMOÇÕES:} {vermelho:MEDO} VENDE NA QUEDA · {laranja:GANÂNCIA} ARRISCA DEMAIS · {laranja:EUFORIA} ENTRA TARDE · ANSIEDADE MEXE TODO DIA · ARREPENDIMENTO OLHA PARA TRÁS",
+      "colunas": [
+        {
+          "titulo": "ESG NA CARTEIRA",
+          "texto": "- EX.: CAUSA AMBIENTAL → RECUSA {laranja:MINERAÇÃO}\n- ACEITA {laranja:RETORNO MENOR}\n- FICA {verde:MAIS TEMPO} SE ALINHADO\n- MOTIVO SÓ FINANCEIRO OU {laranja:DE VALOR}?"
+        },
+        {
+          "titulo": "INDIVIDUAL × INSTITUCIONAL",
+          "texto": "- ARRISCA: O PRÓPRIO DINHEIRO × {laranja:REPUTAÇÃO E COMPLIANCE}\n- DECIDE: SOZINHO × {verde:COMITÊ}\n- CARTEIRA: POR OBJETIVO × {verde:INTEGRADA}\n- PRESTA CONTAS: A SI MESMO × {verde:A TERCEIROS}"
+        }
+      ],
+      "destaque": {
+        "texto": "{ciano:NO ATENDIMENTO:} MOSTRAR DADOS · LEMBRAR O HORIZONTE · {verde:REFORÇAR O OBJETIVO}",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r4_4_vender-ou-manter.png",
+      "semente": 404,
+      "molde": "exercicio",
+      "titulo": "VENDER NO SUSTO OU MANTER O PLANO?",
+      "dados": "- R$ 100.000 NUM FUNDO QUE REPLICA O IBOVESPA, NO FIM DE 2019 (115.645 PONTOS)\n- SIMPLIFICAÇÃO: SEM CUSTOS, SEM IR, CAIXA SEM RENDIMENTO\n- FIM DE MARÇO/2020: {vermelho:73.019,76} · FIM DE 2020: {verde:119.017,24}\n- A ÚNICA DIFERENÇA: A REAÇÃO AO MEDO",
+      "cenarios": [
+        {
+          "titulo": "VENDEU EM MARÇO",
+          "passos": "73.019,76 ÷ 115.645\n× 100.000\n−36,86% REALIZADOS",
+          "resultado": "R$ 63.141,30"
+        },
+        {
+          "titulo": "MANTEVE O PLANO",
+          "passos": "119.017,24 ÷ 115.645\n× 100.000\n+2,92% NO ANO",
+          "resultado": "R$ 102.916,03"
+        }
+      ],
+      "conclusao": {
+        "texto": "DIFERENÇA: {vermelho:R$ 39.774,72} · RESULTADO PASSADO {vermelho:NÃO GARANTE} O FUTURO: OUTRA CRISE PODE LEVAR MAIS TEMPO",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    }
+  ]
+}
