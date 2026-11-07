@@ -1,480 +1,480 @@
 {
- "padrao": {
-  "fundo": "preto"
- },
- "slides": [
-  {
-   "saida": "r2a_1_bolha-ponto-com.png",
-   "semente": 2101,
-   "molde": "mito_verdade",
-   "titulo": "PARECE VENCEDORA = VAI VENCER?",
-   "mitos": [
-    "SE PARECE COM UMA VENCEDORA, VAI REPETIR O SUCESSO",
-    "O FUNDO CAMPEÃO DO ANO É O MELHOR"
-   ],
-   "verdade": "SEMELHANÇA {laranja:NÃO É} PROBABILIDADE",
-   "desenho": "grafico_baixa",
-   "apoio": "- {ciano:NASDAQ, 10/03/2000:} RECORDE DE {laranja:5.048,62} PONTOS NA BOLHA DA INTERNET\n- {ciano:09/10/2002:} 1.114,11 PONTOS → {vermelho:−78%} EM DOIS ANOS E MEIO\n- {ciano:VOLTA AO RECORDE:} SÓ EM {laranja:ABRIL DE 2015}, 15 ANOS DEPOIS"
+  "padrao": {
+    "fundo": "preto"
   },
-  {
-   "saida": "r2a_2_rotas-prontas.png",
-   "semente": 2102,
-   "molde": "comparacao",
-   "titulo": "AS ROTAS PRONTAS DO PILOTO AUTOMÁTICO",
-   "colunas": [
+  "slides": [
     {
-     "titulo": "AS 5 ROTAS (PD)",
-     "desenho": "cabine",
-     "rotulos": [
-      "ROTA PRONTA",
-      "HEURÍSTICA"
-     ],
-     "texto": "1. \"PARECE COM AQUELA\" → {laranja:REPRESENTATIVIDADE}\n2. \"A ÚLTIMA QUE EU VI\" → {laranja:DISPONIBILIDADE}\n3. PONTO DE PARTIDA FIXO → {laranja:ANCORAGEM}\n4. INSTRUMENTOS DESLIGADOS → {laranja:EXCESSO DE CONFIANÇA}\n5. ALARME DOBRADO → {laranja:AVERSÃO À PERDA}"
+      "saida": "r2a_1_bolha-ponto-com.png",
+      "semente": 2101,
+      "molde": "mito_verdade",
+      "titulo": "PARECE VENCEDORA = VAI VENCER?",
+      "mitos": [
+        "SE PARECE COM UMA VENCEDORA, VAI REPETIR O SUCESSO",
+        "O FUNDO CAMPEÃO DO ANO É O MELHOR"
+      ],
+      "verdade": "SEMELHANÇA {laranja:NÃO É} PROBABILIDADE",
+      "desenho": "grafico_baixa",
+      "apoio": "- {ciano:NASDAQ, 10/03/2000:} RECORDE DE {laranja:5.048,62} PONTOS NA BOLHA DA INTERNET\n- {ciano:09/10/2002:} 1.114,11 PONTOS → {vermelho:−78%} EM DOIS ANOS E MEIO\n- {ciano:VOLTA AO RECORDE:} SÓ EM {laranja:ABRIL DE 2015}, 15 ANOS DEPOIS"
     },
     {
-     "titulo": "ROTA 1",
-     "desenho": "placa",
-     "rotulos": [
-      "PISTA DE ONTEM",
-      "PISTA DE HOJE"
-     ],
-     "texto": "- POUSA IGUAL PORQUE A PISTA {laranja:SE PARECE} COM A DE ONTEM\n- NÃO CONFERE {vermelho:VENTO, COMPRIMENTO E TEMPO}\n- NA CARTEIRA: \"PARECE A VENCEDORA, ENTÃO VAI VENCER\""
-    }
-   ],
-   "faixas": [
-    "{ciano:POR QUE HÁ ROTAS PRONTAS?} DECIDIR RÁPIDO, COM POUCO ESFORÇO, NUM MUNDO CHEIO DE INFORMAÇÃO (APOSTILA)"
-   ],
-   "destaque": {
-    "texto": "{vermelho:ONDE QUEBRA:} NA MENTE, O ATALHO NÃO PASSOU POR TESTE · {verde:A SAÍDA (DECK):} RECONHECER E MITIGAR, NÃO ELIMINAR",
-    "cor": "branco",
-    "moldura": "vermelho"
-   }
-  },
-  {
-   "saida": "r2a_3_representatividade.png",
-   "semente": 2103,
-   "molde": "colunas",
-   "titulo": "HEURÍSTICAS E REPRESENTATIVIDADE",
-   "topo": "{ciano:HEURÍSTICA:} ATALHO MENTAL QUE POUPA ESFORÇO COGNITIVO · ÚTIL NO DIA A DIA · NOS INVESTIMENTOS, GERA {vermelho:ERROS SISTEMÁTICOS}\n{ciano:REPRESENTATIVIDADE (DECK):} PROBABILIDADE JULGADA PELA SEMELHANÇA COM UM {laranja:ESTEREÓTIPO}",
-   "colunas": [
-    {
-     "titulo": "EXEMPLOS",
-     "texto": "1. \"ESSA SERÁ A PRÓXIMA AMAZON\" (DECK)\n2. \"SUBIU MUITO, VAI CONTINUAR SUBINDO\"\n3. \"RENDEU MUITO NO ANO, É O MELHOR FUNDO\""
+      "saida": "r2a_2_rotas-prontas.png",
+      "semente": 2102,
+      "molde": "comparacao",
+      "titulo": "AS ROTAS PRONTAS DO PILOTO AUTOMÁTICO",
+      "colunas": [
+        {
+          "titulo": "AS 5 ROTAS",
+          "desenho": "cabine",
+          "rotulos": [
+            "ROTA PRONTA",
+            "HEURÍSTICA"
+          ],
+          "texto": "1. \"PARECE COM AQUELA\" → {laranja:REPRESENTATIVIDADE}\n2. \"A ÚLTIMA QUE EU VI\" → {laranja:DISPONIBILIDADE}\n3. PONTO DE PARTIDA FIXO → {laranja:ANCORAGEM}\n4. INSTRUMENTOS DESLIGADOS → {laranja:EXCESSO DE CONFIANÇA}\n5. ALARME DOBRADO → {laranja:AVERSÃO À PERDA}"
+        },
+        {
+          "titulo": "ROTA 1",
+          "desenho": "placa",
+          "rotulos": [
+            "PISTA DE ONTEM",
+            "PISTA DE HOJE"
+          ],
+          "texto": "- POUSA IGUAL PORQUE A PISTA {laranja:SE PARECE} COM A DE ONTEM\n- NÃO CONFERE {vermelho:VENTO, COMPRIMENTO E TEMPO}\n- NA CARTEIRA: \"PARECE A VENCEDORA, ENTÃO VAI VENCER\""
+        }
+      ],
+      "faixas": [
+        "{ciano:POR QUE HÁ ROTAS PRONTAS?} DECIDIR RÁPIDO, COM POUCO ESFORÇO, NUM MUNDO CHEIO DE INFORMAÇÃO"
+      ],
+      "destaque": {
+        "texto": "{vermelho:ONDE QUEBRA:} NA MENTE, O ATALHO NÃO PASSOU POR TESTE · {verde:A SAÍDA:} RECONHECER E MITIGAR, NÃO ELIMINAR",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
     },
     {
-     "titulo": "O QUE ELA IGNORA (APOSTILA)",
-     "texto": "- RISCO E VALUATION\n- FUNDAMENTOS E CORRELAÇÃO\n- CENÁRIO ECONÔMICO\n- {laranja:REVERSÃO À MÉDIA}: O EXTREMO TENDE A VOLTAR PARA PERTO DA MÉDIA"
-    }
-   ],
-   "destaque": {
-    "texto": "{vermelho:NÃO CONFUNDA:} REPRESENTATIVIDADE = \"PARECE COM\" · DISPONIBILIDADE = \"LEMBRO FÁCIL\" (R2B) · {ciano:MAIS EXPOSTO:} O INICIANTE",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r2a_4_grupo-inteiro.png",
-   "semente": 2104,
-   "molde": "exercicio",
-   "titulo": "A SEMELHANÇA × O GRUPO INTEIRO",
-   "dados": "- 100 EMPRESAS PARECIDAS COM UMA VENCEDORA (HIPOTÉTICO)\n- 10 VIRAM VENCEDORAS: {verde:+500%} · 90 FRACASSAM: {vermelho:−80%}\n- MESMO VALOR EM CADA UMA; SEM CUSTOS\n- A ÚNICA DIFERENÇA: OLHAR OU NÃO A BASE ESTATÍSTICA",
-   "cenarios": [
-    {
-     "titulo": "SÓ A SEMELHANÇA",
-     "passos": "\"PARECE A VENCEDORA\"\nESPERA REPETIR O SUCESSO\nIGNORA AS PARECIDAS QUE FRACASSARAM",
-     "resultado": "+500% ESPERADO"
+      "saida": "r2a_3_representatividade.png",
+      "semente": 2103,
+      "molde": "colunas",
+      "titulo": "HEURÍSTICAS E REPRESENTATIVIDADE",
+      "topo": "{ciano:HEURÍSTICA:} ATALHO MENTAL QUE POUPA ESFORÇO COGNITIVO · ÚTIL NO DIA A DIA · NOS INVESTIMENTOS, GERA {vermelho:ERROS SISTEMÁTICOS}\n{ciano:REPRESENTATIVIDADE:} PROBABILIDADE JULGADA PELA SEMELHANÇA COM UM {laranja:ESTEREÓTIPO}",
+      "colunas": [
+        {
+          "titulo": "EXEMPLOS",
+          "texto": "1. \"ESSA SERÁ A PRÓXIMA AMAZON\"\n2. \"SUBIU MUITO, VAI CONTINUAR SUBINDO\"\n3. \"RENDEU MUITO NO ANO, É O MELHOR FUNDO\""
+        },
+        {
+          "titulo": "O QUE ELA IGNORA",
+          "texto": "- RISCO E VALUATION\n- FUNDAMENTOS E CORRELAÇÃO\n- CENÁRIO ECONÔMICO\n- {laranja:REVERSÃO À MÉDIA}: O EXTREMO TENDE A VOLTAR PARA PERTO DA MÉDIA"
+        }
+      ],
+      "destaque": {
+        "texto": "{vermelho:NÃO CONFUNDA:} REPRESENTATIVIDADE = \"PARECE COM\" · DISPONIBILIDADE = \"LEMBRO FÁCIL\" (R2B) · {ciano:MAIS EXPOSTO:} O INICIANTE",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
     },
     {
-     "titulo": "O GRUPO INTEIRO",
-     "passos": "PESOS: 10 E 90 EMPRESAS\n10% × 500% + 90% × (−80%)\n50% − 72% = −22%",
-     "resultado": "−22% EM MÉDIA"
-    }
-   ],
-   "conclusao": {
-    "texto": "A EMPRESA PODE SER UMA DAS 10 · A REPRESENTATIVIDADE {vermelho:ESQUECE AS OUTRAS 90} E A {laranja:BASE ESTATÍSTICA}",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r2b_1_crise-2008.png",
-   "semente": 2201,
-   "molde": "mito_verdade",
-   "titulo": "VOCÊ DECIDE PELO MAIS RELEVANTE?",
-   "mitos": [
-    "O INVESTIDOR DECIDE PELAS INFORMAÇÕES MAIS RELEVANTES",
-    "SE TODO MUNDO COMENTA, É PROVÁVEL"
-   ],
-   "verdade": "ELE DECIDE PELO {laranja:MAIS FÁCIL DE LEMBRAR}",
-   "desenho": "grafico_alta",
-   "apoio": "- {ciano:IBOVESPA 2008:} {vermelho:−41,22%} NA CRISE FINANCEIRA MUNDIAL · FECHOU EM 37.550 PONTOS\n- {ciano:IBOVESPA 2009:} {verde:+82,66%} · FECHOU EM 68.588 PONTOS\n- {ciano:CDI 2009:} 9,87% (BANCO CENTRAL, SÉRIE 4391)"
-  },
-  {
-   "saida": "r2b_2_ultima-que-vi.png",
-   "semente": 2202,
-   "molde": "comparacao",
-   "titulo": "\"A ÚLTIMA QUE EU VI\": MEMÓRIA × REGISTRO",
-   "colunas": [
-    {
-     "titulo": "O QUE A MENTE GUARDA",
-     "desenho": "exclamacao",
-     "rotulos": [
-      "RECENTE",
-      "MARCANTE"
-     ],
-     "texto": "- O {laranja:MAIS RECENTE}\n- O QUE ESTÁ NO {laranja:NOTICIÁRIO}\n- O {laranja:EMOCIONALMENTE MARCANTE}\n- O MAIS COMENTADO: AMIGOS, INFLUENCIADORES, REDES"
+      "saida": "r2a_4_grupo-inteiro.png",
+      "semente": 2104,
+      "molde": "exercicio",
+      "titulo": "A SEMELHANÇA × O GRUPO INTEIRO",
+      "dados": "- 100 EMPRESAS PARECIDAS COM UMA VENCEDORA (HIPOTÉTICO)\n- 10 VIRAM VENCEDORAS: {verde:+500%} · 90 FRACASSAM: {vermelho:−80%}\n- MESMO VALOR EM CADA UMA; SEM CUSTOS\n- A ÚNICA DIFERENÇA: OLHAR OU NÃO A BASE ESTATÍSTICA",
+      "cenarios": [
+        {
+          "titulo": "SÓ A SEMELHANÇA",
+          "passos": "\"PARECE A VENCEDORA\"\nESPERA REPETIR O SUCESSO\nIGNORA AS PARECIDAS QUE FRACASSARAM",
+          "resultado": "+500% ESPERADO"
+        },
+        {
+          "titulo": "O GRUPO INTEIRO",
+          "passos": "PESOS: 10 E 90 EMPRESAS\n10% × 500% + 90% × (−80%)\n50% − 72% = −22%",
+          "resultado": "−22% EM MÉDIA"
+        }
+      ],
+      "conclusao": {
+        "texto": "A EMPRESA PODE SER UMA DAS 10 · A REPRESENTATIVIDADE {vermelho:ESQUECE AS OUTRAS 90} E A {laranja:BASE ESTATÍSTICA}",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
     },
     {
-     "titulo": "O REGISTRO",
-     "desenho": "prancheta",
-     "rotulos": [
-      "FREQUÊNCIA",
-      "VÁRIOS ANOS"
-     ],
-     "texto": "- A {verde:FREQUÊNCIA REAL} DE CADA EVENTO\n- DADOS DE VÁRIOS ANOS, NÃO SÓ DOS ÚLTIMOS MESES\n- O RELEVANTE, MESMO SEM REPERCUSSÃO"
-    }
-   ],
-   "faixas": [
-    "{ciano:DECK:} O CÉREBRO CONFUNDE {laranja:FACILIDADE DE LEMBRANÇA} COM {laranja:FREQUÊNCIA REAL} · MÍDIA, REDES E EXPERIÊNCIA RECENTE AMPLIFICAM"
-   ],
-   "destaque": {
-    "texto": "{vermelho:FUNCIONA NOS DOIS SENTIDOS:} {verde:EUFORIA} (NOTÍCIA BOA → COMPRA) E {vermelho:MEDO} (NOTÍCIA RUIM → FOGE DA BOLSA)",
-    "cor": "branco",
-    "moldura": "vermelho"
-   }
-  },
-  {
-   "saida": "r2b_3_disponibilidade.png",
-   "semente": 2203,
-   "molde": "colunas",
-   "titulo": "DISPONIBILIDADE NA CARTEIRA",
-   "topo": "{ciano:TESTE RÁPIDO:} É {verde:FREQUENTE} DE VERDADE, OU SÓ {vermelho:VEM FÁCIL À MEMÓRIA}?\n{ciano:CASO-LIMITE:} NOTÍCIA RECENTE PODE SER RELEVANTE (EX.: FATO RELEVANTE DA EMPRESA)",
-   "colunas": [
-    {
-     "titulo": "SITUAÇÕES (APOSTILA)",
-     "texto": "1. COMPRAR PORQUE VIU MUITAS NOTÍCIAS BOAS\n2. EVITAR INVESTIR APÓS EVENTO RUIM E POUCO PROVÁVEL\n3. SUPERESTIMAR O RISCO QUE GANHOU A MÍDIA"
+      "saida": "r2b_1_crise-2008.png",
+      "semente": 2201,
+      "molde": "mito_verdade",
+      "titulo": "VOCÊ DECIDE PELO MAIS RELEVANTE?",
+      "mitos": [
+        "O INVESTIDOR DECIDE PELAS INFORMAÇÕES MAIS RELEVANTES",
+        "SE TODO MUNDO COMENTA, É PROVÁVEL"
+      ],
+      "verdade": "ELE DECIDE PELO {laranja:MAIS FÁCIL DE LEMBRAR}",
+      "desenho": "grafico_alta",
+      "apoio": "- {ciano:IBOVESPA 2008:} {vermelho:−41,22%} NA CRISE FINANCEIRA MUNDIAL · FECHOU EM 37.550 PONTOS\n- {ciano:IBOVESPA 2009:} {verde:+82,66%} · FECHOU EM 68.588 PONTOS\n- {ciano:CDI 2009:} 9,87% (BANCO CENTRAL, SÉRIE 4391)"
     },
     {
-     "titulo": "NO ATENDIMENTO",
-     "texto": "- MOSTRE DADOS DE {verde:PERÍODOS LONGOS}\n- SEPARE {laranja:NOTÍCIA} DE {laranja:FATO RELEVANTE} (FONTE OFICIAL)\n- VEJA QUANTO O SETOR DA MODA JÁ PESA NA CARTEIRA\n- NO MEDO: O OBJETIVO OU O PRAZO MUDOU?"
-    }
-   ],
-   "destaque": {
-    "texto": "{vermelho:EXEMPLO CLÁSSICO (APOSTILA):} APÓS QUEDA BRUSCA, MUITOS FICAM MESES FORA DA BOLSA, MESMO COM O CENÁRIO JÁ DIFERENTE",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r2b_4_sair-ou-ficar.png",
-   "semente": 2204,
-   "molde": "exercicio",
-   "titulo": "SAIR NO FIM DE 2008 OU FICAR EM 2009?",
-   "dados": "- R$ 100.000 NO INÍCIO DE 2008, ACOMPANHANDO O IBOVESPA (HIPOTÉTICO)\n- RETORNOS REAIS: 2008 {vermelho:−41,22%} · 2009 {verde:+82,66%} · CDI 2009: 9,87%\n- SEM CUSTOS E SEM IR",
-   "cenarios": [
-    {
-     "titulo": "SAI NO FIM DE 2008",
-     "passos": "100.000 × (1 − 0,4122) = 58.780,00\n2009 NO CDI: 58.780 × 1,0987",
-     "resultado": "R$ 64.581,59"
+      "saida": "r2b_2_ultima-que-vi.png",
+      "semente": 2202,
+      "molde": "comparacao",
+      "titulo": "\"A ÚLTIMA QUE EU VI\": MEMÓRIA × REGISTRO",
+      "colunas": [
+        {
+          "titulo": "O QUE A MENTE GUARDA",
+          "desenho": "exclamacao",
+          "rotulos": [
+            "RECENTE",
+            "MARCANTE"
+          ],
+          "texto": "- O {laranja:MAIS RECENTE}\n- O QUE ESTÁ NO {laranja:NOTICIÁRIO}\n- O {laranja:EMOCIONALMENTE MARCANTE}\n- O MAIS COMENTADO: AMIGOS, INFLUENCIADORES, REDES"
+        },
+        {
+          "titulo": "O REGISTRO",
+          "desenho": "prancheta",
+          "rotulos": [
+            "FREQUÊNCIA",
+            "VÁRIOS ANOS"
+          ],
+          "texto": "- A {verde:FREQUÊNCIA REAL} DE CADA EVENTO\n- DADOS DE VÁRIOS ANOS, NÃO SÓ DOS ÚLTIMOS MESES\n- O RELEVANTE, MESMO SEM REPERCUSSÃO"
+        }
+      ],
+      "faixas": [
+        "{ciano:MECANISMO:} O CÉREBRO CONFUNDE {laranja:FACILIDADE DE LEMBRANÇA} COM {laranja:FREQUÊNCIA REAL} · MÍDIA, REDES E EXPERIÊNCIA RECENTE AMPLIFICAM"
+      ],
+      "destaque": {
+        "texto": "{vermelho:FUNCIONA NOS DOIS SENTIDOS:} {verde:EUFORIA} (NOTÍCIA BOA → COMPRA) E {vermelho:MEDO} (NOTÍCIA RUIM → FOGE DA BOLSA)",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
     },
     {
-     "titulo": "FICA EM 2009",
-     "passos": "100.000 × (1 − 0,4122) = 58.780,00\n2009 NA BOLSA: 58.780 × 1,8266",
-     "resultado": "R$ 107.367,55"
-    }
-   ],
-   "conclusao": {
-    "texto": "DIFERENÇA: {vermelho:R$ 42.785,96} · QUEM FICOU TERMINOU 2009 {verde:ACIMA} DOS R$ 100.000 INICIAIS",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r2c_1_ogx.png",
-   "semente": 2301,
-   "molde": "mito_verdade",
-   "titulo": "CAIU MUITO = ESTÁ BARATA?",
-   "mitos": [
-    "AÇÃO QUE CAIU 30% ESTÁ BARATA",
-    "SÓ VENDO QUANDO VOLTAR AO PREÇO QUE PAGUEI"
-   ],
-   "verdade": "VALE O {laranja:FUNDAMENTO ATUAL}, NÃO O PREÇO ANTIGO",
-   "desenho": "grafico_baixa",
-   "apoio": "- {ciano:OGX, OUT/2010:} MAIOR FECHAMENTO DA HISTÓRIA: {laranja:R$ 23,27}\n- {ciano:30/10/2013:} PEDE RECUPERAÇÃO JUDICIAL · AÇÃO A {vermelho:R$ 0,17} ({vermelho:−99,3%})\n- {ciano:PASSIVO DECLARADO NO PEDIDO:} CERCA DE {vermelho:R$ 11,2 BILHÕES}"
-  },
-  {
-   "saida": "r2c_2_ancora.png",
-   "semente": 2302,
-   "molde": "comparacao",
-   "titulo": "A ROTA DO PONTO DE PARTIDA",
-   "colunas": [
-    {
-     "titulo": "A ÂNCORA",
-     "desenho": "ancora",
-     "rotulos": [
-      "NÚMERO",
-      "INICIAL"
-     ],
-     "texto": "- PREÇO DE {laranja:COMPRA}\n- PREÇO {laranja:MÁXIMO} DA AÇÃO\n- PROJEÇÃO ANTIGA\n- NÚMERO DITO POR ALGUÉM INFLUENTE"
+      "saida": "r2b_3_disponibilidade.png",
+      "semente": 2203,
+      "molde": "colunas",
+      "titulo": "DISPONIBILIDADE NA CARTEIRA",
+      "topo": "{ciano:TESTE RÁPIDO:} É {verde:FREQUENTE} DE VERDADE, OU SÓ {vermelho:VEM FÁCIL À MEMÓRIA}?\n{ciano:CASO-LIMITE:} NOTÍCIA RECENTE PODE SER RELEVANTE (EX.: FATO RELEVANTE DA EMPRESA)",
+      "colunas": [
+        {
+          "titulo": "SITUAÇÕES",
+          "texto": "1. COMPRAR PORQUE VIU MUITAS NOTÍCIAS BOAS\n2. EVITAR INVESTIR APÓS EVENTO RUIM E POUCO PROVÁVEL\n3. SUPERESTIMAR O RISCO QUE GANHOU A MÍDIA"
+        },
+        {
+          "titulo": "NO ATENDIMENTO",
+          "texto": "- MOSTRE DADOS DE {verde:PERÍODOS LONGOS}\n- SEPARE {laranja:NOTÍCIA} DE {laranja:FATO RELEVANTE} (FONTE OFICIAL)\n- VEJA QUANTO O SETOR DA MODA JÁ PESA NA CARTEIRA\n- NO MEDO: O OBJETIVO OU O PRAZO MUDOU?"
+        }
+      ],
+      "destaque": {
+        "texto": "{vermelho:EXEMPLO CLÁSSICO:} APÓS QUEDA BRUSCA, MUITOS FICAM MESES FORA DA BOLSA, MESMO COM O CENÁRIO JÁ DIFERENTE",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
     },
     {
-     "titulo": "O AJUSTAMENTO",
-     "desenho": "mostrador",
-     "rotulos": [
-      "AJUSTA",
-      "POUCO"
-     ],
-     "texto": "- A INFORMAÇÃO NOVA CHEGA\n- A ESTIMATIVA SAI DA ÂNCORA E {vermelho:PARA CEDO}\n- DECK: \"SÓ VENDO QUANDO PASSAR DE R$ 25,00\""
-    }
-   ],
-   "faixas": [
-    "{ciano:APOSTILA:} A ÂNCORA {vermelho:NÃO NECESSARIAMENTE} REFLETE O VALOR REAL DO ATIVO · DECK: APEGO A {laranja:PREÇOS, TAXAS OU PROJEÇÕES}"
-   ],
-   "destaque": {
-    "texto": "{verde:NA CABINE:} O PONTO DE PARTIDA SERVE PARA DECOLAR, NÃO PARA POUSAR · {laranja:NA CARTEIRA:} O PREÇO PAGO NÃO DIZ AONDE A AÇÃO VAI",
-    "cor": "branco",
-    "moldura": "vermelho"
-   }
-  },
-  {
-   "saida": "r2c_3_ancoragem.png",
-   "semente": 2303,
-   "molde": "colunas",
-   "titulo": "ANCORAGEM E AJUSTAMENTO NA CARTEIRA",
-   "topo": "{ciano:EM UMA FRASE:} FIXAR-SE NUM NÚMERO INICIAL E {vermelho:AJUSTAR POUCO} QUANDO CHEGA INFORMAÇÃO NOVA",
-   "colunas": [
-    {
-     "titulo": "COMPORTAMENTOS (APOSTILA)",
-     "texto": "1. \"SÓ VENDO QUANDO VOLTAR AO PREÇO QUE PAGUEI\"\n2. \"CAIU 30%, ESTÁ BARATA\", SEM OLHAR FUNDAMENTOS\n3. METAS IRREAIS PRESAS A EXPECTATIVAS ANTIGAS"
+      "saida": "r2b_4_sair-ou-ficar.png",
+      "semente": 2204,
+      "molde": "exercicio",
+      "titulo": "SAIR NO FIM DE 2008 OU FICAR EM 2009?",
+      "dados": "- R$ 100.000 NO INÍCIO DE 2008, ACOMPANHANDO O IBOVESPA (HIPOTÉTICO)\n- RETORNOS REAIS: 2008 {vermelho:−41,22%} · 2009 {verde:+82,66%} · CDI 2009: 9,87%\n- SEM CUSTOS E SEM IR",
+      "cenarios": [
+        {
+          "titulo": "SAI NO FIM DE 2008",
+          "passos": "100.000 × (1 − 0,4122) = 58.780,00\n2009 NO CDI: 58.780 × 1,0987",
+          "resultado": "R$ 64.581,59"
+        },
+        {
+          "titulo": "FICA EM 2009",
+          "passos": "100.000 × (1 − 0,4122) = 58.780,00\n2009 NA BOLSA: 58.780 × 1,8266",
+          "resultado": "R$ 107.367,55"
+        }
+      ],
+      "conclusao": {
+        "texto": "DIFERENÇA: {vermelho:R$ 42.785,96} · QUEM FICOU TERMINOU 2009 {verde:ACIMA} DOS R$ 100.000 INICIAIS",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
     },
     {
-     "titulo": "CASO-LIMITE E VIZINHO",
-     "texto": "- PREÇO −30% E LUCRO −60% → O PREÇO SOBRE O LUCRO {vermelho:SOBE 75%}: FICOU {vermelho:MAIS CARA}\n- {laranja:ANCORAGEM} = O NÚMERO DE REFERÊNCIA\n- {laranja:AVERSÃO À PERDA} = A DOR DE REALIZAR (R2E)"
-    }
-   ],
-   "destaque": {
-    "texto": "{verde:NO ATENDIMENTO:} TROQUE \"QUANDO VOLTA AO MEU PREÇO?\" POR \"COMPRARIA HOJE, A ESTE PREÇO?\" · PREÇO-ALVO DE INFLUENCIADOR TAMBÉM É ÂNCORA",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r2c_4_alta-necessaria.png",
-   "semente": 2304,
-   "molde": "exercicio",
-   "titulo": "QUANTO PRECISA SUBIR PARA VOLTAR?",
-   "dados": "- AÇÃO COMPRADA A R$ 50,00 (HIPOTÉTICO); SEM DIVIDENDOS NEM CUSTOS\n- ÂNCORA: \"SÓ VENDO QUANDO VOLTAR AOS R$ 50\"\n- A ÚNICA DIFERENÇA É O TAMANHO DA QUEDA\n- A ALTA É CALCULADA SOBRE O PREÇO {laranja:DEPOIS} DA QUEDA",
-   "cenarios": [
-    {
-     "titulo": "QUEDA DE 50%",
-     "passos": "50 × (1 − 0,50) = 25,00\nFALTAM R$ 25 SOBRE BASE DE R$ 25\n(50 − 25) ÷ 25 = 100%",
-     "resultado": "PRECISA SUBIR 100%"
+      "saida": "r2c_1_ogx.png",
+      "semente": 2301,
+      "molde": "mito_verdade",
+      "titulo": "CAIU MUITO = ESTÁ BARATA?",
+      "mitos": [
+        "AÇÃO QUE CAIU 30% ESTÁ BARATA",
+        "SÓ VENDO QUANDO VOLTAR AO PREÇO QUE PAGUEI"
+      ],
+      "verdade": "VALE O {laranja:FUNDAMENTO ATUAL}, NÃO O PREÇO ANTIGO",
+      "desenho": "grafico_baixa",
+      "apoio": "- {ciano:OGX, OUT/2010:} MAIOR FECHAMENTO DA HISTÓRIA: {laranja:R$ 23,27}\n- {ciano:30/10/2013:} PEDE RECUPERAÇÃO JUDICIAL · AÇÃO A {vermelho:R$ 0,17} ({vermelho:−99,3%})\n- {ciano:PASSIVO DECLARADO NO PEDIDO:} CERCA DE {vermelho:R$ 11,2 BILHÕES}"
     },
     {
-     "titulo": "QUEDA DE 80%",
-     "passos": "50 × (1 − 0,80) = 10,00\nFALTAM R$ 40 SOBRE BASE DE R$ 10\n(50 − 10) ÷ 10 = 400%",
-     "resultado": "PRECISA SUBIR 400%"
-    }
-   ],
-   "conclusao": {
-    "texto": "NA OGX, DE R$ 0,17 DE VOLTA A R$ 23,27 SERIAM {vermelho:+13.588%} · A ÂNCORA {vermelho:NÃO DIZ} SE ISSO É PROVÁVEL",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r2d_1_day-trade.png",
-   "semente": 2401,
-   "molde": "mito_verdade",
-   "titulo": "QUEM CONFIA MAIS GANHA MAIS?",
-   "mitos": [
-    "CONFIAR NA PRÓPRIA ANÁLISE GARANTE ACERTAR O TEMPO DE MERCADO",
-    "EXPERIÊNCIA PROTEGE DO EXCESSO DE CONFIANÇA"
-   ],
-   "verdade": "ACERTO {laranja:NÃO É} PROVA DE HABILIDADE: A SORTE CONTA",
-   "desenho": "grafico_baixa",
-   "apoio": "- {ciano:FGV E USP, DAY TRADE (2013–2015):} DOS QUE INSISTIRAM MAIS DE 300 DIAS, {vermelho:97%} PERDERAM\n- SÓ {vermelho:1,1%} SUPEROU O SALÁRIO MÍNIMO · {vermelho:0,5%}, O SALÁRIO INICIAL DE CAIXA DE BANCO\n- {ciano:BARBER E ODEAN (2000):} QUEM MAIS OPEROU GANHOU {vermelho:11,4%} A.A. × MERCADO {verde:17,9%} A.A. (EUA, 1991–1996)"
-  },
-  {
-   "saida": "r2d_2_instrumentos-desligados.png",
-   "semente": 2402,
-   "molde": "comparacao",
-   "titulo": "A ROTA DOS INSTRUMENTOS DESLIGADOS",
-   "colunas": [
-    {
-     "titulo": "NA CABINE",
-     "desenho": "cabine",
-     "rotulos": [
-      "RADAR",
-      "CHECKLIST"
-     ],
-     "texto": "- \"EU CONHEÇO ESTE CÉU\"\n- {vermelho:DESLIGA O RADAR} E DISPENSA O CHECKLIST\n- VOA MAIS VEZES, COM MAIS CARGA\n- POUSO BOM COM TEMPO BOM VIRA \"SOU ÓTIMO\""
+      "saida": "r2c_2_ancora.png",
+      "semente": 2302,
+      "molde": "comparacao",
+      "titulo": "A ROTA DO PONTO DE PARTIDA",
+      "colunas": [
+        {
+          "titulo": "A ÂNCORA",
+          "desenho": "ancora",
+          "rotulos": [
+            "NÚMERO",
+            "INICIAL"
+          ],
+          "texto": "- PREÇO DE {laranja:COMPRA}\n- PREÇO {laranja:MÁXIMO} DA AÇÃO\n- PROJEÇÃO ANTIGA\n- NÚMERO DITO POR ALGUÉM INFLUENTE"
+        },
+        {
+          "titulo": "O AJUSTAMENTO",
+          "desenho": "mostrador",
+          "rotulos": [
+            "AJUSTA",
+            "POUCO"
+          ],
+          "texto": "- A INFORMAÇÃO NOVA CHEGA\n- A ESTIMATIVA SAI DA ÂNCORA E {vermelho:PARA CEDO}\n- EX.: \"SÓ VENDO QUANDO PASSAR DE R$ 25,00\""
+        }
+      ],
+      "faixas": [
+        "{ciano:ATENÇÃO:} A ÂNCORA {vermelho:NÃO NECESSARIAMENTE} REFLETE O VALOR REAL DO ATIVO · APEGO A {laranja:PREÇOS, TAXAS OU PROJEÇÕES}"
+      ],
+      "destaque": {
+        "texto": "{verde:NA CABINE:} O PONTO DE PARTIDA SERVE PARA DECOLAR, NÃO PARA POUSAR · {laranja:NA CARTEIRA:} O PREÇO PAGO NÃO DIZ AONDE A AÇÃO VAI",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
     },
     {
-     "titulo": "NA CARTEIRA",
-     "desenho": "alvo",
-     "rotulos": [
-      "CERTEZA",
-      "ACASO"
-     ],
-     "texto": "- \"SEI ESCOLHER AS MELHORES AÇÕES\" (DECK)\n- {vermelho:OPERA DEMAIS}\n- {vermelho:CONCENTRA}: \"NÃO POSSO ESTAR ERRADO\"\n- O ACERTO POR SORTE CONTA COMO MÉRITO"
-    }
-   ],
-   "faixas": [
-    "{ciano:DECK:} \"A MAIORIA DOS MOTORISTAS AFIRMA QUE DIRIGE {laranja:MELHOR DO QUE A MÉDIA}\"",
-    "{ciano:APOSTILA:} QUANTO MAIS {verde:SUCESSO INICIAL}, MAIS CONFIANÇA, E MAIS RISCO NO FUTURO"
-   ],
-   "destaque": {
-    "texto": "{verde:O CHECKLIST DO INVESTIDOR:} LIMITE DE PESO POR ATIVO · DIÁRIO DE PREVISÕES · DIVERSIFICAÇÃO E GESTÃO DE RISCO (APOSTILA)",
-    "cor": "branco",
-    "moldura": "vermelho"
-   }
-  },
-  {
-   "saida": "r2d_3_excesso-de-confianca.png",
-   "semente": 2403,
-   "molde": "colunas",
-   "titulo": "EXCESSO DE CONFIANÇA NA CARTEIRA",
-   "topo": "{ciano:DEFINIÇÃO (APOSTILA):} SUPERESTIMAR {laranja:HABILIDADES}, {laranja:CONHECIMENTOS} E A CAPACIDADE DE {laranja:PREVER}\n{ciano:CONSEQUÊNCIAS (DECK):} OPERAÇÕES EM EXCESSO · POUCA DIVERSIFICAÇÃO · RISCO SUBESTIMADO",
-   "colunas": [
-    {
-     "titulo": "OS 5 SINAIS (APOSTILA)",
-     "texto": "1. \"ACERTO O TEMPO DE MERCADO\"\n2. OPERAÇÃO ARRISCADA: \"SEI MAIS QUE OS OUTROS\"\n3. IGNORA SINAIS DE ALERTA\n4. SUBESTIMA RISCOS: \"SOU EXPERIENTE\"\n5. CONCENTRA: \"NÃO POSSO ESTAR ERRADO\""
+      "saida": "r2c_3_ancoragem.png",
+      "semente": 2303,
+      "molde": "colunas",
+      "titulo": "ANCORAGEM E AJUSTAMENTO NA CARTEIRA",
+      "topo": "{ciano:EM UMA FRASE:} FIXAR-SE NUM NÚMERO INICIAL E {vermelho:AJUSTAR POUCO} QUANDO CHEGA INFORMAÇÃO NOVA",
+      "colunas": [
+        {
+          "titulo": "COMPORTAMENTOS",
+          "texto": "1. \"SÓ VENDO QUANDO VOLTAR AO PREÇO QUE PAGUEI\"\n2. \"CAIU 30%, ESTÁ BARATA\", SEM OLHAR FUNDAMENTOS\n3. METAS IRREAIS PRESAS A EXPECTATIVAS ANTIGAS"
+        },
+        {
+          "titulo": "CASO-LIMITE E VIZINHO",
+          "texto": "- PREÇO −30% E LUCRO −60% → O PREÇO SOBRE O LUCRO {vermelho:SOBE 75%}: FICOU {vermelho:MAIS CARA}\n- {laranja:ANCORAGEM} = O NÚMERO DE REFERÊNCIA\n- {laranja:AVERSÃO À PERDA} = A DOR DE REALIZAR (R2E)"
+        }
+      ],
+      "destaque": {
+        "texto": "{verde:NO ATENDIMENTO:} TROQUE \"QUANDO VOLTA AO MEU PREÇO?\" POR \"COMPRARIA HOJE, A ESTE PREÇO?\" · PREÇO-ALVO DE INFLUENCIADOR TAMBÉM É ÂNCORA",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
     },
     {
-     "titulo": "O CICLO E O PARADOXO",
-     "texto": "- ACERTO → MAIS CONFIANÇA → {vermelho:MAIS RISCO} → MENOS CONFERÊNCIA\n- DECK: MAIS COMUM EM {laranja:EXPERIENTES} (PARADOXO)\n- APOSTILA (P. 37 E 92): EXPERIENTES E ATÉ PROFISSIONAIS {laranja:PODEM} TER"
-    }
-   ],
-   "destaque": {
-    "texto": "{vermelho:NÃO CONFUNDA:} EXCESSO DE CONFIANÇA (HEURÍSTICA) × AUTOATRIBUIÇÃO (VIÉS, R3): \"O SUCESSO É MEU, O FRACASSO É DOS OUTROS\"",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r2d_4_custo-do-giro.png",
-   "semente": 2404,
-   "molde": "exercicio",
-   "titulo": "GIRAR POUCO × GIRAR MUITO",
-   "dados": "- R$ 100.000 POR 10 ANOS; RETORNO BRUTO DE 12% A.A. NOS DOIS (HIPOTÉTICO)\n- CUSTO DE GIRAR A CARTEIRA: 0,5% A.A. × 4% A.A.\n- SIMPLIFICAÇÃO: CUSTO DESCONTADO DA TAXA; SEM IR\n- A ÚNICA DIFERENÇA É QUANTO CUSTA GIRAR",
-   "cenarios": [
-    {
-     "titulo": "GIRA POUCO",
-     "passos": "12% − 0,5% = 11,5% A.A.\nFATOR EM 10 ANOS: 2,9699\n100.000 × 2,9699",
-     "resultado": "R$ 296.994,68"
+      "saida": "r2c_4_alta-necessaria.png",
+      "semente": 2304,
+      "molde": "exercicio",
+      "titulo": "QUANTO PRECISA SUBIR PARA VOLTAR?",
+      "dados": "- AÇÃO COMPRADA A R$ 50,00 (HIPOTÉTICO); SEM DIVIDENDOS NEM CUSTOS\n- ÂNCORA: \"SÓ VENDO QUANDO VOLTAR AOS R$ 50\"\n- A ÚNICA DIFERENÇA É O TAMANHO DA QUEDA\n- A ALTA É CALCULADA SOBRE O PREÇO {laranja:DEPOIS} DA QUEDA",
+      "cenarios": [
+        {
+          "titulo": "QUEDA DE 50%",
+          "passos": "50 × (1 − 0,50) = 25,00\nFALTAM R$ 25 SOBRE BASE DE R$ 25\n(50 − 25) ÷ 25 = 100%",
+          "resultado": "PRECISA SUBIR 100%"
+        },
+        {
+          "titulo": "QUEDA DE 80%",
+          "passos": "50 × (1 − 0,80) = 10,00\nFALTAM R$ 40 SOBRE BASE DE R$ 10\n(50 − 10) ÷ 10 = 400%",
+          "resultado": "PRECISA SUBIR 400%"
+        }
+      ],
+      "conclusao": {
+        "texto": "NA OGX, DE R$ 0,17 DE VOLTA A R$ 23,27 SERIAM {vermelho:+13.588%} · A ÂNCORA {vermelho:NÃO DIZ} SE ISSO É PROVÁVEL",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
     },
     {
-     "titulo": "GIRA MUITO",
-     "passos": "12% − 4% = 8% A.A.\nFATOR EM 10 ANOS: 2,1589\n100.000 × 2,1589",
-     "resultado": "R$ 215.892,50"
-    }
-   ],
-   "conclusao": {
-    "texto": "DIFERENÇA: {vermelho:R$ 81.102,18} SÓ EM CUSTO · BARBER E ODEAN: O DOMICÍLIO MÉDIO GIRAVA {laranja:75%} DA CARTEIRA POR ANO",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r2e_1_odean.png",
-   "semente": 2501,
-   "molde": "mito_verdade",
-   "titulo": "VENDE RÁPIDO O QUE CAI?",
-   "mitos": [
-    "PARA NÃO PERDER MAIS, O INVESTIDOR VENDE LOGO O QUE CAI",
-    "SEGURAR A AÇÃO EM QUEDA EVITA A PERDA"
-   ],
-   "verdade": "O QUE CAI {laranja:FICA}; O QUE SOBE {laranja:SAI CEDO}",
-   "desenho": "alarme",
-   "apoio": "- {ciano:ODEAN (1998):} 10 MIL CONTAS DE UMA CORRETORA AMERICANA, DE 1987 A 1993\n- GANHOS REALIZADOS: {verde:14,8%} · PERDAS REALIZADAS: {vermelho:9,8%} → CERCA DE {laranja:1,5 VEZ}\n- {ciano:EM DEZEMBRO:} O PADRÃO SE INVERTE (VENDE PERDAS PARA ABATER IMPOSTO NOS EUA)"
-  },
-  {
-   "saida": "r2e_2_alarme-dobrado.png",
-   "semente": 2502,
-   "molde": "comparacao",
-   "titulo": "O ALARME DOBRADO",
-   "colunas": [
-    {
-     "titulo": "ALARME DE GANHO",
-     "desenho": {
-      "nome": "alarme",
-      "cor": "verde"
-     },
-     "rotulos": [
-      "PEQUENO",
-      "BAIXO"
-     ],
-     "texto": "- ACIMA DO PREÇO DE COMPRA\n- VENDE CEDO PARA \"GARANTIR O LUCRO\"\n- O PRAZER DE GANHAR TOCA {verde:BAIXO}\n- PESO NA MENTE: GANHO VALE {verde:1}\n- DECK: CORTA AS {verde:FLORES}"
+      "saida": "r2d_1_day-trade.png",
+      "semente": 2401,
+      "molde": "mito_verdade",
+      "titulo": "QUEM CONFIA MAIS GANHA MAIS?",
+      "mitos": [
+        "CONFIAR NA PRÓPRIA ANÁLISE GARANTE ACERTAR O TEMPO DE MERCADO",
+        "EXPERIÊNCIA PROTEGE DO EXCESSO DE CONFIANÇA"
+      ],
+      "verdade": "ACERTO {laranja:NÃO É} PROVA DE HABILIDADE: A SORTE CONTA",
+      "desenho": "grafico_baixa",
+      "apoio": "- {ciano:FGV E USP, DAY TRADE (2013–2015):} DOS QUE INSISTIRAM MAIS DE 300 DIAS, {vermelho:97%} PERDERAM\n- SÓ {vermelho:1,1%} SUPEROU O SALÁRIO MÍNIMO · {vermelho:0,5%}, O SALÁRIO INICIAL DE CAIXA DE BANCO\n- {ciano:BARBER E ODEAN (2000):} QUEM MAIS OPEROU GANHOU {vermelho:11,4%} A.A. × MERCADO {verde:17,9%} A.A. (EUA, 1991–1996)"
     },
     {
-     "titulo": "ALARME DE PERDA",
-     "desenho": {
-      "nome": "alarme",
-      "cor": "vermelho"
-     },
-     "rotulos": [
-      "GRANDE",
-      "CERCA DE 2×"
-     ],
-     "texto": "- ABAIXO DO PREÇO DE COMPRA\n- SEGURA ESPERANDO \"VOLTAR AO ZERO\"\n- A DOR DE PERDER TOCA {vermelho:ALTO}\n- PESO NA MENTE: PERDA VALE {vermelho:CERCA DE 2}\n- DECK: DEIXA AS {vermelho:ERVAS DANINHAS}"
-    }
-   ],
-   "faixas": [
-    "{ciano:QUANTO MAIS ALTO?} DECK: 2 VEZES · TVERSKY E KAHNEMAN (1992): COEFICIENTE DE CERCA DE {laranja:2,25}",
-    "{ciano:A RÉGUA DOS ALARMES:} O {laranja:PREÇO DE COMPRA} · ACIMA DELE, TOCA O DE GANHO; ABAIXO, O DE PERDA"
-   ],
-   "destaque": {
-    "texto": "{vermelho:ONDE QUEBRA:} O PREJUÍZO JÁ ESTÁ NO EXTRATO · A VENDA NÃO CRIA A PERDA, SÓ A {laranja:REGISTRA}",
-    "cor": "branco",
-    "moldura": "vermelho"
-   }
-  },
-  {
-   "saida": "r2e_3_aversao-a-perda.png",
-   "semente": 2503,
-   "molde": "colunas",
-   "titulo": "AVERSÃO À PERDA NA CARTEIRA",
-   "topo": "{ciano:APOSTILA:} PERDER R$ 1.000 DÓI {vermelho:MUITO MAIS} DO QUE GANHAR R$ 1.000 ALEGRA · DECK: {laranja:2 VEZES}\n{ciano:RÉGUA:} O PREÇO DE COMPRA (A ÂNCORA DA R2C)",
-   "colunas": [
-    {
-     "titulo": "COMPORTAMENTOS (APOSTILA)",
-     "texto": "1. SEGURA O QUE CAI: \"VOLTAR AO ZERO\"\n2. VENDE CEDO O QUE SOBE: \"GARANTIR O LUCRO\"\n3. EVITA INVESTIMENTOS IMPORTANTES\n4. FOCO NO CURTO PRAZO\n5. NA VOLATILIDADE: ESTRESSE E {vermelho:ABANDONO DA ESTRATÉGIA}"
+      "saida": "r2d_2_instrumentos-desligados.png",
+      "semente": 2402,
+      "molde": "comparacao",
+      "titulo": "A ROTA DOS INSTRUMENTOS DESLIGADOS",
+      "colunas": [
+        {
+          "titulo": "NA CABINE",
+          "desenho": "cabine",
+          "rotulos": [
+            "RADAR",
+            "CHECKLIST"
+          ],
+          "texto": "- \"EU CONHEÇO ESTE CÉU\"\n- {vermelho:DESLIGA O RADAR} E DISPENSA O CHECKLIST\n- VOA MAIS VEZES, COM MAIS CARGA\n- POUSO BOM COM TEMPO BOM VIRA \"SOU ÓTIMO\""
+        },
+        {
+          "titulo": "NA CARTEIRA",
+          "desenho": "alvo",
+          "rotulos": [
+            "CERTEZA",
+            "ACASO"
+          ],
+          "texto": "- \"SEI ESCOLHER AS MELHORES AÇÕES\"\n- {vermelho:OPERA DEMAIS}\n- {vermelho:CONCENTRA}: \"NÃO POSSO ESTAR ERRADO\"\n- O ACERTO POR SORTE CONTA COMO MÉRITO"
+        }
+      ],
+      "faixas": [
+        "{ciano:CLÁSSICO:} \"A MAIORIA DOS MOTORISTAS AFIRMA QUE DIRIGE {laranja:MELHOR DO QUE A MÉDIA}\"",
+        "{ciano:ARMADILHA:} QUANTO MAIS {verde:SUCESSO INICIAL}, MAIS CONFIANÇA, E MAIS RISCO NO FUTURO"
+      ],
+      "destaque": {
+        "texto": "{verde:O CHECKLIST DO INVESTIDOR:} LIMITE DE PESO POR ATIVO · DIÁRIO DE PREVISÕES · DIVERSIFICAÇÃO E GESTÃO DE RISCO",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
     },
     {
-     "titulo": "NOMES E VIZINHOS",
-     "texto": "- 1 + 2 = {laranja:EFEITO DISPOSIÇÃO} (SHEFRIN E STATMAN, 1985)\n- AVERSÃO AO RISCO = VISÃO TRADICIONAL (R1C)\n- REBALANCEAR NO LUCRO {verde:NÃO É} ERRO"
-    }
-   ],
-   "destaque": {
-    "texto": "{verde:NO ATENDIMENTO:} \"COMPRARIA HOJE?\" NO LUGAR DE \"LUCRO OU PREJUÍZO?\" · REGRA DE REBALANCEAMENTO COMBINADA ANTES",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r2e_4_olhar-para-frente.png",
-   "semente": 2504,
-   "molde": "exercicio",
-   "titulo": "SEGURAR × REALIZAR E REALOCAR",
-   "dados": "- AÇÃO COMPRADA A R$ 100 CAIU PARA R$ 60 (HIPOTÉTICO)\n- PRAZO DE 5 ANOS; SEM IR E SEM CUSTOS\n- RETORNOS ESPERADOS HIPOTÉTICOS, SÓ PARA COMPARAR\n- A ÚNICA DIFERENÇA: ONDE OS R$ 60 FICAM",
-   "cenarios": [
-    {
-     "titulo": "SEGURA A AÇÃO",
-     "passos": "RETORNO ESPERADO: 5% A.A.\nPRAZO: 5 ANOS\nFATOR: 1,2763\n60 × 1,2763",
-     "resultado": "R$ 76,58"
+      "saida": "r2d_3_excesso-de-confianca.png",
+      "semente": 2403,
+      "molde": "colunas",
+      "titulo": "EXCESSO DE CONFIANÇA NA CARTEIRA",
+      "topo": "{ciano:DEFINIÇÃO:} SUPERESTIMAR {laranja:HABILIDADES}, {laranja:CONHECIMENTOS} E A CAPACIDADE DE {laranja:PREVER}\n{ciano:CONSEQUÊNCIAS:} OPERAÇÕES EM EXCESSO · POUCA DIVERSIFICAÇÃO · RISCO SUBESTIMADO",
+      "colunas": [
+        {
+          "titulo": "OS 5 SINAIS",
+          "texto": "1. \"ACERTO O TEMPO DE MERCADO\"\n2. OPERAÇÃO ARRISCADA: \"SEI MAIS QUE OS OUTROS\"\n3. IGNORA SINAIS DE ALERTA\n4. SUBESTIMA RISCOS: \"SOU EXPERIENTE\"\n5. CONCENTRA: \"NÃO POSSO ESTAR ERRADO\""
+        },
+        {
+          "titulo": "O CICLO E O PARADOXO",
+          "texto": "- ACERTO → MAIS CONFIANÇA → {vermelho:MAIS RISCO} → MENOS CONFERÊNCIA\n- EXPERIÊNCIA {vermelho:NÃO PROTEGE}: EXPERIENTES E ATÉ PROFISSIONAIS {laranja:PODEM} TER"
+        }
+      ],
+      "destaque": {
+        "texto": "{vermelho:NÃO CONFUNDA:} EXCESSO DE CONFIANÇA (HEURÍSTICA) × AUTOATRIBUIÇÃO (VIÉS, R3): \"O SUCESSO É MEU, O FRACASSO É DOS OUTROS\"",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
     },
     {
-     "titulo": "REALIZA E REALOCA",
-     "passos": "ALTERNATIVA: 10% A.A.\nPRAZO: 5 ANOS\nFATOR: 1,6105\n60 × 1,6105",
-     "resultado": "R$ 96,63"
+      "saida": "r2d_4_custo-do-giro.png",
+      "semente": 2404,
+      "molde": "exercicio",
+      "titulo": "GIRAR POUCO × GIRAR MUITO",
+      "dados": "- R$ 100.000 POR 10 ANOS; RETORNO BRUTO DE 12% A.A. NOS DOIS (HIPOTÉTICO)\n- CUSTO DE GIRAR A CARTEIRA: 0,5% A.A. × 4% A.A.\n- SIMPLIFICAÇÃO: CUSTO DESCONTADO DA TAXA; SEM IR\n- A ÚNICA DIFERENÇA É QUANTO CUSTA GIRAR",
+      "cenarios": [
+        {
+          "titulo": "GIRA POUCO",
+          "passos": "12% − 0,5% = 11,5% A.A.\nFATOR EM 10 ANOS: 2,9699\n100.000 × 2,9699",
+          "resultado": "R$ 296.994,68"
+        },
+        {
+          "titulo": "GIRA MUITO",
+          "passos": "12% − 4% = 8% A.A.\nFATOR EM 10 ANOS: 2,1589\n100.000 × 2,1589",
+          "resultado": "R$ 215.892,50"
+        }
+      ],
+      "conclusao": {
+        "texto": "DIFERENÇA: {vermelho:R$ 81.102,18} SÓ EM CUSTO · BARBER E ODEAN: O DOMICÍLIO MÉDIO GIRAVA {laranja:75%} DA CARTEIRA POR ANO",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r2e_1_odean.png",
+      "semente": 2501,
+      "molde": "mito_verdade",
+      "titulo": "VENDE RÁPIDO O QUE CAI?",
+      "mitos": [
+        "PARA NÃO PERDER MAIS, O INVESTIDOR VENDE LOGO O QUE CAI",
+        "SEGURAR A AÇÃO EM QUEDA EVITA A PERDA"
+      ],
+      "verdade": "O QUE CAI {laranja:FICA}; O QUE SOBE {laranja:SAI CEDO}",
+      "desenho": "alarme",
+      "apoio": "- {ciano:ODEAN (1998):} 10 MIL CONTAS DE UMA CORRETORA AMERICANA, DE 1987 A 1993\n- GANHOS REALIZADOS: {verde:14,8%} · PERDAS REALIZADAS: {vermelho:9,8%} → CERCA DE {laranja:1,5 VEZ}\n- {ciano:EM DEZEMBRO:} O PADRÃO SE INVERTE (VENDE PERDAS PARA ABATER IMPOSTO NOS EUA)"
+    },
+    {
+      "saida": "r2e_2_alarme-dobrado.png",
+      "semente": 2502,
+      "molde": "comparacao",
+      "titulo": "O ALARME DOBRADO",
+      "colunas": [
+        {
+          "titulo": "ALARME DE GANHO",
+          "desenho": {
+            "nome": "alarme",
+            "cor": "verde"
+          },
+          "rotulos": [
+            "PEQUENO",
+            "BAIXO"
+          ],
+          "texto": "- ACIMA DO PREÇO DE COMPRA\n- VENDE CEDO PARA \"GARANTIR O LUCRO\"\n- O PRAZER DE GANHAR TOCA {verde:BAIXO}\n- PESO NA MENTE: GANHO VALE {verde:1}\n- RESULTADO: CORTA AS {verde:FLORES}"
+        },
+        {
+          "titulo": "ALARME DE PERDA",
+          "desenho": {
+            "nome": "alarme",
+            "cor": "vermelho"
+          },
+          "rotulos": [
+            "GRANDE",
+            "CERCA DE 2×"
+          ],
+          "texto": "- ABAIXO DO PREÇO DE COMPRA\n- SEGURA ESPERANDO \"VOLTAR AO ZERO\"\n- A DOR DE PERDER TOCA {vermelho:ALTO}\n- PESO NA MENTE: PERDA VALE {vermelho:CERCA DE 2}\n- RESULTADO: DEIXA AS {vermelho:ERVAS DANINHAS}"
+        }
+      ],
+      "faixas": [
+        "{ciano:QUANTO MAIS ALTO?} CERCA DE 2 VEZES · TVERSKY E KAHNEMAN (1992): COEFICIENTE DE CERCA DE {laranja:2,25}",
+        "{ciano:A RÉGUA DOS ALARMES:} O {laranja:PREÇO DE COMPRA} · ACIMA DELE, TOCA O DE GANHO; ABAIXO, O DE PERDA"
+      ],
+      "destaque": {
+        "texto": "{vermelho:ONDE QUEBRA:} O PREJUÍZO JÁ ESTÁ NO EXTRATO · A VENDA NÃO CRIA A PERDA, SÓ A {laranja:REGISTRA}",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
+    },
+    {
+      "saida": "r2e_3_aversao-a-perda.png",
+      "semente": 2503,
+      "molde": "colunas",
+      "titulo": "AVERSÃO À PERDA NA CARTEIRA",
+      "topo": "{ciano:REGRA:} PERDER R$ 1.000 DÓI {vermelho:MUITO MAIS} DO QUE GANHAR R$ 1.000 ALEGRA · CERCA DE {laranja:2 VEZES}\n{ciano:RÉGUA:} O PREÇO DE COMPRA (A ÂNCORA DA R2C)",
+      "colunas": [
+        {
+          "titulo": "COMPORTAMENTOS",
+          "texto": "1. SEGURA O QUE CAI: \"VOLTAR AO ZERO\"\n2. VENDE CEDO O QUE SOBE: \"GARANTIR O LUCRO\"\n3. EVITA INVESTIMENTOS IMPORTANTES\n4. FOCO NO CURTO PRAZO\n5. NA VOLATILIDADE: ESTRESSE E {vermelho:ABANDONO DA ESTRATÉGIA}"
+        },
+        {
+          "titulo": "NOMES E VIZINHOS",
+          "texto": "- 1 + 2 = {laranja:EFEITO DISPOSIÇÃO} (SHEFRIN E STATMAN, 1985)\n- AVERSÃO AO RISCO = VISÃO TRADICIONAL (R1C)\n- REBALANCEAR NO LUCRO {verde:NÃO É} ERRO"
+        }
+      ],
+      "destaque": {
+        "texto": "{verde:NO ATENDIMENTO:} \"COMPRARIA HOJE?\" NO LUGAR DE \"LUCRO OU PREJUÍZO?\" · REGRA DE REBALANCEAMENTO COMBINADA ANTES",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r2e_4_olhar-para-frente.png",
+      "semente": 2504,
+      "molde": "exercicio",
+      "titulo": "SEGURAR × REALIZAR E REALOCAR",
+      "dados": "- AÇÃO COMPRADA A R$ 100 CAIU PARA R$ 60 (HIPOTÉTICO)\n- PRAZO DE 5 ANOS; SEM IR E SEM CUSTOS\n- RETORNOS ESPERADOS HIPOTÉTICOS, SÓ PARA COMPARAR\n- A ÚNICA DIFERENÇA: ONDE OS R$ 60 FICAM",
+      "cenarios": [
+        {
+          "titulo": "SEGURA A AÇÃO",
+          "passos": "RETORNO ESPERADO: 5% A.A.\nPRAZO: 5 ANOS\nFATOR: 1,2763\n60 × 1,2763",
+          "resultado": "R$ 76,58"
+        },
+        {
+          "titulo": "REALIZA E REALOCA",
+          "passos": "ALTERNATIVA: 10% A.A.\nPRAZO: 5 ANOS\nFATOR: 1,6105\n60 × 1,6105",
+          "resultado": "R$ 96,63"
+        }
+      ],
+      "conclusao": {
+        "texto": "OS R$ 40 JÁ ESTAVAM PERDIDOS NOS DOIS · NENHUM VOLTA AOS R$ 100 EM 5 ANOS · A PERGUNTA É {laranja:ONDE O DINHEIRO RENDE MAIS DAQUI PARA FRENTE}",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
     }
-   ],
-   "conclusao": {
-    "texto": "OS R$ 40 JÁ ESTAVAM PERDIDOS NOS DOIS · NENHUM VOLTA AOS R$ 100 EM 5 ANOS · A PERGUNTA É {laranja:ONDE O DINHEIRO RENDE MAIS DAQUI PARA FRENTE}",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  }
- ]
+  ]
 }
