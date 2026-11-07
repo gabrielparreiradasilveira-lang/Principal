@@ -1,0 +1,286 @@
+{
+  "padrao": {
+    "fundo": "preto"
+  },
+  "slides": [
+    {
+      "saida": "r7a_1_saber-do-vies.png",
+      "semente": 701,
+      "molde": "mito_verdade",
+      "titulo": "SABER DO VIÉS PROTEGE?",
+      "mitos": [
+        "CONHECI O VIÉS, ESTOU IMUNE",
+        "DECIDO NA HORA"
+      ],
+      "verdade": "PROTEGE A {verde:REGRA DECIDIDA ANTES}",
+      "desenho": "grafico_alta",
+      "apoio": "- {ciano:CARTEIRA:} R$ 100 MIL, ALVO 60/40 (AÇÕES / RENDA FIXA), HIPOTÉTICO\n- AÇÕES {verde:+25%} → AÇÕES PESAM {vermelho:65,22%}: MAIS RISCO QUE O ESCOLHIDO\n- {ciano:OBJETIVO:} TRANSFORMAR INSIGHTS PSICOLÓGICOS EM {verde:AÇÕES CONCRETAS}\n- RISCO PERCEBIDO {laranja:≠} RISCO REAL"
+    },
+    {
+      "saida": "r7a_2_plano-de-voo.png",
+      "semente": 702,
+      "molde": "comparacao",
+      "titulo": "PLANO DE VOO E INSTRUMENTOS",
+      "colunas": [
+        {
+          "titulo": "EM SOLO, COM CALMA",
+          "desenho": "cabine",
+          "rotulos": [
+            "PLANO DE VOO",
+            "AUTOMÁTICO"
+          ],
+          "texto": "- ROTA E DESTINO → {verde:METAS} E CARTEIRAS POR OBJETIVO\n- PILOTO AUTOMÁTICO → APORTES E REBALANCEAMENTOS {verde:AUTOMÁTICOS}\n- FAIXAS DE ALTITUDE → {laranja:FAIXAS-ALVO}"
+        },
+        {
+          "titulo": "DENTRO DA NUVEM",
+          "desenho": "mostrador",
+          "rotulos": [
+            "SENSAÇÃO",
+            "INSTRUMENTO"
+          ],
+          "texto": "- O CORPO DIZ \"RETO\"; O AVIÃO ESTÁ {vermelho:EM CURVA}\n- SENSAÇÃO → {laranja:RISCO PERCEBIDO}\n- INSTRUMENTO → {verde:RISCO REAL}: CONFIE NO PAINEL"
+        }
+      ],
+      "faixas": [
+        "{ciano:NO MERCADO:} LIMITE DE PERDA DEFINIDO ANTES E SIMULAÇÃO DE CENÁRIOS REDUZEM O CHOQUE EMOCIONAL"
+      ],
+      "destaque": {
+        "texto": "{vermelho:ONDE QUEBRA:} O PILOTO AUTOMÁTICO SEGUE SOZINHO · A REGRA DO CLIENTE {laranja:É REVISTA} QUANDO O OBJETIVO MUDA",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
+    },
+    {
+      "saida": "r7a_3_estrategias-e-risco.png",
+      "semente": 703,
+      "molde": "colunas",
+      "titulo": "ESTRATÉGIAS E GESTÃO DE RISCO",
+      "topo": "{ciano:OBJETIVO:} MENOS VIESES · MAIS DISCIPLINA · DECISÃO MAIS CLARA · {verde:PROTEÇÃO CONTRA O IMPULSO} · MAIS CHANCE DE SUCESSO",
+      "colunas": [
+        {
+          "titulo": "ESTRATÉGIA → COMO AJUDA",
+          "texto": "- APORTE AUTOMÁTICO → NÃO DEPENDE DO {laranja:HUMOR DO MERCADO}\n- REGRA PRÉVIA DE VENDA → NÃO {vermelho:SEGURA A PERDEDORA} (AVERSÃO À PERDA)\n- REBALANCEAR → VENDE O QUE SUBIU, {verde:CONTRA A MANADA}\n- META POR INVESTIMENTO → TIRA O FOCO DA {laranja:COTAÇÃO DO DIA}"
+        },
+        {
+          "titulo": "FERRAMENTA → O QUE FAZ",
+          "texto": "- REBALANCEAR → VOLTA À {verde:FAIXA-ALVO}\n- DIVERSIFICAR POR CLASSE → NÃO DEPENDER DE UM SÓ RISCO\n- CORRELAÇÃO → JUNTAR ATIVOS QUE {verde:NÃO CAEM JUNTOS}\n- AVISAR A OSCILAÇÃO ESPERADA → {verde:MENOS SUSTO}"
+        }
+      ],
+      "destaque": {
+        "texto": "{ciano:GESTÃO DE RISCO} É TÉCNICA {laranja:E} PSICOLÓGICA · A META É BLINDAR O CLIENTE {verde:CONTRA O PRÓPRIO IMPULSO}",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r7a_4_rebalancear-ou-deixar.png",
+      "semente": 704,
+      "molde": "exercicio",
+      "titulo": "REBALANCEAR OU DEIXAR CORRER?",
+      "dados": "- R$ 100.000 · ALVO {ciano:60/40} (AÇÕES / RENDA FIXA), HIPOTÉTICO\n- AÇÕES {verde:+25%} → R$ 75.000 DE R$ 115.000 = {vermelho:65,22%}\n- DEPOIS, AÇÕES {vermelho:−20%} · RENDA FIXA PARADA, SEM CUSTOS E SEM IR\n- A ÚNICA DIFERENÇA: A REGRA DE REBALANCEAR\n- NO REBALANCEAMENTO, A RENDA FIXA VAI DE 40.000 PARA {verde:46.000}",
+      "cenarios": [
+        {
+          "titulo": "DEIXOU CORRER",
+          "passos": "75.000 − 20% = 60.000\n+ 40.000 DE RENDA FIXA\nAÇÕES NO TOPO: 65%",
+          "resultado": "R$ 100.000"
+        },
+        {
+          "titulo": "REBALANCEOU",
+          "passos": "VENDE 6.000 → 69.000\n69.000 − 20% = 55.200\n+ 46.000 DE RENDA FIXA",
+          "resultado": "R$ 101.200"
+        }
+      ],
+      "conclusao": {
+        "texto": "{verde:+R$ 1.200} E MENOS RISCO NO TOPO · O REBALANCEAMENTO {laranja:VENDE O QUE SUBIU} E COMPRA O QUE FICOU PARA TRÁS",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r7b_1_experiente-checklist.png",
+      "semente": 705,
+      "molde": "mito_verdade",
+      "titulo": "EXPERIENTE DISPENSA CHECKLIST?",
+      "mitos": [
+        "15 ANOS BASTAM",
+        "DICA BOA DISPENSA REGRA"
+      ],
+      "verdade": "{verde:PROCESSO} VENCE {vermelho:IMPULSO}",
+      "desenho": "check",
+      "apoio": "- CARTEIRA DE R$ 200 MIL · DICA NUM GRUPO DE MENSAGENS (HIPOTÉTICO)\n- R$ 60 MIL NUMA AÇÃO (30%) · QUEDA DE 40% → {vermelho:−R$ 24 MIL = 12% DA CARTEIRA}\n- {ciano:VIESES EM AÇÃO:} {laranja:EXCESSO DE CONFIANÇA} (R2) E {laranja:EFEITO MANADA} (R3)\n- {ciano:AVIAÇÃO, 1935:} PILOTOS EXPERIENTES, TRAVA ESQUECIDA → O CHECKLIST VIROU ROTINA"
+    },
+    {
+      "saida": "r7b_2_checklist-caixa-preta.png",
+      "semente": 706,
+      "molde": "comparacao",
+      "titulo": "CHECKLIST E CAIXA-PRETA",
+      "colunas": [
+        {
+          "titulo": "ANTES DE AGIR",
+          "desenho": "prancheta",
+          "rotulos": [
+            "CHECKLIST",
+            "DOIS PILOTOS"
+          ],
+          "texto": "- CHECKLIST → {verde:PROCESSO}\n- UM VOA, OUTRO MONITORA → {verde:ANÁLISE ≠ EXECUÇÃO}\n- INSTRUMENTOS CONFERIDOS ENTRE SI → {verde:FONTES DIVERSAS}"
+        },
+        {
+          "titulo": "DEPOIS E SEMPRE",
+          "desenho": "caixa_preta",
+          "rotulos": [
+            "GRAVA TUDO",
+            "SIMULADOR"
+          ],
+          "texto": "- CAIXA-PRETA → {laranja:REGISTRO DE DECISÕES}\n- SIMULADOR → {laranja:EDUCAÇÃO CONTÍNUA}\n- O REGISTRO MOSTRA O {vermelho:VIÉS QUE SE REPETE}"
+        }
+      ],
+      "faixas": [
+        "{ciano:FATO:} 30/10/1935, O PROTÓTIPO BOEING MODELO 299 (FUTURO B-17) CAI NA DECOLAGEM COM A TRAVA DOS COMANDOS PRESA"
+      ],
+      "destaque": {
+        "texto": "{vermelho:ONDE QUEBRA:} A CAIXA-PRETA É LIDA NO PÓS-ACIDENTE · O DIÁRIO DE DECISÕES SE {laranja:RELÊ ANTES}",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
+    },
+    {
+      "saida": "r7b_3_quatro-praticas.png",
+      "semente": 707,
+      "molde": "colunas",
+      "titulo": "AS 4 PRÁTICAS E O VIÉS QUE ATACAM",
+      "topo": "{ciano:META:} UM AMBIENTE EM QUE O INVESTIDOR DECIDE DE FORMA {verde:MAIS RACIONAL E CONSISTENTE} · MITIGAR {laranja:≠} ELIMINAR",
+      "colunas": [
+        {
+          "titulo": "PROCESSOS E FONTES",
+          "texto": "- {ciano:1 PROCESSOS:} CHECKLIST · REGRA AUTOMÁTICA · ANÁLISE SEPARADA DA EXECUÇÃO\n- ATACA: {laranja:IMPULSO}, {laranja:MANADA} E {laranja:EXCESSO DE CONFIANÇA}\n- {ciano:2 FONTES DIVERSAS:} SAIR DA BOLHA, OUVIR O CONTRÁRIO\n- ATACA: {laranja:VIÉS DE CONFIRMAÇÃO} (R3)"
+        },
+        {
+          "titulo": "REGISTRO E EDUCAÇÃO",
+          "texto": "- {ciano:3 REGISTRO:} MOTIVO ESCRITO · RESULTADO ACOMPANHADO · VIÉS RECORRENTE\n- ATACA: {laranja:AUTOATRIBUIÇÃO} (R3)\n- {ciano:4 EDUCAÇÃO CONTÍNUA:} FUNDAMENTOS, RISCOS, MERCADO E PRODUTOS\n- BÔNUS: USAR AS HEURÍSTICAS {verde:A FAVOR} (NUDGE, R5)"
+        }
+      ],
+      "destaque": {
+        "texto": "{ciano:EXEMPLO DE CHECKLIST:} POR QUE ESTOU COMPRANDO? · QUANTO DA CARTEIRA? · O QUE ME FARIA VENDER? · {verde:ANOTEI?}",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r7b_4_com-ou-sem-checklist.png",
+      "semente": 708,
+      "molde": "exercicio",
+      "titulo": "COM OU SEM CHECKLIST?",
+      "dados": "- CARTEIRA DE R$ 200.000 · A MESMA DICA, QUE CAI {vermelho:40%} (HIPOTÉTICO)\n- REGRA DO CHECKLIST: {ciano:NENHUM ATIVO ACIMA DE 10% DA CARTEIRA}\n- SEM CUSTOS E SEM IMPOSTOS\n- A ÚNICA DIFERENÇA: O CHECKLIST\n- {ciano:VIESES DA DICA:} {laranja:EXCESSO DE CONFIANÇA} E {laranja:EFEITO MANADA}",
+      "cenarios": [
+        {
+          "titulo": "SEM CHECKLIST",
+          "passos": "30% → R$ 60.000\n60.000 × 40%\n= 12% DA CARTEIRA",
+          "resultado": "−R$ 24.000"
+        },
+        {
+          "titulo": "COM CHECKLIST",
+          "passos": "10% → R$ 20.000\n20.000 × 40%\n= 4% DA CARTEIRA",
+          "resultado": "−R$ 8.000"
+        }
+      ],
+      "conclusao": {
+        "texto": "O CHECKLIST {laranja:NÃO PREVÊ} O MERCADO · ELE {verde:LIMITA O TAMANHO} DO ERRO · A MESMA DICA, COM PESO MENOR, CUSTOU {verde:R$ 16.000 A MENOS}",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r7c_1_bem-fisico.png",
+      "semente": 709,
+      "molde": "mito_verdade",
+      "titulo": "TODO BEM FÍSICO É INVESTIMENTO?",
+      "mitos": [
+        "SE EU TOCO, RENDE",
+        "CARRO É INVESTIMENTO"
+      ],
+      "verdade": "MUITO BEM FÍSICO É {vermelho:CONSUMO}, NÃO {verde:INVESTIMENTO}",
+      "desenho": "carro",
+      "apoio": "- R$ 100 MIL NUM CARRO, DEPRECIAÇÃO DE 10% AO ANO → {vermelho:R$ 59.049} EM 5 ANOS (HIPOTÉTICO)\n- {ciano:REAIS:} IMÓVEIS, AUTOMÓVEIS, ELETRÔNICOS, JOIAS, OBRAS DE ARTE\n- {ciano:FINANCEIROS:} PROJETADOS PARA {verde:GERAR RETORNO} AO LONGO DO TEMPO\n- IMÓVEL ALUGADO PODE GERAR RENDA; CARRO E CELULAR {vermelho:PERDEM VALOR} COM O USO"
+    },
+    {
+      "saida": "r7c_2_aviao-ou-acoes.png",
+      "semente": 710,
+      "molde": "comparacao",
+      "titulo": "AVIÃO PRÓPRIO OU AÇÕES?",
+      "colunas": [
+        {
+          "titulo": "O PRÓPRIO AVIÃO",
+          "desenho": "aviao_hangar",
+          "rotulos": [
+            "SE TOCA",
+            "HANGAR"
+          ],
+          "texto": "- HANGAR, MANUTENÇÃO, SEGURO → {vermelho:CUSTO}\n- MODELO NOVO NO MERCADO → {vermelho:OBSOLESCÊNCIA}\n- TUDO NUM SÓ BEM → {vermelho:SEM DIVERSIFICAÇÃO}"
+        },
+        {
+          "titulo": "AÇÕES DE AÉREAS",
+          "desenho": "tela_companhias",
+          "rotulos": [
+            "NA TELA",
+            "VÁRIAS"
+          ],
+          "texto": "- VENDE EM MINUTOS → {verde:LIQUIDEZ}\n- PREÇO TODO DIA → {verde:TRANSPARÊNCIA}\n- VÁRIAS EMPRESAS → {verde:DIVERSIFICAÇÃO}"
+        }
+      ],
+      "faixas": [
+        "{ciano:A EMOÇÃO INVERTE A PERCEPÇÃO:} O AVIÃO NO HANGAR {laranja:PARECE SEGURO}; A COTAÇÃO NA TELA {laranja:ASSUSTA}"
+      ],
+      "destaque": {
+        "texto": "{vermelho:ONDE QUEBRA:} AVIÃO PARTICULAR QUASE SEMPRE É {vermelho:CONSUMO} · IMÓVEL ALUGADO PODE GERAR {verde:RENDA E VALORIZAÇÃO}",
+        "cor": "branco",
+        "moldura": "vermelho"
+      }
+    },
+    {
+      "saida": "r7c_3_reais-financeiros.png",
+      "semente": 711,
+      "molde": "colunas",
+      "titulo": "REAIS × FINANCEIROS",
+      "topo": "{ciano:A COMBINAÇÃO DOS FINANCEIROS EQUILIBRA:} RISCO · RETORNO · HORIZONTE · OBJETIVOS · {verde:NECESSIDADE DE LIQUIDEZ}",
+      "colunas": [
+        {
+          "titulo": "INVESTIMENTO REAL",
+          "texto": "- LIQUIDEZ {vermelho:MENOR}: VENDER LEVA TEMPO OU EXIGE DESCONTO\n- MANUTENÇÃO {vermelho:MAIOR}: IPTU, CONDOMÍNIO, SEGURO\n- PREÇO DIFÍCIL: CADA BEM É {laranja:ÚNICO}\n- {laranja:OBSOLESCÊNCIA} E POUCA DIVERSIFICAÇÃO"
+        },
+        {
+          "titulo": "INVESTIMENTO FINANCEIRO",
+          "texto": "- EX.: TÍTULO PÚBLICO, CDB, DEBÊNTURE, AÇÃO, FUNDO, ETF, MOEDA, DERIVATIVO\n- LIQUIDEZ {verde:MAIOR} E PREÇO {verde:TRANSPARENTE}\n- ACOMPANHAMENTO E {verde:DIVERSIFICAÇÃO}\n- GERA {verde:RENDA E VALORIZAÇÃO}"
+        }
+      ],
+      "destaque": {
+        "texto": "{ciano:LADO COMPORTAMENTAL:} BEM FÍSICO = {laranja:SENSAÇÃO DE CONTROLE} · TELA = {laranja:ANSIEDADE} · O IMÓVEL TAMBÉM OSCILA, SÓ {vermelho:SEM COTAÇÃO DIÁRIA}",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    },
+    {
+      "saida": "r7c_4_carro-ou-titulo.png",
+      "semente": 712,
+      "molde": "exercicio",
+      "titulo": "O CARRO OU O TÍTULO?",
+      "dados": "- OS MESMOS R$ 100.000, POR 5 ANOS (HIPOTÉTICO)\n- CARRO: DEPRECIAÇÃO DE {vermelho:10% AO ANO} · TÍTULO: {verde:10% AO ANO}\n- SEM IMPOSTOS E SEM CUSTO DE MANUTENÇÃO\n- A ÚNICA DIFERENÇA: O DESTINO DO DINHEIRO\n- NA HP, A DEPRECIAÇÃO ENTRA COMO {vermelho:TAXA NEGATIVA}",
+      "cenarios": [
+        {
+          "titulo": "O CARRO",
+          "passos": "PV −100.000 · n 5\ni −10 (TAXA NEGATIVA)\nO QUE SOBRA",
+          "resultado": "R$ 59.049"
+        },
+        {
+          "titulo": "O TÍTULO",
+          "passos": "PV −100.000 · n 5\ni 10\nO QUE ACUMULA",
+          "resultado": "R$ 161.051"
+        }
+      ],
+      "conclusao": {
+        "texto": "DISTÂNCIA: {vermelho:R$ 102.002} · O CARRO PERDEU {vermelho:40,95%}; O TÍTULO GANHOU {verde:61,05%} · CARRO É ÓTIMO PARA {laranja:USAR}, NÃO PARA {verde:RENDER}",
+        "cor": "branco",
+        "moldura": "amarelo"
+      }
+    }
+  ]
+}
