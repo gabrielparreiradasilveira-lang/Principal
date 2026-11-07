@@ -31,7 +31,7 @@
    "cenarios": [
     {"titulo": "A × B", "passos": "- A: MÉDIA 10% · DESVIO 4\n- B: MÉDIA 10% · DESVIO 8\n- EMPATE NO RETORNO, A COM METADE DO RISCO", "resultado": "A DOMINA B (FRACA)"},
     {"titulo": "C × B", "passos": "- C: MÉDIA 12% · DESVIO 8\n- B: MÉDIA 10% · DESVIO 8\n- EMPATE NO RISCO, C RENDE MAIS", "resultado": "C DOMINA B (FRACA)"}],
-   "conclusao": {"texto": "PIOR EM UMA DIMENSÃO, IGUAL NA OUTRA → DOMINADO: ✗ {vermelho:B SAI DA LISTA} · A × C: {laranja:NINGUÉM DOMINA}", "cor": "branco", "moldura": "amarelo"},
+   "conclusao": {"texto": "PIOR EM UMA DIMENSÃO, IGUAL NA OUTRA → DOMINADO: ✗ {vermelho:B SAI DA LISTA} · A × C: {laranja:NINGUÉM DOMINA}, DECIDE O PERFIL", "cor": "branco", "moldura": "amarelo"},
    "pergunta": "E SE B RENDESSE 13% COM DESVIO 8?",
    "sintese": "RISCO = INCERTEZA → RÉGUA: SELIC → MAIS RISCO EXIGE MAIS RETORNO",
    "referencia": "TEORIA MODERNA DE CARTEIRAS DE HARRY MARKOWITZ (ARTIGO DE 1952)"}
