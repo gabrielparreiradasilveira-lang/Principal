@@ -1,0 +1,324 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r6a_1_aposta-investimento.png",
+   "semente": 601,
+   "molde": "mito_verdade",
+   "titulo": "APOSTA É INVESTIMENTO?",
+   "mitos": [
+    "APOSTA É INVESTIMENTO ARRISCADO",
+    "QUEM ENTENDE SEMPRE GANHA"
+   ],
+   "verdade": "APOSTAR É {vermelho:EVENTO} · INVESTIR É {verde:PROCESSO}",
+   "desenho": {
+    "nome": "caca_niquel",
+    "largura": 150
+   },
+   "apoio": "- {ciano:RAIO X 9ª EDIÇÃO (ANBIMA/DATAFOLHA, ABR/2026):} 17% APOSTARAM ONLINE EM 2025 (15% EM 2024)\n- {laranja:20%} DOS APOSTADORES VEEM A BET COMO FORMA DE INVESTIR OU JUNTAR DINHEIRO\n- QUEM PENSA ASSIM GASTA MAIS: {vermelho:R$ 284,81}/MÊS × R$ 178,47 DOS DEMAIS\n- PESQUISA: 5.832 ENTREVISTAS, DE 4 A 21/11/2025, MARGEM DE ERRO DE 1 PONTO\n- {ciano:VALE PARA:} TODO CLIENTE · O PROFISSIONAL PERGUNTA SE ELE USA BETS"
+  },
+  {
+   "saida": "r6a_2_painel-cacaniquel.png",
+   "semente": 602,
+   "molde": "comparacao",
+   "titulo": "O PAINEL E O CAÇA-NÍQUEL",
+   "colunas": [
+    {
+     "titulo": "PLANO DE VOO",
+     "desenho": "cabine",
+     "rotulos": [
+      "ROTA",
+      "HORAS"
+     ],
+     "texto": "- DESTINO DEFINIDO → {verde:OBJETIVO}\n- INSTRUMENTOS → {verde:FUNDAMENTOS}\n- VIAGEM LONGA → {verde:LONGO PRAZO}\n- CORREÇÃO DE ROTA → {verde:GESTÃO DE RISCO}"
+    },
+    {
+     "titulo": "CAÇA-NÍQUEL",
+     "desenho": "caca_niquel",
+     "rotulos": [
+      "SEGUNDOS",
+      "PISCA"
+     ],
+     "texto": "- LUZ E SOM → {vermelho:ESTÍMULOS}\n- RESULTADO JÁ → {vermelho:RECOMPENSA IMEDIATA}\n- \"QUASE GANHEI\" → {vermelho:CONTROLE ILUSÓRIO}\n- SEMPRE À MÃO → {vermelho:FACILIDADE EXTREMA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:A MÁQUINA:} CALIBRADA PARA RETER PARTE DO QUE ENTRA → RETORNO ESPERADO {vermelho:NEGATIVO}",
+    "{ciano:O RISCO:} O PILOTO LARGAR O MANCHE → A APOSTA {laranja:INVADIR} A ESTRATÉGIA DE INVESTIMENTO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} VOAR TAMBÉM TEM RISCO · O QUE SEPARA OS DOIS É O {laranja:SINAL DO RETORNO ESPERADO}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r6a_3_aposta-x-investimento.png",
+   "semente": 603,
+   "molde": "colunas",
+   "titulo": "APOSTA × INVESTIMENTO",
+   "topo": "{ciano:BETS ATIVAM PRAZER E IMPULSO:} GANHO RÁPIDO · NÃO PARAR APÓS PERDER · \"TODO MUNDO GANHA MENOS EU\" · SORTE VIRA \"HABILIDADE\"",
+   "colunas": [
+    {
+     "titulo": "APOSTA",
+     "texto": "- {vermelho:SORTE} E EVENTOS FORA DO CONTROLE\n- {vermelho:NÃO CRIA} VALOR ECONÔMICO\n- RESOLVIDA EM {vermelho:CURTÍSSIMO PRAZO}\n- RETORNO ESPERADO {vermelho:NEGATIVO}\n- FIM: {laranja:ENTRETENIMENTO}\n- {ciano:CONTA:} 0,5 × 90 − 0,5 × 100 = {vermelho:− R$ 5}"
+    },
+    {
+     "titulo": "INVESTIMENTO",
+     "texto": "- {verde:FUNDAMENTOS}: EMPRESAS, JUROS, PRODUTIVIDADE\n- {verde:GERA VALOR} COM O TEMPO\n- RETORNO ESPERADO {verde:POSITIVO} NO LONGO PRAZO\n- ESTRATÉGIA PRESA AOS {verde:OBJETIVOS}\n- RISCO GERIDO, DISCIPLINA, PLANO\n- {ciano:AÇÃO ARRISCADA:} HÁ EMPRESA PRODUZINDO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:QUOTA FIXA (MP 1.394/2026, ART. 3º):} PRÊMIO DEFINIDO POR {laranja:FATOR DE MULTIPLICAÇÃO} · {vermelho:PEGADINHA:} RETORNO \"ZERO\" → ERRADO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r6a_4_investir-ou-apostar.png",
+   "semente": 604,
+   "molde": "exercicio",
+   "titulo": "INVESTIR OU APOSTAR R$ 1.000?",
+   "dados": "- R$ 1.000 POR 12 RODADAS (HIPOTÉTICO)\n- INVESTIMENTO: {verde:+1% AO MÊS}\n- APOSTA: DEVOLVE, NA MÉDIA, {vermelho:95%} (ODD 1,90 · 50% DE CHANCE)\n- SEM IMPOSTOS NEM CUSTOS · VALOR MÉDIO, NÃO GARANTIDO\n- A ÚNICA DIFERENÇA: O SINAL DO RETORNO ESPERADO",
+   "cenarios": [
+    {
+     "titulo": "INVESTIR",
+     "passos": "1.000 × 1,01 (12 VEZES)\nJUROS SOBRE JUROS\nA FAVOR",
+     "resultado": "R$ 1.126,83"
+    },
+    {
+     "titulo": "APOSTAR",
+     "passos": "1.000 × 0,95 (12 VEZES)\nREAPOSTANDO TUDO\nCONTRA",
+     "resultado": "R$ 540,36"
+    }
+   ],
+   "conclusao": {
+    "texto": "DIFERENÇA DE {vermelho:R$ 586,47} · O MESMO TEMPO QUE {verde:SOMA} NO INVESTIMENTO {vermelho:SUBTRAI} NA APOSTA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r6b_1_aposta-pequena.png",
+   "semente": 605,
+   "molde": "mito_verdade",
+   "titulo": "APOSTA PEQUENA NÃO PESA?",
+   "mitos": [
+    "R$ 10 NÃO FAZEM FALTA",
+    "EU PARO QUANDO QUISER"
+   ],
+   "verdade": "PEQUENAS APOSTAS {vermelho:SOMAM} GRANDES GASTOS",
+   "desenho": {
+    "nome": "tanque_furado",
+    "largura": 150
+   },
+   "apoio": "- {ciano:RAIO X 9ª EDIÇÃO (ANBIMA/DATAFOLHA, ABR/2026):} GASTO MÉDIO DE {vermelho:R$ 195,15}/MÊS\n- {laranja:37%} GASTAM R$ 100 OU MAIS POR MÊS (39% NA EDIÇÃO ANTERIOR)\n- {laranja:36%} GASTAM ATÉ R$ 30 · 17% DE R$ 50 A R$ 99 · 3% DE R$ 31 A R$ 49\n- DA AMOSTRA: 7% APOSTAM RARAMENTE · 2% MAIS DE 1 VEZ POR SEMANA · 1% TODO DIA\n- {ciano:SEM LIMITE NATURAL:} O TETO PRECISA SER DECIDIDO ANTES"
+  },
+  {
+   "saida": "r6b_2_tres-jeitos-tanque.png",
+   "semente": 606,
+   "molde": "comparacao",
+   "titulo": "TRÊS JEITOS E UM FURO",
+   "colunas": [
+    {
+     "titulo": "TRÊS JEITOS DE APOSTAR",
+     "desenho": "placar",
+     "rotulos": [
+      "SORTE",
+      "PRESSA"
+     ],
+     "texto": "- BILHETE NO SAGUÃO → {laranja:LOTERIA}\n- PALPITE NA CORRIDA AÉREA → {laranja:ESPORTIVA}\n- CAÇA-NÍQUEL NO PAINEL → {laranja:JOGO ONLINE}\n- ESPERA MENOR → {vermelho:MAIS IMPULSO}"
+    },
+    {
+     "titulo": "O FURO NO TANQUE",
+     "desenho": "tanque_furado",
+     "rotulos": [
+      "GOTA",
+      "DESTINO"
+     ],
+     "texto": "- CADA GOTA → {vermelho:UMA APOSTA}\n- TANQUE BAIXO → {vermelho:MENOS POUPANÇA}\n- POUSO ADIADO → {vermelho:OBJETIVO ATRASADO}\n- ACELERAR PARA COMPENSAR → {vermelho:RECUPERAR PERDAS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ESPERA ATÉ O RESULTADO:} LOTERIA → O SORTEIO · ESPORTE → O FIM DO JOGO · JOGO ONLINE → {vermelho:NA HORA}",
+    "{ciano:NO VOO DE VERDADE:} O PILOTO CONFERE O COMBUSTÍVEL ANTES DE DECOLAR → {verde:TETO DEFINIDO ANTES}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O FURO REAL É ACIDENTE · NA APOSTA, {laranja:QUEM FURA O TANQUE} É A PRÓPRIA PESSOA, DE NOVO E DE NOVO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r6b_3_tipos-orcamento-1.png",
+   "semente": 607,
+   "molde": "colunas",
+   "titulo": "TIPOS, ORÇAMENTO E NORMA (1/2)",
+   "topo": "{ciano:EM COMUM:} EMOÇÃO · ALEATORIEDADE · ESTÍMULO RÁPIDO → {laranja:INTERVALO CURTO = MAIS IMPULSO}, TAMBÉM NOS INVESTIMENTOS",
+   "colunas": [
+    {
+     "titulo": "OS 3 TIPOS",
+     "texto": "- {ciano:LOTERIA:} CHANCE {vermelho:BAIXÍSSIMA}, SONHO DE RIQUEZA, ESPERANÇA\n- {ciano:ESPORTIVA:} EVENTO FORA DO CONTROLE, {vermelho:ILUSÃO} DE CONHECIMENTO, IMPULSO\n- {ciano:JOGO ONLINE:} RESULTADO {vermelho:IMEDIATO}, RECOMPENSA CONTÍNUA, RISCO DE COMPULSÃO\n- APOSTAR TODA SEMANA NÃO MELHORA A CHANCE DE CADA SORTEIO"
+    },
+    {
+     "titulo": "O ORÇAMENTO",
+     "texto": "- {ciano:POR QUÊ:} ACÚMULO · IMPULSO · \"RECUPERAR\" · SEM LIMITE NATURAL\n- {vermelho:CONSEQUÊNCIAS:} MENOS POUPANÇA, OBJETIVOS ATRASADOS\n- ENDIVIDAMENTO, ESTRESSE EMOCIONAL E FINANCEIRO\n- MAIS TOLERÂNCIA AO RISCO, ATÉ NA CARTEIRA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:VIZINHO:} RENDA COMPROMETIDA COM DÍVIDAS (R19) × COM APOSTAS → {laranja:UMA ALIMENTA A OUTRA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r6b_3_tipos-orcamento-2.png",
+   "semente": 608,
+   "molde": "colunas",
+   "titulo": "TIPOS, ORÇAMENTO E NORMA (2/2)",
+   "topo": "{ciano:MP 1.394, DE 25/09/2026, EM VIGOR:} PROÍBE EXPLORAR, OFERTAR, INTERMEDIAR E DIVULGAR APOSTAS DE QUOTA FIXA, FÍSICAS OU VIRTUAIS, ATÉ DO EXTERIOR",
+   "colunas": [
+    {
+     "titulo": "O QUE ATINGE",
+     "texto": "- {vermelho:PROIBIDAS:} ESPORTIVAS E JOGOS ON-LINE (ART. 1º, § 1º)\n- {verde:FORA:} DEMAIS LOTERIAS AUTORIZADAS POR LEI (§ 2º)\n- ALCANÇA ESTADOS E DF (ART. 2º)\n- AUTORIZAÇÕES EXTINTAS EM {laranja:30 DIAS} (ART. 4º)"
+    },
+    {
+     "titulo": "COMO FAZ VALER",
+     "texto": "- APPS FORA DO AR EM {laranja:10 DIAS}; SALDOS DEVOLVIDOS (ARTS. 7º A 9º)\n- BANCOS E PIX {vermelho:NÃO PROCESSAM} (ART. 14)\n- PUBLICIDADE PROIBIDA E {vermelho:ABUSIVA} (ARTS. 16 E 18)\n- BLOQUEIO DE SITES; COMITÊ NA CASA CIVIL (ARTS. 23 E 24)"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:EM 08/11/2026:} CONGRESSO NÃO VOTOU · STF: ADIs 8024, 8027, 8028 E 8035, SEM LIMINAR · {laranja:CONFIRA NA PROVA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r6b_4_frequencia.png",
+   "semente": 609,
+   "molde": "exercicio",
+   "titulo": "R$ 10 POR SEMANA OU POR DIA?",
+   "dados": "- RENDA: {ciano:R$ 3.000} POR MÊS (HIPOTÉTICO)\n- CADA APOSTA: {laranja:R$ 10}\n- MÊS = 4 SEMANAS OU 30 DIAS · SEM IMPOSTOS · SEM PRÊMIOS\n- 0,8% AO MÊS SÓ PARA COMPARAR (TAXA HIPOTÉTICA)\n- A ÚNICA DIFERENÇA: A FREQUÊNCIA",
+   "cenarios": [
+    {
+     "titulo": "1 VEZ POR SEMANA",
+     "passos": "4 × R$ 10 = R$ 40/MÊS\nR$ 480 NO ANO\nRITMO DE SORTEIO",
+     "resultado": "1,33% DA RENDA"
+    },
+    {
+     "titulo": "2 VEZES POR DIA",
+     "passos": "60 × R$ 10 = R$ 600/MÊS\nR$ 7.200 NO ANO\nRITMO DE JOGO ONLINE",
+     "resultado": "20% DA RENDA"
+    }
+   ],
+   "conclusao": {
+    "texto": "OS R$ 600/MÊS, A 0,8% A.M., VIRARIAM {verde:R$ 7.525,40} EM 12 MESES · {laranja:A FREQUÊNCIA} PESOU MAIS QUE O VALOR",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r6c_1_quem-aposta.png",
+   "semente": 610,
+   "molde": "mito_verdade",
+   "titulo": "QUEM APOSTA GANHA POUCO?",
+   "mitos": [
+    "BET É COISA DE QUEM GANHA POUCO",
+    "MEU CLIENTE NÃO APOSTA"
+   ],
+   "verdade": "PÚBLICO {laranja:JOVEM E CONECTADO}, DE {verde:QUALQUER RENDA}",
+   "desenho": {
+    "nome": "pessoa",
+    "largura": 80
+   },
+   "apoio": "- {ciano:RAIO X 9ª EDIÇÃO (ANBIMA/DATAFOLHA, ABR/2026), APOSTADORES DE 2025:}\n- HOMENS: {laranja:66%} (48% NO GERAL) · IDADE MÉDIA: {laranja:35 ANOS} (44 NO GERAL)\n- RENDA FAMILIAR: {laranja:R$ 5.402}/MÊS (R$ 4.627 NO GERAL)\n- 38% INVESTEM (36% NO GERAL) · 21% SEM RESERVA DE EMERGÊNCIA (31% NO GERAL)\n- {ciano:ALTO RISCO DE VÍCIO (11%):} 56% DA CLASSE C · 73% HOMENS · 25% SEM RESERVA"
+  },
+  {
+   "saida": "r6c_2_lista-passageiros.png",
+   "semente": 611,
+   "molde": "comparacao",
+   "titulo": "A LISTA DE PASSAGEIROS",
+   "colunas": [
+    {
+     "titulo": "QUEM EMBARCA",
+     "desenho": "prancheta",
+     "rotulos": [
+      "PERFIL",
+      "IDADE"
+     ],
+     "texto": "- QUEM É → {laranja:PÚBLICO}\n- QUANTOS ANOS → {laranja:GERAÇÃO}\n- POR QUE VIAJA → {laranja:MOTIVAÇÃO}\n- CONFERIR ANTES DE DECOLAR → {verde:PERGUNTAR}"
+    },
+    {
+     "titulo": "O QUE ATRAI",
+     "desenho": "caca_niquel",
+     "rotulos": [
+      "LUZ",
+      "BOTÃO"
+     ],
+     "texto": "- CARTAZ NO SAGUÃO → {vermelho:PUBLICIDADE}\n- AMIGO QUE JÁ JOGOU → {vermelho:INFLUÊNCIA}\n- LUZ PISCANDO → {vermelho:EMOÇÃO}\n- BOTÃO À MÃO → {vermelho:FACILIDADE}"
+    }
+   ],
+   "faixas": [
+    "{ciano:GERAÇÕES NO RAIO X:} Z = 16 A 29 ANOS · MILLENNIALS = 30 A 44 · X = 45 A 64 · BOOMERS = 65 OU MAIS",
+    "{ciano:NA ENTREVISTA:} PERGUNTE SE USA BETS, QUANTO GASTA E POR QUE APOSTA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O PASSAGEIRO DECLARA O DESTINO · QUEM APOSTA {laranja:PODE ESCONDER}: A PERGUNTA É DO PROFISSIONAL",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r6c_3_publico-geracao-motivacao.png",
+   "semente": 612,
+   "molde": "colunas",
+   "titulo": "PÚBLICO, GERAÇÃO E MOTIVAÇÃO",
+   "topo": "{ciano:POR QUE IMPORTA:} CAPACIDADE DE POUPANÇA · PERFIL DE RISCO · QUALIDADE DAS DECISÕES DE INVESTIMENTO",
+   "colunas": [
+    {
+     "titulo": "PÚBLICO",
+     "texto": "- {laranja:18 A 35 ANOS}\n- REDES SOCIAIS E APPS\n- RECOMPENSA RÁPIDA E IMPULSO\n- RENDA IRREGULAR, POUCO CONHECIMENTO, RENDA EXTRA"
+    },
+    {
+     "titulo": "GERAÇÃO",
+     "texto": "- {laranja:Z E MILLENNIALS}\n- PUBLICIDADE DIGITAL, RISCO ESPECULATIVO\n- ANTERIORES: MENOS, MAS {vermelho:CRESCENDO}\n- RAIO X: ALTO RISCO = {vermelho:11%} (ERA 10%)"
+    },
+    {
+     "titulo": "MOTIVAÇÃO",
+     "texto": "- GANHO RÁPIDO, EMOÇÃO, CONTROLE\n- RECUPERAR PERDAS, INFLUÊNCIA\n- PUBLICIDADE, FACILIDADE\n- RAIO X: DIVERSÃO {laranja:26% → 32%}; \"INVESTIR\" 20% (ERA 24%)"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} MOTIVAÇÃO {vermelho:≠} PERFIL DE RISCO · O PERFIL SAI DO {laranja:SUITABILITY} (R20)",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r6c_4_recuperar-perdas.png",
+   "semente": 613,
+   "molde": "exercicio",
+   "titulo": "DIVERSÃO OU RECUPERAR PERDAS?",
+   "dados": "- RENDA: {ciano:R$ 3.000} (HIPOTÉTICO)\n- 1ª APOSTA: {laranja:R$ 50}, NUMA APOSTA QUE PAGA O DOBRO\n- 5 PERDAS SEGUIDAS (CHANCE DE 3,1% COM 50% POR RODADA)\n- NA HP, i = 100% É SÓ O ATALHO PARA \"DOBRAR\"\n- A ÚNICA DIFERENÇA: A MOTIVAÇÃO",
+   "cenarios": [
+    {
+     "titulo": "DIVERSÃO COM TETO",
+     "passos": "50+50+50+50+50\nTETO FIXO POR RODADA\n8,33% DA RENDA",
+     "resultado": "PERDE R$ 250"
+    },
+    {
+     "titulo": "RECUPERAR PERDAS",
+     "passos": "50+100+200+400+800\nDOBRA A CADA DERROTA\n51,67% DA RENDA",
+     "resultado": "PERDE R$ 1.550"
+    }
+   ],
+   "conclusao": {
+    "texto": "PARA RECUPERAR E GANHAR R$ 50, A 6ª APOSTA SERIA DE {vermelho:R$ 1.600} · EXPOSIÇÃO TOTAL DE {vermelho:R$ 3.150}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
