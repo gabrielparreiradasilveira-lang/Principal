@@ -1,5 +1,7 @@
 # R58 · skill nova · Risco de ativos, ativo livre de risco e dominância entre ativos (4.5 a 4.6) (2)
 
+Apresentação das lousas (2), no Google Slides: https://docs.google.com/presentation/d/1L7tjOQlXVCNpGevvKNod4Web4EcDBlBPfBpuhOAXCFc/edit
+
 ## Plano da série
 
 | Vídeo | Itens do PD | Minutagem (conferidor) | Mito da abertura |
