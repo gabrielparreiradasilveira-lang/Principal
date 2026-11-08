@@ -1,0 +1,534 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r58a_1_abertura.png",
+   "semente": 581,
+   "molde": "mito_verdade",
+   "titulo": "RISCO DE ATIVOS · C-PRO R 4.5",
+   "mitos": [
+    "\"RISCO = CHANCE DE PERDER\""
+   ],
+   "verdade": "RISCO = INCERTEZA, PARA CIMA OU PARA BAIXO",
+   "desenho": {
+    "nome": "grafico_alta",
+    "largura": 220
+   },
+   "apoio": "- IBOVESPA EM 2020: MARÇO {vermelho:−29,90%} · NOVEMBRO {verde:+15,90%} · ANO {laranja:+2,92%}\n  - MARÇO: O PIOR MÊS DESDE AGO./1998\n- O MESMO ÍNDICE, NO MESMO ANO: O RESULTADO FINAL ESCONDE A VIAGEM",
+   "legenda": true,
+   "referencia": "IBOVESPA, O ÍNDICE DA BOLSA B3 (VARIAÇÕES MENSAIS DE 2020)"
+  },
+  {
+   "saida": "r58a_2_buracos.png",
+   "semente": 582,
+   "molde": "topicos",
+   "titulo": "CINCO BURACOS NA ESTRADA",
+   "desenho": {
+    "nome": "estrada_buracos",
+    "largura": 400
+   },
+   "texto": "1. CHUVA → {laranja:MERCADO}: IPCA+ LONGO QUANDO OS JUROS SOBEM\n2. PONTE → {laranja:CRÉDITO}: CRI DE UMA INCORPORADORA EM DIFICULDADE\n3. TRECHO SEM DESVIO → {laranja:LIQUIDEZ}: COTA DE FII POUCO NEGOCIADA\n4. GPS COM DEFEITO → {laranja:OPERACIONAL}: ORDEM ERRADA POR FALHA DE SISTEMA\n5. PLACA NOVA → {laranja:LEGAL}: MUDANÇA NA TRIBUTAÇÃO\n{ciano:TAMANHO DOS BURACOS} → VOLATILIDADE: QUANTO OS RETORNOS SE AFASTAM DA MÉDIA",
+   "destaque": {
+    "texto": "⚠ {vermelho:ONDE QUEBRA:} BURACO SÓ ATRASA · NO MERCADO, A SURPRESA TAMBÉM PODE SER BOA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   },
+   "referencia": "GESTÃO DE RISCOS NOS BANCOS (RESOLUÇÃO CMN 4.557/2017)"
+  },
+  {
+   "saida": "r58a_3_incerteza.png",
+   "semente": 583,
+   "molde": "topicos",
+   "titulo": "1. RISCO = INCERTEZA",
+   "formula": {
+    "antes": "VOLATILIDADE = σ = √",
+    "num": "Σ (RETORNO − MÉDIA)²",
+    "den": "N − 1"
+   },
+   "texto": "{ciano:COMO CADA RISCO SE REDUZ:}\n1. MERCADO → DIVERSIFICAR CLASSES · PROTEÇÃO COM DERIVATIVOS\n2. CRÉDITO → RATING · DIVERSIFICAR EMISSORES · FGC NOS BANCÁRIOS\n3. LIQUIDEZ → PRAZO DO ATIVO CASADO COM O OBJETIVO\n  - RESERVA DE EMERGÊNCIA EM ATIVO LÍQUIDO\n4. OPERACIONAL → PROCESSOS E CONTROLES DA INSTITUIÇÃO\n5. LEGAL → ACOMPANHAR MUDANÇAS DE NORMAS",
+   "destaque": {
+    "texto": "⚠ {vermelho:VOLATILIDADE BAIXA ≠ SEM RISCO DE CRÉDITO:} O CDB OSCILA POUCO ATÉ O DIA EM QUE O BANCO QUEBRA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   },
+   "referencia": "GESTÃO DE RISCOS NOS BANCOS (RESOLUÇÃO CMN 4.557/2017)"
+  },
+  {
+   "saida": "r58a_4_resolucao.png",
+   "semente": 584,
+   "molde": "exercicio",
+   "titulo": "MESMA MÉDIA, RISCOS DIFERENTES",
+   "dados": "- RETORNOS ANUAIS DE DOIS ATIVOS EM 3 ANOS\n- RISCO = DESVIO PADRÃO AMOSTRAL (A HP12C DIVIDE POR N − 1)\n- DISTÂNCIAS DA MÉDIA MAIORES → DESVIO PADRÃO MAIOR",
+   "cenarios": [
+    {
+     "titulo": "ATIVO A",
+     "passos": "- 8% · 10% · 12%\n- MÉDIA = 10%\n- DISTÂNCIAS DA MÉDIA: −2 · 0 · +2\n- POUCA SURPRESA",
+     "resultado": "DESVIO PADRÃO = 2"
+    },
+    {
+     "titulo": "ATIVO B",
+     "passos": "- 0% · 10% · 20%\n- MÉDIA = 10%\n- DISTÂNCIAS DA MÉDIA: −10 · 0 · +10\n- MUITA SURPRESA",
+     "resultado": "DESVIO PADRÃO = 10"
+    }
+   ],
+   "conclusao": {
+    "texto": "RETORNOS MAIS ESPALHADOS → DESVIO MAIOR: ⚠ {vermelho:5 VEZES MAIS RISCO} NO B, COM A MESMA MÉDIA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   },
+   "premissas": "RETORNOS HIPOTÉTICOS, BRUTOS, SEM IR NEM CUSTOS",
+   "pergunta": "E UM ATIVO C COM 10% · 10% · 10%: QUAL O DESVIO?",
+   "referencia": "DESVIO PADRÃO AMOSTRAL NA CALCULADORA (GUIA DA HP 12C, TECLA s)"
+  },
+  {
+   "saida": "r58b_1_abertura.png",
+   "semente": 585,
+   "molde": "mito_verdade",
+   "titulo": "ATIVO LIVRE DE RISCO · C-PRO R 4.5.1",
+   "mitos": [
+    "\"CDB COM FGC É LIVRE DE RISCO\""
+   ],
+   "verdade": "FGC REDUZ O RISCO DE CRÉDITO; NÃO O ELIMINA",
+   "desenho": {
+    "nome": "banco",
+    "largura": 200
+   },
+   "apoio": "- BANCO MASTER: LIQUIDAÇÃO EXTRAJUDICIAL EM {laranja:18/11/2025}\n  - FGC: CERCA DE {laranja:R$ 41 BILHÕES} EM GARANTIAS · 1,6 MILHÃO DE CREDORES\n- ACIMA DO LIMITE: CREDOR DA LIQUIDAÇÃO, ⚠ {vermelho:SEM DATA NEM VALOR CERTO}",
+   "referencia": "COMUNICADOS DO BANCO CENTRAL E DO FGC SOBRE O BANCO MASTER (NOV./2025)"
+  },
+  {
+   "saida": "r58b_2_asfalto-ponte.png",
+   "semente": 586,
+   "molde": "comparacao",
+   "titulo": "ASFALTO LISO × PONTE DE TERCEIROS",
+   "colunas": [
+    {
+     "titulo": "ASFALTO LISO",
+     "desenho": "estrada",
+     "texto": "- ✓ {verde:TESOURO SELIC}: O EMISSOR É O GOVERNO FEDERAL\n- DÍVIDA EM REAIS, A MOEDA QUE ELE EMITE\n- RETORNO ATRELADO À SELIC · LIQUIDEZ DIÁRIA"
+    },
+    {
+     "titulo": "PONTE DE TERCEIROS",
+     "desenho": "estrada_buracos",
+     "texto": "- EMISSOR: {laranja:BANCO OU EMPRESA}\n- PAGA A TAXA BÁSICA + {laranja:PRÊMIO DE CRÉDITO}\n- REDE DO FGC SÓ EM PRODUTOS BANCÁRIOS COBERTOS"
+    }
+   ],
+   "faixas": [
+    "{ciano:O ASFALTO TAMBÉM TREME:} EM SET./2020, O TESOURO SELIC TEVE RENTABILIDADE NEGATIVA POR ALGUNS DIAS (DESÁGIO NA VENDA)",
+    "{ciano:A REDE TEM ALTURA:} R$ 250.000 POR CPF E POR CONGLOMERADO · R$ 1 MILHÃO A CADA 4 ANOS"
+   ],
+   "destaque": {
+    "texto": "⚠ {vermelho:PONTE SEM REDE:} DEBÊNTURE, CRI E CRA DEPENDEM SÓ DA SAÚDE DO EMISSOR",
+    "cor": "branco",
+    "moldura": "vermelho"
+   },
+   "referencia": [
+    "GARANTIA DO FGC (FGC.ORG.BR)",
+    "TESOURO SELIC NEGATIVO (INFOMONEY, SET./2020)"
+   ]
+  },
+  {
+   "saida": "r58b_3_escada-credito.png",
+   "semente": 587,
+   "molde": "topicos",
+   "titulo": "2. DO MENOR AO MAIOR RISCO DE CRÉDITO",
+   "texto": "1. ✓ {verde:TESOURO SELIC}: SOBERANO, OSCILA POUCO → A RÉGUA (TAXA LIVRE DE RISCO)\n2. {laranja:TESOURO PREFIXADO E IPCA+}: MESMO EMISSOR, MAS MARCAÇÃO A MERCADO FORTE\n3. {laranja:CDB · LCI · LCA}: RISCO DO BANCO · FGC ATÉ O LIMITE\n4. {laranja:DEBÊNTURE · CRI · CRA}: RISCO DA EMPRESA OU DOS RECEBÍVEIS · SEM FGC\n5. {laranja:FUNDO DE CRÉDITO}: CARTEIRA DE VÁRIOS EMISSORES · SEM FGC\n6. {ciano:AÇÃO}: NÃO PROMETE PAGAMENTO · O RISCO É DE MERCADO, NÃO DE CRÉDITO",
+   "destaque": {
+    "texto": "RATING DE AAA A D: QUANTO PIOR A NOTA, {laranja:MAIOR O SPREAD} SOBRE A TAXA LIVRE DE RISCO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   },
+   "referencia": [
+    "ESCALA DAS AGÊNCIAS DE RATING (S&P E FITCH)",
+    "GARANTIA DO FGC (FGC.ORG.BR)"
+   ]
+  },
+  {
+   "saida": "r58b_4_resolucao.png",
+   "semente": 588,
+   "molde": "exercicio",
+   "titulo": "MESMO DINHEIRO, MUDA SÓ A CONCENTRAÇÃO",
+   "dados": "- CLIENTE COM {laranja:R$ 400.000} EM CDB, JÁ COM OS RENDIMENTOS\n- FGC: ATÉ {laranja:R$ 250.000} POR CPF E POR CONGLOMERADO\n  - TETO DE R$ 1 MILHÃO A CADA 4 ANOS",
+   "premissas": "VALORES HIPOTÉTICOS · X E Y SÃO DE CONGLOMERADOS DIFERENTES",
+   "cenarios": [
+    {
+     "titulo": "A: TUDO NO BANCO X",
+     "passos": "- COBERTO: R$ 250.000\n- DESCOBERTO: R$ 400.000 − R$ 250.000 = R$ 150.000\n- O EXCESSO VAI PARA A LIQUIDAÇÃO",
+     "resultado": "✗ 37,5% FORA DO FGC",
+     "cor": "vermelho"
+    },
+    {
+     "titulo": "B: R$ 200.000 EM X E EM Y",
+     "passos": "- CADA BANCO ABAIXO DE R$ 250.000\n- TOTAL ABAIXO DO TETO DE R$ 1 MILHÃO",
+     "resultado": "✓ 100% COBERTO"
+    }
+   ],
+   "conclusao": {
+    "texto": "{ciano:POR QUÊ:} O LIMITE VALE POR CONGLOMERADO → DIVIDIR TIROU R$ 150.000 DO RISCO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   },
+   "pergunta": "E SE X E Y FOSSEM DO MESMO CONGLOMERADO?",
+   "referencia": "GARANTIA DO FUNDO GARANTIDOR DE CRÉDITOS (FGC.ORG.BR, NOV./2026)"
+  },
+  {
+   "saida": "r58c_1_abertura.png",
+   "semente": 589,
+   "molde": "mito_verdade",
+   "titulo": "RISCO, RETORNO E DOMINÂNCIA · C-PRO R 4.6",
+   "mitos": [
+    "\"MESMO RETORNO, TANTO FAZ\""
+   ],
+   "verdade": "MESMO RETORNO COM MAIS RISCO = ATIVO DOMINADO",
+   "desenho": {
+    "nome": "balanca",
+    "largura": 220
+   },
+   "apoio": "- CDB COM CARÊNCIA OU LIQUIDEZ MENOR: MAIS UM RISCO\n  - E SEM PRÊMIO EXTRA PARA COMPENSAR\n- {laranja:PRÊMIO DE RISCO} = RETORNO ESPERADO DO ATIVO − TAXA LIVRE DE RISCO",
+   "referencia": "TEORIA MODERNA DE CARTEIRAS DE HARRY MARKOWITZ (ARTIGO DE 1952)"
+  },
+  {
+   "saida": "r58c_2_grafico.png",
+   "semente": 590,
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "TRÊS ESTRADAS NO GRÁFICO RISCO × RETORNO"
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       160,
+       210
+      ],
+      [
+       158,
+       460
+      ],
+      [
+       160,
+       700
+      ]
+     ],
+     "espessura": 4.5
+    },
+    {
+     "tipo": "livre",
+     "pontos": [
+      [
+       160,
+       700
+      ],
+      [
+       520,
+       702
+      ],
+      [
+       900,
+       700
+      ]
+     ],
+     "espessura": 4.5
+    },
+    {
+     "tipo": "texto",
+     "x": 180,
+     "y": 160,
+     "largura": 500,
+     "tamanho": 28,
+     "cor": "ciano",
+     "texto": "RETORNO ESPERADO ↑"
+    },
+    {
+     "tipo": "texto",
+     "x": 470,
+     "y": 722,
+     "largura": 440,
+     "tamanho": 28,
+     "cor": "ciano",
+     "texto": "RISCO (DESVIO PADRÃO) →"
+    },
+    {
+     "tipo": "livre",
+     "fechado": true,
+     "cor": "verde",
+     "espessura": 7,
+     "pontos": [
+      [
+       376.0,
+       560.0
+      ],
+      [
+       371.3,
+       571.3
+      ],
+      [
+       360.0,
+       576.0
+      ],
+      [
+       348.7,
+       571.3
+      ],
+      [
+       344.0,
+       560.0
+      ],
+      [
+       348.7,
+       548.7
+      ],
+      [
+       360.0,
+       544.0
+      ],
+      [
+       371.3,
+       548.7
+      ]
+     ]
+    },
+    {
+     "tipo": "livre",
+     "fechado": true,
+     "cor": "vermelho",
+     "espessura": 7,
+     "pontos": [
+      [
+       776.0,
+       560.0
+      ],
+      [
+       771.3,
+       571.3
+      ],
+      [
+       760.0,
+       576.0
+      ],
+      [
+       748.7,
+       571.3
+      ],
+      [
+       744.0,
+       560.0
+      ],
+      [
+       748.7,
+       548.7
+      ],
+      [
+       760.0,
+       544.0
+      ],
+      [
+       771.3,
+       548.7
+      ]
+     ]
+    },
+    {
+     "tipo": "livre",
+     "fechado": true,
+     "cor": "verde",
+     "espessura": 7,
+     "pontos": [
+      [
+       776.0,
+       330.0
+      ],
+      [
+       771.3,
+       341.3
+      ],
+      [
+       760.0,
+       346.0
+      ],
+      [
+       748.7,
+       341.3
+      ],
+      [
+       744.0,
+       330.0
+      ],
+      [
+       748.7,
+       318.7
+      ],
+      [
+       760.0,
+       314.0
+      ],
+      [
+       771.3,
+       318.7
+      ]
+     ]
+    },
+    {
+     "tipo": "texto",
+     "id": "ra",
+     "x": 290,
+     "y": 600,
+     "largura": 280,
+     "tamanho": 32,
+     "cor": "verde",
+     "texto": "✓ A (4; 10%)"
+    },
+    {
+     "tipo": "texto",
+     "id": "rb",
+     "x": 690,
+     "y": 600,
+     "largura": 280,
+     "tamanho": 32,
+     "cor": "vermelho",
+     "texto": "✗ B (8; 10%)"
+    },
+    {
+     "tipo": "texto",
+     "id": "rc",
+     "x": 690,
+     "y": 265,
+     "largura": 280,
+     "tamanho": 32,
+     "cor": "verde",
+     "texto": "✓ C (8; 12%)"
+    },
+    {
+     "tipo": "seta",
+     "de": [
+      738,
+      560
+     ],
+     "para": [
+      386,
+      560
+     ],
+     "curva": 0,
+     "cor": "branco"
+    },
+    {
+     "tipo": "seta",
+     "de": [
+      760,
+      536
+     ],
+     "para": [
+      760,
+      356
+     ],
+     "curva": 0,
+     "cor": "branco"
+    },
+    {
+     "tipo": "texto",
+     "x": 440,
+     "y": 505,
+     "largura": 280,
+     "tamanho": 28,
+     "cor": "laranja",
+     "texto": "MENOS RISCO"
+    },
+    {
+     "tipo": "texto",
+     "x": 780,
+     "y": 430,
+     "largura": 200,
+     "tamanho": 28,
+     "cor": "laranja",
+     "texto": "MAIS RETORNO"
+    },
+    {
+     "tipo": "texto",
+     "id": "leitura",
+     "x": 1000,
+     "y": 210,
+     "largura": 840,
+     "tamanho": 32,
+     "entrelinha": 1.45,
+     "texto": "{ciano:COMO LER:}\n- PARA {laranja:CIMA} = MAIS RETORNO ESPERADO\n- PARA A {laranja:ESQUERDA} = MENOS RISCO\n- QUEM ESTÁ ACIMA OU À ESQUERDA, SEM PERDER NA OUTRA DIREÇÃO, DOMINA\n- B TEM A À ESQUERDA E C ACIMA → ✗ {vermelho:DOMINADO DUAS VEZES}\n- A × C: C ESTÁ ACIMA, MAS À DIREITA → {laranja:NINGUÉM DOMINA}"
+    },
+    {
+     "tipo": "texto",
+     "id": "engana",
+     "x": 100,
+     "y": 840,
+     "largura": 1440,
+     "tamanho": 32,
+     "entrelinha": 1.38,
+     "lista": false,
+     "texto": "⚠ {vermelho:ONDE A PLACA ENGANA:} O GRÁFICO USA O RETORNO {laranja:ESPERADO}; O RESULTADO DE UM ANO PODE INVERTER A ORDEM DOS PONTOS"
+    },
+    {
+     "tipo": "caixa",
+     "alvo": "engana",
+     "margem": 24,
+     "cor": "vermelho"
+    }
+   ],
+   "referencia": "TEORIA MODERNA DE CARTEIRAS DE HARRY MARKOWITZ (ARTIGO DE 1952)"
+  },
+  {
+   "saida": "r58c_3_dominancia.png",
+   "semente": 591,
+   "molde": "colunas",
+   "titulo": "3. QUEM CORRE MAIS RISCO EXIGE MAIS RETORNO",
+   "topo": "{laranja:PRÊMIO DE RISCO} = RETORNO ESPERADO − TAXA LIVRE DE RISCO · EX.: 14% − 10% = {laranja:4 PONTOS} (HIPOTÉTICO)",
+   "colunas": [
+    {
+     "titulo": "FORTE",
+     "texto": "- MAIS RETORNO E MENOS RISCO\n- EX.: 12% COM RISCO 5 × 10% COM RISCO 7\n- O OUTRO ATIVO SAI DA LISTA, PARA QUALQUER PERFIL"
+    },
+    {
+     "titulo": "FRACA",
+     "texto": "- EMPATA EM UMA, VENCE NA OUTRA\n- 10%/5 × 10%/7\n- 12%/7 × 10%/7\n- O OUTRO TAMBÉM SAI: NÃO HÁ MOTIVO PARA ESCOLHÊ-LO"
+    },
+    {
+     "titulo": "NINGUÉM DOMINA",
+     "texto": "- MAIS RETORNO E MAIS RISCO → PERFIL\n- IGUAIS NAS DUAS → INDIFERENTES\n- CONSERVADOR TENDE AO DE MENOS RISCO; ARROJADO, AO DE MAIS RETORNO"
+    }
+   ],
+   "destaque": {
+    "texto": "ANTES DO PERFIL, {laranja:TIRE OS DOMINADOS} · CARTEIRAS E FRONTEIRA EFICIENTE: AULA R60",
+    "cor": "branco",
+    "moldura": "amarelo"
+   },
+   "referencia": "TEORIA MODERNA DE CARTEIRAS DE HARRY MARKOWITZ (ARTIGO DE 1952)"
+  },
+  {
+   "saida": "r58c_4_resolucao.png",
+   "semente": 592,
+   "molde": "exercicio",
+   "titulo": "QUAL ATIVO É DOMINADO?",
+   "dados": "- RETORNOS DE 3 ANOS: A = 6 · 10 · 14 · B = 2 · 10 · 18 · C = 4 · 12 · 20\n- NA HP12C: MÉDIA E DESVIO PADRÃO DE CADA UM\n- COMPARE AOS PARES: RETORNO E RISCO",
+   "premissas": "RETORNOS ANUAIS HIPOTÉTICOS, BRUTOS, SEM IR NEM CUSTOS · RISCO = DESVIO PADRÃO AMOSTRAL",
+   "cenarios": [
+    {
+     "titulo": "A × B",
+     "passos": "- A: MÉDIA 10% · DESVIO 4\n- B: MÉDIA 10% · DESVIO 8\n- EMPATE NO RETORNO, A COM METADE DO RISCO",
+     "resultado": "A DOMINA B (FRACA)"
+    },
+    {
+     "titulo": "C × B",
+     "passos": "- C: MÉDIA 12% · DESVIO 8\n- B: MÉDIA 10% · DESVIO 8\n- EMPATE NO RISCO, C RENDE MAIS",
+     "resultado": "C DOMINA B (FRACA)"
+    }
+   ],
+   "conclusao": {
+    "texto": "PIOR EM UMA DIMENSÃO, IGUAL NA OUTRA → DOMINADO: ✗ {vermelho:B SAI DA LISTA} · A × C: {laranja:NINGUÉM DOMINA}, DECIDE O PERFIL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   },
+   "pergunta": "E SE B RENDESSE 13% COM DESVIO 8?",
+   "sintese": "RISCO = INCERTEZA → RÉGUA: SELIC → MAIS RISCO EXIGE MAIS RETORNO",
+   "referencia": "TEORIA MODERNA DE CARTEIRAS DE HARRY MARKOWITZ (ARTIGO DE 1952)"
+  }
+ ]
+}
