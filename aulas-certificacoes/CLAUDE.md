@@ -12,6 +12,10 @@ Leia esse arquivo antes de produzir qualquer aula, questão, roteiro ou slide.
 5. **Questões:** inéditas, nunca cópia de questão real; gabarito com justificativa de todas as alternativas.
 6. **Não gerar artefatos não solicitados** (slides, roteiro, lousa só quando pedidos).
 7. Português do Brasil; linguagem linear, previsível e visual (público inclui TEA/TDAH).
+8. **Wikipedia é proibida como fonte**, em qualquer idioma e sem exceção (pedido do professor, 08/11/2026):
+   não citar, não tirar dela número, data, regra ou caso, nem para fala, lousa, checklist ou pesquisa.
+   Se ela aparecer numa busca, ignorar e confirmar o dado na fonte primária (órgão oficial, norma,
+   administradora do índice, artigo original, agência).
 
 ## Fontes de consulta disponíveis
 
