@@ -1,0 +1,126 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r50i_1_so-cinco-por-cento.png",
+   "semente": 5091,
+   "molde": "mito_verdade",
+   "titulo": "SÓ 5%: RISCO PEQUENO?",
+   "mitos": [
+    "RISCO PEQUENO",
+    "SEMPRE MELHORA"
+   ],
+   "verdade": "PODE RENDER MAIS, {laranja:OSCILA MAIS}",
+   "desenho": {
+    "nome": "montanha_russa",
+    "largura": 230
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} CARTEIRA 60/40 + PEDIDO DE 5% EM BITCOIN E ETHER\n- {ciano:60/40:} 60% RENDA VARIÁVEL · 40% RENDA FIXA\n- O PASSADO MOSTRA GANHO {laranja:EM DETERMINADOS PERÍODOS}, NÃO EM TODOS\n- PESO NO DINHEIRO {vermelho:≠} PESO NO RISCO\n- {ciano:DEPENDE DE:} TAMANHO · MOMENTO · REBALANCEAMENTO · TOLERÂNCIA"
+  },
+  {
+   "saida": "r50i_2_dia-no-parque.png",
+   "semente": 5092,
+   "molde": "comparacao",
+   "titulo": "O DIA NO PARQUE",
+   "colunas": [
+    {
+     "titulo": "O ROTEIRO 60/40",
+     "desenho": "roda_gigante",
+     "rotulos": [
+      "60%",
+      "40%"
+     ],
+     "texto": "- BRINQUEDOS DE EMOÇÃO → {laranja:RENDA VARIÁVEL}\n- CARROSSEL E PRAÇA → {laranja:RENDA FIXA}\n- ROTEIRO DO DIA → {laranja:ALOCAÇÃO}\n- DURAÇÃO DO PASSEIO → {laranja:HORIZONTE}"
+    },
+    {
+     "titulo": "MONTANHA-RUSSA",
+     "desenho": "montanha_russa",
+     "rotulos": [
+      "5%",
+      "RISCO"
+     ],
+     "texto": "- POUCOS MINUTOS → {verde:FATIA PEQUENA}\n- FRIO NA BARRIGA → {verde:VOLATILIDADE}\n- LIMITE DE VOLTAS → {verde:REBALANCEAMENTO}\n- ALTURA MÍNIMA → {verde:PERFIL DO INVESTIDOR}"
+    }
+   ],
+   "faixas": [
+    "{ciano:QUEM DEFINE O ROTEIRO:} O PERFIL, O HORIZONTE E OS OBJETIVOS DO VISITANTE, NÃO A FILA DO DIA",
+    "{ciano:A MONTANHA-RUSSA NÃO É O PARQUE INTEIRO:} COMPLEMENTA O PASSEIO, NÃO O SUBSTITUI"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O CARRINHO VOLTA À ESTAÇÃO NO FIM DA VOLTA · O PREÇO DO CRIPTOATIVO {laranja:NÃO TEM ESSA GARANTIA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50i_3_conteudo-1.png",
+   "semente": 5093,
+   "molde": "colunas",
+   "titulo": "CRIPTO NA CARTEIRA 60/40 (1/2)",
+   "topo": "{ciano:CARTEIRA 60/40:} 60% RENDA VARIÁVEL (CRESCIMENTO) + 40% RENDA FIXA (ESTABILIDADE) · REFERÊNCIA TRADICIONAL DE ALOCAÇÃO",
+   "colunas": [
+    {
+     "titulo": "O QUE SE VIU",
+     "texto": "- RETORNO ESPERADO {verde:AUMENTOU}\n- VOLATILIDADE {vermelho:SUBIU}\n- RISCO-RETORNO MELHOROU {laranja:EM ALGUNS CASOS}\n- VALE PARA PEQUENAS ALOCAÇÕES, EM {laranja:DETERMINADOS PERÍODOS}\n- PASSADO NÃO É PROMESSA"
+    },
+    {
+     "titulo": "POR QUÊ",
+     "texto": "- {ciano:RETORNO:} MÉDIA PONDERADA PELOS PESOS\n- {ciano:RISCO:} VOLATILIDADES + CORRELAÇÃO\n- {ciano:CORRELAÇÃO BAIXA:} OSCILAÇÕES SE COMPENSAM EM PARTE\n- CRIPTO MUITO VOLÁTIL → FATIA DO RISCO {vermelho:MAIOR} QUE A DO DINHEIRO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:HIPOTÉTICO, COM 5% EM CRIPTO:} RETORNO DE 12,80% PARA {verde:14,16%} · VOLATILIDADE DE 10% PARA {vermelho:10,52%} · A CRIPTO RESPONDE POR {laranja:13,29%} DO RISCO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50i_3_conteudo-2.png",
+   "semente": 5094,
+   "molde": "colunas",
+   "titulo": "CONDIÇÕES E REBALANCEAMENTO (2/2)",
+   "topo": "{ciano:4 CONDIÇÕES:} TAMANHO DA ALOCAÇÃO · MOMENTO DE ENTRADA · DISCIPLINA DE REBALANCEAMENTO · CAPACIDADE DE SUPORTAR OSCILAÇÕES",
+   "colunas": [
+    {
+     "titulo": "REBALANCEAR",
+     "texto": "- VOLTAR AOS PESOS COMBINADOS\n- {ciano:HIPOTÉTICO:} 5.000 EM 100.000 (5%)\n- CRIPTO DOBRA → 10.000 EM 105.000 = {laranja:9,52%}\n- ALVO DE 5% = 5.250\n- VENDER {laranja:4.750} E REPOR NO RESTO"
+    },
+    {
+     "titulo": "A ALOCAÇÃO",
+     "texto": "- {verde:COMPLEMENTAR:} SOMA À CARTEIRA, NÃO SUBSTITUI\n- {verde:MARGINAL:} FATIA PEQUENA\n- {verde:ESTRATEGICAMENTE PENSADA:} REGRA DEFINIDA ANTES\n- RESPEITA {laranja:PERFIL · HORIZONTE · OBJETIVOS}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:CASO REAL (BITCOIN, EM DÓLAR):} 67.510 EM 08/11/2021 → 15.756 EM 21/11/2022 = {vermelho:−76,66%} · A TOLERÂNCIA DO INVESTIDOR PRECISA COMPORTAR QUEDAS ASSIM",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50i_4_com-ou-sem-cripto.png",
+   "semente": 5095,
+   "molde": "exercicio",
+   "titulo": "60/40 COM 5% DE CRIPTO",
+   "dados": "- RETORNOS ESPERADOS (HIPOTÉTICOS): RV 14% · RF 11% · CRIPTO 40% AO ANO\n- VOLATILIDADES: CARTEIRA 60/40 10% · CRIPTO 60% · CORRELAÇÃO 0,2\n- CENÁRIO 2: 57% RV + 38% RF + 5% CRIPTO (BITCOIN E ETHER)\n- SIMPLIFICAÇÃO: RV E RF TRATADAS COMO UM ÚNICO ATIVO\n- FATIA DO RISCO MEDIDA PELA VARIÂNCIA",
+   "cenarios": [
+    {
+     "titulo": "60/40 PURA",
+     "passos": "14 × 60% + 11 × 40%\nRETORNO: 12,80%\nVOLATILIDADE: 10%",
+     "resultado": "12,80% · VOL 10%"
+    },
+    {
+     "titulo": "COM 5% CRIPTO",
+     "passos": "RETORNO: 14,16%\nVARIÂNCIA: 90,25 + 9 + 11,4\nRAIZ DE 110,65",
+     "resultado": "14,16% · VOL 10,52%"
+    }
+   ],
+   "conclusao": {
+    "texto": "5% DO DINHEIRO = {laranja:13,29% DO RISCO} (14,7 ÷ 110,65) · RETORNO ESPERADO {vermelho:NÃO É GARANTIDO} · QUEDA DE 70% NA CRIPTO TIRA 3,5% DA CARTEIRA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
