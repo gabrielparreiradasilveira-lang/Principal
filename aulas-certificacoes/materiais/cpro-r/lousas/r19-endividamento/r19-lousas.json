@@ -1,0 +1,130 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r19_1_parcela-cabe.png",
+   "semente": 1901,
+   "molde": "mito_verdade",
+   "titulo": "A PARCELA CABE: ESTÁ TUDO BEM?",
+   "mitos": [
+    "PARCELA QUE CABE É DÍVIDA SOB CONTROLE",
+    "TODA DÍVIDA É IGUAL"
+   ],
+   "verdade": "{laranja:2 INDICADORES} E {laranja:3 CRITÉRIOS}",
+   "desenho": {
+    "nome": "mochila",
+    "largura": 130
+   },
+   "apoio": "- {ciano:BANCO CENTRAL, AGOSTO DE 2026:} FAMÍLIAS COM {laranja:28,99%} DA RENDA COMPROMETIDA COM DÍVIDAS\n- TOTAL DEVIDO AO SISTEMA FINANCEIRO: {laranja:50,11%} DA RENDA DE 12 MESES\n- {ciano:INDICADORES:} COMPROMETIMENTO DE RENDA · NÍVEL DE ENDIVIDAMENTO\n- {ciano:CRITÉRIOS:} TAXAS · TIPOS · PRAZOS\n- {ciano:SINAIS DE ALERTA:} MENOS POUPANÇA · MAIS ESTRESSE FINANCEIRO"
+  },
+  {
+   "saida": "r19_2_mochila-na-trilha.png",
+   "semente": 1902,
+   "molde": "comparacao",
+   "titulo": "A MOCHILA NA TRILHA",
+   "colunas": [
+    {
+     "titulo": "O PESO",
+     "desenho": "mochila",
+     "rotulos": [
+      "PASSO",
+      "CARGA"
+     ],
+     "texto": "- PESO A CADA PASSO → {laranja:COMPROMETIMENTO}\n- CARGA TOTAL × FORÇA → {laranja:NÍVEL}\n- MOCHILA CHEIA → {vermelho:SEM FLEXIBILIDADE}\n- TROPEÇO NA SUBIDA → {vermelho:INADIMPLÊNCIA}"
+    },
+    {
+     "titulo": "O QUE VAI DENTRO",
+     "desenho": "balanca",
+     "rotulos": [
+      "PEDRA",
+      "FERRAMENTA"
+     ],
+     "texto": "- PEDRA → {vermelho:DÍVIDA CARA DE CONSUMO}\n- FERRAMENTA → {verde:FORMA PATRIMÔNIO}\n- PESO POR QUILO → {laranja:TAXA}\n- DISTÂNCIA DA TRILHA → {laranja:PRAZO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ESVAZIAR A MOCHILA:} PRIMEIRO SAI A PEDRA MAIS PESADA → A DÍVIDA DE TAXA MAIS ALTA",
+    "{ciano:TROCAR A CARGA:} MESMA DÍVIDA, TAXA MENOR → PORTABILIDADE OU RENEGOCIAÇÃO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} A PEDRA NÃO AUMENTA DE PESO · A DÍVIDA {laranja:CRESCE COM OS JUROS} A CADA MÊS SEM PAGAMENTO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r19_3_conteudo-1.png",
+   "semente": 1903,
+   "molde": "colunas",
+   "titulo": "OS 2 INDICADORES (1/2)",
+   "topo": "{ciano:PREOCUPA QUANDO:} COMPROMETE PARCELA SIGNIFICATIVA DA RENDA · REDUZ A POUPANÇA · AUMENTA O ESTRESSE · {verde:TER DÍVIDA NÃO É, SOZINHO, UM PROBLEMA}",
+   "colunas": [
+    {
+     "titulo": "COMPROMETIMENTO DE RENDA",
+     "texto": "- {laranja:PARCELAS DO MÊS ÷ RENDA LÍQUIDA DO MÊS}\n- MEDE O APERTO MENSAL\n- {verde:≤ 30%:} SAUDÁVEL\n- {laranja:ENTRE 30% E 50%:} PEDE ATENÇÃO\n- {vermelho:> 50%:} RISCO ALTO\n- EX.: 3.600 ÷ 9.000 = {laranja:40%}"
+    },
+    {
+     "titulo": "NÍVEL DE ENDIVIDAMENTO",
+     "texto": "- {laranja:SALDO DAS DÍVIDAS ÷ RENDA DE 12 MESES}\n- MEDE O TAMANHO DA CARGA\n- + ÍNDICE → {vermelho:− FLEXIBILIDADE}\n- + ÍNDICE → {vermelho:+ RISCO DE INADIMPLÊNCIA}\n- EX.: 180.000 ÷ 108.000 = {laranja:1,67} (167%)"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} AS FAIXAS DE 30% E 50% SÃO {laranja:PRÁTICA DE MERCADO}, NÃO NORMA · ENDIVIDADO {vermelho:≠} INADIMPLENTE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r19_3_conteudo-2.png",
+   "semente": 1904,
+   "molde": "colunas",
+   "titulo": "TAXAS, TIPOS E PRAZOS (2/2)",
+   "topo": "{ciano:TAXAS MÉDIAS AO MÊS (BANCO CENTRAL, SET/2026):} ROTATIVO {vermelho:15,29%} · CHEQUE ESPECIAL {vermelho:7,53%} · PESSOAL {laranja:6,42%} · CONSIGNADO {verde:2,11%} · VEÍCULOS {verde:1,96%} · IMOBILIÁRIO {verde:1,11%}",
+   "colunas": [
+    {
+     "titulo": "TAXAS",
+     "texto": "- {ciano:CET:} JUROS + TARIFAS + TRIBUTOS + SEGUROS\n- ROTATIVO: SÓ ATÉ A {laranja:FATURA SEGUINTE}\n- CARTÃO: JUROS ATÉ {laranja:100%} DO VALOR ORIGINAL\n- CHEQUE ESPECIAL: TETO DE {laranja:8% A.M.}"
+    },
+    {
+     "titulo": "TIPOS",
+     "texto": "- CONSUMO × PATRIMÔNIO\n- COM GARANTIA × SEM GARANTIA\n- GARANTIA MELHOR → {verde:TAXA MENOR}\n- CONSIGNADO: DESCONTO EM FOLHA"
+    },
+    {
+     "titulo": "PRAZOS",
+     "texto": "- PRAZO MAIOR → {verde:PARCELA MENOR}\n- PRAZO MAIOR → {vermelho:MAIS JUROS NO TOTAL}\n- R$ 30 MIL A 2,11% A.M.:\n- 12 MESES: JUROS DE R$ 4.272\n- 60 MESES: JUROS DE {vermelho:R$ 23.171}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:PRIORIDADE:} QUITAR {vermelho:A MAIS CARA PRIMEIRO} · TROCAR CARA POR BARATA ({verde:PORTABILIDADE}) · SÓ DEPOIS, INVESTIR",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r19_4_troca-de-divida.png",
+   "semente": 1905,
+   "molde": "exercicio",
+   "titulo": "VALE TROCAR A DÍVIDA?",
+   "dados": "- DÍVIDA DE {ciano:R$ 10.000} EM 12 PARCELAS FIXAS (HIPOTÉTICO)\n- TAXAS MÉDIAS DO BANCO CENTRAL, SETEMBRO DE 2026\n- SEM IOF, TARIFAS E SEGUROS\n- MESMO VALOR, MESMO PRAZO\n- A ÚNICA DIFERENÇA: A TAXA DE JUROS",
+   "cenarios": [
+    {
+     "titulo": "PESSOAL: 6,42% A.M.",
+     "passos": "PARCELA: R$ 1.220,39\nTOTAL PAGO: R$ 14.644,64\nJUROS: R$ 4.644,64",
+     "resultado": "46% DE JUROS"
+    },
+    {
+     "titulo": "CONSIGNADO: 2,11% A.M.",
+     "passos": "PARCELA: R$ 952,00\nTOTAL PAGO: R$ 11.423,95\nJUROS: R$ 1.423,95",
+     "resultado": "14% DE JUROS"
+    }
+   ],
+   "conclusao": {
+    "texto": "ECONOMIA DE {verde:R$ 3.220,70} EM 12 MESES · A TAXA É O CRITÉRIO QUE MAIS PESA NA {laranja:PRIORIDADE DE QUITAÇÃO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
