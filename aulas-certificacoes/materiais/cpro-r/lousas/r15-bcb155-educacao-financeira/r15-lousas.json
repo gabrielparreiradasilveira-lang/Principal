@@ -1,0 +1,148 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r15_1_coisa-de-banco.png",
+   "semente": 1501,
+   "molde": "mito_verdade",
+   "titulo": "REGRA SÓ DE BANCO?",
+   "mitos": [
+    "SÓ VALE PARA BANCO",
+    "EDUCAR É OPCIONAL"
+   ],
+   "verdade": "MESMOS PRINCÍPIOS · {laranja:EDUCAR É DEVER}",
+   "desenho": {
+    "nome": "posto_saude",
+    "largura": 160
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} PROFISSIONAL DE CORRETORA OUVE QUE \"ISSO É COISA DE BANCO\"\n- {ciano:BANCO:} RESOLUÇÃO CMN 4.949/2021\n- {ciano:CORRETORA, DISTRIBUIDORA, PAGAMENTO, CONSÓRCIO:} {laranja:RESOLUÇÃO BCB 155/2021}\n- {ciano:EDUCAÇÃO FINANCEIRA:} {laranja:RESOLUÇÃO CONJUNTA 8/2023}, EM VIGOR DESDE 01/07/2024\n- OS 4 PRINCÍPIOS SE REPETEM: ÉTICA · RESPONSABILIDADE · TRANSPARÊNCIA · DILIGÊNCIA"
+  },
+  {
+   "saida": "r15_2_rede-de-saude.png",
+   "semente": 1502,
+   "molde": "comparacao",
+   "titulo": "A REDE DE SAÚDE",
+   "colunas": [
+    {
+     "titulo": "CLÍNICAS E POSTOS",
+     "desenho": "posto_saude",
+     "rotulos": [
+      "REGIMENTO",
+      "PRINCÍPIOS"
+     ],
+     "texto": "- HOSPITAL → {laranja:BANCO (CMN 4.949)}\n- CLÍNICAS E POSTOS → {laranja:QUEM NÃO É BANCO}\n- REGIMENTO PRÓPRIO → {laranja:BCB 155}\n- MESMO JURAMENTO → MESMOS PRINCÍPIOS"
+    },
+    {
+     "titulo": "A PREVENÇÃO",
+     "desenho": "seringa",
+     "rotulos": [
+      "VACINA",
+      "ORIENTAÇÃO"
+     ],
+     "texto": "- VACINAR E ORIENTAR → {verde:EDUCAÇÃO FINANCEIRA}\n- ANTES DA DOENÇA → {verde:ANTES DA DÍVIDA}\n- CARTEIRA DE VACINAÇÃO → {verde:MÉTRICAS}\n- RESPONSÁVEL TÉCNICO → {verde:DIRETOR INDICADO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:UM SISTEMA, VÁRIAS PORTAS:} O PACIENTE TEM O MESMO DIREITO EM QUALQUER UNIDADE DA REDE",
+    "{ciano:PREVENIR CUSTA MENOS:} ORÇAMENTO, POUPANÇA E CRÉDITO CONSCIENTE EVITAM O SUPERENDIVIDAMENTO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} VACINAÇÃO É POLÍTICA DO GOVERNO · AQUI, CADA INSTITUIÇÃO TEM {laranja:OBRIGAÇÃO PRÓPRIA} E RESPONDE AO BANCO CENTRAL",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r15_3_conteudo-1.png",
+   "semente": 1503,
+   "molde": "colunas",
+   "titulo": "BCB 155: QUEM SEGUE (1/3)",
+   "topo": "{ciano:POR QUE EXISTE:} A CMN 4.949 {vermelho:NÃO SE APLICA} A ESTAS INSTITUIÇÕES (ART. 1º, § 1º) · O BANCO CENTRAL EDITA A REGRA DELAS NO EXERCÍCIO DA SUA COMPETÊNCIA",
+   "colunas": [
+    {
+     "titulo": "OS 6 TIPOS",
+     "texto": "- {laranja:1.} ADMINISTRADORAS DE CONSÓRCIO\n- {laranja:2.} INSTITUIÇÕES DE PAGAMENTO\n- {laranja:3.} CORRETORAS DE TÍTULOS E VALORES MOBILIÁRIOS\n- {laranja:4.} DISTRIBUIDORAS DE TÍTULOS E VALORES MOBILIÁRIOS\n- {laranja:5.} CORRETORAS DE CÂMBIO\n- {laranja:6.} PRESTADORAS DE SERVIÇOS DE ATIVOS VIRTUAIS"
+    },
+    {
+     "titulo": "LINHA DO TEMPO",
+     "texto": "- {ciano:14/10/2021:} EDIÇÃO (CONSÓRCIO E PAGAMENTO)\n- {ciano:2022:} ENTRADA EM VIGOR, EM ETAPAS\n- {ciano:01/03/2024:} ENTRAM CORRETORAS, DISTRIBUIDORAS E CÂMBIO\n- {ciano:03/03/2026:} RESOLUÇÃO BCB 552 INCLUI ATIVOS VIRTUAIS"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} BANCO → {laranja:CMN 4.949} · CORRETORA E DISTRIBUIDORA → {laranja:BCB 155} · O CONSORCIADO É CONSIDERADO CLIENTE · VALE NA PRÉ, NA CONTRATAÇÃO E NA PÓS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r15_3_conteudo-2.png",
+   "semente": 1504,
+   "molde": "colunas",
+   "titulo": "BCB 155: O QUE EXIGE (2/3)",
+   "topo": "{ciano:PRINCÍPIOS (ART. 2º):} {laranja:ÉTICA · RESPONSABILIDADE · TRANSPARÊNCIA · DILIGÊNCIA} · CULTURA DE RELACIONAMENTO COOPERATIVO E EQUILIBRADO",
+   "colunas": [
+    {
+     "titulo": "DEVERES",
+     "texto": "- PRODUTO ADEQUADO A NECESSIDADES, INTERESSES E OBJETIVOS\n- INTEGRIDADE, SEGURANÇA E SIGILO\n- INFORMAÇÃO CLARA E PRECISA\n- REDAÇÃO CLARA EM CONTRATOS\n- {verde:SEM BARREIRAS} PARA ATENDER, CANCELAR, TRANSFERIR"
+    },
+    {
+     "titulo": "A POLÍTICA",
+     "texto": "- APROVADA PELO {laranja:CONSELHO} OU PELA DIRETORIA\n- PERFIL DO PÚBLICO-ALVO DE CADA PRODUTO\n- TREINAMENTO; METAS EQUILIBRADAS\n- MÉTRICAS E AUDITORIA INTERNA\n- REGISTROS POR 5 ANOS; DIRETOR RESPONSÁVEL"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:CONSÓRCIO (ART. 5º):} NA ADESÃO, OS 3 CUSTOS DE PARTICIPAÇÃO VÊM EM {laranja:% DO VALOR DO CRÉDITO}, SOBRE O TOTAL DOS PAGAMENTOS PREVISTOS · TAXA ANTECIPADA TAMBÉM ENTRA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r15_3_conteudo-3.png",
+   "semente": 1505,
+   "molde": "colunas",
+   "titulo": "CONJUNTA 8: EDUCAÇÃO FINANCEIRA (3/3)",
+   "topo": "{ciano:QUEM:} INSTITUIÇÕES AUTORIZADAS PELO BANCO CENTRAL · {ciano:PARA QUEM:} CLIENTES E USUÁRIOS {laranja:PESSOAS NATURAIS}, INCLUSIVE EMPRESÁRIOS INDIVIDUAIS",
+   "colunas": [
+    {
+     "titulo": "3 FRENTES",
+     "texto": "- {laranja:1.} ORÇAMENTO PESSOAL E FAMILIAR: ORGANIZAR E PLANEJAR\n- {laranja:2.} POUPANÇA E RESILIÊNCIA FINANCEIRA\n- {laranja:3.} PREVENÇÃO AO INADIMPLEMENTO E AO SUPERENDIVIDAMENTO\n- BASE: OS 4 PRINCÍPIOS DE CONDUTA"
+    },
+    {
+     "titulo": "3 NORTEADORES",
+     "texto": "- {verde:VALOR PARA O CLIENTE:} ÚTIL E RELEVANTE\n- {verde:AMPLO ALCANCE:} TODO O UNIVERSO DE CLIENTES\n- {verde:ADEQUAÇÃO E PERSONALIZAÇÃO:} LINGUAGEM, CANAL E MOMENTO\n- {ciano:CONTROLE:} MÉTRICAS, INDICADORES, DIRETOR"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:ATUALIZAÇÃO (CONJUNTA 20/2026):} A PARTIR DE {laranja:01/07/2027}, POLÍTICA APROVADA PELO CONSELHO OU DIRETORIA, AVALIADA, COM TREINAMENTO, E ASSESSORAMENTO A QUEM TEM DÍVIDA VENCIDA PERSISTENTE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r15_4_custo-do-consorcio.png",
+   "semente": 1506,
+   "molde": "exercicio",
+   "titulo": "O CUSTO QUE O CLIENTE ENXERGA",
+   "dados": "- CONSÓRCIO COM CRÉDITO DE {ciano:R$ 200.000}, EM 100 MESES (HIPOTÉTICO)\n- TAXA DE ADMINISTRAÇÃO: 16% DO CRÉDITO\n- FUNDO DE RESERVA: 2% · SEGURO: 4%\n- A ÚNICA DIFERENÇA: O QUE É INFORMADO AO CLIENTE\n- SEM REAJUSTE DO CRÉDITO (SIMPLIFICAÇÃO)",
+   "cenarios": [
+    {
+     "titulo": "SÓ A TAXA",
+     "passos": "200.000 × 16%\nFUNDO E SEGURO OMITIDOS\nDESCUMPRE O ART. 5º",
+     "resultado": "32.000 (16%)"
+    },
+    {
+     "titulo": "TUDO",
+     "passos": "16% + 2% + 4% = 22%\n200.000 × 22%\nPARCELA MÉDIA: 2.440",
+     "resultado": "44.000 (22%)"
+    }
+   ],
+   "conclusao": {
+    "texto": "DIFERENÇA DE {laranja:12.000} · TRANSPARÊNCIA = TODOS OS CUSTOS, EM % DO CRÉDITO · COMPARAR COM FINANCIAMENTO EXIGE EXPLICAR AS {laranja:DIFERENÇAS ENTRE AS OPERAÇÕES}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
