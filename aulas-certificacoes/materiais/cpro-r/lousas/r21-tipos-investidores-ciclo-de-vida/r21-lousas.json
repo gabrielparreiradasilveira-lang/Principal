@@ -1,0 +1,152 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r21_1_arrojado-pode-tudo.png",
+   "semente": 2101,
+   "molde": "mito_verdade",
+   "titulo": "ARROJADO PODE TUDO?",
+   "mitos": [
+    "ARROJADO ACESSA TUDO",
+    "PERFIL = CATEGORIA"
+   ],
+   "verdade": "PERFIL MEDE {laranja:RISCO} · CATEGORIA DÁ {laranja:ACESSO}",
+   "desenho": {
+    "nome": "portao_embarque",
+    "largura": 210
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} PERFIL ARROJADO + 300.000 INVESTIDOS + PEDIDO DE FUNDO PARA QUALIFICADOS\n- ARROJADO, MAS {vermelho:INVESTIDOR COMUM}: NÃO PASSA DE 1 MILHÃO NEM TEM CERTIFICAÇÃO\n- {ciano:PERFIL:} CONSERVADOR · MODERADO · ARROJADO\n- {ciano:CATEGORIA:} COMUM · QUALIFICADO · PROFISSIONAL (RESOLUÇÃO CVM 30)\n- {ciano:CICLO DE VIDA:} ACUMULAÇÃO · CONSOLIDAÇÃO · USUFRUTO"
+  },
+  {
+   "saida": "r21_2_o-voo.png",
+   "semente": 2102,
+   "molde": "comparacao",
+   "titulo": "O VOO",
+   "colunas": [
+    {
+     "titulo": "O AEROPORTO",
+     "desenho": "portao_embarque",
+     "rotulos": [
+      "ACESSO",
+      "PROTEÇÃO"
+     ],
+     "texto": "- PORTÃO COMUM → {laranja:INVESTIDOR COMUM}\n- SALA VIP → {laranja:QUALIFICADO}\n- CARTÃO DE ACESSO → PATRIMÔNIO COM TERMO OU CERTIFICAÇÃO\n- ÁREA DA TRIPULAÇÃO → {laranja:PROFISSIONAL}"
+    },
+    {
+     "titulo": "A ROTA",
+     "desenho": "rota_voo",
+     "rotulos": [
+      "SUBIDA",
+      "POUSO"
+     ],
+     "texto": "- SUBIDA → {verde:ACUMULAÇÃO}\n- CRUZEIRO → {verde:CONSOLIDAÇÃO OU TRANSIÇÃO}\n- POUSO → {verde:APOSENTADORIA OU USUFRUTO}\n- COMBUSTÍVEL → {verde:PATRIMÔNIO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:QUANTO MAIS PERTO DA CABINE:} MAIS ACESSO A PRODUTOS E MENOS INSTRUÇÕES DE SEGURANÇA",
+    "{ciano:CADA TRECHO PEDE UM AJUSTE:} POTÊNCIA NA SUBIDA, ESTABILIDADE NO CRUZEIRO, SUAVIDADE NO POUSO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} CARTÃO VIP SE MOSTRA E PRONTO · NO MERCADO, A CONDIÇÃO É {laranja:ATESTADA EM TERMO ASSINADO} E O LIMITE É \"SUPERIOR A\"",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r21_3_conteudo-1.png",
+   "semente": 2103,
+   "molde": "colunas",
+   "titulo": "COMUM E QUALIFICADA (1/3)",
+   "topo": "{ciano:PERFIL:} QUANTO RISCO A CARTEIRA PODE TER · {ciano:CATEGORIA:} A QUAIS PRODUTOS HÁ ACESSO · NORMA: {laranja:RESOLUÇÃO CVM 30}, ARTS. 11 A 13",
+   "colunas": [
+    {
+     "titulo": "COMUM",
+     "texto": "- NÃO É QUALIFICADA NEM PROFISSIONAL\n- É O {laranja:PÚBLICO EM GERAL}\n- {verde:MAIOR} PROTEÇÃO REGULATÓRIA\n- ACESSO RESTRITO A PRODUTOS SOFISTICADOS\n- PRODUTOS TRADICIONAIS; MAIS ORIENTAÇÃO PROFISSIONAL"
+    },
+    {
+     "titulo": "QUALIFICADA",
+     "texto": "- {ciano:PATRIMÔNIO:} INVESTIMENTOS {laranja:SUPERIORES A R$ 1 MILHÃO} + TERMO POR ESCRITO\n- {ciano:CERTIFICAÇÃO} APROVADA PELA CVM, SÓ PARA RECURSOS PRÓPRIOS\n- TODO PROFISSIONAL É QUALIFICADO\n- {verde:ACESSA:} CLASSES RESTRITAS · FIP"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:EXAMES ACEITOS (RES. CVM 19, ANEXO A):} CGA · CEA · CNPI · CFA NÍVEL III · ACIIA · CFP · EXATAMENTE 1 MILHÃO {vermelho:NÃO QUALIFICA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r21_3_conteudo-2.png",
+   "semente": 2104,
+   "molde": "colunas",
+   "titulo": "PROFISSIONAL E SUITABILITY (2/3)",
+   "topo": "{ciano:PROFISSIONAL (ART. 11):} A CATEGORIA COM {vermelho:MENOS PROTEÇÃO} · A NORMA PARTE DA IDEIA DE QUE ELE ENTENDE OS RISCOS QUE ASSUME",
+   "colunas": [
+    {
+     "titulo": "QUEM É",
+     "texto": "- {ciano:PATRIMÔNIO:} {laranja:SUPERIOR A R$ 10 MILHÕES} + TERMO\n- INSTITUIÇÕES FINANCEIRAS, SEGURADORAS, PREVIDÊNCIA, FUNDOS\n- ASSESSOR, GESTOR, ANALISTA E CONSULTOR {laranja:AUTORIZADOS PELA CVM} (RECURSOS PRÓPRIOS)\n- NÃO RESIDENTES · FUNDOS PATRIMONIAIS"
+    },
+    {
+     "titulo": "SUITABILITY",
+     "texto": "- {verde:DISPENSADO} PARA QUALIFICADO E PROFISSIONAL\n- {vermelho:EXCEÇÃO, PESSOA FÍSICA:} PROFISSIONAL POR PATRIMÔNIO\n- {vermelho:EXCEÇÃO, PESSOA FÍSICA:} QUALIFICADA POR PATRIMÔNIO OU CERTIFICAÇÃO\n- {ciano:CLASSE EXCLUSIVA (CVM 175):} UM ÚNICO INVESTIDOR PROFISSIONAL"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:HIERARQUIA:} TODO PROFISSIONAL É QUALIFICADO; O INVERSO NÃO VALE · CERTIFICAÇÃO → {laranja:QUALIFICADO} · AUTORIZAÇÃO DA CVM → {laranja:PROFISSIONAL}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r21_3_conteudo-3.png",
+   "semente": 2105,
+   "molde": "colunas",
+   "titulo": "CICLO DE VIDA (3/3)",
+   "topo": "{ciano:CICLO DE VIDA:} INFLUENCIA OS OBJETIVOS, A {laranja:CAPACIDADE DE RISCO} E AS ESTRATÉGIAS · O BOM PLANEJAMENTO RESPEITA A FASE",
+   "colunas": [
+    {
+     "titulo": "ACUMULAÇÃO",
+     "texto": "- CONSTRUIR PATRIMÔNIO\n- HORIZONTE LONGO\n- MAIOR CAPACIDADE DE RISCO\n- JUROS COMPOSTOS\n- {verde:EX.:} AÇÕES, FUNDOS DE AÇÕES, MULTIMERCADOS"
+    },
+    {
+     "titulo": "CONSOLIDAÇÃO",
+     "texto": "- CRESCER E PRESERVAR\n- CORTA RISCO EXCESSIVO\n- GESTÃO DE RISCO GANHA PESO\n- PREPARA OBJETIVOS FUTUROS\n- {verde:EX.:} FUNDOS BALANCEADOS, RENDA FIXA"
+    },
+    {
+     "titulo": "USUFRUTO",
+     "texto": "- GERAR RENDA\n- PREVISIBILIDADE\n- LIQUIDEZ\n- PRESERVAR O CAPITAL\n- {verde:EX.:} TÍTULOS INDEXADOS À INFLAÇÃO, ATIVOS DE RENDA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} A FASE VEM DO {laranja:MOMENTO FINANCEIRO}, NÃO DE IDADE FIXA · FAIXAS DE IDADE SÃO REFERÊNCIA DE MERCADO · CONSOLIDAÇÃO = TRANSIÇÃO · APOSENTADORIA = USUFRUTO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r21_4_subida-e-pouso.png",
+   "semente": 2106,
+   "molde": "exercicio",
+   "titulo": "APORTE NA SUBIDA, RENDA NO POUSO",
+   "dados": "- TAXA REAL HIPOTÉTICA: 0,5% AO MÊS\n- PRAZO DE 300 MESES (25 ANOS) EM CADA FASE\n- ACUMULAÇÃO: APORTE DE {ciano:R$ 1.500} POR MÊS\n- USUFRUTO: SAQUES MENSAIS ATÉ ZERAR O SALDO\n- SEM IMPOSTO E SEM CUSTOS (SIMPLIFICAÇÃO)",
+   "cenarios": [
+    {
+     "titulo": "ACUMULAÇÃO",
+     "passos": "300 APORTES = 450.000\nJUROS = 589.490,94\nn 300 · i 0,5 · PMT 1.500",
+     "resultado": "FV 1.039.490,94"
+    },
+    {
+     "titulo": "USUFRUTO",
+     "passos": "PV 1.039.490,94 · FV 0\nn 300 · i 0,5\nSÓ O RENDIMENTO: 5.197,45",
+     "resultado": "PMT 6.697,45"
+    }
+   ],
+   "conclusao": {
+    "texto": "RENDA = {laranja:4,46 VEZES} O APORTE · 56,7% DO PATRIMÔNIO VEIO DOS {verde:JUROS COMPOSTOS} · NO USUFRUTO, O SALDO CHEGA A ZERO NO MÊS 300",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
