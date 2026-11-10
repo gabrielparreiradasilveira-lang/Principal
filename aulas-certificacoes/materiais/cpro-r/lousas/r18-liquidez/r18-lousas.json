@@ -1,0 +1,148 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r18_1_patrimonio-liquidez.png",
+   "semente": 1801,
+   "molde": "mito_verdade",
+   "titulo": "PATRIMÔNIO É LIQUIDEZ?",
+   "mitos": [
+    "QUEM TEM PATRIMÔNIO TEM LIQUIDEZ",
+    "SE VENDE NO MESMO DIA, É LÍQUIDO"
+   ],
+   "verdade": "LIQUIDEZ = {verde:RAPIDEZ} + {verde:PREÇO}",
+   "desenho": {
+    "nome": "copo_cubos",
+    "largura": 130
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} PATRIMÔNIO DE R$ 500 MIL = TERRENO (R$ 400 MIL) + CDB DE 3 ANOS (R$ 100 MIL)\n- IMPREVISTO DE {vermelho:R$ 8 MIL} → SEM DINHEIRO DISPONÍVEL → CRÉDITO CARO\n- {ciano:SOLVENTE:} PATRIMÔNIO MAIOR QUE AS DÍVIDAS · {ciano:LÍQUIDO:} DINHEIRO NA DATA CERTA\n- ELA ERA {verde:SOLVENTE} E ESTAVA {vermelho:SEM LIQUIDEZ}\n- {ciano:NA PROVA:} \"SEM PERDAS RELEVANTES DE VALOR\" FAZ PARTE DA DEFINIÇÃO"
+  },
+  {
+   "saida": "r18_2_gelo-e-agua.png",
+   "semente": 1802,
+   "molde": "comparacao",
+   "titulo": "GELO E ÁGUA",
+   "colunas": [
+    {
+     "titulo": "VIRA ÁGUA NA HORA",
+     "desenho": "copo_cubos",
+     "rotulos": [
+      "HOJE",
+      "SEM PERDA"
+     ],
+     "texto": "- ÁGUA NO COPO → {verde:DINHEIRO NA MÃO}\n- CUBOS DE GELO → {verde:RESGATE IMEDIATO}\n- CONTA REMUNERADA, TESOURO SELIC\n- CDB COM LIQUIDEZ DIÁRIA"
+    },
+    {
+     "titulo": "DEMORA OU PERDE",
+     "desenho": "gelo_cadeado",
+     "rotulos": [
+      "DATA",
+      "LASCAS"
+     ],
+     "texto": "- BLOCO COM CADEADO → {laranja:SÓ NO VENCIMENTO}\n- BLOCO A MARTELO → {vermelho:PREÇO DE MERCADO}\n- ICEBERG → {vermelho:IMÓVEL}\n- QUEM ESPERA O BLOCO → {verde:MAIS ÁGUA NO FIM}"
+    }
+   ],
+   "faixas": [
+    "{ciano:DUAS PERGUNTAS PARA CADA ATIVO:} EM QUANTO TEMPO VIRA DINHEIRO? · QUANTO SE PERDE PARA VIRAR?",
+    "{ciano:RESERVA DE EMERGÊNCIA:} SÓ ÁGUA E CUBOS · {ciano:OBJETIVO DE LONGO PRAZO:} PODE SER BLOCO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} GELO DERRETIDO RENDE A MESMA ÁGUA · ATIVO VENDIDO COM PRESSA PODE SAIR {laranja:COM DESCONTO}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r18_3_conteudo-1.png",
+   "semente": 1803,
+   "molde": "colunas",
+   "titulo": "LIQUIDEZ E RESERVA (1/3)",
+   "topo": "{ciano:LIQUIDEZ:} FACILIDADE DE CONVERTER O ATIVO EM DINHEIRO, {verde:SEM PERDAS RELEVANTES DE VALOR} · + LIQUIDEZ = − RISCO DE VENDER MAL",
+   "colunas": [
+    {
+     "titulo": "CONCEITO E RESERVA",
+     "texto": "- {verde:ALTA:} CONTA REMUNERADA, TESOURO SELIC, CDB DIÁRIO\n- {vermelho:BAIXA:} IMÓVEL, FUNDO DE LONGO PRAZO, EMPRESA FECHADA\n- RESERVA DE EMERGÊNCIA: SÓ ATIVO DE {verde:RESGATE NA HORA}\n- ILÍQUIDO NA RESERVA → ELA FALHA QUANDO É PRECISO"
+    },
+    {
+     "titulo": "3 ARMADILHAS",
+     "texto": "- {ciano:TESOURO PREFIXADO E IPCA+:} VENDE TODO DIA, A {vermelho:PREÇO DE MERCADO}; TAXA SÓ VALE NO VENCIMENTO\n- {ciano:FUNDOS:} PAGAMENTO EM ATÉ {laranja:5 DIAS ÚTEIS} APÓS A CONVERSÃO DAS COTAS; CLASSE FECHADA NÃO RESGATA\n- {ciano:POUPANÇA:} CONTA O {vermelho:MENOR SALDO} DO PERÍODO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:TESOURO DIRETO:} PEDIDO ATÉ 13H → DINHEIRO NO MESMO DIA · DEPOIS DAS 13H → DIA ÚTIL SEGUINTE · {laranja:\"LIQUIDEZ DIÁRIA\" ≠ SEM PERDA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r18_3_conteudo-2.png",
+   "semente": 1804,
+   "molde": "colunas",
+   "titulo": "LIQUIDEZ × RENTABILIDADE (2/3)",
+   "topo": "{ciano:EM GERAL} (TENDÊNCIA, NÃO LEI): + LIQUIDEZ → {vermelho:− RETORNO} · QUEM ABRE MÃO DA LIQUIDEZ RECEBE O {verde:PRÊMIO DE LIQUIDEZ}",
+   "colunas": [
+    {
+     "titulo": "O PREÇO DA LIQUIDEZ",
+     "texto": "- EXEMPLO HIPOTÉTICO DE TAXAS AO ANO:\n- RESGATE DIÁRIO → {laranja:12%}\n- CDB DE 3 ANOS, SÓ NO VENCIMENTO → {verde:13,5%}\n- R$ 40 MIL EM 3 ANOS: R$ 56.197 × R$ 58.485\n- DIFERENÇA: {verde:R$ 2.288} PELO PRAZO ACEITO"
+    },
+    {
+     "titulo": "IOF ANTES DE 30 DIAS",
+     "texto": "- INCIDE SOBRE O {vermelho:RENDIMENTO}, NÃO SOBRE O VALOR APLICADO\n- DIA 1: 96% · DIA 5: 83% · DIA 10: 66%\n- DIA 15: 50% · DIA 20: 33% · DIA 25: 16%\n- DIA 29: 3% · {verde:DIA 30: ZERO}\n- RENDA FIXA E FUNDOS · LCA E FUNDO DE AÇÕES: ALÍQUOTA ZERO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:PLANEJAR:} CADA DINHEIRO NO GELO CERTO · RESERVA → {verde:LIQUIDEZ} · LONGO PRAZO → {laranja:RETORNO} · RESERVA NÃO FICA ENTRANDO E SAINDO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r18_3_conteudo-3.png",
+   "semente": 1805,
+   "molde": "colunas",
+   "titulo": "CORRENTE E SECA (3/3)",
+   "topo": "{ciano:CURTO PRAZO:} HORIZONTE DE {laranja:12 MESES} · OS DOIS ÍNDICES USAM O MESMO DIVISOR: PASSIVOS DE CURTO PRAZO",
+   "colunas": [
+    {
+     "titulo": "LIQUIDEZ CORRENTE",
+     "texto": "- {laranja:ATIVOS DE CURTO PRAZO ÷ PASSIVOS DE CURTO PRAZO}\n- PASSIVOS: FATURAS, PARCELAS, CONTAS\n- {verde:> 1:} FOLGA FINANCEIRA\n- {laranja:= 1:} EQUILÍBRIO SEM MARGEM\n- {vermelho:< 1:} FALTAM RECURSOS\n- MEDE: PAGAR EM 12 MESES"
+    },
+    {
+     "titulo": "LIQUIDEZ SECA",
+     "texto": "- {laranja:ATIVOS DE RESGATE IMEDIATO ÷ PASSIVOS DE CURTO PRAZO}\n- TIRA OS ATIVOS DE MENOR LIQUIDEZ\n- VISÃO MAIS {vermelho:CONSERVADORA}\n- MEDE: PAGAR {laranja:AGORA}\n- {verde:> 1:} SÓLIDA · {vermelho:< 1:} VULNERÁVEL"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} SECA {vermelho:≤} CORRENTE, SEMPRE · A FÓRMULA DA SECA VEM DO CONCEITO: SÓ O QUE VIRA DINHEIRO NA HORA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r18_4_corrente-ou-seca.png",
+   "semente": 1806,
+   "molde": "exercicio",
+   "titulo": "FOLGADO NO ANO, APERTADO HOJE?",
+   "dados": "- CONTA: {ciano:R$ 6.000} · TESOURO SELIC: {ciano:R$ 24.000} · CDB DIÁRIO: {ciano:R$ 10.000}\n- CDB QUE VENCE EM 8 MESES: {laranja:R$ 35.000}\n- DÍVIDAS QUE VENCEM EM ATÉ 12 MESES: {vermelho:R$ 50.000}\n- NÚMEROS HIPOTÉTICOS · SEM IMPOSTOS\n- A ÚNICA DIFERENÇA: O QUE ENTRA NO NUMERADOR",
+   "cenarios": [
+    {
+     "titulo": "LIQUIDEZ CORRENTE",
+     "passos": "40.000 + 35.000\n= 75.000\n75.000 ÷ 50.000",
+     "resultado": "1,50"
+    },
+    {
+     "titulo": "LIQUIDEZ SECA",
+     "passos": "6.000 + 24.000 + 10.000\n= 40.000\n40.000 ÷ 50.000",
+     "resultado": "0,80"
+    }
+   ],
+   "conclusao": {
+    "texto": "EM 12 MESES, {verde:SOBRAM R$ 25.000} · SE TUDO VENCESSE HOJE, {vermelho:FALTARIAM R$ 10.000} · O CDB DE 8 MESES AINDA É BLOCO COM CADEADO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
