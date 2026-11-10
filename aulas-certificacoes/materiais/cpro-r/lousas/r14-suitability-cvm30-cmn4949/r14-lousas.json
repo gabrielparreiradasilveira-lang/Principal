@@ -1,0 +1,152 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r14_1_cliente-pediu.png",
+   "semente": 1401,
+   "molde": "mito_verdade",
+   "titulo": "O CLIENTE PEDIU: POSSO VENDER?",
+   "mitos": [
+    "PEDIU, LEVOU",
+    "SÓ EXECUTO A ORDEM"
+   ],
+   "verdade": "ANTES, {laranja:VERIFICAR A ADEQUAÇÃO}",
+   "desenho": {
+    "nome": "prancheta",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} CLIENTE CONSERVADORA + ORDEM PARA FUNDO DE AÇÕES ALAVANCADO\n- {ciano:RECOMENDAR:} VEDADO SE O PRODUTO NÃO COMBINA COM O PERFIL\n- {ciano:EXECUTAR A ORDEM:} POSSÍVEL, COM {laranja:ALERTA + DECLARAÇÃO EXPRESSA}\n- {ciano:CVM 30 (2021):} SUITABILITY NO MERCADO DE VALORES MOBILIÁRIOS\n- {ciano:CMN 4.949 (2021):} RELACIONAMENTO COM CLIENTES E USUÁRIOS"
+  },
+  {
+   "saida": "r14_2_receita-e-hospital.png",
+   "semente": 1402,
+   "molde": "comparacao",
+   "titulo": "A RECEITA E O HOSPITAL",
+   "colunas": [
+    {
+     "titulo": "A RECEITA",
+     "desenho": "receita",
+     "rotulos": [
+      "EXAME",
+      "TERMO"
+     ],
+     "texto": "- EXAMINAR ANTES DE RECEITAR → {laranja:SUITABILITY}\n- O QUE QUER TRATAR → {laranja:OBJETIVOS}\n- O QUE O CORPO AGUENTA → {laranja:SITUAÇÃO FINANCEIRA}\n- O QUE ENTENDE → {laranja:CONHECIMENTO}"
+    },
+    {
+     "titulo": "O HOSPITAL",
+     "desenho": "banco",
+     "rotulos": [
+      "REGIMENTO",
+      "DIREÇÃO"
+     ],
+     "texto": "- REGIMENTO → {verde:POLÍTICA DE RELACIONAMENTO}\n- DA RECEPÇÃO À ALTA → {verde:PRÉ, CONTRATAÇÃO E PÓS}\n- DIREÇÃO APROVA → {verde:CONSELHO OU DIRETORIA}\n- PORTA ABERTA → {verde:SEM BARREIRAS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:TERMO ASSINADO:} PACIENTE QUE EXIGE O REMÉDIO CONTRA A ORIENTAÇÃO → DECLARAÇÃO EXPRESSA",
+    "{ciano:EXAME ANTIGO NÃO VALE:} PERFIL COM MAIS DE 5 ANOS ESTÁ DESATUALIZADO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} REMÉDIO CONTROLADO EXIGE RECEITA SEMPRE · NO MERCADO, A ORDEM INADEQUADA {laranja:PODE SER EXECUTADA}, COM ALERTA E TERMO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r14_3_conteudo-1.png",
+   "semente": 1403,
+   "molde": "colunas",
+   "titulo": "CVM 30: AS 3 VERIFICAÇÕES (1/3)",
+   "topo": "{ciano:QUEM:} INTEGRANTES DO SISTEMA DE DISTRIBUIÇÃO E CONSULTORES · {ciano:QUANDO:} RECOMENDAÇÃO A {laranja:CLIENTE ESPECÍFICO}, POR QUALQUER MEIO",
+   "colunas": [
+    {
+     "titulo": "OBJETIVOS",
+     "texto": "- PRAZO DO INVESTIMENTO\n- PREFERÊNCIAS DE RISCO DECLARADAS\n- FINALIDADES DO INVESTIMENTO"
+    },
+    {
+     "titulo": "SITUAÇÃO",
+     "texto": "- RECEITAS REGULARES\n- VALOR E ATIVOS DO PATRIMÔNIO\n- NECESSIDADE FUTURA DE RECURSOS"
+    },
+    {
+     "titulo": "CONHECIMENTO",
+     "texto": "- PRODUTOS QUE CONHECE\n- OPERAÇÕES: NATUREZA, VOLUME, FREQUÊNCIA\n- FORMAÇÃO E EXPERIÊNCIA (SÓ PESSOA FÍSICA)"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:CUSTOS (ART. 3º, § 5º):} CONSIDERAR CUSTOS DIRETOS E INDIRETOS · {vermelho:NÃO RECOMENDAR} CUSTO EXCESSIVO · {ciano:DEPOIS:} CLASSIFICAR O CLIENTE EM PERFIL E OS PRODUTOS EM CATEGORIAS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r14_3_conteudo-2.png",
+   "semente": 1404,
+   "molde": "colunas",
+   "titulo": "CVM 30: VEDAÇÕES E PRAZOS (2/3)",
+   "topo": "{ciano:VEDADO RECOMENDAR (ART. 6º):} PRODUTO {vermelho:INADEQUADO} · PERFIL {vermelho:SEM INFORMAÇÕES} · PERFIL {vermelho:DESATUALIZADO}",
+   "colunas": [
+    {
+     "titulo": "ORDEM DO CLIENTE",
+     "texto": "- ANTES DA {laranja:1ª OPERAÇÃO} COM A CATEGORIA\n- {laranja:1.} ALERTAR, COM AS CAUSAS DA DIVERGÊNCIA\n- {laranja:2.} OBTER DECLARAÇÃO EXPRESSA DE CIÊNCIA\n- DISPENSADO SE SEGUE CONSULTOR AUTORIZADO"
+    },
+    {
+     "titulo": "PRAZOS",
+     "texto": "- {ciano:PERFIL DO CLIENTE:} MÁXIMO DE {laranja:5 ANOS}\n- {ciano:CATEGORIAS DE PRODUTOS:} MÁXIMO DE {laranja:24 MESES}\n- {ciano:GUARDA DE DOCUMENTOS:} MÍNIMO DE 5 ANOS\n- {ciano:RELATÓRIO DO DIRETOR:} ATÉ O ÚLTIMO DIA ÚTIL DE ABRIL"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:DISPENSAS (ART. 10):} QUALIFICADO (COM EXCEÇÕES DE PESSOA FÍSICA) · PJ DE DIREITO PÚBLICO · CARTEIRA DISCRICIONÁRIA · PERFIL FEITO POR CONSULTOR · DESCUMPRIR ARTS. 6º E 7º = {vermelho:INFRAÇÃO GRAVE}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r14_3_conteudo-3.png",
+   "semente": 1405,
+   "molde": "colunas",
+   "titulo": "CMN 4.949: RELACIONAMENTO (3/3)",
+   "topo": "{ciano:PRINCÍPIOS (ART. 2º):} {laranja:ÉTICA · RESPONSABILIDADE · TRANSPARÊNCIA · DILIGÊNCIA} · CONVERGÊNCIA DE INTERESSES · TRATAMENTO JUSTO, ATENTO ÀS VULNERABILIDADES",
+   "colunas": [
+    {
+     "titulo": "PROCEDIMENTOS",
+     "texto": "- PRODUTO ADEQUADO A NECESSIDADES, INTERESSES E OBJETIVOS\n- INFORMAÇÃO CLARA: CUSTOS, RISCOS, DIREITOS, DEVERES\n- REDAÇÃO CLARA EM CONTRATOS E EXTRATOS\n- {verde:SEM BARREIRAS} PARA ATENDER, CANCELAR E TRANSFERIR\n- ATENDIMENTO PRESENCIAL GARANTIDO"
+    },
+    {
+     "titulo": "A POLÍTICA",
+     "texto": "- APROVADA PELO {laranja:CONSELHO} OU PELA DIRETORIA\n- AVALIAÇÃO PERIÓDICA; DOCUMENTO ESPECÍFICO\n- TREINAMENTO DE EQUIPES\n- METAS E INCENTIVOS {laranja:EQUILIBRADOS}\n- MÉTRICAS, AUDITORIA INTERNA, DIRETOR RESPONSÁVEL"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:ALCANCE:} INSTITUIÇÕES AUTORIZADAS PELO BANCO CENTRAL · {vermelho:FORA:} CONSÓRCIO, PAGAMENTO, CORRETORAS E DISTRIBUIDORAS (REGRA PRÓPRIA DO BCB) · REGISTROS POR 5 ANOS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r14_4_perfil-vencido.png",
+   "semente": 1406,
+   "molde": "exercicio",
+   "titulo": "O PERFIL AINDA VALE?",
+   "dados": "- REUNIÃO EM {ciano:10/11/2026} (HIPOTÉTICO)\n- PRODUTO ADEQUADO AO PERFIL REGISTRADO NOS DOIS CASOS\n- A ÚNICA DIFERENÇA: A DATA DO ÚLTIMO PERFIL\n- PRAZO MÁXIMO DA CVM 30: 5 ANOS\n- ANO DE 365 DIAS (SIMPLIFICAÇÃO)",
+   "cenarios": [
+    {
+     "titulo": "PERFIL DE 2021",
+     "passos": "10/03/2021 → 10/11/2026\n2.071 DIAS\n2.071 ÷ 365 = 5,67 ANOS",
+     "resultado": "DESATUALIZADO"
+    },
+    {
+     "titulo": "PERFIL DE 2022",
+     "passos": "10/03/2022 → 10/11/2026\n1.706 DIAS\n1.706 ÷ 365 = 4,67 ANOS",
+     "resultado": "VÁLIDO"
+    }
+   ],
+   "conclusao": {
+    "texto": "PERFIL VENCIDO → {vermelho:RECOMENDAR É VEDADO} ATÉ ATUALIZAR · A INSTITUIÇÃO PODE USAR PRAZO MENOR · NA HP12C: {laranja:g D.MY} E {laranja:g ΔDYS}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
