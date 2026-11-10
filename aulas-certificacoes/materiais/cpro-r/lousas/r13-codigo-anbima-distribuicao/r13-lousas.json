@@ -1,0 +1,438 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r13a_1_assunto-interno.png",
+   "semente": 1301,
+   "molde": "mito_verdade",
+   "titulo": "QUANTO O DISTRIBUIDOR GANHA?",
+   "mitos": [
+    "ASSUNTO INTERNO",
+    "CLIENTE NÃO PRECISA SABER"
+   ],
+   "verdade": "REMUNERAÇÃO {laranja:ÀS CLARAS}",
+   "desenho": {
+    "nome": "cardapio",
+    "largura": 140
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} \"VOCÊ GANHA ALGO SE EU COMPRAR ESSE FUNDO?\" · ASSESSOR DESCONVERSA\n- {ciano:3 MOMENTOS DE DIVULGAÇÃO:} POLÍTICA · INFORME · EXTRATO TRIMESTRAL\n- AVISO OBRIGATÓRIO NO SITE: \"A INSTITUIÇÃO É {laranja:REMUNERADA PELA DISTRIBUIÇÃO} DO PRODUTO\"\n- {ciano:NORMA:} REGRAS E PROCEDIMENTOS DO CÓDIGO DE DISTRIBUIÇÃO DA ANBIMA\n- {ciano:VERSÃO VIGENTE:} DESDE 22/09/2025"
+  },
+  {
+   "saida": "r13a_2_o-restaurante.png",
+   "semente": 1302,
+   "molde": "comparacao",
+   "titulo": "O RESTAURANTE",
+   "colunas": [
+    {
+     "titulo": "O SALÃO",
+     "desenho": "cardapio",
+     "rotulos": [
+      "CARDÁPIO",
+      "GARÇOM"
+     ],
+     "texto": "- RESTAURANTE → {laranja:DISTRIBUIDOR}\n- MANUAL DA CASA → {laranja:REGRAS DA ANBIMA}\n- CARDÁPIO COMPLETO → {laranja:INFORMAÇÕES NO SITE}\n- GARÇOM NÃO É NUTRICIONISTA → NÃO É CONSULTOR INDEPENDENTE"
+    },
+    {
+     "titulo": "A CONTA",
+     "desenho": "prancheta",
+     "rotulos": [
+      "COMANDA",
+      "SERVIÇO"
+     ],
+     "texto": "- COMANDA COM SENHA → {verde:CANAIS DIGITAIS}\n- REGISTRO DE CADA PEDIDO → {verde:TRILHA DE AUDITORIA}\n- TAXA DE SERVIÇO À VISTA → {verde:REMUNERAÇÃO}\n- NOTA DETALHADA → {verde:EXTRATO TRIMESTRAL}"
+    }
+   ],
+   "faixas": [
+    "{ciano:FILIAIS COM REGRA PRÓPRIA:} OS ANEXOS (PRIVATE, FUNDOS, TRANSFERÊNCIA) PREVALECEM SOBRE A PARTE GERAL",
+    "{ciano:QUEM MUDA O MANUAL:} SÓ O FÓRUM DE DISTRIBUIÇÃO DA ANBIMA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} GORJETA É OPCIONAL E VISÍVEL · A REMUNERAÇÃO DO DISTRIBUIDOR VEM {laranja:DENTRO DO PRODUTO}; SEM A REGRA, O CLIENTE NÃO A VERIA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r13a_3_conteudo-1.png",
+   "semente": 1303,
+   "molde": "colunas",
+   "titulo": "OBJETIVO E REGRA GERAL (1/3)",
+   "topo": "{ciano:OBJETIVO (ART. 1º):} REGRAS QUE COMPLEMENTAM OS PRINCÍPIOS DO {laranja:CÓDIGO DE DISTRIBUIÇÃO} · VALEM PARA TODOS OS PRODUTOS DE INVESTIMENTO",
+   "colunas": [
+    {
+     "titulo": "ESTRUTURA",
+     "texto": "- {ciano:PARTE GERAL:} TODOS OS PRODUTOS\n- {ciano:ANEXO I:} PRIVATE\n- {ciano:ANEXO II:} FUNDOS DE INVESTIMENTO\n- {ciano:ANEXO III:} MODELOS DE TRANSFERÊNCIA\n- SÓ O FÓRUM DE DISTRIBUIÇÃO ALTERA"
+    },
+    {
+     "titulo": "REGRA GERAL",
+     "texto": "- {vermelho:NÃO INDUZIR A ERRO} AO INFORMAR OU RECOMENDAR\n- NÃO DAR A ENTENDER QUE É CONSULTORIA INDEPENDENTE DE VALORES MOBILIÁRIOS\n- DISTRIBUIR {vermelho:≠} PRESTAR CONSULTORIA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} DIVERGÊNCIA ENTRE PARTE GERAL E ANEXO → {laranja:VALE O ANEXO} · CAPÍTULO I = OBJETIVO E ABRANGÊNCIA · CAPÍTULO II = ATIVIDADE DE DISTRIBUIÇÃO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r13a_3_conteudo-2.png",
+   "semente": 1304,
+   "molde": "colunas",
+   "titulo": "SITE E CANAIS DIGITAIS (2/3)",
+   "topo": "{ciano:MEIOS ELETRÔNICOS:} SEÇÃO {laranja:EXCLUSIVA} NO SITE (OU CANAL ALTERNATIVO) SOBRE OS PRODUTOS DISTRIBUÍDOS · {ciano:CANAIS DIGITAIS:} ONDE O CLIENTE TRANSACIONA",
+   "colunas": [
+    {
+     "titulo": "NO SITE",
+     "texto": "- {laranja:1.} ESTRATÉGIA · {laranja:2.} PÚBLICO-ALVO\n- {laranja:3.} CARÊNCIA, PRAZO · {laranja:4.} EMISSOR\n- {laranja:5.} IMPOSTO · {laranja:6.} CLASSIFICAÇÃO\n- {laranja:7.} FATORES DE RISCO\n- {laranja:8.} AVISO DE REMUNERAÇÃO\n- {laranja:9 E 10.} FUNDO GARANTIDOR: LIMITES E PORTAL"
+    },
+    {
+     "titulo": "NO CANAL",
+     "texto": "- SENHA DE ACESSO INDIVIDUAL\n- DESBLOQUEIO COM CONFIRMAÇÃO DE DADOS\n- OPERAÇÕES COM CRIPTOGRAFIA\n- SEM 2 SESSÕES SIMULTÂNEAS\n- TRILHA: USUÁRIO, DATA E HORA, OPERAÇÃO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:TRILHA DE AUDITORIA:} GUARDA MÍNIMA DE {laranja:5 ANOS} · {ciano:ATENDIMENTO:} CANAIS PARA DÚVIDAS E RECLAMAÇÕES, COMPATÍVEIS COM O PORTE E O NÚMERO DE CLIENTES",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r13a_3_conteudo-3.png",
+   "semente": 1305,
+   "molde": "colunas",
+   "titulo": "REMUNERAÇÃO DO DISTRIBUIDOR (3/3)",
+   "topo": "{ciano:O QUE DIVULGAR:} A REMUNERAÇÃO RECEBIDA, {laranja:DIRETA OU INDIRETA}, PELA DISTRIBUIÇÃO · INFORMAÇÕES QUALITATIVAS E QUANTITATIVAS",
+   "colunas": [
+    {
+     "titulo": "POLÍTICA",
+     "texto": "- A QUALQUER TEMPO, NO SITE\n- LINGUAGEM CLARA\n- FORMAS DE REMUNERAÇÃO\n- CONFLITOS DE INTERESSE\n- MITIGADORES"
+    },
+    {
+     "titulo": "INFORME",
+     "texto": "- NA OPERAÇÃO COM VALORES MOBILIÁRIOS\n- ATÉ {laranja:3 DIAS ÚTEIS} APÓS A ORDEM\n- PRODUTO, VALOR, DATA\n- REMUNERAÇÃO DAQUELA OPERAÇÃO"
+    },
+    {
+     "titulo": "EXTRATO",
+     "texto": "- A CADA TRIMESTRE\n- ATÉ {laranja:30 DIAS} DO FIM DO TRIMESTRE\n- TOTAL RECEBIDO\n- PARCELA DO ASSESSOR\n- PROFISSIONAL: DISPENSADO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NUMERAÇÃO VIGENTE (22/09/2025):} REMUNERAÇÃO = {laranja:CAP. III} · CONHEÇA SEU CLIENTE = {laranja:CAP. IV} · SUITABILITY = {laranja:CAP. V} · TRANSFERÊNCIA = {laranja:CAP. X}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r13a_4_quem-paga-mais.png",
+   "semente": 1306,
+   "molde": "exercicio",
+   "titulo": "QUAL PRODUTO REMUNERA MAIS?",
+   "dados": "- APLICAÇÃO DE {ciano:R$ 100.000} (HIPOTÉTICO)\n- FUNDO: PAGA 0,5% AO ANO AO DISTRIBUIDOR\n- PRODUTO ESTRUTURADO: PAGA 3% NA ENTRADA\n- A ÚNICA DIFERENÇA: O PRODUTO OFERECIDO\n- SEM OUTROS CUSTOS (SIMPLIFICAÇÃO)",
+   "cenarios": [
+    {
+     "titulo": "FUNDO",
+     "passos": "100.000 × 0,5%\nRECEBIDO AO LONGO DO ANO\nAPARECE NO EXTRATO",
+     "resultado": "500 NO ANO"
+    },
+    {
+     "titulo": "ESTRUTURADO",
+     "passos": "100.000 × 3%\nRECEBIDO DE UMA VEZ\nAPARECE NO INFORME",
+     "resultado": "3.000 NA ENTRADA"
+    }
+   ],
+   "conclusao": {
+    "texto": "3.000 ÷ 500 = {laranja:6 VEZES} · DIFERENÇA DE GANHO = {vermelho:POTENCIAL CONFLITO DE INTERESSE} · A POLÍTICA DE REMUNERAÇÃO DEVE DESCREVER O CONFLITO E OS MITIGADORES",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r13b_1_sem-questionario.png",
+   "semente": 1307,
+   "molde": "mito_verdade",
+   "titulo": "SEM PERFIL, SEM INVESTIR?",
+   "mitos": [
+    "SEM QUESTIONÁRIO, NADA FEITO",
+    "CLIENTE FICA IMPEDIDO"
+   ],
+   "verdade": "ALERTA + {laranja:DECLARAÇÃO EXPRESSA}",
+   "desenho": {
+    "nome": "prancheta",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} CLIENTE NOVO RECUSA O QUESTIONÁRIO E QUER APLICAR HOJE\n- {vermelho:VEDADO:} RECOMENDAR PRODUTO SEM PERFIL IDENTIFICADO\n- {verde:PERMITIDO:} EXECUTAR O PEDIDO, DEPOIS DO ALERTA E DA DECLARAÇÃO\n- A DECLARAÇÃO É {laranja:EXCLUSIVA POR CATEGORIA DE ATIVO}\n- {ciano:3 TEMAS:} CONHEÇA SEU CLIENTE · SUITABILITY · PERFIS"
+  },
+  {
+   "saida": "r13b_2_ficha-e-dieta.png",
+   "semente": 1308,
+   "molde": "comparacao",
+   "titulo": "A FICHA E A DIETA",
+   "colunas": [
+    {
+     "titulo": "A FICHA",
+     "desenho": "prancheta",
+     "rotulos": [
+      "CADASTRO",
+      "VISITA"
+     ],
+     "texto": "- QUEM É O CLIENTE → {laranja:CONHEÇA SEU CLIENTE}\n- FICHA EM DIA → {laranja:CADASTRO ATUALIZADO}\n- QUEM PAGA A CONTA → {laranja:BENEFICIÁRIO FINAL}\n- CLIENTE BARRADO → {laranja:VETO POR RISCO}"
+    },
+    {
+     "titulo": "A DIETA",
+     "desenho": "pimenta",
+     "rotulos": [
+      "PIMENTA",
+      "SUGESTÃO"
+     ],
+     "texto": "- SUGERIR O QUE COMBINA → {verde:SUITABILITY}\n- 3 GRUPOS DE PALADAR → {verde:3 PERFIS}\n- PRATO FORA DA DIETA → {verde:ALERTA}\n- \"A ESCOLHA FOI MINHA\" → {verde:DECLARAÇÃO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:PRATO DO DIA SEM PERGUNTA:} ÁGUA E PÃO NÃO PEDEM ANÁLISE → PRODUTOS DISPENSADOS DE SUITABILITY",
+    "{ciano:FICHA NÃO É DIETA:} SABER QUEM É O CLIENTE NÃO DIZ O QUE É ADEQUADO PARA ELE"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} AVISO DE GARÇOM NÃO DEIXA RASTRO · AQUI, ALERTA E DECLARAÇÃO SÃO {laranja:REGISTRADOS} E REVISTOS EM ATÉ 5 ANOS",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r13b_3_conteudo-1.png",
+   "semente": 1309,
+   "molde": "colunas",
+   "titulo": "CONHEÇA SEU CLIENTE (1/3)",
+   "topo": "{ciano:CONHEÇA SEU CLIENTE (ART. 18):} NO {laranja:INÍCIO} DO RELACIONAMENTO · NO {laranja:CADASTRO} · {laranja:DURANTE} O RELACIONAMENTO",
+   "colunas": [
+    {
+     "titulo": "O DOCUMENTO",
+     "texto": "- ESCRITO OU ELETRÔNICO\n- COMPATÍVEL COM PORTE, COMPLEXIDADE E RISCO DOS PRODUTOS\n- ACEITAÇÃO DE CLIENTES E VALIDAÇÃO DOS DADOS\n- QUANDO HÁ VISITA, PRESENCIAL OU VIRTUAL"
+    },
+    {
+     "titulo": "TAMBÉM PREVÊ",
+     "texto": "- SISTEMAS DE CONTROLE DE DADOS E MOVIMENTAÇÕES\n- ATUALIZAÇÃO CADASTRAL\n- IDENTIFICAÇÃO DO {laranja:BENEFICIÁRIO FINAL}\n- VETO A RELACIONAMENTOS, PELO RISCO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:ART. 19:} CADASTRO ATUALIZADO, COM REGISTRO DE TODAS AS APLICAÇÕES E RESGATES · {ciano:EM AUDIÊNCIA PÚBLICA (2026):} ABORDAGEM BASEADA EM RISCO, AINDA NÃO VIGENTE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r13b_3_conteudo-2.png",
+   "semente": 1310,
+   "molde": "colunas",
+   "titulo": "SUITABILITY: REGRAS GERAIS (2/3)",
+   "topo": "{ciano:RESPONSÁVEL PELO SUITABILITY (ART. 20):} O {laranja:DISTRIBUIDOR} · A ADEQUAÇÃO AO PERFIL VEM ANTES DE RECOMENDAR, OPERAR OU PRESTAR SERVIÇO",
+   "colunas": [
+    {
+     "titulo": "A COLETA",
+     "texto": "- {ciano:OBJETIVO:} PRAZO, RISCO DECLARADO, FINALIDADE\n- {ciano:SITUAÇÃO FINANCEIRA:} RECEITAS, PATRIMÔNIO, NECESSIDADE FUTURA\n- {ciano:CONHECIMENTO:} PRODUTOS, OPERAÇÕES, FORMAÇÃO\n- PERFIL ATUALIZADO NO PRAZO DA REGULAÇÃO"
+    },
+    {
+     "titulo": "DISPENSAS",
+     "texto": "- FUNDO DE RENDA FIXA {verde:SIMPLES}\n- {verde:LFT}\n- {verde:CDB OU RDB}, COM 3 CRITÉRIOS: EMISSOR DE NOTA COMPATÍVEL COM A DO PAÍS + TAXA PÓS + (LIQUIDEZ DIÁRIA OU ATÉ 6 MESES)\n- PRODUTO AUTOMÁTICO: RITO SIMPLIFICADO"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:VEDADO RECOMENDAR:} PERFIL INADEQUADO · SEM INFORMAÇÕES · DESATUALIZADO · {ciano:PEDIDO DO CLIENTE:} ALERTA + DECLARAÇÃO POR {laranja:CATEGORIA DE ATIVO}, VÁLIDA POR ATÉ 5 ANOS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r13b_3_conteudo-3.png",
+   "semente": 1311,
+   "molde": "colunas",
+   "titulo": "CLASSIFICAÇÃO DO CLIENTE (3/3)",
+   "topo": "{ciano:ART. 24:} NO MÍNIMO {laranja:3 PERFIS} · CADA UM COM UM TETO DE PONTUAÇÃO DE RISCO DOS PRODUTOS (ESCALA DE 0,5 A 5)",
+   "colunas": [
+    {
+     "titulo": "PERFIL 1",
+     "texto": "- BAIXA TOLERÂNCIA\n- BAIXO CONHECIMENTO\n- BUSCA LIQUIDEZ\n- TETO: {laranja:1,5}"
+    },
+    {
+     "titulo": "PERFIL 2",
+     "texto": "- MÉDIA TOLERÂNCIA\n- PRESERVA CAPITAL NO LONGO PRAZO\n- PARTE EM MAIOR RISCO\n- TETO: {laranja:3}"
+    },
+    {
+     "titulo": "PERFIL 3",
+     "texto": "- TOLERA RISCO\n- ACEITA PERDAS POTENCIAIS\n- BUSCA MAIS RETORNO\n- TETO: {laranja:5}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:2 METODOLOGIAS:} PRODUTO A PRODUTO OU MÉDIA PONDERADA DO PORTFÓLIO · {ciano:SEM PERFIL:} QUEM RECUSA O PROCESSO · {ciano:AUTOMÁTICO NO PERFIL 1:} CADASTRO EM DIA E SEM HISTÓRICO INCOMPATÍVEL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r13b_4_cdb-e-dispensa.png",
+   "semente": 1312,
+   "molde": "exercicio",
+   "titulo": "O CDB ENTRA NA DISPENSA?",
+   "dados": "- CDB DE TAXA PÓS, DE EMISSOR COM NOTA COMPATÍVEL COM A DO PAÍS\n- RESGATE SÓ NO VENCIMENTO · EMISSÃO EM {ciano:10/11/2026} (HIPOTÉTICO)\n- CRITÉRIO DE PRAZO: VENCIMENTO EM ATÉ 6 MESES\n- 6 MESES DEPOIS DA EMISSÃO: 10/05/2027 (181 DIAS)\n- A ÚNICA DIFERENÇA: A DATA DE VENCIMENTO",
+   "cenarios": [
+    {
+     "titulo": "VENCE EM ABRIL",
+     "passos": "10/11/2026 → 10/04/2027\n151 DIAS CORRIDOS\n5 MESES: DENTRO DO LIMITE",
+     "resultado": "DISPENSADO"
+    },
+    {
+     "titulo": "VENCE EM AGOSTO",
+     "passos": "10/11/2026 → 10/08/2027\n273 DIAS CORRIDOS\n9 MESES: FORA DO LIMITE",
+     "resultado": "SUITABILITY"
+    }
+   ],
+   "conclusao": {
+    "texto": "OS 3 CRITÉRIOS SÃO {laranja:CUMULATIVOS}: NOTA DO EMISSOR + PÓS-FIXADO + (LIQUIDEZ DIÁRIA OU ATÉ 6 MESES) · A POLÍTICA DA INSTITUIÇÃO PODE SER MAIS RÍGIDA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r13c_1_renda-fixa-serve.png",
+   "semente": 1313,
+   "molde": "mito_verdade",
+   "titulo": "RENDA FIXA SERVE PARA TODOS?",
+   "mitos": [
+    "RENDA FIXA = SEGURANÇA",
+    "SERVE PARA TODOS"
+   ],
+   "verdade": "CADA PRODUTO TEM {laranja:PONTUAÇÃO}",
+   "desenho": {
+    "nome": "pimenta",
+    "largura": 190
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} PERFIL 1 + CDB PREFIXADO DE 5 ANOS, DE BANCO GRANDE\n- PONTUAÇÃO MÍNIMA DESSE CDB: {laranja:2} · TETO DO PERFIL 1: {laranja:1,5}\n- PREFIXADO LONGO TEM MAIS {vermelho:RISCO DE MERCADO} QUE PÓS-FIXADO CURTO\n- {ciano:ESCALA:} DE 0,5 (MENOR RISCO) A 5 (MAIOR RISCO)\n- {ciano:4 TEMAS:} CLASSIFICAÇÃO · RISCO · CATEGORIAS · TRANSFERÊNCIA"
+  },
+  {
+   "saida": "r13c_2_pimenta-e-adega.png",
+   "semente": 1314,
+   "molde": "comparacao",
+   "titulo": "A PIMENTA E A ADEGA",
+   "colunas": [
+    {
+     "titulo": "O CARDÁPIO",
+     "desenho": "pimenta",
+     "rotulos": [
+      "GRAU",
+      "SEÇÃO"
+     ],
+     "texto": "- GRAU DE PIMENTA → {laranja:PONTUAÇÃO DE RISCO}\n- INGREDIENTES E FORNECEDOR → {laranja:RISCOS E EMISSOR}\n- SEÇÕES DO CARDÁPIO → {laranja:CATEGORIAS}\n- PRATO QUE PEDE EXPLICAÇÃO → {laranja:PRODUTO COMPLEXO}"
+    },
+    {
+     "titulo": "A ADEGA",
+     "desenho": "garrafa",
+     "rotulos": [
+      "ORIGEM",
+      "DESTINO"
+     ],
+     "texto": "- ADEGA DO CLIENTE → {verde:POSIÇÃO EM CUSTÓDIA}\n- LEVAR PARA OUTRA CASA → {verde:TRANSFERÊNCIA}\n- MESMO DONO → {verde:MESMA TITULARIDADE}\n- CASA DE ORIGEM → {verde:DISTRIBUIDOR CEDENTE}"
+    }
+   ],
+   "faixas": [
+    "{ciano:TABELA DA CASA:} NENHUM PRATO PODE SER MARCADO COMO MAIS SUAVE DO QUE O MÍNIMO DA TABELA",
+    "{ciano:VINHO PENHORADO NÃO SAI:} BLOQUEIO JUDICIAL OU DE GARANTIA IMPEDE A TRANSFERÊNCIA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O CHEF DECIDE A PIMENTA COMO QUISER · O DISTRIBUIDOR SEGUE UMA {laranja:PONTUAÇÃO MÍNIMA OBRIGATÓRIA} POR TIPO DE PRODUTO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r13c_3_conteudo-1.png",
+   "semente": 1315,
+   "molde": "colunas",
+   "titulo": "CLASSIFICAÇÃO E RISCO (1/3)",
+   "topo": "{ciano:CLASSIFICAR O PRODUTO (ART. 25):} RISCOS DO PRODUTO E DOS ATIVOS · PERFIL DE EMISSORES E PRESTADORES · {laranja:GARANTIAS} · {laranja:CARÊNCIA}",
+   "colunas": [
+    {
+     "titulo": "A ESCALA",
+     "texto": "- CONTÍNUA E ÚNICA: {laranja:0,5 A 5}\n- METODOLOGIA ESCRITA\n- APROVADA PELOS DIRETORES DE SUITABILITY E COMPLIANCE\n- CONSIDERA CRÉDITO, MERCADO E LIQUIDEZ\n- REVISÃO: ATÉ 24 MESES (CVM 30)"
+    },
+    {
+     "titulo": "CDB (MÍNIMOS)",
+     "texto": "- GRAU DE INVESTIMENTO, PÓS-FIXADO\n- ATÉ 2 ANOS: {laranja:0,75} · 2 A 4: {laranja:1,00}\n- 4 A 6 ANOS: {laranja:1,25}\n- O MESMO, PREFIXADO\n- ATÉ 2 ANOS: {laranja:1,00} · 2 A 4: {laranja:1,50}\n- 4 A 6 ANOS: {laranja:2,00}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} A TABELA DÁ O {laranja:PISO} DA PONTUAÇÃO · PRAZO MAIOR E TAXA PREFIXADA {vermelho:AUMENTAM} A NOTA · EMISSOR SEM GRAU DE INVESTIMENTO PONTUA MAIS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r13c_3_conteudo-2.png",
+   "semente": 1316,
+   "molde": "colunas",
+   "titulo": "CATEGORIAS E COMPLEXOS (2/3)",
+   "topo": "{ciano:CATEGORIAS (ART. 31):} NO MÍNIMO {laranja:8} · A DECLARAÇÃO DE QUEM INVESTE FORA DO PERFIL É EXCLUSIVA DE CADA UMA DELAS",
+   "colunas": [
+    {
+     "titulo": "AS 8",
+     "texto": "- {laranja:1.} AÇÕES · {laranja:2.} DERIVATIVOS\n- {laranja:3.} RENDA FIXA, CRÉDITO PRIVADO\n- {laranja:4.} RENDA FIXA, TÍTULO PÚBLICO\n- {laranja:5.} CLASSES DE FII\n- {laranja:6.} CLASSES DE FIP\n- {laranja:7.} FIF CAMBIAL · {laranja:8.} FIF MULTIMERCADO"
+    },
+    {
+     "titulo": "COMPLEXO SE",
+     "texto": "- TEM {laranja:3 DE 4} CARACTERÍSTICAS\n- SEM LIQUIDEZ OU SAÍDA CARA\n- DERIVATIVO EMBUTIDO\n- VÁRIOS INSTRUMENTOS NUM SÓ\n- PREÇO DIFÍCIL DE AVALIAR"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:AUTOMÁTICOS:} {laranja:COE · DEBÊNTURES CONVERSÍVEIS · FIDC · FIP} · A POLÍTICA DEVE RESSALTAR OS RISCOS DA ESTRUTURA E A DIFICULDADE DE DETERMINAR O VALOR",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r13c_3_conteudo-3.png",
+   "semente": 1317,
+   "molde": "colunas",
+   "titulo": "TRANSFERÊNCIA DE PRODUTOS (3/3)",
+   "topo": "{ciano:TRANSFERÊNCIA (ART. 52):} MESMA {laranja:TITULARIDADE}, ENTRE DISTRIBUIDOR CEDENTE E CESSIONÁRIO · COTAS DE FUNDOS E CUSTÓDIA DOS DEMAIS PRODUTOS",
+   "colunas": [
+    {
+     "titulo": "O CEDENTE",
+     "texto": "- RECEBE O PEDIDO FORMAL DO INVESTIDOR\n- CONFERE TITULARIDADE E ORIGEM DO PEDIDO\n- VERIFICA BLOQUEIOS\n- AVISA O CUSTODIANTE DE ORIGEM\n- INFORMA ATRASO OU IMPOSSIBILIDADE"
+    },
+    {
+     "titulo": "RECUSA",
+     "texto": "- BLOQUEIO JUDICIAL OU DE GARANTIA\n- DESISTÊNCIA DO INVESTIDOR\n- CADASTRO INCONSISTENTE\n- POSIÇÃO NÃO RECONHECIDA\n- RESGATE AINDA NÃO LIQUIDADO\n- CESSIONÁRIO SEM CONTRATO COM O ADMINISTRADOR"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:HOJE:} CAPÍTULO {laranja:X} (ERA IX) · MODELOS NO ANEXO III · SITE DEVE LISTAR OS DOCUMENTOS · {ciano:EM AUDIÊNCIA PÚBLICA (2026):} NOVO REGIME DE PORTABILIDADE, AINDA NÃO VIGENTE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r13c_4_produto-ou-portfolio.png",
+   "semente": 1318,
+   "molde": "exercicio",
+   "titulo": "PRODUTO A PRODUTO OU PORTFÓLIO?",
+   "dados": "- CLIENTE DO PERFIL 1, TETO DE {ciano:1,5} PONTO (HIPOTÉTICO)\n- CDB PÓS-FIXADO ATÉ 2 ANOS: NOTA 0,75 · PESO 60%\n- CDB PREFIXADO DE 5 ANOS: NOTA 2 · PESO 40%\n- EMISSOR COM GRAU DE INVESTIMENTO NOS DOIS\n- A ÚNICA DIFERENÇA: A METODOLOGIA DE ADEQUAÇÃO",
+   "cenarios": [
+    {
+     "titulo": "INDIVIDUAL",
+     "passos": "PÓS: 0,75 ≤ 1,5 → CABE\nPRÉ: 2 > 1,5 → NÃO CABE\n2 − 1,5 = 0,50 ACIMA",
+     "resultado": "PRÉ VEDADO"
+    },
+    {
+     "titulo": "PORTFÓLIO",
+     "passos": "0,75 × 60% = 0,45\n2 × 40% = 0,80\nMÉDIA: 1,25 ≤ 1,5",
+     "resultado": "ADEQUADA"
+    }
+   ],
+   "conclusao": {
+    "texto": "FOLGA DE {laranja:0,25} NA CARTEIRA · A NORMA ADMITE AS DUAS METODOLOGIAS · O TETO É O MESMO; MUDA O QUE SE COMPARA COM ELE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
