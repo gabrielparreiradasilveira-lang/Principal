@@ -1,0 +1,302 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r12a_1_formulario.png",
+   "semente": 1201,
+   "molde": "mito_verdade",
+   "titulo": "COLETAR É PREENCHER FORMULÁRIO?",
+   "mitos": [
+    "O FORMULÁRIO JÁ DIZ TUDO",
+    "PERFIL MODERADO, CARTEIRA MODERADA"
+   ],
+   "verdade": "COLETAR É {verde:COMPREENDER} A PESSOA",
+   "desenho": {
+    "nome": "prancheta",
+    "largura": 110
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} PERFIL MODERADO → CARTEIRA COM 30% EM AÇÕES\n- O QUE FALTOU PERGUNTAR: ENTRADA DE UM IMÓVEL {vermelho:EM 8 MESES}\n- RESULTADO: CARTEIRA TECNICAMENTE CORRETA E {vermelho:MAL DIRECIONADA}\n- {ciano:A COLETA BUSCA:} OBJETIVOS · LIMITAÇÕES · EXPECTATIVAS · TOLERÂNCIA AO RISCO\n- {ciano:E TAMBÉM:} A HISTÓRIA FINANCEIRA E O CONTEXTO EM QUE O CLIENTE DECIDE"
+  },
+  {
+   "saida": "r12a_2_consulta-tratamentos.png",
+   "semente": 1202,
+   "molde": "comparacao",
+   "titulo": "A CONSULTA E OS TRATAMENTOS",
+   "colunas": [
+    {
+     "titulo": "A PRIMEIRA PERGUNTA",
+     "desenho": "estetoscopio",
+     "rotulos": [
+      "OUVIR",
+      "ANTES"
+     ],
+     "texto": "- O QUE QUER RESOLVER → {laranja:OBJETIVOS}\n- OUVIR O PACIENTE → {verde:ESCUTA ATIVA}\n- FICHA COMPLETA → {verde:MÉTODO}\n- RECEITA SEM EXAME → {vermelho:ESTRATÉGIA MAL DIRECIONADA}"
+    },
+    {
+     "titulo": "CADA PRAZO",
+     "desenho": "receita",
+     "rotulos": [
+      "DIAS",
+      "DÉCADAS"
+     ],
+     "texto": "- BAIXAR A FEBRE → {laranja:CURTO PRAZO}\n- RECUPERAR O JOELHO → {laranja:MÉDIO PRAZO}\n- CHEGAR BEM AOS 80 → {laranja:LONGO PRAZO}\n- TUDO AO MESMO TEMPO → {verde:VÁRIOS OBJETIVOS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:MESMO PACIENTE, TRÊS PLANOS:} CADA OBJETIVO TEM HORIZONTE E PRIORIDADE PRÓPRIOS",
+    "{ciano:REMÉDIO DE FEBRE PARA O JOELHO:} PRODUTO DE CURTO PRAZO NUM OBJETIVO DE LONGO, OU O CONTRÁRIO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} A QUEIXA DO PACIENTE VEM PRONTA · OS OBJETIVOS DO INVESTIDOR, MUITAS VEZES, {laranja:PRECISAM SER ORGANIZADOS} COM O PROFISSIONAL",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r12a_3_objetivos-por-prazo.png",
+   "semente": 1203,
+   "molde": "colunas",
+   "titulo": "OBJETIVOS POR PRAZO",
+   "topo": "{ciano:A COLETA EXIGE:} ESCUTA ATIVA · EMPATIA · MÉTODO · {ciano:OS OBJETIVOS ORIENTAM:} PRAZOS, ESCOLHA DE ATIVOS E RISCO ACEITÁVEL",
+   "colunas": [
+    {
+     "titulo": "CURTO",
+     "texto": "- {laranja:ATÉ 2 ANOS}\n- VIAGEM, BENS, RESERVA, DESPESAS PREVISTAS\n- {verde:ALTA LIQUIDEZ}\n- BAIXO RISCO\n- PREVISIBILIDADE"
+    },
+    {
+     "titulo": "MÉDIO",
+     "texto": "- {laranja:DE 2 A 5 ANOS}\n- IMÓVEL, EDUCAÇÃO, PROJETOS\n- ALGUMA VOLATILIDADE\n- MAIS RENTABILIDADE\n- LIQUIDEZ × RETORNO"
+    },
+    {
+     "titulo": "LONGO",
+     "texto": "- {laranja:ACIMA DE 5 ANOS} (OU 10)\n- APOSENTADORIA, SUCESSÃO\n- MAIS RISCO\n- {verde:JUROS COMPOSTOS}\n- DIVERSIFICAÇÃO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} OBJETIVO {vermelho:≠} PERFIL DE RISCO · ARROJADO COM META EM 8 MESES AINDA PRECISA DE {laranja:LIQUIDEZ E BAIXO RISCO} NESSA PARTE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r12a_4_prazo-do-objetivo.png",
+   "semente": 1204,
+   "molde": "exercicio",
+   "titulo": "R$ 60 MIL EM 2 OU EM 10 ANOS?",
+   "dados": "- OBJETIVO: JUNTAR {ciano:R$ 60.000} (HIPOTÉTICO)\n- MESMA TAXA: 0,8% AO MÊS, SÓ PARA ISOLAR O TEMPO\n- APORTES NO FIM DE CADA MÊS · SEM IMPOSTOS\n- NA PRÁTICA, PRAZO LONGO PERMITE ATIVOS DIFERENTES\n- A ÚNICA DIFERENÇA: O PRAZO",
+   "cenarios": [
+    {
+     "titulo": "EM 2 ANOS",
+     "passos": "24 APORTES\nSAI DO BOLSO: R$ 54.663\nJUROS: R$ 5.337",
+     "resultado": "R$ 2.277,63/MÊS"
+    },
+    {
+     "titulo": "EM 10 ANOS",
+     "passos": "120 APORTES\nSAI DO BOLSO: R$ 35.961\nJUROS: R$ 24.039",
+     "resultado": "R$ 299,67/MÊS"
+    }
+   ],
+   "conclusao": {
+    "texto": "NO PRAZO LONGO, OS JUROS PAGAM {verde:40%} DO OBJETIVO · NO CURTO, SÓ {laranja:9%}: QUASE TUDO É ESFORÇO DE POUPANÇA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r12b_1_patrimonio-alto.png",
+   "semente": 1205,
+   "molde": "mito_verdade",
+   "titulo": "PATRIMÔNIO ALTO DISPENSA DIAGNÓSTICO?",
+   "mitos": [
+    "QUEM TEM MUITO PODE ARRISCAR",
+    "PATRIMÔNIO É IGUAL A FOLGA"
+   ],
+   "verdade": "PRIMEIRO A {verde:RESERVA}, DEPOIS O RISCO",
+   "desenho": {
+    "nome": "monitor_sinais",
+    "largura": 190
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} R$ 2 MILHÕES, TUDO EM IMÓVEIS E FUNDO COM PRAZO DE RESGATE DE 90 DIAS\n- RESERVA DE EMERGÊNCIA: {vermelho:ZERO}\n- IMPREVISTO → RESGATE FORÇADO, COM PREJUÍZO\n- {ciano:RISCO DUPLO:} FINANCEIRO E {laranja:RELACIONAL} (INSEGURANÇA, ABANDONO, PERDA DE CONFIANÇA)\n- {ciano:VALE PARA:} QUALQUER TAMANHO DE PATRIMÔNIO"
+  },
+  {
+   "saida": "r12b_2_sinais-e-historico.png",
+   "semente": 1206,
+   "molde": "comparacao",
+   "titulo": "SINAIS VITAIS E HISTÓRICO",
+   "colunas": [
+    {
+     "titulo": "SINAIS VITAIS",
+     "desenho": "monitor_sinais",
+     "rotulos": [
+      "AGORA",
+      "ESTÁVEL?"
+     ],
+     "texto": "- PRESSÃO E BATIMENTOS → {laranja:LIQUIDEZ}\n- SINAIS RUINS → {vermelho:SEM RESERVA}\n- ESTABILIZAR PRIMEIRO → {verde:MONTAR A RESERVA}\n- CIRURGIA ELETIVA → {laranja:RISCO MAIOR}"
+    },
+    {
+     "titulo": "HISTÓRICO",
+     "desenho": "prancheta",
+     "rotulos": [
+      "PASSADO",
+      "REAÇÃO"
+     ],
+     "texto": "- REMÉDIOS JÁ USADOS → {laranja:PRODUTOS}\n- REAÇÃO A CADA UM → {laranja:PERDAS E GANHOS}\n- ALERGIAS → {vermelho:O QUE NÃO SUPORTA}\n- DOSE AJUSTADA → {verde:LINGUAGEM E COMPLEXIDADE}"
+    }
+   ],
+   "faixas": [
+    "{ciano:MESMO PESO, DOSES DIFERENTES:} MESMO PATRIMÔNIO, ABORDAGENS DIFERENTES",
+    "{ciano:PACIENTE INSTÁVEL NA MESA:} QUALQUER SUSTO VIRA EMERGÊNCIA → RESGATE NA HORA ERRADA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} EXAME É MEDIDO · CONHECIMENTO FINANCEIRO É {laranja:DECLARADO PELO CLIENTE}: CONFIRA COM PERGUNTAS E COM O HISTÓRICO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r12b_3_liquidez-conhecimento.png",
+   "semente": 1207,
+   "molde": "colunas",
+   "titulo": "LIQUIDEZ E CONHECIMENTO",
+   "topo": "{ciano:4 DIMENSÕES DA SITUAÇÃO FINANCEIRA:} {laranja:LIQUIDEZ} · {laranja:CONHECIMENTO} · ORIGEM DOS RECURSOS · COMPROMETIMENTO DA RENDA",
+   "colunas": [
+    {
+     "titulo": "LIQUIDEZ",
+     "texto": "- ACESSAR RÁPIDO, {verde:SEM PERDA RELEVANTE}\n- TEM RESERVA? QUANTO? É ADEQUADA?\n- COMPARA: RESERVA × CUSTO MENSAL × PREVISIBILIDADE DA RENDA\n- IDEAL VARIA: RENDA, FAMÍLIA, PROFISSÃO\n- SEM RESERVA → RISCO MAIOR É {vermelho:INADEQUADO}"
+    },
+    {
+     "titulo": "CONHECIMENTO",
+     "texto": "- QUE PRODUTOS JÁ USOU\n- DOMINA OS CONCEITOS BÁSICOS?\n- REAÇÃO A {laranja:PERDAS E GANHOS} PASSADOS\n- RV, FUNDOS, PREVIDÊNCIA, EXTERIOR?\n- {ciano:COMO} INVESTE E COMO SE {ciano:SENTE}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} PATRIMÔNIO {vermelho:≠} LIQUIDEZ · EXPERIENTE E INSTÁVEL {vermelho:≠} INICIANTE CONSERVADOR · LIQUIDEZ É {verde:SEGURANÇA EMOCIONAL}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r12b_4_reserva-atual-ideal.png",
+   "semente": 1208,
+   "molde": "exercicio",
+   "titulo": "RESERVA ATUAL × RESERVA IDEAL",
+   "dados": "- CUSTO DE VIDA: {ciano:R$ 5.000} POR MÊS (HIPOTÉTICO)\n- RESERVA ATUAL: {laranja:R$ 10.000} = 2 MESES\n- 3 E 6 MESES: REFERÊNCIAS DO EXEMPLO, NÃO REGRA FIXA\n- MESMA FAMÍLIA, MESMO CUSTO, MESMA RESERVA\n- A ÚNICA DIFERENÇA: A PREVISIBILIDADE DA RENDA",
+   "cenarios": [
+    {
+     "titulo": "RENDA PREVISÍVEL",
+     "passos": "SALÁRIO ESTÁVEL\nIDEAL: 3 × 5.000\n= R$ 15.000",
+     "resultado": "FALTAM R$ 5.000"
+    },
+    {
+     "titulo": "RENDA VARIÁVEL",
+     "passos": "COMISSÕES\nIDEAL: 6 × 5.000\n= R$ 30.000",
+     "resultado": "FALTAM R$ 20.000"
+    }
+   ],
+   "conclusao": {
+    "texto": "A MESMA RESERVA COBRE {verde:67%} DO IDEAL DE UM E {vermelho:33%} DO IDEAL DA OUTRA · ANTES DO RISCO, {laranja:COMPLETAR A RESERVA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r12c_1_ganha-bem.png",
+   "semente": 1209,
+   "molde": "mito_verdade",
+   "titulo": "QUEM GANHA BEM TEM COMO INVESTIR?",
+   "mitos": [
+    "RENDA ALTA, APORTE ALTO",
+    "É SÓ OLHAR O SALÁRIO"
+   ],
+   "verdade": "O QUE DEFINE O APORTE É A {verde:SOBRA}",
+   "desenho": {
+    "nome": "balanca_peso",
+    "largura": 140
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} RENDA DE R$ 20.000, COM 3 DEPENDENTES E DÍVIDAS\n- SOBRA MENSAL: {vermelho:R$ 800} (4% DA RENDA)\n- OUTRA CLIENTE: RENDA DE R$ 8.000, MORA SOZINHA → GUARDA {verde:R$ 2.000} (25%)\n- QUEM GANHA MENOS INVESTE {laranja:2,5 VEZES MAIS}\n- {ciano:REGRA:} RENDA ELEVADA NÃO SIGNIFICA CAPACIDADE DE INVESTIMENTO"
+  },
+  {
+   "saida": "r12c_2_energia-e-carga.png",
+   "semente": 1210,
+   "molde": "comparacao",
+   "titulo": "A ENERGIA E A CARGA",
+   "colunas": [
+    {
+     "titulo": "DE ONDE VEM A ENERGIA",
+     "desenho": "estetoscopio",
+     "rotulos": [
+      "FONTE",
+      "RITMO"
+     ],
+     "texto": "- REFEIÇÕES REGULARES → {verde:RENDA FIXA}\n- PULA REFEIÇÕES → {laranja:RENDA VARIÁVEL}\n- UMA SÓ FONTE → {vermelho:UM ÚNICO PAGADOR}\n- APETITE CAINDO → {vermelho:RENDA EM DECLÍNIO}\n- VÁRIAS REFEIÇÕES → {verde:VÁRIAS FONTES}"
+    },
+    {
+     "titulo": "A CARGA DO DIA A DIA",
+     "desenho": "balanca_peso",
+     "rotulos": [
+      "PESO",
+      "LIMITE"
+     ],
+     "texto": "- FILHOS PEQUENOS → {laranja:DEPENDENTES}\n- TRABALHO PESADO → {laranja:DESPESAS FIXAS}\n- POUCO SONO → {vermelho:DÍVIDAS}\n- TREINO NO LIMITE → {vermelho:APORTE IRREAL}\n- DESCANSO PROGRAMADO → {verde:PREVIDÊNCIA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ATLETA DESCANSADO × PACIENTE EXAUSTO:} O MESMO TREINO FORTALECE UM E DERRUBA O OUTRO",
+    "{ciano:TRATAR ANTES DE TREINAR:} DÍVIDA CARA SE RESOLVE ANTES DA ALOCAÇÃO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O CORPO NÃO GUARDA ENERGIA PARA A APOSENTADORIA · A RENDA {laranja:PODE SER POUPADA}: MEDIR A SOBRA É O PONTO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r12c_3_origem-comprometimento.png",
+   "semente": 1211,
+   "molde": "colunas",
+   "titulo": "ORIGEM E COMPROMETIMENTO",
+   "topo": "{ciano:RENDA ATIVA:} A QUE VEM DO TRABALHO · {ciano:PRÓ-LABORE:} REMUNERAÇÃO DO SÓCIO QUE TRABALHA NA EMPRESA · {ciano:HERANÇA:} CARGA EMOCIONAL DIFERENTE",
+   "colunas": [
+    {
+     "titulo": "ORIGEM (5 PERGUNTAS)",
+     "texto": "- FIXA OU {laranja:VARIÁVEL}?\n- SALÁRIO, PRÓ-LABORE, COMISSÃO, NEGÓCIO?\n- VÁRIAS FONTES?\n- {vermelho:UM ÚNICO PAGADOR}?\n- CRESCE, ESTÁVEL OU EM DECLÍNIO?"
+    },
+    {
+     "titulo": "COMPROMETIMENTO (5 ITENS)",
+     "texto": "- DEPENDENTES FINANCEIROS\n- DESPESAS {laranja:FIXAS} RECORRENTES\n- DESPESAS VARIÁVEIS RELEVANTES\n- {vermelho:DÍVIDAS} E SEUS CUSTOS\n- PREVIDÊNCIA: OBRIGATÓRIA OU VOLUNTÁRIA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} + COMPROMETIMENTO = {vermelho:− FLEXIBILIDADE} · DÍVIDA CARA → {laranja:REORGANIZAR ANTES DE ALOCAR} · LAVAGEM DE DINHEIRO É OUTRO ASSUNTO (R13)",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r12c_4_mesma-renda.png",
+   "semente": 1212,
+   "molde": "exercicio",
+   "titulo": "MESMA RENDA, MESMO APORTE?",
+   "dados": "- RENDA LÍQUIDA: {ciano:R$ 10.000} POR MÊS (HIPOTÉTICO)\n- CLIENTE 1: SEM DEPENDENTES, SEM DÍVIDAS\n- CLIENTE 2: 2 DEPENDENTES, FINANCIAMENTO, PARCELAS\n- APORTE PROPOSTO AOS DOIS: R$ 2.000 POR MÊS\n- A ÚNICA DIFERENÇA: O COMPROMETIMENTO DA RENDA",
+   "cenarios": [
+    {
+     "titulo": "GASTOS DE R$ 5.500",
+     "passos": "10.000 − 5.500\n55% COMPROMETIDOS\nAPORTE CABE",
+     "resultado": "SOBRAM 45%"
+    },
+    {
+     "titulo": "GASTOS DE R$ 9.200",
+     "passos": "10.000 − 9.200\n92% COMPROMETIDOS\nAPORTE NÃO CABE",
+     "resultado": "SOBRAM 8%"
+    }
+   ],
+   "conclusao": {
+    "texto": "R$ 4.500 × R$ 800 DE SOBRA · O APORTE DE R$ 2.000 SÓ É {verde:SUSTENTÁVEL} PARA A PRIMEIRA · APORTE REALISTA {laranja:EVITA FRUSTRAÇÃO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
