@@ -1,0 +1,148 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r50h_1_tanto-faz-o-caminho.png",
+   "semente": 5081,
+   "molde": "mito_verdade",
+   "titulo": "TANTO FAZ O CAMINHO?",
+   "mitos": [
+    "CRIPTO É CRIPTO",
+    "O RISCO É O MESMO"
+   ],
+   "verdade": "MUDAM {laranja:A GUARDA} E {laranja:O RISCO}",
+   "desenho": {
+    "nome": "bilheteria",
+    "largura": 170
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} A · COMPRA DIRETA, CHAVES NO CELULAR | B · COTAS DE ETF NA BOLSA\n- MESMO PREÇO DO BITCOIN NA TELA, {laranja:RISCOS DIFERENTES} NA PRÁTICA\n- O ACESSO MUDA: RISCO OPERACIONAL · CUSTÓDIA · TRIBUTAÇÃO · EXPERIÊNCIA DO INVESTIDOR\n- {ciano:4 CAMINHOS:} P2P · EXCHANGE · FUNDO, ETF E CARTEIRA ADMINISTRADA · DERIVATIVO\n- {ciano:PERGUNTAS-CHAVE:} QUEM GUARDA? QUEM RESPONDE? QUAL REGULADOR?"
+  },
+  {
+   "saida": "r50h_2_quatro-entradas.png",
+   "semente": 5082,
+   "molde": "comparacao",
+   "titulo": "QUATRO JEITOS DE ENTRAR NO PARQUE",
+   "colunas": [
+    {
+     "titulo": "POR CONTA PRÓPRIA",
+     "desenho": "bilheteria",
+     "rotulos": [
+      "PORTÃO",
+      "BALCÃO"
+     ],
+     "texto": "- FICHA DE OUTRO VISITANTE → {laranja:P2P}\n- SEM BALCÃO NEM RECIBO → SEM PROTEÇÃO FORMAL\n- BILHETERIA → {laranja:EXCHANGE}\n- GUARDA-VOLUMES → {laranja:CUSTÓDIA}"
+    },
+    {
+     "titulo": "COM PROFISSIONAL",
+     "desenho": "onibus_excursao",
+     "rotulos": [
+      "GUIA",
+      "SINAL"
+     ],
+     "texto": "- EXCURSÃO COM GUIA → {verde:FUNDO, ETF, CARTEIRA}\n- O GUIA COBRA → {verde:TAXAS}\n- PREÇO TRAVADO → {verde:DERIVATIVO}\n- SINAL → {verde:MARGEM DE GARANTIA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:PERTO DO PORTÃO:} MAIS CONTROLE E MAIS RESPONSABILIDADE DO PRÓPRIO INVESTIDOR",
+    "{ciano:PERTO DO GUIA:} MAIS REGRA E PROTEÇÃO, MAIS CUSTO E MENOS CONTROLE DIRETO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} FICHA DE PARQUE TEM PREÇO DE TABELA · CRIPTOATIVO {laranja:OSCILA SEM PARAR} E PODE CONSUMIR O SINAL EM UM DIA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50h_3_conteudo-1.png",
+   "semente": 5083,
+   "molde": "colunas",
+   "titulo": "P2P E EXCHANGES (1/3)",
+   "topo": "{ciano:P2P:} COMPRADOR E VENDEDOR {laranja:FRENTE A FRENTE}, SEM INSTITUIÇÃO CENTRAL · {ciano:EXCHANGE:} PLATAFORMA DE COMPRA, VENDA E CUSTÓDIA, COM {verde:LIQUIDEZ}",
+   "colunas": [
+    {
+     "titulo": "P2P",
+     "texto": "- {ciano:GUARDA:} O PRÓPRIO INVESTIDOR (AUTOCUSTÓDIA)\n- MENOS INTERMEDIÁRIOS; CONTROLE E RESPONSABILIDADE TOTAIS\n- {vermelho:RISCOS:} FALHA OPERACIONAL · CONTRAPARTE · SEM PROTEÇÃO FORMAL\n- LEI 14.478/2022 REGULA AS {laranja:PRESTADORAS}; AQUI NÃO HÁ PRESTADORA"
+    },
+    {
+     "titulo": "EXCHANGE",
+     "texto": "- {ciano:INTERMEDIÁRIA:} COMPRA, VENDA E TROCA; STAKING; CARTEIRAS\n- {ciano:CUSTODIANTE:} SÓ GUARDA\n- {ciano:CORRETORA DE ATIVOS VIRTUAIS:} {laranja:AS DUAS}\n- {verde:PROTEÇÕES:} DINHEIRO E ATIVOS SEGREGADOS · PROVA DE RESERVAS\n- {ciano:CARTEIRAS:} FRIA (OFFLINE) · QUENTE · MORNA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:PRODUTOS:} STAKING · EMPRÉSTIMOS · PRODUTOS DE RENDA · DERIVATIVOS · {vermelho:RISCOS:} CUSTÓDIA, GOVERNANÇA, FALHA OPERACIONAL · BCB 520 EM VIGOR DESDE {laranja:02/02/2026}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50h_3_conteudo-2.png",
+   "semente": 5084,
+   "molde": "colunas",
+   "titulo": "FUNDOS, ETFs E CARTEIRAS (2/3)",
+   "topo": "{ciano:O QUE DÃO:} EXPOSIÇÃO A CRIPTO EM {verde:ESTRUTURA REGULADA} PELA CVM, COM GESTÃO PROFISSIONAL E REGRAS DE GOVERNANÇA",
+   "colunas": [
+    {
+     "titulo": "PRÓS E CONTRAS",
+     "texto": "- {verde:VANTAGENS:} SIMPLICIDADE OPERACIONAL · ADEQUAÇÃO REGULATÓRIA · INTEGRAÇÃO À CARTEIRA\n- {vermelho:DESVANTAGENS:} CUSTOS · TRACKING ERROR · MENOS CONTROLE DIRETO\n- {ciano:TRACKING ERROR:} DISTÂNCIA ENTRE O FUNDO E O ÍNDICE\n- {ciano:CUSTÓDIA:} DO FUNDO, NÃO DO COTISTA"
+    },
+    {
+     "titulo": "LIMITES",
+     "texto": "- {ciano:PÚBLICO EM GERAL:} ATÉ {laranja:10%} DO PL (LIMITE CONJUNTO)\n- {ciano:QUALIFICADOS:} {laranja:20%} (CONTA EM DOBRO)\n- {ciano:PROFISSIONAIS:} SEM LIMITE, SE O REGULAMENTO PREVIR\n- {ciano:ETF:} FORA DESSE TETO\n- SÓ CRIPTO NEGOCIADA EM ENTIDADE AUTORIZADA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NORMA:} RESOLUÇÃO CVM 175 · {ciano:NA B3:} PRIMEIRO ETF DE CRIPTO, O HASH11, EM {laranja:ABRIL DE 2021} · {ciano:CARTEIRA ADMINISTRADA:} A INTERMEDIÁRIA PODE ADMINISTRAR, SEGUINDO TAMBÉM A CVM",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50h_3_conteudo-3.png",
+   "semente": 5085,
+   "molde": "colunas",
+   "titulo": "DERIVATIVOS DE CRIPTO (3/3)",
+   "topo": "{ciano:DERIVATIVO:} CONTRATO CUJO VALOR DERIVA DO PREÇO DO CRIPTOATIVO · {ciano:INSTRUMENTOS:} FUTUROS · OPÇÕES · SWAPS",
+   "colunas": [
+    {
+     "titulo": "USOS E RISCOS",
+     "texto": "- {verde:USOS:} ALAVANCAGEM · PROTEÇÃO (HEDGE) · ESTRATÉGIAS SOFISTICADAS\n- {vermelho:RISCOS:} VOLATILIDADE · CHAMADA DE MARGEM · LIQUIDAÇÃO FORÇADA · OPERACIONAL\n- {ciano:PARA QUEM:} INVESTIDOR EXPERIENTE\n- NÃO É PRECISO GUARDAR O ATIVO"
+    },
+    {
+     "titulo": "FUTURO NA B3",
+     "texto": "- {ciano:BITCOIN:} DESDE {laranja:17/04/2024}; HOJE 0,01 BTC POR CONTRATO\n- {ciano:TAMBÉM HÁ:} ETHER (0,25 ETH) E SOLANA (5 SOL)\n- LIQUIDAÇÃO {laranja:SÓ FINANCEIRA}, EM REAIS\n- {ciano:AJUSTE DIÁRIO:} QUEM GANHA RECEBE, QUEM PERDE PAGA\n- EXIGE {laranja:MARGEM}, NÃO O VALOR TOTAL"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} BITCOIN → ATIVO VIRTUAL (BANCO CENTRAL) · FUTURO DE BITCOIN → {laranja:VALOR MOBILIÁRIO} (CVM) · VALE PARA QUALQUER ATIVO DE REFERÊNCIA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50h_4_vista-ou-futuro.png",
+   "semente": 5086,
+   "molde": "exercicio",
+   "titulo": "À VISTA OU FUTURO?",
+   "dados": "- BITCOIN A {ciano:R$ 600.000} (HIPOTÉTICO) · EXPOSIÇÃO DE 60.000 REAIS\n- À VISTA: 0,1 BTC, DESEMBOLSO DE R$ 60.000\n- FUTURO: 10 CONTRATOS DE 0,01 BTC, MARGEM DE R$ 6.000\n- DIA 1: SOBE 3% (618.000) · DIA 2: CAI PARA 582.000\n- SEM CUSTOS; MARGEM CONSTANTE (SIMPLIFICAÇÃO)",
+   "cenarios": [
+    {
+     "titulo": "À VISTA",
+     "passos": "DIA 1: + 1.800\n1.800 ÷ 60.000 = 3%\nDIA 2: − 3.600 (6% DO CAPITAL)",
+     "resultado": "3% SOBRE O CAPITAL"
+    },
+    {
+     "titulo": "FUTURO",
+     "passos": "DIA 1: AJUSTE + 1.800\n1.800 ÷ 6.000 = 30%\nDIA 2: AJUSTE − 3.600",
+     "resultado": "60% DA MARGEM EM 1 DIA"
+    }
+   ],
+   "conclusao": {
+    "texto": "MESMO GANHO EM REAIS, {laranja:10 VEZES} MAIS SOBRE O VALOR DEPOSITADO · A ALAVANCAGEM VALE {vermelho:NAS DUAS DIREÇÕES} · MARGEM INSUFICIENTE → CHAMADA DE MARGEM",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
