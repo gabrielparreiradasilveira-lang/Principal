@@ -1,0 +1,148 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r50g_1_tudo-igual.png",
+   "semente": 5071,
+   "molde": "mito_verdade",
+   "titulo": "TODO CRIPTOATIVO É IGUAL?",
+   "mitos": [
+    "TUDO É CRIPTOMOEDA",
+    "MESMO RISCO DO BITCOIN"
+   ],
+   "verdade": "MUDAM A {laranja:FUNÇÃO} E OS {laranja:DIREITOS}",
+   "desenho": {
+    "nome": "fichas_parque",
+    "largura": 190
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} ATIVO ATRELADO AO DÓLAR + TOKEN DE JOGO + ARTE DIGITAL\n- SÃO, NA ORDEM: {laranja:STABLECOIN} · {laranja:UTILITY TOKEN} · {laranja:NFT}\n- TRÊS RISCOS DIFERENTES: FALHA DO LASTRO · FRACASSO DO PROJETO · FALTA DE COMPRADOR\n- {ciano:CRIPTOATIVO} É O GÊNERO · {ciano:CRIPTOMOEDA} É UMA DAS ESPÉCIES\n- {ciano:PERGUNTAS-CHAVE:} PARA QUE SERVE? QUE DIREITO DÁ? QUEM RESPONDE?"
+  },
+  {
+   "saida": "r50g_2_parque-e-fichas.png",
+   "semente": 5072,
+   "molde": "comparacao",
+   "titulo": "O PARQUE E AS FICHAS",
+   "colunas": [
+    {
+     "titulo": "O PARQUE",
+     "desenho": "roda_gigante",
+     "rotulos": [
+      "REDE",
+      "MOEDA"
+     ],
+     "texto": "- O PARQUE → {laranja:REDE BLOCKCHAIN}\n- MOEDA DO PARQUE → {laranja:MOEDA NATIVA}\n- BITCOIN E ETHER → NATIVAS\n- MÁQUINA DE FICHAS → {laranja:CONTRATO INTELIGENTE}"
+    },
+    {
+     "titulo": "AS FICHAS",
+     "desenho": "fichas_parque",
+     "rotulos": [
+      "USO",
+      "DIREITO"
+     ],
+     "texto": "- FICHA DE BRINQUEDO → {verde:UTILITY TOKEN}\n- COTA DE SÓCIO → {verde:SECURITY TOKEN}\n- VALE DE R$ 1 → {verde:STABLECOIN}\n- FOTO AUTOGRAFADA → {verde:NFT}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ÁREAS DO PARQUE:} BRINQUEDOS, JOGOS, BILHETERIA, PRAÇA DE PAGAMENTOS → {laranja:SUBSETORES}",
+    "{ciano:FICHA SÓ EXISTE DENTRO DO PARQUE:} O TOKEN DEPENDE DA REDE EM QUE FOI CRIADO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NO PARQUE, UM SÓ DONO RESPONDE POR TUDO · EM CRIPTO, {laranja:EMISSOR E REGRA MUDAM} DE TOKEN PARA TOKEN",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50g_3_conteudo-1.png",
+   "semente": 5073,
+   "molde": "colunas",
+   "titulo": "TOKEN, UTILITY E SECURITY (1/3)",
+   "topo": "{ciano:TOKEN:} UNIDADE DE VALOR {laranja:EMITIDA E REGISTRADA} EM BLOCKCHAIN · {ciano:PADRÃO ERC-20 (2015):} TOKENS IGUAIS ENTRE SI, ACEITOS POR QUALQUER CARTEIRA",
+   "colunas": [
+    {
+     "titulo": "O TOKEN",
+     "texto": "- {ciano:MOEDA NATIVA:} DA PRÓPRIA REDE (BITCOIN, ETHER)\n- {ciano:TOKEN:} CRIADO POR CONTRATO INTELIGENTE, SOBRE REDE EXISTENTE\n- REPRESENTA: ACESSO · PARTICIPAÇÃO ECONÔMICA · {laranja:GOVERNANÇA} · ATIVO REAL\n- \"EMBALAGEM DIGITAL\": DÁ VALOR, REGRAS E ESCASSEZ"
+    },
+    {
+     "titulo": "UTILITY × SECURITY",
+     "texto": "- {verde:UTILITY:} USAR SERVIÇO, PAGAR TAXA, ACESSAR FUNÇÃO\n- {vermelho:SECURITY:} LUCROS, RECEBÍVEIS, ATIVOS; MAIS REGULAÇÃO\n- {ciano:CVM, 3 CATEGORIAS:} PAGAMENTO · UTILIDADE · REFERENCIADO A ATIVO\n- CATEGORIAS {laranja:NÃO SÃO ESTANQUES}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:É VALOR MOBILIÁRIO SE:} REPRESENTA UM VALOR MOBILIÁRIO DA LEI 6.385 {laranja:OU} É CONTRATO DE INVESTIMENTO COLETIVO · VALE A SUBSTÂNCIA, {vermelho:NÃO O RÓTULO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50g_3_conteudo-2.png",
+   "semente": 5074,
+   "molde": "colunas",
+   "titulo": "STABLECOINS (2/3)",
+   "topo": "{ciano:STABLECOIN:} FEITA PARA {verde:REDUZIR A VOLATILIDADE}, ATRELADA A UM ATIVO DE REFERÊNCIA (EM GERAL, O DÓLAR) · {ciano:BANCO CENTRAL:} ATIVO VIRTUAL REFERENCIADO EM MOEDA FIDUCIÁRIA",
+   "colunas": [
+    {
+     "titulo": "AS 4 VARIAÇÕES",
+     "texto": "- {ciano:MOEDA FIDUCIÁRIA:} RESERVA 1:1; CENTRALIZADA; PEDE AUDITORIA\n- {ciano:CRIPTO:} GARANTIA DE AO MENOS {laranja:2 DÓLARES} POR DÓLAR EMITIDO\n- {ciano:METAIS PRECIOSOS:} OURO; DEPENDE DA GUARDA\n- {ciano:ALGORÍTMICA:} {vermelho:NENHUM ATIVO}; CONFIA-SE NO ALGORITMO"
+    },
+    {
+     "titulo": "PAPÉIS E RISCOS",
+     "texto": "- {verde:PAPÉIS:} MEIO DE TROCA · LIQUIDEZ · PONTE COM O SISTEMA TRADICIONAL\n- {vermelho:RISCOS:} CONTRAPARTE · REGULATÓRIO · FALHA DO LASTRO\n- {ciano:PARA LISTAR (BCB):} MECANISMO, RESERVAS, PROVAS DE LASTRO, AUDITORIA, RISCO DO EMISSOR"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} \"ESTÁVEL\" É O OBJETIVO, {vermelho:NÃO UMA GARANTIA} · RESERVA DA BCB 520: A MOEDA E TÍTULOS PÚBLICOS DO MESMO GOVERNO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50g_3_conteudo-3.png",
+   "semente": 5075,
+   "molde": "colunas",
+   "titulo": "NFTs E SUBSETORES (3/3)",
+   "topo": "{ciano:FUNGÍVEL:} TROCÁVEL POR OUTRO IGUAL (1 BITCOIN = 1 BITCOIN) · {ciano:NÃO FUNGÍVEL:} {laranja:ÚNICO E INDIVISÍVEL} · {ciano:PADRÃO ERC-721 (2018)}",
+   "colunas": [
+    {
+     "titulo": "NFT",
+     "texto": "- ARTE DIGITAL, COLECIONÁVEIS\n- PROPRIEDADE INTELECTUAL\n- ITENS DE JOGOS E AMBIENTES VIRTUAIS\n- PREÇO {vermelho:SUBJETIVO}: NÃO HÁ OUTRO IGUAL PARA COMPARAR\n- {vermelho:LIQUIDEZ REDUZIDA} → CAUTELA REDOBRADA\n- NA CVM: TOKEN REFERENCIADO A ATIVO"
+    },
+    {
+     "titulo": "6 SUBSETORES",
+     "texto": "- {laranja:DEFI:} CRÉDITO, LIQUIDEZ, DERIVATIVOS, SEGUROS\n- {laranja:INFRAESTRUTURA} E CAMADA BASE\n- {laranja:GAMING} E METAVERSO\n- {laranja:ORÁCULOS} E DADOS\n- {laranja:PAGAMENTOS} E STABLECOINS\n- {laranja:GOVERNANÇA} E DAOs"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:PARA QUE DIVIDIR:} ANÁLISE MAIS REFINADA · UM PROTOCOLO DE CRÉDITO E UM JOGO TÊM {laranja:RISCOS DIFERENTES} · VENDÁVEL {vermelho:≠} FUNGÍVEL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50g_4_lastro-stablecoin.png",
+   "semente": 5076,
+   "molde": "exercicio",
+   "titulo": "O LASTRO AGUENTA A QUEDA?",
+   "dados": "- 1.000 UNIDADES EMITIDAS, CADA UMA DEVE VALER {ciano:US$ 1} (HIPOTÉTICO)\n- LASTRO EM MOEDA: US$ 1.000 EM CAIXA E TÍTULOS PÚBLICOS\n- LASTRO EM CRIPTO: US$ 2.000 EM CRIPTOATIVOS (2 PARA 1)\n- SEM LIQUIDAÇÃO AUTOMÁTICA DA GARANTIA (SIMPLIFICAÇÃO)\n- A ÚNICA DIFERENÇA: O TIPO DE LASTRO",
+   "cenarios": [
+    {
+     "titulo": "LASTRO EM MOEDA",
+     "passos": "RESERVA: US$ 1.000\n1.000 ÷ 1.000 UNIDADES\nNÃO SEGUE O PREÇO DAS CRIPTO",
+     "resultado": "US$ 1,00/UNIDADE"
+    },
+    {
+     "titulo": "LASTRO EM CRIPTO",
+     "passos": "GARANTIA CAI 60%\n2.000 → 800\n800 ÷ 1.000 UNIDADES",
+     "resultado": "US$ 0,80/UNIDADE"
+    }
+   ],
+   "conclusao": {
+    "texto": "A SOBRA DE 2 PARA 1 AGUENTA QUEDA DE ATÉ {laranja:50%} · ACIMA DISSO, {vermelho:FALTA LASTRO} · NA DE MOEDA, O RISCO É O {laranja:EMISSOR} DA RESERVA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
