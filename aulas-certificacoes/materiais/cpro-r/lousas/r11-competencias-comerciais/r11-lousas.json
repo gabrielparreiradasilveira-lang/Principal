@@ -1,0 +1,209 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r11a_1_tecnica-basta.png",
+   "semente": 1101,
+   "molde": "mito_verdade",
+   "titulo": "A TÉCNICA BASTA?",
+   "mitos": [
+    "TERMO DIFÍCIL MOSTRA COMPETÊNCIA",
+    "O CLIENTE ASSINOU, ENTÃO ENTENDEU"
+   ],
+   "verdade": "COMUNICAR É SER {verde:COMPREENDIDO}",
+   "desenho": {
+    "nome": "megafone",
+    "largura": 170
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} PROPOSTA CHEIA DE JARGÃO → CLIENTE ASSINA SEM ENTENDER\n- 3 MESES DEPOIS: QUEDA DE {vermelho:10%} → RESGATE TOTAL NO PIOR MOMENTO\n- {ciano:TESTE SIMPLES:} PEÇA AO CLIENTE PARA EXPLICAR A ESTRATÉGIA COM AS PALAVRAS DELE\n- {ciano:7 COMPETÊNCIAS NO PROGRAMA:} 3 NESTE VÍDEO, 4 NO PRÓXIMO\n- {ciano:SUSTENTAM:} CONFIANÇA · CLAREZA · LONGEVIDADE DO RELACIONAMENTO"
+  },
+  {
+   "saida": "r11a_2_oficio-garimpeiro.png",
+   "semente": 1102,
+   "molde": "comparacao",
+   "titulo": "O OFÍCIO DO GARIMPEIRO",
+   "colunas": [
+    {
+     "titulo": "FALAR E SER CONHECIDO",
+     "desenho": "megafone",
+     "rotulos": [
+      "VOZ",
+      "NOME"
+     ],
+     "texto": "- EXPLICAR O MAPA AO SÓCIO → {laranja:COMUNICAÇÃO}\n- PALAVRAS SIMPLES → {verde:DIDÁTICA}\n- NOME LIMPO NA VILA → {laranja:MARKETING PESSOAL}\n- CUMPRIR O COMBINADO → {verde:CONSISTÊNCIA}"
+    },
+    {
+     "titulo": "AJUSTAR A PENEIRA",
+     "desenho": "funil_etapas",
+     "rotulos": [
+      "MALHA",
+      "RIO"
+     ],
+     "texto": "- TROCAR DE PENEIRA → {laranja:ADAPTABILIDADE}\n- CADA RIO, UMA MALHA → {laranja:CADA CLIENTE}\n- RIO MUDA COM A CHUVA → {laranja:FLEXIBILIDADE}\n- MESMA MALHA SEMPRE → {vermelho:ABORDAGEM PADRÃO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:SÓCIO QUE NÃO ENTENDE O MAPA:} NÃO ENTRA, OU SAI NA PRIMEIRA DIFICULDADE",
+    "{ciano:FAMA RUIM:} NINGUÉM ENTREGA O TERRENO · {ciano:FAMA BOA:} OS VIZINHOS INDICAM"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} FARO PARA O OURO PODE SER DOM · ESTAS COMPETÊNCIAS {laranja:SE DESENVOLVEM}: PRÁTICA, REFLEXÃO, APRIMORAMENTO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r11a_3_tres-competencias.png",
+   "semente": 1103,
+   "molde": "colunas",
+   "titulo": "3 COMPETÊNCIAS (1 A 3)",
+   "topo": "{ciano:POR QUE IMPORTAM:} O DOMÍNIO TÉCNICO SOZINHO NÃO SUSTENTA A RELAÇÃO · ELAS SE {verde:DESENVOLVEM} COM O TEMPO",
+   "colunas": [
+    {
+     "titulo": "COMUNICAÇÃO",
+     "texto": "- {ciano:ASSERTIVA:} CLAREZA, OBJETIVIDADE, EMPATIA\n- SEM CONDESCENDÊNCIA, SEM JARGÃO\n- {ciano:DIDÁTICA:} MENOS INSEGURANÇA E RUÍDO\n- CLIENTE {verde:MANTÉM} A ESTRATÉGIA"
+    },
+    {
+     "titulo": "MARKETING PESSOAL",
+     "texto": "- COMO O MERCADO PERCEBE VOCÊ\n- DISCURSO = POSTURA = ENTREGA\n- REPUTAÇÃO, CONSISTÊNCIA, CREDIBILIDADE\n- {verde:VALOR ANTES} DE VENDER"
+    },
+    {
+     "titulo": "ADAPTAR E FLEXIBILIZAR",
+     "texto": "- {ciano:ADAPTAR:} COMUNICAÇÃO, ESTRATÉGIA E RITMO → AO {laranja:CLIENTE}\n- {ciano:FLEXIBILIZAR:} REVISÕES → AO {laranja:TEMPO}\n- PADRÃO ÚNICO TENDE A {vermelho:FALHAR}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} + COMPLEXIDADE DO CLIENTE E DO PATRIMÔNIO = {laranja:+ EXIGÊNCIA} · {vermelho:SIMPLIFICAR ≠ OMITIR O RISCO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r11a_4_entendeu-ou-nao.png",
+   "semente": 1104,
+   "molde": "exercicio",
+   "titulo": "O CLIENTE ENTENDEU A ESTRATÉGIA?",
+   "dados": "- CARTEIRA DE {ciano:R$ 100.000} (HIPOTÉTICO) · SEM IMPOSTOS NEM CUSTOS\n- QUEDA DE {vermelho:10%} → R$ 90.000\n- NOS 6 MESES SEGUINTES, A CARTEIRA SOBE 20% (HIPÓTESE, NÃO GARANTIA)\n- ALTERNATIVA AO RESGATAR: 1% AO MÊS\n- A ÚNICA DIFERENÇA: O CLIENTE ENTENDEU OU NÃO",
+   "cenarios": [
+    {
+     "titulo": "NÃO ENTENDEU",
+     "passos": "RESGATA A R$ 90.000\n1% A.M. POR 6 MESES\nPERDA REALIZADA",
+     "resultado": "R$ 95.536,81"
+    },
+    {
+     "titulo": "ENTENDEU",
+     "passos": "MANTÉM A CARTEIRA\n90.000 + 20%\nPLANO SEGUIDO",
+     "resultado": "R$ 108.000,00"
+    }
+   ],
+   "conclusao": {
+    "texto": "DIFERENÇA DE {vermelho:R$ 12.463,19} · A EXPLICAÇÃO FEITA {laranja:ANTES} DA QUEDA VALE MAIS DO QUE A FEITA DEPOIS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r11b_1_responder-rapido.png",
+   "semente": 1105,
+   "molde": "mito_verdade",
+   "titulo": "RESPONDER RÁPIDO É O BASTANTE?",
+   "mitos": [
+    "BOM É QUEM ATENDE NA HORA",
+    "SEM RECLAMAÇÃO, ESTÁ TUDO BEM"
+   ],
+   "verdade": "AGIR {verde:ANTES} DO PROBLEMA",
+   "desenho": {
+    "nome": "alarme",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} MERCADO CAI {vermelho:8%} NUMA SEMANA\n- PROFISSIONAL A: LIGA NO MESMO DIA PARA TODA A CARTEIRA DE CLIENTES\n- PROFISSIONAL B: ESPERA O CONTATO · QUEM NÃO LIGOU {vermelho:RESGATOU SOZINHO}\n- {ciano:REATIVO:} RESOLVE O QUE CHEGA · {ciano:PROATIVO:} EVITA QUE CHEGUE\n- {ciano:4 COMPETÊNCIAS NESTE VÍDEO:} ANÁLISE, PROATIVIDADE, ORGANIZAÇÃO, ÉTICA"
+  },
+  {
+   "saida": "r11b_2_teste-e-balanca.png",
+   "semente": 1106,
+   "molde": "comparacao",
+   "titulo": "O TESTE E A BALANÇA",
+   "colunas": [
+    {
+     "titulo": "ANTES DE COMEMORAR",
+     "desenho": "bateia",
+     "rotulos": [
+      "BRILHO",
+      "TESTE"
+     ],
+     "texto": "- TESTAR O METAL → {laranja:ANÁLISE}\n- OURO DE TOLO → {vermelho:PROMESSA IRREAL}\n- BARRANCO REFORÇADO → {laranja:PROATIVIDADE}\n- CADERNO E MAPA → {laranja:ORGANIZAÇÃO}"
+    },
+    {
+     "titulo": "NA HORA DE DIVIDIR",
+     "desenho": "balanca",
+     "rotulos": [
+      "PESO",
+      "DONO"
+     ],
+     "texto": "- BALANÇA CONFERIDA → {verde:TRANSPARÊNCIA}\n- PESAR NA FRENTE DO DONO → {verde:HONESTIDADE}\n- AVISAR SUA PARTE → {laranja:CONFLITO DE INTERESSE}\n- NÃO ESGOTAR O VEIO → {verde:LONGO PRAZO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:DEPOIS DO DESMORONAMENTO:} REFORÇAR O BARRANCO JÁ NÃO ADIANTA",
+    "{ciano:SEM CADERNO:} O GARIMPEIRO CAVA DUAS VEZES NO MESMO LUGAR"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NO GARIMPO, HONESTIDADE É ACORDO ENTRE SÓCIOS · NO MERCADO, É {laranja:DEVER PROFISSIONAL COM REGRAS} (R13 A R15)",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r11b_3_quatro-competencias.png",
+   "semente": 1107,
+   "molde": "colunas",
+   "titulo": "4 COMPETÊNCIAS (4 A 7)",
+   "topo": "{ciano:PROATIVIDADE ≠ INSISTÊNCIA:} LIGAR PARA {verde:ORIENTAR} NA VOLATILIDADE × LIGAR PARA {vermelho:EMPURRAR PRODUTO}",
+   "colunas": [
+    {
+     "titulo": "ANALÍTICA",
+     "texto": "- ELO ENTRE {laranja:DADOS E DECISÃO}\n- CENÁRIOS, ALTERNATIVAS\n- RISCOS E OPORTUNIDADES\n- CURTO, MÉDIO E LONGO PRAZO"
+    },
+    {
+     "titulo": "PROATIVIDADE",
+     "texto": "- REVISÃO PERIÓDICA\n- CONTATO NA {laranja:VOLATILIDADE}\n- AVISO DE MUDANÇAS\n- ORIENTAR ANTES DA DECISÃO"
+    },
+    {
+     "titulo": "ORGANIZAÇÃO",
+     "texto": "- PRAZOS CUMPRIDOS\n- OBJETIVOS E DECISÕES {laranja:REGISTRADOS}\n- EVOLUÇÃO PATRIMONIAL\n- HISTÓRICO E CONTINUIDADE"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:ÉTICA, 5 CONDUTAS:} RISCOS CLAROS · {vermelho:SEM PROMESSA IRREAL} · RESPEITO AO PERFIL E AOS OBJETIVOS · {laranja:CONFLITO DE INTERESSE COMUNICADO} · ESTRATÉGIA SUSTENTÁVEL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r11b_4_custo-em-20-anos.png",
+   "semente": 1108,
+   "molde": "exercicio",
+   "titulo": "QUANTO PESA O CUSTO EM 20 ANOS?",
+   "dados": "- {ciano:R$ 100.000} POR 20 ANOS (HIPOTÉTICO)\n- RETORNO BRUTO IGUAL: 10% AO ANO\n- CUSTO SUBTRAÍDO DIRETO DA TAXA · SEM IMPOSTOS\n- A ALTERNATIVA MAIS CARA REMUNERA MAIS O PROFISSIONAL\n- A ÚNICA DIFERENÇA: O CUSTO ANUAL",
+   "cenarios": [
+    {
+     "titulo": "CUSTO DE 0,5% A.A.",
+     "passos": "LÍQUIDO: 9,5% A.A.\n100.000 A 9,5% A.A.\nPOR 20 ANOS",
+     "resultado": "R$ 614.161,21"
+    },
+    {
+     "titulo": "CUSTO DE 2% A.A.",
+     "passos": "LÍQUIDO: 8% A.A.\n100.000 A 8% A.A.\nPOR 20 ANOS",
+     "resultado": "R$ 466.095,71"
+    }
+   ],
+   "conclusao": {
+    "texto": "{vermelho:R$ 148.065,50} A MENOS (24,11%) · A {laranja:ANÁLISE} FAZ A CONTA · A {verde:ÉTICA} MANDA MOSTRÁ-LA AO CLIENTE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
