@@ -1,0 +1,306 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r10a_1_prospectar.png",
+   "semente": 1001,
+   "molde": "mito_verdade",
+   "titulo": "PROSPECTAR É VENDER PRODUTO?",
+   "mitos": [
+    "QUANTO MAIS GENTE, MELHOR",
+    "96 NÃOS = FRACASSO"
+   ],
+   "verdade": "É {verde:PROCESSO} EM ETAPAS, QUE SE {laranja:MEDE}",
+   "desenho": {
+    "nome": "funil_etapas",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} 100 CONTATOS → 20 REUNIÕES → 10 PROPOSTAS → {verde:4 CLIENTES}\n- 4% DE CONVERSÃO NO TOTAL NÃO É FRACASSO: É O {laranja:FORMATO NORMAL} DE UM FUNIL\n- {ciano:PROSPECT:} QUEM AINDA NÃO É CLIENTE · {ciano:ATIVAÇÃO:} QUANDO PASSA A SER\n- {ciano:BASE DA PROSPECÇÃO:} ÉTICA · TRANSPARÊNCIA · FOCO NO BENEFÍCIO DO CLIENTE\n- {ciano:VALE PARA:} QUEM COMEÇA A CARTEIRA E QUEM QUER FLUXO CONSTANTE"
+  },
+  {
+   "saida": "r10a_2_peneiras-bateia.png",
+   "semente": 1002,
+   "molde": "comparacao",
+   "titulo": "AS PENEIRAS E A BATEIA",
+   "colunas": [
+    {
+     "titulo": "AS PENEIRAS",
+     "desenho": "funil_etapas",
+     "rotulos": [
+      "VOLUME",
+      "ETAPAS"
+     ],
+     "texto": "- CASCALHO DO RIO → {laranja:PROSPECTS}\n- 1ª PENEIRA → {laranja:AGENDAMENTO}\n- 2ª PENEIRA → {laranja:REUNIÃO}\n- 3ª PENEIRA → {laranja:ESTRATÉGIA}\n- ÚLTIMA LAVAGEM → {laranja:ATIVAÇÃO}"
+    },
+    {
+     "titulo": "A BATEIA",
+     "desenho": "bateia",
+     "rotulos": [
+      "POUCO",
+      "VALIOSO"
+     ],
+     "texto": "- OURO NO PRATO → {verde:CLIENTE ATIVADO}\n- MENOS VOLUME → {verde:MAIS QUALIDADE}\n- PENEIRA ENTUPIDA → {vermelho:GARGALO}\n- GUARDAR O OURO → {verde:ACOMPANHAR}\n- VOLTAR AO RIO → {laranja:ROTINA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:POR QUE EM SEQUÊNCIA:} CADA PENEIRA PEDE UMA HABILIDADE DIFERENTE E MUDA A CONVERSÃO",
+    "{ciano:SEM PENEIRA:} O GARIMPEIRO CARREGA CASCALHO O DIA TODO E NÃO SABE ONDE PERDE O OURO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O OURO NÃO ESCOLHE O GARIMPEIRO; {laranja:O CLIENTE ESCOLHE} · ACHAR O OURO ENCERRA; ATIVAR O CLIENTE {laranja:INICIA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r10a_3_funil-quatro-etapas.png",
+   "semente": 1003,
+   "molde": "colunas",
+   "titulo": "O FUNIL E AS 4 ETAPAS",
+   "topo": "{ciano:O FUNIL SERVE PARA:} ESTRUTURAR A ROTINA · ACHAR {vermelho:GARGALOS} · MEDIR · VER AÇÕES DE ALTO IMPACTO · DAR {verde:PREVISIBILIDADE}",
+   "colunas": [
+    {
+     "titulo": "ANTES DA PROPOSTA",
+     "texto": "- {ciano:1. AGENDAMENTO:} GERAR O 1º ENCONTRO\n- MENSAGEM CLARA, PROPOSTA DE VALOR BREVE, RESPEITO À AGENDA\n- {ciano:2. REUNIÃO:} COMPREENDER NECESSIDADES\n- {laranja:OUVIR MAIS DO QUE FALAR}: OBJETIVOS, DORES, PERFIL DE RISCO, DÚVIDAS"
+    },
+    {
+     "titulo": "DA PROPOSTA EM DIANTE",
+     "texto": "- {ciano:3. ESTRATÉGIA:} MOSTRAR COMO AJUDA\n- DIAGNÓSTICO, PLANO INICIAL DE ALOCAÇÃO, RISCOS, DIFERENCIAIS\n- {ciano:4. ATIVAÇÃO:} INÍCIO OFICIAL\n- CONTA, DOCUMENTOS, ALOCAÇÃO, PRÓXIMOS PASSOS + {verde:ACOMPANHAMENTO}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} PLANO DE ALOCAÇÃO É DA {laranja:ETAPA 3}, NÃO DA REUNIÃO · ATIVAÇÃO {vermelho:INCLUI} O ACOMPANHAMENTO CONSTANTE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r10a_4_gargalo-agendamento.png",
+   "semente": 1004,
+   "molde": "exercicio",
+   "titulo": "ONDE ESTÁ O GARGALO?",
+   "dados": "- {ciano:100 CONTATOS} NO MÊS (HIPOTÉTICO)\n- 50% DAS REUNIÕES CHEGAM À APRESENTAÇÃO DA ESTRATÉGIA\n- 40% DAS APRESENTAÇÕES VIRAM CLIENTES\n- TAXAS IGUAIS NOS DOIS CENÁRIOS, MENOS A PRIMEIRA\n- A ÚNICA DIFERENÇA: A TAXA DE AGENDAMENTO",
+   "cenarios": [
+    {
+     "titulo": "20% AGENDAM",
+     "passos": "100 → 20 REUNIÕES\n→ 10 APRESENTAÇÕES\n4% DO TOPO",
+     "resultado": "4 CLIENTES"
+    },
+    {
+     "titulo": "30% AGENDAM",
+     "passos": "100 → 30 REUNIÕES\n→ 15 APRESENTAÇÕES\n6% DO TOPO",
+     "resultado": "6 CLIENTES"
+    }
+   ],
+   "conclusao": {
+    "texto": "{verde:+50% DE CLIENTES} COM OS MESMOS 100 CONTATOS · CORRIGIR O {laranja:GARGALO} RENDE MAIS DO QUE AUMENTAR O VOLUME",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r10b_1_melhor-canal.png",
+   "semente": 1005,
+   "molde": "mito_verdade",
+   "titulo": "O MELHOR CANAL É O MAIOR?",
+   "mitos": [
+    "MAIS CADASTROS, MAIS CLIENTES",
+    "UM CANAL SÓ BASTA"
+   ],
+   "verdade": "CADA CANAL ENTREGA ALGO {laranja:DIFERENTE}",
+   "desenho": {
+    "nome": "rio",
+    "largura": 200
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} LIVE COM 200 CADASTROS × PALESTRA PARA 20 PESSOAS\n- LIVE: 2% VIRAM CLIENTES · PALESTRA: 20% VIRAM CLIENTES\n- RESULTADO IGUAL: {verde:4 CLIENTES} EM CADA UMA\n- {ciano:O QUE MUDA:} ALCANCE, PROFUNDIDADE DA CONVERSA E ESFORÇO POR CLIENTE\n- {ciano:CRITÉRIO DE ESCOLHA:} O PERFIL DO PROFISSIONAL E O PÚBLICO-ALVO"
+  },
+  {
+   "saida": "r10b_2_onde-garimpar.png",
+   "semente": 1006,
+   "molde": "comparacao",
+   "titulo": "ONDE GARIMPAR?",
+   "colunas": [
+    {
+     "titulo": "RIO, VEIO E MAPA",
+     "desenho": "rio",
+     "rotulos": [
+      "LARGO",
+      "RASO"
+     ],
+     "texto": "- RIO LARGO → {laranja:ONLINE} (ESCALA)\n- VEIO NA ROCHA → {laranja:PRESENCIAL}\n- SÓCIO COM O MAPA → {laranja:PARCERIA}\n- VÁRIOS PONTOS → {verde:COMBINAR CANAIS}"
+    },
+    {
+     "titulo": "O QUINTAL DE CASA",
+     "desenho": "casa",
+     "rotulos": [
+      "FAMÍLIA",
+      "AMIGOS"
+     ],
+     "texto": "- OURO NO QUINTAL → {laranja:BASE PESSOAL}\n- CAVAR COM CUIDADO → {verde:NÃO PRESSIONAR}\n- JARDIM DESTRUÍDO → {vermelho:RELAÇÃO PERDIDA}\n- NEM TODO CANTEIRO → {laranja:NEM TODOS SERÃO CLIENTES}"
+    }
+   ],
+   "faixas": [
+    "{ciano:TEOR DO CASCALHO:} NO RIO, POUCO OURO POR BALDE · NO VEIO, MUITO · O MAPA EVITA CAVAR À TOA",
+    "{ciano:REPUTAÇÃO:} QUEM ESTRAGA O QUINTAL PERDE O OURO E A VIZINHANÇA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O RIO NÃO SE INCOMODA · {laranja:AS PESSOAS, SIM}: POR ISSO A ABORDAGEM É ÉTICA, RESPEITOSA E PROFISSIONAL",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r10b_3_canais-base.png",
+   "semente": 1007,
+   "molde": "colunas",
+   "titulo": "CANAIS E BASE PESSOAL",
+   "topo": "{ciano:CANAL:} O MEIO DE CHEGAR A NOVOS CLIENTES · {ciano:LEAD:} CONTATO INTERESSADO · {ciano:WEBINAR:} PALESTRA PELA INTERNET",
+   "colunas": [
+    {
+     "titulo": "ONLINE",
+     "texto": "- REDES, VÍDEOS, BLOGS, LIVES\n- {verde:ALTA ESCALA}, BAIXO CUSTO\n- MOSTRA AUTORIDADE\n- LEADS SEM INTERAÇÃO DIRETA"
+    },
+    {
+     "titulo": "PRESENCIAL",
+     "texto": "- EVENTOS, CURSOS, PALESTRAS, CAFÉS\n- {verde:PROFUNDIDADE}\n- CONFIANÇA MAIS RÁPIDA\n- GERA INDICAÇÕES"
+    },
+    {
+     "titulo": "PARCERIAS",
+     "texto": "- ADVOGADOS, CONTADORES, EMPRESAS, INFLUENCIADORES\n- CLIENTES {verde:QUALIFICADOS}\n- SERVIÇOS QUE SE COMPLETAM\n- AUTORIDADE CONJUNTA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:BASE PESSOAL, 7 PRÁTICAS:} NÃO PRESSIONAR · CLAREZA · {laranja:AJUDA ANTES DE PRODUTO} · POSTURA CONSULTIVA · PRIVACIDADE · LONGO PRAZO · NEM TODOS VIRAM CLIENTES",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r10b_4_live-ou-palestra.png",
+   "semente": 1008,
+   "molde": "exercicio",
+   "titulo": "LIVE OU PALESTRA?",
+   "dados": "- NÚMEROS HIPOTÉTICOS, MESMO MÊS, MESMA PROFISSIONAL\n- LIVE: {ciano:200 CADASTROS}, 2% DE CONVERSÃO\n- PALESTRA: {ciano:20 PESSOAS}, 20% DE CONVERSÃO\n- NÃO CONTA CUSTO NEM TEMPO DE PREPARO\n- A ÚNICA DIFERENÇA: O CANAL",
+   "cenarios": [
+    {
+     "titulo": "ONLINE (LIVE)",
+     "passos": "200 × 2% = 4\n200 ÷ 4 = 50\nALCANCE ALTO",
+     "resultado": "50 CONTATOS/CLIENTE"
+    },
+    {
+     "titulo": "PRESENCIAL (PALESTRA)",
+     "passos": "20 × 20% = 4\n20 ÷ 4 = 5\nCONVERSA PROFUNDA",
+     "resultado": "5 CONTATOS/CLIENTE"
+    }
+   ],
+   "conclusao": {
+    "texto": "{verde:4 CLIENTES} NOS DOIS · A LIVE PEDE {laranja:10 VEZES MAIS CONTATOS} POR CLIENTE, MAS ALCANÇA QUEM A PALESTRA NÃO ALCANÇA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r10c_1_trabalhar-sem-medir.png",
+   "semente": 1009,
+   "molde": "mito_verdade",
+   "titulo": "QUEM TRABALHA MUITO PRECISA MEDIR?",
+   "mitos": [
+    "ESFORÇO JÁ É RESULTADO",
+    "É SÓ DOBRAR OS CONTATOS"
+   ],
+   "verdade": "MEDIR MOSTRA O {vermelho:GARGALO} E O {verde:ATALHO}",
+   "desenho": {
+    "nome": "caderno_garimpo",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} 160 PESSOAS ABORDADAS NO MÊS → {laranja:4 CLIENTES} (2,5%)\n- PLANO SEM MEDIR: FALAR COM 320 PARA CHEGAR A 8 CLIENTES\n- O QUE O INDICADOR MOSTRARIA: ENTRE INDICADOS, {verde:4 EM CADA 10} FECHAM\n- 8 CLIENTES POR INDICAÇÃO = 20 INDICAÇÕES, E NÃO 320 ABORDAGENS\n- {ciano:VALE PARA:} QUALQUER CANAL E QUALQUER TAMANHO DE CARTEIRA"
+  },
+  {
+   "saida": "r10c_2_caderno-garimpeiro.png",
+   "semente": 1010,
+   "molde": "comparacao",
+   "titulo": "O CADERNO DO GARIMPEIRO",
+   "colunas": [
+    {
+     "titulo": "O QUE ELE ANOTA",
+     "desenho": "caderno_garimpo",
+     "rotulos": [
+      "TODO DIA",
+      "POR PONTO"
+     ],
+     "texto": "- BALDES LAVADOS → {laranja:ESFORÇO}\n- PEPITAS ACHADAS → {verde:CLIENTES ATIVADOS}\n- PONTO DO RIO → {laranja:ORIGEM DO CONTATO}\n- DATA → {laranja:PERÍODO} (SEMANA, MÊS)"
+    },
+    {
+     "titulo": "O QUE ELE DESCOBRE",
+     "desenho": "bateia",
+     "rotulos": [
+      "CONTA",
+      "DECISÃO"
+     ],
+     "texto": "- BALDES ÷ PEPITAS → {laranja:INDICADOR}\n- 40 BALDES POR PEPITA → {vermelho:PONTO FRACO}\n- 10 BALDES POR PEPITA → {verde:PONTO FORTE}\n- META ÷ CONVERSÃO → {verde:PLANO DO MÊS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:SEM CADERNO:} ELE SÓ SABE QUE ESTÁ CANSADO · {ciano:COM CADERNO:} SABE ONDE FICAR",
+    "{ciano:TRÊS COLUNAS NO CADERNO DO PROFISSIONAL:} PROSPECTS · REUNIÕES · INDICAÇÕES"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O RIO TEM TEOR FIXO · A TAXA DE CONVERSÃO {laranja:DEPENDE DO PROFISSIONAL}: MENSAGEM, ESCUTA E PROPOSTA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r10c_3_tres-indicadores.png",
+   "semente": 1011,
+   "molde": "colunas",
+   "titulo": "OS 3 INDICADORES DE ESFORÇO",
+   "topo": "{ciano:CONVERSÃO} = CLIENTES ATIVADOS ÷ CONTATOS DA ETAPA · {ciano:ESFORÇO POR CLIENTE} = CONTATOS ÷ CLIENTES · EX. HIPOTÉTICO: 160 → 40 → 4",
+   "colunas": [
+    {
+     "titulo": "PROSPECTS",
+     "texto": "- QUANTOS NO TOPO POR CLIENTE\n- AVALIA: {laranja:QUALIDADE DOS LEADS} E MARKETING\n- EX.: 4 ÷ 160 = {laranja:2,5%}"
+    },
+    {
+     "titulo": "REUNIÕES",
+     "texto": "- QUANTAS REUNIÕES POR CLIENTE\n- AVALIA: {laranja:DIAGNÓSTICO} E APRESENTAÇÃO DA ESTRATÉGIA\n- EX.: 4 ÷ 40 = {laranja:10%}"
+    },
+    {
+     "titulo": "INDICAÇÕES",
+     "texto": "- QUANTAS INDICAÇÕES POR CLIENTE\n- REFLETE: {verde:SATISFAÇÃO} DOS CLIENTES E FORÇA DA REDE\n- COSTUMA TER A {verde:MAIOR} CONVERSÃO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:6 USOS:} METAS REALISTAS · PRODUTIVIDADE · GARGALOS · DISCURSO COMERCIAL · ACOMPANHAMENTO · CRESCIMENTO · {vermelho:CUIDADO:} 1 DE 2 = 50%, MAS A AMOSTRA É PEQUENA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r10c_4_frios-ou-indicacoes.png",
+   "semente": 1012,
+   "molde": "exercicio",
+   "titulo": "CONTATOS FRIOS OU INDICAÇÕES?",
+   "dados": "- META: {ciano:4 CLIENTES} NO MÊS (HIPOTÉTICO)\n- FRIOS: 2,5% POR PROSPECT · 10% POR REUNIÃO\n- INDICAÇÕES DE CLIENTES: 40% DE CONVERSÃO\n- TAXAS CONSTANTES (NA PRÁTICA, VARIAM)\n- A ÚNICA DIFERENÇA: A ORIGEM DO CONTATO",
+   "cenarios": [
+    {
+     "titulo": "CONTATOS FRIOS",
+     "passos": "4 ÷ 0,025 = 160\n4 ÷ 0,10 = 40 REUNIÕES\n40 PROSPECTS/CLIENTE",
+     "resultado": "160 PROSPECTS"
+    },
+    {
+     "titulo": "INDICAÇÕES",
+     "passos": "4 ÷ 0,40 = 10\n2,5 INDICAÇÕES/CLIENTE\nCLIENTE SATISFEITO INDICA",
+     "resultado": "10 INDICAÇÕES"
+    }
+   ],
+   "conclusao": {
+    "texto": "META ÷ CONVERSÃO = ESFORÇO · O CAMINHO FRIO PEDE {vermelho:16 VEZES MAIS} CONTATOS · CUIDAR DO CLIENTE ATUAL TAMBÉM É PROSPECTAR",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
