@@ -1,0 +1,646 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r50f-1_1_dinheiro-sem-regra.png",
+   "semente": 5001,
+   "molde": "mito_verdade",
+   "titulo": "BITCOIN: DINHEIRO SEM REGRA?",
+   "mitos": [
+    "DINHEIRO SEM REGRA",
+    "QUALQUER UM CRIA MAIS"
+   ],
+   "verdade": "REGRAS NO {laranja:CÓDIGO}",
+   "desenho": {
+    "nome": "moeda",
+    "largura": 140
+   },
+   "apoio": "- {ciano:CASO REAL (10/01/2024):} A SEC APROVA PRODUTOS DE BOLSA COM BITCOIN À VISTA (ETPs)\n- ANTES: MAIS DE 20 PEDIDOS NEGADOS, DE 2018 A MARÇO DE 2023\n- A SEC APROVOU OS {laranja:PRODUTOS} · NÃO ENDOSSOU O BITCOIN\n- {ciano:TETO DE EMISSÃO:} 21 MILHÕES DE UNIDADES\n- {ciano:5 TEMAS:} ADOÇÃO · DESCENTRALIZAÇÃO · MINERAÇÃO · CONSENSO · INCENTIVOS"
+  },
+  {
+   "saida": "r50f-1_2_parque-sem-dono.png",
+   "semente": 5002,
+   "molde": "comparacao",
+   "titulo": "O PARQUE SEM DONO",
+   "colunas": [
+    {
+     "titulo": "AS REGRAS",
+     "desenho": "bilheteria",
+     "rotulos": [
+      "PORTÃO",
+      "LIVRO-CAIXA"
+     ],
+     "texto": "- PARQUE SEM DONO → {laranja:REDE DESCENTRALIZADA}\n- REGRAS NO PORTÃO → {laranja:CÓDIGO ABERTO}\n- CÓPIA DO LIVRO EM CADA BARRACA → {laranja:NÓS}\n- BARRACA RECUSA PÁGINA ERRADA → {laranja:CONSENSO}"
+    },
+    {
+     "titulo": "A DISPUTA",
+     "desenho": "roleta",
+     "rotulos": [
+      "ROLETA",
+      "ENERGIA"
+     ],
+     "texto": "- OPERADORES NA ROLETA → {verde:MINERADORES}\n- GIRAR CUSTA ENERGIA → {verde:PROVA DE TRABALHO}\n- FICHAS NOVAS → {verde:RECOMPENSA DE BLOCO}\n- GORJETAS → {verde:TAXAS DE TRANSAÇÃO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:PÁGINA FECHADA A CADA 10 MINUTOS, EM MÉDIA:} O RITMO DOS BLOCOS",
+    "{ciano:PRÊMIO QUE ENCOLHE:} 50 → 25 → 12,5 → 6,25 → 3,125 FICHAS POR PÁGINA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} ROLETA É SORTE PURA · NA REDE, MAIS PODER COMPUTACIONAL = MAIS CHANCE DE REGISTRAR O BLOCO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50f-1_3_conteudo-1.png",
+   "semente": 5003,
+   "molde": "colunas",
+   "titulo": "ORIGEM E ADOÇÃO (1/3)",
+   "topo": "{ciano:CRIPTOATIVOS:} NOVA CLASSE DE ATIVOS · NA CARTEIRA, {laranja:COMPLEMENTO}, NÃO SUBSTITUTO · OLHAR DIVERSIFICAÇÃO, RISCO, VOLATILIDADE, HORIZONTE E PERFIL",
+   "colunas": [
+    {
+     "titulo": "LINHA DO TEMPO",
+     "texto": "- {laranja:31/10/2008:} TEXTO DE SATOSHI NAKAMOTO\n- {laranja:03/01/2009:} BLOCO GÊNESE, A REDE COMEÇA\n- {laranja:10/01/2024:} PRODUTOS DE BOLSA À VISTA NOS EUA\n- {laranja:20/04/2024:} HALVING MAIS RECENTE\n- TEXTO DE 2008 {vermelho:≠} REDE DE 2009"
+    },
+    {
+     "titulo": "USOS, EM ORDEM",
+     "texto": "- {laranja:1.} CURIOSIDADE TECNOLÓGICA\n- {laranja:2.} TRANSFERÊNCIA DE VALOR\n- {laranja:3.} PROTEÇÃO CONTRA INFLAÇÃO\n- {laranja:4.} ATIVO ESPECULATIVO\n- {laranja:5.} RESERVA DIGITAL DE VALOR"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:QUEM ADOTOU:} COMUNIDADES DE TECNOLOGIA → ENTUSIASTAS → INSTITUCIONAIS · {ciano:INFRAESTRUTURA:} EXCHANGES · CARTEIRAS · CUSTÓDIA INSTITUCIONAL · ETFs · SOLUÇÕES REGULADAS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50f-1_3_conteudo-2.png",
+   "semente": 5004,
+   "molde": "colunas",
+   "titulo": "MINERAÇÃO E CONSENSO (2/3)",
+   "topo": "{ciano:DESCENTRALIZAÇÃO:} SEM BANCO CENTRAL, GOVERNO OU INSTITUIÇÃO FINANCEIRA NO COMANDO · REDE {laranja:PONTO A PONTO} (PEER-TO-PEER)",
+   "colunas": [
+    {
+     "titulo": "6 PASSOS DA REDE",
+     "texto": "- {laranja:1.} TRANSAÇÃO VAI A TODOS OS NÓS\n- {laranja:2.} CADA NÓ MONTA UM BLOCO\n- {laranja:3.} BUSCA DA PROVA DE TRABALHO\n- {laranja:4.} QUEM ACHA DIVULGA O BLOCO\n- {laranja:5.} NÓS CONFEREM E ACEITAM\n- {laranja:6.} PRÓXIMO BLOCO EM CIMA DELE"
+    },
+    {
+     "titulo": "PROVA DE TRABALHO",
+     "texto": "- TESTAR NÚMEROS ({laranja:NONCE}) ATÉ O HASH ATENDER AO ALVO\n- FUNÇÃO DE HASH: {laranja:SHA-256}\n- DIFÍCIL DE ACHAR, FÁCIL DE CONFERIR\n- ALVO: 1 BLOCO A CADA 10 MINUTOS\n- {vermelho:NÃO} É RESOLVER EQUAÇÃO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} MINERADOR {laranja:PROPÕE} · NÓ {laranja:CONFERE} · VALE A CADEIA COM MAIS TRABALHO ACUMULADO · BLOCO INVÁLIDO = ENERGIA PERDIDA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50f-1_3_conteudo-3.png",
+   "semente": 5005,
+   "molde": "colunas",
+   "titulo": "INCENTIVOS E HALVING (3/3)",
+   "topo": "{ciano:INCENTIVO DO MINERADOR:} {laranja:RECOMPENSA DE BLOCO} (BITCOINS NOVOS) + {laranja:TAXAS} (PAGAS POR QUEM TRANSACIONA)",
+   "colunas": [
+    {
+     "titulo": "RECOMPENSA",
+     "texto": "- INÍCIO (2009): {laranja:50} POR BLOCO\n- METADE A CADA 210 MIL BLOCOS\n- 50 → 25 → 12,5 → 6,25 → {laranja:3,125}\n- CERCA DE 4 ANOS POR ERA\n- É A ÚNICA FONTE DE BITCOINS NOVOS"
+    },
+    {
+     "titulo": "TAXAS",
+     "texto": "- O USUÁRIO PAGA PARA TER A TRANSAÇÃO INCLUÍDA NO BLOCO\n- FICAM COM QUEM REGISTRA O BLOCO\n- TAXA NÃO CRIA MOEDA: SÓ MUDA DE DONO\n- FIM DA EMISSÃO → INCENTIVO VEM {laranja:SÓ DAS TAXAS}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:POR QUE FUNCIONA:} TRAPACEAR CUSTA ENERGIA E NÃO RENDE · SEGUIR A REGRA RENDE · SEGURANÇA PELO {laranja:INTERESSE ECONÔMICO}, NÃO PELA CONFIANÇA NUMA AUTORIDADE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50f-1_4_antes-depois-halving.png",
+   "semente": 5006,
+   "molde": "exercicio",
+   "titulo": "A EMISSÃO ANTES E DEPOIS DO HALVING",
+   "dados": "- ALVO: 1 BLOCO A CADA 10 MINUTOS\n- 24 × 60 ÷ 10 = {ciano:144 BLOCOS POR DIA} (MÉDIA)\n- HALVING DE 20/04/2024 (BLOCO 840.000)\n- A ÚNICA DIFERENÇA: A RECOMPENSA POR BLOCO\n- TEMPO REAL DE CADA BLOCO VARIA (SIMPLIFICAÇÃO)",
+   "cenarios": [
+    {
+     "titulo": "ANTES",
+     "passos": "ERA 4: ATÉ O BLOCO 839.999\nRECOMPENSA: 6,25\n6,25 × 144",
+     "resultado": "900 BTC POR DIA"
+    },
+    {
+     "titulo": "DEPOIS",
+     "passos": "ERA 5: DO BLOCO 840.000 EM DIANTE\nRECOMPENSA: 3,125\n3,125 × 144",
+     "resultado": "450 BTC POR DIA"
+    }
+   ],
+   "conclusao": {
+    "texto": "DE 900 PARA 450 = {vermelho:QUEDA DE 50%} · A EMISSÃO CAI PELA METADE POR REGRA DO CÓDIGO · 450 × 365 = {laranja:164.250 BTC} NOVOS POR ANO NESTA ERA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50f-2_1_impossivel-alterar.png",
+   "semente": 5007,
+   "molde": "mito_verdade",
+   "titulo": "BLOCKCHAIN: IMPOSSÍVEL ALTERAR?",
+   "mitos": [
+    "IMPOSSÍVEL DE ALTERAR",
+    "REGISTRO INTOCÁVEL"
+   ],
+   "verdade": "{laranja:PRATICAMENTE} IMUTÁVEL",
+   "desenho": {
+    "nome": "corrente_blocos",
+    "largura": 200
+   },
+   "apoio": "- {ciano:CASO REAL:} BLOCO GÊNESE EM 03/01/2009 · BLOCO 840.000 EM 20/04/2024\n- O BLOCO GÊNESE TRAZ A MANCHETE DO JORNAL THE TIMES DAQUELE DIA\n- ALTERAR UM BLOCO = REFAZER O TRABALHO DELE E DE {laranja:TODOS OS SEGUINTES}\n- A CHANCE DE CONSEGUIR CAI A CADA BLOCO NOVO\n- {ciano:4 TEMAS:} BLOCKCHAIN · BLOCOS · TRANSAÇÕES · HASHES"
+  },
+  {
+   "saida": "r50f-2_2_livro-caixa.png",
+   "semente": 5008,
+   "molde": "comparacao",
+   "titulo": "O LIVRO-CAIXA DO PARQUE",
+   "colunas": [
+    {
+     "titulo": "A PÁGINA",
+     "desenho": "livro_caixa",
+     "rotulos": [
+      "PÁGINA",
+      "LANÇAMENTOS"
+     ],
+     "texto": "- LIVRO-CAIXA → {laranja:BLOCKCHAIN}\n- PÁGINA → {laranja:BLOCO}\n- LANÇAMENTO → {laranja:TRANSAÇÃO}\n- DATA E HORA NO ALTO → {laranja:CARIMBO DE TEMPO}"
+    },
+    {
+     "titulo": "O LACRE",
+     "desenho": "corrente_blocos",
+     "rotulos": [
+      "LACRE",
+      "PÁGINA ANTERIOR"
+     ],
+     "texto": "- LACRE DA PÁGINA → {verde:HASH DO BLOCO}\n- MARCA DO LACRE ANTERIOR → {verde:HASH DO BLOCO ANTERIOR}\n- RASURA QUEBRA OS LACRES → {verde:FRAUDE DETECTADA}\n- CÓPIAS NAS BARRACAS → {verde:LIVRO-RAZÃO DISTRIBUÍDO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ASSINATURA NO LANÇAMENTO:} SÓ O DONO DA FICHA AUTORIZA A SAÍDA → ASSINATURA DIGITAL",
+    "{ciano:PÁGINAS POR CIMA:} QUANTO MAIS PÁGINAS DEPOIS, MAIS DIFÍCIL REFAZER A ANTIGA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} LACRE DE PAPEL SE COPIA · O HASH SAI DE UMA CONTA SOBRE O CONTEÚDO: MUDOU UM DADO, MUDOU O HASH",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50f-2_3_conteudo-1.png",
+   "semente": 5009,
+   "molde": "colunas",
+   "titulo": "TRANSAÇÕES E BLOCOS (1/2)",
+   "topo": "{ciano:BLOCKCHAIN:} LIVRO-RAZÃO {laranja:DISTRIBUÍDO} · GUARDA O HISTÓRICO COMPLETO DAS TRANSAÇÕES · NÃO HÁ SERVIDOR CENTRAL",
+   "colunas": [
+    {
+     "titulo": "A TRANSAÇÃO",
+     "texto": "- TRANSFERE VALOR ENTRE ENDEREÇOS\n- AUTORIZADA POR {laranja:ASSINATURA DIGITAL}\n- CHAVE PRIVADA: ASSINA\n- CHAVE PÚBLICA: CONFERE A ASSINATURA\n- ANUNCIADA A TODA A REDE"
+    },
+    {
+     "titulo": "O BLOCO",
+     "texto": "- DADOS DAS TRANSAÇÕES\n- {laranja:CARIMBO DE TEMPO}\n- {laranja:HASH DO BLOCO ANTERIOR}\n- NONCE: O NÚMERO DA MINERAÇÃO\n- RAIZ DE MERKLE: RESUMO DAS TRANSAÇÕES"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} BLOCO = TRANSAÇÕES + CARIMBO DE TEMPO + HASH DO ANTERIOR · {ciano:PÚBLICO:} VALORES E ENDEREÇOS · {vermelho:NÃO APARECE:} O NOME DO DONO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50f-2_3_conteudo-2.png",
+   "semente": 5010,
+   "molde": "colunas",
+   "titulo": "HASH E IMUTABILIDADE (2/2)",
+   "topo": "{ciano:HASH:} A IMPRESSÃO DIGITAL DO BLOCO · NO BITCOIN, FUNÇÃO {laranja:SHA-256} · CONTEÚDO DE QUALQUER TAMANHO → CÓDIGO DE TAMANHO FIXO",
+   "colunas": [
+    {
+     "titulo": "SE ALGUÉM ALTERA",
+     "texto": "- {laranja:1.} MUDA O HASH DO BLOCO\n- {laranja:2.} QUEBRA O ELO COM O SEGUINTE\n- {laranja:3.} OS NÓS REJEITAM A CÓPIA\n- PARA INSISTIR: REFAZER A PROVA DE TRABALHO DE TODOS OS BLOCOS POSTERIORES"
+    },
+    {
+     "titulo": "4 CARACTERÍSTICAS",
+     "texto": "- {verde:TRANSPARENTE}\n- {verde:AUDITÁVEL}\n- {verde:RESISTENTE A FRAUDES}\n- {verde:PRATICAMENTE IMUTÁVEL}\n- SEGURA ENQUANTO OS HONESTOS TIVEREM A MAIORIA DO PODER"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:CUIDADO:} PRATICAMENTE {vermelho:≠} ABSOLUTAMENTE · NÓ COMPLETO GUARDA A CADEIA INTEIRA; USUÁRIO COMUM CONFERE SÓ COM OS CABEÇALHOS · TRANSAÇÃO REGISTRADA: EM REGRA, {laranja:SEM ESTORNO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50f-2_4_blocos-de-atraso.png",
+   "semente": 5011,
+   "molde": "exercicio",
+   "titulo": "A CHANCE DO ATACANTE",
+   "dados": "- HIPOTÉTICO: ATACANTE COM {ciano:10%} DO PODER DA REDE\n- HONESTOS COM {ciano:90%}\n- CHANCE = (ATACANTE ÷ HONESTOS) ELEVADO AOS BLOCOS DE ATRASO\n- A ÚNICA DIFERENÇA: A PROFUNDIDADE DO BLOCO\n- FÓRMULA BÁSICA, FATIAS CONSTANTES",
+   "cenarios": [
+    {
+     "titulo": "1 BLOCO",
+     "passos": "0,1 ÷ 0,9 = 0,1111\nELEVADO A 1\nOU 1 CHANCE EM 9",
+     "resultado": "11,11%"
+    },
+    {
+     "titulo": "6 BLOCOS",
+     "passos": "0,1 ÷ 0,9 = 0,1111\nELEVADO A 6\nOU 1 CHANCE EM 531.441",
+     "resultado": "0,000188%"
+    }
+   ],
+   "conclusao": {
+    "texto": "CADA BLOCO POR CIMA DIVIDE A CHANCE POR {laranja:9} · QUEDA {vermelho:EXPONENCIAL} · POR ISSO, PAGAMENTO ALTO ESPERA VÁRIOS BLOCOS DE CONFIRMAÇÃO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50f-3_1_so-pode-subir.png",
+   "semente": 5012,
+   "molde": "mito_verdade",
+   "titulo": "21 MILHÕES: SÓ PODE SUBIR?",
+   "mitos": [
+    "OFERTA LIMITADA",
+    "PREÇO SÓ SOBE"
+   ],
+   "verdade": "ESCASSEZ {laranja:≠} VALORIZAÇÃO",
+   "desenho": {
+    "nome": "grafico_alta",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} \"SÓ EXISTIRÃO 21 MILHÕES; NÃO TEM COMO CAIR\"\n- A REGRA DO CÓDIGO TRAVA A {laranja:OFERTA}\n- QUEM FAZ O PREÇO É A OFERTA E A {laranja:DEMANDA}\n- {ciano:TETO NO CÓDIGO:} A RECOMPENSA CAI PELA METADE, ERA APÓS ERA, ATÉ ZERAR\n- {vermelho:3 RISCOS:} VOLATILIDADE · REGULAÇÃO · ADOÇÃO FUTURA\n- {ciano:2 TEMAS:} TESES DE INVESTIMENTO · BITCOIN × DEMAIS CRIPTOMOEDAS"
+  },
+  {
+   "saida": "r50f-3_2_primeiro-parque.png",
+   "semente": 5013,
+   "molde": "comparacao",
+   "titulo": "O PRIMEIRO PARQUE E OS OUTROS",
+   "colunas": [
+    {
+     "titulo": "O PRIMEIRO",
+     "desenho": "fichas_parque",
+     "rotulos": [
+      "FICHA",
+      "TIRAGEM"
+     ],
+     "texto": "- PRIMEIRO PARQUE → {laranja:BITCOIN}\n- TIRAGEM LIMITADA → {laranja:TETO DE 21 MILHÕES}\n- GUARDAR A FICHA → {laranja:RESERVA DE VALOR}\n- PARQUE MAIS CHEIO → {laranja:EFEITO REDE}"
+    },
+    {
+     "titulo": "OS OUTROS",
+     "desenho": "montanha_russa",
+     "rotulos": [
+      "BRINQUEDO NOVO",
+      "MAIS RISCO"
+     ],
+     "texto": "- OUTROS PARQUES → {verde:ALTCOINS}\n- BRINQUEDOS NOVOS → {verde:PROPOSTAS DISTINTAS}\n- POUCO TESTADOS → {verde:RISCO TECNOLÓGICO}\n- EQUIPE MUDA A REGRA → {verde:RISCO DE GOVERNANÇA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:PESO NA CARTEIRA:} BITCOIN COMO ATIVO BASE · ALTCOINS COMO PARCELA ESPECULATIVA",
+    "{ciano:E O CONJUNTO:} CRIPTOATIVOS SÃO COMPLEMENTO DA CARTEIRA, NÃO SUBSTITUTOS DOS ATIVOS TRADICIONAIS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} FICHA DE PARQUE COMPRA UMA VOLTA NO BRINQUEDO · BITCOIN NÃO PAGA JURO NEM DIVIDENDO: SEM COMPRADOR, NÃO HÁ PREÇO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50f-3_3_conteudo-1.png",
+   "semente": 5014,
+   "molde": "colunas",
+   "titulo": "AS 4 TESES DO BITCOIN (1/2)",
+   "topo": "{ciano:TESE DE INVESTIMENTO:} O MOTIVO PARA TER O ATIVO · VARIA COM O {laranja:PERFIL} E O {laranja:HORIZONTE} DA PESSOA INVESTIDORA",
+   "colunas": [
+    {
+     "titulo": "VALOR",
+     "texto": "- {laranja:1. RESERVA DE VALOR DIGITAL}\n- ESCASSEZ PROGRAMADA, COMO O OURO\n- {vermelho:CUIDADO:} VOLATILIDADE ELEVADA\n- {laranja:2. PROTEÇÃO CONTRA INFLAÇÃO}\n- MOEDA PERDE PODER DE COMPRA\n- {vermelho:CUIDADO:} TESE, NÃO GARANTIA"
+    },
+    {
+     "titulo": "CARTEIRA E REDE",
+     "texto": "- {laranja:3. DIVERSIFICAÇÃO}\n- BAIXA CORRELAÇÃO EM DETERMINADOS PERÍODOS\n- {vermelho:CUIDADO:} A CORRELAÇÃO MUDA\n- {laranja:4. ADOÇÃO E EFEITO REDE}\n- MAIS USUÁRIOS E INSTITUIÇÕES\n- {vermelho:CUIDADO:} ADOÇÃO FUTURA INCERTA"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:3 RISCOS DE TODAS AS TESES:} VOLATILIDADE · REGULAÇÃO · ADOÇÃO FUTURA · {ciano:SEC, 10/01/2024:} BITCOIN É \"PRINCIPALMENTE UM ATIVO ESPECULATIVO E VOLÁTIL\"",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50f-3_3_conteudo-2.png",
+   "semente": 5015,
+   "molde": "colunas",
+   "titulo": "BITCOIN × DEMAIS CRIPTOMOEDAS (2/2)",
+   "topo": "{ciano:ALTCOINS:} AS CRIPTOMOEDAS QUE NÃO SÃO O BITCOIN · PROPOSTAS DISTINTAS: CONTRATOS INTELIGENTES, APLICAÇÕES DESCENTRALIZADAS, SOLUÇÕES ESPECÍFICAS",
+   "colunas": [
+    {
+     "titulo": "BITCOIN",
+     "texto": "- DESCENTRALIZAÇÃO: {verde:MAIOR}\n- SEGURANÇA DA REDE: {verde:MAIOR}\n- LIQUIDEZ: {verde:MAIOR}\n- DEPENDÊNCIA DE EQUIPE OU FUNDAÇÃO: {verde:MENOR}\n- NARRATIVA: RESERVA DE VALOR"
+    },
+    {
+     "titulo": "ALTCOINS",
+     "texto": "- VOLATILIDADE: {vermelho:MAIOR}\n- GOVERNANÇA: RISCO {vermelho:MAIOR}\n- TECNOLOGIA: RISCO {vermelho:MAIOR}\n- HISTÓRICO DE FUNCIONAMENTO: {vermelho:MENOR}\n- EM GERAL, NÃO EM TODOS OS CASOS"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA CARTEIRA:} BITCOIN = {laranja:ATIVO BASE} DO UNIVERSO CRIPTO · DEMAIS = CARÁTER {laranja:ESPECULATIVO E COMPLEMENTAR} · ESCASSEZ É REGRA DE OFERTA, NÃO PROMESSA DE PREÇO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50f-3_4_escassez-programada.png",
+   "semente": 5016,
+   "molde": "exercicio",
+   "titulo": "QUANTO DO TETO JÁ FOI EMITIDO?",
+   "dados": "- TETO: {ciano:21 MILHÕES} DE BITCOINS\n- CADA ERA: 210.000 BLOCOS\n- RECOMPENSA CAI PELA METADE A CADA ERA\n- A ÚNICA DIFERENÇA: A RECOMPENSA POR BLOCO\n- NÃO DESCONTA MOEDAS PERDIDAS (SIMPLIFICAÇÃO)",
+   "cenarios": [
+    {
+     "titulo": "ERAS 1 A 4",
+     "passos": "50 + 25 + 12,5 + 6,25 = 93,75\n93,75 × 210.000 = 19.687.500\n÷ 21.000.000",
+     "resultado": "93,75% DO TETO"
+    },
+    {
+     "titulo": "ERA ATUAL",
+     "passos": "3,125 × 210.000 = 656.250\n÷ 21.000.000",
+     "resultado": "3,125% DO TETO"
+    }
+   ],
+   "conclusao": {
+    "texto": "FALTAVAM, EM 2024: 21.000.000 − 19.687.500 = {laranja:1.312.500 BTC} · METADE DISSO SAI NA ERA ATUAL · OFERTA NOVA {vermelho:CADA VEZ MENOR}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50f-4_1_so-mais-uma-moeda.png",
+   "semente": 5017,
+   "molde": "mito_verdade",
+   "titulo": "ETHEREUM: SÓ MAIS UMA MOEDA?",
+   "mitos": [
+    "SÓ MAIS UMA MOEDA",
+    "CÓPIA DO BITCOIN"
+   ],
+   "verdade": "PLATAFORMA {laranja:PROGRAMÁVEL}",
+   "desenho": {
+    "nome": "roda_gigante",
+    "largura": 150
+   },
+   "apoio": "- {ciano:CASO REAL (05/08/2021):} ATUALIZAÇÃO LONDON · PARTE DA TAXA PASSA A SER {vermelho:QUEIMADA}\n- {ciano:LANÇAMENTO DA REDE:} 30/07/2015\n- {ciano:IDEIA CENTRAL:} RODAR CÓDIGOS E APLICAÇÕES SEM INTERMEDIÁRIOS\n- ETHEREUM = A REDE · ETHER (ETH) = O ATIVO NATIVO\n- BITCOIN: DINHEIRO DIGITAL · ETHEREUM: \"COMPUTADOR GLOBAL\"\n- {ciano:4 TEMAS:} ETHER · SMART CONTRACTS · DAPPS · ORÁCULOS"
+  },
+  {
+   "saida": "r50f-4_2_parque-automatico.png",
+   "semente": 5018,
+   "molde": "comparacao",
+   "titulo": "O PARQUE AUTOMÁTICO",
+   "colunas": [
+    {
+     "titulo": "A FICHA",
+     "desenho": "fichas_parque",
+     "rotulos": [
+      "FICHA ETH",
+      "CATRACA"
+     ],
+     "texto": "- FICHA DO PARQUE → {laranja:ETHER}\n- PREÇO DA VOLTA → {laranja:TAXA (GAS)}\n- FICHA PICOTADA → {laranja:TAXA-BASE QUEIMADA}\n- GORJETA DO OPERADOR → {laranja:GORJETA DO VALIDADOR}"
+    },
+    {
+     "titulo": "OS BRINQUEDOS",
+     "desenho": "placar",
+     "rotulos": [
+      "PLACAR",
+      "NOTÍCIA DE FORA"
+     ],
+     "texto": "- BRINQUEDO AUTOMÁTICO → {verde:SMART CONTRACT}\n- ATRAÇÃO COMPLETA → {verde:DAPP}\n- PLACAR DA ENTRADA → {verde:ORÁCULO}\n- PLACAR ERRADO → {verde:CONTRATO EXECUTA ERRADO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:FILA GRANDE, VOLTA MAIS CARA:} REDE DISPUTADA → TAXA-BASE MAIOR",
+    "{ciano:BRINQUEDO MAIS COMPLEXO GASTA MAIS FICHAS:} OPERAÇÃO MAIS PESADA → MAIS UNIDADES DE GAS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NO PARQUE, O TÉCNICO CONSERTA · NA REDE, O CÓDIGO PUBLICADO NÃO MUDA: FALHA NO CONTRATO PODE SER EXPLORADA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50f-4_3_conteudo-1.png",
+   "semente": 5019,
+   "molde": "colunas",
+   "titulo": "ETHER E GAS (1/3)",
+   "topo": "{ciano:ETHEREUM:} BLOCKCHAIN {laranja:PROGRAMÁVEL} · EXECUTA CÓDIGOS E APLICAÇÕES SEM INTERMEDIÁRIOS · {ciano:ETHER (ETH):} O CRIPTOATIVO NATIVO",
+   "colunas": [
+    {
+     "titulo": "FUNÇÕES DO ETHER",
+     "texto": "- {laranja:PRINCIPAL:} PAGAR AS GAS FEES\n- UNIDADE DE CONTA DO ECOSSISTEMA\n- RESERVA DE VALOR DOS PARTICIPANTES\n- INCENTIVO À SEGURANÇA DO PROTOCOLO\n- PAGA: TRANSFERÊNCIA, CONTRATO, DAPP"
+    },
+    {
+     "titulo": "A TAXA",
+     "texto": "- TAXA = GAS × (TAXA-BASE + GORJETA)\n- COTADA EM {laranja:GWEI}\n- 1 GWEI = 0,000000001 ETH\n- TAXA-BASE: PROTOCOLO DEFINE → {vermelho:QUEIMADA}\n- GORJETA: USUÁRIO DEFINE → {verde:VALIDADOR}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} ETHER = MEIO DE PAGAMENTO DAS TAXAS DA REDE · {vermelho:CUIDADO:} DESDE 05/08/2021 (LONDON), SÓ A GORJETA REMUNERA O VALIDADOR; A TAXA-BASE SAI DE CIRCULAÇÃO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50f-4_3_conteudo-2.png",
+   "semente": 5020,
+   "molde": "colunas",
+   "titulo": "SMART CONTRACTS E DAPPS (2/3)",
+   "topo": "{ciano:SMART CONTRACT:} PROGRAMA QUE SE EXECUTA SOZINHO QUANDO A CONDIÇÃO É CUMPRIDA · {ciano:BANCO CENTRAL (RES. 520/2025, ART. 2º, IX):} \"CONTRATO INTELIGENTE\"",
+   "colunas": [
+    {
+     "titulo": "SMART CONTRACT",
+     "texto": "- SEM INTERMEDIÁRIO\n- REGRA {laranja:DETERMINÍSTICA}: MESMA ENTRADA, MESMO RESULTADO\n- {laranja:TRANSPARENTE}: CÓDIGO VISÍVEL NA REDE\n- IMUTÁVEL {laranja:POR PADRÃO}\n- EXISTE CONTRATO ATUALIZÁVEL (PROXY)"
+    },
+    {
+     "titulo": "DAPPS",
+     "texto": "- RODAM SOBRE SMART CONTRACTS\n- SEGUROS · JOGOS\n- EMPRÉSTIMOS E FINANCIAMENTOS\n- CORRETORAS E EXCHANGES\n- MERCADOS DE ATIVOS DIGITAIS"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:CUIDADO:} \"NÃO PODE SER ALTERADO\" VALE PARA O CÓDIGO NAQUELE ENDEREÇO · COM MECANISMO DE ATUALIZAÇÃO, A LÓGICA MUDA → {laranja:QUEM TEM A CHAVE?} RISCO DE GOVERNANÇA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50f-4_3_conteudo-3.png",
+   "semente": 5021,
+   "molde": "colunas",
+   "titulo": "ORÁCULOS (3/3)",
+   "topo": "{ciano:O PROBLEMA:} A BLOCKCHAIN SÓ ENXERGA O QUE ESTÁ REGISTRADO NELA · {ciano:ORÁCULO:} A PONTE ENTRE O MUNDO FÍSICO E O VIRTUAL",
+   "colunas": [
+    {
+     "titulo": "O QUE ELE TRAZ",
+     "texto": "- INDICADORES ECONÔMICOS\n- JUROS E PREÇOS DE ATIVOS\n- CLIMA: CHUVA, TEMPERATURA\n- RESULTADO DE UM EVENTO\n- TAMBÉM LEVA DADO PARA FORA"
+    },
+    {
+     "titulo": "O RISCO DO DADO",
+     "texto": "- A FONTE É CONFIÁVEL?\n- FOI ADULTERADO?\n- ESTÁ ATUALIZADO?\n- DADO ERRADO → ERRO NA EXECUÇÃO\n- VOLTA A DEPENDER DE UM TERCEIRO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:EXEMPLO:} SEGURO AGRÍCOLA EM SMART CONTRACT PAGA QUANDO O ORÁCULO INFORMA O EVENTO CLIMÁTICO · {ciano:REGRA:} O CONTRATO É TÃO CONFIÁVEL QUANTO O DADO QUE RECEBE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50f-4_4_taxa-de-gas.png",
+   "semente": 5022,
+   "molde": "exercicio",
+   "titulo": "QUANTO CUSTA UMA TRANSFERÊNCIA?",
+   "dados": "- TRANSFERÊNCIA SIMPLES: {ciano:21.000} UNIDADES DE GAS\n- GORJETA: 2 GWEI NOS DOIS CENÁRIOS\n- TAXA = GAS × (TAXA-BASE + GORJETA)\n- A ÚNICA DIFERENÇA: A TAXA-BASE\n- CENÁRIO 2 É HIPOTÉTICO",
+   "cenarios": [
+    {
+     "titulo": "BASE 10 GWEI",
+     "passos": "21.000 × (10 + 2)\nQUEIMA: 210.000 GWEI\nGORJETA: 42.000 GWEI",
+     "resultado": "252.000 GWEI"
+    },
+    {
+     "titulo": "BASE 40 GWEI",
+     "passos": "21.000 × (40 + 2)\nQUEIMA: 840.000 GWEI\nGORJETA: 42.000 GWEI",
+     "resultado": "882.000 GWEI"
+    }
+   ],
+   "conclusao": {
+    "texto": "EM ETHER: {laranja:0,000252} E {laranja:0,000882} · 882.000 ÷ 252.000 = {vermelho:3,5 VEZES} · REDE DISPUTADA → TAXA MAIOR E MAIS ETHER QUEIMADO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50f-5_1_toda-blockchain-minera.png",
+   "semente": 5023,
+   "molde": "mito_verdade",
+   "titulo": "TODA BLOCKCHAIN MINERA?",
+   "mitos": [
+    "SEM MINERAÇÃO, SEM REDE",
+    "SEMPRE GASTA ENERGIA"
+   ],
+   "verdade": "PROVA DE {laranja:PARTICIPAÇÃO}",
+   "desenho": {
+    "nome": "lampada",
+    "largura": 120
+   },
+   "apoio": "- {ciano:CASO REAL (15/09/2022):} THE MERGE · O ETHEREUM TROCA O MECANISMO DE CONSENSO\n- CONSUMO DE ENERGIA DA REDE: CERCA DE {verde:99,95% MENOR}\n- ANTES: MINERADORES · DEPOIS: {laranja:VALIDADORES} COM ETHER EM GARANTIA\n- O BITCOIN CONTINUA NA PROVA DE TRABALHO\n- {ciano:2 TEMAS:} PROOF-OF-WORK × PROOF-OF-STAKE · TESES DE INVESTIMENTO"
+  },
+  {
+   "saida": "r50f-5_2_roleta-e-caucao.png",
+   "semente": 5024,
+   "molde": "comparacao",
+   "titulo": "A ROLETA E A CAUÇÃO",
+   "colunas": [
+    {
+     "titulo": "A ROLETA",
+     "desenho": "roleta",
+     "rotulos": [
+      "ENERGIA",
+      "DISPUTA"
+     ],
+     "texto": "- ROLETA QUE GASTA ENERGIA → {laranja:PROOF-OF-WORK}\n- OPERADOR → {laranja:MINERADOR}\n- CUSTO: ENERGIA E EQUIPAMENTO\n- É O PARQUE DO BITCOIN"
+    },
+    {
+     "titulo": "A CAUÇÃO",
+     "desenho": "cracha_fiscal",
+     "rotulos": [
+      "FISCAL",
+      "32 FICHAS"
+     ],
+     "texto": "- FISCAL COM CAUÇÃO → {verde:VALIDADOR}\n- CAUÇÃO DEPOSITADA → {verde:STAKING}\n- PERDE PARTE DA CAUÇÃO → {verde:SLASHING}\n- PRÊMIO DO FISCAL → {verde:RENDIMENTO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:SORTEIO A CADA 12 SEGUNDOS:} UM FISCAL PROPÕE A PÁGINA; UM COMITÊ CONFERE",
+    "{ciano:MENOS DE 32 FICHAS:} DÁ PARA PARTICIPAR EM GRUPO → POOLS DE STAKING"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} CAUÇÃO DE ALUGUEL VOLTA IGUAL · O ETHER TRAVADO SOBE E DESCE DE PREÇO, E O RENDIMENTO NÃO É FIXO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50f-5_3_conteudo-1.png",
+   "semente": 5025,
+   "molde": "colunas",
+   "titulo": "PROOF-OF-WORK × PROOF-OF-STAKE (1/2)",
+   "topo": "{ciano:MECANISMO DE CONSENSO:} A REGRA QUE DEFINE QUEM REGISTRA O PRÓXIMO BLOCO E COMO A REDE CONFERE · ETHEREUM: PoW ATÉ {laranja:15/09/2022}; DEPOIS, PoS",
+   "colunas": [
+    {
+     "titulo": "PROOF-OF-WORK",
+     "texto": "- QUEM: {laranja:MINERADORES}\n- COMO: DISPUTA COM ENERGIA\n- SEGURANÇA: CUSTO DA DISPUTA\n- CONSUMO: ALTO\n- EXEMPLO: BITCOIN"
+    },
+    {
+     "titulo": "PROOF-OF-STAKE",
+     "texto": "- QUEM: {laranja:VALIDADORES}\n- COMO: SORTEIO A CADA 12 SEGUNDOS\n- SEGURANÇA: CAPITAL EM {laranja:STAKING}\n- MÍNIMO: 32 ETH\n- PUNIÇÃO: {vermelho:SLASHING}"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:CUIDADO:} A TROCA NÃO BAIXOU AS TAXAS · NO PoS, UM COMITÊ ATESTA CADA BLOCO · {ciano:BANCO CENTRAL (RES. 520/2025, ART. 2º, XVI):} STAKING = BLOQUEIO DE ATIVOS PARA VALIDAR, COM POSSÍVEL RECOMPENSA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50f-5_3_conteudo-2.png",
+   "semente": 5026,
+   "molde": "colunas",
+   "titulo": "TESES E RISCOS DO ETHEREUM (2/2)",
+   "topo": "{ciano:DIFERENÇA DE FUNDO:} BITCOIN → TESES DE {laranja:ESCASSEZ MONETÁRIA} · ETHEREUM → TESES DE {laranja:UTILIDADE DA REDE}",
+   "colunas": [
+    {
+     "titulo": "4 TESES",
+     "texto": "- {laranja:1.} INFRAESTRUTURA DA WEB3\n- {laranja:2.} MAIS USO DE CONTRATOS E DAPPS → MAIS DEMANDA POR ETHER\n- {laranja:3.} ATIVO PRODUTIVO VIA STAKING\n- {laranja:4.} ESCASSEZ RELATIVA: QUEIMA DE TAXAS"
+    },
+    {
+     "titulo": "4 RISCOS",
+     "texto": "- {vermelho:1.} CONCORRÊNCIA DE OUTRAS BLOCKCHAINS\n- {vermelho:2.} ESCALABILIDADE\n- {vermelho:3.} REGULAÇÃO\n- {vermelho:4.} VOLATILIDADE ELEVADA\n- NO STAKING: PUNIÇÃO DO VALIDADOR"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:STAKING ≠ RENDA FIXA:} RENDIMENTO EM ETHER, VARIÁVEL E SEM GARANTIA · {ciano:QUEIMA:} SÓ REDUZ A OFERTA SE FOR MAIOR QUE A EMISSÃO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50f-5_4_staking-em-reais.png",
+   "semente": 5027,
+   "molde": "exercicio",
+   "titulo": "STAKING: RESULTADO EM REAIS",
+   "dados": "- HIPOTÉTICO: {ciano:32 ETH} EM STAKING\n- 3% AO ANO, EM ETHER, POR 5 ANOS\n- 32 × 1,03 ELEVADO A 5 = {ciano:37,10 ETH}\n- PREÇO INICIAL: 10.000 REAIS (POSIÇÃO DE 320.000)\n- A ÚNICA DIFERENÇA: O PREÇO FINAL DO ETHER",
+   "cenarios": [
+    {
+     "titulo": "PREÇO IGUAL",
+     "passos": "37,0968 × 10.000\n= 370.967,70\nSOBRE 320.000",
+     "resultado": "ALTA DE 15,93%"
+    },
+    {
+     "titulo": "PREÇO 30% MENOR",
+     "passos": "37,0968 × 7.000\n= 259.677,39\nSOBRE 320.000",
+     "resultado": "QUEDA DE 18,85%"
+    }
+   ],
+   "conclusao": {
+    "texto": "MAIS ETHERS NA CONTA, {vermelho:MENOS REAIS} · PONTO DE EQUILÍBRIO: QUEDA DE {laranja:13,74%} NO PREÇO ZERA O GANHO DOS 5 ANOS · SEM TAXAS, PUNIÇÕES E IMPOSTO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
