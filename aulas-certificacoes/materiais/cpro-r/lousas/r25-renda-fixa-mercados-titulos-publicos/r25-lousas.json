@@ -1,0 +1,575 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r25a_1_retorno-garantido.png",
+   "semente": 2501,
+   "molde": "mito_verdade",
+   "titulo": "RENDA FIXA: RETORNO GARANTIDO?",
+   "mitos": [
+    "RETORNO FIXO",
+    "GARANTIDO"
+   ],
+   "verdade": "FIXA É A {laranja:REGRA}",
+   "desenho": {
+    "nome": "contrato_aluguel",
+    "largura": 120
+   },
+   "apoio": "- {ciano:CASO REAL (18/11/2025):} LIQUIDAÇÃO EXTRAJUDICIAL DO BANCO MASTER PELO BANCO CENTRAL\n- GARANTIA DO FGC: PAGAMENTO A PARTIR DE {laranja:17/01/2026}\n- ENTRE A LIQUIDAÇÃO E O PAGAMENTO: {vermelho:2 MESES} SEM ACESSO AO DINHEIRO\n- TOTAL A PAGAR: 40,6 BILHÕES DE REAIS · CERCA DE 800 MIL CREDORES\n- LIMITE: {vermelho:250 MIL} POR CPF · O EXCEDENTE NÃO É COBERTO\n- {ciano:3 TEMAS:} DEFINIÇÃO · CRÉDITO E LIQUIDEZ · VANTAGENS POR PERFIL"
+  },
+  {
+   "saida": "r25a_2_aluguel-do-dinheiro.png",
+   "semente": 2502,
+   "molde": "comparacao",
+   "titulo": "O ALUGUEL DO DINHEIRO",
+   "colunas": [
+    {
+     "titulo": "O CONTRATO",
+     "desenho": "contrato_aluguel",
+     "rotulos": [
+      "CONTRATO",
+      "REAJUSTE"
+     ],
+     "texto": "- PROPRIETÁRIO → {laranja:INVESTIDOR}\n- INQUILINO → {laranja:EMISSOR}\n- ALUGUEL → {laranja:JUROS}\n- REGRA DO REAJUSTE → {laranja:REGRA DE REMUNERAÇÃO}"
+    },
+    {
+     "titulo": "OS RISCOS",
+     "desenho": "alarme",
+     "rotulos": [
+      "CALOTE",
+      "REPASSE"
+     ],
+     "texto": "- INQUILINO NÃO PAGA → {verde:RISCO DE CRÉDITO}\n- REPASSE SÓ COM DESCONTO → {verde:RISCO DE LIQUIDEZ}\n- INQUILINO DUVIDOSO PAGA MAIS → {verde:PRÊMIO DE RISCO}\n- FIADOR COM LIMITE → {verde:GARANTIA DO FGC}"
+    }
+   ],
+   "faixas": [
+    "{ciano:QUEM PODE SER O INQUILINO:} GOVERNO FEDERAL · BANCOS · EMPRESAS",
+    "{ciano:PRAZO DO CONTRATO:} O VENCIMENTO DO TÍTULO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NO ALUGUEL, O IMÓVEL VOLTA PARA O DONO · NA RENDA FIXA, O CALOTE LEVA JUNTO O VALOR EMPRESTADO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r25a_3_conteudo-1.png",
+   "semente": 2503,
+   "molde": "colunas",
+   "titulo": "O QUE É RENDA FIXA (1/3)",
+   "topo": "{ciano:RENDA FIXA:} REGRAS DE REMUNERAÇÃO DEFINIDAS {laranja:NA APLICAÇÃO} OU POR CRITÉRIOS JÁ ESTABELECIDOS · É UM EMPRÉSTIMO AO EMISSOR",
+   "colunas": [
+    {
+     "titulo": "CARACTERÍSTICAS",
+     "texto": "- MAIOR PREVISIBILIDADE\n- MENOR VOLATILIDADE QUE A RENDA VARIÁVEL\n- ESTABILIDADE DA CARTEIRA\n- LÓGICA CONHECIDA DESDE O INÍCIO"
+    },
+    {
+     "titulo": "O QUE NÃO É",
+     "texto": "- NÃO É RETORNO GARANTIDO\n- NÃO É VALOR FINAL CERTO\n- NÃO É AUSÊNCIA DE RISCO\n- O VALOR FINAL PODE VARIAR COM O MERCADO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} \"FIXA\" = A {laranja:REGRA} DE REMUNERAÇÃO · QUEM EMITE: TESOURO NACIONAL, BANCOS E EMPRESAS · QUEM COMPRA EMPRESTA DINHEIRO E RECEBE JUROS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r25a_3_conteudo-2.png",
+   "semente": 2504,
+   "molde": "colunas",
+   "titulo": "CRÉDITO E LIQUIDEZ (2/3)",
+   "topo": "{ciano:2 RISCOS CENTRAIS DA RENDA FIXA:} O EMISSOR {vermelho:NÃO PAGAR} · O INVESTIDOR {vermelho:NÃO CONSEGUIR SAIR}",
+   "colunas": [
+    {
+     "titulo": "CRÉDITO",
+     "texto": "- EMISSOR NÃO HONRA JUROS OU PRINCIPAL\n- MAIS RISCO → TAXA MAIOR\n- MENOR RISCO DOMÉSTICO: TÍTULO PÚBLICO FEDERAL\n- OLHAR: QUEM EMITE, RATING, GARANTIAS"
+    },
+    {
+     "titulo": "LIQUIDEZ",
+     "texto": "- VENDER ANTES DO VENCIMENTO COM PERDA\n- OU NÃO ACHAR COMPRADOR\n- O EMISSOR PODE ESTAR SAUDÁVEL\n- OLHAR: PRAZO, CARÊNCIA, MERCADO SECUNDÁRIO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:PARA QUE AVALIAR:} DEFINIR SE O ATIVO SERVE AO {laranja:PERFIL} E AOS {laranja:OBJETIVOS} · TAXA MUITO ACIMA DO MERCADO = SINAL DE ALERTA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r25a_3_conteudo-3.png",
+   "semente": 2505,
+   "molde": "colunas",
+   "titulo": "UM PAPEL PARA CADA PERFIL (3/3)",
+   "topo": "{ciano:A RENDA FIXA MUDA DE FUNÇÃO CONFORME O PERFIL:} DE BASE DA CARTEIRA A CONTRAPESO DO RISCO",
+   "colunas": [
+    {
+     "titulo": "POR PERFIL",
+     "texto": "- {laranja:CONSERVADOR:} BASE DA CARTEIRA\n- {laranja:MODERADO:} EQUILÍBRIO E PROTEÇÃO\n- {laranja:ARROJADO:} PREVISIBILIDADE AO LADO DA RENDA VARIÁVEL"
+    },
+    {
+     "titulo": "PARA TODOS",
+     "texto": "- {verde:1.} RESERVA DE EMERGÊNCIA\n- {verde:2.} OBJETIVOS DE CURTO E MÉDIO PRAZO\n- {verde:3.} MENOS VOLATILIDADE NO PORTFÓLIO"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:CUIDADO:} ARROJADO TAMBÉM TEM RENDA FIXA · {ciano:EXEMPLO:} A RESERVA DE EMERGÊNCIA PEDE BAIXO RISCO DE CRÉDITO E LIQUIDEZ DIÁRIA, EM QUALQUER PERFIL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r25a_4_premio-de-credito.png",
+   "semente": 2506,
+   "molde": "exercicio",
+   "titulo": "QUANTO VALE O RISCO DE CRÉDITO?",
+   "dados": "- HIPOTÉTICO: {ciano:10.000} REAIS POR 1 ANO\n- CDI DE 12% AO ANO, CONSTANTE\n- ANTES DO IMPOSTO\n- A ÚNICA DIFERENÇA: O EMISSOR\n- BANCO GRANDE × BANCO PEQUENO",
+   "cenarios": [
+    {
+     "titulo": "100% DO CDI",
+     "passos": "TAXA: 12% AO ANO\n10.000 × 1,12\nJUROS: 1.200",
+     "resultado": "11.200"
+    },
+    {
+     "titulo": "120% DO CDI",
+     "passos": "TAXA: 12 × 1,2 = 14,4%\n10.000 × 1,144\nJUROS: 1.440",
+     "resultado": "11.440"
+    }
+   ],
+   "conclusao": {
+    "texto": "PRÊMIO PELO RISCO: {laranja:240 REAIS} NO ANO, OU 2,4 PONTOS · EM TROCA: CHANCE DE ATRASO E, ACIMA DA GARANTIA, DE {vermelho:PERDA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r25b_1_nunca-negativo.png",
+   "semente": 2507,
+   "molde": "mito_verdade",
+   "titulo": "TESOURO: NUNCA NEGATIVO?",
+   "mitos": [
+    "SALDO NUNCA CAI",
+    "TESOURO NÃO OSCILA"
+   ],
+   "verdade": "TAXA SOBE, {laranja:PREÇO CAI}",
+   "desenho": {
+    "nome": "gangorra",
+    "largura": 300
+   },
+   "apoio": "- {ciano:CASO REAL: TESOURO PREFIXADO 2026}\n- 04/01/2021: TAXA DE 6,39% AO ANO · PREÇO DE VENDA 734,20\n- 03/01/2022: TAXA DE 10,75% AO ANO · PREÇO DE VENDA 664,96\n- VARIAÇÃO DO PREÇO EM UM ANO: {vermelho:−9,43%}\n- NO PERÍODO, A META DA SELIC FOI DE 2% PARA 9,25% AO ANO\n- TESOURO SELIC 2025, NAS MESMAS DATAS: {verde:+4,60%}\n- {ciano:2 TEMAS:} FORMAS DE REMUNERAÇÃO · MARCAÇÃO A MERCADO"
+  },
+  {
+   "saida": "r25b_2_fixo-e-reajustado.png",
+   "semente": 2508,
+   "molde": "comparacao",
+   "titulo": "ALUGUEL FIXO × REAJUSTADO",
+   "colunas": [
+    {
+     "titulo": "FIXO",
+     "desenho": "contrato_aluguel",
+     "rotulos": [
+      "TRAVADO",
+      "ATÉ O FIM"
+     ],
+     "texto": "- ALUGUEL TRAVADO → {laranja:PREFIXADO}\n- ALUGUÉIS DA REGIÃO SOBEM → {laranja:JUROS DE MERCADO SOBEM}\n- REPASSE COM DESCONTO → {laranja:PREÇO CAI}\n- FICAR ATÉ O FIM → RECEBE O COMBINADO"
+    },
+    {
+     "titulo": "REAJUSTADO",
+     "desenho": "gangorra",
+     "rotulos": [
+      "ÍNDICE",
+      "MERCADO"
+     ],
+     "texto": "- REAJUSTE PELO ÍNDICE → {verde:PÓS-FIXADO}\n- ACOMPANHA O MERCADO → {verde:POUCA OSCILAÇÃO}\n- FIXO + ÍNDICE DE PREÇOS → {verde:HÍBRIDO (IPCA+)}\n- VALOR DE REPASSE → {verde:MARCAÇÃO A MERCADO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ALUGUÉIS DA REGIÃO CAEM:} O CONTRATO FIXO ANTIGO PASSA A VALER MAIS → PREÇO SOBE",
+    "{ciano:CONTRATO MAIS LONGO:} DESCONTO MAIOR NO REPASSE → MAIS SENSÍVEL"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} ALUGUEL NÃO TEM COTAÇÃO DIÁRIA · TÍTULO TEM: O PREÇO MUDA A CADA DIA ÚTIL E APARECE NA POSIÇÃO DO CLIENTE",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r25b_3_conteudo-1.png",
+   "semente": 2509,
+   "molde": "colunas",
+   "titulo": "PREFIXADO, PÓS-FIXADO E HÍBRIDO (1/3)",
+   "topo": "{ciano:FORMA DE REMUNERAÇÃO:} A REGRA QUE DEFINE QUANTO O TÍTULO PAGA · ESCOLHA CONFORME {laranja:CENÁRIO}, {laranja:OBJETIVO} E {laranja:TOLERÂNCIA AO RISCO}",
+   "colunas": [
+    {
+     "titulo": "PREFIXADO",
+     "texto": "- TAXA CONHECIDA NA COMPRA\n- EXEMPLO: 12% AO ANO\n- GANHA SE OS JUROS CAEM"
+    },
+    {
+     "titulo": "PÓS-FIXADO",
+     "texto": "- SEGUE UM INDEXADOR\n- EXEMPLO: SELIC, CDI\n- ACOMPANHA A ALTA DOS JUROS"
+    },
+    {
+     "titulo": "HÍBRIDO",
+     "texto": "- TAXA REAL FIXA + INFLAÇÃO\n- EXEMPLO: IPCA + 6%\n- PROTEGE O PODER DE COMPRA"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:CUIDADO:} TÍTULO DE INFLAÇÃO APARECE COMO PÓS-FIXADO OU COMO HÍBRIDO · {ciano:REGRA PRÁTICA:} EXPECTATIVA DE QUEDA DE JUROS FAVORECE O PREFIXADO; DE ALTA, O PÓS-FIXADO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r25b_3_conteudo-2.png",
+   "semente": 2510,
+   "molde": "colunas",
+   "titulo": "MARCAÇÃO A MERCADO (2/3)",
+   "topo": "{ciano:MARCAÇÃO A MERCADO:} PREÇO DO TÍTULO ATUALIZADO {laranja:TODO DIA}, PELAS CONDIÇÕES DE MERCADO · PRINCIPAL FATOR: A TAXA DE JUROS",
+   "colunas": [
+    {
+     "titulo": "A GANGORRA",
+     "texto": "- TAXA EM ALTA → {vermelho:PREÇO EM QUEDA}\n- TAXA EM QUEDA → {verde:PREÇO EM ALTA}\n- VALOR FUTURO FIXO, DESCONTO MAIOR → VALOR HOJE MENOR\n- VALE PARA O PREFIXADO E PARA A PARTE FIXA DO IPCA+"
+    },
+    {
+     "titulo": "ATÉ O VENCIMENTO",
+     "texto": "- EMISSOR PAGA → TAXA CONTRATADA\n- A OSCILAÇÃO FICA NO CAMINHO\n- PERDA SÓ SE REALIZA NA VENDA\n- NA CURVA: ATUALIZA PELA TAXA DA COMPRA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:A CONTA:} PREÇO = VALOR FUTURO ÷ (1 + TAXA) ELEVADO AO PRAZO · TAXA MAIOR NO DIVISOR → PREÇO MENOR · {vermelho:MERCADO ≠ CURVA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r25b_3_conteudo-3.png",
+   "semente": 2511,
+   "molde": "colunas",
+   "titulo": "QUEM OSCILA MAIS (3/3)",
+   "topo": "{ciano:QUEM SOFRE:} TÍTULOS NEGOCIÁVEIS NO {laranja:MERCADO SECUNDÁRIO} · MAIS PRAZO E MAIS DURATION → MAIS SENSIBILIDADE",
+   "colunas": [
+    {
+     "titulo": "OSCILAM MAIS",
+     "texto": "- PREFIXADO LONGO\n- IPCA+ LONGO\n- DEBÊNTURES, CRI E CRA: JUROS E RISCO DO EMISSOR\n- CASO REAL: PREFIXADO 2026, {vermelho:−9,43%} EM 1 ANO"
+    },
+    {
+     "titulo": "OSCILAM MENOS",
+     "texto": "- TESOURO SELIC: DURATION MUITO BAIXA\n- TÍTULOS CURTOS\n- CASO REAL: TESOURO SELIC 2025, {verde:+4,60%} NO MESMO ANO\n- DE 10.692,56 PARA 11.183,97"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:ANBIMA (DISTRIBUIÇÃO, ARTS. 63 A 65):} VALOR DE REFERÊNCIA {laranja:A MERCADO}, NO MÍNIMO MENSAL, PARA TÍTULOS PÚBLICOS FEDERAIS FORA DO TESOURO DIRETO, DEBÊNTURES, CRI E CRA · NA CURVA, SÓ A PEDIDO DE INVESTIDOR QUALIFICADO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r25b_4_vender-ou-levar.png",
+   "semente": 2512,
+   "molde": "exercicio",
+   "titulo": "VENDER ANTES OU LEVAR ATÉ O FIM?",
+   "dados": "- HIPOTÉTICO: PREFIXADO SEM CUPOM, PAGA {ciano:1.000} EM 3 ANOS\n- COMPRA A 12% AO ANO: PREÇO DE {ciano:711,78}\n- 1 ANO DEPOIS: O MERCADO EXIGE 14% AO ANO\n- NOVO PREÇO, COM 2 ANOS RESTANTES: {ciano:769,47}\n- A ÚNICA DIFERENÇA: A DECISÃO DO INVESTIDOR",
+   "cenarios": [
+    {
+     "titulo": "VENDE NO ANO 1",
+     "passos": "COMPROU A 711,78\nVENDEU A 769,47\nGANHO: 57,69 REAIS",
+     "resultado": "8,10% NO ANO"
+    },
+    {
+     "titulo": "LEVA ATÉ O FIM",
+     "passos": "COMPROU A 711,78\nRECEBE 1.000 NO ANO 3\nGANHO: 288,22 REAIS",
+     "resultado": "12% AO ANO"
+    }
+   ],
+   "conclusao": {
+    "texto": "QUEM COMPRA A 769,47 LEVA {laranja:14% AO ANO} · QUEM VENDEU DEIXOU 3,90 PONTOS NO PRIMEIRO ANO · SEM CUSTOS E ANTES DO IMPOSTO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r25c_1_mesmo-indexador.png",
+   "semente": 2513,
+   "molde": "mito_verdade",
+   "titulo": "MESMO INDEXADOR, MESMA OSCILAÇÃO?",
+   "mitos": [
+    "MESMO INDEXADOR",
+    "MESMA OSCILAÇÃO"
+   ],
+   "verdade": "MANDA A {laranja:DURATION}",
+   "desenho": {
+    "nome": "ampulheta",
+    "largura": 140
+   },
+   "apoio": "- {ciano:CASO REAL: DE 04/01/2021 A 03/01/2022}\n- TESOURO IPCA+ 2026: DE 2.994,60 PARA 2.999,06 → {verde:+0,15%}\n- TESOURO IPCA+ 2045: DE 1.485,88 PARA 1.119,58 → {vermelho:−24,65%}\n- EM 03/01/2022, FALTAVAM 4,6 ANOS PARA UM E 23,4 ANOS PARA O OUTRO\n- TAXA DO IPCA+ 2045 NO PERÍODO: DE 3,50% PARA 5,36% AO ANO\n- MESMO EMISSOR · MESMO INDEXADOR · PRAZOS DIFERENTES\n- {ciano:5 TEMAS:} PRIMÁRIO · SECUNDÁRIO · DURATION · CUSTÓDIA · BENEFÍCIOS"
+  },
+  {
+   "saida": "r25c_2_novo-e-repassado.png",
+   "semente": 2514,
+   "molde": "comparacao",
+   "titulo": "CONTRATO NOVO × REPASSADO",
+   "colunas": [
+    {
+     "titulo": "A ORIGEM",
+     "desenho": "contrato_aluguel",
+     "rotulos": [
+      "NOVO",
+      "REPASSE"
+     ],
+     "texto": "- ASSINADO COM O INQUILINO → {laranja:MERCADO PRIMÁRIO}\n- COMPRADO DE OUTRO DONO → {laranja:MERCADO SECUNDÁRIO}\n- POSSIBILIDADE DE REPASSE → {laranja:LIQUIDEZ}\n- PREÇO DO REPASSE → {laranja:MARCAÇÃO A MERCADO}"
+    },
+    {
+     "titulo": "O TEMPO",
+     "desenho": "ampulheta",
+     "rotulos": [
+      "PRAZO MÉDIO",
+      "GUARDA"
+     ],
+     "texto": "- ALUGUEL MENSAL → {verde:TÍTULO COM CUPOM}\n- TUDO NO ÚLTIMO DIA → {verde:TÍTULO SEM CUPOM}\n- TEMPO MÉDIO DE RETORNO → {verde:DURATION}\n- ADMINISTRADORA → {verde:CUSTÓDIA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:PAGA TODO MÊS:} O DINHEIRO VOLTA ANTES → DURATION MENOR QUE O PRAZO",
+    "{ciano:PAGA SÓ NO FIM:} DURATION IGUAL AO PRAZO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} REPASSE DE ALUGUEL DEMORA · TÍTULO LÍQUIDO SAI NO DIA, MAS AO PREÇO QUE O MERCADO PAGAR",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r25c_3_conteudo-1.png",
+   "semente": 2515,
+   "molde": "colunas",
+   "titulo": "PRIMÁRIO × SECUNDÁRIO (1/3)",
+   "topo": "{ciano:DOIS MERCADOS:} NO PRIMÁRIO O TÍTULO {laranja:NASCE}; NO SECUNDÁRIO ELE {laranja:TROCA DE DONO}",
+   "colunas": [
+    {
+     "titulo": "PRIMÁRIO",
+     "texto": "- EMISSÃO DO TÍTULO\n- COMPRA DIRETA DO EMISSOR\n- O DINHEIRO FINANCIA O EMISSOR\n- EXEMPLO: LEILÃO DO TESOURO, OFERTA DE DEBÊNTURES"
+    },
+    {
+     "titulo": "SECUNDÁRIO",
+     "texto": "- TÍTULO JÁ EMITIDO\n- NEGÓCIO ENTRE INVESTIDORES\n- O EMISSOR NÃO RECEBE\n- DÁ LIQUIDEZ E FORMA O PREÇO DO DIA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:O EFEITO DA MARCAÇÃO A MERCADO DEPENDE DE:} {laranja:PRAZO} · {laranja:DURATION} · {laranja:TAXA DE JUROS} · {laranja:CONDIÇÕES DE CUSTÓDIA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r25c_3_conteudo-2.png",
+   "semente": 2516,
+   "molde": "colunas",
+   "titulo": "DURATION E CUSTÓDIA (2/3)",
+   "topo": "{ciano:DURATION:} PRAZO MÉDIO DOS RECEBIMENTOS, COM PESO PELO VALOR PRESENTE DE CADA UM · MEDE A SENSIBILIDADE AOS JUROS",
+   "colunas": [
+    {
+     "titulo": "DURATION",
+     "texto": "- SEM CUPOM: DURATION {laranja:IGUAL} AO PRAZO\n- COM CUPOM: DURATION {laranja:MENOR} QUE O PRAZO\n- SEM CUPOM: LTN E NTN-B PRINCIPAL\n- COM CUPOM: NTN-F E NTN-B"
+    },
+    {
+     "titulo": "CUSTÓDIA",
+     "texto": "- GUARDA E REGISTRO EM NOME DO INVESTIDOR\n- TESOURO DIRETO: NA {laranja:B3}\n- TAXA: 0,20% AO ANO SOBRE O VALOR\n- TESOURO SELIC: ISENTO ATÉ 10 MIL REAIS"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:REGRA:} DURATION MAIOR = QUEDA DE PREÇO MAIOR QUANDO OS JUROS SOBEM · {ciano:CASO REAL:} IPCA+ 2045 CAIU 24,65%; IPCA+ 2026 FICOU PARADO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r25c_3_conteudo-3.png",
+   "semente": 2517,
+   "molde": "colunas",
+   "titulo": "O QUE A RENDA FIXA ENTREGA (3/3)",
+   "topo": "{ciano:BENEFÍCIOS, RISCO E LIQUIDEZ:} O ATIVO SÓ CUMPRE A FUNÇÃO SE O RISCO E A LIQUIDEZ FOREM AVALIADOS ANTES",
+   "colunas": [
+    {
+     "titulo": "4 BENEFÍCIOS",
+     "texto": "- {verde:1.} PREVISIBILIDADE\n- {verde:2.} DIVERSIFICAÇÃO\n- {verde:3.} PROTEÇÃO PATRIMONIAL\n- {verde:4.} GERAÇÃO DE RENDA"
+    },
+    {
+     "titulo": "A AVALIAÇÃO",
+     "texto": "- {ciano:RISCO:} QUEM É O EMISSOR?\n- {ciano:LIQUIDEZ:} DÁ PARA SAIR ANTES?\n- {ciano:PRAZO:} CASA COM O OBJETIVO?\n- {ciano:CUSTO:} TAXAS E IMPOSTO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:VANTAGEM NA LIQUIDEZ:} PARTE DO PATRIMÔNIO EM ATIVOS QUE VIRAM DINHEIRO RÁPIDO · {vermelho:CUIDADO:} LIQUIDEZ NÃO É GARANTIA DE PREÇO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r25c_4_prazo-e-queda.png",
+   "semente": 2518,
+   "molde": "exercicio",
+   "titulo": "MESMA ALTA DE JUROS, QUEDAS DIFERENTES",
+   "dados": "- HIPOTÉTICO: PREFIXADOS SEM CUPOM, PAGAM {ciano:1.000} NO VENCIMENTO\n- JUROS DE MERCADO: DE 12% PARA 13% AO ANO\n- SEM CUPOM: DURATION = PRAZO\n- A ÚNICA DIFERENÇA: O PRAZO\n- ALTA INSTANTÂNEA (SIMPLIFICAÇÃO)",
+   "cenarios": [
+    {
+     "titulo": "2 ANOS",
+     "passos": "A 12%: 797,19\nA 13%: 783,15\nPERDE 14,04 REAIS",
+     "resultado": "QUEDA DE 1,76%"
+    },
+    {
+     "titulo": "10 ANOS",
+     "passos": "A 12%: 321,97\nA 13%: 294,59\nPERDE 27,38 REAIS",
+     "resultado": "QUEDA DE 8,51%"
+    }
+   ],
+   "conclusao": {
+    "texto": "8,51 ÷ 1,76 = {laranja:4,8 VEZES} · DURATION 5 VEZES MAIOR, QUEDA QUASE 5 VEZES MAIOR · PRAZO LONGO PEDE {vermelho:TOLERÂNCIA} À OSCILAÇÃO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r25d_1_sem-risco.png",
+   "semente": 2519,
+   "molde": "mito_verdade",
+   "titulo": "TÍTULO PÚBLICO: SEM RISCO?",
+   "mitos": [
+    "NÃO TEM RISCO",
+    "PREÇO NÃO CAI"
+   ],
+   "verdade": "CRÉDITO BAIXO {laranja:≠} PREÇO FIRME",
+   "desenho": {
+    "nome": "grafico_baixa",
+    "largura": 150
+   },
+   "apoio": "- {ciano:CASO REAL: TESOURO IPCA+ 2045}\n- 04/01/2021: IPCA + 3,50% AO ANO · PREÇO DE VENDA 1.485,88\n- 02/01/2023: IPCA + 6,40% AO ANO · PREÇO DE VENDA 1.002,02\n- QUEDA DE {vermelho:32,56%} · SEM CALOTE: QUEM MUDOU FOI A TAXA\n- TÍTULO SEM CUPOM, COM MAIS DE 20 ANOS DE PRAZO: DURATION ALTA\n- QUEM LEVAR ATÉ 2045 RECEBE A TAXA CONTRATADA NA COMPRA\n- {ciano:2 TEMAS:} TÍTULOS E INDEXADORES · DÍVIDA PÚBLICA E RISCOS"
+  },
+  {
+   "saida": "r25d_2_inquilino-governo.png",
+   "semente": 2520,
+   "molde": "comparacao",
+   "titulo": "O INQUILINO GOVERNO",
+   "colunas": [
+    {
+     "titulo": "3 CONTRATOS",
+     "desenho": "contrato_aluguel",
+     "rotulos": [
+      "SELIC",
+      "IPCA"
+     ],
+     "texto": "- ALUGUEL PELA TAXA BÁSICA → {laranja:TESOURO SELIC}\n- ALUGUEL FIXO → {laranja:TESOURO PREFIXADO}\n- FIXO + INFLAÇÃO → {laranja:TESOURO IPCA+}\n- ALUGUEL A CADA 6 MESES → {laranja:JUROS SEMESTRAIS}"
+    },
+    {
+     "titulo": "A DÍVIDA",
+     "desenho": "grafico_alta",
+     "rotulos": [
+      "DÍVIDA",
+      "PRÊMIO"
+     ],
+     "texto": "- GASTA MAIS DO QUE ARRECADA → {verde:DÉFICIT FISCAL}\n- ASSINA MAIS CONTRATOS → {verde:MAIS EMISSÃO}\n- DONOS PEDEM ALUGUEL MAIOR → {verde:PRÊMIO DE RISCO}\n- CONTRATO ANTIGO VALE MENOS → {verde:PREÇO CAI}"
+    }
+   ],
+   "faixas": [
+    "{ciano:INQUILINO MAIS SÓLIDO:} MENOR RISCO DE CRÉDITO DO MERCADO DOMÉSTICO",
+    "{ciano:PAGA TUDO NO FINAL:} LTN E NTN-B PRINCIPAL"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} INQUILINO COMUM NÃO É REFERÊNCIA · A TAXA DO TESOURO É A RÉGUA: OS DEMAIS EMISSORES SÃO COMPARADOS COM ELA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r25d_3_conteudo-1.png",
+   "semente": 2521,
+   "molde": "colunas",
+   "titulo": "SELIC E PREFIXADO (1/3)",
+   "topo": "{ciano:TÍTULOS PÚBLICOS FEDERAIS:} DÍVIDA EMITIDA PELO {laranja:TESOURO NACIONAL} · FINANCIAM O GOVERNO · REFERÊNCIA DE PREÇO DA RENDA FIXA",
+   "colunas": [
+    {
+     "titulo": "TESOURO SELIC",
+     "texto": "- NOME TÉCNICO: {laranja:LFT}\n- PÓS-FIXADO: SELIC DIÁRIA\n- DURATION MUITO BAIXA\n- USO: LIQUIDEZ E RESERVA DE EMERGÊNCIA"
+    },
+    {
+     "titulo": "PREFIXADO",
+     "texto": "- {laranja:LTN:} SEM JUROS SEMESTRAIS\n- {laranja:NTN-F:} JUROS SEMESTRAIS, CUPOM DE 10% AO ANO\n- MAIS SENSÍVEL AOS JUROS\n- USO: CONVICÇÃO DE JUROS OU CARREGAR ATÉ O FIM"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} LFT = SELIC · LTN E NTN-F = PREFIXADO · \"SABE EXATAMENTE QUANTO RECEBE\" SÓ VALE PARA QUEM FICA {laranja:ATÉ O VENCIMENTO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r25d_3_conteudo-2.png",
+   "semente": 2522,
+   "molde": "colunas",
+   "titulo": "IPCA+ E A ESCOLHA (2/3)",
+   "topo": "{ciano:TESOURO IPCA+:} HÍBRIDO = {laranja:TAXA REAL PREFIXADA + VARIAÇÃO DO IPCA} · PROTEGE O PODER DE COMPRA",
+   "colunas": [
+    {
+     "titulo": "SEM CUPOM",
+     "texto": "- {laranja:NTN-B PRINCIPAL}\n- PAGA TUDO NO VENCIMENTO\n- USO: LONGO PRAZO, APOSENTADORIA\n- DURATION ALTA: OSCILA MUITO NO CURTO PRAZO"
+    },
+    {
+     "titulo": "COM CUPOM",
+     "texto": "- {laranja:NTN-B}\n- JUROS SEMESTRAIS, CUPOM DE 6% AO ANO\n- RENDA A CADA 6 MESES\n- DURATION MENOR QUE A DA PRINCIPAL DE MESMO PRAZO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:3 CRITÉRIOS DE ESCOLHA:} INDEXADOR · HORIZONTE · PAPEL NA CARTEIRA · {ciano:NOTA DE ATUALIZAÇÃO:} O TESOURO DIRETO TAMBÉM OFERECE EDUCA+, RENDA+ E TESOURO RESERVA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r25d_3_conteudo-3.png",
+   "semente": 2523,
+   "molde": "colunas",
+   "titulo": "DÍVIDA PÚBLICA E PREÇO (3/3)",
+   "topo": "{ciano:DÍVIDA BRUTA DO GOVERNO GERAL (% DO PIB):} 51,54 (DEZ/2013) · 86,94 (DEZ/2020) · 71,68 (DEZ/2022) · {laranja:82,93} (SET/2026)",
+   "colunas": [
+    {
+     "titulo": "A EMISSÃO",
+     "texto": "- DÉFICIT FISCAL MAIOR\n- MAIS NECESSIDADE DE FINANCIAMENTO\n- MAIS EMISSÃO DE TÍTULOS\n- VENDA EM LEILÕES DO TESOURO"
+    },
+    {
+     "titulo": "OS RISCOS",
+     "texto": "- {vermelho:1.} RISCO FISCAL ELEVADO\n- {vermelho:2.} DÍVIDA/PIB EM ALTA\n- {vermelho:3.} PERDA DE CREDIBILIDADE FISCAL\n- EFEITO: PRÊMIO MAIOR"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:A CADEIA:} PRÊMIO EXIGIDO SOBE → TAXA SOBE → {vermelho:PREÇO CAI} NO SECUNDÁRIO · RISCO DE CRÉDITO BAIXO NÃO IMPEDE A QUEDA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r25d_4_risco-da-inflacao.png",
+   "semente": 2524,
+   "molde": "exercicio",
+   "titulo": "QUEM FICA COM O RISCO DA INFLAÇÃO?",
+   "dados": "- HIPOTÉTICO: TÍTULOS LEVADOS ATÉ O VENCIMENTO\n- PREFIXADO: {ciano:11%} AO ANO\n- IPCA+: INFLAÇÃO + {ciano:6%} AO ANO\n- GANHO REAL = (1 + TAXA) ÷ (1 + INFLAÇÃO) − 1\n- A ÚNICA DIFERENÇA: A INFLAÇÃO",
+   "cenarios": [
+    {
+     "titulo": "INFLAÇÃO DE 4,5%",
+     "passos": "PRÉ: 1,11 ÷ 1,045 → 6,22% REAL\nIPCA+: 1,06 × 1,045 → 10,77%\nIPCA+ REAL: 6%",
+     "resultado": "PRÉ REAL: 6,22%"
+    },
+    {
+     "titulo": "INFLAÇÃO DE 8%",
+     "passos": "PRÉ: 1,11 ÷ 1,08 → 2,78% REAL\nIPCA+: 1,06 × 1,08 → 14,48%\nIPCA+ REAL: 6%",
+     "resultado": "PRÉ REAL: 2,78%"
+    }
+   ],
+   "conclusao": {
+    "texto": "PREFIXADO: O INVESTIDOR ASSUME A INFLAÇÃO · IPCA+: GANHO REAL {laranja:TRAVADO EM 6%} · INFLAÇÃO DE EQUILÍBRIO: 1,11 ÷ 1,06 − 1 = {laranja:4,72%}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
