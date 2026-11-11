@@ -1,0 +1,249 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r28a_1_aliquota-unica.png",
+   "semente": 2801,
+   "molde": "mito_verdade",
+   "titulo": "ALÍQUOTA ÚNICA E FIM DA ISENÇÃO?",
+   "mitos": [
+    "ALÍQUOTA ÚNICA",
+    "LETRAS TRIBUTADAS"
+   ],
+   "verdade": "NADA {laranja:MUDOU}",
+   "desenho": {
+    "nome": "prancheta",
+    "largura": 120
+   },
+   "apoio": "- {ciano:CASO REAL (11/06/2025):} MEDIDA PROVISÓRIA 1.303 PROPÕE 17,5% ÚNICOS E 5% NOS ISENTOS\n- {ciano:08/10/2025:} A MEDIDA PERDE A EFICÁCIA SEM VOTAÇÃO\n- VALE A LEI 11.033, DE 2004: TABELA {laranja:REGRESSIVA}\n- 4 FAIXAS: 22,5% · 20% · 17,5% · 15%\n- QUANTO MAIOR O PRAZO, MENOR A ALÍQUOTA\n- LCI, LCA, CRI, CRA E INCENTIVADAS: {verde:ISENTAS} PARA PESSOA FÍSICA\n- {ciano:2 TRIBUTOS DE HOJE:} IOF · IMPOSTO DE RENDA"
+  },
+  {
+   "saida": "r28a_2_multa-e-imposto.png",
+   "semente": 2802,
+   "molde": "comparacao",
+   "titulo": "A PARTE DO GOVERNO NO ALUGUEL",
+   "colunas": [
+    {
+     "titulo": "A MULTA",
+     "desenho": "alarme",
+     "rotulos": [
+      "30 DIAS",
+      "IOF"
+     ],
+     "texto": "- DESISTIR DO CONTRATO NO 1º MÊS → {laranja:IOF}\n- QUANTO MAIS CEDO, MAIOR A MULTA → {laranja:TABELA DIÁRIA}\n- COMPLETOU 30 DIAS → {laranja:MULTA ZERO}\n- A MULTA SAI DO ALUGUEL, NÃO DO DINHEIRO EMPRESTADO"
+    },
+    {
+     "titulo": "O IMPOSTO",
+     "desenho": "ampulheta",
+     "rotulos": [
+      "TEMPO",
+      "ALÍQUOTA"
+     ],
+     "texto": "- PARTE DO ALUGUEL RECEBIDO → {verde:IMPOSTO DE RENDA}\n- MAIS TEMPO DE CONTRATO → {verde:ALÍQUOTA MENOR}\n- 4 DEGRAUS → {verde:TABELA REGRESSIVA}\n- CASA, CAMPO E OBRA → {verde:ISENTOS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ORDEM DAS COBRANÇAS:} 1º A MULTA (IOF) · 2º O IMPOSTO (IR), SOBRE O QUE SOBROU",
+    "{ciano:QUEM RECOLHE:} A INSTITUIÇÃO QUE PAGA O RENDIMENTO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} DONO DE IMÓVEL FAZ A CONTA DO IMPOSTO · NO TÍTULO, O DESCONTO JÁ VEM FEITO: {laranja:RETENÇÃO NA FONTE}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r28a_3_conteudo-1.png",
+   "semente": 2803,
+   "molde": "colunas",
+   "titulo": "IOF E IMPOSTO DE RENDA (1/2)",
+   "topo": "{ciano:2 TRIBUTOS SOBRE O RENDIMENTO:} {laranja:1º} IOF · {laranja:2º} IMPOSTO DE RENDA · RETIDOS NA FONTE · NENHUM INCIDE SOBRE O PRINCIPAL",
+   "colunas": [
+    {
+     "titulo": "IOF (ATÉ O DIA 29)",
+     "texto": "- DIA 1: {vermelho:96%} DO RENDIMENTO\n- DIA 5: 83% · DIA 10: 66%\n- DIA 15: 50% · DIA 20: 33%\n- DIA 25: 16% · DIA 29: 3%\n- DIA 30: {verde:ZERO}\n- DECRETO 6.306, DE 2007"
+    },
+    {
+     "titulo": "IR (TABELA REGRESSIVA)",
+     "texto": "- ATÉ 180 DIAS: {vermelho:22,5%}\n- 181 A 360 DIAS: 20%\n- 361 A 720 DIAS: 17,5%\n- ACIMA DE 720 DIAS: {verde:15%}\n- BASE: RENDIMENTO − IOF\n- CUPOM: TRIBUTADO A CADA PAGAMENTO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:IOF ZERO (DECRETO, ART. 32):} DEBÊNTURES · LF · CRI · CRA · LCA · CDCA · {vermelho:VIRADA DE FAIXA:} DIA 180 → 181 · DIA 360 → 361 · DIA 720 → 721",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r28a_3_conteudo-2.png",
+   "semente": 2804,
+   "molde": "colunas",
+   "titulo": "QUEM PAGA E QUEM É ISENTO (2/2)",
+   "topo": "{ciano:IMPOSTO DE RENDA POR TÍTULO:} A PERGUNTA É SE O PAPEL FINANCIA UM SETOR {laranja:INCENTIVADO} · ISENÇÃO SÓ PARA {laranja:PESSOA FÍSICA}",
+   "colunas": [
+    {
+     "titulo": "TABELA REGRESSIVA",
+     "texto": "- {laranja:PÚBLICOS:} TESOURO SELIC · PREFIXADO · IPCA+\n- {laranja:BANCÁRIOS:} CDB · RDB · LC · LF · DPGE\n- {laranja:CORPORATIVOS:} DEBÊNTURE COMUM · DE INFRAESTRUTURA · NOTA COMERCIAL\n- PESSOA FÍSICA: TRIBUTAÇÃO DEFINITIVA"
+    },
+    {
+     "titulo": "ISENTOS (PESSOA FÍSICA)",
+     "texto": "- {verde:IMOBILIÁRIO:} LCI · LH · CRI\n- {verde:AGRONEGÓCIO:} LCA · CRA · CDCA\n- {verde:DESENVOLVIMENTO:} LCD\n- {verde:INFRAESTRUTURA:} DEBÊNTURE INCENTIVADA (ALÍQUOTA ZERO)\n- EMPRESA QUE COMPRA: PAGA"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:ALERTA:} A LEI DA ISENÇÃO CITA LH, CRI E LCI, {laranja:NÃO A CCI} · {ciano:ATUALIZAÇÃO (LEI 15.270/2025):} ESSES ISENTOS FICAM FORA DA BASE DO IMPOSTO MÍNIMO DA ALTA RENDA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r28a_4_dia-10-ou-dia-30.png",
+   "semente": 2805,
+   "molde": "exercicio",
+   "titulo": "RESGATE NO DIA 10 OU NO DIA 30?",
+   "dados": "- HIPOTÉTICO: CDB DE LIQUIDEZ DIÁRIA\n- RENDIMENTO BRUTO ACUMULADO: {ciano:200 REAIS}\n- PRAZO ABAIXO DE 180 DIAS → IR DE {ciano:22,5%}\n- A ÚNICA DIFERENÇA: O DIA DA SAÍDA\n- MESMO RENDIMENTO NOS DOIS (SIMPLIFICAÇÃO)",
+   "cenarios": [
+    {
+     "titulo": "DIA 10",
+     "passos": "IOF: 66% DE 200 = 132\nSOBRAM 68\nIR: 22,5% DE 68 = 15,30",
+     "resultado": "LÍQUIDO: 52,70"
+    },
+    {
+     "titulo": "DIA 30",
+     "passos": "IOF: ZERO\nIR: 22,5% DE 200 = 45\n200 − 45",
+     "resultado": "LÍQUIDO: 155,00"
+    }
+   ],
+   "conclusao": {
+    "texto": "NO DIA 10, OS TRIBUTOS FICAM COM {vermelho:73,65%} DO GANHO · NO DIA 30, COM {verde:22,5%} · ANTES DE 30 DIAS, O IOF PESA MAIS QUE O IR",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r28b_1_maior-taxa.png",
+   "semente": 2806,
+   "molde": "mito_verdade",
+   "titulo": "MAIOR TAXA = MELHOR INVESTIMENTO?",
+   "mitos": [
+    "MAIOR TAXA",
+    "MELHOR TÍTULO"
+   ],
+   "verdade": "COMPARE O {laranja:LÍQUIDO}",
+   "desenho": {
+    "nome": "balanca",
+    "largura": 230
+   },
+   "apoio": "- {ciano:CASO REAL (18/11/2025):} LIQUIDAÇÃO DO BANCO MASTER\n- GARANTIAS DO FGC: {vermelho:40,6 BILHÕES} DE REAIS · CERCA DE 800.000 CREDORES\n- CDB COM TAXA ACIMA DA MÉDIA = {laranja:PRÊMIO DE RISCO}\n- ACIMA DE 250.000 REAIS, O FGC NÃO COBRE\n- 3 FILTROS: RISCO DE CRÉDITO · LIQUIDEZ · TAXA LÍQUIDA\n- {ciano:2 TEMAS:} RENTABILIDADE LÍQUIDA · RISCO E LIQUIDEZ NA ALOCAÇÃO"
+  },
+  {
+   "saida": "r28b_2_o-que-cai-na-conta.png",
+   "semente": 2807,
+   "molde": "comparacao",
+   "titulo": "O ALUGUEL QUE CAI NA CONTA",
+   "colunas": [
+    {
+     "titulo": "O VALOR",
+     "desenho": "dinheiro",
+     "rotulos": [
+      "ANÚNCIO",
+      "NA CONTA"
+     ],
+     "texto": "- ALUGUEL ANUNCIADO → {laranja:TAXA BRUTA}\n- ALUGUEL DEPOIS DO IMPOSTO → {laranja:TAXA LÍQUIDA}\n- CONTRATO LIVRE DE IMPOSTO → {laranja:TÍTULO ISENTO}\n- 1.100 COM IMPOSTO × 920 LIVRES → DEPENDE DA ALÍQUOTA"
+    },
+    {
+     "titulo": "O INQUILINO",
+     "desenho": "contrato_aluguel",
+     "rotulos": [
+      "PAGA?",
+      "SAÍDA?"
+     ],
+     "texto": "- PAGA EM DIA? → {verde:RISCO DE CRÉDITO}\n- DÁ PARA SAIR ANTES? → {verde:LIQUIDEZ}\n- FAMA RUIM PAGA MAIS → {verde:PRÊMIO}\n- NÃO DAR TUDO A UM SÓ → {verde:LIMITE POR EMISSOR}"
+    }
+   ],
+   "faixas": [
+    "{ciano:FIADOR DO CONTRATO:} FGC, SÓ NOS PAPÉIS BANCÁRIOS COBERTOS",
+    "{ciano:DINHEIRO DA EMERGÊNCIA:} FICA FORA DE CONTRATO TRAVADO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} INQUILINO SE CONHECE PESSOALMENTE · EMISSOR SE AVALIA POR {laranja:RATING} E BALANÇO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r28b_3_conteudo-1.png",
+   "semente": 2808,
+   "molde": "colunas",
+   "titulo": "RENTABILIDADE LÍQUIDA (1/2)",
+   "topo": "{ciano:RENTABILIDADE LÍQUIDA:} O RENDIMENTO DEPOIS DE IMPOSTOS E CUSTOS · É ELA QUE SE COMPARA, NÃO A {laranja:TAXA BRUTA}",
+   "colunas": [
+    {
+     "titulo": "AS 2 CONTAS",
+     "texto": "- {laranja:LÍQUIDA} = BRUTA × (1 − ALÍQUOTA)\n- EXEMPLO: 110 × 0,85 = 93,5\n- {laranja:EQUIVALENTE} = ISENTA ÷ (1 − ALÍQUOTA)\n- EXEMPLO: 92 ÷ 0,85 = 108,24\n- AS DUAS LEVAM À MESMA DECISÃO"
+    },
+    {
+     "titulo": "FATOR POR PRAZO",
+     "texto": "- ATÉ 180 DIAS: × {vermelho:0,775}\n- 181 A 360 DIAS: × 0,80\n- 361 A 720 DIAS: × 0,825\n- ACIMA DE 720 DIAS: × {verde:0,85}\n- PRAZO CURTO FAVORECE O ISENTO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:LCA DE 92% DO CDI EMPATA COM CDB DE:} 118,71% (ATÉ 180 DIAS) · 115% (ATÉ 360) · 111,52% (ATÉ 720) · 108,24% (ACIMA) · {vermelho:EMPRESA NÃO TEM ISENÇÃO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r28b_3_conteudo-2.png",
+   "semente": 2809,
+   "molde": "colunas",
+   "titulo": "CRÉDITO, LIQUIDEZ E ALOCAÇÃO (2/2)",
+   "topo": "{ciano:REGRA:} MAIS RISCO DE CRÉDITO + MENOS LIQUIDEZ → {laranja:MENOR FATIA} NA CARTEIRA E {laranja:MAIOR PRÊMIO} EXIGIDO",
+   "colunas": [
+    {
+     "titulo": "CRÉDITO",
+     "texto": "- CALOTE DE JUROS OU PRINCIPAL\n- MEDIDA: {laranja:RATING}\n- PREÇO: {laranja:SPREAD}\n- FGC: SÓ PAPEL BANCÁRIO COBERTO"
+    },
+    {
+     "titulo": "LIQUIDEZ",
+     "texto": "- VIRAR DINHEIRO SEM PERDA\n- PRAZO E CARÊNCIA\n- LCI E LCA: MÍNIMO DE 6 MESES\n- VENDA ANTECIPADA: {vermelho:DESCONTO}"
+    },
+    {
+     "titulo": "ALOCAÇÃO",
+     "texto": "- COMPARAR PAPÉIS PARECIDOS\n- {verde:TETO} POR EMISSOR\n- PRAZO DO TÍTULO = PRAZO DO OBJETIVO\n- RESERVA: LIQUIDEZ DIÁRIA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:ORDEM DA ANÁLISE:} 1º RISCO E LIQUIDEZ (CABE? QUANTO?) · 2º TAXA LÍQUIDA (QUAL?) · {vermelho:ISENÇÃO NÃO REDUZ RISCO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r28b_4_cdb-110-ou-lca-92.png",
+   "semente": 2810,
+   "molde": "exercicio",
+   "titulo": "CDB DE 110% OU LCA DE 92% DO CDI?",
+   "dados": "- HIPOTÉTICO: MESMO BANCO, DENTRO DO LIMITE DO FGC\n- CDB: {ciano:110%} DO CDI, TRIBUTADO\n- LCA: {ciano:92%} DO CDI, ISENTA PARA PESSOA FÍSICA\n- A ÚNICA DIFERENÇA: O PRAZO\n- IMPOSTO APLICADO SOBRE O % DO CDI (CONVENÇÃO DE PROVA)",
+   "cenarios": [
+    {
+     "titulo": "400 DIAS (17,5%)",
+     "passos": "CDB: 110 × 0,825 = 90,75\nLCA: 92\nEMPATE: 111,52",
+     "resultado": "VENCE A LCA"
+    },
+    {
+     "titulo": "800 DIAS (15%)",
+     "passos": "CDB: 110 × 0,85 = 93,50\nLCA: 92\nEMPATE: 108,24",
+     "resultado": "VENCE O CDB"
+    }
+   ],
+   "conclusao": {
+    "texto": "A MESMA DUPLA, {laranja:DOIS VENCEDORES} · SÓ O PRAZO MUDOU · A COMPARAÇÃO VALE PORQUE EMISSOR E GARANTIA SÃO IGUAIS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
