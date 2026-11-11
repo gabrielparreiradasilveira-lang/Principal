@@ -1,0 +1,408 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r26a_1_tudo-igual.png",
+   "semente": 2601,
+   "molde": "mito_verdade",
+   "titulo": "PAPEL DE BANCO: TUDO IGUAL?",
+   "mitos": [
+    "TUDO IGUAL",
+    "SÓ MUDA A TAXA"
+   ],
+   "verdade": "CADA PAPEL, UMA {laranja:REGRA}",
+   "desenho": {
+    "nome": "banco",
+    "largura": 150
+   },
+   "apoio": "- {ciano:CASO REAL: PRAZO MÍNIMO DA LCA SEM ÍNDICE DE PREÇOS}\n- ATÉ 01/02/2024: {laranja:90 DIAS}\n- DE 02/02/2024 EM DIANTE: {laranja:9 MESES} (RESOLUÇÃO CMN 5.119)\n- DESDE MAIO DE 2025: {laranja:6 MESES} (RESOLUÇÃO CMN 5.215)\n- 5 PERGUNTAS: EMISSOR · LASTRO · PRAZO MÍNIMO · IMPOSTO · GARANTIA\n- {ciano:8 PAPÉIS DE HOJE:} CDB · RDB · RDC · LCI · LCA · LCD · LH · LC"
+  },
+  {
+   "saida": "r26a_2_inquilino-banco.png",
+   "semente": 2602,
+   "molde": "comparacao",
+   "titulo": "O INQUILINO BANCO",
+   "colunas": [
+    {
+     "titulo": "CONTRATOS COMUNS",
+     "desenho": "contrato_aluguel",
+     "rotulos": [
+      "REPASSA",
+      "NÃO REPASSA"
+     ],
+     "texto": "- CONTRATO PADRÃO, REPASSÁVEL → {laranja:CDB}\n- CONTRATO SEM REPASSE → {laranja:RDB}\n- CONTRATO DOS SÓCIOS DA COOPERATIVA → {laranja:RDC}\n- CONTRATO DA FINANCEIRA → {laranja:LC}"
+    },
+    {
+     "titulo": "COM FINALIDADE",
+     "desenho": "casa",
+     "rotulos": [
+      "DESTINO",
+      "SEM IMPOSTO"
+     ],
+     "texto": "- DINHEIRO PARA IMÓVEIS → {verde:LCI E LH}\n- DINHEIRO PARA O AGRO → {verde:LCA}\n- DINHEIRO PARA O DESENVOLVIMENTO → {verde:LCD}\n- PERMANÊNCIA MÍNIMA → {verde:PRAZO MÍNIMO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:FIADOR DOS 8 CONTRATOS:} FGC EM 7 DELES · FGCOOP NO RDC",
+    "{ciano:SEM IMPOSTO NA PESSOA FÍSICA:} LCI · LCA · LCD · LH"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} ALUGUEL DE LOJA OU DE CASA PAGA O MESMO IMPOSTO · NOS PAPÉIS, O LASTRO MUDA O IMPOSTO E A CARÊNCIA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r26a_3_conteudo-1.png",
+   "semente": 2603,
+   "molde": "colunas",
+   "titulo": "CDB, RDB E RDC (1/3)",
+   "topo": "{ciano:EMISSÃO BANCÁRIA:} TÍTULO DE {laranja:INSTITUIÇÃO FINANCEIRA} PARA CAPTAR RECURSOS · PAGA MAIS QUE O TÍTULO PÚBLICO PORQUE O RISCO DE CRÉDITO É MAIOR",
+   "colunas": [
+    {
+     "titulo": "CDB",
+     "texto": "- CERTIFICADO DE DEPÓSITO BANCÁRIO\n- PRÉ, PÓS OU HÍBRIDO\n- LIQUIDEZ DIÁRIA OU NO VENCIMENTO\n- {verde:NEGOCIÁVEL} NO SECUNDÁRIO\n- FGC · TRIBUTADO"
+    },
+    {
+     "titulo": "RDB E RDC",
+     "texto": "- {laranja:RDB:} RECIBO DE DEPÓSITO BANCÁRIO\n- {vermelho:NÃO NEGOCIÁVEL} · SÓ NO VENCIMENTO\n- TAXA MAIOR PELA MENOR FLEXIBILIDADE · FGC\n- {laranja:RDC:} COOPERATIVA DE CRÉDITO, PARA COOPERADOS · FGCOOP"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} CDB NEGOCIA, RDB NÃO · RENTABILIDADE LIGADA AO RISCO DO EMISSOR · RDC = FGCOOP, NÃO FGC",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r26a_3_conteudo-2.png",
+   "semente": 2604,
+   "molde": "colunas",
+   "titulo": "LCI, LCA E LCD (2/3)",
+   "topo": "{ciano:LETRAS DE CRÉDITO:} LASTRO EM UMA CARTEIRA DE CRÉDITOS · {verde:ISENTAS DE IMPOSTO DE RENDA PARA PESSOA FÍSICA} · COM FGC",
+   "colunas": [
+    {
+     "titulo": "LCI E LCA",
+     "texto": "- {laranja:LCI:} CRÉDITOS IMOBILIÁRIOS\n- {laranja:LCA:} CRÉDITOS DO AGRONEGÓCIO\n- SEM ÍNDICE DE PREÇOS: MÍNIMO DE {laranja:6 MESES}\n- COM ÍNDICE: LCA 12 MESES · LCI 36 MESES (ATUALIZAÇÃO MENSAL)"
+    },
+    {
+     "titulo": "LCD",
+     "texto": "- LETRA DE CRÉDITO DO DESENVOLVIMENTO\n- EMISSOR: BNDES E BANCOS DE DESENVOLVIMENTO\n- CRIADA PELA LEI 14.937, DE 2024\n- ISENTA PARA PESSOA FÍSICA · FGC"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:CARÊNCIA:} EM REGRA, SEM RECOMPRA NEM SAQUE NO PERÍODO MÍNIMO · NÃO SERVE PARA DINHEIRO DE USO IMEDIATO · {ciano:EMPRESA:} PAGA IMPOSTO SOBRE LCI E LCA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r26a_3_conteudo-3.png",
+   "semente": 2605,
+   "molde": "colunas",
+   "titulo": "LH E LC (3/3)",
+   "topo": "{ciano:DOIS PAPÉIS MENOS COMUNS, MAS QUE ESTÃO NA LISTA DA PROVA:} LETRA HIPOTECÁRIA E LETRA DE CÂMBIO",
+   "colunas": [
+    {
+     "titulo": "LH",
+     "texto": "- LETRA HIPOTECÁRIA\n- LASTRO: CRÉDITO IMOBILIÁRIO COM HIPOTECA\n- {verde:ISENTA} PARA PESSOA FÍSICA\n- FGC · POUCO EMITIDA HOJE"
+    },
+    {
+     "titulo": "LC",
+     "texto": "- LETRA DE CÂMBIO\n- EMISSOR: FINANCEIRAS\n- FINANCIA O CRÉDITO AO CONSUMO\n- {vermelho:TRIBUTADA} · FGC\n- NADA A VER COM MOEDA ESTRANGEIRA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:QUADRO DOS 8:} ISENTAS PARA PESSOA FÍSICA: {verde:LCI, LCA, LCD, LH} · TRIBUTADAS: {vermelho:CDB, RDB, RDC, LC} · {vermelho:CUIDADO:} ISENTO NÃO QUER DIZER SEGURO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r26a_4_cdb-ou-lci.png",
+   "semente": 2606,
+   "molde": "exercicio",
+   "titulo": "CDB DE 100% OU LCI DE 85%?",
+   "dados": "- HIPOTÉTICO: {ciano:10.000} REAIS POR 1 ANO\n- CDI DE 12% AO ANO, CONSTANTE\n- IMPOSTO DO CDB: 17,5% SOBRE O RENDIMENTO (361 A 720 DIAS)\n- LCI: ISENTA PARA PESSOA FÍSICA\n- A ÚNICA DIFERENÇA: O PAPEL",
+   "cenarios": [
+    {
+     "titulo": "CDB 100% DO CDI",
+     "passos": "TAXA: 12%\nBRUTO: 1.200\nIMPOSTO: 210",
+     "resultado": "LÍQUIDO: 990"
+    },
+    {
+     "titulo": "LCI 85% DO CDI",
+     "passos": "TAXA: 10,2%\nBRUTO: 1.020\nIMPOSTO: ZERO",
+     "resultado": "LÍQUIDO: 1.020"
+    }
+   ],
+   "conclusao": {
+    "texto": "EMPATE: 100 − 17,5 = {laranja:82,5% DO CDI} · ACIMA DISSO, A LCI GANHA DESTE CDB · MAS A LCI TEM {vermelho:6 MESES} DE PRAZO MÍNIMO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r26b_1_tudo-tem-fgc.png",
+   "semente": 2607,
+   "molde": "mito_verdade",
+   "titulo": "TUDO NO BANCO TEM FGC?",
+   "mitos": [
+    "TUDO TEM FGC",
+    "O BANCO GARANTE"
+   ],
+   "verdade": "DEPENDE DO {laranja:PAPEL}",
+   "desenho": {
+    "nome": "escudo",
+    "largura": 120
+   },
+   "apoio": "- {ciano:CASO REAL (17/01/2026):} COMUNICADO DO FGC SOBRE O BANCO MASTER\n- NA LISTA DA GARANTIA: CONTA CORRENTE, POUPANÇA, CDB, RDB, LCI, LCA, LCD\n- {vermelho:FORA DA LISTA:} LETRA FINANCEIRA · CRI · CRA\n- QUEM VENDE NÃO DEFINE A COBERTURA\n- {verde:ISENTO DE IMPOSTO} E {verde:COBERTO PELO FGC} SÃO COISAS SEPARADAS\n- DPGE: COBERTURA ESPECIAL, DE ATÉ 40 MILHÕES DE REAIS\n- {ciano:6 PAPÉIS DE HOJE:} LF · DPGE · CRI · CRA · CCI · CDCA"
+  },
+  {
+   "saida": "r26b_2_sem-fiador.png",
+   "semente": 2608,
+   "molde": "comparacao",
+   "titulo": "COM FIADOR E SEM FIADOR",
+   "colunas": [
+    {
+     "titulo": "SEM FIADOR",
+     "desenho": "contrato_aluguel",
+     "rotulos": [
+      "LONGO",
+      "TRAVADO"
+     ],
+     "texto": "- CONTRATO LONGO E TRAVADO → {laranja:LF}\n- ALUGUÉIS A RECEBER, EMPACOTADOS → {laranja:CRI E CRA}\n- O CRÉDITO QUE VAI NO PACOTE → {laranja:CCI}\n- TÍTULO DA CADEIA DO AGRO → {laranja:CDCA}"
+    },
+    {
+     "titulo": "FIADOR ESPECIAL",
+     "desenho": "escudo",
+     "rotulos": [
+      "GARANTIA",
+      "ATÉ 40 MILHÕES"
+     ],
+     "texto": "- FIADOR REFORÇADO → {verde:DPGE}\n- UM SÓ PROPRIETÁRIO → {verde:TITULAR ÚNICO}\n- SEM SAÍDA ANTES → {verde:SEM RESGATE ANTECIPADO}\n- CLIENTE GRANDE → {verde:INSTITUCIONAL}"
+    }
+   ],
+   "faixas": [
+    "{ciano:QUEM EMPACOTA OS ALUGUÉIS:} A SECURITIZADORA, NÃO O BANCO",
+    "{ciano:SEM FIADOR, ALUGUEL MAIOR:} MENOS GARANTIA E MENOS LIQUIDEZ → TAXA MAIS ALTA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NO CRI E NO CRA NÃO HÁ UM INQUILINO SÓ · O PAGAMENTO VEM DE MUITOS DEVEDORES, E O DISTRIBUIDOR NÃO RESPONDE POR ELES",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r26b_3_conteudo-1.png",
+   "semente": 2609,
+   "molde": "colunas",
+   "titulo": "LF E DPGE (1/2)",
+   "topo": "{ciano:OS DOIS EXTREMOS DA GARANTIA:} A LETRA FINANCEIRA {vermelho:NÃO TEM FGC} · O DPGE TEM {verde:GARANTIA ESPECIAL}",
+   "colunas": [
+    {
+     "titulo": "LETRA FINANCEIRA",
+     "texto": "- PRAZO MÍNIMO: {laranja:24 MESES}\n- RESGATE ANTECIPADO VEDADO\n- MÍNIMO POR LETRA: {laranja:50 MIL} REAIS\n- COM SUBORDINAÇÃO: 300 MIL REAIS\n- TAXA MAIOR · MÉDIO E LONGO PRAZO"
+    },
+    {
+     "titulo": "DPGE",
+     "texto": "- DEPÓSITO A PRAZO COM GARANTIA ESPECIAL\n- FGC ATÉ {laranja:40 MILHÕES} POR TITULAR, POR CONGLOMERADO\n- TITULAR ÚNICO\n- SEM RESGATE ANTECIPADO\n- NASCEU PARA MOMENTOS DE ESTRESSE DO SISTEMA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} LF = 24 MESES, 50 MIL, SEM FGC · DPGE = O ATRATIVO É A COBERTURA, NÃO A TAXA · {vermelho:SUBORDINADA:} RECEBE DEPOIS DOS OUTROS CREDORES",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r26b_3_conteudo-2.png",
+   "semente": 2610,
+   "molde": "colunas",
+   "titulo": "CRI, CRA, CCI E CDCA (2/2)",
+   "topo": "{ciano:PAPÉIS DE LASTRO:} O PAGAMENTO VEM DE UMA CARTEIRA DE CRÉDITOS · {vermelho:NENHUM TEM FGC}",
+   "colunas": [
+    {
+     "titulo": "CRI E CRA",
+     "texto": "- CERTIFICADOS DE RECEBÍVEIS\n- EMISSOR: {laranja:SECURITIZADORA}\n- CRI: IMOBILIÁRIO · CRA: AGRONEGÓCIO\n- {verde:ISENTOS} PARA PESSOA FÍSICA\n- DETALHES NA AULA DE EMISSÕES CORPORATIVAS"
+    },
+    {
+     "titulo": "CCI E CDCA",
+     "texto": "- {laranja:CCI:} REPRESENTA UM CRÉDITO IMOBILIÁRIO · EMITIDA PELO CREDOR · LASTRO DE CRI\n- {laranja:CDCA:} COOPERATIVAS E EMPRESAS DO AGRO · {verde:ISENTO} PARA PESSOA FÍSICA"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:CUIDADO:} ISENÇÃO É REGRA DE IMPOSTO; FGC É REGRA DE GARANTIA · CRI, CRA E CDCA: ISENTOS E DESCOBERTOS · CDB: COBERTO E TRIBUTADO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r26b_4_premio-da-lf.png",
+   "semente": 2611,
+   "molde": "exercicio",
+   "titulo": "O PRÊMIO DA LETRA FINANCEIRA",
+   "dados": "- HIPOTÉTICO: {ciano:50.000} REAIS POR 2 ANOS\n- CDI DE 12% AO ANO, CONSTANTE\n- MESMO BANCO EMISSOR\n- A ÚNICA DIFERENÇA: O PAPEL\n- SEM IMPOSTO (SIMPLIFICAÇÃO)",
+   "cenarios": [
+    {
+     "titulo": "CDB 100% DO CDI",
+     "passos": "12% AO ANO\n50.000 × 1,12 × 1,12\nLIQUIDEZ DIÁRIA · FGC",
+     "resultado": "62.720,00"
+    },
+    {
+     "titulo": "LF 110% DO CDI",
+     "passos": "13,2% AO ANO\n50.000 × 1,132 × 1,132\nTRAVADA · SEM FGC",
+     "resultado": "64.071,20"
+    }
+   ],
+   "conclusao": {
+    "texto": "PRÊMIO: {laranja:1.351,20 REAIS} EM 2 ANOS · PREÇO DE {vermelho:2 RENÚNCIAS}: LIQUIDEZ E COBERTURA · SÓ VALE PARA QUEM NÃO PRECISA DO DINHEIRO ANTES",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r26c_1_250-por-aplicacao.png",
+   "semente": 2612,
+   "molde": "mito_verdade",
+   "titulo": "FGC: 250 MIL POR APLICAÇÃO?",
+   "mitos": [
+    "250 MIL POR PRODUTO",
+    "CADA PAPEL CONTA"
+   ],
+   "verdade": "POR CPF, POR {laranja:GRUPO}",
+   "desenho": {
+    "nome": "escudo",
+    "largura": 170
+   },
+   "apoio": "- {ciano:CASO REAL: BANCO MASTER, LIQUIDAÇÃO EM 18/11/2025}\n- GARANTIAS: 40,6 BILHÕES DE REAIS · CERCA DE 800 MIL CREDORES\n- ESTIMATIVA INICIAL: 41,3 BILHÕES E 1,6 MILHÃO DE CREDORES\n- LIQUIDEZ DO FGC EM NOVEMBRO DE 2025: 125 BILHÕES DE REAIS\n- PAGAMENTO INICIADO EM 17/01/2026, DOIS MESES DEPOIS\n- TETO POR PESSOA: 1 MILHÃO DE REAIS A CADA 4 ANOS\n- {ciano:2 TEMAS:} LIMITES E COBERTURAS · LEITURA COMPLETA DO PAPEL"
+  },
+  {
+   "saida": "r26c_2_o-fiador.png",
+   "semente": 2613,
+   "molde": "comparacao",
+   "titulo": "O FIADOR E O CONTRATO INTEIRO",
+   "colunas": [
+    {
+     "titulo": "O FIADOR",
+     "desenho": "escudo",
+     "rotulos": [
+      "LIMITE",
+      "FAMÍLIA"
+     ],
+     "texto": "- FIADOR → {laranja:FGC}\n- LIMITE POR PROPRIETÁRIO → {laranja:250 MIL POR CPF}\n- INQUILINOS DA MESMA FAMÍLIA → {laranja:CONGLOMERADO}\n- CONTRATOS QUE ELE NÃO ASSINA → {laranja:SEM COBERTURA}"
+    },
+    {
+     "titulo": "O CONTRATO",
+     "desenho": "prancheta",
+     "rotulos": [
+      "CLÁUSULAS",
+      "FICHA"
+     ],
+     "texto": "- ONDE FICA GUARDADO → {verde:CUSTÓDIA}\n- REAJUSTE DO ALUGUEL → {verde:REMUNERAÇÃO}\n- PERMANÊNCIA MÍNIMA → {verde:CARÊNCIA}\n- FICHA DO INQUILINO → {verde:RATING}"
+    }
+   ],
+   "faixas": [
+    "{ciano:FIADOR TEM TETO GERAL:} 1 MILHÃO DE REAIS A CADA 4 ANOS, POR PESSOA",
+    "{ciano:DÁ PARA REPASSAR O CONTRATO?} É A LIQUIDEZ"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} FIADOR COMUM É COMBINADO CASO A CASO · O FGC JÁ VEM NO PAPEL COBERTO, SEM CUSTO DIRETO PARA O CLIENTE",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r26c_3_conteudo-1.png",
+   "semente": 2614,
+   "molde": "colunas",
+   "titulo": "FGC: LIMITES (1/3)",
+   "topo": "{ciano:FGC:} ENTIDADE {laranja:PRIVADA}, SEM FINS LUCRATIVOS · CUSTEADA PELAS INSTITUIÇÕES ASSOCIADAS · AGE NA INTERVENÇÃO OU NA LIQUIDAÇÃO",
+   "colunas": [
+    {
+     "titulo": "GARANTIA ORDINÁRIA",
+     "texto": "- ATÉ {laranja:250 MIL} REAIS\n- CONTA POR PESSOA: CPF OU CNPJ\n- SOMA TUDO NO MESMO BANCO OU GRUPO\n- PRINCIPAL + RENDIMENTOS ATÉ A DATA DO EVENTO"
+    },
+    {
+     "titulo": "OUTRAS TRAVAS",
+     "texto": "- TETO DE {laranja:1 MILHÃO} A CADA 4 ANOS\n- CONTA CONJUNTA: 250 MIL DIVIDIDOS PELOS TITULARES\n- DPGE: ATÉ 40 MILHÕES\n- COOPERATIVAS: FGCOOP"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} O LIMITE NÃO É POR PRODUTO NEM POR AGÊNCIA · CDB + LCI + POUPANÇA NO MESMO GRUPO = {vermelho:UM SÓ LIMITE}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r26c_3_conteudo-2.png",
+   "semente": 2615,
+   "molde": "colunas",
+   "titulo": "FGC: COBERTURAS (2/3)",
+   "topo": "{ciano:A COBERTURA É DEFINIDA PELO TIPO DE PAPEL:} VALE PARA COMPRA DIRETA NO BANCO OU POR CORRETORA",
+   "colunas": [
+    {
+     "titulo": "COBERTOS",
+     "texto": "- DEPÓSITO À VISTA E POUPANÇA\n- CDB E RDB\n- LCI, LCA E LCD\n- LH E LC"
+    },
+    {
+     "titulo": "NÃO COBERTOS",
+     "texto": "- LETRA FINANCEIRA\n- DEBÊNTURES, CRI E CRA\n- FUNDOS E PREVIDÊNCIA\n- TESOURO DIRETO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:À PARTE:} DPGE = COBERTURA DE ATÉ {laranja:40 MILHÕES} POR TITULAR · RDC = {laranja:FGCOOP} · PAPEL COM CLÁUSULA DE SUBORDINAÇÃO FICA DE FORA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r26c_3_conteudo-3.png",
+   "semente": 2616,
+   "molde": "colunas",
+   "titulo": "LENDO O PAPEL INTEIRO (3/3)",
+   "topo": "{ciano:6 ITENS DE LEITURA:} CUSTÓDIA · REMUNERAÇÃO · PRAZO E CARÊNCIA · LIQUIDEZ · RISCOS · RATING",
+   "colunas": [
+    {
+     "titulo": "AS CLÁUSULAS",
+     "texto": "- {ciano:CUSTÓDIA:} REGISTRO EM NOME DO CLIENTE (EX.: B3)\n- {ciano:REMUNERAÇÃO:} PRÉ · % DO CDI · IPCA + TAXA\n- {ciano:CARÊNCIA:} LCI E LCA 6 MESES · LF 24 MESES\n- {ciano:LIQUIDEZ:} DIÁRIA · NO VENCIMENTO · SECUNDÁRIO"
+    },
+    {
+     "titulo": "RISCO E RATING",
+     "texto": "- {vermelho:RISCOS:} CRÉDITO · LIQUIDEZ · MERCADO\n- {laranja:AAA:} NOTA MAIS ALTA\n- ATÉ {laranja:BBB−:} GRAU DE INVESTIMENTO\n- DE {laranja:BB+} PARA BAIXO: ESPECULATIVO"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:CUIDADO:} RATING É OPINIÃO DE UMA AGÊNCIA, NÃO GARANTIA · LER COM OS {laranja:INDICADORES FINANCEIROS} DO EMISSOR E O {laranja:CONTEXTO MACROECONÔMICO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r26c_4_quanto-o-fgc-cobre.png",
+   "semente": 2617,
+   "molde": "exercicio",
+   "titulo": "QUANTO O FGC COBRE?",
+   "dados": "- HIPOTÉTICO: {ciano:400.000} EM CDB DO BANCO A\n- {ciano:200.000} EM LCA DO BANCO B\n- SALDOS JÁ COM RENDIMENTOS · TOTAL: 600.000\n- OS DOIS BANCOS SÃO LIQUIDADOS\n- A ÚNICA DIFERENÇA: O VÍNCULO ENTRE A E B",
+   "cenarios": [
+    {
+     "titulo": "MESMO GRUPO",
+     "passos": "UM LIMITE SÓ\nCOBERTO: 250.000\n600.000 − 250.000",
+     "resultado": "350.000 DESCOBERTOS"
+    },
+    {
+     "titulo": "GRUPOS DIFERENTES",
+     "passos": "BANCO A: 250.000\nBANCO B: 200.000\n600.000 − 450.000",
+     "resultado": "150.000 DESCOBERTOS"
+    }
+   ],
+   "conclusao": {
+    "texto": "DISTRIBUIR ENTRE GRUPOS REDUZIU A EXPOSIÇÃO EM {laranja:200.000 REAIS} · O TETO DE 1 MILHÃO EM 4 ANOS NÃO FOI ATINGIDO · {vermelho:GARANTIA NÃO DISPENSA ANÁLISE}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
