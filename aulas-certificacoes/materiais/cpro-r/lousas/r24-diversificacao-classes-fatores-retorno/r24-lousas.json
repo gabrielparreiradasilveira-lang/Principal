@@ -1,0 +1,152 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r24_1_muitos-ativos.png",
+   "semente": 2401,
+   "molde": "mito_verdade",
+   "titulo": "DIVERSIFICAR = TER MUITOS ATIVOS?",
+   "mitos": [
+    "MUITOS ATIVOS",
+    "QUANTIDADE PROTEGE"
+   ],
+   "verdade": "RISCOS {laranja:DIFERENTES}",
+   "desenho": {
+    "nome": "diversificacao",
+    "largura": 150
+   },
+   "apoio": "- {ciano:CASO REAL (MARÇO DE 2020):} IBOVESPA {vermelho:−29,9%} · DÓLAR (PTAX) {verde:+15,56%}\n- DÓLAR: DE 4,4987 PARA 5,1987 REAIS, ENTRE 28/02 E 31/03/2020\n- NAQUELE MÊS, AÇÃO BRASILEIRA E DÓLAR FORAM EM SENTIDOS OPOSTOS\n- 10 AÇÕES DO MESMO PAÍS = O MESMO FATOR DE RISCO\n- O QUE CONTA: {laranja:CORRELAÇÕES DISTINTAS}, NÃO A QUANTIDADE\n- {ciano:3 TEMAS:} DIVERSIFICAÇÃO · CLASSES E SUBCLASSES · FATORES DE RETORNO"
+  },
+  {
+   "saida": "r24_2_cadeados-e-comodos.png",
+   "semente": 2402,
+   "molde": "comparacao",
+   "titulo": "A CASA: CADEADOS E CÔMODOS",
+   "colunas": [
+    {
+     "titulo": "A PROTEÇÃO",
+     "desenho": "cadeado",
+     "rotulos": [
+      "PORTA",
+      "JANELA"
+     ],
+     "texto": "- 10 CADEADOS NA MESMA PORTA → {laranja:MUITOS ATIVOS IGUAIS}\n- PROTEÇÕES DIFERENTES → {laranja:DIVERSIFICAÇÃO}\n- CHUVA, VENTO, LADRÃO → {laranja:FATORES DE RISCO}\n- TELHADO NÃO BARRA LADRÃO → CADA ATIVO, UMA FUNÇÃO"
+    },
+    {
+     "titulo": "A PLANTA",
+     "desenho": "planta_baixa",
+     "rotulos": [
+      "CÔMODOS",
+      "MÓVEIS"
+     ],
+     "texto": "- CÔMODOS → {verde:CLASSES DE ATIVOS}\n- MÓVEIS DO CÔMODO → {verde:SUBCLASSES}\n- PLANTA → {verde:ASSET ALLOCATION}\n- MARCA DO PISO → {verde:ESCOLHA DE ATIVOS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:DIA DE COMPRAR O MATERIAL:} MARKET TIMING → EFEITO PEQUENO, ACERTO RARO",
+    "{ciano:ORDEM DA OBRA:} PRIMEIRO A PLANTA, DEPOIS O ACABAMENTO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} PAREDE NÃO COMPENSA PAREDE · ATIVOS SE COMPENSAM, E A CORRELAÇÃO ENTRE ELES NÃO É FIXA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r24_3_conteudo-1.png",
+   "semente": 2403,
+   "molde": "colunas",
+   "titulo": "O PODER DA DIVERSIFICAÇÃO (1/3)",
+   "topo": "{ciano:DIVERSIFICAÇÃO:} CONCEITO CENTRAL DA {laranja:TEORIA MODERNA DE PORTFÓLIOS} · REDUZ O RISCO TOTAL SEM NECESSARIAMENTE REDUZIR O RETORNO",
+   "colunas": [
+    {
+     "titulo": "CORRELAÇÃO",
+     "texto": "- {vermelho:+1:} ANDAM JUNTOS, SEM GANHO\n- ENTRE −1 E +1: HÁ GANHO DE DIVERSIFICAÇÃO\n- {verde:−1:} OPOSTOS, GANHO MÁXIMO\n- QUANTO MENOR A CORRELAÇÃO, MAIOR A REDUÇÃO DE RISCO"
+    },
+    {
+     "titulo": "NÃO É DIVERSIFICAR",
+     "texto": "- 20 AÇÕES DO MESMO SETOR\n- 5 FUNDOS COM OS MESMOS ATIVOS\n- VÁRIOS CDBs DO MESMO BANCO\n- MUITOS ATIVOS, UM SÓ FATOR DE RISCO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} DIVERSIFICAÇÃO = MECANISMO DE {laranja:CONTROLE DE RISCO} · NÃO GARANTE GANHO E NÃO ELIMINA TODO O RISCO: O RISCO DE MERCADO PERMANECE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r24_3_conteudo-2.png",
+   "semente": 2404,
+   "molde": "colunas",
+   "titulo": "CLASSES E SUBCLASSES (2/3)",
+   "topo": "{ciano:CLASSE DE ATIVOS:} GRANDE GRUPO DE INVESTIMENTOS COM RISCO E RETORNO {laranja:SEMELHANTES} · {ciano:SUBCLASSE:} O RECORTE DENTRO DA CLASSE",
+   "colunas": [
+    {
+     "titulo": "FIXA E VARIÁVEL",
+     "texto": "- {laranja:RENDA FIXA:} PÓS-FIXADA · PREFIXADA · INDEXADA À INFLAÇÃO\n- EXEMPLO: TESOURO SELIC, PREFIXADO E IPCA+\n- {laranja:RENDA VARIÁVEL:} AÇÕES POR SETOR OU REGIÃO\n- EXEMPLO: BANCOS, ENERGIA, VAREJO"
+    },
+    {
+     "titulo": "IMÓVEIS E EXTERIOR",
+     "texto": "- {laranja:IMOBILIÁRIOS:} FUNDOS IMOBILIÁRIOS POR SEGMENTO\n- EXEMPLO: LAJES, GALPÕES, SHOPPINGS\n- {laranja:EXTERIOR:} POR MOEDA OU POR MERCADO\n- EXEMPLO: DÓLAR, EURO · EUA, EUROPA"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:PEGADINHA:} PREFIXADO E IPCA+ SÃO {laranja:SUBCLASSES} DA RENDA FIXA, NÃO CLASSES · {ciano:PARA QUE SERVE:} ENXERGAR ONDE ESTÁ O RISCO E CONTROLAR O PESO DE CADA GRUPO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r24_3_conteudo-3.png",
+   "semente": 2405,
+   "molde": "colunas",
+   "titulo": "FATORES DE RETORNO NO LONGO PRAZO (3/3)",
+   "topo": "{ciano:ESTUDO DE 1986 (BRINSON, HOOD E BEEBOWER):} 91 FUNDOS DE PENSÃO DOS EUA · DADOS TRIMESTRAIS, 1974 A 1983 · R-QUADRADO MÉDIO DE {laranja:93,6%} COM A POLÍTICA DE ALOCAÇÃO",
+   "colunas": [
+    {
+     "titulo": "ALLOCATION",
+     "texto": "- QUANTO EM CADA CLASSE\n- MAIOR PARTE DA VARIABILIDADE\n- {verde:PESA MAIS}"
+    },
+    {
+     "titulo": "TIMING",
+     "texto": "- A HORA DE ENTRAR E DE SAIR\n- IMPACTO LIMITADO\n- {vermelho:DIFÍCIL DE REPETIR}"
+    },
+    {
+     "titulo": "ESCOLHA",
+     "texto": "- QUAL ATIVO DENTRO DA CLASSE\n- PODE AGREGAR VALOR\n- {laranja:DENTRO DA ALOCAÇÃO}"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:CUIDADO:} 93,6% É SOBRE A {laranja:OSCILAÇÃO} DOS RETORNOS NO TEMPO, NÃO SOBRE O NÍVEL DO RETORNO · {ciano:HIERARQUIA:} ESTRUTURA E DISCIPLINA PRIMEIRO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r24_4_dois-ativos.png",
+   "semente": 2406,
+   "molde": "exercicio",
+   "titulo": "DOIS ATIVOS QUE SE COMPENSAM",
+   "dados": "- HIPOTÉTICO: RETORNOS DE 4 ANOS, EM %\n- ATIVO X: +20 · −10 · +20 · −10\n- ATIVO Y: −10 · +20 · −10 · +20\n- X E Y: MÉDIA DE {ciano:5%} E DESVIO PADRÃO DE {ciano:17,32%}\n- A ÚNICA DIFERENÇA: A COMPOSIÇÃO DA CARTEIRA",
+   "cenarios": [
+    {
+     "titulo": "100% EM X",
+     "passos": "ANOS: 20, −10, 20, −10\nMÉDIA: 5%\nDESVIO PADRÃO: 17,32%",
+     "resultado": "RISCO DE 17,32%"
+    },
+    {
+     "titulo": "50% X + 50% Y",
+     "passos": "TODO ANO: 10 − 5 = 5\nMÉDIA: 5%\nDESVIO PADRÃO: 0%",
+     "resultado": "RISCO ZERO"
+    }
+   ],
+   "conclusao": {
+    "texto": "MESMO RETORNO MÉDIO, {verde:RISCO MENOR} · CASO EXTREMO: CORRELAÇÃO {laranja:−1} · COM CORRELAÇÃO ENTRE −1 E +1, O RISCO CAI, MAS NÃO CHEGA A ZERO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
