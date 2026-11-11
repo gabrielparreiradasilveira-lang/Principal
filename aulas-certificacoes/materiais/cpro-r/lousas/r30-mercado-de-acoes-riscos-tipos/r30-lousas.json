@@ -1,0 +1,364 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r30a_1_dinheiro-vai-para-a-empresa.png",
+   "semente": 3001,
+   "molde": "mito_verdade",
+   "titulo": "O DINHEIRO VAI PARA A EMPRESA?",
+   "mitos": [
+    "COMPREI A AÇÃO",
+    "A EMPRESA RECEBEU"
+   ],
+   "verdade": "SÓ EM {laranja:AÇÃO NOVA}",
+   "desenho": {
+    "nome": "loja",
+    "largura": 170
+   },
+   "apoio": "- {ciano:CASO REAL (11/05/2026):} COMPASS (PASS3) ESTREIA NA B3, NO NOVO MERCADO\n- 1º IPO DA BOLSA DESDE 2021 · PREÇO DE {ciano:28 REAIS} · CERCA DE 3,2 BILHÕES\n- OFERTA {laranja:SECUNDÁRIA}: VENDEDORES FORAM SÓCIOS ANTIGOS\n- CAIXA DA COMPANHIA: {vermelho:NADA RECEBEU}\n- OFERTA PRIMÁRIA = AÇÕES NOVAS = CAPTAÇÃO\n- {ciano:4 TEMAS:} PRIMÁRIO · SECUNDÁRIO · IPO · OPA"
+  },
+  {
+   "saida": "r30a_2_inauguracao-e-feira.png",
+   "semente": 3002,
+   "molde": "comparacao",
+   "titulo": "A LOJA COM SÓCIOS",
+   "colunas": [
+    {
+     "titulo": "A INAUGURAÇÃO",
+     "desenho": "loja",
+     "rotulos": [
+      "COTAS",
+      "1ª VENDA"
+     ],
+     "texto": "- LOJA QUE VENDE COTAS → {laranja:COMPANHIA ABERTA}\n- COTA DE SÓCIO → {laranja:AÇÃO}\n- 1ª VENDA AO PÚBLICO → {laranja:IPO}\n- COTA NOVA, CAIXA DA LOJA → {laranja:MERCADO PRIMÁRIO}"
+    },
+    {
+     "titulo": "A FEIRA",
+     "desenho": "barraca_feira",
+     "rotulos": [
+      "SÓCIO",
+      "SÓCIO"
+     ],
+     "texto": "- REVENDA ENTRE SÓCIOS → {verde:MERCADO SECUNDÁRIO}\n- PREÇO DO DIA → {verde:COTAÇÃO}\n- FEIRA CHEIA → {verde:LIQUIDEZ}\n- A LOJA NÃO RECEBE NADA"
+    }
+   ],
+   "faixas": [
+    "{ciano:MEGAFONE NA FEIRA:} \"COMPRO DE TODOS\" → OPA (OFERTA PÚBLICA DE AQUISIÇÃO)",
+    "{ciano:ORGANIZADOR DA INAUGURAÇÃO:} COORDENADOR DA OFERTA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} SÓCIO DE LOJA PEQUENA RESPONDE PELO NEGÓCIO · ACIONISTA TEM {laranja:RESPONSABILIDADE LIMITADA} AO PREÇO DAS AÇÕES",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r30a_3_conteudo-1.png",
+   "semente": 3003,
+   "molde": "colunas",
+   "titulo": "PRIMÁRIO, SECUNDÁRIO E IPO (1/2)",
+   "topo": "{ciano:AÇÃO:} FRAÇÃO DO CAPITAL DE UMA COMPANHIA · RENDA {laranja:VARIÁVEL} · O ACIONISTA É SÓCIO, NÃO CREDOR",
+   "colunas": [
+    {
+     "titulo": "OS 2 MERCADOS",
+     "texto": "- {laranja:PRIMÁRIO:} EMISSÃO · DINHEIRO NO CAIXA\n- EXEMPLOS: IPO COM AÇÕES NOVAS · FOLLOW-ON\n- {laranja:SECUNDÁRIO:} PREGÃO DIÁRIO\n- DINHEIRO VAI PARA O VENDEDOR\n- FUNÇÕES: LIQUIDEZ · PREÇO · EFICIÊNCIA"
+    },
+    {
+     "titulo": "CAMINHO DO IPO",
+     "texto": "- {laranja:1.} REORGANIZAÇÃO SOCIETÁRIA\n- {laranja:2.} AUDITORIAS\n- {laranja:3.} PROSPECTO\n- {laranja:4.} REGISTRO NA CVM (RITO ORDINÁRIO)\n- {laranja:5.} COORDENADORES\n- {laranja:6.} BOOKBUILDING → PREÇO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:PREÇO DO IPO:} CRESCIMENTO · RESULTADOS · SETOR · MERCADO · DEMANDA · {vermelho:PEGADINHA:} MERCADO SECUNDÁRIO ≠ OFERTA SECUNDÁRIA (ESTA É VENDA DE AÇÕES JÁ EXISTENTES POR OFERTA PÚBLICA)",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r30a_3_conteudo-2.png",
+   "semente": 3004,
+   "molde": "colunas",
+   "titulo": "OPA: OFERTA PÚBLICA DE AQUISIÇÃO (2/2)",
+   "topo": "{ciano:OPA:} PROPOSTA FORMAL DE {laranja:COMPRA} DE AÇÕES DE COMPANHIA ABERTA · RESOLUÇÃO CVM 215 · TRANSPARÊNCIA E TRATAMENTO EQUITATIVO",
+   "colunas": [
+    {
+     "titulo": "OBRIGATÓRIAS",
+     "texto": "- {laranja:CANCELAMENTO DE REGISTRO:} FECHAR O CAPITAL · PREÇO JUSTO\n- {laranja:AUMENTO DE PARTICIPAÇÃO} DO CONTROLADOR\n- {laranja:ALIENAÇÃO DE CONTROLE:} TAG ALONG DE 80%"
+    },
+    {
+     "titulo": "FACULTATIVAS",
+     "texto": "- {verde:AQUISIÇÃO DE CONTROLE}\n- {verde:VOLUNTÁRIA}\n- {verde:CONCORRENTE:} TERCEIRO DISPUTA AS MESMAS AÇÕES\n- NASCEM DA INICIATIVA DO OFERTANTE, NÃO DA LEI"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:PREÇO JUSTO (LEI 6.404, ART. 4º):} NO MÍNIMO O VALOR DE AVALIAÇÃO · MINORITÁRIOS PODEM PEDIR REVISÃO · {vermelho:IPO VENDE AO PÚBLICO; OPA COMPRA DO PÚBLICO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r30a_4_tag-along.png",
+   "semente": 3005,
+   "molde": "exercicio",
+   "titulo": "TAG ALONG: 80% OU 100%?",
+   "dados": "- HIPOTÉTICO: 1.000 AÇÕES ORDINÁRIAS NA MÃO DO MINORITÁRIO\n- VENDA DO CONTROLE A {ciano:50 REAIS} POR AÇÃO\n- LEI 6.404, ART. 254-A: PISO DE {ciano:80%}\n- NOVO MERCADO DA B3: {ciano:100%}\n- A ÚNICA DIFERENÇA: O SEGMENTO DE LISTAGEM",
+   "cenarios": [
+    {
+     "titulo": "PISO DA LEI",
+     "passos": "80% DE 50 = 40 POR AÇÃO\n40 × 1.000",
+     "resultado": "40.000 REAIS"
+    },
+    {
+     "titulo": "NOVO MERCADO",
+     "passos": "100% DE 50 = 50 POR AÇÃO\n50 × 1.000",
+     "resultado": "50.000 REAIS"
+    }
+   ],
+   "conclusao": {
+    "texto": "MESMA EMPRESA, MESMO NEGÓCIO: {verde:10.000 REAIS} DE DIFERENÇA · GOVERNANÇA TEM VALOR PARA O MINORITÁRIO · SEM CUSTOS E IMPOSTOS (SIMPLIFICAÇÃO)",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r30b_1_empresa-boa-nao-cai.png",
+   "semente": 3006,
+   "molde": "mito_verdade",
+   "titulo": "AÇÃO DE EMPRESA BOA NÃO CAI?",
+   "mitos": [
+    "EMPRESA BOA",
+    "NÃO CAI"
+   ],
+   "verdade": "MERCADO PUXA {laranja:TODAS}",
+   "desenho": {
+    "nome": "grafico_baixa",
+    "largura": 200
+   },
+   "apoio": "- {ciano:CASO REAL (26/10/2026):} IBOVESPA {vermelho:−10%} · CIRCUIT BREAKER NA B3\n- PREGÃO SEGUINTE AO 2º TURNO DA ELEIÇÃO\n- PAUSA DE 30 MINUTOS NO MERCADO À VISTA\n- ACIONAMENTO ANTERIOR: 18/03/2020\n- MARÇO DE 2020: 6 ACIONAMENTOS EM 5 PREGÕES\n- CAUSA GERAL = {laranja:RISCO DE MERCADO}\n- {ciano:3 TEMAS:} RISCOS · VOLATILIDADE · CORRELAÇÃO"
+  },
+  {
+   "saida": "r30b_2_temporal-na-feira.png",
+   "semente": 3007,
+   "molde": "comparacao",
+   "titulo": "TEMPORAL NA FEIRA",
+   "colunas": [
+    {
+     "titulo": "OS RISCOS",
+     "desenho": "barraca_feira",
+     "rotulos": [
+      "FEIRA",
+      "BANCA"
+     ],
+     "texto": "- TEMPORAL ESVAZIA TUDO → {laranja:MERCADO}\n- BANCA SEM COMPRADOR → {laranja:LIQUIDEZ}\n- APLICAÇÃO SEGURA PAGANDO MAIS → {laranja:JUROS}\n- MERCADORIA EM DÓLAR → {laranja:CAMBIAL}"
+    },
+    {
+     "titulo": "O SOBE E DESCE",
+     "desenho": "montanha_russa",
+     "rotulos": [
+      "ALTA",
+      "BAIXA"
+     ],
+     "texto": "- TAMANHO DO BALANÇO → {verde:VOLATILIDADE}\n- DUAS BANCAS QUE ANDAM JUNTAS → {verde:CORRELAÇÃO ALTA}\n- UMA VENDE NO SOL, OUTRA NA CHUVA → {verde:CORRELAÇÃO BAIXA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:FAMA DA CIDADE DA FEIRA:} RISCO PAÍS",
+    "{ciano:FISCAL QUE MANDA PARAR EM DIA DE PÂNICO:} CIRCUIT BREAKER"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} FEIRA DE RUA FECHA COM CHUVA · A BOLSA SEGUE ABERTA E SÓ PARA EM {laranja:QUEDA EXTREMA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r30b_3_conteudo-1.png",
+   "semente": 3008,
+   "molde": "colunas",
+   "titulo": "AMBIENTE E RISCOS (1/2)",
+   "topo": "{ciano:AMBIENTE DE NEGOCIAÇÃO:} B3 · PREGÃO ELETRÔNICO · ORDEM VIA {laranja:CORRETORA} · LIVRO DE OFERTAS · CÂMARA DA B3 COMO CONTRAPARTE",
+   "colunas": [
+    {
+     "titulo": "RISCOS GERAIS",
+     "texto": "- {laranja:MERCADO:} ECONOMIA, POLÍTICA, FINANÇAS\n- NÃO SE ELIMINA DIVERSIFICANDO ENTRE AÇÕES\n- {laranja:LIQUIDEZ:} POUCO NEGÓCIO, PREÇO PIOR\n- {laranja:PAÍS:} INSTITUIÇÕES, CONTAS PÚBLICAS, POLÍTICA"
+    },
+    {
+     "titulo": "JUROS E CÂMBIO",
+     "texto": "- {laranja:JUROS ↑} → CUSTO DE CAPITAL ↑ → VALUATION ↓\n- RENDA FIXA FICA MAIS ATRAENTE\n- {laranja:DÓLAR ↑:} EXPORTADORA GANHA\n- EMPRESA COM DÍVIDA EM DÓLAR PERDE"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:CIRCUIT BREAKER (IBOVESPA × FECHAMENTO ANTERIOR):} {laranja:−10%} → 30 MIN · {laranja:−15%} → 1 HORA · {laranja:−20%} → PRAZO DEFINIDO PELA B3 · NÃO VALE NA ÚLTIMA MEIA HORA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r30b_3_conteudo-2.png",
+   "semente": 3009,
+   "molde": "colunas",
+   "titulo": "VOLATILIDADE E CORRELAÇÃO (2/2)",
+   "topo": "{ciano:2 MEDIDAS:} VOLATILIDADE OLHA {laranja:UM} ATIVO · CORRELAÇÃO OLHA {laranja:DOIS} ATIVOS, UM CONTRA O OUTRO",
+   "colunas": [
+    {
+     "titulo": "VOLATILIDADE",
+     "texto": "- INTENSIDADE DO SOBE E DESCE\n- MEDIDA: {laranja:DESVIO PADRÃO}\n- VALE PARA ALTA E PARA BAIXA\n- NA HP12C: TECLAS Σ+ E g s\n- MAIS VOLÁTIL → MAIS PRAZO"
+    },
+    {
+     "titulo": "CORRELAÇÃO",
+     "texto": "- {vermelho:+1:} JUNTOS, SEMPRE\n- {laranja:0:} SEM RELAÇÃO CLARA\n- {verde:−1:} SENTIDOS OPOSTOS\n- QUANTO MENOR, MAIS REDUZ O RISCO DA CARTEIRA\n- NÃO É FIXA: MUDA COM O TEMPO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:CRISE (MARÇO DE 2020):} IBOVESPA {vermelho:−29,9%} NO MÊS · AS CORRELAÇÕES SOBEM · {vermelho:VOLATILIDADE ≠ PREJUÍZO:} PREJUÍZO SÓ EXISTE NA VENDA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r30b_4_mesma-media.png",
+   "semente": 3010,
+   "molde": "exercicio",
+   "titulo": "MESMA MÉDIA, BALANÇOS DIFERENTES",
+   "dados": "- HIPOTÉTICO: RETORNOS DE 5 MESES, EM %\n- AÇÃO A: +2 · −1 · +3 · 0 · +1\n- AÇÃO B: +8 · −6 · +10 · −4 · −3\n- SOMA DOS 5 MESES: {ciano:5} NAS DUAS\n- A ÚNICA DIFERENÇA: O TAMANHO DAS OSCILAÇÕES",
+   "cenarios": [
+    {
+     "titulo": "AÇÃO A",
+     "passos": "MÉDIA: 1% AO MÊS\nMELHOR MÊS: +3%\nPIOR MÊS: −1%",
+     "resultado": "DESVIO: 1,58"
+    },
+    {
+     "titulo": "AÇÃO B",
+     "passos": "MÉDIA: 1% AO MÊS\nMELHOR MÊS: +10%\nPIOR MÊS: −6%",
+     "resultado": "DESVIO: 7,42"
+    }
+   ],
+   "conclusao": {
+    "texto": "7,42 ÷ 1,58 = {laranja:4,7 VEZES} MAIS OSCILAÇÃO · MÉDIA IGUAL NÃO É RISCO IGUAL · AMOSTRA PEQUENA, SÓ PARA A CONTA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r30c_1_toda-acao-vota.png",
+   "semente": 3011,
+   "molde": "mito_verdade",
+   "titulo": "TODA AÇÃO DÁ DIREITO A VOTO?",
+   "mitos": [
+    "TODA AÇÃO",
+    "VOTA"
+   ],
+   "verdade": "ON VOTA · {laranja:PN} EM GERAL NÃO",
+   "desenho": {
+    "nome": "cracha_fiscal",
+    "largura": 110
+   },
+   "apoio": "- {ciano:CASO REAL:} COMPASS, NA B3 DESDE 11/05/2026 · CÓDIGO {ciano:PASS3}\n- FINAL 3 = ORDINÁRIA (ON)\n- NOVO MERCADO: CAPITAL 100% EM ORDINÁRIAS\n- FINAL 4 = PREFERENCIAL (PN)\n- PN TROCA O VOTO POR {laranja:PREFERÊNCIA ECONÔMICA}\n- LIMITE LEGAL DE PN SEM VOTO: 50% DAS AÇÕES\n- TODAS, ON E PN, SÃO NOMINATIVAS\n- {ciano:4 TEMAS:} MERCADO À VISTA · ON · PN · NOMINATIVA"
+  },
+  {
+   "saida": "r30c_2_crachas-de-socio.png",
+   "semente": 3012,
+   "molde": "comparacao",
+   "titulo": "OS CRACHÁS DE SÓCIO",
+   "colunas": [
+    {
+     "titulo": "QUEM VOTA",
+     "desenho": "cracha_fiscal",
+     "rotulos": [
+      "VOTO",
+      "ON"
+     ],
+     "texto": "- CRACHÁ COM VOTO → {laranja:AÇÃO ORDINÁRIA}\n- REUNIÃO DA LOJA → {laranja:ASSEMBLEIA}\n- QUEM JUNTA MAIS VOTOS → {laranja:CONTROLADOR}\n- LOJA VENDIDA: LEVA JUNTO → {laranja:TAG ALONG}"
+    },
+    {
+     "titulo": "QUEM RECEBE ANTES",
+     "desenho": "dinheiro",
+     "rotulos": [
+      "LUCRO",
+      "PN"
+     ],
+     "texto": "- 1º NA FILA DO LUCRO → {verde:AÇÃO PREFERENCIAL}\n- PARTE DO LUCRO → {verde:DIVIDENDO}\n- SEM VOTO, EM GERAL\n- SEM LUCRO, SEM DIVIDENDO"
+    }
+   ],
+   "faixas": [
+    "{ciano:NOME DO DONO NO CRACHÁ:} AÇÃO NOMINATIVA",
+    "{ciano:COMPRA NA FEIRA, ACERTO 2 DIAS ÚTEIS DEPOIS:} MERCADO À VISTA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} FILA NA FRENTE NÃO É PROMESSA DE PAGAMENTO · {laranja:PREFERÊNCIA ≠ GARANTIA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r30c_3_conteudo-1.png",
+   "semente": 3013,
+   "molde": "colunas",
+   "titulo": "MERCADO À VISTA E ORDINÁRIAS (1/2)",
+   "topo": "{ciano:MERCADO À VISTA:} COMPRA E VENDA COM ENTREGA E PAGAMENTO LOGO APÓS O NEGÓCIO · {laranja:TERMO, FUTURO E OPÇÕES} SÃO OUTROS MERCADOS (R33)",
+   "colunas": [
+    {
+     "titulo": "LIQUIDAÇÃO",
+     "texto": "- {laranja:D+0:} DIA DO NEGÓCIO\n- {laranja:D+2:} PAGAMENTO E ENTREGA\n- CONTAGEM EM DIAS ÚTEIS\n- PROJETO DA B3: D+1 EM FEVEREIRO DE 2028\n- GARANTIA: CÂMARA DA B3"
+    },
+    {
+     "titulo": "ORDINÁRIA (ON)",
+     "texto": "- 1 AÇÃO = 1 VOTO, EM REGRA\n- ELEGE ADMINISTRADORES\n- TAG ALONG LEGAL DE 80%\n- {laranja:VOTO PLURAL:} ATÉ 10 VOTOS POR AÇÃO\n- LEI 14.195, DE 26/08/2021"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:VOTO PLURAL NA COMPANHIA ABERTA:} SÓ SE A CLASSE FOR CRIADA {laranja:ANTES} DA NEGOCIAÇÃO EM BOLSA · {vermelho:CÓDIGOS:} 3 = ON · 4 = PN · 11 = UNIT",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r30c_3_conteudo-2.png",
+   "semente": 3014,
+   "molde": "colunas",
+   "titulo": "PREFERENCIAIS E NOMINATIVAS (2/2)",
+   "topo": "{ciano:PREFERENCIAL (PN):} SEM VOTO OU COM VOTO RESTRITO · TETO DE {laranja:50%} DAS AÇÕES EMITIDAS (LEI 6.404, ART. 15)",
+   "colunas": [
+    {
+     "titulo": "VANTAGENS DA PN",
+     "texto": "- PRIORIDADE NO DIVIDENDO\n- PRIORIDADE NO REEMBOLSO\n- {laranja:PARA NEGOCIAR EM BOLSA, 1 DE 3:}\n- DIVIDENDO SOBRE 25% DO LUCRO\n- DIVIDENDO 10% ACIMA DA ON\n- TAG ALONG IGUAL AO DA ON"
+    },
+    {
+     "titulo": "NOMINATIVA",
+     "texto": "- REGISTRO NO NOME DO TITULAR\n- OBRIGATÓRIA (ART. 20)\n- AO PORTADOR: {vermelho:EXTINTA}\n- NA BOLSA: {laranja:ESCRITURAL}\n- CONTA DE DEPÓSITO, SEM CERTIFICADO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:PN GANHA VOTO:} SEM DIVIDENDO FIXO OU MÍNIMO POR ATÉ {laranja:3 EXERCÍCIOS} SEGUIDOS · {vermelho:ESPÉCIE} (ON, PN) NÃO É {vermelho:FORMA} (NOMINATIVA)",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r30c_4_on-ou-pn.png",
+   "semente": 3015,
+   "molde": "exercicio",
+   "titulo": "ON OU PN: QUANTO DE DIVIDENDO?",
+   "dados": "- HIPOTÉTICO: 1.000 AÇÕES NA CARTEIRA\n- DIVIDENDO DA ORDINÁRIA: {ciano:2,00} POR AÇÃO\n- PN SEM VOTO, COM DIVIDENDO {ciano:10%} MAIOR\n- A ÚNICA DIFERENÇA: A ESPÉCIE DA AÇÃO\n- OUTRAS PN TÊM VANTAGENS DIFERENTES (SIMPLIFICAÇÃO)",
+   "cenarios": [
+    {
+     "titulo": "1.000 ON",
+     "passos": "2,00 × 1.000\nCOM VOTO",
+     "resultado": "2.000 REAIS"
+    },
+    {
+     "titulo": "1.000 PN",
+     "passos": "2,00 + 10% = 2,20\n2,20 × 1.000\nSEM VOTO",
+     "resultado": "2.200 REAIS"
+    }
+   ],
+   "conclusao": {
+    "texto": "{verde:200 REAIS} A MAIS NA PN · O PREÇO DISSO É O VOTO · PARA O PEQUENO INVESTIDOR, PESA MAIS O DIVIDENDO; PARA O CONTROLE, O VOTO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
