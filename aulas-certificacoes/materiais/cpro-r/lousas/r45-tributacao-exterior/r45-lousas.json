@@ -1,0 +1,589 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "molde": "mito_verdade",
+   "saida": "r45a_1_residencia.png",
+   "semente": 4501,
+   "titulo": "INVESTIR LÁ FORA DÁ RESIDÊNCIA?",
+   "mitos": [
+    "INVESTIR LÁ FORA = RESIDENTE",
+    "CONTA NO EXTERIOR DEFINE RESIDÊNCIA"
+   ],
+   "verdade": "RESIDÊNCIA: {verde:CRITÉRIOS DA RECEITA}, NÃO O {laranja:INVESTIMENTO}",
+   "desenho": {
+    "nome": "pessoa",
+    "largura": 110
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} VISTO TEMPORÁRIO, 150 DIAS NO BRASIL\n- 150 < 184: {vermelho:NÃO RESIDENTE} POR ESSE CRITÉRIO\n- A CONTA LÁ FORA {laranja:NÃO MUDA ISSO}\n- {ciano:P&R 114:} CARÁTER PERMANENTE, VISTO, 184 DIAS\n- RESIDENTE: TRIBUTADO SOBRE A {verde:RENDA MUNDIAL}\n- {ciano:REGRA:} PRIMEIRO A RESIDÊNCIA, DEPOIS O IMPOSTO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r45a_2_pomar.png",
+   "semente": 4502,
+   "titulo": "O POMAR NO EXTERIOR",
+   "colunas": [
+    {
+     "titulo": "A PLACA DO DONO",
+     "desenho": "placa",
+     "rotulos": [
+      "RESIDENTE",
+      "NO BRASIL"
+     ],
+     "texto": "- PLACA → {verde:RESIDÊNCIA FISCAL}\n- FISCAL DAQUI → {laranja:RECEITA FEDERAL}\n- POMAR LÁ FORA → {laranja:ATIVOS NO EXTERIOR}\n- CADERNO PRÓPRIO → {laranja:FICHA SEPARADA}"
+    },
+    {
+     "titulo": "AS ÁRVORES",
+     "desenho": "moeda",
+     "rotulos": [
+      "APLICAÇÕES",
+      "FINANCEIRAS"
+     ],
+     "texto": "- ÁRVORE → {verde:APLICAÇÃO FINANCEIRA}\n- FRUTA → {laranja:RENDIMENTO}\n- JUROS, DIVIDENDOS, GANHOS\n- E A {laranja:VARIAÇÃO CAMBIAL}"
+    }
+   ],
+   "faixas": [
+    "{ciano:LEI 14.754/2023:} VALE DESDE {laranja:01/01/2024} · INVESTIMENTO DIRETO (R45) E OFFSHORE (R46)",
+    "{ciano:GALPÃO FECHADO:} {laranja:ENTIDADE CONTROLADA NO EXTERIOR} · OUTRAS REGRAS, NA R46"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} A PLACA SE TROCA NUM DIA · A RESIDÊNCIA SEGUE {laranja:PRAZO E TIPO DE VISTO}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r45a_3_aspectos.png",
+   "semente": 4503,
+   "titulo": "ASPECTOS GERAIS",
+   "topo": "{ciano:LEI 14.754/2023:} RESIDENTE NO BRASIL: {laranja:RENDA MUNDIAL} TRIBUTADA AQUI · EM VIGOR DESDE 2024",
+   "colunas": [
+    {
+     "titulo": "QUEM É RESIDENTE",
+     "texto": "- MORA AQUI EM {laranja:CARÁTER PERMANENTE}\n- CHEGA COM {laranja:VISTO PERMANENTE}\n- VISTO TEMPORÁRIO: {laranja:184 DIAS}\n- EM 12 MESES, SEGUIDOS OU NÃO\n- SAIU SEM {vermelho:SAÍDA DEFINITIVA}: 12 MESES"
+    },
+    {
+     "titulo": "APLICAÇÃO FINANCEIRA",
+     "texto": "- CONTA E CARTEIRA {laranja:REMUNERADAS}\n- PARTICIPAÇÃO {laranja:SEM CONTROLE}\n- COTAS DE FUNDOS E DE ETFs\n- TÍTULOS, DERIVATIVOS, {laranja:CRIPTO}\n- SEGURO E PREVIDÊNCIA RESGATÁVEIS"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:É COMUM LER:} RESIDENTE = QUEM INVESTE LÁ FORA · {vermelho:ATENÇÃO:} O INVESTIMENTO {laranja:NÃO DEFINE} A RESIDÊNCIA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r45a_4_184dias.png",
+   "semente": 4504,
+   "titulo": "RESIDENTE OU NÃO?",
+   "dados": "- ESTRANGEIRO COM {laranja:VISTO TEMPORÁRIO} (HIPOTÉTICO)\n- SEM VÍNCULO DE EMPREGO NO BRASIL\n- INVESTIMENTOS NUMA CORRETORA LÁ FORA\n- CONTAGEM: DENTRO DE {ciano:12 MESES}\n- A ÚNICA DIFERENÇA: OS DIAS NO BRASIL",
+   "cenarios": [
+    {
+     "titulo": "120 DIAS",
+     "passos": "120 < 184\nCRITÉRIO DOS DIAS\nNÃO ATINGIDO",
+     "resultado": "NÃO RESIDENTE"
+    },
+    {
+     "titulo": "200 DIAS",
+     "passos": "200 > 184\nCRITÉRIO DOS DIAS\nATINGIDO",
+     "resultado": "RESIDENTE FISCAL"
+    }
+   ],
+   "conclusao": {
+    "texto": "RESIDENTE: {laranja:RENDA MUNDIAL} TRIBUTADA AQUI, INCLUSIVE AS APLICAÇÕES NO EXTERIOR · 183 DIAS AINDA NÃO BASTAM",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r45b_1_sem-trazer.png",
+   "semente": 4511,
+   "titulo": "SEM TRAZER, SEM IMPOSTO?",
+   "mitos": [
+    "DINHEIRO LÁ FORA = SEM IMPOSTO",
+    "SÓ PAGA QUANDO REMETE"
+   ],
+   "verdade": "NASCE NA {verde:VENDA} OU NO {verde:RECEBIMENTO}",
+   "desenho": {
+    "nome": "dinheiro",
+    "largura": 110
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} ETF VENDIDO COM LUCRO\n- DÓLARES {laranja:FICAM NA CORRETORA} DE FORA\n- IMPOSTO NO ANO DA VENDA: {vermelho:SIM}\n- TRAZER OU NÃO: {laranja:NÃO MUDA O FATO GERADOR}\n- {ciano:LEI 14.754, ART. 3º:} RENDIMENTO EFETIVAMENTE RECEBIDO\n- {ciano:REGRA:} O QUE CONTA É A COLHEITA, NÃO A REMESSA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r45b_2_colheita.png",
+   "semente": 4512,
+   "titulo": "A FRUTA COLHIDA",
+   "colunas": [
+    {
+     "titulo": "O QUE O FISCAL CONTA",
+     "desenho": "balanca",
+     "rotulos": [
+      "FRUTA",
+      "COLHIDA"
+     ],
+     "texto": "- JURO CREDITADO → {verde:RECEBIMENTO}\n- VENDA OU RESGATE → {verde:GANHO REALIZADO}\n- VENCIMENTO, AMORTIZAÇÃO\n- LIQUIDAÇÃO → {laranja:TAMBÉM TRIBUTA}"
+    },
+    {
+     "titulo": "O QUE FICA DE FORA",
+     "desenho": "cofrinho",
+     "rotulos": [
+      "NO PÉ",
+      "OU PARADO"
+     ],
+     "texto": "- FRUTA NO PÉ → {laranja:VALORIZAÇÃO NÃO VENDIDA}\n- COFRE SEM JUROS → {verde:CONTA NÃO REMUNERADA}\n- NOTAS NO BOLSO → {verde:ESPÉCIE ATÉ 5 MIL DÓLARES}\n- LIMITE DA ESPÉCIE: {laranja:VENDAS NO ANO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ISENÇÃO DO DEPÓSITO:} SÓ SE {laranja:NÃO REMUNERADO} E EM INSTITUIÇÃO {laranja:RECONHECIDA E AUTORIZADA} LÁ FORA",
+    "{ciano:CONTA QUE RENDE JUROS:} É {laranja:APLICAÇÃO FINANCEIRA} · O JURO É {vermelho:RENDIMENTO TRIBUTÁVEL}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} FRUTA TEM PESO FIXO · EM REAIS, A COLHEITA {laranja:DEPENDE DO CÂMBIO DO DIA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r45b_3_fato-gerador.png",
+   "semente": 4513,
+   "titulo": "FATO GERADOR",
+   "topo": "{ciano:LEI 14.754, ART. 3º:} TRIBUTAÇÃO NO PERÍODO DO {laranja:RECEBIMENTO EFETIVO} DO RENDIMENTO",
+   "colunas": [
+    {
+     "titulo": "QUANDO TRIBUTA",
+     "texto": "- JUROS: {laranja:NO RECEBIMENTO}\n- GANHO: RESGATE, AMORTIZAÇÃO\n- VENDA, VENCIMENTO, LIQUIDAÇÃO\n- CÂMBIO DO PRINCIPAL: {laranja:NA SAÍDA}\n- NÃO VENDEU: {verde:AINDA NÃO}"
+    },
+    {
+     "titulo": "CÂMBIO ISENTO (ART. 2º)",
+     "texto": "- DEPÓSITO {verde:NÃO REMUNERADO}\n- EM CONTA-CORRENTE OU CARTÃO\n- EM INSTITUIÇÃO {laranja:AUTORIZADA}\n- ESPÉCIE: LIMITE DE {laranja:5 MIL DÓLARES}\n- SOMA DAS VENDAS NO ANO-CALENDÁRIO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} DIRETO = {laranja:TRIBUTA NA SAÍDA} · OFFSHORE CONTROLADA (R46) PODE TRIBUTAR {vermelho:SEM DISTRIBUIR}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r45b_4_no-pe.png",
+   "semente": 4514,
+   "titulo": "VENDER OU DEIXAR NO PÉ?",
+   "dados": "- COMPRA: {ciano:10 MIL DÓLARES} A R$ 5,00 (HIPOTÉTICO)\n- HOJE: 12 MIL DÓLARES A R$ 5,20\n- CUSTO: 50.000 REAIS · HOJE: 62.400 REAIS\n- SEM CUSTOS, UMA SÓ OPERAÇÃO\n- A ÚNICA DIFERENÇA: VENDER OU NÃO",
+   "cenarios": [
+    {
+     "titulo": "NÃO VENDE",
+     "passos": "VALORIZAÇÃO: 12.400\nFRUTA NO PÉ\nSEM FATO GERADOR",
+     "resultado": "IMPOSTO: ZERO"
+    },
+    {
+     "titulo": "VENDE EM DEZEMBRO",
+     "passos": "62.400 − 50.000\nGANHO: 12.400\n× 15%",
+     "resultado": "R$ 1.860"
+    }
+   ],
+   "conclusao": {
+    "texto": "DÓLARES PARADOS NA CORRETORA LÁ FORA {vermelho:NÃO ADIAM} O IMPOSTO · O ANO DA VENDA DEFINE O ANO DA DECLARAÇÃO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r45c_1_35mil.png",
+   "semente": 4521,
+   "titulo": "ISENÇÃO DE 35 MIL LÁ FORA?",
+   "mitos": [
+    "VENDA DE ATÉ 35 MIL = ISENTA",
+    "20 MIL DA B3 VALE LÁ FORA"
+   ],
+   "verdade": "DESDE 2024: {verde:SEM ISENÇÃO} DE PEQUENO VALOR",
+   "desenho": {
+    "nome": "balanca",
+    "largura": 120
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} 30 MIL REAIS VENDIDOS NUM MÊS\n- LUCRO NA VENDA: {vermelho:TRIBUTÁVEL}\n- 35 MIL POR MÊS: {laranja:REGRA ANTIGA}\n- 20 MIL POR MÊS: AÇÕES {laranja:NA B3}\n- {ciano:P&R 641:} SEM LIMITE DE ISENÇÃO NO EXTERIOR\n- {ciano:REGRA:} TODO GANHO VAI PARA A BALANÇA DE 15%"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r45c_2_balanca.png",
+   "semente": 4522,
+   "titulo": "A BALANÇA E O PLACAR",
+   "colunas": [
+    {
+     "titulo": "A BALANÇA ÚNICA",
+     "desenho": "balanca",
+     "rotulos": [
+      "15%",
+      "DA SAFRA"
+     ],
+     "texto": "- TODA A SAFRA → {verde:SOMA DO ANO}\n- JUROS, DIVIDENDOS, CUPONS\n- VENCIMENTOS E GANHOS\n- SEM DESCONTO → {laranja:SEM DEDUÇÃO}\n- ALÍQUOTA → {verde:15% NO AJUSTE ANUAL}"
+    },
+    {
+     "titulo": "O PLACAR DE CÂMBIO",
+     "desenho": "placar",
+     "rotulos": [
+      "PTAX",
+      "DO DIA"
+     ],
+     "texto": "- PLACAR → {verde:PTAX DE VENDA}\n- ENTRADA → {laranja:COTAÇÃO DA COMPRA}\n- SAÍDA → {laranja:COTAÇÃO DA VENDA}\n- RECEBIMENTO → {laranja:COTAÇÃO DO DIA}\n- FONTE → {laranja:BANCO CENTRAL}"
+    }
+   ],
+   "faixas": [
+    "{ciano:GANHO EM REAIS:} {laranja:GANHO DO ATIVO} + {laranja:GANHO DO CÂMBIO} · OS DOIS ENTRAM NA BASE",
+    "{ciano:IMPOSTO PAGO LÁ FORA (R45E):} CONVERTIDO PELA {vermelho:COTAÇÃO DE COMPRA}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} PESO NÃO MUDA COM A DATA · O DÓLAR {laranja:VALE MAIS OU MENOS REAIS} A CADA DIA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r45c_3_base.png",
+   "semente": 4523,
+   "titulo": "BASE, ALÍQUOTA E CÂMBIO",
+   "topo": "{ciano:LEI 14.754, ART. 2º, § 1º:} {laranja:15%} NO AJUSTE ANUAL · {vermelho:NENHUMA DEDUÇÃO} DA BASE",
+   "colunas": [
+    {
+     "titulo": "A CONVERSÃO",
+     "texto": "- {laranja:PTAX DE VENDA} DO BC\n- NA DATA DE CADA OPERAÇÃO\n- CUSTO: COTAÇÃO DA COMPRA\n- VENDA: COTAÇÃO DA VENDA\n- {ciano:P&R 171 E 474}"
+    },
+    {
+     "titulo": "SEM PEQUENO VALOR",
+     "texto": "- 35 MIL/MÊS: {vermelho:REGRA ANTIGA}\n- 20 MIL/MÊS: {laranja:SÓ NA B3}\n- EXTERIOR: {verde:TUDO NA BASE}\n- DESDE {laranja:2024}\n- {ciano:P&R 641}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:CASO-LIMITE:} ATIVO PARADO EM DÓLAR + DÓLAR EM ALTA = {vermelho:GANHO TRIBUTÁVEL} SÓ DE CÂMBIO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r45c_4_etf.png",
+   "semente": 4524,
+   "titulo": "QUANTO É SÓ DO DÓLAR?",
+   "dados": "- 100 COTAS DE ETF A {ciano:400 DÓLARES} (HIPOTÉTICO)\n- PTAX NA COMPRA: R$ 5,00 · NA VENDA: 5,50\n- CUSTO EM REAIS: 200.000\n- SEM CUSTOS E SEM IOF\n- A ÚNICA DIFERENÇA: O PREÇO DE VENDA",
+   "cenarios": [
+    {
+     "titulo": "VENDE A 440 DÓLARES",
+     "passos": "242.000 − 200.000\nATIVO 22.000 + CÂMBIO 20.000\n15% DE 42.000",
+     "resultado": "IR: R$ 6.300"
+    },
+    {
+     "titulo": "VENDE A 400 DÓLARES",
+     "passos": "220.000 − 200.000\nATIVO ZERO + CÂMBIO 20.000\n15% DE 20.000",
+     "resultado": "IR: R$ 3.000"
+    }
+   ],
+   "conclusao": {
+    "texto": "O ETF {laranja:NÃO SUBIU} EM DÓLAR NO CENÁRIO 2 E AINDA ASSIM HÁ IMPOSTO: {vermelho:O CÂMBIO DO PRINCIPAL ENTRA NO GANHO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r45d_1_perda.png",
+   "semente": 4531,
+   "titulo": "PERDA LÁ FORA SE PERDE?",
+   "mitos": [
+    "PERDA NO EXTERIOR NÃO COMPENSA",
+    "PREJUÍZO DO ANO SE PERDE"
+   ],
+   "verdade": "PERDA {verde:COMPENSA} E O SALDO {verde:PASSA ADIANTE}",
+   "desenho": {
+    "nome": "grafico_baixa",
+    "largura": 120
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} PERDA DE 50 MIL, GANHO DE 42 MIL\n- MESMO ANO: BASE {verde:ZERO}\n- SOBRA DE 8 MIL: {laranja:VAI PARA O ANO SEGUINTE}\n- {ciano:LEI 14.754, ART. 9º}\n- CONDIÇÃO: {vermelho:DOCUMENTAÇÃO} DA PERDA\n- {ciano:REGRA:} CADA PERDA É USADA UMA ÚNICA VEZ"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r45d_2_fruta-podre.png",
+   "semente": 4532,
+   "titulo": "FRUTA PODRE E CASA DE CAMPO",
+   "colunas": [
+    {
+     "titulo": "A FRUTA PODRE",
+     "desenho": "grafico_baixa",
+     "rotulos": [
+      "PERDA",
+      "REALIZADA"
+     ],
+     "texto": "- FRUTA PODRE → {vermelho:PERDA NA VENDA}\n- SINAL DE MENOS → {verde:ABATE O ANO}\n- SOBRA ANOTADA → {laranja:ANOS SEGUINTES}\n- NOTA GUARDADA → {laranja:COMPROVAÇÃO}\n- UMA VEZ SÓ → {vermelho:SEM REPETIR}"
+    },
+    {
+     "titulo": "A CASA DE CAMPO",
+     "desenho": "casa",
+     "rotulos": [
+      "OUTRA",
+      "BALANÇA"
+     ],
+     "texto": "- CASA → {laranja:IMÓVEL NO EXTERIOR}\n- NÃO É APLICAÇÃO FINANCEIRA\n- OUTRA BALANÇA → {laranja:GANHO DE CAPITAL}\n- TABELA → {vermelho:15% A 22,5%}\n- PAGAMENTO → {laranja:MÊS SEGUINTE}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ORDEM DA COMPENSAÇÃO:} 1) GANHOS DO ANO · 2) LUCROS DE {laranja:CONTROLADAS} · 3) {laranja:ANOS SEGUINTES}",
+    "{ciano:IMÓVEL LÁ FORA:} LEI 8.981, ART. 21 · {laranja:FORA DA BALANÇA ANUAL} DE 15%"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} FRUTA PODRE VAI PARA O LIXO · PERDA DOCUMENTADA VIRA {verde:CRÉDITO FUTURO}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r45d_3_compensacao.png",
+   "semente": 4533,
+   "titulo": "PERDAS E OUTROS BENS",
+   "topo": "{ciano:LEI 14.754, ART. 9º:} PERDAS DE APLICAÇÕES NO EXTERIOR {verde:COMPENSAM}, NUMA {laranja:ORDEM FIXA}",
+   "colunas": [
+    {
+     "titulo": "A COMPENSAÇÃO",
+     "texto": "- 1º: GANHOS {laranja:DO MESMO ANO}\n- 2º: LUCROS DE {laranja:CONTROLADAS}\n- 3º: {laranja:ANOS SEGUINTES}\n- UMA ÚNICA VEZ POR PERDA\n- COM {vermelho:DOCUMENTAÇÃO}"
+    },
+    {
+     "titulo": "NÃO É APLICAÇÃO",
+     "texto": "- EX.: {laranja:IMÓVEL} NO EXTERIOR\n- {ciano:ART. 2º, § 2º}\n- GANHO DE CAPITAL\n- {laranja:15% A 22,5%}\n- {ciano:LEI 8.981, ART. 21}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:É COMUM LER:} GANHO NA VENDA DE {laranja:AÇÕES OU OUTROS ATIVOS} SEMPRE A 15% · {vermelho:ATENÇÃO:} VALE PARA {verde:APLICAÇÕES FINANCEIRAS}; IMÓVEL SEGUE O GANHO DE CAPITAL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r45d_4_compensa.png",
+   "semente": 4534,
+   "titulo": "COMPENSAR OU NÃO?",
+   "dados": "- ANO 1: GANHO {ciano:42.000} NUM ETF (HIPOTÉTICO)\n- ANO 1: PERDA {vermelho:50.000} NUMA AÇÃO\n- ANO 2: RENDIMENTOS DE {ciano:20.000}\n- VALORES EM REAIS, JÁ CONVERTIDOS\n- A ÚNICA DIFERENÇA: COMPENSAR A PERDA",
+   "cenarios": [
+    {
+     "titulo": "COMPENSA",
+     "passos": "ANO 1: SALDO −8.000\nANO 2: 20.000 − 8.000\n15% DE 12.000",
+     "resultado": "TOTAL: R$ 1.800"
+    },
+    {
+     "titulo": "NÃO COMPENSA",
+     "passos": "ANO 1: 15% DE 42.000\nANO 2: 15% DE 20.000\n6.300 + 3.000",
+     "resultado": "TOTAL: R$ 9.300"
+    }
+   ],
+   "conclusao": {
+    "texto": "DIFERENÇA DE {verde:R$ 7.500} NOS DOIS ANOS · SEM {vermelho:NOTA DE COMPRA E VENDA}, A PERDA NÃO SE PROVA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r45e_1_devolucao.png",
+   "semente": 4541,
+   "titulo": "O EXCESSO VOLTA?",
+   "mitos": [
+    "PAGOU MAIS LÁ FORA = DEVOLUÇÃO",
+    "EXCESSO VAI PARA O ANO SEGUINTE"
+   ],
+   "verdade": "DEDUZ {laranja:ATÉ O IMPOSTO DAQUI}",
+   "desenho": {
+    "nome": "cracha_fiscal",
+    "largura": 110
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} DIVIDENDO AMERICANO\n- RETIDO NOS EUA: {vermelho:30%}\n- IMPOSTO BRASILEIRO: {laranja:15%}\n- DEDUÇÃO: ATÉ OS 15% DAQUI\n- OS OUTROS 15 PONTOS: {vermelho:NÃO VOLTAM}\n- {ciano:REGRA:} LEI 14.754, ART. 4º"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r45e_2_recibo.png",
+   "semente": 4542,
+   "titulo": "O RECIBO DO FISCAL",
+   "colunas": [
+    {
+     "titulo": "O RECIBO",
+     "desenho": "prancheta",
+     "rotulos": [
+      "IMPOSTO",
+      "PAGO LÁ FORA"
+     ],
+     "texto": "- RECIBO → {verde:IMPOSTO PAGO NO EXTERIOR}\n- ACORDO → {laranja:TRATADO CONTRA DUPLA}\n- OU → {laranja:RECIPROCIDADE}\n- REEMBOLSÁVEL → {vermelho:NÃO VALE}\n- EUA → {laranja:RECIPROCIDADE ACEITA}"
+    },
+    {
+     "titulo": "ATÉ O LIMITE",
+     "desenho": "balanca",
+     "rotulos": [
+      "TETO",
+      "DAQUI"
+     ],
+     "texto": "- DESCONTO → {verde:DEDUÇÃO NO AJUSTE}\n- TETO → {laranja:IMPOSTO BRASILEIRO}\n- EXCESSO → {vermelho:NÃO VOLTA}\n- PRÓXIMA SAFRA → {vermelho:NÃO LEVA}\n- 30% LÁ, 15% AQUI → {vermelho:SOBRAM 15 PONTOS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:QUEM LEVA A CONTA:} O {laranja:PRÓPRIO INVESTIDOR}, NA DECLARAÇÃO · SEM RETENÇÃO NO BRASIL",
+    "{ciano:CONVERSÃO:} {laranja:COTAÇÃO DE COMPRA} DO BC NA DATA DO PAGAMENTO LÁ FORA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O RECIBO VALE O QUE ESTÁ ESCRITO · O IMPOSTO LÁ FORA {laranja:VIRA REAIS PELA COTAÇÃO}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r45e_3_deducao.png",
+   "semente": 4543,
+   "titulo": "IMPOSTO PAGO LÁ FORA",
+   "topo": "{ciano:QUEM RECOLHE:} O {laranja:PRÓPRIO INVESTIDOR}, NO AJUSTE ANUAL · NENHUMA RETENÇÃO NO BRASIL",
+   "colunas": [
+    {
+     "titulo": "AS 4 REGRAS (ART. 4º)",
+     "texto": "- ACORDO {laranja:OU RECIPROCIDADE}\n- TETO: {laranja:IMPOSTO DAQUI}\n- EXCESSO: {vermelho:SEM DEVOLUÇÃO}\n- REEMBOLSÁVEL: {vermelho:NÃO DEDUZ}\n- {laranja:PTAX DE COMPRA} DO DIA"
+    },
+    {
+     "titulo": "ESTADOS UNIDOS",
+     "texto": "- SEM ACORDO COM O BRASIL\n- {verde:RECIPROCIDADE} RECONHECIDA\n- {ciano:P&R 136}: SEM PROVA\n- IDEM: ALEMANHA, REINO UNIDO\n- DIVIDENDO: RETENÇÃO {vermelho:30%}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:VIZINHO QUE CONFUNDE:} {laranja:IOF DA REMESSA} É IMPOSTO BRASILEIRO · {vermelho:NÃO ABATE} O IMPOSTO DE RENDA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r45e_4_retencao.png",
+   "semente": 4544,
+   "titulo": "30% OU 10% RETIDOS?",
+   "dados": "- DIVIDENDO DE {ciano:1.000 DÓLARES} (HIPOTÉTICO)\n- PTAX VENDA 5,50 · PTAX COMPRA 5,49\n- BRUTO: 5.500 REAIS · IR DAQUI: 825\n- UM SÓ DIVIDENDO, SEM CUSTOS\n- A ÚNICA DIFERENÇA: A RETENÇÃO LÁ FORA",
+   "cenarios": [
+    {
+     "titulo": "RETÉM 30% (EUA)",
+     "passos": "300 × 5,49 = 1.647\nDEDUÇÃO PARA EM 825\nEXCESSO: 822",
+     "resultado": "PAGA AQUI: ZERO"
+    },
+    {
+     "titulo": "RETÉM 10% (HIPOTÉTICO)",
+     "passos": "100 × 5,49 = 549\n825 − 549\nCOMPLETA NO BRASIL",
+     "resultado": "PAGA AQUI: R$ 276"
+    }
+   ],
+   "conclusao": {
+    "texto": "CARGA TOTAL: {vermelho:PERTO DE 30%} NO CENÁRIO 1 E {verde:15%} NO CENÁRIO 2 · O TETO É O IMPOSTO DAQUI",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r45f_1_darf.png",
+   "semente": 4551,
+   "titulo": "DARF TODO MÊS?",
+   "mitos": [
+    "IMPOSTO LÁ FORA = DARF MENSAL",
+    "IGUAL ÀS AÇÕES DA B3"
+   ],
+   "verdade": "APURAÇÃO {verde:ANUAL}, NA DECLARAÇÃO, EM {laranja:ATÉ 8 QUOTAS}",
+   "desenho": {
+    "nome": "livro_caixa",
+    "largura": 110
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} VENDA COM LUCRO EM FEVEREIRO\n- DARF ATÉ O FIM DE MARÇO: {vermelho:NÃO É A REGRA}\n- APLICAÇÕES LÁ FORA: {verde:AJUSTE ANUAL}\n- 2026: ENTREGA DE {laranja:23/03 A 29/05}\n- EXCEÇÃO: IMÓVEL, {laranja:MÊS SEGUINTE}\n- {ciano:REGRA:} O CALENDÁRIO DA B3 NÃO SE APLICA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r45f_2_caderno.png",
+   "semente": 4552,
+   "titulo": "O CADERNO DO POMAR",
+   "colunas": [
+    {
+     "titulo": "O CADERNO",
+     "desenho": "livro_caixa",
+     "rotulos": [
+      "DECLARAÇÃO",
+      "ANUAL"
+     ],
+     "texto": "- CADERNO → {verde:DECLARAÇÃO ANUAL}\n- FIM DE MAIO → {laranja:PRAZO DE ENTREGA}\n- OITO PARCELAS → {laranja:8 QUOTAS}\n- CASA DE CAMPO → {laranja:MÊS SEGUINTE}\n- 1ª PARCELA → {verde:SEM JUROS}"
+    },
+    {
+     "titulo": "NOTA DE CADA ÁRVORE",
+     "desenho": "prancheta",
+     "rotulos": [
+      "BENS E",
+      "DIREITOS"
+     ],
+     "texto": "- PAÍS, DATA, TIPO, VALOR\n- VALOR → {laranja:MOEDA ESTRANGEIRA}\n- NOTA → {verde:DOCUMENTAÇÃO}\n- POMAR GRANDE → {laranja:CBE NO BC}\n- COTAÇÃO → {laranja:DA DATA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:QUOTAS:} NENHUMA ABAIXO DE {laranja:50 REAIS} · IMPOSTO ABAIXO DE {laranja:100 REAIS}: QUOTA ÚNICA",
+    "{ciano:CBE:} ATIVOS LÁ FORA DE {laranja:1 MILHÃO DE DÓLARES} OU MAIS EM {laranja:31/12}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O CADERNO É LIVRE · A DECLARAÇÃO SEGUE {laranja:MODELO, PRAZO E MULTA} DA RECEITA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r45f_3_obrigacoes.png",
+   "semente": 4553,
+   "titulo": "PRAZOS E OBRIGAÇÕES",
+   "topo": "{ciano:APLICAÇÕES NO EXTERIOR:} IMPOSTO APURADO E PAGO {laranja:NA DECLARAÇÃO ANUAL} · 2026: ATÉ {laranja:29/05}",
+   "colunas": [
+    {
+     "titulo": "O PAGAMENTO",
+     "texto": "- QUOTA ÚNICA OU {laranja:ATÉ 8}\n- MÍNIMO: {laranja:50 REAIS} POR QUOTA\n- ABAIXO DE 100: {laranja:QUOTA ÚNICA}\n- 1ª QUOTA: {verde:SEM JUROS}\n- DEMAIS: {laranja:+ SELIC}"
+    },
+    {
+     "titulo": "AS FICHAS",
+     "texto": "- BENS E DIREITOS: {laranja:PAÍS, DATA}\n- TIPO, VALOR, COTAÇÃO\n- FICHA PRÓPRIA: {laranja:RENDA OU PERDA}\n- E O IMPOSTO PAGO LÁ FORA\n- CBE: {laranja:1 MI DE DÓLARES}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NÃO CONFUNDA:} CBE ≠ DECLARAÇÃO DE IR · {laranja:IOF} ≠ IMPOSTO DE RENDA · IMÓVEL: {laranja:MÊS SEGUINTE}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r45f_4_quotas.png",
+   "semente": 4554,
+   "titulo": "QUANTAS QUOTAS?",
+   "dados": "- IMPOSTO ANUAL SOBRE APLICAÇÕES LÁ FORA (HIPOTÉTICO)\n- MÁXIMO: {ciano:8 QUOTAS}\n- MÍNIMO: {ciano:50 REAIS} POR QUOTA\n- SELIC DAS QUOTAS SEGUINTES DESCONSIDERADA\n- A ÚNICA DIFERENÇA: O VALOR DO IMPOSTO",
+   "cenarios": [
+    {
+     "titulo": "6.300 REAIS",
+     "passos": "6.300 ÷ 8\nCADA QUOTA ACIMA DE 50\n1ª SEM JUROS",
+     "resultado": "8 × R$ 787,50"
+    },
+    {
+     "titulo": "90 REAIS",
+     "passos": "ABAIXO DE 100\n90 ÷ 2 = 45\n45 < 50",
+     "resultado": "QUOTA ÚNICA"
+    }
+   ],
+   "conclusao": {
+    "texto": "5 PEGADINHAS (FALSAS): SEM REMESSA SEM IMPOSTO · CÂMBIO NÃO TRIBUTA · 35 MIL ISENTOS · PERDA NÃO COMPENSA · EXCESSO DEVOLVIDO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
