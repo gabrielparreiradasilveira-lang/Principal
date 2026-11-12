@@ -4,7 +4,7 @@
  },
  "slides": [
   {
-   "saida": "r50i_1_so-cinco-por-cento.png",
+   "saida": "r50i-1_1_so-cinco-por-cento.png",
    "semente": 5091,
    "molde": "mito_verdade",
    "titulo": "SÓ 5%: RISCO PEQUENO?",
@@ -20,7 +20,7 @@
    "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} CARTEIRA 60/40 + PEDIDO DE 5% EM BITCOIN E ETHER\n- {ciano:60/40:} 60% RENDA VARIÁVEL · 40% RENDA FIXA\n- O PASSADO MOSTRA GANHO {laranja:EM DETERMINADOS PERÍODOS}, NÃO EM TODOS\n- PESO NO DINHEIRO {vermelho:≠} PESO NO RISCO\n- {ciano:DEPENDE DE:} TAMANHO · MOMENTO · REBALANCEAMENTO · TOLERÂNCIA"
   },
   {
-   "saida": "r50i_2_dia-no-parque.png",
+   "saida": "r50i-1_2_dia-no-parque.png",
    "semente": 5092,
    "molde": "comparacao",
    "titulo": "O DIA NO PARQUE",
@@ -55,10 +55,10 @@
    }
   },
   {
-   "saida": "r50i_3_conteudo-1.png",
+   "saida": "r50i-1_3_retorno-e-risco.png",
    "semente": 5093,
    "molde": "colunas",
-   "titulo": "CRIPTO NA CARTEIRA 60/40 (1/2)",
+   "titulo": "CRIPTO NA CARTEIRA 60/40: RETORNO E RISCO",
    "topo": "{ciano:CARTEIRA 60/40:} 60% RENDA VARIÁVEL (CRESCIMENTO) + 40% RENDA FIXA (ESTABILIDADE) · REFERÊNCIA TRADICIONAL DE ALOCAÇÃO",
    "colunas": [
     {
@@ -77,29 +77,7 @@
    }
   },
   {
-   "saida": "r50i_3_conteudo-2.png",
-   "semente": 5094,
-   "molde": "colunas",
-   "titulo": "CONDIÇÕES E REBALANCEAMENTO (2/2)",
-   "topo": "{ciano:4 CONDIÇÕES:} TAMANHO DA ALOCAÇÃO · MOMENTO DE ENTRADA · DISCIPLINA DE REBALANCEAMENTO · CAPACIDADE DE SUPORTAR OSCILAÇÕES",
-   "colunas": [
-    {
-     "titulo": "REBALANCEAR",
-     "texto": "- VOLTAR AOS PESOS COMBINADOS\n- {ciano:HIPOTÉTICO:} 5.000 EM 100.000 (5%)\n- CRIPTO DOBRA → 10.000 EM 105.000 = {laranja:9,52%}\n- ALVO DE 5% = 5.250\n- VENDER {laranja:4.750} E REPOR NO RESTO"
-    },
-    {
-     "titulo": "A ALOCAÇÃO",
-     "texto": "- {verde:COMPLEMENTAR:} SOMA À CARTEIRA, NÃO SUBSTITUI\n- {verde:MARGINAL:} FATIA PEQUENA\n- {verde:ESTRATEGICAMENTE PENSADA:} REGRA DEFINIDA ANTES\n- RESPEITA {laranja:PERFIL · HORIZONTE · OBJETIVOS}"
-    }
-   ],
-   "destaque": {
-    "texto": "{ciano:CASO REAL (BITCOIN, EM DÓLAR):} 67.510 EM 08/11/2021 → 15.756 EM 21/11/2022 = {vermelho:−76,66%} · A TOLERÂNCIA DO INVESTIDOR PRECISA COMPORTAR QUEDAS ASSIM",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r50i_4_com-ou-sem-cripto.png",
+   "saida": "r50i-1_4_com-ou-sem-cripto.png",
    "semente": 5095,
    "molde": "exercicio",
    "titulo": "60/40 COM 5% DE CRIPTO",
@@ -118,6 +96,103 @@
    ],
    "conclusao": {
     "texto": "5% DO DINHEIRO = {laranja:13,29% DO RISCO} (14,7 ÷ 110,65) · RETORNO ESPERADO {vermelho:NÃO É GARANTIDO} · QUEDA DE 70% NA CRIPTO TIRA 3,5% DA CARTEIRA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50i-2_1_trabalho-acabou.png",
+   "semente": 5401,
+   "molde": "mito_verdade",
+   "titulo": "DEFINIU 5%: ACABOU?",
+   "mitos": [
+    "O TRABALHO ACABOU",
+    "O RISCO NÃO MUDA MAIS"
+   ],
+   "verdade": "O PREÇO {laranja:MEXE NOS PESOS}",
+   "desenho": {
+    "nome": "grafico_baixa",
+    "largura": 150
+   },
+   "apoio": "- {ciano:CASO REAL (BITCOIN, EM DÓLAR):} 67.510 EM 08/11/2021 → 15.756 EM 21/11/2022\n- QUEDA DE {vermelho:76,66%} EM POUCO MAIS DE UM ANO\n- FONTE: SÉRIE DIÁRIA DA COINBASE, PUBLICADA PELO FED DE ST. LOUIS\n- QUEM ENTROU NO TOPO PRECISARIA DE ALTA DE 328% PARA EMPATAR\n- {ciano:4 CONDIÇÕES:} TAMANHO · MOMENTO · REBALANCEAMENTO · TOLERÂNCIA\n- {ciano:TEMAS:} CONDIÇÕES · REBALANCEAR NAS DUAS DIREÇÕES · CONCLUSÃO"
+  },
+  {
+   "saida": "r50i-2_2_combinado-de-voltas.png",
+   "semente": 5402,
+   "molde": "comparacao",
+   "titulo": "O COMBINADO DE VOLTAS",
+   "colunas": [
+    {
+     "titulo": "O COMBINADO",
+     "desenho": "montanha_russa",
+     "rotulos": [
+      "VOLTAS",
+      "LIMITE"
+     ],
+     "texto": "- VOLTAS QUE CABEM NO DIA → {laranja:PESO-ALVO}\n- DEFINIDO ANTES DE ENTRAR → {laranja:ESTRATÉGIA}\n- RESPEITAR O NÚMERO → {laranja:REBALANCEAMENTO}\n- ALTURA MÍNIMA → {laranja:PERFIL DO INVESTIDOR}"
+    },
+    {
+     "titulo": "AS TENTAÇÕES",
+     "desenho": "pessoa",
+     "rotulos": [
+      "EUFORIA",
+      "MEDO"
+     ],
+     "texto": "- FILA RÁPIDA, TODOS SORRINDO → {verde:ALTA FORTE}\n- QUERER MAIS VOLTAS → {verde:AUMENTAR A FATIA NA ALTA}\n- BRINQUEDO ASSUSTOU → {verde:QUEDA FORTE}\n- NUNCA MAIS VOLTAR → {verde:VENDER NA BAIXA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:VOLTAS A MAIS:} VENDER O EXCESSO · {ciano:VOLTAS A MENOS:} COMPRAR ATÉ O ALVO",
+    "{ciano:QUEM DEFINE O NÚMERO:} PERFIL, HORIZONTE E OBJETIVOS DO VISITANTE"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NO PARQUE, AJUSTAR O ROTEIRO É DE GRAÇA · NA CARTEIRA, HÁ CUSTO DE NEGOCIAÇÃO E, NO LUCRO, TRIBUTAÇÃO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50i-2_3_condicoes-e-rebalanceamento.png",
+   "semente": 5094,
+   "molde": "colunas",
+   "titulo": "CONDIÇÕES E REBALANCEAMENTO",
+   "topo": "{ciano:4 CONDIÇÕES:} TAMANHO DA ALOCAÇÃO · MOMENTO DE ENTRADA · DISCIPLINA DE REBALANCEAMENTO · CAPACIDADE DE SUPORTAR OSCILAÇÕES",
+   "colunas": [
+    {
+     "titulo": "REBALANCEAR",
+     "texto": "- RETORNAR À PROPORÇÃO DEFINIDA\n- {ciano:HIPOTÉTICO:} 5.000 EM 100.000 (5%)\n- CRIPTO DOBRA → {laranja:9,52%} → VENDER\n- CRIPTO CAI 50% → {laranja:2,56%} → COMPRAR\n- SEM AJUSTE, O RISCO MUDA SOZINHO"
+    },
+    {
+     "titulo": "A ALOCAÇÃO",
+     "texto": "- {verde:COMPLEMENTAR:} ACRESCENTA, SEM TROCAR O NÚCLEO DA CARTEIRA\n- {verde:MARGINAL:} PARTICIPAÇÃO REDUZIDA\n- {verde:ESTRATEGICAMENTE PENSADA:} CRITÉRIO FIXADO DE ANTEMÃO\n- RESPEITA {laranja:PERFIL · HORIZONTE · OBJETIVOS}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:MOMENTO DE ENTRADA:} COMPRA APÓS ALTA FORTE PODE PEGAR A QUEDA · {ciano:TOLERÂNCIA:} A MESMA MEDIDA NA ANÁLISE DE PERFIL · REBALANCEAR {vermelho:≠} ADIVINHAR O MERCADO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50i-2_4_rebalancear.png",
+   "semente": 5403,
+   "molde": "exercicio",
+   "titulo": "REBALANCEAR NAS DUAS DIREÇÕES",
+   "dados": "- HIPOTÉTICO: CARTEIRA DE {ciano:100.000 REAIS}\n- 5.000 EM CRIPTO (5%) · 95.000 NO RESTO\n- O RESTO DA CARTEIRA FICA PARADO\n- SEM CUSTOS E SEM IMPOSTO (SIMPLIFICAÇÃO)\n- A ÚNICA DIFERENÇA: A DIREÇÃO DO PREÇO",
+   "cenarios": [
+    {
+     "titulo": "CRIPTO DOBRA",
+     "passos": "10.000 EM 105.000 = 9,52%\nALVO: 5% = 5.250\n10.000 − 5.250",
+     "resultado": "VENDER 4.750"
+    },
+    {
+     "titulo": "CRIPTO CAI 50%",
+     "passos": "2.500 EM 97.500 = 2,56%\nALVO: 5% = 4.875\n4.875 − 2.500",
+     "resultado": "COMPRAR 2.375"
+    }
+   ],
+   "conclusao": {
+    "texto": "{ciano:5 PEGADINHAS (FALSAS):} POUCA CRIPTO, POUCO RISCO · SEMPRE MELHORA · ESPERADO = GARANTIDO · 5% FICA 5% · REBALANCEAR É COMPRAR A ALTA",
     "cor": "branco",
     "moldura": "amarelo"
    }
