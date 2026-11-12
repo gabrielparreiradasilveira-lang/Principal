@@ -4,23 +4,23 @@
  },
  "slides": [
   {
-   "saida": "r16_1_ganha-bem-poupa-bem.png",
+   "saida": "r16a_1_ganha-bem-poupa-bem.png",
    "semente": 1601,
    "molde": "mito_verdade",
    "titulo": "QUEM GANHA BEM POUPA BEM?",
    "mitos": [
-    "RENDA ALTA = POUPANÇA",
-    "POUPAR É O QUE SOBRA"
+    "RENDA ALTA",
+    "POUPANÇA ALTA"
    ],
-   "verdade": "POUPAR É {laranja:DECISÃO RECORRENTE}",
+   "verdade": "POUPAR É {laranja:DECISÃO}",
    "desenho": {
     "nome": "cofrinho",
     "largura": 170
    },
-   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} A · RENDA 20.000, GASTO 20.000 | B · RENDA 6.000, GUARDA 600\n- A POUPA 0% DA RENDA · B POUPA {laranja:10%}, TODO MÊS, NO DIA DO PAGAMENTO\n- {ciano:CAPACIDADE DE POUPANÇA:} VEM ANTES DE PRODUTO, ALOCAÇÃO E RISCO\n- {ciano:INFLUENCIAM:} RENDA · IDADE · PADRÃO DE VIDA · OBRIGAÇÕES · COMPORTAMENTO\n- {ciano:4 TEMAS:} AS 3 VARIÁVEIS · PLANEJAMENTO · POUPANÇA DO PAÍS · RESERVA"
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} A · RENDA 20.000, GASTO 20.000 | B · RENDA 6.000, GUARDA 600\n- A POUPA 0% DA RENDA · B POUPA {laranja:10%}, TODO MÊS, NO DIA DO PAGAMENTO\n- {ciano:CAPACIDADE DE POUPANÇA:} VEM ANTES DE PRODUTO, ALOCAÇÃO E RISCO\n- {ciano:INFLUENCIAM:} RENDA · IDADE · PADRÃO DE VIDA · OBRIGAÇÕES · COMPORTAMENTO\n- {ciano:PERGUNTA INICIAL:} QUANTO ELE GUARDA POR MÊS, SEM QUEBRAR?\n- {ciano:2 TEMAS:} AS 3 VARIÁVEIS · AS 3 ESTRATÉGIAS"
   },
   {
-   "saida": "r16_2_carro-e-tanque.png",
+   "saida": "r16a_2_carro-e-tanque.png",
    "semente": 1602,
    "molde": "comparacao",
    "titulo": "O CARRO E O TANQUE",
@@ -32,21 +32,21 @@
       "POSTO",
       "MOTOR"
      ],
-     "texto": "- POSTO → {laranja:RENDA}\n- MOTOR → {laranja:PADRÃO DE VIDA}\n- O QUE FICA NO TANQUE → {laranja:POUPANÇA}\n- MOTOR QUE BEBE DEMAIS → RENDA ALTA SEM POUPANÇA"
+     "texto": "- POSTO → {laranja:RENDA}\n- MOTOR → {laranja:PADRÃO DE VIDA}\n- CONSUMO DO MOTOR → {laranja:DESPESAS}\n- MOTOR QUE BEBE DEMAIS → RENDA ALTA SEM POUPANÇA"
     },
     {
-     "titulo": "A RESERVA",
+     "titulo": "O QUE FICA",
      "desenho": "combustivel",
      "rotulos": [
       "TANQUE",
-      "ESTRADA"
+      "SOBRA"
      ],
-     "texto": "- MARCA NO FUNDO → {verde:RESERVA DE EMERGÊNCIA}\n- POSTO A CADA ESQUINA → {verde:RENDA ESTÁVEL}\n- ESTRADA DESERTA → {verde:RENDA VARIÁVEL}\n- CARRO LOTADO → {verde:DEPENDENTES}"
+     "texto": "- COMBUSTÍVEL NO TANQUE → {verde:POUPANÇA}\n- TANQUE CHEIO TODO MÊS → {verde:CAPACIDADE DE POUPANÇA}\n- CARRO ECONÔMICO → {verde:RENDA MODESTA QUE POUPA}\n- REGULAR O MOTOR AOS POUCOS → {verde:AJUSTE GRADUAL}"
     }
    ],
    "faixas": [
-    "{ciano:ABASTEÇA PRIMEIRO, PASSEIE DEPOIS:} A POUPANÇA SAI NO DIA DO PAGAMENTO, NÃO NO FIM DO MÊS",
-    "{ciano:RODAR NA RESERVA:} QUEM NÃO TEM FOLGA PARA NO MEIO DA ESTRADA E PAGA CARO PELO SOCORRO"
+    "{ciano:IDADE DO MOTORISTA:} JOVEM, COMEÇO DE ESTRADA · MAIS VELHO, CARRO CHEIO DE GENTE",
+    "{ciano:ABASTECIMENTO PROGRAMADO:} APORTE AUTOMÁTICO"
    ],
    "destaque": {
     "texto": "{vermelho:ONDE QUEBRA:} COMBUSTÍVEL GUARDADO NÃO AUMENTA SOZINHO · DINHEIRO APLICADO {laranja:RECEBE JUROS} E CRESCE COM O TEMPO",
@@ -55,19 +55,19 @@
    }
   },
   {
-   "saida": "r16_3_conteudo-1.png",
+   "saida": "r16a_3_conteudo-1.png",
    "semente": 1603,
    "molde": "colunas",
-   "titulo": "CAPACIDADE DE POUPANÇA (1/3)",
+   "titulo": "CAPACIDADE DE POUPANÇA (1/2)",
    "topo": "{ciano:CAPACIDADE DE POUPANÇA:} QUANTO SE CONSEGUE POUPAR DE FORMA {laranja:RECORRENTE E SUSTENTÁVEL} · PILAR DA ANÁLISE FINANCEIRA, ANTES DE PRODUTO, ALOCAÇÃO E RISCO",
    "colunas": [
     {
-     "titulo": "3 VARIÁVEIS",
-     "texto": "- {ciano:RENDA:} ALTA NÃO GARANTE; MODESTA PODE POUPAR, COM DISCIPLINA\n- {ciano:IDADE, JOVEM:} RENDA EM ALTA, DESPESAS INICIAIS MAIORES\n- {ciano:IDADE, FASE AVANÇADA:} RENDA ESTÁVEL, MAIS COMPROMISSOS FAMILIARES\n- {ciano:PADRÃO DE VIDA:} ADEQUADO À REALIDADE FINANCEIRA"
+     "titulo": "RENDA",
+     "texto": "- ALTA NÃO GARANTE POUPANÇA\n- MODESTA PODE POUPAR\n- CONDIÇÃO: ORGANIZAÇÃO E DISCIPLINA\n- O QUE DECIDE É O QUE FICA, NÃO O QUE ENTRA"
     },
     {
-     "titulo": "ESTRATÉGIAS",
-     "texto": "- AJUSTES {verde:GRADUAIS} DE CONSUMO\n- {verde:PRIORIZAÇÃO} DE OBJETIVOS\n- {verde:AUTOMATIZAÇÃO} DOS APORTES\n- SEM COMPROMETER A QUALIDADE DE VIDA\n- {ciano:PAPEL DO PROFISSIONAL:} ADEQUAR O PADRÃO DE VIDA À RENDA"
+     "titulo": "IDADE",
+     "texto": "- {ciano:JOVEM:} RENDA EM CRESCIMENTO\n- MAS DESPESAS INICIAIS MAIORES\n- {ciano:FASE AVANÇADA:} RENDA ESTABILIZADA\n- MAS COMPROMISSOS FAMILIARES MAIORES"
     }
    ],
    "destaque": {
@@ -77,69 +77,404 @@
    }
   },
   {
-   "saida": "r16_3_conteudo-2.png",
+   "saida": "r16a_3_conteudo-2.png",
    "semente": 1604,
    "molde": "colunas",
-   "titulo": "PLANEJAR E POUPANÇA DO PAÍS (2/3)",
-   "topo": "{ciano:PLANEJAR:} TRANSFORMAR INTENÇÃO EM {laranja:PROCESSO} · POUPANÇA ESPORÁDICA TENDE A FALHAR; PLANEJADA TENDE A SE SUSTENTAR",
+   "titulo": "PADRÃO DE VIDA E ESTRATÉGIAS (2/2)",
+   "topo": "{ciano:PADRÃO DE VIDA:} PRECISA CABER NA {laranja:REALIDADE FINANCEIRA} · O AJUSTE PRESERVA A QUALIDADE DE VIDA",
    "colunas": [
     {
-     "titulo": "4 PASSOS",
-     "texto": "- {laranja:1.} OBJETIVOS CLAROS\n- {laranja:2.} MAPA DE RECEITAS E DESPESAS\n- {laranja:3.} METAS MENSAIS REALISTAS\n- {laranja:4.} MECANISMOS AUTOMÁTICOS\n- {ciano:PAGUE-SE PRIMEIRO (BCB):} TRANSFERÊNCIA AUTOMÁTICA NO DIA DO SALÁRIO"
+     "titulo": "O PROFISSIONAL",
+     "texto": "- NÃO PROÍBE O CLIENTE DE VIVER\n- AJUDA A ADEQUAR O PADRÃO À RENDA\n- COMEÇA PELO ORÇAMENTO\n- SÓ DEPOIS FALA DE PRODUTO"
     },
     {
-     "titulo": "O PAÍS",
-     "texto": "- {verde:MAIS POUPANÇA INTERNA:} MAIS INVESTIMENTO PRODUTIVO, MENOS CAPITAL EXTERNO, MAIS ESTABILIDADE\n- {vermelho:POUPANÇA BAIXA AFETA:} CUSTO DO CAPITAL · JUROS · INVESTIMENTO DE LONGO PRAZO · MERCADO DE CAPITAIS"
+     "titulo": "3 ESTRATÉGIAS",
+     "texto": "- {verde:1.} AJUSTES GRADUAIS DE CONSUMO\n- {verde:2.} PRIORIZAÇÃO DE OBJETIVOS\n- {verde:3.} AUTOMATIZAÇÃO DE APORTES\n- JUNTAS, GARANTEM A POUPANÇA"
     }
    ],
    "destaque": {
-    "texto": "{ciano:IBGE, 2025:} POUPANÇA {laranja:14,4%} DO PIB (14,1% EM 2024) · INVESTIMENTO {laranja:16,8%} (16,9% EM 2024) · DIFERENÇA DE 2,4 PONTOS = POUPANÇA EXTERNA",
+    "texto": "{ciano:CAPACIDADE × PATRIMÔNIO:} CAPACIDADE É O QUE SE GUARDA {laranja:POR MÊS} · PATRIMÔNIO É O {laranja:JÁ ACUMULADO} · UM NÃO GARANTE O OUTRO",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r16_3_conteudo-3.png",
+   "saida": "r16a_4_ajuste-gradual.png",
    "semente": 1605,
+   "molde": "exercicio",
+   "titulo": "UM AJUSTE DE 5% NO GASTO",
+   "dados": "- HIPOTÉTICO: RENDA DE {ciano:20.000} POR MÊS\n- CORTE DE 5% DO GASTO = 1.000 POR MÊS\n- APORTE AUTOMÁTICO, A 0,8% AO MÊS\n- APORTES NO FIM DO MÊS · SEM IMPOSTO (SIMPLIFICAÇÃO)\n- A ÚNICA DIFERENÇA: O PADRÃO DE VIDA",
+   "cenarios": [
+    {
+     "titulo": "GASTA TUDO",
+     "passos": "RENDA: 20.000\nGASTO: 20.000\nSOBRA: 0",
+     "resultado": "ZERO EM 1 ANO"
+    },
+    {
+     "titulo": "GASTA 19.000",
+     "passos": "RENDA: 20.000\nGASTO: 19.000\n12 APORTES DE 1.000",
+     "resultado": "12.542,34 EM 1 ANO"
+    }
+   ],
+   "conclusao": {
+    "texto": "12.000 DE APORTES + {laranja:542,34} DE RENDIMENTO · MESMA RENDA, RESULTADOS OPOSTOS · O QUE MUDOU: AJUSTE, OBJETIVO E {verde:AUTOMAÇÃO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r16b_1_o-que-sobra.png",
+   "semente": 1606,
+   "molde": "mito_verdade",
+   "titulo": "POUPAR É O QUE SOBRA?",
+   "mitos": [
+    "GUARDO O QUE SOBRAR",
+    "NO FIM DO MÊS"
+   ],
+   "verdade": "{laranja:PAGUE-SE} PRIMEIRO",
+   "desenho": {
+    "nome": "cofrinho",
+    "largura": 170
+   },
+   "apoio": "- {ciano:CASO REAL:} CADERNO DE EDUCAÇÃO FINANCEIRA DO BANCO CENTRAL (EDIÇÃO DE 2026)\n- ESPERAR O FIM DO MÊS: \"POUCO EFETIVO\" PARA FORMAR PATRIMÔNIO\n- REGRA DE OURO DO CADERNO: ORÇAMENTO {verde:SUPERAVITÁRIO}\n- POUPANÇA = LINHA FIXA DO ORÇAMENTO, COMO O ALUGUEL OU A LUZ\n- EXEMPLO DO CADERNO: MOTO DE 24.000, PAGA À VISTA EM 23 MESES\n- QUEM POUPA QUANDO DÁ TENDE A FALHAR; COM PLANO, TENDE A MANTER\n- {ciano:3 TEMAS:} OS 4 PASSOS · DESPESA OBRIGATÓRIA · PAGUE-SE PRIMEIRO"
+  },
+  {
+   "saida": "r16b_2_abasteca-primeiro.png",
+   "semente": 1607,
+   "molde": "comparacao",
+   "titulo": "ABASTEÇA PRIMEIRO, PASSEIE DEPOIS",
+   "colunas": [
+    {
+     "titulo": "ABASTECE PRIMEIRO",
+     "desenho": "combustivel",
+     "rotulos": [
+      "DIA DO",
+      "PAGAMENTO"
+     ],
+     "texto": "- ENCHER O TANQUE NA SAÍDA → {laranja:POUPAR NO DIA DO SALÁRIO}\n- BOMBA PROGRAMADA → {laranja:TRANSFERÊNCIA AUTOMÁTICA}\n- ROTEIRO DA VIAGEM → {laranja:PLANEJAMENTO}\n- DESTINO → {laranja:OBJETIVO}"
+    },
+    {
+     "titulo": "PASSEIA PRIMEIRO",
+     "desenho": "carro",
+     "rotulos": [
+      "SOBRA",
+      "RESERVA"
+     ],
+     "texto": "- ABASTECE COM O QUE SOBRA → {vermelho:POUPANÇA ESPORÁDICA}\n- RODA NA RESERVA → {vermelho:SEM FOLGA}\n- PARA NO MEIO DA ESTRADA → {vermelho:VENDE NA HORA ERRADA}\n- PAGA O GUINCHO → {vermelho:CRÉDITO CARO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:QUANTO ABASTECER EM CADA PARADA:} A META MENSAL",
+    "{ciano:SABER O CONSUMO DO CARRO:} MAPA DE RECEITAS E DESPESAS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} GASOLINA QUEIMADA NÃO VOLTA · O DINHEIRO POUPADO CONTINUA SENDO SEU, E AINDA RECEBE JUROS",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r16b_3_conteudo-1.png",
+   "semente": 1608,
    "molde": "colunas",
-   "titulo": "RESERVA DE EMERGÊNCIA (3/3)",
-   "topo": "{ciano:RESERVA DE EMERGÊNCIA:} BASE DA SEGURANÇA FINANCEIRA · SEM ELA, O INVESTIDOR FICA EXPOSTO A {vermelho:DECISÕES FORÇADAS} E EMOCIONALMENTE CUSTOSAS",
+   "titulo": "DA INTENÇÃO AO PROCESSO (1/2)",
+   "topo": "{ciano:PLANEJAR:} TRANSFORMAR INTENÇÃO EM {laranja:PROCESSO} · POUPANÇA ESPORÁDICA TENDE A FALHAR; PLANEJADA TENDE A SE SUSTENTAR",
+   "colunas": [
+    {
+     "titulo": "4 PASSOS",
+     "texto": "- {laranja:1.} OBJETIVOS CLAROS\n- {laranja:2.} MAPA DE RECEITAS E DESPESAS\n- {laranja:3.} METAS MENSAIS REALISTAS\n- {laranja:4.} MECANISMOS AUTOMÁTICOS"
+    },
+    {
+     "titulo": "A REGRA",
+     "texto": "- POUPANÇA = {verde:DESPESA OBRIGATÓRIA}\n- ENTRA NO INÍCIO DO MÊS\n- NÃO É SOBRA EVENTUAL\n- NÃO DEPENDE DE FORÇA DE VONTADE"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} A ORDEM É OBJETIVO → MAPA → META → AUTOMAÇÃO · META IRREAL É ABANDONADA: {laranja:PRAZO MAIOR} COM APORTE QUE CABE NO BOLSO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r16b_3_conteudo-2.png",
+   "semente": 1609,
+   "molde": "colunas",
+   "titulo": "PAGUE-SE PRIMEIRO (2/2)",
+   "topo": "{ciano:BANCO CENTRAL, CADERNO DE EDUCAÇÃO FINANCEIRA (2026):} ORÇAMENTO SUPERAVITÁRIO + PAGUE-SE PRIMEIRO",
+   "colunas": [
+    {
+     "titulo": "AS ORIENTAÇÕES",
+     "texto": "- {verde:REGRA DE OURO:} GASTAR MENOS DO QUE RECEBE\n- SEPARAR A RESERVA AO RECEBER O SALÁRIO\n- AUTORIZAR TRANSFERÊNCIA AUTOMÁTICA MENSAL\n- FIM DO MÊS: POUCO EFETIVO"
+    },
+    {
+     "titulo": "O EXEMPLO DA MOTO",
+     "texto": "- PREÇO: {ciano:24.000}\n- APORTE: 1.000 POR MÊS\n- RENDIMENTO: 0,5% AO MÊS\n- COMPRA À VISTA, COM DESCONTO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:PRAZO DO EXEMPLO:} {laranja:23 MESES} · {ciano:SUPERÁVIT × POUPANÇA:} O SUPERÁVIT É A CONDIÇÃO; A POUPANÇA É SEPARAR ESSE VALOR ANTES QUE VIRE CONSUMO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r16b_4_poupar-ou-parcelar.png",
+   "semente": 1610,
+   "molde": "exercicio",
+   "titulo": "POUPAR ANTES OU PARCELAR DEPOIS?",
+   "dados": "- MOTO DE {ciano:24.000} (EXEMPLO DO BANCO CENTRAL)\n- POUPANDO: 1.000 POR MÊS, A 0,5% AO MÊS\n- PARCELANDO: 23 MESES, A 2% AO MÊS (HIPOTÉTICO)\n- TAXAS CONSTANTES · SEM IMPOSTO (SIMPLIFICAÇÃO)\n- A ÚNICA DIFERENÇA: A ORDEM",
+   "cenarios": [
+    {
+     "titulo": "POUPA ANTES",
+     "passos": "23 APORTES DE 1.000\nSALDO: 24.310,40\nRENDIMENTO: 1.310,40",
+     "resultado": "RECEBE 1.310,40"
+    },
+    {
+     "titulo": "PARCELA DEPOIS",
+     "passos": "23 PARCELAS DE 1.312,03\nTOTAL: 30.176,79\nJUROS: 6.176,79",
+     "resultado": "PAGA 6.176,79"
+    }
+   ],
+   "conclusao": {
+    "texto": "ESFORÇO MENSAL PARECIDO: 1.000 × 1.312 · A DIFERENÇA É DE QUE LADO OS {laranja:JUROS} FICAM · A HP MOSTRA 23 (EXATO: 22,72)",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r16c_1_poupanca-e-juros.png",
+   "semente": 1611,
+   "molde": "mito_verdade",
+   "titulo": "POUPANÇA DA FAMÍLIA × JUROS DO PAÍS",
+   "mitos": [
+    "CADA UM POR SI",
+    "NÃO MEXE NOS JUROS"
+   ],
+   "verdade": "A SOMA {laranja:FINANCIA} O PAÍS",
+   "desenho": {
+    "nome": "caminhao",
+    "largura": 220
+   },
+   "apoio": "- {ciano:CASO REAL (IBGE, 03/03/2026):} CONTAS NACIONAIS DE 2025\n- POUPANÇA: {laranja:14,4%} DO PIB\n- INVESTIMENTO: {laranja:16,8%} DO PIB\n- O PAÍS INVESTIU MAIS DO QUE POUPOU\n- A DIFERENÇA, DE 2,4 PONTOS, FOI COBERTA COM RECURSOS DE FORA\n- EM 2024: POUPANÇA DE 14,1% E INVESTIMENTO DE 16,9%\n- PIB DE 2025: 12,7 TRILHÕES DE REAIS (CRESCEU 2,3%)\n- {ciano:2 TEMAS:} A POUPANÇA DO PAÍS · O QUE ELA AFETA"
+  },
+  {
+   "saida": "r16c_2_frota-do-pais.png",
+   "semente": 1612,
+   "molde": "comparacao",
+   "titulo": "A FROTA DO PAÍS",
+   "colunas": [
+    {
+     "titulo": "A FROTA",
+     "desenho": "caminhao",
+     "rotulos": [
+      "PRODUÇÃO",
+      "DO PAÍS"
+     ],
+     "texto": "- FROTA DE CAMINHÕES → {laranja:O PAÍS}\n- COMBUSTÍVEL NOS TANQUES → {laranja:POUPANÇA INTERNA}\n- VIAGENS LONGAS → {laranja:INVESTIMENTO}\n- CADA CAMINHÃO → {laranja:FAMÍLIA, EMPRESA, GOVERNO}"
+    },
+    {
+     "titulo": "O POSTO DE FORA",
+     "desenho": "combustivel",
+     "rotulos": [
+      "POSTO",
+      "ESTRANGEIRO"
+     ],
+     "texto": "- ABASTECER FORA → {verde:POUPANÇA EXTERNA}\n- PREÇO MAIS ALTO → {verde:CUSTO DO CAPITAL}\n- DEPENDER DO POSTO DE FORA → {verde:DEPENDÊNCIA EXTERNA}\n- TANQUES CHEIOS EM CASA → {verde:ESTABILIDADE}"
+    }
+   ],
+   "faixas": [
+    "{ciano:VIAGEM LONGA:} ESTRADA, FÁBRICA, USINA (INVESTIMENTO PRODUTIVO)",
+    "{ciano:EM 2025:} 2,4 PONTOS DO PIB VIERAM DO POSTO DE FORA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} FROTA TEM UM DONO SÓ · NO PAÍS, NINGUÉM MANDA NA POUPANÇA: ELA É A SOMA DAS ESCOLHAS DE MILHÕES",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r16c_3_conteudo-1.png",
+   "semente": 1613,
+   "molde": "colunas",
+   "titulo": "A POUPANÇA DO PAÍS (1/2)",
+   "topo": "{ciano:POUPANÇA É TEMA MACROECONÔMICO:} O QUE FAMÍLIAS, EMPRESAS E GOVERNO POUPAM {laranja:FINANCIA O INVESTIMENTO}",
+   "colunas": [
+    {
+     "titulo": "MAIS POUPANÇA INTERNA",
+     "texto": "- {verde:1.} MAIS INVESTIMENTO PRODUTIVO\n- {verde:2.} MENOS DEPENDÊNCIA DE CAPITAL EXTERNO\n- {verde:3.} MAIS ESTABILIDADE ECONÔMICA"
+    },
+    {
+     "titulo": "BRASIL (IBGE)",
+     "texto": "- {ciano:2024:} POUPANÇA 14,1% · INVESTIMENTO 16,9%\n- {ciano:2025:} POUPANÇA 14,4% · INVESTIMENTO 16,8%\n- TAXA DE POUPANÇA = POUPANÇA ÷ PIB\n- TAXA DE INVESTIMENTO = CAPITAL FIXO ÷ PIB"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:A CONTA DO PAÍS:} INVESTIMENTO = POUPANÇA INTERNA + {laranja:POUPANÇA EXTERNA} · 2025: 16,8 − 14,4 = {laranja:2,4 PONTOS} DO PIB VINDOS DE FORA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r16c_3_conteudo-2.png",
+   "semente": 1614,
+   "molde": "colunas",
+   "titulo": "O QUE A BAIXA POUPANÇA AFETA (2/2)",
+   "topo": "{ciano:POUPANÇA BAIXA HÁ MUITO TEMPO → 4 EFEITOS NO BRASIL} · A CAUSA É A MESMA: DINHEIRO DE LONGO PRAZO ESCASSO",
+   "colunas": [
+    {
+     "titulo": "4 EFEITOS",
+     "texto": "- {vermelho:1.} CUSTO DO CAPITAL\n- {vermelho:2.} NÍVEL DE JUROS\n- {vermelho:3.} INVESTIMENTOS DE LONGO PRAZO\n- {vermelho:4.} MERCADO DE CAPITAIS"
+    },
+    {
+     "titulo": "O PROFISSIONAL",
+     "texto": "- LIGA A DECISÃO INDIVIDUAL AO AMBIENTE ECONÔMICO\n- MILHÕES DE CLIENTES = POUPANÇA DO PAÍS\n- EXPLICA O CRÉDITO CARO\n- EXPLICA OS JUROS ALTOS"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NÃO CONFUNDA:} POUPANÇA (MACRO) = RENDA NÃO CONSUMIDA, {vermelho:NÃO} A CADERNETA · TAXA DE POUPANÇA ≠ TAXA DE INVESTIMENTO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r16c_4_poupanca-externa.png",
+   "semente": 1615,
+   "molde": "exercicio",
+   "titulo": "QUANTO VEIO DE FORA?",
+   "dados": "- NÚMEROS DO {ciano:IBGE} (% DO PIB)\n- CONTA: INVESTIMENTO − POUPANÇA INTERNA\n- INVESTIMENTO = FORMAÇÃO BRUTA DE CAPITAL FIXO\n- PIB DE 2025: 12,7 TRILHÕES\n- A ÚNICA DIFERENÇA: O ANO",
+   "cenarios": [
+    {
+     "titulo": "2024",
+     "passos": "INVESTIMENTO: 16,9\nPOUPANÇA: 14,1\n16,9 − 14,1",
+     "resultado": "2,8 PONTOS"
+    },
+    {
+     "titulo": "2025",
+     "passos": "INVESTIMENTO: 16,8\nPOUPANÇA: 14,4\n16,8 − 14,4",
+     "resultado": "2,4 PONTOS"
+    }
+   ],
+   "conclusao": {
+    "texto": "2025 EM REAIS: 2,4% DE 12,7 TRILHÕES = {laranja:304,8 BILHÕES} · POUPANÇA: 1,83 TRILHÃO · INVESTIMENTO: 2,13 TRILHÕES",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r16d_1_arrojado-reserva-menor.png",
+   "semente": 1616,
+   "molde": "mito_verdade",
+   "titulo": "ARROJADO: RESERVA MENOR?",
+   "mitos": [
+    "PERFIL ARROJADO",
+    "RESERVA MENOR"
+   ],
+   "verdade": "MANDA A {laranja:RENDA}",
+   "desenho": {
+    "nome": "alarme",
+    "largura": 150
+   },
+   "apoio": "- {ciano:CASO REAL (BANCO CENTRAL, PESQUISA DE 2023):} SE PERDESSE A RENDA PRINCIPAL...\n- {vermelho:24,5%} NÃO PAGARIAM 1 MÊS DE DESPESAS\n- {vermelho:14,5%} NÃO PAGARIAM 1 SEMANA\n- TAMANHO DA RESERVA: RENDA, PROFISSÃO, DEPENDENTES, DESPESAS FIXAS\n- TOLERÂNCIA A RISCO NÃO ENTRA NA CONTA\n- {ciano:4 TEMAS:} FATORES · MEDIDA · ONDE APLICAR · PERFIL"
+  },
+  {
+   "saida": "r16d_2_marca-da-reserva.png",
+   "semente": 1617,
+   "molde": "comparacao",
+   "titulo": "A MARCA DA RESERVA",
+   "colunas": [
+    {
+     "titulo": "O TANQUE",
+     "desenho": "combustivel",
+     "rotulos": [
+      "MARCA",
+      "RESERVA"
+     ],
+     "texto": "- MARCA NO FUNDO → {laranja:RESERVA DE EMERGÊNCIA}\n- LITROS DA RESERVA → {laranja:MESES DE DESPESA}\n- RODAR SEM RESERVA → {laranja:DECISÃO FORÇADA}\n- GUINCHO → {laranja:CHEQUE ESPECIAL}"
+    },
+    {
+     "titulo": "A ESTRADA",
+     "desenho": "rodovia_pedagio",
+     "rotulos": [
+      "POSTOS",
+      "DISTÂNCIA"
+     ],
+     "texto": "- POSTO A CADA 10 KM → {verde:RENDA ESTÁVEL}\n- POSTO A CADA 300 KM → {verde:RENDA VARIÁVEL}\n- CARRO LOTADO → {verde:DEPENDENTES}\n- MOTOR QUE GASTA MUITO PARADO → {verde:DESPESAS FIXAS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:CORAGEM DO MOTORISTA:} PERFIL DE RISCO (NÃO MUDA O TAMANHO DO TANQUE)",
+    "{ciano:TIPO DE VIAGEM:} A PROFISSÃO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} RESERVA DE TANQUE NÃO RENDE · A RESERVA DE EMERGÊNCIA FICA APLICADA, COM RESGATE RÁPIDO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r16d_3_conteudo-1.png",
+   "semente": 1618,
+   "molde": "colunas",
+   "titulo": "O TAMANHO DA RESERVA (1/2)",
+   "topo": "{ciano:RESERVA DE EMERGÊNCIA:} BASE DA SEGURANÇA FINANCEIRA · SEM ELA: {vermelho:VENDA NA BAIXA, RESGATE ANTECIPADO, CHEQUE ESPECIAL}",
    "colunas": [
     {
      "titulo": "4 FATORES",
      "texto": "- {laranja:1.} ESTABILIDADE DA RENDA\n- {laranja:2.} TIPO DE PROFISSÃO\n- {laranja:3.} NÚMERO DE DEPENDENTES\n- {laranja:4.} NÍVEL DE DESPESAS FIXAS\n- AUTÔNOMO E RENDA VARIÁVEL → RESERVA {laranja:MAIOR}"
     },
     {
-     "titulo": "QUANTO E ONDE",
-     "texto": "- MEDIDA EM MESES DE {laranja:DESPESA}\n- {ciano:PRÁTICA DE MERCADO (NÃO É NORMA):} 3 A 6 MESES, RENDA ESTÁVEL · ATÉ 12, RENDA VARIÁVEL\n- {ciano:ONDE:} ALTA LIQUIDEZ E BAIXO RISCO\n- RENTABILIDADE NÃO É O OBJETIVO"
+     "titulo": "A MEDIDA",
+     "texto": "- EM MESES DE {laranja:DESPESA}\n- {ciano:PRÁTICA DE MERCADO (NÃO É NORMA):}\n- 3 A 6 MESES: RENDA ESTÁVEL\n- ATÉ 12 MESES: RENDA VARIÁVEL"
     }
    ],
    "destaque": {
-    "texto": "{ciano:BRASIL (BCB, PESQUISA DE 2023):} SEM A RENDA PRINCIPAL, {vermelho:24,5%} NÃO COBREM 1 MÊS · 44,6% COBREM 3 MESES OU MAIS · PERFIL DE SUITABILITY {vermelho:NÃO DEFINE} A RESERVA",
+    "texto": "{ciano:MESMO APORTE, PRAZOS DIFERENTES (3.000 POR MÊS, 0,8% AO MÊS, DO ZERO):} 48.000 EM {laranja:16 MESES} · 96.000 EM {laranja:29 MESES}",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r16_4_reserva-dois-clientes.png",
-   "semente": 1606,
-   "molde": "exercicio",
-   "titulo": "MESMA DESPESA, RESERVAS DIFERENTES",
-   "dados": "- DESPESA MENSAL DE {ciano:R$ 8.000} NOS DOIS CASOS (HIPOTÉTICO)\n- POUPANÇA DE 3.000 POR MÊS, A 0,8% AO MÊS\n- ASSALARIADA: RENDA ESTÁVEL, 6 MESES DE DESPESA\n- AUTÔNOMO: RENDA VARIÁVEL, 12 MESES DE DESPESA\n- APORTES NO FIM DO MÊS; SEM IMPOSTO (SIMPLIFICAÇÃO)",
-   "cenarios": [
+   "saida": "r16d_3_conteudo-2.png",
+   "semente": 1619,
+   "molde": "colunas",
+   "titulo": "ONDE APLICAR E O PERFIL (2/2)",
+   "topo": "{ciano:ONDE:} INVESTIMENTO DE {laranja:ALTA LIQUIDEZ E BAIXO RISCO} · DISPONÍVEL RÁPIDO E SEM PERDAS · RENTABILIDADE NÃO É O OBJETIVO",
+   "colunas": [
     {
-     "titulo": "ASSALARIADA",
-     "passos": "8.000 × 6 = 48.000\nPMT 3.000 · i 0,8%\nCONTA EXATA: 15,12",
-     "resultado": "16 MESES"
+     "titulo": "BANCO CENTRAL",
+     "texto": "- AS 3 QUALIDADES NÃO VÊM JUNTAS:\n- LIQUIDEZ ALTA + RISCO BAIXO + RETORNO ALTO\n- PROMETEU AS 3? DESCONFIE\n- AÇÃO NÃO SERVE PARA RESERVA"
     },
     {
-     "titulo": "AUTÔNOMO",
-     "passos": "8.000 × 12 = 96.000\nPMT 3.000 · i 0,8%\nCONTA EXATA: 28,61",
-     "resultado": "29 MESES"
+     "titulo": "BRASIL (PESQUISA DE 2023)",
+     "texto": "- SEM A RENDA PRINCIPAL:\n- {vermelho:24,5%} NÃO COBREM 1 MÊS\n- 25,3% COBREM DE 1 A 3 MESES\n- {verde:44,6%} COBREM 3 MESES OU MAIS"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:CUIDADO:} PERFIL DE SUITABILITY (CONSERVADOR, MODERADO, ARROJADO) MEDE TOLERÂNCIA A RISCO · {vermelho:NÃO DEFINE} A RESERVA · ARROJADO AUTÔNOMO PRECISA DE MAIS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r16d_4_ana-e-bruno.png",
+   "semente": 1620,
+   "molde": "exercicio",
+   "titulo": "MESMA DESPESA, RESERVAS DIFERENTES",
+   "dados": "- HIPOTÉTICO: DESPESA MENSAL DE {ciano:8.000} NOS DOIS CASOS\n- ANA: ASSALARIADA, SEM DEPENDENTES\n- BRUNO: AUTÔNOMO, 2 FILHOS, RENDA MÉDIA DE 12.000\n- A ÚNICA DIFERENÇA: A SITUAÇÃO DE RENDA E DE VIDA",
+   "cenarios": [
+    {
+     "titulo": "ANA",
+     "passos": "3 MESES: 8.000 × 3 = 24.000\n6 MESES: 8.000 × 6 = 48.000\nFAIXA DE RENDA ESTÁVEL",
+     "resultado": "24.000 A 48.000"
+    },
+    {
+     "titulo": "BRUNO",
+     "passos": "12 MESES: 8.000 × 12\nERRO: 12.000 × 12 = 144.000\nA CONTA É SOBRE A DESPESA",
+     "resultado": "96.000"
     }
    ],
    "conclusao": {
-    "texto": "29 ÷ 16 = {laranja:1,81 VEZ} O PRAZO · A HP12C ARREDONDA O N PARA CIMA · ERRO COMUM: CALCULAR A RESERVA EM MESES DE {vermelho:RENDA}",
+    "texto": "{ciano:FORMAR A RESERVA DO BRUNO (TEM 30.000, A 0,8% AO MÊS):} EM 12 MESES, 5.022,18 POR MÊS · COM 3.000 POR MÊS, {laranja:19 MESES} (SALDO: 96.199,84)",
     "cor": "branco",
     "moldura": "amarelo"
    }
