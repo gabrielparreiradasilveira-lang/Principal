@@ -4,146 +4,604 @@
  },
  "slides": [
   {
-   "saida": "r21_1_arrojado-pode-tudo.png",
-   "semente": 2101,
+   "saida": "r21a_1_arrojado-pode-tudo.png",
+   "semente": 2201,
    "molde": "mito_verdade",
    "titulo": "ARROJADO PODE TUDO?",
    "mitos": [
     "ARROJADO ACESSA TUDO",
     "PERFIL = CATEGORIA"
    ],
-   "verdade": "PERFIL MEDE {laranja:RISCO} · CATEGORIA DÁ {laranja:ACESSO}",
+   "verdade": "PERFIL MEDE RISCO · {laranja:CATEGORIA} DÁ ACESSO",
    "desenho": {
-    "nome": "portao_embarque",
+    "nome": "aviao_hangar",
     "largura": 210
    },
-   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} PERFIL ARROJADO + 300.000 INVESTIDOS + PEDIDO DE FUNDO PARA QUALIFICADOS\n- ARROJADO, MAS {vermelho:INVESTIDOR COMUM}: NÃO PASSA DE 1 MILHÃO NEM TEM CERTIFICAÇÃO\n- {ciano:PERFIL:} CONSERVADOR · MODERADO · ARROJADO\n- {ciano:CATEGORIA:} COMUM · QUALIFICADO · PROFISSIONAL (RESOLUÇÃO CVM 30)\n- {ciano:CICLO DE VIDA:} ACUMULAÇÃO · CONSOLIDAÇÃO · USUFRUTO"
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} ARROJADO COM R$ 300.000 PEDE FUNDO PARA QUALIFICADOS\n- {ciano:3 CATEGORIAS:} COMUM · QUALIFICADA · PROFISSIONAL\n- {ciano:CRITÉRIOS:} PATRIMÔNIO E QUALIFICAÇÃO TÉCNICA\n- PROTEÇÃO DA REGRA: {verde:MAIOR} NO COMUM · {vermelho:MENOR} NO PROFISSIONAL\n- {ciano:SÉRIE:} A COMUM · B QUALIFICADA · C PROFISSIONAL · D NA PRÁTICA · E CICLO DE VIDA"
   },
   {
-   "saida": "r21_2_o-voo.png",
-   "semente": 2102,
+   "saida": "r21a_2_o-aeroporto.png",
+   "semente": 2202,
    "molde": "comparacao",
-   "titulo": "O VOO",
+   "titulo": "O AEROPORTO",
    "colunas": [
     {
-     "titulo": "O AEROPORTO",
-     "desenho": "portao_embarque",
+     "titulo": "3 ÁREAS",
+     "desenho": "aviao_hangar",
      "rotulos": [
-      "ACESSO",
-      "PROTEÇÃO"
+      "PORTÃO",
+      "CABINE"
      ],
-     "texto": "- PORTÃO COMUM → {laranja:INVESTIDOR COMUM}\n- SALA VIP → {laranja:QUALIFICADO}\n- CARTÃO DE ACESSO → PATRIMÔNIO COM TERMO OU CERTIFICAÇÃO\n- ÁREA DA TRIPULAÇÃO → {laranja:PROFISSIONAL}"
+     "texto": "- PORTÃO COMUM → {laranja:COMUM}\n- SALA VIP, COM CARTÃO → {laranja:QUALIFICADO}\n- ÁREA DA TRIPULAÇÃO → {laranja:PROFISSIONAL}\n- AVISOS DE SEGURANÇA → {laranja:PROTEÇÃO DA REGRA}"
     },
     {
-     "titulo": "A ROTA",
-     "desenho": "rota_voo",
+     "titulo": "O PORTÃO COMUM",
+     "desenho": "megafone",
      "rotulos": [
-      "SUBIDA",
-      "POUSO"
+      "AVISOS",
+      "TODOS"
      ],
-     "texto": "- SUBIDA → {verde:ACUMULAÇÃO}\n- CRUZEIRO → {verde:CONSOLIDAÇÃO OU TRANSIÇÃO}\n- POUSO → {verde:APOSENTADORIA OU USUFRUTO}\n- COMBUSTÍVEL → {verde:PATRIMÔNIO}"
+     "texto": "- EMBARCA A MAIORIA → {verde:PÚBLICO EM GERAL}\n- OUVE TODOS OS AVISOS → {verde:MAIOR PROTEÇÃO}\n- VOOS REGULARES → {verde:PRODUTOS TRADICIONAIS}\n- PEDE AJUDA NO BALCÃO → {verde:ORIENTAÇÃO PROFISSIONAL}"
     }
    ],
    "faixas": [
-    "{ciano:QUANTO MAIS PERTO DA CABINE:} MAIS ACESSO A PRODUTOS E MENOS INSTRUÇÕES DE SEGURANÇA",
-    "{ciano:CADA TRECHO PEDE UM AJUSTE:} POTÊNCIA NA SUBIDA, ESTABILIDADE NO CRUZEIRO, SUAVIDADE NO POUSO"
+    "{ciano:QUANTO MAIS RESTRITA A ÁREA:} MENOS AVISOS E MAIS PORTAS ABERTAS",
+    "{ciano:O BILHETE NÃO DIZ O GOSTO:} PASSAGEIRO COMUM PODE GOSTAR DE TURBULÊNCIA (PERFIL ARROJADO)"
    ],
    "destaque": {
-    "texto": "{vermelho:ONDE QUEBRA:} CARTÃO VIP SE MOSTRA E PRONTO · NO MERCADO, A CONDIÇÃO É {laranja:ATESTADA EM TERMO ASSINADO} E O LIMITE É \"SUPERIOR A\"",
+    "texto": "{vermelho:ONDE QUEBRA:} NA SALA VIP, PAGAR RESOLVE NA HORA · NO MERCADO, O DINHEIRO SOZINHO NÃO MUDA A CATEGORIA: HÁ {laranja:REQUISITOS FORMAIS}",
     "cor": "branco",
     "moldura": "vermelho"
    }
   },
   {
-   "saida": "r21_3_conteudo-1.png",
-   "semente": 2103,
+   "saida": "r21a_3_conteudo-1.png",
+   "semente": 2203,
    "molde": "colunas",
-   "titulo": "COMUM E QUALIFICADA (1/3)",
-   "topo": "{ciano:PERFIL:} QUANTO RISCO A CARTEIRA PODE TER · {ciano:CATEGORIA:} A QUAIS PRODUTOS HÁ ACESSO · NORMA: {laranja:RESOLUÇÃO CVM 30}, ARTS. 11 A 13",
+   "titulo": "PERFIL × CATEGORIA (1/2)",
+   "topo": "DUAS CLASSIFICAÇÕES DA {laranja:RESOLUÇÃO CVM 30} · UMA NÃO LEVA À OUTRA",
    "colunas": [
     {
-     "titulo": "COMUM",
-     "texto": "- NÃO É QUALIFICADA NEM PROFISSIONAL\n- É O {laranja:PÚBLICO EM GERAL}\n- {verde:MAIOR} PROTEÇÃO REGULATÓRIA\n- ACESSO RESTRITO A PRODUTOS SOFISTICADOS\n- PRODUTOS TRADICIONAIS; MAIS ORIENTAÇÃO PROFISSIONAL"
+     "titulo": "PERFIL (R20)",
+     "texto": "- {ciano:PERGUNTA:} QUANTO RISCO CABE NA CARTEIRA?\n- CONSERVADOR · MODERADO · ARROJADO\n- CVM 30, ARTS. 3º E 4º\n- NASCE DO SUITABILITY"
     },
     {
-     "titulo": "QUALIFICADA",
-     "texto": "- {ciano:PATRIMÔNIO:} INVESTIMENTOS {laranja:SUPERIORES A R$ 1 MILHÃO} + TERMO POR ESCRITO\n- {ciano:CERTIFICAÇÃO} APROVADA PELA CVM, SÓ PARA RECURSOS PRÓPRIOS\n- TODO PROFISSIONAL É QUALIFICADO\n- {verde:ACESSA:} CLASSES RESTRITAS · FIP"
+     "titulo": "CATEGORIA",
+     "texto": "- {ciano:PERGUNTA:} QUAIS PRODUTOS PODE ACESSAR?\n- COMUM · QUALIFICADO · PROFISSIONAL\n- CVM 30, ARTS. 11 A 13\n- NASCE DE PATRIMÔNIO E QUALIFICAÇÃO TÉCNICA"
     }
    ],
    "destaque": {
-    "texto": "{ciano:EXAMES ACEITOS (RES. CVM 19, ANEXO A):} CGA · CEA · CNPI · CFA NÍVEL III · ACIIA · CFP · EXATAMENTE 1 MILHÃO {vermelho:NÃO QUALIFICA}",
+    "texto": "{vermelho:COMUM NÃO É CONSERVADOR:} COMUM PODE SER ARROJADO; QUALIFICADO PODE SER CONSERVADOR · ANTES DE RECOMENDAR, {laranja:CONFIRA AS DUAS}",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r21_3_conteudo-2.png",
-   "semente": 2104,
+   "saida": "r21a_3_conteudo-2.png",
+   "semente": 2204,
    "molde": "colunas",
-   "titulo": "PROFISSIONAL E SUITABILITY (2/3)",
-   "topo": "{ciano:PROFISSIONAL (ART. 11):} A CATEGORIA COM {vermelho:MENOS PROTEÇÃO} · A NORMA PARTE DA IDEIA DE QUE ELE ENTENDE OS RISCOS QUE ASSUME",
+   "titulo": "A PESSOA INVESTIDORA COMUM (2/2)",
+   "topo": "{ciano:COMUM:} NÃO SE ENQUADRA COMO QUALIFICADA NEM PROFISSIONAL · NA RESOLUÇÃO CVM 175: {laranja:PÚBLICO EM GERAL}",
    "colunas": [
     {
-     "titulo": "QUEM É",
-     "texto": "- {ciano:PATRIMÔNIO:} {laranja:SUPERIOR A R$ 10 MILHÕES} + TERMO\n- INSTITUIÇÕES FINANCEIRAS, SEGURADORAS, PREVIDÊNCIA, FUNDOS\n- ASSESSOR, GESTOR, ANALISTA E CONSULTOR {laranja:AUTORIZADOS PELA CVM} (RECURSOS PRÓPRIOS)\n- NÃO RESIDENTES · FUNDOS PATRIMONIAIS"
+     "titulo": "CARACTERÍSTICAS",
+     "texto": "- POUCOS ATIVOS COMPLEXOS NA CARTEIRA\n- {verde:PROTEÇÃO REGULATÓRIA: A MAIOR DAS 3}\n- PRODUTOS TRADICIONAIS\n- MAIS DEPENDÊNCIA DE ORIENTAÇÃO\n- PATRIMÔNIO ABAIXO DOS LIMITES DA REGRA"
     },
     {
-     "titulo": "SUITABILITY",
-     "texto": "- {verde:DISPENSADO} PARA QUALIFICADO E PROFISSIONAL\n- {vermelho:EXCEÇÃO, PESSOA FÍSICA:} PROFISSIONAL POR PATRIMÔNIO\n- {vermelho:EXCEÇÃO, PESSOA FÍSICA:} QUALIFICADA POR PATRIMÔNIO OU CERTIFICAÇÃO\n- {ciano:CLASSE EXCLUSIVA (CVM 175):} UM ÚNICO INVESTIDOR PROFISSIONAL"
+     "titulo": "NA PRÁTICA",
+     "texto": "- CLASSES DE FUNDOS ABERTAS A TODOS\n- {vermelho:FORA} DAS CLASSES RESTRITAS\n- {vermelho:FORA} DO FIP\n- SUITABILITY: SEMPRE\n- QUADRO COMPLETO: R21D"
     }
    ],
    "destaque": {
-    "texto": "{ciano:HIERARQUIA:} TODO PROFISSIONAL É QUALIFICADO; O INVERSO NÃO VALE · CERTIFICAÇÃO → {laranja:QUALIFICADO} · AUTORIZAÇÃO DA CVM → {laranja:PROFISSIONAL}",
+    "texto": "{ciano:CASO-LIMITE:} R$ 5 MILHÕES, SEM TERMO ASSINADO = {laranja:COMUM} · {vermelho:FALSO:} \"COMUM TEM MENOS PROTEÇÃO PORQUE INVESTE MENOS\"",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r21_3_conteudo-3.png",
-   "semente": 2105,
-   "molde": "colunas",
-   "titulo": "CICLO DE VIDA (3/3)",
-   "topo": "{ciano:CICLO DE VIDA:} INFLUENCIA OS OBJETIVOS, A {laranja:CAPACIDADE DE RISCO} E AS ESTRATÉGIAS · O BOM PLANEJAMENTO RESPEITA A FASE",
-   "colunas": [
-    {
-     "titulo": "ACUMULAÇÃO",
-     "texto": "- CONSTRUIR PATRIMÔNIO\n- HORIZONTE LONGO\n- MAIOR CAPACIDADE DE RISCO\n- JUROS COMPOSTOS\n- {verde:EX.:} AÇÕES, FUNDOS DE AÇÕES, MULTIMERCADOS"
-    },
-    {
-     "titulo": "CONSOLIDAÇÃO",
-     "texto": "- CRESCER E PRESERVAR\n- CORTA RISCO EXCESSIVO\n- GESTÃO DE RISCO GANHA PESO\n- PREPARA OBJETIVOS FUTUROS\n- {verde:EX.:} FUNDOS BALANCEADOS, RENDA FIXA"
-    },
-    {
-     "titulo": "USUFRUTO",
-     "texto": "- GERAR RENDA\n- PREVISIBILIDADE\n- LIQUIDEZ\n- PRESERVAR O CAPITAL\n- {verde:EX.:} TÍTULOS INDEXADOS À INFLAÇÃO, ATIVOS DE RENDA"
-    }
-   ],
-   "destaque": {
-    "texto": "{ciano:NA PROVA:} A FASE VEM DO {laranja:MOMENTO FINANCEIRO}, NÃO DE IDADE FIXA · FAIXAS DE IDADE SÃO REFERÊNCIA DE MERCADO · CONSOLIDAÇÃO = TRANSIÇÃO · APOSENTADORIA = USUFRUTO",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r21_4_subida-e-pouso.png",
-   "semente": 2106,
+   "saida": "r21a_4_duas-categorias.png",
+   "semente": 2205,
    "molde": "exercicio",
-   "titulo": "APORTE NA SUBIDA, RENDA NO POUSO",
-   "dados": "- TAXA REAL HIPOTÉTICA: 0,5% AO MÊS\n- PRAZO DE 300 MESES (25 ANOS) EM CADA FASE\n- ACUMULAÇÃO: APORTE DE {ciano:R$ 1.500} POR MÊS\n- USUFRUTO: SAQUES MENSAIS ATÉ ZERAR O SALDO\n- SEM IMPOSTO E SEM CUSTOS (SIMPLIFICAÇÃO)",
+   "titulo": "MESMO PERFIL, DUAS CATEGORIAS",
+   "dados": "- 2 CLIENTES DE PERFIL ARROJADO (HIPOTÉTICOS)\n- PEDIDO: COTAS DE UM FIP\n- FIP: SOMENTE INVESTIDORES QUALIFICADOS\n- CAIO: {ciano:R$ 300.000} INVESTIDOS\n- LIA: {ciano:R$ 1.500.000} + TERMO ASSINADO",
    "cenarios": [
     {
-     "titulo": "ACUMULAÇÃO",
-     "passos": "300 APORTES = 450.000\nJUROS = 589.490,94\nn 300 · i 0,5 · PMT 1.500",
-     "resultado": "FV 1.039.490,94"
+     "titulo": "CAIO",
+     "passos": "1.000.000 − 300.000\n= 700.000 ABAIXO DA MARCA\nSEM CERTIFICAÇÃO",
+     "resultado": "COMUM: SEM ACESSO"
     },
     {
-     "titulo": "USUFRUTO",
-     "passos": "PV 1.039.490,94 · FV 0\nn 300 · i 0,5\nSÓ O RENDIMENTO: 5.197,45",
-     "resultado": "PMT 6.697,45"
+     "titulo": "LIA",
+     "passos": "1.500.000 − 1.000.000\n= 500.000 ACIMA DA MARCA\nTERMO ASSINADO",
+     "resultado": "QUALIFICADA: ACESSA"
     }
    ],
    "conclusao": {
-    "texto": "RENDA = {laranja:4,46 VEZES} O APORTE · 56,7% DO PATRIMÔNIO VEIO DOS {verde:JUROS COMPOSTOS} · NO USUFRUTO, O SALDO CHEGA A ZERO NO MÊS 300",
+    "texto": "{ciano:CATEGORIA} = ACESSO · {ciano:PERFIL} = ADEQUAÇÃO · LIA, PESSOA FÍSICA, {laranja:AINDA PASSA} PELO SUITABILITY",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r21b_1_mais-de-1-milhao.png",
+   "semente": 2206,
+   "molde": "mito_verdade",
+   "titulo": "MAIS DE 1 MILHÃO, PRONTO?",
+   "mitos": [
+    "TEM 1 MILHÃO, É QUALIFICADO",
+    "BASTA O SALDO"
+   ],
+   "verdade": "SUPERIOR A 1 MILHÃO {laranja:+ TERMO}",
+   "desenho": {
+    "nome": "cracha_fiscal",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} R$ 1,2 MILHÃO INVESTIDO · \"QUERO O FUNDO RESTRITO\"\n- SEM TERMO ASSINADO → {vermelho:CONTINUA COMUM}\n- {ciano:TERMO PRÓPRIO:} ANEXO B DA RESOLUÇÃO CVM 30\n- {ciano:OUTRO CAMINHO:} CERTIFICAÇÃO APROVADA PELA CVM\n- R$ 1.000.000 EXATO → NÃO PASSA: A NORMA DIZ \"SUPERIOR A\""
+  },
+  {
+   "saida": "r21b_2_a-sala-vip.png",
+   "semente": 2207,
+   "molde": "comparacao",
+   "titulo": "A SALA VIP",
+   "colunas": [
+    {
+     "titulo": "O CARTÃO",
+     "desenho": "cracha_fiscal",
+     "rotulos": [
+      "SALDO",
+      "PROVA"
+     ],
+     "texto": "- CARTÃO 1 → {laranja:PATRIMÔNIO + TERMO}\n- CARTÃO 2 → {laranja:CERTIFICAÇÃO}\n- SEM CARTÃO → PORTÃO COMUM\n- CARTÃO DA PROVA → SÓ {laranja:RECURSOS PRÓPRIOS}"
+    },
+    {
+     "titulo": "DENTRO DA SALA",
+     "desenho": "cardapio",
+     "rotulos": [
+      "OPÇÕES",
+      "ESCOLHA"
+     ],
+     "texto": "- CARDÁPIO MAIOR → {verde:MAIS PRODUTOS}\n- PRATOS ELABORADOS → {verde:ESTRUTURAS SOFISTICADAS}\n- ESCOLHE POR CONTA → {verde:MAIS RESPONSABILIDADE}\n- AVISOS CONTINUAM → {verde:SUITABILITY DA PESSOA FÍSICA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:RECEPÇÃO CONFERE:} SEM O CARTÃO NA MÃO (TERMO ASSINADO), NINGUÉM ENTRA PELO SALDO",
+    "{ciano:SALA VIP NÃO É CABINE:} CLASSE EXCLUSIVA É ÁREA DA TRIPULAÇÃO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} CARTÃO VIP COSTUMA LEVAR ACOMPANHANTE · A CERTIFICAÇÃO NÃO: QUALIFICA SÓ O DINHEIRO {laranja:DO PRÓPRIO CERTIFICADO}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r21b_3_conteudo-1.png",
+   "semente": 2208,
+   "molde": "colunas",
+   "titulo": "QUEM É QUALIFICADO (1/2)",
+   "topo": "{ciano:CVM 30, ART. 12:} {laranja:I} PROFISSIONAIS · {laranja:II} PATRIMÔNIO · {laranja:III} CERTIFICAÇÃO · {laranja:IV} CLUBE GERIDO POR COTISTAS QUALIFICADOS",
+   "colunas": [
+    {
+     "titulo": "PATRIMÔNIO",
+     "texto": "- PESSOA NATURAL OU JURÍDICA\n- INVESTIMENTOS FINANCEIROS {laranja:SUPERIORES} A R$ 1.000.000\n- {laranja:E} TERMO POR ESCRITO (ANEXO B)\n- CONDIÇÕES CUMULATIVAS\n- R$ 1.000.000 EXATO: NÃO"
+    },
+    {
+     "titulo": "CERTIFICAÇÃO",
+     "texto": "- SÓ PESSOA NATURAL\n- APROVADA PELA CVM PARA REGISTRO DE ASSESSOR, ADMINISTRADOR DE CARTEIRA, ANALISTA OU CONSULTOR\n- SÓ RECURSOS PRÓPRIOS\n- {ciano:CVM 19:} CGA · CEA · CNPI · CFA III · ACIIA · CFP"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:FALSO:} \"MAIOR OU IGUAL A 1 MILHÃO\" · {vermelho:FALSO:} \"QUALQUER CERTIFICAÇÃO DO MERCADO\" · {vermelho:FALSO:} \"NÃO PRECISA DE TERMO\"",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r21b_3_conteudo-2.png",
+   "semente": 2209,
+   "molde": "colunas",
+   "titulo": "O QUE MUDA PARA O QUALIFICADO (2/2)",
+   "topo": "MAIS PRODUTOS, ESTRUTURAS SOFISTICADAS E ESTRATÉGIAS DIFERENCIADAS · EM TROCA, {laranja:MAIOR RESPONSABILIDADE}",
+   "colunas": [
+    {
+     "titulo": "ACESSO (CVM 175)",
+     "texto": "- {verde:CLASSES RESTRITAS:} QUALIFICADOS E PROFISSIONAIS (ART. 111)\n- {verde:FIP:} SOMENTE QUALIFICADOS (ANEXO IV, ART. 4º)\n- {vermelho:CLASSE EXCLUSIVA:} NÃO"
+    },
+    {
+     "titulo": "SUITABILITY (ART. 10)",
+     "texto": "- {ciano:REGRA:} QUALIFICADO DISPENSADO\n- {vermelho:EXCEÇÃO:} PESSOA NATURAL POR PATRIMÔNIO OU CERTIFICAÇÃO\n- GUARDAR O TERMO ANTES DE OFERTAR"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:EXCLUSIVA (ART. 115):} UM ÚNICO INVESTIDOR {laranja:PROFISSIONAL}, COTISTAS COM VÍNCULO SOCIETÁRIO FAMILIAR OU INTERESSE ÚNICO E INDISSOCIÁVEL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r21b_4_fernanda.png",
+   "semente": 2210,
+   "molde": "exercicio",
+   "titulo": "QUANDO A FERNANDA PASSA DE 1 MILHÃO?",
+   "dados": "- FERNANDA (HIPOTÉTICO): {ciano:R$ 300.000} INVESTIDOS\n- APORTE: R$ 5.000 POR MÊS\n- TAXA NOMINAL: 0,9% AO MÊS\n- MARCA DA NORMA: R$ 1.000.000, SEM CORREÇÃO\n- HP: n = 67 (66,72 ARREDONDADO)",
+   "cenarios": [
+    {
+     "titulo": "MÊS 66",
+     "passos": "PV 300.000 · PMT 5.000\ni 0,9 · n 66\nFV = 989.930,84",
+     "resultado": "AINDA COMUM"
+    },
+    {
+     "titulo": "MÊS 67",
+     "passos": "PV 300.000 · PMT 5.000\ni 0,9 · n 67\nFV = 1.003.840,22",
+     "resultado": "SUPERIOR A 1 MILHÃO"
+    }
+   ],
+   "conclusao": {
+    "texto": "67 MESES ≈ 5 ANOS E 7 MESES · PASSAR DA MARCA NÃO BASTA: FALTA {laranja:O TERMO} · DEPOIS DELE, A PESSOA FÍSICA SEGUE NO SUITABILITY",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r21c_1_certificacao.png",
+   "semente": 2211,
+   "molde": "mito_verdade",
+   "titulo": "CERTIFICAÇÃO = PROFISSIONAL?",
+   "mitos": [
+    "TEM CERTIFICAÇÃO, É PROFISSIONAL",
+    "PROFISSIONAL = DIPLOMA"
+   ],
+   "verdade": "PROFISSIONAL É O {laranja:AUTORIZADO} PELA CVM",
+   "desenho": {
+    "nome": "cracha_fiscal",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} BRUNO, APROVADO NA CNPI: \"JÁ SOU CERTIFICADO\"\n- SEM AUTORIZAÇÃO PARA ATUAR COMO ANALISTA\n- CERTIFICAÇÃO APROVADA PELA CVM → {laranja:QUALIFICADO}\n- AUTORIZAÇÃO DA CVM PARA ATUAR → {laranja:PROFISSIONAL}\n- NOS DOIS CASOS: SÓ EM RELAÇÃO AOS RECURSOS PRÓPRIOS"
+  },
+  {
+   "saida": "r21c_2_a-tripulacao.png",
+   "semente": 2212,
+   "molde": "comparacao",
+   "titulo": "A TRIPULAÇÃO",
+   "colunas": [
+    {
+     "titulo": "QUEM CIRCULA",
+     "desenho": "aviao_hangar",
+     "rotulos": [
+      "CABINE",
+      "LICENÇA"
+     ],
+     "texto": "- COMPANHIAS AÉREAS → {laranja:INSTITUIÇÕES}\n- PILOTO COM LICENÇA → {laranja:AUTORIZADO PELA CVM}\n- DIPLOMA SEM LICENÇA → {vermelho:SÓ CERTIFICAÇÃO}\n- CRACHÁ → ENQUADRAMENTO NO ART. 11"
+    },
+    {
+     "titulo": "MENOS AVISOS",
+     "desenho": "megafone",
+     "rotulos": [
+      "SILÊNCIO",
+      "CABINE"
+     ],
+     "texto": "- CONHECE O AVIÃO → {verde:AMPLA CAPACIDADE DE ANÁLISE}\n- POUCOS AVISOS → {verde:MENOR PROTEÇÃO}\n- ENTRA NA CABINE → {verde:PRODUTOS EXCLUSIVOS}\n- TAMBÉM USA A SALA VIP → {verde:É QUALIFICADO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:9 TIPOS DE CRACHÁ:} SÃO OS 9 GRUPOS DO ART. 11 DA RESOLUÇÃO CVM 30",
+    "{ciano:CRACHÁ PESSOAL:} O DO PROFISSIONAL AUTORIZADO VALE PARA O DINHEIRO DELE"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} DINHEIRO NÃO LEVA NINGUÉM À CABINE · NO MERCADO, MAIS DE {laranja:R$ 10 MILHÕES + TERMO} LEVA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r21c_3_conteudo-1.png",
+   "semente": 2213,
+   "molde": "colunas",
+   "titulo": "QUEM É PROFISSIONAL (1/2)",
+   "topo": "{ciano:CVM 30, ART. 11:} {laranja:9 GRUPOS} · 7 NA COLUNA DA ESQUERDA + 2 PORTAS QUE ALCANÇAM PESSOAS",
+   "colunas": [
+    {
+     "titulo": "7 GRUPOS",
+     "texto": "- INSTITUIÇÕES FINANCEIRAS E AUTORIZADAS PELO BC\n- SEGURADORAS E CAPITALIZAÇÃO\n- PREVIDÊNCIA COMPLEMENTAR\n- FUNDOS DE INVESTIMENTO\n- CLUBES COM GESTOR AUTORIZADO\n- NÃO RESIDENTES\n- FUNDOS PATRIMONIAIS"
+    },
+    {
+     "titulo": "2 PORTAS",
+     "texto": "- {laranja:PATRIMÔNIO:} MAIS DE R$ 10.000.000 + TERMO (ANEXO A) · PESSOA NATURAL OU JURÍDICA\n- {laranja:ATIVIDADE:} ASSESSOR, ADMINISTRADOR DE CARTEIRA, ANALISTA, CONSULTOR · AUTORIZADOS PELA CVM · RECURSOS PRÓPRIOS"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:ART. 13:} REGIMES PRÓPRIOS DE PREVIDÊNCIA SOCIAL SÓ ENTRAM SE {laranja:RECONHECIDOS} PELA REGULAMENTAÇÃO DO ÓRGÃO FEDERAL COMPETENTE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r21c_3_conteudo-2.png",
+   "semente": 2214,
+   "molde": "colunas",
+   "titulo": "LÓGICA, HIERARQUIA E ACESSO (2/2)",
+   "topo": "A CATEGORIA MAIS ALTA DA RESOLUÇÃO CVM 30: {vermelho:MENOS PROTEÇÃO}, {verde:MAIS ACESSO}",
+   "colunas": [
+    {
+     "titulo": "A LÓGICA",
+     "texto": "- PRESSUPOSTO: AMPLA CAPACIDADE DE ANÁLISE E COMPREENSÃO DOS RISCOS\n- {vermelho:FALSO:} CERTIFICAÇÃO = PROFISSIONAL\n- {vermelho:FALSO:} BASTA TER 10 MILHÕES\n- \"SUPERIOR A\", NÃO \"IGUAL A\""
+    },
+    {
+     "titulo": "SÓ O PROFISSIONAL",
+     "texto": "- CLASSE EXCLUSIVA (CVM 175, ART. 115)\n- FIDC COM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS, EM REGRA (ANEXO II, ART. 15)\n- SUITABILITY: DISPENSADO, SALVO PESSOA NATURAL POR PATRIMÔNIO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:HIERARQUIA:} PROFISSIONAL → É QUALIFICADO · QUALIFICADO → PODE NÃO SER PROFISSIONAL · R$ 12 MILHÕES + TERMO, PESSOA FÍSICA: {laranja:SEGUE NO SUITABILITY}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r21c_4_mesma-prova.png",
+   "semente": 2215,
+   "molde": "exercicio",
+   "titulo": "MESMA PROVA, DUAS CATEGORIAS",
+   "dados": "- 2 PESSOAS FÍSICAS (HIPOTÉTICAS)\n- {ciano:R$ 400.000} INVESTIDOS CADA UMA\n- MESMA CERTIFICAÇÃO APROVADA PELA CVM\n- BRUNO: SEM AUTORIZAÇÃO PARA ATUAR\n- CARLA: ANALISTA AUTORIZADA",
+   "cenarios": [
+    {
+     "titulo": "BRUNO",
+     "passos": "CERTIFICAÇÃO: SIM\nAUTORIZAÇÃO: NÃO\nRESTRITAS E FIP: SIM",
+     "resultado": "QUALIFICADO"
+    },
+    {
+     "titulo": "CARLA",
+     "passos": "CERTIFICAÇÃO: SIM\nAUTORIZAÇÃO: SIM\n+ CLASSE EXCLUSIVA",
+     "resultado": "PROFISSIONAL"
+    }
+   ],
+   "conclusao": {
+    "texto": "SALDO IGUAL, ABAIXO DE 1 MILHÃO · A DIFERENÇA É {laranja:A AUTORIZAÇÃO} · AMBOS: SÓ RECURSOS PRÓPRIOS · BRUNO SEGUE NO SUITABILITY",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r21d_1_sem-suitability.png",
+   "semente": 2216,
+   "molde": "mito_verdade",
+   "titulo": "QUALIFICADO, SEM SUITABILITY?",
+   "mitos": [
+    "QUALIFICADO NÃO PASSA POR SUITABILITY",
+    "QUALIFICADO ENTRA EM FUNDO EXCLUSIVO"
+   ],
+   "verdade": "PESSOA FÍSICA {laranja:CONTINUA} NO SUITABILITY",
+   "desenho": {
+    "nome": "escudo",
+    "largura": 140
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} PESSOA FÍSICA · R$ 1,2 MILHÃO · TERMO ASSINADO\n- É QUALIFICADA PELO PATRIMÔNIO\n- {vermelho:CLASSE EXCLUSIVA:} SÓ INVESTIDOR PROFISSIONAL\n- {vermelho:SUITABILITY:} MANTIDO (CVM 30, ART. 10, I)\n- {ciano:A CATEGORIA MUDA 3 COISAS:} PROTEÇÃO · PRODUTOS · SUITABILITY"
+  },
+  {
+   "saida": "r21d_2_o-que-cada-cartao-abre.png",
+   "semente": 2217,
+   "molde": "comparacao",
+   "titulo": "O QUE CADA CARTÃO ABRE",
+   "colunas": [
+    {
+     "titulo": "AS PORTAS",
+     "desenho": "cadeado",
+     "rotulos": [
+      "PORTÃO",
+      "CABINE"
+     ],
+     "texto": "- BILHETE → PORTÃO: {laranja:PÚBLICO EM GERAL}\n- CARTÃO VIP → + SALA: {laranja:RESTRITAS E FIP}\n- CRACHÁ → + CABINE: {laranja:CLASSE EXCLUSIVA}\n- CADA NÍVEL SOMA AO ANTERIOR"
+    },
+    {
+     "titulo": "OS AVISOS",
+     "desenho": "megafone",
+     "rotulos": [
+      "OUVE",
+      "DISPENSA"
+     ],
+     "texto": "- PASSAGEIRO COMUM OUVE TUDO → {verde:SUITABILITY}\n- TRIPULAÇÃO QUASE NADA → {verde:DISPENSA}\n- PESSOA FÍSICA NA SALA VIP → {vermelho:CONTINUA OUVINDO}\n- EMPRESA NA SALA VIP → DISPENSADA"
+    }
+   ],
+   "faixas": [
+    "{ciano:PORTA E AVISO SÃO COISAS SEPARADAS:} UM TRATA DE ACESSO; O OUTRO, DE ADEQUAÇÃO",
+    "{ciano:QUEM VOA COM PILOTO PARTICULAR:} CARTEIRA ADMINISTRADA TAMBÉM DISPENSA OS AVISOS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} AVISO DE BORDO É IGUAL PARA TODOS · SUITABILITY É {laranja:INDIVIDUAL}, CLIENTE A CLIENTE",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r21d_3_conteudo-1.png",
+   "semente": 2218,
+   "molde": "colunas",
+   "titulo": "O QUADRO DAS CATEGORIAS (1/2)",
+   "topo": "{ciano:PROTEÇÃO:} {verde:MAIOR} NO COMUM → {vermelho:MENOR} NO PROFISSIONAL · NO MEIO, O QUALIFICADO RESPONDE MAIS PELAS PRÓPRIAS DECISÕES",
+   "colunas": [
+    {
+     "titulo": "COMUM",
+     "texto": "- PÚBLICO EM GERAL\n- CLASSES ABERTAS A TODOS\n- FIDC: SIM, SEM COTAS SUBORDINADAS (ANEXO II, ART. 13)\n- SUITABILITY OBRIGATÓRIO"
+    },
+    {
+     "titulo": "QUALIFICADO",
+     "texto": "- TUDO DO COMUM\n- {verde:+} CLASSES RESTRITAS (ART. 111)\n- {verde:+} FIP (ANEXO IV, ART. 4º)\n- MAIS RESPONSABILIDADE"
+    },
+    {
+     "titulo": "PROFISSIONAL",
+     "texto": "- TUDO DO QUALIFICADO\n- {verde:+} CLASSE EXCLUSIVA (ART. 115)\n- {verde:+} FIDC NÃO PADRONIZADO, EM REGRA (ANEXO II, ART. 15)"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:FIDC NÃO É SÓ DE PROFISSIONAL} · RESTRITA = QUALIFICADOS E PROFISSIONAIS · EXCLUSIVA = {laranja:UM ÚNICO PROFISSIONAL} · NORMA: RESOLUÇÃO CVM 175",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r21d_3_conteudo-2.png",
+   "semente": 2219,
+   "molde": "colunas",
+   "titulo": "SUITABILITY: QUEM PASSA (2/2)",
+   "topo": "{ciano:CVM 30, ART. 10:} VERIFICAR A ADEQUAÇÃO É A REGRA; A {laranja:DISPENSA} É A EXCEÇÃO",
+   "colunas": [
+    {
+     "titulo": "POR CATEGORIA",
+     "texto": "- {ciano:COMUM:} OBRIGATÓRIO\n- {ciano:QUALIFICADO:} DISPENSADO, SALVO PESSOA NATURAL POR PATRIMÔNIO OU CERTIFICAÇÃO\n- {ciano:PROFISSIONAL:} DISPENSADO, SALVO PESSOA NATURAL POR PATRIMÔNIO\n- EMPRESA QUALIFICADA: DISPENSADA"
+    },
+    {
+     "titulo": "OUTRAS DISPENSAS",
+     "texto": "- {laranja:1.} PESSOA JURÍDICA DE DIREITO PÚBLICO\n- {laranja:2.} CARTEIRA ADMINISTRADA DISCRICIONÁRIA, POR ADMINISTRADOR AUTORIZADO\n- {laranja:3.} PERFIL DEFINIDO POR CONSULTOR AUTORIZADO, AO IMPLEMENTAR A RECOMENDAÇÃO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:ATUALIZAÇÃO:} INSTRUÇÕES CVM 400 E 476 {vermelho:REVOGADAS} PELA RESOLUÇÃO CVM 160 (VIGÊNCIA: 02/01/2023) · \"FUNDO 476\" É NOME ANTIGO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r21d_4_mesmo-termo.png",
+   "semente": 2220,
+   "molde": "exercicio",
+   "titulo": "MESMO TERMO, DOIS CLIENTES",
+   "dados": "- {ciano:R$ 1.200.000} EM INVESTIMENTOS (HIPOTÉTICO)\n- TERMO DE QUALIFICADO ASSINADO\n- CENÁRIO 1: PESSOA FÍSICA\n- CENÁRIO 2: EMPRESA\n- MUDA SÓ A NATUREZA DO CLIENTE",
+   "cenarios": [
+    {
+     "titulo": "PESSOA FÍSICA",
+     "passos": "QUALIFICADA: PATRIMÔNIO\nRESTRITAS E FIP: SIM\nEXCLUSIVA: NÃO",
+     "resultado": "SUITABILITY: SIM"
+    },
+    {
+     "titulo": "EMPRESA",
+     "passos": "QUALIFICADA: PATRIMÔNIO\nRESTRITAS E FIP: SIM\nEXCLUSIVA: NÃO",
+     "resultado": "SUITABILITY: DISPENSADO"
+    }
+   ],
+   "conclusao": {
+    "texto": "{vermelho:5 FALSAS:} 1 MILHÃO BASTA · QUALQUER CERTIFICAÇÃO SERVE · CERTIFICAÇÃO = PROFISSIONAL · QUALIFICADO SEM SUITABILITY · ARROJADO ACESSA TUDO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r21e_1_idade-define.png",
+   "semente": 2221,
+   "molde": "mito_verdade",
+   "titulo": "A IDADE DEFINE A FASE?",
+   "mitos": [
+    "50 ANOS = CONSOLIDAÇÃO",
+    "FASE É FAIXA ETÁRIA"
+   ],
+   "verdade": "A FASE É O {laranja:MOMENTO FINANCEIRO}",
+   "desenho": {
+    "nome": "rota_voo",
+    "largura": 230
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} 2 CLIENTES DE 50 ANOS, FASES OPOSTAS\n- ELA: JÁ VIVE DA RENDA DO PATRIMÔNIO → {laranja:USUFRUTO}\n- ELE: COMEÇOU A INVESTIR AGORA → {laranja:ACUMULAÇÃO}\n- {ciano:3 FASES:} ACUMULAÇÃO · CONSOLIDAÇÃO OU TRANSIÇÃO · APOSENTADORIA OU USUFRUTO\n- A FASE MEXE EM OBJETIVOS, CAPACIDADE DE RISCO E ESTRATÉGIAS\n- {vermelho:FALSO:} \"A FASE DO CICLO DE VIDA É DADA PELA IDADE\""
+  },
+  {
+   "saida": "r21e_2_a-rota.png",
+   "semente": 2222,
+   "molde": "comparacao",
+   "titulo": "A ROTA DO VOO",
+   "colunas": [
+    {
+     "titulo": "SUBIDA E CRUZEIRO",
+     "desenho": "rota_voo",
+     "rotulos": [
+      "SUBIDA",
+      "CRUZEIRO"
+     ],
+     "texto": "- GANHAR ALTITUDE → {laranja:CONSTRUIR PATRIMÔNIO}\n- MOTOR EM FORÇA → {laranja:APORTES CONSTANTES}\n- ESTABILIZAR → {laranja:CRESCER E PRESERVAR}\n- PREPARAR A DESCIDA → {laranja:REDUZIR RISCOS EXCESSIVOS}"
+    },
+    {
+     "titulo": "O POUSO",
+     "desenho": "combustivel",
+     "rotulos": [
+      "POUSO",
+      "TANQUE"
+     ],
+     "texto": "- DESCIDA SUAVE → {verde:PREVISIBILIDADE}\n- PISTA À VISTA → {verde:LIQUIDEZ}\n- COMBUSTÍVEL ATÉ O FIM → {verde:RENDA PELA VIDA TODA}\n- TANQUE VAZIO ANTES → {vermelho:RISCO DE LONGEVIDADE}"
+    }
+   ],
+   "faixas": [
+    "{ciano:CADA TRECHO, UM COMANDO:} O PILOTO NÃO POUSA COM POTÊNCIA DE DECOLAGEM",
+    "{ciano:VENTO CONTRA NO POUSO:} A INFLAÇÃO GASTA COMBUSTÍVEL MAIS RÁPIDO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O PILOTO SABE A HORA DE POUSAR · O INVESTIDOR {laranja:NÃO SABE} POR QUANTOS ANOS O PATRIMÔNIO TERÁ DE DURAR",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r21e_3_conteudo-1.png",
+   "semente": 2223,
+   "molde": "colunas",
+   "titulo": "AS TRÊS FASES (1/2)",
+   "topo": "A FASE MUDA {laranja:OBJETIVOS, CAPACIDADE DE RISCO E ESTRATÉGIAS} · PLANEJAR É RESPEITAR A FASE DO INVESTIDOR",
+   "colunas": [
+    {
+     "titulo": "ACUMULAÇÃO",
+     "texto": "- {ciano:FOCO:} CONSTRUIR PATRIMÔNIO\n- HORIZONTE LONGO\n- MAIS CAPACIDADE DE RISCO\n- JUROS COMPOSTOS\n- APORTES CONSTANTES\n- RESERVA E SEGUROS"
+    },
+    {
+     "titulo": "CONSOLIDAÇÃO",
+     "texto": "- {ciano:FOCO:} EQUILÍBRIO\n- REDUZ RISCOS EXCESSIVOS\n- GESTÃO DE RISCO PESA MAIS\n- SEGUE CRESCENDO\n- TRIBUTÁRIO E SUCESSÓRIO"
+    },
+    {
+     "titulo": "USUFRUTO",
+     "texto": "- {ciano:FOCO:} GERAR RENDA\n- PREVISIBILIDADE, LIQUIDEZ\n- PRESERVAR O CAPITAL\n- {vermelho:INFLAÇÃO}\n- {vermelho:LONGEVIDADE}"
+    }
+   ],
+   "destaque": {
+    "texto": "SUBIDA = CRESCER · CRUZEIRO = EQUILIBRAR · POUSO = RENDA · MUDOU DE FASE → {laranja:REVISAR} OBJETIVOS, ALOCAÇÃO E PERFIL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r21e_3_conteudo-2.png",
+   "semente": 2224,
+   "molde": "colunas",
+   "titulo": "EXEMPLOS, IDADES E CUIDADOS (2/2)",
+   "topo": "EXEMPLOS E FAIXAS ETÁRIAS SÃO {laranja:REFERÊNCIAS DE MERCADO}, NÃO REGRA",
+   "colunas": [
+    {
+     "titulo": "EXEMPLOS POR FASE",
+     "texto": "- {ciano:ACUMULAÇÃO:} AÇÕES, FUNDOS DE AÇÕES, ETFs, MULTIMERCADOS, PREVIDÊNCIA AGRESSIVA\n- {ciano:CONSOLIDAÇÃO:} BALANCEADOS, RENDA FIXA, FIIs ESTÁVEIS, SEGUROS, HOLDINGS\n- {ciano:USUFRUTO:} TESOURO IPCA+, RENDA FIXA, FIIs DE RENDA, DIVIDENDOS, SAQUE PROGRAMADO"
+    },
+    {
+     "titulo": "IDADES USUAIS",
+     "texto": "- ACUMULAÇÃO: ATÉ ~45 ANOS\n- CONSOLIDAÇÃO: 45 A 60\n- USUFRUTO: 60 OU MAIS\n- {vermelho:NÃO É NORMA}\n- PAROU AOS 45 E VIVE DO PATRIMÔNIO = USUFRUTO"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:CUIDADO:} NO USUFRUTO CAI A {laranja:CAPACIDADE} DE RISCO; A TOLERÂNCIA EMOCIONAL É INDIVIDUAL · FASE ≠ PERFIL ≠ CATEGORIA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r21e_4_subida-e-pouso.png",
+   "semente": 2225,
+   "molde": "exercicio",
+   "titulo": "A SUBIDA E O POUSO DO LUCAS",
+   "dados": "- LUCAS, 35 ANOS (HIPOTÉTICO)\n- TAXA REAL: 0,5% AO MÊS · REAIS DE HOJE\n- 300 MESES EM CADA FASE\n- CENÁRIO 1: APORTA {ciano:R$ 1.500} POR MÊS\n- CENÁRIO 2: VIVE DO PATRIMÔNIO",
+   "cenarios": [
+    {
+     "titulo": "ACUMULAÇÃO",
+     "passos": "PMT 1.500 · i 0,5 · n 300\nFV = 1.039.490,94\nAPORTES: 450.000",
+     "resultado": "JUROS: 589.490,94"
+    },
+    {
+     "titulo": "USUFRUTO",
+     "passos": "PV 1.039.490,94 · FV 0\nPMT = 6.697,45 (ZERA)\nSÓ RENDIMENTO: 5.197,45",
+     "resultado": "5.197 A 6.697/MÊS"
+    }
+   ],
+   "conclusao": {
+    "texto": "6.697/MÊS ZERA O SALDO EM 300 MESES → {vermelho:RISCO DE LONGEVIDADE} · 5.197/MÊS PRESERVA O CAPITAL · 56,7% DO PATRIMÔNIO VEIO DOS JUROS",
     "cor": "branco",
     "moldura": "amarelo"
    }
