@@ -1,0 +1,686 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "molde": "mito_verdade",
+   "saida": "r44a_1_adr-brasil.png",
+   "semente": 4401,
+   "titulo": "ADR BRASILEIRO É INTERNACIONAL?",
+   "mitos": [
+    "ADR BRASILEIRO = DIVERSIFICAÇÃO",
+    "OUTRA BOLSA = OUTRO RISCO"
+   ],
+   "verdade": "MUDA {laranja:BOLSA E MOEDA}, NÃO A {verde:EMPRESA}",
+   "desenho": {
+    "nome": "pessoa",
+    "largura": 110
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} ADR DE EMPRESA BRASILEIRA EM NOVA YORK\n- LUCRO, CLIENTES E RISCOS: {vermelho:DO BRASIL}\n- NEGOCIADO EM {laranja:DÓLAR}, NA BOLSA DE LÁ\n- PREÇO PRESO À AÇÃO NA {laranja:B3} E AO CÂMBIO\n- PARA SAIR DO RISCO BRASIL: {verde:EMPRESAS DE FORA}\n- {ciano:REGRA:} O RECIBO NÃO MUDA A NACIONALIDADE"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r44a_2_cartao.png",
+   "semente": 4402,
+   "titulo": "O CARTÃO DE INSCRIÇÃO",
+   "colunas": [
+    {
+     "titulo": "QUEM EMITE O CARTÃO",
+     "desenho": "cracha_fiscal",
+     "rotulos": [
+      "CARTÃO",
+      "DA LIGA"
+     ],
+     "texto": "- CARTÃO DA LIGA → {verde:ADR}\n- ENTIDADE AMERICANA → {laranja:BANCO DEPOSITÁRIO}\n- REGISTRO NO CLUBE → {laranja:CUSTODIANTE NA ORIGEM}\n- 1 CARTÃO = 2 JOGADORES → {laranja:RATIO}"
+    },
+    {
+     "titulo": "A TROCA",
+     "desenho": "balanca",
+     "rotulos": [
+      "IDA",
+      "E VOLTA"
+     ],
+     "texto": "- TROCA NOS DOIS SENTIDOS → {verde:ADR VIRA AÇÃO E VOLTA}\n- VALORES ALINHADOS → {verde:ARBITRAGEM}\n- CLUBE APOIA → {laranja:PATROCINADO}\n- SEM O CLUBE → {laranja:NÃO PATROCINADO (SÓ NÍVEL 1)}"
+    }
+   ],
+   "faixas": [
+    "{ciano:DEPOSITARY RECEIPT:} RECIBO DE AÇÕES DE OUTRO PAÍS, NEGOCIADO {laranja:FORA DO MERCADO DE ORIGEM}",
+    "{ciano:LIQUIDAÇÃO:} EM {laranja:DÓLAR}, NOS SISTEMAS AMERICANOS · RATIO AJUSTA AO {laranja:PADRÃO DE PREÇO DE LÁ}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} JOGADOR NÃO MUDA DE VALOR COM A MOEDA · O ADR {laranja:SEGUE O CÂMBIO DO DIA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r44a_3_adr.png",
+   "semente": 4403,
+   "titulo": "O ADR POR DENTRO",
+   "topo": "{ciano:FONTE:} SEC · BANCO DEPOSITÁRIO NOS EUA + {laranja:CUSTODIANTE NA ORIGEM} + RATIO + DÓLAR",
+   "colunas": [
+    {
+     "titulo": "A ARBITRAGEM",
+     "texto": "- ADR CARO: COMPRA AÇÃO AQUI\n- TROCA POR ADR, VENDE LÁ\n- ADR BARATO: O INVERSO\n- DIFERENÇA {laranja:< CUSTOS}:\n- {vermelho:NÃO COMPENSA}"
+    },
+    {
+     "titulo": "PATROCÍNIO",
+     "texto": "- {verde:PATROCINADO}:\n- EMPRESA CONTRATA O BANCO\n- {laranja:NÃO PATROCINADO}:\n- MONTADO SEM A EMPRESA\n- SÓ NO {laranja:NÍVEL 1}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} ADR ≠ AÇÃO DIRETA · O ADR É {laranja:RECIBO DE BANCO DEPOSITÁRIO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r44a_4_paridade.png",
+   "semente": 4404,
+   "titulo": "QUANTO DEVERIA VALER O ADR?",
+   "dados": "- AÇÃO NA B3: {ciano:R$ 30,00} (HIPOTÉTICO)\n- RATIO: {ciano:1 ADR = 2 AÇÕES}\n- DUAS AÇÕES = R$ 60\n- SEM CUSTOS NEM DIFERENÇA DE HORÁRIO\n- A ÚNICA DIFERENÇA: O DÓLAR",
+   "cenarios": [
+    {
+     "titulo": "DÓLAR A 5,50",
+     "passos": "60 ÷ 5,50\nPARIDADE\nEM DÓLAR",
+     "resultado": "10,91 DÓLARES"
+    },
+    {
+     "titulo": "DÓLAR A 6,00",
+     "passos": "60 ÷ 6,00\nPARIDADE\nEM DÓLAR",
+     "resultado": "10,00 DÓLARES"
+    }
+   ],
+   "conclusao": {
+    "texto": "NEGOCIADO A 11,20 NO CENÁRIO 1: {vermelho:ÁGIO DE 2,67%} · A ARBITRAGEM PUXA DE VOLTA À PARIDADE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r44b_1_nivel2.png",
+   "semente": 4411,
+   "titulo": "NÍVEL 2 CAPTA RECURSOS?",
+   "mitos": [
+    "BOLSA = CAPTAÇÃO",
+    "NÍVEL 2 VENDE AÇÕES NOVAS"
+   ],
+   "verdade": "CAPTAÇÃO PÚBLICA: SÓ O {verde:NÍVEL 3}",
+   "desenho": {
+    "nome": "placa",
+    "largura": 130
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} ADR NÍVEL 2 NA NYSE\n- EM BOLSA: {verde:SIM}\n- CAPTAÇÃO: {vermelho:NÃO}\n- PARA CAPTAR EM OFERTA PÚBLICA: {laranja:NÍVEL 3}\n- SÓ COM INSTITUCIONAIS: {laranja:144-A}\n- {ciano:REGRA:} ESTAR EM BOLSA ≠ VENDER AÇÃO NOVA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r44b_2_campos.png",
+   "semente": 4412,
+   "titulo": "OS QUATRO CAMPOS",
+   "colunas": [
+    {
+     "titulo": "VÁRZEA E ESTÁDIO",
+     "desenho": "bilheteria",
+     "rotulos": [
+      "NÍVEIS",
+      "1 E 2"
+     ],
+     "texto": "- VÁRZEA → {laranja:NÍVEL 1 (BALCÃO)}\n- POUCA PAPELADA → {verde:EXIGÊNCIA MÍNIMA}\n- ESTÁDIO OFICIAL → {laranja:NÍVEL 2 (BOLSA)}\n- FICHA ANUAL → {laranja:FORM 20-F}"
+    },
+    {
+     "titulo": "MALA E TREINO",
+     "desenho": "gelo_cadeado",
+     "rotulos": [
+      "NÍVEL 3",
+      "E 144-A"
+     ],
+     "texto": "- MALA DE DINHEIRO → {verde:NÍVEL 3 CAPTA}\n- OFERTA REGISTRADA → {laranja:PÚBLICO EM GERAL}\n- TREINO FECHADO → {laranja:144-A}\n- SÓ OLHEIROS GRANDES → {vermelho:SÓ QIB}"
+    }
+   ],
+   "faixas": [
+    "{ciano:QIB (RULE 144A):} INSTITUIÇÃO COM PELO MENOS {laranja:100 MILHÕES DE DÓLARES} INVESTIDOS",
+    "{ciano:REVENDA NO 144-A:} {vermelho:RESTRITA} · \"RESTRICTED SECURITIES\""
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} TREINO FECHADO VIRA PÚBLICO DEPOIS · NO 144-A, A {laranja:REVENDA SEGUE RESTRITA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r44b_3_niveis.png",
+   "semente": 4413,
+   "titulo": "NÍVEIS DE ADR NA SEC",
+   "topo": "{ciano:QUANTO MAIS ALTO O NÍVEL,} MAIS INFORMAÇÃO À SEC E {laranja:MAIS TRANSPARÊNCIA}",
+   "colunas": [
+    {
+     "titulo": "ONDE E SE CAPTA",
+     "texto": "- N1: {laranja:OTC}, SEM CAPTAÇÃO\n- N2: {laranja:NYSE/NASDAQ}, SEM\n- N3: BOLSA, {verde:CAPTA}\n- 144-A: {laranja:PRIVADO}, CAPTA\n- SÓ N1 PODE SER NÃO PATROCINADO"
+    },
+    {
+     "titulo": "PAPELADA NA SEC",
+     "texto": "- N1: {verde:A MAIS SIMPLES}\n- N2: REGISTRO + {laranja:20-F}\n- N3: N2 + {laranja:REGISTRO DA OFERTA}\n- 144-A: REGRAS DA RULE 144A\n- QIB COM ≥ 100 MI: {verde:OK}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} NÍVEL 1 {vermelho:NÃO} ESTÁ NA NYSE, {vermelho:NÃO} ENTREGA 20-F E {vermelho:NÃO} CAPTA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r44b_4_objetivo.png",
+   "semente": 4414,
+   "titulo": "LISTAR OU CAPTAR?",
+   "dados": "- EMPRESA BRASILEIRA DE CAPITAL ABERTO (HIPOTÉTICO)\n- QUER RECIBOS NUMA {laranja:BOLSA AMERICANA}\n- ACEITA ENTREGAR O {laranja:20-F}\n- RECIBOS PATROCINADOS\n- A ÚNICA DIFERENÇA: O OBJETIVO",
+   "cenarios": [
+    {
+     "titulo": "SÓ VISIBILIDADE",
+     "passos": "BOLSA: SIM\nAÇÕES NOVAS: NÃO\nSEM OFERTA",
+     "resultado": "NÍVEL 2"
+    },
+    {
+     "titulo": "DINHEIRO NOVO",
+     "passos": "BOLSA: SIM\nAÇÕES NOVAS: SIM\nOFERTA REGISTRADA",
+     "resultado": "NÍVEL 3"
+    }
+   ],
+   "conclusao": {
+    "texto": "DINHEIRO SÓ DE GRANDES INSTITUCIONAIS, SEM OFERTA PÚBLICA → {laranja:144-A} · O VAREJO FICA DE FORA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r44c_1_bdr.png",
+   "semente": 4421,
+   "titulo": "QUALQUER UM COMPRA BDR NÍVEL I?",
+   "mitos": [
+    "TODO BDR É PARA O VAREJO",
+    "BDR NA B3 = AÇÃO COMUM"
+   ],
+   "verdade": "NÍVEL I: {laranja:QUALIFICADO}, SALVO {verde:MERCADO RECONHECIDO}",
+   "desenho": {
+    "nome": "prancheta",
+    "largura": 100
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} VAREJO E UM BDR NÍVEL I\n- {ciano:RES. CVM 182, ART. 15:} REGRA, SÓ QUALIFICADO\n- {ciano:ART. 16:} PÚBLICO EM GERAL SE {laranja:MERCADO RECONHECIDO}\n- EMISSOR {laranja:DISPENSADO} DE REGISTRO NA CVM\n- SUITABILITY {verde:SEMPRE} (ART. 14)\n- {ciano:REGRA:} CONFIRA O NÍVEL ANTES DE INDICAR"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r44c_2_ligas.png",
+   "semente": 4422,
+   "titulo": "OUTRAS LIGAS",
+   "colunas": [
+    {
+     "titulo": "LIGAS DA EUROPA",
+     "desenho": "aviao_hangar",
+     "rotulos": [
+      "GDR",
+      "MAIS DE 1"
+     ],
+     "texto": "- CARTÃO EUROPEU → {verde:GDR}\n- VÁRIAS LIGAS → {laranja:2 OU MAIS MERCADOS}\n- SEDE COMUM → {laranja:LONDRES OU LUXEMBURGO}\n- PARTE NOS EUA → {laranja:VIA 144-A}"
+    },
+    {
+     "titulo": "NO BRASILEIRÃO",
+     "desenho": "bilheteria",
+     "rotulos": [
+      "BDR",
+      "NA B3"
+     ],
+     "texto": "- ESTRANGEIRO AQUI → {verde:BDR}\n- SEM APOIO DO CLUBE → {laranja:NÍVEL I PODE}\n- FICHA NA FEDERAÇÃO → {laranja:REGISTRO NA CVM}\n- AVISO DO ÁRBITRO → {verde:SUITABILITY E RISCOS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:NÍVEIS II E III:} {laranja:PATROCINADOS} · REGISTRO DO EMISSOR · NÍVEL III: OFERTA {verde:SEM RESTRIÇÃO DE PÚBLICO}",
+    "{ciano:AÇÃO DIRETA × RECIBO:} MUDAM {laranja:REGULAÇÃO}, {laranja:LIQUIDEZ} E {laranja:CUSTOS}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} QUALQUER TORCEDOR ENTRA NO ESTÁDIO · O BDR NÍVEL I PEDE {laranja:INVESTIDOR QUALIFICADO}, EM REGRA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r44c_3_gdr-bdr.png",
+   "semente": 4423,
+   "titulo": "GDR E BDR",
+   "topo": "{ciano:BDR:} RECIBO {laranja:EMITIDO NO BRASIL}, NEGOCIADO NA {laranja:B3}, COM LASTRO NO EXTERIOR (RES. CVM 182)",
+   "colunas": [
+    {
+     "titulo": "OS 3 NÍVEIS DO BDR",
+     "texto": "- I: PATROCINADO {laranja:OU NÃO}\n- I: SEM REGISTRO DO EMISSOR\n- II: PATROCINADO + REGISTRO\n- III: II + OFERTA {verde:AMPLA}\n- TODOS: {verde:SUITABILITY}"
+    },
+    {
+     "titulo": "QUEM COMPRA O NÍVEL I",
+     "texto": "- REGRA: {laranja:QUALIFICADO}\n- EXCEÇÃO: BOLSA PRINCIPAL\n- EM {verde:MERCADO RECONHECIDO}\n- PAÍS COM ACORDO COM A CVM\n- PATROCÍNIO {vermelho:NÃO} DECIDE"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:É COMUM LER:} GDR \"NA EUROPA E NA ÁSIA\" · {vermelho:ATENÇÃO:} EM GERAL, {laranja:2 OU MAIS MERCADOS} FORA DA ORIGEM",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r44c_4_reconhecido.png",
+   "semente": 4424,
+   "titulo": "O VAREJO PODE COMPRAR?",
+   "dados": "- INVESTIDOR {laranja:NÃO QUALIFICADO} (HIPOTÉTICO)\n- QUER UM {ciano:BDR NÍVEL I} NA B3\n- REGRA GERAL DO NÍVEL I: SÓ QUALIFICADO\n- EXCEÇÃO: BOLSA PRINCIPAL RECONHECIDA\n- A ÚNICA DIFERENÇA: A BOLSA DO EMISSOR",
+   "cenarios": [
+    {
+     "titulo": "MERCADO RECONHECIDO",
+     "passos": "PAÍS COM ACORDO\nBOLSA RECONHECIDA\nART. 16",
+     "resultado": "PODE"
+    },
+    {
+     "titulo": "NÃO RECONHECIDO",
+     "passos": "SEM A EXCEÇÃO\nREGRA DO ART. 15\nSÓ QUALIFICADO",
+     "resultado": "NÃO PODE"
+    }
+   ],
+   "conclusao": {
+    "texto": "NOS DOIS: O INTERMEDIÁRIO FAZ O {verde:SUITABILITY} E AVISA: {laranja:OUTRA LEI E OUTRA CONTABILIDADE}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r44d_1_pre-mercado.png",
+   "semente": 4431,
+   "titulo": "PRÉ-MERCADO = PREGÃO?",
+   "mitos": [
+    "PRÉ-MERCADO TEM A MESMA LIQUIDEZ",
+    "QUALQUER HORA É IGUAL"
+   ],
+   "verdade": "PREGÃO REGULAR: {verde:9H30 ÀS 16H} DE NOVA YORK",
+   "desenho": {
+    "nome": "alarme",
+    "largura": 110
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} ORDEM GRANDE ÀS 6H DE NOVA YORK\n- SESSÕES DA NYSE COMEÇAM ÀS {laranja:4H}\n- PRÉ E PÓS-MERCADO: {vermelho:MENOS LIQUIDEZ}\n- MENOS NEGÓCIOS → {vermelho:PREÇO MAIS INSTÁVEL}\n- REFERÊNCIA: {laranja:HORÁRIO DE NOVA YORK}\n- {ciano:REGRA:} ORDEM GRANDE, NO PREGÃO REGULAR"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r44d_2_liga.png",
+   "semente": 4432,
+   "titulo": "A LIGA AMERICANA",
+   "colunas": [
+    {
+     "titulo": "O JOGO OFICIAL",
+     "desenho": "bilheteria",
+     "rotulos": [
+      "ARQUIBANCADA",
+      "CHEIA"
+     ],
+     "texto": "- MAIOR LIGA → {verde:MAIS LÍQUIDO DO MUNDO}\n- DOIS ESTÁDIOS → {laranja:NYSE E NASDAQ}\n- INGRESSO EM DÓLAR → {laranja:NEGOCIAÇÃO EM DÓLAR}\n- PAGAMENTO NO DIA SEGUINTE → {laranja:T+1}"
+    },
+    {
+     "titulo": "O AQUECIMENTO",
+     "desenho": "ampulheta",
+     "rotulos": [
+      "ANTES",
+      "E DEPOIS"
+     ],
+     "texto": "- AQUECIMENTO → {laranja:PRÉ-MERCADO}\n- SAÍDA DO ESTÁDIO → {laranja:PÓS-MERCADO}\n- POUCA GENTE → {vermelho:MENOS LIQUIDEZ}\n- AGÊNCIA DE LÁ OU DAQUI → {verde:FORMAS DE ACESSO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:SETORES LÍDERES:} TECNOLOGIA · SAÚDE · CONSUMO · FINANÇAS · ENERGIA",
+    "{ciano:POR QUE É REFERÊNCIA:} LIQUIDEZ · {laranja:TRANSPARÊNCIA REGULATÓRIA} · INFORMAÇÃO DISPONÍVEL"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} INGRESSO CUSTA IGUAL PARA TODOS · O GANHO DO BRASILEIRO {laranja:DEPENDE DO CÂMBIO}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r44d_3_negociacao.png",
+   "semente": 4433,
+   "titulo": "COMO SE NEGOCIA NOS EUA",
+   "topo": "{ciano:T+1 DESDE 28/05/2024} (SEC) · ANTES ERA {laranja:T+2}",
+   "colunas": [
+    {
+     "titulo": "O RELÓGIO",
+     "texto": "- PREGÃO: {verde:9H30 ÀS 16H}\n- HORÁRIO DE {laranja:NOVA YORK}\n- PRÉ-MERCADO: DESDE 4H\n- PÓS-MERCADO: DEPOIS DAS 16H\n- DIFERENÇA P/ BRASÍLIA {laranja:VARIA}"
+    },
+    {
+     "titulo": "O ACESSO",
+     "texto": "- {laranja:CORRETORA INTERNACIONAL}\n- OU INSTITUIÇÃO BRASILEIRA\n- = CONTA NO EXTERIOR\n- OU, NA B3: {verde:BDR}\n- SEXTA EM T+1 → SEGUNDA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} RESULTADO DO BRASILEIRO = AÇÃO EM DÓLAR {laranja:×} CÂMBIO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r44d_4_reais.png",
+   "semente": 4434,
+   "titulo": "O MESMO GANHO EM DÓLAR?",
+   "dados": "- 100 AÇÕES A {ciano:150 DÓLARES} (HIPOTÉTICO)\n- DÓLAR NA COMPRA: {ciano:R$ 5,40} → CUSTO R$ 81.000\n- VENDA A {ciano:165 DÓLARES}: +10% EM DÓLAR\n- SEM IMPOSTO, CORRETAGEM E SPREAD\n- A ÚNICA DIFERENÇA: O DÓLAR NA VENDA",
+   "cenarios": [
+    {
+     "titulo": "DÓLAR A 5,13",
+     "passos": "100 × 165 × 5,13\n= 84.645\nCONTRA 81.000",
+     "resultado": "+4,50%"
+    },
+    {
+     "titulo": "DÓLAR A 5,94",
+     "passos": "100 × 165 × 5,94\n= 98.010\nCONTRA 81.000",
+     "resultado": "+21,00%"
+    }
+   ],
+   "conclusao": {
+    "texto": "FÓRMULA: 1,10 × 0,95 − 1 = {laranja:4,5%} · 1,10 × 1,10 − 1 = {verde:21%} · O CÂMBIO {laranja:MULTIPLICA} O RESULTADO EM DÓLAR",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r44e_1_dow.png",
+   "semente": 4441,
+   "titulo": "NO DOW, PESA O MAIOR?",
+   "mitos": [
+    "DOW PESA PELO VALOR DE MERCADO",
+    "DOW = SÓ INDÚSTRIAS"
+   ],
+   "verdade": "DOW PESA PELO {verde:PREÇO DA AÇÃO}",
+   "desenho": {
+    "nome": "placar",
+    "largura": 130
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} AÇÃO DE 400 DÓLARES × AÇÃO DE 50\n- NO DOW: A DE {laranja:PREÇO ALTO} MANDA MAIS\n- NO S&P 500: A DE {laranja:MAIOR VALOR DE MERCADO}\n- DOW: {laranja:30 BLUE CHIPS}, TODOS OS SETORES\n- NOME \"INDUSTRIAL\": {vermelho:SÓ HISTÓRICO}\n- {ciano:REGRA:} PREÇO ≠ TAMANHO DA EMPRESA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r44e_2_placares.png",
+   "semente": 4442,
+   "titulo": "TRÊS PLACARES",
+   "colunas": [
+    {
+     "titulo": "PLACAR DE CLASSIFICAÇÃO",
+     "desenho": "termometro",
+     "rotulos": [
+      "500 POR",
+      "COMISSÃO"
+     ],
+     "texto": "- 500 TIMES POR COMISSÃO → {verde:S&P 500}\n- PESO PELO VALOR → {laranja:FREE FLOAT}\n- TODOS DE UM ESTÁDIO → {verde:NASDAQ COMPOSITE}\n- MUITA TECNOLOGIA → {laranja:MAIS VOLATILIDADE}"
+    },
+    {
+     "titulo": "PELO PASSE",
+     "desenho": "dinheiro",
+     "rotulos": [
+      "30",
+      "TRADICIONAIS"
+     ],
+     "texto": "- 30 TIMES TRADICIONAIS → {verde:DOW JONES}\n- PASSE MAIS CARO PESA → {laranja:PESO POR PREÇO}\n- CLUBE GRANDE, PASSE BARATO → {vermelho:PESA POUCO}\n- PLACARES DIFERENTES → {laranja:VARIAÇÕES DIFERENTES}"
+    }
+   ],
+   "faixas": [
+    "{ciano:NASDAQ-100:} SÓ {laranja:100} EMPRESAS DA NASDAQ · {vermelho:NÃO} É O NASDAQ COMPOSITE",
+    "{ciano:NASDAQ COMPOSITE:} MAIS DE {laranja:2.500} EMPRESAS · {laranja:11 SETORES}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} PLACAR DE FUTEBOL CONTA PONTOS · O ÍNDICE MEDE {laranja:VARIAÇÃO DE PREÇOS PONDERADA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r44e_3_indices-eua.png",
+   "semente": 4443,
+   "titulo": "OS ÍNDICES AMERICANOS",
+   "topo": "{ciano:BENCHMARKS:} REFERÊNCIA PARA {laranja:FUNDOS}, {laranja:ETFS} E ESTRATÉGIAS",
+   "colunas": [
+    {
+     "titulo": "QUEM ENTRA",
+     "texto": "- S&P 500: {laranja:COMITÊ}, 500\n- TAMANHO · LIQUIDEZ\n- FREE FLOAT · LUCRO\n- DOW: {laranja:30 BLUE CHIPS}\n- NASDAQ COMP.: {laranja:TODAS DA NASDAQ}"
+    },
+    {
+     "titulo": "COMO PESA",
+     "texto": "- S&P 500: {verde:VALOR DE MERCADO}\n- (SÓ O FREE FLOAT)\n- DOW: {vermelho:PREÇO DA AÇÃO}\n- NASDAQ COMP.: {verde:VALOR DE MERCADO}\n- FUNDO DE AÇÕES EUA: S&P 500"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:É COMUM LER:} \"AS 500 MAIORES\" E \"SÓ INDUSTRIAIS\" · {vermelho:ATENÇÃO:} {laranja:COMITÊ} E {laranja:TODOS OS SETORES}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r44e_4_peso.png",
+   "semente": 4444,
+   "titulo": "QUAL AÇÃO SOBE 10%?",
+   "dados": "- A: 400 DÓLARES · VALE {ciano:400 BI} (HIPOTÉTICO)\n- B: 50 DÓLARES · VALE {ciano:500 BI}\n- C: 20 DÓLARES · VALE {ciano:100 BI}\n- PESO DE A: {laranja:85%} POR PREÇO · {laranja:40%} POR VALOR\n- A ÚNICA DIFERENÇA: QUAL AÇÃO SOBE",
+   "cenarios": [
+    {
+     "titulo": "A SOBE 10%",
+     "passos": "PREÇO: 470 → 510\n= +8,51%\nVALOR: +4,00%",
+     "resultado": "8,51% × 4%"
+    },
+    {
+     "titulo": "C SOBE 10%",
+     "passos": "PREÇO: 470 → 472\n= +0,43%\nVALOR: +1,00%",
+     "resultado": "0,43% × 1%"
+    }
+   ],
+   "conclusao": {
+    "texto": "NO ÍNDICE POR PREÇO, A AÇÃO {laranja:CARA} DOMINA · NO POR VALOR, A EMPRESA {verde:GRANDE} DOMINA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r44f_1_msci-world.png",
+   "semente": 4451,
+   "titulo": "O MSCI WORLD TEM BRASIL?",
+   "mitos": [
+    "MSCI WORLD = MUNDO INTEIRO",
+    "INCLUI O BRASIL"
+   ],
+   "verdade": "WORLD = {verde:23 DESENVOLVIDOS}",
+   "desenho": {
+    "nome": "placa",
+    "largura": 130
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} ETF DO MSCI WORLD \"COM BRASIL\"\n- MSCI WORLD: {laranja:SÓ DESENVOLVIDOS}\n- BRASIL: NO {laranja:MSCI EMERGING MARKETS}\n- EMERGING MARKETS: {laranja:24 PAÍSES} (BRASIL, CHINA, ÍNDIA)\n- COBERTURA: CERCA DE {laranja:85%} DE CADA PAÍS\n- {ciano:REGRA:} O NOME \"WORLD\" NÃO INCLUI TODOS"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r44f_2_rankings.png",
+   "semente": 4452,
+   "titulo": "O RANKING MUNDIAL",
+   "colunas": [
+    {
+     "titulo": "RICAS E EMERGENTES",
+     "desenho": "estrela",
+     "rotulos": [
+      "23",
+      "+ 24"
+     ],
+     "texto": "- LIGAS RICAS → {verde:MSCI WORLD (23)}\n- LIGAS EMERGENTES → {verde:MSCI EM (24)}\n- BRASILEIRÃO → {laranja:DENTRO DO EM}\n- TIMES GRANDES E MÉDIOS → {laranja:LARGE E MID CAP}"
+    },
+    {
+     "titulo": "OS DO EURO",
+     "desenho": "moeda",
+     "rotulos": [
+      "50",
+      "LÍDERES"
+     ],
+     "texto": "- PAÍSES DO EURO → {verde:EURO STOXX 50}\n- 50 LÍDERES → {laranja:DE CADA SETOR}\n- TETO POR TIME → {vermelho:10%}\n- QUEM COPIA → {laranja:FUNDOS E ETFS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:FORA DO EURO, MAS DESENVOLVIDO:} REINO UNIDO → {verde:NO MSCI WORLD} · {vermelho:FORA DO EURO STOXX 50}",
+    "{ciano:DESENVOLVIDOS + EMERGENTES:} OUTRO ÍNDICE DA MSCI ({laranja:ACWI}) · {vermelho:NÃO} É O WORLD"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NINGUÉM INVESTE NUM RANKING DE FUTEBOL · NOS ÍNDICES, {laranja:FUNDOS E ETFS COPIAM A CARTEIRA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r44f_3_globais.png",
+   "semente": 4453,
+   "titulo": "OS ÍNDICES GLOBAIS",
+   "topo": "{ciano:USO:} BENCHMARK DE FUNDOS E ETFS INTERNACIONAIS E BASE DA {laranja:ALOCAÇÃO GLOBAL}",
+   "colunas": [
+    {
+     "titulo": "MSCI",
+     "texto": "- WORLD: {verde:23 DESENVOLVIDOS}\n- EM: {laranja:24 EMERGENTES}\n- BRASIL: {laranja:NO EM}\n- GRANDES E MÉDIAS\n- CERCA DE 85% DE CADA PAÍS"
+    },
+    {
+     "titulo": "EURO STOXX 50",
+     "texto": "- ADMINISTRADORA: {laranja:STOXX}\n- {laranja:50} LÍDERES DE SETOR\n- SÓ A {laranja:ZONA DO EURO}\n- PESO: VALOR EM CIRCULAÇÃO\n- TETO DE {vermelho:10%} POR EMPRESA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:É COMUM VER:} \"EURO STOCK\" · {vermelho:ATENÇÃO:} O NOME É {laranja:EURO STOXX}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r44f_4_etf.png",
+   "semente": 4454,
+   "titulo": "QUAL ÍNDICE PARA SAIR DO BRASIL?",
+   "dados": "- CARTEIRA 100% NO BRASIL (HIPOTÉTICO)\n- QUER {ciano:20%} EM AÇÕES LÁ FORA\n- VIA ETF QUE REPLICA UM ÍNDICE\n- OBJETIVO: REDUZIR O RISCO BRASIL\n- A ÚNICA DIFERENÇA: O ÍNDICE DO ETF",
+   "cenarios": [
+    {
+     "titulo": "MSCI WORLD",
+     "passos": "23 DESENVOLVIDOS\nSEM BRASIL\nDIVERSIFICA",
+     "resultado": "OBJETIVO OK"
+    },
+    {
+     "titulo": "MSCI EM",
+     "passos": "24 EMERGENTES\nCOM BRASIL\nPARTE VOLTA",
+     "resultado": "OBJETIVO PARCIAL"
+    }
+   ],
+   "conclusao": {
+    "texto": "PARA FUGIR DO {vermelho:RISCO BRASIL}, OLHE {verde:DESENVOLVIDOS} · EMERGENTES TRAZEM OUTROS PAÍSES, MAS LEVAM O BRASIL JUNTO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r44g_1_externo.png",
+   "semente": 4461,
+   "titulo": "CENÁRIO EXTERNO É DETALHE?",
+   "mitos": [
+    "SÓ IMPORTA NO CURTO PRAZO",
+    "LONGO PRAZO IGNORA O MUNDO"
+   ],
+   "verdade": "É {verde:PARTE DA ALOCAÇÃO}",
+   "desenho": {
+    "nome": "mar",
+    "largura": 130
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} CLIENTE DE LONGO PRAZO SEM OLHAR LÁ FORA\n- JUROS DOS EUA · CRESCIMENTO GLOBAL\n- GEOPOLÍTICA · CÂMBIO\n- TUDO CAI NO {laranja:RETORNO EM REAIS}\n- ALINHAR A {laranja:PERFIL, HORIZONTE E OBJETIVOS}\n- {ciano:REGRA:} CENÁRIO EXTERNO NÃO É ACESSÓRIO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r44g_2_clima.png",
+   "semente": 4462,
+   "titulo": "O CLIMA DO JOGO",
+   "colunas": [
+    {
+     "titulo": "A CHUVA LÁ FORA",
+     "desenho": "termometro",
+     "rotulos": [
+      "MUDA",
+      "TUDO"
+     ],
+     "texto": "- POLÍTICA DE JUROS → {laranja:FED}\n- CRESCIMENTO DO MUNDO → {laranja:ATIVIDADE GLOBAL}\n- BRIGA ENTRE PAÍSES → {vermelho:GEOPOLÍTICA}\n- PREÇO DA PASSAGEM → {laranja:CÂMBIO}"
+    },
+    {
+     "titulo": "O GUARDA-CHUVA",
+     "desenho": "check",
+     "rotulos": [
+      "CRISE",
+      "DAQUI"
+     ],
+     "texto": "- CHUVA NO BRASILEIRÃO → {vermelho:CRISE BRASILEIRA}\n- JOGOS LÁ FORA → {verde:PARTE NO EXTERIOR}\n- DÓLAR SOBE → {verde:AMORTECE A PERDA}\n- JOGADOR BRASILEIRO LÁ → {vermelho:NÃO PROTEGE}"
+    }
+   ],
+   "faixas": [
+    "{ciano:JUROS LÁ FORA SOBEM:} RENDA FIXA GLOBAL {laranja:MAIS ATRAENTE} → DINHEIRO PODE SAIR DAS AÇÕES",
+    "{ciano:EFEITO EM CADEIA:} BOLSAS · FLUXO DE CAPITAIS · CÂMBIO → {laranja:RETORNO EM REAIS}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} CHUVA PASSA EM HORAS · CHOQUE EXTERNO PODE {laranja:DURAR ANOS}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r44g_3_recomendacao.png",
+   "semente": 4463,
+   "titulo": "CENÁRIO EXTERNO NA RECOMENDAÇÃO",
+   "topo": "{ciano:4 VARIÁVEIS:} JUROS DOS EUA · CRESCIMENTO GLOBAL · GEOPOLÍTICA · CÂMBIO",
+   "colunas": [
+    {
+     "titulo": "O QUE AJUDA",
+     "texto": "- DIVERSIFICA {verde:O PAÍS}\n- DÓLAR SOBE NA CRISE DAQUI\n- PARTE LÁ FORA {verde:AMORTECE}\n- PERCENTUAL PELO {laranja:PERFIL}\n- E PELO {laranja:HORIZONTE}"
+    },
+    {
+     "titulo": "O QUE NÃO AJUDA",
+     "texto": "- ADR DE EMPRESA {vermelho:BRASILEIRA}\n- CRISE {vermelho:GLOBAL}: TUDO CAI\n- DECIDIR PELO {vermelho:NOTICIÁRIO}\n- PROTEÇÃO {vermelho:NÃO} É GARANTIA\n- ETF EMERGENTE: TEM BRASIL"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} JURO GLOBAL EM ALTA {laranja:FAVORECE A RENDA FIXA}, NÃO AS AÇÕES",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r44g_4_crise.png",
+   "semente": 4464,
+   "titulo": "COM OU SEM PARTE LÁ FORA?",
+   "dados": "- CARTEIRA DE {ciano:R$ 100.000} (HIPOTÉTICO)\n- AÇÕES BRASILEIRAS: {vermelho:−20%}\n- ETF DO S&P 500: {vermelho:−5%} EM DÓLAR\n- DÓLAR: {verde:+15%} · SEM CUSTOS E IMPOSTOS\n- A ÚNICA DIFERENÇA: A ALOCAÇÃO",
+   "cenarios": [
+    {
+     "titulo": "100% NO BRASIL",
+     "passos": "100.000 × 0,80\n= 80.000\nPERDA CHEIA",
+     "resultado": "−20,00%"
+    },
+    {
+     "titulo": "80% + 20% FORA",
+     "passos": "64.000 + 21.850\n= 85.850\nFORA: +9,25%",
+     "resultado": "−14,15%"
+    }
+   ],
+   "conclusao": {
+    "texto": "5 PEGADINHAS (FALSAS): NÍVEL 2 CAPTA · DOW SÓ INDUSTRIAL POR VALOR · 144-A PARA TODOS · S&P 500 AUTOMÁTICO · MSCI WORLD COM BRASIL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
