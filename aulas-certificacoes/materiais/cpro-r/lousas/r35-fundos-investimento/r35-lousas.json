@@ -1,0 +1,784 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "molde": "mito_verdade",
+   "saida": "r35a_1_banco-grande.png",
+   "semente": 3501,
+   "titulo": "FUNDO DE BANCO GRANDE NÃO PERDE?",
+   "mitos": [
+    "A MARCA GARANTE",
+    "FUNDO = DINHEIRO SEGURO"
+   ],
+   "verdade": "{vermelho:SEM GARANTIA} CONTRA PERDAS",
+   "desenho": {
+    "nome": "banco",
+    "largura": 180
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} FUNDO DE BANCO GRANDE, CLIENTE TRANQUILA\n- O TERMO DIZ: {vermelho:NÃO HÁ QUALQUER GARANTIA CONTRA PERDAS}\n- QUEM ASSINA É O {laranja:PRÓPRIO COTISTA}, NO INGRESSO\n- VANTAGENS: {verde:GESTÃO PROFISSIONAL} E DIVERSIFICAÇÃO\n- MAS COM REGRAS, DOCUMENTOS, CUSTOS E RISCOS\n- PATRIMÔNIO SEGREGADO {vermelho:≠} PROTEÇÃO CONTRA PERDAS\n- {ciano:REGRA:} A COTA PODE CAIR, QUALQUER QUE SEJA O BANCO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r35a_2_condominio.png",
+   "semente": 3502,
+   "titulo": "O CONDOMÍNIO DE INVESTIDORES",
+   "colunas": [
+    {
+     "titulo": "A FRAÇÃO",
+     "desenho": "predio_andares",
+     "rotulos": [
+      "MAIS COTAS",
+      "MAIS FATIA"
+     ],
+     "texto": "- FRAÇÃO DO PRÉDIO → {verde:COTA}\n- QUEM COMPROU MAIS → {verde:MAIS COTAS}\n- RESULTADO DIVIDIDO → {verde:NA PROPORÇÃO}\n- PRÉDIO VALE MAIS OU MENOS → {laranja:COTA SOBE OU DESCE}"
+    },
+    {
+     "titulo": "O COFRE",
+     "desenho": "cofrinho",
+     "rotulos": [
+      "SEPARADO",
+      "PROTEGIDO"
+     ],
+     "texto": "- COFRE DOS MORADORES → {verde:PATRIMÔNIO DO FUNDO}\n- DÍVIDA DA ADMINISTRADORA → {vermelho:NÃO ALCANÇA O COFRE}\n- QUEM APLICA O CAIXA → {laranja:GESTOR}\n- QUEM CUIDA DA PAPELADA → {laranja:ADMINISTRADOR}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ABERTA:} REGULAMENTO ADMITE RESGATE · {ciano:FECHADA:} NÃO ADMITE (VENDA DAS COTAS, EM GERAL NA BOLSA)",
+    "{ciano:CVM 175, ART. 5º:} A DIFERENÇA ESTÁ NO REGULAMENTO DA CLASSE"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} A FRAÇÃO DO APARTAMENTO É FIXA · A COTA {laranja:OSCILA TODO DIA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r35a_3_caracteristicas.png",
+   "semente": 3503,
+   "titulo": "FUNDO: AS 6 CARACTERÍSTICAS",
+   "topo": "{ciano:INVESTIMENTO COLETIVO:} RECURSOS DE VÁRIOS INVESTIDORES NUMA {laranja:CARTEIRA ÚNICA} · DIVERSIFICAÇÃO E EFICIÊNCIA",
+   "colunas": [
+    {
+     "titulo": "CARACTERÍSTICAS",
+     "texto": "- {verde:GESTÃO PROFISSIONAL}: ALOCAÇÃO E RISCO\n- {verde:PATRIMÔNIO SEGREGADO}\n- PATRIMÔNIO DIVIDIDO EM {laranja:COTAS}\n- COTA APURADA PERIODICAMENTE\n- APLICAÇÃO E RESGATE PELAS REGRAS\n- {verde:ACESSO} A MERCADOS DIVERSOS"
+    },
+    {
+     "titulo": "ABERTA × FECHADA",
+     "texto": "- {verde:ABERTA:} PEDE O RESGATE AO FUNDO\n- {vermelho:FECHADA:} SEM RESGATE\n- SAÍDA DA FECHADA: {laranja:VENDER A COTA}\n- DEPENDE DE ACHAR {laranja:COMPRADOR}\n- REGRA NO {ciano:REGULAMENTO}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} SEGREGAÇÃO PROTEGE DAS DÍVIDAS DO GESTOR · {vermelho:NÃO} DAS PERDAS DA CARTEIRA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r35a_4_cotas.png",
+   "semente": 3504,
+   "titulo": "QUEM ENTRA DEPOIS GANHA IGUAL?",
+   "dados": "- PL DE {ciano:R$ 1 MILHÃO} E {ciano:500 MIL COTAS}: COTA DE R$ 2,00\n- ANA E BRUNO APLICAM {ciano:R$ 10.000} CADA (HIPOTÉTICO)\n- CARTEIRA: +5%, DEPOIS +10%\n- COTA: 2,00 → 2,10 → {verde:2,31}\n- A ÚNICA DIFERENÇA: A DATA DE ENTRADA",
+   "cenarios": [
+    {
+     "titulo": "ANA · COTA A R$ 2,00",
+     "passos": "ENTROU ANTES DOS +5%\n10.000 ÷ 2,00 = 5.000 COTAS\n5.000 × 2,31",
+     "resultado": "R$ 11.550"
+    },
+    {
+     "titulo": "BRUNO · COTA A R$ 2,10",
+     "passos": "ENTROU DEPOIS DOS +5%\n10.000 ÷ 2,10 = 4.761,90\n4.761,90 × 2,31",
+     "resultado": "R$ 11.000"
+    }
+   ],
+   "conclusao": {
+    "texto": "CADA UM LEVA O RESULTADO {verde:DESDE A SUA ENTRADA} · NINGUÉM GANHA O QUE VEIO ANTES",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r35b_1_selo.png",
+   "semente": 3511,
+   "titulo": "O SELO GARANTE O FUNDO?",
+   "mitos": [
+    "A ANBIMA APROVOU O FUNDO",
+    "SELO = GARANTIA"
+   ],
+   "verdade": "SELO = {verde:COMPROMISSO} DA INSTITUIÇÃO",
+   "desenho": {
+    "nome": "estrela",
+    "largura": 150
+   },
+   "apoio": "- {ciano:ANBIMA, REGRAS DOS SELOS, ART. 2º}\n- A INSTITUIÇÃO SE COMPROMETE COM OS {verde:CÓDIGOS ANBIMA}\n- A ANBIMA {vermelho:NÃO RESPONDE} PELO CONTEÚDO DIVULGADO\n- E {vermelho:NÃO ATESTA} A QUALIDADE DO PRODUTO\n- REGISTRO NA CVM TAMBÉM {vermelho:NÃO} É SELO DE QUALIDADE\n- {ciano:REGRA:} SELO NÃO É RECOMENDAÇÃO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r35b_2_papelada.png",
+   "semente": 3512,
+   "titulo": "A PAPELADA DO CONDOMÍNIO",
+   "colunas": [
+    {
+     "titulo": "A CONVENÇÃO",
+     "desenho": "livro_caixa",
+     "rotulos": [
+      "GERAL",
+      "POR TORRE"
+     ],
+     "texto": "- CONVENÇÃO → {verde:REGULAMENTO}\n- CAPÍTULO DA TORRE → {verde:ANEXO DA CLASSE}\n- CAPÍTULO DO APARTAMENTO → {verde:APÊNDICE DA SUBCLASSE}\n- \"LI E SEI DO RISCO\" → {laranja:TERMO ÚNICO}"
+    },
+    {
+     "titulo": "O FOLHETO",
+     "desenho": "prancheta",
+     "rotulos": [
+      "PADRÃO",
+      "FÁCIL"
+     ],
+     "texto": "- FOLHETO DE VENDAS → {verde:LÂMINA}\n- AVISO NA PORTARIA → {laranja:SITE, PARA TODOS}\n- PLACA NA FACHADA → {ciano:SELO ANBIMA}\n- VISTORIA? → {vermelho:NÃO É GARANTIA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:SITES:} REGULAMENTO ATUALIZADO · DESCRIÇÃO DA TRIBUTAÇÃO · POLÍTICA DE VOTO, SE HOUVER",
+    "{ciano:DIVULGAÇÃO:} IGUAL E SIMULTÂNEA PARA TODOS OS COTISTAS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} PLACA NA FACHADA SUGERE VISTORIA · O SELO {laranja:NÃO VISTORIA NADA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r35b_3_documentos.png",
+   "semente": 3513,
+   "titulo": "OS DOCUMENTOS DA CVM 175",
+   "topo": "{ciano:REGULAMENTO:} PARTE GERAL + {laranja:ANEXO DA CLASSE} + {laranja:APÊNDICE DA SUBCLASSE} · VERSÃO VIGENTE NO INGRESSO",
+   "colunas": [
+    {
+     "titulo": "TERMO DE ADESÃO E CIÊNCIA DE RISCO",
+     "texto": "- {verde:DOCUMENTO ÚNICO}\n- ACESSO AO REGULAMENTO ATESTADO\n- {vermelho:SEM GARANTIA} CONTRA PERDAS\n- ATÉ {laranja:5.000 CARACTERES}\n- ATÉ {laranja:5 FATORES DE RISCO}"
+    },
+    {
+     "titulo": "LÂMINA E SITES",
+     "texto": "- {verde:LÂMINA DE INFORMAÇÕES BÁSICAS}\n- OBRIGATÓRIA: {laranja:ABERTA AO PÚBLICO EM GERAL}\n- ENTREGUE NO INGRESSO\n- SITES: REGULAMENTO E TRIBUTAÇÃO\n- SEM O ANTIGO FORMULÁRIO COMPLEMENTAR"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NOME ANTIGO:} \"INFORMAÇÕES ESSENCIAIS\" · {ciano:NOME ATUAL:} LÂMINA DE {laranja:INFORMAÇÕES BÁSICAS}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r35b_4_lamina.png",
+   "semente": 3514,
+   "titulo": "QUANDO A LÂMINA É OBRIGATÓRIA?",
+   "dados": "- DUAS CLASSES ABERTAS DE RENDA FIXA (HIPOTÉTICO)\n- MESMO FUNDO, MESMO GESTOR\n- REGULAMENTO VIGENTE NOS DOIS CASOS\n- TERMO ÚNICO NOS DOIS CASOS\n- A ÚNICA DIFERENÇA: O PÚBLICO",
+   "cenarios": [
+    {
+     "titulo": "PÚBLICO EM GERAL",
+     "passos": "REGULAMENTO + ANEXO\nLÂMINA ATUALIZADA\nTERMO ATESTA ACESSO\nAOS DOIS",
+     "resultado": "COM LÂMINA"
+    },
+    {
+     "titulo": "SÓ QUALIFICADOS",
+     "passos": "REGULAMENTO + ANEXO\nLÂMINA NÃO EXIGIDA\nTERMO CONTINUA\nOBRIGATÓRIO",
+     "resultado": "SEM LÂMINA"
+    }
+   ],
+   "conclusao": {
+    "texto": "SELO ANBIMA NO MATERIAL? NOS DOIS CASOS, {vermelho:NÃO É GARANTIA} DA ANBIMA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r35c_1_imposto.png",
+   "semente": 3521,
+   "titulo": "QUEM RETÉM O IMPOSTO?",
+   "mitos": [
+    "SEMPRE O ADMINISTRADOR",
+    "PLATAFORMA SÓ VENDE"
+   ],
+   "verdade": "CONTA E ORDEM: {verde:O DISTRIBUIDOR}",
+   "desenho": {
+    "nome": "moeda",
+    "largura": 150
+   },
+   "apoio": "- {ciano:CVM 175, ARTS. 33 A 36:} DISTRIBUIÇÃO POR CONTA E ORDEM\n- COTAS NO NOME DO {laranja:DISTRIBUIDOR}, COM CÓDIGO POR CLIENTE\n- PATRIMÔNIO DE CADA CLIENTE {verde:SEGREGADO}\n- ASSUME {verde:RETENÇÃO E RECOLHIMENTO} DOS TRIBUTOS\n- E CADASTRO, EXTRATOS, ATENDIMENTO E ASSEMBLEIAS\n- {ciano:REGRA:} NA DÚVIDA DO INFORME, FALE COM A PLATAFORMA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r35c_2_corretor.png",
+   "semente": 3522,
+   "titulo": "O CORRETOR E A IMOBILIÁRIA",
+   "colunas": [
+    {
+     "titulo": "O CORRETOR",
+     "desenho": "pessoa",
+     "rotulos": [
+      "VENDE",
+      "EXPLICA"
+     ],
+     "texto": "- VÊ SE SERVE → {verde:SUITABILITY}\n- NÃO ESCONDE DEFEITO → {verde:INFORMA OS RISCOS}\n- NÃO EMPURRA COMISSÃO → {vermelho:SEM CONFLITO}\n- GUARDA OS PAPÉIS → {laranja:REGISTROS}"
+    },
+    {
+     "titulo": "A IMOBILIÁRIA",
+     "desenho": "predio_andares",
+     "rotulos": [
+      "NO NOME DELA",
+      "COM CÓDIGO"
+     ],
+     "texto": "- REGISTRA NO NOME DELA → {laranja:CONTA E ORDEM}\n- CÓDIGO POR DONO → {verde:IDENTIFICA O COTISTA}\n- RECIBOS E CADASTRO → {verde:EXTRATOS E PLD}\n- IMPOSTOS → {verde:RETÉM E RECOLHE}"
+    }
+   ],
+   "faixas": [
+    "{ciano:DISTRIBUIDOR:} CONTRATADO PELO GESTOR, EM NOME DO FUNDO · INSTITUIÇÃO HABILITADA",
+    "{ciano:PODE ATUAR SÓ POR MEIO ELETRÔNICO} · APLICATIVO, SITE"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} IMPOSTO DO IMÓVEL É DA PREFEITURA · NA CONTA E ORDEM, {laranja:O DISTRIBUIDOR RETÉM}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r35c_3_deveres.png",
+   "semente": 3523,
+   "titulo": "DEVERES DO DISTRIBUIDOR",
+   "topo": "{ciano:NO INGRESSO:} REGULAMENTO VIGENTE + LÂMINA (QUANDO HOUVER) + {laranja:TERMO DE ADESÃO E CIÊNCIA DE RISCO}",
+   "colunas": [
+    {
+     "titulo": "AS 6 RESPONSABILIDADES",
+     "texto": "- {verde:SUITABILITY}: ADEQUAÇÃO AO PERFIL\n- INFORMAÇÃO CLARA E DÚVIDAS\n- CLIENTE {verde:ENTENDE OS RISCOS}\n- {vermelho:EVITA CONFLITOS} DE INTERESSE\n- {laranja:REGISTROS E EVIDÊNCIAS}\n- {verde:ÉTICA E DILIGÊNCIA}"
+    },
+    {
+     "titulo": "CONTA E ORDEM ASSUME",
+     "texto": "- CADASTRO E {laranja:PLD}\n- REGULAMENTO, TERMOS, NOTAS, EXTRATOS\n- ATENDIMENTO AO COTISTA\n- COMUNICAÇÃO DE {laranja:ASSEMBLEIAS}\n- {verde:RETENÇÃO DE TRIBUTOS}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} DISTRIBUIDOR {vermelho:≠} GESTOR · UM VENDE E ATENDE, O OUTRO {laranja:DECIDE A CARTEIRA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r35c_4_modalidades.png",
+   "semente": 3524,
+   "titulo": "COMUM OU POR CONTA E ORDEM?",
+   "dados": "- MESMO FUNDO, MESMO INVESTIDOR (HIPOTÉTICO)\n- SUITABILITY: {verde:DEVER DO DISTRIBUIDOR} NOS DOIS\n- TERMO ÚNICO NOS DOIS\n- DESCUMPRIR GERA {vermelho:SANÇÃO} E PREJUÍZO\n- A ÚNICA DIFERENÇA: A MODALIDADE",
+   "cenarios": [
+    {
+     "titulo": "DISTRIBUIÇÃO COMUM",
+     "passos": "COTAS NO NOME DO CLIENTE\nCADASTRO E EXTRATO\nIR: ADMINISTRADOR",
+     "resultado": "ADMINISTRADOR"
+    },
+    {
+     "titulo": "POR CONTA E ORDEM",
+     "passos": "COTAS NO NOME DO DISTRIBUIDOR\nCÓDIGO E SEGREGAÇÃO\nIR: DISTRIBUIDOR",
+     "resultado": "DISTRIBUIDOR"
+    }
+   ],
+   "conclusao": {
+    "texto": "QUEM RESPONDE PELO IMPOSTO E PELO EXTRATO MUDA · {verde:O SUITABILITY, NÃO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r35d_1_subclasse.png",
+   "semente": 3531,
+   "titulo": "SUBCLASSE MUDA A CARTEIRA?",
+   "mitos": [
+    "CARTEIRA PRÓPRIA POR SUBCLASSE",
+    "QUALIFICADO TEM OUTRA CARTEIRA"
+   ],
+   "verdade": "A CARTEIRA É {verde:A DA CLASSE}",
+   "desenho": {
+    "nome": "predio_andares",
+    "largura": 150
+   },
+   "apoio": "- {ciano:CVM 175, ART. 5º:} SUBCLASSE MUDA SÓ 3 COISAS\n- {laranja:PÚBLICO-ALVO}\n- {laranja:PRAZOS E CONDIÇÕES} DE APLICAÇÃO, AMORTIZAÇÃO E RESGATE\n- {laranja:TAXAS}\n- {vermelho:VEDADO} VINCULAR PATRIMÔNIO A UMA SUBCLASSE\n- {ciano:REGRA:} OUTRA CARTEIRA = OUTRA CLASSE"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r35d_2_torres.png",
+   "semente": 3532,
+   "titulo": "TORRES E APARTAMENTOS",
+   "colunas": [
+    {
+     "titulo": "CADA TORRE",
+     "desenho": "predio_andares",
+     "rotulos": [
+      "COFRE",
+      "PRÓPRIO"
+     ],
+     "texto": "- TORRE → {verde:CLASSE}\n- COFRE PRÓPRIO → {verde:PATRIMÔNIO SEGREGADO}\n- DÍVIDA DA TORRE A → {vermelho:NÃO PAGA COM B}\n- TIPO DA TORRE → {laranja:MÍNIMO NO FATOR DE RISCO}"
+    },
+    {
+     "titulo": "OS APARTAMENTOS",
+     "desenho": "casa",
+     "rotulos": [
+      "MESMO",
+      "COFRE"
+     ],
+     "texto": "- APARTAMENTO → {verde:SUBCLASSE}\n- PÚBLICO DIFERENTE → {laranja:PÚBLICO-ALVO}\n- REGRAS DE ENTRADA E SAÍDA → {laranja:PRAZOS}\n- CONDOMÍNIO DIFERENTE → {laranja:TAXAS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:MESMO COFRE:} TODAS AS SUBCLASSES DIVIDEM A CARTEIRA DA CLASSE",
+    "{ciano:QUER OUTRO COFRE?} MUDE DE TORRE: CRIE OUTRA CLASSE"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} TORRE NÃO TEM PERCENTUAL MÍNIMO · CLASSE TEM {laranja:MÍNIMO NO FATOR DE RISCO}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r35d_3_tipos.png",
+   "semente": 3533,
+   "titulo": "OS 4 TIPOS DE CLASSE (FIF)",
+   "topo": "{ciano:CLASSE:} PATRIMÔNIO SEGREGADO · {ciano:SUBCLASSE:} SÓ PÚBLICO, PRAZOS E TAXAS",
+   "colunas": [
+    {
+     "titulo": "RENDA FIXA",
+     "texto": "- JUROS, INFLAÇÃO OU AMBOS: {laranja:≥ 80%}\n- {ciano:CURTO PRAZO:} TÍTULOS ATÉ {laranja:375 DIAS}\n- PRAZO MÉDIO {laranja:< 60 DIAS}\n- {ciano:REFERENCIADA:} {laranja:≥ 95%} NO ÍNDICE\n- E {laranja:≥ 80%} EM PÚBLICOS OU BAIXO RISCO\n- DERIVATIVOS: {verde:SÓ HEDGE}"
+    },
+    {
+     "titulo": "AÇÕES, CAMBIAL, MULTI",
+     "texto": "- {ciano:AÇÕES:} {laranja:≥ 67%} EM AÇÕES\n- HORIZONTE LONGO, MAIS VOLATILIDADE\n- {ciano:CAMBIAL:} {laranja:≥ 80%} MOEDA ESTRANGEIRA\n- {ciano:MULTIMERCADO:} VÁRIOS FATORES\n- {verde:SEM CONCENTRAÇÃO} OBRIGATÓRIA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NOME DO TIPO:} {laranja:\"AÇÕES\"}, NÃO \"RENDA VARIÁVEL\" · MÍNIMO DE {laranja:67%}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r35d_4_minimos.png",
+   "semente": 3534,
+   "titulo": "QUANTO É O MÍNIMO?",
+   "dados": "- CLASSE COM PL DE {ciano:R$ 10 MILHÕES} (HIPOTÉTICO)\n- AÇÕES: 67% · RENDA FIXA: 80%\n- CAMBIAL: 80% EM MOEDA ESTRANGEIRA\n- MULTIMERCADO: SEM MÍNIMO\n- A ÚNICA DIFERENÇA: O TIPO DA CLASSE",
+   "cenarios": [
+    {
+     "titulo": "CLASSE AÇÕES",
+     "passos": "10 MILHÕES × 67%\nEM AÇÕES E\nATIVOS EQUIVALENTES",
+     "resultado": "R$ 6,7 MI"
+    },
+    {
+     "titulo": "CLASSE RENDA FIXA",
+     "passos": "10 MILHÕES × 80%\nLIGADOS A JUROS,\nINFLAÇÃO OU AMBOS",
+     "resultado": "R$ 8 MI"
+    }
+   ],
+   "conclusao": {
+    "texto": "TIPO DE CLASSE → {laranja:PISO DA CARTEIRA} → {laranja:RISCO PRINCIPAL DO CLIENTE} · MULTIMERCADO: {verde:SEM PISO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r35e_1_passivo.png",
+   "semente": 3541,
+   "titulo": "O PASSIVO TENTA BATER O ÍNDICE?",
+   "mitos": [
+    "O GESTOR PASSIVO ESCOLHE AS MELHORES",
+    "INDEXADO BATE O ÍNDICE"
+   ],
+   "verdade": "PASSIVO {verde:REPLICA} O ÍNDICE",
+   "desenho": {
+    "nome": "alvo",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} FUNDO INDEXADO AO IBOVESPA\n- {ciano:ATIVO:} TENTA {laranja:SUPERAR} O ÍNDICE, COM ESCOLHAS DO GESTOR\n- {ciano:PASSIVO:} SEGUE A {verde:COMPOSIÇÃO DO ÍNDICE}\n- PASSIVO: {verde:MENOS GIRO} E {verde:MENOR CUSTO}\n- ATIVO: RESULTADO DEPENDE DO {laranja:GESTOR}\n- {ciano:REGRA:} PAGA-SE MAIS PELA CHANCE DE BATER O ÍNDICE"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r35e_2_sindicos.png",
+   "semente": 3542,
+   "titulo": "DOIS SÍNDICOS",
+   "colunas": [
+    {
+     "titulo": "O PROFISSIONAL",
+     "desenho": "pessoa",
+     "rotulos": [
+      "DECIDE",
+      "COBRA MAIS"
+     ],
+     "texto": "- DECIDE SOZINHO → {laranja:DISCRICIONÁRIO}\n- QUER BATER A MÉDIA → {laranja:GESTÃO ATIVA}\n- SERVIÇO CARO → {vermelho:TAXA MAIOR}\n- TALENTO DECIDE → {vermelho:DEPENDE DO GESTOR}\n- APOSTA NA ESCOLHA → {laranja:PODE GANHAR OU PERDER}"
+    },
+    {
+     "titulo": "O DA PLANILHA",
+     "desenho": "prancheta",
+     "rotulos": [
+      "SEGUE",
+      "COBRA POUCO"
+     ],
+     "texto": "- COPIA A MÉDIA → {verde:REPLICA O ÍNDICE}\n- MEXE POUCO → {verde:MENOS GIRO}\n- SERVIÇO BARATO → {verde:TAXA MENOR}\n- PERTO DA MÉDIA → {laranja:UM POUCO ABAIXO}\n- SEGUE A CIDADE → {verde:COMPOSIÇÃO DO ÍNDICE}"
+    }
+   ],
+   "faixas": [
+    "{ciano:VANTAGENS DO FUNDO:} GESTÃO PROFISSIONAL · DIVERSIFICAÇÃO · ESCALA OPERACIONAL",
+    "{ciano:DESVANTAGENS:} CUSTOS RECORRENTES · MENOS CONTROLE DIRETO · DEPENDÊNCIA DO GESTOR",
+    "{ciano:NA INDICAÇÃO:} POLÍTICA · RISCO · HISTÓRICO · VOLATILIDADE · LIQUIDEZ · CUSTOS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} SÍNDICO SE TROCA NA ASSEMBLEIA · NO FUNDO, O COTISTA {laranja:COSTUMA RESGATAR}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r35e_3_ativa-passiva.png",
+   "semente": 3543,
+   "titulo": "INDICAÇÃO E ATIVA × PASSIVA",
+   "topo": "{ciano:NA INDICAÇÃO:} POLÍTICA · RISCO · HISTÓRICO · VOLATILIDADE · LIQUIDEZ · {laranja:CUSTOS}",
+   "colunas": [
+    {
+     "titulo": "GESTÃO ATIVA",
+     "texto": "- OBJETIVO: {laranja:SUPERAR} O ÍNDICE\n- DECISÕES {laranja:DISCRICIONÁRIAS}\n- MAIS GIRO, {vermelho:MAIS CUSTO}\n- RISCO E RETORNO {vermelho:DO GESTOR}\n- PRECISA PAGAR A PRÓPRIA TAXA"
+    },
+    {
+     "titulo": "GESTÃO PASSIVA",
+     "texto": "- OBJETIVO: {verde:REPLICAR} O ÍNDICE\n- SEGUE A COMPOSIÇÃO\n- {verde:MENOS GIRO, MENOS CUSTO}\n- RESULTADO {verde:PERTO DO ÍNDICE}\n- UM POUCO ABAIXO: É A TAXA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} RENTABILIDADE PASSADA {vermelho:NÃO} GARANTE RENTABILIDADE FUTURA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r35e_4_custo-taxa.png",
+   "semente": 3544,
+   "titulo": "QUANTO CUSTA 1,5 PONTO DE TAXA?",
+   "dados": "- {ciano:R$ 100.000} POR {ciano:10 ANOS} (HIPOTÉTICO)\n- RETORNO BRUTO DE {ciano:10% AO ANO} NOS DOIS\n- LÍQUIDO = BRUTO − TAXA · SEM IR\n- ATIVO: 2% AO ANO · PASSIVO: 0,5%\n- A ÚNICA DIFERENÇA: A TAXA",
+   "cenarios": [
+    {
+     "titulo": "ATIVO · 2%",
+     "passos": "10% − 2% = 8% AO ANO\nPOR 10 ANOS\nSOBRE R$ 100.000",
+     "resultado": "R$ 215.892,50"
+    },
+    {
+     "titulo": "PASSIVO · 0,5%",
+     "passos": "10% − 0,5% = 9,5% AO ANO\nPOR 10 ANOS\nSOBRE R$ 100.000",
+     "resultado": "R$ 247.822,76"
+    }
+   ],
+   "conclusao": {
+    "texto": "DIFERENÇA: {vermelho:R$ 31.930,26} EM 10 ANOS · O ATIVO PRECISA DE {laranja:+1,5 PONTO} BRUTO TODO ANO SÓ PARA EMPATAR",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r35f_1_taxa-unica.png",
+   "semente": 3551,
+   "titulo": "UMA TAXA PAGA TODO MUNDO?",
+   "mitos": [
+    "ADMINISTRAÇÃO PAGA TUDO",
+    "SÓ EXISTE UMA TAXA"
+   ],
+   "verdade": "{verde:TAXAS SEPARADAS} NA CVM 175",
+   "desenho": {
+    "nome": "dinheiro",
+    "largura": 180
+   },
+   "apoio": "- {ciano:CVM 175, ART. 2º:} DEFINIÇÕES DAS TAXAS\n- {laranja:ADMINISTRAÇÃO} → ADMINISTRADOR\n- {laranja:GESTÃO} → GESTOR\n- {laranja:MÁXIMA DE DISTRIBUIÇÃO} → DISTRIBUIDORES\n- E MAIS: PERFORMANCE, INGRESSO E SAÍDA\n- DISTRIBUIÇÃO: {laranja:% AO ANO} DO PATRIMÔNIO\n- INGRESSO E SAÍDA: PAGAS PELO {laranja:COTISTA}\n- {ciano:REGRA:} COMPARE A {verde:SOMA} DAS TAXAS"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r35f_2_caixa-boletos.png",
+   "semente": 3552,
+   "titulo": "O CAIXA E OS BOLETOS",
+   "colunas": [
+    {
+     "titulo": "NÃO NUM BANCO SÓ",
+     "desenho": "banco",
+     "rotulos": [
+      "DIVIDE",
+      "O CAIXA"
+     ],
+     "texto": "- CADA BANCO → {laranja:ATÉ 20%}\n- CADA EMPRESA ABERTA → {laranja:ATÉ 10%}\n- UMA PESSOA SÓ → {vermelho:ATÉ 5%}\n- TÍTULO DO GOVERNO → {verde:SEM LIMITE}"
+    },
+    {
+     "titulo": "BOLETOS SEPARADOS",
+     "desenho": "livro_caixa",
+     "rotulos": [
+      "POR",
+      "SERVIÇO"
+     ],
+     "texto": "- ADMINISTRADORA → {verde:TAXA DE ADMINISTRAÇÃO}\n- QUEM APLICA O CAIXA → {verde:TAXA DE GESTÃO}\n- CORRETOR → {verde:TAXA DE DISTRIBUIÇÃO}\n- ENTRAR OU SAIR → {laranja:INGRESSO E SAÍDA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:TRAVA EXTRA:} ATÉ 20% EM ATIVOS DO PRÓPRIO GESTOR E DO SEU GRUPO",
+    "{ciano:MULTIMERCADO:} PODE DISPENSAR OS LIMITES POR EMISSOR, COM ALERTA NO TERMO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} BOLETO CHEGA TODO MÊS · TAXA DO FUNDO É {laranja:% AO ANO, JÁ NA COTA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r35f_3_limites-taxas.png",
+   "semente": 3553,
+   "titulo": "LIMITES POR EMISSOR E TAXAS",
+   "topo": "{ciano:ANEXO I, ART. 44:} LIMITES SOBRE O {laranja:PATRIMÔNIO LÍQUIDO} DA CLASSE",
+   "colunas": [
+    {
+     "titulo": "POR EMISSOR",
+     "texto": "- INSTITUIÇÃO FINANCEIRA: {laranja:20%}\n- COMPANHIA ABERTA: {laranja:10%}\n- PF OU EMPRESA FECHADA: {vermelho:5%}\n- UNIÃO E COTAS DE FUNDOS: {verde:SEM LIMITE}\n- GESTOR E GRUPO: {laranja:20%}"
+    },
+    {
+     "titulo": "AS TAXAS",
+     "texto": "- ADMINISTRAÇÃO → {verde:ADMINISTRADOR}\n- GESTÃO → {verde:GESTOR}\n- MÁXIMA DE DISTRIBUIÇÃO → {verde:DISTRIBUIDOR}\n- PERFORMANCE → ACIMA DO ÍNDICE\n- INGRESSO E SAÍDA → COTISTA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:É COMUM LER:} \"ADMINISTRAÇÃO REMUNERA GESTÃO E ADMINISTRAÇÃO\" · {vermelho:ATENÇÃO:} {laranja:A CVM 175 SEPAROU}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r35f_4_emissores.png",
+   "semente": 3554,
+   "titulo": "QUANTO CABE EM CADA EMISSOR?",
+   "dados": "- CLASSE COM PL DE {ciano:R$ 10 MILHÕES} (HIPOTÉTICO)\n- LIMITES: 20% · 10% · 5%\n- GESTOR E GRUPO: 20%\n- TÍTULOS FEDERAIS E COTAS DE FUNDOS: SEM LIMITE\n- A ÚNICA DIFERENÇA: O EMISSOR",
+   "cenarios": [
+    {
+     "titulo": "INSTITUIÇÃO FINANCEIRA",
+     "passos": "10 MI × 20%\nCDBS DE UM BANCO\nCOMPANHIA ABERTA:\n10 MI × 10% = 1 MI",
+     "resultado": "R$ 2 MI"
+    },
+    {
+     "titulo": "EMPRESA FECHADA",
+     "passos": "10 MI × 5%\nEMISSOR FECHADO\nGESTOR E GRUPO:\n10 MI × 20% = 2 MI",
+     "resultado": "R$ 500 MIL"
+    }
+   ],
+   "conclusao": {
+    "texto": "PODE TER {verde:100% EM TESOURO} · MAS NÃO MAIS DE {vermelho:R$ 2 MI} NUM ÚNICO BANCO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r35g_1_oitenta-cdi.png",
+   "semente": 3561,
+   "titulo": "PERFORMANCE SOBRE 80% DO CDI?",
+   "mitos": [
+    "QUALQUER % DO ÍNDICE",
+    "SOBRE TODO O GANHO"
+   ],
+   "verdade": "NO MÍNIMO {verde:100% DO ÍNDICE}",
+   "desenho": {
+    "nome": "grafico_alta",
+    "largura": 180
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} 20% SOBRE O QUE PASSAR DE {vermelho:80% DO CDI}\n- {ciano:CVM 175, ANEXO I, ART. 28:} {vermelho:VEDADO} ABAIXO DE 100%\n- ÍNDICE {laranja:VERIFICÁVEL} E COMPATÍVEL COM A POLÍTICA\n- COBRANÇA {laranja:NO MÍNIMO SEMESTRAL}\n- SÓ {laranja:DEPOIS DAS DESPESAS}\n- {vermelho:VEDADA} ABAIXO DA {laranja:COTA BASE}\n- {ciano:REGRA:} PERFORMANCE PAGA SÓ O QUE PASSOU DO ÍNDICE"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r35g_2_bonus.png",
+   "semente": 3562,
+   "titulo": "O BÔNUS E A MARCA NA PAREDE",
+   "colunas": [
+    {
+     "titulo": "O BÔNUS DO SÍNDICO",
+     "desenho": "estrela",
+     "rotulos": [
+      "SÓ O",
+      "EXCEDENTE"
+     ],
+     "texto": "- RENDEU ACIMA DA REFERÊNCIA → {verde:COBRA}\n- FATIA DO QUE PASSOU → {verde:EXCEDENTE}\n- REFERÊNCIA COMBINADA → {laranja:ÍNDICE NO REGULAMENTO}\n- PAGO DEPOIS DAS CONTAS → {laranja:APÓS DESPESAS}"
+    },
+    {
+     "titulo": "A MARCA NA PAREDE",
+     "desenho": "termometro",
+     "rotulos": [
+      "LINHA",
+      "D'ÁGUA"
+     ],
+     "texto": "- PONTO DA ÚLTIMA COBRANÇA → {laranja:COTA BASE}\n- CAIXA ABAIXO DA MARCA → {vermelho:SEM BÔNUS}\n- RECUPEROU A PERDA → {verde:VOLTA A COBRAR}\n- MARCA SOBE A CADA BÔNUS → {laranja:NOVA COTA BASE}"
+    }
+   ],
+   "faixas": [
+    "{ciano:RENDA FIXA:} PERFORMANCE {vermelho:VEDADA}, SALVO 3 EXCEÇÕES",
+    "{ciano:EXCEÇÕES:} QUALIFICADOS · TRATAMENTO TRIBUTÁRIO DE LONGO PRAZO · DÍVIDA EXTERNA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O BÔNUS DO SÍNDICO É LIVRE · NO FUNDO, {laranja:A CVM FIXA AS REGRAS}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r35g_3_regras.png",
+   "semente": 3563,
+   "titulo": "AS REGRAS DA PERFORMANCE",
+   "topo": "{ciano:PERFORMANCE:} COBRADA SÓ SOBRE O {verde:EXCEDENTE} AO ÍNDICE DE REFERÊNCIA",
+   "colunas": [
+    {
+     "titulo": "AS 4 REGRAS",
+     "texto": "- ÍNDICE {laranja:VERIFICÁVEL} E COMPATÍVEL\n- {verde:≥ 100%} DO ÍNDICE\n- {laranja:NO MÍNIMO SEMESTRAL}\n- {laranja:DEPOIS DE TODAS AS DESPESAS}\n- {vermelho:VEDADA} ABAIXO DA COTA BASE"
+    },
+    {
+     "titulo": "RENDA FIXA",
+     "texto": "- REGRA: {vermelho:PERFORMANCE VEDADA}\n- EXCEÇÃO 1: {verde:QUALIFICADOS}\n- EXCEÇÃO 2: {verde:LONGO PRAZO FISCAL}\n- EXCEÇÃO 3: {verde:DÍVIDA EXTERNA}\n- COTA BASE = COTA DA {laranja:ÚLTIMA COBRANÇA}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} RENDEU BEM E FICOU ABAIXO DA COTA BASE? {vermelho:SEM PERFORMANCE}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r35g_4_performance.png",
+   "semente": 3564,
+   "titulo": "QUANTO VAI DE PERFORMANCE?",
+   "dados": "- MULTIMERCADO: {ciano:20%} DO EXCEDENTE A {ciano:100% DO CDI}\n- COTA BASE {ciano:R$ 100,00} · CDI DO SEMESTRE {ciano:5%}\n- COTA BASE CORRIGIDA: {laranja:R$ 105,00}\n- CONTA POR COTA, JÁ LÍQUIDA DAS DESPESAS\n- A ÚNICA DIFERENÇA: A COTA NO FIM DO SEMESTRE",
+   "cenarios": [
+    {
+     "titulo": "COTA A R$ 108",
+     "passos": "108 − 105 = 3,00\n20% × 3,00 = 0,60\n108 − 0,60",
+     "resultado": "R$ 107,40"
+    },
+    {
+     "titulo": "COTA A R$ 104",
+     "passos": "104 − 105 = −1,00\nNÃO BATEU O CDI\nSEM COBRANÇA",
+     "resultado": "R$ 104,00"
+    }
+   ],
+   "conclusao": {
+    "texto": "GANHO DE R$ 8, PERFORMANCE SÓ SOBRE {laranja:R$ 3} · GANHO DE R$ 4 ABAIXO DO CDI: {verde:ZERO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r35h_1_prazo-pagamento.png",
+   "semente": 3571,
+   "titulo": "PAGA QUANDO QUISER?",
+   "mitos": [
+    "O REGULAMENTO PERMITE ATRASAR",
+    "SEM PRAZO PARA PAGAR"
+   ],
+   "verdade": "ATÉ {verde:5 DIAS ÚTEIS} DA CONVERSÃO",
+   "desenho": {
+    "nome": "ampulheta",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} FUNDO DE AÇÕES, CONVERSÃO EM D+30\n- {ciano:CVM 175, ART. 40:} PAGAMENTO ATÉ {laranja:5 DIAS ÚTEIS} DEPOIS DA CONVERSÃO\n- ATRASO: {vermelho:MULTA DE 0,5% AO DIA} SOBRE O RESGATE\n- QUEM PAGA A MULTA: O {laranja:ADMINISTRADOR}\n- CARÊNCIA PODE EXISTIR, COM OU SEM RENDIMENTO\n- {ciano:REGRA:} CONFIRA O PRAZO DO PEDIDO AO PAGAMENTO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r35h_2_sair.png",
+   "semente": 3572,
+   "titulo": "SAIR DO CONDOMÍNIO",
+   "colunas": [
+    {
+     "titulo": "AS 3 DATAS",
+     "desenho": "placa",
+     "rotulos": [
+      "AVISO",
+      "DEPÓSITO"
+     ],
+     "texto": "- AVISA QUE VAI SAIR → {verde:PEDIDO}\n- PRÉDIO AVALIADO → {laranja:CONVERSÃO}\n- FRAÇÃO VIRA DINHEIRO → {laranja:COTA DO DIA}\n- DINHEIRO NA CONTA → {verde:PAGAMENTO}"
+    },
+    {
+     "titulo": "A PORTA DA GARAGEM",
+     "desenho": "carro",
+     "rotulos": [
+      "POUCOS",
+      "POR VEZ"
+     ],
+     "texto": "- POUCOS CARROS POR VEZ → {laranja:BARREIRA AOS RESGATES}\n- FRAÇÃO DO PATRIMÔNIO → {laranja:LIMITE DIÁRIO}\n- PORTARIA FECHADA → {vermelho:FECHAMENTO}\n- AVISO A TODOS → {ciano:FATO RELEVANTE}"
+    }
+   ],
+   "faixas": [
+    "{ciano:FECHAMENTO:} PEDIDOS PENDENTES CANCELADOS · MAIS DE 5 DIAS ÚTEIS → ASSEMBLEIA",
+    "{ciano:BARREIRA:} SÓ SE O REGULAMENTO PREVER, COM TRATAMENTO IGUAL AOS COTISTAS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O SÍNDICO DECIDE SOZINHO · O FUNDO PRECISA DE {laranja:FATO RELEVANTE E ASSEMBLEIA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r35h_3_resgate-riscos.png",
+   "semente": 3573,
+   "titulo": "RESGATE, LIQUIDEZ E RISCOS",
+   "topo": "{ciano:3 DATAS:} PEDIDO → CONVERSÃO (COTA DO DIA) → PAGAMENTO EM {laranja:ATÉ 5 DIAS ÚTEIS}",
+   "colunas": [
+    {
+     "titulo": "PROTEÇÃO DA LIQUIDEZ",
+     "texto": "- {laranja:BARREIRAS}: FRAÇÃO DO PATRIMÔNIO\n- {vermelho:FECHAMENTO}: ILIQUIDEZ EXCEPCIONAL\n- FATO RELEVANTE · PEDIDOS CANCELADOS\n- > 5 DIAS ÚTEIS → {laranja:ASSEMBLEIA}\n- RENDA FIXA: PL DE D−1 ATUALIZADO"
+    },
+    {
+     "titulo": "OS RISCOS",
+     "texto": "- {vermelho:MERCADO}\n- {vermelho:CRÉDITO}\n- {vermelho:LIQUIDEZ}\n- {vermelho:OPERACIONAL}\n- SEM LIMITE AO VALOR APLICADO:\n- PODE TER DE {vermelho:APORTAR} (TERMO ALERTA)"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} CARÊNCIA {vermelho:≠} PRAZO DE CONVERSÃO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r35h_4_multa.png",
+   "semente": 3574,
+   "titulo": "QUANTO CUSTA O ATRASO?",
+   "dados": "- RESGATE DE {ciano:R$ 50.000} (HIPOTÉTICO)\n- PEDIDO EM D0 · CONVERSÃO EM D+30\n- REGULAMENTO: PAGAMENTO EM D+1 DA CONVERSÃO\n- MULTA SIMPLES POR DIA DE ATRASO\n- A ÚNICA DIFERENÇA: O PAGAMENTO",
+   "cenarios": [
+    {
+     "titulo": "PAGA NO PRAZO",
+     "passos": "D+31\nDENTRO DO PRAZO\nSEM MULTA",
+     "resultado": "R$ 0"
+    },
+    {
+     "titulo": "3 DIAS DE ATRASO",
+     "passos": "0,5% × 50.000 = 250\n250 × 3 DIAS",
+     "resultado": "R$ 750"
+    }
+   ],
+   "conclusao": {
+    "texto": "5 PEGADINHAS (FALSAS): GARANTIA CONTRA PERDAS · AÇÕES 80% · PERFORMANCE LIVRE NA RF · 80% DO CDI · DOIS TERMOS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
