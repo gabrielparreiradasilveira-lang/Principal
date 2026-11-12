@@ -101,26 +101,26 @@
    }
   },
   {
-   "saida": "r6b_1_aposta-pequena.png",
-   "semente": 605,
+   "saida": "r6b_1_quem-entende.png",
+   "semente": 6601,
    "molde": "mito_verdade",
-   "titulo": "APOSTA PEQUENA NÃO PESA?",
+   "titulo": "QUEM ENTENDE DO ESPORTE TEM VANTAGEM?",
    "mitos": [
-    "R$ 10 NÃO FAZEM FALTA",
-    "EU PARO QUANDO QUISER"
+    "NÃO É JOGO DE AZAR",
+    "EU ENTENDO, LOGO GANHO"
    ],
-   "verdade": "PEQUENAS APOSTAS {vermelho:SOMAM} GRANDES GASTOS",
+   "verdade": "O EVENTO {laranja:SEGUE FORA DO CONTROLE}",
    "desenho": {
-    "nome": "tanque_furado",
+    "nome": "placar",
     "largura": 150
    },
-   "apoio": "- {ciano:RAIO X 9ª EDIÇÃO (ANBIMA/DATAFOLHA, ABR/2026):} GASTO MÉDIO DE {vermelho:R$ 195,15}/MÊS\n- {laranja:37%} GASTAM R$ 100 OU MAIS POR MÊS (39% NA EDIÇÃO ANTERIOR)\n- {laranja:36%} GASTAM ATÉ R$ 30 · 17% DE R$ 50 A R$ 99 · 3% DE R$ 31 A R$ 49\n- DA AMOSTRA: 7% APOSTAM RARAMENTE · 2% MAIS DE 1 VEZ POR SEMANA · 1% TODO DIA\n- {ciano:SEM LIMITE NATURAL:} O TETO PRECISA SER DECIDIDO ANTES"
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} CLIENTE SE DIZ \"ESPECIALISTA EM FUTEBOL\" E SEPARA ISSO DO CASSINO\n- O JOGO SÓ ACONTECE DEPOIS DA APOSTA: NINGUÉM O CONTROLA\n- CONHECER O TIME {vermelho:NÃO MUDA} O RESULTADO DO JOGO\n- A SENSAÇÃO DE CONTROLE {vermelho:REFORÇA O VÍCIO}\n- {ciano:3 TIPOS:} LOTERIA · APOSTA ESPORTIVA · JOGO ONLINE\n- {ciano:EM COMUM:} EMOÇÃO · ALEATORIEDADE · ESTÍMULO RÁPIDO"
   },
   {
-   "saida": "r6b_2_tres-jeitos-tanque.png",
+   "saida": "r6b_2_tres-jeitos.png",
    "semente": 606,
    "molde": "comparacao",
-   "titulo": "TRÊS JEITOS E UM FURO",
+   "titulo": "TRÊS JEITOS DE APOSTAR",
    "colunas": [
     {
      "titulo": "TRÊS JEITOS DE APOSTAR",
@@ -132,52 +132,52 @@
      "texto": "- BILHETE NO SAGUÃO → {laranja:LOTERIA}\n- PALPITE NA CORRIDA AÉREA → {laranja:ESPORTIVA}\n- CAÇA-NÍQUEL NO PAINEL → {laranja:JOGO ONLINE}\n- ESPERA MENOR → {vermelho:MAIS IMPULSO}"
     },
     {
-     "titulo": "O FURO NO TANQUE",
-     "desenho": "tanque_furado",
+     "titulo": "A ESPERA",
+     "desenho": "ampulheta",
      "rotulos": [
-      "GOTA",
-      "DESTINO"
+      "SEMANA",
+      "SEGUNDO"
      ],
-     "texto": "- CADA GOTA → {vermelho:UMA APOSTA}\n- TANQUE BAIXO → {vermelho:MENOS POUPANÇA}\n- POUSO ADIADO → {vermelho:OBJETIVO ATRASADO}\n- ACELERAR PARA COMPENSAR → {vermelho:RECUPERAR PERDAS}"
+     "texto": "- SORTEIO SEMANAL → {laranja:ESPERA LONGA}\n- FIM DA CORRIDA → {laranja:ESPERA MÉDIA}\n- PUXADA DA ALAVANCA → {vermelho:ESPERA ZERO}\n- ESPERA MENOR → {vermelho:VONTADE DE REPETIR}"
     }
    ],
    "faixas": [
     "{ciano:ESPERA ATÉ O RESULTADO:} LOTERIA → O SORTEIO · ESPORTE → O FIM DO JOGO · JOGO ONLINE → {vermelho:NA HORA}",
-    "{ciano:NO VOO DE VERDADE:} O PILOTO CONFERE O COMBUSTÍVEL ANTES DE DECOLAR → {verde:TETO DEFINIDO ANTES}"
+    "{ciano:NO CELULAR:} BILHETE, PALPITE E CAÇA-NÍQUEL CABEM NO {laranja:MESMO APLICATIVO}"
    ],
    "destaque": {
-    "texto": "{vermelho:ONDE QUEBRA:} O FURO REAL É ACIDENTE · NA APOSTA, {laranja:QUEM FURA O TANQUE} É A PRÓPRIA PESSOA, DE NOVO E DE NOVO",
+    "texto": "{vermelho:ONDE QUEBRA:} NO AEROPORTO, CADA BALCÃO FICA NUM CANTO · NO APLICATIVO, OS TRÊS ESTÃO {laranja:A UM TOQUE}",
     "cor": "branco",
     "moldura": "vermelho"
    }
   },
   {
-   "saida": "r6b_3_tipos-orcamento-1.png",
-   "semente": 607,
+   "saida": "r6b_3_tres-tipos.png",
+   "semente": 6602,
    "molde": "colunas",
-   "titulo": "TIPOS, ORÇAMENTO E NORMA (1/2)",
+   "titulo": "OS 3 TIPOS DE APOSTA",
    "topo": "{ciano:EM COMUM:} EMOÇÃO · ALEATORIEDADE · ESTÍMULO RÁPIDO → {laranja:INTERVALO CURTO = MAIS IMPULSO}, TAMBÉM NOS INVESTIMENTOS",
    "colunas": [
     {
-     "titulo": "OS 3 TIPOS",
-     "texto": "- {ciano:LOTERIA:} CHANCE {vermelho:BAIXÍSSIMA}, SONHO DE RIQUEZA, ESPERANÇA\n- {ciano:ESPORTIVA:} EVENTO FORA DO CONTROLE, {vermelho:ILUSÃO} DE CONHECIMENTO, IMPULSO\n- {ciano:JOGO ONLINE:} RESULTADO {vermelho:IMEDIATO}, RECOMPENSA CONTÍNUA, RISCO DE COMPULSÃO\n- APOSTAR TODA SEMANA NÃO MELHORA A CHANCE DE CADA SORTEIO"
+     "titulo": "LOTERIA E ESPORTIVA",
+     "texto": "- {ciano:LOTERIA:} CHANCE {vermelho:BAIXÍSSIMA}\n- VENDE O SONHO DA RIQUEZA RÁPIDA\n- {ciano:ESPORTIVA:} EVENTO FORA DO CONTROLE\n- {vermelho:ILUSÃO} DE CONHECIMENTO → IMPULSO\n- CONTROLE ILUSÓRIO {vermelho:ALIMENTA O VÍCIO}"
     },
     {
-     "titulo": "O ORÇAMENTO",
-     "texto": "- {ciano:POR QUÊ:} ACÚMULO · IMPULSO · \"RECUPERAR\" · SEM LIMITE NATURAL\n- {vermelho:CONSEQUÊNCIAS:} MENOS POUPANÇA, OBJETIVOS ATRASADOS\n- ENDIVIDAMENTO, ESTRESSE EMOCIONAL E FINANCEIRO\n- MAIS TOLERÂNCIA AO RISCO, ATÉ NA CARTEIRA"
+     "titulo": "JOGOS ONLINE",
+     "texto": "- RESULTADO {vermelho:IMEDIATO}\n- RECOMPENSA CONTÍNUA\n- EFEITO {laranja:\"QUASE GANHO\"}\n- MAIOR RISCO DE {vermelho:COMPULSÃO}\n- CARTEIRA VISTA A CADA MINUTO → DECISÃO PIOR"
     }
    ],
    "destaque": {
-    "texto": "{ciano:VIZINHO:} RENDA COMPROMETIDA COM DÍVIDAS (R19) × COM APOSTAS → {laranja:UMA ALIMENTA A OUTRA}",
+    "texto": "{ciano:CASO-LIMITE:} JOGAR TODA SEMANA {vermelho:NÃO MELHORA} A CHANCE DE CADA SORTEIO · SÓ AUMENTA O GASTO · {ciano:VIZINHO:} CONHECIMENTO ≠ CONTROLE",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r6b_3_tipos-orcamento-2.png",
+   "saida": "r6b_3_norma.png",
    "semente": 608,
    "molde": "colunas",
-   "titulo": "TIPOS, ORÇAMENTO E NORMA (2/2)",
+   "titulo": "A NORMA DAS APOSTAS DE QUOTA FIXA",
    "topo": "{ciano:MP 1.394, DE 25/09/2026, EM VIGOR:} PROÍBE EXPLORAR, OFERTAR, INTERMEDIAR E DIVULGAR APOSTAS DE QUOTA FIXA, FÍSICAS OU VIRTUAIS, ATÉ DO EXTERIOR",
    "colunas": [
     {
@@ -220,7 +220,104 @@
    }
   },
   {
-   "saida": "r6c_1_quem-aposta.png",
+   "saida": "r6c_1_aposta-pequena.png",
+   "semente": 605,
+   "molde": "mito_verdade",
+   "titulo": "APOSTA PEQUENA NÃO PESA?",
+   "mitos": [
+    "R$ 10 NÃO FAZEM FALTA",
+    "EU PARO QUANDO QUISER"
+   ],
+   "verdade": "PEQUENAS APOSTAS {vermelho:SOMAM} GRANDES GASTOS",
+   "desenho": {
+    "nome": "tanque_furado",
+    "largura": 150
+   },
+   "apoio": "- {ciano:RAIO X 9ª EDIÇÃO (ANBIMA/DATAFOLHA, ABR/2026):} GASTO MÉDIO DE {vermelho:R$ 195,15}/MÊS\n- {laranja:37%} GASTAM R$ 100 OU MAIS POR MÊS (39% NA EDIÇÃO ANTERIOR)\n- {laranja:36%} GASTAM ATÉ R$ 30 · 17% DE R$ 50 A R$ 99 · 3% DE R$ 31 A R$ 49\n- DA AMOSTRA: 7% APOSTAM RARAMENTE · 2% MAIS DE 1 VEZ POR SEMANA · 1% TODO DIA\n- {ciano:SEM LIMITE NATURAL:} O TETO PRECISA SER DECIDIDO ANTES"
+  },
+  {
+   "saida": "r6c_2_tanque-e-painel.png",
+   "semente": 6603,
+   "molde": "comparacao",
+   "titulo": "O TANQUE FURADO E O PAINEL",
+   "colunas": [
+    {
+     "titulo": "O FURO NO TANQUE",
+     "desenho": "tanque_furado",
+     "rotulos": [
+      "GOTA",
+      "DESTINO"
+     ],
+     "texto": "- CADA GOTA → {vermelho:UMA APOSTA}\n- TANQUE BAIXO → {vermelho:MENOS POUPANÇA}\n- POUSO ADIADO → {vermelho:OBJETIVO ATRASADO}\n- ACELERAR PARA COMPENSAR → {vermelho:RECUPERAR PERDAS}"
+    },
+    {
+     "titulo": "AS LUZES DO PAINEL",
+     "desenho": "mostrador",
+     "rotulos": [
+      "PONTEIRO",
+      "ALERTA"
+     ],
+     "texto": "- PONTEIRO CAINDO → {laranja:METAS ABANDONADAS}\n- COMBUSTÍVEL EMPRESTADO → {laranja:CARTÃO DE CRÉDITO}\n- MEDIDOR \"OTIMISTA\" → {laranja:PERDA SUBESTIMADA}\n- \"TÔ QUASE RECUPERANDO\" → {vermelho:ALERTA MÁXIMO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:SEM VÁLVULA DE SEGURANÇA:} NÃO EXISTE LIMITE NATURAL DE EXPOSIÇÃO",
+    "{ciano:NO VOO DE VERDADE:} O PILOTO CONFERE O COMBUSTÍVEL ANTES DE DECOLAR → {verde:TETO DEFINIDO ANTES}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O FURO REAL É ACIDENTE · NA APOSTA, {laranja:QUEM FURA O TANQUE} É A PRÓPRIA PESSOA, DE NOVO E DE NOVO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r6c_3_orcamento.png",
+   "semente": 6604,
+   "molde": "colunas",
+   "titulo": "O ORÇAMENTO COMPROMETIDO",
+   "topo": "{ciano:4 MOTIVOS:} ACÚMULO DE APOSTAS PEQUENAS · IMPULSO SEM PLANO · PERDA QUE PUXA NOVA APOSTA · {vermelho:SEM LIMITE NATURAL}",
+   "colunas": [
+    {
+     "titulo": "CONSEQUÊNCIAS E SINAIS",
+     "texto": "- MENOS POUPANÇA · OBJETIVOS ATRASADOS\n- DÍVIDAS · ESTRESSE EMOCIONAL E FINANCEIRO\n- MAIS RISCO TOLERADO, ATÉ NA CARTEIRA\n- {vermelho:SINAIS:} CARTÃO DE CRÉDITO · PERDA SUBESTIMADA · METAS LARGADAS"
+    },
+    {
+     "titulo": "DADOS DO BANCO CENTRAL",
+     "texto": "- ESTUDO ESPECIAL Nº 119/2024\n- CERCA DE {laranja:24 MILHÕES} DE PESSOAS COM PIX PARA BETS\n- AGOSTO DE 2024: CERCA DE {laranja:5 MILHÕES} DO BOLSA FAMÍLIA\n- {vermelho:R$ 3 BILHÕES} ENVIADOS · MEDIANA DE {laranja:R$ 100}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:VIZINHO:} RENDA COMPROMETIDA COM DÍVIDAS (R19) × COM APOSTAS → {laranja:UMA ALIMENTA A OUTRA} · {ciano:MEDIANA:} METADE GASTOU MENOS, METADE GASTOU MAIS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r6c_4_custo-da-ficha.png",
+   "semente": 6605,
+   "molde": "exercicio",
+   "titulo": "O CUSTO DA FICHA PEQUENA",
+   "dados": "- RENDA: {ciano:R$ 681,09}/MÊS (MÉDIA DO BOLSA FAMÍLIA, AGO/2024)\n- APOSTA: {ciano:R$ 100}/MÊS (MEDIANA DO BANCO CENTRAL)\n- CASO HIPOTÉTICO · TAXA HIPOTÉTICA DE 0,8% A.M.\n- PRAZO: 60 MESES · SEM IMPOSTOS NEM CUSTOS\n- A ÚNICA DIFERENÇA: O DESTINO DOS R$ 100",
+   "cenarios": [
+    {
+     "titulo": "APOSTADOS",
+     "passos": "100 ÷ 681,09 = 14,68%\n100 × 60 = R$ 6.000\nRETORNO ESPERADO NEGATIVO",
+     "resultado": "14,68% DA RENDA"
+    },
+    {
+     "titulo": "APLICADOS",
+     "passos": "PMT −100 · i 0,8\nn 60 · FV\n6.000 SAÍRAM DO BOLSO",
+     "resultado": "R$ 7.662,39"
+    }
+   ],
+   "conclusao": {
+    "texto": "JUROS CRIADOS: {verde:R$ 1.662,39} · NA APOSTA, A TENDÊNCIA É SOBRAR {vermelho:MENOS QUE OS R$ 6.000} · O POMAR CONTRA O CASSINO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r6d_1_quem-aposta.png",
    "semente": 610,
    "molde": "mito_verdade",
    "titulo": "QUEM APOSTA GANHA POUCO?",
@@ -236,7 +333,7 @@
    "apoio": "- {ciano:RAIO X 9ª EDIÇÃO (ANBIMA/DATAFOLHA, ABR/2026), APOSTADORES DE 2025:}\n- HOMENS: {laranja:66%} (48% NO GERAL) · IDADE MÉDIA: {laranja:35 ANOS} (44 NO GERAL)\n- RENDA FAMILIAR: {laranja:R$ 5.402}/MÊS (R$ 4.627 NO GERAL)\n- 38% INVESTEM (36% NO GERAL) · 21% SEM RESERVA DE EMERGÊNCIA (31% NO GERAL)\n- {ciano:ALTO RISCO DE VÍCIO (11%):} 56% DA CLASSE C · 73% HOMENS · 25% SEM RESERVA"
   },
   {
-   "saida": "r6c_2_lista-passageiros.png",
+   "saida": "r6d_2_lista-passageiros.png",
    "semente": 611,
    "molde": "comparacao",
    "titulo": "A LISTA DE PASSAGEIROS",
@@ -271,7 +368,7 @@
    }
   },
   {
-   "saida": "r6c_3_publico-geracao-motivacao.png",
+   "saida": "r6d_3_publico-geracao-motivacao.png",
    "semente": 612,
    "molde": "colunas",
    "titulo": "PÚBLICO, GERAÇÃO E MOTIVAÇÃO",
@@ -297,7 +394,7 @@
    }
   },
   {
-   "saida": "r6c_4_recuperar-perdas.png",
+   "saida": "r6d_4_recuperar-perdas.png",
    "semente": 613,
    "molde": "exercicio",
    "titulo": "DIVERSÃO OU RECUPERAR PERDAS?",
@@ -315,7 +412,7 @@
     }
    ],
    "conclusao": {
-    "texto": "PARA RECUPERAR E GANHAR R$ 50, A 6ª APOSTA SERIA DE {vermelho:R$ 1.600} · EXPOSIÇÃO TOTAL DE {vermelho:R$ 3.150}",
+    "texto": "6ª APOSTA PARA RECUPERAR: {vermelho:R$ 1.600} · {ciano:5 PEGADINHAS (FALSAS):} RETORNO ZERO · SÓ PRAZO DIFERE · QUEM ENTENDE CONTROLA · APOSTA PEQUENA NÃO PESA · BET NÃO INTERESSA",
     "cor": "branco",
     "moldura": "amarelo"
    }
