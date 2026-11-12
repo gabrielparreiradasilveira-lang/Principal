@@ -17,7 +17,7 @@
     "nome": "dinheiro",
     "largura": 220
    },
-   "apoio": "- {ciano:CASO REAL (09/01/2024):} A LEI 14.801 CRIA A DEBÊNTURE DE INFRAESTRUTURA\n- A INCENTIVADA É DE 2011 (LEI 12.431)\n- INCENTIVADA: O DESCONTO DE IMPOSTO É DO {verde:INVESTIDOR}\n- DE INFRAESTRUTURA: O DESCONTO É DO {laranja:EMISSOR}\n- COMUM: SEM DESCONTO PARA NINGUÉM\n- NENHUMA DAS TRÊS TEM A GARANTIA DO FGC\n- {ciano:4 PAPÉIS DE HOJE:} DEBÊNTURE · NOTA COMERCIAL · CRI · CRA"
+   "apoio": "- {ciano:CASO REAL (09/01/2024):} A LEI 14.801 CRIA A DEBÊNTURE DE INFRAESTRUTURA\n- A INCENTIVADA É DE 2011 (LEI 12.431)\n- INCENTIVADA: O DESCONTO DE IMPOSTO É DO {verde:INVESTIDOR}\n- DE INFRAESTRUTURA: O DESCONTO É DO {laranja:EMISSOR}\n- COMUM: SEM DESCONTO PARA NINGUÉM\n- NENHUMA DAS TRÊS TEM A GARANTIA DO FGC\n- {ciano:3 TEMAS DE HOJE:} DEBÊNTURE · SUAS VARIAÇÕES · NOTA COMERCIAL"
   },
   {
    "saida": "r27a_2_inquilino-empresa.png",
@@ -32,21 +32,21 @@
       "DEBÊNTURE",
       "EMPRESA"
      ],
-     "texto": "- CONTRATO DA EMPRESA → {laranja:DEBÊNTURE}\n- TROCA O ALUGUEL POR PARTE DO NEGÓCIO → {laranja:CONVERSÍVEL}\n- DESCONTO PARA O DONO DO DINHEIRO → {laranja:INCENTIVADA}\n- DESCONTO PARA O INQUILINO → {laranja:DE INFRAESTRUTURA}"
+     "texto": "- CONTRATO DA EMPRESA → {laranja:DEBÊNTURE}\n- TROCA O ALUGUEL POR PARTE DO NEGÓCIO → {laranja:CONVERSÍVEL}\n- TROCA POR PARTE DE OUTRO NEGÓCIO → {laranja:PERMUTÁVEL}\n- PROMESSA SIMPLES DE PAGAR → {laranja:NOTA COMERCIAL}"
     },
     {
-     "titulo": "O COFRE",
-     "desenho": "cofrinho",
+     "titulo": "O DESCONTO",
+     "desenho": "dinheiro",
      "rotulos": [
-      "RECEBÍVEIS",
-      "SEPARADO"
+      "IMPOSTO",
+      "GOVERNO"
      ],
-     "texto": "- ALUGUÉIS A RECEBER → {verde:RECEBÍVEIS}\n- QUEM JUNTA E EMPACOTA → {verde:SECURITIZADORA}\n- COFRE À PARTE → {verde:PATRIMÔNIO SEPARADO}\n- PAPEL DO PACOTE → {verde:CRI OU CRA}"
+     "texto": "- OBRA QUE DÁ O DESCONTO → {verde:INFRAESTRUTURA}\n- DESCONTO PARA O DONO DO DINHEIRO → {verde:INCENTIVADA}\n- DESCONTO PARA O INQUILINO → {verde:DE INFRAESTRUTURA}\n- SEM OBRA, SEM DESCONTO → {verde:COMUM}"
     }
    ],
    "faixas": [
-    "{ciano:PROMESSA SIMPLES DE PAGAR EM DINHEIRO:} NOTA COMERCIAL",
-    "{ciano:OBRA QUE DÁ O DESCONTO:} PROJETO DE INFRAESTRUTURA"
+    "{ciano:ALUGUEL MAIOR QUE O DO GOVERNO:} MAIS RISCO DE CRÉDITO E MENOS LIQUIDEZ",
+    "{ciano:QUEM ASSINA A NOTA COMERCIAL:} S.A., LIMITADA E COOPERATIVA"
    ],
    "destaque": {
     "texto": "{vermelho:ONDE QUEBRA:} DONO DE IMÓVEL RETOMA A CHAVE · CREDOR DE EMPRESA NÃO RETOMA NADA: CONTA COM O CAIXA DELA E COM AS GARANTIAS",
@@ -59,7 +59,7 @@
    "semente": 2703,
    "molde": "colunas",
    "titulo": "DEBÊNTURES (1/3)",
-   "topo": "{ciano:EMISSÃO CORPORATIVA:} DÍVIDA DE {laranja:EMPRESA NÃO FINANCEIRA} · MAIS RETORNO PORQUE HÁ MAIS RISCO DE CRÉDITO E MENOS LIQUIDEZ",
+   "topo": "{ciano:EMISSÃO CORPORATIVA:} DÍVIDA DE {laranja:EMPRESA NÃO FINANCEIRA} · MAIS RETORNO · MAIS RISCO DE CRÉDITO · MENOS LIQUIDEZ QUE PÚBLICOS E BANCÁRIOS",
    "colunas": [
     {
      "titulo": "A DEBÊNTURE",
@@ -67,7 +67,7 @@
     },
     {
      "titulo": "FORMA DE PAGAR",
-     "texto": "- {laranja:SIMPLES:} SÓ DINHEIRO\n- {laranja:CONVERSÍVEL:} AÇÕES DA EMISSORA\n- {laranja:PERMUTÁVEL:} AÇÕES DE OUTRA COMPANHIA\n- AS CONDIÇÕES FICAM NA ESCRITURA DE EMISSÃO"
+     "texto": "- {laranja:SIMPLES:} SÓ DINHEIRO (A MAIS COMUM)\n- {laranja:CONVERSÍVEL:} AÇÕES DA EMISSORA\n- {laranja:PERMUTÁVEL:} AÇÕES DE OUTRA COMPANHIA\n- AS CONDIÇÕES FICAM NA ESCRITURA DE EMISSÃO"
     }
    ],
    "destaque": {
@@ -85,11 +85,11 @@
    "colunas": [
     {
      "titulo": "INCENTIVADA",
-     "texto": "- LEI 12.431, DE 2011\n- PROJETOS DE INFRAESTRUTURA\n- PESSOA FÍSICA: {verde:ISENTA}\n- BENEFÍCIO DO INVESTIDOR\n- PÚBLICO TÍPICO: VAREJO"
+     "texto": "- LEI 12.431, DE 2011\n- PROJETOS PRIORITÁRIOS DE INFRAESTRUTURA\n- PESSOA FÍSICA: {verde:ISENTA}\n- BENEFÍCIO DO INVESTIDOR\n- PÚBLICO TÍPICO: VAREJO"
     },
     {
      "titulo": "DE INFRAESTRUTURA",
-     "texto": "- LEI 14.801, DE 2024\n- PROJETOS PRIORITÁRIOS\n- INVESTIDOR: {vermelho:TRIBUTADO}\n- BENEFÍCIO DO EMISSOR: DEDUZ MAIS JUROS\n- PÚBLICO TÍPICO: INSTITUCIONAIS"
+     "texto": "- LEI 14.801, DE 2024\n- INFRAESTRUTURA OU PESQUISA, DESENVOLVIMENTO E INOVAÇÃO\n- INVESTIDOR: {vermelho:TRIBUTADO}\n- EMISSOR: DEDUZ OS JUROS E EXCLUI {laranja:+30%} DELES\n- PÚBLICO TÍPICO: INSTITUCIONAIS"
     }
    ],
    "destaque": {
@@ -102,20 +102,20 @@
    "saida": "r27a_3_conteudo-3.png",
    "semente": 2705,
    "molde": "colunas",
-   "titulo": "NOTA COMERCIAL, CRI E CRA (3/3)",
-   "topo": "{ciano:OUTRAS EMISSÕES:} A NOTA COMERCIAL É DÍVIDA DIRETA DA EMPRESA · CRI E CRA SÃO DÍVIDA {laranja:LASTREADA EM RECEBÍVEIS}",
+   "titulo": "NOTA COMERCIAL (3/3)",
+   "topo": "{ciano:NOTA COMERCIAL (LEI 14.195, DE 2021):} DÍVIDA DIRETA DA EMPRESA, EM FORMATO MAIS SIMPLES QUE O DA DEBÊNTURE",
    "colunas": [
     {
-     "titulo": "NOTA COMERCIAL",
-     "texto": "- LEI 14.195, DE 2021\n- PROMESSA DE PAGAR EM DINHEIRO\n- NÃO CONVERSÍVEL EM AÇÕES\n- SÓ ESCRITURAL\n- EMITEM: S.A., LIMITADAS E COOPERATIVAS"
+     "titulo": "O QUE É",
+     "texto": "- VALOR MOBILIÁRIO\n- TÍTULO DE CRÉDITO\n- {vermelho:NÃO} CONVERSÍVEL EM AÇÕES\n- LIVRE NEGOCIAÇÃO\n- SÓ ESCRITURAL (ESCRITURADOR AUTORIZADO PELA CVM)"
     },
     {
-     "titulo": "CRI E CRA",
-     "texto": "- {laranja:1.} DEVEDORES GERAM RECEBÍVEIS\n- {laranja:2.} O CREDOR CEDE À SECURITIZADORA\n- {laranja:3.} ELA EMITE OS CERTIFICADOS\n- {laranja:4.} INVESTIDOR RECEBE DO LASTRO\n- EM GERAL, {verde:ISENTOS} PARA PESSOA FÍSICA"
+     "titulo": "QUEM EMITE",
+     "texto": "- {laranja:DEBÊNTURE:} SÓ SOCIEDADE POR AÇÕES\n- {laranja:NOTA COMERCIAL:}\n- SOCIEDADE ANÔNIMA\n- SOCIEDADE LIMITADA\n- COOPERATIVA"
     }
    ],
    "destaque": {
-    "texto": "{ciano:REGIME FIDUCIÁRIO:} O LASTRO FICA FORA DO ALCANCE DOS CREDORES DA SECURITIZADORA · {vermelho:RISCOS QUE FICAM:} CALOTE DOS DEVEDORES · ESTRUTURA COMPLEXA · POUCA LIQUIDEZ · SEM FGC",
+    "texto": "{ciano:NA PROVA:} NOTA COMERCIAL CONVERSÍVEL NÃO EXISTE · CONVERSÍVEL E PERMUTÁVEL SÃO VERSÕES DA {laranja:DEBÊNTURE} · NENHUMA DAS DUAS TEM FGC",
     "cor": "branco",
     "moldura": "amarelo"
    }
@@ -145,8 +145,127 @@
    }
   },
   {
-   "saida": "r27b_1_registrada-e-aprovada.png",
+   "saida": "r27b_1_separado-sem-risco.png",
    "semente": 2707,
+   "molde": "mito_verdade",
+   "titulo": "SEPARADO = SEM RISCO?",
+   "mitos": [
+    "PATRIMÔNIO SEPARADO",
+    "ZERA O RISCO"
+   ],
+   "verdade": "NÃO COBRE {laranja:CALOTE}",
+   "desenho": {
+    "nome": "cofrinho",
+    "largura": 200
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} CRI COM LASTRO NAS PARCELAS DE UM ÚNICO DEVEDOR\n- DEVEDOR PARA DE PAGAR → O CERTIFICADO PARA DE RECEBER\n- O PATRIMÔNIO SEPARADO NÃO COBRE CALOTE DE DEVEDOR\n- CRI E CRA {vermelho:NÃO} TÊM FGC\n- {ciano:CRI:} LASTRO IMOBILIÁRIO · {ciano:CRA:} LASTRO DO AGRONEGÓCIO\n- LEI DA SECURITIZAÇÃO: 14.430, DE 2022"
+  },
+  {
+   "saida": "r27b_2_cofre-separado.png",
+   "semente": 2708,
+   "molde": "comparacao",
+   "titulo": "O COFRE SEPARADO",
+   "colunas": [
+    {
+     "titulo": "OS ALUGUÉIS",
+     "desenho": "contrato_aluguel",
+     "rotulos": [
+      "PARCELAS",
+      "A RECEBER"
+     ],
+     "texto": "- ALUGUÉIS A RECEBER → {laranja:RECEBÍVEIS}\n- QUEM DEVE OS ALUGUÉIS → {laranja:DEVEDORES}\n- QUEM VENDE OS ALUGUÉIS FUTUROS → {laranja:CEDENTE}\n- VENDE PARA RECEBER ANTES → {laranja:ANTECIPA O CAIXA}"
+    },
+    {
+     "titulo": "O COFRE",
+     "desenho": "cofrinho",
+     "rotulos": [
+      "LASTRO",
+      "SEPARADO"
+     ],
+     "texto": "- EMPACOTADORA → {verde:SECURITIZADORA}\n- COFRE À PARTE → {verde:PATRIMÔNIO SEPARADO}\n- PAPEL QUE DÁ DIREITO AO COFRE → {verde:CRI OU CRA}\n- REGRAS DO COFRE → {verde:TERMO DE SECURITIZAÇÃO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:COFRE DE IMÓVEIS:} CRI · {ciano:COFRE DO CAMPO:} CRA",
+    "{ciano:QUEM COMPRA O PAPEL:} RECEBE O QUE ENTRAR NO COFRE"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} COFRE COMUM GUARDA DINHEIRO PRONTO · ESTE GUARDA PROMESSAS DE PAGAMENTO, QUE PODEM FALHAR",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r27b_3_conteudo-1.png",
+   "semente": 2709,
+   "molde": "colunas",
+   "titulo": "A SECURITIZAÇÃO (1/2)",
+   "topo": "{ciano:CRI:} RECEBÍVEIS IMOBILIÁRIOS · {ciano:CRA:} RECEBÍVEIS DO AGRONEGÓCIO · {laranja:LASTRO} = CRÉDITOS QUE SUSTENTAM O PAPEL",
+   "colunas": [
+    {
+     "titulo": "O CAMINHO",
+     "texto": "- {laranja:1.} DEVEDORES: COMPRADORES DE IMÓVEIS, PRODUTORES, EMPRESAS\n- {laranja:2.} CEDENTE VENDE OS RECEBÍVEIS\n- {laranja:3.} SECURITIZADORA EMITE CRI OU CRA\n- {laranja:4.} INVESTIDOR RECEBE O FLUXO"
+    },
+    {
+     "titulo": "OS DOCUMENTOS",
+     "texto": "- {ciano:SECURITIZADORA:} SOCIEDADE POR AÇÕES NÃO FINANCEIRA\n- {ciano:TERMO DE SECURITIZAÇÃO:} DIZ QUAL É O LASTRO\n- E O QUE O CRÉDITO CUMPRE PARA ENTRAR (ELEGIBILIDADE)\n- CADA EMISSÃO TEM O SEU TERMO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} QUEM EMITE O CRI É A {laranja:SECURITIZADORA}, NÃO O BANCO NEM A CONSTRUTORA · O CEDENTE SÓ VENDE OS CRÉDITOS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r27b_3_conteudo-2.png",
+   "semente": 2710,
+   "molde": "colunas",
+   "titulo": "PROTEÇÃO E RISCOS (2/2)",
+   "topo": "{ciano:REGIME FIDUCIÁRIO → PATRIMÔNIO SEPARADO:} O LASTRO FICA FORA DO ALCANCE DOS CREDORES DA SECURITIZADORA",
+   "colunas": [
+    {
+     "titulo": "O QUE PROTEGE",
+     "texto": "- LASTRO NÃO PAGA DÍVIDA DA SECURITIZADORA\n- SERVE SÓ AOS CERTIFICADOS DA EMISSÃO\n- {verde:ISENTOS} DE IR PARA PESSOA FÍSICA (EM GERAL)\n- {vermelho:CCI} DIRETA: TRIBUTADA"
+    },
+    {
+     "titulo": "O QUE CONTINUA",
+     "texto": "- {vermelho:CRÉDITO} DO DEVEDOR\n- {vermelho:CONCENTRAÇÃO} DO LASTRO\n- {vermelho:ESTRUTURA} COMPLEXA\n- {vermelho:LIQUIDEZ} BAIXA\n- SEM FGC"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:CRI × LCI:} OS DOIS SÃO IMOBILIÁRIOS E ISENTOS PARA PESSOA FÍSICA · LCI: DÍVIDA DE BANCO, {verde:COM FGC} · CRI: SECURITIZAÇÃO, {vermelho:SEM FGC}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r27b_4_pulverizado-ou-concentrado.png",
+   "semente": 2711,
+   "molde": "exercicio",
+   "titulo": "LASTRO PULVERIZADO OU CONCENTRADO?",
+   "dados": "- HIPOTÉTICO: 2 CRI, LASTRO DE {ciano:10 MILHÕES} CADA\n- OS DOIS TÊM PATRIMÔNIO SEPARADO\n- A ÚNICA DIFERENÇA: O NÚMERO DE DEVEDORES\n- SEM GARANTIAS, REFORÇOS DE CRÉDITO NEM RECUPERAÇÃO (SIMPLIFICAÇÃO)",
+   "cenarios": [
+    {
+     "titulo": "500 DEVEDORES",
+     "passos": "10 NÃO PAGAM\n10 ÷ 500 = 2%\nFALTAM 200.000",
+     "resultado": "ENTRAM 9.800.000"
+    },
+    {
+     "titulo": "1 DEVEDOR",
+     "passos": "ELE NÃO PAGA\n1 ÷ 1 = 100%\nFALTAM 10 MILHÕES",
+     "resultado": "ENTRA ZERO"
+    }
+   ],
+   "conclusao": {
+    "texto": "O COFRE É O MESMO NOS DOIS · O QUE MUDA A PERDA É A {laranja:CONCENTRAÇÃO} · PERGUNTE: {verde:QUEM DEVE} E {verde:QUANTO CADA UM PESA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r27c_1_registrada-e-aprovada.png",
+   "semente": 2712,
    "molde": "mito_verdade",
    "titulo": "REGISTRADA = APROVADA?",
    "mitos": [
@@ -158,36 +277,36 @@
     "nome": "prancheta",
     "largura": 120
    },
-   "apoio": "- {ciano:CASO REAL (02/01/2023):} ENTRA EM VIGOR A RESOLUÇÃO CVM 160, DAS OFERTAS PÚBLICAS\n- 2 RITOS: {laranja:AUTOMÁTICO} (SEM ANÁLISE PRÉVIA) E {laranja:ORDINÁRIO} (COM ANÁLISE PRÉVIA)\n- NENHUM DOS DOIS GARANTE O PAGAMENTO DO TÍTULO\n- A CVM OLHA A {laranja:INFORMAÇÃO}, NÃO A QUALIDADE DO EMISSOR\n- {ciano:2 TEMAS:} OFERTA PÚBLICA · CARACTERÍSTICAS DOS TÍTULOS DE DÍVIDA"
+   "apoio": "- {ciano:CASO REAL (02/01/2023):} ENTRA EM VIGOR A RESOLUÇÃO CVM 160, DAS OFERTAS PÚBLICAS\n- 2 RITOS: {laranja:AUTOMÁTICO} (SEM ANÁLISE PRÉVIA) E {laranja:ORDINÁRIO} (COM ANÁLISE PRÉVIA)\n- NENHUM DOS DOIS GARANTE O PAGAMENTO DO TÍTULO\n- A CVM OLHA A {laranja:INFORMAÇÃO}, NÃO A QUALIDADE DO EMISSOR\n- {ciano:5 TEMAS:} CONCEITO · RITOS · PÚBLICOS · DOCUMENTOS · REVENDA"
   },
   {
-   "saida": "r27b_2_anuncio-e-aluguel-extra.png",
-   "semente": 2708,
+   "saida": "r27c_2_anuncio-publico.png",
+   "semente": 2713,
    "molde": "comparacao",
-   "titulo": "O ANÚNCIO E O ALUGUEL EXTRA",
+   "titulo": "O ANÚNCIO PÚBLICO",
    "colunas": [
     {
      "titulo": "O ANÚNCIO",
      "desenho": "megafone",
      "rotulos": [
       "OFERTA",
-      "FOLHETO"
+      "PÚBLICA"
      ],
-     "texto": "- ANÚNCIO PÚBLICO DO CONTRATO → {laranja:OFERTA PÚBLICA}\n- REGISTRO NO ÓRGÃO REGULADOR → {laranja:CVM}\n- IMOBILIÁRIA QUE ORGANIZA → {laranja:COORDENADOR}\n- FOLHETO COMPLETO → {laranja:PROSPECTO}"
+     "texto": "- ANÚNCIO PÚBLICO DO CONTRATO → {laranja:OFERTA PÚBLICA}\n- REGISTRO NO ÓRGÃO REGULADOR → {laranja:CVM}\n- IMOBILIÁRIA QUE ORGANIZA → {laranja:COORDENADOR}\n- QUEM QUER ALUGAR O DINHEIRO → {laranja:EMISSOR}"
     },
     {
-     "titulo": "O PREÇO",
-     "desenho": "balanca",
+     "titulo": "O FOLHETO",
+     "desenho": "prancheta",
      "rotulos": [
-      "GOVERNO",
-      "EXTRA"
+      "PROSPECTO",
+      "LÂMINA"
      ],
-     "texto": "- ALUGUEL QUE O GOVERNO PAGA → {verde:JUROS DE MERCADO}\n- EXTRA PELA FAMA DO INQUILINO → {verde:SPREAD}\n- FAMA PIORA → {verde:SPREAD SOBE}\n- CONTRATO ANTIGO DESVALORIZA → {verde:PREÇO CAI}"
+     "texto": "- FOLHETO COMPLETO → {verde:PROSPECTO}\n- RESUMO DO FOLHETO → {verde:LÂMINA}\n- ANÚNCIO SÓ PARA EXPERIENTES → {verde:SÓ PROFISSIONAIS}\n- NESSE CASO → {verde:SEM FOLHETO}"
     }
    ],
    "faixas": [
-    "{ciano:ANÚNCIO SÓ PARA GENTE EXPERIENTE:} OFERTA RESTRITA A PROFISSIONAIS, SEM FOLHETO",
-    "{ciano:ALUGUEL PAGO A CADA SEMESTRE:} CUPOM"
+    "{ciano:CARIMBO DE REGISTRO:} NÃO DIZ SE O INQUILINO É BOM PAGADOR",
+    "{ciano:REPASSAR O CONTRATO A OUTRO PÚBLICO:} TEM PRAZO DE ESPERA"
    ],
    "destaque": {
     "texto": "{vermelho:ONDE QUEBRA:} ALUGUEL SE ACERTA ENTRE DOIS · NA OFERTA, A TAXA SAI DA DISPUTA ENTRE MUITOS COMPRADORES",
@@ -196,41 +315,138 @@
    }
   },
   {
-   "saida": "r27b_3_conteudo-1.png",
-   "semente": 2709,
+   "saida": "r27c_3_conteudo-1.png",
+   "semente": 2714,
    "molde": "colunas",
-   "titulo": "OFERTA PÚBLICA (1/2)",
-   "topo": "{ciano:OFERTA PÚBLICA:} VENDA DE TÍTULOS AO MERCADO · {laranja:REGISTRO NA CVM} · CONDUZIDA PELO COORDENADOR (RESOLUÇÃO CVM 160)",
+   "titulo": "OFERTA PÚBLICA: OS RITOS (1/2)",
+   "topo": "{ciano:OFERTA PÚBLICA:} VENDA DE VALORES MOBILIÁRIOS AO MERCADO · {laranja:REGISTRO NA CVM} · INTERMEDIÁRIOS (RESOLUÇÃO CVM 160, DE 2022)",
    "colunas": [
     {
-     "titulo": "RITOS",
-     "texto": "- {laranja:AUTOMÁTICO:} SEM ANÁLISE PRÉVIA\n- EXEMPLO: DEBÊNTURE SIMPLES\n- {laranja:ORDINÁRIO:} COM ANÁLISE PRÉVIA\n- EXEMPLO: PRIMEIRA OFERTA DE AÇÕES"
+     "titulo": "AUTOMÁTICO",
+     "texto": "- {vermelho:SEM} ANÁLISE PRÉVIA DA CVM\n- REQUISITOS CUMPRIDOS → PODE DISTRIBUIR\n- EXEMPLO: DEBÊNTURE SIMPLES\n- PARA PROFISSIONAIS OU QUALIFICADOS\n- EM ALGUNS CASOS, PÚBLICO EM GERAL"
     },
     {
-     "titulo": "PÚBLICO",
-     "texto": "- {laranja:PROFISSIONAL:} ACIMA DE 10 MILHÕES\n- {laranja:QUALIFICADO:} ACIMA DE 1 MILHÃO\n- PÚBLICO EM GERAL\n- SÓ PROFISSIONAIS: PROSPECTO DISPENSADO"
+     "titulo": "ORDINÁRIO",
+     "texto": "- {verde:COM} ANÁLISE PRÉVIA DA CVM\n- A CVM ANALISA E SÓ ENTÃO REGISTRA\n- EXEMPLO: IPO DE AÇÕES\n- IPO = PRIMEIRA OFERTA PÚBLICA"
     }
    ],
    "destaque": {
-    "texto": "{ciano:TRAVA DE REVENDA (DEBÊNTURE SIMPLES SÓ PARA PROFISSIONAIS):} QUALIFICADOS APÓS {laranja:6 MESES} · PÚBLICO EM GERAL APÓS {laranja:1 ANO} · SEM PROSPECTO, O INVESTIDOR É AVISADO DA DISPENSA",
+    "texto": "{ciano:NA PROVA:} NOS DOIS RITOS HÁ REGISTRO · A DIFERENÇA É A {laranja:ANÁLISE PRÉVIA} · NENHUM DELES É RECOMENDAÇÃO DE COMPRA",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r27b_3_conteudo-2.png",
-   "semente": 2710,
+   "saida": "r27c_3_conteudo-2.png",
+   "semente": 2715,
    "molde": "colunas",
-   "titulo": "RAIO X DO TÍTULO DE DÍVIDA (2/2)",
+   "titulo": "PÚBLICOS, DOCUMENTOS E REVENDA (2/2)",
+   "topo": "{ciano:A QUEM A OFERTA PODE SER VENDIDA} (RESOLUÇÃO CVM 30) {ciano:E O QUE O INVESTIDOR RECEBE PARA DECIDIR}",
+   "colunas": [
+    {
+     "titulo": "3 PÚBLICOS",
+     "texto": "- {laranja:PROFISSIONAL:} BANCOS, FUNDOS, SEGURADORAS, PREVIDÊNCIA\n- OU MAIS DE {laranja:10 MILHÕES} + TERMO\n- {laranja:QUALIFICADO:} OS PROFISSIONAIS\n- OU MAIS DE {laranja:1 MILHÃO} + TERMO\n- PÚBLICO EM GERAL"
+    },
+    {
+     "titulo": "DOCUMENTOS",
+     "texto": "- {ciano:PROSPECTO:} EMISSOR, TÍTULO E FATORES DE RISCO\n- {ciano:LÂMINA:} RESUMO DO PROSPECTO\n- SÓ PROFISSIONAIS: PROSPECTO DISPENSADO\n- INVESTIDOR AVISADO DA DISPENSA\n- E DE QUE A CVM NÃO ANALISOU"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:REVENDA (DEBÊNTURE SIMPLES SÓ PARA PROFISSIONAIS):} QUALIFICADOS APÓS {laranja:6 MESES} · PÚBLICO EM GERAL APÓS {laranja:1 ANO} · PRAZOS A PARTIR DO FIM DA OFERTA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r27c_4_pode-revender.png",
+   "semente": 2716,
+   "molde": "exercicio",
+   "titulo": "O QUALIFICADO JÁ PODE COMPRAR?",
+   "dados": "- HIPOTÉTICO: DEBÊNTURE SIMPLES, OFERTA SÓ PARA PROFISSIONAIS\n- OFERTA ENCERRADA EM {ciano:10 DE MARÇO}\n- CLIENTE: QUALIFICADO, NÃO PROFISSIONAL\n- COMPRA NO MERCADO SECUNDÁRIO\n- A ÚNICA DIFERENÇA: A DATA DO PEDIDO",
+   "cenarios": [
+    {
+     "titulo": "10 DE JULHO",
+     "passos": "4 MESES DEPOIS\nMÍNIMO: 6 MESES\nLIBERA EM 10 DE SETEMBRO",
+     "resultado": "AINDA NÃO PODE"
+    },
+    {
+     "titulo": "10 DE OUTUBRO",
+     "passos": "7 MESES DEPOIS\nMÍNIMO: 6 MESES\nPRAZO CUMPRIDO",
+     "resultado": "JÁ PODE"
+    }
+   ],
+   "conclusao": {
+    "texto": "PÚBLICO EM GERAL: SÓ APÓS {laranja:1 ANO} (10 DE MARÇO SEGUINTE) · A TRAVA EXISTE PARA O PAPEL NÃO CHEGAR AO VAREJO {vermelho:SEM PROSPECTO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r27d_1_juros-cairam.png",
+   "semente": 2717,
+   "molde": "mito_verdade",
+   "titulo": "JUROS CAÍRAM, PREÇO SUBIU?",
+   "mitos": [
+    "JUROS CAÍRAM",
+    "PREÇO SUBIU"
+   ],
+   "verdade": "SÃO {laranja:2 MOTORES}",
+   "desenho": {
+    "nome": "grafico_baixa",
+    "largura": 200
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} DEBÊNTURE PREFIXADA NA CARTEIRA DO CLIENTE\n- JUROS DE MERCADO CAEM → EMPURRAM O PREÇO PARA CIMA\n- DESCONFIANÇA COM A EMPRESA SOBE → EMPURRA PARA BAIXO\n- VENCE O MOTOR QUE ANDAR MAIS\n- TÍTULO PÚBLICO: SÓ O MOTOR DOS JUROS\n- {ciano:6 PONTOS DE LEITURA:} PRAZO · CRÉDITO · REMUNERAÇÃO · MARCAÇÃO · DURATION · CUPOM"
+  },
+  {
+   "saida": "r27d_2_aluguel-extra.png",
+   "semente": 2718,
+   "molde": "comparacao",
+   "titulo": "O ALUGUEL EXTRA",
+   "colunas": [
+    {
+     "titulo": "O ALUGUEL BASE",
+     "desenho": "moeda",
+     "rotulos": [
+      "GOVERNO",
+      "JUROS"
+     ],
+     "texto": "- ALUGUEL QUE O GOVERNO PAGA → {laranja:JUROS DE MERCADO}\n- VALE PARA TODO INQUILINO → {laranja:TAXA DE REFERÊNCIA}\n- BASE SOBE → {laranja:CONTRATO ANTIGO VALE MENOS}\n- BASE CAI → {laranja:CONTRATO ANTIGO VALE MAIS}"
+    },
+    {
+     "titulo": "O EXTRA",
+     "desenho": "balanca",
+     "rotulos": [
+      "FAMA",
+      "EXTRA"
+     ],
+     "texto": "- EXTRA PELA FAMA DO INQUILINO → {verde:SPREAD}\n- NOTA DA FAMA → {verde:RATING}\n- FAMA PIORA → {verde:SPREAD SOBE}\n- CONTRATO ANTIGO DESVALORIZA → {verde:PREÇO CAI}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ALUGUEL PAGO A CADA SEMESTRE:} CUPOM",
+    "{ciano:DEVOLVER O DINHEIRO SÓ NO FIM:} BULLET · {ciano:AOS POUCOS:} AMORTIZAÇÃO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NO CONTRATO, O EXTRA FICA FIXO · NO MERCADO, O EXTRA EXIGIDO É REVISTO A CADA DIA, E O PREÇO ACOMPANHA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r27d_3_conteudo-1.png",
+   "semente": 2719,
+   "molde": "colunas",
+   "titulo": "RAIO X DO TÍTULO DE DÍVIDA (1/2)",
    "topo": "{ciano:6 PONTOS DE LEITURA:} PRAZO · RISCO DE CRÉDITO · REMUNERAÇÃO · MARCAÇÃO A MERCADO · DURATION · CUPOM",
    "colunas": [
     {
-     "titulo": "PREÇO: 2 MOTORES",
-     "texto": "- {laranja:MOTOR 1:} JUROS DE MERCADO\n- {laranja:MOTOR 2:} SPREAD DE CRÉDITO\n- TAXA DO TÍTULO = JUROS + SPREAD\n- SPREAD SOBE COM JUROS PARADOS → PREÇO CAI"
+     "titulo": "PRAZO, CRÉDITO E TAXA",
+     "texto": "- {ciano:PRAZO:} POUCOS ANOS A MUITO LONGOS (INFRAESTRUTURA)\n- {ciano:CRÉDITO:} TAXA = TÍTULO PÚBLICO + {laranja:SPREAD}\n- RATING AJUDA, NÃO SUBSTITUI A ANÁLISE\n- {ciano:REMUNERAÇÃO:} PRÉ · % DO CDI · CDI + SPREAD · IPCA + TAXA"
     },
     {
-     "titulo": "FLUXO E PRAZO",
-     "texto": "- {ciano:REMUNERAÇÃO:} PRÉ · % DO CDI · CDI + TAXA · IPCA + TAXA\n- {ciano:CUPOM:} JUROS SEMESTRAIS OU ANUAIS\n- {ciano:PRINCIPAL:} NO FIM OU EM AMORTIZAÇÕES\n- CUPOM E AMORTIZAÇÃO REDUZEM A DURATION"
+     "titulo": "PREÇO: 2 MOTORES",
+     "texto": "- {laranja:MOTOR 1:} JUROS DE MERCADO\n- {laranja:MOTOR 2:} SPREAD DE CRÉDITO\n- SPREAD SOBE COM JUROS PARADOS → PREÇO CAI\n- EXTRATO: DEBÊNTURE, CRI E CRA A VALOR DE MERCADO"
     }
    ],
    "destaque": {
@@ -240,11 +456,33 @@
    }
   },
   {
-   "saida": "r27b_4_juros-e-spread.png",
-   "semente": 2711,
+   "saida": "r27d_3_conteudo-2.png",
+   "semente": 2720,
+   "molde": "colunas",
+   "titulo": "DURATION E CUPOM (2/2)",
+   "topo": "{ciano:DURATION:} PRAZO MÉDIO DE RECEBIMENTO · QUANTO {laranja:MAIOR}, MAIS O PREÇO SENTE A MUDANÇA DA TAXA",
+   "colunas": [
+    {
+     "titulo": "DURATION",
+     "texto": "- MAIOR NOS TÍTULOS LONGOS\n- MAIOR NOS ATRELADOS AO IPCA\n- CUPOM {verde:ENCURTA}\n- AMORTIZAÇÃO {verde:ENCURTA}\n- MOTIVO: O DINHEIRO VOLTA ANTES"
+    },
+    {
+     "titulo": "CUPOM E PRINCIPAL",
+     "texto": "- {ciano:CUPOM:} JUROS PERIÓDICOS\n- SEMESTRAL OU ANUAL, EM GERAL\n- {ciano:PRINCIPAL NO FIM:} {laranja:BULLET}\n- {ciano:PRINCIPAL EM PARCELAS:} {laranja:AMORTIZAÇÕES}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:MESMO VENCIMENTO, DURATIONS DIFERENTES:} QUEM PAGA CUPOM TEM DURATION {verde:MENOR} QUE QUEM PAGA TUDO NO FIM",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r27d_4_juros-e-spread.png",
+   "semente": 2721,
    "molde": "exercicio",
    "titulo": "JUROS CAEM, PREÇO CAI?",
-   "dados": "- HIPOTÉTICO: DEBÊNTURE PREFIXADA DE 4 ANOS\n- FACE DE {ciano:1.000} · CUPOM ANUAL DE {ciano:120}\n- EMISSÃO: JUROS 10% + SPREAD 2 = 12% → PREÇO 1.000\n- NOS DOIS CENÁRIOS O SPREAD VAI A 4\n- A ÚNICA DIFERENÇA: O RUMO DOS JUROS",
+   "dados": "- HIPOTÉTICO: DEBÊNTURE PREFIXADA DE 4 ANOS\n- FACE DE {ciano:1.000} · CUPOM ANUAL DE {ciano:120}\n- EMISSÃO: JUROS 10% + SPREAD 2 = 12% → AO PAR (1.000)\n- NOS DOIS CENÁRIOS O SPREAD VAI A 4\n- A ÚNICA DIFERENÇA: O RUMO DOS JUROS",
    "cenarios": [
     {
      "titulo": "JUROS EM 10%",
@@ -258,7 +496,7 @@
     }
    ],
    "conclusao": {
-    "texto": "A QUEDA DOS JUROS {verde:AMORTECEU}, MAS NÃO EVITOU A PERDA · O CRÉDITO PIOROU 2 PONTOS; OS JUROS AJUDARAM COM 1 · {vermelho:ACOMPANHAR OS DOIS MOTORES}",
+    "texto": "A QUEDA DOS JUROS {verde:AMORTECEU}, MAS NÃO EVITOU A PERDA · LEVOU ATÉ O VENCIMENTO E A EMPRESA PAGOU: RECEBE OS {laranja:12%} · {vermelho:ACOMPANHAR OS DOIS MOTORES}",
     "cor": "branco",
     "moldura": "amarelo"
    }
