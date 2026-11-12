@@ -59,7 +59,7 @@
    "semente": 2803,
    "molde": "colunas",
    "titulo": "IOF E IMPOSTO DE RENDA (1/2)",
-   "topo": "{ciano:2 TRIBUTOS SOBRE O RENDIMENTO:} {laranja:1º} IOF · {laranja:2º} IMPOSTO DE RENDA · RETIDOS NA FONTE · NENHUM INCIDE SOBRE O PRINCIPAL",
+   "topo": "{ciano:2 TRIBUTOS SOBRE O RENDIMENTO:} {laranja:1º} IOF (REGULATÓRIO: FREIA O CURTÍSSIMO PRAZO) · {laranja:2º} IMPOSTO DE RENDA · NENHUM INCIDE SOBRE O PRINCIPAL",
    "colunas": [
     {
      "titulo": "IOF (ATÉ O DIA 29)",
@@ -93,7 +93,7 @@
     }
    ],
    "destaque": {
-    "texto": "{vermelho:ALERTA:} A LEI DA ISENÇÃO CITA LH, CRI E LCI, {laranja:NÃO A CCI} · {ciano:ATUALIZAÇÃO (LEI 15.270/2025):} ESSES ISENTOS FICAM FORA DA BASE DO IMPOSTO MÍNIMO DA ALTA RENDA",
+    "texto": "{vermelho:ALERTA:} A LEI DA ISENÇÃO CITA LH, CRI E LCI, {laranja:NÃO A CCI} · {ciano:ATUALIZAÇÃO (LEI 15.270/2025):} ISENTOS FICAM FORA DA BASE DO IMPOSTO MÍNIMO DE QUEM GANHA ACIMA DE 600.000 POR ANO",
     "cor": "branco",
     "moldura": "amarelo"
    }
@@ -126,49 +126,49 @@
    "saida": "r28b_1_maior-taxa.png",
    "semente": 2806,
    "molde": "mito_verdade",
-   "titulo": "MAIOR TAXA = MELHOR INVESTIMENTO?",
+   "titulo": "MAIOR TAXA = MAIOR RENDIMENTO?",
    "mitos": [
     "MAIOR TAXA",
-    "MELHOR TÍTULO"
+    "RENDE MAIS"
    ],
-   "verdade": "COMPARE O {laranja:LÍQUIDO}",
+   "verdade": "VALE O {laranja:LÍQUIDO}",
    "desenho": {
     "nome": "balanca",
     "largura": 230
    },
-   "apoio": "- {ciano:CASO REAL (18/11/2025):} LIQUIDAÇÃO DO BANCO MASTER\n- GARANTIAS DO FGC: {vermelho:40,6 BILHÕES} DE REAIS · CERCA DE 800.000 CREDORES\n- CDB COM TAXA ACIMA DA MÉDIA = {laranja:PRÊMIO DE RISCO}\n- ACIMA DE 250.000 REAIS, O FGC NÃO COBRE\n- 3 FILTROS: RISCO DE CRÉDITO · LIQUIDEZ · TAXA LÍQUIDA\n- {ciano:2 TEMAS:} RENTABILIDADE LÍQUIDA · RISCO E LIQUIDEZ NA ALOCAÇÃO"
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} CDB DE 110% DO CDI × LCA DE 92% DO CDI\n- MESMO BANCO, MESMO PRAZO, MESMA LIQUIDEZ\n- CDB: {vermelho:TRIBUTADO} PELA TABELA REGRESSIVA\n- LCA: {verde:ISENTA} PARA PESSOA FÍSICA\n- O VENCEDOR MUDA CONFORME O PRAZO\n- {ciano:TEMA:} RENTABILIDADE LÍQUIDA DE ISENTOS E TRIBUTADOS"
   },
   {
-   "saida": "r28b_2_o-que-cai-na-conta.png",
+   "saida": "r28b_2_anuncio-e-conta.png",
    "semente": 2807,
    "molde": "comparacao",
-   "titulo": "O ALUGUEL QUE CAI NA CONTA",
+   "titulo": "O ANÚNCIO E O QUE CAI NA CONTA",
    "colunas": [
     {
-     "titulo": "O VALOR",
-     "desenho": "dinheiro",
+     "titulo": "O ANÚNCIO",
+     "desenho": "megafone",
      "rotulos": [
-      "ANÚNCIO",
-      "NA CONTA"
+      "1.100",
+      "920"
      ],
-     "texto": "- ALUGUEL ANUNCIADO → {laranja:TAXA BRUTA}\n- ALUGUEL DEPOIS DO IMPOSTO → {laranja:TAXA LÍQUIDA}\n- CONTRATO LIVRE DE IMPOSTO → {laranja:TÍTULO ISENTO}\n- 1.100 COM IMPOSTO × 920 LIVRES → DEPENDE DA ALÍQUOTA"
+     "texto": "- VALOR DO ANÚNCIO → {laranja:TAXA BRUTA}\n- CONTRATO COM IMPOSTO → {laranja:TÍTULO TRIBUTADO}\n- CONTRATO LIVRE → {laranja:TÍTULO ISENTO}\n- O MAIOR ANÚNCIO NEM SEMPRE GANHA"
     },
     {
-     "titulo": "O INQUILINO",
-     "desenho": "contrato_aluguel",
+     "titulo": "NA CONTA",
+     "desenho": "dinheiro",
      "rotulos": [
-      "PAGA?",
-      "SAÍDA?"
+      "LÍQUIDO",
+      "PRAZO"
      ],
-     "texto": "- PAGA EM DIA? → {verde:RISCO DE CRÉDITO}\n- DÁ PARA SAIR ANTES? → {verde:LIQUIDEZ}\n- FAMA RUIM PAGA MAIS → {verde:PRÊMIO}\n- NÃO DAR TUDO A UM SÓ → {verde:LIMITE POR EMISSOR}"
+     "texto": "- DINHEIRO QUE ENTRA → {verde:RENTABILIDADE LÍQUIDA}\n- PARTE DO GOVERNO → {verde:IMPOSTO DE RENDA}\n- CONTRATO LONGO, PARTE MENOR → {verde:TABELA REGRESSIVA}\n- 1.100 × 0,85 = 935 · 1.100 × 0,775 = 852,50"
     }
    ],
    "faixas": [
-    "{ciano:FIADOR DO CONTRATO:} FGC, SÓ NOS PAPÉIS BANCÁRIOS COBERTOS",
-    "{ciano:DINHEIRO DA EMERGÊNCIA:} FICA FORA DE CONTRATO TRAVADO"
+    "{ciano:CONTRATO LONGO (15%):} 935 > 920 → GANHA O TRIBUTADO",
+    "{ciano:CONTRATO CURTO (22,5%):} 852,50 < 920 → GANHA O ISENTO"
    ],
    "destaque": {
-    "texto": "{vermelho:ONDE QUEBRA:} INQUILINO SE CONHECE PESSOALMENTE · EMISSOR SE AVALIA POR {laranja:RATING} E BALANÇO",
+    "texto": "{vermelho:ONDE QUEBRA:} ALUGUEL PAGA IMPOSTO TODO MÊS · TÍTULO PAGA SOBRE O {laranja:RENDIMENTO ACUMULADO}, NA SAÍDA OU NO CUPOM",
     "cor": "branco",
     "moldura": "vermelho"
    }
@@ -177,16 +177,16 @@
    "saida": "r28b_3_conteudo-1.png",
    "semente": 2808,
    "molde": "colunas",
-   "titulo": "RENTABILIDADE LÍQUIDA (1/2)",
+   "titulo": "AS 2 CONTAS E O PRAZO (1/2)",
    "topo": "{ciano:RENTABILIDADE LÍQUIDA:} O RENDIMENTO DEPOIS DE IMPOSTOS E CUSTOS · É ELA QUE SE COMPARA, NÃO A {laranja:TAXA BRUTA}",
    "colunas": [
     {
      "titulo": "AS 2 CONTAS",
-     "texto": "- {laranja:LÍQUIDA} = BRUTA × (1 − ALÍQUOTA)\n- EXEMPLO: 110 × 0,85 = 93,5\n- {laranja:EQUIVALENTE} = ISENTA ÷ (1 − ALÍQUOTA)\n- EXEMPLO: 92 ÷ 0,85 = 108,24\n- AS DUAS LEVAM À MESMA DECISÃO"
+     "texto": "- {laranja:LÍQUIDA} = BRUTA × (1 − ALÍQUOTA)\n- EXEMPLO: 110 × 0,85 = 93,5\n- {laranja:EQUIVALENTE} = ISENTA ÷ (1 − ALÍQUOTA)\n- EXEMPLO: 92 ÷ 0,85 = 108,24\n- CHEGAM À MESMA RESPOSTA"
     },
     {
-     "titulo": "FATOR POR PRAZO",
-     "texto": "- ATÉ 180 DIAS: × {vermelho:0,775}\n- 181 A 360 DIAS: × 0,80\n- 361 A 720 DIAS: × 0,825\n- ACIMA DE 720 DIAS: × {verde:0,85}\n- PRAZO CURTO FAVORECE O ISENTO"
+     "titulo": "CDB DE 110% LÍQUIDO",
+     "texto": "- ATÉ 180 DIAS: {vermelho:85,25%}\n- 181 A 360 DIAS: 88%\n- 361 A 720 DIAS: 90,75%\n- ACIMA DE 720 DIAS: {verde:93,5%}\n- LCA DE 92%: VENCE EM 3 DAS 4 FAIXAS"
     }
    ],
    "destaque": {
@@ -199,48 +199,163 @@
    "saida": "r28b_3_conteudo-2.png",
    "semente": 2809,
    "molde": "colunas",
-   "titulo": "CRÉDITO, LIQUIDEZ E ALOCAÇÃO (2/2)",
-   "topo": "{ciano:REGRA:} MAIS RISCO DE CRÉDITO + MENOS LIQUIDEZ → {laranja:MENOR FATIA} NA CARTEIRA E {laranja:MAIOR PRÊMIO} EXIGIDO",
+   "titulo": "O QUE ENTRA NA ANÁLISE (2/2)",
+   "topo": "{ciano:ANTES DA CONTA, A PERGUNTA:} POR QUANTO TEMPO O DINHEIRO FICA? · SEM PRAZO, NÃO HÁ ALÍQUOTA; SEM ALÍQUOTA, NÃO HÁ COMPARAÇÃO",
    "colunas": [
     {
-     "titulo": "CRÉDITO",
-     "texto": "- CALOTE DE JUROS OU PRINCIPAL\n- MEDIDA: {laranja:RATING}\n- PREÇO: {laranja:SPREAD}\n- FGC: SÓ PAPEL BANCÁRIO COBERTO"
+     "titulo": "3 PONTOS",
+     "texto": "- {laranja:ALÍQUOTA EFETIVA:} A DO PRAZO REAL DO CLIENTE\n- {laranja:LIQUIDEZ:} ELE PODE PRECISAR SAIR?\n- {laranja:RISCO:} DE CRÉDITO E DE MERCADO\n- SÓ COMPARAR TÍTULOS PARECIDOS"
     },
     {
-     "titulo": "LIQUIDEZ",
-     "texto": "- VIRAR DINHEIRO SEM PERDA\n- PRAZO E CARÊNCIA\n- LCI E LCA: MÍNIMO DE 6 MESES\n- VENDA ANTECIPADA: {vermelho:DESCONTO}"
-    },
-    {
-     "titulo": "ALOCAÇÃO",
-     "texto": "- COMPARAR PAPÉIS PARECIDOS\n- {verde:TETO} POR EMISSOR\n- PRAZO DO TÍTULO = PRAZO DO OBJETIVO\n- RESERVA: LIQUIDEZ DIÁRIA"
+     "titulo": "EM REAIS (PREFIXADO)",
+     "texto": "- {laranja:1.} VALOR FINAL BRUTO (FV)\n- {laranja:2.} RENDIMENTO = FINAL − APLICADO\n- {laranja:3.} IMPOSTO SOBRE O RENDIMENTO\n- {laranja:4.} LÍQUIDO = APLICADO + RENDIMENTO − IMPOSTO\n- {laranja:5.} TAXA LÍQUIDA AO ANO"
     }
    ],
    "destaque": {
-    "texto": "{ciano:ORDEM DA ANÁLISE:} 1º RISCO E LIQUIDEZ (CABE? QUANTO?) · 2º TAXA LÍQUIDA (QUAL?) · {vermelho:ISENÇÃO NÃO REDUZ RISCO}",
+    "texto": "{ciano:CONCLUSÃO:} {laranja:TAXA NOMINAL MENOR} NÃO SIGNIFICA RENDIMENTO MENOR, SOBRETUDO EM PRAZOS CURTOS · {vermelho:LÍQUIDA ≠ EQUIVALENTE:} UMA PARTE DO TRIBUTADO; A OUTRA, DO ISENTO",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r28b_4_cdb-110-ou-lca-92.png",
+   "saida": "r28b_4_cdb-pre-ou-lca-pre.png",
    "semente": 2810,
    "molde": "exercicio",
-   "titulo": "CDB DE 110% OU LCA DE 92% DO CDI?",
-   "dados": "- HIPOTÉTICO: MESMO BANCO, DENTRO DO LIMITE DO FGC\n- CDB: {ciano:110%} DO CDI, TRIBUTADO\n- LCA: {ciano:92%} DO CDI, ISENTA PARA PESSOA FÍSICA\n- A ÚNICA DIFERENÇA: O PRAZO\n- IMPOSTO APLICADO SOBRE O % DO CDI (CONVENÇÃO DE PROVA)",
+   "titulo": "50.000 POR 2 ANOS: CDB OU LCA?",
+   "dados": "- HIPOTÉTICO: MESMO EMISSOR, MESMO PRAZO, MESMA LIQUIDEZ\n- CDB PREFIXADO: {ciano:12,5%} AO ANO, TRIBUTADO (15%)\n- LCA PREFIXADA: {ciano:10,8%} AO ANO, ISENTA\n- CONTA 1 (400 DIAS): 110 − 17,5% = 90,75 < 92 · EMPATE EM 111,52\n- A ÚNICA DIFERENÇA: O TÍTULO",
    "cenarios": [
     {
-     "titulo": "400 DIAS (17,5%)",
-     "passos": "CDB: 110 × 0,825 = 90,75\nLCA: 92\nEMPATE: 111,52",
-     "resultado": "VENCE A LCA"
+     "titulo": "CDB A 12,5%",
+     "passos": "BRUTO: 63.281,25\nRENDIMENTO: 13.281,25\nIMPOSTO: 1.992,19\nTAXA LÍQUIDA: 10,72%",
+     "resultado": "61.289,06"
     },
     {
-     "titulo": "800 DIAS (15%)",
-     "passos": "CDB: 110 × 0,85 = 93,50\nLCA: 92\nEMPATE: 108,24",
-     "resultado": "VENCE O CDB"
+     "titulo": "LCA A 10,8%",
+     "passos": "50.000 × 1,108²\nRENDIMENTO: 11.383,20\nIMPOSTO: ZERO\nTAXA LÍQUIDA: 10,80%",
+     "resultado": "61.383,20"
     }
    ],
    "conclusao": {
-    "texto": "A MESMA DUPLA, {laranja:DOIS VENCEDORES} · SÓ O PRAZO MUDOU · A COMPARAÇÃO VALE PORQUE EMISSOR E GARANTIA SÃO IGUAIS",
+    "texto": "DIFERENÇA A FAVOR DA LCA: {verde:94,14 REAIS}, NA FAIXA DE 15% · 10,80% LÍQUIDOS > 10,72% LÍQUIDOS · EM PRAZO MENOR, A DIFERENÇA CRESCE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r28c_1_fgc-e-taxa.png",
+   "semente": 2811,
+   "molde": "mito_verdade",
+   "titulo": "COM FGC, QUANTO MAIOR A TAXA, MELHOR?",
+   "mitos": [
+    "TEM FGC",
+    "TAXA MAIOR É MELHOR"
+   ],
+   "verdade": "TAXA ALTA = {laranja:RISCO}",
+   "desenho": {
+    "nome": "escudo",
+    "largura": 150
+   },
+   "apoio": "- {ciano:CASO REAL (18/11/2025):} LIQUIDAÇÃO DO BANCO MASTER\n- GARANTIAS DO FGC: {vermelho:40,6 BILHÕES} DE REAIS · CERCA DE 800.000 CREDORES\n- PAGAMENTO DO FGC: A PARTIR DE 17/01/2026\n- LIMITE: {ciano:250.000} POR CPF E POR CONGLOMERADO\n- ACIMA DO LIMITE: FILA DA LIQUIDAÇÃO\n- {ciano:3 TEMAS:} RISCO DE CRÉDITO · LIQUIDEZ · ALOCAÇÃO"
+  },
+  {
+   "saida": "r28c_2_duas-perguntas.png",
+   "semente": 2812,
+   "molde": "comparacao",
+   "titulo": "AS PERGUNTAS DO PROPRIETÁRIO",
+   "colunas": [
+    {
+     "titulo": "PAGA?",
+     "desenho": "contrato_aluguel",
+     "rotulos": [
+      "INQUILINO",
+      "FAMA"
+     ],
+     "texto": "- INQUILINO EM DIA? → {laranja:RISCO DE CRÉDITO}\n- FAMA DO INQUILINO → {laranja:RATING}\n- ALUGUEL A MAIS PELA FAMA RUIM → {laranja:PRÊMIO (SPREAD)}\n- FIADOR, ATÉ UM TETO → {laranja:FGC}"
+    },
+    {
+     "titulo": "DÁ PARA SAIR?",
+     "desenho": "cadeado",
+     "rotulos": [
+      "TRAVADO",
+      "SAÍDA"
+     ],
+     "texto": "- SAIR ANTES DO FIM → {verde:LIQUIDEZ}\n- CONTRATO TRAVADO → {verde:PRAZO MÍNIMO E CARÊNCIA}\n- PASSAR O CONTRATO ADIANTE → {verde:MERCADO SECUNDÁRIO}\n- SAIR COM DESCONTO → {verde:PERDA NA VENDA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:3ª DECISÃO:} QUANTO ENTREGAR A CADA INQUILINO → LIMITE POR EMISSOR",
+    "{ciano:DINHEIRO DA EMERGÊNCIA:} FICA FORA DE CONTRATO TRAVADO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} INQUILINO SE CONHECE PESSOALMENTE · EMISSOR SE AVALIA POR {laranja:RATING} E BALANÇO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r28c_3_conteudo-1.png",
+   "semente": 2813,
+   "molde": "colunas",
+   "titulo": "RISCO DE CRÉDITO E LIQUIDEZ (1/2)",
+   "topo": "{ciano:REGRA:} MAIS RISCO DE CRÉDITO + MENOS LIQUIDEZ → {laranja:MENOR FATIA} NA CARTEIRA E {laranja:MAIOR PRÊMIO} EXIGIDO",
+   "colunas": [
+    {
+     "titulo": "CRÉDITO",
+     "texto": "- CALOTE DE JUROS OU PRINCIPAL\n- MEDIDA: {laranja:RATING}\n- PREÇO: {laranja:SPREAD}\n- COM FGC: CDB · LCI · LCA\n- SEM FGC: DEBÊNTURE · CRI · CRA"
+    },
+    {
+     "titulo": "LIQUIDEZ",
+     "texto": "- VIRAR DINHEIRO SEM PERDA\n- DEPENDE DE PRAZO, CARÊNCIA E SECUNDÁRIO\n- LCI E LCA: MÍNIMO DE 6 MESES\n- {vermelho:BAIXA:} DEBÊNTURE · CRI · CRA\n- {verde:DIÁRIA:} TESOURO SELIC · CDB DE RESGATE LIVRE"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:LEITURA DA TAXA:} TAXA BEM ACIMA DA MÉDIA É {vermelho:AVISO}, NÃO PRESENTE · SEM FGC, VALEM O CAIXA DO EMISSOR E AS GARANTIAS DA EMISSÃO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r28c_3_conteudo-2.png",
+   "semente": 2814,
+   "molde": "colunas",
+   "titulo": "5 CUIDADOS NA RECOMENDAÇÃO (2/2)",
+   "topo": "{ciano:ORDEM DA ANÁLISE:} 1º RISCO E LIQUIDEZ (CABE? QUANTO?) · 2º TAXA LÍQUIDA (QUAL, ENTRE OS PARECIDOS?)",
+   "colunas": [
+    {
+     "titulo": "COMPARAÇÃO",
+     "texto": "- {laranja:1.} ISENTO × TRIBUTADO: SÓ COM EMISSOR, PRAZO E LIQUIDEZ PARECIDOS\n- {laranja:2.} ISENÇÃO NÃO PAGA RISCO ALTO\n- LCA DE BANCO FRÁGIL CONTINUA FRÁGIL"
+    },
+    {
+     "titulo": "CARTEIRA",
+     "texto": "- {laranja:3.} TETO POR EMISSOR (FGC: 250.000)\n- {laranja:4.} PRAZO DO TÍTULO = PRAZO DO OBJETIVO\n- {laranja:5.} RESERVA EM LIQUIDEZ DIÁRIA\n- FORA DA RESERVA: LCI · LCA · CRI"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:CRÉDITO ≠ LIQUIDEZ:} EMISSOR SÓLIDO PODE TER PAPEL DIFÍCIL DE VENDER · PAPEL FÁCIL DE VENDER PODE SER DE EMISSOR FRÁGIL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r28c_4_um-banco-ou-dois.png",
+   "semente": 2815,
+   "molde": "exercicio",
+   "titulo": "400.000 EM CDB: UM BANCO OU DOIS?",
+   "dados": "- HIPOTÉTICO: 400.000 PARA APLICAR EM CDB\n- GARANTIA DO FGC: {ciano:250.000} POR CONGLOMERADO\n- A GARANTIA SOMA PRINCIPAL E RENDIMENTOS\n- BANCOS DE CONGLOMERADOS DIFERENTES\n- A ÚNICA DIFERENÇA: A DISTRIBUIÇÃO DO DINHEIRO",
+   "cenarios": [
+    {
+     "titulo": "1 BANCO",
+     "passos": "400.000 − 250.000\nSEM GARANTIA: 150.000\n150.000 ÷ 400.000",
+     "resultado": "37,5% DESCOBERTO"
+    },
+    {
+     "titulo": "2 BANCOS",
+     "passos": "400.000 ÷ 2 = 200.000\n250.000 − 200.000\nFOLGA: 50.000 EM CADA",
+     "resultado": "ZERO DESCOBERTO"
+    }
+   ],
+   "conclusao": {
+    "texto": "A FOLGA GUARDA ESPAÇO PARA OS {laranja:JUROS} · TAXA MÉDIA UM POUCO MENOR, RISCO DE CRÉDITO BEM MENOR · DIVERSIFICAR EMISSORES É PARTE DA RECOMENDAÇÃO",
     "cor": "branco",
     "moldura": "amarelo"
    }
