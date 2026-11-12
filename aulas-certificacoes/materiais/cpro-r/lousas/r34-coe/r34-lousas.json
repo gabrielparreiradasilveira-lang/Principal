@@ -1,0 +1,589 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "molde": "mito_verdade",
+   "saida": "r34a_1_mesmo-ativo.png",
+   "semente": 3401,
+   "titulo": "MESMO ATIVO, MESMO COE?",
+   "mitos": [
+    "MESMO ÍNDICE = MESMO RESULTADO",
+    "O NOME DO ATIVO BASTA"
+   ],
+   "verdade": "VALEM AS {laranja:REGRAS} DO CERTIFICADO",
+   "desenho": {
+    "nome": "prancheta",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} 2 COES DE IBOVESPA, MESMO BANCO E PRAZO\n- ÍNDICE +30%: UM PAGA 30%, O OUTRO PARA NO {vermelho:TETO DE 20%}\n- {ciano:REGRAS QUE MUDAM TUDO:} BARREIRA · DATA DE OBSERVAÇÃO · TETO\n- COE = {laranja:RENDA FIXA + DERIVATIVOS}\n- EMITIDO POR {verde:BANCO}, CONTRA UM INVESTIMENTO INICIAL\n- {ciano:REGRA:} LEIA O CENÁRIO, NÃO SÓ O NOME DO ATIVO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r34a_2_pacote-fechado.png",
+   "semente": 3402,
+   "titulo": "O PACOTE FECHADO",
+   "colunas": [
+    {
+     "titulo": "O PACOTE",
+     "desenho": "mochila",
+     "rotulos": [
+      "ROTEIRO",
+      "DATAS"
+     ],
+     "texto": "- ROTEIRO DEFINIDO → {laranja:CENÁRIOS DO COE}\n- DATAS FIXAS → {laranja:PRAZO}\n- PASSEIOS LIMITADOS → {vermelho:TETO DE GANHO}\n- HOTEL E VOO POR DENTRO → {verde:RENDA FIXA + DERIVATIVOS}"
+    },
+    {
+     "titulo": "A AGÊNCIA",
+     "desenho": "banco",
+     "rotulos": [
+      "EMITE",
+      "RESPONDE"
+     ],
+     "texto": "- QUEM MONTA → {verde:BANCO EMISSOR}\n- REGISTRO DA VENDA → {ciano:REGISTRO NO MESMO DIA}\n- SEM PAPEL → {ciano:ESCRITURAL}\n- DESTINO ARRISCADO → {laranja:RISCO DE MERCADO OU DE CRÉDITO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:CENÁRIOS POSSÍVEIS:} ALTA LIMITADA · PROTEÇÃO PARCIAL OU TOTAL · VÁRIOS REFERENCIAIS",
+    "{ciano:CONJUNTO ÚNICO E INDIVISÍVEL} DE DIREITOS E OBRIGAÇÕES (CMN 5.166)"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NO PACOTE O DESTINO É CERTO · NO COE, {laranja:SÓ AS REGRAS} SÃO FIXAS",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r34a_3_definicao.png",
+   "semente": 3403,
+   "titulo": "COE: DEFINIÇÃO, EMISSORES E MODALIDADES",
+   "topo": "{ciano:COE:} CERTIFICADO EMITIDO POR BANCO · {laranja:ESTRUTURA HÍBRIDA} · RENTABILIDADE COM CARACTERÍSTICAS DE DERIVATIVOS",
+   "colunas": [
+    {
+     "titulo": "QUEM EMITE E COMO",
+     "texto": "- BANCOS MÚLTIPLOS, COMERCIAIS E DE INVESTIMENTO\n- CAIXA ECONÔMICA FEDERAL E {verde:BNDES}\n- FINANCEIRAS (SCFI): {vermelho:SÓ RISCO DE CRÉDITO}\n- {laranja:ESCRITURAL}, REGISTRADO NO MESMO DIA\n- REGISTRO AUTORIZADO PELO BCB OU PELA CVM"
+    },
+    {
+     "titulo": "PELO TIPO DE RISCO",
+     "texto": "- {ciano:RISCO DE MERCADO:} ÍNDICES, JUROS,\n- CÂMBIO, AÇÕES E OUTROS ATIVOS\n- {ciano:RISCO DE CRÉDITO:} EMPRESA OU FUNDO\n- CRÉDITO → {vermelho:SEMPRE VALOR EM RISCO}\n- COE ≠ COMPRA DIRETA DO ATIVO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} O RETORNO DEPENDE DE {laranja:BARREIRA}, {laranja:DATA DE OBSERVAÇÃO} E {laranja:TETO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r34a_4_teto.png",
+   "semente": 3404,
+   "titulo": "QUANTO O TETO CUSTA?",
+   "dados": "- COE DE {ciano:R$ 10.000}, PRAZO DE 2 ANOS (HIPOTÉTICO)\n- CAPITAL PROTEGIDO · 100% DA ALTA DO IBOVESPA\n- {laranja:TETO DE 20%} · IR DE 15% (MAIS DE 720 DIAS)\n- IBOVESPA −15%: DEVOLVE {verde:R$ 10.000}, SEM IR\n- A ÚNICA DIFERENÇA: A ALTA DO ÍNDICE",
+   "cenarios": [
+    {
+     "titulo": "IBOVESPA +12%",
+     "passos": "BRUTO: 1.200\nIR: 180\nLÍQUIDO: 1.020",
+     "resultado": "R$ 11.020"
+    },
+    {
+     "titulo": "IBOVESPA +30%",
+     "passos": "TETO: 20% = 2.000\nIR: 300\nLÍQUIDO: 1.700",
+     "resultado": "R$ 11.700"
+    }
+   ],
+   "conclusao": {
+    "texto": "SEM O TETO, O BRUTO SERIA R$ 3.000 · O TETO CUSTOU {vermelho:R$ 1.000} DE GANHO BRUTO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r34b_1_perda-acoes.png",
+   "semente": 3411,
+   "titulo": "PERDA NO COE ABATE AÇÕES?",
+   "mitos": [
+    "É TUDO BOLSA",
+    "A PERDA ABATE O LUCRO DAS AÇÕES"
+   ],
+   "verdade": "COE = IR DE {laranja:RENDA FIXA}",
+   "desenho": {
+    "nome": "moeda",
+    "largura": 150
+   },
+   "apoio": "- {ciano:IN RFB 1.585, ART. 51, § 3º:} PERDA EM COE {vermelho:NÃO COMPENSA}\n- COM GANHOS LÍQUIDOS DE RENDA VARIÁVEL\n- {ciano:EXEMPLO HIPOTÉTICO:} −R$ 2.000 NO COE · +R$ 5.000 EM AÇÕES\n- IR DAS AÇÕES SOBRE OS {vermelho:R$ 5.000} INTEIROS\n- TABELA REGRESSIVA, RETIDA NA FONTE\n- ALÍQUOTA PELO PRAZO: DE {vermelho:22,5%} A {verde:15%}\n- {ciano:REGRA:} O ATIVO DE REFERÊNCIA NÃO MUDA O IMPOSTO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r34b_2_leao-pacote.png",
+   "semente": 3412,
+   "titulo": "O LEÃO NO PACOTE",
+   "colunas": [
+    {
+     "titulo": "NA SAÍDA DO PACOTE",
+     "desenho": "mochila",
+     "rotulos": [
+      "RETIDO",
+      "NA FONTE"
+     ],
+     "texto": "- AGÊNCIA COBRA NA SAÍDA → {verde:EMISSOR RETÉM}\n- VIAGEM MAIS LONGA → {verde:ALÍQUOTA MENOR}\n- DESTINO BOLSA → {laranja:IR DE RENDA FIXA}\n- SÓ SOBRE O GANHO → {ciano:RESULTADO POSITIVO}"
+    },
+    {
+     "titulo": "A OUTRA LOJA",
+     "desenho": "balanca",
+     "rotulos": [
+      "COE",
+      "AÇÕES"
+     ],
+     "texto": "- PREJUÍZO NO PACOTE → {vermelho:PERDA NO COE}\n- CONTA DE OUTRA LOJA → {laranja:LUCRO EM AÇÕES}\n- UMA NÃO ABATE A OUTRA → {vermelho:SEM COMPENSAÇÃO}\n- PACOTE COM PACOTE → {vermelho:SEM CAMINHO NA PF}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ALÍQUOTAS:} 22,5% (ATÉ 180 D) · 20% (181 A 360) · 17,5% (361 A 720) · 15% (ACIMA DE 720)",
+    "{ciano:BASE:} RESULTADO POSITIVO NA LIQUIDAÇÃO OU NA CESSÃO DO COE"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O DESTINO DA VIAGEM CONFUNDE · COE DE BOLSA {laranja:CONTINUA RENDA FIXA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r34b_3_tributacao.png",
+   "semente": 3413,
+   "titulo": "TRIBUTAÇÃO E PERDAS NO COE",
+   "topo": "{ciano:IN RFB 1.585, ART. 51:} ALÍQUOTAS DO ART. 46 · COE REGISTRADO EM SISTEMA AUTORIZADO PELO BCB OU PELA CVM",
+   "colunas": [
+    {
+     "titulo": "IMPOSTO",
+     "texto": "- ATÉ 180 DIAS: {vermelho:22,5%}\n- 181 A 360 DIAS: {laranja:20%}\n- 361 A 720 DIAS: {laranja:17,5%}\n- ACIMA DE 720: {verde:15%}\n- RETENÇÃO: QUEM {ciano:PAGA O RENDIMENTO}"
+    },
+    {
+     "titulo": "PERDAS",
+     "texto": "- × RENDA VARIÁVEL: {vermelho:NÃO COMPENSA} (§ 3º)\n- × OUTRO COE (PF): {laranja:IR RETIDO, SEM AJUSTE}\n- AÇÕES: PREJUÍZO ABATE GANHOS FUTUROS\n- EMPRESA NO LUCRO REAL: {verde:DEDUTÍVEL} (§ 7º)\n- SEM COMPENSAÇÃO → {laranja:MAIS ANÁLISE DE RISCO}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:CASO-LIMITE:} 720 DIAS AINDA PAGA {laranja:17,5%} · 15% SÓ {verde:ACIMA DE 720}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r34b_4_compensacao.png",
+   "semente": 3414,
+   "titulo": "QUANTO CUSTA NÃO COMPENSAR?",
+   "dados": "- +R$ 5.000 EM AÇÕES E −R$ 2.000 NO MÊS (HIPOTÉTICO)\n- OPERAÇÕES COMUNS · VENDAS ACIMA DE R$ 20 MIL\n- IR DE 15% · SEM CUSTOS\n- EM AÇÕES, A PERDA ABATE O GANHO DO MÊS\n- A ÚNICA DIFERENÇA: A ORIGEM DA PERDA",
+   "cenarios": [
+    {
+     "titulo": "PERDA NO COE",
+     "passos": "NÃO COMPENSA\n15% × 5.000\nSEM ABATIMENTO",
+     "resultado": "IR DE R$ 750"
+    },
+    {
+     "titulo": "PERDA EM AÇÕES",
+     "passos": "5.000 − 2.000 = 3.000\n15% × 3.000\nPERDA ABATIDA",
+     "resultado": "IR DE R$ 450"
+    }
+   ],
+   "conclusao": {
+    "texto": "MESMA PERDA, IMPOSTO {vermelho:R$ 300 MAIOR} · O COE NÃO ENTRA NA CONTA DAS AÇÕES",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r34c_1_fgc.png",
+   "semente": 3421,
+   "titulo": "PROTEGIDO TEM FGC?",
+   "mitos": [
+    "O FGC GARANTE O COE",
+    "PROTEGIDO = RISCO ZERO"
+   ],
+   "verdade": "{vermelho:SEM FGC}: DEPENDE DO EMISSOR",
+   "desenho": {
+    "nome": "banco",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} CDB E COE PROTEGIDO NO MESMO BANCO\n- CDB: {verde:FGC} DENTRO DOS LIMITES · COE: {vermelho:SEM FGC}\n- AVISO OBRIGATÓRIO NO MODELO DIE-COE (CVM 8, ANEXO A)\n- PROTEÇÃO SÓ {laranja:NO VENCIMENTO}\n- QUEM PROMETE: O {laranja:BANCO EMISSOR}\n- {ciano:REGRA:} ANALISE A SAÚDE DO EMISSOR ANTES"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r34c_2_seguro-viagem.png",
+   "semente": 3422,
+   "titulo": "COM OU SEM SEGURO-VIAGEM",
+   "colunas": [
+    {
+     "titulo": "COM SEGURO",
+     "desenho": "mochila",
+     "rotulos": [
+      "ATÉ O FIM",
+      "100%"
+     ],
+     "texto": "- DINHEIRO DE VOLTA → {verde:VALOR NOMINAL PROTEGIDO}\n- SÓ INDO ATÉ O FIM → {laranja:SÓ NO VENCIMENTO}\n- SEGURO DA PRÓPRIA AGÊNCIA → {vermelho:RISCO DO EMISSOR}\n- TEMPO DE VIAGEM → {vermelho:CUSTO DE OPORTUNIDADE}"
+    },
+    {
+     "titulo": "SEM SEGURO",
+     "desenho": "rota_voo",
+     "rotulos": [
+      "PARCIAL",
+      "OU NADA"
+     ],
+     "texto": "- SEGURO PARCIAL → {laranja:PARCELA DEFINIDA ANTES}\n- SEM SEGURO → {vermelho:PISO PODE SER ZERO}\n- NUNCA COBRA A MAIS → {verde:PERDA MÁXIMA = INVESTIDO}\n- DINHEIRO PRESO → {laranja:PERDA DE LIQUIDEZ}"
+    }
+   ],
+   "faixas": [
+    "{ciano:CMN 5.166:} PROTEGIDO → PAGAMENTOS MÍNIMOS ≥ 100% · EM RISCO → ≥ PARCELA DEFINIDA ANTES",
+    "{ciano:CHAMADA DE MARGEM?} {vermelho:NÃO EXISTE} NO COE: O EMISSOR NÃO PODE FICAR EXPOSTO AO INVESTIDOR"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} SEGURO-VIAGEM É DE OUTRA EMPRESA · NO COE, {laranja:A PROMESSA É DO EMISSOR}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r34c_3_modalidades.png",
+   "semente": 3423,
+   "titulo": "VALOR NOMINAL PROTEGIDO × EM RISCO",
+   "topo": "{ciano:PROTEGIDO:} DEVOLVE {verde:AO MENOS 100%} NO VENCIMENTO · {ciano:EM RISCO:} PISO DE {laranja:90%, 50% OU ATÉ 0%}",
+   "colunas": [
+    {
+     "titulo": "CONDIÇÕES DA PROTEÇÃO",
+     "texto": "- VALE SÓ {laranja:NO VENCIMENTO}\n- DEPENDE DA {laranja:SOLIDEZ DO EMISSOR}\n- COE {vermelho:NÃO TEM FGC}\n- SOBRAM: PERDA DE LIQUIDEZ\n- E CUSTO DE OPORTUNIDADE"
+    },
+    {
+     "titulo": "PERDA MÁXIMA",
+     "texto": "- LIMITE: O {verde:VALOR INVESTIDO}\n- NUNCA PEDE DINHEIRO NOVO\n- EMISSOR NÃO ASSUME RISCO DO INVESTIDOR\n- PISO ZERO: PODE PERDER {vermelho:TUDO}\n- MARGEM É COISA DE {laranja:DERIVATIVO NA BOLSA}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} CDB TEM {verde:FGC} · COE DO MESMO BANCO, MESMO PROTEGIDO, {vermelho:NÃO TEM}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r34c_4_perda-real.png",
+   "semente": 3424,
+   "titulo": "DINHEIRO DE VOLTA É SEM PERDA?",
+   "dados": "- {ciano:R$ 10.000} POR {ciano:3 ANOS} (HIPOTÉTICO)\n- COE PROTEGIDO DEVOLVE SÓ O CAPITAL\n- ALTERNATIVA: {ciano:10% AO ANO}, IR DE 15%\n- DIE-COE: PERDA REAL CONTRA O CDI\n- A ÚNICA DIFERENÇA: A APLICAÇÃO",
+   "cenarios": [
+    {
+     "titulo": "COE PROTEGIDO",
+     "passos": "DEVOLVE O CAPITAL\nSEM RENDIMENTO\nSEM IR",
+     "resultado": "R$ 10.000"
+    },
+    {
+     "titulo": "ALTERNATIVA A 10%",
+     "passos": "FV = 13.310\nRENDIMENTO: 3.310\nIR: 496,50",
+     "resultado": "+R$ 2.813,50"
+    }
+   ],
+   "conclusao": {
+    "texto": "PERDA REAL DO CAPITAL PROTEGIDO: {vermelho:R$ 2.813,50} EM 3 ANOS · \"DINHEIRO DE VOLTA\" {vermelho:≠} \"SEM PERDA\"",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r34d_1_resgate-antes.png",
+   "semente": 3431,
+   "titulo": "RESGATE ANTES DEVOLVE TUDO?",
+   "mitos": [
+    "PROTEGIDO A QUALQUER MOMENTO",
+    "SAIR ANTES É DE GRAÇA"
+   ],
+   "verdade": "ANTES: {laranja:MARCAÇÃO A MERCADO}",
+   "desenho": {
+    "nome": "ampulheta",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} COE PROTEGIDO DE 3 ANOS, SAÍDA NO 1º ANO\n- RESGATE OU RECOMPRA {laranja:SÓ SE PREVISTOS} NO CERTIFICADO\n- RENDA FIXA VALE MENOS: {laranja:FALTA TEMPO}\n- DERIVATIVOS VALEM O PREÇO DO DIA\n- EMISSOR INFORMA O {ciano:VALOR DE MERCADO} TODO MÊS\n- {ciano:REGRA:} PRAZO DO COE = PRAZO DO OBJETIVO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r34d_2_cancelar.png",
+   "semente": 3432,
+   "titulo": "CANCELAR E TUDO INCLUÍDO",
+   "colunas": [
+    {
+     "titulo": "CANCELAR NO MEIO",
+     "desenho": "rota_voo",
+     "rotulos": [
+      "MULTA",
+      "OU NÃO PODE"
+     ],
+     "texto": "- SEM CANCELAMENTO → {vermelho:SEM RECOMPRA}\n- CANCELAMENTO CARO → {laranja:MARCAÇÃO A MERCADO}\n- HOTEL JÁ PAGO → {laranja:RENDA FIXA ANTES DO PRAZO}\n- QUEM PODE PRECISAR → {vermelho:FICA DE FORA}"
+    },
+    {
+     "titulo": "TUDO INCLUÍDO",
+     "desenho": "bilheteria",
+     "rotulos": [
+      "PREÇO",
+      "ÚNICO"
+     ],
+     "texto": "- SEM TAXA SEPARADA → {laranja:SEM TAXA DE ADM}\n- HOTEL E VOO DENTRO → {laranja:CUSTO NA ESTRUTURA}\n- COMISSÃO DA AGÊNCIA → {verde:REMUNERAÇÃO NO DIE}\n- PREÇO FINAL → {verde:TETO, PROTEÇÃO, RESULTADO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:CVM 8, ART. 14:} PARÂMETROS FINAIS E CUSTOS DE DISTRIBUIÇÃO NO SITE EM ATÉ 7 DIAS",
+    "{ciano:APÓS O VENCIMENTO:} RESULTADOS DIVULGADOS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} A MULTA DO PACOTE ESTÁ NO CONTRATO · A SAÍDA DO COE {laranja:SEGUE O PREÇO DO DIA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r34d_3_mercado-custos.png",
+   "semente": 3433,
+   "titulo": "MARCAÇÃO A MERCADO E CUSTOS",
+   "topo": "{ciano:COE:} DESENHADO PARA O {verde:VENCIMENTO}, NÃO PARA O MERCADO SECUNDÁRIO",
+   "colunas": [
+    {
+     "titulo": "SAIR ANTES",
+     "texto": "- RESGATE/RECOMPRA: {laranja:SÓ SE PREVISTOS}\n- CONDIÇÕES NO {ciano:DIE}\n- VALOR = {laranja:MARCAÇÃO A MERCADO}\n- PODE FICAR {vermelho:ABAIXO DO INVESTIDO}\n- VALOR DE MERCADO MENSAL (CMN 5.166, ART. 8º)"
+    },
+    {
+     "titulo": "OS CUSTOS",
+     "texto": "- SEM TAXA DE ADMINISTRAÇÃO\n- SEM TAXA DE PERFORMANCE\n- EMBUTIDOS: {laranja:TETO · PROTEÇÃO · RESULTADO}\n- DIE: {verde:REMUNERAÇÃO DO DISTRIBUIDOR}\n- COMPARE {ciano:LÍQUIDO DE IR} COM CDB OU FUNDO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} SEM TAXA APARENTE {vermelho:≠} SEM CUSTO ECONÔMICO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r34d_4_sair-antes.png",
+   "semente": 3434,
+   "titulo": "QUANTO CUSTA SAIR ANTES?",
+   "dados": "- COE PROTEGIDO DE {ciano:R$ 10.000}, 3 ANOS (HIPOTÉTICO)\n- RECOMPRA PREVISTA NO CERTIFICADO\n- RENDA FIXA A {ciano:12% AO ANO} · OPÇÕES VALEM {ciano:R$ 600}\n- SAÍDA DEPOIS DE 1 ANO: FALTAM 2\n- A ÚNICA DIFERENÇA: O MOMENTO DA SAÍDA",
+   "cenarios": [
+    {
+     "titulo": "ATÉ O VENCIMENTO",
+     "passos": "PROTEÇÃO VALE\nRECEBE AO MENOS\nO CAPITAL",
+     "resultado": "≥ R$ 10.000"
+    },
+    {
+     "titulo": "SAI NO 1º ANO",
+     "passos": "10.000 ÷ 1,12² = 7.971,94\n+ OPÇÕES: 600\nVALOR DE MERCADO NO DIA",
+     "resultado": "R$ 8.571,94"
+    }
+   ],
+   "conclusao": {
+    "texto": "RESGATE {vermelho:14,28% ABAIXO} DO INVESTIDO · NUM COE CHAMADO DE {laranja:PROTEGIDO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r34e_1_registro-cvm.png",
+   "semente": 3441,
+   "titulo": "A CVM ANALISA A OFERTA?",
+   "mitos": [
+    "OFERTA DE COE TEM REGISTRO",
+    "A CVM ANALISOU O PRODUTO"
+   ],
+   "verdade": "{verde:SEM REGISTRO}, COM DIE E TERMO",
+   "desenho": {
+    "nome": "megafone",
+    "largura": 150
+   },
+   "apoio": "- {ciano:CVM 8, ART. 2º:} OFERTA {verde:NÃO SUJEITA A REGISTRO}\n- FEITA POR {laranja:INTERMEDIÁRIOS} DO SISTEMA DE DISTRIBUIÇÃO\n- {ciano:EXEMPLO HIPOTÉTICO:} MENSAGEM PADRONIZADA, EM MASSA\n- NOME NO CABEÇALHO → {vermelho:CONTINUA OFERTA PÚBLICA}\n- ANTES DA COMPRA: {verde:DIE + TERMO DE ADESÃO}\n- {ciano:REGRA:} SEM REGISTRO NÃO É SEM REGRA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r34e_2_venda-pacote.png",
+   "semente": 3442,
+   "titulo": "A VENDA DO PACOTE",
+   "colunas": [
+    {
+     "titulo": "VÁRIOS CANAIS",
+     "desenho": "megafone",
+     "rotulos": [
+      "LOJA",
+      "SITE"
+     ],
+     "texto": "- LOJA → {laranja:VENDA EM AGÊNCIA}\n- SITE E APP → {laranja:CANAL DIGITAL}\n- REDE SOCIAL → {laranja:OFERTA PÚBLICA}\n- MENSAGEM EM MASSA → {vermelho:TAMBÉM É OFERTA}"
+    },
+    {
+     "titulo": "A ASSINATURA",
+     "desenho": "prancheta",
+     "rotulos": [
+      "FOLHETO",
+      "TERMO"
+     ],
+     "texto": "- FOLHETO ANTES → {verde:DIE ANTES DA COMPRA}\n- \"LI E ENTENDI\" → {verde:TERMO DE ADESÃO}\n- ASSINATURA DIGITAL → {verde:MEIO ELETRÔNICO}\n- AGENTE PROFISSIONAL → {ciano:DISPENSA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:DISTRIBUEM O PRÓPRIO COE SEM INTERMEDIÁRIO:} BANCOS COMERCIAIS, CAIXAS ECONÔMICAS E MÚLTIPLOS SEM CARTEIRA DE INVESTIMENTO",
+    "{ciano:DISPENSA TAMBÉM:} COE EM SISTEMA CENTRALIZADO E MULTILATERAL DE MERCADO ORGANIZADO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA AGÊNCIA, TERMO LIVRE · NO COE, A {laranja:FRASE É DITADA PELA CVM}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r34e_3_capitulo-ii.png",
+   "semente": 3443,
+   "titulo": "CVM 8, CAPÍTULO II: A OFERTA",
+   "topo": "{ciano:ART. 2º:} {verde:SEM REGISTRO} NA CVM · DISTRIBUIÇÃO POR INSTITUIÇÕES INTERMEDIÁRIAS",
+   "colunas": [
+    {
+     "titulo": "ANTES DA COMPRA (ART. 3º)",
+     "texto": "- ENTREGA DO {verde:DIE}\n- TERMO DE CIÊNCIA DE RISCO\n- COM {laranja:DATA E ASSINATURA}\n- \"RECEBI UM EXEMPLAR DO DIE...\"\n- PODE SER {ciano:ELETRÔNICO}"
+    },
+    {
+     "titulo": "DISPENSAS E CONCEITO (ART. 4º)",
+     "texto": "- DISPENSA: {laranja:INVESTIDOR PROFISSIONAL}\n- DISPENSA: {laranja:MERCADO ORGANIZADO MULTILATERAL}\n- OFERTA PÚBLICA: VÁRIOS DESTINATÁRIOS\n- OBJETIVO: {vermelho:PROSPECTAR} INVESTIDORES\n- PUBLICIDADE, LOJA, SITE, REDE, APP"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} PERSONALIZAR O CABEÇALHO {vermelho:NÃO} TIRA O CARÁTER DE OFERTA PÚBLICA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r34e_4_termo.png",
+   "semente": 3444,
+   "titulo": "QUEM PRECISA DO TERMO?",
+   "dados": "- MESMO COE, MESMO APLICATIVO (HIPOTÉTICO)\n- OFERTA SEM REGISTRO NA CVM: {verde:PERMITIDO}\n- TERMO COM A FRASE OBRIGATÓRIA\n- PODE SER ELETRÔNICO\n- A ÚNICA DIFERENÇA: O COMPRADOR",
+   "cenarios": [
+    {
+     "titulo": "INVESTIDORA DE VAREJO",
+     "passos": "DIE ANTES DA COMPRA\nTERMO DATADO\nE ASSINADO",
+     "resultado": "OBRIGATÓRIO"
+    },
+    {
+     "titulo": "INVESTIDOR PROFISSIONAL",
+     "passos": "DIE E TERMO\nDISPENSADOS\nPELA NORMA",
+     "resultado": "DISPENSADO"
+    }
+   ],
+   "conclusao": {
+    "texto": "DISPENSA TAMBÉM NO {laranja:MERCADO ORGANIZADO MULTILATERAL} · NO RESTO, {verde:DIE + TERMO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r34f_1_melhor-cenario.png",
+   "semente": 3451,
+   "titulo": "PODE DESTACAR O MELHOR?",
+   "mitos": [
+    "MANCHETE NO MELHOR CENÁRIO",
+    "BASTA MOSTRAR OS OUTROS"
+   ],
+   "verdade": "CENÁRIOS COM {verde:O MESMO PESO}",
+   "desenho": {
+    "nome": "megafone",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} \"GANHE ATÉ 40%\" EM LETRAS ENORMES\n- DEVOLVER SÓ O CAPITAL: {vermelho:NO RODAPÉ}\n- {ciano:CVM 8, ART. 11:} SEM DESTAQUE AO MELHOR CENÁRIO\n- LINGUAGEM {verde:SERENA E MODERADA}\n- CONSISTENTE COM O {ciano:DIE}\n- {ciano:REGRA:} PROPAGANDA NÃO É SÓ A FOTO DA PRAIA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r34f_2_folheto-propaganda.png",
+   "semente": 3452,
+   "titulo": "O FOLHETO E A PROPAGANDA",
+   "colunas": [
+    {
+     "titulo": "O FOLHETO OFICIAL",
+     "desenho": "prancheta",
+     "rotulos": [
+      "TUDO",
+      "QUE PODE"
+     ],
+     "texto": "- FEITO PELA AGÊNCIA → {verde:EMISSOR ELABORA}\n- CHUVA E ATRASO → {laranja:TODOS OS CENÁRIOS}\n- SEM LETRA MIÚDA → {verde:LINGUAGEM SIMPLES}\n- INFORMA → {ciano:DIE}"
+    },
+    {
+     "titulo": "A PROPAGANDA",
+     "desenho": "megafone",
+     "rotulos": [
+      "ATRAI",
+      "COM AVISOS"
+     ],
+     "texto": "- MESMA HISTÓRIA → {verde:CONSISTENTE COM O DIE}\n- TOM MODERADO → {verde:SERENA E MODERADA}\n- FOTO DA PRAIA NA CAPA → {vermelho:MELHOR CENÁRIO}\n- AVISOS PADRÃO → {laranja:TEXTO DA CVM}"
+    }
+   ],
+   "faixas": [
+    "{ciano:DIZ QUE É MATERIAL PUBLICITÁRIO} E ALERTA PARA O RISCO DE CRÉDITO DO EMISSOR",
+    "{ciano:COE EM RISCO:} DESTAQUE \"INVESTIMENTO COM VALOR NOMINAL EM RISCO\""
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} TURISMO ESCOLHE OS AVISOS · NO COE, {laranja:A CVM DEFINE O TEXTO}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r34f_3_die-coe.png",
+   "semente": 3453,
+   "titulo": "CVM 8, CAPÍTULO III E DIE-COE",
+   "topo": "{ciano:DIE:} DO EMISSOR · {verde:VERDADEIRO, COMPLETO E CONSISTENTE} · LINGUAGEM SIMPLES, CLARA E OBJETIVA",
+   "colunas": [
+    {
+     "titulo": "OS 3 AVISOS",
+     "texto": "- \"LEIA O DIE ANTES DE APLICAR\"\n- \"INVESTIMENTO COM {vermelho:VALOR NOMINAL EM RISCO}\"\n- AVISO DE {laranja:OFERTA SEM REGISTRO}\n- E SEM ANÁLISE PRÉVIA DA CVM\n- SEM DESTAQUE AO {vermelho:MELHOR CENÁRIO}"
+    },
+    {
+     "titulo": "DIE-COE (ANEXO A)",
+     "texto": "- RISCO DO EMISSOR · {vermelho:SEM FGC}\n- PROTEGIDO OU EM RISCO, COM A PARCELA\n- TODOS OS CENÁRIOS, {laranja:NO VENCIMENTO}\n- RECOMPRA, LIQUIDEZ, {verde:REMUNERAÇÃO}\n- BACKTEST E PERDA REAL × {ciano:CDI}\n- IR E RECLAMAÇÃO: EMISSOR, BCB, CVM"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} \"SEM FGC\" APARECE {vermelho:ATÉ NO COE PROTEGIDO} · DIE INFORMA, PROPAGANDA ATRAI",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r34f_4_anuncios.png",
+   "semente": 3454,
+   "titulo": "QUAL ANÚNCIO ESTÁ CERTO?",
+   "dados": "- MESMO COE COM {vermelho:VALOR NOMINAL EM RISCO} (HIPOTÉTICO)\n- DOIS ANÚNCIOS NA MESMA SEMANA\n- CVM 8: CONSISTÊNCIA, AVISOS E CENÁRIOS\n- SEM REGISTRO NA CVM NOS DOIS\n- A ÚNICA DIFERENÇA: A FORMA DE APRESENTAR",
+   "cenarios": [
+    {
+     "titulo": "ANÚNCIO A",
+     "passos": "\"GANHE ATÉ 40%\"\nSEM OS AVISOS\nRISCO NO RODAPÉ",
+     "resultado": "IRREGULAR"
+    },
+    {
+     "titulo": "ANÚNCIO B",
+     "passos": "CENÁRIOS COM MESMO PESO\nMATERIAL PUBLICITÁRIO\nOS 3 AVISOS",
+     "resultado": "REGULAR"
+    }
+   ],
+   "conclusao": {
+    "texto": "5 PEGADINHAS (FALSAS): FGC NO COE · PROTEÇÃO A QUALQUER MOMENTO · PERDA ABATE AÇÕES · SEM CUSTO · OFERTA REGISTRADA NA CVM",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
