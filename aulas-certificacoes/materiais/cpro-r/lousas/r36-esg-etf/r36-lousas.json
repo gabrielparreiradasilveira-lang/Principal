@@ -1,0 +1,589 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "molde": "mito_verdade",
+   "saida": "r36a_1_esg-nao-cai.png",
+   "semente": 3601,
+   "titulo": "FUNDO ESG NÃO CAI?",
+   "mitos": [
+    "ESG PROTEGE DA QUEDA",
+    "SUSTENTÁVEL = SEM RISCO"
+   ],
+   "verdade": "ESG {vermelho:NÃO ELIMINA} O RISCO FINANCEIRO",
+   "desenho": {
+    "nome": "grafico_baixa",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} FUNDO DE AÇÕES ESG NUM MÊS DE QUEDA DA BOLSA\n- A COTA CAI: CONTINUA SENDO {laranja:FUNDO DE AÇÕES}\n- ESG BUSCA {verde:REDUZIR RISCOS DE LONGO PRAZO}\n- EX.: PASSIVO AMBIENTAL, ESCÂNDALO DE GOVERNANÇA\n- E ALINHAR O INVESTIMENTO A {verde:VALORES}\n- {ciano:REGRA:} O RISCO DE MERCADO CONTINUA LÁ"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r36a_2_cestas-naturais.png",
+   "semente": 3602,
+   "titulo": "AS CESTAS NATURAIS",
+   "colunas": [
+    {
+     "titulo": "TRÊS JEITOS DE MONTAR",
+     "desenho": "prancheta",
+     "rotulos": [
+      "TIRA",
+      "ESCOLHE"
+     ],
+     "texto": "- TIRA OS ULTRAPROCESSADOS → {laranja:EXCLUSÃO DE SETORES}\n- MELHOR FORNECEDOR DA CATEGORIA → {verde:SELEÇÃO POSITIVA}\n- CONVERSA E COBRA → {ciano:ENGAJAMENTO ATIVO}\n- FORNECEDOR CONTINUA → {ciano:GESTOR SEGUE ACIONISTA}"
+    },
+    {
+     "titulo": "O PREÇO DO MERCADO",
+     "desenho": "grafico_alta",
+     "rotulos": [
+      "SOBE",
+      "DESCE"
+     ],
+     "texto": "- TUDO SOBE → {vermelho:CESTA SOBE JUNTO}\n- CESTA NATURAL → {laranja:MESMO RISCO DE PREÇO}\n- MENOS SURPRESA NO FORNECEDOR → {verde:RISCO DE LONGO PRAZO}\n- CLIENTE QUER VALORES → {verde:ALINHAMENTO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ESG = ASG:} AMBIENTAL · SOCIAL · GOVERNANÇA",
+    "{ciano:NA RECOMENDAÇÃO:} EQUILIBRAR VALORES DO CLIENTE E OBJETIVOS FINANCEIROS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} CESTA NATURAL TEM PREÇO CONHECIDO · ESG {laranja:NÃO DEFINE} SE O RETORNO SERÁ MAIOR OU MENOR",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r36a_3_estrategias.png",
+   "semente": 3603,
+   "titulo": "FUNDOS SUSTENTÁVEIS E ESG",
+   "topo": "{ciano:CONSIDERAM:} FATORES FINANCEIROS + {verde:SUSTENTABILIDADE} E {verde:RESPONSABILIDADE CORPORATIVA}",
+   "colunas": [
+    {
+     "titulo": "AS 3 ESTRATÉGIAS",
+     "texto": "- {laranja:EXCLUSÃO}: SETOR INTEIRO FORA\n- {verde:SELEÇÃO POSITIVA}: MELHORES PRÁTICAS\n- PODE INCLUIR O MELHOR DE SETOR POLUENTE\n- {ciano:ENGAJAMENTO}: DIALOGA E COBRA\n- NO ENGAJAMENTO, O GESTOR {laranja:FICA}"
+    },
+    {
+     "titulo": "O QUE ESG FAZ E NÃO FAZ",
+     "texto": "- {vermelho:NÃO ELIMINA} RISCO FINANCEIRO\n- {verde:REDUZ} RISCOS DE LONGO PRAZO\n- ALINHA A {verde:VALORES} DO CLIENTE\n- E A {verde:TENDÊNCIAS ESTRUTURAIS}\n- RETORNO MENOR, SE O CLIENTE ACEITAR"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} SELEÇÃO POSITIVA {vermelho:≠} EXCLUSÃO · ENGAJAMENTO {vermelho:≠} VENDER A AÇÃO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r36a_4_estrategia.png",
+   "semente": 3604,
+   "titulo": "MESMA BOLSA, ESTRATÉGIAS DIFERENTES",
+   "dados": "- DOIS FUNDOS DE AÇÕES ESG (HIPOTÉTICO)\n- MESMO UNIVERSO DE EMPRESAS DA BOLSA\n- NUMA QUEDA FORTE DA BOLSA, OS DOIS CAEM\n- CONTINUAM SENDO FUNDOS DE AÇÕES\n- A ÚNICA DIFERENÇA: A ESTRATÉGIA",
+   "cenarios": [
+    {
+     "titulo": "ALFA · EXCLUSÃO",
+     "passos": "SEM ARMAS, TABACO\nE CARVÃO\nO RESTO É LIVRE",
+     "resultado": "SETORES FORA"
+    },
+    {
+     "titulo": "BETA · SELEÇÃO POSITIVA",
+     "passos": "NENHUM SETOR FORA\nO MELHOR DE CADA\nSETOR ENTRA",
+     "resultado": "MELHORES PRÁTICAS"
+    }
+   ],
+   "conclusao": {
+    "texto": "CARTEIRAS DIFERENTES, {vermelho:MESMO RISCO DE MERCADO} · ESG NÃO É SEGURO CONTRA QUEDA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r36b_1_nome-esg.png",
+   "semente": 3611,
+   "titulo": "METODOLOGIA BASTA PARA O NOME?",
+   "mitos": [
+    "DESCREVEU, PODE USAR",
+    "INTEGRAR = BUSCAR BENEFÍCIO"
+   ],
+   "verdade": "QUEM SÓ INTEGRA: {vermelho:NOME VEDADO}",
+   "desenho": {
+    "nome": "estrela",
+    "largura": 150
+   },
+   "apoio": "- {ciano:CVM 175, ART. 49 (RES. CVM 184/2023)}\n- TERMOS: ESG · ASG · VERDE · SOCIAL · SUSTENTÁVEL\n- SÓ PARA QUEM {verde:BUSCA ORIGINAR BENEFÍCIOS}\n- EXIGE: BENEFÍCIOS · METODOLOGIA · CERTIFICADOR (SE HOUVER) · RELATÓRIO\n- QUEM SÓ INTEGRA: DESCREVE A INTEGRAÇÃO NO REGULAMENTO\n- {ciano:REGRA:} O NOME NÃO PODE PROMETER MAIS QUE A CARTEIRA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r36b_2_selo-rotulo.png",
+   "semente": 3612,
+   "titulo": "O SELO E O RÓTULO",
+   "colunas": [
+    {
+     "titulo": "SELO ORGÂNICO",
+     "desenho": "estrela",
+     "rotulos": [
+      "PROVA",
+      "PRESTA CONTAS"
+     ],
+     "texto": "- DIZ O BENEFÍCIO → {verde:BENEFÍCIOS ESPERADOS}\n- SEGUE UM MÉTODO → {verde:METODOLOGIA}\n- CERTIFICADOR → {verde:SEGUNDA OPINIÃO}\n- PRESTA CONTAS → {verde:RELATÓRIO}"
+    },
+    {
+     "titulo": "BOAS PRÁTICAS",
+     "desenho": "prancheta",
+     "rotulos": [
+      "SEM SELO",
+      "COM AVISO"
+     ],
+     "texto": "- SÓ CONTA O CUIDADO → {laranja:INTEGRA ESG}\n- SEM \"ORGÂNICO\" NO RÓTULO → {vermelho:SEM TERMO NO NOME}\n- AVISO NA EMBALAGEM → {laranja:AVISO PADRÃO ANBIMA}\n- RÓTULO MENTIROSO → {vermelho:GREENWASHING}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ANBIMA:} CLASSE IS (SUFIXO \"IS\") · CLASSE QUE INTEGRA ESG (AVISO PADRÃO)",
+    "{ciano:NAS DUAS:} FORMULÁRIO DE METODOLOGIA ESG + RELATÓRIO DE REPORTE ESG DO EXERCÍCIO ANTERIOR"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NO MERCADO, O CERTIFICADOR FISCALIZA · NO FUNDO, QUEM DITA O NOME É A {laranja:CVM}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r36b_3_cvm-anbima.png",
+   "semente": 3613,
+   "titulo": "ESG NO NOME: CVM E ANBIMA",
+   "topo": "{ciano:CVM 175, ART. 60:} MATERIAL DE DIVULGAÇÃO INFORMA SE O FUNDO {verde:BUSCA} OU SÓ {laranja:INTEGRA}",
+   "colunas": [
+    {
+     "titulo": "BUSCA BENEFÍCIO · CLASSE IS",
+     "texto": "- PODE USAR O {verde:TERMO NO NOME}\n- ANBIMA: {verde:SUFIXO \"IS\"}\n- {verde:OBJETIVO SUSTENTÁVEL} NO ANEXO\n- CARTEIRA ALINHADA AO OBJETIVO\n- BENEFÍCIOS, MÉTODO, RELATÓRIO"
+    },
+    {
+     "titulo": "SÓ INTEGRA · INTEGRA ESG",
+     "texto": "- TERMO NO NOME: {vermelho:VEDADO}\n- REGULAMENTO DESCREVE A INTEGRAÇÃO\n- {laranja:AVISO PADRÃO} NO MATERIAL\n- COMPROMISSO NA POLÍTICA DE INVESTIMENTO\n- MESMOS LINKS: FORMULÁRIO E RELATÓRIO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:GESTOR (ANBIMA):} DOCUMENTO APROVADO PELO CONSELHO OU DIRETORIA, NO SITE, ATUALIZADO EM ATÉ {laranja:24 MESES}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r36b_4_gama-delta.png",
+   "semente": 3614,
+   "titulo": "PODE USAR SUSTENTÁVEL NO NOME?",
+   "dados": "- DOIS FUNDOS DE AÇÕES DO MESMO GESTOR (HIPOTÉTICO)\n- MESMA ANÁLISE DE GOVERNANÇA DAS EMPRESAS\n- MATERIAL INFORMA O ENQUADRAMENTO NOS DOIS\n- EXCEÇÃO: ETF COM O TERMO NO NOME DO ÍNDICE\n- A ÚNICA DIFERENÇA: O OBJETIVO",
+   "cenarios": [
+    {
+     "titulo": "GAMA · BUSCA BENEFÍCIO",
+     "passos": "REDUZIR EMISSÕES\nMETODOLOGIA E 2ª OPINIÃO\nRELATÓRIO",
+     "resultado": "CLASSE IS"
+    },
+    {
+     "titulo": "DELTA · SÓ INTEGRA",
+     "passos": "ESG NA ANÁLISE\nSEM OBJETIVO DE BENEFÍCIO\nAVISO PADRÃO",
+     "resultado": "SEM O TERMO"
+    }
+   ],
+   "conclusao": {
+    "texto": "DELTA COM \"SUSTENTÁVEL\" NO NOME = {vermelho:GREENWASHING} · O NOME TEM DE CABER NA CARTEIRA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r36c_1_etf-acao.png",
+   "semente": 3621,
+   "titulo": "ETF É UMA AÇÃO?",
+   "mitos": [
+    "COMPREI UMA AÇÃO",
+    "VIREI SÓCIO DA EMPRESA"
+   ],
+   "verdade": "ETF = {verde:FUNDO DE ÍNDICE}",
+   "desenho": {
+    "nome": "diversificacao",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} COMPRA PELO HOME BROKER, PREÇO NO PREGÃO\n- QUEM COMPRA VIRA {verde:COTISTA DE FUNDO}\n- A CARTEIRA TENTA {laranja:COPIAR UM ÍNDICE}\n- TEM REGULAMENTO, ADMINISTRADOR E GESTOR\n- SÓ A {laranja:NEGOCIAÇÃO} É IGUAL À DA AÇÃO\n- {ciano:SIGLA:} EXCHANGE TRADED FUND"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r36c_2_cesta-lista.png",
+   "semente": 3622,
+   "titulo": "A CESTA E A LISTA",
+   "colunas": [
+    {
+     "titulo": "A CESTA PRONTA",
+     "desenho": "mochila",
+     "rotulos": [
+      "UMA",
+      "ETIQUETA"
+     ],
+     "texto": "- CESTA FECHADA → {verde:COTA DO ETF}\n- UMA ETIQUETA SÓ → {verde:UM PREÇO NA BOLSA}\n- NÃO ESCOLHE O CONTEÚDO → {laranja:GESTÃO PASSIVA}\n- EMBALAGEM BARATA → {verde:CUSTO MENOR}"
+    },
+    {
+     "titulo": "A LISTA OFICIAL",
+     "desenho": "prancheta",
+     "rotulos": [
+      "PÚBLICA",
+      "OBJETIVA"
+     ],
+     "texto": "- LISTA DE ITENS → {verde:ÍNDICE DE REFERÊNCIA}\n- LISTA PÚBLICA E GRÁTIS → {verde:METODOLOGIA PÚBLICA}\n- REGRAS CLARAS → {verde:REGRAS OBJETIVAS}\n- NÃO ESCRITA PELO DONO → {vermelho:PROVEDOR INDEPENDENTE}"
+    }
+   ],
+   "faixas": [
+    "{ciano:NOME:} \"FUNDO DE ÍNDICE\" + O ÍNDICE DE REFERÊNCIA",
+    "{ciano:CLASSE:} ABERTA · PRAZO INDETERMINADO · PODE SER PARA O PÚBLICO EM GERAL"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} A CESTA EMBALADA NÃO MUDA · A CARTEIRA DO ETF {laranja:ACOMPANHA A REVISÃO DO ÍNDICE}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r36c_3_anexo-v.png",
+   "semente": 3623,
+   "titulo": "ETF: REGRAS DO ANEXO V",
+   "topo": "{ciano:ETF:} BUSCA ACOMPANHAR UM {laranja:ÍNDICE DE REFERÊNCIA} · GESTÃO {verde:PASSIVA} · PRAZO INDETERMINADO",
+   "colunas": [
+    {
+     "titulo": "AS REGRAS",
+     "texto": "- CLASSE {verde:ABERTA}, COTAS {verde:NA BOLSA}\n- NOME: FUNDO DE ÍNDICE + ÍNDICE\n- ÍNDICE {laranja:RECONHECIDO PELA CVM}\n- {laranja:≥ 95%}: ÍNDICE, FUTUROS, ETFS DO ÍNDICE\n- MENOR ERRO POSSÍVEL"
+    },
+    {
+     "titulo": "AS PROIBIÇÕES",
+     "texto": "- {vermelho:ALAVANCADO}: MULTIPLICA\n- {vermelho:INVERSO}: GANHA NA QUEDA\n- {vermelho:SINTÉTICO}: SÓ DERIVATIVOS\n- FUTUROS PREVISTOS NA NORMA: OK\n- {vermelho:TAXA DE PERFORMANCE}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} OBJETIVO É {verde:IGUALAR} O ÍNDICE · POR ISSO {vermelho:NÃO HÁ PERFORMANCE}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r36c_4_enquadramento.png",
+   "semente": 3624,
+   "titulo": "ESTÁ ENQUADRADO?",
+   "dados": "- ETF DE AÇÕES COM PL DE {ciano:R$ 50 MILHÕES} (HIPOTÉTICO)\n- MÍNIMO: 95% = {laranja:R$ 47,5 MILHÕES}\n- CONTA: ÍNDICE, FUTUROS E ETFS DO MESMO ÍNDICE\n- %T: PARTE SOBRE O TOTAL\n- A ÚNICA DIFERENÇA: QUANTO ESTÁ NO ÍNDICE",
+   "cenarios": [
+    {
+     "titulo": "R$ 48 MILHÕES",
+     "passos": "48 ÷ 50 = 96%\nACIMA DE 95%\nATÉ 4% FORA DO ÍNDICE",
+     "resultado": "ENQUADRADO"
+    },
+    {
+     "titulo": "R$ 46,5 MILHÕES",
+     "passos": "46,5 ÷ 50 = 93%\nABAIXO DE 95%\nFALTA R$ 1 MILHÃO",
+     "resultado": "DESENQUADRADO"
+    }
+   ],
+   "conclusao": {
+    "texto": "ABAIXO DE 95%, O GESTOR PRECISA {laranja:REENQUADRAR} A CARTEIRA · NO MÁXIMO {laranja:5%} PODE FICAR FORA DO ÍNDICE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r36d_1_agio.png",
+   "semente": 3631,
+   "titulo": "PREÇO DO ETF = VALOR DA CARTEIRA?",
+   "mitos": [
+    "PREÇO SEMPRE IGUAL À COTA",
+    "NUNCA HÁ ÁGIO"
+   ],
+   "verdade": "PODE TER {laranja:ÁGIO} OU {laranja:DESÁGIO}",
+   "desenho": {
+    "nome": "balanca",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} COTA NA BOLSA A R$ 10,30 · CARTEIRA VALE R$ 10,00\n- PREÇO DE MERCADO: {laranja:OFERTA E PROCURA}\n- VALOR PATRIMONIAL: {verde:VALOR DA CARTEIRA}\n- AGENTES AUTORIZADOS {verde:CRIAM E RESGATAM} COTAS\n- ISSO APROXIMA O PREÇO DO VALOR PATRIMONIAL\n- {ciano:REGRA:} COMPARE OS DOIS ANTES DE NEGOCIAR"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r36d_2_prateleira.png",
+   "semente": 3632,
+   "titulo": "PRATELEIRA E REPOSITOR",
+   "colunas": [
+    {
+     "titulo": "A PRATELEIRA",
+     "desenho": "bilheteria",
+     "rotulos": [
+      "CLIENTE",
+      "COMUM"
+     ],
+     "texto": "- CLIENTE COMUM → {verde:INVESTIDOR}\n- COMPRA NA PRATELEIRA → {verde:BOLSA, VIA CORRETORA}\n- PREÇO DA ETIQUETA → {laranja:PREÇO DE MERCADO}\n- MUDA COM A PROCURA → {laranja:DURANTE O PREGÃO}"
+    },
+    {
+     "titulo": "O REPOSITOR",
+     "desenho": "caminhao",
+     "rotulos": [
+      "CARRINHO",
+      "GRANDE"
+     ],
+     "texto": "- CARRINHO GRANDE → {verde:AGENTE AUTORIZADO}\n- MONTA CESTAS → {verde:CRIA COTAS}\n- DESMONTA CESTAS → {verde:RESGATA COTAS}\n- PREÇO DOS ITENS → {laranja:VALOR PATRIMONIAL}"
+    }
+   ],
+   "faixas": [
+    "{ciano:CESTA DE INTEGRALIZAÇÃO:} ATIVOS DO ÍNDICE · DINHEIRO · ATÉ {laranja:5%} FORA DO ÍNDICE",
+    "{ciano:ETF DE RENDA FIXA:} ATÉ {laranja:20%} EM ATIVOS DA MESMA NATUREZA, DE OUTRAS EMISSÕES"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O REPOSITOR É DA LOJA · O AGENTE É EXTERNO E {laranja:GANHA COM A ARBITRAGEM}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r36d_3_dois-balcoes.png",
+   "semente": 3633,
+   "titulo": "DOIS BALCÕES DO ETF",
+   "topo": "{ciano:CRIAÇÃO E RESGATE:} PELO {verde:VALOR PATRIMONIAL} NO {laranja:FECHAMENTO} DO DIA DO PEDIDO",
+   "colunas": [
+    {
+     "titulo": "MERCADO SECUNDÁRIO",
+     "texto": "- QUALQUER INVESTIDOR, {verde:VIA CORRETORA}\n- {laranja:DURANTE O PREGÃO}\n- PREÇO DE MERCADO\n- INVESTIDOR {vermelho:NÃO RESGATA} NO FUNDO\n- ELE {verde:VENDE NA BOLSA}"
+    },
+    {
+     "titulo": "MERCADO PRIMÁRIO",
+     "texto": "- {laranja:AGENTES AUTORIZADOS}\n- {laranja:GRANDES VOLUMES}\n- ENTREGA CESTA, RECEBE COTAS\n- DEVOLVE COTAS, RECEBE ATIVOS\n- APROXIMA PREÇO E VALOR"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:MAIS:} GESTOR {vermelho:NÃO} É FORMADOR DE MERCADO DO PRÓPRIO ETF · COTAS EM {verde:EMPRÉSTIMO E GARANTIA} · CARTEIRA {verde:DIÁRIA} NO SITE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r36d_4_agio-desagio.png",
+   "semente": 3634,
+   "titulo": "ÁGIO OU DESÁGIO?",
+   "dados": "- VALOR PATRIMONIAL DA COTA: {ciano:R$ 10,00} (HIPOTÉTICO)\n- NEGOCIAÇÃO DE {ciano:1.000 COTAS}\n- Δ%: VARIAÇÃO ENTRE DOIS VALORES\n- SEM CORRETAGEM\n- A ÚNICA DIFERENÇA: O PREÇO NA BOLSA",
+   "cenarios": [
+    {
+     "titulo": "BOLSA A R$ 10,30",
+     "passos": "10 → 10,30 = +3%\n0,30 × 1.000\nPAGA ACIMA DA CARTEIRA",
+     "resultado": "ÁGIO R$ 300"
+    },
+    {
+     "titulo": "BOLSA A R$ 9,80",
+     "passos": "10 → 9,80 = −2%\n0,20 × 1.000\nVENDE ABAIXO DA CARTEIRA",
+     "resultado": "DESÁGIO R$ 200"
+    }
+   ],
+   "conclusao": {
+    "texto": "ÁGIO = PAGAR MAIS QUE A SOMA DOS ITENS · NO ETF LÍQUIDO, OS AGENTES {verde:FECHAM A DIFERENÇA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r36e_1_aderencia.png",
+   "semente": 3641,
+   "titulo": "SEM LIMITE PARA O DESVIO?",
+   "mitos": [
+    "PASSIVO NÃO TEM REGRA",
+    "DESVIO É PROBLEMA SÓ DO COTISTA"
+   ],
+   "verdade": "HÁ LIMITES DE {laranja:ERRO DE ADERÊNCIA} NA CVM 175",
+   "desenho": {
+    "nome": "fita_metrica",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} COTA +9,10% · ÍNDICE +13,50% EM 12 MESES\n- DIFERENÇA DE {vermelho:4,40 PONTOS}\n- {ciano:CVM 175, ANEXO V, ART. 27}\n- AÇÕES: {laranja:2 · 2 · 4} PONTOS · RENDA FIXA: {laranja:1 · 1 · 2}\n- SEM REENQUADRAMENTO → {vermelho:ASSEMBLEIA}\n- PRAZO PARA VOLTAR: {laranja:15º} OU {laranja:30º} DIA ÚTIL\n- {ciano:REGRA:} PASSIVO TAMBÉM TEM META: SEGUIR O ÍNDICE"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r36e_2_item-faltando.png",
+   "semente": 3642,
+   "titulo": "O ITEM FALTANDO",
+   "colunas": [
+    {
+     "titulo": "A CESTA INCOMPLETA",
+     "desenho": "mochila",
+     "rotulos": [
+      "ITEM",
+      "FALTANDO"
+     ],
+     "texto": "- ITEM FALTANDO → {laranja:ERRO DE ADERÊNCIA}\n- EMBALAGEM E FRETE → {laranja:TAXAS E CUSTOS}\n- TROCO NO CAIXA → {laranja:CAIXA DO FUNDO}\n- DIFERENÇA PEQUENA → {verde:NORMAL}"
+    },
+    {
+     "titulo": "A RECLAMAÇÃO",
+     "desenho": "megafone",
+     "rotulos": [
+      "CLIENTES",
+      "REUNIDOS"
+     ],
+     "texto": "- DIFERENÇA GRANDE → {vermelho:ACIMA DO LIMITE}\n- PRAZO PARA CORRIGIR → {laranja:15º OU 30º DIA ÚTIL}\n- CLIENTES REUNIDOS → {vermelho:ASSEMBLEIA}\n- TROCA OU FECHA → {vermelho:LIQUIDAR OU TROCAR}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ASSEMBLEIA:} EM ATÉ 15 DIAS · CONVOCADA PELO ADMINISTRADOR, ÀS SUAS EXPENSAS",
+    "{ciano:NELA:} O GESTOR EXPLICA · OS COTISTAS DECIDEM"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O ITEM FALTANDO SE VÊ NA CESTA · O ERRO DE ADERÊNCIA {laranja:SÓ APARECE NA CONTA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r36e_3_riscos.png",
+   "semente": 3643,
+   "titulo": "RISCOS, VANTAGENS E ADERÊNCIA",
+   "topo": "{ciano:RISCOS:} {vermelho:MERCADO} · LIQUIDEZ · ADERÊNCIA · CÂMBIO · REGULATÓRIO · OPERACIONAL · {vermelho:SEM FGC}",
+   "colunas": [
+    {
+     "titulo": "VANTAGENS",
+     "texto": "- {verde:TRANSPARÊNCIA} DA CARTEIRA\n- {verde:CUSTOS REDUZIDOS}\n- {verde:DIVERSIFICAÇÃO INSTANTÂNEA}\n- {verde:FACILIDADE DE NEGOCIAÇÃO}\n- SEM GESTOR DEFENDENDO DA QUEDA"
+    },
+    {
+     "titulo": "LIMITES (ART. 27)",
+     "texto": "- 60 PREGÕES, DESVIO PADRÃO: {laranja:2 P.P.}\n- 60 PREGÕES, ACUMULADO: {laranja:2 P.P.}\n- 12 MESES, ACUMULADO: {laranja:4 P.P.}\n- RENDA FIXA: {laranja:1 · 1 · 2}\n- PRAZO: 15º, 15º E 30º DIA ÚTIL"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} ERRO DE ADERÊNCIA {vermelho:≠} ÁGIO · UM COMPARA COM O ÍNDICE, O OUTRO COM O VALOR DA COTA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r36e_4_limite.png",
+   "semente": 3644,
+   "titulo": "ESTOUROU O LIMITE?",
+   "dados": "- COTA: R$ 100,00 → {ciano:R$ 109,10} EM 12 MESES (HIPOTÉTICO)\n- ÍNDICE: 120.000 → {ciano:136.200} PONTOS\n- COTA +9,10% · ÍNDICE +13,50%\n- DIFERENÇA: {vermelho:4,40 PONTOS}\n- A ÚNICA DIFERENÇA: O TIPO DO ETF",
+   "cenarios": [
+    {
+     "titulo": "ETF DE AÇÕES",
+     "passos": "LIMITE DE 12 MESES: 4\n4,40 − 4\nPOUCO ACIMA",
+     "resultado": "+0,40 P.P."
+    },
+    {
+     "titulo": "ETF DE RENDA FIXA",
+     "passos": "LIMITE DE 12 MESES: 2\n4,40 − 2\nMUITO ACIMA",
+     "resultado": "+2,40 P.P."
+    }
+   ],
+   "conclusao": {
+    "texto": "FORA DO LIMITE NO {laranja:30º DIA ÚTIL}? → {vermelho:ASSEMBLEIA} EM ATÉ 15 DIAS · GESTOR EXPLICA, COTISTAS DECIDEM",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r36f_1_bdr-etf.png",
+   "semente": 3651,
+   "titulo": "BDR-ETF É ETF DA CVM?",
+   "mitos": [
+    "O ETF LÁ FORA É DA CVM",
+    "TODO BDR-ETF É IGUAL"
+   ],
+   "verdade": "LASTRO {vermelho:SEM REGISTRO} NA CVM",
+   "desenho": {
+    "nome": "banco",
+    "largura": 190
+   },
+   "apoio": "- {ciano:CVM 175, ANEXO V, ARTS. 49 A 55}\n- BDR-ETF: CERTIFICADO EMITIDO NO BRASIL\n- POR {laranja:INSTITUIÇÃO DEPOSITÁRIA}\n- LASTRO: COTAS DE {laranja:ETF ESTRANGEIRO}\n- MERCADO RECONHECIDO E SUPERVISIONADO → {verde:QUALQUER INVESTIDOR}\n- DEMAIS CASOS → {laranja:SÓ QUALIFICADO} · CORRETORA VÊ O SUITABILITY\n- O MESMO ÍNDICE PODE TER AS {laranja:DUAS PORTAS}: ETF LOCAL OU BDR-ETF"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r36f_2_prateleira.png",
+   "semente": 3652,
+   "titulo": "AS CESTAS DA PRATELEIRA",
+   "colunas": [
+    {
+     "titulo": "CESTAS DA CASA",
+     "desenho": "diversificacao",
+     "rotulos": [
+      "AMPLA",
+      "SETORIAL"
+     ],
+     "texto": "- CESTA BÁSICA COMPLETA → {verde:NACIONAL}\n- IBOVESPA, IBRX, IDIV → {verde:ÍNDICES AMPLOS}\n- SÓ FRIOS → {laranja:SEGMENTADO}\n- PRODUTOS NATURAIS → {verde:ESG}\n- PRODUTOS EXÓTICOS → {vermelho:CRIPTO}"
+    },
+    {
+     "titulo": "CESTA IMPORTADA",
+     "desenho": "rota_voo",
+     "rotulos": [
+      "MONTADA AQUI",
+      "CERTIFICADO"
+     ],
+     "texto": "- MONTADA AQUI → {verde:ETF LOCAL NA CVM}\n- CHEGA PRONTA → {laranja:BDR-ETF}\n- REPRESENTANTE LOCAL → {laranja:DEPOSITÁRIA}\n- DÓLAR TRAVADO? → {ciano:COM OU SEM HEDGE}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ETF DE RENDA FIXA:} REPLICA ÍNDICES DE RENDA FIXA, COMO OS DE TÍTULOS PÚBLICOS",
+    "{ciano:CRIPTO:} PODE SER ATIVO DO FUNDO, SE NEGOCIADO EM ENTIDADE AUTORIZADA (BCB, CVM OU SUPERVISOR LOCAL)"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA LOJA, O CÂMBIO PESA NA COMPRA · NO ETF SEM HEDGE, {laranja:PESA TODO DIA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r36f_3_tipos.png",
+   "semente": 3653,
+   "titulo": "TIPOS DE ETFS",
+   "topo": "{ciano:PELO TIPO DE EXPOSIÇÃO:} NACIONAL · SEGMENTADO · ESG · CRIPTO · INTERNACIONAL · RENDA FIXA",
+   "colunas": [
+    {
+     "titulo": "CRIPTO E SEGMENTADO",
+     "texto": "- CRIPTO: {laranja:ATIVO DO FUNDO} É POSSÍVEL\n- INVESTIDOR TEM A {verde:COTA}\n- EXPOSIÇÃO {laranja:INDIRETA} PARA ELE\n- {vermelho:VOLATILIDADE ALTA}\n- SEGMENTADO: {laranja:MENOS DIVERSIFICADO}"
+    },
+    {
+     "titulo": "INTERNACIONAL",
+     "texto": "- PORTA 1: {verde:ETF LOCAL} (CVM)\n- PORTA 2: {laranja:BDR-ETF}\n- LASTRO {vermelho:FORA DA CVM}\n- {ciano:COM HEDGE}: SEM EFEITO DO DÓLAR\n- {ciano:SEM HEDGE}: RISCO CAMBIAL"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} HEDGE CAMBIAL TIRA O DÓLAR, {vermelho:NÃO} TIRA O RISCO DO ÍNDICE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r36f_4_cambio.png",
+   "semente": 3654,
+   "titulo": "QUANTO O DÓLAR MUDA O RESULTADO?",
+   "dados": "- {ciano:R$ 10.000} NUM ETF INTERNACIONAL {vermelho:SEM HEDGE} (HIPOTÉTICO)\n- DÓLAR A {ciano:R$ 5,00}: US$ 2.000\n- ÍNDICE SOBE {verde:12%} EM DÓLAR: US$ 2.240\n- SEM TAXAS, IR E ERRO DE ADERÊNCIA\n- A ÚNICA DIFERENÇA: O DÓLAR NO FIM",
+   "cenarios": [
+    {
+     "titulo": "DÓLAR A R$ 4,75",
+     "passos": "DÓLAR CAIU 5%\n2.240 × 4,75 = 10.640\n10.000 → 10.640",
+     "resultado": "+6,40%"
+    },
+    {
+     "titulo": "DÓLAR A R$ 5,25",
+     "passos": "DÓLAR SUBIU 5%\n2.240 × 5,25 = 11.760\n10.000 → 11.760",
+     "resultado": "+17,60%"
+    }
+   ],
+   "conclusao": {
+    "texto": "5 PEGADINHAS (FALSAS): ETF É AÇÃO · ESG NO NOME DE QUEM SÓ INTEGRA · PERFORMANCE NO ETF · ETF ALAVANCADO · PREÇO = VALOR PATRIMONIAL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
