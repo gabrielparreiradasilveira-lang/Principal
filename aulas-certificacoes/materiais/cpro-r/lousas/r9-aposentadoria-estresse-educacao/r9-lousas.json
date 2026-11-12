@@ -1,382 +1,476 @@
 {
-  "padrao": {
-    "fundo": "preto"
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r9a_1_inss-resolve.png",
+   "semente": 901,
+   "molde": "mito_verdade",
+   "titulo": "O INSS RESOLVE TUDO?",
+   "mitos": [
+    "O BENEFÍCIO PAGA TUDO",
+    "COMEÇO DEPOIS"
+   ],
+   "verdade": "INSS TEM {vermelho:TETO}: COMECE {verde:CEDO}",
+   "desenho": "cofrinho",
+   "apoio": "- {ciano:RAIO X 9ª EDIÇÃO (ANBIMA/DATAFOLHA, ABR/2026):} 60% DOS NÃO APOSENTADOS CONTAM COM O INSS\n- 93% DOS APOSENTADOS DEPENDEM DO INSS · SÓ {vermelho:16%} JÁ COMEÇARAM UMA RESERVA\n- {ciano:TETO DO INSS EM 2026:} {laranja:R$ 8.475,55} POR MÊS (PORTARIA INTERMINISTERIAL MPS/MF 13/2026)\n- NA CLASSE AB: 50% CONTAM COM O INSS, MAS {vermelho:91%} DOS APOSENTADOS DEPENDEM DELE\n- {ciano:REGRA:} VÁRIAS FONTES DE RENDA, NÃO UMA SÓ"
   },
-  "slides": [
+  {
+   "molde": "comparacao",
+   "saida": "r9a_2_treino-cedo-tarde.png",
+   "semente": 9201,
+   "titulo": "O TREINO ANTES DA LARGADA",
+   "colunas": [
     {
-      "saida": "r9a_1_inss-resolve.png",
-      "semente": 901,
-      "molde": "mito_verdade",
-      "titulo": "O INSS RESOLVE TUDO?",
-      "mitos": [
-        "O BENEFÍCIO PAGA TUDO",
-        "COMEÇO DEPOIS"
-      ],
-      "verdade": "INSS TEM {vermelho:TETO}: COMECE {verde:CEDO}",
-      "desenho": "cofrinho",
-      "apoio": "- {ciano:RAIO X 9ª EDIÇÃO (ANBIMA/DATAFOLHA, ABR/2026):} 60% DOS NÃO APOSENTADOS CONTAM COM O INSS\n- 93% DOS APOSENTADOS DEPENDEM DO INSS · SÓ {vermelho:16%} JÁ COMEÇARAM UMA RESERVA\n- {ciano:TETO DO INSS EM 2026:} {laranja:R$ 8.475,55} POR MÊS (PORTARIA INTERMINISTERIAL MPS/MF 13/2026)\n- NA CLASSE AB: 50% CONTAM COM O INSS, MAS {vermelho:91%} DOS APOSENTADOS DEPENDEM DELE\n- {ciano:REGRA:} VÁRIAS FONTES DE RENDA, NÃO UMA SÓ"
+     "titulo": "QUEM TREINA CEDO",
+     "desenho": "corredor",
+     "rotulos": [
+      "DÉCADAS",
+      "CONSTÂNCIA"
+     ],
+     "texto": "- TREINO LONGO → {verde:RESERVA DE LONGO PRAZO}\n- TREINO LEVE, TODO DIA → {verde:APORTE CONSTANTE}\n- O CORPO RESPONDE AO TEMPO → {verde:JUROS COMPOSTOS}\n- TREINO CERTO PARA A IDADE → {laranja:CICLO DE VIDA}"
     },
     {
-      "saida": "r9a_2_treino-e-postos.png",
-      "semente": 902,
-      "molde": "comparacao",
-      "titulo": "O TREINO E OS POSTOS",
-      "colunas": [
-        {
-          "titulo": "ANTES DA LARGADA",
-          "desenho": "corredor",
-          "rotulos": [
-            "DÉCADAS",
-            "CONSTÂNCIA"
-          ],
-          "texto": "- TREINO LONGO → {verde:RESERVA DE LONGO PRAZO}\n- TREINO TODO DIA → {verde:APORTE CONSTANTE}\n- TREINAR CEDO → {verde:MENOS ESFORÇO} POR TREINO\n- TREINO CERTO PARA A IDADE → {laranja:CICLO DE VIDA}"
-        },
-        {
-          "titulo": "POSTOS DE HIDRATAÇÃO",
-          "desenho": "posto_hidratacao",
-          "rotulos": [
-            "VÁRIOS",
-            "NÃO SÓ UM"
-          ],
-          "texto": "- POSTO 1 → {laranja:INSS} (COM TETO)\n- POSTO 2 → {laranja:PREVIDÊNCIA COMPLEMENTAR}\n- POSTO 3 → {laranja:INVESTIMENTOS FINANCEIROS}\n- POSTO 4 → {laranja:ATIVOS REAIS}"
-        }
-      ],
-      "faixas": [
-        "{ciano:FRASE PARA O CLIENTE:} APOSENTADORIA É MARATONA, NÃO CORRIDA DE 100 METROS",
-        "{ciano:INSS:} ISSO NÃO SERÁ SUFICIENTE, SE FOR O ÚNICO POSTO"
-      ],
-      "destaque": {
-        "texto": "{vermelho:ONDE QUEBRA:} A MARATONA TEM 42 KM · A APOSENTADORIA {laranja:NÃO TEM DISTÂNCIA CONHECIDA}: LONGEVIDADE",
-        "cor": "branco",
-        "moldura": "vermelho"
-      }
-    },
-    {
-      "saida": "r9a_3_reserva-e-fontes.png",
-      "semente": 903,
-      "molde": "colunas",
-      "titulo": "RESERVA E FONTES DE RENDA",
-      "topo": "{ciano:DESAFIO:} MAIS {laranja:LONGEVIDADE} · REGRAS QUE {laranja:MUDAM} · POUCA EDUCAÇÃO FINANCEIRA · PLANEJAR = INDEPENDÊNCIA E PADRÃO DE VIDA, SEM DEPENDER DA FAMÍLIA",
-      "colunas": [
-        {
-          "titulo": "A RESERVA DE LONGO PRAZO",
-          "texto": "- APORTE CONSTANTE, DISCIPLINA, VISÃO LONGA\n- PRODUTOS: {verde:PREVIDÊNCIA PRIVADA}, RENDA FIXA, CARTEIRA DIVERSIFICADA\n- PROTEÇÃO CONTRA A INFLAÇÃO: EX., TÍTULO ATRELADO AO {verde:IPCA}\n- RISCO CONFORME A IDADE → {laranja:CICLO DE VIDA} (R21)"
-        },
-        {
-          "titulo": "AS 4 FONTES",
-          "texto": "- {ciano:INSS:} TETO DE {laranja:R$ 8.475,55} EM 2026; REAJUSTE DEFINIDO PELO GOVERNO\n- {ciano:COMPLEMENTAR:} PGBL, VGBL, FUNDOS DE PENSÃO; RENDA VITALÍCIA OU RESGATES\n- {ciano:FINANCEIROS:} RENDA FIXA, AÇÕES, FII, DIVIDENDOS, FUNDOS\n- {ciano:REAIS:} ALUGUEL, PROPRIEDADE RURAL, NEGÓCIO PRÓPRIO"
-        }
-      ],
-      "destaque": {
-        "texto": "{ciano:NA PROVA:} QUANTO MAIS CEDO, {verde:MENOR O ESFORÇO MENSAL} · O PLANEJADOR {laranja:COMBINA} AS FONTES",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r9a_4_so-inss-ou-reserva.png",
-      "semente": 904,
-      "molde": "exercicio",
-      "titulo": "SÓ O INSS OU INSS + RESERVA?",
-      "dados": "- RENDA NA ATIVA: {ciano:R$ 15.000} POR MÊS (HIPOTÉTICO)\n- INSS NO TETO DE 2026: {laranja:R$ 8.475,55} (O MÁXIMO POSSÍVEL)\n- TAXA REAL DE 0,5% AO MÊS · SEM IMPOSTOS · 25 ANOS DE APOSENTADORIA\n- APORTES DURANTE 30 ANOS, NO FIM DE CADA MÊS\n- A ÚNICA DIFERENÇA: O NÚMERO DE FONTES",
-      "cenarios": [
-        {
-          "titulo": "SÓ O INSS",
-          "passos": "15.000 − 8.475,55\n= 6.524,45 A MENOS\nQUEDA DE 43,50%",
-          "resultado": "R$ 8.475,55/MÊS"
-        },
-        {
-          "titulo": "INSS + RESERVA",
-          "passos": "RESERVA: R$ 1.012.639\nPMT 6.524,45 · 300 MESES\nAPORTE POR 30 ANOS",
-          "resultado": "R$ 1.008,09/MÊS"
-        }
-      ],
-      "conclusao": {
-        "texto": "COM {verde:R$ 1.008,09 POR MÊS} DURANTE 30 ANOS, A RENDA DE R$ 15.000 SE MANTÉM · {laranja:O TEMPO} FAZ A MAIOR PARTE",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r9b_1_so-quem-ganha-pouco.png",
-      "semente": 905,
-      "molde": "mito_verdade",
-      "titulo": "ESTRESSE É SÓ DE QUEM GANHA POUCO?",
-      "mitos": [
-        "RICO NÃO SE ESTRESSA",
-        "DINHEIRO RESOLVE TUDO"
-      ],
-      "verdade": "O ESTRESSE {laranja:MUDA DE FORMA}",
-      "desenho": "grafico_baixa",
-      "apoio": "- {ciano:ÍNDICE DE ESTRESSE (RAIO X 2026):} ALTO {vermelho:47%} · MÉDIO {laranja:48%} · BAIXO {verde:5%}\n- NO ALTO ESTRESSE: MULHERES 53% · CLASSE DE 39% · GERAÇÃO X 37%\n- PREOCUPAÇÕES: AUMENTAR A RENDA 84% · CONTROLAR AS FINANÇAS 82%\n- O ALTO ESTRESSE ANDA COM {vermelho:MAIS DÍVIDA} E MENOS POUPANÇA"
-    },
-    {
-      "saida": "r9b_2_caimbra.png",
-      "semente": 906,
-      "molde": "comparacao",
-      "titulo": "A CÂIMBRA NO MEIO DA PISTA",
-      "colunas": [
-        {
-          "titulo": "O CORREDOR TRAVADO",
-          "desenho": "corredor_caimbra",
-          "rotulos": [
-            "TRAVOU",
-            "DÓI"
-          ],
-          "texto": "- CÂIMBRA → {vermelho:ESTRESSE FINANCEIRO}\n- FALTA DE ÁGUA → {laranja:FALTA DE RESERVA}\n- RITMO FORÇADO → {laranja:PADRÃO ACIMA DA RENDA}\n- CORREDOR TRAVADO → {vermelho:DECISÃO PIOR}"
-        },
-        {
-          "titulo": "O TREINO",
-          "desenho": "corredor",
-          "rotulos": [
-            "ALIVIA",
-            "MACHUCA"
-          ],
-          "texto": "- TREINO PLANEJADO → {verde:INVESTIMENTO QUE ALIVIA}\n- TREINO SEM ENTENDER → {vermelho:INVESTIMENTO QUE ESTRESSA}\n- META IRREAL → {vermelho:LESÃO}\n- TREINADOR AO LADO → {verde:ACOMPANHAMENTO}"
-        }
-      ],
-      "faixas": [
-        "{ciano:AFETA:} SAÚDE MENTAL · TRABALHO · RELACIONAMENTOS · QUALIDADE DE VIDA · {vermelho:DECISÕES}",
-        "{ciano:EM 2025:} 47% COM ESTRESSE ALTO · NO ALTO ESTRESSE, {vermelho:MAIS DÍVIDA} E MENOS POUPANÇA"
-      ],
-      "destaque": {
-        "texto": "{vermelho:ONDE QUEBRA:} CÂIMBRA É COISA DE MINUTOS · ESTRESSE FINANCEIRO, {laranja:DE ANOS}",
-        "cor": "branco",
-        "moldura": "vermelho"
-      }
-    },
-    {
-      "saida": "r9b_3_motivos-e-estratos.png",
-      "semente": 907,
-      "molde": "colunas",
-      "titulo": "MOTIVOS, INVESTIMENTOS E ESTRATOS",
-      "topo": "{ciano:8 MOTIVOS:} DÍVIDA · INFLAÇÃO · EMPREGO INSTÁVEL · RENDA BAIXA OU IRREGULAR · {vermelho:SEM RESERVA} · POUCO CONHECIMENTO · INCERTEZA · PRESSÃO DE PADRÃO",
-      "colunas": [
-        {
-          "titulo": "INVESTIMENTO: ALIVIA × PIORA",
-          "texto": "- {verde:ALIVIA:} DIVERSIFICADO, COM PLANO, RISCO ENTENDIDO\n- {verde:ALIVIA:} CARTEIRA NO PERFIL E RESERVA PARA IMPREVISTOS\n- {vermelho:PIORA:} PRODUTO INCOMPREENDIDO, VOLATILIDADE DEMAIS\n- {vermelho:PIORA:} RETORNO IRREAL, MEDO OU EUFORIA, SEM ORIENTAÇÃO"
-        },
-        {
-          "titulo": "CADA ESTRATO, UM ESTRESSE",
-          "texto": "- {ciano:BAIXA RENDA:} IMPREVISTO, POUCA MARGEM, {vermelho:INADIMPLÊNCIA}\n- {ciano:CLASSE MÉDIA:} PADRÃO DE VIDA, DESPESA FIXA, ESCOLA, SAÚDE, MORADIA\n- {ciano:ALTA RENDA:} PATRIMÔNIO, {laranja:STATUS}, SUCESSÃO E DIVERSIFICAÇÃO"
-        }
-      ],
-      "destaque": {
-        "texto": "{ciano:NA PROVA:} QUANTO {vermelho:MAIOR A VULNERABILIDADE}, MAIOR TENDE A SER O ESTRESSE · EDUCAÇÃO TRANSFORMA INVESTIMENTO EM {verde:TRANQUILIDADE}",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r9b_4_com-ou-sem-reserva.png",
-      "semente": 908,
-      "molde": "exercicio",
-      "titulo": "COM OU SEM RESERVA DE EMERGÊNCIA?",
-      "dados": "- IMPREVISTO DE {ciano:R$ 6.000} (CONSERTO, SAÚDE), HIPOTÉTICO\n- CHEQUE ESPECIAL A {vermelho:8% AO MÊS}: O TETO DA RES. CMN 4.765/2019\n- PRAZO: 6 MESES · SEM IMPOSTOS\n- 8% AO MÊS = {vermelho:151,82% AO ANO}\n- A ÚNICA DIFERENÇA: A RESERVA DE EMERGÊNCIA",
-      "cenarios": [
-        {
-          "titulo": "SEM RESERVA",
-          "passos": "PV −6.000 · i 8\nn 6 → FV\nJUROS: 3.521,25",
-          "resultado": "R$ 9.521,25"
-        },
-        {
-          "titulo": "COM RESERVA",
-          "passos": "PAGA À VISTA\nSEM JUROS\nREPÕE AOS POUCOS",
-          "resultado": "R$ 6.000"
-        }
-      ],
-      "conclusao": {
-        "texto": "A FALTA DE RESERVA CUSTOU {vermelho:R$ 3.521,25} EM 6 MESES · A RESERVA É O {verde:ANTÍDOTO} DO ESTRESSE",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r9c_1_mais-rentavel.png",
-      "semente": 909,
-      "molde": "mito_verdade",
-      "titulo": "É SÓ INDICAR O MAIS RENTÁVEL?",
-      "mitos": [
-        "PROFISSIONAL = VENDEDOR",
-        "RENTABILIDADE BASTA"
-      ],
-      "verdade": "VAI {verde:ALÉM DO PRODUTO}",
-      "desenho": "balanca",
-      "apoio": "- {ciano:RAIO X 2026:} {vermelho:21%} JÁ FIZERAM AULA, CURSO OU PALESTRA DE EDUCAÇÃO FINANCEIRA\n- INVESTIDORES: {verde:33%} · NÃO INVESTIDORES: {vermelho:14%} · CLASSE AB: 37%\n- QUEM ORIENTA NA HORA DE INVESTIR: GERENTE OU ASSESSOR 26% · AMIGOS E PARENTES 18%\n- {ciano:ADEQUAÇÃO AO PERFIL} É DEVER REGULATÓRIO (RES. CVM 30/2021, NA R21)\n- {ciano:RESPONSABILIDADE:} TÉCNICA, ÉTICA E EDUCACIONAL"
-    },
-    {
-      "saida": "r9c_2_treinador-certificado.png",
-      "semente": 910,
-      "molde": "comparacao",
-      "titulo": "O TREINADOR CERTIFICADO",
-      "colunas": [
-        {
-          "titulo": "ANTES DO TREINO",
-          "desenho": "prancheta",
-          "rotulos": [
-            "PERGUNTA",
-            "EXPLICA"
-          ],
-          "texto": "- OBJETIVO, PRAZO E LIMITE → {verde:PERFIL}\n- EXPLICA POR QUE DÓI → {verde:EDUCAÇÃO CONTÍNUA}\n- CORRIGE HÁBITO RUIM → {verde:CRENÇA EQUIVOCADA}"
-        },
-        {
-          "titulo": "O CÓDIGO DE CONDUTA",
-          "desenho": "balanca",
-          "rotulos": [
-            "SEM COMISSÃO",
-            "ÉTICA"
-          ],
-          "texto": "- NÃO EMPURRA O TÊNIS DA COMISSÃO → {verde:TRANSPARÊNCIA}\n- MELHOR INTERESSE DO ATLETA → {verde:DO CLIENTE}\n- DILIGÊNCIA, COMPETÊNCIA, HONESTIDADE, IMPARCIALIDADE"
-        }
-      ],
-      "faixas": [
-        "{ciano:QUEM CORRE É O ATLETA:} O PROFISSIONAL {verde:GUIA}, NÃO SUBSTITUI O CLIENTE",
-        "{ciano:DEVER REGULATÓRIO:} RECOMENDAR SÓ O {verde:ADEQUADO AO PERFIL} (RES. CVM 30/2021)"
-      ],
-      "destaque": {
-        "texto": "{vermelho:ONDE QUEBRA:} TREINADOR PODE AFASTAR O ATLETA · NA CARTEIRA, A DECISÃO {laranja:É DO CLIENTE}",
-        "cor": "branco",
-        "moldura": "vermelho"
-      }
-    },
-    {
-      "saida": "r9c_3_educar-e-responsabilidades.png",
-      "semente": 911,
-      "molde": "colunas",
-      "titulo": "EDUCAR E AS 4 RESPONSABILIDADES",
-      "topo": "{ciano:A EDUCAÇÃO FINANCEIRA FAZ O CLIENTE:} ENTENDER RISCO E RETORNO · SEPARAR {laranja:INVESTIMENTO DE ESPECULAÇÃO} · PLANEJAR · DECIDIR COM SEGURANÇA · TER DISCIPLINA",
-      "colunas": [
-        {
-          "titulo": "1 E 2 · ORIENTAR E EDUCAR",
-          "texto": "- {ciano:ORIENTAÇÃO:} OBJETIVO, PRAZO, TOLERÂNCIA AO RISCO\n- MOSTRAR {verde:ALTERNATIVAS, CUSTOS E CONSEQUÊNCIAS}\n- {ciano:EDUCAÇÃO:} VOLATILIDADE, RISCO, ESTRATÉGIA\n- REFLEXÃO E {verde:AUTONOMIA} DO CLIENTE"
-        },
-        {
-          "titulo": "3 E 4 · PROTEGER E AGIR COM ÉTICA",
-          "texto": "- {ciano:PROTEÇÃO:} {verde:MELHOR INTERESSE} DO CLIENTE, SEMPRE\n- AVISAR RISCOS E {laranja:CONFLITOS DE INTERESSE}\n- NADA DE RECOMENDAÇÃO {vermelho:POR COMISSÃO}\n- {ciano:ÉTICA:} DILIGÊNCIA, COMPETÊNCIA, HONESTIDADE, IMPARCIALIDADE, CLAREZA"
-        }
-      ],
-      "destaque": {
-        "texto": "{ciano:NA PROVA:} MAIS CONSCIÊNCIA FINANCEIRA = MENOS {vermelho:ERRO, IMPULSO E GOLPE} · EDUCAR {laranja:≠} VENDER",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r9c_4_comissao-ou-custo.png",
-      "semente": 912,
-      "molde": "exercicio",
-      "titulo": "A COMISSÃO OU O MENOR CUSTO?",
-      "dados": "- R$ 100.000 POR 10 ANOS, MESMA CARTEIRA, BRUTO DE {ciano:10% AO ANO} (HIPOTÉTICO)\n- LÍQUIDO = BRUTO − TAXA DE ADMINISTRAÇÃO · SEM IMPOSTOS\n- TAXAS: {vermelho:2% AO ANO} × {verde:0,5% AO ANO}\n- O CUSTO ENTRA TODO ANO E {laranja:SE COMPÕE}\n- A ÚNICA DIFERENÇA: A RECOMENDAÇÃO",
-      "cenarios": [
-        {
-          "titulo": "FUNDO DA COMISSÃO",
-          "passos": "LÍQUIDO: 8% AO ANO\nPV −100.000 · n 10\ni 8 → FV",
-          "resultado": "R$ 215.892,50"
-        },
-        {
-          "titulo": "MENOR CUSTO",
-          "passos": "LÍQUIDO: 9,5% AO ANO\nPV −100.000 · n 10\ni 9,5 → FV",
-          "resultado": "R$ 247.822,76"
-        }
-      ],
-      "conclusao": {
-        "texto": "CONFLITO DE INTERESSE: {vermelho:R$ 31.930,26} A MENOS PARA O CLIENTE · MOSTRAR {verde:ALTERNATIVAS E CUSTOS} É DEVER",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r9d_1_todo-mundo-ganha.png",
-      "semente": 913,
-      "molde": "mito_verdade",
-      "titulo": "SE TODO MUNDO GANHA, É SEGURO?",
-      "mitos": [
-        "MUITA GENTE INDICA",
-        "O AMIGO JÁ RECEBEU"
-      ],
-      "verdade": "RETORNO {vermelho:ALTO E GARANTIDO} = {laranja:ALERTA}",
-      "desenho": "placa",
-      "apoio": "- {ciano:GAS CONSULTORIA:} PROMESSA DE {vermelho:10% AO MÊS} EM BITCOIN, SEGUNDO O MPF\n- {ciano:25/08/2021:} PRISÃO DO DONO NA OPERAÇÃO KRYPTOS (PF E RECEITA FEDERAL)\n- ACUSAÇÃO: {vermelho:PIRÂMIDE FINANCEIRA}\n- PIRÂMIDE: QUEM ENTRA DEPOIS {vermelho:PAGA} QUEM ENTROU ANTES"
-    },
-    {
-      "saida": "r9d_2_arquibancada-buracos.png",
-      "semente": 914,
-      "molde": "comparacao",
-      "titulo": "A ARQUIBANCADA E OS BURACOS",
-      "colunas": [
-        {
-          "titulo": "A VOZ DA ARQUIBANCADA",
-          "desenho": "megafone",
-          "rotulos": [
-            "ANIMA",
-            "NÃO TE CONHECE"
-          ],
-          "texto": "- VOZ PARA TODOS → {verde:ALCANCE MASSIVO}\n- DICA SIMPLES → {verde:LINGUAGEM ACESSÍVEL}\n- NÃO VÊ O SEU TREINO → {vermelho:NÃO PERSONALIZA}"
-        },
-        {
-          "titulo": "OS BURACOS DA PISTA",
-          "desenho": "pista_buracos",
-          "rotulos": [
-            "ATALHO",
-            "SEM GUIA"
-          ],
-          "texto": "- ATALHO QUE PROMETE CHEGAR ANTES → {vermelho:PIRÂMIDE}\n- BURACO ESCONDIDO → {vermelho:RISCO SUBESTIMADO}\n- APOSTA DISFARÇADA DE TREINO → {vermelho:BET}"
-        }
-      ],
-      "faixas": [
-        "{ciano:ANBIMA:} MANUAL DE MELHORES PRÁTICAS PARA FINFLUENCERS · OPINIÃO {laranja:≠} RECOMENDAÇÃO"
-      ],
-      "destaque": {
-        "texto": "{vermelho:ONDE QUEBRA:} NA CORRIDA, A ARQUIBANCADA NÃO LUCRA COM O TROPEÇO · NO MERCADO, {laranja:PODE HAVER} QUEM LUCRE",
-        "cor": "branco",
-        "moldura": "vermelho"
-      }
-    },
-    {
-      "saida": "r9d_3_finfluencers-e-riscos.png",
-      "semente": 915,
-      "molde": "colunas",
-      "titulo": "FINFLUENCERS E OS 6 RISCOS",
-      "topo": "{ciano:FINFLUENCERS AJUDAM A:} DESPERTAR INTERESSE · EXPLICAR O BÁSICO · {verde:BAIXAR A BARREIRA DE ENTRADA} · CRIAR O HÁBITO DE POUPAR",
-      "colunas": [
-        {
-          "titulo": "ONDE NÃO SUBSTITUEM",
-          "texto": "- SUCESSÃO E PLANO TRIBUTÁRIO → {laranja:CASO COMPLEXO}\n- CARTEIRA DE MILHÕES → {laranja:GESTÃO DO PATRIMÔNIO}\n- ALAVANCAGEM, DERIVATIVOS → {vermelho:RISCO ALTO}\n- O SEU OBJETIVO E PRAZO → {laranja:SOB MEDIDA}\n- NA PESQUISA, INFLUENCIADORES ORIENTAM {laranja:6%} DOS INVESTIDORES; {laranja:11%} NA GERAÇÃO Z"
-        },
-        {
-          "titulo": "OS 6 RISCOS → GATILHO",
-          "texto": "- EXCESSO DE INFORMAÇÃO → {laranja:MANCHETE VIRA DECISÃO}\n- RETORNO RÁPIDO → {vermelho:GANÂNCIA, EUFORIA, EXCESSO DE CONFIANÇA}\n- RISCO SUBESTIMADO · EMOÇÃO · APOSTA ≠ INVESTIMENTO\n- SEM ORIENTAÇÃO → {vermelho:ABANDONO DA ESTRATÉGIA}"
-        }
-      ],
-      "destaque": {
-        "texto": "{ciano:NA PROVA:} ANÁLISE DE VALORES MOBILIÁRIOS É PRIVATIVA DE {verde:ANALISTA CREDENCIADO} (RES. CVM 20/2021, ART. 2º)",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r9d_4_promessa-ou-realidade.png",
-      "semente": 916,
-      "molde": "exercicio",
-      "titulo": "10% AO MÊS OU 1% AO MÊS?",
-      "dados": "- R$ 10.000 POR 12 MESES · SEM IMPOSTOS (HIPOTÉTICO)\n- PROMESSA: {vermelho:10% AO MÊS, FIXOS}, NUM ATIVO QUE OSCILA\n- REFERÊNCIA: {verde:1% AO MÊS}\n- TAXA ANUAL = (1 + TAXA MENSAL)^12 − 1\n- A ÚNICA DIFERENÇA: A TAXA",
-      "cenarios": [
-        {
-          "titulo": "A PROMESSA",
-          "passos": "1,10^12 − 1\n= 213,84% AO ANO\nPV −10.000 · n 12",
-          "resultado": "R$ 31.384,28"
-        },
-        {
-          "titulo": "1% AO MÊS",
-          "passos": "1,01^12 − 1\n= 12,68% AO ANO\nPV −10.000 · n 12",
-          "resultado": "R$ 11.268,25"
-        }
-      ],
-      "conclusao": {
-        "texto": "A PROMESSA É {vermelho:16,9 VEZES} MAIOR EM TAXA ANUAL · RENTABILIDADE FIXA EM MERCADO VOLÁTIL {vermelho:NÃO É SUSTENTÁVEL}",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
+     "titulo": "QUEM TREINA TARDE",
+     "desenho": "ampulheta",
+     "rotulos": [
+      "POUCO TEMPO",
+      "ESFORÇO"
+     ],
+     "texto": "- POUCAS SEMANAS → {vermelho:POUCOS ANOS DE APORTE}\n- TREINO PESADO → {vermelho:APORTE MENSAL ALTO}\n- MENOS TEMPO DE JUROS → {vermelho:MAIS DO PRÓPRIO BOLSO}\n- RISCO DE NÃO CHEGAR → {vermelho:RENDA MENOR}"
     }
-  ]
+   ],
+   "faixas": [
+    "{ciano:FRASE PARA O CLIENTE:} APOSENTADORIA É MARATONA, NÃO CORRIDA DE 100 METROS",
+    "{ciano:INSS:} ISSO NÃO SERÁ SUFICIENTE, SE FOR O ÚNICO PLANO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} A MARATONA TEM 42 KM · A APOSENTADORIA {laranja:NÃO TEM DISTÂNCIA CONHECIDA}: LONGEVIDADE",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r9a_3_aposentadoria-reserva.png",
+   "semente": 9202,
+   "titulo": "APOSENTADORIA E RESERVA",
+   "topo": "{ciano:3 FATORES:} MAIS {laranja:LONGEVIDADE} · REGRAS PREVIDENCIÁRIAS QUE {laranja:MUDAM} · POUCA EDUCAÇÃO FINANCEIRA → MUITOS {vermelho:NÃO SE PREPARAM}",
+   "colunas": [
+    {
+     "titulo": "A APOSENTADORIA",
+     "texto": "- {ciano:O QUE É:} O TRABALHO DEIXA DE SER A RENDA PRINCIPAL\n- PLANEJAR = {verde:INDEPENDÊNCIA} E PADRÃO DE VIDA\n- SEM DEPENDER DA FAMÍLIA · MENOS ANSIEDADE\n- {ciano:PROJETO DE VIDA:} PLANEJAMENTO, TEMPO, CONSISTÊNCIA"
+    },
+    {
+     "titulo": "A RESERVA DE LONGO PRAZO",
+     "texto": "- {ciano:5 PONTOS:} APORTE · DISCIPLINA · PRODUTO · INFLAÇÃO · RISCO\n- PREVIDÊNCIA, RENDA FIXA, {laranja:ATIVOS FINANCEIROS E REAIS}\n- INFLAÇÃO: EX., TÍTULO {verde:IPCA + JUROS}\n- RISCO CONFORME A IDADE → {laranja:CICLO DE VIDA}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} TEMPO + JUROS = {verde:CRESCIMENTO EXPONENCIAL} · LONGO PRAZO {vermelho:≠} EMERGÊNCIA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r9a_4_treinar-cedo-ou-tarde.png",
+   "semente": 9203,
+   "titulo": "TREINAR CEDO OU TARDE?",
+   "dados": "- META: {ciano:R$ 1.000.000} EM VALORES DE HOJE (HIPOTÉTICO)\n- TAXA REAL DE {laranja:0,5% AO MÊS} · APORTE NO FIM DO MÊS\n- SEM IMPOSTOS NEM TAXAS DA PREVIDÊNCIA\n- TETO DO INSS EM 2026: {laranja:R$ 8.475,55}\n- A ÚNICA DIFERENÇA: QUANDO COMEÇA",
+   "cenarios": [
+    {
+     "titulo": "CORREDORA A",
+     "passos": "35 ANOS = 420 MESES\nFV 1.000.000 · i 0,5\nn 420 → PMT",
+     "resultado": "R$ 701,90/MÊS"
+    },
+    {
+     "titulo": "CORREDOR B",
+     "passos": "20 ANOS = 240 MESES\nFV 1.000.000 · i 0,5\nn 240 → PMT",
+     "resultado": "R$ 2.164,31/MÊS"
+    }
+   ],
+   "conclusao": {
+    "texto": "LARGAR 15 ANOS DEPOIS = APORTE {vermelho:3,08 VEZES} MAIOR · R$ 1 MILHÃO A 0,5% RENDE {laranja:R$ 5.000/MÊS} DE JUROS REAIS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r9b_1_uma-fonte-basta.png",
+   "semente": 9211,
+   "titulo": "UMA FONTE DE RENDA BASTA?",
+   "mitos": [
+    "SÓ O INSS RESOLVE",
+    "UMA FONTE BOA BASTA"
+   ],
+   "verdade": "{verde:VÁRIAS} FONTES, {laranja:COMBINADAS}",
+   "desenho": "posto_hidratacao",
+   "apoio": "- {ciano:TETO DO INSS EM 2026:} {laranja:R$ 8.475,55} POR MÊS (PORTARIA INTERMINISTERIAL MPS/MF 13, ART. 2º)\n- {laranja:60%} DOS NÃO APOSENTADOS ESPERAM VIVER DA PREVIDÊNCIA PÚBLICA\n- {ciano:RAIO X 9ª EDIÇÃO (ABR/2026):} {vermelho:93%} DOS APOSENTADOS DEPENDEM DO INSS\n- NA CLASSE AB: 50% CONTAM COM O INSS, MAS {vermelho:91%} DOS APOSENTADOS DEPENDEM DELE\n- {ciano:REGRA:} O PLANEJADOR MONTA UM {verde:FLUXO SUSTENTÁVEL}"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r9b_2_postos-hidratacao.png",
+   "semente": 9212,
+   "titulo": "OS POSTOS DE HIDRATAÇÃO",
+   "colunas": [
+    {
+     "titulo": "VÁRIOS POSTOS",
+     "desenho": "posto_hidratacao",
+     "rotulos": [
+      "VÁRIOS",
+      "COMBINADOS"
+     ],
+     "texto": "- POSTO 1 → {laranja:INSS} (COM TETO)\n- POSTO 2 → {laranja:PREVIDÊNCIA COMPLEMENTAR}\n- POSTO 3 → {laranja:INVESTIMENTOS FINANCEIROS}\n- POSTO 4 → {laranja:ATIVOS REAIS}"
+    },
+    {
+     "titulo": "UM POSTO SÓ",
+     "desenho": "corredor_caimbra",
+     "rotulos": [
+      "SEDE",
+      "SEM PLANO B"
+     ],
+     "texto": "- POSTO QUE FALHA → {vermelho:RENDA INTERROMPIDA}\n- POUCA ÁGUA → {vermelho:RENDA ABAIXO DO PADRÃO}\n- SÓ O INSS → {vermelho:LIMITADO AO TETO}\n- NENHUM OUTRO → {vermelho:DEPENDER DA FAMÍLIA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:INSS:} ISSO NÃO SERÁ SUFICIENTE, SE FOR O ÚNICO POSTO",
+    "{ciano:CADA POSTO, UMA REGRA:} REAJUSTE DO GOVERNO · RENDA VITALÍCIA · RENDIMENTO QUE VARIA · ALUGUEL"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA PROVA, A ÁGUA É IGUAL E GRÁTIS · NA APOSENTADORIA, CADA FONTE TEM {laranja:REGRA, RISCO E IMPOSTO}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r9b_3_quatro-fontes.png",
+   "semente": 9213,
+   "titulo": "AS 4 FONTES DE RENDA",
+   "topo": "{ciano:O PAPEL DO PLANEJADOR:} {laranja:COMBINAR} AS FONTES EM UM {verde:FLUXO SUSTENTÁVEL} · NÃO DEPENDER DE UMA SÓ",
+   "colunas": [
+    {
+     "titulo": "PREVIDÊNCIA PÚBLICA E COMPLEMENTAR",
+     "texto": "- {ciano:INSS:} BENEFÍCIO MENSAL · REAJUSTE PELO GOVERNO\n- TETO DE {laranja:R$ 8.475,55} EM 2026\n- {ciano:COMPLEMENTAR:} PGBL · VGBL · FUNDO DE PENSÃO\n- RECEBE COMO {verde:RENDA VITALÍCIA} OU RESGATES PERIÓDICOS"
+    },
+    {
+     "titulo": "INVESTIMENTOS E ATIVOS REAIS",
+     "texto": "- {ciano:FINANCEIROS:} RENDA FIXA, AÇÕES, FII, DIVIDENDOS, FUNDOS\n- {ciano:REAIS:} ALUGUEL, PROPRIEDADE RURAL, NEGÓCIO PRÓPRIO\n- {ciano:PARTICIPAÇÕES:} EMPRESA, {laranja:ROYALTIES}, LICENÇAS\n- ACIMA DO TETO: A DIFERENÇA VEM {verde:DAS OUTRAS FONTES}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} SÃO {laranja:4 FONTES} · O IDEAL É {verde:COMBINAR} · PREVIDÊNCIA COMPLEMENTAR {vermelho:≠} PREVIDÊNCIA PÚBLICA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r9b_4_so-inss-ou-reserva.png",
+   "semente": 904,
+   "molde": "exercicio",
+   "titulo": "SÓ O INSS OU INSS + RESERVA?",
+   "dados": "- RENDA NA ATIVA: {ciano:R$ 15.000} POR MÊS (HIPOTÉTICO)\n- INSS NO TETO DE 2026: {laranja:R$ 8.475,55} (O MÁXIMO POSSÍVEL)\n- TAXA REAL DE 0,5% AO MÊS · SEM IMPOSTOS · 25 ANOS DE APOSENTADORIA\n- APORTES DURANTE 30 ANOS, NO FIM DE CADA MÊS\n- A ÚNICA DIFERENÇA: O NÚMERO DE FONTES",
+   "cenarios": [
+    {
+     "titulo": "SÓ O INSS",
+     "passos": "15.000 − 8.475,55\n= 6.524,45 A MENOS\nQUEDA DE 43,50%",
+     "resultado": "R$ 8.475,55/MÊS"
+    },
+    {
+     "titulo": "INSS + RESERVA",
+     "passos": "RESERVA: R$ 1.012.639\nPMT 6.524,45 · 300 MESES\nAPORTE POR 30 ANOS",
+     "resultado": "R$ 1.008,09/MÊS"
+    }
+   ],
+   "conclusao": {
+    "texto": "COM {verde:R$ 1.008,09 POR MÊS} DURANTE 30 ANOS, A RENDA DE R$ 15.000 SE MANTÉM · {laranja:O TEMPO} FAZ A MAIOR PARTE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r9c_1_so-quem-ganha-pouco.png",
+   "semente": 905,
+   "molde": "mito_verdade",
+   "titulo": "ESTRESSE É SÓ DE QUEM GANHA POUCO?",
+   "mitos": [
+    "RICO NÃO SE ESTRESSA",
+    "DINHEIRO RESOLVE TUDO"
+   ],
+   "verdade": "O ESTRESSE {laranja:MUDA DE FORMA}",
+   "desenho": "grafico_baixa",
+   "apoio": "- {ciano:ÍNDICE DE ESTRESSE (RAIO X 2026):} ALTO {vermelho:47%} · MÉDIO {laranja:48%} · BAIXO {verde:5%}\n- NO ALTO ESTRESSE: MULHERES 53% · CLASSE DE 39% · GERAÇÃO X 37%\n- PREOCUPAÇÕES: AUMENTAR A RENDA 84% · CONTROLAR AS FINANÇAS 82%\n- O ALTO ESTRESSE ANDA COM {vermelho:MAIS DÍVIDA} E MENOS POUPANÇA"
+  },
+  {
+   "saida": "r9c_2_caimbra.png",
+   "semente": 906,
+   "molde": "comparacao",
+   "titulo": "A CÂIMBRA NO MEIO DA PISTA",
+   "colunas": [
+    {
+     "titulo": "O CORREDOR TRAVADO",
+     "desenho": "corredor_caimbra",
+     "rotulos": [
+      "TRAVOU",
+      "DÓI"
+     ],
+     "texto": "- CÂIMBRA → {vermelho:ESTRESSE FINANCEIRO}\n- FALTA DE ÁGUA → {laranja:FALTA DE RESERVA}\n- RITMO FORÇADO → {laranja:PADRÃO ACIMA DA RENDA}\n- CORREDOR TRAVADO → {vermelho:DECISÃO PIOR}"
+    },
+    {
+     "titulo": "O TREINO",
+     "desenho": "corredor",
+     "rotulos": [
+      "ALIVIA",
+      "MACHUCA"
+     ],
+     "texto": "- TREINO PLANEJADO → {verde:INVESTIMENTO QUE ALIVIA}\n- TREINO SEM ENTENDER → {vermelho:INVESTIMENTO QUE ESTRESSA}\n- META IRREAL → {vermelho:LESÃO}\n- TREINADOR AO LADO → {verde:ACOMPANHAMENTO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:AFETA:} SAÚDE MENTAL · TRABALHO · RELACIONAMENTOS · QUALIDADE DE VIDA · {vermelho:DECISÕES}",
+    "{ciano:NA VIDA REAL:} ANSIEDADE E INSÔNIA · BRIGA EM FAMÍLIA · QUEDA DE PRODUTIVIDADE · {vermelho:DECISÃO IMPULSIVA}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} CÂIMBRA É COISA DE MINUTOS · ESTRESSE FINANCEIRO, {laranja:DE ANOS}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r9c_3_motivos-e-estratos.png",
+   "semente": 907,
+   "molde": "colunas",
+   "titulo": "MOTIVOS, INVESTIMENTOS E ESTRATOS",
+   "topo": "{ciano:8 MOTIVOS:} DÍVIDA · INFLAÇÃO · EMPREGO INSTÁVEL · RENDA BAIXA OU IRREGULAR · {vermelho:SEM RESERVA} · POUCO CONHECIMENTO · INCERTEZA · PRESSÃO DE PADRÃO",
+   "colunas": [
+    {
+     "titulo": "INVESTIMENTO: ALIVIA × PIORA",
+     "texto": "- {verde:ALIVIA:} DIVERSIFICADO, COM PLANO, RISCO ENTENDIDO\n- {verde:ALIVIA:} CARTEIRA NO PERFIL E RESERVA PARA IMPREVISTOS\n- {vermelho:PIORA:} PRODUTO INCOMPREENDIDO, VOLATILIDADE DEMAIS\n- {vermelho:PIORA:} RETORNO IRREAL, MEDO OU EUFORIA, SEM ORIENTAÇÃO"
+    },
+    {
+     "titulo": "CADA ESTRATO, UM ESTRESSE",
+     "texto": "- {ciano:BAIXA RENDA:} IMPREVISTO, POUCA MARGEM, {vermelho:INADIMPLÊNCIA}\n- {ciano:CLASSE MÉDIA:} PADRÃO DE VIDA, DESPESA FIXA, ESCOLA, SAÚDE, MORADIA\n- {ciano:ALTA RENDA:} PATRIMÔNIO, {laranja:STATUS}, SUCESSÃO E DIVERSIFICAÇÃO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:PARADOXO:} QUEM INVESTE SENTE {verde:CONTROLE}; O INICIANTE SOFRE COM A {vermelho:OSCILAÇÃO} · MAIS VULNERABILIDADE, {vermelho:MAIS ESTRESSE}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r9c_4_com-ou-sem-reserva.png",
+   "semente": 908,
+   "molde": "exercicio",
+   "titulo": "COM OU SEM RESERVA DE EMERGÊNCIA?",
+   "dados": "- IMPREVISTO DE {ciano:R$ 6.000} (CONSERTO, SAÚDE), HIPOTÉTICO\n- CHEQUE ESPECIAL A {vermelho:8% AO MÊS}: O TETO DA RES. CMN 4.765/2019\n- PRAZO: 6 MESES · SEM IMPOSTOS\n- 8% AO MÊS = {vermelho:151,82% AO ANO}\n- A ÚNICA DIFERENÇA: A RESERVA DE EMERGÊNCIA",
+   "cenarios": [
+    {
+     "titulo": "SEM RESERVA",
+     "passos": "PV −6.000 · i 8\nn 6 → FV\nJUROS: 3.521,25",
+     "resultado": "R$ 9.521,25"
+    },
+    {
+     "titulo": "COM RESERVA",
+     "passos": "PAGA À VISTA\nSEM JUROS\nREPÕE AOS POUCOS",
+     "resultado": "R$ 6.000"
+    }
+   ],
+   "conclusao": {
+    "texto": "A FALTA DE RESERVA CUSTOU {vermelho:R$ 3.521,25} EM 6 MESES · A RESERVA É O {verde:ANTÍDOTO} DO ESTRESSE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r9d_1_mais-rentavel.png",
+   "semente": 909,
+   "molde": "mito_verdade",
+   "titulo": "É SÓ INDICAR O MAIS RENTÁVEL?",
+   "mitos": [
+    "PROFISSIONAL = VENDEDOR",
+    "RENTABILIDADE BASTA"
+   ],
+   "verdade": "VAI {verde:ALÉM DO PRODUTO}",
+   "desenho": "balanca",
+   "apoio": "- {ciano:RAIO X 2026:} {vermelho:21%} JÁ FIZERAM AULA, CURSO OU PALESTRA DE EDUCAÇÃO FINANCEIRA\n- INVESTIDORES: {verde:33%} · NÃO INVESTIDORES: {vermelho:14%} · CLASSE AB: 37%\n- QUEM ORIENTA NA HORA DE INVESTIR: GERENTE OU ASSESSOR 26% · AMIGOS E PARENTES 18%\n- {ciano:ADEQUAÇÃO AO PERFIL} É DEVER REGULATÓRIO (RES. CVM 30/2021, NA R21)\n- {ciano:RESPONSABILIDADE:} TÉCNICA, ÉTICA E EDUCACIONAL"
+  },
+  {
+   "saida": "r9d_2_treinador-certificado.png",
+   "semente": 910,
+   "molde": "comparacao",
+   "titulo": "O TREINADOR CERTIFICADO",
+   "colunas": [
+    {
+     "titulo": "ANTES DO TREINO",
+     "desenho": "prancheta",
+     "rotulos": [
+      "PERGUNTA",
+      "EXPLICA"
+     ],
+     "texto": "- OBJETIVO, PRAZO E LIMITE → {verde:PERFIL}\n- EXPLICA POR QUE DÓI → {verde:EDUCAÇÃO CONTÍNUA}\n- CORRIGE HÁBITO RUIM → {verde:CRENÇA EQUIVOCADA}"
+    },
+    {
+     "titulo": "O CÓDIGO DE CONDUTA",
+     "desenho": "balanca",
+     "rotulos": [
+      "SEM COMISSÃO",
+      "ÉTICA"
+     ],
+     "texto": "- NÃO EMPURRA O TÊNIS DA COMISSÃO → {verde:TRANSPARÊNCIA}\n- MELHOR INTERESSE DO ATLETA → {verde:DO CLIENTE}\n- DILIGÊNCIA, COMPETÊNCIA, HONESTIDADE, IMPARCIALIDADE"
+    }
+   ],
+   "faixas": [
+    "{ciano:QUEM CORRE É O ATLETA:} O PROFISSIONAL {verde:GUIA}, NÃO SUBSTITUI O CLIENTE",
+    "{ciano:DEVER REGULATÓRIO:} RECOMENDAR SÓ O {verde:ADEQUADO AO PERFIL} (RES. CVM 30/2021)"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} TREINADOR PODE AFASTAR O ATLETA · NA CARTEIRA, A DECISÃO {laranja:É DO CLIENTE}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r9d_3_educar-e-responsabilidades.png",
+   "semente": 911,
+   "molde": "colunas",
+   "titulo": "EDUCAR E AS 4 RESPONSABILIDADES",
+   "topo": "{ciano:A EDUCAÇÃO FINANCEIRA FAZ O CLIENTE:} ENTENDER RISCO E RETORNO · SEPARAR {laranja:INVESTIMENTO DE ESPECULAÇÃO} · PLANEJAR · DECIDIR COM SEGURANÇA · TER DISCIPLINA",
+   "colunas": [
+    {
+     "titulo": "1 E 2 · ORIENTAR E EDUCAR",
+     "texto": "- {ciano:ORIENTAÇÃO:} OBJETIVO, PRAZO, TOLERÂNCIA AO RISCO\n- MOSTRAR {verde:ALTERNATIVAS, CUSTOS E CONSEQUÊNCIAS}\n- {ciano:EDUCAÇÃO:} VOLATILIDADE, RISCO, ESTRATÉGIA\n- REFLEXÃO E {verde:AUTONOMIA} DO CLIENTE"
+    },
+    {
+     "titulo": "3 E 4 · PROTEGER E AGIR COM ÉTICA",
+     "texto": "- {ciano:PROTEÇÃO:} {verde:MELHOR INTERESSE} DO CLIENTE, SEMPRE\n- AVISAR RISCOS E {laranja:CONFLITOS DE INTERESSE}\n- NADA DE RECOMENDAÇÃO {vermelho:POR COMISSÃO}\n- {ciano:ÉTICA:} DILIGÊNCIA, COMPETÊNCIA, HONESTIDADE, IMPARCIALIDADE, CLAREZA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} MAIS CONSCIÊNCIA = MENOS {vermelho:ERRO, IMPULSO E GOLPE} · INVESTIR NÃO É {laranja:APOSTA NEM COISA DE RICO} · EDUCAR {laranja:≠} VENDER",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r9d_4_comissao-ou-custo.png",
+   "semente": 912,
+   "molde": "exercicio",
+   "titulo": "A COMISSÃO OU O MENOR CUSTO?",
+   "dados": "- R$ 100.000 POR 10 ANOS, MESMA CARTEIRA, BRUTO DE {ciano:10% AO ANO} (HIPOTÉTICO)\n- LÍQUIDO = BRUTO − TAXA DE ADMINISTRAÇÃO · SEM IMPOSTOS\n- TAXAS: {vermelho:2% AO ANO} × {verde:0,5% AO ANO}\n- O CUSTO ENTRA TODO ANO E {laranja:SE COMPÕE}\n- A ÚNICA DIFERENÇA: A RECOMENDAÇÃO",
+   "cenarios": [
+    {
+     "titulo": "FUNDO DA COMISSÃO",
+     "passos": "LÍQUIDO: 8% AO ANO\nPV −100.000 · n 10\ni 8 → FV",
+     "resultado": "R$ 215.892,50"
+    },
+    {
+     "titulo": "MENOR CUSTO",
+     "passos": "LÍQUIDO: 9,5% AO ANO\nPV −100.000 · n 10\ni 9,5 → FV",
+     "resultado": "R$ 247.822,76"
+    }
+   ],
+   "conclusao": {
+    "texto": "CONFLITO DE INTERESSE: {vermelho:R$ 31.930,26} A MENOS PARA O CLIENTE · MOSTRAR {verde:ALTERNATIVAS E CUSTOS} É DEVER",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r9e_1_todo-mundo-ganha.png",
+   "semente": 913,
+   "molde": "mito_verdade",
+   "titulo": "SE TODO MUNDO GANHA, É SEGURO?",
+   "mitos": [
+    "MUITA GENTE INDICA",
+    "O AMIGO JÁ RECEBEU"
+   ],
+   "verdade": "RETORNO {vermelho:ALTO E GARANTIDO} = {laranja:ALERTA}",
+   "desenho": "placa",
+   "apoio": "- {ciano:GAS CONSULTORIA:} PROMESSA DE {vermelho:10% AO MÊS} EM BITCOIN, SEGUNDO O MPF\n- {ciano:25/08/2021:} PRISÃO DO DONO NA OPERAÇÃO KRYPTOS (PF E RECEITA FEDERAL)\n- ACUSAÇÃO: {vermelho:PIRÂMIDE FINANCEIRA}\n- PIRÂMIDE: QUEM ENTRA DEPOIS {vermelho:PAGA} QUEM ENTROU ANTES"
+  },
+  {
+   "saida": "r9e_2_arquibancada-buracos.png",
+   "semente": 914,
+   "molde": "comparacao",
+   "titulo": "A ARQUIBANCADA E OS BURACOS",
+   "colunas": [
+    {
+     "titulo": "A VOZ DA ARQUIBANCADA",
+     "desenho": "megafone",
+     "rotulos": [
+      "ANIMA",
+      "NÃO TE CONHECE"
+     ],
+     "texto": "- VOZ PARA TODOS → {verde:ALCANCE MASSIVO}\n- DICA SIMPLES → {verde:LINGUAGEM ACESSÍVEL}\n- NÃO VÊ O SEU TREINO → {vermelho:NÃO PERSONALIZA}"
+    },
+    {
+     "titulo": "OS BURACOS DA PISTA",
+     "desenho": "pista_buracos",
+     "rotulos": [
+      "ATALHO",
+      "SEM GUIA"
+     ],
+     "texto": "- ATALHO QUE PROMETE CHEGAR ANTES → {vermelho:PIRÂMIDE}\n- BURACO ESCONDIDO → {vermelho:RISCO SUBESTIMADO}\n- APOSTA DISFARÇADA DE TREINO → {vermelho:BET}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ANBIMA:} MANUAL DE MELHORES PRÁTICAS PARA FINFLUENCERS · OPINIÃO {laranja:≠} RECOMENDAÇÃO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA CORRIDA, A ARQUIBANCADA NÃO LUCRA COM O TROPEÇO · NO MERCADO, {laranja:PODE HAVER} QUEM LUCRE",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r9e_3_finfluencers-e-riscos.png",
+   "semente": 915,
+   "molde": "colunas",
+   "titulo": "FINFLUENCERS E OS 6 RISCOS",
+   "topo": "{ciano:FINFLUENCERS AJUDAM A:} DESPERTAR INTERESSE · EXPLICAR O BÁSICO · {verde:BAIXAR A BARREIRA DE ENTRADA} · CRIAR O HÁBITO DE POUPAR",
+   "colunas": [
+    {
+     "titulo": "ONDE NÃO SUBSTITUEM",
+     "texto": "- SUCESSÃO E PLANO TRIBUTÁRIO → {laranja:CASO COMPLEXO}\n- CARTEIRA DE MILHÕES → {laranja:GESTÃO DO PATRIMÔNIO}\n- ALAVANCAGEM, DERIVATIVOS → {vermelho:RISCO ALTO}\n- O SEU OBJETIVO E PRAZO → {laranja:SOB MEDIDA}\n- NA PESQUISA, INFLUENCIADORES ORIENTAM {laranja:6%} DOS INVESTIDORES; {laranja:11%} NA GERAÇÃO Z"
+    },
+    {
+     "titulo": "OS 6 RISCOS → GATILHO",
+     "texto": "- EXCESSO DE INFORMAÇÃO → {laranja:MANCHETE VIRA DECISÃO}\n- RETORNO RÁPIDO → {vermelho:GANÂNCIA, EUFORIA, EXCESSO DE CONFIANÇA}\n- RISCO SUBESTIMADO · EMOÇÃO · APOSTA ≠ INVESTIMENTO\n- SEM ORIENTAÇÃO → {vermelho:ABANDONO DA ESTRATÉGIA}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} ANÁLISE DE VALORES MOBILIÁRIOS É PRIVATIVA DE {verde:ANALISTA CREDENCIADO} (RES. CVM 20/2021, ART. 2º)",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r9e_4_promessa-ou-realidade.png",
+   "semente": 916,
+   "molde": "exercicio",
+   "titulo": "10% AO MÊS OU 1% AO MÊS?",
+   "dados": "- R$ 10.000 POR 12 MESES · SEM IMPOSTOS (HIPOTÉTICO)\n- PROMESSA: {vermelho:10% AO MÊS, FIXOS}, NUM ATIVO QUE OSCILA\n- REFERÊNCIA: {verde:1% AO MÊS}\n- TAXA ANUAL = (1 + TAXA MENSAL)^12 − 1\n- A ÚNICA DIFERENÇA: A TAXA",
+   "cenarios": [
+    {
+     "titulo": "A PROMESSA",
+     "passos": "1,10^12 − 1\n= 213,84% AO ANO\nPV −10.000 · n 12",
+     "resultado": "R$ 31.384,28"
+    },
+    {
+     "titulo": "1% AO MÊS",
+     "passos": "1,01^12 − 1\n= 12,68% AO ANO\nPV −10.000 · n 12",
+     "resultado": "R$ 11.268,25"
+    }
+   ],
+   "conclusao": {
+    "texto": "PROMESSA {vermelho:16,9 VEZES} MAIOR: {vermelho:INSUSTENTÁVEL} · 5 PEGADINHAS (FALSAS): RESERVA TARDE · FONTE ÚNICA · RICO SEM ESTRESSE · TODO INVESTIMENTO ALIVIA · FINFLUENCER SUBSTITUI",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
 }
