@@ -1,0 +1,492 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "molde": "mito_verdade",
+   "saida": "r32a_1_filosofia-melhor.png",
+   "semente": 3201,
+   "titulo": "EXISTE A FILOSOFIA MELHOR?",
+   "mitos": [
+    "SÓ O DAY TRADE DÁ DINHEIRO",
+    "UM ESTILO SERVE A TODOS"
+   ],
+   "verdade": "EXISTE A {verde:MAIS ADEQUADA}",
+   "desenho": {
+    "nome": "corredor",
+    "largura": 110
+   },
+   "apoio": "- {ciano:FGV, \"DAY TRADING FOR A LIVING?\" (2019):} MINI-ÍNDICE, INÍCIO ENTRE 2013 E 2015\n- 1.551 PESSOAS PERSISTIRAM MAIS DE 300 PREGÕES: {vermelho:97%} PERDERAM\n- O ESTUDO VALE PARA QUEM PERSISTIU, NÃO PARA TODO DAY TRADER\n- {ciano:4 FATORES:} HORIZONTE · CONHECIMENTO · TEMPO · TOLERÂNCIA AO RISCO\n- {ciano:REGRA:} A FILOSOFIA SEGUE O PERFIL, NÃO A MODA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r32a_2_tres-corridas.png",
+   "semente": 3202,
+   "titulo": "AS TRÊS CORRIDAS",
+   "colunas": [
+    {
+     "titulo": "100 M E 10 KM",
+     "desenho": "corredor",
+     "rotulos": [
+      "SEGUNDOS",
+      "DIAS"
+     ],
+     "texto": "- VELOCISTA → {vermelho:DAY TRADE}\n- ERRO CUSTA A PROVA → {vermelho:ALAVANCAGEM}\n- CORREDOR DE 10 KM → {laranja:SWING TRADE}\n- MUITAS LARGADAS → {laranja:MUITO GIRO}\n- 1.551 PERSISTENTES → {vermelho:97% NO PREJUÍZO}"
+    },
+    {
+     "titulo": "A MARATONA",
+     "desenho": "ampulheta",
+     "rotulos": [
+      "ANOS",
+      "CONSTÂNCIA"
+     ],
+     "texto": "- MARATONISTA → {verde:BUY AND HOLD}\n- RITMO CONSTANTE → {verde:JUROS COMPOSTOS}\n- UMA LARGADA SÓ → {verde:MENOS CUSTOS}\n- VONTADE DE DESISTIR → {vermelho:EMOÇÃO}\n- CHEGADA → {verde:PATRIMÔNIO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:TAXA DE INSCRIÇÃO:} CORRETAGEM, EMOLUMENTOS E IMPOSTO A CADA OPERAÇÃO",
+    "{ciano:PLACA DA LARGADA:} ESCOLHA A PROVA PELO PREPARO E PELO TEMPO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} CORRER MAIS RÁPIDO GANHA A PROVA · {laranja:OPERAR MAIS VEZES} SÓ SOMA CUSTO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r32a_3_filosofias.png",
+   "semente": 3203,
+   "titulo": "DAY TRADE, SWING E BUY AND HOLD",
+   "topo": "{ciano:A ESCOLHA DEPENDE DE:} HORIZONTE · CONHECIMENTO · TEMPO DISPONÍVEL · {laranja:TOLERÂNCIA AO RISCO}",
+   "colunas": [
+    {
+     "titulo": "DAY TRADE E SWING TRADE",
+     "texto": "- {ciano:DAY:} MESMO DIA · ANÁLISE TÉCNICA\n- PEDE LIQUIDEZ ALTA E CUSTO BAIXO\n- {vermelho:ESPECULATIVO}, SÓ PARA EXPERIENTES\n- {ciano:SWING:} DIAS OU SEMANAS · {laranja:CAUTELA}\n- GIRO ALTO: MAIS CUSTO E MAIS IMPOSTO"
+    },
+    {
+     "titulo": "BUY AND HOLD",
+     "texto": "- COMPRAR E MANTER POR LONGOS PERÍODOS\n- {verde:FUNDAMENTOS}: VALOR, CAIXA, PROVENTOS\n- {verde:JUROS COMPOSTOS} E MENOS CUSTOS\n- MENOS INTERFERÊNCIA EMOCIONAL\n- O MAIS ALINHADO AO {verde:PLANEJAMENTO}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} DAY TRADE {vermelho:NÃO} CONSTRÓI PATRIMÔNIO DE LONGO PRAZO · OPEROU NO MESMO DIA = DAY TRADE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r32a_4_marta-rafael.png",
+   "semente": 3204,
+   "titulo": "MANTER OU GIRAR?",
+   "dados": "- R$ 100.000 EM AÇÕES, {ciano:12% AO ANO}, POR 10 ANOS (HIPOTÉTICO)\n- IR DE 15% SOBRE O LUCRO\n- SEM CORRETAGEM E SEM ISENÇÃO\n- RAFAEL REALIZA O LUCRO UMA VEZ POR ANO\n- A ÚNICA DIFERENÇA: A FILOSOFIA",
+   "cenarios": [
+    {
+     "titulo": "MARTA · BUY AND HOLD",
+     "passos": "FV = 310.584,82\nIR NO FIM: 31.587,72\n100.000 + 178.997,10",
+     "resultado": "R$ 278.997,10"
+    },
+    {
+     "titulo": "RAFAEL · GIRO ANUAL",
+     "passos": "12% × 0,85 = 10,2%\nIR TODO ANO\nFV A 10,2% AO ANO",
+     "resultado": "R$ 264.128,91"
+    }
+   ],
+   "conclusao": {
+    "texto": "ADIAR O IMPOSTO VALEU {verde:R$ 14.868,18} · COM CORRETAGEM, A DIFERENÇA {laranja:CRESCERIA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r32b_1_retorno-esperado.png",
+   "semente": 3211,
+   "titulo": "A FATIA SAI DO RETORNO?",
+   "mitos": [
+    "QUANTO MAIS RENDE, MAIS AÇÃO",
+    "O AMIGO GANHOU, EU TAMBÉM"
+   ],
+   "verdade": "A FATIA SAI DO {laranja:RISCO} E DA {laranja:EMOÇÃO}",
+   "desenho": {
+    "nome": "grafico_baixa",
+    "largura": 110
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} INICIANTE COM {vermelho:70%} EM AÇÕES\n- QUEDA DE 20% EM 3 MESES → VENDA NO PIOR MOMENTO\n- A OSCILAÇÃO VIROU {vermelho:PERDA REALIZADA}\n- {ciano:2 FATORES:} EXPERIÊNCIA DO CLIENTE · HORIZONTE\n- {ciano:REGRA:} ALOCAÇÃO {verde:ESTRATÉGICA}, NÃO POR IMPULSO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r32b_2_preparo-tempo.png",
+   "semente": 3212,
+   "titulo": "O PREPARO E O TEMPO",
+   "colunas": [
+    {
+     "titulo": "O PREPARO",
+     "desenho": "corredor_caimbra",
+     "rotulos": [
+      "SEM TREINO",
+      "ABANDONA"
+     ],
+     "texto": "- NUNCA TREINOU → {vermelho:INICIANTE}\n- PÂNICO NA SUBIDA → {vermelho:VENDE NA QUEDA}\n- ATLETA TREINADO → {verde:EXPERIENTE}\n- SEGURA O RITMO → {verde:MANTÉM A POSIÇÃO}"
+    },
+    {
+     "titulo": "O TEMPO",
+     "desenho": "ampulheta",
+     "rotulos": [
+      "CURTO",
+      "LONGO"
+     ],
+     "texto": "- POUCO TEMPO → {vermelho:HORIZONTE CURTO}\n- NÃO DÁ PARA MARATONA → {vermelho:MENOS AÇÕES}\n- TEMPO DE SOBRA → {verde:HORIZONTE LONGO}\n- PASSA PELAS SUBIDAS → {verde:CICLOS COMPLETOS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:A PROVA CERTA:} PREPARO + TEMPO = {laranja:PERCENTUAL ADEQUADO} DE RENDA VARIÁVEL",
+    "{ciano:CICLO COMPLETO:} FASE DE QUEDA E FASE DE RECUPERAÇÃO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} QUEM ABANDONA A CORRIDA PERDE A MEDALHA · NO MERCADO, {laranja:REALIZA A PERDA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r32b_3_alocacao.png",
+   "semente": 3213,
+   "titulo": "QUANTO DE AÇÕES NA CARTEIRA?",
+   "topo": "{ciano:MOTOR DE CRESCIMENTO:} EXIGE DISCIPLINA · ALOCAÇÃO {laranja:ESTRATÉGICA}: PERFIL, OBJETIVOS E TOLERÂNCIA À VOLATILIDADE",
+   "colunas": [
+    {
+     "titulo": "EXPERIÊNCIA",
+     "texto": "- INICIANTE: REAGE COM {vermelho:EMOÇÃO}\n- VÊ CAIR 15% E VENDE\n- EXPERIENTE: ENTENDE O MERCADO\n- {verde:MANTÉM} EM MOMENTOS ADVERSOS"
+    },
+    {
+     "titulo": "HORIZONTE",
+     "texto": "- PRAZO MAIOR → ABSORVE VOLATILIDADE\n- ATRAVESSA {verde:CICLOS COMPLETOS}\n- PRAZO DE 1 ANO → {vermelho:NÃO DÁ TEMPO} DE RECUPERAR\n- ESTRATÉGICA ≠ TÁTICA (R22)"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} DIMENSIONAR PELO {laranja:RISCO} E PELO {laranja:IMPACTO EMOCIONAL}, NÃO SÓ PELO RETORNO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r32b_4_queda-de-30.png",
+   "semente": 3214,
+   "titulo": "QUANTO DÓI UMA QUEDA DE 30%?",
+   "dados": "- CARTEIRA DE {ciano:R$ 100.000} · CLIENTE INICIANTE (HIPOTÉTICO)\n- HORIZONTE DE 2 ANOS\n- AÇÕES CAEM {vermelho:30%} · RENDA FIXA NÃO OSCILA\n- MESMA QUEDA NOS DOIS CENÁRIOS\n- A ÚNICA DIFERENÇA: A FATIA EM AÇÕES",
+   "cenarios": [
+    {
+     "titulo": "70% EM AÇÕES",
+     "passos": "70.000 EM AÇÕES\n× 30% DE QUEDA\n21% DA CARTEIRA",
+     "resultado": "−R$ 21.000"
+    },
+    {
+     "titulo": "20% EM AÇÕES",
+     "passos": "20.000 EM AÇÕES\n× 30% DE QUEDA\n6% DA CARTEIRA",
+     "resultado": "−R$ 6.000"
+    }
+   ],
+   "conclusao": {
+    "texto": "A QUEDA DAS AÇÕES FOI A MESMA · A FATIA DEFINE SE O CLIENTE {verde:MANTÉM} OU {vermelho:ABANDONA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r32c_1_vinte-mil.png",
+   "semente": 3221,
+   "titulo": "R$ 20 MIL TIRA A ISENÇÃO?",
+   "mitos": [
+    "20 MIL JÁ PAGA IMPOSTO",
+    "O LIMITE É DE LUCRO"
+   ],
+   "verdade": "ATÉ {verde:R$ 20 MIL EM VENDAS}: ISENTO",
+   "desenho": {
+    "nome": "moeda",
+    "largura": 140
+   },
+   "apoio": "- {ciano:RECEITA FEDERAL, PERGUNTAS E RESPOSTAS IRPF 2026, Nº 707}\n- AÇÕES NO MERCADO À VISTA · VENDAS QUE {verde:NÃO EXCEDEM} R$ 20 MIL NO MÊS\n- {vermelho:NÃO VALE:} DAY TRADE E ETF\n- PASSOU DE 20 MIL: {vermelho:TODO O LUCRO} É TRIBUTADO\n- COMPENSAÇÃO DE PREJUÍZOS E MENOS GIRO COMPLETAM AS 3 FERRAMENTAS\n- {ciano:REGRA:} PLANEJAR AS VENDAS É LEGAL, NÃO É SONEGAÇÃO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r32c_2_taxa-inscricao.png",
+   "semente": 3222,
+   "titulo": "A TAXA DE INSCRIÇÃO",
+   "colunas": [
+    {
+     "titulo": "CATEGORIA SEM TAXA",
+     "desenho": "check",
+     "rotulos": [
+      "ATÉ O LIMITE",
+      "NO MÊS"
+     ],
+     "texto": "- INSCRIÇÃO PEQUENA → {verde:VENDAS ATÉ R$ 20 MIL}\n- SEM TAXA → {verde:LUCRO ISENTO}\n- PROVA RUIM ANTES → {laranja:PREJUÍZO}\n- ABATE A TAXA SEGUINTE → {verde:COMPENSAÇÃO}"
+    },
+    {
+     "titulo": "PAGA NA CHEGADA",
+     "desenho": "ampulheta",
+     "rotulos": [
+      "DEPOIS",
+      "RENDENDO"
+     ],
+     "texto": "- MARATONISTA → {verde:BUY AND HOLD}\n- TAXA SÓ NA CHEGADA → {verde:IR SÓ NA VENDA}\n- DINHEIRO NO BOLSO → {verde:CONTINUA RENDENDO}\n- LARGADA TODO DIA → {vermelho:IR TODO MÊS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:COMPENSAÇÃO:} COMUM COM COMUM · DAY TRADE COM DAY TRADE · {verde:SEM PRAZO}",
+    "{ciano:CONDIÇÃO:} O PREJUÍZO PRECISA ESTAR INFORMADO NA DECLARAÇÃO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} A TAXA DE INSCRIÇÃO É PAGA ANTES · O IR SÓ APARECE {laranja:DEPOIS, NA VENDA COM LUCRO}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r32c_3_tres-ferramentas.png",
+   "semente": 3223,
+   "titulo": "AS 3 FERRAMENTAS LEGAIS",
+   "topo": "{ciano:OTIMIZAÇÃO TRIBUTÁRIA:} PAGAR MENOS {verde:DENTRO DAS REGRAS} · O IMPOSTO MUDA O RETORNO LÍQUIDO",
+   "colunas": [
+    {
+     "titulo": "ISENÇÃO E COMPENSAÇÃO",
+     "texto": "- VENDAS À VISTA ATÉ {verde:R$ 20 MIL} NO MÊS\n- EXATAMENTE 20 MIL: {verde:ISENTO}\n- 20.000,01: {vermelho:TODO O LUCRO} TRIBUTADO\n- PREJUÍZO ABATE LUCRO DO MESMO TIPO"
+    },
+    {
+     "titulo": "MENOS GIRO E DEDO-DURO",
+     "texto": "- MENOS OPERAÇÕES → MENOS IR E CUSTO\n- IR SÓ NA VENDA → {verde:DIFERIMENTO}\n- FACILITA O CONTROLE FISCAL\n- DEDO-DURO: {laranja:0,005%} DAS VENDAS\n- ATÉ R$ 1,00: {verde:DISPENSADO} (Nº 706)"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} O LIMITE DE 20 MIL É SOBRE AS {laranja:VENDAS}, NÃO SOBRE O {vermelho:LUCRO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r32c_4_calendario.png",
+   "semente": 3224,
+   "titulo": "UM MÊS OU TRÊS MESES?",
+   "dados": "- PAULO VENDE {ciano:R$ 60.000} EM AÇÕES (HIPOTÉTICO)\n- LUCRO TOTAL: {ciano:R$ 15.000} · OPERAÇÕES COMUNS\n- LUCRO PROPORCIONAL AO VALOR VENDIDO\n- IR DE 15% QUANDO AS VENDAS PASSAM DE R$ 20 MIL\n- A ÚNICA DIFERENÇA: O CALENDÁRIO",
+   "cenarios": [
+    {
+     "titulo": "TUDO EM 1 MÊS",
+     "passos": "15% × 15.000 = 2.250\nDEDO-DURO: 3,00\nDARF: 2.247,00",
+     "resultado": "IR DE R$ 2.250"
+    },
+    {
+     "titulo": "R$ 20 MIL POR MÊS",
+     "passos": "3 MESES × R$ 20 MIL\nLUCRO DE 5 MIL/MÊS ISENTO\nDEDO-DURO: 1,00, DISPENSADO",
+     "resultado": "IR DE R$ 0"
+    }
+   ],
+   "conclusao": {
+    "texto": "PLANEJAR O CALENDÁRIO VALEU {verde:R$ 2.250} · TUDO DENTRO DAS REGRAS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r32d_1_mesma-coisa.png",
+   "semente": 3231,
+   "titulo": "TODO ÍNDICE MEDE IGUAL?",
+   "mitos": [
+    "É TUDO IBOVESPA",
+    "MESMO CRITÉRIO DE PESO"
+   ],
+   "verdade": "CADA ÍNDICE, UM {laranja:OBJETIVO}",
+   "desenho": {
+    "nome": "placar_indice",
+    "largura": 175
+   },
+   "apoio": "- {ciano:B3:} IBOVESPA {laranja:CRIADO EM 1968}, O PRINCIPAL INDICADOR DA BOLSA\n- CARTEIRA TEÓRICA, {laranja:REAVALIADA A CADA 4 MESES}\n- ÍNDICE = {verde:BENCHMARK}: RÉGUA PARA AVALIAR CARTEIRAS\n- 8 ÍNDICES NA PROVA: 4 NESTA AULA, 4 NA PRÓXIMA\n- PESO PODE VIR DO {laranja:FREE FLOAT}, DO {laranja:DIVIDEND YIELD} OU DE UMA {laranja:NOTA}\n- RETORNO TOTAL: A MAIORIA CONSIDERA OS {verde:PROVENTOS}\n- {ciano:REGRA:} O PESO MUDA DE UM ÍNDICE PARA OUTRO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r32d_2_placares.png",
+   "semente": 3232,
+   "titulo": "OS PLACARES DA PROVA",
+   "colunas": [
+    {
+     "titulo": "GERAL E OS 100",
+     "desenho": "placar_indice",
+     "rotulos": [
+      "MAIS",
+      "NEGOCIADOS"
+     ],
+     "texto": "- PLACAR GERAL → {laranja:IBOVESPA}\n- QUEM MAIS APARECE → {laranja:NEGOCIABILIDADE}\n- SEMPRE 100 NOMES → {laranja:IBRX 100}\n- PESO DE CADA UM → {laranja:FREE FLOAT}\n- MAIOR ATLETA → {vermelho:TETO DE 20%}"
+    },
+    {
+     "titulo": "PRÊMIO E CONDUTA",
+     "desenho": "estrela",
+     "rotulos": [
+      "DIVIDE",
+      "REGRAS"
+     ],
+     "texto": "- QUEM DIVIDE O PRÊMIO → {verde:IDIV}\n- PESO PELO QUE DIVIDE → {verde:DIVIDEND YIELD}\n- CÓDIGO DE CONDUTA → {verde:IGC}\n- SEGMENTOS RÍGIDOS → {verde:NOVO MERCADO, N1, N2}\n- MAIOR ATLETA → {vermelho:TETO DE 10%} (IDIV)"
+    }
+   ],
+   "faixas": [
+    "{ciano:FREE FLOAT:} AÇÕES EM CIRCULAÇÃO, FORA DAS MÃOS DO CONTROLADOR · EMPRESA GIGANTE COM POUCO FREE FLOAT PESA MENOS DO QUE O TAMANHO SUGERE",
+    "{ciano:RETORNO TOTAL:} IBOVESPA, IBRX 100 E IGC CONSIDERAM OS PROVENTOS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O PLACAR DA CORRIDA É FIXO · O ÍNDICE {laranja:MUDA A CADA REVISÃO}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r32d_3_ibov-ibrx-idiv-igc.png",
+   "semente": 3233,
+   "titulo": "IBOVESPA, IBRX 100, IDIV E IGC",
+   "topo": "{ciano:BENCHMARK:} A RÉGUA PARA AVALIAR O DESEMPENHO DE CARTEIRAS E ESTRATÉGIAS",
+   "colunas": [
+    {
+     "titulo": "IBOVESPA E IBRX 100",
+     "texto": "- IBOV: {laranja:85%} DA NEGOCIABILIDADE\n- PRESENÇA EM {laranja:95%} DOS PREGÕES\n- PESO: FREE FLOAT · TETO DE {vermelho:20%}\n- REVISÃO: {laranja:JAN, MAI, SET}\n- IBRX 100: {verde:SEMPRE 100} AÇÕES"
+    },
+    {
+     "titulo": "IDIV E IGC",
+     "texto": "- IDIV: DIVIDENDOS E JCP\n- {laranja:33%} DE MAIOR DY EM {laranja:36 MESES}\n- PESO: {verde:DIVIDEND YIELD} · TETO DE 10%\n- IGC: NOVO MERCADO, NÍVEIS 1 E 2\n- IGC = {verde:GOVERNANÇA}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:É COMUM LER:} \"IBRX MAIS AMPLO QUE O IBOVESPA\" · {vermelho:ATENÇÃO:} VALE PARA O {laranja:IBRX 100}; O IBOVESPA NÃO TEM NÚMERO FIXO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r32d_4_peso-free-float-dy.png",
+   "semente": 3234,
+   "titulo": "FREE FLOAT OU DIVIDEND YIELD?",
+   "dados": "- CARTEIRA DE 3 AÇÕES (HIPOTÉTICO), FREE FLOAT EM R$ BILHÕES\n- A: {ciano:10} BI E DY DE {ciano:8%} · B: 60 BI E 6% · C: 30 BI E 4%\n- LIMITES DE 10% E 20% DESLIGADOS NO EXEMPLO\n- IBOVESPA PESA PELO FREE FLOAT; IDIV, PELO DY\n- A ÚNICA DIFERENÇA: A REGRA DE PONDERAÇÃO",
+   "cenarios": [
+    {
+     "titulo": "PESO PELO FREE FLOAT",
+     "passos": "A: 10 ÷ 100 = 10%\nB: 60%\nC: 30%",
+     "resultado": "A = 10%"
+    },
+    {
+     "titulo": "PESO PELO DIVIDEND YIELD",
+     "passos": "A: 8 ÷ 18 = 44,44%\nB: 33,33%\nC: 22,22%",
+     "resultado": "A = 44,44%"
+    }
+   ],
+   "conclusao": {
+    "texto": "MESMA CARTEIRA, OUTRO PLACAR · O IDIV PESA MAIS {verde:QUEM MAIS REMUNERA} O ACIONISTA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r32e_1_ise-novo-mercado.png",
+   "semente": 3241,
+   "titulo": "ISE B3 = NOVO MERCADO?",
+   "mitos": [
+    "ISE É GOVERNANÇA",
+    "SÓ SEGMENTO DE LISTAGEM"
+   ],
+   "verdade": "ISE B3 = {verde:NOTA} DO QUESTIONÁRIO",
+   "desenho": {
+    "nome": "placar_indice",
+    "largura": 155
+   },
+   "apoio": "- {ciano:B3, METODOLOGIA DO ISE B3, VERSÃO 5 (MAR/2025)}\n- ENTRE AS {laranja:200} AÇÕES MAIS NEGOCIADAS\n- QUESTIONÁRIO → {verde:SCORE ISE B3} → PESO\n- LIMITE DE {vermelho:10%} POR EMPRESA\n- MEDE O {verde:COMPROMETIMENTO COM A SUSTENTABILIDADE}\n- {ciano:CUIDADO:} NOVO MERCADO, N1 E N2 É O {laranja:IGC}"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r32e_2_categorias.png",
+   "semente": 3242,
+   "titulo": "FAIR PLAY E CATEGORIAS",
+   "colunas": [
+    {
+     "titulo": "FAIR PLAY E OUTRA PROVA",
+     "desenho": "estrela",
+     "rotulos": [
+      "NOTA",
+      "DOS JUÍZES"
+     ],
+     "texto": "- NOTA DOS JUÍZES → {verde:SCORE ISE B3}\n- PRÊMIO DE CONDUTA → {verde:SUSTENTABILIDADE}\n- OUTRA MODALIDADE → {laranja:IFIX}\n- FUNDOS IMOBILIÁRIOS → {laranja:BOLSA E BALCÃO}"
+    },
+    {
+     "titulo": "CATEGORIAS DE PESO",
+     "desenho": "balanca",
+     "rotulos": [
+      "PESADOS",
+      "LEVES"
+     ],
+     "texto": "- PESADOS E MÉDIOS → {laranja:MLCX}\n- MIDLARGE CAP → {laranja:MAIOR CAPITALIZAÇÃO}\n- PESOS-LEVES → {laranja:SMLL}\n- FORA DOS 85% → {laranja:SMALL CAPS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:RETORNO TOTAL:} IFIX, MLCX E SMLL TAMBÉM CONSIDERAM OS PROVENTOS",
+    "{ciano:CADA ATLETA:} COMPARA-SE COM O PLACAR DA SUA CATEGORIA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA PISTA, CATEGORIA FIXA · NA BOLSA, A EMPRESA {laranja:TROCA DE ÍNDICE} AO CRESCER",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r32e_3_ise-ifix-mlcx-smll.png",
+   "semente": 3243,
+   "titulo": "ISE B3, IFIX, MLCX E SMLL",
+   "topo": "{ciano:É COMUM LER:} MLCX = MÉDIA CAPITALIZAÇÃO · {vermelho:ATENÇÃO:} PELA B3, É A DE {laranja:MAIOR CAPITALIZAÇÃO}",
+   "colunas": [
+    {
+     "titulo": "ISE B3 E IFIX",
+     "texto": "- ISE: SUSTENTABILIDADE EMPRESARIAL\n- 200 MAIS NEGOCIADAS + QUESTIONÁRIO\n- PESO PELO {verde:SCORE} · TETO DE 10%\n- IFIX: {verde:FUNDOS IMOBILIÁRIOS}\n- COTAS EM BOLSA E BALCÃO ORGANIZADO"
+    },
+    {
+     "titulo": "MLCX E SMLL",
+     "texto": "- SMLL: {laranja:MENOR} CAPITALIZAÇÃO\n- FORA DO GRUPO QUE SOMA {laranja:85%} DO VALOR\n- MLCX: {laranja:MIDLARGE} CAP\n- MLCX É O {verde:LADO OPOSTO} DO SMLL\n- EMPRESA QUE CRESCE SAI DO SMLL"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:REGRA DE OURO:} BENCHMARK = {verde:PERFIL DA CARTEIRA} + {verde:OBJETIVO DA ALOCAÇÃO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r32e_4_benchmark-certo.png",
+   "semente": 3244,
+   "titulo": "QUAL É A RÉGUA CERTA?",
+   "dados": "- FUNDO DE {ciano:SMALL CAPS} (HIPOTÉTICO)\n- ANO BOM PARA AS SMALL CAPS\n- RESULTADO: ABAIXO DO SMLL, ACIMA DO IBOVESPA\n- DIVIDENDOS → IDIV · FII → IFIX · ESG → ISE B3\n- A ÚNICA DIFERENÇA: O BENCHMARK",
+   "cenarios": [
+    {
+     "titulo": "CONTRA O IBOVESPA",
+     "passos": "RÉGUA DAS GRANDES\nO FUNDO \"BATE\"\nO ÍNDICE",
+     "resultado": "PARECE ÓTIMO"
+    },
+    {
+     "titulo": "CONTRA O SMLL",
+     "passos": "RÉGUA DAS PEQUENAS\nO FUNDO FICA\nATRÁS DO PLACAR",
+     "resultado": "FICOU ATRÁS"
+    }
+   ],
+   "conclusao": {
+    "texto": "5 PEGADINHAS (FALSAS): FILOSOFIA MELHOR · MLCX MÉDIAS · IDIV POR VALOR DE MERCADO · 20 MIL EXATOS PAGAM · IBOVESPA MENSAL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
