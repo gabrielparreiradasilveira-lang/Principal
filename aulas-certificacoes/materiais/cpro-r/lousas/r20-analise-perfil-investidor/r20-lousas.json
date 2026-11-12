@@ -4,24 +4,24 @@
  },
  "slides": [
   {
-   "saida": "r20a_1_questionario-pronto.png",
-   "semente": 2001,
+   "saida": "r20a_1_so-o-questionario.png",
+   "semente": 2101,
    "molde": "mito_verdade",
-   "titulo": "MARCOU O QUESTIONÁRIO, PRONTO?",
+   "titulo": "É SÓ PREENCHER O QUESTIONÁRIO?",
    "mitos": [
     "PERFIL = QUESTIONÁRIO",
-    "RESPONDEU, ACABOU"
+    "MARCOU, ACABOU"
    ],
-   "verdade": "PERFIL SE {laranja:CONSTRÓI E VALIDA}",
+   "verdade": "PERFIL É {laranja:DIAGNÓSTICO}, NÃO FORMULÁRIO",
    "desenho": {
     "nome": "prancheta",
-    "largura": 150
+    "largura": 120
    },
-   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} QUESTIONÁRIO EM 3 MINUTOS → \"ARROJADO\" → PÂNICO NA 1ª QUEDA\n- O QUESTIONÁRIO É O {laranja:INSTRUMENTO}; A ANÁLISE É DO PROFISSIONAL\n- {ciano:5 ETAPAS:} COLETA · OBJETIVOS · TOLERÂNCIA · HORIZONTE · EXPERIÊNCIA\n- {ciano:GANHOS:} MENOS ERROS COMPORTAMENTAIS · MAIS ADERÊNCIA À ESTRATÉGIA\n- PERFIL LIGA A REALIDADE FINANCEIRA DO CLIENTE À ESTRATÉGIA PROPOSTA"
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} 2 CLIENTES · RESPOSTA IGUAL: \"ACEITO QUEDA DE 20%\"\n- {ciano:CLIENTE 1:} RESERVA PRONTA · USO DO DINHEIRO EM 25 ANOS\n- {ciano:CLIENTE 2:} ENTRADA DO APARTAMENTO EM 10 MESES\n- CONTEXTO DIFERENTE → {laranja:DIAGNÓSTICO DIFERENTE}\n- ANÁLISE DO PERFIL: ELO ENTRE A REALIDADE DO CLIENTE E A ESTRATÉGIA\n- {ciano:5 ANÁLISES:} COLETA · OBJETIVOS · TOLERÂNCIA · HORIZONTE · EXPERIÊNCIA"
   },
   {
    "saida": "r20a_2_o-alfaiate.png",
-   "semente": 2002,
+   "semente": 2102,
    "molde": "comparacao",
    "titulo": "O ALFAIATE",
    "colunas": [
@@ -32,137 +32,480 @@
       "FITA",
       "OCASIÃO"
      ],
-     "texto": "- TIRAR AS MEDIDAS → {laranja:COLETA}\n- OCASIÃO DA ROUPA → {laranja:OBJETIVOS}\n- TEMPO DE USO → {laranja:HORIZONTE}\n- CONFERIR DUAS VEZES → {laranja:VALIDAÇÃO}"
+     "texto": "- FITA MÉTRICA → {laranja:COLETA}\n- OCASIÃO DA ROUPA → {laranja:OBJETIVOS}\n- APERTO DO TECIDO → {laranja:TOLERÂNCIA}\n- TEMPO DE USO → {laranja:HORIZONTE}\n- JÁ USOU ESSE TIPO → {laranja:EXPERIÊNCIA}"
     },
     {
-     "titulo": "A PROVA",
-     "desenho": "camisa",
+     "titulo": "O CORTE",
+     "desenho": "tres_cortes",
      "rotulos": [
-      "APERTO",
-      "COSTUME"
+      "JUSTO",
+      "SOLTO"
      ],
-     "texto": "- O QUANTO PODE APERTAR → {verde:TOLERÂNCIA AO RISCO}\n- JÁ USOU ESSE TIPO → {verde:EXPERIÊNCIA}\n- ROUPA QUE SERVE → {verde:CARTEIRA ADEQUADA}\n- SEM MEDIDA, NÃO SERVE"
+     "texto": "- MAIS JUSTO → {verde:CONSERVADOR}\n- INTERMEDIÁRIO → {verde:MODERADO}\n- MAIS SOLTO → {verde:ARROJADO}\n- CORPO MUDOU → {verde:NOVA MEDIÇÃO}\n- SEM MEDIDA, NÃO HÁ CORTE"
     }
    ],
    "faixas": [
     "{ciano:TECIDO BOM NÃO BASTA:} PRODUTO EXCELENTE PODE SER INADEQUADO PARA AQUELE CLIENTE",
-    "{ciano:CADA CLIENTE, UM MOLDE:} DOIS CLIENTES COM A MESMA RENDA PODEM TER PERFIS DIFERENTES"
+    "{ciano:CADA CLIENTE, UM MOLDE:} MESMA RENDA NÃO SIGNIFICA MESMO PERFIL"
    ],
    "destaque": {
-    "texto": "{vermelho:ONDE QUEBRA:} A FITA MEDE SOZINHA · AQUI, PARTE DOS DADOS É {laranja:DECLARADA PELO CLIENTE}; CABE AO PROFISSIONAL CHECAR A COERÊNCIA",
+    "texto": "{vermelho:ONDE QUEBRA:} A FITA MEDE SOZINHA · AQUI, PARTE DOS DADOS É {laranja:DECLARADA PELO CLIENTE} E PRECISA SER CONFERIDA",
     "cor": "branco",
     "moldura": "vermelho"
    }
   },
   {
    "saida": "r20a_3_conteudo-1.png",
-   "semente": 2003,
+   "semente": 2103,
    "molde": "colunas",
-   "titulo": "COLETA E OBJETIVOS (1/3)",
-   "topo": "{ciano:COLETA:} PROCESSO {laranja:ESTRUTURADO}, ALÉM DAS RESPOSTAS AUTOMÁTICAS · DADOS OBJETIVOS E SUBJETIVOS · BASE DE TODO O SUITABILITY",
+   "titulo": "A COLETA DE INFORMAÇÕES (1/2)",
+   "topo": "{ciano:COLETA:} PONTO DE PARTIDA DA ANÁLISE · PROCESSO {laranja:ESTRUTURADO} · DADOS OBJETIVOS E SUBJETIVOS · BASE DO SUITABILITY",
    "colunas": [
     {
-     "titulo": "O QUE COLETAR",
-     "texto": "- SITUAÇÃO FINANCEIRA: RECEITAS, PATRIMÔNIO, NECESSIDADE FUTURA\n- OBJETIVOS E HORIZONTE\n- HISTÓRICO DE INVESTIMENTOS\n- REAÇÃO A PERDAS E GANHOS\n- {laranja:INTERPRETAR · VALIDAR · ACHAR INCONSISTÊNCIAS}"
+     "titulo": "4 FONTES",
+     "texto": "- {laranja:1.} QUESTIONÁRIO DE SUITABILITY\n- {laranja:2.} ENTREVISTAS, REUNIÕES E CONVERSAS ESTRUTURADAS\n- {laranja:3.} HISTÓRICO DE INVESTIMENTOS E MOVIMENTAÇÕES\n- {laranja:4.} DOCUMENTOS: EXTRATOS, DECLARAÇÃO DE IR"
     },
     {
-     "titulo": "OBJETIVOS",
-     "texto": "- {laranja:1.} QUAIS SÃO\n- {laranja:2.} PRAZO DE CADA UM\n- {laranja:3.} PRIORIDADE ENTRE ELES\n- {laranja:4.} FLEXIBILIDADE DE DATA E VALOR\n- {ciano:EX.:} RESERVA · IMÓVEL · APOSENTADORIA · SUCESSÃO"
+     "titulo": "OS DADOS",
+     "texto": "- RENDA E DESPESAS\n- PATRIMÔNIO E COMPOSIÇÃO\n- OBJETIVOS · TOLERÂNCIA A PERDAS\n- EXPERIÊNCIA E CONHECIMENTO\n- ESTRUTURA FAMILIAR · PROFISSÃO\n- IDADE, HISTÓRIA DE VIDA, PLANOS"
     }
    ],
    "destaque": {
-    "texto": "{ciano:CONVENÇÃO DE MERCADO (NÃO É NORMA):} CURTO ATÉ 2 ANOS · MÉDIO DE 2 A 5 · LONGO ACIMA DE 5 · OBJETIVO CLARO EVITA CONFLITO ENTRE {laranja:RISCO, PRAZO E LIQUIDEZ}",
+    "texto": "{ciano:PAPEL DO PROFISSIONAL:} {laranja:INTERPRETAR · VALIDAR · ACHAR INCONSISTÊNCIAS} → MENOS RISCO DE ENQUADRAMENTO EQUIVOCADO",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
    "saida": "r20a_3_conteudo-2.png",
-   "semente": 2004,
+   "semente": 2104,
    "molde": "colunas",
-   "titulo": "TOLERÂNCIA E HORIZONTE (2/3)",
-   "topo": "{ciano:TOLERÂNCIA AO RISCO:} CONVIVER COM OSCILAÇÕES SEM COMPROMETER AS DECISÕES · {ciano:HORIZONTE:} TEMPO ATÉ O {laranja:USO FINAL} DO RECURSO",
+   "titulo": "O MÍNIMO DA NORMA (2/2)",
+   "topo": "{ciano:RESOLUÇÃO CVM 30, ART. 3º:} ANTES DE RECOMENDAR, O PROFISSIONAL VERIFICA {laranja:3 PONTOS}",
    "colunas": [
     {
-     "titulo": "2 DIMENSÕES",
-     "texto": "- {ciano:FINANCEIRA:} CAPACIDADE OBJETIVA DE SUPORTAR PERDAS\n- {ciano:EMOCIONAL:} CONFORTO PSICOLÓGICO COM A VOLATILIDADE\n- PODE HAVER UMA SEM A OUTRA\n- OLHAR O {laranja:COMPORTAMENTO PASSADO}, NÃO SÓ O DECLARADO"
+     "titulo": "OBJETIVOS",
+     "texto": "- PERÍODO DO INVESTIMENTO\n- PREFERÊNCIAS DECLARADAS DE RISCO\n- FINALIDADES DO INVESTIMENTO"
     },
     {
-     "titulo": "HORIZONTE",
-     "texto": "- {verde:LONGO:} ABSORVE MAIS VOLATILIDADE; JUROS COMPOSTOS\n- {vermelho:CURTO:} PEDE PREVISIBILIDADE E LIQUIDEZ\n- É UM DOS PRINCIPAIS DETERMINANTES DA ALOCAÇÃO ESTRATÉGICA"
+     "titulo": "SITUAÇÃO FINANCEIRA",
+     "texto": "- RECEITAS REGULARES\n- VALOR E ATIVOS DO PATRIMÔNIO\n- NECESSIDADE FUTURA DE RECURSOS"
+    },
+    {
+     "titulo": "CONHECIMENTO",
+     "texto": "- PRODUTOS FAMILIARES\n- NATUREZA, VOLUME E FREQUÊNCIA DAS OPERAÇÕES\n- FORMAÇÃO E EXPERIÊNCIA PROFISSIONAL (SÓ PESSOA FÍSICA)"
     }
    ],
    "destaque": {
-    "texto": "{vermelho:3 ERROS:} CURTO PRAZO EM ATIVO VOLÁTIL · TEMPO SUBUTILIZADO NO LONGO PRAZO · PRAZO {laranja:PSICOLÓGICO} CONFUNDIDO COM PRAZO {laranja:FINANCEIRO}",
+    "texto": "{vermelho:INCONSISTÊNCIA:} DECLARA ACEITAR PERDA ALTA, MAS RESGATOU NA 1ª QUEDA → VOLTAR À CONVERSA ANTES DE CLASSIFICAR · QUESTIONÁRIO É {laranja:1 DAS 4 FONTES}",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r20a_3_conteudo-3.png",
-   "semente": 2005,
-   "molde": "colunas",
-   "titulo": "EXPERIÊNCIA COM INVESTIMENTOS (3/3)",
-   "topo": "{ciano:EXPERIÊNCIA:} INFLUENCIA A COMPREENSÃO DOS PRODUTOS, AS EXPECTATIVAS DE RETORNO E A REAÇÃO A CENÁRIOS ADVERSOS",
-   "colunas": [
-    {
-     "titulo": "O QUE AVALIAR",
-     "texto": "- TIPOS DE PRODUTOS JÁ UTILIZADOS\n- FREQUÊNCIA E VOLUME DAS OPERAÇÕES\n- HISTÓRICO DE GANHOS E PERDAS\n- GRAU DE ENTENDIMENTO DOS RISCOS\n- {ciano:CVM 30:} TAMBÉM FORMAÇÃO E EXPERIÊNCIA PROFISSIONAL"
-    },
-    {
-     "titulo": "2 PONTAS",
-     "texto": "- {verde:EXPERIENTE:} LIDA MELHOR COM A VOLATILIDADE\n- {vermelho:RISCO:} EXCESSO DE CONFIANÇA\n- {verde:INICIANTE:} ESTRATÉGIA SIMPLES, LINGUAGEM CLARA\n- ACOMPANHAMENTO MAIS PRÓXIMO"
-    }
-   ],
-   "destaque": {
-    "texto": "{ciano:AS 5 ETAPAS:} COLETA → OBJETIVOS → TOLERÂNCIA → HORIZONTE → EXPERIÊNCIA · O RESULTADO ALIMENTA A {laranja:CLASSIFICAÇÃO DO PERFIL} (PRÓXIMA AULA)",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r20a_4_mesma-queda.png",
-   "semente": 2006,
+   "saida": "r20a_4_mesma-resposta.png",
+   "semente": 2105,
    "molde": "exercicio",
-   "titulo": "A MESMA QUEDA, DOIS HORIZONTES",
-   "dados": "- APLICAÇÃO DE {ciano:R$ 100.000} EM ATIVO VOLÁTIL (HIPOTÉTICO)\n- QUEDA DE 20% NO PRIMEIRO ANO\n- CENÁRIO 1: USO DO DINHEIRO EM 1 ANO\n- CENÁRIO 2: USO DO DINHEIRO EM 10 ANOS\n- SEM APORTES NOVOS E SEM IMPOSTO (SIMPLIFICAÇÃO)",
+   "titulo": "MESMA RESPOSTA, DOIS DIAGNÓSTICOS",
+   "dados": "- {ciano:R$ 100.000} CADA UM (HIPOTÉTICO)\n- OS DOIS MARCARAM: ACEITO QUEDA DE 20%\n- CENÁRIO 1: APOSENTADORIA, COM RESERVA\n- CENÁRIO 2: ENTRADA DO APARTAMENTO\n- QUEDA ÚNICA, SEM RECUPERAÇÃO NO PERÍODO",
    "cenarios": [
     {
-     "titulo": "1 ANO",
-     "passos": "100.000 − 20% = 80.000\nDATA DO OBJETIVO CHEGOU\nNÃO HÁ TEMPO PARA RECUPERAR",
-     "resultado": "FALTAM 20.000"
+     "titulo": "25 ANOS",
+     "passos": "100.000 − 20% = 80.000\nNÃO PRECISA VENDER\nDÉCADAS PARA RECUPERAR",
+     "resultado": "COERENTE"
     },
     {
-     "titulo": "10 ANOS",
-     "passos": "80.000 → 100.000 = +25%\nRESTAM 9 ANOS\nn 9 · PV 80.000 · FV 100.000",
-     "resultado": "2,51% AO ANO"
+     "titulo": "10 MESES",
+     "passos": "100.000 − 20% = 80.000\nDATA DE USO CHEGOU\nENTRADA: 100.000",
+     "resultado": "FALTAM 20.000"
     }
    ],
    "conclusao": {
-    "texto": "QUEDA DE 20% PEDE ALTA DE {laranja:25%} PARA VOLTAR · NO CURTO PRAZO, A PERDA É REALIZADA · NO LONGO, HÁ TEMPO, MAS {vermelho:SEM GARANTIA} DE RECUPERAÇÃO",
+    "texto": "A RESPOSTA NÃO MUDOU; O {laranja:CONTEXTO} MUDOU · PARA QUEM USA O DINHEIRO EM 10 MESES, OS 20.000 QUE FALTAM NÃO VOLTAM A TEMPO",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r20b_1_perfil-para-sempre.png",
-   "semente": 2007,
+   "saida": "r20b_1_um-objetivo.png",
+   "semente": 2106,
    "molde": "mito_verdade",
-   "titulo": "PERFIL É PARA SEMPRE?",
+   "titulo": "UM CLIENTE, UMA ESTRATÉGIA?",
+   "mitos": [
+    "UM OBJETIVO SÓ",
+    "UMA CARTEIRA PARA TUDO"
+   ],
+   "verdade": "CADA OBJETIVO, {laranja:UMA ESTRATÉGIA}",
+   "desenho": {
+    "nome": "alvo",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} PAULO, 40 ANOS · 3 OBJETIVOS SIMULTÂNEOS\n- {ciano:RESERVA DE EMERGÊNCIA:} PODE SAIR A QUALQUER DIA\n- {ciano:FACULDADE DO FILHO:} 8 ANOS\n- {ciano:APOSENTADORIA:} 25 ANOS\n- POTE ÚNICO → CONFLITO ENTRE {laranja:RISCO, PRAZO E LIQUIDEZ}\n- SEM OBJETIVO CLARO, A ALOCAÇÃO FICA ARBITRÁRIA"
+  },
+  {
+   "saida": "r20b_2_a-ocasiao.png",
+   "semente": 2107,
+   "molde": "comparacao",
+   "titulo": "A OCASIÃO DA ROUPA",
+   "colunas": [
+    {
+     "titulo": "A OCASIÃO",
+     "desenho": "camisa",
+     "rotulos": [
+      "FESTA",
+      "DATA"
+     ],
+     "texto": "- OCASIÃO → {laranja:OBJETIVO}\n- DATA DA FESTA → {laranja:PRAZO}\n- A MAIS IMPORTANTE → {laranja:PRIORIDADE}\n- DÁ PARA AJUSTAR → {laranja:FLEXIBILIDADE}"
+    },
+    {
+     "titulo": "UMA ROUPA SÓ?",
+     "desenho": "tres_cortes",
+     "rotulos": [
+      "TERNO",
+      "PRAIA"
+     ],
+     "texto": "- TERNO NA PRAIA → {vermelho:CARTEIRA ÚNICA}\n- VÁRIAS OCASIÕES → {verde:VÁRIOS OBJETIVOS}\n- UM TECIDO PARA CADA → {verde:UMA ESTRATÉGIA PARA CADA}\n- SEM OCASIÃO → ALOCAÇÃO ARBITRÁRIA"
+    }
+   ],
+   "faixas": [
+    "{ciano:CALENDÁRIO CHEIO:} RESERVA, IMÓVEL, APOSENTADORIA E SUCESSÃO CONVIVEM NO MESMO CLIENTE",
+    "{ciano:ORDEM DE COSTURA:} A PRIORIDADE DIZ QUAL OBJETIVO RECEBE RECURSO PRIMEIRO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} CASAMENTO TEM DATA FIXA · OBJETIVO FINANCEIRO PODE TER DATA E VALOR {laranja:FLEXÍVEIS}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r20b_3_conteudo-1.png",
+   "semente": 2108,
+   "molde": "colunas",
+   "titulo": "OBJETIVOS FINANCEIROS (1/2)",
+   "topo": "OBJETIVOS {laranja:DÃO SENTIDO} ÀS DECISÕES · SEM ELES, A ALOCAÇÃO É ARBITRÁRIA E DIFÍCIL DE SUSTENTAR",
+   "colunas": [
+    {
+     "titulo": "4 PERGUNTAS",
+     "texto": "- {laranja:1.} QUAL É O OBJETIVO?\n- {laranja:2.} QUAL O PRAZO?\n- {laranja:3.} QUAL A PRIORIDADE?\n- {laranja:4.} QUAL A FLEXIBILIDADE DE DATA E VALOR?\n- DÁ PARA ADIAR? GASTAR MENOS?"
+    },
+    {
+     "titulo": "AO MESMO TEMPO",
+     "texto": "- RESERVA DE EMERGÊNCIA\n- TROCA DO IMÓVEL\n- APOSENTADORIA\n- SUCESSÃO\n- {verde:CADA UM COM A SUA ESTRATÉGIA}\n- CLAREZA EVITA CONFLITO DE RISCO, PRAZO E LIQUIDEZ"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:\"QUERO FICAR RICO\"} NÃO É OBJETIVO: FALTA QUANTO, PARA QUANDO E COM QUE FOLGA · OBJETIVO É DO {laranja:DINHEIRO}; PERFIL É DA {laranja:PESSOA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r20b_3_conteudo-2.png",
+   "semente": 2109,
+   "molde": "colunas",
+   "titulo": "FAIXAS DE PRAZO (2/2)",
+   "topo": "COMO O MERCADO ORGANIZA OS OBJETIVOS PELO {laranja:PRAZO} · CADA FAIXA TEM UM FOCO",
+   "colunas": [
+    {
+     "titulo": "CURTO: ATÉ 2 ANOS",
+     "texto": "- {ciano:FOCO:} LIQUIDEZ E SEGURANÇA\n- RESERVA DE EMERGÊNCIA\n- VIAGEM\n- COMPRA DE MAIOR VALOR"
+    },
+    {
+     "titulo": "MÉDIO: 2 A 5 ANOS",
+     "texto": "- {ciano:FOCO:} EQUILÍBRIO ENTRE SEGURANÇA E RENDIMENTO\n- FACULDADE\n- INTERCÂMBIO\n- EXPANDIR A EMPRESA"
+    },
+    {
+     "titulo": "LONGO: MAIS DE 5",
+     "texto": "- {ciano:FOCO:} CRESCIMENTO PATRIMONIAL\n- APOSENTADORIA\n- LIBERDADE FINANCEIRA"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:ATENÇÃO:} FAIXAS SÃO {laranja:CONVENÇÃO DE MERCADO}, NÃO NORMA · NA PROVA, VALE A FAIXA DO ENUNCIADO · ARROJADO COM META DE 1 ANO: LIQUIDEZ E SEGURANÇA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r20b_4_mesmo-valor.png",
+   "semente": 2110,
+   "molde": "exercicio",
+   "titulo": "MESMO VALOR, DOIS PRAZOS",
+   "dados": "- OBJETIVO: {ciano:R$ 100.000} (HIPOTÉTICO)\n- RENDIMENTO: 0,8% AO MÊS\n- APORTES NO FIM DE CADA MÊS\n- CENÁRIO 1: 24 MESES (CURTO PRAZO)\n- CENÁRIO 2: 120 MESES (LONGO PRAZO)",
+   "cenarios": [
+    {
+     "titulo": "2 ANOS",
+     "passos": "FV 100.000 · i 0,8 · n 24\nAPORTES: 91.105\nJUROS: 8.895",
+     "resultado": "3.796,05 POR MÊS"
+    },
+    {
+     "titulo": "10 ANOS",
+     "passos": "FV 100.000 · i 0,8 · n 120\nAPORTES: 59.935\nJUROS: 40.065",
+     "resultado": "499,46 POR MÊS"
+    }
+   ],
+   "conclusao": {
+    "texto": "NÃO CABE NO ORÇAMENTO? USE A {laranja:FLEXIBILIDADE}: ADIAR A DATA OU REDUZIR O VALOR · SEM IMPOSTO; TAXA CONSTANTE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r20c_1_patrimonio-alto.png",
+   "semente": 2111,
+   "molde": "mito_verdade",
+   "titulo": "PATRIMÔNIO ALTO, RISCO ALTO?",
+   "mitos": [
+    "TEM DINHEIRO, AGUENTA",
+    "RICO = ARROJADO"
+   ],
+   "verdade": "CAPACIDADE {laranja:NÃO É} TOLERÂNCIA",
+   "desenho": {
+    "nome": "montanha_russa",
+    "largura": 210
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} MARCOS, 50 ANOS, EXECUTIVO · R$ 2 MILHÕES\n- APOSENTADORIA EM 20 ANOS · 15 ANOS DE AÇÕES E FUNDOS\n- NA QUEDA FORTE: {vermelho:VENDEU TUDO, EM PÂNICO}\n- DINHEIRO, PRAZO E EXPERIÊNCIA: SIM · \"ESTÔMAGO\": NÃO\n- {ciano:2 DIMENSÕES:} FINANCEIRA E EMOCIONAL\n- UMA NÃO GARANTE A OUTRA"
+  },
+  {
+   "saida": "r20c_2_o-aperto.png",
+   "semente": 2112,
+   "molde": "comparacao",
+   "titulo": "O APERTO DO TECIDO",
+   "colunas": [
+    {
+     "titulo": "O CORPO AGUENTA",
+     "desenho": "fita_metrica",
+     "rotulos": [
+      "CORPO",
+      "MEDIDA"
+     ],
+     "texto": "- AGUENTAR O CORTE JUSTO → {laranja:CAPACIDADE FINANCEIRA}\n- DÁ PARA MEDIR → {laranja:OBJETIVA}\n- RESERVA, RENDA, PATRIMÔNIO\n- RESPONDE: PODE PERDER?"
+    },
+    {
+     "titulo": "O CONFORTO",
+     "desenho": "camisa",
+     "rotulos": [
+      "SENTIR",
+      "FESTA"
+     ],
+     "texto": "- SENTIR-SE BEM NA ROUPA → {verde:TOLERÂNCIA EMOCIONAL}\n- SÓ O CLIENTE SENTE → {verde:SUBJETIVA}\n- TIRAR O PALETÓ → {vermelho:VENDER NA QUEDA}\n- RESPONDE: SUPORTA PERDER?"
+    }
+   ],
+   "faixas": [
+    "{ciano:AS DUAS PROVAS:} O ALFAIATE MEDE O CORPO E TAMBÉM PERGUNTA COMO O CLIENTE SE SENTE",
+    "{ciano:INVERSO:} QUEM ADORA ROUPA JUSTA, MAS NÃO CABE NELA → TOLERÂNCIA SEM CAPACIDADE"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} ROUPA APERTA IGUAL TODO DIA · INVESTIMENTO SÓ \"APERTA\" NOS {laranja:DIAS DE QUEDA}, E É NELES QUE O CLIENTE DECIDE",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r20c_3_conteudo-1.png",
+   "semente": 2113,
+   "molde": "colunas",
+   "titulo": "TOLERÂNCIA AO RISCO (1/2)",
+   "topo": "{ciano:TOLERÂNCIA AO RISCO:} CONVIVER COM AS OSCILAÇÕES DOS INVESTIMENTOS {laranja:SEM COMPROMETER AS DECISÕES}",
+   "colunas": [
+    {
+     "titulo": "FINANCEIRA",
+     "texto": "- CAPACIDADE {laranja:OBJETIVA} DE SUPORTAR PERDAS\n- NOME USUAL: \"CAPACIDADE\"\n- QUESTÃO CONCRETA\n- RESERVA PRONTA, RENDA ESTÁVEL, PATRIMÔNIO COM FOLGA → SUPORTA MAIS"
+    },
+    {
+     "titulo": "EMOCIONAL",
+     "texto": "- CONFORTO {laranja:PSICOLÓGICO} DIANTE DA VOLATILIDADE\n- NOME USUAL: \"DISPONIBILIDADE\"\n- QUESTÃO SUBJETIVA\n- É O \"ESTÔMAGO\" DO CLIENTE NAS QUEDAS"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:ALERTA:} CAPACIDADE SEM TOLERÂNCIA EMOCIONAL → MAIS CHANCE DE {laranja:ABANDONAR A ESTRATÉGIA} NO ESTRESSE · AS DUAS DIMENSÕES CONTAM",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r20c_3_conteudo-2.png",
+   "semente": 2114,
+   "molde": "colunas",
+   "titulo": "COMO AVALIAR A TOLERÂNCIA (2/2)",
+   "topo": "DECLARAÇÃO DO CLIENTE {laranja:NÃO BASTA} PARA MEDIR A TOLERÂNCIA · PATRIMÔNIO ALTO INDICA CAPACIDADE, NÃO TOLERÂNCIA",
+   "colunas": [
+    {
+     "titulo": "AVALIAÇÃO E FATORES",
+     "texto": "- {laranja:1.} RESPOSTAS DECLARADAS\n- {laranja:2.} COMPORTAMENTOS PASSADOS\n- {laranja:3.} REAÇÕES EM CENÁRIOS ADVERSOS\n- {ciano:FATORES:} SITUAÇÃO FINANCEIRA · IDADE E FASE DA VIDA · EXPERIÊNCIA E CONHECIMENTO · CARACTERÍSTICAS PESSOAIS"
+    },
+    {
+     "titulo": "FERRAMENTAS",
+     "texto": "- QUESTIONÁRIOS COM CENÁRIOS HIPOTÉTICOS\n- TESTES DE VOLATILIDADE: PERDAS SIMULADAS\n- REUNIÕES E CONVERSAS\n- {ciano:PERGUNTA-TESTE:} \"E SE A CARTEIRA CAÍSSE TANTO?\""
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:3 FONTES:} DECLARADO + PASSADO + OBSERVADO · TOLERÂNCIA {vermelho:NÃO É} APETITE POR RETORNO: MEDE O QUE SE SUPORTA {laranja:QUANDO PERDE}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r20c_4_duas-reacoes.png",
+   "semente": 2115,
+   "molde": "exercicio",
+   "titulo": "MESMA QUEDA, DUAS REAÇÕES",
+   "dados": "- 2 CLIENTES HIPOTÉTICOS · HORIZONTE: 20 ANOS OU MAIS\n- 10 ANOS OU MAIS DE EXPERIÊNCIA COM AÇÕES\n- QUEDA DE {ciano:30%} NO MERCADO\n- RENATA, 35 ANOS, EMPRESÁRIA\n- MARCOS, 50 ANOS, R$ 2 MILHÕES",
+   "cenarios": [
+    {
+     "titulo": "RENATA",
+     "passos": "MANTEVE O PLANO\nCOMPROU MAIS NA QUEDA\nANÁLISES NA MESMA DIREÇÃO",
+     "resultado": "TOLERÂNCIA ALTA"
+    },
+    {
+     "titulo": "MARCOS",
+     "passos": "2.000.000 − 30%\n= 1.400.000\nVENDEU TUDO NO FUNDO",
+     "resultado": "PERDA: 600.000"
+    }
+   ],
+   "conclusao": {
+    "texto": "VENDER NO FUNDO TORNA A OSCILAÇÃO {vermelho:PERDA DEFINITIVA} DE 600.000 · PATRIMÔNIO ALTO {laranja:NÃO FAZ} DO MARCOS UM ARROJADO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r20d_1_jovem-longo-prazo.png",
+   "semente": 2116,
+   "molde": "mito_verdade",
+   "titulo": "JOVEM = LONGO PRAZO?",
+   "mitos": [
+    "É JOVEM, PODE ARRISCAR",
+    "A IDADE DEFINE O PRAZO"
+   ],
+   "verdade": "O HORIZONTE É O DO {laranja:OBJETIVO}",
+   "desenho": {
+    "nome": "ampulheta",
+    "largura": 140
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} LUCAS, 25 ANOS · R$ 50.000 · CARRO EM 1 ANO\n- IDADE: LONGO PRAZO · DINHEIRO: {vermelho:CURTO PRAZO}\n- {ciano:HORIZONTE:} TEMPO DE APLICAÇÃO ATÉ O USO FINAL\n- COERENTE COM O OBJETIVO, NÃO SÓ COM IDADE OU RENDA\n- {ciano:TAMBÉM NESTA AULA:} EXPERIÊNCIA COM INVESTIMENTOS\n- EXPERIÊNCIA AJUDA, MAS PODE VIRAR EXCESSO DE CONFIANÇA"
+  },
+  {
+   "saida": "r20d_2_tempo-e-costume.png",
+   "semente": 2117,
+   "molde": "comparacao",
+   "titulo": "TEMPO DE USO E COSTUME",
+   "colunas": [
+    {
+     "titulo": "TEMPO DE USO",
+     "desenho": "ampulheta",
+     "rotulos": [
+      "1 NOITE",
+      "10 INVERNOS"
+     ],
+     "texto": "- ROUPA DE UMA NOITE → {laranja:HORIZONTE CURTO}\n- CASACO DE 10 INVERNOS → {laranja:HORIZONTE LONGO}\n- TECIDO CONFORME O USO → ALOCAÇÃO CONFORME O PRAZO\n- VALE A DATA DA OCASIÃO, NÃO A IDADE DO CLIENTE"
+    },
+    {
+     "titulo": "COSTUME",
+     "desenho": "camisa",
+     "rotulos": [
+      "1ª VEZ",
+      "HÁBITO"
+     ],
+     "texto": "- NUNCA VESTIU TERNO → {verde:INICIANTE}\n- MODELO SIMPLES → {verde:ESTRATÉGIA SIMPLES}\n- MAIS EXPLICAÇÃO → {verde:COMUNICAÇÃO CLARA}\n- \"NEM PRECISO PROVAR\" → {vermelho:EXCESSO DE CONFIANÇA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:DUAS PERGUNTAS ANTES DO CORTE:} QUANDO VAI USAR? JÁ USOU ALGO PARECIDO?",
+    "{ciano:TECIDO E PRAZO:} TECIDO DELICADO NÃO VAI EM ROUPA DE USO DIÁRIO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} ROUPA SE APRENDE A USAR RÁPIDO · EXPERIÊNCIA DE INVESTIDOR SE FORMA {laranja:ATRAVESSANDO QUEDAS REAIS}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r20d_3_conteudo-1.png",
+   "semente": 2118,
+   "molde": "colunas",
+   "titulo": "HORIZONTE DE INVESTIMENTOS (1/2)",
+   "topo": "{ciano:HORIZONTE:} TEMPO EM QUE O RECURSO FICA APLICADO ATÉ O {laranja:USO FINAL} · UM DOS PRINCIPAIS DETERMINANTES DA ALOCAÇÃO ESTRATÉGICA",
+   "colunas": [
+    {
+     "titulo": "O EFEITO",
+     "texto": "- {verde:LONGO:} MAIS CAPACIDADE DE ABSORVER VOLATILIDADE\n- {verde:LONGO:} JUROS COMPOSTOS A FAVOR\n- {vermelho:CURTO:} PREVISIBILIDADE E LIQUIDEZ\n- PRAZO AUMENTA A {laranja:CAPACIDADE}, NÃO O \"ESTÔMAGO\""
+    },
+    {
+     "titulo": "3 ERROS",
+     "texto": "- {laranja:1.} CURTO PRAZO EM ATIVO VOLÁTIL\n- {laranja:2.} LONGO PRAZO SUBUTILIZADO: CONSERVADOR DEMAIS\n- {laranja:3.} PRAZO PSICOLÓGICO CONFUNDIDO COM O FINANCEIRO"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:FALSO:} \"MAIOR PRAZO, MAIOR TOLERÂNCIA EMOCIONAL\" · {vermelho:FALSO:} \"HORIZONTE É A IDADE\" · {ciano:EX.:} 60 ANOS, DINHEIRO DOS NETOS PARA 20 ANOS = LONGO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r20d_3_conteudo-2.png",
+   "semente": 2119,
+   "molde": "colunas",
+   "titulo": "EXPERIÊNCIA COM INVESTIMENTOS (2/2)",
+   "topo": "{ciano:EXPERIÊNCIA:} PESA NA COMPREENSÃO DOS PRODUTOS, NAS EXPECTATIVAS DE RETORNO E NA REAÇÃO A CENÁRIOS ADVERSOS",
+   "colunas": [
+    {
+     "titulo": "O QUE AVALIAR",
+     "texto": "- TIPOS DE PRODUTOS JÁ USADOS\n- FREQUÊNCIA E VOLUME\n- HISTÓRICO DE GANHOS E PERDAS\n- ENTENDIMENTO DOS RISCOS\n- {verde:EXPERIENTE:} LIDA MELHOR, MAS {vermelho:EXCESSO DE CONFIANÇA}\n- {verde:INICIANTE:} SIMPLES, CLARO, ACOMPANHADO"
+    },
+    {
+     "titulo": "3 NÍVEIS",
+     "texto": "- {laranja:INICIANTE:} PRODUTOS BÁSICOS\n- {laranja:INTERMEDIÁRIO:} ALÉM DOS TRADICIONAIS\n- {laranja:AVANÇADO:} RISCOS COMPLEXOS, QUASE TODOS OS PRODUTOS\n- {ciano:PERGUNTAR:} QUE PRODUTOS CONHECE? MAIOR PERDA? E SE RENDER NEGATIVO?"
+    }
+   ],
+   "destaque": {
+    "texto": "PERFIL = {laranja:EXPERIÊNCIA + OBJETIVOS + TOLERÂNCIA + HORIZONTE} · CONTA HÁ 10 ANOS SÓ COM POUPANÇA = INICIANTE EM RENDA VARIÁVEL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r20d_4_dois-horizontes.png",
+   "semente": 2120,
+   "molde": "exercicio",
+   "titulo": "MESMA IDADE, DOIS HORIZONTES",
+   "dados": "- LUCAS, 25 ANOS · {ciano:R$ 50.000} (HIPOTÉTICO)\n- CENÁRIO 1: CARRO EM 1 ANO\n- CENÁRIO 2: APOSENTADORIA EM 25 ANOS\n- QUEDA DE 20% · RENDIMENTO DE 0,8% AO MÊS\n- SEM IMPOSTO E SEM INFLAÇÃO",
+   "cenarios": [
+    {
+     "titulo": "CARRO, 1 ANO",
+     "passos": "50.000 − 20% = 40.000\nPREÇO DO CARRO: 50.000\nSEM TEMPO DE RECUPERAR",
+     "resultado": "FALTAM 10.000"
+    },
+    {
+     "titulo": "25 ANOS",
+     "passos": "PV 50.000 · i 0,8 · n 300\nQUEDA TEM TEMPO DE VOLTAR\nJUROS COMPOSTOS",
+     "resultado": "FV 545.920,79"
+    }
+   ],
+   "conclusao": {
+    "texto": "MESMA IDADE, PRAZOS OPOSTOS · O HORIZONTE É {laranja:O DO OBJETIVO}: O CURTO PEDE LIQUIDEZ; O LONGO APROVEITA O TEMPO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r20e_1_perfil-e-a-pessoa.png",
+   "semente": 2121,
+   "molde": "mito_verdade",
+   "titulo": "O PERFIL É A PESSOA?",
    "mitos": [
     "É O JEITO DELA",
-    "VALE PARA SEMPRE"
+    "PERFIL = PERSONALIDADE"
    ],
    "verdade": "PERFIL É {laranja:LIMITE}, NÃO RÓTULO",
    "desenho": {
     "nome": "tres_cortes",
     "largura": 210
    },
-   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} CONSERVADORA HÁ 6 ANOS · HOJE TEM RESERVA, RENDA EM DOBRO E META DE APOSENTADORIA\n- A VIDA MUDOU → O PERFIL PRECISA SER {laranja:REFEITO}\n- {ciano:CVM 30:} PERFIL COM MAIS DE 5 ANOS ESTÁ DESATUALIZADO\n- {ciano:3 PERFIS USUAIS:} CONSERVADOR · MODERADO · ARROJADO\n- A CLASSIFICAÇÃO VEM DAS 5 ETAPAS DA ANÁLISE\n- {ciano:PERGUNTA CERTA:} QUAL É O LIMITE DE RISCO DESTA CARTEIRA, HOJE?"
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} \"ELA É CONSERVADORA, É O JEITO DELA\"\n- {ciano:CLASSIFICAR:} TRADUZIR AS INFORMAÇÕES EM DIRETRIZES DE RECOMENDAÇÃO\n- {ciano:CVM 30:} CATEGORIAS PREVIAMENTE ESTABELECIDAS, SEM NOME\n- {ciano:ANBIMA:} NO MÍNIMO 3 PERFIS\n- {ciano:NOMES DE MERCADO:} CONSERVADOR · MODERADO · ARROJADO\n- {ciano:PERGUNTA CERTA:} QUAL O LIMITE DE RISCO DESTA CARTEIRA?"
   },
   {
-   "saida": "r20b_2_o-corte.png",
-   "semente": 2008,
+   "saida": "r20e_2_o-corte.png",
+   "semente": 2122,
    "molde": "comparacao",
    "titulo": "O CORTE DA ROUPA",
    "colunas": [
@@ -170,103 +513,208 @@
      "titulo": "OS 3 CORTES",
      "desenho": "tres_cortes",
      "rotulos": [
-      "CONFORTO",
-      "OUSADIA"
+      "JUSTO",
+      "SOLTO"
      ],
-     "texto": "- NADA APERTA → {laranja:CONSERVADOR}\n- CONFORTO E ESTILO → {laranja:MODERADO}\n- ROUPA OUSADA, CONSCIENTE → {laranja:ARROJADO}\n- CORTE → ATÉ ONDE A CARTEIRA VAI"
+     "texto": "- JUSTO, QUASE SEM FOLGA → {laranja:CONSERVADOR}\n- INTERMEDIÁRIO → {laranja:MODERADO}\n- SOLTO, TECIDO BALANÇA → {laranja:ARROJADO}\n- FOLGA = OSCILAÇÃO ACEITA"
     },
     {
-     "titulo": "NOVA MEDIDA",
+     "titulo": "O QUE O CORTE DIZ",
      "desenho": "fita_metrica",
      "rotulos": [
-      "CORPO",
-      "TEMPO"
+      "LIMITE",
+      "MEDIDAS"
      ],
-     "texto": "- CORPO MUDOU → {verde:VIDA MUDOU}\n- MEDIR DE NOVO → {verde:ATUALIZAR O PERFIL}\n- AJUSTAR A ROUPA → {verde:REBALANCEAR A CARTEIRA}\n- MEDIDA ANTIGA NÃO VALE"
+     "texto": "- NÃO DESCREVE A PESSOA → {verde:PERFIL NÃO É PERSONALIDADE}\n- ATÉ ONDE A ROUPA VAI → {verde:LIMITE DA CARTEIRA}\n- NASCE DAS MEDIDAS → {verde:NASCE DAS 5 ANÁLISES}"
     }
    ],
    "faixas": [
-    "{ciano:O CORTE NÃO É A PESSOA:} A CLASSIFICAÇÃO INDICA LIMITES DA CARTEIRA, NÃO A PERSONALIDADE",
-    "{ciano:OCASIÃO IMPORTA:} MESMO QUEM USA ROUPA OUSADA VESTE ALGO SÓBRIO NUMA REUNIÃO FORMAL"
+    "{ciano:OCASIÃO IMPORTA:} QUEM USA CORTE SOLTO TAMBÉM VESTE ALGO SÓBRIO NUMA REUNIÃO FORMAL",
+    "{ciano:3 CORTES É O MÍNIMO:} A INSTITUIÇÃO PODE TER MAIS CATEGORIAS"
    ],
    "destaque": {
-    "texto": "{vermelho:ONDE QUEBRA:} ROUPA ERRADA É DESCONFORTO · CARTEIRA ACIMA DO PERFIL É {laranja:PERDA REAL}, E A NORMA PROÍBE A RECOMENDAÇÃO",
+    "texto": "{vermelho:ONDE QUEBRA:} ROUPA ERRADA É DESCONFORTO · CARTEIRA ACIMA DO PERFIL É {laranja:PERDA QUE O CLIENTE NÃO SUPORTA}",
     "cor": "branco",
     "moldura": "vermelho"
    }
   },
   {
-   "saida": "r20b_3_conteudo-1.png",
-   "semente": 2009,
+   "saida": "r20e_3_conteudo-1.png",
+   "semente": 2123,
    "molde": "colunas",
-   "titulo": "CLASSIFICAÇÃO E CONSERVADOR (1/3)",
-   "topo": "{ciano:CLASSIFICAR:} TRADUZIR A ANÁLISE EM {laranja:DIRETRIZES PRÁTICAS} · CVM 30: CATEGORIAS PREVIAMENTE ESTABELECIDAS · ANBIMA: NO MÍNIMO 3 PERFIS",
+   "titulo": "OS TRÊS PERFIS (1/2)",
+   "topo": "{ciano:ANBIMA:} {laranja:PERFIL 1} BAIXA TOLERÂNCIA E BAIXO CONHECIMENTO, PRIORIZA LIQUIDEZ · {laranja:PERFIL 2} MÉDIA TOLERÂNCIA · {laranja:PERFIL 3} ACEITA PERDAS POTENCIAIS",
    "colunas": [
     {
      "titulo": "CONSERVADOR",
-     "texto": "- PRIORIZA {laranja:SEGURANÇA, LIQUIDEZ, PREVISIBILIDADE}\n- PRESERVAR O CAPITAL, MESMO RENDENDO MENOS\n- RENDA FIXA · BAIXA VOLATILIDADE\n- LIQUIDEZ ELEVADA · ESTRATÉGIA SIMPLES"
+     "texto": "- SEGURANÇA, LIQUIDEZ, PREVISIBILIDADE\n- PRESERVAR O CAPITAL\n- RENDA FIXA · BAIXA VOLATILIDADE\n- ESTRATÉGIAS SIMPLES\n- {ciano:COMUM:} INICIANTE, CURTO PRAZO, VIVE DO PATRIMÔNIO"
     },
     {
-     "titulo": "QUEM COSTUMA SER",
-     "texto": "- INVESTIDOR INICIANTE\n- OBJETIVOS DE CURTO PRAZO\n- DEPENDE DO PATRIMÔNIO PARA VIVER\n- {ciano:EX.:} TÍTULO PÚBLICO PÓS-FIXADO, CDB DE LIQUIDEZ DIÁRIA, FUNDO DE RENDA FIXA"
-    }
-   ],
-   "destaque": {
-    "texto": "{ciano:ANBIMA, PERFIL 1:} TOLERÂNCIA A RISCO BAIXA · CONHECIMENTO BAIXO · PREFERÊNCIA POR LIQUIDEZ · TETO DE PONTUAÇÃO DE RISCO DOS PRODUTOS: {laranja:1,5}",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r20b_3_conteudo-2.png",
-   "semente": 2010,
-   "molde": "colunas",
-   "titulo": "MODERADO E ARROJADO (2/3)",
-   "topo": "{ciano:MODERADO:} EQUILÍBRIO ENTRE SEGURANÇA E CRESCIMENTO · {ciano:ARROJADO:} VOLATILIDADE SIGNIFICATIVA EM TROCA DE RETORNO MAIOR NO {laranja:LONGO PRAZO}",
-   "colunas": [
-    {
      "titulo": "MODERADO",
-     "texto": "- VOLATILIDADE COM RACIONALIDADE\n- DIVERSIFICA RENDA FIXA E VARIÁVEL\n- MÉDIO E LONGO PRAZO\n- RISCO CONTROLADO\n- MULTIMERCADOS E AÇÕES\n- JÁ TEM RESERVA ESTRUTURADA"
+     "texto": "- EQUILÍBRIO: SEGURANÇA E CRESCIMENTO\n- DIVERSIFICA RF E RV\n- MÉDIO E LONGO PRAZO\n- RISCO CONTROLADO\n- {ciano:COMUM:} RESERVA PRONTA, OBJETIVOS LONGOS"
     },
     {
      "titulo": "ARROJADO",
-     "texto": "- COMPREENDE OS RISCOS\n- HORIZONTE COMPATÍVEL\n- MAIS RENDA VARIÁVEL\n- ESTRATÉGIAS MAIS COMPLEXAS\n- OSCILAÇÃO RELEVANTE NO CURTO PRAZO\n- FOCO EM CRESCIMENTO"
+     "texto": "- VOLATILIDADE SIGNIFICATIVA POR MAIS RETORNO\n- MAIS RENDA VARIÁVEL\n- ESTRATÉGIAS COMPLEXAS\n- {ciano:COMUM:} ENTENDE OS RISCOS, HORIZONTE COMPATÍVEL"
     }
    ],
    "destaque": {
-    "texto": "{ciano:ANBIMA:} PERFIL 2, TETO {laranja:3} · PERFIL 3, TETO {laranja:5} · NENHUM PERFIL DISPENSA {verde:DIVERSIFICAÇÃO E GESTÃO DE RISCO} · ARROJADO {vermelho:≠} QUALIFICADO",
+    "texto": "{vermelho:FALSO:} \"PERFIL É SÓ A REAÇÃO EMOCIONAL AO RISCO\" · A NORMA COMBINA {laranja:OBJETIVOS + SITUAÇÃO FINANCEIRA + CONHECIMENTO}",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r20b_3_conteudo-3.png",
-   "semente": 2011,
+   "saida": "r20e_3_conteudo-2.png",
+   "semente": 2124,
    "molde": "colunas",
-   "titulo": "LIMITES E ATUALIZAÇÃO (3/3)",
-   "topo": "{ciano:PONTUAÇÃO DE RISCO DOS PRODUTOS (ANBIMA):} DE {laranja:0,5} (MENOR RISCO) A {laranja:5} (MAIOR RISCO) · O PERFIL FIXA O TETO",
+   "titulo": "OS TRÊS PERFIS (2/2)",
+   "topo": "{ciano:REAÇÃO À PERDA E PRODUTOS USUAIS} · EXEMPLOS DE MERCADO; A LISTA DEPENDE DA METODOLOGIA DE CADA INSTITUIÇÃO",
    "colunas": [
     {
-     "titulo": "OS TETOS",
-     "texto": "- {ciano:PERFIL 1:} ATÉ {laranja:1,5}\n- {ciano:PERFIL 2:} ATÉ {laranja:3}\n- {ciano:PERFIL 3:} ATÉ {laranja:5}\n- POR PRODUTO OU PELA MÉDIA PONDERADA DO PORTFÓLIO\n- ACIMA DO TETO → RECOMENDAÇÃO VEDADA"
+     "titulo": "CONSERVADOR",
+     "texto": "- {vermelho:NA PERDA:} ANSIEDADE\n- TESOURO SELIC\n- CDB E LC COM LIQUIDEZ DIÁRIA\n- FUNDOS DE RENDA FIXA DE BAIXO RISCO\n- PREVIDÊNCIA DE RENDA FIXA"
     },
     {
-     "titulo": "ATUALIZAR",
-     "texto": "- MUDOU OBJETIVO, RENDA, PATRIMÔNIO, EXPERIÊNCIA OU CONTEXTO DE VIDA\n- {ciano:CVM 30:} NO MÁXIMO A CADA {laranja:5 ANOS}\n- PERFIL DESATUALIZADO → NÃO SE RECOMENDA"
+     "titulo": "MODERADO",
+     "texto": "- {laranja:NA PERDA:} ACEITAÇÃO PARCIAL\n- TESOURO IPCA+ E PREFIXADO DE PRAZO MÉDIO\n- MULTIMERCADO BALANCEADO · FII\n- ETF DE RV, BAIXA EXPOSIÇÃO\n- PREVIDÊNCIA BALANCEADA"
+    },
+    {
+     "titulo": "ARROJADO",
+     "texto": "- {verde:NA PERDA:} INDIFERENÇA OU OPORTUNIDADE\n- AÇÕES E ETFs GLOBAIS\n- MULTIMERCADOS AGRESSIVOS\n- FUNDOS DE AÇÕES · DERIVATIVOS\n- PREVIDÊNCIA AGRESSIVA: 60 A 70% EM RV"
     }
    ],
    "destaque": {
-    "texto": "{ciano:NA PROVA:} PERFIL = {laranja:TETO DE RISCO} · CADA RECURSO SEGUE A SUA META E O SEU PRAZO · ARROJADO COM META DE 1 ANO USA PRODUTO LÍQUIDO E PREVISÍVEL",
+    "texto": "ARROJADO {vermelho:NÃO DISPENSA} DIVERSIFICAÇÃO NEM GESTÃO DE RISCO · CONSERVADOR NÃO É \"SEM RISCO\": RENDA FIXA TEM RISCO DE {laranja:CRÉDITO, MERCADO E LIQUIDEZ}",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r20b_4_carteira-e-teto.png",
-   "semente": 2012,
+   "saida": "r20e_4_dois-perfis.png",
+   "semente": 2125,
+   "molde": "exercicio",
+   "titulo": "DOIS CLIENTES, DOIS PERFIS",
+   "dados": "- {ciano:DONA LÚCIA,} 68: VIVE DA RENDA DE R$ 800.000\n- REFORMA EM 1 ANO · SÓ POUPANÇA E CDB\n- {ciano:PAULO,} 40: RESERVA DE 6 MESES PRONTA\n- FACULDADE EM 8 ANOS · APOSENTADORIA EM 25\n- MULTIMERCADO E FII · MANTEVE NA QUEDA",
+   "cenarios": [
+    {
+     "titulo": "DONA LÚCIA",
+     "passos": "0,8% DE 800.000 = 6.400\nQUEDA DE 15% → 680.000\n0,8% DE 680.000 = 5.440",
+     "resultado": "CONSERVADORA"
+    },
+    {
+     "titulo": "PAULO",
+     "passos": "RESERVA ESTRUTURADA\nOBJETIVOS DE 8 E 25 ANOS\nOSCILA, COM INCÔMODO",
+     "resultado": "MODERADO"
+    }
+   ],
+   "conclusao": {
+    "texto": "RENDA DA DONA LÚCIA: 6.400 − 5.440 = {laranja:960 A MENOS POR MÊS} · CASOS HIPOTÉTICOS; A CLASSIFICAÇÃO SEGUE A METODOLOGIA DA INSTITUIÇÃO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r20f_1_arrojado-pode-tudo.png",
+   "semente": 2126,
+   "molde": "mito_verdade",
+   "titulo": "ARROJADO PODE TUDO?",
+   "mitos": [
+    "ARROJADO COMPRA QUALQUER PRODUTO",
+    "PERFIL VALE PARA SEMPRE"
+   ],
+   "verdade": "PERFIL É {laranja:TETO DE RISCO}, NÃO CONVITE",
+   "desenho": {
+    "nome": "cadeado",
+    "largura": 140
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} RENATA, 35 ANOS, ARROJADA · R$ 400.000 INVESTIDOS\n- PEDE VENTURE CAPITAL (FIP) → {vermelho:SÓ INVESTIDOR QUALIFICADO}\n- {ciano:3 LIMITES DO PERFIL:} ACESSO · CUSTOS · VALIDADE\n- {vermelho:FALSO:} \"PERFIL ARROJADO PODE INVESTIR EM FIP\"\n- {vermelho:FALSO:} \"DEFINIDO, O PERFIL NÃO MUDA MAIS\"\n- PERFIL (SUITABILITY) E CATEGORIA DE INVESTIDOR SÃO COISAS DISTINTAS"
+  },
+  {
+   "saida": "r20f_2_limites-do-corte.png",
+   "semente": 2127,
+   "molde": "comparacao",
+   "titulo": "OS LIMITES DO CORTE",
+   "colunas": [
+    {
+     "titulo": "CONVITE E PREÇO",
+     "desenho": "cadeado",
+     "rotulos": [
+      "SALÃO",
+      "PREÇO"
+     ],
+     "texto": "- FESTA COM CONVITE → {laranja:PRODUTO RESTRITO}\n- CORTE SOLTO NÃO ABRE A PORTA → {laranja:ARROJADO ≠ QUALIFICADO}\n- PREÇO DO TECIDO → {laranja:CUSTOS}\n- SERVE, MAS CARO DEMAIS → INADEQUADO"
+    },
+    {
+     "titulo": "NOVAS MEDIDAS",
+     "desenho": "fita_metrica",
+     "rotulos": [
+      "CORPO",
+      "TEMPO"
+     ],
+     "texto": "- CORPO MUDOU → {verde:VIDA MUDOU}\n- MEDIR DE NOVO → {verde:ATUALIZAR O PERFIL}\n- MEDIDA ANTIGA → {vermelho:PERFIL DESATUALIZADO}\n- ROUPA NÃO É ENTREGUE → {vermelho:NÃO SE RECOMENDA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:QUEM DÁ O CONVITE:} A REGRA DA CATEGORIA DE INVESTIDOR, NÃO O ALFAIATE",
+    "{ciano:AJUSTE PARA MENOS:} NOVA MEDIDA PODE PEDIR CORTE MAIS JUSTO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O ALFAIATE ESPERA O CLIENTE VOLTAR · NO INVESTIMENTO, A NORMA FIXA {laranja:PRAZO MÁXIMO} PARA A NOVA MEDIÇÃO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r20f_3_conteudo-1.png",
+   "semente": 2128,
+   "molde": "colunas",
+   "titulo": "TETO, ACESSO E CUSTOS (1/2)",
+   "topo": "{ciano:ANBIMA:} PRODUTOS PONTUADOS DE {laranja:0,5} A {laranja:5} · TETOS: PERFIL 1 ATÉ {laranja:1,5} · PERFIL 2 ATÉ {laranja:3} · PERFIL 3 ATÉ {laranja:5}",
+   "colunas": [
+    {
+     "titulo": "ARROJADO ≠ QUALIFICADO",
+     "texto": "- {ciano:PERFIL:} RISCO DA CARTEIRA\n- {ciano:CATEGORIA:} ACESSO A PRODUTOS\n- FIP: SOMENTE QUALIFICADOS (CVM 175, ANEXO IV)\n- {ciano:QUALIFICADO (CVM 30):} MAIS DE R$ 1 MILHÃO INVESTIDO + TERMO ESCRITO; CERTIFICAÇÃO ACEITA PELA CVM; PROFISSIONAL"
+    },
+    {
+     "titulo": "CUSTOS",
+     "texto": "- {ciano:CVM 30:} CUSTOS DIRETOS E INDIRETOS ENTRAM NA ANÁLISE\n- VALE PARA PRODUTOS, SERVIÇOS E OPERAÇÕES\n- ISOLADAMENTE OU EM CONJUNTO\n- RISCO CERTO + CUSTO EXCESSIVO = {vermelho:INADEQUADO}"
+    }
+   ],
+   "destaque": {
+    "texto": "2 MÉTODOS: {laranja:POR PRODUTO} OU POR {laranja:PORTFÓLIO} (CÁLCULO PONDERADO DOS PONTOS) · ACIMA DO TETO → RECOMENDAÇÃO VEDADA · CATEGORIAS: R21",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r20f_3_conteudo-2.png",
+   "semente": 2129,
+   "molde": "colunas",
+   "titulo": "ATUALIZAÇÃO E VEDAÇÕES (2/2)",
+   "topo": "O PERFIL {laranja:NÃO É ESTÁTICO}: É REVISTO QUANDO MUDAM OBJETIVOS, RENDA, PATRIMÔNIO, EXPERIÊNCIA E CONTEXTO DE VIDA",
+   "colunas": [
+    {
+     "titulo": "ATUALIZAR (CVM 30)",
+     "texto": "- NA PERIODICIDADE DO CADASTRO\n- INTERVALO MÁXIMO: {laranja:5 ANOS}\n- CATEGORIAS DE PRODUTOS: NOVA ANÁLISE EM ATÉ {laranja:24 MESES}\n- A REVISÃO PODE MANTER, ELEVAR OU REDUZIR O PERFIL"
+    },
+    {
+     "titulo": "É VEDADO RECOMENDAR",
+     "texto": "- {laranja:1.} PRODUTO INADEQUADO AO PERFIL\n- {laranja:2.} SEM AS INFORMAÇÕES QUE IDENTIFICAM O PERFIL\n- {laranja:3.} COM AS INFORMAÇÕES DO PERFIL DESATUALIZADAS"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:3 ERROS:} \"R$ 3 MILHÕES + ACEITA −20% = ARROJADO PARA SEMPRE\" · PATRIMÔNIO ≠ TOLERÂNCIA · QUESTIONÁRIO SOZINHO NÃO BASTA · PERFIL MUDA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r20f_4_carteira-e-teto.png",
+   "semente": 2130,
    "molde": "exercicio",
    "titulo": "A CARTEIRA CABE NO PERFIL?",
-   "dados": "- CARTEIRA HIPOTÉTICA, PELA ESCALA DE {ciano:0,5 A 5} PONTOS\n- METADE DA CARTEIRA: PONTUAÇÃO 1\n- 30% DA CARTEIRA: PONTUAÇÃO 2,5\n- 20% DA CARTEIRA: PONTUAÇÃO 4,5\n- ADEQUAÇÃO PELA MÉDIA PONDERADA DO PORTFÓLIO",
+   "dados": "- CARTEIRA HIPOTÉTICA, ESCALA DE {ciano:0,5 A 5} PONTOS\n- METADE DA CARTEIRA: PONTUAÇÃO 1\n- 30% DA CARTEIRA: PONTUAÇÃO 2,5\n- 20% DA CARTEIRA: PONTUAÇÃO 4,5\n- ADEQUAÇÃO PELO PORTFÓLIO DO CLIENTE",
    "cenarios": [
     {
      "titulo": "CONSERVADOR",
@@ -280,7 +728,7 @@
     }
    ],
    "conclusao": {
-    "texto": "0,5 + 0,75 + 0,90 = {laranja:2,15} · MESMA CARTEIRA, RESPOSTAS DIFERENTES · QUEM DECIDE É O {laranja:TETO DO PERFIL}, NÃO A QUALIDADE DO PRODUTO",
+    "texto": "0,5 + 0,75 + 0,90 = {laranja:2,15} · RENATA: TETO 5, MAS FIP EXIGE QUALIFICADO; COM R$ 400.000 E SEM CERTIFICAÇÃO, ELA NÃO É",
     "cor": "branco",
     "moldura": "amarelo"
    }
