@@ -17,7 +17,7 @@
     "nome": "prancheta",
     "largura": 120
    },
-   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} VENDAS DE 25.000 NO MÊS · LUCRO DE 1.000\n- LIMITE DA ISENÇÃO: {ciano:20.000} EM VENDAS DE AÇÕES NO MÊS\n- 25.000 > 20.000 → {vermelho:TRIBUTADO}\n- IMPOSTO: 15% DE 1.000 = 150 REAIS\n- GUIA: DARF, CÓDIGO 6015\n- ATRASO GERA MULTA E JUROS\n- {ciano:2 TEMAS:} TRIBUTAÇÃO · COMPENSAÇÃO DE PERDAS"
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} VENDAS DE 25.000 NO MÊS · LUCRO DE 1.000\n- LIMITE DA ISENÇÃO: {ciano:20.000} EM VENDAS DE AÇÕES NO MÊS\n- 25.000 > 20.000 → {vermelho:TRIBUTADO}\n- IMPOSTO: 15% DE 1.000 = 150 REAIS\n- GUIA: DARF, CÓDIGO 6015\n- ATRASO GERA MULTA E JUROS\n- {ciano:4 TEMAS:} APURAÇÃO · ALÍQUOTAS · ISENÇÃO · IMPOSTO NA FONTE"
   },
   {
    "saida": "r31a_2_fisco-na-feira.png",
@@ -35,21 +35,21 @@
      "texto": "- GANHO NA REVENDA DA COTA → {laranja:GANHO LÍQUIDO}\n- O SÓCIO FAZ A CONTA → {laranja:APURAÇÃO MENSAL}\n- GUIA PAGA POR ELE → {laranja:DARF}\n- COMPRA E REVENDA NO DIA → {laranja:DAY TRADE}"
     },
     {
-     "titulo": "O CADERNO",
-     "desenho": "livro_caixa",
+     "titulo": "O FISCAL",
+     "desenho": "cracha_fiscal",
      "rotulos": [
-      "PERDA",
-      "ABATE"
+      "ANOTA",
+      "RETÉM"
      ],
-     "texto": "- PERDA ANOTADA → {verde:PREJUÍZO A COMPENSAR}\n- ABATE DO GANHO FUTURO → {verde:COMPENSAÇÃO}\n- UM CADERNO POR TIPO → {verde:COMUM × DAY TRADE}\n- VENDEU POUCO NO MÊS → {verde:ISENÇÃO}"
+     "texto": "- ANOTAÇÃO DE CADA VENDA → {verde:INFORMAÇÃO À RECEITA}\n- PARTE MÍNIMA RECOLHIDA NA HORA → {verde:DEDO-DURO}\n- VENDEU POUCO NO MÊS → {verde:ISENÇÃO}"
     }
    ],
    "faixas": [
-    "{ciano:FISCAL QUE ANOTA CADA VENDA:} IMPOSTO NA FONTE (DEDO-DURO)",
+    "{ciano:QUEM FAZ O PAPEL DO FISCAL:} A CORRETORA",
     "{ciano:DIFERENÇA PARA A RENDA FIXA:} LÁ, A INSTITUIÇÃO RETÉM TUDO"
    ],
    "destaque": {
-    "texto": "{vermelho:ONDE QUEBRA:} COMERCIANTE SOMA TUDO NUMA CONTA SÓ · NA BOLSA, DAY TRADE E OPERAÇÃO COMUM {laranja:NÃO SE MISTURAM}",
+    "texto": "{vermelho:ONDE QUEBRA:} NA RUA, UMA VENDA PODE PASSAR SEM REGISTRO · NA BOLSA, {laranja:TODA} OPERAÇÃO FICA REGISTRADA",
     "cor": "branco",
     "moldura": "vermelho"
    }
@@ -59,11 +59,11 @@
    "semente": 3103,
    "molde": "colunas",
    "titulo": "APURAÇÃO, ALÍQUOTAS E ISENÇÃO (1/2)",
-   "topo": "{ciano:GANHO LÍQUIDO DO MÊS} = VENDAS − CUSTO − DESPESAS (CORRETAGEM, EMOLUMENTOS) · PAGAMENTO POR {laranja:DARF}, COM VENCIMENTO NO FIM DO MÊS SEGUINTE",
+   "topo": "{ciano:GANHO LÍQUIDO DO MÊS} = VENDAS − CUSTO − DESPESAS (CORRETAGEM, EMOLUMENTOS, TAXAS) · QUEM CALCULA É O {laranja:INVESTIDOR}",
    "colunas": [
     {
      "titulo": "ALÍQUOTAS",
-     "texto": "- {laranja:OPERAÇÃO COMUM:} 15%\n- À VISTA, TERMO, OPÇÕES E FUTURO\n- {laranja:DAY TRADE:} 20%\n- MESMO ATIVO, MESMO DIA\n- BASE: O GANHO, NÃO A VENDA"
+     "texto": "- {laranja:OPERAÇÃO COMUM:} 15%\n- DIAS DIFERENTES: SWING TRADE, POSITION, BUY AND HOLD\n- {laranja:DAY TRADE:} 20%\n- MESMO ATIVO, MESMO PREGÃO\n- BASE: O GANHO, NÃO A VENDA"
     },
     {
      "titulo": "ISENÇÃO",
@@ -80,27 +80,146 @@
    "saida": "r31a_3_conteudo-2.png",
    "semente": 3104,
    "molde": "colunas",
-   "titulo": "DEDO-DURO E COMPENSAÇÃO (2/2)",
-   "topo": "{ciano:ORDEM DA CONTA:} GANHO − {laranja:PREJUÍZO} = BASE · BASE × ALÍQUOTA = IMPOSTO · IMPOSTO − {laranja:DEDO-DURO} = DARF",
+   "titulo": "IMPOSTO NA FONTE E PAGAMENTO (2/2)",
+   "topo": "{ciano:DEDO-DURO:} IMPOSTO RETIDO NA FONTE PELA CORRETORA · É {laranja:ANTECIPAÇÃO}: ABATE DO IMPOSTO, NÃO DO LUCRO",
    "colunas": [
     {
-     "titulo": "DEDO-DURO",
-     "texto": "- {laranja:COMUM:} 0,005% DA VENDA\n- ATÉ 1 REAL: DISPENSADO\n- {laranja:DAY TRADE:} 1% DO GANHO\n- É ANTECIPAÇÃO DO IMPOSTO\n- RETIDO PELA CORRETORA"
+     "titulo": "NA FONTE",
+     "texto": "- {laranja:COMUM:} 0,005% DA VENDA\n- ATÉ 1 REAL: DISPENSADO\n- {laranja:DAY TRADE:} 1% DO GANHO\n- DAY TRADE: USO ATÉ DEZEMBRO DO MESMO ANO\n- SOBROU: PEDIDO DE RESTITUIÇÃO"
     },
     {
-     "titulo": "PREJUÍZO",
-     "texto": "- COMUM SÓ COM COMUM\n- DAY TRADE SÓ COM DAY TRADE\n- MESMO MÊS OU SEGUINTES\n- {vermelho:NUNCA} MESES ANTERIORES\n- {verde:SEM PRAZO} PARA USAR"
+     "titulo": "PAGAMENTO",
+     "texto": "- DARF, CÓDIGO 6015\n- VENCE NO FIM DO MÊS SEGUINTE\n- APURAÇÃO MÊS A MÊS\n- TRIBUTAÇÃO DEFINITIVA\n- FORA DO AJUSTE ANUAL"
     }
    ],
    "destaque": {
-    "texto": "{vermelho:ALERTA:} DEDO-DURO NÃO É DESPESA DA OPERAÇÃO · {ciano:CONDIÇÃO DO PREJUÍZO:} CONSTAR NO DEMONSTRATIVO DE RENDA VARIÁVEL DA DECLARAÇÃO, MÊS A MÊS",
+    "texto": "{vermelho:ALERTA:} DEDO-DURO NÃO É DESPESA DA OPERAÇÃO · {ciano:COMUM × DAY TRADE:} COMPROU ONTEM E VENDEU HOJE = OPERAÇÃO COMUM",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r31a_4_com-ou-sem-prejuizo.png",
+   "saida": "r31a_4_comum-ou-day-trade.png",
    "semente": 3105,
+   "molde": "exercicio",
+   "titulo": "MESMO GANHO: COMUM OU DAY TRADE",
+   "dados": "- HIPOTÉTICO: MAIO · VENDAS DE {ciano:18.000}\n- GANHO LÍQUIDO: {ciano:4.000}\n- VENDAS ABAIXO DE 20.000 NO MÊS\n- DEDO-DURO COMUM: 0,005% DE 18.000 = 0,90\n- A ÚNICA DIFERENÇA: O TIPO DE OPERAÇÃO",
+   "cenarios": [
+    {
+     "titulo": "OPERAÇÃO COMUM",
+     "passos": "VENDAS ≤ 20.000\nGANHO ISENTO\n0,90 < 1,00: SEM RETENÇÃO",
+     "resultado": "DARF: ZERO"
+    },
+    {
+     "titulo": "DAY TRADE",
+     "passos": "SEM ISENÇÃO\n20% DE 4.000 = 800\nNA FONTE: 1% = 40",
+     "resultado": "DARF: 760,00"
+    }
+   ],
+   "conclusao": {
+    "texto": "O MESMO GANHO CUSTA {verde:ZERO} OU {vermelho:760 REAIS} · O TIPO DE OPERAÇÃO DECIDE A ALÍQUOTA, A ISENÇÃO E A RETENÇÃO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r31b_1_prejuizo-perdido.png",
+   "semente": 3106,
+   "molde": "mito_verdade",
+   "titulo": "PREJUÍZO É DINHEIRO PERDIDO?",
+   "mitos": [
+    "PREJUÍZO",
+    "PERDIDO"
+   ],
+   "verdade": "VIRA {laranja:CRÉDITO}",
+   "desenho": {
+    "nome": "livro_caixa",
+    "largura": 190
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} MARÇO, PERDA DE 3.000 · ABRIL, GANHO DE 8.000\n- SEM COMPENSAR: 15% DE 8.000 = 1.200\n- COMPENSANDO: 15% DE 5.000 = 750\n- DIFERENÇA: {vermelho:450 REAIS} PAGOS A MAIS\n- CONDIÇÃO: PREJUÍZO DECLARADO, DO MESMO TIPO\n- O DINHEIRO NÃO VOLTA; O IMPOSTO FUTURO DIMINUI\n- {ciano:TEMA:} COMPENSAÇÃO DE PERDAS"
+  },
+  {
+   "saida": "r31b_2_caderno-de-prejuizos.png",
+   "semente": 3107,
+   "molde": "comparacao",
+   "titulo": "O CADERNO DE PREJUÍZOS",
+   "colunas": [
+    {
+     "titulo": "O CADERNO",
+     "desenho": "livro_caixa",
+     "rotulos": [
+      "PERDA",
+      "ABATE"
+     ],
+     "texto": "- PERDA ANOTADA → {laranja:PREJUÍZO A COMPENSAR}\n- ABATE DO GANHO FUTURO → {laranja:COMPENSAÇÃO}\n- SEM VALIDADE → {laranja:SEM PRAZO}\n- ANOTAÇÃO OFICIAL → {laranja:DECLARAÇÃO ANUAL}"
+    },
+    {
+     "titulo": "DOIS CADERNOS",
+     "desenho": "balanca",
+     "rotulos": [
+      "COMUM",
+      "DAY TRADE"
+     ],
+     "texto": "- VENDAS EM OUTRO DIA → {verde:OPERAÇÕES COMUNS}\n- COMPRA E VENDA NO DIA → {verde:DAY TRADE}\n- UM NÃO ABATE O OUTRO\n- CADA UM COM A SUA ALÍQUOTA"
+    }
+   ],
+   "faixas": [
+    "{ciano:QUANDO ABRIR O CADERNO:} NO MÊS EM QUE HOUVER GANHO",
+    "{ciano:O QUE NÃO DÁ:} VOLTAR A UM MÊS JÁ FECHADO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O CADERNO DO COMERCIANTE É PARTICULAR · O DO INVESTIDOR É O {laranja:DEMONSTRATIVO DE RENDA VARIÁVEL}, ENTREGUE À RECEITA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r31b_3_conteudo-1.png",
+   "semente": 3108,
+   "molde": "colunas",
+   "titulo": "TIPO E TEMPO DA COMPENSAÇÃO (1/2)",
+   "topo": "{ciano:COMPENSAR:} O PREJUÍZO DIMINUI A BASE DE CÁLCULO, {laranja:ANTES} DA ALÍQUOTA · FUNCIONA COMO UM CRÉDITO DO INVESTIDOR",
+   "colunas": [
+    {
+     "titulo": "TIPO",
+     "texto": "- COMUM SÓ COM COMUM\n- DAY TRADE SÓ COM DAY TRADE\n- PERDEU NO DAY TRADE, GANHOU NO COMUM: PAGA 15% SOBRE TODO O GANHO\n- O PREJUÍZO FICA GUARDADO"
+    },
+    {
+     "titulo": "TEMPO",
+     "texto": "- {verde:MESMO MÊS:} PODE\n- {verde:MESES SEGUINTES:} PODE\n- {vermelho:MESES ANTERIORES:} NUNCA\n- MOTIVO: APURAÇÃO MENSAL\n- IMPOSTO PAGO NÃO SE RECALCULA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:PREJUÍZO MAIOR QUE O GANHO:} 3.000 DE PREJUÍZO E 1.000 DE GANHO → BASE ZERO · SOBRAM {laranja:2.000} PARA OS PRÓXIMOS MESES",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r31b_3_conteudo-2.png",
+   "semente": 3109,
+   "molde": "colunas",
+   "titulo": "PRAZO, MERCADOS E ORDEM DA CONTA (2/2)",
+   "topo": "{ciano:ORDEM DA CONTA:} GANHO − {laranja:PREJUÍZO} = BASE · BASE × ALÍQUOTA = IMPOSTO · IMPOSTO − {laranja:DEDO-DURO} = DARF",
+   "colunas": [
+    {
+     "titulo": "PRAZO",
+     "texto": "- {verde:NÃO HÁ PRAZO}\n- DEZEMBRO VALE PARA O ANO SEGUINTE\n- CONDIÇÃO: ESTAR NA DECLARAÇÃO\n- NO MÊS DA PERDA E NOS SEGUINTES\n- ATÉ ZERAR O SALDO"
+    },
+    {
+     "titulo": "MERCADOS",
+     "texto": "- À VISTA\n- OPÇÕES\n- FUTURO\n- TERMO\n- PERDA EM UM, GANHO EM OUTRO: COMPENSA, SE O TIPO FOR O MESMO"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:PREJUÍZO ≠ DEDO-DURO:} O PREJUÍZO REDUZ A BASE · O DEDO-DURO REDUZ O IMPOSTO · {ciano:NA PRÁTICA:} DECLARAR A PERDA MESMO SEM IMPOSTO A PAGAR",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r31b_4_com-ou-sem-prejuizo.png",
+   "semente": 3110,
    "molde": "exercicio",
    "titulo": "DARF: COM OU SEM PREJUÍZO ANTERIOR",
    "dados": "- HIPOTÉTICO: ABRIL, OPERAÇÕES COMUNS\n- VENDAS: {ciano:40.000} · CUSTO COM DESPESAS: {ciano:32.000}\n- GANHO: 8.000 · VENDAS ACIMA DE 20.000 → SEM ISENÇÃO\n- DEDO-DURO: 0,005% DE 40.000 = 2,00\n- A ÚNICA DIFERENÇA: O PREJUÍZO DECLARADO",
@@ -123,8 +242,8 @@
    }
   },
   {
-   "saida": "r31b_1_dividendo-nunca-paga.png",
-   "semente": 3106,
+   "saida": "r31c_1_dividendo-nunca-paga.png",
+   "semente": 3111,
    "molde": "mito_verdade",
    "titulo": "DIVIDENDO NUNCA PAGA IMPOSTO?",
    "mitos": [
@@ -139,8 +258,8 @@
    "apoio": "- {ciano:CASO REAL (26/11/2025):} LEI 15.270 · VALE DESDE 01/01/2026\n- ISENÇÃO ANTERIOR: LEI 9.249, LUCROS A PARTIR DE 1996\n- LIMITE: POR EMPRESA, POR PESSOA FÍSICA, POR MÊS\n- PASSOU DO LIMITE: 10% SOBRE {vermelho:TUDO}\n- OS 10% SÃO ANTECIPAÇÃO, NÃO IMPOSTO FINAL\n- DIVIDENDO OBRIGATÓRIO: O ESTATUTO DEFINE O MÍNIMO\n- JCP TAMBÉM MUDOU: 15% → {laranja:17,5%} (LEI COMPLEMENTAR 224)\n- {ciano:2 TEMAS:} DIVIDENDO · JUROS SOBRE CAPITAL PRÓPRIO"
   },
   {
-   "saida": "r31b_2_lucro-e-juros.png",
-   "semente": 3107,
+   "saida": "r31c_2_lucro-e-juros.png",
+   "semente": 3112,
    "molde": "comparacao",
    "titulo": "A LOJA PAGA OS SÓCIOS",
    "colunas": [
@@ -174,8 +293,8 @@
    }
   },
   {
-   "saida": "r31b_3_conteudo-1.png",
-   "semente": 3108,
+   "saida": "r31c_3_conteudo-1.png",
+   "semente": 3113,
    "molde": "colunas",
    "titulo": "DIVIDENDO: REGRAS E IMPOSTO (1/2)",
    "topo": "{ciano:DIVIDENDO:} PARTE DO {laranja:LUCRO LÍQUIDO} ENTREGUE AOS ACIONISTAS · SEM LUCRO, NÃO HÁ DIVIDENDO",
@@ -186,25 +305,25 @@
     },
     {
      "titulo": "IMPOSTO (2026)",
-     "texto": "- ATÉ 50.000 NO MÊS: {verde:ZERO}\n- ACIMA: {vermelho:10%} NA FONTE\n- CONTA POR EMPRESA PAGADORA\n- PARCELAS DO MÊS SE SOMAM\n- VALE COMO ANTECIPAÇÃO"
+     "texto": "- ATÉ 50.000 NO MÊS: {verde:ZERO}\n- ACIMA: {vermelho:10%} NA FONTE\n- CONTA POR EMPRESA PAGADORA\n- PARCELAS DO MÊS SE SOMAM\n- CAPITALIZAÇÃO DE LUCROS TAMBÉM ENTRA"
     }
    ],
    "destaque": {
-    "texto": "{ciano:ACERTO ANUAL:} RENDA ACIMA DE 600.000 → ABATE NO IMPOSTO MÍNIMO · ABAIXO → RESTITUIÇÃO · {ciano:TRANSIÇÃO:} LUCROS ATÉ 2025 APROVADOS ATÉ 31/12/2025 FICAM FORA",
+    "texto": "{ciano:ACERTO ANUAL:} RENDA ACIMA DE 600.000 → ABATE NO IMPOSTO MÍNIMO · ABAIXO → RESTITUIÇÃO · {ciano:TRANSIÇÃO:} LUCROS ATÉ 2025, APROVADOS ATÉ 31/12/2025 E PAGOS NOS TERMOS DA APROVAÇÃO",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r31b_3_conteudo-2.png",
-   "semente": 3109,
+   "saida": "r31c_3_conteudo-2.png",
+   "semente": 3114,
    "molde": "colunas",
    "titulo": "JUROS SOBRE CAPITAL PRÓPRIO (2/2)",
-   "topo": "{ciano:JCP (LEI 9.249, ART. 9º):} JUROS PAGOS AOS SÓCIOS SOBRE O {laranja:PATRIMÔNIO LÍQUIDO} · LIMITE: VARIAÇÃO DA TJLP",
+   "topo": "{ciano:JCP (LEI 9.249, ART. 9º):} JUROS PAGOS AOS SÓCIOS SOBRE O {laranja:PATRIMÔNIO LÍQUIDO} · LIMITE: TJLP, PRO RATA DIA",
    "colunas": [
     {
      "titulo": "NA EMPRESA",
-     "texto": "- DESPESA {verde:DEDUTÍVEL}\n- REDUZ O LUCRO TRIBUTÁVEL\n- SÓ NO REGIME DE LUCRO REAL\n- EXIGE LUCRO OU RESERVAS\n- PODE COMPOR O DIVIDENDO OBRIGATÓRIO"
+     "texto": "- DESPESA {verde:DEDUTÍVEL}\n- REDUZ O LUCRO TRIBUTÁVEL\n- SÓ NO REGIME DE LUCRO REAL\n- LUCROS OU RESERVAS ≥ 2 × OS JUROS\n- PODE COMPOR O DIVIDENDO OBRIGATÓRIO"
     },
     {
      "titulo": "NO ACIONISTA",
@@ -218,8 +337,8 @@
    }
   },
   {
-   "saida": "r31b_4_50-ou-60-mil.png",
-   "semente": 3110,
+   "saida": "r31c_4_50-ou-60-mil.png",
+   "semente": 3115,
    "molde": "exercicio",
    "titulo": "DIVIDENDO DE 50 MIL OU DE 60 MIL NO MÊS",
    "dados": "- HIPOTÉTICO: UMA EMPRESA, UMA PESSOA FÍSICA, UM MÊS\n- LUCROS APURADOS EM 2026\n- LIMITE SEM RETENÇÃO: {ciano:50.000}\n- ALÍQUOTA NA FONTE: {ciano:10%} DO TOTAL\n- A ÚNICA DIFERENÇA: O VALOR PAGO NO MÊS",
@@ -242,8 +361,8 @@
    }
   },
   {
-   "saida": "r31c_1_perde-dividendos.png",
-   "semente": 3111,
+   "saida": "r31d_1_perde-dividendos.png",
+   "semente": 3116,
    "molde": "mito_verdade",
    "titulo": "ALUGOU, PERDEU OS DIVIDENDOS?",
    "mitos": [
@@ -258,8 +377,8 @@
    "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} 1.000 AÇÕES PARADAS NA CARTEIRA, SEM PLANO DE VENDA\n- NOME DO SERVIÇO NA B3: EMPRÉSTIMO DE ATIVOS\n- DOADOR GANHA: TAXA + PROVENTOS DO PERÍODO\n- DOADOR PERDE: {vermelho:O VOTO}\n- RISCO DO PREÇO: CONTINUA COM O DOADOR\n- {ciano:3 TEMAS:} CARACTERÍSTICAS · REMUNERAÇÃO · GARANTIAS"
   },
   {
-   "saida": "r31c_2_emprestar-a-cota.png",
-   "semente": 3112,
+   "saida": "r31d_2_emprestar-a-cota.png",
+   "semente": 3117,
    "molde": "comparacao",
    "titulo": "EMPRESTAR A COTA",
    "colunas": [
@@ -293,15 +412,15 @@
    }
   },
   {
-   "saida": "r31c_3_conteudo-1.png",
-   "semente": 3113,
+   "saida": "r31d_3_conteudo-1.png",
+   "semente": 3118,
    "molde": "colunas",
    "titulo": "DOADOR, TOMADOR E GARANTIAS (1/2)",
-   "topo": "{ciano:ALUGUEL DE AÇÕES = EMPRÉSTIMO DE ATIVOS DA B3:} VIA CORRETORAS · REGISTRO NA B3 · {laranja:B3 COMO CONTRAPARTE}",
+   "topo": "{ciano:REMUNERAÇÃO DO DOADOR (FÓRMULA DA B3):} QUANTIDADE × COTAÇÃO × [(1 + TAXA) ELEVADO A (DIAS ÚTEIS ÷ 252) − 1]",
    "colunas": [
     {
      "titulo": "REMUNERAÇÃO",
-     "texto": "- TAXA {laranja:LIVRE}, AO ANO\n- BASE: 252 DIAS ÚTEIS\n- QUANTIDADE × COTAÇÃO × FATOR DA TAXA\n- PROCURA ALTA → TAXA ALTA\n- PAGA PELO TOMADOR"
+     "texto": "- TAXA {laranja:LIVRE}, AO ANO\n- BASE: 252 DIAS ÚTEIS\n- PROCURA ALTA → TAXA ALTA\n- PAGA PELO TOMADOR\n- B3 NÃO COBRA TARIFA DO DOADOR"
     },
     {
      "titulo": "GARANTIAS",
@@ -315,8 +434,8 @@
    }
   },
   {
-   "saida": "r31c_3_conteudo-2.png",
-   "semente": 3114,
+   "saida": "r31d_3_conteudo-2.png",
+   "semente": 3119,
    "molde": "colunas",
    "titulo": "DIREITOS, PRAZOS E IMPOSTO (2/2)",
    "topo": "{ciano:DURANTE O CONTRATO:} AS AÇÕES FICAM NO NOME DO {laranja:TOMADOR} · A B3 REGISTRA O CONTRATO E GARANTE A DEVOLUÇÃO",
@@ -327,18 +446,18 @@
     },
     {
      "titulo": "PRAZOS",
-     "texto": "- MÍNIMO: 1 DIA\n- MÁXIMO: O DOADOR DEFINE\n- DEVOLUÇÃO ANTECIPADA: SE O CONTRATO PREVIR\n- NO FIM: AÇÕES DE VOLTA AO DOADOR"
+     "texto": "- MÍNIMO: 1 DIA\n- MÁXIMO: O DOADOR DEFINE\n- DOADOR PEDE DE VOLTA ANTES\n- TOMADOR DEVOLVE EM, NO MÍNIMO, {laranja:2 PREGÕES}"
     }
    ],
    "destaque": {
-    "texto": "{ciano:IMPOSTO DO DOADOR:} COMO RENDA FIXA, NA FONTE · {laranja:22,5%} (ATÉ 180 DIAS) · 20% · 17,5% · {laranja:15%} (ACIMA DE 720) · {vermelho:NÃO USA} A ISENÇÃO DOS 20.000",
+    "texto": "{ciano:IMPOSTO DO DOADOR:} RENDA FIXA, NA FONTE · {laranja:22,5%} · 20% · 17,5% · {laranja:15%} · NÃO USA A ISENÇÃO DOS 20.000 · {ciano:TOMADOR:} O ALUGUEL ENTRA NO CUSTO DA OPERAÇÃO DELE",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r31c_4_taxa-4-ou-12.png",
-   "semente": 3115,
+   "saida": "r31d_4_taxa-4-ou-12.png",
+   "semente": 3120,
    "molde": "exercicio",
    "titulo": "ALUGUEL A 4% OU A 12% AO ANO",
    "dados": "- HIPOTÉTICO: 1.000 AÇÕES × 30,00 = {ciano:30.000}\n- PRAZO: 63 DIAS ÚTEIS (63 ÷ 252 = 0,25 ANO)\n- FATOR: (1 + TAXA) ELEVADO A 0,25\n- IMPOSTO: 22,5% (ATÉ 180 DIAS)\n- A ÚNICA DIFERENÇA: A TAXA NEGOCIADA",
@@ -361,26 +480,26 @@
    }
   },
   {
-   "saida": "r31d_1_split-enriquece.png",
-   "semente": 3116,
+   "saida": "r31e_1_emissao-nao-afeta.png",
+   "semente": 3121,
    "molde": "mito_verdade",
-   "titulo": "SPLIT DEIXA MAIS RICO?",
+   "titulo": "AÇÕES NOVAS NÃO AFETAM O ANTIGO SÓCIO?",
    "mitos": [
-    "MAIS AÇÕES",
-    "MAIS RICO"
+    "EMISSÃO NOVA",
+    "NÃO PERCO NADA"
    ],
-   "verdade": "MESMO {laranja:PATRIMÔNIO}",
+   "verdade": "QUEM NÃO ACOMPANHA É {laranja:DILUÍDO}",
    "desenho": {
-    "nome": "balanca",
-    "largura": 230
+    "nome": "loja",
+    "largura": 150
    },
-   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} SPLIT DE 1 PARA 4\n- ANTES: 100 × 80 = {ciano:8.000}\n- DEPOIS: 400 × 20 = {ciano:8.000}\n- INPLIT DE 10 PARA 1: 5.000 × 0,40 → 500 × 4,00 = 2.000\n- PARTICIPAÇÃO NA EMPRESA: IGUAL NOS DOIS CASOS\n- {ciano:4 TEMAS:} BÔNUS DE SUBSCRIÇÃO · FOLLOW-ON · SPLIT · INPLIT"
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} 10.000 AÇÕES EM 1.000.000 = 1%\n- EMISSÃO DE 250.000 AÇÕES NOVAS\n- MESMAS 10.000 AÇÕES EM 1.250.000 = {vermelho:0,8%}\n- MENOS VOTO E MENOS FATIA NO LUCRO FUTURO\n- DEFESA DA LEI: {verde:DIREITO DE PREFERÊNCIA}\n- {ciano:3 TEMAS:} FOLLOW-ON · PREFERÊNCIA · BÔNUS DE SUBSCRIÇÃO"
   },
   {
-   "saida": "r31d_2_cotas-novas.png",
-   "semente": 3117,
+   "saida": "r31e_2_cotas-novas.png",
+   "semente": 3122,
    "molde": "comparacao",
-   "titulo": "A LOJA MEXE NAS COTAS",
+   "titulo": "A LOJA EMITE COTAS NOVAS",
    "colunas": [
     {
      "titulo": "COTAS NOVAS",
@@ -389,21 +508,21 @@
       "EMISSÃO",
       "A VEZ"
      ],
-     "texto": "- NOVA VENDA DE COTAS → {laranja:FOLLOW-ON}\n- FATIA QUE ENCOLHE → {laranja:DILUIÇÃO}\n- SÓCIO ANTIGO NA FRENTE → {laranja:PREFERÊNCIA}\n- VALE PARA COTA FUTURA → {laranja:BÔNUS DE SUBSCRIÇÃO}"
+     "texto": "- NOVA VENDA DE COTAS → {laranja:FOLLOW-ON}\n- FATIA QUE ENCOLHE → {laranja:DILUIÇÃO}\n- SÓCIO ANTIGO NA FRENTE → {laranja:PREFERÊNCIA}\n- VENDER A VEZ NA FILA → {laranja:CESSÃO DO DIREITO}"
     },
     {
-     "titulo": "COTAS TROCADAS",
-     "desenho": "moeda",
+     "titulo": "O VALE",
+     "desenho": "prancheta",
      "rotulos": [
-      "1 → 4",
-      "10 → 1"
+      "VALE",
+      "PREÇO"
      ],
-     "texto": "- 1 COTA VIRA 4 → {verde:SPLIT}\n- 10 COTAS VIRAM 1 → {verde:INPLIT}\n- TAMANHO DA LOJA → {verde:NÃO MUDA}\n- FATIA DE CADA SÓCIO → {verde:NÃO MUDA}"
+     "texto": "- VALE PARA COTA FUTURA → {verde:BÔNUS DE SUBSCRIÇÃO}\n- PREÇO ESCRITO NO VALE → {verde:PREÇO DE EMISSÃO}\n- VALE PODE SER REVENDIDO → {verde:TÍTULO NEGOCIÁVEL}\n- BRINDE A QUEM COMPRA COTAS → {verde:VANTAGEM ADICIONAL}"
     }
    ],
    "faixas": [
-    "{ciano:COTAS NOVAS:} ENTRA DINHEIRO NA LOJA · {ciano:COTAS TROCADAS:} NÃO ENTRA NADA",
-    "{ciano:QUEM NÃO QUER COMPRAR:} PODE VENDER A SUA VEZ NA FILA"
+    "{ciano:COTAS NOVAS:} ENTRA DINHEIRO NA LOJA (OFERTA PRIMÁRIA)",
+    "{ciano:SÓCIO VENDENDO A PRÓPRIA COTA:} NÃO ENTRA NADA NA LOJA (OFERTA SECUNDÁRIA)"
    ],
    "destaque": {
     "texto": "{vermelho:ONDE QUEBRA:} SÓCIOS DE LOJA NEGOCIAM CASO A CASO · NA COMPANHIA, A {laranja:LEI 6.404} FIXA DIREITOS QUE A MAIORIA NÃO DERRUBA",
@@ -412,56 +531,52 @@
    }
   },
   {
-   "saida": "r31d_3_conteudo-1.png",
-   "semente": 3118,
+   "saida": "r31e_3_conteudo-1.png",
+   "semente": 3123,
    "molde": "colunas",
-   "titulo": "FOLLOW-ON, PREFERÊNCIA E BÔNUS (1/2)",
-   "topo": "{ciano:FOLLOW-ON:} OFERTA DE AÇÕES DE QUEM JÁ ESTÁ NA BOLSA · {laranja:PRIMÁRIA} (AÇÕES NOVAS, DILUI) OU {laranja:SECUNDÁRIA} (AÇÕES EXISTENTES, NÃO DILUI)",
+   "titulo": "FOLLOW-ON E DIREITO DE PREFERÊNCIA (1/2)",
+   "topo": "{ciano:FOLLOW-ON:} OFERTA SUBSEQUENTE, DE QUEM JÁ ESTÁ NA BOLSA · {laranja:PRIMÁRIA} (AÇÕES NOVAS, DILUI) OU {laranja:SECUNDÁRIA} (AÇÕES EXISTENTES, NÃO DILUI)",
    "colunas": [
     {
      "titulo": "PREFERÊNCIA",
-     "texto": "- LEI 6.404, ARTS. 109 E 171\n- NA PROPORÇÃO DAS AÇÕES\n- PRAZO MÍNIMO: {laranja:30 DIAS}\n- PODE SER CEDIDA (VENDIDA)\n- DIREITO ESSENCIAL DO SÓCIO"
+     "texto": "- LEI 6.404, ARTS. 109 E 171\n- NA PROPORÇÃO DAS AÇÕES\n- PRAZO MÍNIMO: {laranja:30 DIAS}\n- PODE SER CEDIDA (VENDIDA)\n- VALE PARA AÇÕES, BÔNUS E DEBÊNTURES CONVERSÍVEIS"
     },
     {
-     "titulo": "BÔNUS",
-     "texto": "- LEI 6.404, ARTS. 75 A 77\n- TÍTULO NEGOCIÁVEL\n- DIREITO DE SUBSCREVER\n- PREÇO JÁ DEFINIDO\n- LIMITE: CAPITAL AUTORIZADO"
+     "titulo": "EXCEÇÃO",
+     "texto": "- LEI 6.404, ART. 172\n- COMPANHIA ABERTA COM CAPITAL AUTORIZADO\n- VENDA EM BOLSA OU SUBSCRIÇÃO PÚBLICA\n- PERMUTA EM OFERTA DE AQUISIÇÃO DE CONTROLE"
     }
    ],
    "destaque": {
-    "texto": "{ciano:EXCEÇÃO (ART. 172):} COMPANHIA ABERTA COM CAPITAL AUTORIZADO PODE EMITIR SEM PREFERÊNCIA, EM BOLSA OU OFERTA PÚBLICA · {vermelho:PREÇO DE EMISSÃO:} SEM DILUIÇÃO INJUSTIFICADA (ART. 170)",
+    "texto": "{ciano:2 REDES DE SEGURANÇA:} PREÇO DE EMISSÃO SEM DILUIÇÃO INJUSTIFICADA (ART. 170) · {laranja:PRIORIDADE} NA OFERTA RESTRITA: MÍNIMO DE 5 DIAS ÚTEIS (CVM 160, ART. 53)",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r31d_3_conteudo-2.png",
-   "semente": 3119,
+   "saida": "r31e_3_conteudo-2.png",
+   "semente": 3124,
    "molde": "colunas",
-   "titulo": "SPLIT, INPLIT E BONIFICAÇÃO (2/2)",
-   "topo": "{ciano:LEI 6.404, ART. 12:} O NÚMERO DE AÇÕES SÓ MUDA NOS CASOS DA LEI, COMO {laranja:DESDOBRAMENTO} E {laranja:GRUPAMENTO}",
+   "titulo": "BÔNUS DE SUBSCRIÇÃO (2/2)",
+   "topo": "{ciano:BÔNUS DE SUBSCRIÇÃO (LEI 6.404, ARTS. 75 A 77):} TÍTULO NEGOCIÁVEL QUE DÁ O DIREITO DE {laranja:SUBSCREVER AÇÕES NOVAS} PELO PREÇO DE EMISSÃO NELE PREVISTO",
    "colunas": [
     {
-     "titulo": "SPLIT",
-     "texto": "- DESDOBRAMENTO\n- QUANTIDADE {verde:↑}\n- PREÇO UNITÁRIO {vermelho:↓}\n- MOTIVO: LIQUIDEZ\n- EXEMPLO: 1 PARA 4"
+     "titulo": "EMISSÃO",
+     "texto": "- DECISÃO DA ASSEMBLEIA\n- OU DO CONSELHO, SE O ESTATUTO PERMITIR\n- LIMITE: CAPITAL AUTORIZADO\n- ACIONISTAS TÊM PREFERÊNCIA PARA SUBSCREVER OS BÔNUS"
     },
     {
-     "titulo": "INPLIT",
-     "texto": "- GRUPAMENTO\n- QUANTIDADE {vermelho:↓}\n- PREÇO UNITÁRIO {verde:↑}\n- MOTIVO: AÇÃO ABAIXO DE 1 REAL\n- EXEMPLO: 10 PARA 1"
-    },
-    {
-     "titulo": "BONIFICAÇÃO",
-     "texto": "- LUCRO OU RESERVA VIRA CAPITAL\n- AÇÕES NOVAS, DE GRAÇA\n- CAPITAL SOCIAL {verde:↑}\n- CUSTO PARA O IMPOSTO: VALOR CAPITALIZADO"
+     "titulo": "DISTRIBUIÇÃO",
+     "texto": "- {laranja:VENDIDO} PELA COMPANHIA\n- OU {laranja:ATRIBUÍDO} COMO BRINDE DA EMISSÃO\n- JUNTO COM AÇÕES OU DEBÊNTURES NOVAS\n- DEPOIS, NEGOCIADO NO MERCADO"
     }
    ],
    "destaque": {
-    "texto": "{ciano:PROTEÇÃO DO MINORITÁRIO:} OS 3 EVENTOS ALCANÇAM TODOS OS SÓCIOS POR IGUAL · {vermelho:CUSTO NO SPLIT:} ZERO PARA AS AÇÕES NOVAS; O CUSTO MÉDIO CAI",
+    "texto": "{vermelho:NO EXERCÍCIO DO BÔNUS:} NÃO HÁ NOVA PREFERÊNCIA PARA OS DEMAIS SÓCIOS (ART. 171, § 3º) · {vermelho:BÔNUS ≠ BONIFICAÇÃO:} UM É DIREITO DE COMPRA; A OUTRA, AÇÃO RECEBIDA SEM PAGAR",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r31d_4_exerce-ou-nao.png",
-   "semente": 3120,
+   "saida": "r31e_4_exerce-ou-nao.png",
+   "semente": 3125,
    "molde": "exercicio",
    "titulo": "FOLLOW-ON: EXERCER OU NÃO A PREFERÊNCIA",
    "dados": "- HIPOTÉTICO: EMPRESA COM {ciano:1.000.000} DE AÇÕES\n- ACIONISTA: 10.000 AÇÕES = 1%\n- FOLLOW-ON PRIMÁRIO: + {ciano:250.000} AÇÕES\n- NOVO TOTAL: 1.250.000\n- A ÚNICA DIFERENÇA: A DECISÃO DO ACIONISTA",
@@ -479,6 +594,125 @@
    ],
    "conclusao": {
     "texto": "DILUIÇÃO DE {vermelho:20%} NA FATIA DE QUEM FICA PARADO · 3ª SAÍDA: {verde:VENDER O DIREITO} · PREÇO DE EMISSÃO IGNORADO (SIMPLIFICAÇÃO)",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r31f_1_split-enriquece.png",
+   "semente": 3126,
+   "molde": "mito_verdade",
+   "titulo": "SPLIT DEIXA MAIS RICO?",
+   "mitos": [
+    "MAIS AÇÕES",
+    "MAIS RICO"
+   ],
+   "verdade": "MESMO {laranja:PATRIMÔNIO}",
+   "desenho": {
+    "nome": "balanca",
+    "largura": 230
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} SPLIT DE 1 PARA 4\n- ANTES: 100 × 80 = {ciano:8.000}\n- DEPOIS: 400 × 20 = {ciano:8.000}\n- O PREÇO CAI NA MESMA PROPORÇÃO EM QUE A QUANTIDADE SOBE\n- PARTICIPAÇÃO NA EMPRESA: IGUAL\n- {ciano:3 TEMAS:} SPLIT · INPLIT · BONIFICAÇÃO"
+  },
+  {
+   "saida": "r31f_2_cotas-trocadas.png",
+   "semente": 3127,
+   "molde": "comparacao",
+   "titulo": "A LOJA TROCA AS COTAS",
+   "colunas": [
+    {
+     "titulo": "DIVIDIR",
+     "desenho": "moeda",
+     "rotulos": [
+      "1 COTA",
+      "4 COTAS"
+     ],
+     "texto": "- 1 COTA VIRA 4 → {laranja:SPLIT}\n- CADA UMA VALE 1/4\n- PEDAÇO MENOR, MAIS FÁCIL DE VENDER → {laranja:LIQUIDEZ}\n- TAMANHO DA LOJA: NÃO MUDA"
+    },
+    {
+     "titulo": "JUNTAR",
+     "desenho": "dinheiro",
+     "rotulos": [
+      "10 COTAS",
+      "1 COTA"
+     ],
+     "texto": "- 10 COTAS VIRAM 1 → {verde:INPLIT}\n- A NOVA VALE 10 VEZES MAIS\n- COTA BARATA DEMAIS → {verde:MOTIVO DO INPLIT}\n- FATIA DE CADA SÓCIO: NÃO MUDA"
+    }
+   ],
+   "faixas": [
+    "{ciano:LUCRO GUARDADO QUE VIRA CAPITAL, COM COTAS NOVAS:} BONIFICAÇÃO",
+    "{ciano:NOS 3 CASOS:} NÃO ENTRA DINHEIRO NOVO NA LOJA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA LOJA, É ACERTO ENTRE SÓCIOS · NA COMPANHIA, SÓ NOS CASOS DA {laranja:LEI 6.404, ART. 12}, E PARA TODOS POR IGUAL",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r31f_3_conteudo-1.png",
+   "semente": 3128,
+   "molde": "colunas",
+   "titulo": "SPLIT, INPLIT E A REGRA DA B3 (1/2)",
+   "topo": "{ciano:2 EVENTOS INVERSOS:} MUDAM A {laranja:QUANTIDADE} E O {laranja:PREÇO UNITÁRIO} · NÃO MUDAM O PATRIMÔNIO NEM A PARTICIPAÇÃO",
+   "colunas": [
+    {
+     "titulo": "SPLIT",
+     "texto": "- DESDOBRAMENTO\n- QUANTIDADE {verde:↑} · PREÇO {vermelho:↓}\n- 1 PARA 4: 100 × 80 → 400 × 20\n- MOTIVO: {laranja:LIQUIDEZ}\n- AÇÃO MAIS ACESSÍVEL"
+    },
+    {
+     "titulo": "INPLIT",
+     "texto": "- GRUPAMENTO\n- QUANTIDADE {vermelho:↓} · PREÇO {verde:↑}\n- 10 PARA 1: 5.000 × 0,40 → 500 × 4,00\n- MOTIVO: AÇÃO BARATA DEMAIS\n- VOLTA AO MÍNIMO DA BOLSA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:B3 (REGULAMENTO DE EMISSORES, ARTS. 46 A 50):} MÍNIMO DE {laranja:1 REAL} POR AÇÃO · ABAIXO POR 30 PREGÕES SEGUIDOS → NOTIFICAÇÃO → PELO MENOS 6 MESES PARA REENQUADRAR",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r31f_3_conteudo-2.png",
+   "semente": 3129,
+   "molde": "colunas",
+   "titulo": "PROTEÇÃO, BONIFICAÇÃO E CUSTO (2/2)",
+   "topo": "{ciano:PROTEÇÃO DO MINORITÁRIO (LEI 6.404, ART. 12):} SPLIT E INPLIT ALCANÇAM {laranja:TODOS} OS ACIONISTAS POR IGUAL · O CONTROLADOR NÃO GANHA FATIA",
+   "colunas": [
+    {
+     "titulo": "BONIFICAÇÃO",
+     "texto": "- LEI 6.404, ART. 169\n- LUCRO OU RESERVA VIRA CAPITAL\n- AÇÕES NOVAS, SEM PAGAMENTO\n- CAPITAL SOCIAL {verde:↑}\n- NA PROPORÇÃO DE CADA SÓCIO"
+    },
+    {
+     "titulo": "CUSTO NO IMPOSTO",
+     "texto": "- {laranja:BONIFICADAS:} VALOR CAPITALIZADO\n- {laranja:DESDOBRADAS:} ZERO\n- NO SPLIT, O CUSTO TOTAL É IGUAL\n- O CUSTO MÉDIO CAI\n- AJUSTAR O CONTROLE"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:SPLIT × BONIFICAÇÃO:} NO SPLIT, O CAPITAL NÃO MUDA · {ciano:FRAÇÕES NO GRUPAMENTO:} EM GERAL, PRAZO PARA COMPLETAR A POSIÇÃO; AS SOBRAS SÃO VENDIDAS E PAGAS AO DONO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r31f_4_split-ou-inplit.png",
+   "semente": 3130,
+   "molde": "exercicio",
+   "titulo": "SPLIT DE 1 PARA 4 E INPLIT DE 10 PARA 1",
+   "dados": "- HIPOTÉTICO: DOIS EVENTOS, EM EMPRESAS DIFERENTES\n- SPLIT: 100 AÇÕES A {ciano:80,00} · EMPRESA COM 1.000.000 DE AÇÕES\n- INPLIT: 5.000 AÇÕES A {ciano:0,40}\n- PREÇO AJUSTADO EXATAMENTE NA PROPORÇÃO (SIMPLIFICAÇÃO)\n- A ÚNICA DIFERENÇA: O SENTIDO DA OPERAÇÃO",
+   "cenarios": [
+    {
+     "titulo": "SPLIT 1 PARA 4",
+     "passos": "PREÇO: 80 ÷ 4 = 20,00\nAÇÕES: 100 × 4 = 400\nFATIA: 400 EM 4.000.000 = 0,01%",
+     "resultado": "400 × 20 = 8.000"
+    },
+    {
+     "titulo": "INPLIT 10 PARA 1",
+     "passos": "PREÇO: 0,40 × 10 = 4,00\nAÇÕES: 5.000 ÷ 10 = 500\nACIMA DO MÍNIMO DE 1 REAL",
+     "resultado": "500 × 4 = 2.000"
+    }
+   ],
+   "conclusao": {
+    "texto": "ANTES: 100 × 80 = {verde:8.000} E 5.000 × 0,40 = {verde:2.000} · DEPOIS: OS MESMOS VALORES · MUDA O NÚMERO DE AÇÕES, NÃO O QUE ELAS VALEM JUNTAS",
     "cor": "branco",
     "moldura": "amarelo"
    }
