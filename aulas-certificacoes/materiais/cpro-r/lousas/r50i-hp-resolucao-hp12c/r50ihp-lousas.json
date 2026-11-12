@@ -1,0 +1,127 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r50i_1_hp-dados.png",
+   "semente": 5091,
+   "molde": "colunas",
+   "titulo": "CRIPTO NA 60/40: OS DADOS",
+   "topo": "{ciano:EXERCÍCIO DA R50I, RESOLVIDO NA HP12C:} 24 PASSOS · TODOS OS NÚMEROS SÃO {laranja:HIPOTÉTICOS}",
+   "colunas": [
+    {
+     "titulo": "RETORNO ESPERADO",
+     "texto": "- RENDA VARIÁVEL: {ciano:14%} AO ANO\n- RENDA FIXA: {ciano:11%} AO ANO\n- CRIPTO (BITCOIN E ETHER): {ciano:40%} AO ANO\n- CARTEIRA 1: 60 · 40\n- CARTEIRA 2: 57 · 38 · 5"
+    },
+    {
+     "titulo": "RISCO",
+     "texto": "- VOLATILIDADE DA 60/40: {ciano:10%}\n- VOLATILIDADE DA CRIPTO: {ciano:60%}\n- CORRELAÇÃO: {ciano:0,2}\n- PESOS NA CONTA: 0,95 E 0,05\n- 60/40 TRATADA COMO 1 ATIVO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:CONTA 1 (PASSOS 1 A 9):} RETORNO · {ciano:CONTA 2 (10 A 17):} RISCO · {ciano:CONTA 3 (18 A 24):} ESTRESSE E REBALANCEAMENTO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50i_2_hp-retorno.png",
+   "semente": 5092,
+   "molde": "exercicio",
+   "titulo": "CONTA 1: RETORNO ESPERADO",
+   "dados": "- MÉDIA PONDERADA NA HP: VALOR · ENTER · PESO · Σ+\n- RESULTADO: TECLAS g E 6 (x̄w)\n- PESOS SOMAM 100 NAS DUAS CARTEIRAS\n- 5% DE CRIPTO SAEM DOS DOIS LADOS: 60 → 57 · 40 → 38\n- A ÚNICA DIFERENÇA: A FATIA DE CRIPTO",
+   "cenarios": [
+    {
+     "titulo": "60/40 PURA",
+     "passos": "14 × 60 = 840\n11 × 40 = 440\n1.280 ÷ 100",
+     "resultado": "12,80% AO ANO"
+    },
+    {
+     "titulo": "COM 5% DE CRIPTO",
+     "passos": "14 × 57 = 798\n11 × 38 = 418\n40 × 5 = 200\n1.416 ÷ 100",
+     "resultado": "14,16% AO ANO"
+    }
+   ],
+   "conclusao": {
+    "texto": "14,16 − 12,80 = {verde:+1,36 PONTO} · A CRIPTO ENTRA COM 200 DOS 1.416 · RETORNO ESPERADO {vermelho:NÃO É} RETORNO GARANTIDO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50i_3_hp-risco-1.png",
+   "semente": 5093,
+   "molde": "colunas",
+   "titulo": "CONTA 2: AS 3 PARTES DA VARIÂNCIA (1/2)",
+   "topo": "{ciano:VARIÂNCIA DE 2 ATIVOS:} (PESO A × VOL A)² + (PESO B × VOL B)² + 2 × PESO A × PESO B × CORRELAÇÃO × VOL A × VOL B",
+   "colunas": [
+    {
+     "titulo": "60/40 (STO 1)",
+     "texto": "- PESO: 57 + 38 = 95%\n- VOLATILIDADE: 10\n- 0,95 × 10 = 9,50\n- 9,50 × 9,50\n- {laranja:90,25}"
+    },
+    {
+     "titulo": "CRIPTO (STO 2)",
+     "texto": "- PESO: 5%\n- VOLATILIDADE: 60\n- 0,05 × 60 = 3,00\n- 3,00 × 3,00\n- {laranja:9,00}"
+    },
+    {
+     "titulo": "CORRELAÇÃO (STO 3)",
+     "texto": "- CORRELAÇÃO: 0,2\n- 2 × 0,95 × 0,05 = 0,095\n- 0,095 × 0,2 = 0,019\n- 0,019 × 10 × 60\n- {laranja:11,40}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:AO QUADRADO NA HP12C:} ENTER DUPLICA, × MULTIPLICA · {ciano:SOMA (STO 4):} 90,25 + 9,00 + 11,40 = {laranja:110,65} · COM CORRELAÇÃO ZERO, A 3ª PARTE SERIA ZERO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50i_3_hp-risco-2.png",
+   "semente": 5094,
+   "molde": "exercicio",
+   "titulo": "CONTA 2: VOLATILIDADE E FATIA DO RISCO (2/2)",
+   "dados": "- VARIÂNCIA DA CARTEIRA: {ciano:110,65}\n- VOLATILIDADE = RAIZ QUADRADA DA VARIÂNCIA\n- ANTES DA CRIPTO: VOLATILIDADE DE 10,00%\n- PARTE DA CORRELAÇÃO: METADE PARA CADA ATIVO\n- %T NA HP: TOTAL EM Y, PARTE EM X",
+   "cenarios": [
+    {
+     "titulo": "VOLATILIDADE",
+     "passos": "RAIZ DE 110,65\nANTES: 10,00\nDEPOIS: 10,52\nAUMENTO: 0,52 PONTO",
+     "resultado": "10,52% AO ANO"
+    },
+    {
+     "titulo": "FATIA DA CRIPTO",
+     "passos": "11,40 ÷ 2 = 5,70\n9,00 + 5,70 = 14,70\n14,70 ÷ 110,65\n× 100",
+     "resultado": "13,29% DO RISCO"
+    }
+   ],
+   "conclusao": {
+    "texto": "{laranja:5%} DO DINHEIRO → {vermelho:13,29%} DO RISCO · FATIA DA 60/40: 90,25 + 5,70 = 95,95 → 86,71% · PESO NA CARTEIRA ≠ PESO NO RISCO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50i_4_hp-rebalanceamento.png",
+   "semente": 5095,
+   "molde": "exercicio",
+   "titulo": "CONTA 3: ESTRESSE E REBALANCEAMENTO",
+   "dados": "- CARTEIRA DE {ciano:100.000}: 95.000 NA 60/40 + 5.000 EM CRIPTO\n- QUEDA REAL DO BITCOIN: 67.510,06 → 15.755,75 DÓLARES\n- DE 08/11/2021 A 21/11/2022: {vermelho:−76,66%}\n- REGRA COMBINADA: CRIPTO EM 5% DA CARTEIRA\n- A ÚNICA DIFERENÇA: O SENTIDO DO MOVIMENTO",
+   "cenarios": [
+    {
+     "titulo": "CRIPTO CAI 70%",
+     "passos": "70% DE 5 = 3,50\n5.000 → 1.500",
+     "resultado": "CARTEIRA: −3,5%"
+    },
+    {
+     "titulo": "CRIPTO DOBRA",
+     "passos": "5.000 → 10.000\nTOTAL: 105.000 · PESO: 9,52%\nALVO: 5% = 5.250",
+     "resultado": "VENDER 4.750"
+    }
+   ],
+   "conclusao": {
+    "texto": "{ciano:RESUMO DOS 24 PASSOS:} RETORNO 12,80 → {verde:14,16} · VOLATILIDADE 10,00 → {laranja:10,52} · RISCO DA CRIPTO {vermelho:13,29%} · REBALANCEAR: VENDER O QUE SUBIU",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
