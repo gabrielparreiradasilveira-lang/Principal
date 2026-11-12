@@ -1,193 +1,313 @@
 {
-  "padrao": {
-    "fundo": "preto"
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r5a_1_preco-fundamentos.png",
+   "semente": 501,
+   "molde": "mito_verdade",
+   "titulo": "O PREÇO SÓ MEXE COM FUNDAMENTO?",
+   "mitos": [
+    "OSCILOU = EMPRESA MUDOU",
+    "BOLHA É SÓ NÚMERO"
+   ],
+   "verdade": "MUITA OSCILAÇÃO É {laranja:EMOÇÃO SOMADA}",
+   "desenho": "grafico_alta",
+   "apoio": "- {ciano:NASDAQ:} 2.192,69 PONTOS NO FIM DE 1998 · 4.069,31 NO FIM DE 1999 ({verde:+85,6%})\n- {ciano:TOPO, 10/03/2000:} {laranja:5.048,62} · {ciano:FUNDO, 09/10/2002:} {vermelho:1.114,11 (−77,9%)}\n- O COMPORTAMENTO {laranja:AMPLIA} O MOVIMENTO; O FUNDAMENTO {verde:CONTINUA CONTANDO}\n- {ciano:RECORDE DE VOLTA:} 23/04/2015, A 5.056,06 → {vermelho:15 ANOS} DEPOIS DO TOPO"
   },
-  "slides": [
+  {
+   "saida": "r5a_2_ceu-pilotos-automaticos.png",
+   "semente": 502,
+   "molde": "comparacao",
+   "titulo": "MILHARES DE PILOTOS AUTOMÁTICOS",
+   "colunas": [
     {
-      "saida": "r5a_1_preco-fundamentos.png",
-      "semente": 501,
-      "molde": "mito_verdade",
-      "titulo": "O PREÇO SÓ MEXE COM FUNDAMENTO?",
-      "mitos": [
-        "OSCILOU = EMPRESA MUDOU",
-        "BOLHA É SÓ NÚMERO"
-      ],
-      "verdade": "MUITA OSCILAÇÃO É {laranja:EMOÇÃO SOMADA}",
-      "desenho": "grafico_alta",
-      "apoio": "- {ciano:NASDAQ:} 2.192,69 PONTOS NO FIM DE 1998 · 4.069,31 NO FIM DE 1999 ({verde:+85,6%})\n- {ciano:TOPO, 10/03/2000:} {laranja:5.048,62} · {ciano:FUNDO, 09/10/2002:} {vermelho:1.114,11 (−77,9%)}\n- O COMPORTAMENTO {laranja:AMPLIA} O MOVIMENTO; O FUNDAMENTO {verde:CONTINUA CONTANDO}\n- {ciano:RECORDE DE VOLTA:} 23/04/2015, A 5.056,06 → {vermelho:15 ANOS} DEPOIS DO TOPO"
+     "titulo": "SOBEM JUNTOS",
+     "desenho": "avioes_subindo",
+     "rotulos": [
+      "EUFORIA",
+      "ACIMA DA LINHA"
+     ],
+     "texto": "- ACIMA DA ALTITUDE SEGURA → {laranja:BOLHA}\n- QUEM ENTRA TARDE PAGA {vermelho:MAIS CARO}\n- COMBUSTÍVEL: {laranja:MANADA} E {laranja:EXCESSO DE CONFIANÇA}"
     },
     {
-      "saida": "r5a_2_ceu-pilotos-automaticos.png",
-      "semente": 502,
-      "molde": "comparacao",
-      "titulo": "MILHARES DE PILOTOS AUTOMÁTICOS",
-      "colunas": [
-        {
-          "titulo": "SOBEM JUNTOS",
-          "desenho": "avioes_subindo",
-          "rotulos": [
-            "EUFORIA",
-            "ACIMA DA LINHA"
-          ],
-          "texto": "- ACIMA DA ALTITUDE SEGURA → {laranja:BOLHA}\n- QUEM ENTRA TARDE PAGA {vermelho:MAIS CARO}\n- COMBUSTÍVEL: {laranja:MANADA} E {laranja:EXCESSO DE CONFIANÇA}"
-        },
-        {
-          "titulo": "MERGULHAM JUNTOS",
-          "desenho": "avioes_mergulhando",
-          "rotulos": [
-            "PÂNICO",
-            "VENDA EM MASSA"
-          ],
-          "texto": "- MERGULHO CONJUNTO → {vermelho:ESTOURO E CRISE}\n- CAI MAIS DO QUE O FUNDAMENTO PEDE → {laranja:CORREÇÃO EXAGERADA}\n- CÉU CHACOALHANDO → {laranja:VOLATILIDADE}"
-        }
-      ],
-      "faixas": [
-        "{ciano:O MESMO PILOTO AUTOMÁTICO:} AS HEURÍSTICAS DA R2, OS VIESES DA R3 E AS EMOÇÕES DA R4, SOMADOS EM MILHÕES"
-      ],
-      "destaque": {
-        "texto": "{vermelho:ONDE QUEBRA:} NO CÉU, UM AVIÃO NÃO EMPURRA O OUTRO · NO MERCADO, {laranja:CADA COMPRA} ERGUE O PREÇO DE TODOS",
-        "cor": "branco",
-        "moldura": "vermelho"
-      }
-    },
-    {
-      "saida": "r5a_3_efeitos-gatilhos-crises.png",
-      "semente": 503,
-      "molde": "colunas",
-      "titulo": "DO INDIVÍDUO AO MERCADO",
-      "topo": "{ciano:VIESES SOMADOS →} VOLATILIDADE EM EXCESSO · SALTOS DE PREÇO · {laranja:BOLHAS E ESTOUROS} · PADRÕES SEM FUNDAMENTO · {vermelho:ANOMALIAS}",
-      "colunas": [
-        {
-          "titulo": "GATILHO → ORIGEM",
-          "texto": "- PÂNICO APÓS QUEDA RÁPIDA → {vermelho:MEDO} (R4)\n- EUFORIA COM ALTA RÁPIDA → {laranja:GANÂNCIA E EUFORIA} (R4)\n- COMPRA OU VENDA EM BLOCO → {laranja:EFEITO MANADA} (R3)\n- SINAL DE RISCO IGNORADO → {laranja:EXCESSO DE CONFIANÇA} (R2)"
-        },
-        {
-          "titulo": "CRISES COM DIGITAL EMOCIONAL",
-          "texto": "- {ciano:PONTO COM:} NASDAQ {vermelho:−77,9%} (2000–2002)\n- {ciano:IMOBILIÁRIA:} CRISE DE {vermelho:2008}\n- {ciano:CRIPTOMOEDAS:} VOLATILIDADE {vermelho:EXTREMA}\n- {ciano:SHORT SQUEEZE:} PUXADO POR {laranja:REDES SOCIAIS}"
-        }
-      ],
-      "destaque": {
-        "texto": "{ciano:NA PROVA:} \"PARTE SIGNIFICATIVA\" NÃO É \"TUDO\" · VOLATILIDADE MEDE {laranja:OSCILAÇÃO}, NÃO {vermelho:PREJUÍZO}",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r5a_4_antes-ou-no-topo.png",
-      "semente": 504,
-      "molde": "exercicio",
-      "titulo": "ANTES DA EUFORIA OU NO TOPO?",
-      "dados": "- US$ 100.000 NUM FUNDO QUE REPLICA A NASDAQ, MANTIDOS ATÉ O FUNDO (09/10/2002: 1.114,11)\n- SIMPLIFICAÇÃO: SEM DIVIDENDOS, CUSTOS E IMPOSTOS\n- ENTRADA: FIM DE 1998 ({verde:2.192,69}) × TOPO DE 10/03/2000 ({vermelho:5.048,62})\n- A ÚNICA DIFERENÇA: O MOMENTO DA ENTRADA",
-      "cenarios": [
-        {
-          "titulo": "ANTES DA EUFORIA",
-          "passos": "1.114,11 ÷ 2.192,69\n× 100.000\n−49,19% NO FUNDO",
-          "resultado": "US$ 50.810,19"
-        },
-        {
-          "titulo": "NO TOPO, COM A MANADA",
-          "passos": "1.114,11 ÷ 5.048,62\n× 100.000\n−77,93% NO FUNDO",
-          "resultado": "US$ 22.067,61"
-        }
-      ],
-      "conclusao": {
-        "texto": "DO FUNDO AO TOPO: {vermelho:+353,15%} · A NASDAQ SÓ VOLTOU AO RECORDE EM {laranja:2015} · ENTRAR NA EUFORIA CUSTOU {vermelho:28,7 PONTOS PERCENTUAIS} A MAIS",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r5b_1_desenho-neutro.png",
-      "semente": 505,
-      "molde": "mito_verdade",
-      "titulo": "A FORMA DE APRESENTAR É NEUTRA?",
-      "mitos": [
-        "QUEM QUER POUPAR, POUPA",
-        "A TELA NÃO PESA"
-      ],
-      "verdade": "O AMBIENTE {laranja:PESA NA ESCOLHA}",
-      "desenho": "cofrinho",
-      "apoio": "- {ciano:EUA, 01/04/1998:} FUNCIONÁRIO NOVO ENTRA NO PLANO {laranja:AUTOMATICAMENTE}\n- 3 A 15 MESES DE CASA: {vermelho:37%} (REGRA ANTIGA) × {verde:86%} (ADESÃO AUTOMÁTICA)\n- NENHUMA REGRA ECONÔMICA DO PLANO MUDOU; SAIR {laranja:CONTINUOU LIVRE}\n- {ciano:FONTE:} MADRIAN E SHEA, QUARTERLY JOURNAL OF ECONOMICS, 2001"
-    },
-    {
-      "saida": "r5b_2_desenho-do-painel.png",
-      "semente": 506,
-      "molde": "comparacao",
-      "titulo": "O DESENHO DO PAINEL",
-      "colunas": [
-        {
-          "titulo": "PAINEL CLARO",
-          "desenho": "painel_claro",
-          "rotulos": [
-            "NUDGE",
-            "FACILITA"
-          ],
-          "texto": "- O CAMINHO FÁCIL LEVA À {verde:DECISÃO BOA}\n- O PADRÃO VEM {verde:LIGADO}; DESLIGAR É POSSÍVEL\n- {ciano:OBJETIVO:} TRANSPARÊNCIA E {verde:MENOS COMPLEXIDADE}"
-        },
-        {
-          "titulo": "PAINEL CONFUSO",
-          "desenho": "painel_confuso",
-          "rotulos": [
-            "SLUDGE",
-            "ATRAPALHA"
-          ],
-          "texto": "- O CAMINHO DIFÍCIL {vermelho:TRAVA A DECISÃO BOA}\n- SLUDGE = {laranja:LAMA}, EM INGLÊS\n- {ciano:EFEITO:} MAIS VIESES E {vermelho:OPORTUNIDADES PERDIDAS}"
-        }
-      ],
-      "faixas": [
-        "{ciano:ORIGEM DO TERMO:} THALER E SUNSTEIN, \"NUDGE\" (2008) · NOBEL DE ECONOMIA DE 2017 PARA THALER · \"NUDGE, NOT SLUDGE\" (SCIENCE, 2018)"
-      ],
-      "destaque": {
-        "texto": "{vermelho:ONDE QUEBRA:} NO AVIÃO, HÁ COMANDO TRAVADO · NO NUDGE, {laranja:NENHUMA OPÇÃO É PROIBIDA}",
-        "cor": "branco",
-        "moldura": "vermelho"
-      }
-    },
-    {
-      "saida": "r5b_3_nudge-sludge-liberdade.png",
-      "semente": 507,
-      "molde": "colunas",
-      "titulo": "NUDGE, SLUDGE E LIBERDADE",
-      "topo": "{ciano:ARQUITETURA DE ESCOLHAS} = OPÇÕES {verde:CLARAS, SIMPLES E INTUITIVAS} · DOIS MECANISMOS: {verde:NUDGE} (FACILITA) × {vermelho:SLUDGE} (ATRAPALHA)",
-      "colunas": [
-        {
-          "titulo": "O NUDGE POR DENTRO",
-          "texto": "- PADRÃO LIGADO → A {laranja:INÉRCIA} (STATUS QUO, R3) A FAVOR\n- CUSTO E RISCO LADO A LADO → {verde:MENOS COMPLEXIDADE}\n- CARTEIRA POR PRAZO → APORTE COM {verde:OBJETIVO}\n- {ciano:NO BRASIL:} ADESÃO AUTOMÁTICA À PREVIDÊNCIA DO EMPREGADOR (CNSP 463/2024, ART. 22)"
-        },
-        {
-          "titulo": "O DESAFIO DA LIBERDADE",
-          "texto": "- ESTUDO DE 1998: MUITOS FICARAM NO {laranja:PADRÃO} (3% EM FUNDO DE CURTO PRAZO)\n- MUITOS LERAM O PADRÃO COMO {vermelho:RECOMENDAÇÃO}\n- PADRÃO RUIM TAMBÉM PRENDE\n- {verde:TRANSPARÊNCIA:} DIZER QUAL É O PADRÃO E COMO SAIR"
-        }
-      ],
-      "destaque": {
-        "texto": "{ciano:NA PROVA:} BARREIRA, JARGÃO OU TARIFA ESCONDIDA = {vermelho:SLUDGE} · PADRÃO LIGADO QUE PODE SER DESLIGADO = {verde:NUDGE}",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r5b_4_automatica-ou-formulario.png",
-      "semente": 508,
-      "molde": "exercicio",
-      "titulo": "ADESÃO AUTOMÁTICA OU FORMULÁRIO?",
-      "dados": "- R$ 300 POR MÊS, DOS 30 AOS 60 ANOS, A 0,5% AO MÊS (HIPOTÉTICO)\n- SIMPLIFICAÇÃO: SEM CUSTOS E SEM IMPOSTOS, APORTE NO FIM DO MÊS\n- TOTAL APORTADO: {verde:R$ 108.000} × {laranja:R$ 90.000}\n- A ÚNICA DIFERENÇA: O DESENHO DO PLANO",
-      "cenarios": [
-        {
-          "titulo": "AUTOMÁTICA",
-          "passos": "PMT −300 · i 0,5\nn 360 (30 ANOS)\nCOMEÇA NO 1º MÊS",
-          "resultado": "R$ 301.354,51"
-        },
-        {
-          "titulo": "FORMULÁRIO",
-          "passos": "PMT −300 · i 0,5\nn 300 (25 ANOS)\nADIA 5 ANOS",
-          "resultado": "R$ 207.898,19"
-        }
-      ],
-      "conclusao": {
-        "texto": "INÉRCIA: {vermelho:R$ 93.456,32} A MENOS COM SÓ R$ 18.000 A MENOS DE APORTE · {verde:NENHUMA OPÇÃO FOI PROIBIDA}",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
+     "titulo": "MERGULHAM JUNTOS",
+     "desenho": "avioes_mergulhando",
+     "rotulos": [
+      "PÂNICO",
+      "VENDA EM MASSA"
+     ],
+     "texto": "- MERGULHO CONJUNTO → {vermelho:ESTOURO E CRISE}\n- CAI MAIS DO QUE O FUNDAMENTO PEDE → {laranja:CORREÇÃO EXAGERADA}\n- CÉU CHACOALHANDO → {laranja:VOLATILIDADE}"
     }
-  ]
+   ],
+   "faixas": [
+    "{ciano:O MESMO PILOTO AUTOMÁTICO:} AS HEURÍSTICAS DA R2, OS VIESES DA R3 E AS EMOÇÕES DA R4, SOMADOS EM MILHÕES"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NO CÉU, UM AVIÃO NÃO EMPURRA O OUTRO · NO MERCADO, {laranja:CADA COMPRA} ERGUE O PREÇO DE TODOS",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r5a_3_conteudo-1.png",
+   "semente": 503,
+   "molde": "colunas",
+   "titulo": "DO INDIVÍDUO AO MERCADO (1/2)",
+   "topo": "{ciano:VIESES SOMADOS →} VOLATILIDADE EM EXCESSO · SALTOS DE PREÇO · {laranja:BOLHAS E ESTOUROS} · PADRÕES SEM FUNDAMENTO · {vermelho:ANOMALIAS}",
+   "colunas": [
+    {
+     "titulo": "GATILHO → ORIGEM",
+     "texto": "- PÂNICO APÓS QUEDA RÁPIDA → {vermelho:MEDO} (R4)\n- EUFORIA COM ALTA RÁPIDA → {laranja:GANÂNCIA E EUFORIA} (R4)\n- COMPRA OU VENDA EM BLOCO → {laranja:EFEITO MANADA} (R3)\n- SINAL DE RISCO IGNORADO → {laranja:EXCESSO DE CONFIANÇA} (R2)"
+    },
+    {
+     "titulo": "3 SETAS",
+     "texto": "- {laranja:OTIMISMO EXCESSIVO} → BOLHA\n- {vermelho:PÂNICO} → CRASH (QUEDA BRUSCA E GERAL)\n- {laranja:MANADA} → MAIS VOLATILIDADE\n- MEDO + GANÂNCIA → OSCILAÇÃO → VOLATILIDADE"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:CONCLUSÃO:} MERCADO = {laranja:FATOS ECONÔMICOS} + {laranja:REAÇÕES EMOCIONAIS} · VOLATILIDADE MEDE {laranja:OSCILAÇÃO}, NÃO {vermelho:PREJUÍZO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r5a_3_conteudo-2.png",
+   "semente": 6501,
+   "molde": "colunas",
+   "titulo": "O CICLO E AS CRISES (2/2)",
+   "topo": "{ciano:CICLO EM 3 TEMPOS:} EUFORIA → ESTOURO → PÂNICO · A PSICOLOGIA COLETIVA EXPLICA {laranja:PARTE SIGNIFICATIVA}, NÃO TUDO",
+   "colunas": [
+    {
+     "titulo": "O CICLO",
+     "texto": "- {laranja:EUFORIA:} \"TODO MUNDO GANHANDO\" → PREÇO ACIMA DO VALOR\n- {vermelho:ESTOURO:} MEDO → VENDA EM MASSA → CRISE\n- {vermelho:PÂNICO:} FUGA DO RISCO → {laranja:LIQUIDEZ SECA}"
+    },
+    {
+     "titulo": "CRISES COM DIGITAL EMOCIONAL",
+     "texto": "- {ciano:PONTO COM:} NASDAQ {vermelho:−77,9%} (2000–2002)\n- {ciano:IMOBILIÁRIA:} CRISE DE {vermelho:2008}\n- {ciano:CRIPTOMOEDAS:} VOLATILIDADE {vermelho:EXTREMA}\n- {ciano:SHORT SQUEEZE:} PUXADO POR {laranja:REDES SOCIAIS}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:PROFISSIONAL:} ANTECIPA COMPORTAMENTOS · PREPARA ESTRATÉGIAS · ORIENTA NA INSTABILIDADE · {verde:CONSERVA A CABEÇA FRIA} NO MEIO DO PÂNICO GERAL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r5a_4_antes-ou-no-topo.png",
+   "semente": 504,
+   "molde": "exercicio",
+   "titulo": "ANTES DA EUFORIA OU NO TOPO?",
+   "dados": "- US$ 100.000 NUM FUNDO QUE REPLICA A NASDAQ, MANTIDOS ATÉ O FUNDO (09/10/2002: 1.114,11)\n- SIMPLIFICAÇÃO: SEM DIVIDENDOS, CUSTOS E IMPOSTOS\n- ENTRADA: FIM DE 1998 ({verde:2.192,69}) × TOPO DE 10/03/2000 ({vermelho:5.048,62})\n- A ÚNICA DIFERENÇA: O MOMENTO DA ENTRADA",
+   "cenarios": [
+    {
+     "titulo": "ANTES DA EUFORIA",
+     "passos": "1.114,11 ÷ 2.192,69\n× 100.000\n−49,19% NO FUNDO",
+     "resultado": "US$ 50.810,19"
+    },
+    {
+     "titulo": "NO TOPO, COM A MANADA",
+     "passos": "1.114,11 ÷ 5.048,62\n× 100.000\n−77,93% NO FUNDO",
+     "resultado": "US$ 22.067,61"
+    }
+   ],
+   "conclusao": {
+    "texto": "DO FUNDO AO TOPO: {vermelho:+353,15%} · {ciano:HIPOTÉTICO:} 10 → 40 (+300%) → 10 (−75%) · QUEM ENTROU A 40 PERDE 75% E PRECISA DE {vermelho:+300%}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r5b_1_desenho-neutro.png",
+   "semente": 505,
+   "molde": "mito_verdade",
+   "titulo": "A FORMA DE APRESENTAR É NEUTRA?",
+   "mitos": [
+    "QUEM QUER POUPAR, POUPA",
+    "A TELA NÃO PESA"
+   ],
+   "verdade": "O AMBIENTE {laranja:PESA NA ESCOLHA}",
+   "desenho": "cofrinho",
+   "apoio": "- {ciano:EUA, 01/04/1998:} FUNCIONÁRIO NOVO ENTRA NO PLANO {laranja:AUTOMATICAMENTE}\n- 3 A 15 MESES DE CASA: {vermelho:37%} (REGRA ANTIGA) × {verde:86%} (ADESÃO AUTOMÁTICA)\n- NENHUMA REGRA ECONÔMICA DO PLANO MUDOU; SAIR {laranja:CONTINUOU LIVRE}\n- {ciano:FONTE:} MADRIAN E SHEA, QUARTERLY JOURNAL OF ECONOMICS, 2001"
+  },
+  {
+   "saida": "r5b_2_painel-claro.png",
+   "semente": 6502,
+   "molde": "comparacao",
+   "titulo": "O PAINEL BEM DESENHADO",
+   "colunas": [
+    {
+     "titulo": "O PAINEL",
+     "desenho": "painel_claro",
+     "rotulos": [
+      "BOTÃO CERTO",
+      "À MÃO"
+     ],
+     "texto": "- BOTÃO GRANDE E À MÃO → {verde:NUDGE}\n- CAMINHO MAIS FÁCIL → {laranja:CÉREBRO POUPA ENERGIA}\n- MODO JÁ LIGADO → {laranja:OPÇÃO PADRÃO}\n- MANCHE COM O PILOTO → {verde:LIBERDADE}"
+    },
+    {
+     "titulo": "O PROJETISTA",
+     "desenho": "prancheta",
+     "rotulos": [
+      "PROJETO",
+      "ORDEM"
+     ],
+     "texto": "- QUEM DESENHA → {laranja:ARQUITETO DE ESCOLHAS}\n- ORDEM DOS BOTÕES → {laranja:FORMA DE APRESENTAR}\n- RÓTULO CLARO → {verde:TRANSPARÊNCIA}\n- MENOS BOTÕES → {verde:MENOS COMPLEXIDADE}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ORIGEM DO TERMO:} THALER E SUNSTEIN, \"NUDGE\" (2008) · NOBEL DE ECONOMIA DE 2017 PARA THALER",
+    "{ciano:NUDGE, EM INGLÊS:} EMPURRÃOZINHO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NO AVIÃO, HÁ COMANDO TRAVADO · NO NUDGE, {laranja:NENHUMA OPÇÃO É PROIBIDA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r5b_3_arquitetura-nudge.png",
+   "semente": 6503,
+   "molde": "colunas",
+   "titulo": "ARQUITETURA DE ESCOLHAS E NUDGE",
+   "topo": "{ciano:ARQUITETURA DE ESCOLHAS} = OPÇÕES {verde:CLARAS, SIMPLES E INTUITIVAS}, ALINHADAS AOS OBJETIVOS · O AMBIENTE INFLUENCIA: NINGUÉM ESCOLHE NO VÁCUO",
+   "colunas": [
+    {
+     "titulo": "O NUDGE",
+     "texto": "- {verde:FACILITA} A DECISÃO CORRETA\n- {verde:NÃO RETIRA} A LIBERDADE\n- FACILITAR + NÃO OBRIGAR = DEFINIÇÃO\n- EFEITO: TRANSPARÊNCIA E MENOS COMPLEXIDADE"
+    },
+    {
+     "titulo": "NO MERCADO",
+     "texto": "- CONTRIBUIÇÃO AUTOMÁTICA {laranja:POR PADRÃO}\n- CUSTOS E RISCOS LADO A LADO\n- CARTEIRA POR OBJETIVO E PRAZO\n- APORTE DA PREVIDÊNCIA COMO {laranja:\"BOLETO\"}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NO BRASIL:} ADESÃO AUTOMÁTICA À PREVIDÊNCIA (RES. CNSP 463/2024, ART. 22; CIRCULAR SUSEP 698/2024) · INÉRCIA (STATUS QUO, R3) {verde:A FAVOR} DO CLIENTE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r5b_4_automatica-ou-formulario.png",
+   "semente": 508,
+   "molde": "exercicio",
+   "titulo": "ADESÃO AUTOMÁTICA OU FORMULÁRIO?",
+   "dados": "- R$ 300 POR MÊS, DOS 30 AOS 60 ANOS, A 0,5% AO MÊS (HIPOTÉTICO)\n- SIMPLIFICAÇÃO: SEM CUSTOS E SEM IMPOSTOS, APORTE NO FIM DO MÊS\n- TOTAL APORTADO: {verde:R$ 108.000} × {laranja:R$ 90.000}\n- A ÚNICA DIFERENÇA: O DESENHO DO PLANO",
+   "cenarios": [
+    {
+     "titulo": "AUTOMÁTICA",
+     "passos": "PMT −300 · i 0,5\nn 360 (30 ANOS)\nCOMEÇA NO 1º MÊS",
+     "resultado": "R$ 301.354,51"
+    },
+    {
+     "titulo": "FORMULÁRIO",
+     "passos": "PMT −300 · i 0,5\nn 300 (25 ANOS)\nADIA 5 ANOS",
+     "resultado": "R$ 207.898,19"
+    }
+   ],
+   "conclusao": {
+    "texto": "INÉRCIA: {vermelho:R$ 93.456,32} A MENOS COM SÓ R$ 18.000 A MENOS DE APORTE · {verde:NENHUMA OPÇÃO FOI PROIBIDA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r5c_1_opcao-existe.png",
+   "semente": 6504,
+   "molde": "mito_verdade",
+   "titulo": "A OPÇÃO EXISTE: É ESCOLHA LIVRE?",
+   "mitos": [
+    "A OPÇÃO ESTÁ LÁ",
+    "NADA FOI PROIBIDO"
+   ],
+   "verdade": "BARREIRA {laranja:TAMBÉM DECIDE}",
+   "desenho": {
+    "nome": "painel_confuso",
+    "largura": 160
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} CONTRATAR = 2 CLIQUES · RESGATAR = {vermelho:7 TELAS}\n- TERMOS TÉCNICOS SEM EXPLICAÇÃO · TARIFA EM LETRA MIÚDA\n- A MESMA EMPRESA QUE FACILITA A ENTRADA DIFICULTA A SAÍDA\n- {ciano:SLUDGE:} \"LAMA\", EM INGLÊS · O OPOSTO DO NUDGE\n- {ciano:EFEITO:} DECISÃO PIOR OU MAIS DIFÍCIL\n- MAIS VIESES E {vermelho:OPORTUNIDADES PERDIDAS}\n- NUDGE FACILITA O BOM CAMINHO · SLUDGE {vermelho:ENLAMEIA}\n- {ciano:TEMAS:} SLUDGE · LIBERDADE DE ESCOLHA · TRANSPARÊNCIA"
+  },
+  {
+   "saida": "r5c_2_painel-confuso.png",
+   "semente": 6505,
+   "molde": "comparacao",
+   "titulo": "O PAINEL CONFUSO",
+   "colunas": [
+    {
+     "titulo": "A LAMA",
+     "desenho": "painel_confuso",
+     "rotulos": [
+      "ESCONDIDO",
+      "CÓDIGO"
+     ],
+     "texto": "- BOTÃO ESCONDIDO → {vermelho:SLUDGE}\n- RÓTULO EM CÓDIGO → {laranja:JARGÃO INTENCIONAL}\n- MANUAL DIFÍCIL → {laranja:TARIFA E RISCO OBSCUROS}\n- PILOTO DESISTE → {vermelho:OPORTUNIDADE PERDIDA}"
+    },
+    {
+     "titulo": "O ARQUITETO POSITIVO",
+     "desenho": "painel_claro",
+     "rotulos": [
+      "LIMPO",
+      "SAÍDA"
+     ],
+     "texto": "- PAINEL LIMPO → {verde:CLAREZA}\n- EXPLICA CADA BOTÃO → {verde:TRANSPARÊNCIA}\n- MOSTRA COMO DESLIGAR → {verde:AUTONOMIA}\n- SEM TRUQUE → {verde:ÉTICA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:\"NUDGE, NOT SLUDGE\":} ARTIGO DE THALER NA REVISTA SCIENCE (2018)",
+    "{ciano:MESMA FERRAMENTA, DIREÇÃO OPOSTA:} O DESENHO DO AMBIENTE"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NO AVIÃO, O PAINEL VISA A SEGURANÇA · NO MERCADO, QUEM DESENHA PODE {vermelho:LUCRAR} COM O BOTÃO NÃO APERTADO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r5c_3_sludge-liberdade.png",
+   "semente": 507,
+   "molde": "colunas",
+   "titulo": "SLUDGE, LIBERDADE E TRANSPARÊNCIA",
+   "topo": "{ciano:SLUDGE:} OBSTÁCULO OU CONFUSÃO QUE {vermelho:PIORA A ESCOLHA} OU A TORNA MAIS TRABALHOSA · SENTIDO CONTRÁRIO AO DO NUDGE",
+   "colunas": [
+    {
+     "titulo": "EXEMPLOS E EFEITOS",
+     "texto": "- TELAS DEMAIS PARA CANCELAR\n- JARGÃO TÉCNICO DE PROPÓSITO\n- TARIFA E RISCO SEM CLAREZA\n- {ciano:DIA A DIA:} 30 MIN NA CENTRAL · FORMULÁRIO À MÃO PARA RESGATAR\n- {vermelho:EFEITO:} DECISÃO MENOS EFICIENTE, MAIS VIESES, OPORTUNIDADE PERDIDA"
+    },
+    {
+     "titulo": "O DESAFIO DA LIBERDADE",
+     "texto": "- ESTUDO DE 1998: MUITOS FICARAM NO {laranja:PADRÃO} (3% EM FUNDO DE CURTO PRAZO)\n- MUITOS LERAM O PADRÃO COMO {vermelho:RECOMENDAÇÃO}\n- PADRÃO RUIM TAMBÉM PRENDE\n- {verde:TRANSPARÊNCIA:} DIZER QUAL É O PADRÃO E COMO SAIR"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:PROFISSIONAL:} ARQUITETO DE ESCOLHAS {verde:POSITIVO} · CLAREZA E AUTONOMIA · {verde:TRANSPARÊNCIA E ÉTICA} · CONFIRMAÇÃO EXTRA CONTRA IMPULSO ≠ 7 TELAS PARA TUDO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r5c_4_nudge-ou-sludge.png",
+   "semente": 6506,
+   "molde": "exercicio",
+   "titulo": "NUDGE OU SLUDGE?",
+   "dados": "- HIPOTÉTICO: DUAS CORRETORAS, A MESMA CARTEIRA\n- PERGUNTA 1: A TELA FACILITA A DECISÃO BOA?\n- PERGUNTA 2: O CLIENTE CONSEGUE SAIR DO PADRÃO?\n- PERGUNTA 3: CUSTOS E RISCOS ESTÃO CLAROS?\n- A ÚNICA DIFERENÇA: O DESENHO DA TELA",
+   "cenarios": [
+    {
+     "titulo": "CORRETORA 1",
+     "passos": "PRODUTOS POR OBJETIVO\nCUSTO E RISCO LADO A LADO\nBOTÃO CLARO PARA CANCELAR",
+     "resultado": "NUDGE"
+    },
+    {
+     "titulo": "CORRETORA 2",
+     "passos": "TARIFA SÓ NO REGULAMENTO\nRISCO EM JARGÃO\nCANCELAR SÓ PELA CENTRAL",
+     "resultado": "SLUDGE"
+    }
+   ],
+   "conclusao": {
+    "texto": "{ciano:5 PEGADINHAS (FALSAS):} VOLATILIDADE = FUNDAMENTO · CRISE SÓ POR FUNDAMENTO · NUDGE PROÍBE · SLUDGE = NUDGE · ARQUITETURA DECIDE PELO CLIENTE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
 }
