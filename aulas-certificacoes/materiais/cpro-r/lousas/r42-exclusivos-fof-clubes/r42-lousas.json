@@ -1,0 +1,589 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "molde": "mito_verdade",
+   "saida": "r42a_1_grupo.png",
+   "semente": 4201,
+   "titulo": "QUALQUER GRUPO PODE SER EXCLUSIVO?",
+   "mitos": [
+    "5 AMIGOS = CLASSE EXCLUSIVA",
+    "BASTA SER UM GRUPO PEQUENO"
+   ],
+   "verdade": "SÓ OS {verde:3 TIPOS DO ART. 115}",
+   "desenho": {
+    "nome": "pessoa",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} 5 AMIGOS COM R$ 3 MI CADA\n- 1. UM ÚNICO {laranja:INVESTIDOR PROFISSIONAL}\n- 2. {laranja:VÍNCULO SOCIETÁRIO FAMILIAR}\n- 3. {laranja:INTERESSE ÚNICO E INDISSOCIÁVEL}\n- AMIGOS SEM VÍNCULO: {vermelho:FORA DOS 3 TIPOS}\n- {ciano:REGRA:} QUEM DEFINE É A CVM 175"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r42a_2_alfaiataria.png",
+   "semente": 4202,
+   "titulo": "A ALFAIATARIA",
+   "colunas": [
+    {
+     "titulo": "SOB MEDIDA",
+     "desenho": "camisa",
+     "rotulos": [
+      "UM CLIENTE",
+      "OU FAMÍLIA"
+     ],
+     "texto": "- TERNO SOB MEDIDA → {verde:POLÍTICA PERSONALIZADA}\n- UMA FAMÍLIA → {verde:ORGANIZAÇÃO SUCESSÓRIA}\n- QUEM ESCOLHE O MODELO → {laranja:GOVERNANÇA}\n- MUITAS PEÇAS → {laranja:ESCALA PATRIMONIAL}"
+    },
+    {
+     "titulo": "CUSTA MAIS CARO",
+     "desenho": "dinheiro",
+     "rotulos": [
+      "ALFAIATE",
+      "EXCLUSIVO"
+     ],
+     "texto": "- ALFAIATE SÓ PARA ELE → {vermelho:CUSTO MAIOR}\n- POUCAS PEÇAS → {vermelho:NÃO COMPENSA}\n- BRIGA NA PROVA → {vermelho:CONFLITO FAMILIAR}\n- CLASSE EXCLUSIVA → {verde:INVESTIDOR PROFISSIONAL}"
+    }
+   ],
+   "faixas": [
+    "{ciano:PROFISSIONAL (CVM 30):} MAIS DE {laranja:R$ 10 MILHÕES} EM APLICAÇÕES + ATESTADO POR ESCRITO",
+    "{ciano:QUALIFICADO (CVM 30):} MAIS DE {laranja:R$ 1 MILHÃO} EM APLICAÇÕES + ATESTADO POR ESCRITO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA ALFAIATARIA QUALQUER UM ENCOMENDA · NA EXCLUSIVA, {laranja:A CVM DIZ QUEM ENTRA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r42a_3_exclusivo.png",
+   "semente": 4203,
+   "titulo": "O FUNDO EXCLUSIVO",
+   "topo": "{ciano:APOSTILA × CVM:} \"GRUPO RESTRITO\" É GENÉRICO · A CVM 175 LISTA {laranja:3 TIPOS} DE COTISTA",
+   "colunas": [
+    {
+     "titulo": "CVM 175, ART. 115",
+     "texto": "- 1 {laranja:PROFISSIONAL}\n- OU {laranja:FAMÍLIA} COM VÍNCULO\n- OU {laranja:INTERESSE ÚNICO}\n- CLASSE = {verde:PROFISSIONAL}\n- EXCLUSIVA ≠ SÓ QUALIFICADOS\n- ATESTADO {laranja:POR ESCRITO}"
+    },
+    {
+     "titulo": "PRÓS × CONTRAS",
+     "texto": "- {verde:PERSONALIZAÇÃO}\n- {verde:SUCESSÃO ORGANIZADA}\n- {vermelho:CUSTO MAIS ALTO}\n- {vermelho:EXIGE ESCALA}\n- {laranja:EXIGE GOVERNANÇA}\n- {laranja:REGRAS CLARAS} DE DECISÃO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} R$ 10 MILHÕES EXATOS {vermelho:NÃO} BASTAM · A REGRA PEDE {laranja:MAIS DE} R$ 10 MILHÕES",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r42a_4_profissional.png",
+   "semente": 4204,
+   "titulo": "PROFISSIONAL OU QUALIFICADO?",
+   "dados": "- UM ÚNICO CLIENTE PF, SEM FAMÍLIA OU SÓCIOS (HIPOTÉTICO)\n- QUER UMA {laranja:CLASSE EXCLUSIVA} SÓ PARA ELE\n- ATESTA A CONDIÇÃO {laranja:POR ESCRITO}\n- RÉGUAS: > R$ 1 MI QUALIFICADO · > R$ 10 MI PROFISSIONAL\n- A ÚNICA DIFERENÇA: O VALOR APLICADO",
+   "cenarios": [
+    {
+     "titulo": "R$ 12 MILHÕES",
+     "passos": "> R$ 10 MI\nPROFISSIONAL\nÚNICO COTISTA",
+     "resultado": "EXCLUSIVA OK"
+    },
+    {
+     "titulo": "R$ 5 MILHÕES",
+     "passos": "> R$ 1 MI\nSÓ QUALIFICADO\nSOZINHO, NÃO",
+     "resultado": "NÃO CABE"
+    }
+   ],
+   "conclusao": {
+    "texto": "COM {ciano:R$ 5 MI}, ELE É {laranja:QUALIFICADO, MAS NÃO PROFISSIONAL} · AINDA PODE IR PARA FUNDOS DE QUALIFICADOS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r42b_1_fechado.png",
+   "semente": 4211,
+   "titulo": "EXCLUSIVO FECHADO SEM COME-COTAS?",
+   "mitos": [
+    "FECHADO NÃO TEM COME-COTAS",
+    "EXCLUSIVO ADIA O IMPOSTO"
+   ],
+   "verdade": "DESDE 2024: {verde:ABERTO OU FECHADO}",
+   "desenho": {
+    "nome": "livro_caixa",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} EXCLUSIVO FECHADO DE RENDA FIXA\n- ATÉ 2023: IR SÓ NA {laranja:AMORTIZAÇÃO OU RESGATE}\n- DESDE 2024: {vermelho:COME-COTAS EM MAIO E NOVEMBRO}\n- {ciano:BASE:} LEI 14.754, ART. 17, § 8º\n- O DIFERIMENTO {vermelho:ACABOU}\n- {ciano:REGRA:} SER EXCLUSIVO NÃO TIRA O COME-COTAS"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r42b_2_desconto.png",
+   "semente": 4212,
+   "titulo": "O ALFAIATE PERDEU O DESCONTO",
+   "colunas": [
+    {
+     "titulo": "ATÉ 2023",
+     "desenho": "cofrinho",
+     "rotulos": [
+      "DINHEIRO",
+      "RENDENDO"
+     ],
+     "texto": "- SEM COBRADOR → {verde:SEM COME-COTAS}\n- CONTA NO FIM → {laranja:IR NA SAÍDA}\n- DINHEIRO DO IMPOSTO → {verde:RENDIA NO FUNDO}\n- DESCONTO FAMOSO → {laranja:DIFERIMENTO}"
+    },
+    {
+     "titulo": "DESDE 2024",
+     "desenho": "cracha_fiscal",
+     "rotulos": [
+      "COBRADOR",
+      "CHEGOU"
+     ],
+     "texto": "- COBRADOR NA ALFAIATARIA → {vermelho:COME-COTAS}\n- CONTA ANTIGA → {laranja:ESTOQUE ATÉ 2023}\n- TARIFA PADRÃO → {laranja:15%}\n- TARIFA ANTECIPADA → {verde:8%}"
+    }
+   ],
+   "faixas": [
+    "{ciano:15% (ART. 27):} À VISTA ATÉ {laranja:31/05/2024} OU EM ATÉ {laranja:24 PARCELAS} COM SELIC",
+    "{ciano:8% (ART. 28):} DUAS ETAPAS · 4 PARCELAS DE DEZ/2023 A MAR/2024 + SALDO EM MAIO/2024"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O DESCONTO NÃO ERA FAVOR DA LOJA · ERA {laranja:EFEITO DA LEI} SOBRE O FUNDO FECHADO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r42b_3_lei-14754.png",
+   "semente": 4213,
+   "titulo": "EXCLUSIVOS DEPOIS DA LEI 14.754",
+   "topo": "{ciano:ART. 17, § 8º:} COME-COTAS EM CONDOMÍNIO {laranja:ABERTO} OU {laranja:FECHADO} · VALE DESDE {laranja:2024}",
+   "colunas": [
+    {
+     "titulo": "O ESTOQUE ATÉ 2023",
+     "texto": "- REGRA: {laranja:15%}\n- À VISTA ATÉ 31/05/2024\n- OU 24 PARCELAS + SELIC\n- OPÇÃO: {verde:8%}\n- DEZ/2023 A MAIO/2024"
+    },
+    {
+     "titulo": "CONTINUAM SEM",
+     "texto": "- {verde:FUNDO DE AÇÕES} (67%)\n- {verde:FIP} ENTIDADE\n- {verde:FIDC} ENTIDADE\n- {verde:ETF} ENTIDADE (EXCETO RF)\n- ABAIXO DE 67%: {vermelho:COME-COTAS}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:É COMUM LER:} \"PLANEJAMENTO TRIBUTÁRIO SOFISTICADO\" · {vermelho:ATENÇÃO:} O DIFERIMENTO ACABOU · FICAM {laranja:PERSONALIZAÇÃO E SUCESSÃO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r42b_4_estoque.png",
+   "semente": 4214,
+   "titulo": "15% OU 8% NO ESTOQUE?",
+   "dados": "- EXCLUSIVO FECHADO DE RENDA FIXA (HIPOTÉTICO)\n- RENDIMENTOS ACUMULADOS ATÉ 2023: {ciano:R$ 1.000.000}\n- NUNCA PAGOU COME-COTAS\n- SIMPLIFICAÇÃO: MESMA BASE, SEM EFEITO DAS PARCELAS\n- A ÚNICA DIFERENÇA: A OPÇÃO DO COTISTA",
+   "cenarios": [
+    {
+     "titulo": "REGRA DE 15%",
+     "passos": "1.000.000 × 15%\nÀ VISTA OU\n24 PARCELAS",
+     "resultado": "R$ 150.000"
+    },
+    {
+     "titulo": "OPÇÃO DE 8%",
+     "passos": "1.000.000 × 8%\nDUAS ETAPAS\nDEZ/23 A MAIO/24",
+     "resultado": "R$ 80.000"
+    }
+   ],
+   "conclusao": {
+    "texto": "ANTECIPAR VALEU {verde:R$ 70 MIL} · NOS DOIS CASOS, {vermelho:COME-COTAS} A PARTIR DE 2024",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r42c_1_taxa.png",
+   "semente": 4221,
+   "titulo": "A TAXA MOSTRA TUDO?",
+   "mitos": [
+    "TAXA DO FOF = CUSTO TOTAL",
+    "SEMPRE INCLUI OS INVESTIDOS"
+   ],
+   "verdade": "{vermelho:FICAM FORA:} BOLSA E GESTOR NÃO RELACIONADO",
+   "desenho": {
+    "nome": "exclamacao",
+    "largura": 120
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} FOF COM TAXA DE 0,8% NO REGULAMENTO\n- COMPRA FUNDOS DE {laranja:OUTRAS GESTORAS}\n- {ciano:CVM 175, ART. 98, § 2º:} ESSES FICAM FORA DA CONTA\n- TAXA MÁXIMA INCLUI OS INVESTIDOS · MÍNIMA, NÃO\n- COMPARAÇÃO ENTRE FUNDOS: PELA {laranja:MÁXIMA}\n- {ciano:REGRA:} SOME AS DUAS CAMADAS"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r42c_2_multimarcas.png",
+   "semente": 4222,
+   "titulo": "A LOJA MULTIMARCAS",
+   "colunas": [
+    {
+     "titulo": "VÁRIAS GRIFES",
+     "desenho": "camisa",
+     "rotulos": [
+      "MUITAS",
+      "MARCAS"
+     ],
+     "texto": "- REVENDE GRIFES → {verde:COTAS DE OUTROS FUNDOS}\n- TUDO NUM LUGAR → {verde:SIMPLICIDADE}\n- VENDEDORA ESCOLHE → {verde:SELEÇÃO DE GESTORES}\n- LOJA SOCIAL SÓ SOCIAL → {laranja:MESMO TIPO}"
+    },
+    {
+     "titulo": "DUAS MARGENS",
+     "desenho": "dinheiro",
+     "rotulos": [
+      "LOJA",
+      "+ GRIFE"
+     ],
+     "texto": "- MARGEM DA LOJA → {vermelho:TAXA DO FOF}\n- MARGEM DA GRIFE → {vermelho:TAXA DOS INVESTIDOS}\n- FÁBRICA ESCONDIDA → {vermelho:MENOS TRANSPARÊNCIA}\n- ESTILO LIVRE → {laranja:MULTIMERCADO COMPRA TUDO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:FUNDO FINANCEIRO:} {laranja:≥ 95%} EM COTAS · NOME \"CLASSE DE INVESTIMENTO EM COTAS\"",
+    "{ciano:OUTROS FOF:} FIC-FIDC {laranja:67%} · FIC-FIP {laranja:90%} · LIMITE POR CLASSE NO REGULAMENTO E NA LÂMINA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA LOJA AS MARGENS VÊM SOMADAS · NO FOF, PARTE DO CUSTO {laranja:PODE NÃO APARECER}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r42c_3_fof.png",
+   "semente": 4223,
+   "titulo": "FUNDOS DE FUNDOS NA CVM 175",
+   "topo": "{ciano:CLASSE DE INVESTIMENTO EM COTAS:} {laranja:≥ 95%} EM COTAS DE OUTRAS CLASSES (ANEXO I, ART. 2º, VI)",
+   "colunas": [
+    {
+     "titulo": "REGRAS DE CARTEIRA",
+     "texto": "- {laranja:MESMO TIPO} DA SUA CLASSE\n- RF COMPRA RF\n- {verde:MULTIMERCADO}: QUALQUER TIPO\n- MÁXIMO POR CLASSE NA LÂMINA\n- 94%: {vermelho:NÃO É CLASSE DE COTAS}"
+    },
+    {
+     "titulo": "AS TAXAS (ART. 98)",
+     "texto": "- {laranja:INCLUEM} AS DOS INVESTIDOS\n- MÁXIMA: COM OS INVESTIDOS\n- MÍNIMA: SEM OS INVESTIDOS\n- COMPARAÇÃO: {laranja:PELA MÁXIMA}\n- FORA: BOLSA E NÃO RELACIONADOS"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} FOF = {verde:DIVERSIFICAÇÃO} + {vermelho:DUPLA CAMADA DE CUSTOS} + {vermelho:MENOS TRANSPARÊNCIA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r42c_4_dupla-camada.png",
+   "semente": 4224,
+   "titulo": "FUNDO DIRETO OU FOF?",
+   "dados": "- APLICAÇÃO DE {ciano:R$ 100.000} POR {ciano:5 ANOS} (HIPOTÉTICO)\n- CARTEIRA: {ciano:12% AO ANO} ANTES DAS TAXAS\n- SEM CUSTOS: R$ 176.234,17\n- SIMPLIFICAÇÃO: SEM IMPOSTO, SEM PERFORMANCE\n- A ÚNICA DIFERENÇA: A CAMADA DE CUSTOS",
+   "cenarios": [
+    {
+     "titulo": "FUNDO DIRETO",
+     "passos": "12% − 1,5%\n= 10,5% AO ANO\n5 ANOS",
+     "resultado": "R$ 164.744,68"
+    },
+    {
+     "titulo": "FOF",
+     "passos": "10,5% − 0,8%\n= 9,7% AO ANO\n5 ANOS",
+     "resultado": "R$ 158.866,80"
+    }
+   ],
+   "conclusao": {
+    "texto": "A SEGUNDA CAMADA TIROU {vermelho:R$ 5.877,88} ({vermelho:−3,57%}) · A SELEÇÃO DE GESTORES PRECISA ENTREGAR MAIS QUE ISSO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r42d_1_80-pessoas.png",
+   "semente": 4231,
+   "titulo": "CLUBE SEM LIMITE DE GENTE?",
+   "mitos": [
+    "80 PESSOAS NO MESMO CLUBE",
+    "DIVULGAR NA INTERNET ABERTA"
+   ],
+   "verdade": "{verde:3 A 50} PESSOAS · {verde:MÁXIMO 40%}",
+   "desenho": {
+    "nome": "pessoa",
+    "largura": 120
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} 80 PESSOAS E UMA PÁGINA ABERTA\n- {ciano:BASE:} RESOLUÇÃO CVM 11/2020\n- PESSOA JURÍDICA: {vermelho:NÃO ENTRA}\n- PROIBIDO: IMPRENSA · RÁDIO · TV · {vermelho:INTERNET ABERTA} · MALA DIRETA\n- NOME COM \"{laranja:CLUBE DE INVESTIMENTO}\"\n- {ciano:REGRA:} CLUBE NÃO FAZ OFERTA PÚBLICA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r42d_2_clube.png",
+   "semente": 4232,
+   "titulo": "O CLUBE DE COMPRAS",
+   "colunas": [
+    {
+     "titulo": "OS AMIGOS",
+     "desenho": "corrente_blocos",
+     "rotulos": [
+      "3 A 50",
+      "MÁX. 40%"
+     ],
+     "texto": "- DE 3 A 50 AMIGOS → {verde:PESSOAS NATURAIS}\n- NINGUÉM MANDA EM TUDO → {laranja:MÁXIMO DE 40%}\n- SEM PROPAGANDA NA RUA → {vermelho:SEM OFERTA PÚBLICA}\n- COTAS IGUAIS → {laranja:SEM CLASSES}"
+    },
+    {
+     "titulo": "O SÍNDICO",
+     "desenho": "prancheta",
+     "rotulos": [
+      "ADMINISTRA",
+      "E GERE"
+     ],
+     "texto": "- SÍNDICO PROFISSIONAL → {verde:CORRETORA OU BANCO}\n- COMPRADOR CONTRATADO → {laranja:GESTOR PROFISSIONAL}\n- MEMBRO ELEITO → {laranja:SEM REMUNERAÇÃO}\n- ASSESSOR → {vermelho:NÃO PODE GERIR}"
+    }
+   ],
+   "faixas": [
+    "{ciano:REGISTRO:} EM {laranja:ENTIDADE ADMINISTRADORA DE MERCADO ORGANIZADO} · DISTRIBUIÇÃO {verde:SEM REGISTRO NA CVM}",
+    "{ciano:RESGATE:} ATÉ {laranja:5 DIAS ÚTEIS} DA CONVERSÃO · ATRASO: MULTA DE {vermelho:0,5% AO DIA}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NO CLUBE DE INVESTIMENTO, A CARTEIRA TEM PISO: {laranja:67% EM AÇÕES} E ATIVOS LIGADOS",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r42d_3_cvm-11.png",
+   "semente": 4233,
+   "titulo": "AS REGRAS DA CVM 11",
+   "topo": "{ciano:CONDOMÍNIO ABERTO} · COTAS {laranja:NÃO NEGOCIADAS EM BOLSA} · ENTRA E SAI POR {laranja:APLICAÇÃO E RESGATE}",
+   "colunas": [
+    {
+     "titulo": "ADMINISTRAÇÃO E GESTÃO",
+     "texto": "- ADM: CORRETORA · DISTRIBUIDORA\n- BANCO DE INVEST. OU MÚLTIPLO\n- GESTOR: ADM, CONTRATADO\n- OU {laranja:COTISTA ELEITO}\n- COTISTA GESTOR: {laranja:1 CLUBE}"
+    },
+    {
+     "titulo": "CARTEIRA",
+     "texto": "- {verde:≥ 67%} EM AÇÕES E LIGADOS\n- BÔNUS · CONVERSÍVEIS · ETF\n- DERIVATIVO: SÓ EM {laranja:BOLSA}\n- {vermelho:SEM OPÇÃO A DESCOBERTO}\n- {vermelho:SEM PAPÉIS DO ADM/GESTOR}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:É COMUM LER:} \"GESTÃO COMPARTILHADA\" · {vermelho:ATENÇÃO:} SÃO {laranja:3 CAMINHOS} DE GESTÃO NA NORMA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r42d_4_40.png",
+   "semente": 4234,
+   "titulo": "O MAIOR COTISTA PASSOU DO LIMITE?",
+   "dados": "- CLUBE COM {ciano:30 PESSOAS NATURAIS} (HIPOTÉTICO)\n- ADMINISTRADO POR UMA {laranja:CORRETORA}\n- {ciano:70%} DA CARTEIRA EM AÇÕES · GESTOR CONTRATADO\n- LIMITE POR COTISTA: {laranja:40%}\n- A ÚNICA DIFERENÇA: A FATIA DO MAIOR COTISTA",
+   "cenarios": [
+    {
+     "titulo": "35% DAS COTAS",
+     "passos": "35% ≤ 40%\nDENTRO DO LIMITE\n30 PESSOAS OK",
+     "resultado": "REGULAR"
+    },
+    {
+     "titulo": "45% DAS COTAS",
+     "passos": "45% > 40%\nPASSOU DO LIMITE\nAPÓS APLICAÇÕES",
+     "resultado": "IRREGULAR"
+    }
+   ],
+   "conclusao": {
+    "texto": "CASO-LIMITE: {verde:40% EXATOS} AINDA PODE · O PROIBIDO É PASSAR DE 40% · MUITAS PESSOAS NÃO COMPENSAM A {vermelho:CONCENTRAÇÃO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r42e_1_20-mil.png",
+   "semente": 4241,
+   "titulo": "CLUBE ISENTO ATÉ 20 MIL?",
+   "mitos": [
+    "RESGATE DE CLUBE ISENTO ATÉ 20 MIL",
+    "CLUBE PAGA DARF TODO MÊS"
+   ],
+   "verdade": "RESGATE PAGA {vermelho:15%} SOBRE O GANHO",
+   "desenho": {
+    "nome": "moeda",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} RESGATE DE R$ 15 MIL COM GANHO\n- ISENÇÃO DE 20 MIL: SÓ {laranja:AÇÕES VENDIDAS DIRETO}\n- {ciano:P&R IRPF 2026, PERGUNTA 707:} CLUBE FICA DE FORA\n- RETENÇÃO PELO {laranja:ADMINISTRADOR}\n- {verde:SEM COME-COTAS} NO CLUBE DE AÇÕES\n- {ciano:REGRA:} CLUBE DE AÇÕES = FUNDO DE AÇÕES"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r42e_2_riscos-caixa.png",
+   "semente": 4242,
+   "titulo": "OS RISCOS E O CAIXA DO CLUBE",
+   "colunas": [
+    {
+     "titulo": "SEM GARANTIA",
+     "desenho": "montanha_russa",
+     "rotulos": [
+      "SOBE",
+      "E DESCE"
+     ],
+     "texto": "- PREÇO QUE OSCILA → {vermelho:RISCO DE MERCADO}\n- SEM SEGURO → {vermelho:SEM FGC}\n- POUCOS PRODUTOS → {vermelho:CONCENTRAÇÃO}\n- AMIGOS BRIGANDO → {vermelho:GOVERNANÇA}"
+    },
+    {
+     "titulo": "SÓ NA SAÍDA",
+     "desenho": "bilheteria",
+     "rotulos": [
+      "15%",
+      "NO RESGATE"
+     ],
+     "texto": "- PAGA COMO A LOJA DE AÇÕES → {verde:15%}\n- SEM COBRADOR → {verde:SEM COME-COTAS}\n- TROCAS POR DENTRO → {verde:ISENTAS}\n- QUEM RETÉM → {laranja:ADMINISTRADOR}"
+    }
+   ],
+   "faixas": [
+    "{ciano:IN RFB 1.585, ART. 43:} CLUBE SEGUE O {laranja:FUNDO EQUIVALENTE} À SUA CLASSIFICAÇÃO",
+    "{ciano:AÇÕES DIRETO, VENDAS > R$ 20 MIL:} 15% POR {laranja:DARF} ATÉ O ÚLTIMO DIA ÚTIL DO MÊS SEGUINTE"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NO SHOPPING O CLIENTE PAGA NO BALCÃO · NO CLUBE, A RETENÇÃO FICA COM O {laranja:ADMINISTRADOR}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r42e_3_tributacao.png",
+   "semente": 4243,
+   "titulo": "CLUBE × AÇÕES DIRETO",
+   "topo": "{ciano:RISCOS:} MERCADO · SEM FGC · CONCENTRAÇÃO · {laranja:GOVERNANÇA ENTRE OS MEMBROS}",
+   "colunas": [
+    {
+     "titulo": "CLUBE DE AÇÕES",
+     "texto": "- {laranja:15%} SÓ NO RESGATE\n- {verde:SEM COME-COTAS}\n- GIRO INTERNO {verde:ISENTO}\n- SEM DARF MENSAL\n- {vermelho:SEM A ISENÇÃO DE 20 MIL}"
+    },
+    {
+     "titulo": "AÇÕES DIRETO (PF)",
+     "texto": "- VENDAS ≤ R$ 20 MIL/MÊS:\n- GANHO {verde:ISENTO}\n- VENDAS > R$ 20 MIL/MÊS:\n- {laranja:15%} POR {laranja:DARF}\n- LIMITE É SOBRE AS {laranja:VENDAS}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} R$ 20 MIL É O TOTAL {laranja:VENDIDO} NO MÊS, NÃO O GANHO · E SÓ PARA {laranja:AÇÕES DIRETO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r42e_4_clube-direto.png",
+   "semente": 4244,
+   "titulo": "DIRETO OU NO CLUBE?",
+   "dados": "- GANHO DE {ciano:R$ 4.000 POR MÊS}, POR {ciano:3 MESES} (HIPOTÉTICO)\n- AÇÕES DIRETO: VENDAS DE {ciano:R$ 18 MIL} POR MÊS\n- SEM CORRETAGEM · SEM PREJUÍZOS A COMPENSAR\n- CLUBE: 15% SÓ NO RESGATE\n- A ÚNICA DIFERENÇA: O VEÍCULO",
+   "cenarios": [
+    {
+     "titulo": "AÇÕES DIRETO",
+     "passos": "VENDAS ≤ 20 MIL\nGANHO ISENTO\n3 × 4.000",
+     "resultado": "R$ 12.000"
+    },
+    {
+     "titulo": "CLUBE DE AÇÕES",
+     "passos": "12.000 × 15%\n= 1.800 NO RESGATE\n15% MENOS",
+     "resultado": "R$ 10.200"
+    }
+   ],
+   "conclusao": {
+    "texto": "VENDENDO {laranja:R$ 60 MIL/MÊS} DIRETO: 600 POR MÊS NO DARF = {laranja:R$ 1.800}, O MESMO TOTAL, {vermelho:MÊS A MÊS}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r42f_1_fof-acoes.png",
+   "semente": 4251,
+   "titulo": "TODO FOF NA TABELA REGRESSIVA?",
+   "mitos": [
+    "TODO FOF TEM COME-COTAS",
+    "FOF É SEMPRE REGRA GERAL"
+   ],
+   "verdade": "TRIBUTAÇÃO {verde:IGUAL À DA CARTEIRA}",
+   "desenho": {
+    "nome": "diversificacao",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} FOF COM 80% EM COTAS DE FUNDOS DE AÇÕES\n- {ciano:LEI 14.754, ART. 21:} AS COTAS DE FIA {laranja:CONTAM} PARA OS 67%\n- RESULTADO: TRIBUTADO COMO {verde:FUNDO DE AÇÕES}\n- 15% NO RESGATE · {verde:SEM COME-COTAS}\n- {ciano:ART. 25:} ≥ 95% EM ENTIDADES → 15% NA SAÍDA\n- {ciano:REGRA:} OLHE A CARTEIRA DO FOF"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r42f_2_painel.png",
+   "semente": 4252,
+   "titulo": "O PAINEL DO CAIXA",
+   "colunas": [
+    {
+     "titulo": "LOJAS COM BENEFÍCIO",
+     "desenho": "estrela",
+     "rotulos": [
+      "IMÓVEIS",
+      "E AGRO"
+     ],
+     "texto": "- IMÓVEIS E AGRO → {verde:RENDA ISENTA (PF)}\n- REVENDA DA COTA → {vermelho:20%}\n- SALA DE INFRA → {verde:IMPOSTO ZERO (PF)}\n- AÇÕES E CLUBE → {laranja:15% NA SAÍDA}\n- SEM AS 4 CONDIÇÕES → {vermelho:20% NA RENDA}"
+    },
+    {
+     "titulo": "A PERGUNTA DO CAIXA",
+     "desenho": "exclamacao",
+     "rotulos": [
+      "GESTOR",
+      "LIVRE?"
+     ],
+     "texto": "- SIM, É ENTIDADE → {verde:15% SÓ NA SAÍDA}\n- NÃO É ENTIDADE → {laranja:COME-COTAS 15%}\n- MULTIMARCAS → {laranja:SEGUE AS GRIFES}\n- ALFAIATARIA → {vermelho:REGRA GERAL}\n- RECEBÍVEIS SEM 67% → {vermelho:REGRA GERAL}"
+    }
+   ],
+   "faixas": [
+    "{ciano:FII E FIAGRO, 4 CONDIÇÕES:} SÓ BOLSA · ≥ 100 COTISTAS · PF < 10% · GRUPO LIGADO < 30%",
+    "{ciano:REGRAS PRÓPRIAS:} ETF (R36 E R39) · INCENTIVADOS DE INFRAESTRUTURA (R38)"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} PAINEL DE LOJA MUDA QUANDO O DONO QUER · O DOS FUNDOS SÓ MUDA COM {laranja:NOVA LEI} OU {laranja:NOVA CARTEIRA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r42f_3_quadro.png",
+   "semente": 4253,
+   "titulo": "O QUADRO DA PESSOA FÍSICA",
+   "topo": "{ciano:SEM COME-COTAS ≠ ISENTO:} AÇÕES, CLUBE E ENTIDADES PAGAM {laranja:15% NA SAÍDA}",
+   "colunas": [
+    {
+     "titulo": "SEM COME-COTAS",
+     "texto": "- FII/FIAGRO: {verde:RENDA ISENTA}\n- FIDC/FIP ENTIDADE: {laranja:15% SAÍDA}\n- FIP-IE E PD&I: {verde:ZERO}\n- AÇÕES E CLUBE: {laranja:15%}\n- FOF ≥ 95% ENTIDADES: {laranja:15%}"
+    },
+    {
+     "titulo": "COM COME-COTAS",
+     "texto": "- FIDC/FIP NÃO ENTIDADE: 15%\n- FIP: + {laranja:SUBCONTA}\n- FIDC SEM 67%: {vermelho:REGRA GERAL}\n- FOF DOS DEMAIS: {vermelho:REGRA GERAL}\n- EXCLUSIVO/FECHADO RF: {vermelho:REGRA GERAL}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} FOF COM 90% EM FIDC ENTIDADE {vermelho:NÃO} CHEGA AOS 95% → {vermelho:REGRA GERAL}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r42f_4_fof.png",
+   "semente": 4254,
+   "titulo": "COMO O FOF PAGA?",
+   "dados": "- DOIS FOFS, MESMO GESTOR E MESMA TAXA (HIPOTÉTICO)\n- RESTO DA CARTEIRA EM FUNDOS DE RENDA FIXA\n- RÉGUA DO FUNDO DE AÇÕES: {laranja:67%}\n- COTAS DE FIA {laranja:CONTAM} NA RÉGUA\n- A ÚNICA DIFERENÇA: A FATIA EM FUNDOS DE AÇÕES",
+   "cenarios": [
+    {
+     "titulo": "80% EM FIA",
+     "passos": "80% ≥ 67%\nCOMO FUNDO DE AÇÕES\n15% NO RESGATE",
+     "resultado": "SEM COME-COTAS"
+    },
+    {
+     "titulo": "40% EM FIA",
+     "passos": "40% < 67%\nREGRA GERAL\nTABELA REGRESSIVA",
+     "resultado": "COME-COTAS"
+    }
+   ],
+   "conclusao": {
+    "texto": "5 PEGADINHAS (FALSAS): EXCLUSIVO FECHADO SEM COME-COTAS · QUALQUER GRUPO EXCLUSIVO · TAXA DO FOF = CUSTO TOTAL · CLUBE DE 100 · CLUBE ISENTO ATÉ 20 MIL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
