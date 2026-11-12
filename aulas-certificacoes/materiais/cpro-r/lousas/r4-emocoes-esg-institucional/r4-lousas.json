@@ -1,100 +1,219 @@
 {
-  "padrao": {
-    "fundo": "preto"
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r4a_1_decisao-tecnica.png",
+   "semente": 401,
+   "molde": "mito_verdade",
+   "titulo": "DECISÃO TÉCNICA NÃO TEM EMOÇÃO?",
+   "mitos": [
+    "NÚMERO É FRIO, DECISÃO TAMBÉM",
+    "EMOÇÃO É DEFEITO A ELIMINAR"
+   ],
+   "verdade": "TODA DECISÃO TEM EMOÇÃO: {laranja:RECONHECER} E CRIAR {verde:DISCIPLINA}",
+   "desenho": "grafico_baixa",
+   "apoio": "- {ciano:IBOVESPA, FIM DE 2019:} 115.645 PONTOS\n- {ciano:MARÇO DE 2020:} {vermelho:−29,9%} NO MÊS · {vermelho:−36,86%} NO TRIMESTRE\n- {ciano:FIM DE 2020:} 119.017 PONTOS · {verde:+2,92%} NO ANO\n- A EMOÇÃO MEXE NA {laranja:PERCEPÇÃO DE RISCO}, NAS {laranja:EXPECTATIVAS} E NA {laranja:TOLERÂNCIA A PERDAS}"
   },
-  "slides": [
+  {
+   "saida": "r4a_2_turbulencia.png",
+   "semente": 6401,
+   "molde": "comparacao",
+   "titulo": "A TURBULÊNCIA NA CABINE",
+   "colunas": [
     {
-      "saida": "r4_1_decisao-tecnica.png",
-      "semente": 401,
-      "molde": "mito_verdade",
-      "titulo": "DECISÃO TÉCNICA NÃO TEM EMOÇÃO?",
-      "mitos": [
-        "NÚMERO É FRIO, DECISÃO TAMBÉM",
-        "EMOÇÃO É DEFEITO A ELIMINAR"
-      ],
-      "verdade": "TODA DECISÃO TEM EMOÇÃO: {laranja:RECONHECER} E CRIAR {verde:DISCIPLINA}",
-      "desenho": "grafico_baixa",
-      "apoio": "- {ciano:IBOVESPA, FIM DE 2019:} 115.645 PONTOS\n- {ciano:MARÇO DE 2020:} {vermelho:−29,9%} NO MÊS · {vermelho:−36,86%} NO TRIMESTRE\n- {ciano:FIM DE 2020:} 119.017 PONTOS · {verde:+2,92%} NO ANO\n- A EMOÇÃO MEXE NA {laranja:PERCEPÇÃO DE RISCO}, NAS {laranja:EXPECTATIVAS} E NA {laranja:TOLERÂNCIA A PERDAS}"
+     "titulo": "A TURBULÊNCIA",
+     "desenho": "mostrador",
+     "rotulos": [
+      "CHACOALHA",
+      "MANOBRA?"
+     ],
+     "texto": "- TURBULÊNCIA → {laranja:EMOÇÃO}\n- TODO VOO TEM → {laranja:É NATURAL}\n- MANOBRA BRUSCA → {vermelho:DECISÃO IMPULSIVA}\n- PLANO DE VOO → {laranja:ESTRATÉGIA}"
     },
     {
-      "saida": "r4_2_turbulencia-duas-cabines.png",
-      "semente": 402,
-      "molde": "comparacao",
-      "titulo": "TURBULÊNCIA, DESTINO E DUAS CABINES",
-      "colunas": [
-        {
-          "titulo": "A TURBULÊNCIA",
-          "desenho": "mostrador",
-          "rotulos": [
-            "CHACOALHA",
-            "MANOBRA?"
-          ],
-          "texto": "- TURBULÊNCIA → {laranja:EMOÇÃO}\n- NATURAL: TODO VOO TEM\n- O PERIGO: A {vermelho:MANOBRA BRUSCA}\n- DESTINO PELOS VALORES → {verde:ESG}"
-        },
-        {
-          "titulo": "DUAS CABINES",
-          "desenho": "cabine",
-          "rotulos": [
-            "SOZINHO",
-            "COM CHECKLIST"
-          ],
-          "texto": "- PILOTO SOZINHO → {laranja:INDIVIDUAL}\n- COPILOTO, CHECKLIST, TORRE → {laranja:INSTITUCIONAL}\n- OS DOIS SÃO {vermelho:HUMANOS}\n- A SEGUNDA TEM {verde:REDE DE PROTEÇÃO}"
-        }
-      ],
-      "faixas": [
-        "{ciano:APELIDOS DE MERCADO:} INDIVIDUAL = \"SARDINHA\" · INSTITUCIONAL = \"TUBARÃO\" OU \"BALEIA\" (SEM DEFINIÇÃO EM NORMA)"
-      ],
-      "destaque": {
-        "texto": "{vermelho:ONDE QUEBRA:} NA AVIAÇÃO, A TORRE {laranja:PODE PROIBIR} · NO MERCADO, O CLIENTE DECIDE, E O INSTITUCIONAL {vermelho:TAMBÉM ERRA}",
-        "cor": "branco",
-        "moldura": "vermelho"
-      }
-    },
-    {
-      "saida": "r4_3_emocoes-esg-estrutura.png",
-      "semente": 403,
-      "molde": "colunas",
-      "titulo": "EMOÇÕES, ESG E QUEM DECIDE",
-      "topo": "{ciano:5 EMOÇÕES:} {vermelho:MEDO} VENDE NA QUEDA · {laranja:GANÂNCIA} ARRISCA DEMAIS · {laranja:EUFORIA} ENTRA TARDE · ANSIEDADE MEXE TODO DIA · ARREPENDIMENTO OLHA PARA TRÁS",
-      "colunas": [
-        {
-          "titulo": "ESG NA CARTEIRA",
-          "texto": "- EX.: CAUSA AMBIENTAL → RECUSA {laranja:MINERAÇÃO}\n- ACEITA {laranja:RETORNO MENOR}\n- FICA {verde:MAIS TEMPO} SE ALINHADO\n- MOTIVO SÓ FINANCEIRO OU {laranja:DE VALOR}?"
-        },
-        {
-          "titulo": "INDIVIDUAL × INSTITUCIONAL",
-          "texto": "- ARRISCA: O PRÓPRIO DINHEIRO × {laranja:REPUTAÇÃO E COMPLIANCE}\n- DECIDE: SOZINHO × {verde:COMITÊ}\n- CARTEIRA: POR OBJETIVO × {verde:INTEGRADA}\n- PRESTA CONTAS: A SI MESMO × {verde:A TERCEIROS}"
-        }
-      ],
-      "destaque": {
-        "texto": "{ciano:NO ATENDIMENTO:} MOSTRAR DADOS · LEMBRAR O HORIZONTE · {verde:REFORÇAR O OBJETIVO}",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r4_4_vender-ou-manter.png",
-      "semente": 404,
-      "molde": "exercicio",
-      "titulo": "VENDER NO SUSTO OU MANTER O PLANO?",
-      "dados": "- R$ 100.000 NUM FUNDO QUE REPLICA O IBOVESPA, NO FIM DE 2019 (115.645 PONTOS)\n- SIMPLIFICAÇÃO: SEM CUSTOS, SEM IR, CAIXA SEM RENDIMENTO\n- FIM DE MARÇO/2020: {vermelho:73.019,76} · FIM DE 2020: {verde:119.017,24}\n- A ÚNICA DIFERENÇA: A REAÇÃO AO MEDO",
-      "cenarios": [
-        {
-          "titulo": "VENDEU EM MARÇO",
-          "passos": "73.019,76 ÷ 115.645\n× 100.000\n−36,86% REALIZADOS",
-          "resultado": "R$ 63.141,30"
-        },
-        {
-          "titulo": "MANTEVE O PLANO",
-          "passos": "119.017,24 ÷ 115.645\n× 100.000\n+2,92% NO ANO",
-          "resultado": "R$ 102.916,03"
-        }
-      ],
-      "conclusao": {
-        "texto": "DIFERENÇA: {vermelho:R$ 39.774,72} · RESULTADO PASSADO {vermelho:NÃO GARANTE} O FUTURO: OUTRA CRISE PODE LEVAR MAIS TEMPO",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
+     "titulo": "A TRIPULAÇÃO",
+     "desenho": "cabine",
+     "rotulos": [
+      "AVISO",
+      "PROCEDIMENTO"
+     ],
+     "texto": "- TRIPULAÇÃO → {verde:PROFISSIONAL}\n- AVISAR OS PASSAGEIROS → {verde:REEDUCAR}\n- OLHAR OS INSTRUMENTOS → {verde:MOSTRAR DADOS}\n- LEMBRAR O DESTINO → {verde:REFORÇAR OBJETIVOS}"
     }
-  ]
+   ],
+   "faixas": [
+    "{ciano:PILOTO MANUAL:} DECISÃO RACIONAL · {ciano:PILOTO AUTOMÁTICO:} ATALHOS DA MENTE (R1 A R3)",
+    "{ciano:NINGUÉM DESLIGA A TURBULÊNCIA:} O TREINO É ATRAVESSAR SEM ABANDONAR A ROTA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O VENTO É EXTERNO AO AVIÃO · A EMOÇÃO NASCE NO PRÓPRIO INVESTIDOR, QUE NEM SEMPRE NOTA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r4a_3_cinco-emocoes.png",
+   "semente": 6402,
+   "molde": "colunas",
+   "titulo": "AS 5 EMOÇÕES E O PAPEL DO PROFISSIONAL",
+   "topo": "{ciano:COMPONENTE EMOCIONAL:} PRESENTE ATÉ NA DECISÃO \"TÉCNICA\" · MEXE EM {laranja:PERCEPÇÃO DE RISCO}, {laranja:EXPECTATIVAS} E {laranja:TOLERÂNCIA A PERDAS}",
+   "colunas": [
+    {
+     "titulo": "AS 5 EMOÇÕES",
+     "texto": "- {vermelho:MEDO:} RECUO, VENDA PRECIPITADA, PARALISIA\n- {laranja:GANÂNCIA:} RISCO EXCESSIVO POR RETORNO RÁPIDO\n- {laranja:EUFORIA:} CONFIANÇA DEMAIS, ENTRADA TARDIA\n- {ciano:ANSIEDADE:} LONGO PRAZO NÃO SE SUSTENTA\n- {ciano:ARREPENDIMENTO:} REVISÃO IMPULSIVA"
+    },
+    {
+     "titulo": "O PROFISSIONAL",
+     "texto": "- EMOÇÃO {vermelho:NÃO} É FALHA\n- É ELEMENTO NATURAL\n- AJUDA A {verde:RECONHECER}\n- CRIA {verde:MECANISMOS}\n- MENOS IMPULSO, MAIS {verde:DISCIPLINA}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:3 FERRAMENTAS:} REEDUCAR O INVESTIDOR · MOSTRAR DADOS · REFORÇAR OS OBJETIVOS · {vermelho:GANÂNCIA ≠ EUFORIA:} UMA BUSCA O GANHO RÁPIDO, A OUTRA CHEGA COM A ALTA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r4a_4_vender-ou-manter.png",
+   "semente": 404,
+   "molde": "exercicio",
+   "titulo": "VENDER NO SUSTO OU MANTER O PLANO?",
+   "dados": "- R$ 100.000 NUM FUNDO QUE REPLICA O IBOVESPA, NO FIM DE 2019 (115.645 PONTOS)\n- SIMPLIFICAÇÃO: SEM CUSTOS, SEM IR, CAIXA SEM RENDIMENTO\n- FIM DE MARÇO/2020: {vermelho:73.019,76} · FIM DE 2020: {verde:119.017,24}\n- A ÚNICA DIFERENÇA: A REAÇÃO AO MEDO",
+   "cenarios": [
+    {
+     "titulo": "VENDEU EM MARÇO",
+     "passos": "73.019,76 ÷ 115.645\n× 100.000\n−36,86% REALIZADOS",
+     "resultado": "R$ 63.141,30"
+    },
+    {
+     "titulo": "MANTEVE O PLANO",
+     "passos": "119.017,24 ÷ 115.645\n× 100.000\n+2,92% NO ANO",
+     "resultado": "R$ 102.916,03"
+    }
+   ],
+   "conclusao": {
+    "texto": "DIFERENÇA: {vermelho:R$ 39.774,72} · {ciano:CASO A:} QUEDA DE 10% NA SEMANA, RESGATAR TUDO → MEDO · {ciano:CASO B:} ATIVO DA MODA, JÁ CARO → EUFORIA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r4b_1_so-retorno.png",
+   "semente": 6403,
+   "molde": "mito_verdade",
+   "titulo": "SÓ RETORNO? SEM VIESES?",
+   "mitos": [
+    "SÓ O RETORNO DECIDE",
+    "COMITÊ NÃO TEM VIÉS"
+   ],
+   "verdade": "{laranja:VALORES} DECIDEM · VIÉS É {laranja:DE TODOS}",
+   "desenho": {
+    "nome": "cabine",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} CLIENTE RECUSA PETROLEIRA BEM AVALIADA POR CAUSA DOS SEUS VALORES\n- {ciano:ESG:} AMBIENTAL · SOCIAL · GOVERNANÇA\n- GESTOR DE FUNDO DE PENSÃO: \"AQUI, EMOÇÃO NÃO ENTRA\"\n- COMITÊ {verde:REDUZ} A CHANCE DO ERRO EMOCIONAL; {vermelho:NÃO ELIMINA}\n- \"ESG NÃO É APENAS RETORNO: É IDENTIDADE\"\n- {ciano:2 TEMAS:} TEMAS ESG · INDIVIDUAL × INSTITUCIONAL"
+  },
+  {
+   "saida": "r4b_2_destino-e-duas-cabines.png",
+   "semente": 402,
+   "molde": "comparacao",
+   "titulo": "O DESTINO E AS DUAS CABINES",
+   "colunas": [
+    {
+     "titulo": "O DESTINO",
+     "desenho": "rota_voo",
+     "rotulos": [
+      "VALORES",
+      "ROTA"
+     ],
+     "texto": "- DESTINO PELOS VALORES → {verde:ESG}\n- VIAGEM MAIS CARA → {laranja:RETORNO MENOR ACEITO}\n- ROTA RECUSADA → {laranja:SETOR EVITADO}\n- VIAGEM MAIS LONGA → {laranja:LONGO PRAZO}"
+    },
+    {
+     "titulo": "DUAS CABINES",
+     "desenho": "cabine",
+     "rotulos": [
+      "SOZINHO",
+      "COM CHECKLIST"
+     ],
+     "texto": "- PILOTO SOZINHO → {laranja:INDIVIDUAL}\n- COPILOTO, CHECKLIST, TORRE → {laranja:INSTITUCIONAL}\n- OS DOIS SÃO {vermelho:HUMANOS}\n- A SEGUNDA TEM {verde:REDE DE PROTEÇÃO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:APELIDOS DE MERCADO:} INDIVIDUAL = \"SARDINHA\" · INSTITUCIONAL = \"TUBARÃO\" OU \"BALEIA\" (SEM DEFINIÇÃO EM NORMA)"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA AVIAÇÃO, A TORRE {laranja:PODE PROIBIR} · NO MERCADO, O CLIENTE DECIDE, E O INSTITUCIONAL {vermelho:TAMBÉM ERRA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r4b_3_conteudo-1.png",
+   "semente": 6404,
+   "molde": "colunas",
+   "titulo": "TEMAS ESG (1/2)",
+   "topo": "{ciano:ESG:} ENVIRONMENTAL, SOCIAL AND GOVERNANCE · DESPERTA ASPECTOS {laranja:EMOCIONAIS}, {laranja:ÉTICOS} E DE {laranja:IDENTIDADE}",
+   "colunas": [
+    {
+     "titulo": "O QUE O INVESTIDOR FAZ",
+     "texto": "- BUSCA EMPRESAS COM OS SEUS VALORES\n- EVITA SETOR NOCIVO AO MEIO AMBIENTE\n- PRIORIZA BOA GOVERNANÇA\n- QUER IMPACTO NO MUNDO"
+    },
+    {
+     "titulo": "3 CONSEQUÊNCIAS",
+     "texto": "- PREFERE O ATIVO, MESMO RENDENDO {laranja:MENOS}\n- RECUSA O SETOR, MESMO SENDO {laranja:BOM NEGÓCIO}\n- FICA {verde:MAIS TEMPO} QUANDO ALINHADO\n- EX.: SEM MINERAÇÃO NA CARTEIRA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:EQUILÍBRIO:} ÉTICA SEM DERRUBAR A ESTRATÉGIA · RETORNO SEM ATROPELAR PRINCÍPIOS · {ciano:PERGUNTA-CHAVE:} MOTIVO SÓ FINANCEIRO OU TAMBÉM MORAL?",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r4b_3_conteudo-2.png",
+   "semente": 6405,
+   "molde": "colunas",
+   "titulo": "INDIVIDUAL × INSTITUCIONAL (2/2)",
+   "topo": "{ciano:PONTO DE PARTIDA:} OS VIESES SÃO OS MESMOS PARA QUALQUER SER HUMANO · O QUE MUDA É A {laranja:ESTRUTURA} EM VOLTA DA DECISÃO",
+   "colunas": [
+    {
+     "titulo": "INDIVIDUAL (\"SARDINHA\")",
+     "texto": "- EMOÇÕES INTENSAS\n- MENOS INFORMAÇÃO E FERRAMENTAS\n- DECISÃO RÁPIDA, IMPULSIVA\n- UM HORIZONTE POR OBJETIVO\n- ESCOLHA PERSONALIZADA\n- EM RISCO: {laranja:DINHEIRO PESSOAL}"
+    },
+    {
+     "titulo": "INSTITUCIONAL (\"TUBARÃO\")",
+     "texto": "- REGRAS, COMITÊS, POLÍTICA\n- ANÁLISE PROFUNDA\n- PROCESSO PADRONIZADO\n- PORTFÓLIO INTEGRADO\n- METAS PRÉ-DEFINIDAS · {verde:ACCOUNTABILITY}\n- EM RISCO: {laranja:PERFORMANCE, REPUTAÇÃO, COMPLIANCE}"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:CUIDADO:} EXCESSO DE CONFIANÇA E EFEITO MANADA TAMBÉM OCORREM EM COMITÊS · A ESTRUTURA É {verde:REDE DE PROTEÇÃO COMPORTAMENTAL}, NÃO VACINA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r4b_4_quem-decide.png",
+   "semente": 6406,
+   "molde": "exercicio",
+   "titulo": "QUEM DECIDE, E COMO?",
+   "dados": "- HIPOTÉTICO: DOIS PEDIDOS DE MUDANÇA DE CARTEIRA\n- TESTE 1: O MOTIVO É FINANCEIRO OU DE VALOR?\n- TESTE 2: HÁ ESTRUTURA EM VOLTA DA DECISÃO?\n- NOS DOIS, QUEM DECIDE É HUMANO\n- A ÚNICA DIFERENÇA: QUEM DECIDE",
+   "cenarios": [
+    {
+     "titulo": "CLIENTE INDIVIDUAL",
+     "passos": "RECUSA A PETROLEIRA\nMOTIVO: VALORES (ESG)\nBUSCAR ALTERNATIVA COERENTE",
+     "resultado": "PREFERÊNCIA RESPEITADA"
+    },
+    {
+     "titulo": "FUNDO DE PENSÃO",
+     "passos": "MUDANÇA VAI AO COMITÊ\nSEGUE A POLÍTICA\nFICA REGISTRADA",
+     "resultado": "DECISÃO JUSTIFICADA"
+    }
+   ],
+   "conclusao": {
+    "texto": "{ciano:5 PEGADINHAS (FALSAS):} DECISÃO TÉCNICA SEM EMOÇÃO · EMOÇÃO É FALHA · EUFORIA ENTRA CEDO · ESG NUNCA ACEITA MENOS · INSTITUCIONAL SEM VIÉS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
 }
