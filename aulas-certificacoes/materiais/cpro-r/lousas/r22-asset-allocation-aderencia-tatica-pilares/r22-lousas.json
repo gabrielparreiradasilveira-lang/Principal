@@ -4,142 +4,358 @@
  },
  "slides": [
   {
-   "saida": "r22_1_melhor-produto.png",
-   "semente": 2201,
+   "saida": "r22a_1_melhor-produto.png",
+   "semente": 2301,
    "molde": "mito_verdade",
-   "titulo": "INVESTIR BEM = MELHOR PRODUTO?",
+   "titulo": "O MELHOR PRODUTO DO MOMENTO?",
    "mitos": [
-    "MELHOR PRODUTO DO MOMENTO",
+    "INVESTIR BEM = ESCOLHER O PRODUTO",
     "O QUE MAIS RENDEU"
    ],
-   "verdade": "PRIMEIRO, A {laranja:ALOCAÇÃO}",
+   "verdade": "PRIMEIRO, {laranja:DIVIDIR} O PATRIMÔNIO",
    "desenho": {
-    "nome": "casa",
-    "largura": 140
+    "nome": "grafico_baixa",
+    "largura": 170
    },
-   "apoio": "- {ciano:CASO REAL (MARÇO DE 2020):} IBOVESPA DE 104.172 PARA 73.020 PONTOS, DE UM FIM DE MÊS AO OUTRO\n- CARTEIRA COM RISCO ACIMA DA TOLERÂNCIA → VENDA NA BAIXA\n- {ciano:ASSET ALLOCATION:} A DIVISÃO ENTRE {laranja:CLASSES DE ATIVOS} VEM ANTES DO PRODUTO\n- DECISÃO ESTRATÉGICA, NÃO EMOCIONAL\n- {ciano:3 TEMAS:} ADERÊNCIA · ALOCAÇÃO TÁTICA · PILARES"
+   "apoio": "- {ciano:CASO REAL:} IBOVESPA EM MARÇO DE 2020: QUEDA DE 29,9% NO MÊS\n- RISCO ACIMA DO SUPORTÁVEL → VENDA NO PIOR MOMENTO\n- {ciano:PERGUNTA ERRADA:} \"QUAL O MELHOR INVESTIMENTO AGORA?\"\n- {ciano:PERGUNTA CERTA:} COMO DIVIDIR ENTRE AS CLASSES DE ATIVOS?\n- ASSET ALLOCATION DEFINE A {laranja:ESTRUTURA BASE} DA CARTEIRA\n- {vermelho:FALSO:} \"ASSET ALLOCATION É ESCOLHER OS MELHORES PRODUTOS\""
   },
   {
-   "saida": "r22_2_casa-sob-medida.png",
-   "semente": 2202,
+   "saida": "r22a_2_casa-sob-medida.png",
+   "semente": 2302,
    "molde": "comparacao",
    "titulo": "A CASA SOB MEDIDA",
    "colunas": [
     {
      "titulo": "A PLANTA",
-     "desenho": "casa",
+     "desenho": "planta_baixa",
      "rotulos": [
-      "PLANTA",
-      "MORADOR"
+      "QUARTOS",
+      "QUINTAL"
      ],
-     "texto": "- PLANTA DA CASA → {laranja:ALOCAÇÃO DE ATIVOS}\n- QUEM VAI MORAR → {laranja:PERFIL E FASE DE VIDA}\n- PLANTA APROVADA → {laranja:ESTRATÉGICA}\n- CASA QUE SERVE AO MORADOR → {laranja:ADERÊNCIA}"
+     "texto": "- PLANTA DA CASA → {laranja:ALOCAÇÃO DE ATIVOS}\n- CÔMODOS → {laranja:CLASSES DE ATIVOS}\n- QUEM VAI MORAR → {laranja:PERFIL E FASE DE VIDA}\n- CASAL JOVEM: ESCADA E OBRA LONGA"
     },
     {
-     "titulo": "OS AJUSTES",
-     "desenho": "prancheta",
+     "titulo": "MORAR NELA",
+     "desenho": "casa",
      "rotulos": [
-      "AJUSTE",
-      "FUNDAÇÃO"
+      "FAMÍLIA",
+      "ROTINA"
      ],
-     "texto": "- VARANDA FECHADA NO INVERNO → {verde:TÁTICA}\n- NÃO DERRUBA PAREDE → {verde:SEM DESCARACTERIZAR}\n- FUNDAÇÕES → {verde:PILARES DO PROCESSO}\n- TERRENO E ORÇAMENTO → {verde:RESTRIÇÕES}"
+     "texto": "- CASA TÉRREA E PRONTA → {verde:PERTO DA APOSENTADORIA}\n- CONSEGUIR MORAR → {verde:ADERÊNCIA}\n- ESCADA QUE NÃO SOBE → {vermelho:RISCO QUE NÃO SUPORTA}\n- MUDANÇA ÀS PRESSAS → {vermelho:ABANDONO DO PLANO}"
     }
    ],
    "faixas": [
-    "{ciano:CASAL JOVEM:} TOPA ESCADA E OBRA DEMORADA → FASE DE ACUMULAÇÃO, PRAZO LONGO",
-    "{ciano:PERTO DA APOSENTADORIA:} TÉRREA E ENTREGUE → MENOS OSCILAÇÃO, MAIS LIQUIDEZ"
+    "{ciano:PLANTA PREMIADA NÃO BASTA:} A MELHOR CASA É AQUELA EM QUE A FAMÍLIA FICA",
+    "{ciano:NAS PRÓXIMAS AULAS:} PLANTA APROVADA E AJUSTES (R22B) · FUNDAÇÕES (R22C)"
    ],
    "destaque": {
-    "texto": "{vermelho:ONDE QUEBRA:} PAREDE NÃO MUDA DE PREÇO TODO DIA · A CARTEIRA MUDA: OS PESOS SAEM DO LUGAR E PEDEM REVISÃO",
+    "texto": "{vermelho:ONDE QUEBRA:} CASA PRONTA QUASE NÃO MUDA DE VALOR NO DIA A DIA · A CARTEIRA {laranja:OSCILA TODO DIA}, E ISSO TESTA O MORADOR",
     "cor": "branco",
     "moldura": "vermelho"
    }
   },
   {
-   "saida": "r22_3_conteudo-1.png",
-   "semente": 2203,
+   "saida": "r22a_3_conteudo-1.png",
+   "semente": 2303,
    "molde": "colunas",
-   "titulo": "CARTEIRA ADERENTE (1/3)",
-   "topo": "{ciano:ASSET ALLOCATION:} DIVIDIR O PATRIMÔNIO ENTRE CLASSES DE ATIVOS · BUSCA O EQUILÍBRIO ENTRE {laranja:RISCO E RETORNO} · É A ESTRUTURA BASE",
+   "titulo": "ASSET ALLOCATION (1/2)",
+   "topo": "{ciano:ASSET ALLOCATION:} DISTRIBUIR O PATRIMÔNIO ENTRE {laranja:CLASSES DE ATIVOS} · EQUILIBRAR RISCO E RETORNO · DECISÃO ESTRATÉGICA, NÃO EMOCIONAL",
+   "colunas": [
+    {
+     "titulo": "2 FILTROS JUNTOS",
+     "texto": "- {laranja:PERFIL DE RISCO:} O QUE O CLIENTE TOLERA\n- {laranja:FASE DE VIDA:} QUANDO VAI USAR O DINHEIRO\n- CARTEIRA ADEQUADA RESPEITA OS DOIS\n- CONFORME PERFIL, OBJETIVOS E FASE"
+    },
+    {
+     "titulo": "MESMA OSCILAÇÃO",
+     "texto": "- {verde:JOVEM, ACUMULANDO:} PODE SER ACEITÁVEL\n- {vermelho:A 2 ANOS DE PARAR:} PODE SER INADEQUADA\n- O RISCO NECESSÁRIO NÃO CABE NA FASE\n- O PRODUTO É O MESMO; O ENCAIXE MUDA"
+    }
+   ],
+   "destaque": {
+    "texto": "DECISÃO-CHAVE DO PLANEJAMENTO: VEM ANTES DA ESCOLHA DOS PRODUTOS · {vermelho:FALSO:} \"CARTEIRA ADEQUADA É A DE MAIOR RETORNO\" · VALE A {laranja:ADERENTE}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r22a_3_conteudo-2.png",
+   "semente": 2304,
+   "molde": "colunas",
+   "titulo": "CARTEIRA ADERENTE (2/2)",
+   "topo": "{ciano:ADERÊNCIA:} ENCAIXE ENTRE A CARTEIRA E O CLIENTE · ADERENTE {vermelho:NÃO É} SINÔNIMO DE CONSERVADORA",
    "colunas": [
     {
      "titulo": "4 CONDIÇÕES",
-     "texto": "- {laranja:1.} VOLATILIDADE × TOLERÂNCIA AO RISCO\n- {laranja:2.} PRAZOS × OBJETIVOS\n- {laranja:3.} LIQUIDEZ × NECESSIDADES\n- {laranja:4.} ESTRATÉGIA MANTIDA NA CRISE"
+     "texto": "- {laranja:1.} VOLATILIDADE × TOLERÂNCIA AO RISCO\n- {laranja:2.} PRAZOS × OBJETIVOS\n- {laranja:3.} LIQUIDEZ × NECESSIDADES\n- {laranja:4.} MANTER A ESTRATÉGIA NA CRISE\n- {ciano:EX.:} FACULDADE EM 2 ANOS ≠ TÍTULO DE 15 ANOS"
     },
     {
      "titulo": "SEM ADERÊNCIA",
-     "texto": "- DECISÃO POR IMPULSO\n- RESGATE NA HORA RUIM\n- PLANEJAMENTO ABANDONADO\n- EXEMPLO: VENDER AÇÕES LOGO APÓS A QUEDA DE MARÇO DE 2020"
+     "texto": "- DECISÕES IMPULSIVAS\n- RESGATES NOS PIORES MOMENTOS\n- ABANDONO DO PLANEJAMENTO\n- O RETORNO ESPERADO NÃO CHEGA"
     }
    ],
    "destaque": {
-    "texto": "{ciano:NA PROVA:} ADEQUADA = {laranja:PERFIL DE RISCO} + {laranja:FASE DE VIDA}, OS DOIS JUNTOS · MESMO RETORNO-ALVO: ACEITÁVEL NA ACUMULAÇÃO, INADEQUADO PERTO DA APOSENTADORIA",
+    "texto": "{ciano:4 TESTES:} OSCILAÇÃO · PRAZO · LIQUIDEZ · RESISTÊNCIA À QUEDA · CARTEIRA BOA É A QUE SE {laranja:MANTÉM}",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r22_3_conteudo-2.png",
-   "semente": 2204,
-   "molde": "colunas",
-   "titulo": "ESTRATÉGICA × TÁTICA (2/3)",
-   "topo": "{ciano:CASO REAL:} META DA SELIC DE {laranja:2%} (MARÇO DE 2021) PARA {laranja:13,75%} AO ANO (AGOSTO DE 2022) · O CICLO PEDE AJUSTE, NÃO UMA CARTEIRA NOVA",
-   "colunas": [
-    {
-     "titulo": "ESTRATÉGICA",
-     "texto": "- ESTRUTURA PRINCIPAL\n- LONGO PRAZO\n- NASCE DO PERFIL, DOS OBJETIVOS E DA FASE DE VIDA\n- EXEMPLO: 30% EM AÇÕES"
-    },
-    {
-     "titulo": "TÁTICA",
-     "texto": "- AJUSTE PONTUAL PELO CENÁRIO\n- OPORTUNIDADE OU REDUÇÃO DE RISCO\n- TEMPORÁRIA E GRADUAL\n- EXEMPLO: DE 30% PARA 35%"
-    }
-   ],
-   "destaque": {
-    "texto": "{vermelho:TÁTICA ≠ MARKET TIMING AGRESSIVO} · BASE: ANÁLISE DO CICLO (JUROS, INFLAÇÃO, CRESCIMENTO), NÃO APOSTA · A TÁTICA {laranja:NÃO SUBSTITUI} A ESTRATÉGICA",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r22_3_conteudo-3.png",
-   "semente": 2205,
-   "molde": "colunas",
-   "titulo": "OS 4 PILARES (3/3)",
-   "topo": "{ciano:PILARES DO PROCESSO:} A ORDEM IMPORTA · A CARTEIRA É O {laranja:ÚLTIMO} PASSO, NÃO O PRIMEIRO",
-   "colunas": [
-    {
-     "titulo": "OS PASSOS",
-     "texto": "- {laranja:1.} QUEM É O INVESTIDOR\n- {laranja:2.} OBJETIVOS CLAROS\n- {laranja:3.} RESTRIÇÕES\n- {laranja:4.} CARTEIRA COERENTE"
-    },
-    {
-     "titulo": "CVM 30, ART. 3º",
-     "texto": "- {ciano:OBJETIVOS:} PRAZO, RISCO DECLARADO, FINALIDADE\n- {ciano:SITUAÇÃO FINANCEIRA:} RECEITAS, PATRIMÔNIO, NECESSIDADE FUTURA DE RECURSOS\n- {ciano:CONHECIMENTO:} PRODUTOS, OPERAÇÕES, FORMAÇÃO"
-    }
-   ],
-   "destaque": {
-    "texto": "{ciano:O GANHO:} A CARTEIRA NASCE DO CLIENTE, NÃO DO PRODUTO · DECISÃO REPETÍVEL, SEM IMPROVISO · {vermelho:ERRO COMUM:} ESCOLHER O PRODUTO E SÓ DEPOIS PERGUNTAR O OBJETIVO",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r22_4_ajuste-tatico.png",
-   "semente": 2206,
+   "saida": "r22a_4_mesma-carteira.png",
+   "semente": 2305,
    "molde": "exercicio",
-   "titulo": "AJUSTE TÁTICO: QUANTO MUDA?",
-   "dados": "- HIPOTÉTICO: CARTEIRA DE {ciano:500.000} REAIS\n- RETORNO ESPERADO: AÇÕES 14% · RENDA FIXA 10% AO ANO\n- RETORNO DA CARTEIRA = SOMA DE PESO × RETORNO DE CADA CLASSE\n- ESTRESSE: AÇÕES CAEM 20%; RENDA FIXA ESTÁVEL\n- A ÚNICA DIFERENÇA: O PESO EM AÇÕES · SEM CUSTOS E SEM IMPOSTO",
+   "titulo": "MESMA CARTEIRA, DUAS FASES DE VIDA",
+   "dados": "- CARTEIRA DE {ciano:R$ 500.000} (HIPOTÉTICA)\n- 60% EM AÇÕES · 40% EM RENDA FIXA\n- CENÁRIO DE ESTRESSE: AÇÕES CAEM 20%\n- 300.000 × 20% = 60.000 DE PERDA\n- CARTEIRA VAI A 440.000",
    "cenarios": [
     {
-     "titulo": "ESTRATÉGICA: 30%",
-     "passos": "AÇÕES: 150.000\nRETORNO ESPERADO: 11,20%\nQUEDA: 20% DE 150.000 = 30.000",
-     "resultado": "PERDA DE 6%"
+     "titulo": "30 ANOS",
+     "passos": "USO DO DINHEIRO: 25 ANOS\nJÁ ATRAVESSOU QUEDAS\nSEM NECESSIDADE DE CAIXA",
+     "resultado": "ADERENTE"
     },
     {
-     "titulo": "TÁTICA: 35%",
-     "passos": "AÇÕES: 175.000\nRETORNO ESPERADO: 11,40%\nQUEDA: 20% DE 175.000 = 35.000",
-     "resultado": "PERDA DE 7%"
+     "titulo": "A 2 ANOS DE PARAR",
+     "passos": "VAI COMEÇAR A SACAR\nPERDA ÀS VÉSPERAS DO USO\nOBJETIVO COMPROMETIDO",
+     "resultado": "NÃO ADERENTE"
     }
    ],
    "conclusao": {
-    "texto": "5 PONTOS = 25.000 REAIS A MAIS EM AÇÕES · RETORNO ESPERADO: {verde:+0,20 PONTO} · PERDA POTENCIAL: {vermelho:+1 PONTO} · AJUSTE PEQUENO, {laranja:MESMA ESTRUTURA}",
+    "texto": "A QUEDA TIRA {laranja:12% DA CARTEIRA} NOS DOIS CASOS · O QUE MUDA É O ENCAIXE · RENDA FIXA ESTÁVEL, SEM CUSTOS (SIMPLIFICAÇÃO)",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r22b_1_cenario-mudou.png",
+   "semente": 2306,
+   "molde": "mito_verdade",
+   "titulo": "O CENÁRIO MUDOU: TROCA TUDO?",
+   "mitos": [
+    "TÁTICA = MUDAR A CARTEIRA",
+    "CENÁRIO NOVO, CARTEIRA NOVA"
+   ],
+   "verdade": "TÁTICA É AJUSTE {laranja:PONTUAL E GRADUAL}",
+   "desenho": {
+    "nome": "termometro",
+    "largura": 80
+   },
+   "apoio": "- {ciano:CASO REAL:} META DA SELIC DE 2% PARA 13,75% AO ANO\n- DE MARÇO DE 2021 A AGOSTO DE 2022\n- {ciano:2 CAMADAS:} ESTRATÉGICA (ESTRUTURA) + TÁTICA (AJUSTE)\n- A TÁTICA NÃO DESCARACTERIZA A ESTRATÉGIA\n- {vermelho:FALSO:} \"A TÁTICA SUBSTITUI A ESTRATÉGICA QUANDO O CENÁRIO MUDA\"\n- {vermelho:FALSO:} \"ALOCAÇÃO TÁTICA = MARKET TIMING\""
+  },
+  {
+   "saida": "r22b_2_planta-e-moveis.png",
+   "semente": 2307,
+   "molde": "comparacao",
+   "titulo": "A PLANTA E OS MÓVEIS",
+   "colunas": [
+    {
+     "titulo": "A PLANTA APROVADA",
+     "desenho": "planta_baixa",
+     "rotulos": [
+      "PAREDES",
+      "CÔMODOS"
+     ],
+     "texto": "- PLANTA APROVADA → {laranja:ALOCAÇÃO ESTRATÉGICA}\n- PAREDES E CÔMODOS → {laranja:ESTRUTURA PRINCIPAL}\n- NÃO SE REFAZ A CADA ESTAÇÃO → {laranja:LONGO PRAZO}"
+    },
+    {
+     "titulo": "OS AJUSTES",
+     "desenho": "casa",
+     "rotulos": [
+      "INVERNO",
+      "VERÃO"
+     ],
+     "texto": "- FECHAR A VARANDA NO INVERNO → {verde:AJUSTE TÁTICO}\n- MUDAR O SOFÁ → {verde:PONTUAL, TEMPORÁRIO}\n- DERRUBAR PAREDE A CADA PREVISÃO → {vermelho:OUTRA CASA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:REGRA DE BOLSO:} CASA = ESTRATÉGICA · POSIÇÃO DOS MÓVEIS = TÁTICA",
+    "{ciano:QUEM MUDA A PLANTA:} SÓ A VIDA DO MORADOR (PERFIL, OBJETIVO, FASE), NÃO O CLIMA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} TROCAR UM MÓVEL DE LUGAR É INOFENSIVO · AJUSTE TÁTICO, ATÉ O PEQUENO, {laranja:ALTERA O RISCO} DA CARTEIRA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r22b_3_conteudo-1.png",
+   "semente": 2308,
+   "molde": "colunas",
+   "titulo": "ESTRATÉGICA × TÁTICA (1/2)",
+   "topo": "A CARTEIRA TEM {laranja:2 CAMADAS} · UMA DÁ A ESTRUTURA; A OUTRA, O AJUSTE AO CENÁRIO",
+   "colunas": [
+    {
+     "titulo": "ESTRATÉGICA",
+     "texto": "- ESTRUTURA {laranja:PRINCIPAL}\n- LONGO PRAZO\n- ORIGEM: PERFIL, OBJETIVOS, FASE DE VIDA\n- NÃO REAGE A NOTÍCIA\n- MUDA QUANDO A VIDA DO CLIENTE MUDA"
+    },
+    {
+     "titulo": "TÁTICA",
+     "texto": "- AJUSTES {laranja:PONTUAIS}\n- MOTIVO: CENÁRIO ECONÔMICO E FINANCEIRO\n- APROVEITAR OPORTUNIDADES\n- REDUZIR RISCOS ESPECÍFICOS\n- TEMPORÁRIA E GRADUAL"
+    }
+   ],
+   "destaque": {
+    "texto": "A TÁTICA AGE {laranja:SEM DESCARACTERIZAR} A ESTRATÉGIA DE LONGO PRAZO · SÓ O CENÁRIO MUDOU → TÁTICA · A VIDA MUDOU → REVER A ESTRATÉGICA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r22b_3_conteudo-2.png",
+   "semente": 2309,
+   "molde": "colunas",
+   "titulo": "A TÁTICA NA PRÁTICA (2/2)",
+   "topo": "DECISÃO TÁTICA SE APOIA EM {laranja:ANÁLISE}, NÃO NA TENTATIVA DE ACERTAR O MERCADO",
+   "colunas": [
+    {
+     "titulo": "3 EXEMPLOS",
+     "texto": "- {laranja:1.} AUMENTAR OU REDUZIR, POR UM TEMPO, O PESO DE UMA CLASSE\n- {laranja:2.} AJUSTAR AO CICLO DE JUROS, INFLAÇÃO OU CRESCIMENTO\n- {laranja:3.} MUDAR AOS POUCOS, SEM MOVIMENTO BRUSCO"
+    },
+    {
+     "titulo": "A FAIXA",
+     "texto": "- ESTRATÉGICA: {ciano:30%} EM AÇÕES\n- CENÁRIO BOM: ATÉ {verde:35%}\n- CENÁRIO RUIM: ATÉ {vermelho:25%}\n- O CENTRO DA FAIXA NÃO SAI DO LUGAR\n- LARGURA: EXEMPLO DIDÁTICO, NÃO NORMA"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:TÁTICA ≠ MARKET TIMING AGRESSIVO} · 20% → 70% EM RENDA VARIÁVEL NUM MODERADO = APOSTA · TÁTICA SERIA 20% → 25%",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r22b_4_ajuste-tatico.png",
+   "semente": 2310,
+   "molde": "exercicio",
+   "titulo": "O TAMANHO DE UM AJUSTE TÁTICO",
+   "dados": "- CARTEIRA DE {ciano:R$ 500.000} (HIPOTÉTICA)\n- ESTRATÉGICA: 30% AÇÕES · 70% RENDA FIXA\n- RETORNO ESPERADO: AÇÕES 14% · RF 10% AO ANO\n- ESTRESSE: AÇÕES CAEM 20%\n- FAIXA TÁTICA: 5 PONTOS PARA CIMA",
+   "cenarios": [
+    {
+     "titulo": "ESTRATÉGICA: 30%",
+     "passos": "AÇÕES: 150.000\nQUEDA: 30.000 = 6%\nRETORNO ESPERADO: 11,20%",
+     "resultado": "PERDA: 6%"
+    },
+    {
+     "titulo": "TÁTICA: 35%",
+     "passos": "AÇÕES: 175.000\nQUEDA: 35.000 = 7%\nRETORNO ESPERADO: 11,40%",
+     "resultado": "PERDA: 7%"
+    }
+   ],
+   "conclusao": {
+    "texto": "AJUSTE DE 25.000: +0,20 PONTO DE RETORNO, +1 PONTO DE PERDA · {laranja:PEQUENO DE PROPÓSITO}, MAS AUMENTA O RISCO → PRECISA DE FUNDAMENTO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r22c_1_carteira-primeiro.png",
+   "semente": 2311,
+   "molde": "mito_verdade",
+   "titulo": "A CARTEIRA VEM PRIMEIRO?",
+   "mitos": [
+    "MONTA A CARTEIRA, DEPOIS AJUSTA",
+    "MODELO SERVE PARA TODOS"
+   ],
+   "verdade": "CLIENTE {laranja:ANTES} DA CARTEIRA",
+   "desenho": {
+    "nome": "prancheta",
+    "largura": 120
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} CARTEIRA-MODELO IGUAL PARA TODO MODERADO\n- UMA CLIENTE PRECISA DE R$ 100.000 EM 6 MESES\n- PARTE DO DINHEIRO ESTÁ SEM LIQUIDEZ\n- {ciano:ORDEM:} INVESTIDOR → OBJETIVOS → RESTRIÇÕES → CARTEIRA\n- {vermelho:FALSO:} \"RESTRIÇÕES SE DEFINEM DEPOIS DA CARTEIRA\""
+  },
+  {
+   "saida": "r22c_2_as-fundacoes.png",
+   "semente": 2312,
+   "molde": "comparacao",
+   "titulo": "AS FUNDAÇÕES",
+   "colunas": [
+    {
+     "titulo": "ANTES DA PLANTA",
+     "desenho": "planta_baixa",
+     "rotulos": [
+      "MORADOR",
+      "USO"
+     ],
+     "texto": "- FUNDAÇÕES → {laranja:PILARES DO PROCESSO}\n- QUEM VAI MORAR → {laranja:CONHECER O INVESTIDOR}\n- PARA QUE SERVE A CASA → {laranja:OBJETIVOS}\n- SÓ ENTÃO O DESENHO → {laranja:CARTEIRA}"
+    },
+    {
+     "titulo": "O TERRENO",
+     "desenho": "casa",
+     "rotulos": [
+      "RECUO",
+      "PRAZO"
+     ],
+     "texto": "- RECUO DA PREFEITURA → {verde:LEGAL E REGULATÓRIO}\n- ORÇAMENTO E PRAZO DA OBRA → {verde:LIQUIDEZ E HORIZONTE}\n- IMPOSTO DA OBRA → {verde:TRIBUTAÇÃO}\n- ALERGIA A CARPETE → {verde:CIRCUNSTÂNCIA ÚNICA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:DESENHAR ANTES DE PERGUNTAR:} TERMINA EM PAREDE QUEBRADA E OBRA REFEITA",
+    "{ciano:FUNDAÇÃO FIRME:} A CASA AGUENTA TEMPORAL SEM O MORADOR SAIR CORRENDO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} FUNDAÇÃO DE CASA SE FAZ UMA ÚNICA VEZ · OS PILARES DA CARTEIRA SÃO {laranja:REVISTOS} QUANDO A VIDA DO CLIENTE MUDA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r22c_3_conteudo-1.png",
+   "semente": 2313,
+   "molde": "colunas",
+   "titulo": "OS 4 PILARES (1/2)",
+   "topo": "{laranja:1} INVESTIDOR → {laranja:2} OBJETIVOS → {laranja:3} RESTRIÇÕES → {laranja:4} CARTEIRA COERENTE · A ORDEM IMPORTA",
+   "colunas": [
+    {
+     "titulo": "1. O INVESTIDOR",
+     "texto": "- PERFIL DE RISCO\n- TOLERÂNCIA AO RISCO\n- CAPACIDADE FINANCEIRA DE SUPORTAR PERDAS\n- FASE DE VIDA\n- {ciano:CVM 30:} OBJETIVOS, SITUAÇÃO FINANCEIRA, CONHECIMENTO"
+    },
+    {
+     "titulo": "2. OS OBJETIVOS",
+     "texto": "- O QUE O CLIENTE QUER\n- QUANTO CUSTA\n- QUANDO VAI PRECISAR\n- {vermelho:OBJETIVO ≠ RESTRIÇÃO:} UM É A META; O OUTRO, O LIMITE DO CAMINHO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:OS PILARES ENTREGAM:} CONSISTÊNCIA · DISCIPLINA · EXPECTATIVA ALINHADA À REALIDADE · {laranja:MENOS EMOÇÃO} E MENOS RUÍDO DE CURTO PRAZO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r22c_3_conteudo-2.png",
+   "semente": 2314,
+   "molde": "colunas",
+   "titulo": "3. AS RESTRIÇÕES (2/2)",
+   "topo": "AS {laranja:5 RESTRIÇÕES} CLÁSSICAS DE UMA POLÍTICA DE INVESTIMENTO · DEFINIDAS ANTES DE MONTAR A CARTEIRA",
+   "colunas": [
+    {
+     "titulo": "TEMPO E IMPOSTO",
+     "texto": "- {laranja:LIQUIDEZ:} QUANDO PRECISARÁ DO DINHEIRO\n- {laranja:HORIZONTE:} POR QUANTO TEMPO PODE FICAR INVESTIDO\n- {laranja:TRIBUTAÇÃO:} EFEITO DOS IMPOSTOS EM CADA ESCOLHA"
+    },
+    {
+     "titulo": "REGRA E PESSOA",
+     "texto": "- {laranja:LEGAL E REGULATÓRIO:} EX.: PRODUTO SÓ PARA QUALIFICADO OU PROFISSIONAL\n- {laranja:CIRCUNSTÂNCIAS ÚNICAS:} PREFERÊNCIAS · ÉTICA OU ESG · CONCENTRAÇÃO EM AÇÕES DA EMPRESA ONDE TRABALHA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:CASO-LIMITE:} 60% DO PATRIMÔNIO DO EXECUTIVO NAS AÇÕES DO EMPREGADOR → EMPREGO E CARTEIRA NO {vermelho:MESMO RISCO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r22c_4_uma-restricao.png",
+   "semente": 2315,
+   "molde": "exercicio",
+   "titulo": "UMA RESTRIÇÃO MUDA A CARTEIRA",
+   "dados": "- 2 CLIENTES MODERADAS (HIPOTÉTICAS)\n- {ciano:R$ 500.000} CADA UMA\n- CARTEIRA-MODELO: 30% EM AÇÕES\n- CENÁRIO 1: NENHUM USO PREVISTO\n- CENÁRIO 2: IMÓVEL EM 6 MESES",
+   "cenarios": [
+    {
+     "titulo": "SEM RESTRIÇÃO",
+     "passos": "30% DE 500.000\n= 150.000 EM AÇÕES\nMODELO APLICADO INTEIRO",
+     "resultado": "AÇÕES: 30%"
+    },
+    {
+     "titulo": "ENTRADA DO IMÓVEL",
+     "passos": "100.000 = 20% EM LIQUIDEZ\nSOBRAM 400.000\n30% = 120.000 EM AÇÕES",
+     "resultado": "AÇÕES: 24% DO TOTAL"
+    }
+   ],
+   "conclusao": {
+    "texto": "PERFIL IGUAL, CARTEIRA DIFERENTE · NA ORDEM CERTA, {laranja:A RESTRIÇÃO VEM ANTES} DA CARTEIRA · SEM CUSTOS E SEM IMPOSTO",
     "cor": "branco",
     "moldura": "amarelo"
    }
