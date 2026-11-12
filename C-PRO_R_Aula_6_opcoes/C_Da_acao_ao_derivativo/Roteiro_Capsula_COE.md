@@ -7,7 +7,7 @@
 
 | # | Slide | Min | Começa aos | Corte seguro se atrasado |
 |---|---|---|---|---|
-| 1 | C-PRO R  ·  CÁPSULA  ·  15 MINUTOS | 1 | 0 | não |
+| 1 | C-PRO R  ·  COE | 1 | 0 | não |
 | 2 | COE: renda fixa com derivativo dentro; quem emite é um banco | 3 | 1 | não |
 | 3 | Antes do vencimento, o COE é marcado a mercado | 3 | 4 | não |
 | 4 | COE paga IR como renda fixa, e a perda não compensa nada | 2.5 | 7 | não |
@@ -29,14 +29,14 @@
 # Slide a slide
 
 
-## Slide 1 · C-PRO R  ·  CÁPSULA  ·  15 MINUTOS
+## Slide 1 · C-PRO R  ·  COE
 
 **Tempo:** 1 min · **Começa aos:** 0 min · **Corte seguro:** não
 
 **Conteúdo visível:**
 
 - COE: renda fixa com derivativo dentro
-- Item 3.4: regras, modalidades, marcação a mercado, tributação e DIE Abertura da aula de fundos. Material de apoio enviado antes; aqui só o que cai em prova e o exemplo com cenários
+- Item 3.4: regras, modalidades, marcação a mercado, tributação e DIE O que cai em prova e um exemplo resolvido com cenários
 - O foco é aprender. A aprovação é consequência.
 
 **Recurso visual:** Capa X8.
@@ -198,12 +198,10 @@
 - COE de capital protegido garante ao menos o CDI do período.
 - A perda em COE pode ser compensada com ganho em ações.
 - O DIE deve ser entregue e aceito antes da aplicação.
-- PRÓXIMA AULA
-- Na sequência · Fundos de investimento (3.5) Instrumentos de investimento coletivo: estrutura, classes, taxas, tributação, FII e ETF.
 - DICA
 - Responda antes de ver o gabarito.
 
-**Recurso visual:** Três cards V/F + card azul "Próxima aula". Barra ESTACIONAMENTO (retorno das dúvidas).
+**Recurso visual:** Três cards V/F em largura total. Barra DÚVIDAS.
 
 **Notas do professor:**
 

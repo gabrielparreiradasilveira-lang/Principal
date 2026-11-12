@@ -12,7 +12,7 @@
 | # | Slide | Min | Começa aos | Corte seguro se atrasado |
 |---|---|---|---|---|
 | 1 | C-PRO R  ·  AULA 6  ·  OPÇÃO C | 1 | 0 | não |
-| 2 | Hoje: da debênture à ação e da ação ao derivativo | 2 | 1 | não |
+| 2 | Roteiro: da debênture à ação e da ação ao derivativo | 2 | 1 | não |
 | 3 | Garantias definem a fila; covenants, o gatilho | 2.5 | 3 | parcial (ler a fila e a barra; covenants em 20 s) |
 | 4 | Isento ou tributado: compare pelo líquido | 3 | 5.5 | não |
 | 5 | IPO leva dinheiro à empresa; o secundário dá liquidez a você | 3 | 8.5 | não |
@@ -59,7 +59,7 @@ Deck separado de 6 slides e 15 minutos, na mesma pasta: capa, quatro slides de C
 **Conteúdo visível:**
 
 - Da ação ao derivativo: a mesma empresa, dois andares
-- Blocos 1 a 3: fim das debêntures, mercado de ações, derivativos Itens 3.2.1.4 (conclusão), 3.3.1 a 3.3.3 (núcleo) e 3.3.4. COE (3.4) vira cápsula de 15 min na abertura da próxima aula
+- Blocos 1 a 3: debêntures, mercado de ações, derivativos Itens 3.2.1.4, 3.3.1 a 3.3.3 e 3.3.4 do programa
 - O foco é aprender. A aprovação é consequência.
 
 **Recurso visual:** Capa X8.
@@ -72,24 +72,23 @@ Deck separado de 6 slides e 15 minutos, na mesma pasta: capa, quatro slides de C
 >
 > ATENÇÃO AO RELÓGIO: esta é a opção mais densa (54,5 min de conteúdo, 5,5 de folga). Os cortes seguros somam cerca de 7 minutos; use-os sem culpa.
 
-## Slide 2 · Hoje: da debênture à ação e da ação ao derivativo
+## Slide 2 · Roteiro: da debênture à ação e da ação ao derivativo
 
 **Tempo:** 2 min · **Começa aos:** 1 min · **Corte seguro:** não
 
 **Conteúdo visível:**
 
-- ABERTURA · ONDE ESTAMOS NO PROGRAMA
+- ABERTURA · ROTEIRO DA AULA
 - Tabela:
-    Item do programa | Conteúdo | Quando
-    3.2.1.4 | Debêntures: garantias e covenants; tributação e líquido | Hoje · Bloco 1 (6 min)
-    3.3.1 | Mercado de ações: IPO, tipos, riscos, proventos, imposto, eventos e aluguel | Hoje · Bloco 2 (20 min)
-    3.3.2 e 3.3.3 | Filosofias, dose e índices, em um slide | Hoje · Bloco 2 (3 min)
-    3.3.4 | Derivativos: finalidades, futuro, opções e moneyness, swap, estruturas | Hoje · Bloco 3 (19 min)
-    3.4 | COE: regras, modalidades, marcação a mercado, tributação, DIE | Cápsula de 15 min na próxima aula + material
+    Item do programa | Conteúdo | Bloco
+    3.2.1.4 | Debêntures: garantias e covenants; tributação e líquido | Bloco 1 · 6 min
+    3.3.1 | Mercado de ações: IPO, tipos, riscos, proventos, imposto, eventos e aluguel | Bloco 2 · 20 min
+    3.3.2 e 3.3.3 | Filosofias, dose e índices | Bloco 2 · 3 min
+    3.3.4 | Derivativos: finalidades, futuro, opções e moneyness, swap, estruturas | Bloco 3 · 19 min
 - COMBINADO
-- Dúvida curta: respondo na hora, em 30 segundos. Dúvida longa: vai para o "estacionamento" e volta nos últimos 5 minutos ou por mensagem. Assim a aula chega ao fim.
+- Dúvida curta: respondo na hora, em 30 segundos. Dúvida longa: vai para o "estacionamento" e volta no fechamento ou por mensagem. Assim cobrimos todo o roteiro.
 
-**Recurso visual:** Tabela de roteiro do programa com as linhas de hoje destacadas em azul. Barra COMBINADO (regra de dúvidas).
+**Recurso visual:** Tabela de roteiro da aula por bloco. Barra COMBINADO (regra de dúvidas).
 
 **Notas do professor:**
 
@@ -704,8 +703,6 @@ Deck separado de 6 slides e 15 minutos, na mesma pasta: capa, quatro slides de C
 **Notas do professor:**
 
 > CONDUÇÃO: peça à turma que repita os três números de ações (15%, 20%, R$ 20 mil) e a frase 'call dentro do dinheiro: preço acima do strike'.
->
-> PONTE: 'Na próxima aula, 15 minutos de COE, que é um produto montado com o que vimos hoje, e depois fundos.' Envie o material de apoio de COE hoje.
 
 ## Slide 20 · Verdadeiro ou falso?
 
@@ -717,18 +714,16 @@ Deck separado de 6 slides e 15 minutos, na mesma pasta: capa, quatro slides de C
 - Prejuízo em day trade pode abater ganho em operação comum no mesmo mês.
 - No mercado futuro, a perda só é paga no vencimento do contrato.
 - Quem lança uma call descoberta tem perda máxima igual ao prêmio recebido.
-- PRÓXIMA AULA
-- Próxima aula · Cápsula COE (15 min) + Fundos (3.5) COE: modalidades, marcação a mercado, tributação e DIE. Depois, instrumentos de investimento coletivo.
 - DÚVIDAS
-- Agora voltamos às dúvidas anotadas. O que não couber vai por mensagem até amanhã, com a resposta e o slide de referência.
+- Voltamos às dúvidas anotadas. O que não couber segue por mensagem, com a resposta e o slide de referência.
 
-**Recurso visual:** Três cards V/F + card azul "Próxima aula". Barra ESTACIONAMENTO (retorno das dúvidas).
+**Recurso visual:** Três cards V/F em largura total. Barra DÚVIDAS.
 
 **Notas do professor:**
 
 > GABARITO: 01 FALSO (bases separadas, 3.3.1.5). 02 FALSO (ajuste diário, 3.3.4.2). 03 FALSO (lançador descoberto tem perda ilimitada, 3.3.4.3).
 >
-> ESTACIONAMENTO: responda as dúvidas anotadas. O que não couber vai por mensagem até amanhã, com o número do slide.
+> ESTACIONAMENTO: responda as dúvidas anotadas. O que não couber segue por mensagem, com o número do slide.
 
 ---
 

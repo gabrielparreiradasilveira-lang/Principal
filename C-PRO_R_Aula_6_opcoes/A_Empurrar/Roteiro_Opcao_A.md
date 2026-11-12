@@ -12,7 +12,7 @@
 | # | Slide | Min | Começa aos | Corte seguro se atrasado |
 |---|---|---|---|---|
 | 1 | C-PRO R  ·  AULA 6  ·  OPÇÃO A | 1 | 0 | não |
-| 2 | Hoje: debêntures, ações e alocação; derivativos na próxima | 2 | 1 | não |
+| 2 | Roteiro: debêntures, ações e alocação | 2 | 1 | não |
 | 3 | Garantias definem a fila; covenants, o gatilho | 2.5 | 3 | não |
 | 4 | Isento ou tributado: compare pelo líquido | 3 | 5.5 | não |
 | 5 | Marina quer a debênture "que paga mais". Recomenda? | 3 | 8.5 | sim (fica nas notas) |
@@ -57,8 +57,8 @@ Aula 7 = derivativos (3.3.4) + COE (3.4), ~50 min de conteúdo: é exatamente o 
 
 **Conteúdo visível:**
 
-- Fechando a renda fixa e entrando nas ações
-- Blocos 1 a 3: debêntures, mercado de ações, filosofias e alocação Itens 3.2.1.4 (conclusão) e 3.3.1 a 3.3.3. Derivativos (3.3.4) e COE (3.4) ficam para a próxima aula, com o tempo que merecem
+- Debêntures e o mercado de ações
+- Blocos 1 a 3: debêntures, mercado de ações, filosofias e alocação Itens 3.2.1.4 e 3.3.1 a 3.3.3 do programa
 - O foco é aprender. A aprovação é consequência.
 
 **Recurso visual:** Capa X8.
@@ -69,24 +69,22 @@ Aula 7 = derivativos (3.3.4) + COE (3.4), ~50 min de conteúdo: é exatamente o 
 >
 > PONTE: 'Paramos nas debêntures. Hoje fechamos o crédito privado e entramos no mercado de ações, que é o maior sub-bloco do macrotema 3. Derivativos, que são contratos sobre essas ações, vêm na próxima aula.'
 
-## Slide 2 · Hoje: debêntures, ações e alocação; derivativos na próxima
+## Slide 2 · Roteiro: debêntures, ações e alocação
 
 **Tempo:** 2 min · **Começa aos:** 1 min · **Corte seguro:** não
 
 **Conteúdo visível:**
 
-- ABERTURA · ONDE ESTAMOS NO PROGRAMA
+- ABERTURA · ROTEIRO DA AULA
 - Tabela:
-    Item do programa | Conteúdo | Quando
-    3.2.1.4 | Debêntures: garantias, covenants, tributação e o caso da Marina | Hoje · Bloco 1 (9 min)
-    3.3.1 | Mercado de ações: IPO, tipos, riscos, proventos, imposto, aluguel, eventos | Hoje · Bloco 2 (25 min)
-    3.3.2 e 3.3.3 | Filosofias, experiência e horizonte, imposto, índices | Hoje · Bloco 3 (11 min)
-    3.3.4 | Derivativos: finalidades, futuro, opções, swap, estruturas | Próxima aula
-    3.4 | COE: regras, modalidades, marcação a mercado, tributação, DIE | Próxima aula
+    Item do programa | Conteúdo | Bloco
+    3.2.1.4 | Debêntures: garantias, covenants, tributação e o caso da Marina | Bloco 1 · 9 min
+    3.3.1 | Mercado de ações: IPO, tipos, riscos, proventos, imposto, aluguel, eventos | Bloco 2 · 25 min
+    3.3.2 e 3.3.3 | Filosofias, experiência e horizonte, imposto, índices | Bloco 3 · 11 min
 - COMBINADO
-- Dúvida curta: respondo na hora, em 30 segundos. Dúvida longa: vai para o "estacionamento" e volta nos últimos 5 minutos ou por mensagem. Assim a aula chega ao fim.
+- Dúvida curta: respondo na hora, em 30 segundos. Dúvida longa: vai para o "estacionamento" e volta no fechamento ou por mensagem. Assim cobrimos todo o roteiro.
 
-**Recurso visual:** Tabela de roteiro do programa com as linhas de hoje destacadas em azul. Barra COMBINADO (regra de dúvidas).
+**Recurso visual:** Tabela de roteiro da aula por bloco. Barra COMBINADO (regra de dúvidas).
 
 **Notas do professor:**
 
@@ -665,8 +663,6 @@ Aula 7 = derivativos (3.3.4) + COE (3.4), ~50 min de conteúdo: é exatamente o 
 **Notas do professor:**
 
 > CONDUÇÃO: leia em voz alta e peça à turma que repita os três números de ações (15%, 20%, R$ 20 mil) e os dois de proventos (R$ 50 mil por mês; 17,5%).
->
-> PONTE: 'Na próxima aula, derivativos: como proteger esses 25% em ações sem vender, e o que é um COE.'
 
 ## Slide 19 · Verdadeiro ou falso?
 
@@ -678,18 +674,16 @@ Aula 7 = derivativos (3.3.4) + COE (3.4), ~50 min de conteúdo: é exatamente o 
 - Prejuízo em day trade pode abater ganho em operação comum no mesmo mês.
 - Na data ex, a queda do preço equivalente ao dividendo é prejuízo para o acionista.
 - Debênture emitida por um banco é coberta pelo FGC até R$ 250 mil.
-- PRÓXIMA AULA
-- Aula 7 · Derivativos e COE (3.3.4 e 3.4) Finalidades, futuro, opções e moneyness, swap, estruturas; COE: modalidades, marcação a mercado, tributação, DIE.
 - DÚVIDAS
-- Agora voltamos às dúvidas anotadas. O que não couber vai por mensagem até amanhã, com a resposta e o slide de referência.
+- Voltamos às dúvidas anotadas. O que não couber segue por mensagem, com a resposta e o slide de referência.
 
-**Recurso visual:** Três cards V/F + card azul "Próxima aula". Barra ESTACIONAMENTO (retorno das dúvidas).
+**Recurso visual:** Três cards V/F em largura total. Barra DÚVIDAS.
 
 **Notas do professor:**
 
 > GABARITO: 01 FALSO (bases separadas, 3.3.1.5). 02 FALSO (o valor saiu do preço e entrou na conta, 3.3.1.6). 03 FALSO (banco não emite debênture; debênture não tem FGC).
 >
-> ESTACIONAMENTO: responda as dúvidas anotadas. O que não couber vai por mensagem até amanhã, com o número do slide.
+> ESTACIONAMENTO: responda as dúvidas anotadas. O que não couber segue por mensagem, com o número do slide.
 
 ---
 

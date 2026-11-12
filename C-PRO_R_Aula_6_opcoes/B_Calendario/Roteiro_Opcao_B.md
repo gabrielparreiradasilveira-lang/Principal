@@ -12,7 +12,7 @@
 | # | Slide | Min | Começa aos | Corte seguro se atrasado |
 |---|---|---|---|---|
 | 1 | C-PRO R  ·  AULA 6  ·  OPÇÃO B | 1 | 0 | não |
-| 2 | Hoje: derivativos e COE; ações ganham aula dedicada | 2 | 1 | não |
+| 2 | Roteiro: do ativo-objeto ao derivativo e ao COE | 2 | 1 | não |
 | 3 | Ação é um pedaço da empresa; o preço é a opinião do mercado | 5 | 3 | parcial (ler só o card do meio) |
 | 4 | Dividendo e JCP: os dois pagam você; o imposto é diferente | 3 | 8 | sim (regra nova de 2026: se cortar, mande por mensagem) |
 | 5 | Derivativo: um contrato cujo valor nasce de outro ativo | 3 | 11 | não |
@@ -50,7 +50,7 @@
 **Conteúdo visível:**
 
 - Derivativos e COE: proteger, apostar e empacotar
-- Blocos 1 e 2: derivativos (3.3.4) e COE (3.4), como no calendário Ações entram em uma ponte de cinco minutos com o que os derivativos exigem; o restante de 3.3.1 a 3.3.3 ganha aula dedicada
+- Blocos 1 e 2: derivativos (3.3.4) e COE (3.4) Com a base de ações que os derivativos exigem: ativo-objeto, preço, volatilidade e proventos
 - O foco é aprender. A aprovação é consequência.
 
 **Recurso visual:** Capa X8.
@@ -61,23 +61,22 @@
 >
 > PONTE: 'Derivativo é contrato sobre um ativo. Hoje usamos a ação como exemplo de ativo, com o essencial; a aula completa de ações vem a seguir.'
 
-## Slide 2 · Hoje: derivativos e COE; ações ganham aula dedicada
+## Slide 2 · Roteiro: do ativo-objeto ao derivativo e ao COE
 
 **Tempo:** 2 min · **Começa aos:** 1 min · **Corte seguro:** não
 
 **Conteúdo visível:**
 
-- ABERTURA · ONDE ESTAMOS NO PROGRAMA
+- ABERTURA · ROTEIRO DA AULA
 - Tabela:
-    Item do programa | Conteúdo | Quando
-    3.2.1.4 | Debêntures: garantias, covenants, tributação | Aula de ações (10 min) + material de apoio
-    3.3.1 a 3.3.3 | Mercado de ações, filosofias, alocação e índices | Ponte de 8 min hoje; aula dedicada a seguir
-    3.3.4 | Derivativos: finalidades, futuro, opções e moneyness, swap, estruturas | Hoje · Bloco 1 (19 min)
-    3.4 | COE: regras, modalidades, marcação a mercado, tributação, DIE | Hoje · Bloco 2 (12 min)
+    Item do programa | Conteúdo | Bloco
+    3.3.1 | Base de ações: ativo-objeto, preço, volatilidade, dividendo e JCP | Base · 8 min
+    3.3.4 | Derivativos: finalidades, futuro, opções e moneyness, swap, estruturas | Bloco 1 · 19 min
+    3.4 | COE: regras, modalidades, marcação a mercado, tributação, DIE | Bloco 2 · 12 min
 - COMBINADO
-- Dúvida curta: respondo na hora, em 30 segundos. Dúvida longa: vai para o "estacionamento" e volta nos últimos 5 minutos ou por mensagem. Assim a aula chega ao fim.
+- Dúvida curta: respondo na hora, em 30 segundos. Dúvida longa: vai para o "estacionamento" e volta no fechamento ou por mensagem. Assim cobrimos todo o roteiro.
 
-**Recurso visual:** Tabela de roteiro do programa com as linhas de hoje destacadas em azul. Barra COMBINADO (regra de dúvidas).
+**Recurso visual:** Tabela de roteiro da aula por bloco. Barra COMBINADO (regra de dúvidas).
 
 **Notas do professor:**
 
@@ -93,7 +92,7 @@
 
 **Conteúdo visível:**
 
-- PONTE · 3.3.1 EM CINCO MINUTOS
+- BASE · 3.3.1
 - O que é
 - Fração do capital de uma S.A. ON vota; PN tem preferência no dividendo. Negociada na B3 em lote de 100 (ou fracionário), liquida em D+2.
 - O que move o preço
@@ -101,7 +100,7 @@
 - O que o acionista recebe
 - Dividendo: isento até R$ 50 mil/mês por empresa; acima, 10%. JCP: 17,5% na fonte. Venda: 15% (20% day trade); isenção se vender até R$ 20 mil no mês.
 - NA PROVA
-- Para derivativos você precisa de quatro ideias: ativo-objeto, preço, volatilidade e liquidação. O restante de 3.3.1 a 3.3.3 (IPO, aluguel, eventos, filosofias, índices) vem na aula dedicada e no material de apoio.
+- Para derivativos você precisa de quatro ideias: ativo-objeto, preço, volatilidade e liquidação. Guarde também os números de proventos e de imposto: eles voltam nas opções e no COE.
 
 **Recurso visual:** Três cards (o que é, o que move o preço em azul, o que o acionista recebe) com termos-chave em dourado. Barra NA PROVA.
 
@@ -121,7 +120,7 @@
 
 **Conteúdo visível:**
 
-- PONTE · 3.3.1.6
+- BASE · 3.3.1.6
 - Dividendo
 - Parcela do lucro distribuída. Mínimo obrigatório definido no estatuto (referência: 25% do lucro ajustado, art. 202). Pessoa física: isento até R$ 50 mil por mês por empresa; acima disso, 10% na fonte sobre o total (Lei 15.270/2025, desde 2026). Entra na tributação mínima de altas rendas (acima de R$ 600 mil/ano).
 - Juros sobre capital próprio (JCP)
@@ -534,8 +533,6 @@
 **Notas do professor:**
 
 > CONDUÇÃO: peça à turma que repita: 'call dentro do dinheiro: preço acima do strike; put: abaixo' e 'COE: sem FGC, IR de renda fixa, perda não compensa'.
->
-> PONTE: 'Na próxima aula, o ativo-objeto com calma: o mercado de ações inteiro, do IPO aos índices.'
 
 ## Slide 16 · Verdadeiro ou falso?
 
@@ -547,18 +544,16 @@
 - No mercado futuro, a perda só é paga no vencimento do contrato.
 - Quem lança uma call descoberta tem perda máxima igual ao prêmio recebido.
 - A perda em um COE de capital em risco pode ser compensada com ganhos em ações.
-- PRÓXIMA AULA
-- Aula 7 · Mercado de ações (3.3.1 a 3.3.3) IPO e OPA, ON e PN, proventos, tributação e compensação, aluguel, eventos societários, filosofias, alocação e índices; e o fim das debêntures.
 - DÚVIDAS
-- Agora voltamos às dúvidas anotadas. O que não couber vai por mensagem até amanhã, com a resposta e o slide de referência.
+- Voltamos às dúvidas anotadas. O que não couber segue por mensagem, com a resposta e o slide de referência.
 
-**Recurso visual:** Três cards V/F + card azul "Próxima aula". Barra ESTACIONAMENTO (retorno das dúvidas).
+**Recurso visual:** Três cards V/F em largura total. Barra DÚVIDAS.
 
 **Notas do professor:**
 
 > GABARITO: 01 FALSO (ajuste diário, 3.3.4.2). 02 FALSO (o titular tem perda limitada ao prêmio; o lançador descoberto, ilimitada, 3.3.4.3). 03 FALSO (COE é renda fixa para o imposto; perda não compensável, 3.4.2).
 >
-> ESTACIONAMENTO: responda as dúvidas anotadas. O que não couber vai por mensagem até amanhã, com o número do slide.
+> ESTACIONAMENTO: responda as dúvidas anotadas. O que não couber segue por mensagem, com o número do slide.
 
 ---
 
