@@ -4,7 +4,7 @@
  },
  "slides": [
   {
-   "saida": "r50g_1_tudo-igual.png",
+   "saida": "r50g-1_1_tudo-igual.png",
    "semente": 5071,
    "molde": "mito_verdade",
    "titulo": "TODO CRIPTOATIVO É IGUAL?",
@@ -20,7 +20,7 @@
    "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} ATIVO ATRELADO AO DÓLAR + TOKEN DE JOGO + ARTE DIGITAL\n- SÃO, NA ORDEM: {laranja:STABLECOIN} · {laranja:UTILITY TOKEN} · {laranja:NFT}\n- TRÊS RISCOS DIFERENTES: FALHA DO LASTRO · FRACASSO DO PROJETO · FALTA DE COMPRADOR\n- {ciano:CRIPTOATIVO} É O GÊNERO · {ciano:CRIPTOMOEDA} É UMA DAS ESPÉCIES\n- {ciano:PERGUNTAS-CHAVE:} PARA QUE SERVE? QUE DIREITO DÁ? QUEM RESPONDE?"
   },
   {
-   "saida": "r50g_2_parque-e-fichas.png",
+   "saida": "r50g-1_2_parque-e-fichas.png",
    "semente": 5072,
    "molde": "comparacao",
    "titulo": "O PARQUE E AS FICHAS",
@@ -55,54 +55,272 @@
    }
   },
   {
-   "saida": "r50g_3_conteudo-1.png",
-   "semente": 5073,
+   "saida": "r50g-1_3_conteudo-1.png",
+   "semente": 5201,
    "molde": "colunas",
-   "titulo": "TOKEN, UTILITY E SECURITY (1/3)",
-   "topo": "{ciano:TOKEN:} UNIDADE DE VALOR {laranja:EMITIDA E REGISTRADA} EM BLOCKCHAIN · {ciano:PADRÃO ERC-20 (2015):} TOKENS IGUAIS ENTRE SI, ACEITOS POR QUALQUER CARTEIRA",
+   "titulo": "O TOKEN (1/2)",
+   "topo": "{ciano:TOKEN:} UNIDADE DE VALOR {laranja:EMITIDA E REGISTRADA} EM BLOCKCHAIN · \"EMBALAGEM DIGITAL\": DÁ VALOR, REGRAS E ESCASSEZ A UM ATIVO",
    "colunas": [
     {
-     "titulo": "O TOKEN",
-     "texto": "- {ciano:MOEDA NATIVA:} DA PRÓPRIA REDE (BITCOIN, ETHER)\n- {ciano:TOKEN:} CRIADO POR CONTRATO INTELIGENTE, SOBRE REDE EXISTENTE\n- REPRESENTA: ACESSO · PARTICIPAÇÃO ECONÔMICA · {laranja:GOVERNANÇA} · ATIVO REAL\n- \"EMBALAGEM DIGITAL\": DÁ VALOR, REGRAS E ESCASSEZ"
+     "titulo": "NATIVA × TOKEN",
+     "texto": "- {ciano:MOEDA NATIVA:} DA PRÓPRIA REDE (BITCOIN, ETHER)\n- {ciano:TOKEN:} NASCE DE SMART CONTRACT, SOBRE REDE EXISTENTE\n- REPRESENTA: ACESSO · PARTICIPAÇÃO ECONÔMICA · {laranja:GOVERNANÇA} · ATIVO REAL"
     },
     {
-     "titulo": "UTILITY × SECURITY",
-     "texto": "- {verde:UTILITY:} USAR SERVIÇO, PAGAR TAXA, ACESSAR FUNÇÃO\n- {vermelho:SECURITY:} LUCROS, RECEBÍVEIS, ATIVOS; MAIS REGULAÇÃO\n- {ciano:CVM, 3 CATEGORIAS:} PAGAMENTO · UTILIDADE · REFERENCIADO A ATIVO\n- CATEGORIAS {laranja:NÃO SÃO ESTANQUES}"
+     "titulo": "PADRÃO ERC-20",
+     "texto": "- PROPOSTO EM {laranja:19/11/2015}\n- INTERFACE PADRÃO DE TOKENS NO ETHEREUM\n- CARTEIRAS E EXCHANGES LEEM DO MESMO JEITO\n- TOKENS {laranja:FUNGÍVEIS}: UNIDADES IGUAIS"
     }
    ],
    "destaque": {
-    "texto": "{ciano:É VALOR MOBILIÁRIO SE:} REPRESENTA UM VALOR MOBILIÁRIO DA LEI 6.385 {laranja:OU} É CONTRATO DE INVESTIMENTO COLETIVO · VALE A SUBSTÂNCIA, {vermelho:NÃO O RÓTULO}",
+    "texto": "{vermelho:CUIDADO:} ETHER {vermelho:≠} TOKEN · CIRCULAR NA MESMA REDE NÃO TORNA OS DOIS IGUAIS · {ciano:GOVERNANÇA:} DIREITO DE VOTAR NAS DECISÕES DO PROJETO",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r50g_3_conteudo-2.png",
-   "semente": 5074,
+   "saida": "r50g-1_3_conteudo-2.png",
+   "semente": 5202,
    "molde": "colunas",
-   "titulo": "STABLECOINS (2/3)",
-   "topo": "{ciano:STABLECOIN:} FEITA PARA {verde:REDUZIR A VOLATILIDADE}, ATRELADA A UM ATIVO DE REFERÊNCIA (EM GERAL, O DÓLAR) · {ciano:BANCO CENTRAL:} ATIVO VIRTUAL REFERENCIADO EM MOEDA FIDUCIÁRIA",
+   "titulo": "UTILITY × SECURITY E A CVM (2/2)",
+   "topo": "{ciano:PASSE DE BRINQUEDO OU COTA DO PARQUE?} {verde:UTILITY:} USAR SERVIÇO · {vermelho:SECURITY:} LUCROS, RECEBÍVEIS, ATIVOS; MAIS ESCRUTÍNIO",
    "colunas": [
     {
-     "titulo": "AS 4 VARIAÇÕES",
-     "texto": "- {ciano:MOEDA FIDUCIÁRIA:} RESERVA 1:1; CENTRALIZADA; PEDE AUDITORIA\n- {ciano:CRIPTO:} GARANTIA DE AO MENOS {laranja:2 DÓLARES} POR DÓLAR EMITIDO\n- {ciano:METAIS PRECIOSOS:} OURO; DEPENDE DA GUARDA\n- {ciano:ALGORÍTMICA:} {vermelho:NENHUM ATIVO}; CONFIA-SE NO ALGORITMO"
+     "titulo": "CVM: 3 CATEGORIAS",
+     "texto": "- {laranja:PAGAMENTO:} FAZ O PAPEL DE MOEDA\n- {laranja:UTILIDADE:} ADQUIRIR OU ACESSAR PRODUTO OU SERVIÇO\n- {laranja:REFERENCIADO A ATIVO:} SECURITY TOKENS, STABLECOINS, NFTs\n- {vermelho:NÃO SÃO ESTANQUES}"
+    },
+    {
+     "titulo": "6 REQUISITOS",
+     "texto": "- {laranja:1.} INVESTIMENTO\n- {laranja:2.} FORMALIZAÇÃO\n- {laranja:3.} CARÁTER COLETIVO\n- {laranja:4.} EXPECTATIVA DE BENEFÍCIO\n- {laranja:5.} ESFORÇO DE TERCEIRO\n- {laranja:6.} OFERTA PÚBLICA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:PARECER DE ORIENTAÇÃO CVM 40 (11/10/2022):} VALOR MOBILIÁRIO SE REPRESENTA UM DA LEI 6.385 OU CERTIFICADO DE RECEBÍVEIS, {laranja:OU} SE FECHA OS 6 REQUISITOS · {vermelho:SEM AVISO PRÉVIO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50g-1_4_passe-ou-cota.png",
+   "semente": 5203,
+   "molde": "exercicio",
+   "titulo": "PASSE DE BRINQUEDO OU COTA DO PARQUE?",
+   "dados": "- HIPOTÉTICO: PLATAFORMA DE JOGOS EMITE UM TOKEN\n- VENDA AO PÚBLICO NOS DOIS CENÁRIOS\n- TESTE: OS 6 REQUISITOS DO PARECER CVM 40\n- O NOME ESCOLHIDO PELO EMISSOR NÃO DECIDE\n- A ÚNICA DIFERENÇA: O QUE O TOKEN PROMETE",
+   "cenarios": [
+    {
+     "titulo": "DESCONTO E ACESSO",
+     "passos": "USO DA PLATAFORMA\nSEM PROMESSA DE RESULTADO\nREQUISITOS: NÃO FECHAM",
+     "resultado": "TOKEN DE UTILIDADE"
+    },
+    {
+     "titulo": "PARTE DO LUCRO",
+     "passos": "LUCRO VEM DO TRABALHO DA EQUIPE\nHÁ EXPECTATIVA DE GANHO\nREQUISITOS: OS 6",
+     "resultado": "VALOR MOBILIÁRIO"
+    }
+   ],
+   "conclusao": {
+    "texto": "{ciano:QUEM REGULA:} VALOR MOBILIÁRIO → {laranja:CVM} · DEMAIS ATIVOS VIRTUAIS → PRESTADORAS SOB O BANCO CENTRAL · {vermelho:ESSÊNCIA, NÃO RÓTULO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50g-2_1_livre-de-risco.png",
+   "semente": 5204,
+   "molde": "mito_verdade",
+   "titulo": "STABLECOIN: LIVRE DE RISCO?",
+   "mitos": [
+    "LIVRE DE RISCO",
+    "SEMPRE VALE 1 DÓLAR"
+   ],
+   "verdade": "PARIDADE É {laranja:OBJETIVO}",
+   "desenho": {
+    "nome": "ancora",
+    "largura": 130
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} RESERVA DE EMERGÊNCIA EM STABLECOIN DE DÓLAR\n- O PREÇO DEPENDE DO {laranja:LASTRO} E DO MECANISMO DE ESTABILIZAÇÃO\n- {vermelho:3 RISCOS:} CONTRAPARTE · REGULATÓRIO · FALHA DO LASTRO\n- NA CVM (PARECER 40): TOKEN REFERENCIADO A ATIVO\n- NO BANCO CENTRAL: ATIVO VIRTUAL REFERENCIADO EM MOEDA FIDUCIÁRIA\n- {ciano:3 PAPÉIS:} MEIO DE TROCA · LIQUIDEZ · PONTE COM O SISTEMA TRADICIONAL\n- COTAÇÃO ABAIXO DA PARIDADE TEM NOME: {vermelho:DESANCORAGEM}\n- ANTES DE LISTAR, A PRESTADORA AVALIA 5 PONTOS (RES. BCB 520/2025, ART. 65)\n- {ciano:TEMAS:} CONCEITO · 4 VARIAÇÕES · REGRA DE LISTAGEM · PAPÉIS E RISCOS"
+  },
+  {
+   "saida": "r50g-2_2_vale-e-cofre.png",
+   "semente": 5205,
+   "molde": "comparacao",
+   "titulo": "O VALE E O COFRE",
+   "colunas": [
+    {
+     "titulo": "O VALE",
+     "desenho": "dinheiro",
+     "rotulos": [
+      "VALE",
+      "R$ 1"
+     ],
+     "texto": "- VALE DE R$ 1 → {laranja:STABLECOIN}\n- VALOR PROMETIDO → {laranja:PARIDADE}\n- QUEM EMITE O VALE → {laranja:EMISSOR}\n- TROCA NO CAIXA → {laranja:RESGATE}"
+    },
+    {
+     "titulo": "O COFRE",
+     "desenho": "cofrinho",
+     "rotulos": [
+      "COFRE",
+      "LASTRO"
+     ],
+     "texto": "- DINHEIRO E TÍTULOS → {verde:LASTRO EM MOEDA}\n- FICHAS EM DOBRO → {verde:LASTRO EM CRIPTO}\n- OURO → {verde:LASTRO EM METAIS}\n- SEM COFRE, SÓ MÁQUINA → {verde:ALGORÍTMICA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:FICHAS EM DOBRO:} SOBRECOLATERALIZAÇÃO, PELO MENOS 2 PARA 1",
+    "{ciano:VALE NEGOCIADO POR MENOS DE R$ 1:} DESANCORAGEM"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NÃO EXISTE UMA ADMINISTRAÇÃO ÚNICA · EMISSOR E MECANISMO VARIAM, E O 1 PARA 1 NÃO É CERTO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50g-2_3_conteudo-1.png",
+   "semente": 5206,
+   "molde": "colunas",
+   "titulo": "AS 4 VARIAÇÕES (1/2)",
+   "topo": "{ciano:STABLECOIN:} FEITA PARA {verde:REDUZIR A VOLATILIDADE} · ATRELADA A UM ATIVO DE REFERÊNCIA, EM GERAL O DÓLAR",
+   "colunas": [
+    {
+     "titulo": "MOEDA E CRIPTO",
+     "texto": "- {ciano:MOEDA FIDUCIÁRIA:} RESGATE 1:1 COM O EMISSOR\n- CENTRALIZADA · PEDE {laranja:AUDITORIA}\n- {ciano:CRIPTO:} GARANTIA EM ETHER, POR EXEMPLO\n- {laranja:2 DÓLARES} EM CRIPTO POR DÓLAR EMITIDO"
+    },
+    {
+     "titulo": "METAIS E ALGORÍTMICA",
+     "texto": "- {ciano:METAIS PRECIOSOS:} OURO\n- DEPENDE DO EMISSOR E DA GUARDA\n- {ciano:ALGORÍTMICA:} {vermelho:NENHUM ATIVO}\n- ALGORITMO EMITE OU RECOLHE TOKENS"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:BANCO CENTRAL (RES. 520/2025, ART. 2º, II E III):} ATIVO VIRTUAL REFERENCIADO EM MOEDA FIDUCIÁRIA · RESERVA = A MOEDA + TÍTULOS PÚBLICOS DO MESMO GOVERNO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50g-2_3_conteudo-2.png",
+   "semente": 5207,
+   "molde": "colunas",
+   "titulo": "REGRA, PAPÉIS E RISCOS (2/2)",
+   "topo": "{vermelho:CUIDADO:} TÍTULO PÚBLICO É {laranja:RESERVA} DA STABLECOIN DE MOEDA, NÃO UMA QUINTA VARIAÇÃO · \"ESTÁVEL\" É META, {vermelho:NÃO GARANTIA}",
+   "colunas": [
+    {
+     "titulo": "PARA LISTAR (ART. 65)",
+     "texto": "- {laranja:1.} MECANISMO DE ESTABILIZAÇÃO\n- {laranja:2.} COMPOSIÇÃO DAS RESERVAS\n- {laranja:3.} PROVAS DE LASTRO\n- {laranja:4.} DEMONSTRAÇÕES AUDITADAS\n- {laranja:5.} RISCO DO EMISSOR"
     },
     {
      "titulo": "PAPÉIS E RISCOS",
-     "texto": "- {verde:PAPÉIS:} MEIO DE TROCA · LIQUIDEZ · PONTE COM O SISTEMA TRADICIONAL\n- {vermelho:RISCOS:} CONTRAPARTE · REGULATÓRIO · FALHA DO LASTRO\n- {ciano:PARA LISTAR (BCB):} MECANISMO, RESERVAS, PROVAS DE LASTRO, AUDITORIA, RISCO DO EMISSOR"
+     "texto": "- {verde:PAPÉIS:} MEIO DE TROCA · LIQUIDEZ · PONTE COM O SISTEMA TRADICIONAL\n- {vermelho:RISCOS:} CONTRAPARTE · REGULATÓRIO · FALHA NO LASTRO"
     }
    ],
    "destaque": {
-    "texto": "{ciano:NA PROVA:} \"ESTÁVEL\" É O OBJETIVO, {vermelho:NÃO UMA GARANTIA} · RESERVA DA BCB 520: A MOEDA E TÍTULOS PÚBLICOS DO MESMO GOVERNO",
+    "texto": "{ciano:3 PERGUNTAS:} QUAL É O LASTRO? QUEM GUARDA? QUEM AUDITA? · {ciano:DESANCORAGEM:} COTAÇÃO ABAIXO DA PARIDADE; VENDER NESSA HORA REALIZA A PERDA",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r50g_3_conteudo-3.png",
+   "saida": "r50g-2_4_contas-1.png",
+   "semente": 5208,
+   "molde": "exercicio",
+   "titulo": "O LASTRO AGUENTA A QUEDA? (1/2)",
+   "dados": "- HIPOTÉTICO: US$ 1.000 EMITIDOS\n- GARANTIA: {ciano:US$ 2.000} EM ETHER (2 PARA 1)\n- ÍNDICE INICIAL: 2.000 ÷ 1.000 = 200%\n- UM ÚNICO ATIVO DE GARANTIA, SEM TAXAS\n- A ÚNICA DIFERENÇA: O TAMANHO DA QUEDA",
+   "cenarios": [
+    {
+     "titulo": "ETHER CAI 40%",
+     "passos": "2.000 − 40% = 1.200\n1.200 ÷ 1.000 EMITIDOS\nAINDA SOBRAM 200",
+     "resultado": "ÍNDICE DE 120%"
+    },
+    {
+     "titulo": "ETHER CAI 50%",
+     "passos": "2.000 − 50% = 1.000\n1.000 ÷ 1.000 EMITIDOS\nNÃO SOBRA NADA",
+     "resultado": "ÍNDICE DE 100%"
+    }
+   ],
+   "conclusao": {
+    "texto": "QUEDA DE 60% → GARANTIA DE 800 → {vermelho:US$ 0,80 POR UNIDADE} · NA DE LASTRO EM MOEDA, O RISCO É O {laranja:EMISSOR} DA RESERVA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50g-2_4_contas-2.png",
+   "semente": 5209,
+   "molde": "exercicio",
+   "titulo": "E SE A PARIDADE QUEBRAR? (2/2)",
+   "dados": "- HIPOTÉTICO: STABLECOIN DE DÓLAR COTADA A {ciano:US$ 0,97}\n- DESÁGIO: DE 1,00 PARA 0,97 = −3,00%\n- COMPRA DE 10.000 UNIDADES: US$ 9.700\n- SEM TAXAS E SEM REGRAS DE RESGATE\n- A ÚNICA DIFERENÇA: O DESTINO DA COTAÇÃO",
+   "cenarios": [
+    {
+     "titulo": "VOLTA A 1,00",
+     "passos": "VENDE POR 10.000\n10.000 − 9.700 = 300\nDE 0,97 PARA 1,00",
+     "resultado": "GANHO DE 3,09%"
+    },
+    {
+     "titulo": "PIORA PARA 0,90",
+     "passos": "VENDE POR 9.000\n9.000 − 9.700 = −700\nDE 0,97 PARA 0,90",
+     "resultado": "PERDA DE 7,22%"
+    }
+   ],
+   "conclusao": {
+    "texto": "QUEDA DE 3% PEDE ALTA DE {laranja:3,09%} PARA EMPATAR · DESÁGIO NÃO É DESCONTO GARANTIDO: A COTAÇÃO PODE {vermelho:CAIR MAIS}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50g-3_1_bloco-so.png",
+   "semente": 5210,
+   "molde": "mito_verdade",
+   "titulo": "CRIPTO: UM BLOCO SÓ?",
+   "mitos": [
+    "É TUDO UM BLOCO SÓ",
+    "TUDO TEM OUTRO IGUAL"
+   ],
+   "verdade": "FUNGÍVEL {vermelho:≠} ÚNICO",
+   "desenho": {
+    "nome": "foto_autografada",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} ARTE DIGITAL SOMADA AOS BITCOINS NO EXTRATO\n- BITCOIN: {laranja:FUNGÍVEL}, CADA UNIDADE VALE O MESMO\n- ARTE DIGITAL (NFT): {laranja:ÚNICA}, SEM PAR PARA COMPARAR\n- MERCADO DIVIDIDO EM 6 SUBSETORES, COM RISCOS PRÓPRIOS\n- NA CVM (PARECER 40): NFT É TOKEN REFERENCIADO A ATIVO\n- COMO INVESTIMENTO: {vermelho:CAUTELA REDOBRADA}\n- {ciano:TEMAS:} FUNGIBILIDADE · NFTs · PADRÃO ERC-721 · SUBSETORES"
+  },
+  {
+   "saida": "r50g-3_2_foto-e-areas.png",
+   "semente": 5211,
+   "molde": "comparacao",
+   "titulo": "A FOTO AUTOGRAFADA E AS ÁREAS",
+   "colunas": [
+    {
+     "titulo": "A FOTO",
+     "desenho": "foto_autografada",
+     "rotulos": [
+      "FOTO",
+      "AUTÓGRAFO"
+     ],
+     "texto": "- FICHA COMUM → {laranja:ATIVO FUNGÍVEL}\n- FOTO AUTOGRAFADA → {laranja:NFT}\n- SÓ EXISTE UMA → {laranja:ÚNICO}\n- NÃO SE CORTA AO MEIO → {laranja:INDIVISÍVEL}"
+    },
+    {
+     "titulo": "AS ÁREAS",
+     "desenho": "montanha_russa",
+     "rotulos": [
+      "RADICAL",
+      "PRAÇA"
+     ],
+     "texto": "- ÁREAS DO PARQUE → {verde:SUBSETORES}\n- CADA ÁREA, UM PERIGO → {verde:RISCO PRÓPRIO}\n- SALÃO DE JOGOS → {verde:GAMING E METAVERSO}\n- PRAÇA DE PAGAMENTOS → {verde:STABLECOINS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:PADRÃO DA FICHA COMUM:} ERC-20 (2015) · {ciano:PADRÃO DA FOTO:} ERC-721 (2018)",
+    "{ciano:NINGUÉM AVALIA O PARQUE INTEIRO DE UMA VEZ:} ANÁLISE ÁREA POR ÁREA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} A FOTO É OBJETO NA MÃO · O NFT É REGISTRO EM BLOCKCHAIN: O DIREITO DO DONO VEM DO CÓDIGO E DO CONTRATO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50g-3_3_nfts-e-subsetores.png",
    "semente": 5075,
    "molde": "colunas",
-   "titulo": "NFTs E SUBSETORES (3/3)",
+   "titulo": "NFTs E SUBSETORES",
    "topo": "{ciano:FUNGÍVEL:} TROCÁVEL POR OUTRO IGUAL (1 BITCOIN = 1 BITCOIN) · {ciano:NÃO FUNGÍVEL:} {laranja:ÚNICO E INDIVISÍVEL} · {ciano:PADRÃO ERC-721 (2018)}",
    "colunas": [
     {
@@ -121,25 +339,25 @@
    }
   },
   {
-   "saida": "r50g_4_lastro-stablecoin.png",
-   "semente": 5076,
+   "saida": "r50g-3_4_fungivel-ou-unico.png",
+   "semente": 5212,
    "molde": "exercicio",
-   "titulo": "O LASTRO AGUENTA A QUEDA?",
-   "dados": "- 1.000 UNIDADES EMITIDAS, CADA UMA DEVE VALER {ciano:US$ 1} (HIPOTÉTICO)\n- LASTRO EM MOEDA: US$ 1.000 EM CAIXA E TÍTULOS PÚBLICOS\n- LASTRO EM CRIPTO: US$ 2.000 EM CRIPTOATIVOS (2 PARA 1)\n- SEM LIQUIDAÇÃO AUTOMÁTICA DA GARANTIA (SIMPLIFICAÇÃO)\n- A ÚNICA DIFERENÇA: O TIPO DE LASTRO",
+   "titulo": "FUNGÍVEL OU ÚNICO?",
+   "dados": "- HIPOTÉTICO: BRUNO PRECISA DE DINHEIRO HOJE\n- DOIS ATIVOS DIGITAIS, MESMO VALOR NA TELA\n- PERGUNTA 1: EXISTE OUTRO IGUAL?\n- PERGUNTA 2: DÁ PARA VENDER SÓ UMA PARTE?\n- A ÚNICA DIFERENÇA: A FUNGIBILIDADE",
    "cenarios": [
     {
-     "titulo": "LASTRO EM MOEDA",
-     "passos": "RESERVA: US$ 1.000\n1.000 ÷ 1.000 UNIDADES\nNÃO SEGUE O PREÇO DAS CRIPTO",
-     "resultado": "US$ 1,00/UNIDADE"
+     "titulo": "10 TOKENS ERC-20",
+     "passos": "UNIDADES IDÊNTICAS\nCOTAÇÃO DE MERCADO\nVENDE 3, FICA COM 7",
+     "resultado": "FUNGÍVEL"
     },
     {
-     "titulo": "LASTRO EM CRIPTO",
-     "passos": "GARANTIA CAI 60%\n2.000 → 800\n800 ÷ 1.000 UNIDADES",
-     "resultado": "US$ 0,80/UNIDADE"
+     "titulo": "1 NFT DE ARTE",
+     "passos": "PEÇA ÚNICA\nSEM PAR PARA COMPARAR\nINDIVISÍVEL",
+     "resultado": "NÃO FUNGÍVEL"
     }
    ],
    "conclusao": {
-    "texto": "A SOBRA DE 2 PARA 1 AGUENTA QUEDA DE ATÉ {laranja:50%} · ACIMA DISSO, {vermelho:FALTA LASTRO} · NA DE MOEDA, O RISCO É O {laranja:EMISSOR} DA RESERVA",
+    "texto": "{ciano:5 PEGADINHAS (FALSAS):} ETHER É TOKEN · UTILITY NUNCA É VALOR MOBILIÁRIO · SÓ COM DECLARAÇÃO DA CVM · ALGORÍTMICA TEM RESERVA · NFT É FUNGÍVEL",
     "cor": "branco",
     "moldura": "amarelo"
    }
