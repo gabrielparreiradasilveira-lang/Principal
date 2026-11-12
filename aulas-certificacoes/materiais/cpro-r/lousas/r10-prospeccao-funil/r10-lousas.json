@@ -55,23 +55,23 @@
    }
   },
   {
-   "saida": "r10a_3_funil-quatro-etapas.png",
-   "semente": 1003,
    "molde": "colunas",
-   "titulo": "O FUNIL E AS 4 ETAPAS",
-   "topo": "{ciano:O FUNIL SERVE PARA:} ESTRUTURAR A ROTINA · ACHAR {vermelho:GARGALOS} · MEDIR · VER AÇÕES DE ALTO IMPACTO · DAR {verde:PREVISIBILIDADE}",
+   "saida": "r10a_3_prospeccao-funil.png",
+   "semente": 1021,
+   "titulo": "PROSPECÇÃO E FUNIL",
+   "topo": "{ciano:PROSPECÇÃO} = GERAR A OPORTUNIDADE · {ciano:HABILIDADE COMERCIAL} = VIRAR RELACIONAMENTO DURADOURO · ATRAIR → CONVERTER → {verde:FIDELIZAR}",
    "colunas": [
     {
-     "titulo": "ANTES DA PROPOSTA",
-     "texto": "- {ciano:1. AGENDAMENTO:} GERAR O 1º ENCONTRO\n- MENSAGEM CLARA, PROPOSTA DE VALOR BREVE, RESPEITO À AGENDA\n- {ciano:2. REUNIÃO:} COMPREENDER NECESSIDADES\n- {laranja:OUVIR MAIS DO QUE FALAR}: OBJETIVOS, DORES, PERFIL DE RISCO, DÚVIDAS"
+     "titulo": "A PROSPECÇÃO",
+     "texto": "- UMA DAS COMPETÊNCIAS {laranja:MAIS IMPORTANTES}\n- ALÉM DA TÉCNICA: RELACIONAR E COMUNICAR VALOR\n- {vermelho:NÃO É SÓ VENDER}: NECESSIDADE REAL → SOLUÇÃO ADEQUADA\n- GERA {verde:FLUXO CONSTANTE}, CARREIRA SUSTENTÁVEL, IMPACTO"
     },
     {
-     "titulo": "DA PROPOSTA EM DIANTE",
-     "texto": "- {ciano:3. ESTRATÉGIA:} MOSTRAR COMO AJUDA\n- DIAGNÓSTICO, PLANO INICIAL DE ALOCAÇÃO, RISCOS, DIFERENCIAIS\n- {ciano:4. ATIVAÇÃO:} INÍCIO OFICIAL\n- CONTA, DOCUMENTOS, ALOCAÇÃO, PRÓXIMOS PASSOS + {verde:ACOMPANHAMENTO}"
+     "titulo": "O FUNIL EM 3 PARTES",
+     "texto": "- {ciano:TOPO:} LEADS (REDES, EVENTOS, INDICAÇÕES)\n- {ciano:MEIO:} REUNIÕES E DIAGNÓSTICO (PERFIL, DORES)\n- {ciano:FUNDO:} FECHAMENTO E {verde:ATIVAÇÃO}\n- METAS POR ETAPA · ONDE O CLIENTE PARA · {laranja:CRM}"
     }
    ],
    "destaque": {
-    "texto": "{ciano:NA PROVA:} PLANO DE ALOCAÇÃO É DA {laranja:ETAPA 3}, NÃO DA REUNIÃO · ATIVAÇÃO {vermelho:INCLUI} O ACOMPANHAMENTO CONSTANTE",
+    "texto": "{ciano:NA PROVA:} A CADA ETAPA, {vermelho:MENOS PESSOAS} E {verde:MAIS QUALIDADE} · SERVE PARA ROTINA, GARGALOS, MEDIÇÃO, ALTO IMPACTO, PREVISIBILIDADE",
     "cor": "branco",
     "moldura": "amarelo"
    }
@@ -101,7 +101,104 @@
    }
   },
   {
-   "saida": "r10b_1_melhor-canal.png",
+   "molde": "mito_verdade",
+   "saida": "r10b_1_produto-na-reuniao.png",
+   "semente": 1022,
+   "titulo": "JÁ CHEGA COM O PRODUTO?",
+   "mitos": [
+    "ABRIR COM 3 FUNDOS",
+    "FALAR MAIS DO QUE OUVIR"
+   ],
+   "verdade": "PRIMEIRO {verde:OUVIR}, DEPOIS {laranja:PROPOR}",
+   "desenho": {
+    "nome": "prancheta",
+    "largura": 130
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} PROPOSTA NOS 5 PRIMEIROS MINUTOS → O PROSPECT {vermelho:SOME}\n- {ciano:ETAPA 2 (REUNIÃO):} COMPREENDER NECESSIDADES E EXPECTATIVAS\n- {ciano:ETAPA 3 (ESTRATÉGIA):} SÓ DEPOIS DO DIAGNÓSTICO\n- {ciano:ETAPA 4 (ATIVAÇÃO):} IMPLEMENTAÇÃO + {verde:ACOMPANHAMENTO CONSTANTE}\n- {ciano:VALE PARA:} QUALQUER CANAL: ONLINE, PRESENCIAL OU PARCERIA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r10b_2_quatro-peneiras.png",
+   "semente": 1023,
+   "titulo": "AS 4 PENEIRAS",
+   "colunas": [
+    {
+     "titulo": "PENEIRA A PENEIRA",
+     "desenho": "funil_etapas",
+     "rotulos": [
+      "MALHA",
+      "MOVIMENTO"
+     ],
+     "texto": "- 1ª, LARGA → {laranja:AGENDAMENTO}\n- 2ª, LAVAGEM LENTA → {laranja:REUNIÃO: OUVIR}\n- 3ª, SEPARAR O QUE VALE → {laranja:ESTRATÉGIA}\n- ÚLTIMA LAVAGEM → {verde:ATIVAÇÃO}"
+    },
+    {
+     "titulo": "PULAR PENEIRA",
+     "desenho": "exclamacao",
+     "rotulos": [
+      "PRESSA",
+      "MISTURA"
+     ],
+     "texto": "- PROPOSTA NA 1ª CONVERSA → {vermelho:SEM DIAGNÓSTICO}\n- FALAR MAIS DO QUE OUVIR → {vermelho:DOR NÃO ACHADA}\n- PRODUTO NO LUGAR DE CAMINHO → {vermelho:DESCONFIANÇA}\n- ATIVAR E SUMIR → {vermelho:SEM PÓS-VENDA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:AGENDAMENTO:} DIRECT · WHATSAPP · E-MAIL · INDICAÇÃO, COM MENSAGEM {verde:PERSONALIZADA}",
+    "{ciano:PERSONALIZAR:} CONTEXTO, DOR OU OBJETIVO DAQUELA PESSOA, NUNCA TEXTO IGUAL PARA TODOS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NO GARIMPO, A BATEIA ENCERRA · NO RELACIONAMENTO, A ATIVAÇÃO {laranja:ABRE O PÓS-VENDA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r10b_3_quatro-etapas.png",
+   "semente": 1024,
+   "molde": "colunas",
+   "titulo": "AS 4 ETAPAS DO RELACIONAMENTO",
+   "topo": "{ciano:A POSTURA EM CADA ETAPA:} PERSONALIZAR · {laranja:EDUCAR SEM VENDER} · MOSTRAR CAMINHOS, NÃO SÓ PRODUTOS · {verde:PÓS-VENDA}",
+   "colunas": [
+    {
+     "titulo": "ANTES DA PROPOSTA",
+     "texto": "- {ciano:1. AGENDAMENTO:} GERAR O 1º ENCONTRO\n- MENSAGEM CLARA, PROPOSTA DE VALOR BREVE, RESPEITO À AGENDA\n- {ciano:2. REUNIÃO:} COMPREENDER NECESSIDADES\n- {laranja:OUVIR MAIS DO QUE FALAR}: OBJETIVOS, DORES, PERFIL DE RISCO, DÚVIDAS"
+    },
+    {
+     "titulo": "DA PROPOSTA EM DIANTE",
+     "texto": "- {ciano:3. ESTRATÉGIA:} MOSTRAR COMO AJUDA\n- DIAGNÓSTICO, PLANO INICIAL DE ALOCAÇÃO, RISCOS, DIFERENCIAIS\n- {ciano:4. ATIVAÇÃO:} INÍCIO OFICIAL\n- CONTA, DOCUMENTOS, ALOCAÇÃO, PRÓXIMOS PASSOS + {verde:ACOMPANHAMENTO}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} PLANO DE ALOCAÇÃO É DA {laranja:ETAPA 3} · ATIVAÇÃO {vermelho:INCLUI} ACOMPANHAMENTO: CONFIANÇA, DISCIPLINA, CONSTÂNCIA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r10b_4_ouvir-ou-propor.png",
+   "semente": 1025,
+   "titulo": "OUVIR PRIMEIRO OU PROPOR LOGO?",
+   "dados": "- PROSPECT HIPOTÉTICO: {ciano:38 ANOS}, R$ 80 MIL NA POUPANÇA\n- NO AGENDAMENTO, DISSE SÓ: \"QUERO RENDER MAIS\"\n- O QUE ELE NÃO DISSE: ESCOLA DOS FILHOS EM {laranja:5 ANOS}\n- MESMO PROFISSIONAL, MESMOS PRODUTOS DISPONÍVEIS\n- A ÚNICA DIFERENÇA: A ORDEM DAS ETAPAS",
+   "cenarios": [
+    {
+     "titulo": "PROPÕE NA REUNIÃO",
+     "passos": "ABRE 3 FUNDOS DE AÇÕES\nNÃO PERGUNTA O PRAZO\nRISCO SEM EXPLICAÇÃO",
+     "resultado": "PROPOSTA ÀS CEGAS"
+    },
+    {
+     "titulo": "OUVE E DEPOIS PROPÕE",
+     "passos": "OBJETIVO E PRAZO: 5 ANOS\nPERFIL E DÚVIDAS\nESTRATÉGIA NA ETAPA 3",
+     "resultado": "PLANO NO PRAZO DELE"
+    }
+   ],
+   "conclusao": {
+    "texto": "QUEM {verde:ESCUTA} ACHA O OBJETIVO QUE O PROSPECT NÃO DISSE · NA ATIVAÇÃO: CONTA, ALOCAÇÃO, PRÓXIMOS PASSOS E {laranja:REVISÕES}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r10c_1_melhor-canal.png",
    "semente": 1005,
    "molde": "mito_verdade",
    "titulo": "O MELHOR CANAL É O MAIOR?",
@@ -117,7 +214,7 @@
    "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} LIVE COM 200 CADASTROS × PALESTRA PARA 20 PESSOAS\n- LIVE: 2% VIRAM CLIENTES · PALESTRA: 20% VIRAM CLIENTES\n- RESULTADO IGUAL: {verde:4 CLIENTES} EM CADA UMA\n- {ciano:O QUE MUDA:} ALCANCE, PROFUNDIDADE DA CONVERSA E ESFORÇO POR CLIENTE\n- {ciano:CRITÉRIO DE ESCOLHA:} O PERFIL DO PROFISSIONAL E O PÚBLICO-ALVO"
   },
   {
-   "saida": "r10b_2_onde-garimpar.png",
+   "saida": "r10c_2_onde-garimpar.png",
    "semente": 1006,
    "molde": "comparacao",
    "titulo": "ONDE GARIMPAR?",
@@ -143,7 +240,7 @@
    ],
    "faixas": [
     "{ciano:TEOR DO CASCALHO:} NO RIO, POUCO OURO POR BALDE · NO VEIO, MUITO · O MAPA EVITA CAVAR À TOA",
-    "{ciano:REPUTAÇÃO:} QUEM ESTRAGA O QUINTAL PERDE O OURO E A VIZINHANÇA"
+    "{ciano:CONVITE, NÃO VENDA:} CONVERSA SOBRE FINANÇAS · BASE EM PLANILHA OU CRM: NOME, CANAL, STATUS, HISTÓRICO"
    ],
    "destaque": {
     "texto": "{vermelho:ONDE QUEBRA:} O RIO NÃO SE INCOMODA · {laranja:AS PESSOAS, SIM}: POR ISSO A ABORDAGEM É ÉTICA, RESPEITOSA E PROFISSIONAL",
@@ -152,11 +249,11 @@
    }
   },
   {
-   "saida": "r10b_3_canais-base.png",
+   "saida": "r10c_3_canais-base.png",
    "semente": 1007,
    "molde": "colunas",
    "titulo": "CANAIS E BASE PESSOAL",
-   "topo": "{ciano:CANAL:} O MEIO DE CHEGAR A NOVOS CLIENTES · {ciano:LEAD:} CONTATO INTERESSADO · {ciano:WEBINAR:} PALESTRA PELA INTERNET",
+   "topo": "{ciano:CADA CANAL SE MEDE:} CONTATOS → REUNIÕES → {verde:CLIENTES} · {ciano:LEAD:} CONTATO INTERESSADO · {ciano:WEBINAR:} PALESTRA PELA INTERNET",
    "colunas": [
     {
      "titulo": "ONLINE",
@@ -178,7 +275,7 @@
    }
   },
   {
-   "saida": "r10b_4_live-ou-palestra.png",
+   "saida": "r10c_4_live-ou-palestra.png",
    "semente": 1008,
    "molde": "exercicio",
    "titulo": "LIVE OU PALESTRA?",
@@ -202,7 +299,7 @@
    }
   },
   {
-   "saida": "r10c_1_trabalhar-sem-medir.png",
+   "saida": "r10d_1_trabalhar-sem-medir.png",
    "semente": 1009,
    "molde": "mito_verdade",
    "titulo": "QUEM TRABALHA MUITO PRECISA MEDIR?",
@@ -218,7 +315,7 @@
    "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} 160 PESSOAS ABORDADAS NO MÊS → {laranja:4 CLIENTES} (2,5%)\n- PLANO SEM MEDIR: FALAR COM 320 PARA CHEGAR A 8 CLIENTES\n- O QUE O INDICADOR MOSTRARIA: ENTRE INDICADOS, {verde:4 EM CADA 10} FECHAM\n- 8 CLIENTES POR INDICAÇÃO = 20 INDICAÇÕES, E NÃO 320 ABORDAGENS\n- {ciano:VALE PARA:} QUALQUER CANAL E QUALQUER TAMANHO DE CARTEIRA"
   },
   {
-   "saida": "r10c_2_caderno-garimpeiro.png",
+   "saida": "r10d_2_caderno-garimpeiro.png",
    "semente": 1010,
    "molde": "comparacao",
    "titulo": "O CADERNO DO GARIMPEIRO",
@@ -243,7 +340,7 @@
     }
    ],
    "faixas": [
-    "{ciano:SEM CADERNO:} ELE SÓ SABE QUE ESTÁ CANSADO · {ciano:COM CADERNO:} SABE ONDE FICAR",
+    "{ciano:TODA SEMANA:} META DE ESFORÇO, EX.: 10 REUNIÕES → 3 PROPOSTAS → 1 CLIENTE · {verde:MEÇA O QUE VOCÊ CONTROLA}",
     "{ciano:TRÊS COLUNAS NO CADERNO DO PROFISSIONAL:} PROSPECTS · REUNIÕES · INDICAÇÕES"
    ],
    "destaque": {
@@ -253,7 +350,7 @@
    }
   },
   {
-   "saida": "r10c_3_tres-indicadores.png",
+   "saida": "r10d_3_tres-indicadores.png",
    "semente": 1011,
    "molde": "colunas",
    "titulo": "OS 3 INDICADORES DE ESFORÇO",
@@ -279,25 +376,25 @@
    }
   },
   {
-   "saida": "r10c_4_frios-ou-indicacoes.png",
+   "saida": "r10d_4_frios-ou-indicacoes.png",
    "semente": 1012,
    "molde": "exercicio",
    "titulo": "CONTATOS FRIOS OU INDICAÇÕES?",
-   "dados": "- META: {ciano:4 CLIENTES} NO MÊS (HIPOTÉTICO)\n- FRIOS: 2,5% POR PROSPECT · 10% POR REUNIÃO\n- INDICAÇÕES DE CLIENTES: 40% DE CONVERSÃO\n- TAXAS CONSTANTES (NA PRÁTICA, VARIAM)\n- A ÚNICA DIFERENÇA: A ORIGEM DO CONTATO",
+   "dados": "- META: {ciano:4 CLIENTES} NO MÊS (HIPOTÉTICO)\n- FUNIL: 10 REUNIÕES → 3 PROPOSTAS → {verde:1 CLIENTE}\n- 1 EM CADA 4 PROSPECTS ACEITA REUNIÃO (25%)\n- INDICAÇÕES: 10 GERAM 4 CLIENTES · TAXAS CONSTANTES\n- A ÚNICA DIFERENÇA: A ORIGEM DO CONTATO",
    "cenarios": [
     {
      "titulo": "CONTATOS FRIOS",
-     "passos": "4 ÷ 0,025 = 160\n4 ÷ 0,10 = 40 REUNIÕES\n40 PROSPECTS/CLIENTE",
+     "passos": "30% → 33,33% → 10%\n4 ÷ 0,10 = 40 REUNIÕES\n40 ÷ 0,25 = 160",
      "resultado": "160 PROSPECTS"
     },
     {
      "titulo": "INDICAÇÕES",
-     "passos": "4 ÷ 0,40 = 10\n2,5 INDICAÇÕES/CLIENTE\nCLIENTE SATISFEITO INDICA",
+     "passos": "4 EM 10 = 40%\nQUEM CHEGA INDICADO\nJÁ CHEGA COM CONFIANÇA",
      "resultado": "10 INDICAÇÕES"
     }
    ],
    "conclusao": {
-    "texto": "META ÷ CONVERSÃO = ESFORÇO · O CAMINHO FRIO PEDE {vermelho:16 VEZES MAIS} CONTATOS · CUIDAR DO CLIENTE ATUAL TAMBÉM É PROSPECTAR",
+    "texto": "FRIO: {vermelho:16 VEZES MAIS} CONTATOS · 5 PEGADINHAS (FALSAS): SÓ VENDER · FUNIL CRESCE · ATIVAÇÃO SEM ACOMPANHAR · PRESENCIAL COM ESCALA · INDICAÇÃO CONVERTE MENOS",
     "cor": "branco",
     "moldura": "amarelo"
    }
