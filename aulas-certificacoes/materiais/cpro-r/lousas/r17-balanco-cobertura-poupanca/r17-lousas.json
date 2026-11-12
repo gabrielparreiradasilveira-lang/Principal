@@ -1,100 +1,368 @@
 {
-  "padrao": {
-    "fundo": "preto"
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r17a_1_um-milhao-resolvido.png",
+   "semente": 1701,
+   "molde": "mito_verdade",
+   "titulo": "1 MILHÃO: VIDA RESOLVIDA?",
+   "mitos": [
+    "PATRIMÔNIO ALTO",
+    "VIDA RESOLVIDA"
+   ],
+   "verdade": "OLHE A {laranja:COMPOSIÇÃO}",
+   "desenho": {
+    "nome": "casa",
+    "largura": 170
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} CARLA, 1 MILHÃO EM BENS\n- APARTAMENTO ONDE MORA + CARRO QUE USA: {vermelho:800.000}\n- DÍVIDAS: 288.000\n- INVESTIMENTOS: 200.000, E SÓ PARTE SAI RÁPIDO\n- O TOTAL IMPRESSIONA; A COMPOSIÇÃO É QUE DECIDE\n- PATRIMÔNIO LÍQUIDO: 1.000.000 − 288.000 = 712.000\n- {ciano:2 TEMAS:} O BALANÇO PATRIMONIAL · ATIVOS DE USO E DE NÃO USO"
   },
-  "slides": [
+  {
+   "saida": "r17a_2_a-fotografia.png",
+   "semente": 1702,
+   "molde": "comparacao",
+   "titulo": "A FOTOGRAFIA",
+   "colunas": [
     {
-      "saida": "r17_1_milhao-resolvido.png",
-      "semente": 1701,
-      "molde": "mito_verdade",
-      "titulo": "R$ 1 MILHÃO = VIDA RESOLVIDA?",
-      "mitos": [
-        "PATRIMÔNIO ALTO = SAÚDE",
-        "TODO BEM PAGA CONTAS"
-      ],
-      "verdade": "CONTA O QUE {laranja:PAGA CONTAS} E O QUE {verde:VIRA POUPANÇA}",
-      "desenho": "casa",
-      "apoio": "- ATIVOS: R$ 1 MILHÃO, DOS QUAIS {vermelho:R$ 800 MIL} EM APARTAMENTO E CARRO (HIPOTÉTICO)\n- DÍVIDAS: R$ 288 MIL → PATRIMÔNIO LÍQUIDO DE R$ 712 MIL\n- RESERVA LÍQUIDA: R$ 37.200 ÷ DESPESA DE R$ 12.400 = {vermelho:3 MESES}\n- {ciano:REGRA:} SEPARAR USO E NÃO USO {laranja:EVITA SUPERESTIMAR} O PATRIMÔNIO"
+     "titulo": "A FOTO",
+     "desenho": "monitor_sinais",
+     "rotulos": [
+      "UM DIA",
+      "POSIÇÃO"
+     ],
+     "texto": "- FOTO DE UM DIA → {laranja:BALANÇO PATRIMONIAL}\n- O QUE APARECE NA FOTO → {laranja:ATIVOS}\n- O QUE ELE DEVE → {laranja:PASSIVOS}\n- O QUE SOBRA → {laranja:PATRIMÔNIO LÍQUIDO}"
     },
     {
-      "saida": "r17_2_foto-e-filme.png",
-      "semente": 1702,
-      "molde": "comparacao",
-      "titulo": "A FOTO E O FILME",
-      "colunas": [
-        {
-          "titulo": "A FOTO",
-          "desenho": "camera",
-          "rotulos": [
-            "UM DIA",
-            "POSSUI × DEVE"
-          ],
-          "texto": "- BALANÇO = {laranja:FOTO} DE UM DIA\n- CASA E CARRO → {laranja:USO}: SERVEM, NÃO RENDEM\n- INVESTIMENTOS → {verde:NÃO USO}: TRABALHAM PELOS OBJETIVOS\n- PATRIMÔNIO LÍQUIDO = ATIVOS − PASSIVOS"
-        },
-        {
-          "titulo": "O FILME",
-          "desenho": "filmadora",
-          "rotulos": [
-            "MÊS A MÊS",
-            "ENTRA × FICA"
-          ],
-          "texto": "- ÍNDICE DE POUPANÇA = {laranja:FILME}\n- DE CADA REAL QUE ENTRA, QUANTO {verde:FICA}\n- O FILME PAROU (SEM RENDA)? → {laranja:COBERTURA}\n- RESPOSTA EM {laranja:MESES}"
-        }
-      ],
-      "faixas": [
-        "{ciano:PARA QUE SERVE A FOTO:} AVALIAR SOLIDEZ, PESO DAS DÍVIDAS E CAPACIDADE DE ACUMULAR RIQUEZA"
-      ],
-      "destaque": {
-        "texto": "{vermelho:ONDE QUEBRA:} FOTO = IMAGEM EXATA · BALANÇO = {laranja:VALORES ESTIMADOS}, A PREÇO DE MERCADO NA DATA",
-        "cor": "branco",
-        "moldura": "vermelho"
-      }
-    },
-    {
-      "saida": "r17_3_indicadores-orcamento.png",
-      "semente": 1703,
-      "molde": "colunas",
-      "titulo": "OS INDICADORES E O ORÇAMENTO",
-      "topo": "{ciano:FÓRMULAS:} PL = ATIVOS − PASSIVOS · COBERTURA = ATIVOS LÍQUIDOS ÷ DESPESAS MENSAIS (EM MESES) · POUPANÇA = VALOR POUPADO ÷ {laranja:RENDA TOTAL} DO PERÍODO",
-      "colunas": [
-        {
-          "titulo": "O QUE ENTRA NA COBERTURA",
-          "texto": "- SÓ O QUE VIRA DINHEIRO {verde:RÁPIDO E SEM PERDA}\n- FORA: ATIVOS DE USO E O QUE TEM {vermelho:PERDA OU DEMORA} NO RESGATE\n- DESPESAS (BCB): FIXAS, VARIÁVEIS, {laranja:SAZONAIS} (IMPOSTOS, SEGUROS, MATRÍCULA) E PRESTAÇÕES A VENCER\n- {ciano:ALERTA:} SOBRE A RENDA LÍQUIDA, O ÍNDICE {vermelho:MUDA}"
-        },
-        {
-          "titulo": "ORÇAMENTO (BCB)",
-          "texto": "- {vermelho:DEFICITÁRIO}: DESPESA MAIOR QUE A RECEITA → ÍNDICE NEGATIVO\n- NEUTRO (EQUILIBRADO): DESPESA IGUAL À RECEITA → {laranja:ÍNDICE ZERO}\n- {verde:SUPERAVITÁRIO}: DESPESA MENOR → HÁ POUPANÇA\n- META BÁSICA DO BCB: {verde:SUPERAVITÁRIO}"
-        }
-      ],
-      "destaque": {
-        "texto": "{ciano:COBERTURA × META:} A COBERTURA DIZ QUANTOS MESES O CLIENTE {laranja:TEM} · A RESERVA DE EMERGÊNCIA (R16) DIZ QUANTOS ELE {laranja:DEVERIA TER}",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r17_4_mesmo-milhao.png",
-      "semente": 1704,
-      "molde": "exercicio",
-      "titulo": "MESMO MILHÃO, OUTRA COBERTURA",
-      "dados": "- ATIVOS DE R$ 1 MILHÃO, R$ 800 MIL EM APARTAMENTO E CARRO (HIPOTÉTICO)\n- DÍVIDAS DE R$ 288 MIL → PL DE {laranja:R$ 712 MIL} · USO = {laranja:80%}\n- DESPESA DE {laranja:R$ 12.400} POR MÊS NAS DUAS\n- A ÚNICA DIFERENÇA: QUANTO DOS INVESTIMENTOS É LÍQUIDO",
-      "cenarios": [
-        {
-          "titulo": "CARLA",
-          "passos": "LÍQUIDO: 37.200\nFORA: IPCA+ E PREVIDÊNCIA\n37.200 ÷ 12.400",
-          "resultado": "3 MESES"
-        },
-        {
-          "titulo": "BEATRIZ",
-          "passos": "LÍQUIDO: 148.800\nFORA: PREVIDÊNCIA\n148.800 ÷ 12.400",
-          "resultado": "12 MESES"
-        }
-      ],
-      "conclusao": {
-        "texto": "META DE 6 MESES (PRÁTICA DE MERCADO) = R$ 74.400 · CARLA AINDA PRECISA DE {vermelho:R$ 37.200}; BEATRIZ JÁ PASSOU DA META",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
+     "titulo": "DENTRO DA FOTO",
+     "desenho": "casa",
+     "rotulos": [
+      "SERVE",
+      "RENDE"
+     ],
+     "texto": "- CASA E CARRO → {verde:ATIVOS DE USO}\n- SERVEM À VIDA → {verde:NÃO PAGAM CONTAS}\n- COFRINHO E ÁRVORE COM FRUTOS → {verde:ATIVOS DE NÃO USO}\n- DÃO FRUTOS → {verde:GERAM RETORNO}"
     }
-  ]
+   ],
+   "faixas": [
+    "{ciano:FOTO NOVA A CADA MUDANÇA:} O BALANÇO É REFEITO DE TEMPOS EM TEMPOS",
+    "{ciano:A SEGUNDA CÂMERA (FILMADORA):} ÍNDICE DE POUPANÇA, NA R17C"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} FOTO REGISTRA O QUE EXISTE · NO BALANÇO, O PREÇO DOS BENS É UMA ESTIMATIVA ATÉ O DIA DA VENDA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r17a_3_conteudo-1.png",
+   "semente": 1703,
+   "molde": "colunas",
+   "titulo": "O BALANÇO PATRIMONIAL PESSOAL (1/2)",
+   "topo": "{ciano:BALANÇO PATRIMONIAL PESSOAL:} LISTA ESTRUTURADA DO QUE SE {laranja:POSSUI} E DO QUE SE {laranja:DEVE} · POSIÇÃO NUM MOMENTO",
+   "colunas": [
+    {
+     "titulo": "ATIVOS (POSSUI)",
+     "texto": "- DE USO: MORADIA, VEÍCULOS, BENS PESSOAIS\n- DE NÃO USO: INVESTIMENTOS\n- IMÓVEIS PARA RENDA\n- PARTICIPAÇÕES EM EMPRESAS"
+    },
+    {
+     "titulo": "PASSIVOS (DEVE)",
+     "texto": "- FINANCIAMENTO DO IMÓVEL\n- FINANCIAMENTO DO VEÍCULO\n- FATURAS DE CARTÃO\n- EMPRÉSTIMOS E OUTRAS DÍVIDAS"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:PATRIMÔNIO LÍQUIDO = ATIVOS − PASSIVOS} · {ciano:PERMITE AVALIAR:} SOLIDEZ FINANCEIRA · NÍVEL DE ENDIVIDAMENTO · CAPACIDADE DE ACUMULAR RIQUEZA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r17a_3_conteudo-2.png",
+   "semente": 1704,
+   "molde": "colunas",
+   "titulo": "O QUE SERVE E O QUE RENDE (2/2)",
+   "topo": "{ciano:POR QUE SEPARAR:} HÁ ATIVO QUE NÃO RENDE NEM VALORIZA · A SEPARAÇÃO MOSTRA O QUE DE FATO TRABALHA PELOS OBJETIVOS",
+   "colunas": [
+    {
+     "titulo": "DE USO",
+     "texto": "- MORADIA\n- VEÍCULOS\n- BENS PESSOAIS\n- SEM RENDA DIRETA\n- AINDA GERAM CUSTO: SEGURO, IMPOSTO, MANUTENÇÃO"
+    },
+    {
+     "titulo": "DE NÃO USO",
+     "texto": "- INVESTIMENTOS FINANCEIROS\n- IMÓVEIS PARA RENDA\n- PARTICIPAÇÕES\n- EXEMPLOS: PREVIDÊNCIA, CDB, TÍTULOS PÚBLICOS\n- GERAM RETORNO"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:CUIDADO:} MAIS ATIVOS DE USO = MENOS PATRIMÔNIO DISPONÍVEL PARA OBJETIVOS E EMERGÊNCIAS · IMÓVEL: {laranja:MORADIA} É USO; {laranja:ALUGADO} É NÃO USO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r17a_4_raio-x-da-carla.png",
+   "semente": 1705,
+   "molde": "exercicio",
+   "titulo": "O RAIO-X DA CARLA: A FOTO",
+   "dados": "- HIPOTÉTICO: CARLA · USO: IMÓVEL {ciano:700.000} + CARRO {ciano:100.000}\n- NÃO USO: 37.200 + 60.000 + 102.800\n- DÍVIDAS: 250.000 + 30.000 + 8.000\n- 42 ANOS, ASSALARIADA, 1 FILHO\n- A ÚNICA DIFERENÇA: O JEITO DE OLHAR",
+   "cenarios": [
+    {
+     "titulo": "O TOTAL",
+     "passos": "ATIVOS: 1.000.000\nPASSIVOS: 288.000\n1.000.000 − 288.000",
+     "resultado": "LÍQUIDO: 712.000"
+    },
+    {
+     "titulo": "A COMPOSIÇÃO",
+     "passos": "USO: 800.000\nNÃO USO: 200.000\n800.000 ÷ 1.000.000",
+     "resultado": "80% DE USO"
+    }
+   ],
+   "conclusao": {
+    "texto": "DE CADA 10 REAIS, {laranja:8} ESTÃO EM CASA E CARRO · VALORES ESTIMADOS A MERCADO NA DATA DO BALANÇO (SIMPLIFICAÇÃO)",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r17b_1_patrimonio-e-folego.png",
+   "semente": 1706,
+   "molde": "mito_verdade",
+   "titulo": "PATRIMÔNIO ALTO = FÔLEGO?",
+   "mitos": [
+    "TEM MUITO",
+    "ESTÁ PROTEGIDA"
+   ],
+   "verdade": "CONTA O {laranja:LÍQUIDO}",
+   "desenho": {
+    "nome": "ampulheta",
+    "largura": 130
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} CARLA PERDE O EMPREGO\n- PATRIMÔNIO LÍQUIDO: 712.000\n- DINHEIRO QUE SAI RÁPIDO E SEM PERDA: 37.200 → {vermelho:3 MESES} DE CONTAS\n- APARTAMENTO E CARRO NÃO PAGAM BOLETO\n- PREVIDÊNCIA E TÍTULO LONGO NÃO SAEM RÁPIDO SEM PERDA\n- {ciano:3 TEMAS:} A CONTA · O QUE ENTRA · A PONTE COM A RESERVA"
+  },
+  {
+   "saida": "r17b_2_se-o-filme-parar.png",
+   "semente": 1707,
+   "molde": "comparacao",
+   "titulo": "SE O FILME PARAR",
+   "colunas": [
+    {
+     "titulo": "A FOTO",
+     "desenho": "casa",
+     "rotulos": [
+      "O QUE TEM",
+      "HOJE"
+     ],
+     "texto": "- TUDO O QUE TEM E DEVE → {laranja:BALANÇO}\n- PARTE QUE PODE SER USADA JÁ → {laranja:ATIVOS LÍQUIDOS}\n- CASA E CARRO NA FOTO → {laranja:NÃO ENTRAM NA CONTA}\n- INVESTIMENTO TRAVADO → {laranja:TAMBÉM NÃO}"
+    },
+    {
+     "titulo": "O FILME",
+     "desenho": "ampulheta",
+     "rotulos": [
+      "MESES",
+      "FÔLEGO"
+     ],
+     "texto": "- O FILME PARA → {verde:A RENDA PARA}\n- AS CONTAS CONTINUAM → {verde:DESPESAS MENSAIS}\n- QUANTOS MESES AGUENTA → {verde:COBERTURA}\n- QUANTOS DEVERIA AGUENTAR → {verde:META DA RESERVA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:FÔLEGO CURTO:} PRIMEIRO LIQUIDEZ, DEPOIS RISCO",
+    "{ciano:FÔLEGO MEDIDO EM:} MESES DE DESPESA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} FOTO TIRADA FICA IGUAL · A COBERTURA SE ALTERA A CADA MÊS, COM O SALDO E COM AS CONTAS",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r17b_3_conteudo-1.png",
+   "semente": 1708,
+   "molde": "colunas",
+   "titulo": "A CONTA DA COBERTURA (1/2)",
+   "topo": "{ciano:COBERTURA (EM MESES) = ATIVOS LÍQUIDOS ÷ DESPESAS MENSAIS} · EXEMPLO: 60.000 ÷ 10.000 = {laranja:6 MESES}",
+   "colunas": [
+    {
+     "titulo": "NUMERADOR",
+     "texto": "- {verde:ENTRA:} SALDO DISPONÍVEL JÁ, PELO VALOR CHEIO\n- {vermelho:NÃO ENTRA:} ATIVOS DE USO\n- {vermelho:NÃO ENTRA:} IMÓVEIS\n- {vermelho:NÃO ENTRA:} RESGATE COM PERDA OU DEMORA"
+    },
+    {
+     "titulo": "DENOMINADOR",
+     "texto": "- {ciano:FIXAS:} ALUGUEL, PRESTAÇÃO\n- {ciano:VARIÁVEIS:} LUZ, ÁGUA\n- {ciano:SAZONAIS:} IMPOSTOS, SEGUROS, MATRÍCULAS\n- {ciano:JÁ ASSUMIDOS:} PRESTAÇÕES A VENCER, FATURAS"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:PARA QUE SERVE:} MEDIR A RESILIÊNCIA A IMPREVISTOS · ORIENTAR LIQUIDEZ E RISCO · {vermelho:ESQUECER OS SAZONAIS} INFLA A COBERTURA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r17b_3_conteudo-2.png",
+   "semente": 1709,
+   "molde": "colunas",
+   "titulo": "RENDA E RESERVA (2/2)",
+   "topo": "{ciano:A COBERTURA CONVERSA COM DOIS TEMAS:} O TIPO DE RENDA DO CLIENTE E A META DA RESERVA DE EMERGÊNCIA",
+   "colunas": [
+    {
+     "titulo": "RECEITAS",
+     "texto": "- {ciano:FIXAS:} SALÁRIO, APOSENTADORIA, ALUGUEL RECEBIDO\n- {ciano:VARIÁVEIS:} COMISSÕES, AULAS PARTICULARES\n- MAIS RENDA VARIÁVEL → COBERTURA MAIS IMPORTANTE"
+    },
+    {
+     "titulo": "COBERTURA × RESERVA",
+     "texto": "- COBERTURA: QUANTOS MESES {laranja:TEM}\n- RESERVA: QUANTOS MESES {laranja:DEVERIA TER}\n- DIFERENÇA: O QUE FALTA\n- EXEMPLO: TEM 3, META 6 → FALTAM 3"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:NÃO É} PATRIMÔNIO TOTAL ÷ RENDA · É {laranja:ATIVOS LÍQUIDOS ÷ DESPESAS} · MUITO INVESTIMENTO SEM LIQUIDEZ = COBERTURA PERTO DE ZERO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r17b_4_carla-e-beatriz.png",
+   "semente": 1710,
+   "molde": "exercicio",
+   "titulo": "MESMO BALANÇO, FÔLEGOS DIFERENTES",
+   "dados": "- HIPOTÉTICO: CARLA E BEATRIZ, {ciano:1 MILHÃO} EM ATIVOS CADA\n- 800.000 EM APARTAMENTO E CARRO, NAS DUAS\n- MESMAS DÍVIDAS · DESPESA DE {ciano:12.400} POR MÊS\n- A ÚNICA DIFERENÇA: QUANTO É LÍQUIDO",
+   "cenarios": [
+    {
+     "titulo": "CARLA",
+     "passos": "LÍQUIDO: 37.200\n37.200 ÷ 12.400\nRESTO: TESOURO IPCA+ E PREVIDÊNCIA",
+     "resultado": "3 MESES"
+    },
+    {
+     "titulo": "BEATRIZ",
+     "passos": "LÍQUIDO: 148.800\n148.800 ÷ 12.400\n4 VEZES O FÔLEGO",
+     "resultado": "12 MESES"
+    }
+   ],
+   "conclusao": {
+    "texto": "{ciano:META DA CARLA (6 MESES, PRÁTICA DE MERCADO):} 6 × 12.400 = 74.400 · TEM 37.200 → FALTAM {laranja:37.200} · A 3.100 POR MÊS: 12 MESES",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r17c_1_orcamento-equilibrado.png",
+   "semente": 1711,
+   "molde": "mito_verdade",
+   "titulo": "EQUILIBRADO = POUPANDO?",
+   "mitos": [
+    "CONTAS EM DIA",
+    "ESTÁ POUPANDO"
+   ],
+   "verdade": "DESPESA {laranja:<} RENDA",
+   "desenho": {
+    "nome": "balanca",
+    "largura": 170
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} GANHA 10.000 E GASTA 10.000\n- NENHUMA DÍVIDA, NENHUM ATRASO\n- PARTE DA RENDA QUE VIRA PATRIMÔNIO: {vermelho:ZERO}\n- 10 ANOS ASSIM = 10 ANOS SEM ACUMULAR\n- EQUILÍBRIO NÃO É SUPERÁVIT\n- SE POUPASSE 1.000 POR MÊS: ÍNDICE DE 10%\n- {ciano:3 TEMAS:} A FÓRMULA · A BASE DE CÁLCULO · OS 3 ORÇAMENTOS"
+  },
+  {
+   "saida": "r17c_2_o-filme.png",
+   "semente": 1712,
+   "molde": "comparacao",
+   "titulo": "O FILME",
+   "colunas": [
+    {
+     "titulo": "A FILMADORA",
+     "desenho": "monitor_sinais",
+     "rotulos": [
+      "MÊS A MÊS",
+      "MOVIMENTO"
+     ],
+     "texto": "- FILME DO MÊS → {laranja:ORÇAMENTO}\n- O QUE ENTRA → {laranja:RENDA}\n- O QUE SAI → {laranja:DESPESAS}\n- O QUE FICA → {laranja:VALOR POUPADO}"
+    },
+    {
+     "titulo": "A PERGUNTA",
+     "desenho": "cofrinho",
+     "rotulos": [
+      "DE CADA REAL",
+      "QUANTO FICA"
+     ],
+     "texto": "- QUANTO FICA DE CADA REAL → {verde:ÍNDICE DE POUPANÇA}\n- ENTRA MUITO E SAI TUDO → {verde:ÍNDICE ZERO}\n- SAI MAIS DO QUE ENTRA → {verde:ÍNDICE NEGATIVO}\n- CADA MÊS DE SOBRA → {verde:AUMENTA A FOTO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:A FOTO (R17A):} O QUE JÁ FOI ACUMULADO",
+    "{ciano:O FILME MUDA A FOTO:} POUPANÇA MENSAL VIRA PATRIMÔNIO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} FILME PRONTO NÃO SE ALTERA · O ÍNDICE É REFEITO A CADA PERÍODO, E O CLIENTE PODE REESCREVER O ROTEIRO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r17c_3_conteudo-1.png",
+   "semente": 1713,
+   "molde": "colunas",
+   "titulo": "O ÍNDICE DE POUPANÇA (1/2)",
+   "topo": "{ciano:ÍNDICE DE POUPANÇA = VALOR POUPADO NO PERÍODO ÷ RENDA TOTAL DO PERÍODO} · A PARTE DA RENDA QUE VAI PARA A POUPANÇA",
+   "colunas": [
+    {
+     "titulo": "PARA QUE SERVE",
+     "texto": "- ACOMPANHAR A EVOLUÇÃO FINANCEIRA\n- FIXAR METAS DE ACUMULAÇÃO\n- VER SE O PATRIMÔNIO CRESCE\n- EXEMPLO: 2.000 ÷ 10.000 = {laranja:20%}"
+    },
+    {
+     "titulo": "A BASE",
+     "texto": "- FÓRMULA: {laranja:RENDA TOTAL}\n- TAMBÉM SE VÊ: RENDA LÍQUIDA\n- LÍQUIDA = DEPOIS DE IMPOSTOS E DESCONTOS\n- O NÚMERO MUDA COM A BASE"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:CUIDADO:} NUNCA COMPARE UM MÊS NA RENDA TOTAL COM OUTRO NA RENDA LÍQUIDA · NA PROVA, VALE A FÓRMULA DO ENUNCIADO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r17c_3_conteudo-2.png",
+   "semente": 1714,
+   "molde": "colunas",
+   "titulo": "OS 3 RESULTADOS DO ORÇAMENTO (2/2)",
+   "topo": "{ciano:CLASSIFICAÇÃO DO BANCO CENTRAL:} COMPARA {laranja:DESPESAS (D)} COM {laranja:RECEITAS (R)} · CADA RESULTADO TEM UM SINAL DO ÍNDICE",
+   "colunas": [
+    {
+     "titulo": "DEFICITÁRIO",
+     "texto": "- D > R\n- ÍNDICE {vermelho:NEGATIVO}\n- GASTA MAIS DO QUE GANHA\n- A DIFERENÇA VIRA DÍVIDA\n- EXEMPLO: R 10.000, D 11.000"
+    },
+    {
+     "titulo": "NEUTRO",
+     "texto": "- D = R\n- ÍNDICE {laranja:ZERO}\n- TAMBÉM CHAMADO DE EQUILIBRADO\n- NADA VIRA POUPANÇA\n- EXEMPLO: R 10.000, D 10.000"
+    },
+    {
+     "titulo": "SUPERAVITÁRIO",
+     "texto": "- D < R\n- ÍNDICE {verde:POSITIVO}\n- GASTA MENOS DO QUE GANHA\n- A DIFERENÇA VIRA POUPANÇA\n- EXEMPLO: R 10.000, D 8.000"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:META BÁSICA DO BANCO CENTRAL:} MANTER O ORÇAMENTO {verde:SUPERAVITÁRIO} · {vermelho:NÃO É} POUPADO ÷ DESPESAS: O DIVISOR É A RENDA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r17c_4_meta-de-20.png",
+   "semente": 1715,
+   "molde": "exercicio",
+   "titulo": "DE 15,5% PARA 20% DA RENDA",
+   "dados": "- HIPOTÉTICO: CARLA, RENDA TOTAL DE {ciano:20.000}\n- DESCONTOS: 4.500 · RENDA LÍQUIDA: 15.500\n- DESPESAS: 12.400 · SOBRA: 3.100\n- RENDA E DESPESAS CONSTANTES (SIMPLIFICAÇÃO)\n- A ÚNICA DIFERENÇA: A DESPESA MENSAL",
+   "cenarios": [
+    {
+     "titulo": "HOJE",
+     "passos": "POUPA 3.100\n3.100 ÷ 20.000\n(NA LÍQUIDA: 20,00%)",
+     "resultado": "15,50%"
+    },
+    {
+     "titulo": "META DE 20%",
+     "passos": "20% DE 20.000 = 4.000\nFALTAM 900 POR MÊS\nDESPESA: 12.400 → 11.500",
+     "resultado": "CORTE DE 7,26%"
+    }
+   ],
+   "conclusao": {
+    "texto": "{verde:EFEITO DUPLO:} POUPA MAIS E A RESERVA DE 37.200 PASSA A COBRIR {laranja:3,23 MESES} (ANTES, 3,00) · MELHORA O FILME E A FOTO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
 }
