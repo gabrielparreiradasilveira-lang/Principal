@@ -1,0 +1,589 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "molde": "mito_verdade",
+   "saida": "r33a_1_so-especular.png",
+   "semente": 3301,
+   "titulo": "DERIVATIVO É SÓ APOSTA?",
+   "mitos": [
+    "SÓ SERVE PARA ESPECULAR",
+    "É COISA DE CASSINO"
+   ],
+   "verdade": "NASCEU PARA {verde:PROTEGER}",
+   "desenho": {
+    "nome": "carro",
+    "largura": 175
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} PRODUTOR DE MILHO, COLHEITA EM 6 MESES\n- TRAVA O PREÇO NA BOLSA → {verde:HEDGE}\n- {ciano:3 FINALIDADES:} HEDGE · ESPECULAÇÃO · ARBITRAGEM\n- NO PLANEJAMENTO: O {verde:HEDGE} VEM EM 1º LUGAR\n- EXIGE {laranja:ALTO CONHECIMENTO TÉCNICO} E CONTROLE DE RISCO\n- {ciano:ATIVO-OBJETO:} AÇÃO, ÍNDICE, JUROS, MOEDA OU COMMODITY\n- {ciano:REGRA:} O VALOR {laranja:DERIVA} DE UM ATIVO-OBJETO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r33a_2_tres-situacoes.png",
+   "semente": 3302,
+   "titulo": "TRÊS SITUAÇÕES DO DIA A DIA",
+   "colunas": [
+    {
+     "titulo": "SEGURO E SAFRA",
+     "desenho": "carro",
+     "rotulos": [
+      "PRÊMIO",
+      "PREÇO TRAVADO"
+     ],
+     "texto": "- PAGA O PRÊMIO → {verde:OPÇÃO}\n- DIREITO À INDENIZAÇÃO → {verde:TITULAR}\n- PREÇO DO TRIGO COMBINADO → {laranja:FUTURO}\n- AGRICULTOR E MOINHO → {laranja:DOIS OBRIGADOS}"
+    },
+    {
+     "titulo": "TROCA DE DÍVIDAS",
+     "desenho": "balanca",
+     "rotulos": [
+      "DÓLAR",
+      "CDI"
+     ],
+     "texto": "- DEVE EM DÓLAR, RECEBE EM REAIS\n- TROCA OS INDEXADORES → {ciano:SWAP}\n- SÓ O SALDO MUDA DE MÃO\n- O VALOR DEPENDE DE OUTRA COISA → {verde:ATIVO-OBJETO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ATIVO-OBJETO:} AÇÃO · ÍNDICE · JUROS · MOEDA · COMMODITY (MILHO, BOI, CAFÉ)",
+    "{ciano:NESTA SÉRIE:} FUTURO · OPÇÕES · SWAP · ESTRUTURADOS COM DERIVATIVOS · DIREITOS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} SÓ SE SEGURA O CARRO QUE SE TEM · DERIVATIVO {laranja:SEM O ATIVO} = ESPECULAÇÃO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r33a_3_finalidades.png",
+   "semente": 3303,
+   "titulo": "DERIVATIVOS E AS 3 FINALIDADES",
+   "topo": "{ciano:DERIVATIVO:} INSTRUMENTO CUJO VALOR {laranja:DEPENDE} DO ATIVO SUBJACENTE (ATIVO-OBJETO)",
+   "colunas": [
+    {
+     "titulo": "AS 3 FINALIDADES",
+     "texto": "- {verde:HEDGE:} PROTEÇÃO CONTRA OSCILAÇÃO ADVERSA\n- EX.: EMPRESA COM DÍVIDA EM DÓLAR\n- {laranja:ESPECULAÇÃO:} GANHO COM O MOVIMENTO\n- EX.: FUTURO DE ÍNDICE SEM CARTEIRA\n- {ciano:ARBITRAGEM:} DISTORÇÃO ENTRE MERCADOS"
+    },
+    {
+     "titulo": "OS 2 AVISOS",
+     "texto": "- PEDE {laranja:ALTO CONHECIMENTO TÉCNICO}\n- E GESTÃO RIGOROSA DO RISCO\n- NO PLANEJAMENTO: {verde:HEDGE} EM 1º LUGAR\n- MESMO CONTRATO: HEDGE OU APOSTA\n- QUEM DEFINE: A {laranja:POSIÇÃO} DE QUEM OPERA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} ARBITRAGEM {vermelho:NÃO} É HEDGE · O HEDGE PRESSUPÕE UM {laranja:RISCO JÁ EXISTENTE}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r33a_4_milho.png",
+   "semente": 3304,
+   "titulo": "HEDGE OU ESPECULAÇÃO?",
+   "dados": "- FUTURO DE {ciano:1.000 SACAS} DE MILHO A {ciano:R$ 100} (HIPOTÉTICO)\n- NO VENCIMENTO, O PREÇO CAI A {vermelho:R$ 80}\n- SEM CUSTOS E SEM MARGENS\n- FUTURO = FÍSICO NO VENCIMENTO\n- A ÚNICA DIFERENÇA: A FINALIDADE",
+   "cenarios": [
+    {
+     "titulo": "AGRICULTOR · VENDIDO",
+     "passos": "FUTURO: +20.000\nFÍSICO A 80: 80.000\nTOTAL = PREÇO TRAVADO",
+     "resultado": "R$ 100.000"
+    },
+    {
+     "titulo": "ESPECULADOR · COMPRADO",
+     "passos": "FUTURO: −20.000\nSEM SAFRA PARA\nCOMPENSAR",
+     "resultado": "−R$ 20.000"
+    }
+   ],
+   "conclusao": {
+    "texto": "MESMO CONTRATO, DUAS FINALIDADES · O HEDGE {verde:NEUTRALIZOU} A QUEDA DO PREÇO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r33b_1_so-no-vencimento.png",
+   "semente": 3311,
+   "titulo": "SÓ NO VENCIMENTO?",
+   "mitos": [
+    "RESULTADO SÓ NO VENCIMENTO",
+    "MARGEM É CUSTO"
+   ],
+   "verdade": "AJUSTE {verde:DIÁRIO}",
+   "desenho": {
+    "nome": "livro_caixa",
+    "largura": 140
+   },
+   "apoio": "- {ciano:MINICONTRATO DE IBOVESPA (WIN):} {laranja:R$ 0,20} POR PONTO\n- ÍNDICE SOBE 1.000 PONTOS → ± R$ 200 POR CONTRATO\n- GANHO CREDITADO E PERDA DEBITADA {laranja:A CADA PREGÃO}\n- DAY TRADE: AJUSTE SÓ SOBRE O PREÇO DA OPERAÇÃO\n- MARGEM: {verde:DEPÓSITO BLOQUEADO}, DEVOLVIDO AO ENCERRAR\n- {ciano:REGRA:} O FUTURO EXIGE CAIXA DISPONÍVEL TODO DIA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r33b_2_safra-caderneta.png",
+   "semente": 3312,
+   "titulo": "A SAFRA E A CADERNETA",
+   "colunas": [
+    {
+     "titulo": "CONTRATO DA SAFRA",
+     "desenho": "caminhao",
+     "rotulos": [
+      "HOJE",
+      "EM 6 MESES"
+     ],
+     "texto": "- PREÇO COMBINADO HOJE → {laranja:PREÇO DO FUTURO}\n- AGRICULTOR SE PROTEGE DA QUEDA → {verde:VENDIDO}\n- MOINHO SE PROTEGE DA ALTA → {verde:COMPRADO}\n- OS DOIS CUMPREM → {laranja:OBRIGAÇÃO}"
+    },
+    {
+     "titulo": "A CADERNETA",
+     "desenho": "livro_caixa",
+     "rotulos": [
+      "TODO DIA",
+      "DIFERENÇA"
+     ],
+     "texto": "- ACERTO NO FIM DO DIA → {ciano:AJUSTE DIÁRIO}\n- QUEM PERDE PAGA → {vermelho:DÉBITO}\n- DEPÓSITO COM O FIADOR → {laranja:MARGEM}\n- FIADOR NO MEIO → {verde:B3}"
+    }
+   ],
+   "faixas": [
+    "{ciano:CONTRAPARTE CENTRAL:} A B3 COMPRA DE TODO VENDEDOR E VENDE A TODO COMPRADOR",
+    "{ciano:PADRONIZAÇÃO:} TAMANHO, VENCIMENTO E ATIVO-OBJETO DEFINIDOS PELA BOLSA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA SAFRA AS PARTES SE CONHECEM · NA BOLSA, A {laranja:B3 GARANTE} O PAGAMENTO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r33b_3_ajuste-margem.png",
+   "semente": 3313,
+   "titulo": "FUTURO, AJUSTE E MARGEM",
+   "topo": "{ciano:FUTURO:} COMPRA OU VENDA COMBINADA HOJE PARA DATA FUTURA · {laranja:OBRIGAÇÃO DOS DOIS LADOS}",
+   "colunas": [
+    {
+     "titulo": "O AJUSTE DIÁRIO",
+     "texto": "- DIA DA OPERAÇÃO: {laranja:PA DO DIA − PREÇO DA OPERAÇÃO}\n- DIAS SEGUINTES: {laranja:PA DO DIA − PA ANTERIOR}\n- × VALOR DO PONTO × Nº DE CONTRATOS\n- POSITIVO: {verde:COMPRADOR RECEBE}\n- NEGATIVO: {vermelho:COMPRADOR PAGA}"
+    },
+    {
+     "titulo": "AS GARANTIAS",
+     "texto": "- DAY TRADE: MARGEM DA {laranja:CORRETORA}\n- MAIS DE 1 DIA: MARGEM DA {laranja:B3}\n- GARANTIA CONSUMIDA → {vermelho:CHAMADA DE MARGEM}\n- ATIVOS-OBJETO: ÍNDICES, JUROS,\n- MOEDAS, COMMODITIES E AÇÕES"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:PA:} PREÇO DE AJUSTE · {ciano:NA PROVA:} FUTURO TEM {vermelho:OBRIGAÇÃO}; NA OPÇÃO, O TITULAR TEM {verde:DIREITO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r33b_4_win.png",
+   "semente": 3314,
+   "titulo": "QUANTO ENTRA E SAI POR DIA?",
+   "dados": "- COMPRA DE {ciano:5 WIN} A {ciano:130.000} PONTOS (HIPOTÉTICO)\n- CADA PONTO VALE {ciano:R$ 0,20}\n- DIA 1: PA DE 130.800 · DIA 2: PA DE 129.500\n- SEM CUSTOS OPERACIONAIS\n- A ÚNICA DIFERENÇA: O DIA",
+   "cenarios": [
+    {
+     "titulo": "DIA 1 · ALTA",
+     "passos": "130.800 − 130.000 = 800\n800 × 0,20 = 160 POR CONTRATO\n160 × 5 CONTRATOS",
+     "resultado": "+R$ 800"
+    },
+    {
+     "titulo": "DIA 2 · QUEDA",
+     "passos": "129.500 − 130.800 = −1.300\n−1.300 × 0,20 = −260 POR CONTRATO\n−260 × 5 CONTRATOS",
+     "resultado": "−R$ 1.300"
+    }
+   ],
+   "conclusao": {
+    "texto": "ACUMULADO EM 2 DIAS: {vermelho:−R$ 500} · NO DIA 2, R$ 1.300 {laranja:SAÍRAM DA CONTA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r33c_1_titular-obrigado.png",
+   "semente": 3321,
+   "titulo": "O TITULAR É OBRIGADO?",
+   "mitos": [
+    "TITULAR TEM DE EXERCER",
+    "QUEM COMPRA TEM OBRIGAÇÃO"
+   ],
+   "verdade": "O TITULAR TEM {verde:DIREITO}",
+   "desenho": {
+    "nome": "pessoa",
+    "largura": 120
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} 1.000 CALLS, PRÊMIO DE R$ 1,50 POR AÇÃO\n- AÇÃO ABAIXO DO STRIKE NO VENCIMENTO → {verde:NÃO EXERCE}\n- PERDA MÁXIMA DO TITULAR: {laranja:O PRÊMIO}\n- {ciano:LANÇADOR:} RECEBE O PRÊMIO E FICA COM A {vermelho:OBRIGAÇÃO}\n- {ciano:REGRA:} QUEM PAGA TEM DIREITO; QUEM RECEBE TEM DEVER"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r33c_2_segurado-seguradora.png",
+   "semente": 3322,
+   "titulo": "O SEGURADO E A SEGURADORA",
+   "colunas": [
+    {
+     "titulo": "O SEGURADO",
+     "desenho": "pessoa",
+     "rotulos": [
+      "PAGA",
+      "DIREITO"
+     ],
+     "texto": "- PAGA O PRÊMIO → {verde:TITULAR}\n- PEDE A INDENIZAÇÃO SE QUISER → {verde:EXERCE}\n- NADA ACONTECE → {laranja:PERDE O PRÊMIO}\n- RISCO LIMITADO → {verde:PERDA MÁXIMA = PRÊMIO}"
+    },
+    {
+     "titulo": "A SEGURADORA",
+     "desenho": "banco",
+     "rotulos": [
+      "RECEBE",
+      "OBRIGAÇÃO"
+     ],
+     "texto": "- RECEBE O PRÊMIO → {laranja:LANÇADOR}\n- PAGA SE HOUVER SINISTRO → {vermelho:É EXERCIDO}\n- RESERVA PARA PAGAR → {laranja:GARANTIA NA B3}\n- RISCO GRANDE → {vermelho:PERDA ALÉM DO PRÊMIO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:CALL:} DIREITO DE COMPRAR · PROTEGE QUEM TEME A ALTA · {ciano:PUT:} DIREITO DE VENDER · PROTEGE QUEM TEME A QUEDA",
+    "{ciano:STRIKE:} O VALOR DA APÓLICE = PREÇO DE EXERCÍCIO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} SEGURADO NÃO LUCRA COM O SINISTRO · O TITULAR PODE GANHAR {laranja:VÁRIAS VEZES O PRÊMIO}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r33c_3_opcoes.png",
+   "semente": 3323,
+   "titulo": "OPÇÕES: DIREITO, DEVER E ESTILOS",
+   "topo": "{ciano:CALL:} DIREITO DE {verde:COMPRAR} · {ciano:PUT:} DIREITO DE {vermelho:VENDER} · AO PREÇO DE EXERCÍCIO (STRIKE)",
+   "colunas": [
+    {
+     "titulo": "TITULAR × LANÇADOR",
+     "texto": "- TITULAR: {verde:PAGA} O PRÊMIO, TEM O DIREITO\n- LANÇADOR: {laranja:RECEBE}, TEM A OBRIGAÇÃO\n- LANÇOU CALL: PERDE SE A AÇÃO {vermelho:SOBE}\n- LANÇOU PUT: PERDE SE A AÇÃO {vermelho:CAI}\n- GARANTIAS NA B3: {laranja:DO LANÇADOR}"
+    },
+    {
+     "titulo": "ESTILOS E VENCIMENTO",
+     "texto": "- AMERICANA: EXERCE {verde:ATÉ} O VENCIMENTO\n- EUROPEIA: SÓ {laranja:NA DATA} DO VENCIMENTO\n- AÇÕES E ETFS: {vermelho:PUT SÓ EUROPEIA}\n- VENCE NA {laranja:3ª SEXTA-FEIRA} DO MÊS\n- DENTRO DO DINHEIRO: {verde:EXERCÍCIO AUTOMÁTICO}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} QUEM {verde:PAGA} O PRÊMIO É O TITULAR · QUEM {laranja:RECEBE} É O LANÇADOR",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r33c_4_call-alavanca.png",
+   "semente": 3324,
+   "titulo": "QUANTO A CALL ALAVANCA?",
+   "dados": "- AÇÃO A {ciano:R$ 30} · 1.000 CALLS, STRIKE {ciano:R$ 30} (HIPOTÉTICO)\n- PRÊMIO DE {ciano:R$ 1,50} POR AÇÃO = R$ 1.500\n- EQUILÍBRIO: 30 + 1,50 = {laranja:R$ 31,50}\n- SEM CUSTOS E SEM IR\n- A ÚNICA DIFERENÇA: A AÇÃO NO VENCIMENTO",
+   "cenarios": [
+    {
+     "titulo": "AÇÃO SOBE A R$ 34",
+     "passos": "CALL: 34 − 30 = 4,00\n4.000 SOBRE 1.500\nAÇÃO: +13,33%",
+     "resultado": "+166,67%"
+    },
+    {
+     "titulo": "AÇÃO CAI A R$ 29",
+     "passos": "FORA DO DINHEIRO\nCALL VALE ZERO\nAÇÃO: −3,33%",
+     "resultado": "−100%"
+    }
+   ],
+   "conclusao": {
+    "texto": "{laranja:ALAVANCAGEM} NOS DOIS SENTIDOS · LUCRO SÓ COM A AÇÃO {verde:ACIMA DE R$ 31,50}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r33d_1_swap-integral.png",
+   "semente": 3331,
+   "titulo": "SWAP TROCA O VALOR TODO?",
+   "mitos": [
+    "TROCA OS 5 MILHÕES",
+    "AS DUAS PONTAS SÃO PAGAS"
+   ],
+   "verdade": "LIQUIDA SÓ A {verde:DIFERENÇA}",
+   "desenho": {
+    "nome": "balanca",
+    "largura": 140
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} SWAP DE R$ 5 MILHÕES\n- EMPRESA {verde:RECEBE DÓLAR} E {laranja:PAGA CDI}\n- {ciano:SWAP:} TROCA A RENTABILIDADE DE 2 INDEXADORES\n- B3: {laranja:BALCÃO ORGANIZADO}, PRAZO LIVRE\n- USO: GESTÃO DE RISCO DE JUROS E CÂMBIO\n- {ciano:REGRA:} PAGA-SE O SALDO ENTRE AS PONTAS"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r33d_2_seguro-troca.png",
+   "semente": 3332,
+   "titulo": "O SEGURO E A TROCA",
+   "colunas": [
+    {
+     "titulo": "O VALOR DO SEGURO",
+     "desenho": "carro",
+     "rotulos": [
+      "JÁ VALE",
+      "PODE VALER"
+     ],
+     "texto": "- CARRO JÁ BATIDO → {verde:DENTRO DO DINHEIRO}\n- CARRO INTACTO → {laranja:SÓ VALOR DE TEMPO}\n- BAIRRO DE RISCO → {vermelho:VOLATILIDADE ALTA}\n- SEGURO MAIS CARO → {vermelho:PRÊMIO MAIOR}"
+    },
+    {
+     "titulo": "A TROCA DE DÍVIDAS",
+     "desenho": "balanca",
+     "rotulos": [
+      "DÓLAR",
+      "CDI"
+     ],
+     "texto": "- DÍVIDA EM DÓLAR → {laranja:RISCO CAMBIAL}\n- RECEBE O DÓLAR → {verde:COMPRADA EM DÓLAR}\n- PAGA O CDI → {vermelho:VENDIDA EM CDI}\n- SÓ O SALDO → {ciano:LIQUIDAÇÃO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:PRÊMIO:} VALOR INTRÍNSECO + VALOR EXTRÍNSECO (TEMPO E INCERTEZA)",
+    "{ciano:CONSEQUÊNCIA:} A DÍVIDA EM DÓLAR PASSA A CUSTAR CDI, SEM RENEGOCIAR"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} SEGURADORA PAGA SÓ NO SINISTRO · NO SWAP, {laranja:QUEM PAGA DEPENDE} DOS INDEXADORES",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r33d_3_moneyness-swap.png",
+   "semente": 3333,
+   "titulo": "MONEYNESS, PRÊMIO E SWAP",
+   "topo": "{ciano:MONEYNESS:} {verde:DENTRO} (ITM) · {laranja:NO} (ATM) · {vermelho:FORA} DO DINHEIRO (OTM)",
+   "colunas": [
+    {
+     "titulo": "CALL × PUT",
+     "texto": "- CALL ITM: AÇÃO {verde:ACIMA} DO STRIKE\n- PUT ITM: AÇÃO {verde:ABAIXO} DO STRIKE\n- ATM: AÇÃO {laranja:IGUAL} AO STRIKE\n- INTRÍNSECO: CALL = AÇÃO − STRIKE\n- PUT = STRIKE − AÇÃO\n- {laranja:VOLATILIDADE ↑} → CALL E PUT MAIS CARAS"
+    },
+    {
+     "titulo": "SWAP",
+     "texto": "- TROCA DE FLUXOS DE {laranja:2 INDEXADORES}\n- EX.: DÓLAR × CDI · PRÉ × CDI\n- B3: {laranja:BALCÃO ORGANIZADO}\n- COMPRADO EM UM, VENDIDO NO OUTRO\n- LIQUIDA O {verde:RESULTADO LÍQUIDO}\n- USO: {ciano:INSTITUCIONAIS}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} DENTRO DO DINHEIRO {vermelho:≠} LUCRO · O PRÊMIO PAGO PODE SUPERAR O INTRÍNSECO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r33d_4_swap-dolar-cdi.png",
+   "semente": 3334,
+   "titulo": "QUANTO O SWAP LIQUIDA?",
+   "dados": "- SWAP DE {ciano:R$ 5 MILHÕES} (HIPOTÉTICO)\n- EMPRESA RECEBE DÓLAR E PAGA CDI\n- DÓLAR: {verde:+10%} · CDI: {laranja:6%} NO PERÍODO\n- SEM CUPOM CAMBIAL E SEM CONVENÇÕES\n- A ÚNICA DIFERENÇA: A PONTA",
+   "cenarios": [
+    {
+     "titulo": "PONTA DÓLAR",
+     "passos": "5.000.000 × 10%\nA EMPRESA\nRECEBE",
+     "resultado": "R$ 500.000"
+    },
+    {
+     "titulo": "PONTA CDI",
+     "passos": "5.000.000 × 6%\nA EMPRESA\nPAGA",
+     "resultado": "R$ 300.000"
+    }
+   ],
+   "conclusao": {
+    "texto": "LIQUIDAÇÃO: A EMPRESA RECEBE {verde:R$ 200.000} · SE O DÓLAR RENDESSE MENOS, ELA {vermelho:PAGARIA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r33e_1_capital-garantido.png",
+   "semente": 3341,
+   "titulo": "ESTRUTURADO GARANTE O CAPITAL?",
+   "mitos": [
+    "SEMPRE DEVOLVE O CAPITAL",
+    "PROTEÇÃO = RISCO ZERO"
+   ],
+   "verdade": "PODE {vermelho:PERDER CAPITAL}",
+   "desenho": {
+    "nome": "montanha_russa",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} ESTRUTURA QUE GANHA SE A BOLSA SOBE ATÉ UM LIMITE\n- {ciano:4 RISCOS:} PERDA DE CAPITAL · LIQUIDAÇÃO ANTECIPADA\n- CHAMADA DE MARGEM · {laranja:BAIXA LIQUIDEZ}\n- A {laranja:VOLATILIDADE} MUDA O PREÇO NO MEIO DO CAMINHO\n- EXIGE {verde:ADEQUAÇÃO RIGOROSA} AO PERFIL\n- {ciano:REGRA:} LEIA AS CLÁUSULAS ANTES DE APLICAR"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r33e_2_carro-apolice.png",
+   "semente": 3342,
+   "titulo": "O CARRO E A APÓLICE",
+   "colunas": [
+    {
+     "titulo": "CARRO COM SEGURO",
+     "desenho": "carro",
+     "rotulos": [
+      "BEM",
+      "APÓLICE"
+     ],
+     "texto": "- O CARRO → {laranja:A AÇÃO}\n- O SEGURO → {verde:A PUT}\n- JUNTOS → {ciano:PUT PROTETORA}\n- PERDA MÁXIMA → {verde:CONHECIDA NO INÍCIO}"
+    },
+    {
+     "titulo": "AS CLÁUSULAS",
+     "desenho": "prancheta",
+     "rotulos": [
+      "LER",
+      "ANTES"
+     ],
+     "texto": "- GATILHO → {laranja:BARREIRA}\n- SE ACONTECER X → {laranja:CENÁRIO CONDICIONAL}\n- CANCELAMENTO → {vermelho:LIQUIDAÇÃO ANTECIPADA}\n- CARÊNCIA → {vermelho:PRAZO E BAIXA LIQUIDEZ}"
+    }
+   ],
+   "faixas": [
+    "{ciano:QUEM LIQUIDA:} BOLSA OU BALCÃO COM GARANTIA → CÂMARA DA B3 · SEM CONTRAPARTE CENTRAL → {vermelho:RISCO DA OUTRA PARTE}",
+    "{ciano:ADEQUAÇÃO:} PIOR CENÁRIO EM REAIS, PRAZO E SAÍDA ANTECIPADA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} A APÓLICE TEM PREÇO FIXO · A ESTRUTURA {laranja:OSCILA COM A VOLATILIDADE}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r33e_3_riscos.png",
+   "semente": 3343,
+   "titulo": "ESTRUTURADOS: PERFIL E RISCOS",
+   "topo": "{ciano:ESTRUTURADO:} ATIVO TRADICIONAL + {laranja:DERIVATIVO} = PERFIL PRÓPRIO DE RISCO E RETORNO",
+   "colunas": [
+    {
+     "titulo": "OS 4 RISCOS",
+     "texto": "- {vermelho:PERDA} PARCIAL OU TOTAL DO CAPITAL\n- {vermelho:LIQUIDAÇÃO ANTECIPADA} POR GATILHO\n- {vermelho:CHAMADA DE MARGEM}: POSIÇÃO COM GARANTIA\n- {vermelho:BAIXA LIQUIDEZ}: SAIR ANTES CUSTA CARO\n- FEITO PARA O {laranja:PRAZO COMBINADO}"
+    },
+    {
+     "titulo": "VOLATILIDADE E LIQUIDAÇÃO",
+     "texto": "- VOLATILIDADE MEXE NO PREÇO DAS OPÇÕES\n- E NO VALOR DA ESTRUTURA ANTES DO FIM\n- COM CONTRAPARTE CENTRAL: {verde:CÂMARA B3}\n- SEM ELA: {vermelho:RISCO DE CONTRAPARTE}\n- BARREIRA: UM DIA PODE MUDAR TUDO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} PERDA MÁXIMA CONHECIDA {vermelho:≠} CAPITAL GARANTIDO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r33e_4_put-protetora.png",
+   "semente": 3344,
+   "titulo": "QUANTO A PUT PROTEGE?",
+   "dados": "- {ciano:1.000 AÇÕES} A R$ 30 (HIPOTÉTICO)\n- 1.000 PUTS, STRIKE {ciano:R$ 28}, PRÊMIO {ciano:R$ 0,80}\n- NO VENCIMENTO, A AÇÃO CAI A {vermelho:R$ 22}\n- SEM CUSTOS E SEM IR\n- A ÚNICA DIFERENÇA: A PROTEÇÃO",
+   "cenarios": [
+    {
+     "titulo": "SEM A PUT",
+     "passos": "30 − 22 = 8,00\n8,00 × 1.000\nQUEDA INTEIRA NO BOLSO",
+     "resultado": "−R$ 8.000"
+    },
+    {
+     "titulo": "COM A PUT",
+     "passos": "PUT: 6,00 × 1.000 = 6.000\n6.000 − 800 = 5.200\n−8.000 + 5.200",
+     "resultado": "−R$ 2.800"
+    }
+   ],
+   "conclusao": {
+    "texto": "PERDA MÁXIMA: {verde:R$ 2,80 POR AÇÃO} (30 − 28 + 0,80), POR PIOR QUE SEJA A QUEDA · SE A AÇÃO SUBIR A R$ 35: {verde:+R$ 4.200}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r33f_1_opcao-dividendo.png",
+   "semente": 3351,
+   "titulo": "OPÇÃO RECEBE DIVIDENDO?",
+   "mitos": [
+    "TITULAR RECEBE O PROVENTO",
+    "TITULAR PERDE NA DATA EX"
+   ],
+   "verdade": "B3 {verde:AJUSTA O STRIKE}",
+   "desenho": {
+    "nome": "dinheiro",
+    "largura": 175
+   },
+   "apoio": "- {ciano:B3, MANUAL DE PROCEDIMENTOS OPERACIONAIS, ITEM 3.2.8}\n- PROVENTO EM DINHEIRO: STRIKE − {laranja:PROVENTO LÍQUIDO}\n- SUBSCRIÇÃO: STRIKE − {laranja:VALOR TEÓRICO DO DIREITO}\n- BONIFICAÇÃO: AJUSTA {laranja:QUANTIDADE, LOTE E STRIKE}\n- TITULAR {vermelho:NÃO VOTA} E {vermelho:NÃO RECEBE} DIVIDENDO\n- DENTRO DO DINHEIRO NO VENCIMENTO: {verde:EXERCÍCIO AUTOMÁTICO}\n- {ciano:REGRA:} O DIREITO DO TITULAR É PRESERVADO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r33f_2_direitos-segurado.png",
+   "semente": 3352,
+   "titulo": "OS DIREITOS DO SEGURADO",
+   "colunas": [
+    {
+     "titulo": "O SEGURADO",
+     "desenho": "prancheta",
+     "rotulos": [
+      "APÓLICE",
+      "EXTRATO"
+     ],
+     "texto": "- APÓLICE POR ESCRITO → {verde:TRANSPARÊNCIA}\n- EXTRATO DO QUE PAGOU → {verde:EXTRATOS}\n- REGRAS DE INDENIZAÇÃO → {verde:LIQUIDAÇÃO CLARA}\n- CONTRATO REGULADO → {verde:PROTEÇÃO CONTRATUAL}"
+    },
+    {
+     "titulo": "A APÓLICE CORRIGIDA",
+     "desenho": "livro_caixa",
+     "rotulos": [
+      "PEÇA",
+      "CORREÇÃO"
+     ],
+     "texto": "- PEÇA DE MENOR VALOR → {laranja:PROVENTO NA DATA EX}\n- CORRIGE A APÓLICE → {verde:STRIKE AJUSTADO}\n- PEDE POR ELE → {verde:EXERCÍCIO AUTOMÁTICO}\n- CORRETOR EXPLICA ANTES → {ciano:DEVER DO PROFISSIONAL}"
+    }
+   ],
+   "faixas": [
+    "{ciano:TITULAR ≠ ACIONISTA:} NÃO VOTA E NÃO RECEBE PROVENTO",
+    "{ciano:NÃO QUER EXERCER?} O TITULAR PRECISA {laranja:REGISTRAR} A DECISÃO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} SEGURADORA E CLIENTE NEGOCIAM · A B3 APLICA {laranja:A MESMA REGRA A TODOS}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r33f_3_direitos.png",
+   "semente": 3353,
+   "titulo": "DIREITOS DE QUEM USA DERIVATIVOS",
+   "topo": "{ciano:4 DIREITOS:} TRANSPARÊNCIA · EXTRATOS · LIQUIDAÇÃO CLARA · {laranja:PROTEÇÃO CONTRATUAL}",
+   "colunas": [
+    {
+     "titulo": "AJUSTE POR PROVENTOS",
+     "texto": "- TITULAR {vermelho:NÃO É ACIONISTA}\n- DINHEIRO: STRIKE − PROVENTO LÍQUIDO\n- SUBSCRIÇÃO: STRIKE − VALOR TEÓRICO\n- BONIFICAÇÃO: QUANTIDADE, LOTE, STRIKE\n- AJUSTE {laranja:NA DATA EX}"
+    },
+    {
+     "titulo": "EXERCÍCIO E DEVER",
+     "texto": "- DENTRO DO DINHEIRO NO VENCIMENTO\n- B3 EXERCE: {verde:EXERCÍCIO AUTOMÁTICO}\n- NÃO QUER? {laranja:REGISTRA A DECISÃO}\n- PROFISSIONAL EXPLICA {ciano:ANTES}\n- RISCOS, OBRIGAÇÕES E CENÁRIOS"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} AJUSTE DO STRIKE {vermelho:≠} PAGAMENTO DE PROVENTO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r33f_4_strike-ajustado.png",
+   "semente": 3354,
+   "titulo": "E SE O STRIKE NÃO MUDASSE?",
+   "dados": "- CALL COM STRIKE {ciano:R$ 30} · AÇÃO A {ciano:R$ 34} (HIPOTÉTICO)\n- PROVENTO LÍQUIDO DE {ciano:R$ 1,20} POR AÇÃO\n- NA DATA EX, A AÇÃO CAI O VALOR DO PROVENTO\n- INTRÍNSECO ANTES: {verde:R$ 4,00}\n- A ÚNICA DIFERENÇA: O AJUSTE",
+   "cenarios": [
+    {
+     "titulo": "SEM O AJUSTE",
+     "passos": "AÇÃO: 34 − 1,20 = 32,80\n32,80 − 30\nTITULAR PERDERIA 1,20",
+     "resultado": "R$ 2,80"
+    },
+    {
+     "titulo": "COM O AJUSTE",
+     "passos": "STRIKE: 30 − 1,20 = 28,80\n32,80 − 28,80\nDIREITO PRESERVADO",
+     "resultado": "R$ 4,00"
+    }
+   ],
+   "conclusao": {
+    "texto": "5 PEGADINHAS (FALSAS): TITULAR OBRIGADO · FUTURO SÓ NO VENCIMENTO · PUT AMERICANA · CALL ITM ABAIXO DO STRIKE · SWAP INTEGRAL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
