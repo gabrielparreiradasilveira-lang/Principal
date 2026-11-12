@@ -1,0 +1,783 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "molde": "mito_verdade",
+   "saida": "r43a_1_treasury-reais.png",
+   "semente": 4301,
+   "titulo": "TREASURY GARANTE GANHO EM REAIS?",
+   "mitos": [
+    "CRÉDITO SEGURO = GANHO EM REAIS",
+    "4,5% EM DÓLAR = 4,5% EM REAIS"
+   ],
+   "verdade": "QUEM DECIDE EM REAIS: {laranja:O CÂMBIO}",
+   "desenho": {
+    "nome": "grafico_baixa",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} TÍTULO DE 4,5% EM DÓLAR\n- DÓLAR SOBE → GANHO EM REAIS {verde:AMPLIADO}\n- DÓLAR CAI → GANHO {vermelho:REDUZIDO OU PERDA}\n- RISCO DE CRÉDITO BAIXO ≠ {vermelho:RISCO BAIXO EM REAIS}\n- DÓLAR CAINDO CERCA DE 4,3% ZERA OS 4,5%\n- {ciano:REGRA:} MEDIR SEMPRE NA MOEDA DO CLIENTE"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r43a_2_supermercado.png",
+   "semente": 4302,
+   "titulo": "O SUPERMERCADO DE IMPORTADOS",
+   "colunas": [
+    {
+     "titulo": "POR QUE ENTRAR",
+     "desenho": "bilheteria",
+     "rotulos": [
+      "PREÇOS",
+      "EM DÓLAR"
+     ],
+     "texto": "- PRODUTO QUE NÃO TEM AQUI → {verde:ATIVOS NOVOS}\n- DESPENSA EM MOEDA FORTE → {verde:PROTEÇÃO CAMBIAL}\n- NÃO DEPENDER DO BAIRRO → {verde:DIVERSIFICAÇÃO}\n- BAIRRO EM CRISE → {verde:MENOS RISCO PAÍS}"
+    },
+    {
+     "titulo": "O PAINEL DO CAIXA",
+     "desenho": "mostrador",
+     "rotulos": [
+      "MUDA",
+      "TODO DIA"
+     ],
+     "texto": "- JUROS DAQUI × DE LÁ → {laranja:DIFERENCIAL DE JUROS}\n- PREÇOS SUBINDO → {laranja:INFLAÇÃO RELATIVA}\n- MOVIMENTO DE CLIENTES → {laranja:FLUXO DE CAPITAIS}\n- HUMOR DO MERCADO → {laranja:EXPECTATIVAS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:QUEM EMITE:} GOVERNOS · INSTITUIÇÕES FINANCEIRAS · EMPRESAS ESTRANGEIRAS",
+    "{ciano:ANÁLISE:} PRAZO · INDEXADOR · CRÉDITO · LIQUIDEZ · PAPEL NA CARTEIRA {laranja:+ CÂMBIO}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} PRODUTO COMPRADO NÃO MUDA DE PREÇO · O TÍTULO EM DÓLAR {laranja:MUDA EM REAIS} TODO DIA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r43a_3_cambio.png",
+   "semente": 4303,
+   "titulo": "O CÂMBIO NO RETORNO",
+   "topo": "{ciano:RETORNO EM REAIS} = (1 + RETORNO EM DÓLAR) × (1 + VARIAÇÃO DO DÓLAR) − 1",
+   "colunas": [
+    {
+     "titulo": "RISCO CAMBIAL",
+     "texto": "- {verde:PROTEÇÃO}: BRASIL VAI MAL\n- E O DÓLAR SOBE\n- {vermelho:VOLATILIDADE}: DÓLAR CAI\n- E COME O RENDIMENTO\n- CURTO PRAZO: FLUXO MANDA"
+    },
+    {
+     "titulo": "EXEMPLOS (4,5% EM US$)",
+     "texto": "- DÓLAR +7,41% → {verde:+12,24%}\n- DÓLAR 0% → {laranja:+4,5%}\n- DÓLAR −4,31% → {laranja:0%}\n- DÓLAR −7,41% → {vermelho:−3,24%}\n- NÃO É SOMA, É PRODUTO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} CRÉDITO MUITO BAIXO {vermelho:NÃO} GARANTE GANHO EM REAIS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r43a_4_treasury.png",
+   "semente": 4304,
+   "titulo": "O MESMO TÍTULO, DOIS CÂMBIOS",
+   "dados": "- R$ 100.000 A {ciano:5,40 REAIS POR DÓLAR} = 18.518,52 DÓLARES (HIPOTÉTICO)\n- IOF DE {ciano:1,10%} (INVESTIMENTO) = R$ 1.100\n- CUSTO TOTAL: {ciano:R$ 101.100}\n- TÍTULO: {ciano:4,5% EM DÓLAR} → 19.351,85 DÓLARES\n- A ÚNICA DIFERENÇA: O DÓLAR NO FIM",
+   "cenarios": [
+    {
+     "titulo": "DÓLAR A R$ 5,80",
+     "passos": "19.351,85 × 5,80\n= 112.240,74\nCONTRA 101.100",
+     "resultado": "+11,02%"
+    },
+    {
+     "titulo": "DÓLAR A R$ 5,00",
+     "passos": "19.351,85 × 5\n= 96.759,26\nCONTRA 101.100",
+     "resultado": "−4,29%"
+    }
+   ],
+   "conclusao": {
+    "texto": "SEM IOF: 1,045 × (5,80 ÷ 5,40) − 1 = {verde:12,24%} · O CÂMBIO {laranja:DEFINIU O SINAL} DO RESULTADO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r43b_1_termo.png",
+   "semente": 4311,
+   "titulo": "TERMO ACIMA = PREVISÃO DE ALTA?",
+   "mitos": [
+    "DÓLAR A TERMO PREVÊ O FUTURO",
+    "TERMO ALTO = HORA DE COMPRAR"
+   ],
+   "verdade": "TERMO EMBUTE O {verde:DIFERENCIAL DE JUROS}",
+   "desenho": {
+    "nome": "balanca",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} À VISTA 5,50 · TERMO 1 ANO 5,92\n- JURO AQUI {laranja:12%} · LÁ {laranja:4%}\n- 5,50 × 1,12 ÷ 1,04 = {verde:5,9231}\n- DIFERENÇA = JUROS, {vermelho:NÃO PREVISÃO}\n- ARBITRAGEM GARANTE A CONTA\n- {ciano:REGRA:} JURO MAIOR AQUI → TERMO ACIMA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r43b_2_reserva.png",
+   "semente": 4312,
+   "titulo": "A RESERVA NO CAIXA DE CÂMBIO",
+   "colunas": [
+    {
+     "titulo": "RESERVAR O DÓLAR",
+     "desenho": "ampulheta",
+     "rotulos": [
+      "HOJE",
+      "→ 1 ANO"
+     ],
+     "texto": "- RESERVA COM PREÇO FIXO → {verde:DÓLAR A TERMO}\n- REAIS APLICADOS AQUI → {laranja:JURO BRASILEIRO}\n- DÓLARES APLICADOS LÁ → {laranja:JURO AMERICANO}\n- PREÇO QUE IGUALA → {verde:PARIDADE DE JUROS}"
+    },
+    {
+     "titulo": "BAIRRO CARO",
+     "desenho": "termometro",
+     "rotulos": [
+      "INFLAÇÃO",
+      "MAIOR"
+     ],
+     "texto": "- PREÇOS SOBEM MAIS AQUI → {laranja:INFLAÇÃO MAIOR}\n- MOEDA COMPRA MENOS → {vermelho:DESVALORIZAÇÃO}\n- COM O TEMPO → {laranja:LONGO PRAZO}\n- REGRA DO PAINEL → {verde:PODER DE COMPRA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:B3:} A LÓGICA FORMA O {laranja:DÓLAR FUTURO} E O {laranja:CUPOM CAMBIAL} (DDI), COM CONVENÇÕES PRÓPRIAS",
+    "{ciano:FÓRMULA DA PPC:} (1 + INFLAÇÃO AQUI) ÷ (1 + INFLAÇÃO LÁ) − 1"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NO CAIXA É FAVOR · NO MERCADO, QUEM IGUALA É A {laranja:ARBITRAGEM}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r43b_3_paridades.png",
+   "semente": 4313,
+   "titulo": "AS DUAS PARIDADES",
+   "topo": "{ciano:TERMO} = À VISTA × (1 + JURO NO BRASIL) ÷ (1 + JURO NOS EUA)",
+   "colunas": [
+    {
+     "titulo": "PARIDADE DE JUROS",
+     "texto": "- EXPLICA O {laranja:PREÇO A TERMO}\n- MECANISMO: {laranja:ARBITRAGEM}\n- JURO AQUI > LÁ: TERMO ACIMA\n- JUROS IGUAIS: {verde:TERMO = À VISTA}\n- VALE HOJE, NÃO É PALPITE"
+    },
+    {
+     "titulo": "PODER DE COMPRA",
+     "texto": "- EXPLICA A {laranja:TENDÊNCIA}\n- MECANISMO: {laranja:INFLAÇÃO}\n- MAIS INFLAÇÃO: {vermelho:MOEDA CAI}\n- HORIZONTE: {laranja:LONGO PRAZO}\n- {vermelho:NÃO} PREVÊ O MÊS QUE VEM"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} DÓLAR FUTURO CARO {vermelho:NÃO} É SINAL DE COMPRA · É SÓ O {laranja:DIFERENCIAL DE JUROS}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r43b_4_paridade.png",
+   "semente": 4314,
+   "titulo": "QUANTO VALE O DÓLAR A TERMO?",
+   "dados": "- DÓLAR À VISTA: {ciano:R$ 5,50} (HIPOTÉTICO)\n- JURO NOS EUA: {ciano:4% AO ANO}\n- PRAZO: {ciano:1 ANO}\n- 4 CASAS DECIMAIS, PADRÃO DO CÂMBIO\n- A ÚNICA DIFERENÇA: O JURO NO BRASIL",
+   "cenarios": [
+    {
+     "titulo": "JURO DE 12% AQUI",
+     "passos": "5,50 × 1,12\n÷ 1,04\n= +7,69%",
+     "resultado": "R$ 5,9231"
+    },
+    {
+     "titulo": "JURO DE 4% AQUI",
+     "passos": "5,50 × 1,04\n÷ 1,04\nJUROS IGUAIS",
+     "resultado": "R$ 5,5000"
+    }
+   ],
+   "conclusao": {
+    "texto": "PPC: INFLAÇÃO DE 5% AQUI × 2% LÁ → 1,05 ÷ 1,02 − 1 = {laranja:2,94% AO ANO} DE DESVALORIZAÇÃO TENDENCIAL DO REAL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r43c_1_conta-dolar.png",
+   "semente": 4321,
+   "titulo": "CONTA EM DÓLAR NO BRASIL?",
+   "mitos": [
+    "PF RESIDENTE TEM CONTA EM US$ AQUI",
+    "APP BRASILEIRO = CONTA BRASILEIRA"
+   ],
+   "verdade": "A CONTA DA PF FICA {verde:NO EXTERIOR}",
+   "desenho": {
+    "nome": "banco",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} CLIENTE DE BH E O APP DO BANCO\n- {ciano:RES. BCB 277, ARTS. 69 E 70:} LISTA FECHADA DE TITULARES\n- PF RESIDENTE: {vermelho:FORA DA LISTA}\n- BRASILEIRO NÃO RESIDENTE: {verde:DENTRO}\n- DESDE OUT/2026: ALGUMAS {laranja:EMPRESAS} (RES. BCB 575)\n- {ciano:REGRA:} CANAL DAQUI, CONTA DE LÁ"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r43c_2_cartao.png",
+   "semente": 4322,
+   "titulo": "O CARTÃO DE CLIENTE",
+   "colunas": [
+    {
+     "titulo": "LOJA OFICIAL LÁ FORA",
+     "desenho": "aviao_hangar",
+     "rotulos": [
+      "CONTA",
+      "DIRETA"
+     ],
+     "texto": "- TODOS OS CORREDORES → {verde:MAIS PRODUTOS}\n- ACESSO DIRETO → {verde:MERCADOS GLOBAIS}\n- PAPELADA SOZINHO → {laranja:COMPLIANCE E REMESSAS}\n- PERFIL → {laranja:MAIS SOFISTICADO}"
+    },
+    {
+     "titulo": "PELO APP",
+     "desenho": "painel_claro",
+     "rotulos": [
+      "SIMPLES",
+      "LIMITADO"
+     ],
+     "texto": "- EM PORTUGUÊS → {verde:PRATICIDADE}\n- PAGAMENTO INTEGRADO → {verde:REMESSA NO APP}\n- CORREDORES FECHADOS → {vermelho:MENOS ATIVOS}\n- ESTOQUE LÁ FORA → {laranja:CONTA NO EXTERIOR}"
+    }
+   ],
+   "faixas": [
+    "{ciano:TITULARES (ART. 70):} TURISMO · EMBAIXADAS · CARTÃO INTERNACIONAL · SEGURADORAS · CÂMBIO · ENERGIA · PETRÓLEO",
+    "{ciano:NOS DOIS CAMINHOS:} CUSTÓDIA {laranja:FORA DO SISTEMA BRASILEIRO} · GARANTIA DO PAÍS DA CONTA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} CARTÃO DE LOJA NÃO SE DECLARA · CONTA NO EXTERIOR {laranja:ENTRA NAS DECLARAÇÕES}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r43c_3_caminhos.png",
+   "semente": 4323,
+   "titulo": "OS DOIS CAMINHOS",
+   "topo": "{ciano:É COMUM LER:} \"CONTA EM USD NO BRASIL\" · {vermelho:ATENÇÃO:} PARA A PF RESIDENTE, A CONTA FICA {laranja:LÁ FORA}",
+   "colunas": [
+    {
+     "titulo": "O QUE MUDA LÁ FORA",
+     "texto": "- {laranja:GARANTIA} DO PAÍS DA CONTA\n- {laranja:REGRAS} DE LÁ\n- {laranja:DECLARAÇÕES} AQUI\n- FGC {vermelho:NÃO SE APLICA}\n- CUSTÓDIA FORA DO BRASIL"
+    },
+    {
+     "titulo": "AS 3 PERGUNTAS",
+     "texto": "- 1. QUE {laranja:INSTITUIÇÃO}?\n- EM QUE {laranja:PAÍS}?\n- 2. QUE {laranja:GARANTIA} EXISTE?\n- 3. QUANTO CUSTA A {laranja:REMESSA}?\n- CÂMBIO · SPREAD · TARIFA · IOF"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} ESCOLHA DEPENDE DE {laranja:PATRIMÔNIO}, {laranja:SOFISTICAÇÃO} E {laranja:OBJETIVOS}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r43c_4_residencia.png",
+   "semente": 4324,
+   "titulo": "RESIDENTE OU NÃO RESIDENTE?",
+   "dados": "- DOIS BRASILEIROS (HIPOTÉTICO)\n- PEDIDO: {laranja:CONTA EM MOEDA ESTRANGEIRA}\n- NUM BANCO {laranja:AQUI NO PAÍS}\n- REGRA: RES. BCB 277, ART. 70\n- A ÚNICA DIFERENÇA: ONDE MORAM",
+   "cenarios": [
+    {
+     "titulo": "MORA EM SÃO PAULO",
+     "passos": "RESIDENTE\nFORA DA LISTA\nCONTA LÁ FORA",
+     "resultado": "NÃO PODE AQUI"
+    },
+    {
+     "titulo": "MORA EM LISBOA",
+     "passos": "NÃO RESIDENTE\nNA LISTA\nBANCO NO BRASIL",
+     "resultado": "PODE"
+    }
+   ],
+   "conclusao": {
+    "texto": "PARA O RESIDENTE: CONTA {laranja:NO EXTERIOR}, ABERTA DIRETO OU PELO APP · O APP {vermelho:NÃO} MUDA O PAÍS DA CONTA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r43d_1_iof.png",
+   "semente": 4331,
+   "titulo": "O MESMO IOF PARA TODA REMESSA?",
+   "mitos": [
+    "TODA REMESSA PAGA O MESMO IOF",
+    "FINALIDADE NÃO MUDA NADA"
+   ],
+   "verdade": "INVESTIR {verde:1,10%} · PARADO {vermelho:3,5%}",
+   "desenho": {
+    "nome": "alarme",
+    "largura": 120
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} R$ 100 MIL PARA A CONTA PRÓPRIA LÁ FORA\n- DECLAROU \"DISPONIBILIDADE\" → {vermelho:R$ 3.500}\n- DECLARANDO \"INVESTIMENTO\" → {verde:R$ 1.100}\n- {ciano:DECRETO 6.306, ART. 15-B} (REDAÇÃO DE 2025)\n- VOLTA AO BRASIL: {laranja:0,38%}\n- {ciano:REGRA:} A FINALIDADE DEFINE A ALÍQUOTA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r43d_2_fiscal.png",
+   "semente": 4332,
+   "titulo": "O FISCAL E A PRANCHETA",
+   "colunas": [
+    {
+     "titulo": "O FISCAL",
+     "desenho": "cracha_fiscal",
+     "rotulos": [
+      "COMPRAR",
+      "OU GUARDAR"
+     ],
+     "texto": "- VAI COMPRAR → {verde:INVESTIMENTO: 1,10%}\n- VAI SÓ GUARDAR → {vermelho:DISPONIBILIDADE: 3,5%}\n- TAXA DE SAÍDA → {laranja:ENTRADA NO BRASIL: 0,38%}\n- QUEM TROCA → {laranja:INSTITUIÇÃO AUTORIZADA}"
+    },
+    {
+     "titulo": "A PRANCHETA",
+     "desenho": "prancheta",
+     "rotulos": [
+      "CADASTRO",
+      "NO BC"
+     ],
+     "texto": "- ≥ US$ 1 MI EM 31/12 → {laranja:CBE ANUAL}\n- ≥ US$ 100 MI → {laranja:CBE TRIMESTRAL}\n- QUALQUER VALOR → {verde:DECLARAÇÃO DE IR}\n- MALA > US$ 10 MIL → {vermelho:SÓ BANCO OU DECLARAÇÃO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:CBE TRIMESTRAL:} POSIÇÕES EM {laranja:31/03, 30/06 E 30/09} · BASE: RES. BCB 279/2022",
+    "{ciano:TRIBUTAÇÃO DO INVESTIMENTO LÁ FORA:} TEM {laranja:AULA PRÓPRIA}, MAIS ADIANTE"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O FISCAL ACREDITA NO QUE OUVE · NA REMESSA, A FINALIDADE {laranja:TEM DE SER VERDADEIRA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r43d_3_remessa.png",
+   "semente": 4333,
+   "titulo": "IOF E DECLARAÇÕES",
+   "topo": "{ciano:REMESSA} = OPERAÇÃO DE CÂMBIO · INSTITUIÇÃO AUTORIZADA · {laranja:FINALIDADE DECLARADA}",
+   "colunas": [
+    {
+     "titulo": "IOF (ART. 15-B)",
+     "texto": "- INVESTIMENTO: {verde:1,10%}\n- DISPONIBILIDADE: {vermelho:3,5%}\n- (PRÓPRIA OU DE PARENTE)\n- ENTRADA NO BRASIL: {laranja:0,38%}\n- REDAÇÃO: DECRETO 12.499/2025"
+    },
+    {
+     "titulo": "DECLARAÇÕES",
+     "texto": "- CBE ANUAL: {laranja:≥ US$ 1 MI}\n- CBE TRIMESTRAL: {laranja:≥ US$ 100 MI}\n- IR: BENS LÁ FORA, {verde:QUALQUER VALOR}\n- ESPÉCIE > US$ 10 MIL:\n- {vermelho:BANCO OU DECLARAÇÃO}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} CBE VAI AO {laranja:BANCO CENTRAL} · DECLARAÇÃO DE IR VAI À {laranja:RECEITA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r43d_4_finalidade.png",
+   "semente": 4334,
+   "titulo": "INVESTIR OU DEIXAR PARADO?",
+   "dados": "- REMESSA DE {ciano:R$ 100.000} (HIPOTÉTICO)\n- PARA A {laranja:CONTA PRÓPRIA} NO EXTERIOR\n- OPERAÇÃO POR INSTITUIÇÃO AUTORIZADA\n- VOLTA AO BRASIL: 0,38% = R$ 380\n- A ÚNICA DIFERENÇA: A FINALIDADE DECLARADA",
+   "cenarios": [
+    {
+     "titulo": "INVESTIMENTO",
+     "passos": "100.000 × 1,10%\nINCISO XXI-A\nDO ART. 15-B",
+     "resultado": "R$ 1.100"
+    },
+    {
+     "titulo": "DISPONIBILIDADE",
+     "passos": "100.000 × 3,5%\nINCISO XXI\nDO ART. 15-B",
+     "resultado": "R$ 3.500"
+    }
+   ],
+   "conclusao": {
+    "texto": "A FINALIDADE VALEU {verde:R$ 2.400} NA MESMA REMESSA · E TEM DE CORRESPONDER À {laranja:REALIDADE}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r43e_1_t-bill.png",
+   "semente": 4341,
+   "titulo": "O T-BILL PAGA CUPOM?",
+   "mitos": [
+    "T-BILL PAGA CUPOM SEMESTRAL",
+    "T-BILL SÓ SAI COM DESCONTO"
+   ],
+   "verdade": "{verde:SEM CUPOM}: DESCONTO OU PAR → VALOR DE FACE",
+   "desenho": {
+    "nome": "ampulheta",
+    "largura": 120
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} T-BILL DE 26 SEMANAS\n- PRAZOS: {laranja:4, 6, 8, 13, 17, 26 E 52 SEMANAS}\n- GANHO = {verde:VALOR DE FACE − PREÇO PAGO}\n- {ciano:TREASURYDIRECT:} \"AT A DISCOUNT OR AT PAR\"\n- CUPOM SEMESTRAL: {laranja:T-NOTE E T-BOND}\n- {ciano:REGRA:} T-BILL É O ZERO CUPOM AMERICANO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r43e_2_pacotes.png",
+   "semente": 4342,
+   "titulo": "O CORREDOR DO GOVERNO AMERICANO",
+   "colunas": [
+    {
+     "titulo": "PACOTE PEQUENO",
+     "desenho": "moeda",
+     "rotulos": [
+      "ATÉ",
+      "1 ANO"
+     ],
+     "texto": "- PAGA MENOS QUE A ETIQUETA → {verde:DESCONTO}\n- RECEBE O VALOR CHEIO → {verde:VALOR DE FACE}\n- SEM BRINDE NO MEIO → {laranja:SEM CUPOM}\n- ATÉ 52 SEMANAS → {laranja:T-BILL}"
+    },
+    {
+     "titulo": "PACOTE GRANDE",
+     "desenho": "montanha_russa",
+     "rotulos": [
+      "MAIS",
+      "BALANÇO"
+     ],
+     "texto": "- 2 A 10 ANOS → {laranja:T-NOTE}\n- 20 OU 30 ANOS → {laranja:T-BOND}\n- BRINDE A CADA 6 MESES → {verde:CUPOM FIXO SEMESTRAL}\n- MAIS LONGO → {vermelho:PREÇO OSCILA MAIS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:MARCA CONFIÁVEL:} RISCO DE CRÉDITO {verde:MUITO BAIXO} · REFERÊNCIA GLOBAL DE SEGURANÇA E LIQUIDEZ",
+    "{ciano:DOIS USOS:} INVESTIMENTO E {laranja:ATIVO DE PROTEÇÃO} DA CARTEIRA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} CONFIÁVEL NÃO É PREÇO ESTÁVEL · OSCILA COM {laranja:JUROS} E, EM REAIS, COM {laranja:CÂMBIO}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r43e_3_treasuries.png",
+   "semente": 4343,
+   "titulo": "BILLS, NOTES E BONDS",
+   "topo": "{ciano:SEGURANÇA DO TREASURY:} SÓ NO {laranja:CRÉDITO} · PREÇO E CÂMBIO {vermelho:VARIAM}",
+   "colunas": [
+    {
+     "titulo": "PRAZOS E CUPOM",
+     "texto": "- T-BILL: {laranja:4 A 52 SEMANAS}\n- SEM CUPOM\n- T-NOTE: {laranja:2, 3, 5, 7, 10 ANOS}\n- T-BOND: {laranja:20 OU 30 ANOS}\n- NOTE E BOND: CUPOM SEMESTRAL"
+    },
+    {
+     "titulo": "LEMBRA NO BRASIL",
+     "texto": "- T-BILL: COMO {verde:PREFIXADO SEM CUPOM}\n- NOTE/BOND: COMO PREFIXADO\n- COM JUROS SEMESTRAIS\n- 10 ANOS: {laranja:AINDA É NOTE}\n- BOND COMEÇA EM 20"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:É COMUM LER:} T-BOND \"ACIMA DE 10 ANOS\" · {vermelho:ATENÇÃO:} EMITIDO EM {laranja:20 OU 30 ANOS}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r43e_4_preco.png",
+   "semente": 4344,
+   "titulo": "980 OU 990 DÓLARES?",
+   "dados": "- T-BILL DE {ciano:26 SEMANAS} (182 DIAS) (HIPOTÉTICO)\n- VALOR DE FACE: {ciano:US$ 1.000}\n- TAXA EFETIVA ANUAL, BASE 365\n- EXPOENTE: 365 ÷ 182 = 2,0055\n- A ÚNICA DIFERENÇA: O PREÇO PAGO",
+   "cenarios": [
+    {
+     "titulo": "COMPRADO A 980",
+     "passos": "1.000 ÷ 980 = 1,0204\n+2,04% NO PRAZO\n1,0204 ^ 2,0055",
+     "resultado": "4,13% A.A."
+    },
+    {
+     "titulo": "COMPRADO A 990",
+     "passos": "1.000 ÷ 990 = 1,0101\n+1,01% NO PRAZO\n1,0101 ^ 2,0055",
+     "resultado": "2,04% A.A."
+    }
+   ],
+   "conclusao": {
+    "texto": "DESCONTO MAIOR → {verde:RENDIMENTO MAIOR} · AO PAR (1.000), O RENDIMENTO SERIA {vermelho:ZERO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r43f_1_deflacao.png",
+   "semente": 4351,
+   "titulo": "DEFLAÇÃO CORTA O PRINCIPAL?",
+   "mitos": [
+    "DEFLAÇÃO = RECEBE MENOS NO FIM",
+    "TIPS NÃO TEM PISO"
+   ],
+   "verdade": "NO FIM: O {verde:MAIOR} ENTRE CORRIGIDO E ORIGINAL",
+   "desenho": {
+    "nome": "termometro",
+    "largura": 80
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} US$ 10 MIL E CPI DE −2%\n- PRINCIPAL CORRIGIDO: US$ 9.800\n- NO VENCIMENTO: {verde:US$ 10.000} (PISO)\n- COM INFLAÇÃO: RECEBE O {laranja:CORRIGIDO}\n- PISO VALE PARA O {laranja:PRINCIPAL}, NÃO PARA OS CUPONS\n- {ciano:REGRA:} NO VENCIMENTO, NUNCA MENOS QUE O ORIGINAL"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r43f_2_tips.png",
+   "semente": 4352,
+   "titulo": "O PRODUTO CORRIGIDO PELA INFLAÇÃO",
+   "colunas": [
+    {
+     "titulo": "PREÇO CORRIGIDO",
+     "desenho": "grafico_alta",
+     "rotulos": [
+      "SOBE COM",
+      "O CPI"
+     ],
+     "texto": "- PREÇOS DE LÁ SOBEM → {verde:PRINCIPAL SOBE}\n- BRINDE SOBRE O CORRIGIDO → {verde:CUPOM CRESCE}\n- PREÇOS DE LÁ CAEM → {vermelho:PRINCIPAL CAI}\n- BRINDE ENCOLHE → {vermelho:CUPOM MENOR}"
+    },
+    {
+     "titulo": "A PROMESSA",
+     "desenho": "check",
+     "rotulos": [
+      "PISO NO",
+      "VENCIMENTO"
+     ],
+     "texto": "- NUNCA MENOS QUE O PAGO → {verde:PISO NO ORIGINAL}\n- SÓ NO VENCIMENTO → {laranja:NÃO VALE PARA CUPONS}\n- INFLAÇÃO DE LÁ → {laranja:CPI DOS EUA}\n- REAIS NO BOLSO → {vermelho:CÂMBIO CONTINUA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:PRAZOS DO TIPS:} {laranja:5, 10 OU 30 ANOS} (TREASURYDIRECT)",
+    "{ciano:JURO:} FIXO NA EMISSÃO · PAGO A CADA {laranja:6 MESES} · SOBRE O PRINCIPAL CORRIGIDO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} CORRIGE PELA INFLAÇÃO {laranja:AMERICANA} · O IPCA E O CÂMBIO FICAM DE FORA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r43f_3_mecanismo.png",
+   "semente": 4353,
+   "titulo": "AS 3 PEÇAS DO TIPS",
+   "topo": "{ciano:TIPS} = TREASURY INFLATION-PROTECTED SECURITIES · CORREÇÃO PELO {laranja:CPI}",
+   "colunas": [
+    {
+     "titulo": "COMO FUNCIONA",
+     "texto": "- 1. PRINCIPAL × {laranja:CPI}\n- 2. CUPOM FIXO SEMESTRAL\n- SOBRE O {laranja:CORRIGIDO}\n- 3. PISO NO {verde:VENCIMENTO}\n- MAIOR: CORRIGIDO OU ORIGINAL"
+    },
+    {
+     "titulo": "TIPS × T-NOTE",
+     "texto": "- T-NOTE: PRINCIPAL {laranja:FIXO}\n- TIPS: PRINCIPAL {laranja:CORRIGIDO}\n- OS DOIS: CUPOM SEMESTRAL\n- RISCO: {vermelho:JUROS REAIS}\n- E {vermelho:CÂMBIO} EM REAIS"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} COM DEFLAÇÃO, OS {vermelho:CUPONS ENCOLHEM}, MAS O PRINCIPAL DO FIM {verde:TEM PISO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r43f_4_cpi.png",
+   "semente": 4354,
+   "titulo": "INFLAÇÃO OU DEFLAÇÃO?",
+   "dados": "- PRINCIPAL: {ciano:US$ 10.000} (HIPOTÉTICO)\n- JURO: {ciano:1,5% AO ANO} = 0,75% POR SEMESTRE\n- SIMPLIFICAÇÃO: CPI ACUMULADO DIRETO NO PRINCIPAL\n- SEM CORREÇÃO, O CUPOM SERIA US$ 75\n- A ÚNICA DIFERENÇA: O CPI ACUMULADO",
+   "cenarios": [
+    {
+     "titulo": "INFLAÇÃO DE 3%",
+     "passos": "10.000 × 1,03\n= 10.300\n× 0,75% = 77,25",
+     "resultado": "CUPOM US$ 77,25"
+    },
+    {
+     "titulo": "DEFLAÇÃO DE 2%",
+     "passos": "10.000 × 0,98\n= 9.800\n× 0,75% = 73,50",
+     "resultado": "CUPOM US$ 73,50"
+    }
+   ],
+   "conclusao": {
+    "texto": "NO VENCIMENTO: CENÁRIO 1 RECEBE {verde:10.300 DÓLARES} · CENÁRIO 2 RECEBE {verde:10.000 DÓLARES}, PELO PISO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r43g_1_eurobond.png",
+   "semente": 4361,
+   "titulo": "EUROBOND É EM EURO?",
+   "mitos": [
+    "EUROBOND = TÍTULO EM EURO",
+    "EURO NO NOME = MOEDA EURO"
+   ],
+   "verdade": "FORA DO PAÍS E {verde:FORA DA JURISDIÇÃO DA MOEDA}",
+   "desenho": {
+    "nome": "caminhao",
+    "largura": 130
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} EMPRESA BRASILEIRA, DÓLAR, LONDRES\n- FORA DO BRASIL: {verde:SIM}\n- FORA DOS EUA (JURISDIÇÃO DO DÓLAR): {verde:SIM}\n- RESULTADO: {laranja:EUROBOND EM DÓLAR}\n- PODE SER EM {laranja:DÓLAR, IENE OU OUTRA MOEDA}\n- {ciano:REGRA:} O NOME NÃO DIZ A MOEDA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r43g_2_exportados.png",
+   "semente": 4362,
+   "titulo": "PRODUTOS BRASILEIROS EXPORTADOS",
+   "colunas": [
+    {
+     "titulo": "QUEM VENDE E QUEM COMPRA",
+     "desenho": "aviao_hangar",
+     "rotulos": [
+      "BRASIL",
+      "→ MUNDO"
+     ],
+     "texto": "- GOVERNO E EMPRESAS → {verde:EMISSORES BRASILEIROS}\n- ETIQUETA EM DÓLAR → {laranja:MOEDA ESTRANGEIRA}\n- ESTRANGEIRO → {verde:QUER RISCO BRASIL}\n- BRASILEIRO COM CARTÃO → {verde:CONTA NO EXTERIOR}"
+    },
+    {
+     "titulo": "DUAS ETIQUETAS",
+     "desenho": "placa",
+     "rotulos": [
+      "GLOBAL",
+      "OU EURO"
+     ],
+     "texto": "- VENDIDO NO MUNDO TODO → {laranja:GLOBAL BOND}\n- REGISTRO AMPLO → {laranja:NEGOCIAÇÃO AMPLA}\n- PRAÇA ≠ PAÍS DA MOEDA → {laranja:EUROBOND}\n- RISCO DO FABRICANTE → {vermelho:RISCO BRASIL}"
+    }
+   ],
+   "faixas": [
+    "{ciano:EXEMPLOS DA REPÚBLICA:} {laranja:GLOBAL 2035} EM DÓLAR · TÍTULOS {laranja:SUSTENTÁVEIS} DO TESOURO",
+    "{ciano:RISCOS:} CRÉDITO DO EMISSOR BRASILEIRO · JUROS · CÂMBIO PARA QUEM MEDE EM REAIS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} MUDAR A MOEDA {laranja:NÃO MUDA O EMISSOR} · O RISCO CONTINUA SENDO O DO BRASIL",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r43g_3_global-euro.png",
+   "semente": 4363,
+   "titulo": "GLOBAL BOND × EUROBOND",
+   "topo": "{ciano:QUEM EMITE:} GOVERNO E EMPRESAS BRASILEIRAS · EM {laranja:MOEDA ESTRANGEIRA} · NO MERCADO INTERNACIONAL",
+   "colunas": [
+    {
+     "titulo": "GLOBAL BOND",
+     "texto": "- MERCADO {laranja:INTERNACIONAL}\n- EM GERAL EM {laranja:DÓLAR}\n- REGISTRO E NEGOCIAÇÃO AMPLOS\n- EX.: GLOBAL 2035\n- MESMO EMISSOR DO TESOURO"
+    },
+    {
+     "titulo": "EUROBOND",
+     "texto": "- FORA DO PAÍS DO EMISSOR\n- FORA DA {laranja:JURISDIÇÃO DA MOEDA}\n- US$ EM LONDRES: {verde:É}\n- € EM FRANKFURT: {vermelho:NÃO É}\n- \"EURO\" ≠ MOEDA EURO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} GLOBAL DA REPÚBLICA = {laranja:DÓLAR} + {vermelho:CRÉDITO BRASILEIRO} · NÃO DIVERSIFICA O RISCO PAÍS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r43g_4_praca.png",
+   "semente": 4364,
+   "titulo": "É EUROBOND OU NÃO?",
+   "dados": "- EMISSOR: {ciano:EMPRESA BRASILEIRA} (HIPOTÉTICO)\n- EMISSÃO FORA DO BRASIL\n- TESTE 1: FORA DO PAÍS DO EMISSOR?\n- TESTE 2: FORA DA JURISDIÇÃO DA MOEDA?\n- A ÚNICA DIFERENÇA: MOEDA E PRAÇA",
+   "cenarios": [
+    {
+     "titulo": "DÓLAR EM LONDRES",
+     "passos": "FORA DO BRASIL: SIM\nFORA DOS EUA: SIM\n2 TESTES OK",
+     "resultado": "EUROBOND"
+    },
+    {
+     "titulo": "EURO EM FRANKFURT",
+     "passos": "FORA DO BRASIL: SIM\nZONA DO EURO: DENTRO\nFALHA O TESTE 2",
+     "resultado": "NÃO É"
+    }
+   ],
+   "conclusao": {
+    "texto": "NOS DOIS, QUEM DEVE É A {vermelho:MESMA EMPRESA} · MOEDA E PRAÇA SÓ MUDAM O {laranja:RÓTULO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r43h_1_cp.png",
+   "semente": 4371,
+   "titulo": "COMMERCIAL PAPER DE LONGO PRAZO?",
+   "mitos": [
+    "CP FINANCIA FÁBRICA DE 10 ANOS",
+    "CP TEM GARANTIA DO FDIC"
+   ],
+   "verdade": "{verde:CURTO PRAZO} (ATÉ 270 DIAS) · {verde:CAPITAL DE GIRO}",
+   "desenho": {
+    "nome": "ampulheta",
+    "largura": 120
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} GRANDE EMPRESA EMITE CP\n- PRAZO ATÉ {laranja:270 DIAS}: {verde:SEM REGISTRO NA SEC}\n- {ciano:FONTE:} FEDERAL RESERVE, ABOUT COMMERCIAL PAPER\n- RISCO DE CRÉDITO {vermelho:MAIOR} QUE O DO TREASURY\n- USO PRINCIPAL: {laranja:INVESTIDORES INSTITUCIONAIS}\n- {ciano:REGRA:} CP LEMBRA A NOTA COMERCIAL"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r43h_2_corredor.png",
+   "semente": 4372,
+   "titulo": "O CORREDOR DE BANCOS E EMPRESAS",
+   "colunas": [
+    {
+     "titulo": "O POTE COM SELO",
+     "desenho": "banco",
+     "rotulos": [
+      "CD",
+      "+ FDIC"
+     ],
+     "texto": "- PRODUTO DO BANCO → {verde:CD (COMO CDB)}\n- SELO DE GARANTIA → {verde:FDIC}\n- LIMITE DO SELO → {laranja:US$ 250 MIL}\n- POR CLIENTE, POR BANCO → {laranja:POR DEPOSITANTE}"
+    },
+    {
+     "titulo": "CP E REPO",
+     "desenho": "cofrinho",
+     "rotulos": [
+      "CURTO",
+      "E DEVOLVE"
+     ],
+     "texto": "- EMBALAGEM CURTA → {laranja:CP ATÉ 270 DIAS}\n- SEM SELO → {vermelho:SEM FDIC}\n- COMPRA HOJE, DEVOLVE AMANHÃ → {verde:REPO}\n- REPO NO BRASIL → {verde:COMPROMISSADA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:REPO NO FED DE NOVA YORK:} REPO E {laranja:REPO REVERSO} PARA ADMINISTRAR A LIQUIDEZ DO MERCADO",
+    "{ciano:CD:} EM GERAL {laranja:PRAZO CURTO} · RISCO: A {vermelho:SOLIDEZ DO BANCO} EMISSOR"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O SELO NÃO É DO SUPERMERCADO · É DE UMA {laranja:AGÊNCIA DO GOVERNO}, COM LIMITE",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r43h_3_cd-cp-repo.png",
+   "semente": 4373,
+   "titulo": "CD, CP E REPO",
+   "topo": "{ciano:CD} LEMBRA CDB · {ciano:CP} LEMBRA NOTA COMERCIAL · {ciano:REPO} LEMBRA COMPROMISSADA",
+   "colunas": [
+    {
+     "titulo": "CD × CP",
+     "texto": "- CD: {laranja:BANCO}\n- {verde:FDIC ATÉ US$ 250 MIL}\n- CP: {laranja:GRANDE EMPRESA}\n- {vermelho:SEM FDIC}\n- OS DOIS: CURTO PRAZO"
+    },
+    {
+     "titulo": "REPO",
+     "texto": "- VENDE COM {laranja:RECOMPRA}\n- PREÇO E DATA {laranja:COMBINADOS}\n- USO: {verde:LIQUIDEZ} E {verde:JUROS}\n- FED: REPO E REPO REVERSO\n- CP DE 270 DIAS: {verde:SEM SEC}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} ACIMA DE {laranja:US$ 250 MIL} NO MESMO BANCO, O EXCEDENTE FICA {vermelho:SEM FDIC}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r43h_4_fdic.png",
+   "semente": 4374,
+   "titulo": "UM BANCO OU DOIS?",
+   "dados": "- CDS NOS EUA: {ciano:US$ 300.000} (HIPOTÉTICO)\n- CONTA INDIVIDUAL · BANCOS SEGURADOS\n- LIMITE DO FDIC: {ciano:US$ 250 MIL} POR DEPOSITANTE, POR BANCO\n- UMA SÓ CATEGORIA DE TITULARIDADE\n- A ÚNICA DIFERENÇA: QUANTOS BANCOS",
+   "cenarios": [
+    {
+     "titulo": "UM ÚNICO BANCO",
+     "passos": "300.000 − 250.000\n= 50.000\nACIMA DO LIMITE",
+     "resultado": "US$ 50 MIL SEM FDIC"
+    },
+    {
+     "titulo": "DOIS BANCOS",
+     "passos": "150.000 EM CADA\n100.000 ABAIXO\nDO LIMITE",
+     "resultado": "TUDO COBERTO"
+    }
+   ],
+   "conclusao": {
+    "texto": "5 PEGADINHAS (FALSAS): CONTA EM US$ DA PF NO BRASIL · T-BILL COM CUPOM · TIPS SEM PISO · IOF IGUAL PARA TODA REMESSA · EUROBOND EM EURO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
