@@ -1,100 +1,245 @@
 {
-  "padrao": {
-    "fundo": "preto"
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r29a_1_garantia-real-sem-risco.png",
+   "semente": 2901,
+   "molde": "mito_verdade",
+   "titulo": "GARANTIA REAL: SEM RISCO?",
+   "mitos": [
+    "TEM GARANTIA",
+    "NÃO TEM RISCO"
+   ],
+   "verdade": "LUGAR NA {laranja:FILA}",
+   "desenho": {
+    "nome": "cofrinho",
+    "largura": 190
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} DEBÊNTURES DE 100.000 REAIS, GARANTIDAS POR UM IMÓVEL\n- A EMPRESA QUEBRA · O IMÓVEL É VENDIDO POR 60% DA EMISSÃO\n- PELA GARANTIA: {verde:60.000} · NA FILA COMUM: {vermelho:40.000}\n- A GARANTIA DIZ ONDE VOCÊ FICA NA FILA E ATÉ QUANTO RECEBE ALI\n- BASE LEGAL: LEI 6.404, ARTIGO 58\n- {ciano:5 GARANTIAS:} REAL · FLUTUANTE · QUIROGRAFÁRIA · SUBORDINADA · FIDEJUSSÓRIA"
   },
-  "slides": [
+  {
+   "saida": "r29a_2_fila-da-massa-falida.png",
+   "semente": 2902,
+   "molde": "comparacao",
+   "titulo": "A FILA DA MASSA FALIDA",
+   "colunas": [
     {
-      "saida": "r29_1_garantia-sem-risco.png",
-      "semente": 2901,
-      "molde": "mito_verdade",
-      "titulo": "GARANTIA REAL = RISCO ZERO?",
-      "mitos": [
-        "GARANTIA REAL = SEM RISCO",
-        "A GARANTIA COBRE TUDO"
-      ],
-      "verdade": "GARANTIA = {laranja:PRIORIDADE}, NÃO {vermelho:CERTEZA}",
-      "desenho": "casa",
-      "apoio": "- R$ 100 MIL EM DEBÊNTURES COM GARANTIA REAL (HIPOTÉTICO)\n- IMÓVEL VENDIDO POR 60% DA EMISSÃO → {verde:R$ 60 MIL} PELA GARANTIA\n- {vermelho:R$ 40 MIL} → FILA DOS QUIROGRAFÁRIOS\n- {ciano:LEI 11.101, ART. 83, II:} GARANTIA REAL {laranja:ATÉ O VALOR DO BEM}\n- § 1º: VALOR DO BEM = O QUE A VENDA {laranja:ARRECADOU}"
+     "titulo": "A FILA",
+     "desenho": "cofrinho",
+     "rotulos": [
+      "BEM",
+      "SEPARADO"
+     ],
+     "texto": "- SENHA ESPECIAL, COM BEM NO COFRE → {laranja:GARANTIA REAL}\n- SENHA GERAL SOBRE O QUE SOBROU → {laranja:FLUTUANTE}\n- FILA COMUM → {laranja:QUIROGRAFÁRIA}\n- FIM DA FILA → {laranja:SUBORDINADA}"
     },
     {
-      "saida": "r29_2_fila-massa-falida.png",
-      "semente": 2902,
-      "molde": "comparacao",
-      "titulo": "A FILA DA MASSA FALIDA",
-      "colunas": [
-        {
-          "titulo": "NA FILA",
-          "desenho": "pessoa",
-          "rotulos": [
-            "SENHA",
-            "GUICHÊ"
-          ],
-          "texto": "1. SENHA ESPECIAL + BEM NO COFRE → {laranja:REAL}\n2. SENHA GERAL → {laranja:FLUTUANTE}\n3. FILA COMUM → {laranja:QUIROGRAFÁRIA}\n4. FIM DA FILA → {laranja:SUBORDINADA}"
-        },
-        {
-          "titulo": "FORA DA FILA",
-          "desenho": "alarme",
-          "rotulos": [
-            "FIADOR",
-            "ALARME"
-          ],
-          "texto": "- FIADOR → {laranja:FIDEJUSSÓRIA} (FIANÇA OU AVAL)\n- ALARME → {laranja:COVENANTS}\n- O ALARME TOCA {verde:ANTES} DA QUEBRA\n- AS GARANTIAS PODEM SER {laranja:CUMULATIVAS} (ART. 58, § 2º)"
-        }
-      ],
-      "faixas": [
-        "{ciano:DUAS FLUTUANTES NA FILA?} A EMISSÃO {laranja:MAIS ANTIGA} PASSA NA FRENTE (LEI 6.404, ART. 58, § 3º)"
-      ],
-      "destaque": {
-        "texto": "{vermelho:ONDE QUEBRA:} NA FALÊNCIA, QUEM ORDENA A FILA É A {laranja:LEI 11.101} · DESDE A LEI 14.112/2020, A SENHA GERAL {vermelho:VIROU FILA COMUM}",
-        "cor": "branco",
-        "moldura": "vermelho"
-      }
-    },
-    {
-      "saida": "r29_3_garantias-e-covenants.png",
-      "semente": 2903,
-      "molde": "colunas",
-      "titulo": "AS 5 GARANTIAS, A FALÊNCIA E O ALARME",
-      "topo": "{ciano:LEI 6.404, ART. 58:} REAL · FLUTUANTE (§ 1º: {laranja:NÃO IMPEDE} VENDER OS BENS) · SEM PREFERÊNCIA · SUBORDINADA (§ 4º: SÓ À FRENTE DOS {laranja:ACIONISTAS}) · FIDEJUSSÓRIA = {laranja:PESSOA}, NÃO BEM",
-      "colunas": [
-        {
-          "titulo": "LEI 11.101, ART. 83",
-          "texto": "1. TRABALHISTAS (ATÉ 150 SALÁRIOS MÍNIMOS)\n2. {laranja:GARANTIA REAL}, ATÉ O VALOR DO BEM\n3. TRIBUTÁRIOS\n4. {laranja:QUIROGRAFÁRIOS} + FLUTUANTE (§ 6º) + SALDO DA REAL\n5. MULTAS\n6. {laranja:SUBORDINADOS}"
-        },
-        {
-          "titulo": "LEI 6.404, ART. 68",
-          "texto": "- O {laranja:AGENTE FIDUCIÁRIO} REPRESENTA OS DEBENTURISTAS\n- AVISA DESCUMPRIMENTO EM ATÉ {laranja:60 DIAS}\n- DECLARA O {vermelho:VENCIMENTO ANTECIPADO}, CONFORME A ESCRITURA\n- EXECUTA AS GARANTIAS REAIS\n- PEDE A FALÊNCIA {laranja:SE NÃO HOUVER GARANTIA REAL}"
-        }
-      ],
-      "destaque": {
-        "texto": "{ciano:COVENANT (EX. DE MERCADO):} DÍVIDA LÍQUIDA ÷ EBITDA ABAIXO DE UM TETO · SEM VENDA DE ATIVOS RELEVANTES · ROMPEU → {vermelho:A ESCRITURA DECIDE} AS CONSEQUÊNCIAS",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r29_4_senha-especial.png",
-      "semente": 2904,
-      "molde": "exercicio",
-      "titulo": "QUANTO VALE A SENHA ESPECIAL?",
-      "dados": "- EMISSÃO DE {laranja:R$ 10 MILHÕES} COM GARANTIA REAL DE UM IMÓVEL (HIPOTÉTICO)\n- A EMISSORA FALIU · O IMÓVEL VAI A LEILÃO\n- SIMPLIFICAÇÃO: NENHUM CRÉDITO À FRENTE DA GARANTIA REAL\n- A ÚNICA DIFERENÇA: POR QUANTO O IMÓVEL É VENDIDO",
-      "cenarios": [
-        {
-          "titulo": "VENDIDO POR R$ 6 MI",
-          "passos": "COBRE 6 ÷ 10\nFALTAM 10 − 6 = 4 MI\n→ FILA DOS QUIROGRAFÁRIOS",
-          "resultado": "60%"
-        },
-        {
-          "titulo": "VENDIDO POR R$ 12 MI",
-          "passos": "COBRE OS 10 MI\nSOBRAM 12 − 10 = 2 MI\n→ VOLTAM PARA A MASSA",
-          "resultado": "100%"
-        }
-      ],
-      "conclusao": {
-        "texto": "O MESMO PAPEL, DOIS RESULTADOS · OS {vermelho:R$ 4 MI} DISPUTAM A SOBRA COM TODOS OS CREDORES COMUNS",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
+     "titulo": "AO LADO",
+     "desenho": "pessoa",
+     "rotulos": [
+      "FIADOR",
+      "TERCEIRO"
+     ],
+     "texto": "- FIADOR QUE PAGA SE A EMPRESA NÃO PAGAR → {verde:FIDEJUSSÓRIA}\n- FORMAS → {verde:FIANÇA OU AVAL}\n- EXEMPLO → {verde:A CONTROLADORA}\n- PODE SE SOMAR ÀS OUTRAS → {verde:CUMULATIVA}"
     }
-  ]
+   ],
+   "faixas": [
+    "{ciano:GUICHÊ:} MASSA FALIDA (O QUE SOBROU DA EMPRESA)",
+    "{ciano:ATRÁS DE TODOS OS CREDORES:} OS ACIONISTAS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} SENHA DE FILA GARANTE O ATENDIMENTO TODO · A GARANTIA REAL SÓ COBRE O QUE O BEM RENDER NA VENDA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r29a_3_conteudo-1.png",
+   "semente": 2903,
+   "molde": "colunas",
+   "titulo": "O LUGAR NA FILA (1/2)",
+   "topo": "{ciano:LEI 6.404, ART. 58:} A DEBÊNTURE PODE TER GARANTIA {laranja:REAL} OU {laranja:FLUTUANTE}, NÃO TER PREFERÊNCIA, OU SER {laranja:SUBORDINADA}",
+   "colunas": [
+    {
+     "titulo": "MAIS PROTEGIDAS",
+     "texto": "- {verde:1º REAL:} BEM ESPECÍFICO (IMÓVEL, EQUIPAMENTO)\n- VALE ATÉ O VALOR DO BEM\n- {verde:2º FLUTUANTE:} PRIVILÉGIO GERAL SOBRE O ATIVO\n- A EMPRESA SEGUE NEGOCIANDO OS BENS"
+    },
+    {
+     "titulo": "MENOS PROTEGIDAS",
+     "texto": "- {vermelho:3º QUIROGRAFÁRIA:} SEM GARANTIA, SEM PREFERÊNCIA\n- CONCORRE COM OS CREDORES COMUNS\n- {vermelho:4º SUBORDINADA:} DEPOIS DOS QUIROGRAFÁRIOS\n- À FRENTE SÓ DOS ACIONISTAS"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} ORDEM CLÁSSICA = REAL → FLUTUANTE → QUIROGRAFÁRIA → SUBORDINADA · \"QUIROGRÁFICA\" É A MESMA COISA · {vermelho:FLUTUANTE NÃO TRAVA OS BENS}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r29a_3_conteudo-2.png",
+   "semente": 2904,
+   "molde": "colunas",
+   "titulo": "FIADOR, FALÊNCIA E PRÊMIO (2/2)",
+   "topo": "{ciano:3 PONTOS QUE COMPLETAM A FILA:} A GARANTIA PESSOAL · A LEI DE FALÊNCIAS · O EFEITO NA TAXA",
+   "colunas": [
+    {
+     "titulo": "FIDEJUSSÓRIA",
+     "texto": "- GARANTIA {laranja:PESSOAL}, NÃO SOBRE UM BEM\n- DADA POR UM TERCEIRO\n- FIANÇA OU AVAL\n- SOMA-SE ÀS DEMAIS (GARANTIAS CUMULATIVAS)"
+    },
+    {
+     "titulo": "FALÊNCIA: ORDEM RESUMIDA",
+     "texto": "- {laranja:1.} TRABALHISTAS (ATÉ 150 SALÁRIOS MÍNIMOS)\n- {laranja:2.} GARANTIA REAL, ATÉ O VALOR DO BEM\n- {laranja:3.} TRIBUTÁRIOS\n- {laranja:4.} QUIROGRAFÁRIOS, {vermelho:COM A FLUTUANTE} (DESDE 2020)\n- {laranja:5.} SUBORDINADOS"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:EFEITO NA TAXA:} MENOS PROTEÇÃO → MAIS RISCO PERCEBIDO → {laranja:SPREAD MAIOR} · REFORMA: LEI 14.112, DE 2020 (ART. 83 DA LEI 11.101)",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r29a_4_quanto-vale-a-senha.png",
+   "semente": 2905,
+   "molde": "exercicio",
+   "titulo": "QUANTO VALE A SENHA ESPECIAL?",
+   "dados": "- HIPOTÉTICO: EMISSÃO DE {ciano:10 MILHÕES}, GARANTIDA POR UM IMÓVEL\n- FALÊNCIA DA EMISSORA\n- NINGUÉM À FRENTE DA GARANTIA REAL (SIMPLIFICAÇÃO)\n- A ÚNICA DIFERENÇA: O PREÇO DE VENDA DO IMÓVEL",
+   "cenarios": [
+    {
+     "titulo": "VENDIDO POR 6 MILHÕES",
+     "passos": "GARANTIA COBRE: 6 MILHÕES\n6 ÷ 10 = 60%\nFALTAM: 4 MILHÕES",
+     "resultado": "4 MILHÕES NA FILA COMUM"
+    },
+    {
+     "titulo": "VENDIDO POR 12 MILHÕES",
+     "passos": "GARANTIA COBRE: 10 MILHÕES\n10 ÷ 10 = 100%\nSOBRAM: 2 MILHÕES",
+     "resultado": "2 MILHÕES VOLTAM À MASSA"
+    }
+   ],
+   "conclusao": {
+    "texto": "A PERGUNTA NÃO É \"TEM GARANTIA?\" · É {laranja:QUANTO O BEM VALE} PERTO DA DÍVIDA · NA FILA COMUM, MUITAS VEZES {vermelho:SOBRA POUCO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r29b_1_covenant-so-na-quebra.png",
+   "semente": 2906,
+   "molde": "mito_verdade",
+   "titulo": "COVENANT SÓ VALE NA QUEBRA?",
+   "mitos": [
+    "SÓ DEPOIS",
+    "DA FALÊNCIA"
+   ],
+   "verdade": "TOCA {laranja:ANTES}",
+   "desenho": {
+    "nome": "alarme",
+    "largura": 170
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} A EMPRESA PROMETE DÍVIDA DE ATÉ 3 VEZES A GERAÇÃO DE CAIXA\n- 2 ANOS DEPOIS: {vermelho:3,5 VEZES}\n- OS JUROS CONTINUAM PAGOS EM DIA\n- MESMO ASSIM, O LIMITE DO CONTRATO FOI QUEBRADO\n- GERAÇÃO DE CAIXA MEDIDA PELO EBITDA\n- OS INVESTIDORES JÁ PODEM COBRAR ANTES DO PRAZO\n- {ciano:4 TEMAS:} CONCEITO · TIPOS · DESCUMPRIMENTO · AGENTE FIDUCIÁRIO"
+  },
+  {
+   "saida": "r29b_2_alarme-e-vigia.png",
+   "semente": 2907,
+   "molde": "comparacao",
+   "titulo": "O ALARME E O VIGIA",
+   "colunas": [
+    {
+     "titulo": "O ALARME",
+     "desenho": "alarme",
+     "rotulos": [
+      "REGRAS",
+      "DO CONTRATO"
+     ],
+     "texto": "- ALARME NO ALTO DO PRÉDIO → {laranja:COVENANTS}\n- LIMITE COMBINADO → {laranja:CLÁUSULA DA ESCRITURA}\n- TOCA ANTES DO INCÊNDIO → {laranja:INTERVENÇÃO ANTECIPADA}\n- TODOS SAEM JÁ → {laranja:VENCIMENTO ANTECIPADO}"
+    },
+    {
+     "titulo": "O VIGIA",
+     "desenho": "cracha_fiscal",
+     "rotulos": [
+      "VIGIA",
+      "AVISA"
+     ],
+     "texto": "- VIGIA DO PRÉDIO → {verde:AGENTE FIDUCIÁRIO}\n- MORADORES → {verde:DEBENTURISTAS}\n- AVISA QUE O ALARME TOCOU → {verde:NOTIFICAÇÃO}\n- MANDA ESVAZIAR → {verde:DECLARA O VENCIMENTO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:O INCÊNDIO:} A QUEBRA DA EMPRESA",
+    "{ciano:A FILA DA AULA PASSADA:} O QUE ACONTECE DEPOIS DO INCÊNDIO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} ALARME DE PRÉDIO DISPARA SOZINHO · COVENANT PRECISA DE MEDIÇÃO E DE DECISÃO · E NÃO ASSEGURA O PAGAMENTO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r29b_3_conteudo-1.png",
+   "semente": 2908,
+   "molde": "colunas",
+   "titulo": "COVENANTS: OS TIPOS (1/2)",
+   "topo": "{ciano:COVENANTS:} CLÁUSULAS DA ESCRITURA COM LIMITES {laranja:FINANCEIROS} OU {laranja:OPERACIONAIS} À EMISSORA · PROTEÇÃO + AÇÃO ANTECIPADA",
+   "colunas": [
+    {
+     "titulo": "FINANCEIROS",
+     "texto": "- {ciano:TETO:} DÍVIDA LÍQUIDA ÷ EBITDA MÁXIMA\n- {ciano:PISO:} COBERTURA MÍNIMA DE JUROS\n- DÍVIDA LÍQUIDA = DÍVIDA − CAIXA\n- EBITDA = MEDIDA DA GERAÇÃO DE CAIXA DO NEGÓCIO"
+    },
+    {
+     "titulo": "NÃO FINANCEIROS",
+     "texto": "- LIMITE À VENDA DE ATIVOS\n- MUDANÇA DE CONTROLE\n- DIVIDENDOS ACIMA DO MÍNIMO\n- MESMO BEM EM GARANTIA A OUTRO CREDOR (LEI 6.404, ART. 58, § 5º)"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:CUIDADO:} SÃO EXEMPLOS USUAIS DE MERCADO, NÃO LISTA LEGAL · CADA ESCRITURA TRAZ OS SEUS COVENANTS E OS SEUS LIMITES",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r29b_3_conteudo-2.png",
+   "semente": 2909,
+   "molde": "colunas",
+   "titulo": "DESCUMPRIU: E AGORA? (2/2)",
+   "topo": "{ciano:DESCUMPRIMENTO:} O EFEITO É O QUE A {laranja:ESCRITURA} PREVÊ · O MAIS FORTE É O VENCIMENTO ANTECIPADO",
+   "colunas": [
+    {
+     "titulo": "VENCIMENTO ANTECIPADO",
+     "texto": "- A DÍVIDA DE ANOS VIRA DÍVIDA DE HOJE\n- PODE OCORRER COM OS JUROS EM DIA\n- DEPENDE DOS TERMOS DA ESCRITURA\n- OBJETIVO: AGIR ANTES DA QUEBRA"
+    },
+    {
+     "titulo": "AGENTE FIDUCIÁRIO",
+     "texto": "- REPRESENTA OS DEBENTURISTAS\n- NOTIFICA O DESCUMPRIMENTO\n- DECLARA O VENCIMENTO ANTECIPADO\n- EXECUTA GARANTIAS REAIS\n- SEM GARANTIA REAL: PODE PEDIR A FALÊNCIA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:PRAZO DA NOTIFICAÇÃO:} ATÉ {laranja:60 DIAS} (LEI 6.404, ART. 68) · {ciano:GARANTIA × COVENANT:} A GARANTIA AGE DEPOIS DO PROBLEMA; O COVENANT, ANTES",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r29b_4_divida-sobre-ebitda.png",
+   "semente": 2910,
+   "molde": "exercicio",
+   "titulo": "O COVENANT FOI CUMPRIDO?",
+   "dados": "- HIPOTÉTICO: COVENANT DE DÍVIDA LÍQUIDA ÷ EBITDA ATÉ {ciano:3 VEZES}\n- EBITDA: {ciano:200 MILHÕES}\n- TETO DE DÍVIDA: 3 × 200 = 600 MILHÕES\n- MEDIÇÃO EM UMA ÚNICA DATA (SIMPLIFICAÇÃO)\n- A ÚNICA DIFERENÇA: A DÍVIDA LÍQUIDA",
+   "cenarios": [
+    {
+     "titulo": "DÍVIDA DE 500 MILHÕES",
+     "passos": "500 ÷ 200\nÍNDICE: 2,5 VEZES\nFOLGA: 100 MILHÕES",
+     "resultado": "CUMPRIDO"
+    },
+    {
+     "titulo": "DÍVIDA DE 700 MILHÕES",
+     "passos": "700 ÷ 200\nÍNDICE: 3,5 VEZES\nEXCESSO: 100 MILHÕES",
+     "resultado": "DESCUMPRIDO"
+    }
+   ],
+   "conclusao": {
+    "texto": "NO SEGUNDO CASO: NOTIFICAÇÃO AOS DEBENTURISTAS E POSSÍVEL {vermelho:VENCIMENTO ANTECIPADO} · OS JUROS PODEM ESTAR EM DIA NOS DOIS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
 }
