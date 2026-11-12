@@ -1,0 +1,589 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "molde": "mito_verdade",
+   "saida": "r41a_1_aberto.png",
+   "semente": 4101,
+   "titulo": "FIAGRO SÓ FECHADO?",
+   "mitos": [
+    "FIAGRO SÓ PODE SER FECHADO",
+    "IGUAL AO FII EM TUDO"
+   ],
+   "verdade": "{verde:ABERTO OU FECHADO} (LEI 8.668, ART. 20-B)",
+   "desenho": {
+    "nome": "placa",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} CLIENTE DE FII OLHANDO O AGRO\n- FII: {vermelho:SEMPRE FECHADO}\n- FIAGRO: {verde:ABERTO OU FECHADO}\n- PRAZO {laranja:DETERMINADO OU INDETERMINADO}\n- CRIADO PELA {laranja:LEI 14.130/2021}\n- {ciano:REGRA:} PARECIDO COM O FII ≠ IGUAL AO FII"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r41a_2_shopping.png",
+   "semente": 4102,
+   "titulo": "O SHOPPING ESPECIALIZADO",
+   "colunas": [
+    {
+     "titulo": "O TÉRREO",
+     "desenho": "predio_andares",
+     "rotulos": [
+      "3 LOJAS",
+      "HOJE"
+     ],
+     "texto": "- LOJA DO AGRO → {verde:FIAGRO (ANEXO VI)}\n- PRATELEIRAS EM ANDARES → {verde:FIDC (ANEXO II)}\n- SEGURANÇA NA PORTA → {verde:FIP (ANEXO IV)}\n- PRIMEIRO ANDAR → {laranja:R42}"
+    },
+    {
+     "titulo": "OS 3 DEPARTAMENTOS",
+     "desenho": "corrente_blocos",
+     "rotulos": [
+      "TERRA",
+      "CRÉDITO"
+     ],
+     "texto": "- TERRA → {laranja:REGRAS DO FII}\n- CRÉDITO DO AGRO → {laranja:REGRAS DO FIDC}\n- PARTICIPAÇÕES → {laranja:REGRAS DO FIP}\n- CONFLITO → {verde:VALE O ANEXO VI}"
+    }
+   ],
+   "faixas": [
+    "{ciano:TÍTULOS DO AGRO:} CPR (CÉDULA DE PRODUTO RURAL) · CDCA · CRA",
+    "{ciano:NOME:} TEM DE TER \"{laranja:FIAGRO}\" · COM \"CARBONO\", O REGULAMENTO EXPLICA COMO REDUZ OU REMOVE GASES"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA LOJA VOCÊ ESCOLHE O DEPARTAMENTO · NO FIAGRO, QUEM DEFINE É A {laranja:POLÍTICA DA CLASSE}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r41a_3_fiagro.png",
+   "semente": 4103,
+   "titulo": "OS ANEXOS E O FIAGRO",
+   "topo": "{ciano:CVM 175:} PARTE GERAL + ANEXOS · FIDC {laranja:II} · FII {laranja:III} · FIP {laranja:IV} · FIAGRO {laranja:VI}",
+   "colunas": [
+    {
+     "titulo": "O QUE PODE COMPRAR",
+     "texto": "- {verde:IMÓVEIS RURAIS} (ARRENDA/VENDE)\n- PARTICIPAÇÕES DO AGRO\n- CPR · CDCA · CRA\n- RECEBÍVEIS DO AGRO\n- FUNDOS COM > 50% NESSES ATIVOS"
+    },
+    {
+     "titulo": "A REGRA DOS 50%",
+     "texto": "- > 50% EM TERRA: {laranja:+ FII}\n- > 50% EM CRÉDITO: {laranja:+ FIDC}\n- > 50% EM SÓCIO: {laranja:+ FIP}\n- EXATAMENTE 50%: {vermelho:NÃO ACIONA}\n- CONFLITO: {verde:ANEXO VI}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} FII {vermelho:SÓ FECHADO} · FIAGRO {verde:ABERTO OU FECHADO} · ISSO PESA NA ISENÇÃO (R41B)",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r41a_4_departamento.png",
+   "semente": 4104,
+   "titulo": "QUAL REGRA EXTRA SE APLICA?",
+   "dados": "- DUAS CLASSES COM O NOME FIAGRO (HIPOTÉTICO)\n- CADA UMA PODE APLICAR ATÉ {ciano:70%} NUM ATIVO\n- LIMITE QUE ACIONA A REGRA: {laranja:MAIS DE 50%}\n- BASE: CVM 175, ANEXO VI, ART. 2º\n- A ÚNICA DIFERENÇA: O ATIVO PREDOMINANTE",
+   "cenarios": [
+    {
+     "titulo": "70% EM TERRA",
+     "passos": "IMÓVEIS RURAIS\nATIVO TÍPICO DO FII\n70% > 50%",
+     "resultado": "+ REGRAS DO FII"
+    },
+    {
+     "titulo": "70% EM CRÉDITO",
+     "passos": "RECEBÍVEIS DO AGRO\nATIVO TÍPICO DO FIDC\n70% > 50%",
+     "resultado": "+ REGRAS DO FIDC"
+    }
+   ],
+   "conclusao": {
+    "texto": "EM CONFLITO, {verde:PREVALECE O ANEXO VI} · A REGRA DO OUTRO FUNDO É {laranja:SUBSIDIÁRIA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r41b_1_isencao.png",
+   "semente": 4111,
+   "titulo": "TODO RENDIMENTO É ISENTO?",
+   "mitos": [
+    "TODO FIAGRO PAGA RENDA ISENTA",
+    "BASTAM 50 COTISTAS"
+   ],
+   "verdade": "ISENTO SÓ COM {verde:4 CONDIÇÕES}",
+   "desenho": {
+    "nome": "check",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} FIAGRO EM BOLSA COM 80 COTISTAS\n- FALTA UMA CONDIÇÃO → {vermelho:20% NA FONTE}\n- {ciano:BASE:} LEI 11.033, ART. 3º, III E § 1º\n- MÍNIMO DE {laranja:100 COTISTAS} DESDE A LEI 14.754/2023\n- GANHO NA VENDA: {vermelho:20%} SEMPRE\n- {ciano:REGRA:} AS 4 CONDIÇÕES VALEM JUNTAS"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r41b_2_loja-agro.png",
+   "semente": 4112,
+   "titulo": "OS RISCOS E O CAIXA DO AGRO",
+   "colunas": [
+    {
+     "titulo": "O CLIMA E A CADEIA",
+     "desenho": "termometro",
+     "rotulos": [
+      "SECA",
+      "GEADA"
+     ],
+     "texto": "- UM SÓ SETOR → {vermelho:CONCENTRAÇÃO}\n- SECA OU GEADA → {vermelho:RISCO CLIMÁTICO}\n- ELO QUEBRADO → {vermelho:CADEIA PRODUTIVA}\n- DEPARTAMENTO → {laranja:CRÉDITO, LIQUIDEZ, PREÇO}"
+    },
+    {
+     "titulo": "O CAIXA DO SHOPPING",
+     "desenho": "bilheteria",
+     "rotulos": [
+      "PF",
+      "PJ"
+     ],
+     "texto": "- RENDA À PF → {verde:ISENTA (4 CONDIÇÕES)}\n- RENDA À PJ → {vermelho:20%}\n- VENDA DA COTA → {vermelho:20% (PF E PJ)}\n- CARTAZ DA PORTA → {laranja:PÚBLICO EM GERAL}"
+    }
+   ],
+   "faixas": [
+    "{ciano:CLASSE ABERTA AO PÚBLICO EM GERAL:} {laranja:LÂMINA} · CARÊNCIA + RESGATE ATÉ {laranja:180 DIAS} · VEDAÇÕES",
+    "{ciano:VEDADOS:} NÃO PADRONIZADOS · VENDA PARA ENTREGA FUTURA · LIGADOS AOS PRESTADORES"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} CAIXA DE SHOPPING COBRA IGUAL · NO FIAGRO, DEPENDE DO {laranja:INVESTIDOR} E DAS {laranja:CONDIÇÕES}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r41b_3_tributacao.png",
+   "semente": 4113,
+   "titulo": "FIAGRO: RISCOS, PÚBLICO E IR",
+   "topo": "{ciano:RISCOS DA APOSTILA:} CONCENTRAÇÃO SETORIAL · CLIMA · CADEIAS PRODUTIVAS · {laranja:+ OS DO DEPARTAMENTO}",
+   "colunas": [
+    {
+     "titulo": "AS 4 CONDIÇÕES",
+     "texto": "- 1. {laranja:SÓ BOLSA} OU BALCÃO\n- 2. {laranja:≥ 100 COTISTAS}\n- 3. PF {laranja:< 10%} DAS COTAS\n- 4. GRUPO LIGADO {laranja:< 30%}\n- FALTOU UMA → {vermelho:20%}"
+    },
+    {
+     "titulo": "QUANTO PAGA",
+     "texto": "- PF, RENDA: {verde:ISENTA}\n- PJ, RENDA: {vermelho:20%}\n- GANHO PF/PJ: {vermelho:20%}\n- FIAGRO ABERTO: SEM BOLSA\n- → {vermelho:SEM A ISENÇÃO}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:REGRA ANTIGA:} 50 COTISTAS · {vermelho:HOJE:} {laranja:100}, NA REDAÇÃO DADA PELA LEI 14.754/2023 · FALTOU UMA CONDIÇÃO → 20% NA FONTE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r41b_4_cotistas.png",
+   "semente": 4114,
+   "titulo": "150 OU 80 COTISTAS?",
+   "dados": "- COTISTA PF COM {ciano:4%} DAS COTAS E DOS RENDIMENTOS (HIPOTÉTICO)\n- RENDIMENTO DISTRIBUÍDO: {ciano:R$ 10.000}\n- COTAS NEGOCIADAS {laranja:SÓ NA BOLSA}\n- SEM GRUPO DE PESSOAS LIGADAS\n- A ÚNICA DIFERENÇA: O NÚMERO DE COTISTAS",
+   "cenarios": [
+    {
+     "titulo": "150 COTISTAS",
+     "passos": "4 CONDIÇÕES OK\nRENDIMENTO ISENTO\nIR ZERO",
+     "resultado": "R$ 10.000"
+    },
+    {
+     "titulo": "80 COTISTAS",
+     "passos": "FALTA 1 CONDIÇÃO\n10.000 × 20%\n= 2.000 NA FONTE",
+     "resultado": "R$ 8.000"
+    }
+   ],
+   "conclusao": {
+    "texto": "UMA CONDIÇÃO VALEU {vermelho:R$ 2 MIL} · NO GANHO DA VENDA, OS DOIS PAGARIAM {laranja:20%}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r41c_1_subordinacao.png",
+   "semente": 4121,
+   "titulo": "TODAS AS COTAS PERDEM IGUAL?",
+   "mitos": [
+    "15% DE CALOTE = 15% NA SÊNIOR",
+    "TODA COTA PERDE NA MESMA PROPORÇÃO"
+   ],
+   "verdade": "A {verde:SUBORDINADA} ABSORVE PRIMEIRO",
+   "desenho": {
+    "nome": "predio_andares",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} 15% DE INADIMPLÊNCIA NO FIDC\n- SUBORDINADA DE 20% → PERDA {verde:CABE NO COLCHÃO}\n- SÊNIOR: {verde:NÃO PERDE NADA}\n- MEZANINO: PERDE DEPOIS DA SUBORDINADA\n- SÊNIOR: SÓ QUANDO O COLCHÃO {vermelho:ACABA}\n- {ciano:REGRA:} ORDEM DE PERDA ≠ PROPORÇÃO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r41c_2_prateleiras.png",
+   "semente": 4122,
+   "titulo": "A LOJA DE PRATELEIRAS",
+   "colunas": [
+    {
+     "titulo": "COMO A LOJA COMPRA",
+     "desenho": "dinheiro",
+     "rotulos": [
+      "À VISTA",
+      "COM DESCONTO"
+     ],
+     "texto": "- NOTAS A RECEBER → {verde:DIREITOS CREDITÓRIOS}\n- LOJA QUE VENDE → {laranja:CEDENTE}\n- CLIENTES QUE PAGAM → {laranja:DEVEDORES}\n- PAGA À VISTA → {verde:FINANCIA A EMPRESA}"
+    },
+    {
+     "titulo": "AS PRATELEIRAS",
+     "desenho": "escada_desce",
+     "rotulos": [
+      "CIMA",
+      "BAIXO"
+     ],
+     "texto": "- CIMA → {verde:SÊNIOR, RECEBE 1º}\n- MEIO → {laranja:MEZANINO}\n- BAIXO → {vermelho:SUBORDINADA, PERDE 1º}\n- RISCO MAIOR → {laranja:RETORNO POTENCIAL MAIOR}"
+    }
+   ],
+   "faixas": [
+    "{ciano:EXEMPLOS DE RECEBÍVEIS:} DUPLICATAS · PARCELAS DE CARTÃO · ALUGUÉIS · CRÉDITO DO AGRO",
+    "{ciano:CVM 175, ANEXO II, ART. 2º:} A SÊNIOR NÃO SE SUBORDINA A NENHUMA OUTRA CLASSE"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} SÊNIOR TAMBÉM PERDE {laranja:SE O COLCHÃO ACABAR} · SUBORDINAÇÃO NÃO É GARANTIA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r41c_3_fidc.png",
+   "semente": 4123,
+   "titulo": "FIDC: CARTEIRA E COTAS",
+   "topo": "{ciano:CAMINHO:} CEDENTE VENDE → FIDC PAGA À VISTA → DEVEDORES PAGAM AO FUNDO → {verde:COTISTAS}",
+   "colunas": [
+    {
+     "titulo": "REGRAS DA CVM",
+     "texto": "- > 50% EM RECEBÍVEIS\n- PRAZO: {laranja:180 DIAS}\n- {laranja:≤ 20%} POR DEVEDOR (EM REGRA)\n- FIC-FIDC: {laranja:≥ 67%} EM FIDC\n- ANEXO NORMATIVO II"
+    },
+    {
+     "titulo": "A ORDEM DA PERDA",
+     "texto": "- 1º {vermelho:SUBORDINADA}\n- 2º {laranja:MEZANINO}\n- 3º {verde:SÊNIOR}\n- COLCHÃO = % DA SUBORDINADA\n- PERDA = COLCHÃO → SÊNIOR OK"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} SÊNIOR SÓ PERDE QUANDO A INADIMPLÊNCIA {vermelho:PASSA} DO TAMANHO DA SUBORDINADA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r41c_4_colchao.png",
+   "semente": 4124,
+   "titulo": "O COLCHÃO AGUENTA?",
+   "dados": "- CARTEIRA DE {ciano:R$ 50 MI} (HIPOTÉTICO)\n- SUBORDINADA: {ciano:20%} = R$ 10 MI · SÊNIOR: R$ 40 MI\n- SEM MEZANINO · SEM RECUPERAÇÃO\n- ORDEM: SUBORDINADA PERDE ANTES DA SÊNIOR\n- A ÚNICA DIFERENÇA: A INADIMPLÊNCIA",
+   "cenarios": [
+    {
+     "titulo": "15% DE CALOTE",
+     "passos": "PERDA: 7,5 MI\nSUBORDINADA: 2,5 MI\nSÊNIOR: INTACTA",
+     "resultado": "SÊNIOR 0%"
+    },
+    {
+     "titulo": "26% DE CALOTE",
+     "passos": "PERDA: 13 MI\nSUBORDINADA: ZERO\n3 MI NA SÊNIOR",
+     "resultado": "SÊNIOR −7,5%"
+    }
+   ],
+   "conclusao": {
+    "texto": "PONTO DE VIRADA: {laranja:20% DE INADIMPLÊNCIA} · ACIMA DISSO, CADA R$ 1 DE PERDA {vermelho:ATINGE A SÊNIOR}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r41d_1_varejo.png",
+   "semente": 4131,
+   "titulo": "FIDC É PROIBIDO NO VAREJO?",
+   "mitos": [
+    "FIDC SÓ PARA QUALIFICADO",
+    "VAREJO PODE QUALQUER COTA"
+   ],
+   "verdade": "VAREJO PODE: {verde:SÊNIOR OU MEZANINO}",
+   "desenho": {
+    "nome": "alvo",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} VAREJO PEDINDO A COTA SÊNIOR\n- {ciano:CVM 175, ANEXO II, ART. 13:} 5 REQUISITOS JUNTOS\n- SUBORDINADA: {vermelho:FORA DO VAREJO}\n- NÃO PADRONIZADOS: {vermelho:SÓ PROFISSIONAL} (ART. 15)\n- \"MAIS COMUM\" ENTRE QUALIFICADOS ≠ {laranja:OBRIGATÓRIO}\n- {ciano:REGRA:} PODE, COM CONDIÇÕES"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r41d_2_cartaz.png",
+   "semente": 4132,
+   "titulo": "O CARTAZ E O CAIXA",
+   "colunas": [
+    {
+     "titulo": "O CARTAZ DA PORTA",
+     "desenho": "placa",
+     "rotulos": [
+      "5",
+      "EXIGÊNCIAS"
+     ],
+     "texto": "- SÓ CIMA E MEIO → {verde:SÊNIOR OU MEZANINO}\n- TABELA DE ENTREGAS → {laranja:CRONOGRAMA}\n- DEVOLUÇÃO RÁPIDA → {laranja:ATÉ 180 DIAS}\n- SELO NA PRATELEIRA → {laranja:RATING DA SÊNIOR}"
+    },
+    {
+     "titulo": "NO CAIXA",
+     "desenho": "bilheteria",
+     "rotulos": [
+      "NA SAÍDA",
+      "OU SEMESTRAL"
+     ],
+     "texto": "- GESTOR COM LIBERDADE → {verde:15% SÓ NA SAÍDA}\n- SEM ESSA LIBERDADE → {laranja:COME-COTAS 15%}\n- MENOS DE 67% → {vermelho:REGRA GERAL}\n- PRODUTO DUVIDOSO → {vermelho:FORA DO VAREJO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:RISCOS DA APOSTILA:} CRÉDITO · LIQUIDEZ · ESTRUTURAÇÃO → {laranja:ANÁLISE TÉCNICA APROFUNDADA}",
+    "{ciano:ENTIDADE DE INVESTIMENTO:} GESTÃO PROFISSIONAL E DISCRICIONÁRIA (LEI 14.754, ART. 23; CMN 5.111)"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} SELO DE LOJA QUALQUER UM DÁ · RATING DA SÊNIOR: {laranja:AGÊNCIA REGISTRADA NA CVM}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r41d_3_publico-ir.png",
+   "semente": 4133,
+   "titulo": "FIDC: PÚBLICO E IMPOSTO",
+   "topo": "{ciano:CVM:} > 50% EM RECEBÍVEIS · {ciano:IMPOSTO (LEI 14.754, ART. 19):} {laranja:≥ 67%} · REGRAS DIFERENTES",
+   "colunas": [
+    {
+     "titulo": "VAREJO (ART. 13)",
+     "texto": "- 1. SÊNIOR OU MEZANINO\n- 2. CRONOGRAMA\n- 3. ABERTA: ≤ 180 DIAS\n- 4. SEM RECEBÍVEIS VEDADOS\n- 5. {laranja:RATING DA SÊNIOR}"
+    },
+    {
+     "titulo": "IMPOSTO",
+     "texto": "- ENTIDADE: {verde:15% NA SAÍDA}\n- SEM COME-COTAS (ART. 24)\n- NÃO ENTIDADE: {laranja:COME-COTAS 15%}\n- SEM 67%: {vermelho:REGRA GERAL}\n- 60% EM RECEBÍVEIS: {vermelho:< 67%}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:É COMUM LER:} FIDC NA REGRA GERAL · {vermelho:ATENÇÃO:} SÓ SEM OS 67%",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r41d_4_come-cotas.png",
+   "semente": 4134,
+   "titulo": "SAÍDA OU COME-COTAS?",
+   "dados": "- APLICAÇÃO DE {ciano:R$ 100.000} (HIPOTÉTICO)\n- {ciano:6% AO SEMESTRE} POR 2 ANOS (4 SEMESTRES)\n- DOIS FIDCS COM 67% · ALÍQUOTA DE {ciano:15%}\n- SIMPLIFICAÇÃO: SEM IOF, SEM PERDAS\n- A ÚNICA DIFERENÇA: QUANDO O IR É COBRADO",
+   "cenarios": [
+    {
+     "titulo": "ENTIDADE",
+     "passos": "BRUTO: 126.247,70\nIR 15% NO FIM\n100.000 + 22.310,54",
+     "resultado": "R$ 122.310,54"
+    },
+    {
+     "titulo": "COME-COTAS",
+     "passos": "6% × 0,85 = 5,1%\n4 SEMESTRES\nA 5,1%",
+     "resultado": "R$ 122.014,34"
+    }
+   ],
+   "conclusao": {
+    "texto": "{verde:R$ 296,20} A MAIS COM A {laranja:MESMA ALÍQUOTA} · PRAZO MAIOR E VALOR MAIOR → DIFERENÇA MAIOR",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r41e_1_qualificado.png",
+   "semente": 4141,
+   "titulo": "FIP SÓ RECOMENDADO?",
+   "mitos": [
+    "FIP É SÓ INDICADO PARA QUALIFICADO",
+    "ASSINA UM TERMO E ENTRA"
+   ],
+   "verdade": "{verde:SOMENTE} QUALIFICADOS (ANEXO IV, ART. 4º)",
+   "desenho": {
+    "nome": "cracha_fiscal",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} INVESTIDOR COMUM E UM FIP DE STARTUPS\n- REGRA DA CVM: {vermelho:NÃO É RECOMENDAÇÃO}\n- REGIME {laranja:FECHADO}: SEM RESGATE\n- SAÍDA: FIM DO FUNDO OU {laranja:MERCADO SECUNDÁRIO}\n- PRIVATE EQUITY · VENTURE CAPITAL\n- {ciano:REGRA:} SEM CRACHÁ, SEM ENTRADA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r41e_2_seguranca.png",
+   "semente": 4142,
+   "titulo": "A LOJA COM SEGURANÇA",
+   "colunas": [
+    {
+     "titulo": "A PORTA",
+     "desenho": "pessoa",
+     "rotulos": [
+      "CRACHÁ",
+      "QUALIFICADO"
+     ],
+     "texto": "- SEGURANÇA → {verde:SOMENTE QUALIFICADOS}\n- SEM DEVOLUÇÃO → {laranja:FUNDO FECHADO}\n- VENDE O LUGAR → {laranja:MERCADO SECUNDÁRIO}\n- SEM EXCEÇÃO → {vermelho:REGRA DA CVM}"
+    },
+    {
+     "titulo": "A MESA DE REUNIÃO",
+     "desenho": "prancheta",
+     "rotulos": [
+      "SÓCIO",
+      "ATIVO"
+     ],
+     "texto": "- MESA DE SÓCIOS → {verde:PROCESSO DECISÓRIO}\n- BLOCO DE CONTROLE → {laranja:INFLUÊNCIA EFETIVA}\n- ACORDO DE ACIONISTAS → {laranja:OUTRA FORMA}\n- SALAS DA LOJA → {verde:5 CATEGORIAS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:SALAS:} CAPITAL SEMENTE · EMPRESAS EMERGENTES · INFRAESTRUTURA · PD&I · MULTIESTRATÉGIA",
+    "{ciano:O QUE COMPRA:} AÇÕES · BÔNUS · CONVERSÍVEIS · COTAS DE LIMITADA · COTAS DE OUTROS FIP"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} SEGURANÇA DE LOJA ABRE EXCEÇÃO · A CVM {laranja:NÃO ABRE} PARA O NÃO QUALIFICADO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r41e_3_fip.png",
+   "semente": 4143,
+   "titulo": "FIP: REGRAS E CATEGORIAS",
+   "topo": "{ciano:CARTEIRA:} {laranja:≥ 90%} EM PARTICIPAÇÕES · DEBÊNTURE NÃO CONVERSÍVEL ATÉ {laranja:33%} DO SUBSCRITO, EM REGRA",
+   "colunas": [
+    {
+     "titulo": "O SÓCIO ATIVO",
+     "texto": "- {verde:PROCESSO DECISÓRIO}\n- INFLUÊNCIA NA {laranja:ESTRATÉGIA}\n- E NA {laranja:GESTÃO}\n- FIC-FIP: ≥ 90% EM FIP\n- FIP ≠ FUNDO DE AÇÕES"
+    },
+    {
+     "titulo": "AS CATEGORIAS",
+     "texto": "- SEMENTE: ATÉ {laranja:R$ 20 MI}/ANO\n- EMERGENTES: ATÉ {laranja:R$ 400 MI}\n- INFRA E PD&I: {laranja:≥ 5 COTISTAS}\n- CADA UM ATÉ {laranja:40%}\n- MULTIESTRATÉGIA: O RESTO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:É COMUM LER:} \"INDICADO\" PARA QUALIFICADOS · {vermelho:ATENÇÃO:} {laranja:SOMENTE} QUALIFICADOS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r41e_4_categoria.png",
+   "semente": 4144,
+   "titulo": "QUAL É A CATEGORIA?",
+   "dados": "- FIP COM ASSENTO NO CONSELHO DA INVESTIDA (HIPOTÉTICO)\n- ACORDO DE ACIONISTAS ASSINADO\n- TETO DO SEMENTE: {ciano:R$ 20 MI} DE RECEITA\n- TETO DO EMERGENTES: {ciano:R$ 400 MI}\n- A ÚNICA DIFERENÇA: A RECEITA DA EMPRESA",
+   "cenarios": [
+    {
+     "titulo": "RECEITA R$ 15 MI",
+     "passos": "ATÉ R$ 20 MI\nCABE NO SEMENTE\nE NO EMERGENTES",
+     "resultado": "SEMENTE OK"
+    },
+    {
+     "titulo": "RECEITA R$ 300 MI",
+     "passos": "PASSA DE R$ 20 MI\nATÉ R$ 400 MI\nNÃO É SEMENTE",
+     "resultado": "EMERGENTES"
+    }
+   ],
+   "conclusao": {
+    "texto": "NOS DOIS: {laranja:FECHADO}, INFLUÊNCIA NA GESTÃO E {vermelho:SÓ QUALIFICADOS} · A RECEITA DA INVESTIDA SÓ DEFINE A {laranja:CATEGORIA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r41f_1_come-cotas.png",
+   "semente": 4151,
+   "titulo": "TODO FIP SEM COME-COTAS?",
+   "mitos": [
+    "NENHUM FIP TEM COME-COTAS",
+    "FIP ENTIDADE É ISENTO"
+   ],
+   "verdade": "SEM COME-COTAS: {verde:SÓ A ENTIDADE}",
+   "desenho": {
+    "nome": "ampulheta",
+    "largura": 120
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} REDUÇÃO DE COTAS EM MAIO NUM FIP\n- NÃO É ENTIDADE → {vermelho:COME-COTAS DE 15%}\n- ENTIDADE → 15% SÓ NA {laranja:DISTRIBUIÇÃO, AMORTIZAÇÃO OU RESGATE}\n- ADIAR ≠ {vermelho:ISENTAR}\n- {ciano:BASE:} LEI 14.754/2023, ARTS. 24 E 26\n- {ciano:REGRA:} PRIMEIRO DESCUBRA SE É ENTIDADE"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r41f_2_socio.png",
+   "semente": 4152,
+   "titulo": "O PREÇO DE SER SÓCIO",
+   "colunas": [
+    {
+     "titulo": "O PREÇO",
+     "desenho": "montanha_russa",
+     "rotulos": [
+      "ANOS",
+      "PRESO"
+     ],
+     "texto": "- ANOS À MESA → {laranja:LONGO PRAZO}\n- SEM SAÍDA → {vermelho:BAIXA LIQUIDEZ}\n- EMPRESA PODE FALIR → {vermelho:RISCO ELEVADO}\n- EMPRESA PODE DECOLAR → {verde:RETORNO POTENCIAL}"
+    },
+    {
+     "titulo": "O CAIXA DA LOJA",
+     "desenho": "bilheteria",
+     "rotulos": [
+      "3",
+      "TRATAMENTOS"
+     ],
+     "texto": "- GESTOR COM LIBERDADE → {verde:15% NA SAÍDA}\n- SEM ESSA LIBERDADE → {laranja:COME-COTAS 15%}\n- GAVETA SEPARADA → {laranja:SUBCONTA}\n- SALA DE INFRA → {verde:PF SEM IMPOSTO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:SUBCONTA:} VALORIZAÇÃO DE PARTICIPAÇÃO DE {laranja:CONTROLE OU COLIGAÇÃO} · TRIBUTADA NA VENDA OU NA DISTRIBUIÇÃO",
+    "{ciano:FIP-IE E FIP-PD&I (LEI 11.478):} PF ISENTA NO RENDIMENTO · {verde:ALÍQUOTA ZERO} NO GANHO · PJ {laranja:15%}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} A GAVETA É SÓ IMAGEM · NA LEI 14.754, É UMA {laranja:SUBCONTA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r41f_3_tributacao.png",
+   "semente": 4153,
+   "titulo": "FIP: OS TRÊS TRATAMENTOS",
+   "topo": "{ciano:APOSTILA:} LONGO PRAZO · BAIXA LIQUIDEZ · RISCO ELEVADO · {verde:RETORNO POTENCIAL SIGNIFICATIVO}",
+   "colunas": [
+    {
+     "titulo": "ENTIDADE × NÃO ENTIDADE",
+     "texto": "- ENTIDADE: {verde:15% NA SAÍDA}\n- SEM TRIBUTAÇÃO PERIÓDICA\n- NÃO ENTIDADE: {laranja:COME-COTAS}\n- 15% + {laranja:SUBCONTA}\n- (CONTROLE OU COLIGAÇÃO)"
+    },
+    {
+     "titulo": "FIP-IE E FIP-PD&I",
+     "texto": "- PF, RENDIMENTO: {verde:ISENTO}\n- PF, GANHO: {verde:ALÍQUOTA ZERO}\n- PJ: {laranja:15%}\n- LEI 11.478/2007\n- PRESERVADOS (LEI 14.754)"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:É COMUM LER:} FIP SEM COME-COTAS · {vermelho:ATENÇÃO:} SÓ SE FOR {laranja:ENTIDADE DE INVESTIMENTO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r41f_4_categoria-ir.png",
+   "semente": 4154,
+   "titulo": "MULTIESTRATÉGIA OU FIP-IE?",
+   "dados": "- PF QUALIFICADA · RENDIMENTO DE {ciano:R$ 50.000} (HIPOTÉTICO)\n- PAGO NA {laranja:AMORTIZAÇÃO} DAS COTAS\n- OS DOIS FUNDOS SEM COME-COTAS\n- FIP-IE CUMPRE AS CONDIÇÕES DA LEI 11.478\n- A ÚNICA DIFERENÇA: A CATEGORIA",
+   "cenarios": [
+    {
+     "titulo": "MULTIESTRATÉGIA",
+     "passos": "ENTIDADE DE INVEST.\n50.000 × 15%\n= 7.500 NA SAÍDA",
+     "resultado": "R$ 42.500"
+    },
+    {
+     "titulo": "FIP-IE",
+     "passos": "PESSOA FÍSICA\nRENDIMENTO ISENTO\nIR ZERO",
+     "resultado": "R$ 50.000"
+    }
+   ],
+   "conclusao": {
+    "texto": "5 PEGADINHAS (FALSAS): FIDC FORA DO VAREJO · FIP SÓ RECOMENDADO · FIAGRO SÓ FECHADO · FIAGRO COM 50 COTISTAS · TODO FIDC NA TABELA REGRESSIVA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
