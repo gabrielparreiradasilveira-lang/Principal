@@ -1,0 +1,589 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "molde": "mito_verdade",
+   "saida": "r40a_1_queda-40.png",
+   "semente": 4001,
+   "titulo": "PERDER MAIS QUE O PATRIMÔNIO?",
+   "mitos": [
+    "FUNDO NUNCA PERDE MAIS QUE O PL",
+    "QUEDA DE 40% SEMPRE DEIXA 60%"
+   ],
+   "verdade": "EXPOSIÇÃO > PL → {vermelho:PERDA PASSA DO PL}",
+   "desenho": {
+    "nome": "grafico_baixa",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} FUNDO ALAVANCADO, QUEDA DE 40%\n- SEM ALAVANCAGEM: PERDE 40% DO PL, SOBRAM {verde:60%}\n- EXPOSIÇÃO DE 3× O PL: PERDE {vermelho:120% DO PL}\n- RESULTADO: O FUNDO {vermelho:DEVE 20% DO PL}\n- {laranja:OBRIGAÇÕES > ATIVOS} = PL NEGATIVO\n- {ciano:REGRA:} ALAVANCAGEM MULTIPLICA A PERDA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r40a_2_torres.png",
+   "semente": 4002,
+   "titulo": "O CONDOMÍNIO ENDIVIDADO",
+   "colunas": [
+    {
+     "titulo": "AS TORRES E OS COFRES",
+     "desenho": "predio_andares",
+     "rotulos": [
+      "TORRE A",
+      "TORRE B"
+     ],
+     "texto": "- CADA TORRE → {verde:UMA CLASSE}\n- COFRE PRÓPRIO → {verde:PATRIMÔNIO SEGREGADO}\n- DÍVIDA DA A → {vermelho:NÃO USA O COFRE DA B}\n- COFRE ÷ FRAÇÕES → {laranja:VALOR DA COTA}"
+    },
+    {
+     "titulo": "CONTAS > COFRE",
+     "desenho": "tanque_furado",
+     "rotulos": [
+      "DEVE",
+      "MAIS"
+     ],
+     "texto": "- OBRAS COM EMPRÉSTIMO → {vermelho:ALAVANCAGEM}\n- QUEM DEVIA NÃO PAGOU → {vermelho:INADIMPLÊNCIA}\n- COMPROMISSO ERRADO → {vermelho:DERIVATIVOS}\n- CONTAS > COFRE → {laranja:PL NEGATIVO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:PL = ATIVOS − OBRIGAÇÕES} · POSITIVO NO DIA A DIA · NEGATIVO NA CRISE EXTREMA",
+    "{ciano:CAUSAS SEGUNDO A APOSTILA:} ALAVANCAGEM EXCESSIVA · INADIMPLÊNCIA RELEVANTE · DERIVATIVOS MAL USADOS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} PRÉDIO SE ENDIVIDA NO DIA A DIA · FUNDO, EM GERAL, POR {laranja:ALAVANCAGEM, CALOTE OU DERIVATIVOS}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r40a_3_pl-negativo.png",
+   "semente": 4003,
+   "titulo": "PATRIMÔNIO LÍQUIDO NEGATIVO",
+   "topo": "{ciano:PL = ATIVOS − OBRIGAÇÕES} · PL ÷ Nº DE COTAS = {laranja:VALOR DA COTA} · NEGATIVO = {vermelho:DEVE MAIS DO QUE TEM}",
+   "colunas": [
+    {
+     "titulo": "AS 3 CAUSAS",
+     "texto": "- {vermelho:ALAVANCAGEM} EXCESSIVA\n- EXPOSIÇÃO > PATRIMÔNIO\n- {vermelho:INADIMPLÊNCIA} RELEVANTE\n- ATIVO CAI, DÍVIDA FICA\n- {vermelho:DERIVATIVOS} MAL USADOS"
+    },
+    {
+     "titulo": "A CONTA DA ALAVANCAGEM",
+     "texto": "- SEM: QUEDA 40% → PERDA {verde:40%}\n- 2×: QUEDA 40% → PERDA {laranja:80%}\n- 3×: QUEDA 40% → PERDA {vermelho:120%}\n- PERDA = EXPOSIÇÃO × QUEDA\n- PL ZERO: COTA ZERO, SEM DÍVIDA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} PERDA TOTAL = COTA ZERO · PL NEGATIVO = {vermelho:SOBRA DÍVIDA} E SURGE A PERGUNTA: QUEM PAGA? (R40B)",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r40a_4_alavancagem.png",
+   "semente": 4004,
+   "titulo": "A MESMA QUEDA, DOIS DESTINOS",
+   "dados": "- PATRIMÔNIO: {ciano:R$ 10 MILHÕES} (HIPOTÉTICO)\n- QUEDA NO VALOR DOS ATIVOS: {ciano:40%}\n- FUNDO 1: EXPOSIÇÃO = PATRIMÔNIO\n- FUNDO 2: EXPOSIÇÃO DE {laranja:3 VEZES} O PATRIMÔNIO\n- A ÚNICA DIFERENÇA: A EXPOSIÇÃO",
+   "cenarios": [
+    {
+     "titulo": "SEM ALAVANCAGEM",
+     "passos": "10 MI × 40% = 4 MI\n10 MI − 4 MI\nPL POSITIVO",
+     "resultado": "+ R$ 6 MI"
+    },
+    {
+     "titulo": "EXPOSIÇÃO DE 3×",
+     "passos": "30 MI × 40% = 12 MI\n10 MI − 12 MI\nPL NEGATIVO",
+     "resultado": "− R$ 2 MI"
+    }
+   ],
+   "conclusao": {
+    "texto": "A ALAVANCAGEM {vermelho:TRIPLICOU A PERDA} · DE {verde:SOBRAM 6 MI} PARA {vermelho:DEVE 2 MI} · QUEM COBRE OS 2 MI DEPENDE DO REGULAMENTO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r40b_1_perda-maxima.png",
+   "semente": 4011,
+   "titulo": "A PERDA MÁXIMA É O APLICADO?",
+   "mitos": [
+    "EM TODO FUNDO, PERCO SÓ O APLICADO",
+    "O ADMINISTRADOR COBRE O BURACO"
+   ],
+   "verdade": "DEPENDE DO {verde:REGULAMENTO}",
+   "desenho": {
+    "nome": "prancheta",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} R$ 120 MIL NUM FUNDO COM PL NEGATIVO\n- COM LIMITAÇÃO: PERDA ATÉ O {verde:VALOR SUBSCRITO}\n- SEM LIMITAÇÃO: COTISTA {vermelho:RESPONDE PELO PL NEGATIVO}\n- PODE TER DE {vermelho:APORTAR} DINHEIRO NOVO\n- PISTA NO NOME: \"{laranja:RESPONSABILIDADE LIMITADA}\"\n- {ciano:REGRA:} SEM O SUFIXO, ATENÇÃO REDOBRADA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r40b_2_moradores.png",
+   "semente": 4012,
+   "titulo": "AS DUAS PLACAS DOS MORADORES",
+   "colunas": [
+    {
+     "titulo": "A PLACA DO LIMITE",
+     "desenho": "pessoa",
+     "rotulos": [
+      "CONVENÇÃO",
+      "LIMITA"
+     ],
+     "texto": "- PERDE SÓ O APARTAMENTO → {verde:LIMITADA}\n- CONVENÇÃO → {laranja:REGULAMENTO}\n- APARTAMENTO → {verde:VALOR SUBSCRITO}\n- PLACA NA FACHADA → {laranja:SUFIXO NO NOME}"
+    },
+    {
+     "titulo": "A PLACA DA DÍVIDA",
+     "desenho": "dinheiro",
+     "rotulos": [
+      "PAGA A",
+      "SUA PARTE"
+     ],
+     "texto": "- PAGA A SUA PARTE → {vermelho:ILIMITADA}\n- TIRA DO BOLSO → {vermelho:APORTE}\n- ASSINA QUE SABE → {laranja:TERMO DE CIÊNCIA}\n- ADMINISTRADORA → {verde:SÓ DOLO OU MÁ-FÉ}"
+    }
+   ],
+   "faixas": [
+    "{ciano:SUPLEMENTO A DA CVM 175:} O COTISTA DECLARA QUE PODE SER {laranja:CHAMADO A COBRIR} O PL NEGATIVO",
+    "{ciano:CÓDIGO CIVIL, ART. 1.368-E:} O {verde:FUNDO} RESPONDE DIRETAMENTE PELAS SUAS OBRIGAÇÕES"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} CONVENÇÃO DE PRÉDIO VALE PARA TODOS · NO FUNDO, O LIMITE É {laranja:DE CADA CLASSE}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r40b_3_responsabilidade.png",
+   "semente": 4013,
+   "titulo": "QUEM PAGA A CONTA",
+   "topo": "{ciano:CVM 175, ART. 18:} O REGULAMENTO {laranja:PODE} LIMITAR AO {verde:VALOR SUBSCRITO} · PRESTADOR: SÓ {laranja:DOLO OU MÁ-FÉ}",
+   "colunas": [
+    {
+     "titulo": "LIMITADA",
+     "texto": "- PREVISTA NO {laranja:REGULAMENTO}\n- SUFIXO NO NOME (ART. 6º, § 3º)\n- PERDA ATÉ O {verde:SUBSCRITO}\n- SUBSCRITO = O PROMETIDO\n- SEM APORTE EXTRA"
+    },
+    {
+     "titulo": "ILIMITADA",
+     "texto": "- REGULAMENTO {vermelho:NÃO LIMITA}\n- SEM O SUFIXO\n- RESPONDE PELO {vermelho:PL NEGATIVO}\n- TERMO DE CIÊNCIA (ART. 29)\n- PL POSITIVO: NADA A APORTAR"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} ADMINISTRADOR {vermelho:NÃO} COBRE PL NEGATIVO COM RECURSO PRÓPRIO, SALVO {laranja:DOLO OU MÁ-FÉ}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r40b_4_aporte.png",
+   "semente": 4014,
+   "titulo": "LIMITADA OU ILIMITADA?",
+   "dados": "- ATIVOS {ciano:R$ 80 MI} · OBRIGAÇÕES {ciano:R$ 95 MI} (HIPOTÉTICO)\n- PL: {vermelho:− R$ 15 MI} ÷ 1 MI DE COTAS = − R$ 15 POR COTA\n- COTISTA: {ciano:10.000 COTAS} A R$ 12 = R$ 120 MIL ANTES\n- PARTE NA DÍVIDA: {vermelho:R$ 150 MIL} (RATEIO PROPORCIONAL)\n- A ÚNICA DIFERENÇA: A RESPONSABILIDADE",
+   "cenarios": [
+    {
+     "titulo": "LIMITADA",
+     "passos": "PERDE AS COTAS\n10.000 × R$ 12\nSEM APORTE",
+     "resultado": "R$ 120 MIL"
+    },
+    {
+     "titulo": "ILIMITADA",
+     "passos": "120 MIL DAS COTAS\n+ 150 MIL DE APORTE\nTERMO ASSINADO",
+     "resultado": "R$ 270 MIL"
+    }
+   ],
+   "conclusao": {
+    "texto": "O APORTE EFETIVO DEPENDE DO {laranja:PLANO APROVADO} · SEM O SUFIXO, O RISCO PASSA DE {vermelho:R$ 120 MIL}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r40c_1_esperar.png",
+   "semente": 4021,
+   "titulo": "DÁ PARA ESPERAR UMA SEMANA?",
+   "mitos": [
+    "O ADMINISTRADOR ESCOLHE SE FECHA",
+    "PEDIDOS NA FILA SEGUEM VALENDO"
+   ],
+   "verdade": "FECHAMENTO {verde:OBRIGATÓRIO E IMEDIATO}",
+   "desenho": {
+    "nome": "gelo_cadeado",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} PL NEGATIVO NA CLASSE LIMITADA\n- {ciano:CVM 175, ART. 122, I:} O ADMINISTRADOR \"{laranja:DEVE}\"\n- FECHA PARA RESGATES · {laranja:SEM AMORTIZAÇÃO}\n- {laranja:SEM NOVAS SUBSCRIÇÕES} · AVISA O GESTOR\n- FATO RELEVANTE · {vermelho:PEDIDOS PENDENTES CANCELADOS}\n- {ciano:REGRA:} ESPERAR A MELHORA NÃO É OPÇÃO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r40c_2_cofre.png",
+   "semente": 4022,
+   "titulo": "O COFRE TRANCADO",
+   "colunas": [
+    {
+     "titulo": "NA HORA",
+     "desenho": "megafone",
+     "rotulos": [
+      "TRANCA",
+      "E AVISA"
+     ],
+     "texto": "- TRANCA O COFRE → {verde:FECHA PARA RESGATES}\n- AVISO NA PORTARIA → {laranja:FATO RELEVANTE}\n- RASGA A FILA → {vermelho:CANCELA PEDIDOS}\n- CHAMA O SÍNDICO TÉCNICO → {laranja:AVISA O GESTOR}"
+    },
+    {
+     "titulo": "O PLANO NO QUADRO",
+     "desenho": "prancheta",
+     "rotulos": [
+      "20 DIAS",
+      "+ 2 ÚTEIS"
+     ],
+     "texto": "- PLANO DE SALVAMENTO → {verde:PLANO DE RESOLUÇÃO}\n- PRAZO → {laranja:ATÉ 20 DIAS}\n- CONVOCAÇÃO → {laranja:ATÉ 2 DIAS ÚTEIS}\n- NINGUÉM DECIDE → {vermelho:INSOLVÊNCIA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:O PLANO TRAZ:} ANÁLISE DAS CAUSAS · BALANCETE · PROPOSTA (PODE INCLUIR {laranja:EMPRÉSTIMO})",
+    "{ciano:QUEM ELABORA:} {laranja:ADMINISTRADOR} E {laranja:GESTOR}, JUNTOS · O PLANO VAI COM A CONVOCAÇÃO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} ADMINISTRADORA DE PRÉDIO ÀS VEZES ESPERA · A DO FUNDO TEM {laranja:PRAZOS DA CVM}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r40c_3_art-122.png",
+   "semente": 4023,
+   "titulo": "O PASSO A PASSO DO ART. 122",
+   "topo": "{ciano:VALE PARA:} CLASSE COM {laranja:RESPONSABILIDADE LIMITADA} · {ciano:É COMUM LER:} \"PODE ADOTAR\" · {vermelho:ATENÇÃO:} {laranja:DEVE}",
+   "colunas": [
+    {
+     "titulo": "OS PRAZOS",
+     "texto": "- DIA 0: {vermelho:5 MEDIDAS}\n- ATÉ 20 DIAS: {laranja:PLANO}\n- +2 DIAS ÚTEIS: {laranja:CONVOCA}\n- SEM RISCO À SOLVÊNCIA:\n- PLANO E ASSEMBLEIA {verde:FACULTATIVOS}"
+    },
+    {
+     "titulo": "PLANO REJEITADO",
+     "texto": "- 1. {verde:APORTE} DE RECURSOS\n- 2. CISÃO, FUSÃO, INCORPORAÇÃO\n- 3. LIQUIDAÇÃO, SEM OBRIGAÇÕES\n- 4. PEDIDO DE {vermelho:INSOLVÊNCIA}\n- SEM QUÓRUM: {vermelho:INSOLVÊNCIA}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} PL VOLTA A SER POSITIVO ANTES DA CONVOCAÇÃO → ENCERRA COM {laranja:NOVO FATO RELEVANTE}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r40c_4_assembleia.png",
+   "semente": 4024,
+   "titulo": "APORTE OU SEM QUÓRUM?",
+   "dados": "- CLASSE LIMITADA COM PL NEGATIVO (HIPOTÉTICO)\n- DIA 0: FECHA, SUSPENDE, AVISA, DIVULGA, CANCELA\n- PLANO NO {ciano:15º DIA} (PRAZO: 20) · ASSEMBLEIA CONVOCADA\n- RESULTADO DA VOTAÇÃO: PLANO {vermelho:REJEITADO}\n- A ÚNICA DIFERENÇA: O QUE VEM DEPOIS",
+   "cenarios": [
+    {
+     "titulo": "APROVAM APORTE",
+     "passos": "1 DOS 4 CAMINHOS\nRECURSOS NOVOS\nCOBREM O BURACO",
+     "resultado": "PL COBERTO"
+    },
+    {
+     "titulo": "SEM QUÓRUM",
+     "passos": "NINGUÉM DECIDE\nART. 122, § 7º\nPEDIDO À JUSTIÇA",
+     "resultado": "INSOLVÊNCIA"
+    }
+   ],
+   "conclusao": {
+    "texto": "{vermelho:NÃO EXISTE} VOLTAR AO NORMAL SEM DECISÃO · SEM QUÓRUM, A INSOLVÊNCIA É {laranja:OBRIGATÓRIA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r40d_1_quem-pede.png",
+   "semente": 4031,
+   "titulo": "SÓ O CREDOR PEDE?",
+   "mitos": [
+    "SÓ CREDORES PEDEM A INSOLVÊNCIA",
+    "FUNDO VAI À FALÊNCIA"
+   ],
+   "verdade": "{verde:CREDORES · COTISTAS · CVM}",
+   "desenho": {
+    "nome": "balanca",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} FUNDO LIMITADO SEM PL PARA PAGAR UM BANCO\n- {ciano:CÓDIGO CIVIL, ART. 1.368-E, § 2º:} TRÊS LEGITIMADOS\n- COTISTAS: POR {laranja:DELIBERAÇÃO}, CONFORME O REGULAMENTO\n- CVM: QUANDO HÁ {laranja:RISCO AO MERCADO}\n- REGIME: {verde:INSOLVÊNCIA CIVIL}, NÃO FALÊNCIA\n- {ciano:REGRA:} TRÊS PORTAS PARA O TRIBUNAL"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r40d_2_juiz.png",
+   "semente": 4032,
+   "titulo": "O CASO VAI PARA O JUIZ",
+   "colunas": [
+    {
+     "titulo": "QUEM BATE NA PORTA",
+     "desenho": "pessoa",
+     "rotulos": [
+      "TRÊS",
+      "PESSOAS"
+     ],
+     "texto": "- FORNECEDOR SEM RECEBER → {verde:CREDOR}\n- MORADORES EM ASSEMBLEIA → {verde:COTISTAS}\n- PREFEITURA DO BAIRRO → {verde:CVM}\n- REGRA DO PROCESSO → {laranja:INSOLVÊNCIA CIVIL}"
+    },
+    {
+     "titulo": "O MARTELO",
+     "desenho": "megafone",
+     "rotulos": [
+      "AVISO",
+      "NA PORTARIA"
+     ],
+     "texto": "- ALGUÉM PEDIU → {laranja:FATO RELEVANTE}\n- REAVALIA O COFRE → {laranja:NOVA AVALIAÇÃO DO PL}\n- JUIZ DECLARA → {vermelho:FATO RELEVANTE}\n- TORRE RISCADA → {vermelho:REGISTRO CANCELADO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:CVM PEDE QUANDO:} O PL NEGATIVO AMEAÇA O {laranja:MERCADO DE VALORES MOBILIÁRIOS} OU O {laranja:SISTEMA FINANCEIRO}",
+    "{ciano:CÓDIGO CIVIL, ARTS. 955 A 965:} AS REGRAS DA INSOLVÊNCIA CIVIL"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} PREFEITURA É SÓ IMAGEM · O PAPEL É DA {laranja:CVM}, PELO ART. 123 DA CVM 175",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r40d_3_insolvencia.png",
+   "semente": 4033,
+   "titulo": "INSOLVÊNCIA DO FUNDO",
+   "topo": "{ciano:CÓDIGO CIVIL, ART. 1.368-E, § 1º:} FUNDO {laranja:LIMITADO} SEM PATRIMÔNIO → {verde:INSOLVÊNCIA CIVIL} (ARTS. 955 A 965)",
+   "colunas": [
+    {
+     "titulo": "QUEM PEDE",
+     "texto": "- {verde:CREDORES}\n- {verde:COTISTAS} (DELIBERAÇÃO)\n- {verde:CVM} (RISCO AO MERCADO)\n- ADMINISTRADOR: {vermelho:OBRIGADO}\n- SE A ASSEMBLEIA NÃO DECIDE\n- (ART. 122, § 7º)"
+    },
+    {
+     "titulo": "TRANSPARÊNCIA",
+     "texto": "- PEDIDO (ART. 124):\n- {laranja:FATO RELEVANTE}\n- E {laranja:NOVA AVALIAÇÃO}\n- DECLARAÇÃO (ART. 125):\n- {vermelho:REGISTRO CANCELADO}\n- DA CLASSE NA CVM"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} INSOLVÊNCIA ≠ LIQUIDAÇÃO · NA LIQUIDAÇÃO HÁ PATRIMÔNIO PARA PAGAR · NA INSOLVÊNCIA, {vermelho:FALTA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r40d_4_pedido.png",
+   "semente": 4034,
+   "titulo": "QUEM PEDIU A INSOLVÊNCIA?",
+   "dados": "- CLASSE LIMITADA COM PL NEGATIVO (HIPOTÉTICO)\n- NÃO CONSEGUE PAGAR AS OBRIGAÇÕES\n- REGIME: INSOLVÊNCIA CIVIL\n- REAÇÃO DO ADMINISTRADOR: {laranja:A MESMA}\n- A ÚNICA DIFERENÇA: QUEM PEDE",
+   "cenarios": [
+    {
+     "titulo": "BANCO CREDOR",
+     "passos": "É CREDOR\nPEDE DIRETO\nFATO RELEVANTE",
+     "resultado": "PODE PEDIR"
+    },
+    {
+     "titulo": "A CVM",
+     "passos": "RISCO AO MERCADO\nOU AO SISTEMA\nFATO RELEVANTE",
+     "resultado": "PODE PEDIR"
+    }
+   ],
+   "conclusao": {
+    "texto": "SE O JUIZ DECLARAR: OUTRO AVISO AO MERCADO E A CLASSE TEM O {vermelho:REGISTRO CANCELADO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r40e_1_iliquidez.png",
+   "semente": 4041,
+   "titulo": "SÓ FECHA COM PL NEGATIVO?",
+   "mitos": [
+    "SÓ FECHA SE O PL FICAR NEGATIVO",
+    "PODE FICAR FECHADO SEM PRAZO"
+   ],
+   "verdade": "FECHA POR {verde:ILIQUIDEZ}, MESMO SEM DÍVIDA",
+   "desenho": {
+    "nome": "ampulheta",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} RESGATES DE 30% NUM DIA, SEM COMPRADOR\n- PL {verde:POSITIVO}: O PROBLEMA É {laranja:LIQUIDEZ}\n- {ciano:BASE:} CVM 175, ART. 44\n- FATO RELEVANTE AO {laranja:FECHAR} E AO {laranja:REABRIR}\n- MAIS DE {vermelho:5 DIAS ÚTEIS} → ASSEMBLEIA\n- {ciano:REGRA:} COFRE EMPERRADO TEM PRAZO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r40e_2_cofre-emperrado.png",
+   "semente": 4042,
+   "titulo": "O COFRE EMPERRADO",
+   "colunas": [
+    {
+     "titulo": "O COFRE EMPERRA",
+     "desenho": "gelo_cadeado",
+     "rotulos": [
+      "SEM",
+      "DÍVIDA"
+     ],
+     "texto": "- OBJETOS SEM COMPRADOR → {laranja:ATIVOS ILÍQUIDOS}\n- SAQUES AO MESMO TEMPO → {laranja:RESGATES EM MASSA}\n- TRANCA E AVISA → {verde:FATO RELEVANTE}\n- RASGA A FILA → {vermelho:PEDIDOS CANCELADOS}"
+    },
+    {
+     "titulo": "O DEPÓSITO SEPARADO",
+     "desenho": "caminhao",
+     "rotulos": [
+      "BOLSO",
+      "LATERAL"
+     ],
+     "texto": "- DEPÓSITO FECHADO → {verde:NOVA CLASSE FECHADA}\n- OBJETOS ENCALHADOS → {laranja:EXCEPCIONALMENTE ILÍQUIDOS}\n- RESTO DO COFRE → {verde:VOLTA A FUNCIONAR}\n- SE A CONVENÇÃO PREVÊ → {laranja:REGULAMENTO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:NOME DE MERCADO:} {laranja:SIDE POCKET} · O ART. 44 FALA EM CISÃO DOS ATIVOS ILÍQUIDOS",
+    "{ciano:MAIS DE 5 DIAS ÚTEIS:} CONVOCAÇÃO EM {laranja:1 DIA} · REALIZAÇÃO EM ATÉ {laranja:15 DIAS}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} COFRE SE CONSERTA COM CHAVEIRO · FUNDO REABRE COM {laranja:LIQUIDEZ OU DECISÃO DA ASSEMBLEIA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r40e_3_art-44.png",
+   "semente": 4043,
+   "titulo": "FECHAMENTO POR ILIQUIDEZ (ART. 44)",
+   "topo": "{ciano:QUANDO:} MERCADOS FECHADOS · ILIQUIDEZ EXCEPCIONAL · RESGATES > LIQUIDEZ · {laranja:RISCO TRIBUTÁRIO AOS COTISTAS}",
+   "colunas": [
+    {
+     "titulo": "A ASSEMBLEIA",
+     "texto": "- GATILHO: {vermelho:> 5 DIAS ÚTEIS}\n- 1. REABRIR OU MANTER\n- 2. {laranja:CISÃO}\n- 3. {vermelho:LIQUIDAÇÃO}\n- 4. RESGATE {laranja:EM ATIVOS} (ACORDO)"
+    },
+    {
+     "titulo": "ILIQUIDEZ × PL NEGATIVO",
+     "texto": "- ILIQUIDEZ: {verde:PL POSITIVO}\n- PROBLEMA: VENDER A TEMPO\n- PL NEGATIVO: {vermelho:DEVE MAIS}\n- PLANO EM ATÉ 20 DIAS\n- 5 DIAS ÚTEIS ≠ 20 DIAS"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} EXATAMENTE 5 DIAS ÚTEIS → {verde:SEM ASSEMBLEIA} · PASSOU DE 5 → {vermelho:ASSEMBLEIA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r40e_4_dias-uteis.png",
+   "semente": 4044,
+   "titulo": "REABRIU A TEMPO OU NÃO?",
+   "dados": "- CLASSE DE CRÉDITO COM PL {verde:POSITIVO} (HIPOTÉTICO)\n- RESGATES {vermelho:INCOMPATÍVEIS} COM A LIQUIDEZ\n- FATO RELEVANTE + PEDIDOS CANCELADOS\n- LIMITE PARA ASSEMBLEIA: MAIS DE {ciano:5 DIAS ÚTEIS}\n- A ÚNICA DIFERENÇA: O TEMPO FECHADO",
+   "cenarios": [
+    {
+     "titulo": "3 DIAS ÚTEIS",
+     "passos": "REABRE\nFATO RELEVANTE\nDA REABERTURA",
+     "resultado": "SEM ASSEMBLEIA"
+    },
+    {
+     "titulo": "6 DIAS ÚTEIS",
+     "passos": "CONVOCA EM 1 DIA\nREALIZA EM ATÉ\n15 DIAS",
+     "resultado": "ASSEMBLEIA"
+    }
+   ],
+   "conclusao": {
+    "texto": "A ASSEMBLEIA ESCOLHE: {verde:REABRIR} OU MANTER · {laranja:CINDIR} · {vermelho:LIQUIDAR} · PAGAR {laranja:EM ATIVOS}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r40f_1_ultima-cota.png",
+   "semente": 4051,
+   "titulo": "RECEBO A ÚLTIMA COTA?",
+   "mitos": [
+    "RECEBO PELO MENOS A ÚLTIMA COTA",
+    "O CAPITAL ESTÁ GARANTIDO"
+   ],
+   "verdade": "VENDE, PAGA E {verde:DIVIDE O SALDO}",
+   "desenho": {
+    "nome": "dinheiro",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} ÚLTIMA COTA DE R$ 23\n- VENDA ÀS PRESSAS → {vermelho:DESÁGIO}\n- PRIMEIRO AS {laranja:OBRIGAÇÕES}, DEPOIS OS COTISTAS\n- DIVISÃO {laranja:NA PROPORÇÃO DAS COTAS}\n- {vermelho:SEM GARANTIA} DE RECUPERAR O CAPITAL\n- {ciano:REGRA:} COTA É MARCAÇÃO, NÃO PREÇO DE VENDA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r40f_2_leilao.png",
+   "semente": 4052,
+   "titulo": "O LEILÃO DA TORRE",
+   "colunas": [
+    {
+     "titulo": "O LEILÃO",
+     "desenho": "megafone",
+     "rotulos": [
+      "VENDA",
+      "ÀS PRESSAS"
+     ],
+     "texto": "- LEILÃO → {laranja:VENDA DOS ATIVOS}\n- LANCE ABAIXO DA AVALIAÇÃO → {vermelho:DESÁGIO}\n- CONTAS DA TORRE → {laranja:OBRIGAÇÕES}\n- CRONOGRAMA → {verde:PLANO DE LIQUIDAÇÃO}"
+    },
+    {
+     "titulo": "O QUE SOBRA",
+     "desenho": "cofrinho",
+     "rotulos": [
+      "DIVIDE",
+      "POR FRAÇÃO"
+     ],
+     "texto": "- FRAÇÃO DE CADA UM → {verde:PROPORÇÃO DAS COTAS}\n- CONTADOR DE FORA → {laranja:AUDITOR INDEPENDENTE}\n- MORADOR SUMIDO → {laranja:DECISÃO DA ASSEMBLEIA}\n- NADA SOBROU → {vermelho:NADA A RECEBER}"
+    }
+   ],
+   "faixas": [
+    "{ciano:QUEM FAZ O PLANO:} OS PRESTADORES DE SERVIÇOS ESSENCIAIS · {laranja:ADMINISTRADOR E GESTOR}",
+    "{ciano:LIQUIDAÇÃO POR ASSEMBLEIA:} REGRAS DO {laranja:ART. 126 DA CVM 175}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} LEILÃO É SÓ IMAGEM · NO FUNDO, A VENDA É {laranja:NO MERCADO}, CONFORME O PLANO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r40f_3_liquidacao.png",
+   "semente": 4053,
+   "titulo": "VENDER, PAGAR, DIVIDIR",
+   "topo": "{ciano:APOSTILA:} ATIVOS VENDIDOS → OBRIGAÇÕES PAGAS → SALDO AOS COTISTAS · {vermelho:SEM GARANTIA DE CAPITAL}",
+   "colunas": [
+    {
+     "titulo": "O PLANO (ART. 126)",
+     "texto": "- {laranja:FORMA DE PAGAMENTO}\n- {laranja:CRONOGRAMA}\n- COTISTAS NÃO CONTATADOS\n- DIVISÃO {verde:PROPORCIONAL}\n- {verde:PARECER DO AUDITOR}"
+    },
+    {
+     "titulo": "OS LIMITES",
+     "texto": "- VENDA FORÇADA: {vermelho:DESÁGIO}\n- ILÍQUIDO: DISTÂNCIA {vermelho:MAIOR}\n- PL NEGATIVO COM DÍVIDA:\n- {vermelho:INSOLVÊNCIA}, NÃO LIQUIDAÇÃO\n- RESGATE ≠ LIQUIDAÇÃO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} RESGATE: SAÍDA INDIVIDUAL, CLASSE {verde:SEGUE} · LIQUIDAÇÃO: ENCERRAMENTO, TODOS {vermelho:RECEBEM JUNTOS}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r40f_4_desagio.png",
+   "semente": 4054,
+   "titulo": "MARCAÇÃO OU VENDA FORÇADA?",
+   "dados": "- CARTEIRA MARCADA A {ciano:R$ 50 MI} (HIPOTÉTICO)\n- OBRIGAÇÕES: {ciano:R$ 4 MI}\n- COTAS: {ciano:2 MILHÕES}\n- PRIMEIRO PAGA, DEPOIS DIVIDE\n- A ÚNICA DIFERENÇA: O PREÇO DE VENDA",
+   "cenarios": [
+    {
+     "titulo": "PELA MARCAÇÃO",
+     "passos": "50 MI − 4 MI\n= 46 MI\n÷ 2 MI DE COTAS",
+     "resultado": "R$ 23,00"
+    },
+    {
+     "titulo": "DESÁGIO DE 12%",
+     "passos": "50 MI × 0,88 = 44 MI\n44 MI − 4 MI = 40 MI\n÷ 2 MI DE COTAS",
+     "resultado": "R$ 20,00"
+    }
+   ],
+   "conclusao": {
+    "texto": "{vermelho:−13,04%} POR COTA · 5 PEGADINHAS (FALSAS): PERDA MÁXIMA SEMPRE O APLICADO · FECHAR É OPCIONAL · ADMINISTRADOR COBRE · SÓ CREDOR PEDE · ILIQUIDEZ SEM PRAZO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
