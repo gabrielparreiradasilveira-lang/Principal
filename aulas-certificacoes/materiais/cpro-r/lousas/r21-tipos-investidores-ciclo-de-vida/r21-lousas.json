@@ -236,7 +236,7 @@
     }
    ],
    "conclusao": {
-    "texto": "67 MESES ≈ 5 ANOS E 7 MESES · PASSAR DA MARCA NÃO BASTA: FALTA {laranja:O TERMO} · DEPOIS DELE, A PESSOA FÍSICA SEGUE NO SUITABILITY",
+    "texto": "67 MESES = 5,58 ANOS · PASSAR DA MARCA NÃO BASTA: FALTA {laranja:O TERMO} · DEPOIS DELE, A PESSOA FÍSICA SEGUE NO SUITABILITY",
     "cor": "branco",
     "moldura": "amarelo"
    }
@@ -573,7 +573,7 @@
     },
     {
      "titulo": "IDADES USUAIS",
-     "texto": "- ACUMULAÇÃO: ATÉ ~45 ANOS\n- CONSOLIDAÇÃO: 45 A 60\n- USUFRUTO: 60 OU MAIS\n- {vermelho:NÃO É NORMA}\n- PAROU AOS 45 E VIVE DO PATRIMÔNIO = USUFRUTO"
+     "texto": "- ACUMULAÇÃO: ATÉ CERCA DE 45 ANOS\n- CONSOLIDAÇÃO: 45 A 60\n- USUFRUTO: 60 OU MAIS\n- {vermelho:NÃO É NORMA}\n- PAROU AOS 45 E VIVE DO PATRIMÔNIO = USUFRUTO"
     }
    ],
    "destaque": {
