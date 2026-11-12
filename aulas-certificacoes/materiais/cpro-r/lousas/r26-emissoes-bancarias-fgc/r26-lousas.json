@@ -67,7 +67,7 @@
     },
     {
      "titulo": "RDB E RDC",
-     "texto": "- {laranja:RDB:} RECIBO DE DEPÓSITO BANCÁRIO\n- {vermelho:NÃO NEGOCIÁVEL} · SÓ NO VENCIMENTO\n- TAXA MAIOR PELA MENOR FLEXIBILIDADE · FGC\n- {laranja:RDC:} COOPERATIVA DE CRÉDITO, PARA COOPERADOS · FGCOOP"
+     "texto": "- {laranja:RDB:} RECIBO DE DEPÓSITO BANCÁRIO\n- {vermelho:NÃO NEGOCIÁVEL} · SÓ NO VENCIMENTO\n- TAXA MAIOR PELA MENOR FLEXIBILIDADE · FGC\n- {laranja:RDC:} COOPERATIVA DE CRÉDITO, PARA COOPERADOS · FGCOOP (ATÉ 250 MIL)"
     }
    ],
    "destaque": {
@@ -89,7 +89,7 @@
     },
     {
      "titulo": "LCD",
-     "texto": "- LETRA DE CRÉDITO DO DESENVOLVIMENTO\n- EMISSOR: BNDES E BANCOS DE DESENVOLVIMENTO\n- CRIADA PELA LEI 14.937, DE 2024\n- ISENTA PARA PESSOA FÍSICA · FGC"
+     "texto": "- LETRA DE CRÉDITO DO DESENVOLVIMENTO\n- EMISSOR: BNDES E BANCOS DE DESENVOLVIMENTO\n- CRIADA PELA LEI 14.937, DE 2024\n- FINANCIA INFRAESTRUTURA, INDÚSTRIA, INOVAÇÃO E PEQUENAS EMPRESAS\n- ISENTA PARA PESSOA FÍSICA · FGC"
     }
    ],
    "destaque": {
@@ -349,7 +349,7 @@
     },
     {
      "titulo": "NÃO COBERTOS",
-     "texto": "- LETRA FINANCEIRA\n- DEBÊNTURES, CRI E CRA\n- FUNDOS E PREVIDÊNCIA\n- TESOURO DIRETO"
+     "texto": "- LETRA FINANCEIRA E LIG\n- DEBÊNTURES, CRI E CRA\n- FUNDOS, INCLUSIVE PGBL E VGBL\n- TESOURO DIRETO"
     }
    ],
    "destaque": {
@@ -371,7 +371,7 @@
     },
     {
      "titulo": "RISCO E RATING",
-     "texto": "- {vermelho:RISCOS:} CRÉDITO · LIQUIDEZ · MERCADO\n- {laranja:AAA:} NOTA MAIS ALTA\n- ATÉ {laranja:BBB−:} GRAU DE INVESTIMENTO\n- DE {laranja:BB+} PARA BAIXO: ESPECULATIVO"
+     "texto": "- {vermelho:RISCOS:} CRÉDITO · LIQUIDEZ · MERCADO\n- {laranja:AAA:} NOTA MAIS ALTA\n- ATÉ {laranja:BBB−:} GRAU DE INVESTIMENTO\n- DE {laranja:BB+} PARA BAIXO: ESPECULATIVO\n- {vermelho:D:} INADIMPLÊNCIA"
     }
    ],
    "destaque": {
