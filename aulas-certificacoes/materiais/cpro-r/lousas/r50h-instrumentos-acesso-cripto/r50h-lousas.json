@@ -4,7 +4,7 @@
  },
  "slides": [
   {
-   "saida": "r50h_1_tanto-faz-o-caminho.png",
+   "saida": "r50h-1_1_tanto-faz-o-caminho.png",
    "semente": 5081,
    "molde": "mito_verdade",
    "titulo": "TANTO FAZ O CAMINHO?",
@@ -20,7 +20,7 @@
    "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} A · COMPRA DIRETA, CHAVES NO CELULAR | B · COTAS DE ETF NA BOLSA\n- MESMO PREÇO DO BITCOIN NA TELA, {laranja:RISCOS DIFERENTES} NA PRÁTICA\n- O ACESSO MUDA: RISCO OPERACIONAL · CUSTÓDIA · TRIBUTAÇÃO · EXPERIÊNCIA DO INVESTIDOR\n- {ciano:4 CAMINHOS:} P2P · EXCHANGE · FUNDO, ETF E CARTEIRA ADMINISTRADA · DERIVATIVO\n- {ciano:PERGUNTAS-CHAVE:} QUEM GUARDA? QUEM RESPONDE? QUAL REGULADOR?"
   },
   {
-   "saida": "r50h_2_quatro-entradas.png",
+   "saida": "r50h-1_2_quatro-entradas.png",
    "semente": 5082,
    "molde": "comparacao",
    "titulo": "QUATRO JEITOS DE ENTRAR NO PARQUE",
@@ -55,32 +55,248 @@
    }
   },
   {
-   "saida": "r50h_3_conteudo-1.png",
-   "semente": 5083,
+   "saida": "r50h-1_3_conteudo-1.png",
+   "semente": 5301,
    "molde": "colunas",
-   "titulo": "P2P E EXCHANGES (1/3)",
-   "topo": "{ciano:P2P:} COMPRADOR E VENDEDOR {laranja:FRENTE A FRENTE}, SEM INSTITUIÇÃO CENTRAL · {ciano:EXCHANGE:} PLATAFORMA DE COMPRA, VENDA E CUSTÓDIA, COM {verde:LIQUIDEZ}",
+   "titulo": "O MAPA DOS 4 CAMINHOS (1/2)",
+   "topo": "{ciano:O CAMINHO MUDA:} RISCO OPERACIONAL · CUSTÓDIA · TRIBUTAÇÃO · EXPERIÊNCIA DO INVESTIDOR",
    "colunas": [
     {
-     "titulo": "P2P",
-     "texto": "- {ciano:GUARDA:} O PRÓPRIO INVESTIDOR (AUTOCUSTÓDIA)\n- MENOS INTERMEDIÁRIOS; CONTROLE E RESPONSABILIDADE TOTAIS\n- {vermelho:RISCOS:} FALHA OPERACIONAL · CONTRAPARTE · SEM PROTEÇÃO FORMAL\n- LEI 14.478/2022 REGULA AS {laranja:PRESTADORAS}; AQUI NÃO HÁ PRESTADORA"
+     "titulo": "QUEM GUARDA",
+     "texto": "- {ciano:P2P:} O PRÓPRIO INVESTIDOR\n- {ciano:EXCHANGE:} A PLATAFORMA OU O INVESTIDOR\n- {ciano:FUNDO E ETF:} GESTOR E CUSTODIANTE\n- {ciano:DERIVATIVO:} NINGUÉM; ACERTO EM DINHEIRO"
     },
     {
-     "titulo": "EXCHANGE",
-     "texto": "- {ciano:INTERMEDIÁRIA:} COMPRA, VENDA E TROCA; STAKING; CARTEIRAS\n- {ciano:CUSTODIANTE:} SÓ GUARDA\n- {ciano:CORRETORA DE ATIVOS VIRTUAIS:} {laranja:AS DUAS}\n- {verde:PROTEÇÕES:} DINHEIRO E ATIVOS SEGREGADOS · PROVA DE RESERVAS\n- {ciano:CARTEIRAS:} FRIA (OFFLINE) · QUENTE · MORNA"
+     "titulo": "QUEM REGULA",
+     "texto": "- {ciano:P2P:} {vermelho:SEM PROTEÇÃO FORMAL}\n- {ciano:EXCHANGE:} BANCO CENTRAL (RES. 520)\n- {ciano:FUNDO E ETF:} CVM (RES. 175)\n- {ciano:DERIVATIVO:} CVM (VALOR MOBILIÁRIO)"
     }
    ],
    "destaque": {
-    "texto": "{ciano:PRODUTOS:} STAKING · EMPRÉSTIMOS · PRODUTOS DE RENDA · DERIVATIVOS · {vermelho:RISCOS:} CUSTÓDIA, GOVERNANÇA, FALHA OPERACIONAL · BCB 520 EM VIGOR DESDE {laranja:02/02/2026}",
+    "texto": "{ciano:CUSTO E CONTROLE:} P2P → POUCOS INTERMEDIÁRIOS · EXCHANGE → LIQUIDEZ · FUNDO → TAXAS E TRACKING ERROR · DERIVATIVO → MARGEM E AJUSTE DIÁRIO",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r50h_3_conteudo-2.png",
+   "saida": "r50h-1_3_conteudo-2.png",
+   "semente": 5302,
+   "molde": "colunas",
+   "titulo": "O PEER-TO-PEER (2/2)",
+   "topo": "{ciano:P2P:} COMPRADOR E VENDEDOR {laranja:FRENTE A FRENTE} · NENHUMA INSTITUIÇÃO NO MEIO · A VIA MAIS FIEL À IDEIA DE DESCENTRALIZAÇÃO",
+   "colunas": [
+    {
+     "titulo": "COMO É",
+     "texto": "- {laranja:AUTOCUSTÓDIA:} A CHAVE FICA COM O INVESTIDOR\n- CONTROLE TOTAL\n- RESPONSABILIDADE TOTAL\n- PEDE CONHECIMENTO TÉCNICO\n- PEDE CUIDADO COM SEGURANÇA"
+    },
+    {
+     "titulo": "3 RISCOS",
+     "texto": "- {vermelho:1.} FALHAS OPERACIONAIS\n- {vermelho:2.} CONTRAPARTE: A OUTRA PARTE DESCUMPRE\n- {vermelho:3.} SEM MECANISMOS FORMAIS DE PROTEÇÃO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:POR QUÊ:} A LEI 14.478/2022 (ART. 5º) ALCANÇA AS {laranja:PRESTADORAS}, QUE AGEM EM NOME DE TERCEIROS · ENTRE DUAS PESSOAS, NÃO EXISTE PRESTADORA · {vermelho:AUTOCUSTÓDIA ≠ P2P}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50h-1_4_p2p-ou-exchange.png",
+   "semente": 5303,
+   "molde": "exercicio",
+   "titulo": "P2P OU EXCHANGE AUTORIZADA?",
+   "dados": "- HIPOTÉTICO: MESMA COMPRA DE BITCOIN, MESMO DIA\n- NO P2P, O VENDEDOR SOME SEM ENTREGAR\n- PERGUNTA 1: HÁ PRESTADORA NO MEIO?\n- PERGUNTA 2: ELA RESPONDE A UM REGULADOR?\n- A ÚNICA DIFERENÇA: O CAMINHO DE ACESSO",
+   "cenarios": [
+    {
+     "titulo": "P2P",
+     "passos": "SEM PRESTADORA\nRISCO DE CONTRAPARTE\nSEM PROTEÇÃO FORMAL",
+     "resultado": "PREJUÍZO DO COMPRADOR"
+    },
+    {
+     "titulo": "EXCHANGE AUTORIZADA",
+     "passos": "PRESTADORA DE SERVIÇOS\nREGRAS DA RES. BCB 520\nSUPERVISÃO DO REGULADOR",
+     "resultado": "OPERAÇÃO COM REGRA"
+    }
+   ],
+   "conclusao": {
+    "texto": "IGUAL NOS DOIS: A {vermelho:OSCILAÇÃO DA COTAÇÃO} · A NORMA COBRE GUARDA E FUNCIONAMENTO · NENHUM CAMINHO ELIMINA A VOLATILIDADE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50h-2_1_exchange-tudo-igual.png",
+   "semente": 5304,
+   "molde": "mito_verdade",
+   "titulo": "EXCHANGE É TUDO IGUAL?",
+   "mitos": [
+    "É TUDO IGUAL",
+    "TODAS NEGOCIAM E GUARDAM"
+   ],
+   "verdade": "SÃO {laranja:3 MODALIDADES}",
+   "desenho": {
+    "nome": "bilheteria",
+    "largura": 150
+   },
+   "apoio": "- {ciano:CASO REAL (02/02/2026):} RESOLUÇÃO BCB 520/2025 ENTRA EM VIGOR\n- {laranja:INTERMEDIÁRIA} · {laranja:CUSTODIANTE} · {laranja:CORRETORA} DE ATIVOS VIRTUAIS\n- AS DUAS ATIVIDADES JUNTAS: SÓ NA CORRETORA\n- EXCHANGE: INFRAESTRUTURA, LIQUIDEZ E ACESSO MAIS SIMPLES\n- É O CAMINHO DA MAIORIA DOS INVESTIDORES\n- {ciano:TEMAS:} MODALIDADES · PROTEÇÕES · CARTEIRAS · PRODUTOS · RISCOS"
+  },
+  {
+   "saida": "r50h-2_2_bilheteria-e-guarda-volumes.png",
+   "semente": 5305,
+   "molde": "comparacao",
+   "titulo": "A BILHETERIA E O GUARDA-VOLUMES",
+   "colunas": [
+    {
+     "titulo": "A BILHETERIA",
+     "desenho": "bilheteria",
+     "rotulos": [
+      "VENDA",
+      "TROCA"
+     ],
+     "texto": "- BILHETERIA → {laranja:INTERMEDIAÇÃO}\n- SÓ BILHETERIA → {laranja:INTERMEDIÁRIA}\n- CASA COMPLETA → {laranja:CORRETORA}\n- VENDER E TROCAR FICHAS → {laranja:COMPRA, VENDA E TROCA}"
+    },
+    {
+     "titulo": "O GUARDA-VOLUMES",
+     "desenho": "gelo_cadeado",
+     "rotulos": [
+      "ARMÁRIO",
+      "CADEADO"
+     ],
+     "texto": "- GUARDA-VOLUMES → {verde:CUSTÓDIA}\n- SÓ GUARDA-VOLUMES → {verde:CUSTODIANTE}\n- ARMÁRIO POR VISITANTE → {verde:ATIVOS SEGREGADOS}\n- ARMÁRIO FORA DA TOMADA → {verde:CARTEIRA FRIA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ARMÁRIO SEMPRE LIGADO:} CARTEIRA QUENTE · {ciano:MEIO-TERMO:} CARTEIRA MORNA",
+    "{ciano:CONFERÊNCIA DOS ARMÁRIOS:} PROVA DE RESERVAS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} OBJETO NO ARMÁRIO NÃO MUDA DE VALOR · CRIPTOATIVO EM CUSTÓDIA SEGUE COM A COTAÇÃO VARIANDO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50h-2_3_conteudo-1.png",
+   "semente": 5306,
+   "molde": "colunas",
+   "titulo": "AS 3 MODALIDADES (1/2)",
+   "topo": "{ciano:EXCHANGE:} PLATAFORMA DE COMPRA, VENDA E CUSTÓDIA DE CRIPTOATIVOS · {verde:INFRAESTRUTURA, LIQUIDEZ E ACESSO SIMPLES}",
+   "colunas": [
+    {
+     "titulo": "RES. BCB 520, ART. 4º",
+     "texto": "- {laranja:INTERMEDIÁRIA:} NEGOCIA; STAKING; CARTEIRAS (ART. 7º)\n- {laranja:CUSTODIANTE:} GUARDA (ART. 8º)\n- {laranja:CORRETORA:} INTERMEDIAÇÃO + CUSTÓDIA (ART. 10)"
+    },
+    {
+     "titulo": "A VEDAÇÃO",
+     "texto": "- INTERMEDIÁRIA {vermelho:NÃO} CUSTODIA\n- CUSTODIANTE {vermelho:NÃO} INTERMEDEIA\n- ART. 4º, § 2º\n- JUNTAS, SÓ NA CORRETORA"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:CUIDADO:} \"EXCHANGE INTERMEDEIA E GUARDA\" DESCREVE A CORRETORA DE ATIVOS VIRTUAIS, NÃO AS OUTRAS DUAS · VIGÊNCIA: {laranja:02/02/2026}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50h-2_3_conteudo-2.png",
+   "semente": 5307,
+   "molde": "colunas",
+   "titulo": "PROTEÇÕES, PRODUTOS E RISCOS (2/2)",
+   "topo": "{ciano:CARTEIRAS (ART. 2º):} {laranja:FRIA} = OFFLINE · {laranja:QUENTE} = SEMPRE ONLINE · {laranja:MORNA} = ONLINE COM SEGURANÇA REFORÇADA",
+   "colunas": [
+    {
+     "titulo": "PROTEÇÕES",
+     "texto": "- DINHEIRO DO CLIENTE EM CONTA INDIVIDUALIZADA (ART. 28)\n- CRIPTO DO CLIENTE SEPARADA (ART. 29)\n- {laranja:PROVA DE RESERVAS}\n- AUTOCUSTÓDIA: EMPRESA EXPLICA OS RISCOS (ART. 57)"
+    },
+    {
+     "titulo": "PRODUTOS",
+     "texto": "- STAKING · EMPRÉSTIMOS\n- PRODUTOS DE RENDA\n- DERIVATIVOS → {laranja:CVM}\n- STAKING (ART. 71): AVISAR RISCOS, PRAZO DE RESGATE E RECOMPENSA"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:RISCOS QUE FICAM:} CUSTÓDIA · GOVERNANÇA · FALHAS OPERACIONAIS · {ciano:STAKING:} ATIVO BLOQUEADO, SAÍDA COM PRAZO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50h-2_4_intermediaria-ou-corretora.png",
+   "semente": 5308,
+   "molde": "exercicio",
+   "titulo": "INTERMEDIÁRIA OU CORRETORA?",
+   "dados": "- HIPOTÉTICO: CLIENTE QUER COMPRAR ETHER E DEIXAR GUARDADO\n- QUER FAZER TUDO NUM SÓ LUGAR\n- NORMA: RES. BCB 520/2025, ARTS. 4º, 7º, 8º E 10\n- PROTEÇÕES VALEM PARA AS DUAS MODALIDADES\n- A ÚNICA DIFERENÇA: A MODALIDADE DA EMPRESA",
+   "cenarios": [
+    {
+     "titulo": "INTERMEDIÁRIA",
+     "passos": "NEGOCIA: SIM\nSTAKING E CARTEIRAS: SIM\nCUSTÓDIA: VEDADA",
+     "resultado": "SÓ NEGOCIA"
+    },
+    {
+     "titulo": "CORRETORA",
+     "passos": "NEGOCIA: SIM\nCUSTÓDIA: SIM\nOBJETO: AS DUAS ATIVIDADES",
+     "resultado": "NEGOCIA E GUARDA"
+    }
+   ],
+   "conclusao": {
+    "texto": "COMUM ÀS DUAS: SEGREGAÇÃO DO QUE É DO CLIENTE E AVISO DE RISCOS · A VOLATILIDADE DO ETHER {vermelho:NÃO MUDA} COM A MODALIDADE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50h-3_1_qualquer-percentual.png",
+   "semente": 5309,
+   "molde": "mito_verdade",
+   "titulo": "FUNDO: QUALQUER PERCENTUAL?",
+   "mitos": [
+    "QUALQUER PERCENTUAL",
+    "GESTOR DECIDE SOZINHO"
+   ],
+   "verdade": "HÁ {laranja:LIMITE} DA CVM",
+   "desenho": {
+    "nome": "onibus_excursao",
+    "largura": 170
+   },
+   "apoio": "- {ciano:CASO REAL (ABRIL DE 2021):} HASH11, PRIMEIRO ETF DE CRIPTO NA B3\n- EM 2025: 19 ATIVOS DE CRIPTO LISTADOS (ETFs E BDRs DE ETF)\n- BITCOIN · ETHER · SOLANA · CESTAS DE CRIPTOATIVOS\n- {ciano:NORMA:} RESOLUÇÃO CVM 175, ANEXO NORMATIVO I\n- O NÚMERO DE ATIVOS LISTADOS MUDA: CONFERIR NA DATA\n- {ciano:TEMAS:} PRÓS E CONTRAS · LIMITES · ETFs NA B3 · CARTEIRA ADMINISTRADA"
+  },
+  {
+   "saida": "r50h-3_2_excursao-com-guia.png",
+   "semente": 5310,
+   "molde": "comparacao",
+   "titulo": "A EXCURSÃO COM GUIA",
+   "colunas": [
+    {
+     "titulo": "O GUIA",
+     "desenho": "onibus_excursao",
+     "rotulos": [
+      "GUIA",
+      "GRUPO"
+     ],
+     "texto": "- EXCURSÃO → {laranja:FUNDO, ETF, CARTEIRA}\n- GUIA → {laranja:GESTOR PROFISSIONAL}\n- TAXA DO GUIA → {laranja:CUSTOS}\n- ROTEIRO FIXO → {laranja:REGULAMENTO}"
+    },
+    {
+     "titulo": "O ROTEIRO",
+     "desenho": "montanha_russa",
+     "rotulos": [
+      "RADICAL",
+      "LIMITE"
+     ],
+     "texto": "- GRUPO ABERTO: 10% → {verde:PÚBLICO EM GERAL}\n- GRUPO EXPERIENTE: 20% → {verde:QUALIFICADOS}\n- GRUPO PROFISSIONAL → {verde:SEM LIMITE, SE PREVISTO}\n- TEMPO NA RADICAL → {verde:FATIA EM CRIPTO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:PASSEIO DIFERENTE DO FOLHETO:} TRACKING ERROR",
+    "{ciano:VOCÊ NÃO ESCOLHE O BRINQUEDO:} MENOS CONTROLE DIRETO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} PASSEIO RUIM, GUIA PAGO DO MESMO JEITO · COTAÇÃO EM ALTA OU EM QUEDA, A COBRANÇA CONTINUA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50h-3_3_fundos-etfs-carteiras.png",
    "semente": 5084,
    "molde": "colunas",
-   "titulo": "FUNDOS, ETFs E CARTEIRAS (2/3)",
+   "titulo": "FUNDOS, ETFs E CARTEIRAS",
    "topo": "{ciano:O QUE DÃO:} EXPOSIÇÃO A CRIPTO EM {verde:ESTRUTURA REGULADA} PELA CVM, COM GESTÃO PROFISSIONAL E REGRAS DE GOVERNANÇA",
    "colunas": [
     {
@@ -99,10 +315,85 @@
    }
   },
   {
-   "saida": "r50h_3_conteudo-3.png",
+   "saida": "r50h-3_4_limite-por-publico.png",
+   "semente": 5311,
+   "molde": "exercicio",
+   "titulo": "QUANTO O FUNDO PODE TER EM CRIPTO?",
+   "dados": "- HIPOTÉTICO: PL DO FUNDO = {ciano:200 MILHÕES} DE REAIS\n- OBJETIVO: POSIÇÃO DIRETA EM CRIPTOATIVOS\n- SEM OUTROS ATIVOS NO MESMO LIMITE (SIMPLIFICAÇÃO)\n- TESTE: POSIÇÃO DE 30 MILHÕES = 15% DO PL\n- A ÚNICA DIFERENÇA: O PÚBLICO DO FUNDO",
+   "cenarios": [
+    {
+     "titulo": "PÚBLICO EM GERAL",
+     "passos": "200 MI × 10%\nTETO DE 20 MILHÕES\n30 MILHÕES: NÃO PODE",
+     "resultado": "ATÉ 10% DO PL"
+    },
+    {
+     "titulo": "QUALIFICADOS",
+     "passos": "200 MI × 20%\nTETO DE 40 MILHÕES\n30 MILHÕES: PODE",
+     "resultado": "ATÉ 20% DO PL"
+    }
+   ],
+   "conclusao": {
+    "texto": "{ciano:PROFISSIONAIS:} SEM TETO, SE O REGULAMENTO PREVIR · {ciano:COTAS DE ETF:} NÃO ENTRAM NESSE LIMITE (ART. 45, IV) · O 10% É {laranja:CONJUNTO} COM OUTROS ATIVOS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50h-4_1_bitcoin-mais-barato.png",
+   "semente": 5312,
+   "molde": "mito_verdade",
+   "titulo": "FUTURO: BITCOIN MAIS BARATO?",
+   "mitos": [
+    "BITCOIN MAIS BARATO",
+    "SÓ PAGA UMA PARTE"
+   ],
+   "verdade": "É {laranja:ALAVANCAGEM}",
+   "desenho": {
+    "nome": "prancheta",
+    "largura": 120
+   },
+   "apoio": "- {ciano:CASO REAL (17/04/2024):} A B3 LANÇA O FUTURO DE BITCOIN\n- 1º ANO: MAIS DE {laranja:R$ 2 TRILHÕES} NEGOCIADOS\n- NÃO HÁ ENTREGA DE BITCOIN NO VENCIMENTO\n- DEPÓSITO DE MARGEM + ACERTO TODOS OS DIAS\n- GANHO E PERDA MULTIPLICADOS\n- PARA A CVM, TODO DERIVATIVO É {laranja:VALOR MOBILIÁRIO}\n- {ciano:TEMAS:} USOS · INSTRUMENTOS · RISCOS · NATUREZA JURÍDICA · B3"
+  },
+  {
+   "saida": "r50h-4_2_contrato-e-sinal.png",
+   "semente": 5313,
+   "molde": "comparacao",
+   "titulo": "O CONTRATO E O SINAL",
+   "colunas": [
+    {
+     "titulo": "O CONTRATO",
+     "desenho": "prancheta",
+     "rotulos": [
+      "CONTRATO",
+      "SINAL"
+     ],
+     "texto": "- PREÇO TRAVADO HOJE → {laranja:CONTRATO FUTURO}\n- SINAL → {laranja:MARGEM DE GARANTIA}\n- POUCO DINHEIRO, MUITA FICHA → {laranja:ALAVANCAGEM}\n- MÊS QUE VEM → {laranja:VENCIMENTO MENSAL}"
+    },
+    {
+     "titulo": "O ACERTO",
+     "desenho": "mostrador",
+     "rotulos": [
+      "FIM DO DIA",
+      "DIFERENÇA"
+     ],
+     "texto": "- ACERTO DE CADA DIA → {verde:AJUSTE DIÁRIO}\n- PREÇO SUBIU: RECEBE → {verde:AJUSTE POSITIVO}\n- PREÇO CAIU: PAGA → {verde:AJUSTE NEGATIVO}\n- NENHUMA FICHA ENTREGUE → {verde:LIQUIDAÇÃO FINANCEIRA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:SINAL ACABANDO:} PEDIDO DE REFORÇO → CHAMADA DE MARGEM",
+    "{ciano:SEM REFORÇO:} CONTRATO ENCERRADO À FORÇA → LIQUIDAÇÃO FORÇADA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NUMA COMPRA COMUM, O SINAL É O TETO DO PREJUÍZO · NO FUTURO, O PREJUÍZO PODE PASSAR DO VALOR DEPOSITADO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50h-4_3_derivativos.png",
    "semente": 5085,
    "molde": "colunas",
-   "titulo": "DERIVATIVOS DE CRIPTO (3/3)",
+   "titulo": "DERIVATIVOS DE CRIPTO",
    "topo": "{ciano:DERIVATIVO:} CONTRATO CUJO VALOR DERIVA DO PREÇO DO CRIPTOATIVO · {ciano:INSTRUMENTOS:} FUTUROS · OPÇÕES · SWAPS",
    "colunas": [
     {
@@ -111,7 +402,7 @@
     },
     {
      "titulo": "FUTURO NA B3",
-     "texto": "- {ciano:BITCOIN:} DESDE {laranja:17/04/2024}; HOJE 0,01 BTC POR CONTRATO\n- {ciano:TAMBÉM HÁ:} ETHER (0,25 ETH) E SOLANA (5 SOL)\n- LIQUIDAÇÃO {laranja:SÓ FINANCEIRA}, EM REAIS\n- {ciano:AJUSTE DIÁRIO:} QUEM GANHA RECEBE, QUEM PERDE PAGA\n- EXIGE {laranja:MARGEM}, NÃO O VALOR TOTAL"
+     "texto": "- {ciano:BITCOIN:} DESDE {laranja:17/04/2024}; 0,01 BTC POR CONTRATO\n- {ciano:JUNHO DE 2025:} ETHER (0,25 ETH) E SOLANA (5 SOL), EM DÓLAR\n- LIQUIDAÇÃO {laranja:SÓ FINANCEIRA}, EM REAIS\n- VENCIMENTO MENSAL · {ciano:AJUSTE DIÁRIO}\n- EXIGE {laranja:MARGEM}, NÃO O VALOR TOTAL"
     }
    ],
    "destaque": {
@@ -121,7 +412,7 @@
    }
   },
   {
-   "saida": "r50h_4_vista-ou-futuro.png",
+   "saida": "r50h-4_4_vista-ou-futuro.png",
    "semente": 5086,
    "molde": "exercicio",
    "titulo": "À VISTA OU FUTURO?",
@@ -139,7 +430,104 @@
     }
    ],
    "conclusao": {
-    "texto": "MESMO GANHO EM REAIS, {laranja:10 VEZES} MAIS SOBRE O VALOR DEPOSITADO · A ALAVANCAGEM VALE {vermelho:NAS DUAS DIREÇÕES} · MARGEM INSUFICIENTE → CHAMADA DE MARGEM",
+    "texto": "MESMO GANHO EM REAIS, {laranja:10 VEZES} MAIS SOBRE O VALOR DEPOSITADO · EM 2 DIAS, SALDO DE {vermelho:−1.800} · MARGEM INSUFICIENTE → CHAMADA DE MARGEM",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50h-5_1_lucro-pequeno.png",
+   "semente": 5314,
+   "molde": "mito_verdade",
+   "titulo": "LUCRO PEQUENO: ISENTO?",
+   "mitos": [
+    "LUCRO PEQUENO É ISENTO",
+    "SÓ PAGA QUEM GANHA MUITO"
+   ],
+   "verdade": "VALE O {laranja:TOTAL VENDIDO}",
+   "desenho": {
+    "nome": "dinheiro",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} VENDA DE 40.000 REAIS NO MÊS, LUCRO DE 1.000\n- ISENÇÃO: TOTAL ALIENADO NO MÊS ATÉ {laranja:35.000 REAIS}\n- SOMA {laranja:TODOS} OS CRIPTOATIVOS, DE QUALQUER TIPO\n- SÓ PARA CUSTÓDIA OU NEGOCIAÇÃO POR INSTITUIÇÃO NO BRASIL\n- REGRA TRIBUTÁRIA MUDA: CONFERIR NA DATA DA GRAVAÇÃO\n- {vermelho:NOTA DE ATUALIZAÇÃO:} FORA DO DETALHAMENTO DO ITEM 3.8.4"
+  },
+  {
+   "saida": "r50h-5_2_guiche-do-imposto.png",
+   "semente": 5315,
+   "molde": "comparacao",
+   "titulo": "O GUICHÊ DO IMPOSTO",
+   "colunas": [
+    {
+     "titulo": "GUICHÊ MENSAL",
+     "desenho": "bilheteria",
+     "rotulos": [
+      "BRASIL",
+      "MÊS"
+     ],
+     "texto": "- CASA DO PAÍS → {laranja:CUSTÓDIA NO BRASIL}\n- TROCOU POUCO NO MÊS → {laranja:ISENÇÃO}\n- TROCOU MAIS → {laranja:IMPOSTO SOBRE O LUCRO}\n- BOLETO DO MÊS SEGUINTE → {laranja:DARF}"
+    },
+    {
+     "titulo": "GUICHÊ ANUAL",
+     "desenho": "rota_voo",
+     "rotulos": [
+      "EXTERIOR",
+      "ANO"
+     ],
+     "texto": "- CASA DE FORA → {verde:CUSTÓDIA NO EXTERIOR}\n- ACERTO UMA VEZ POR ANO → {verde:DECLARAÇÃO ANUAL}\n- SEM FAIXA LIVRE → {verde:SEM ISENÇÃO}\n- TARIFA ÚNICA → {verde:15%}"
+    }
+   ],
+   "faixas": [
+    "{ciano:FICHA TROCADA POR OUTRA FICHA:} TAMBÉM É VENDA PARA O IMPOSTO",
+    "{ciano:LISTA DO QUE VOCÊ TEM:} BENS E DIREITOS, GRUPO 08"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NÃO É PRECISO SAIR DO PARQUE COM DINHEIRO · PERMUTA ENTRE CRIPTOATIVOS JÁ É ALIENAÇÃO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50h-5_3_tributacao.png",
+   "semente": 5316,
+   "molde": "colunas",
+   "titulo": "A TRIBUTAÇÃO DA PESSOA FÍSICA",
+   "topo": "{ciano:CRITÉRIO:} ONDE O CRIPTOATIVO É CUSTODIADO OU NEGOCIADO · {vermelho:NOTA DE ATUALIZAÇÃO} (RECEITA FEDERAL, IRPF 2026)",
+   "colunas": [
+    {
+     "titulo": "NO BRASIL",
+     "texto": "- {laranja:GANHO DE CAPITAL}\n- ISENTO ATÉ 35.000 REAIS VENDIDOS NO MÊS\n- 15% · 17,5% · 20% · 22,5%\n- FAIXAS: 5, 10 E 30 MILHÕES DE GANHO\n- DARF NO MÊS SEGUINTE"
+    },
+    {
+     "titulo": "NO EXTERIOR",
+     "texto": "- {laranja:APLICAÇÃO FINANCEIRA NO EXTERIOR}\n- LEI 14.754/2023, DESDE 01/01/2024\n- ALÍQUOTA DE 15%\n- {vermelho:SEM ISENÇÃO}\n- ACERTO NA DECLARAÇÃO ANUAL"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:DECRIPTO (IN RFB 2.291/2025), DESDE 01/07/2026:} EXTERIOR, PLATAFORMA DESCENTRALIZADA OU SEM PRESTADORA, ACIMA DE 35.000 REAIS NO MÊS · {ciano:BENS E DIREITOS:} CUSTO A PARTIR DE 5.000 REAIS POR TIPO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50h-5_4_total-vendido.png",
+   "semente": 5317,
+   "molde": "exercicio",
+   "titulo": "O QUE DECIDE: LUCRO OU TOTAL VENDIDO?",
+   "dados": "- HIPOTÉTICO: EXCHANGE BRASILEIRA, LUCRO DE {ciano:1.000 REAIS} NO MÊS\n- LIMITE DE ISENÇÃO: 35.000 REAIS VENDIDOS\n- GANHO NA PRIMEIRA FAIXA: 15%\n- SEM OUTRAS VENDAS NO MÊS (SIMPLIFICAÇÃO)\n- A ÚNICA DIFERENÇA: O TOTAL VENDIDO",
+   "cenarios": [
+    {
+     "titulo": "VENDEU 30.000",
+     "passos": "30.000 < 35.000\nABAIXO DO LIMITE\nIMPOSTO: ZERO",
+     "resultado": "ISENTO"
+    },
+    {
+     "titulo": "VENDEU 40.000",
+     "passos": "40.000 > 35.000\n1.000 × 15% = 150\n1.000 − 150 = 850",
+     "resultado": "IMPOSTO: 150 REAIS"
+    }
+   ],
+   "conclusao": {
+    "texto": "{ciano:5 PEGADINHAS (FALSAS):} TODA EMPRESA NEGOCIA E GUARDA · FUNDO SEM LIMITE · FUTURO NÃO É VALOR MOBILIÁRIO · FUTURO ENTREGA BITCOIN · LUCRO PEQUENO É ISENTO",
     "cor": "branco",
     "moldura": "amarelo"
    }
