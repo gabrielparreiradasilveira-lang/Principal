@@ -1,0 +1,492 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "molde": "mito_verdade",
+   "saida": "r39a_1_tres-anos.png",
+   "semente": 3901,
+   "titulo": "TRÊS ANOS = 15%?",
+   "mitos": [
+    "LONGO PRAZO = QUEM FICA MUITO",
+    "PASSOU DE 720 DIAS, 15% SEMPRE"
+   ],
+   "verdade": "QUEM DEFINE: {verde:PRAZO MÉDIO DA CARTEIRA}",
+   "desenho": {
+    "nome": "prancheta",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} 3 ANOS NUM FUNDO DE CURTO PRAZO\n- CARTEIRA COM PRAZO MÉDIO ≤ 365 DIAS → {laranja:CURTO PRAZO}\n- PISO DO CURTO PRAZO: {vermelho:20%}, POR MAIS QUE FIQUE\n- CARTEIRA > 365 DIAS → {verde:LONGO PRAZO}, PISO DE 15%\n- O TEMPO DO INVESTIDOR SÓ ESCOLHE A {laranja:FAIXA}\n- {ciano:REGRA:} O TIPO DE FUNDO VEM DA CARTEIRA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r39a_2_academia.png",
+   "semente": 3902,
+   "titulo": "A ACADEMIA E O DESCONTO",
+   "colunas": [
+    {
+     "titulo": "O DESCONTO DE FIDELIDADE",
+     "desenho": "corredor",
+     "rotulos": [
+      "QUEM FICA",
+      "PAGA MENOS"
+     ],
+     "texto": "- TROCA DE APARELHOS → {verde:CARTEIRA NEUTRA}\n- TAXA NA SAÍDA → {laranja:IR NO RESGATE}\n- 22,5 · 20 · 17,5 · 15% → {verde:LONGO PRAZO}\n- QUEM COBRA → {laranja:O ADMINISTRADOR}"
+    },
+    {
+     "titulo": "O TIPO DE PLANO",
+     "desenho": "placa",
+     "rotulos": [
+      "COMPLETO",
+      "OU BÁSICO"
+     ],
+     "texto": "- PLANO COMPLETO → {verde:CARTEIRA > 365 DIAS}\n- PLANO BÁSICO → {laranja:CARTEIRA ≤ 365 DIAS}\n- PISO DO BÁSICO → {vermelho:20%}\n- QUEM DEFINE → {laranja:O PRÓPRIO FUNDO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:CONTA E ORDEM:} QUEM RETÉM O IR É O {laranja:DISTRIBUIDOR}, NÃO O ADMINISTRADOR",
+    "{ciano:REGRA GERAL:} RENDA FIXA · CAMBIAIS · MULTIMERCADOS · CRÉDITO PRIVADO · GARANTIA DE LOCAÇÃO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA ACADEMIA VOCÊ ESCOLHE · NO FUNDO, MANDA O {laranja:PRAZO MÉDIO DOS TÍTULOS}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r39a_3_regra-geral.png",
+   "semente": 3903,
+   "titulo": "A REGRA GERAL DOS FUNDOS",
+   "topo": "{ciano:FATO GERADOR:} VALORIZAÇÃO DAS COTAS · {ciano:RETÉM:} ADMINISTRADOR OU DISTRIBUIDOR · {verde:DEFINITIVO NA PF}",
+   "colunas": [
+    {
+     "titulo": "LONGO (> 365 DIAS)",
+     "texto": "- ATÉ 180 DIAS: {vermelho:22,5%}\n- 181 A 360 DIAS: {laranja:20%}\n- 361 A 720 DIAS: {laranja:17,5%}\n- ACIMA DE 720: {verde:15%}\n- 720º DIA AINDA PAGA 17,5%\n- 721º DIA: {verde:JÁ PAGA 15%}"
+    },
+    {
+     "titulo": "CURTO (≤ 365 DIAS)",
+     "texto": "- ATÉ 180 DIAS: {vermelho:22,5%}\n- ACIMA DE 180: {laranja:20%}\n- NUNCA CHEGA A 17,5%\n- NEM A 15%\n- PISO: {vermelho:20%}\n- 181º DIA: {laranja:JÁ PAGA 20%}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} A CARTEIRA DEFINE O {laranja:TIPO} · O TEMPO APLICADO DEFINE A {laranja:FAIXA} · IR RETIDO NO FUNDO NÃO VOLTA NO AJUSTE ANUAL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r39a_4_800-dias.png",
+   "semente": 3904,
+   "titulo": "MESMO PRAZO, IMPOSTO DIFERENTE",
+   "dados": "- PESSOA FÍSICA · RESGATE AOS {ciano:800 DIAS} (HIPOTÉTICO)\n- RENDIMENTO: {ciano:R$ 7.000}\n- 800 DIAS > 720 → ÚLTIMA FAIXA DA TABELA\n- SIMPLIFICAÇÃO: IR TODO NO RESGATE\n- A ÚNICA DIFERENÇA: O {laranja:TIPO DE FUNDO}",
+   "cenarios": [
+    {
+     "titulo": "LONGO PRAZO",
+     "passos": "7.000 × 15%\nCARTEIRA > 365 DIAS\nFAIXA > 720 DIAS",
+     "resultado": "R$ 1.050"
+    },
+    {
+     "titulo": "CURTO PRAZO",
+     "passos": "7.000 × 20%\nCARTEIRA ≤ 365 DIAS\nPISO DE 20%",
+     "resultado": "R$ 1.400"
+    }
+   ],
+   "conclusao": {
+    "texto": "{vermelho:R$ 350} A MAIS SÓ PELA CARTEIRA · LÍQUIDO: {verde:R$ 5.950} NO LONGO × {laranja:R$ 5.600} NO CURTO · O TEMPO APLICADO FOI O MESMO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r39b_1_400-dias.png",
+   "semente": 3911,
+   "titulo": "O COME-COTAS USA A TABELA?",
+   "mitos": [
+    "COBRA A ALÍQUOTA DA TABELA",
+    "É UM IMPOSTO A MAIS"
+   ],
+   "verdade": "COBRA A {verde:MENOR ALÍQUOTA DO FUNDO}",
+   "desenho": {
+    "nome": "moeda",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} LONGO PRAZO, RESGATE AOS 400 DIAS\n- TABELA AOS 400 DIAS: {laranja:17,5%}\n- COME-COTAS JÁ COBROU: {verde:15%}\n- NO RESGATE: COMPLEMENTO DE {laranja:2,5 P.P.}\n- CURTO PRAZO: COME-COTAS A {vermelho:20%}\n- {ciano:REGRA:} MESMO IMPOSTO, OUTRO MOMENTO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r39b_2_cobrador.png",
+   "semente": 3912,
+   "titulo": "O COBRADOR SEMESTRAL",
+   "colunas": [
+    {
+     "titulo": "O COBRADOR",
+     "desenho": "cracha_fiscal",
+     "rotulos": [
+      "MAIO E",
+      "NOVEMBRO"
+     ],
+     "texto": "- VISITA SEMESTRAL → {verde:COME-COTAS}\n- ÚLTIMO DIA ÚTIL → {laranja:MAIO E NOVEMBRO}\n- TAXA MAIS BAIXA → {verde:15% OU 20%}\n- LEVA COTAS → {laranja:REDUZ A QUANTIDADE}"
+    },
+    {
+     "titulo": "A DIFERENÇA NA SAÍDA",
+     "desenho": "ampulheta",
+     "rotulos": [
+      "SAIU",
+      "CEDO"
+     ],
+     "texto": "- SAIU ANTES DO PISO → {laranja:COMPLEMENTO}\n- LP ATÉ 180 DIAS → {vermelho:+7,5 P.P.}\n- LP DE 181 A 360 → {laranja:+5 P.P.}\n- LP DE 361 A 720 → {laranja:+2,5 P.P.}"
+    }
+   ],
+   "faixas": [
+    "{ciano:CURTO PRAZO:} COME-COTAS A 20% · ATÉ 180 DIAS, COMPLEMENTO DE {laranja:2,5 P.P.}",
+    "{ciano:VALOR DA COTA:} NÃO MUDA COM O COME-COTAS · CAI A {laranja:QUANTIDADE DE COTAS}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O COBRADOR PEDE DINHEIRO · O COME-COTAS {laranja:RECOLHE COTAS}, NÃO SALDO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r39b_3_come-cotas.png",
+   "semente": 3913,
+   "titulo": "COME-COTAS: QUEM TEM E QUEM NÃO",
+   "topo": "{ciano:ANTECIPAÇÃO SEMESTRAL DO IR} · ÚLTIMO DIA ÚTIL DE {laranja:MAIO} E {laranja:NOVEMBRO} · SOBRE O RENDIMENTO DO SEMESTRE",
+   "colunas": [
+    {
+     "titulo": "QUEM TEM",
+     "texto": "- RENDA FIXA\n- MULTIMERCADOS\n- CAMBIAIS\n- LP: {verde:15%} · CP: {vermelho:20%}\n- RESGATE: COMPLETA A TABELA"
+    },
+    {
+     "titulo": "QUEM NÃO TEM",
+     "texto": "- FUNDOS DE {verde:AÇÕES} (≥ 67%)\n- {verde:ENTIDADES} DE INVESTIMENTO\n- FII E FIAGRO\n- FI-INFRA\n- DETALHES NA R39D"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} 720 DIAS NO LP → O COME-COTAS JÁ COBROU {verde:A ALÍQUOTA FINAL}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r39b_4_complemento.png",
+   "semente": 3914,
+   "titulo": "COME-COTAS + RESGATE",
+   "dados": "- RENDA FIXA DE LONGO PRAZO (HIPOTÉTICO)\n- RENDEU {ciano:R$ 4.000} ATÉ O COME-COTAS DE MAIO\n- RESGATE AOS {ciano:300 DIAS} · RENDIMENTO TOTAL: {ciano:R$ 7.000}\n- AOS 300 DIAS, A TABELA PEDE {laranja:20%}\n- SIMPLIFICAÇÃO: SEM EFEITO DA REDUÇÃO DE COTAS",
+   "cenarios": [
+    {
+     "titulo": "COME-COTAS",
+     "passos": "4.000 × 15%\nPISO DO LONGO PRAZO\nCOBRADO EM COTAS",
+     "resultado": "R$ 600"
+    },
+    {
+     "titulo": "RESGATE",
+     "passos": "7.000 × 20% = 1.400\n− 600 JÁ PAGOS\n200 + 600",
+     "resultado": "R$ 800"
+    }
+   ],
+   "conclusao": {
+    "texto": "TOTAL DE {laranja:R$ 1.400} = A TABELA · O COME-COTAS {verde:SÓ ADIANTOU} R$ 600 · O RESGATE COMPLETA: 200 DE COMPLEMENTO + 600 DO RESTO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r39c_1_10-dias.png",
+   "semente": 3921,
+   "titulo": "IOF DE 66% SOBRE TUDO?",
+   "mitos": [
+    "IOF SOBRE O VALOR APLICADO",
+    "PERDE 66 MIL DE 100 MIL"
+   ],
+   "verdade": "{verde:SÓ SOBRE O RENDIMENTO}, NUNCA ACIMA DELE",
+   "desenho": {
+    "nome": "alarme",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} R$ 100 MIL, RESGATE NO 10º DIA\n- RENDIMENTO DE {ciano:R$ 500} → IOF DE {laranja:R$ 330}\n- OS R$ 100 MIL APLICADOS {verde:FICAM INTACTOS}\n- NATUREZA {laranja:REGULATÓRIA}: INIBE O GIRO CURTO\n- DO 30º DIA EM DIANTE: {verde:ZERO}\n- {ciano:REGRA:} IOF COME RENDIMENTO, NÃO CAPITAL"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r39c_2_multa.png",
+   "semente": 3922,
+   "titulo": "A MULTA DE CANCELAMENTO",
+   "colunas": [
+    {
+     "titulo": "A MULTA QUE ENCOLHE",
+     "desenho": "escada_desce",
+     "rotulos": [
+      "CAI A",
+      "CADA DIA"
+     ],
+     "texto": "- CANCELA NO 1º DIA → {vermelho:96%}\n- NO 10º DIA → {laranja:66%}\n- NO 15º DIA → {laranja:50%}\n- NO 29º DIA → {laranja:3%}\n- NO 30º DIA → {verde:ZERO}"
+    },
+    {
+     "titulo": "A FIDELIDADE",
+     "desenho": "gelo_cadeado",
+     "rotulos": [
+      "CARÊNCIA",
+      "0,5% AO DIA"
+     ],
+     "texto": "- PRAZO MÍNIMO → {laranja:CARÊNCIA}\n- SAIU ANTES → {vermelho:0,5% AO DIA}\n- BASE → {laranja:VALOR DO RESGATE}\n- TETO → {verde:O RENDIMENTO}\n- CUMPRIU O PRAZO → {verde:SEM ESSA MULTA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:PLANO SEM MULTA:} FUNDO DE {verde:AÇÕES} · IOF COM ALÍQUOTA ZERO NO RESGATE",
+    "{ciano:ORDEM DE COBRANÇA:} 1º O IOF · 2º O IR SOBRE O {laranja:RENDIMENTO QUE SOBROU}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} MULTA DE ACADEMIA É CONTRATO · IOF É {laranja:TRIBUTO} (DECRETO 6.306/2007) · A ALÍQUOTA PODE MUDAR POR DECRETO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r39c_3_tabela-iof.png",
+   "semente": 3923,
+   "titulo": "A TABELA DO IOF (DIAS CORRIDOS)",
+   "topo": "{ciano:REGRA:} RESGATE COM {laranja:MENOS DE 30 DIAS} · ALÍQUOTA SOBRE O RENDIMENTO · {verde:LIMITADA A ELE}",
+   "colunas": [
+    {
+     "titulo": "A TABELA (ANEXO)",
+     "texto": "- 1º DIA: {vermelho:96%} · 2º: 93%\n- 5º: {laranja:83%} · 10º: {laranja:66%}\n- 15º: {laranja:50%} · 20º: 33%\n- 25º: 16% · 29º: 3%\n- 30º DIA EM DIANTE: {verde:0%}"
+    },
+    {
+     "titulo": "AS EXCEÇÕES",
+     "texto": "- FUNDO DE AÇÕES: {verde:ZERO}\n- CARÊNCIA (ART. 31):\n- {vermelho:0,5% AO DIA} DO RESGATE\n- TETO: O RENDIMENTO\n- SEMPRE ANTES DO IR"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} 29º DIA = {laranja:3%} · 30º DIA = {verde:ZERO} · BASE É O {laranja:RENDIMENTO}, NÃO O SALDO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r39c_4_iof-ir.png",
+   "semente": 3924,
+   "titulo": "SAIR NO 10º OU NO 30º DIA?",
+   "dados": "- APLICAÇÃO DE {ciano:R$ 100.000} EM RENDA FIXA (HIPOTÉTICO)\n- RENDIMENTO NO PERÍODO: {ciano:R$ 500}\n- SIMPLIFICAÇÃO: MESMO RENDIMENTO NAS DUAS DATAS\n- IR DE {ciano:22,5%} (ATÉ 180 DIAS)\n- A ÚNICA DIFERENÇA: O DIA DO RESGATE",
+   "cenarios": [
+    {
+     "titulo": "10º DIA",
+     "passos": "IOF 66%: 330\nSOBRAM 170\nIR 22,5%: 38,25",
+     "resultado": "R$ 131,75"
+    },
+    {
+     "titulo": "30º DIA",
+     "passos": "IOF: ZERO\nIR 22,5% DE 500\n= 112,50",
+     "resultado": "R$ 387,50"
+    }
+   ],
+   "conclusao": {
+    "texto": "IOF + IR NO 10º DIA = {vermelho:R$ 368,25} · ESPERAR 20 DIAS PRESERVA {verde:R$ 255,75} · OS R$ 100 MIL APLICADOS NÃO SÃO TOCADOS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r39d_1_sem-come-cotas.png",
+   "semente": 3931,
+   "titulo": "COME-COTAS NO FUNDO DE AÇÕES?",
+   "mitos": [
+    "FUNDO DE AÇÕES TEM COME-COTAS",
+    "PAGA PELA TABELA REGRESSIVA"
+   ],
+   "verdade": "{verde:15% SÓ NO RESGATE}, QUALQUER PRAZO",
+   "desenho": {
+    "nome": "grafico_alta",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} EXTRATO DE MAIO SEM REDUÇÃO DE COTAS\n- CONDIÇÃO: {laranja:MÍNIMO DE 67%} EM AÇÕES\n- SEM COME-COTAS · {verde:IOF ZERO} NO RESGATE\n- ALÍQUOTA ÚNICA: {laranja:15%}, 10 DIAS OU 10 ANOS\n- ABAIXO DE 67%: {vermelho:PERDE O TRATAMENTO}\n- {ciano:REGRA:} O PLANO QUE COBRA SÓ NA SAÍDA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r39d_2_planos.png",
+   "semente": 3932,
+   "titulo": "OS PLANOS FORA DO COMUM",
+   "colunas": [
+    {
+     "titulo": "COBRA SÓ NA SAÍDA",
+     "desenho": "check",
+     "rotulos": [
+      "AÇÕES E",
+      "ENTIDADES"
+     ],
+     "texto": "- PAGA NA SAÍDA → {verde:FUNDO DE AÇÕES}\n- TAXA FIXA → {laranja:15%}\n- CLUBE PROFISSIONAL → {laranja:ENTIDADE DE INVESTIMENTO}\n- COBRA AO DISTRIBUIR → {verde:SEM COME-COTAS}"
+    },
+    {
+     "titulo": "PLANOS ESPECIAIS",
+     "desenho": "estrela",
+     "rotulos": [
+      "COM",
+      "INCENTIVO"
+     ],
+     "texto": "- FII E FIAGRO → {verde:RENDIMENTO ISENTO (PF)}\n- VENDA DAS COTAS → {vermelho:20%}\n- FI-INFRA → {verde:ALÍQUOTA ZERO (PF)}\n- ETF DE RENDA FIXA → {laranja:RITMO DA CARTEIRA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ENTIDADE DE INVESTIMENTO:} GESTÃO PROFISSIONAL E DISCRICIONÁRIA · {laranja:RESOLUÇÃO CMN 5.111/2023}",
+    "{ciano:EXEMPLOS:} FIP · ETF (EXCETO RENDA FIXA) · FIDC, QUANDO ENQUADRADOS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA ACADEMIA VOCÊ ESCOLHE PELO PREÇO · NO FUNDO, MANDAM {laranja:A CARTEIRA E A LEI}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r39d_3_fora-regra.png",
+   "semente": 3933,
+   "titulo": "OS FUNDOS FORA DA REGRA GERAL",
+   "topo": "{ciano:NENHUM TEM COME-COTAS} · CADA UM COM SUA {laranja:ALÍQUOTA} E SEU {laranja:MOMENTO DE COBRANÇA}",
+   "colunas": [
+    {
+     "titulo": "AÇÕES E ENTIDADES",
+     "texto": "- AÇÕES (≥ 67%): {verde:15%}\n- SÓ NO RESGATE, SEM IOF\n- FIP E ETF ENTIDADE: {laranja:15%}\n- AO DISTRIBUIR, AMORTIZAR\n- OU RESGATAR"
+    },
+    {
+     "titulo": "INCENTIVADOS E ETF RF",
+     "texto": "- FII/FIAGRO PF: {verde:ISENTO}\n- MÍNIMO DE {laranja:100 COTISTAS}\n- FI-INFRA PF: {verde:ALÍQUOTA ZERO}\n- ETF RF: 25% · 20% · 15%\n- PELO {laranja:PRAZO DE REPACTUAÇÃO}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:É COMUM LER:} ETF RF POR DARF · {vermelho:ATENÇÃO:} {laranja:RETIDO NA FONTE} E IOF ZERO NA BOLSA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r39d_4_etf-rf.png",
+   "semente": 3934,
+   "titulo": "QUEM DEFINE A ALÍQUOTA DO ETF?",
+   "dados": "- GANHO NA VENDA EM BOLSA: {ciano:R$ 5.000} (HIPOTÉTICO)\n- ETF DE RENDA FIXA · INVESTIDOR PESSOA FÍSICA\n- RETENÇÃO NA FONTE PELA {laranja:CORRETORA}\n- CARTEIRA DE 181 A 720 DIAS: 20% = {ciano:R$ 1.000}\n- A ÚNICA DIFERENÇA: O PRAZO DA CARTEIRA",
+   "cenarios": [
+    {
+     "titulo": "CARTEIRA > 720 DIAS",
+     "passos": "5.000 × 15%\nPRAZO MÉDIO DE\nREPACTUAÇÃO LONGO",
+     "resultado": "R$ 750"
+    },
+    {
+     "titulo": "CARTEIRA ≤ 180 DIAS",
+     "passos": "5.000 × 25%\nPRAZO MÉDIO DE\nREPACTUAÇÃO CURTO",
+     "resultado": "R$ 1.250"
+    }
+   ],
+   "conclusao": {
+    "texto": "DIFERENÇA DE {vermelho:R$ 500} SEM O CLIENTE MUDAR NADA · {verde:SEM DARF} E SEM IOF NA BOLSA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r39e_1_dois-bancos.png",
+   "semente": 3941,
+   "titulo": "PREJUÍZO ABATE EM QUALQUER LUGAR?",
+   "mitos": [
+    "PERDA NO BANCO A ABATE GANHO NO B",
+    "QUALQUER FUNDO COMPENSA"
+   ],
+   "verdade": "{verde:MESMO ADMINISTRADOR} + {verde:MESMO REGIME}",
+   "desenho": {
+    "nome": "banco",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} MULTIMERCADO NO A, RENDA FIXA LP NO B\n- ADMINISTRADORES DIFERENTES → {vermelho:SEM COMPENSAÇÃO}\n- PERDA {laranja:REGISTRADA} NO SISTEMA DO ADMINISTRADOR\n- ABATE SÓ RENDIMENTOS {laranja:POSTERIORES}\n- AÇÕES NA BOLSA: QUEM CONTROLA É O {laranja:INVESTIDOR}\n- {ciano:REGRA:} MESMA REDE, MESMO TIPO DE PLANO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r39e_2_credito.png",
+   "semente": 3942,
+   "titulo": "O CRÉDITO E A ESCOLHA DO PLANO",
+   "colunas": [
+    {
+     "titulo": "O CRÉDITO",
+     "desenho": "cofrinho",
+     "rotulos": [
+      "MESMA",
+      "REDE"
+     ],
+     "texto": "- MESMA REDE → {verde:MESMO ADMINISTRADOR}\n- MESMO TIPO DE PLANO → {verde:MESMO REGIME}\n- REGISTRO NO SISTEMA → {laranja:CONTROLE}\n- OUTRA REDE → {vermelho:NÃO VALE}"
+    },
+    {
+     "titulo": "ESCOLHER O PLANO",
+     "desenho": "balanca",
+     "rotulos": [
+      "HORIZONTE",
+      "LIQUIDEZ"
+     ],
+     "texto": "- FICA ANOS → {verde:SEM COBRADOR SEMESTRAL}\n- PODE SAIR JÁ → {vermelho:FOGE DO IOF}\n- PERFIL → {laranja:RISCO ACEITO}\n- CONTA FINAL → {verde:RENTABILIDADE LÍQUIDA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:MESMO REGIME:} RF LONGO COM RF LONGO · AÇÕES COM AÇÕES · {vermelho:LONGO × AÇÕES, NÃO}",
+    "{ciano:QUATRO FILTROS:} PERFIL · HORIZONTE · LIQUIDEZ · IMPACTO TRIBUTÁRIO NO TEMPO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O CRÉDITO DA ACADEMIA É DINHEIRO · A PERDA DO FUNDO SÓ {laranja:REDUZ A BASE DO IR}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r39e_3_compensacao.png",
+   "semente": 3943,
+   "titulo": "COMPENSAÇÃO E ALOCAÇÃO",
+   "topo": "{ciano:COMPENSAÇÃO:} A PERDA ABATE RENDIMENTOS {laranja:POSTERIORES} · NÃO DEVOLVE {vermelho:IMPOSTO JÁ PAGO}",
+   "colunas": [
+    {
+     "titulo": "AS 3 CONDIÇÕES",
+     "texto": "- 1. MESMO FUNDO OU {laranja:MESMO ADMINISTRADOR}\n- 2. MESMO {laranja:REGIME DE TRIBUTAÇÃO}\n- 3. PERDA {laranja:REGISTRADA}\n- FALTOU UMA → {vermelho:NÃO COMPENSA}\n- BOLSA: CONTROLE DO INVESTIDOR"
+    },
+    {
+     "titulo": "NA RECOMENDAÇÃO",
+     "texto": "- LONGO PRAZO: COME-COTAS {vermelho:PESA}\n- ISENTOS E AÇÕES: {verde:EFICIÊNCIA}\n- DINHEIRO CURTO: {vermelho:IOF}\n- COMPARAÇÃO: {verde:SEMPRE LÍQUIDA}\n- NUNCA SÓ PELA BRUTA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} RF LONGO PRAZO × AÇÕES, MESMO ADMINISTRADOR → {vermelho:NÃO COMPENSA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r39e_4_compensa.png",
+   "semente": 3944,
+   "titulo": "A PERDA ABATE OU NÃO?",
+   "dados": "- FUNDO A: PERDA DE {ciano:R$ 2.000} (HIPOTÉTICO)\n- FUNDO B: GANHO DE {ciano:R$ 5.000}\n- MESMO REGIME · ALÍQUOTA DE {ciano:15%}\n- PERDA REGISTRADA NO SISTEMA\n- A ÚNICA DIFERENÇA: O ADMINISTRADOR",
+   "cenarios": [
+    {
+     "titulo": "MESMO ADMINISTRADOR",
+     "passos": "5.000 − 2.000\n= 3.000\n3.000 × 15%",
+     "resultado": "R$ 450"
+    },
+    {
+     "titulo": "OUTRO ADMINISTRADOR",
+     "passos": "SEM COMPENSAÇÃO\n5.000 × 15%\nPERDA FICA NO A",
+     "resultado": "R$ 750"
+    }
+   ],
+   "conclusao": {
+    "texto": "{verde:R$ 300} DE ECONOMIA · 5 PEGADINHAS (FALSAS): TEMPO DEFINE O TIPO · COME-COTAS PELA TABELA · IOF NO CAPITAL · AÇÕES COM COME-COTAS · ETF RF POR DARF",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
