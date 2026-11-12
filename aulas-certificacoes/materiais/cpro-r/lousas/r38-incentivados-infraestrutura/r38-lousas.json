@@ -1,0 +1,492 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "molde": "mito_verdade",
+   "saida": "r38a_1_dois-produtos.png",
+   "semente": 3801,
+   "titulo": "DOIS PRODUTOS DIFERENTES?",
+   "mitos": [
+    "FI-INFRA ≠ DEBÊNTURES INCENTIVADAS",
+    "CADA NOME, UMA REGRA"
+   ],
+   "verdade": "MESMA FIGURA: {verde:LEI 12.431, ART. 3º}",
+   "desenho": {
+    "nome": "prancheta",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} DOIS FOLHETOS, DOIS NOMES\n- {ciano:CVM 175, ANEXO I, ART. 59:} FI-INFRA = FUNDO DO ART. 3º\n- TIPO {laranja:RENDA FIXA} · ABERTO OU FECHADO\n- NOME: \"{laranja:INVESTIMENTO EM INFRAESTRUTURA}\"\n- FECHADOS: EM GERAL {laranja:NEGOCIADOS NA BOLSA}\n- {ciano:REGRA:} MESMO FUNDO, DOIS APELIDOS"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r38a_2_estrada.png",
+   "semente": 3802,
+   "titulo": "A ESTRADA COM PEDÁGIO",
+   "colunas": [
+    {
+     "titulo": "O COFRE QUE EMPRESTA",
+     "desenho": "cofrinho",
+     "rotulos": [
+      "EMPRESTA",
+      "RECEBE"
+     ],
+     "texto": "- COFRE COLETIVO → {verde:FI-INFRA}\n- EMPRÉSTIMO À CONCESSIONÁRIA → {verde:DEBÊNTURE INCENTIVADA}\n- PAGAMENTO COM O PEDÁGIO → {laranja:FLUXO DO PROJETO}\n- ANOS DE PEDÁGIO → {laranja:PRAZO LONGO}"
+    },
+    {
+     "titulo": "O CARIMBO",
+     "desenho": "rodovia_pedagio",
+     "rotulos": [
+      "DESCONTO",
+      "NO IR"
+     ],
+     "texto": "- DESCONTO NO IMPOSTO → {verde:INCENTIVO FISCAL}\n- PARA PESSOA FÍSICA → {verde:ALÍQUOTA ZERO}\n- PROJETO PRIORITÁRIO → {laranja:CONDIÇÃO}\n- ATÉ 31/12/2030 → {laranja:EMISSÃO DOS ATIVOS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:SETORES:} LOGÍSTICA · ENERGIA · SANEAMENTO · TRANSPORTE · P,D&I PRIORITÁRIOS",
+    "{ciano:ATIVOS (ART. 2º):} DEBÊNTURES INCENTIVADAS · CRIS · COTAS DE FIDC FECHADO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} A ESTRADA É SÓ UM EXEMPLO · O INCENTIVO VALE PARA {laranja:VÁRIOS SETORES PRIORITÁRIOS}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r38a_3_fi-infra.png",
+   "semente": 3803,
+   "titulo": "FI-INFRA: O QUE É E O QUE COMPRA",
+   "topo": "{ciano:FINALIDADE:} FINANCIAR {laranja:PROJETOS ESTRATÉGICOS} COM INCENTIVO FISCAL · INVESTIDOR DE {laranja:LONGO PRAZO}",
+   "colunas": [
+    {
+     "titulo": "OS ATIVOS (ART. 2º)",
+     "texto": "- {verde:DEBÊNTURES INCENTIVADAS}\n- CRIS DE PROJETOS PRIORITÁRIOS\n- COTAS DE {laranja:FIDC FECHADO}\n- INFRAESTRUTURA OU P,D&I\n- EMITIDOS {laranja:ATÉ 31/12/2030}"
+    },
+    {
+     "titulo": "AS REGRAS DA CVM",
+     "texto": "- TIPO {verde:RENDA FIXA}\n- {laranja:ABERTO} OU {laranja:FECHADO}\n- NOME COM \"INVESTIMENTO EM\n- INFRAESTRUTURA\"\n- CREDOR, NÃO SÓCIO (SÓCIO = FIP-IE)"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} SEM PROJETO PRIORITÁRIO, A DEBÊNTURE {vermelho:NÃO É INCENTIVADA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r38a_4_equivalente.png",
+   "semente": 3804,
+   "titulo": "QUAL RENDE MAIS DE VERDADE?",
+   "dados": "- PESSOA FÍSICA, HORIZONTE DE 1 ANO (HIPOTÉTICO)\n- FI-INFRA: {ciano:11% AO ANO}, SEM IR\n- FUNDO TRIBUTADO: {ciano:12% BRUTO}, IR DE {ciano:15%}\n- SEM COME-COTAS NOS DOIS\n- A ÚNICA DIFERENÇA: O REGIME DE IMPOSTO",
+   "cenarios": [
+    {
+     "titulo": "FI-INFRA",
+     "passos": "11% BRUTO\nALÍQUOTA ZERO\n11% LÍQUIDO",
+     "resultado": "11,00%"
+    },
+    {
+     "titulo": "FUNDO TRIBUTADO",
+     "passos": "12% × 0,85\nSOBRAM 85%\nDO RENDIMENTO",
+     "resultado": "10,20%"
+    }
+   ],
+   "conclusao": {
+    "texto": "PARA EMPATAR, O TRIBUTADO PRECISARIA DE {laranja:12,94% BRUTO} · COMPARE {verde:LÍQUIDO COM LÍQUIDO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r38b_1_67-por-cento.png",
+   "semente": 3811,
+   "titulo": "85% DESDE O PRIMEIRO DIA?",
+   "mitos": [
+    "85% LOGO NA ESTREIA",
+    "85% DO PATRIMÔNIO DO DIA"
+   ],
+   "verdade": "{laranja:67%} NOS 2 PRIMEIROS ANOS",
+   "desenho": {
+    "nome": "ampulheta",
+    "largura": 150
+   },
+   "apoio": "- {ciano:LEI 12.431, ART. 3º, §§ 1º-A E 4º}\n- ATÉ {laranja:180 DIAS} DA 1ª INTEGRALIZAÇÃO PARA CHEGAR A 67%\n- DEPOIS: {verde:85% DO VALOR DE REFERÊNCIA}\n- FUNDO DE FUNDOS: {laranja:95%} EM COTAS DE FI-INFRA\n- POR EMISSOR: ATÉ {laranja:20%} (CVM 175, ANEXO I, ART. 60)\n- {ciano:REGRA:} DESCUMPRIU → {vermelho:PERDE O BENEFÍCIO}"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r38b_2_regua.png",
+   "semente": 3812,
+   "titulo": "A RÉGUA DO PEDÁGIO",
+   "colunas": [
+    {
+     "titulo": "A RÉGUA",
+     "desenho": "fita_metrica",
+     "rotulos": [
+      "85%",
+      "67%"
+     ],
+     "texto": "- QUASE TUDO NAS OBRAS → {verde:85%}\n- COFRE NOVO → {laranja:67% POR 2 ANOS}\n- MÉDIA DE 6 MESES → {laranja:VALOR DE REFERÊNCIA}\n- UMA SÓ CONCESSIONÁRIA → {vermelho:ATÉ 20%}"
+    },
+    {
+     "titulo": "PERDE O DESCONTO",
+     "desenho": "xis",
+     "rotulos": [
+      "FECHA",
+      "OU MUDA"
+     ],
+     "texto": "- RÉGUA DESRESPEITADA → {vermelho:DESCUMPRIMENTO}\n- COFRE FECHADO → {vermelho:LIQUIDAÇÃO}\n- VIRA OUTRO COFRE → {vermelho:TRANSFORMAÇÃO}\n- IMPOSTO COMUM → {laranja:TABELA REGRESSIVA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:VALOR DE REFERÊNCIA:} O MENOR ENTRE O PL E A MÉDIA DO PL DOS ÚLTIMOS 180 DIAS",
+    "{ciano:MATERIAL DE DIVULGAÇÃO:} BENEFÍCIOS, CONDIÇÕES PARA MANTÊ-LOS, CONCENTRAÇÃO E ILIQUIDEZ"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} PLACA DE PEDÁGIO É FIXA · A RÉGUA DO FI-INFRA {laranja:USA A MÉDIA DE 180 DIAS}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r38b_3_enquadramento.png",
+   "semente": 3813,
+   "titulo": "ENQUADRAMENTO DO FI-INFRA",
+   "topo": "{ciano:85% DO VALOR DE REFERÊNCIA} = O MENOR ENTRE {laranja:PL} E {laranja:MÉDIA DE 180 DIAS} (LEI 14.801/2024)",
+   "colunas": [
+    {
+     "titulo": "AS RÉGUAS",
+     "texto": "- REGRA GERAL: {verde:85%}\n- 2 PRIMEIROS ANOS: {laranja:67%}\n- PRAZO PARA OS 67%: {laranja:180 DIAS}\n- FUNDO DE FUNDOS: {laranja:95%}\n- POR EMISSOR: {vermelho:ATÉ 20%}"
+    },
+    {
+     "titulo": "O DESCUMPRIMENTO",
+     "texto": "- {vermelho:LIQUIDAÇÃO} OU\n- {vermelho:TRANSFORMAÇÃO}\n- RENDIMENTO → {laranja:TABELA REGRESSIVA}\n- 22,5% · 20% · 17,5% · 15%\n- CONFORME O PRAZO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:É COMUM VER:} \"85% DO PATRIMÔNIO\" · {vermelho:ATENÇÃO:} HOJE É {laranja:85% DO VALOR DE REFERÊNCIA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r38b_4_perda.png",
+   "semente": 3814,
+   "titulo": "ENQUADRADO OU DESENQUADRADO?",
+   "dados": "- PL DE {ciano:R$ 50 MI} · MÉDIA DE 180 DIAS: {ciano:R$ 48 MI} (HIPOTÉTICO)\n- VALOR DE REFERÊNCIA: {laranja:R$ 48 MI} · 85% = R$ 40,8 MI\n- 67% (2 PRIMEIROS ANOS) = R$ 32,16 MI\n- RENDIMENTO DO COTISTA PF: {ciano:R$ 10.000}\n- A ÚNICA DIFERENÇA: O ENQUADRAMENTO",
+   "cenarios": [
+    {
+     "titulo": "ENQUADRADO",
+     "passos": "R$ 42 MI ÷ R$ 48 MI\n= 87,5% ≥ 85%\nALÍQUOTA ZERO",
+     "resultado": "IR R$ 0"
+    },
+    {
+     "titulo": "PERDEU O BENEFÍCIO",
+     "passos": "TRANSFORMADO\nATÉ 180 DIAS: 2.250\nACIMA DE 720: 1.500",
+     "resultado": "IR ATÉ R$ 2.250"
+    }
+   ],
+   "conclusao": {
+    "texto": "MESMO NO MELHOR CASO, {vermelho:R$ 1.500} DE IMPOSTO QUE ANTES NÃO EXISTIA · O BENEFÍCIO DEPENDE DO {laranja:ENQUADRAMENTO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r38c_1_venda-cotas.png",
+   "semente": 3821,
+   "titulo": "SÓ O RENDIMENTO É LIVRE?",
+   "mitos": [
+    "A VENDA DAS COTAS PAGA 15%",
+    "IGUAL AO FII"
+   ],
+   "verdade": "VENDA TAMBÉM COM {verde:ALÍQUOTA ZERO}",
+   "desenho": {
+    "nome": "moeda",
+    "largura": 150
+   },
+   "apoio": "- {ciano:LEI 12.431, ART. 3º, § 2º-A:} RENDIMENTO INCLUI O {verde:GANHO NA VENDA}\n- PESSOA FÍSICA: {verde:ALÍQUOTA ZERO}\n- PESSOA JURÍDICA: {vermelho:15%}, EXCLUSIVAMENTE NA FONTE\n- {verde:SEM COME-COTAS} (§ 2º-B)\n- PODE HAVER IOF EM RESGATE DE CURTO PRAZO\n- {ciano:REGRA:} FII ≠ FI-INFRA NA VENDA DAS COTAS"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r38c_2_sem-adiantamento.png",
+   "semente": 3822,
+   "titulo": "O DESCONTO SEM ADIANTAMENTO",
+   "colunas": [
+    {
+     "titulo": "O DESCONTO VALE",
+     "desenho": "check",
+     "rotulos": [
+      "JUROS",
+      "E VENDA"
+     ],
+     "texto": "- JUROS RECEBIDOS → {verde:ALÍQUOTA ZERO NA PF}\n- VENDA DA PARTE DO COFRE → {verde:TAMBÉM ZERO}\n- EMPRESA QUE EMPRESTA → {vermelho:15% NA FONTE}\n- COFRE DESENQUADRADO → {vermelho:PERDE O DESCONTO}"
+    },
+    {
+     "titulo": "NÃO COBRA ADIANTADO",
+     "desenho": "ampulheta",
+     "rotulos": [
+      "SEM",
+      "COME-COTAS"
+     ],
+     "texto": "- SEM COBRANÇA A CADA 6 MESES → {verde:SEM COME-COTAS}\n- DINHEIRO INTEIRO → {verde:JUROS SOBRE JUROS}\n- SAÍDA RÁPIDA → {laranja:IOF NO CURTO PRAZO}\n- LONGO PRAZO → {verde:VANTAGEM MAIOR}"
+    }
+   ],
+   "faixas": [
+    "{ciano:MP 1.303/2025:} PREVIA 5% PARA PF EM COTAS NOVAS · {vermelho:PERDEU A VALIDADE} EM OUT/2025",
+    "{ciano:LEI 15.270/2025:} FI-INFRA (85%) E FIP-IE FORA DA TRIBUTAÇÃO MÍNIMA DAS ALTAS RENDAS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O DESCONTO DO PEDÁGIO É NA CABINE · O DO FI-INFRA {laranja:DEPENDE DO ENQUADRAMENTO}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r38c_3_tributacao.png",
+   "semente": 3823,
+   "titulo": "TRIBUTAÇÃO DO FI-INFRA",
+   "topo": "{ciano:PF:} {verde:ALÍQUOTA ZERO} (INCLUSIVE NA VENDA) · {ciano:PJ:} {vermelho:15%} EXCLUSIVAMENTE NA FONTE · {verde:SEM COME-COTAS}",
+   "colunas": [
+    {
+     "titulo": "ISENÇÃO × ALÍQUOTA ZERO",
+     "texto": "- FIGURAS {laranja:JURÍDICAS DIFERENTES}\n- EFEITO PARA A PF: {verde:IR ZERO}\n- A LEI USA \"ALÍQUOTA ZERO\"\n- FII: RENDIMENTO ISENTO, {vermelho:VENDA 20%}\n- FI-INFRA PF: {verde:ZERO NOS DOIS}"
+    },
+    {
+     "titulo": "ATUALIZAÇÕES",
+     "texto": "- {ciano:MP 1.303/2025}: {vermelho:CADUCOU}\n- {ciano:LEI 14.754/2023, ART. 39}:\n- REGIME {verde:PRESERVADO}\n- {ciano:LEI 15.270/2025}: FORA DA\n- TRIBUTAÇÃO MÍNIMA ({laranja:> R$ 600 MIL})"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} FUNDO TRANSFORMADO → MESMO INVESTIDOR VAI PARA A {laranja:TABELA REGRESSIVA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r38c_4_come-cotas.png",
+   "semente": 3824,
+   "titulo": "QUANTO CUSTA O COME-COTAS?",
+   "dados": "- {ciano:R$ 100.000} POR {ciano:10 SEMESTRES} A {ciano:6% AO SEMESTRE} (HIPOTÉTICO)\n- SEM IR (FI-INFRA PF): {verde:R$ 179.084,77}\n- FUNDO TRIBUTADO: IR DE {ciano:15%}\n- COME-COTAS COM A ALÍQUOTA CHEIA\n- A ÚNICA DIFERENÇA: O MOMENTO DO IMPOSTO",
+   "cenarios": [
+    {
+     "titulo": "IR SÓ NO FINAL",
+     "passos": "GANHO: 79.084,77\nIR: 11.862,72\nPAGO NO RESGATE",
+     "resultado": "R$ 167.222,05"
+    },
+    {
+     "titulo": "IR A CADA SEMESTRE",
+     "passos": "6% × 0,85 = 5,1%\n10 SEMESTRES\nIR ANTECIPADO",
+     "resultado": "R$ 164.447,46"
+    }
+   ],
+   "conclusao": {
+    "texto": "ANTECIPAR CUSTOU {vermelho:R$ 2.774,59} · O FI-INFRA PF FICA COM OS {verde:R$ 179 MIL} INTEIROS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r38d_1_fip-ie.png",
+   "semente": 3831,
+   "titulo": "NO FIP-IE, É CREDOR?",
+   "mitos": [
+    "FIP-IE EMPRESTA AO PROJETO",
+    "IGUAL AO FI-INFRA"
+   ],
+   "verdade": "FIP-IE = {verde:SÓCIO} DO PROJETO",
+   "desenho": {
+    "nome": "pessoa",
+    "largura": 150
+   },
+   "apoio": "- {ciano:LEI 11.478/2007:} PARTICIPAÇÕES EM INFRAESTRUTURA\n- {laranja:≥ 90%} EM AÇÕES, DEBÊNTURES OU TÍTULOS DE S.A.\n- {laranja:PROJETOS NOVOS}: ENERGIA, TRANSPORTE, ÁGUA, SANEAMENTO, IRRIGAÇÃO\n- {verde:PARTICIPA DAS DECISÕES} DAS INVESTIDAS\n- PF: RENDIMENTOS {verde:ISENTOS} · VENDA COM {verde:ALÍQUOTA ZERO}\n- {ciano:REGRA:} CREDOR É O FI-INFRA; SÓCIO É O FIP-IE"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r38d_2_mesa.png",
+   "semente": 3832,
+   "titulo": "EMPRESTAR OU SENTAR À MESA",
+   "colunas": [
+    {
+     "titulo": "QUEM EMPRESTA",
+     "desenho": "banco",
+     "rotulos": [
+      "JUROS",
+      "COMBINADOS"
+     ],
+     "texto": "- EMPRÉSTIMO → {laranja:FI-INFRA}\n- PARCELAS COMBINADAS → {laranja:JUROS E CORREÇÃO}\n- RISCO DE NÃO PAGAR → {vermelho:CRÉDITO}\n- MÍNIMO NOS ATIVOS → {laranja:85% (67% NO INÍCIO)}"
+    },
+    {
+     "titulo": "À MESA DE SÓCIOS",
+     "desenho": "pessoa",
+     "rotulos": [
+      "LUCRO",
+      "OU PREJUÍZO"
+     ],
+     "texto": "- PARTICIPAÇÃO → {verde:FIP-IE}\n- GANHA COM O LUCRO → {verde:RESULTADO DO PROJETO}\n- ESCOLHE CONSELHEIROS → {verde:DECISÕES}\n- MÍNIMO NAS EMPRESAS → {verde:90%}"
+    }
+   ],
+   "faixas": [
+    "{ciano:PULVERIZAÇÃO:} NO MÍNIMO 5 COTISTAS · NENHUM COM MAIS DE 40% DAS COTAS OU DOS RENDIMENTOS",
+    "{ciano:PJ:} 15% · {ciano:DESCUMPRIU:} LIQUIDAÇÃO OU TRANSFORMAÇÃO E TABELA REGRESSIVA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} SÓCIO DE EMPRESA NEGOCIA LIVREMENTE · NO FIP-IE, A SAÍDA {laranja:É DIFÍCIL}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r38d_3_comparacao.png",
+   "semente": 3833,
+   "titulo": "FIP-IE × FI-INFRA",
+   "topo": "{ciano:FIP-IE:} {laranja:SÓCIO}, COM PARTICIPAÇÃO NAS DECISÕES · {ciano:FI-INFRA:} {laranja:CREDOR} DOS PROJETOS",
+   "colunas": [
+    {
+     "titulo": "FIP-IE",
+     "texto": "- {verde:≥ 90%} EM EMPRESAS DOS PROJETOS\n- PROJETOS {laranja:NOVOS}\n- CONSELHO, ACORDO OU CONTROLE\n- {laranja:≥ 5 COTISTAS}, CADA UM {vermelho:≤ 40%}\n- RISCO: {vermelho:RESULTADO DO PROJETO}"
+    },
+    {
+     "titulo": "FI-INFRA",
+     "texto": "- {verde:≥ 85%} (67% NO INÍCIO)\n- DEBÊNTURES INCENTIVADAS\n- RENDA FIXA, ABERTO OU FECHADO\n- ATÉ 20% POR EMISSOR\n- RISCO: {vermelho:CRÉDITO DO EMISSOR}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} COTISTA COM 45% {vermelho:DESENQUADRA} O FIP-IE, MESMO COM 5 OU MAIS COTISTAS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r38d_4_credor-socio.png",
+   "semente": 3834,
+   "titulo": "CREDOR OU SÓCIO?",
+   "dados": "- MESMO PROJETO: LINHA DE TRANSMISSÃO DE ENERGIA (HIPOTÉTICO)\n- MESMA CONCESSIONÁRIA\n- PF SEM IR NOS DOIS, SE O FUNDO CUMPRIR AS REGRAS\n- FIP-IE: MÍNIMO DE 5 COTISTAS\n- A ÚNICA DIFERENÇA: O VEÍCULO",
+   "cenarios": [
+    {
+     "titulo": "PELO FI-INFRA",
+     "passos": "COMPRA DEBÊNTURES\nRECEBE JUROS\nRISCO DE CRÉDITO",
+     "resultado": "CREDOR"
+    },
+    {
+     "titulo": "PELO FIP-IE",
+     "passos": "COMPRA AÇÕES\nINDICA CONSELHEIRO\nRISCO DO PROJETO",
+     "resultado": "SÓCIO"
+    }
+   ],
+   "conclusao": {
+    "texto": "A PERGUNTA AO CLIENTE: {laranja:EMPRESTAR} OU {laranja:SER SÓCIO} DA INFRAESTRUTURA? · NOS DOIS, {vermelho:POUCA LIQUIDEZ}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r38e_1_sem-risco.png",
+   "semente": 3841,
+   "titulo": "IMPOSTO ZERO = SEM RISCO?",
+   "mitos": [
+    "INCENTIVO REDUZ O RISCO",
+    "SERVE PARA RESERVA"
+   ],
+   "verdade": "BENEFÍCIO VEM COM {vermelho:MENOS LIQUIDEZ}",
+   "desenho": {
+    "nome": "exclamacao",
+    "largura": 150
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} RESERVA DE EMERGÊNCIA NUM FI-INFRA\n- {vermelho:MENOR LIQUIDEZ} E {vermelho:PRAZO LONGO}\n- RISCOS: EXECUÇÃO · REGULATÓRIO · EMISSOR\n- JUROS SOBEM → {vermelho:COTA CAI}\n- {vermelho:SEM FGC}\n- {ciano:REGRA:} RESERVA DE EMERGÊNCIA PEDE LIQUIDEZ IMEDIATA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r38e_2_placas.png",
+   "semente": 3842,
+   "titulo": "AS PLACAS DA ESTRADA",
+   "colunas": [
+    {
+     "titulo": "AS TRÊS PLACAS",
+     "desenho": "placa",
+     "rotulos": [
+      "OBRA",
+      "REGRA"
+     ],
+     "texto": "- OBRA ATRASADA → {vermelho:EXECUÇÃO}\n- CUSTO ACIMA DO PREVISTO → {vermelho:EXECUÇÃO}\n- REGRA MUDOU → {vermelho:REGULATÓRIO}\n- CONCESSIONÁRIA QUEBROU → {vermelho:EMISSOR}"
+    },
+    {
+     "titulo": "O PEDÁGIO LENTO",
+     "desenho": "rodovia_pedagio",
+     "rotulos": [
+      "ANOS",
+      "DE ESPERA"
+     ],
+     "texto": "- RETORNO EM ANOS → {laranja:PRAZO DE MATURAÇÃO}\n- FUNDO ABERTO → {laranja:PRAZOS DO REGULAMENTO}\n- FUNDO FECHADO → {laranja:VENDA NA BOLSA}\n- SEM COMPRADOR → {vermelho:SEM SAÍDA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:A CVM MANDA DESTACAR:} RISCO DE CONCENTRAÇÃO E RISCO DE ILIQUIDEZ DA CARTEIRA",
+    "{ciano:TÍTULOS LONGOS:} MARCAÇÃO A MERCADO · JUROS EM ALTA DERRUBAM A COTA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} A ESTRADA NÃO MUDA DE PREÇO COM OS JUROS · A COTA {laranja:MUDA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r38e_3_riscos.png",
+   "semente": 3843,
+   "titulo": "LIQUIDEZ E RISCOS",
+   "topo": "{ciano:MENOR LIQUIDEZ} · {ciano:MAIOR PRAZO DE MATURAÇÃO} · {vermelho:SEM FGC}",
+   "colunas": [
+    {
+     "titulo": "AS ORIGENS DO RISCO",
+     "texto": "- {vermelho:EXECUÇÃO}: ATRASO E CUSTO\n- {vermelho:REGULATÓRIO}: REGRA DO SETOR\n- {vermelho:EMISSOR}: SAÚDE FINANCEIRA\n- {vermelho:CONCENTRAÇÃO} EM POUCOS ATIVOS\n- {vermelho:ILIQUIDEZ} DA CARTEIRA"
+    },
+    {
+     "titulo": "O QUE MAIS PESA",
+     "texto": "- {laranja:JUROS}: TÍTULOS LONGOS\n- COTA CAI SEM CALOTE\n- FECHADO: {laranja:DESÁGIO} NA BOLSA\n- REGULATÓRIO {vermelho:≠} CRÉDITO\n- HORIZONTE {verde:COMPATÍVEL}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} HORIZONTE CURTO + FI-INFRA = {vermelho:INADEQUAÇÃO AO PERFIL}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r38e_4_horizonte.png",
+   "semente": 3844,
+   "titulo": "PARA QUEM SERVE?",
+   "dados": "- DOIS CLIENTES PF, MESMO VALOR (HIPOTÉTICO)\n- MESMO FI-INFRA FECHADO, NA BOLSA\n- ALÍQUOTA ZERO PARA OS DOIS\n- RISCOS: EXECUÇÃO, REGULATÓRIO, EMISSOR, JUROS\n- A ÚNICA DIFERENÇA: O HORIZONTE",
+   "cenarios": [
+    {
+     "titulo": "RESERVA DE EMERGÊNCIA",
+     "passos": "PODE PRECISAR JÁ\nSAÍDA DEPENDE DE COMPRADOR\nPREÇO PODE ESTAR EM QUEDA",
+     "resultado": "NÃO SERVE"
+    },
+    {
+     "titulo": "APOSENTADORIA EM 8 ANOS",
+     "passos": "PODE ESPERAR\nENTENDE OS RISCOS\nAPROVEITA O BENEFÍCIO",
+     "resultado": "PODE SERVIR"
+    }
+   ],
+   "conclusao": {
+    "texto": "5 PEGADINHAS (FALSAS): DOIS PRODUTOS · 85% NO 1º DIA · PJ COM ALÍQUOTA ZERO · COME-COTAS NO FI-INFRA · INCENTIVO REDUZ O RISCO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
