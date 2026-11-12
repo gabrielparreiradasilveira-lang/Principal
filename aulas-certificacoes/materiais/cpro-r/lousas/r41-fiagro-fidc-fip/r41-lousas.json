@@ -156,7 +156,7 @@
    "saida": "r41b_3_tributacao.png",
    "semente": 4113,
    "titulo": "FIAGRO: RISCOS, PÚBLICO E IR",
-   "topo": "{ciano:RISCOS DA APOSTILA:} CONCENTRAÇÃO SETORIAL · CLIMA · CADEIAS PRODUTIVAS · {laranja:+ OS DO DEPARTAMENTO}",
+   "topo": "{ciano:RISCOS ESPECÍFICOS:} CONCENTRAÇÃO SETORIAL · CLIMA · CADEIAS PRODUTIVAS · {laranja:+ OS DO DEPARTAMENTO}",
    "colunas": [
     {
      "titulo": "AS 4 CONDIÇÕES",
@@ -336,7 +336,7 @@
     }
    ],
    "faixas": [
-    "{ciano:RISCOS DA APOSTILA:} CRÉDITO · LIQUIDEZ · ESTRUTURAÇÃO → {laranja:ANÁLISE TÉCNICA APROFUNDADA}",
+    "{ciano:RISCOS RELEVANTES:} CRÉDITO · LIQUIDEZ · ESTRUTURAÇÃO → {laranja:ANÁLISE TÉCNICA APROFUNDADA}",
     "{ciano:ENTIDADE DE INVESTIMENTO:} GESTÃO PROFISSIONAL E DISCRICIONÁRIA (LEI 14.754, ART. 23; CMN 5.111)"
    ],
    "destaque": {
@@ -544,7 +544,7 @@
    "saida": "r41f_3_tributacao.png",
    "semente": 4153,
    "titulo": "FIP: OS TRÊS TRATAMENTOS",
-   "topo": "{ciano:APOSTILA:} LONGO PRAZO · BAIXA LIQUIDEZ · RISCO ELEVADO · {verde:RETORNO POTENCIAL SIGNIFICATIVO}",
+   "topo": "{ciano:PERFIL DO FIP:} LONGO PRAZO · BAIXA LIQUIDEZ · RISCO ELEVADO · {verde:RETORNO POTENCIAL SIGNIFICATIVO}",
    "colunas": [
     {
      "titulo": "ENTIDADE × NÃO ENTIDADE",
