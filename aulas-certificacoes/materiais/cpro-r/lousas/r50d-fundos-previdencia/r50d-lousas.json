@@ -1,472 +1,518 @@
 {
-  "padrao": {
-    "fundo": "preto"
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "saida": "r50d-1_1_campeao-do-ano.png",
+   "semente": 5101,
+   "molde": "mito_verdade",
+   "titulo": "O CAMPEÃO DO ANO É O MELHOR?",
+   "mitos": [
+    "O FUNDO QUE MAIS RENDEU É O MELHOR",
+    "O RANKING ESCOLHE O MOTOR"
+   ],
+   "verdade": "PRAZO, PERFIL E {laranja:FASE DA VIDA} ESCOLHEM",
+   "desenho": "grafico_baixa",
+   "apoio": "- {ciano:IBOVESPA 2019:} {verde:+31,58%}\n- {ciano:IBOVESPA 2021:} {vermelho:−11,93%}, FECHANDO EM 104.822 PONTOS\n- O ÍNDICE QUE LIDEROU UM ANO PERDEU DOIS ANOS DEPOIS\n- PERTO DA APOSENTADORIA, PODE {vermelho:NÃO HAVER TEMPO} PARA RECUPERAR UM ANO RUIM\n- {ciano:REGRA:} O FUNDO SEGUE O PERFIL {laranja:E A FASE DE VIDA}"
   },
-  "slides": [
+  {
+   "saida": "r50d-1_2_motor-para-estrada.png",
+   "semente": 5102,
+   "molde": "comparacao",
+   "titulo": "UM MOTOR PARA CADA ESTRADA",
+   "colunas": [
     {
-      "saida": "r50d-1_1_campeao-do-ano.png",
-      "semente": 5101,
-      "molde": "mito_verdade",
-      "titulo": "O CAMPEÃO DO ANO É O MELHOR?",
-      "mitos": [
-        "O FUNDO QUE MAIS RENDEU É O MELHOR",
-        "O RANKING ESCOLHE O MOTOR"
-      ],
-      "verdade": "PRAZO, PERFIL E {laranja:FASE DA VIDA} ESCOLHEM",
-      "desenho": "grafico_baixa",
-      "apoio": "- {ciano:IBOVESPA 2019:} {verde:+31,58%}\n- {ciano:IBOVESPA 2021:} {vermelho:−11,93%}, FECHANDO EM 104.822 PONTOS\n- O ÍNDICE QUE LIDEROU UM ANO PERDEU DOIS ANOS DEPOIS\n- PERTO DA APOSENTADORIA, PODE {vermelho:NÃO HAVER TEMPO} PARA RECUPERAR UM ANO RUIM\n- {ciano:REGRA:} O FUNDO SEGUE O PERFIL {laranja:E A FASE DE VIDA}"
+     "titulo": "VIAGEM CURTA",
+     "desenho": "carro",
+     "rotulos": [
+      "TERRA",
+      "SEM SUSTO"
+     ],
+     "texto": "- OBJETIVO PERTO, APOSENTADORIA CHEGANDO\n- MOTOR: {verde:RENDA FIXA}\n- PÓS-FIXADO, IPCA+, CRÉDITO PRIVADO\n- PRIORIDADE: PRESERVAR O CAPITAL"
     },
     {
-      "saida": "r50d-1_2_motor-para-estrada.png",
-      "semente": 5102,
-      "molde": "comparacao",
-      "titulo": "UM MOTOR PARA CADA ESTRADA",
-      "colunas": [
-        {
-          "titulo": "VIAGEM CURTA",
-          "desenho": "carro",
-          "rotulos": [
-            "TERRA",
-            "SEM SUSTO"
-          ],
-          "texto": "- OBJETIVO PERTO, APOSENTADORIA CHEGANDO\n- MOTOR: {verde:RENDA FIXA}\n- PÓS-FIXADO, IPCA+, CRÉDITO PRIVADO\n- PRIORIDADE: PRESERVAR O CAPITAL"
-        },
-        {
-          "titulo": "RODOVIA LONGA",
-          "desenho": "rodovia_pedagio",
-          "rotulos": [
-            "ASFALTO",
-            "MAIS VELOCIDADE"
-          ],
-          "texto": "- OBJETIVO DISTANTE, TEMPO PARA RECUPERAR\n- MOTOR: {laranja:BALANCEADO, MULTIMERCADO} OU {vermelho:AÇÕES}\n- MACRO, LONG AND SHORT, QUANTITATIVO\n- FUNDAMENTALISTA, SETORIAL, DIVIDENDOS"
-        }
-      ],
-      "faixas": [
-        "{ciano:QUEM DIRIGE TAMBÉM CONTA:} O MESMO PRAZO, COM PERFIL CONSERVADOR, PEDE UM MOTOR MAIS CALMO (R50C)"
-      ],
-      "destaque": {
-        "texto": "{vermelho:ONDE QUEBRA:} O RISCO DO FUNDO TEM {laranja:TETO NA NORMA} · PÚBLICO GERAL × QUALIFICADO MUDAM O TETO",
-        "cor": "branco",
-        "moldura": "vermelho"
-      }
-    },
-    {
-      "saida": "r50d-1_3_macroclasses.png",
-      "semente": 5103,
-      "molde": "colunas",
-      "titulo": "MACROCLASSES E OS TETOS DA NORMA",
-      "topo": "{ciano:FUNÇÃO DE CADA FAMÍLIA:} RENDA FIXA = PRESERVAR · BALANCEADO/MULTIMERCADO = DIVERSIFICAR COM RISCO CONTROLADO · AÇÕES = RETORNO DE LONGO PRAZO",
-      "colunas": [
-        {
-          "titulo": "QUANDO USAR",
-          "texto": "- {verde:RENDA FIXA}: PERTO DA APOSENTADORIA OU OBJETIVO DE CURTO E MÉDIO PRAZO\n- {laranja:BALANCEADO OU MULTIMERCADO}: PERFIL MODERADO, MÉDIO E LONGO PRAZO\n- {vermelho:AÇÕES}: LONGO PRAZO, MAIS VOLATILIDADE"
-        },
-        {
-          "titulo": "CMN 4.993, ART. 13",
-          "texto": "- RENDA VARIÁVEL: {laranja:70%} × {laranja:100%}\n- IMÓVEIS: 20% × 40%\n- VARIAÇÃO CAMBIAL: 20% × 40%\n- \"OUTROS\": 20% × 40%\n- (PÚBLICO GERAL × QUALIFICADO)"
-        }
-      ],
-      "destaque": {
-        "texto": "{ciano:CASO-LIMITE:} PREVIDÊNCIA AÇÕES (ANBIMA) = {laranja:MÍNIMO 67%} · NO PÚBLICO GERAL, TETO DE {laranja:70%} → JANELA DE {vermelho:3 PONTOS}",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r50d-1_4_comum-qualificado.png",
-      "semente": 5104,
-      "molde": "exercicio",
-      "titulo": "MESMO NOME, DOIS TETOS",
-      "dados": "- R$ 500.000 NUM FUNDO DE PREVIDÊNCIA DE AÇÕES (HIPOTÉTICO)\n- AS AÇÕES CAEM {vermelho:20%}; A RENDA FIXA FICA PARADA\n- A ÚNICA DIFERENÇA: O TIPO DE PLANO\n- QUALIFICADO: EX.: MAIS DE R$ 1 MILHÃO APLICADO + TERMO (CVM 30)",
-      "cenarios": [
-        {
-          "titulo": "PÚBLICO GERAL (70%)",
-          "passos": "RENDA VARIÁVEL: 70%\n500.000 × 70% = 350.000\n350.000 × 20% = 70.000\n70.000 ÷ 500.000",
-          "resultado": "−14%"
-        },
-        {
-          "titulo": "QUALIFICADO (100%)",
-          "passos": "RENDA VARIÁVEL: 100%\n500.000 × 100% = 500.000\n500.000 × 20% = 100.000\n100.000 ÷ 500.000",
-          "resultado": "−20%"
-        }
-      ],
-      "conclusao": {
-        "texto": "{laranja:6 PONTOS} A MAIS NA QUEDA · NA ALTA, A DIFERENÇA {verde:FAVORECE O QUALIFICADO} · MAIS TETO, MAIS RISCO",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r50d-2_1_anbima-2019.png",
-      "semente": 5105,
-      "molde": "mito_verdade",
-      "titulo": "BALANCEADO É TUDO IGUAL?",
-      "mitos": [
-        "BALANCEADO É MEIO A MEIO",
-        "O NOME NÃO DIZ O RISCO"
-      ],
-      "verdade": "O NÚMERO DO NOME = {laranja:FAIXA DE RENDA VARIÁVEL}",
-      "desenho": "balanca",
-      "apoio": "- {ciano:ANBIMA, 01/11/2019:} DE {laranja:7} PARA {laranja:23} TIPOS DE FUNDOS DE PREVIDÊNCIA\n- O ANTIGO \"PREVIDÊNCIA BALANCEADOS\" FOI {vermelho:EXTINTO}\n- HOJE: ATÉ 15 · 15-30 · 30-49 · ACIMA DE 49 · DATA ALVO\n- USADA TAMBÉM NO PAINEL DE DESEMPENHO DE FUNDOS DA SUSEP"
-    },
-    {
-      "saida": "r50d-2_2_catalogo.png",
-      "semente": 5106,
-      "molde": "comparacao",
-      "titulo": "O CATÁLOGO DE MOTORES",
-      "colunas": [
-        {
-          "titulo": "FICHA DA RENDA FIXA",
-          "desenho": "prancheta",
-          "rotulos": [
-            "DURAÇÃO",
-            "CRÉDITO"
-          ],
-          "texto": "- QUANTO TEMPO PRESO AOS JUROS?\n- QUANTO RISCO DE CALOTE ACEITA?\n- DURAÇÃO × CRÉDITO = {laranja:12 COMBINAÇÕES}\n- + INDEXADOS + DATA ALVO = {laranja:14}"
-        },
-        {
-          "titulo": "FICHA DO BALANCEADO",
-          "desenho": "balanca",
-          "rotulos": [
-            "RENDA FIXA",
-            "RENDA VARIÁVEL"
-          ],
-          "texto": "- O NOME TRAZ A {laranja:FAIXA} DE RENDA VARIÁVEL\n- 4 FAIXAS + DATA ALVO = {laranja:5}\n- DATA ALVO: MISTURA PENSADA PARA UMA DATA\n- EX.: APOSENTADORIA EM 2040 OU 2050"
-        }
-      ],
-      "faixas": [
-        "{ciano:AS 4 FAMÍLIAS:} RENDA FIXA (14) · BALANCEADOS (5) · MULTIMERCADOS (2) · AÇÕES (2) = {laranja:23 TIPOS}"
-      ],
-      "destaque": {
-        "texto": "{vermelho:ONDE QUEBRA:} O MOTOR DO CATÁLOGO NÃO MUDA · A CARTEIRA DO FUNDO {laranja:OSCILA TODO DIA} E PEDE REBALANCEAMENTO",
-        "cor": "branco",
-        "moldura": "vermelho"
-      }
-    },
-    {
-      "saida": "r50d-2_3_23-tipos.png",
-      "semente": 5107,
-      "molde": "colunas",
-      "titulo": "ANBIMA: AS REGRAS QUE CAEM",
-      "topo": "{ciano:DURAÇÃO:} BAIXA (MENOS DE 63 DIAS) · MÉDIA (ATÉ A DO IRF-M) · ALTA (A PARTIR DA DO IMA-GERAL) · LIVRE",
-      "colunas": [
-        {
-          "titulo": "CRÉDITO NA RENDA FIXA",
-          "texto": "- {verde:SOBERANO}: SÓ TÍTULO PÚBLICO FEDERAL\n- {laranja:GRAU DE INVESTIMENTO}: 80% OU MAIS EM PÚBLICO OU BAIXO RISCO DE CRÉDITO\n- {vermelho:CRÉDITO LIVRE}: ACIMA DE 20% EM MÉDIO OU ALTO RISCO, SE O GESTOR QUISER"
-        },
-        {
-          "titulo": "AS OUTRAS FAMÍLIAS",
-          "texto": "- BALANCEADOS: ATÉ 15 · 15-30 · 30-49 · ACIMA DE 49 · DATA ALVO\n- MULTIMERCADOS: JUROS E MOEDAS · LIVRE\n- AÇÕES: INDEXADOS · ATIVO · {laranja:MÍNIMO 67%} EM RENDA VARIÁVEL"
-        }
-      ],
-      "destaque": {
-        "texto": "{ciano:HOJE:} BALANCEADOS DE {laranja:30-49} E {laranja:ACIMA DE 49} (ANBIMA) · \"CLASSIFICAÇÃO SUSEP\" SOBERANO, RF, COMPOSTO: {vermelho:FORA DAS NORMAS ATUAIS} · LIMITES NA {laranja:CMN 4.993}",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r50d-2_4_faixa-balanceado.png",
-      "semente": 5108,
-      "molde": "exercicio",
-      "titulo": "O BALANCEADO 15-30 E A BOLSA",
-      "dados": "- FUNDO BALANCEADOS 15-30 COM R$ 100 MILHÕES (HIPOTÉTICO)\n- 28 EM RENDA VARIÁVEL · 72 EM RENDA FIXA, PARADA\n- A ÚNICA DIFERENÇA: A DIREÇÃO DA BOLSA\n- REGRA DO NOME: RENDA VARIÁVEL ENTRE {laranja:15% E 30%}",
-      "cenarios": [
-        {
-          "titulo": "BOLSA SOBE 30%",
-          "passos": "RENDA VARIÁVEL × 1,30\n28 × 1,30 = 36,4\n36,4 + 72 = 108,4\n36,4 ÷ 108,4",
-          "resultado": "33,58%: FORA"
-        },
-        {
-          "titulo": "BOLSA CAI 30%",
-          "passos": "RENDA VARIÁVEL × 0,70\n28 × 0,70 = 19,6\n19,6 + 72 = 91,6\n19,6 ÷ 91,6",
-          "resultado": "21,40%: DENTRO"
-        }
-      ],
-      "conclusao": {
-        "texto": "NA ALTA, O FUNDO {vermelho:SAI DA FAIXA} SEM COMPRAR NADA · O GESTOR {laranja:REBALANCEIA} PARA MANTER A CLASSIFICAÇÃO",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r50d-3_1_cmn-4993.png",
-      "semente": 5109,
-      "molde": "mito_verdade",
-      "titulo": "O GESTOR APLICA ONDE QUISER?",
-      "mitos": [
-        "O GESTOR TEM CARTA BRANCA",
-        "O REGULAMENTO DECIDE SOZINHO"
-      ],
-      "verdade": "A NORMA {laranja:LIMITA A CARGA}",
-      "desenho": "caminhao",
-      "apoio": "- {ciano:RES. CMN 4.993, DE 24/03/2022:} APLICAÇÃO DOS RECURSOS DE SEGURADORAS E EAPC\n- {ciano:HIPOTÉTICO:} FUNDO DE {laranja:R$ 50 MILHÕES}\n- R$ 10 MILHÕES EM DEBÊNTURES DE UMA COMPANHIA: {vermelho:PASSA DO TETO}\n- TETO POR COMPANHIA ABERTA: {laranja:15%} = R$ 7,5 MILHÕES"
-    },
-    {
-      "saida": "r50d-3_2_balanca.png",
-      "semente": 5110,
-      "molde": "comparacao",
-      "titulo": "A BALANÇA NA ENTRADA DA RODOVIA",
-      "colunas": [
-        {
-          "titulo": "OS EIXOS = CLASSES",
-          "desenho": "caminhao",
-          "rotulos": [
-            "CLASSE",
-            "TETO"
-          ],
-          "texto": "- RENDA VARIÁVEL: {laranja:70%} OU {laranja:100%}\n- IMÓVEIS, CÂMBIO, \"OUTROS\": 20% OU 40%\n- RENDA FIXA: ATÉ 100%\n- (PÚBLICO GERAL OU QUALIFICADO)"
-        },
-        {
-          "titulo": "FORNECEDORES",
-          "desenho": "balanca_peso",
-          "rotulos": [
-            "EMISSOR",
-            "RISCO"
-          ],
-          "texto": "- TESOURO: CARGA {verde:MÁXIMA}\n- BANCO: MÉDIA\n- EMPRESA: MENOR\n- DEMAIS EMISSORES: {vermelho:A MENOR}"
-        }
-      ],
-      "faixas": [
-        "{ciano:SEGURANÇA DE CARGA:} FUNDO DE PREVIDÊNCIA {vermelho:NÃO ALAVANCA} · O COTISTA NUNCA COBRE PREJUÍZO DO FUNDO"
-      ],
-      "destaque": {
-        "texto": "{vermelho:ONDE QUEBRA:} NA BALANÇA, O EXCESSO PARA NA HORA · NO FUNDO, O EXCESSO CAUSADO PELO PREÇO TEM {laranja:1 ANO}",
-        "cor": "branco",
-        "moldura": "vermelho"
-      }
-    },
-    {
-      "saida": "r50d-3_3_limites.png",
-      "semente": 5111,
-      "molde": "colunas",
-      "titulo": "OS LIMITES DA CMN 4.993",
-      "topo": "{ciano:3 CAMADAS:} POR CLASSE (ART. 13) · POR EMISSOR (ART. 14) · POR CONCENTRAÇÃO (ARTS. 15 E 16)",
-      "colunas": [
-        {
-          "titulo": "POR EMISSOR (ART. 14)",
-          "texto": "- UNIÃO E OUTROS FIE: {verde:100%}\n- FUNDOS E ETFS: 49%\n- INSTITUIÇÃO FINANCEIRA: {laranja:25%}\n- COMPANHIA ABERTA: {laranja:15%}\n- FIDC, FII, FIP, SECURITIZADORA: 10%\n- DEMAIS: {vermelho:5%}"
-        },
-        {
-          "titulo": "OUTRAS REGRAS",
-          "texto": "- ATÉ 20% DO CAPITAL DE UMA COMPANHIA\n- ATÉ 25% DE UMA MESMA EMISSÃO\n- DERIVATIVOS: PERDA DE NO MÁXIMO O PATRIMÔNIO, SEM OPÇÃO A DESCOBERTO\n- RENDA FIXA DOS FIE DA SEGURADORA: MÍNIMO DE {laranja:1.095 DIAS} DE PRAZO MÉDIO (ART. 26)"
-        }
-      ],
-      "destaque": {
-        "texto": "{ciano:EXCEÇÃO:} FUNDO DE AÇÕES {laranja:INDEXADO} PASSA DOS TETOS DE BANCO E COMPANHIA, RESPEITANDO O PESO NO ÍNDICE · {ciano:PASSIVO (ART. 30):} 1 ANO",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r50d-3_4_banco-companhia.png",
-      "semente": 5112,
-      "molde": "exercicio",
-      "titulo": "R$ 10 MILHÕES NUM SÓ EMISSOR",
-      "dados": "- FUNDO DE PREVIDÊNCIA DE R$ 50 MILHÕES (HIPOTÉTICO)\n- COMPRA PRETENDIDA: R$ 10 MILHÕES NUM ÚNICO EMISSOR\n- A ÚNICA DIFERENÇA: O TIPO DE EMISSOR\n- TETOS (ART. 14): BANCO {laranja:25%} · COMPANHIA ABERTA {laranja:15%}",
-      "cenarios": [
-        {
-          "titulo": "CDB DE UM BANCO",
-          "passos": "TETO: 25%\n50 MI × 25% = 12,5 MI\nCOMPRA: 10 MI\n12,5 − 10",
-          "resultado": "FOLGA DE 2,5 MI"
-        },
-        {
-          "titulo": "DEBÊNTURE DE COMPANHIA",
-          "passos": "TETO: 15%\n50 MI × 15% = 7,5 MI\nCOMPRA: 10 MI\n7,5 − 10",
-          "resultado": "EXCESSO DE 2,5 MI"
-        }
-      ],
-      "conclusao": {
-        "texto": "NA COMPANHIA, SÓ CABEM {laranja:R$ 7,5 MILHÕES} · OS {vermelho:R$ 2,5 MILHÕES} RESTANTES VÃO PARA OUTRO EMISSOR",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r50d-4_1_um-plano-so.png",
-      "semente": 5113,
-      "molde": "mito_verdade",
-      "titulo": "UM PLANO RESOLVE TUDO?",
-      "mitos": [
-        "UM ÚNICO PLANO BASTA PARA TODOS OS OBJETIVOS",
-        "TUDO NO PGBL É SEMPRE MELHOR"
-      ],
-      "verdade": "UM PLANO {laranja:POR OBJETIVO}",
-      "desenho": "carro",
-      "apoio": "- {ciano:HIPOTÉTICO:} RENDA BRUTA TRIBUTÁVEL DE R$ 180.000 · APORTE DE R$ 36.000\n- DEDUTÍVEL NO PGBL: {laranja:12%} = R$ 21.600\n- OS {vermelho:R$ 14.400} QUE PASSAM NÃO REDUZEM O IR DO ANO\n- E, NO RESGATE, O PGBL COBRA IR SOBRE {vermelho:TUDO}\n- {ciano:A SAÍDA:} R$ 21.600 NO PGBL E R$ 14.400 NO {verde:VGBL}"
-    },
-    {
-      "saida": "r50d-4_2_carro-por-destino.png",
-      "semente": 5114,
-      "molde": "comparacao",
-      "titulo": "UM CARRO PARA CADA DESTINO",
-      "colunas": [
-        {
-          "titulo": "A GARAGEM",
-          "desenho": "carro",
-          "rotulos": [
-            "UM PLANO",
-            "UM OBJETIVO"
-          ],
-          "texto": "- APOSENTADORIA: LONGO PRAZO, REGRESSIVO CHEGA A {verde:10%}\n- EDUCAÇÃO DOS FILHOS: PRAZO DEFINIDO\n- SUCESSÃO: {laranja:BENEFICIÁRIOS} CERTOS\n- CADA PLANO COM O {laranja:SEU REGIME}"
-        },
-        {
-          "titulo": "CÂMBIO AUTOMÁTICO",
-          "desenho": "motor",
-          "rotulos": [
-            "RISCO",
-            "DIMINUI"
-          ],
-          "texto": "- CICLO DE VIDA: MENOS AÇÕES COM O TEMPO\n- TRAJETÓRIA FIXADA {laranja:NA CONTRATAÇÃO}\n- DATA ALVO (ANBIMA): A MESMA IDEIA\n- TROCA DE FUNDO PELO SALDO, {verde:SEM CUSTO}"
-        }
-      ],
-      "faixas": [
-        "{ciano:SÓ ENTRE IGUAIS:} PGBL → PLANO DE PREVIDÊNCIA · VGBL → SEGURO DE PESSOAS COM SOBREVIVÊNCIA"
-      ],
-      "destaque": {
-        "texto": "{vermelho:ONDE QUEBRA:} CARRO SE TROCA POR QUALQUER CARRO · {laranja:PGBL NÃO VIRA VGBL}, NEM O CONTRÁRIO",
-        "cor": "branco",
-        "moldura": "vermelho"
-      }
-    },
-    {
-      "saida": "r50d-4_3_quatro-camadas.png",
-      "semente": 5115,
-      "molde": "colunas",
-      "titulo": "AS 4 CAMADAS DA DIVERSIFICAÇÃO",
-      "topo": "{ciano:DIVERSIFICAR:} COMPOR {laranja:DIVERSOS PLANOS} COM OS OBJETIVOS DO CLIENTE · REVISAR A {laranja:DISTRIBUIÇÃO ENTRE PGBL E VGBL}",
-      "colunas": [
-        {
-          "titulo": "ENTRE PLANOS",
-          "texto": "1. UM PLANO POR OBJETIVO\n2. REGIME DE IR {laranja:POR PLANO}\n3. PGBL ATÉ {laranja:12%} DA RENDA BRUTA TRIBUTÁVEL; O EXCEDENTE NO VGBL\n- PGBL EXIGE DECLARAÇÃO COMPLETA E PREVIDÊNCIA OFICIAL"
-        },
-        {
-          "titulo": "DENTRO DO PLANO",
-          "texto": "- MAIS DE UM FUNDO, DE FAMÍLIAS ANBIMA DIFERENTES\n- MULTIFUNDOS: MÍNIMO DE {laranja:3 FUNDOS} ABERTOS (CIRC. 698, ART. 7º)\n- FUNDO FECHADO A APORTES → SIMILAR, TAXA {verde:IGUAL OU MENOR}\n- VIDA PLANEJADA (RES. 463, ART. 6º): RISCO DECRESCENTE"
-        }
-      ],
-      "destaque": {
-        "texto": "{ciano:PORTABILIDADE (CIRC. 698, ART. 34):} OS RECURSOS SEGUEM {laranja:DE SEGURADORA PARA SEGURADORA} · TROCA DE FUNDO NO PLANO = {vermelho:REALOCAÇÃO}, NÃO RESGATE",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r50d-4_4_onde-ficam-14400.png",
-      "semente": 5116,
-      "molde": "exercicio",
-      "titulo": "ONDE FICAM OS R$ 14.400?",
-      "dados": "- RENDA BRUTA TRIBUTÁVEL: R$ 180.000 · APORTE: R$ 36.000 (HIPOTÉTICO)\n- DECLARAÇÃO COMPLETA · FAIXA DE 27,5%\n- TETO DO PGBL: 12% = {laranja:R$ 21.600} → IR ADIADO DE R$ 5.940 NOS DOIS\n- A ÚNICA DIFERENÇA: ONDE FICA O EXCEDENTE",
-      "cenarios": [
-        {
-          "titulo": "TUDO NO PGBL",
-          "passos": "36.000 − 21.600 = 14.400\nSEM DEDUÇÃO NO ANO\nRESGATE: IR SOBRE O TOTAL\n14.400 × 10% (MENOR ALÍQUOTA)",
-          "resultado": "+R$ 1.440 DE IR"
-        },
-        {
-          "titulo": "PGBL + VGBL",
-          "passos": "21.600 NO PGBL\n14.400 NO VGBL\nVGBL: IR SÓ NO RENDIMENTO\nPRINCIPAL NÃO É TRIBUTADO",
-          "resultado": "R$ 0 NOS 14.400"
-        }
-      ],
-      "conclusao": {
-        "texto": "O EXCEDENTE NO PGBL {vermelho:NÃO ADIA NADA} E PAGA IR NO PRINCIPAL · {verde:VGBL PARA O QUE PASSA DE 12%}",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r50d-5_1_contratou-esqueceu.png",
-      "semente": 5117,
-      "molde": "mito_verdade",
-      "titulo": "CONTRATOU, ESQUECEU?",
-      "mitos": [
-        "CONTRATAR E ESQUECER",
-        "LONGO PRAZO NÃO SE REVISA"
-      ],
-      "verdade": "PREVIDÊNCIA {laranja:SE REVISA}",
-      "desenho": "cofrinho",
-      "apoio": "- {ciano:HIPOTÉTICO:} 40 ANOS · SALDO DE R$ 300.000 · META DE {laranja:R$ 1,5 MILHÃO} AOS 60\n- JURO REAL DE 4% AO ANO, SEM NOVOS APORTES\n- RESULTADO AOS 60: {vermelho:R$ 657.336,98}\n- {ciano:LEI 14.803/2024:} REGIME DE IR ESCOLHIDO ATÉ O 1º RESGATE OU BENEFÍCIO\n- FALTAM {vermelho:R$ 842.663}, E NINGUÉM FEZ A CONTA"
-    },
-    {
-      "saida": "r50d-5_2_revisao-programada.png",
-      "semente": 5118,
-      "molde": "comparacao",
-      "titulo": "A REVISÃO PROGRAMADA",
-      "colunas": [
-        {
-          "titulo": "O CALENDÁRIO",
-          "desenho": "prancheta",
-          "rotulos": [
-            "DATA",
-            "LISTA"
-          ],
-          "texto": "- REVISÃO COM DATA MARCADA\n- LISTA DE 6 ITENS\n- CONFERE ANTES DE QUEBRAR\n- CONFIRMAR O PLANO {verde:TAMBÉM É RESULTADO}"
-        },
-        {
-          "titulo": "OS GATILHOS",
-          "desenho": "alarme",
-          "rotulos": [
-            "FORA DO",
-            "CALENDÁRIO"
-          ],
-          "texto": "- CASAMENTO OU DIVÓRCIO\n- NASCIMENTO DE FILHO\n- MUDANÇA DE RENDA OU DE PERFIL\n- {laranja:MUDANÇA DE LEI} TRIBUTÁRIA"
-        }
-      ],
-      "faixas": [
-        "{ciano:INFORMAÇÃO:} A SEGURADORA DISPONIBILIZA OS DADOS DO PLANO {laranja:TODOS OS DIAS} (CIRC. 698, ART. 78)"
-      ],
-      "destaque": {
-        "texto": "{vermelho:ONDE QUEBRA:} NA OFICINA, A PEÇA ERRADA SE TROCA DE NOVO · O REGIME DE IR, UMA VEZ ESCOLHIDO, {vermelho:NÃO VOLTA}",
-        "cor": "branco",
-        "moldura": "vermelho"
-      }
-    },
-    {
-      "saida": "r50d-5_3_checklist.png",
-      "semente": 5119,
-      "molde": "colunas",
-      "titulo": "O CHECKLIST DA REVISÃO",
-      "topo": "{ciano:POR QUE REVISAR:} PERFIL, IDADE, RENDA OU OBJETIVOS MUDARAM · REGRAS TRIBUTÁRIAS · DESEMPENHO DOS FUNDOS × METAS",
-      "colunas": [
-        {
-          "titulo": "OS 6 ITENS",
-          "texto": "1. OBJETIVOS\n2. VALORES DE ACUMULAÇÃO\n3. REGIME DE TRIBUTAÇÃO\n4. BENEFICIÁRIOS\n5. ESTRATÉGIA DOS FUNDOS\n6. PGBL × VGBL"
-        },
-        {
-          "titulo": "O QUE OLHAR EM CADA UM",
-          "texto": "- REGIME: {laranja:IRRETRATÁVEL} DEPOIS DE ESCOLHIDO (LEI 14.803)\n- BENEFICIÁRIOS: INDICAÇÃO {verde:LIVRE} (RES. CNSP 463, ART. 5º)\n- FUNDOS: RISCO, TAXA, DESEMPENHO E PERFIL (R50C)\n- PGBL: A DECLARAÇÃO {laranja:CONTINUA COMPLETA}?"
-        }
-      ],
-      "destaque": {
-        "texto": "{vermelho:NÃO CONFUNDA:} O SUITABILITY É {laranja:UM DOS ITENS}; A REVISÃO OLHA O PLANO INTEIRO",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
-    },
-    {
-      "saida": "r50d-5_4_conta-da-revisao.png",
-      "semente": 5120,
-      "molde": "exercicio",
-      "titulo": "A CONTA QUE A REVISÃO FAZ",
-      "dados": "- 40 ANOS · SALDO DE R$ 300.000 · META DE R$ 1.500.000 AOS 60 (HIPOTÉTICO)\n- JURO REAL DE 4% AO ANO = CERCA DE 0,33% AO MÊS\n- 240 MESES · APORTE NO FIM DO MÊS · SEM TAXAS E SEM IR\n- A ÚNICA DIFERENÇA: O APORTE MENSAL",
-      "cenarios": [
-        {
-          "titulo": "SEM APORTES",
-          "passos": "SALDO: 300.000\nAPORTE: ZERO\n240 MESES A 0,327%\nVALOR FINAL = ?",
-          "resultado": "R$ 657.336,98"
-        },
-        {
-          "titulo": "COM APORTE",
-          "passos": "SALDO: 300.000\nMETA: 1.500.000\n240 MESES A 0,327%\nAPORTE MENSAL = ?",
-          "resultado": "R$ 2.316,02/MÊS"
-        }
-      ],
-      "conclusao": {
-        "texto": "SEM REVISÃO, {vermelho:FALTAM R$ 842.663} · COM A CONTA, O CLIENTE SABE {verde:QUANTO APORTAR}",
-        "cor": "branco",
-        "moldura": "amarelo"
-      }
+     "titulo": "RODOVIA LONGA",
+     "desenho": "rodovia_pedagio",
+     "rotulos": [
+      "ASFALTO",
+      "MAIS VELOCIDADE"
+     ],
+     "texto": "- OBJETIVO DISTANTE, TEMPO PARA RECUPERAR\n- MOTOR: {laranja:BALANCEADO, MULTIMERCADO} OU {vermelho:AÇÕES}\n- MACRO, LONG AND SHORT, QUANTITATIVO\n- FUNDAMENTALISTA, SETORIAL, DIVIDENDOS"
     }
-  ]
+   ],
+   "faixas": [
+    "{ciano:QUEM DIRIGE TAMBÉM CONTA:} O MESMO PRAZO, COM PERFIL CONSERVADOR, PEDE UM MOTOR MAIS CALMO (R50C)"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O RISCO DO FUNDO TEM {laranja:TETO NA NORMA} · PÚBLICO GERAL × QUALIFICADO MUDAM O TETO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50d-1_3_macroclasses.png",
+   "semente": 5103,
+   "molde": "colunas",
+   "titulo": "MACROCLASSES E OS TETOS DA NORMA",
+   "topo": "{ciano:FUNÇÃO DE CADA FAMÍLIA:} RENDA FIXA = PRESERVAR · BALANCEADO/MULTIMERCADO = DIVERSIFICAR COM RISCO CONTROLADO · AÇÕES = RETORNO DE LONGO PRAZO",
+   "colunas": [
+    {
+     "titulo": "QUANDO USAR",
+     "texto": "- {verde:RENDA FIXA}: PERTO DA APOSENTADORIA OU OBJETIVO DE CURTO E MÉDIO PRAZO\n- {laranja:BALANCEADO OU MULTIMERCADO}: PERFIL MODERADO, MÉDIO E LONGO PRAZO\n- {vermelho:AÇÕES}: LONGO PRAZO, MAIS VOLATILIDADE"
+    },
+    {
+     "titulo": "CMN 4.993, ART. 13",
+     "texto": "- RENDA FIXA: 100% × 100%\n- RENDA VARIÁVEL: {laranja:70%} × {laranja:100%}\n- IMÓVEIS: 20% × 40%\n- VARIAÇÃO CAMBIAL: 20% × 40%\n- \"OUTROS\": 20% × 40%\n- (PÚBLICO GERAL × QUALIFICADO)"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:CASO-LIMITE:} PREVIDÊNCIA AÇÕES (ANBIMA) = {laranja:MÍNIMO 67%} · NO PÚBLICO GERAL, TETO DE {laranja:70%} → JANELA DE {vermelho:3 PONTOS}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50d-1_4_comum-qualificado.png",
+   "semente": 5104,
+   "molde": "exercicio",
+   "titulo": "MESMO NOME, DOIS TETOS",
+   "dados": "- R$ 500.000 NUM FUNDO DE PREVIDÊNCIA DE AÇÕES (HIPOTÉTICO)\n- AS AÇÕES CAEM {vermelho:20%}; A RENDA FIXA FICA PARADA\n- A ÚNICA DIFERENÇA: O TIPO DE PLANO\n- QUALIFICADO: EX.: MAIS DE R$ 1 MILHÃO APLICADO + TERMO (CVM 30)",
+   "cenarios": [
+    {
+     "titulo": "PÚBLICO GERAL (70%)",
+     "passos": "RENDA VARIÁVEL: 70%\n500.000 × 70% = 350.000\n350.000 × 20% = 70.000\n70.000 ÷ 500.000",
+     "resultado": "−14%"
+    },
+    {
+     "titulo": "QUALIFICADO (100%)",
+     "passos": "RENDA VARIÁVEL: 100%\n500.000 × 100% = 500.000\n500.000 × 20% = 100.000\n100.000 ÷ 500.000",
+     "resultado": "−20%"
+    }
+   ],
+   "conclusao": {
+    "texto": "{laranja:6 PONTOS} A MAIS NA QUEDA · NA ALTA, A DIFERENÇA {verde:FAVORECE O QUALIFICADO} · MAIS TETO, MAIS RISCO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50d-2_1_anbima-2019.png",
+   "semente": 5105,
+   "molde": "mito_verdade",
+   "titulo": "BALANCEADO É TUDO IGUAL?",
+   "mitos": [
+    "BALANCEADO É MEIO A MEIO",
+    "O NOME NÃO DIZ O RISCO"
+   ],
+   "verdade": "O NÚMERO DO NOME = {laranja:FAIXA DE RENDA VARIÁVEL}",
+   "desenho": "balanca",
+   "apoio": "- {ciano:ANBIMA, 01/11/2019:} DE {laranja:7} PARA {laranja:23} TIPOS DE FUNDOS DE PREVIDÊNCIA\n- O ANTIGO \"PREVIDÊNCIA BALANCEADOS\" FOI {vermelho:EXTINTO}\n- HOJE: ATÉ 15 · 15-30 · 30-49 · ACIMA DE 49 · DATA ALVO\n- USADA TAMBÉM NO PAINEL DE DESEMPENHO DE FUNDOS DA SUSEP"
+  },
+  {
+   "saida": "r50d-2_2_catalogo.png",
+   "semente": 5106,
+   "molde": "comparacao",
+   "titulo": "O CATÁLOGO DE MOTORES",
+   "colunas": [
+    {
+     "titulo": "FICHA DA RENDA FIXA",
+     "desenho": "prancheta",
+     "rotulos": [
+      "DURAÇÃO",
+      "CRÉDITO"
+     ],
+     "texto": "- QUANTO TEMPO PRESO AOS JUROS?\n- QUANTO RISCO DE CALOTE ACEITA?\n- DURAÇÃO × CRÉDITO = {laranja:12 COMBINAÇÕES}\n- + INDEXADOS + DATA ALVO = {laranja:14}"
+    },
+    {
+     "titulo": "FICHA DO BALANCEADO",
+     "desenho": "balanca",
+     "rotulos": [
+      "RENDA FIXA",
+      "RENDA VARIÁVEL"
+     ],
+     "texto": "- O NOME TRAZ A {laranja:FAIXA} DE RENDA VARIÁVEL\n- 4 FAIXAS + DATA ALVO = {laranja:5}\n- DATA ALVO: MISTURA PENSADA PARA UMA DATA\n- EX.: APOSENTADORIA EM 2040 OU 2050"
+    }
+   ],
+   "faixas": [
+    "{ciano:AS 4 FAMÍLIAS:} RENDA FIXA (14) · BALANCEADOS (5) · MULTIMERCADOS (2) · AÇÕES (2) = {laranja:23 TIPOS}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O MOTOR DO CATÁLOGO NÃO MUDA · A CARTEIRA DO FUNDO {laranja:OSCILA TODO DIA} E PEDE REBALANCEAMENTO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50d-2_3_23-tipos.png",
+   "semente": 5107,
+   "molde": "colunas",
+   "titulo": "ANBIMA: AS REGRAS QUE CAEM",
+   "topo": "{ciano:DURAÇÃO:} BAIXA (MENOS DE 63 DIAS) · MÉDIA (ATÉ A DO IRF-M) · ALTA (A PARTIR DA DO IMA-GERAL) · LIVRE",
+   "colunas": [
+    {
+     "titulo": "CRÉDITO NA RENDA FIXA",
+     "texto": "- {verde:SOBERANO}: SÓ TÍTULO PÚBLICO FEDERAL\n- {laranja:GRAU DE INVESTIMENTO}: 80% OU MAIS EM PÚBLICO OU BAIXO RISCO DE CRÉDITO\n- {vermelho:CRÉDITO LIVRE}: ACIMA DE 20% EM MÉDIO OU ALTO RISCO, SE O GESTOR QUISER"
+    },
+    {
+     "titulo": "AS OUTRAS FAMÍLIAS",
+     "texto": "- BALANCEADOS: ATÉ 15 · 15-30 · 30-49 · ACIMA DE 49 · DATA ALVO\n- MULTIMERCADOS: JUROS E MOEDAS · LIVRE\n- AÇÕES: INDEXADOS · ATIVO · {laranja:MÍNIMO 67%} EM RENDA VARIÁVEL"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:HOJE:} BALANCEADOS DE {laranja:30-49} E {laranja:ACIMA DE 49} (ANBIMA) · \"CLASSIFICAÇÃO SUSEP\" SOBERANO, RF, COMPOSTO: {vermelho:FORA DAS NORMAS ATUAIS} · LIMITES NA {laranja:CMN 4.993}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50d-2_4_faixa-balanceado.png",
+   "semente": 5108,
+   "molde": "exercicio",
+   "titulo": "O BALANCEADO 15-30 E A BOLSA",
+   "dados": "- FUNDO BALANCEADOS 15-30 COM R$ 100 MILHÕES (HIPOTÉTICO)\n- 28 EM RENDA VARIÁVEL · 72 EM RENDA FIXA, PARADA\n- A ÚNICA DIFERENÇA: A DIREÇÃO DA BOLSA\n- REGRA DO NOME: RENDA VARIÁVEL ENTRE {laranja:15% E 30%}",
+   "cenarios": [
+    {
+     "titulo": "BOLSA SOBE 30%",
+     "passos": "RENDA VARIÁVEL × 1,30\n28 × 1,30 = 36,4\n36,4 + 72 = 108,4\n36,4 ÷ 108,4",
+     "resultado": "33,58%: FORA"
+    },
+    {
+     "titulo": "BOLSA CAI 30%",
+     "passos": "RENDA VARIÁVEL × 0,70\n28 × 0,70 = 19,6\n19,6 + 72 = 91,6\n19,6 ÷ 91,6",
+     "resultado": "21,40%: DENTRO"
+    }
+   ],
+   "conclusao": {
+    "texto": "NA ALTA, O FUNDO {vermelho:SAI DA FAIXA} SEM COMPRAR NADA · O GESTOR {laranja:REBALANCEIA} PARA MANTER A CLASSIFICAÇÃO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50d-3_1_cmn-4993.png",
+   "semente": 5109,
+   "molde": "mito_verdade",
+   "titulo": "O GESTOR APLICA ONDE QUISER?",
+   "mitos": [
+    "O GESTOR TEM CARTA BRANCA",
+    "O REGULAMENTO DECIDE SOZINHO"
+   ],
+   "verdade": "A NORMA {laranja:LIMITA A CARGA}",
+   "desenho": "caminhao",
+   "apoio": "- {ciano:RES. CMN 4.993, DE 24/03/2022:} APLICAÇÃO DOS RECURSOS DE SEGURADORAS E EAPC\n- {ciano:HIPOTÉTICO:} FUNDO DE {laranja:R$ 50 MILHÕES}\n- R$ 10 MILHÕES EM DEBÊNTURES DE UMA COMPANHIA: {vermelho:PASSA DO TETO}\n- TETO POR COMPANHIA ABERTA: {laranja:15%} = R$ 7,5 MILHÕES"
+  },
+  {
+   "saida": "r50d-3_2_balanca.png",
+   "semente": 5110,
+   "molde": "comparacao",
+   "titulo": "A BALANÇA NA ENTRADA DA RODOVIA",
+   "colunas": [
+    {
+     "titulo": "OS EIXOS = CLASSES",
+     "desenho": "caminhao",
+     "rotulos": [
+      "CLASSE",
+      "TETO"
+     ],
+     "texto": "- RENDA VARIÁVEL: {laranja:70%} OU {laranja:100%}\n- IMÓVEIS, CÂMBIO, \"OUTROS\": 20% OU 40%\n- RENDA FIXA: ATÉ 100%\n- (PÚBLICO GERAL OU QUALIFICADO)"
+    },
+    {
+     "titulo": "FORNECEDORES",
+     "desenho": "balanca_peso",
+     "rotulos": [
+      "EMISSOR",
+      "RISCO"
+     ],
+     "texto": "- TESOURO: CARGA {verde:MÁXIMA}\n- BANCO: MÉDIA\n- EMPRESA: MENOR\n- DEMAIS EMISSORES: {vermelho:A MENOR}"
+    }
+   ],
+   "faixas": [
+    "{ciano:SEGURANÇA DE CARGA:} FUNDO DE PREVIDÊNCIA {vermelho:NÃO ALAVANCA} · O COTISTA NUNCA COBRE PREJUÍZO DO FUNDO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA BALANÇA, O EXCESSO PARA NA HORA · NO FUNDO, O EXCESSO CAUSADO PELO PREÇO TEM {laranja:1 ANO}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50d-3_3_conteudo-1.png",
+   "semente": 5121,
+   "molde": "colunas",
+   "titulo": "OS LIMITES DA CMN 4.993 (1/2)",
+   "topo": "{ciano:4 RÉGUAS:} POR CLASSE (ART. 13) · POR EMISSOR (ART. 14) · POR CONCENTRAÇÃO (ARTS. 15 E 16) · POR MERCADO (ART. 9º)",
+   "colunas": [
+    {
+     "titulo": "POR CLASSE (ART. 13)",
+     "texto": "- RENDA FIXA: 100% × 100%\n- RENDA VARIÁVEL: {laranja:70%} × {laranja:100%}\n- IMÓVEIS: 20% × 40%\n- VARIAÇÃO CAMBIAL: 20% × 40%\n- \"OUTROS\": 20% × 40%\n- (PÚBLICO GERAL × QUALIFICADO)"
+    },
+    {
+     "titulo": "POR EMISSOR (ART. 14)",
+     "texto": "- UNIÃO E OUTROS FIE: {verde:100%}\n- FUNDOS E ETFS: 49%\n- INSTITUIÇÃO FINANCEIRA: {laranja:25%}\n- COMPANHIA ABERTA: {laranja:15%}\n- FIDC, FII, FIP, SECURITIZADORA: 10%\n- DEMAIS: {vermelho:5%}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:EXCEÇÃO (ART. 14, § 4º):} FUNDO DE AÇÕES {laranja:INDEXADO} PASSA DOS TETOS DE BANCO E COMPANHIA, RESPEITANDO O PESO DE CADA AÇÃO NO ÍNDICE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50d-3_3_conteudo-2.png",
+   "semente": 5122,
+   "molde": "colunas",
+   "titulo": "OS LIMITES DA CMN 4.993 (2/2)",
+   "topo": "{ciano:RENDA FIXA DOS FIE DE CADA SEGURADORA:} PRAZO MÉDIO MÍNIMO DE {laranja:1.095 DIAS} (ART. 26) · {ciano:LIMITES DO FUNDO} ≠ PERFIL DO CLIENTE (SUITABILITY)",
+   "colunas": [
+    {
+     "titulo": "CONCENTRAÇÃO E MERCADO",
+     "texto": "- ATÉ {laranja:20%} DO CAPITAL DE UMA COMPANHIA OU DO PATRIMÔNIO DE UM BANCO\n- ATÉ {laranja:25%} DE UM MESMO FIDC, FII OU FIP\n- ATÉ {laranja:25%} DE UMA EMISSÃO (FORA TÍTULO PÚBLICO E AÇÃO)\n- ATÉ {laranja:5%} NUM COE COM CAPITAL EM RISCO\n- {ciano:GOVERNANÇA:} ATÉ 100% EM SEGMENTO ESPECIAL (25% DE FREE FLOAT, SÓ ON)"
+    },
+    {
+     "titulo": "DERIVATIVOS (ARTS. 23 E 24)",
+     "texto": "- PERDA {vermelho:NUNCA} MAIOR QUE O PATRIMÔNIO\n- COTISTA NÃO APORTA A MAIS\n- {vermelho:PROIBIDA} A VENDA DE OPÇÃO A DESCOBERTO\n- MARGEM: ATÉ {laranja:15%} DO PATRIMÔNIO\n- PRÊMIOS DE OPÇÕES: ATÉ {laranja:5%}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:PASSIVO (ART. 30):} ESTOUROU POR OSCILAÇÃO DE PREÇOS OU RESGATES → {laranja:1 ANO} PARA CORRIGIR, SEM COMPRAS QUE PIOREM O EXCESSO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50d-3_4_limites-1.png",
+   "semente": 5112,
+   "molde": "exercicio",
+   "titulo": "LIMITES NA PRÁTICA (1/2)",
+   "dados": "- FUNDO DE PREVIDÊNCIA DE R$ 50 MILHÕES (HIPOTÉTICO)\n- COMPRA PRETENDIDA: R$ 10 MILHÕES NUM ÚNICO EMISSOR\n- A ÚNICA DIFERENÇA: O TIPO DE EMISSOR\n- TETOS (ART. 14): BANCO {laranja:25%} · COMPANHIA ABERTA {laranja:15%}",
+   "cenarios": [
+    {
+     "titulo": "CDB DE UM BANCO",
+     "passos": "TETO: 25%\n50 MI × 25% = 12,5 MI\nCOMPRA: 10 MI\n12,5 − 10",
+     "resultado": "FOLGA DE 2,5 MI"
+    },
+    {
+     "titulo": "DEBÊNTURE DE COMPANHIA",
+     "passos": "TETO: 15%\n50 MI × 15% = 7,5 MI\nCOMPRA: 10 MI\n7,5 − 10",
+     "resultado": "EXCESSO DE 2,5 MI"
+    }
+   ],
+   "conclusao": {
+    "texto": "NA COMPANHIA, SÓ CABEM {laranja:R$ 7,5 MILHÕES}; O RESTO VAI PARA OUTRO EMISSOR · FIDC, FII OU FIP: TETO DE 5 MI · DEMAIS: 2,5 MI",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50d-3_4_limites-2.png",
+   "semente": 5123,
+   "molde": "exercicio",
+   "titulo": "LIMITES NA PRÁTICA (2/2)",
+   "dados": "- FUNDO DO PÚBLICO GERAL: {ciano:R$ 100 MILHÕES} (HIPOTÉTICO)\n- R$ 70 MI EM RENDA VARIÁVEL: NO TETO DE 70%\n- R$ 30 MI EM RENDA FIXA, PARADA\n- A BOLSA SOBE 20% E O GESTOR NÃO COMPRA NADA\n- É O DESENQUADRAMENTO PASSIVO",
+   "cenarios": [
+    {
+     "titulo": "DEPOIS DA ALTA",
+     "passos": "70 + 20% = 84 MI\nPATRIMÔNIO: 84 + 30 = 114 MI\n84 ÷ 114",
+     "resultado": "73,68%: ACIMA DE 70%"
+    },
+    {
+     "titulo": "A CORREÇÃO",
+     "passos": "TETO: 70% DE 114\n= 79,8 MI\n84 − 79,8",
+     "resultado": "REALOCAR 4,2 MI"
+    }
+   ],
+   "conclusao": {
+    "texto": "O FUNDO ESTOUROU O TETO SEM COMPRAR · PRAZO: {laranja:1 ANO} · NO PERÍODO, {vermelho:NADA} DE NOVOS INVESTIMENTOS QUE AUMENTEM O EXCESSO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50d-4_1_um-plano-so.png",
+   "semente": 5113,
+   "molde": "mito_verdade",
+   "titulo": "UM PLANO RESOLVE TUDO?",
+   "mitos": [
+    "UM ÚNICO PLANO BASTA PARA TODOS OS OBJETIVOS",
+    "TUDO NO PGBL É SEMPRE MELHOR"
+   ],
+   "verdade": "UM PLANO {laranja:POR OBJETIVO}",
+   "desenho": "carro",
+   "apoio": "- {ciano:HIPOTÉTICO:} RENDA BRUTA TRIBUTÁVEL DE R$ 180.000 · APORTE DE R$ 36.000\n- DEDUTÍVEL NO PGBL: {laranja:12%} = R$ 21.600\n- OS {vermelho:R$ 14.400} QUE PASSAM NÃO REDUZEM O IR DO ANO\n- E, NO RESGATE, O PGBL COBRA IR SOBRE {vermelho:TUDO}\n- {ciano:A SAÍDA:} R$ 21.600 NO PGBL E R$ 14.400 NO {verde:VGBL}"
+  },
+  {
+   "saida": "r50d-4_2_carro-por-destino.png",
+   "semente": 5114,
+   "molde": "comparacao",
+   "titulo": "UM CARRO PARA CADA DESTINO",
+   "colunas": [
+    {
+     "titulo": "A GARAGEM",
+     "desenho": "carro",
+     "rotulos": [
+      "UM PLANO",
+      "UM OBJETIVO"
+     ],
+     "texto": "- APOSENTADORIA: LONGO PRAZO, REGRESSIVO CHEGA A {verde:10%}\n- EDUCAÇÃO DOS FILHOS: PRAZO DEFINIDO\n- SUCESSÃO: {laranja:BENEFICIÁRIOS} CERTOS\n- CADA PLANO COM O {laranja:SEU REGIME}"
+    },
+    {
+     "titulo": "CÂMBIO AUTOMÁTICO",
+     "desenho": "motor",
+     "rotulos": [
+      "RISCO",
+      "DIMINUI"
+     ],
+     "texto": "- CICLO DE VIDA: MENOS AÇÕES COM O TEMPO\n- TRAJETÓRIA FIXADA {laranja:NA CONTRATAÇÃO}\n- DATA ALVO (ANBIMA): A MESMA IDEIA\n- TROCA DE FUNDO PELO SALDO, {verde:SEM CUSTO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:SÓ ENTRE IGUAIS:} PGBL → PLANO DE PREVIDÊNCIA · VGBL → SEGURO DE PESSOAS COM SOBREVIVÊNCIA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} CARRO SE TROCA POR QUALQUER CARRO · {laranja:PGBL NÃO VIRA VGBL}, NEM O CONTRÁRIO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50d-4_3_quatro-camadas.png",
+   "semente": 5115,
+   "molde": "colunas",
+   "titulo": "AS 4 CAMADAS DA DIVERSIFICAÇÃO",
+   "topo": "{ciano:DIVERSIFICAR:} {laranja:VÁRIOS PLANOS}, CADA UM LIGADO A UM OBJETIVO DO CLIENTE · REVISAR A {laranja:DISTRIBUIÇÃO ENTRE PGBL E VGBL}",
+   "colunas": [
+    {
+     "titulo": "ENTRE PLANOS",
+     "texto": "1. UM PLANO POR OBJETIVO (EX.: EDUCAÇÃO, EM NOME DO MENOR)\n2. REGIME DE IR {laranja:POR PLANO}\n3. PGBL ATÉ {laranja:12%} DA RENDA BRUTA TRIBUTÁVEL; O EXCEDENTE NO VGBL\n- PGBL EXIGE DECLARAÇÃO COMPLETA E PREVIDÊNCIA OFICIAL"
+    },
+    {
+     "titulo": "DENTRO DO PLANO",
+     "texto": "- MAIS DE UM FUNDO, DE FAMÍLIAS ANBIMA DIFERENTES\n- MULTIFUNDOS: MÍNIMO DE {laranja:3 FUNDOS} ABERTOS (CIRC. 698, ART. 7º)\n- FUNDO FECHADO A APORTES → SIMILAR, TAXA {verde:IGUAL OU MENOR}\n- VIDA PLANEJADA (RES. 463, ART. 6º): RISCO DECRESCENTE"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:PORTABILIDADE (CIRC. 698, ART. 34):} OS RECURSOS SEGUEM {laranja:DE SEGURADORA PARA SEGURADORA} · TROCA DE FUNDO NO PLANO = {vermelho:REALOCAÇÃO}, NÃO RESGATE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50d-4_4_onde-ficam-14400.png",
+   "semente": 5116,
+   "molde": "exercicio",
+   "titulo": "ONDE FICAM OS R$ 14.400?",
+   "dados": "- RENDA BRUTA TRIBUTÁVEL: R$ 180.000 · APORTE: R$ 36.000 (HIPOTÉTICO)\n- DECLARAÇÃO COMPLETA · FAIXA DE 27,5%\n- TETO DO PGBL: 12% = {laranja:R$ 21.600} → IR ADIADO DE R$ 5.940 NOS DOIS\n- A ÚNICA DIFERENÇA: ONDE FICA O EXCEDENTE",
+   "cenarios": [
+    {
+     "titulo": "TUDO NO PGBL",
+     "passos": "36.000 − 21.600 = 14.400\nSEM DEDUÇÃO NO ANO\nRESGATE: IR SOBRE O TOTAL\n14.400 × 10% (MENOR ALÍQUOTA)",
+     "resultado": "+R$ 1.440 DE IR"
+    },
+    {
+     "titulo": "PGBL + VGBL",
+     "passos": "21.600 NO PGBL\n14.400 NO VGBL\nVGBL: IR SÓ NO RENDIMENTO\nPRINCIPAL NÃO É TRIBUTADO",
+     "resultado": "R$ 0 NOS 14.400"
+    }
+   ],
+   "conclusao": {
+    "texto": "O EXCEDENTE NO PGBL {vermelho:NÃO ADIA NADA} E PAGA IR NO PRINCIPAL · {verde:VGBL PARA O QUE PASSA DE 12%}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50d-5_1_contratou-esqueceu.png",
+   "semente": 5117,
+   "molde": "mito_verdade",
+   "titulo": "CONTRATOU, ESQUECEU?",
+   "mitos": [
+    "CONTRATAR E ESQUECER",
+    "LONGO PRAZO NÃO SE REVISA"
+   ],
+   "verdade": "PREVIDÊNCIA {laranja:SE REVISA}",
+   "desenho": "cofrinho",
+   "apoio": "- {ciano:HIPOTÉTICO:} 40 ANOS · SALDO DE R$ 300.000 · META DE {laranja:R$ 1,5 MILHÃO} AOS 60\n- JURO REAL DE 4% AO ANO, SEM NOVOS APORTES\n- RESULTADO AOS 60: {vermelho:R$ 657.336,98}\n- {ciano:LEI 14.803/2024:} REGIME DE IR ESCOLHIDO ATÉ O 1º RESGATE OU BENEFÍCIO\n- FALTAM {vermelho:R$ 842.663}, E NINGUÉM FEZ A CONTA"
+  },
+  {
+   "saida": "r50d-5_2_revisao-programada.png",
+   "semente": 5118,
+   "molde": "comparacao",
+   "titulo": "A REVISÃO PROGRAMADA",
+   "colunas": [
+    {
+     "titulo": "O CALENDÁRIO",
+     "desenho": "prancheta",
+     "rotulos": [
+      "DATA",
+      "LISTA"
+     ],
+     "texto": "- REVISÃO COM DATA MARCADA\n- LISTA DE 6 ITENS\n- CONFERE ANTES DE QUEBRAR\n- CONFIRMAR O PLANO {verde:TAMBÉM É RESULTADO}"
+    },
+    {
+     "titulo": "OS GATILHOS",
+     "desenho": "alarme",
+     "rotulos": [
+      "FORA DO",
+      "CALENDÁRIO"
+     ],
+     "texto": "- CASAMENTO OU DIVÓRCIO\n- NASCIMENTO DE FILHO\n- MUDANÇA DE RENDA OU DE PERFIL\n- {laranja:MUDANÇA DE LEI} TRIBUTÁRIA"
+    }
+   ],
+   "faixas": [
+    "{ciano:INFORMAÇÃO:} A SEGURADORA DISPONIBILIZA OS DADOS DO PLANO {laranja:TODOS OS DIAS} (CIRC. 698, ART. 78)"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA OFICINA, A PEÇA ERRADA SE TROCA DE NOVO · O REGIME DE IR, UMA VEZ ESCOLHIDO, {vermelho:NÃO VOLTA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r50d-5_3_checklist.png",
+   "semente": 5119,
+   "molde": "colunas",
+   "titulo": "O CHECKLIST DA REVISÃO",
+   "topo": "{ciano:POR QUE REVISAR:} PERFIL, IDADE, RENDA OU OBJETIVOS MUDARAM · REGRAS TRIBUTÁRIAS · DESEMPENHO DOS FUNDOS × METAS",
+   "colunas": [
+    {
+     "titulo": "OS 6 ITENS",
+     "texto": "1. OBJETIVOS\n2. VALORES DE ACUMULAÇÃO\n3. REGIME DE TRIBUTAÇÃO\n4. BENEFICIÁRIOS\n5. ESTRATÉGIA DOS FUNDOS\n6. PGBL × VGBL"
+    },
+    {
+     "titulo": "O QUE OLHAR EM CADA UM",
+     "texto": "- REGIME: {laranja:IRRETRATÁVEL} DEPOIS DE ESCOLHIDO (LEI 14.803)\n- BENEFICIÁRIOS: INDICAÇÃO {verde:LIVRE} (RES. CNSP 463, ART. 5º)\n- FUNDOS: RISCO, TAXA, DESEMPENHO E PERFIL\n- SUITABILITY É {laranja:1 ITEM}, NÃO A REVISÃO TODA"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:5 FALSAS:} PÚBLICO GERAL COM 100% EM AÇÕES · 40% NUM SÓ BANCO · ALAVANCAR COM DERIVATIVOS · PORTAR PGBL PARA VGBL · PREVIDÊNCIA AÇÕES COM PISO DE 50%",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r50d-5_4_conta-da-revisao.png",
+   "semente": 5120,
+   "molde": "exercicio",
+   "titulo": "A CONTA QUE A REVISÃO FAZ",
+   "dados": "- 40 ANOS · SALDO DE R$ 300.000 · META DE R$ 1.500.000 AOS 60 (HIPOTÉTICO)\n- JURO REAL DE 4% AO ANO = 0,3274% AO MÊS\n- 240 MESES · APORTE NO FIM DO MÊS · SEM TAXAS E SEM IR\n- A ÚNICA DIFERENÇA: O APORTE MENSAL",
+   "cenarios": [
+    {
+     "titulo": "SEM APORTES",
+     "passos": "SALDO: 300.000\nAPORTE: ZERO\n240 MESES A 0,327%\nVALOR FINAL = ?",
+     "resultado": "R$ 657.336,98"
+    },
+    {
+     "titulo": "COM APORTE",
+     "passos": "SALDO: 300.000\nMETA: 1.500.000\n240 MESES A 0,327%\nAPORTE MENSAL = ?",
+     "resultado": "R$ 2.316,02/MÊS"
+    }
+   ],
+   "conclusao": {
+    "texto": "SEM REVISÃO, {vermelho:FALTAM R$ 842.663} · COM A CONTA, O CLIENTE SABE {verde:QUANTO APORTAR}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
 }
