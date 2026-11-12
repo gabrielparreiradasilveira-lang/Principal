@@ -1,0 +1,395 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "molde": "mito_verdade",
+   "saida": "r48a_1_dez-por-cento-tudo.png",
+   "semente": 4801,
+   "titulo": "10% SOBRE TUDO?",
+   "mitos": [
+    "PLANO ANTIGO = 10%",
+    "10 ANOS É LEI"
+   ],
+   "verdade": "CADA {laranja:APORTE} TEM O SEU {verde:PRAZO}",
+   "desenho": {
+    "nome": "ampulheta",
+    "largura": 110
+   },
+   "apoio": "- {ciano:LEI 11.053/2004, ART. 1º:} 6 ALÍQUOTAS, DE {vermelho:35%} A {verde:10%}\n- § 3º: PRAZO = DO {laranja:APORTE} ATÉ O RESGATE OU O BENEFÍCIO\n- VALE PARA QUEM OPTA PELO {ciano:REGIME REGRESSIVO}\n- OPÇÃO ATÉ O 1º RESGATE OU BENEFÍCIO, IRRETRATÁVEL (§ 6º)\n- {ciano:EXEMPLO:} APORTE DE 2025 NUM PLANO DE 2011 → AINDA 35% EM 2026\n- {ciano:REGRA:} PLANO ANTIGO NÃO ENVELHECE O APORTE NOVO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r48a_2_cisterna-regua.png",
+   "semente": 4802,
+   "titulo": "A CISTERNA E A RÉGUA DO TEMPO",
+   "colunas": [
+    {
+     "titulo": "A CISTERNA PRÓPRIA",
+     "desenho": "cisterna",
+     "rotulos": [
+      "SÓ QUEM",
+      "QUER"
+     ],
+     "texto": "- TER OU NÃO TER → {verde:FACULTATIVA}\n- FORA DA CAIXA DO PRÉDIO → {verde:AUTÔNOMA DO INSS}\n- ÁGUA GUARDADA → {verde:RESERVA DO BENEFÍCIO}\n- MAIS TEMPO → {verde:MAIS JUROS}"
+    },
+    {
+     "titulo": "A ETIQUETA",
+     "desenho": "ampulheta",
+     "rotulos": [
+      "DATA",
+      "PEDÁGIO"
+     ],
+     "texto": "- ATÉ 2 ANOS → {vermelho:35%}\n- 2 A 4 → {laranja:30%} · 4 A 6 → {laranja:25%}\n- 6 A 8 → {laranja:20%} · 8 A 10 → {laranja:15%}\n- ACIMA DE 10 → {verde:10%}"
+    }
+   ],
+   "faixas": [
+    "{ciano:QUEDA:} 5 PONTOS A CADA 2 ANOS DE CADA APORTE",
+    "{ciano:HORIZONTE:} MÉDIO E LONGO PRAZO · RECOMENDAÇÃO DE PELO MENOS 10 ANOS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA CISTERNA, A ÁGUA SE MISTURA · NO REGRESSIVO, {laranja:CADA APORTE TEM A SUA ALÍQUOTA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r48a_3_definicao-horizonte.png",
+   "semente": 4803,
+   "titulo": "DEFINIÇÃO E HORIZONTE",
+   "topo": "{ciano:LC 109/2001, ART. 1º:} REGIME {verde:FACULTATIVO} · {verde:AUTÔNOMO} EM RELAÇÃO AO INSS · BASEADO EM {laranja:RESERVAS}",
+   "colunas": [
+    {
+     "titulo": "A TABELA REGRESSIVA",
+     "texto": "- ATÉ 2 ANOS: {vermelho:35%}\n- 2 A 4: 30% · 4 A 6: 25%\n- 6 A 8: 20% · 8 A 10: 15%\n- ACIMA DE 10: {verde:10%}\n- RETENÇÃO NA FONTE, DEFINITIVA (§ 2º)"
+    },
+    {
+     "titulo": "O PRAZO DE CADA APORTE",
+     "texto": "- CONTA DO {laranja:APORTE} AO RESGATE\n- {vermelho:NÃO} CONTA DA ABERTURA DO PLANO\n- APORTE DE 2025 RESGATADO EM 2026 → {vermelho:35%}\n- 10 ANOS = {laranja:RECOMENDAÇÃO}, NÃO LEI\n- REGRESSIVO × PROGRESSIVO → R50A"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} JUROS COMPOSTOS + TABELA REGRESSIVA = HORIZONTE LONGO · {vermelho:SEM} PRAZO MÍNIMO LEGAL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r48a_4_35-ou-10.png",
+   "semente": 4804,
+   "titulo": "35% OU 10% DE IMPOSTO?",
+   "dados": "- RENDIMENTO DE {ciano:R$ 50.000} NUM VGBL (HIPOTÉTICO)\n- REGIME REGRESSIVO, RETENÇÃO NA FONTE\n- MESMO RENDIMENTO NOS DOIS PRAZOS, PARA ISOLAR A ALÍQUOTA\n- VGBL: IR SÓ SOBRE OS RENDIMENTOS\n- A ÚNICA DIFERENÇA: O TEMPO DE ACUMULAÇÃO",
+   "cenarios": [
+    {
+     "titulo": "ATÉ 2 ANOS",
+     "passos": "50.000 × 35%\n= 17.500 DE IR\nLÍQUIDO: 32.500",
+     "resultado": "R$ 32.500"
+    },
+    {
+     "titulo": "MAIS DE 10 ANOS",
+     "passos": "50.000 × 10%\n= 5.000 DE IR\nLÍQUIDO: 45.000",
+     "resultado": "R$ 45.000"
+    }
+   ],
+   "conclusao": {
+    "texto": "O TEMPO DE CADA APORTE VALEU {verde:R$ 12.500} · NO PRAZO CURTO, O IR LEVA {vermelho:3,5 VEZES} MAIS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r48b_1_como-o-inss.png",
+   "semente": 4811,
+   "titulo": "FUNCIONA COMO O INSS?",
+   "mitos": [
+    "QUEM ENTRA PAGA QUEM SAI",
+    "DINHEIRO DO SISTEMA"
+   ],
+   "verdade": "{verde:CAPITALIZAÇÃO}: A RESERVA É {laranja:SUA}",
+   "desenho": {
+    "nome": "cisterna",
+    "largura": 120
+   },
+   "apoio": "- {ciano:LC 109, DE 29/05/2001:} REGIME BASEADO EM {laranja:RESERVAS}\n- ART. 2º: OPERADO POR ENTIDADES DE PREVIDÊNCIA COMPLEMENTAR\n- ART. 4º: ENTIDADES {ciano:ABERTAS} E {ciano:FECHADAS}\n- PGBL E VGBL: PLANOS DE ENTIDADES ABERTAS (R49 E R50)\n- O BENEFÍCIO DEPENDE DO QUE FOI ACUMULADO, NÃO DE UM TETO\n- NÃO DEPENDE DA {verde:DEMOGRAFIA}, AO CONTRÁRIO DA REPARTIÇÃO\n- {ciano:REGRA:} O SALDO NÃO DEPENDE DE NOVOS PARTICIPANTES"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r48b_2_dois-modelos.png",
+   "semente": 4812,
+   "titulo": "DOIS MODELOS DE CISTERNA",
+   "colunas": [
+    {
+     "titulo": "COMPRADA NA LOJA",
+     "desenho": "cisterna",
+     "rotulos": [
+      "QUALQUER",
+      "PESSOA"
+     ],
+     "texto": "- QUALQUER UM COMPRA → {verde:ENTIDADE ABERTA}\n- MODELOS DE PRATELEIRA → {laranja:PGBL E VGBL}\n- ESCOLHE O MODELO → {verde:PERFIL E FUNDOS}\n- MEDIDOR NO SEU NOME → {verde:SALDO INDIVIDUAL}"
+    },
+    {
+     "titulo": "DA EMPRESA",
+     "desenho": "banco",
+     "rotulos": [
+      "SÓ O",
+      "GRUPO"
+     ],
+     "texto": "- SÓ PARA FUNCIONÁRIOS → {laranja:ENTIDADE FECHADA}\n- QUEM INSTALA → {laranja:EMPRESA OU ENTIDADE}\n- NOME POPULAR → {laranja:FUNDO DE PENSÃO}\n- ASSOCIADOS DE ENTIDADE → {laranja:TAMBÉM ENTRAM}"
+    }
+   ],
+   "faixas": [
+    "{ciano:CAPITALIZAÇÃO:} CADA CONTRIBUIÇÃO É INVESTIDA E RENDE NO NOME DO PARTICIPANTE",
+    "{ciano:LIMITE:} NO INSS, O TETO · NA CISTERNA, O {verde:VOLUME ACUMULADO}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} A ÁGUA FICA PARADA · A RESERVA É {laranja:INVESTIDA} E PODE OSCILAR CONFORME O PERFIL",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r48b_3_inss-x-complementar.png",
+   "semente": 4813,
+   "titulo": "INSS × PREVIDÊNCIA COMPLEMENTAR",
+   "topo": "{ciano:CAPITALIZAÇÃO:} CONTRIBUIÇÃO INVESTIDA · SALDO DO {verde:PARTICIPANTE} · NÃO DEPENDE DE OUTRAS PESSOAS",
+   "colunas": [
+    {
+     "titulo": "INSS × COMPLEMENTAR",
+     "texto": "- REPARTIÇÃO × {verde:CAPITALIZAÇÃO}\n- OBRIGATÓRIO × {verde:FACULTATIVA}\n- DINHEIRO DO SISTEMA × {verde:DO PARTICIPANTE}\n- TETO × {verde:O QUE FOI ACUMULADO}"
+    },
+    {
+     "titulo": "QUEM OFERECE (LC 109)",
+     "texto": "- {ciano:ABERTAS:} PÚBLICO EM GERAL\n- PLANOS: {laranja:PGBL} E {laranja:VGBL}\n- {ciano:FECHADAS:} FUNDOS DE PENSÃO\n- FUNCIONÁRIOS DA EMPRESA OU ASSOCIADOS DA ENTIDADE"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:4 VANTAGENS:} SUSTENTABILIDADE · LIBERDADE DE PERFIL E FUNDOS · BENEFÍCIOS FISCAIS · {verde:EFICIÊNCIA SUCESSÓRIA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r48b_4_30-ou-20-anos.png",
+   "semente": 4814,
+   "titulo": "30 OU 20 ANOS DE APORTES?",
+   "dados": "- {ciano:R$ 1.000} POR MÊS, NO FIM DE CADA MÊS (HIPOTÉTICO)\n- JURO REAL: 0,4% AO MÊS (CERCA DE 4,91% AO ANO)\n- SEM TAXAS DE ADMINISTRAÇÃO E DE CARREGAMENTO, SEM IR\n- RESERVA NO NOME DO PARTICIPANTE\n- A ÚNICA DIFERENÇA: O TEMPO DE ACUMULAÇÃO",
+   "cenarios": [
+    {
+     "titulo": "30 ANOS",
+     "passos": "PMT −1.000 · i 0,4\nn 360 → FV\nDO BOLSO: R$ 360 MIL",
+     "resultado": "R$ 802.147,48"
+    },
+    {
+     "titulo": "20 ANOS",
+     "passos": "PMT −1.000 · i 0,4\nn 240 → FV\nDO BOLSO: R$ 240 MIL",
+     "resultado": "R$ 401.675,03"
+    }
+   ],
+   "conclusao": {
+    "texto": "+R$ 120 MIL DO BOLSO RENDEM {verde:+R$ 400.472,45} · O TEMPO É O MAIOR SÓCIO DA {laranja:CAPITALIZAÇÃO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r48c_1_so-aposentadoria.png",
+   "semente": 4821,
+   "titulo": "SÓ PARA A APOSENTADORIA?",
+   "mitos": [
+    "SÓ SERVE PARA APOSENTAR",
+    "VAI PARA O INVENTÁRIO"
+   ],
+   "verdade": "{laranja:4 PILARES}: RENDA, SUCESSÃO, FILHOS E IR",
+   "desenho": {
+    "nome": "cisterna",
+    "largura": 110
+   },
+   "apoio": "- {ciano:STF, TEMA 1214 (RE 1.363.013):} SESSÃO VIRTUAL DE {laranja:6 A 13/12/2024}\n- TESE: ITCMD {vermelho:INCONSTITUCIONAL} SOBRE VGBL E PGBL NA MORTE DO TITULAR\n- {ciano:LC 227/2026, ART. 150, III:} ITCMD NÃO INCIDE, ABERTA OU FECHADA\n- VALE AINDA QUE O BENEFICIÁRIO SEJA UM {laranja:TERCEIRO}\n- {ciano:CONTINUA:} O IMPOSTO DE RENDA, CONFORME O REGIME"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r48c_2_torneira-cano.png",
+   "semente": 4822,
+   "titulo": "AS 2 PRIMEIRAS SAÍDAS",
+   "colunas": [
+    {
+     "titulo": "A TORNEIRA DA SECA",
+     "desenho": "torneira",
+     "rotulos": [
+      "ACUMULA",
+      "VIRA RENDA"
+     ],
+     "texto": "- ENCHER A VIDA TODA → {laranja:ACUMULAÇÃO}\n- ABRIR QUANDO PARAR → {verde:FASE DE BENEFÍCIO}\n- TORNEIRA PARA SEMPRE → {verde:RENDA VITALÍCIA}\n- TORNEIRA COM PRAZO → {verde:RESGATES PROGRAMADOS}"
+    },
+    {
+     "titulo": "O CANO DIRETO",
+     "desenho": "casa",
+     "rotulos": [
+      "SEM FILA",
+      "NO CARTÓRIO"
+     ],
+     "texto": "- CANO PARA OS FILHOS → {laranja:BENEFICIÁRIOS}\n- SEM FILA DO CARTÓRIO → {verde:SEM INVENTÁRIO}\n- SEM PEDÁGIO ESTADUAL → {verde:SEM ITCMD}\n- RELÓGIO DA CONTA → {vermelho:IR CONTINUA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:LEI 11.196/2005, ART. 79:} RESGATE OU RENDA \"INDEPENDENTEMENTE DA ABERTURA DE INVENTÁRIO\"",
+    "{ciano:BENEFICIÁRIOS:} INDICADOS NO PRÓPRIO PLANO, SEM TESTAMENTO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O CANO NÃO COBRA NADA · NA SUCESSÃO, {laranja:O IMPOSTO DE RENDA} AINDA É DEVIDO",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r48c_3_quatro-pilares.png",
+   "semente": 4823,
+   "titulo": "OS 4 PILARES: RENDA E SUCESSÃO",
+   "topo": "{ciano:4 PILARES:} (1) ACUMULAÇÃO → RENDA · (2) {laranja:SUCESSÓRIO} · (3) RESERVA PARA MENORES · (4) TRIBUTÁRIO",
+   "colunas": [
+    {
+     "titulo": "PILAR 1 · ACUMULAÇÃO E RENDA",
+     "texto": "- OBJETIVO: RESERVA QUE {verde:VIRA RENDA}\n- RENDA VITALÍCIA OU RESGATES PROGRAMADOS\n- ACUMULAÇÃO: APORTES, FUNDOS, REAPLICAÇÃO\n- TIPOS DE RENDA → R50B"
+    },
+    {
+     "titulo": "PILAR 2 · SUCESSÓRIO",
+     "texto": "- RESGATE OU RENDA, {verde:SEM INVENTÁRIO}\n- STF, TEMA 1214: {verde:SEM ITCMD}\n- LC 227/2026: ABERTA OU FECHADA, ATÉ PARA TERCEIRO\n- {vermelho:IMPOSTO DE RENDA CONTINUA} (R50A)"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:É COMUM VER:} 3 PILARES · {vermelho:ATENÇÃO:} SÃO {laranja:4}, COM O PLANEJAMENTO SUCESSÓRIO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r48c_4_resgate-ou-renda.png",
+   "semente": 4824,
+   "titulo": "RESGATE ÚNICO OU RENDA?",
+   "dados": "- RESERVA DE {ciano:R$ 802.147,48} (30 ANOS DE R$ 1.000/MÊS)\n- 0,4% AO MÊS ACIMA DA INFLAÇÃO · TAXAS E IR FORA DA CONTA\n- RENDA NO FIM DE CADA MÊS, POR 25 ANOS\n- VALORES DE HOJE (HIPOTÉTICO)\n- A ÚNICA DIFERENÇA: COMO USAR A RESERVA",
+   "cenarios": [
+    {
+     "titulo": "RESGATA TUDO",
+     "passos": "R$ 802.147,48 NA MÃO\nO CLIENTE ADMINISTRA\nSOZINHO",
+     "resultado": "R$ 802 MIL DE UMA VEZ"
+    },
+    {
+     "titulo": "VIRA RENDA",
+     "passos": "PV −802.147,48\nn 300 · i 0,4 → PMT\nTOTAL: 300 × PMT",
+     "resultado": "R$ 4.596,28/MÊS"
+    }
+   ],
+   "conclusao": {
+    "texto": "EM 25 ANOS, A RENDA SOMA {verde:R$ 1.378.884,21} · O SALDO CONTINUA {laranja:RENDENDO} ENQUANTO É USADO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r48d_1_doze-por-filho.png",
+   "semente": 4831,
+   "titulo": "12% PARA CADA UM?",
+   "mitos": [
+    "12% DO PAI + 12% DO FILHO",
+    "SEM CONDIÇÃO NENHUMA"
+   ],
+   "verdade": "UM LIMITE SÓ: {laranja:12%} DA {verde:FAMÍLIA}",
+   "desenho": {
+    "nome": "cofrinho",
+    "largura": 110
+   },
+   "apoio": "- {ciano:RECEITA FEDERAL, PERGUNTAS E RESPOSTAS IRPF 2026, Nº 335:} ATÉ 12% DOS RENDIMENTOS TRIBUTÁVEIS\n- PARTICIPANTE OU {laranja:DEPENDENTE}, NA MESMA CONTA DE 12%\n- DECLARANTE CONTRIBUI PARA O INSS OU REGIME PRÓPRIO\n- DEPENDENTE {laranja:ACIMA DE 16 ANOS}: INSS NO NOME DELE\n- DEDUÇÃO DO PGBL = {laranja:ADIAMENTO}: O IR VEM NO RESGATE, SOBRE O TOTAL\n- {ciano:VALE PARA:} PGBL NA DECLARAÇÃO COMPLETA; VGBL NÃO DEDUZ"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r48d_2_mirim-desconto.png",
+   "semente": 4832,
+   "titulo": "A CISTERNA MIRIM E O DESCONTO",
+   "colunas": [
+    {
+     "titulo": "A CISTERNA MIRIM",
+     "desenho": "cofrinho",
+     "rotulos": [
+      "EM NOME",
+      "DO FILHO"
+     ],
+     "texto": "- QUEM ENCHE → {laranja:RESPONSÁVEL FINANCEIRO}\n- PARA QUEM → {laranja:O FILHO MENOR}\n- PARA QUÊ → {verde:FACULDADE, VIDA ADULTA}\n- BÔNUS → {verde:EDUCAÇÃO FINANCEIRA}"
+    },
+    {
+     "titulo": "O DESCONTO",
+     "desenho": "moeda",
+     "rotulos": [
+      "HOJE",
+      "OU DEPOIS"
+     ],
+     "texto": "- PGBL → {verde:DEDUZ ATÉ 12%}\n- VGBL → {verde:IR SÓ NO RENDIMENTO}\n- REGIME PROGRESSIVO → {laranja:ATÉ 27,5%}\n- REGIME REGRESSIVO → {laranja:35% A 10%}"
+    }
+   ],
+   "faixas": [
+    "{ciano:PGBL:} PARA QUEM FAZ A DECLARAÇÃO COMPLETA E CONTRIBUI PARA O INSS",
+    "{ciano:VGBL:} PARA A DECLARAÇÃO SIMPLIFICADA OU QUEM JÁ USOU OS 12%"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O DESCONTO DA CONTA NÃO VOLTA · O DO PGBL É {laranja:ADIAMENTO}: O IR VEM NO RESGATE",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r48d_3_menores-tributario.png",
+   "semente": 4833,
+   "titulo": "MENORES E PLANEJAMENTO TRIBUTÁRIO",
+   "topo": "{ciano:PILAR 3:} RESERVA EM NOME DO FILHO, FEITA PELO {laranja:PATROCINADOR} (O RESPONSÁVEL FINANCEIRO)",
+   "colunas": [
+    {
+     "titulo": "4 CONDIÇÕES DO PGBL DO FILHO",
+     "texto": "- FILHO {laranja:DEPENDENTE} NA DECLARAÇÃO\n- DECLARANTE CONTRIBUI PARA O INSS\n- {vermelho:12% CONJUNTO} (TITULAR + DEPENDENTES)\n- ACIMA DE 16 ANOS: INSS {laranja:EM NOME DO FILHO}"
+    },
+    {
+     "titulo": "PILAR 4 · PGBL × VGBL",
+     "texto": "- PGBL: DEDUZ ATÉ 12% · IR SOBRE O {vermelho:TOTAL}\n- VGBL: SEM DEDUÇÃO · IR SÓ SOBRE {verde:RENDIMENTOS}\n- REGIMES: PROGRESSIVO OU REGRESSIVO (R50A)\n- DETALHE DO PGBL → R49 · DO VGBL → R50"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:ESTRATÉGIA:} {verde:COMBINAR PGBL E VGBL} · PGBL ATÉ O LIMITE DE 12%, O RESTO NO VGBL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r48d_4_vgbl-ou-pgbl.png",
+   "semente": 4834,
+   "titulo": "VGBL OU PGBL PARA O FILHO?",
+   "dados": "- R$ 300/MÊS DO NASCIMENTO AOS 18 ANOS (HIPOTÉTICO)\n- 0,4% AO MÊS ACIMA DA INFLAÇÃO · TAXAS FORA DA CONTA\n- AOS 18: {ciano:R$ 102.641,01} (64.800 DO BOLSO + 37.841,01 DE JUROS)\n- RESPONSÁVEL NA ALÍQUOTA DE 27,5%, COM ESPAÇO NOS 12%\n- A ÚNICA DIFERENÇA: O TIPO DE PLANO",
+   "cenarios": [
+    {
+     "titulo": "VGBL",
+     "passos": "SEM DEDUÇÃO NO ANO\nIR NO RESGATE\nSÓ SOBRE RENDIMENTOS",
+     "resultado": "R$ 0 ADIADO"
+    },
+    {
+     "titulo": "PGBL",
+     "passos": "300 × 12 = 3.600 NO ANO\n3.600 × 27,5%\nIR DEPOIS, SOBRE O TOTAL",
+     "resultado": "R$ 990 ADIADOS/ANO"
+    }
+   ],
+   "conclusao": {
+    "texto": "5 PEGADINHAS (FALSAS): REPARTIÇÃO · 3 PILARES · INVENTÁRIO E ITCMD · PRAZO DA ABERTURA DO PLANO · 12% POR FILHO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
