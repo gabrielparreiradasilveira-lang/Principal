@@ -1,0 +1,686 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "molde": "mito_verdade",
+   "saida": "r46a_1_controle.png",
+   "semente": 4601,
+   "titulo": "ATÉ 50% = SEM CONTROLE?",
+   "mitos": [
+    "30% + 25% = NINGUÉM CONTROLA",
+    "SÓ CONTA O PERCENTUAL DE CADA UM"
+   ],
+   "verdade": "SOMAM-SE OS {laranja:VINCULADOS}",
+   "desenho": {
+    "nome": "pessoa",
+    "largura": 110
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} 30% DELE + 25% DA ESPOSA\n- SOMA COM VINCULADOS: {vermelho:55%}\n- MAIS DE 50%: {laranja:CONTROLADA}\n- OU: {laranja:PREPONDERÂNCIA} NAS DECISÕES\n- {ciano:LEI 14.754, ART. 5º, § 1º}\n- {ciano:REGRA:} OLHE A FAMÍLIA, NÃO SÓ O NOME NO CONTRATO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r46a_2_galpoes.png",
+   "semente": 4602,
+   "titulo": "O POMAR COM GALPÕES",
+   "colunas": [
+    {
+     "titulo": "A CHAVE DO GALPÃO",
+     "desenho": "casa",
+     "rotulos": [
+      "QUEM",
+      "CONTROLA"
+     ],
+     "texto": "- GALPÃO → {verde:EMPRESA NO EXTERIOR}\n- CHAVE → {laranja:CONTROLE}\n- MAIS DA METADE → {laranja:+ DE 50%}\n- CÓPIAS DA FAMÍLIA → {laranja:VINCULADOS}\n- QUEM NOMEIA O GERENTE → {laranja:ADMINISTRADORES}"
+    },
+    {
+     "titulo": "OS GALPÕES",
+     "desenho": "predio_andares",
+     "rotulos": [
+      "TRÊS",
+      "CAMINHOS"
+     ],
+     "texto": "- FECHADO → {verde:REGIME ANUAL} (R46B, R46C)\n- FÁBRICA → {laranja:DISPONIBILIZAÇÃO} (R46D)\n- VIDRO → {laranja:TRANSPARÊNCIA} (R46E)\n- CASEIRO → {laranja:TRUST} (R46F)\n- POMAR ABERTO → {laranja:DIRETO} (R45)"
+    }
+   ],
+   "faixas": [
+    "{ciano:A LEI NÃO DIZ OFFSHORE:} DIZ {laranja:ENTIDADE CONTROLADA} · INCLUI {laranja:FUNDO} E {laranja:FUNDAÇÃO}",
+    "{ciano:SEM CONTROLE:} PARTICIPAÇÃO VIRA {verde:APLICAÇÃO FINANCEIRA} · REGRAS DA R45"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} CHAVE É UM OBJETO · CONTROLE É {laranja:PERCENTUAL + VÍNCULO}, PELA LEI",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r46a_3_controlada.png",
+   "semente": 4603,
+   "titulo": "ENTIDADE CONTROLADA",
+   "topo": "{ciano:LEI 14.754, ART. 5º, § 1º:} SOCIEDADE OU ENTIDADE NO EXTERIOR, {laranja:INCLUSIVE FUNDO E FUNDAÇÃO}",
+   "colunas": [
+    {
+     "titulo": "CONTROLA QUEM TEM",
+     "texto": "- {laranja:PREPONDERÂNCIA} NAS DELIBERAÇÕES\n- OU ELEGE A {laranja:MAIORIA} DA DIREÇÃO\n- OU {laranja:+ DE 50%} DO CAPITAL\n- OU DOS LUCROS OU DOS ATIVOS\n- {verde:SOZINHA OU COM OUTRAS PARTES}"
+    },
+    {
+     "titulo": "VINCULADOS (§ 3º)",
+     "texto": "- CÔNJUGE E {laranja:COMPANHEIRO}\n- PARENTES ATÉ O {laranja:3º GRAU}\n- POR SANGUE OU AFINIDADE\n- CERTAS {laranja:EMPRESAS LIGADAS}\n- ENTRE OUTROS"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:CASO-LIMITE:} {laranja:50% EXATOS}, SEM PODER DE DECISÃO: {vermelho:AINDA NÃO} · 50,1%: {verde:CONTROLE}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r46a_4_esposa.png",
+   "semente": 4604,
+   "titulo": "CONTROLADA OU APLICAÇÃO?",
+   "dados": "- PESSOA FÍSICA RESIDENTE: {ciano:30%} (HIPOTÉTICO)\n- OUTRA SÓCIA: {ciano:25%}\n- NINGUÉM COM PODER ESPECIAL\n- EMPRESA DE INVESTIMENTOS LÁ FORA\n- A ÚNICA DIFERENÇA: QUEM É A SÓCIA",
+   "cenarios": [
+    {
+     "titulo": "SÓCIA = ESPOSA",
+     "passos": "30% + 25%\nVINCULADA: SOMA\n55% > 50%",
+     "resultado": "CONTROLADA"
+    },
+    {
+     "titulo": "SÓCIA SEM VÍNCULO",
+     "passos": "SÓ OS 30% DELE\nSEM PREPONDERÂNCIA\n30% < 50%",
+     "resultado": "APLICAÇÃO (R45)"
+    }
+   ],
+   "conclusao": {
+    "texto": "CONTROLADA SEGUE UM DOS {laranja:TRÊS CAMINHOS} · SEM CONTROLE, A PARTICIPAÇÃO VAI PARA A {verde:BALANÇA DA R45}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r46b_1_cofre.png",
+   "semente": 4611,
+   "titulo": "OFFSHORE SÓ PAGA NA DISTRIBUIÇÃO?",
+   "mitos": [
+    "OFFSHORE = IMPOSTO ADIADO",
+    "SÓ PAGA QUANDO TRAZ O LUCRO"
+   ],
+   "verdade": "RENDA PASSIVA: {verde:15% TODO 31/12}",
+   "desenho": {
+    "nome": "cofrinho",
+    "largura": 110
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} EMPRESA SÓ COM AÇÕES E TÍTULOS\n- RENDA ATIVA: {vermelho:PERTO DE ZERO}\n- ABAIXO DE 60%: {laranja:REGIME ANUAL}\n- DISTRIBUINDO OU NÃO: {laranja:PAGA}\n- {ciano:LEI 14.754, ART. 5º, § 5º}\n- {ciano:REGRA:} O COFRE DO ADIAMENTO FECHOU EM 2024"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r46b_2_galpao-fechado.png",
+   "semente": 4612,
+   "titulo": "O GALPÃO FECHADO",
+   "colunas": [
+    {
+     "titulo": "FRUTAS COMPRADAS",
+     "desenho": "moeda",
+     "rotulos": [
+      "RENDA",
+      "PASSIVA"
+     ],
+     "texto": "- FRUTA COMPRADA → {verde:APLICAÇÃO}\n- RENDE SOZINHA → {laranja:JUROS, DIVIDENDOS}\n- TRABALHO DO GALPÃO → {laranja:RENDA ATIVA}\n- MENOS DE 60% → {vermelho:GALPÃO FECHADO}\n- 60% OU MAIS → {verde:GALPÃO-FÁBRICA}"
+    },
+    {
+     "titulo": "A ILHA",
+     "desenho": "mar",
+     "rotulos": [
+      "IMPOSTO",
+      "BAIXO"
+     ],
+     "texto": "- ILHA → {verde:TRIBUTAÇÃO FAVORECIDA}\n- SEM IMPOSTO OU {laranja:ABAIXO DE 17%}\n- SÓCIOS ESCONDIDOS → {laranja:TAMBÉM CONTA}\n- REGIME PRIVILEGIADO → {laranja:IDEM}\n- IMPOSTO ALTO LÁ → {laranja:NÃO SALVA SE PASSIVA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:BASTA UMA HIPÓTESE:} ILHA {laranja:OU} REGIME PRIVILEGIADO {laranja:OU} RENDA ATIVA ABAIXO DE 60%",
+    "{ciano:LEI 9.430, ARTS. 24 E 24-A:} DEFINEM PAÍS FAVORECIDO E {laranja:REGIME PRIVILEGIADO}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} ILHA É LUGAR NO MAPA · NA LEI, É {laranja:CRITÉRIO DA RECEITA} (P&R 136)",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r46b_3_regime-anual.png",
+   "semente": 4613,
+   "titulo": "QUEM ENTRA NO REGIME ANUAL",
+   "topo": "{ciano:LEI 14.754, ART. 5º, § 5º:} DUAS PORTAS DE ENTRADA · {laranja:BASTA UMA}",
+   "colunas": [
+    {
+     "titulo": "PORTA 1: O PAÍS",
+     "texto": "- {ciano:P&R 136}, DESDE {laranja:13/05/2025}\n- NÃO TRIBUTA A RENDA\n- OU TRIBUTA {laranja:ABAIXO DE 17%}\n- OU {vermelho:ESCONDE} SÓCIOS E BENEFICIÁRIO\n- OU REGIME PRIVILEGIADO"
+    },
+    {
+     "titulo": "PORTA 2: A RENDA",
+     "texto": "- RENDA ATIVA {laranja:< 60%} DA TOTAL\n- FORA DA ATIVA: JUROS, DIVIDENDOS\n- ALUGUÉIS, ROYALTIES, APLICAÇÕES\n- GANHO DE CAPITAL, EM REGRA\n- EXCEÇÃO: ATIVO PERMANENTE {verde:+ DE 2 ANOS}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:VIZINHO QUE CONFUNDE:} RENDA ATIVA ≠ LUCRO · A CONTA É {laranja:RECEITA PRÓPRIA ÷ RENDA TOTAL}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r46b_4_60.png",
+   "semente": 4614,
+   "titulo": "ABAIXO OU ACIMA DE 60%?",
+   "dados": "- RENDA TOTAL: {ciano:1 MILHÃO DE DÓLARES} (HIPOTÉTICO)\n- PAÍS SEM TRIBUTAÇÃO FAVORECIDA\n- SEM REGIME PRIVILEGIADO\n- RESTO DA RENDA: JUROS E DIVIDENDOS\n- A ÚNICA DIFERENÇA: A RENDA ATIVA",
+   "cenarios": [
+    {
+     "titulo": "ATIVA: 300 MIL",
+     "passos": "300 MIL ÷ 1 MILHÃO\n30% < 60%\nGALPÃO FECHADO",
+     "resultado": "REGIME ANUAL"
+    },
+    {
+     "titulo": "ATIVA: 700 MIL",
+     "passos": "700 MIL ÷ 1 MILHÃO\n70% > 60%\nGALPÃO-FÁBRICA",
+     "resultado": "DISPONIBILIZAÇÃO"
+    }
+   ],
+   "conclusao": {
+    "texto": "NA HP: {laranja:TOTAL ENTER PARTE %T} · NO CENÁRIO 2, A PESSOA FÍSICA AINDA PODE {verde:OPTAR} PELO REGIME ANUAL",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r46c_1_dupla.png",
+   "semente": 4621,
+   "titulo": "PAGA DE NOVO NA DISTRIBUIÇÃO?",
+   "mitos": [
+    "31/12 + DIVIDENDO = 2 VEZES 15%",
+    "DIVIDENDO DO EXTERIOR SEMPRE TRIBUTA"
+   ],
+   "verdade": "LUCRO JÁ TRIBUTADO {verde:NÃO PAGA DE NOVO}",
+   "desenho": {
+    "nome": "check",
+    "largura": 100
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} 15% PAGOS SOBRE O LUCRO DE 31/12\n- MARÇO: LUCRO RECEBIDO COMO DIVIDENDO\n- NOVA TRIBUTAÇÃO: {vermelho:NÃO}\n- O LUCRO VIROU {laranja:CRÉDITO DE DIVIDENDO A RECEBER}\n- {ciano:LEI 14.754, ART. 5º, § 11}\n- {ciano:REGRA:} CAIXA COM ETIQUETA NÃO É PESADA DUAS VEZES"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r46c_2_etiqueta.png",
+   "semente": 4622,
+   "titulo": "O CALENDÁRIO E A ETIQUETA",
+   "colunas": [
+    {
+     "titulo": "O CALENDÁRIO",
+     "desenho": "ampulheta",
+     "rotulos": [
+      "31/12",
+      "TODO ANO"
+     ],
+     "texto": "- PESAGEM → {verde:LUCRO DO BALANÇO}\n- PLACAR → {laranja:PTAX DO ÚLTIMO DIA ÚTIL}\n- BALANÇA → {laranja:15% NA DECLARAÇÃO}\n- SAIA OU NÃO → {laranja:INDEPENDE DE DISTRIBUIR}"
+    },
+    {
+     "titulo": "A ETIQUETA",
+     "desenho": "livro_caixa",
+     "rotulos": [
+      "JÁ",
+      "PESADO"
+     ],
+     "texto": "- ETIQUETA → {verde:CRÉDITO DE DIVIDENDO}\n- GRUPO 05 → {laranja:CÓDIGO 99}\n- SAÍDA → {verde:SEM NOVO IMPOSTO}\n- PLACAR MUDOU → {verde:CÂMBIO NÃO CONTA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:FRUTA PODRE:} PREJUÍZO DA CONTROLADA, A PARTIR DE {laranja:2024}, ABATE LUCROS DELA (§ 14)",
+    "{ciano:IMPOSTO PAGO LÁ FORA PELA CONTROLADA:} DEDUTÍVEL, {laranja:COM LIMITE} (§ 15)"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NÃO HÁ PAPEL COLADO · A ETIQUETA É {laranja:UMA LINHA DA DECLARAÇÃO}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r46c_3_passos.png",
+   "semente": 4623,
+   "titulo": "O REGIME ANUAL PASSO A PASSO",
+   "topo": "{ciano:LEI 14.754, ART. 5º, § 10:} QUATRO PASSOS · {laranja:15%} NA DECLARAÇÃO, {vermelho:DISTRIBUINDO OU NÃO}",
+   "colunas": [
+    {
+     "titulo": "OS 4 PASSOS",
+     "texto": "- 1) BALANÇO: {laranja:IFRS OU BRASILEIRO}\n- PAÍS FAVORECIDO: {laranja:SÓ BRASILEIRO}\n- 2) {laranja:PTAX DE VENDA} DE FIM DE ANO\n- 3) 15% NA PROPORÇÃO DA PARTICIPAÇÃO\n- 4) CRÉDITO: {laranja:GRUPO 05, CÓDIGO 99}"
+    },
+    {
+     "titulo": "DEPOIS DE 31/12",
+     "texto": "- DISTRIBUIÇÃO: {verde:SEM NOVO IMPOSTO}\n- CÂMBIO ATÉ O RECEBIMENTO:\n- {verde:NÃO TRIBUTA}, {vermelho:NÃO DEDUZ}\n- PARTICIPAÇÃO: {laranja:GRUPO 03}\n- {ciano:P&R 475}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:É COMUM LER:} NA OPACA, DECLARA {laranja:SÓ AS COTAS} · {vermelho:ATENÇÃO:} NO REGIME ANUAL, A PARTICIPAÇÃO (GRUPO 03) E O {verde:CRÉDITO DE DIVIDENDO A RECEBER} (GRUPO 05)",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r46c_4_distribui.png",
+   "semente": 4624,
+   "titulo": "DISTRIBUIR MUDA O IMPOSTO?",
+   "dados": "- LUCRO DO BALANÇO: {ciano:100 MIL DÓLARES} (HIPOTÉTICO)\n- PTAX DO ÚLTIMO DIA ÚTIL: {ciano:5,50}\n- LUCRO EM REAIS: 550.000\n- SEM PREJUÍZOS NEM IMPOSTO LÁ FORA\n- A ÚNICA DIFERENÇA: A DISTRIBUIÇÃO",
+   "cenarios": [
+    {
+     "titulo": "NÃO DISTRIBUI",
+     "passos": "15% DE 550.000\nCRÉDITO A RECEBER\n550.000",
+     "resultado": "IR: R$ 82.500"
+    },
+    {
+     "titulo": "DISTRIBUI EM MARÇO",
+     "passos": "100 MIL A 5,80\nRECEBE 580.000\nCÂMBIO 30.000: NÃO TRIBUTA",
+     "resultado": "IR: R$ 82.500"
+    }
+   ],
+   "conclusao": {
+    "texto": "O IMPOSTO É O MESMO NOS DOIS CENÁRIOS: {laranja:15% EM 31/12} · A DISTRIBUIÇÃO {verde:NÃO ACRESCENTA NADA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r46d_1_fabrica.png",
+   "semente": 4631,
+   "titulo": "TODA CONTROLADA PAGA TODO ANO?",
+   "mitos": [
+    "TODA CONTROLADA = REGIME ANUAL",
+    "OPACA PAGA SEMPRE EM 31/12"
+   ],
+   "verdade": "PAGA QUANDO O {verde:LUCRO SAI}",
+   "desenho": {
+    "nome": "predio_andares",
+    "largura": 110
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} FÁBRICA DE MÓVEIS NA EUROPA\n- PAÍS SEM TRIBUTAÇÃO FAVORECIDA\n- RENDA ATIVA {verde:ACIMA DE 60%}\n- FORA DO § 5º: {laranja:SEM REGIME ANUAL}\n- {ciano:LEI 14.754, ART. 6º, II}\n- {ciano:REGRA:} PRIMEIRO VEJA O PAÍS E A RENDA ATIVA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r46d_2_fabrica.png",
+   "semente": 4632,
+   "titulo": "O GALPÃO-FÁBRICA",
+   "colunas": [
+    {
+     "titulo": "A PORTA",
+     "desenho": "caminhao",
+     "rotulos": [
+      "SAÍDA",
+      "DO LUCRO"
+     ],
+     "texto": "- CHAMINÉ → {verde:ATIVIDADE PRÓPRIA}\n- FRUTA SAI → {laranja:DISPONIBILIZAÇÃO}\n- PAGAMENTO, CRÉDITO\n- ENTREGA, EMPREGO, REMESSA\n- O QUE VIER → {laranja:PRIMEIRO}"
+    },
+    {
+     "titulo": "A JANELA",
+     "desenho": "exclamacao",
+     "rotulos": [
+      "EMPRÉSTIMO",
+      "AO DONO"
+     ],
+     "texto": "- EMPRÉSTIMO → {vermelho:CONTA COMO SAÍDA}\n- SE HOUVER → {laranja:LUCROS OU RESERVAS}\n- AO SÓCIO OU {laranja:A VINCULADO}\n- MADEIRA → {laranja:CAPITAL APLICADO}\n- MADEIRA VENDIDA → {vermelho:GANHO DE CAPITAL}"
+    }
+   ],
+   "faixas": [
+    "{ciano:LUCROS ATÉ 31/12/2023:} DE {laranja:QUALQUER} CONTROLADA, SÓ NA DISPONIBILIZAÇÃO (ART. 6º, I)",
+    "{ciano:ART. 6º-A:} A PESSOA FÍSICA PODE {verde:OPTAR} PELO REGIME ANUAL"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O GALPÃO TEM UMA PORTA · A LEI LISTA {laranja:CINCO FORMAS} DE SAÍDA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r46d_3_disponibilizacao.png",
+   "semente": 4633,
+   "titulo": "IMPOSTO NA DISPONIBILIZAÇÃO",
+   "topo": "{ciano:LEI 14.754, ART. 6º:} CONTROLADA {laranja:FORA DO § 5º} · 15% QUANDO O LUCRO CHEGA À PESSOA FÍSICA",
+   "colunas": [
+    {
+     "titulo": "QUEM E QUANDO",
+     "texto": "- SEM PAÍS FAVORECIDO\n- SEM REGIME PRIVILEGIADO\n- RENDA ATIVA {verde:60% OU MAIS}\n- O QUE VIER {laranja:PRIMEIRO}\n- EMPRÉSTIMO COM LUCRO: {vermelho:CONTA}"
+    },
+    {
+     "titulo": "CÂMBIO (ART. 7º)",
+     "texto": "- CAPITAL APLICADO NA {laranja:OPACA}\n- ALIENAÇÃO, BAIXA\n- LIQUIDAÇÃO, DEVOLUÇÃO\n- {laranja:GANHO DE CAPITAL}\n- {vermelho:15% A 22,5%} (LEI 8.981)"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:É COMUM LER:} A LEI {laranja:ACABOU COM O ADIAMENTO} · {vermelho:ATENÇÃO:} SÓ NAS CONTROLADAS DO {verde:REGIME ANUAL}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r46d_4_emprestimo.png",
+   "semente": 4634,
+   "titulo": "REINVESTIR OU EMPRESTAR?",
+   "dados": "- FÁBRICA CONTROLADA (HIPOTÉTICO)\n- PAÍS SEM TRIBUTAÇÃO FAVORECIDA\n- RENDA ATIVA: {ciano:80%}\n- LUCRO E RESERVAS · SEM OPÇÃO PELO ANUAL\n- A ÚNICA DIFERENÇA: O DESTINO DO DINHEIRO",
+   "cenarios": [
+    {
+     "titulo": "REINVESTE",
+     "passos": "LUCRO FICA NA FÁBRICA\nSEM PAGAMENTO\nSEM CRÉDITO AO SÓCIO",
+     "resultado": "SEM IMPOSTO AGORA"
+    },
+    {
+     "titulo": "EMPRESTA AO SÓCIO",
+     "passos": "HÁ LUCROS E RESERVAS\nOPERAÇÃO DE CRÉDITO\n= DISPONIBILIZAÇÃO",
+     "resultado": "15% NA DECLARAÇÃO"
+    }
+   ],
+   "conclusao": {
+    "texto": "NO GALPÃO-FÁBRICA, O IMPOSTO ESPERA A SAÍDA · {vermelho:EMPRÉSTIMO AO DONO} É SAÍDA PELA JANELA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r46e_1_irrevogavel.png",
+   "semente": 4641,
+   "titulo": "DÁ PARA DESFAZER O VIDRO?",
+   "mitos": [
+    "TRANSPARÊNCIA: ESCOLHA ANUAL",
+    "ENTRA E SAI QUANDO QUISER"
+   ],
+   "verdade": "OPÇÃO {vermelho:IRREVOGÁVEL} ENQUANTO DETIVER",
+   "desenho": {
+    "nome": "gelo_cadeado",
+    "largura": 110
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} OPTOU PELA TRANSPARÊNCIA\n- 2 ANOS DEPOIS, QUER VOLTAR: {vermelho:NÃO PODE}\n- IRREVOGÁVEL E {laranja:IRRETRATÁVEL}\n- ENQUANTO DETIVER {laranja:AQUELA} CONTROLADA\n- {ciano:LEI 14.754, ART. 8º, § 1º}\n- {ciano:REGRA:} DECIDA ANTES; DEPOIS NÃO HÁ VOLTA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r46e_2_vidro.png",
+   "semente": 4642,
+   "titulo": "O GALPÃO DE VIDRO",
+   "colunas": [
+    {
+     "titulo": "PAREDES DE VIDRO",
+     "desenho": "painel_claro",
+     "rotulos": [
+      "CADA",
+      "ÁRVORE"
+     ],
+     "texto": "- VIDRO → {verde:TRANSPARÊNCIA FISCAL}\n- CADA ÁRVORE → {laranja:CADA BEM DECLARADO}\n- REGRA DO POMAR → {laranja:DIRETO (R45)}\n- GALPÃO → {laranja:DESCONSIDERADO}\n- COLHEITA → {verde:15% NA DECLARAÇÃO}"
+    },
+    {
+     "titulo": "REGRAS DO VIDRO",
+     "desenho": "check",
+     "rotulos": [
+      "TODOS",
+      "OS DONOS"
+     ],
+     "texto": "- POR GALPÃO → {verde:POR ENTIDADE}\n- SEM VOLTA → {vermelho:IRREVOGÁVEL}\n- TODOS OS DONOS → {laranja:SÓCIOS RESIDENTES}\n- MUDANÇA → {vermelho:VALOR DE MERCADO}\n- DOIS GALPÕES → {laranja:OPÇÕES SEPARADAS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:QUANDO OPTAR:} CONTROLADA COMPRADA A PARTIR DE {laranja:2024} → {laranja:1ª DECLARAÇÃO} APÓS A COMPRA",
+    "{ciano:P&R 001:} QUEM OPTOU {vermelho:ENTREGA} A DECLARAÇÃO ANUAL"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O VIDRO NÃO SOME · NA LEI, A EMPRESA É {laranja:DESCONSIDERADA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r46e_3_transparencia.png",
+   "semente": 4643,
+   "titulo": "TRANSPARÊNCIA FISCAL",
+   "topo": "{ciano:LEI 14.754, ART. 8º:} BENS, DIREITOS E OBRIGAÇÕES DA CONTROLADA {laranja:COMO SE FOSSEM DA PESSOA FÍSICA}",
+   "colunas": [
+    {
+     "titulo": "A OPÇÃO (§§ 1º E 3º)",
+     "texto": "- {laranja:POR ENTIDADE}\n- IRREVOGÁVEL, IRRETRATÁVEL\n- {laranja:TODOS} OS SÓCIOS RESIDENTES\n- COMPRA DESDE 2024:\n- {laranja:1ª DECLARAÇÃO} APÓS"
+    },
+    {
+     "titulo": "SAÍDA (§ 4º)",
+     "texto": "- PARA CONTROLADA DO § 5º\n- {vermelho:SEM A OPÇÃO}\n- BENS A {laranja:VALOR DE MERCADO}\n- DIFERENÇA SOBRE O CUSTO\n- {vermelho:TRIBUTADA} NA HORA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:VIZINHO QUE CONFUNDE:} REGIME ANUAL = {laranja:PARTICIPAÇÃO E LUCRO} · TRANSPARÊNCIA = {verde:CADA BEM}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r46e_4_irmaos.png",
+   "semente": 4644,
+   "titulo": "UM SÓCIO BASTA?",
+   "dados": "- DOIS IRMÃOS RESIDENTES (HIPOTÉTICO)\n- OFFSHORE COMPRADA EM {ciano:2025}, {ciano:50% CADA}\n- SÓ AÇÕES E TÍTULOS: RENDA PASSIVA\n- OPÇÃO NA 1ª DECLARAÇÃO APÓS A COMPRA\n- A ÚNICA DIFERENÇA: QUEM OPTA",
+   "cenarios": [
+    {
+     "titulo": "OS DOIS OPTAM",
+     "passos": "TODOS OS SÓCIOS\nEMPRESA DESCONSIDERADA\nREGRAS DO DIRETO",
+     "resultado": "TRANSPARENTE"
+    },
+    {
+     "titulo": "SÓ UM OPTA",
+     "passos": "FALTA UM SÓCIO\nOPÇÃO INCOMPLETA\nRENDA PASSIVA",
+     "resultado": "REGIME ANUAL"
+    }
+   ],
+   "conclusao": {
+    "texto": "FEITA A OPÇÃO POR TODOS, ELA É {vermelho:IRREVOGÁVEL} ENQUANTO OS IRMÃOS DETIVEREM A OFFSHORE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r46f_1_trustee.png",
+   "semente": 4651,
+   "titulo": "O TRUSTEE VIRA DONO?",
+   "mitos": [
+    "TRUST CRIADO = BENS DO TRUSTEE",
+    "INSTITUIDOR PARA DE DECLARAR"
+   ],
+   "verdade": "PARA O FISCO: {verde:BENS DO INSTITUIDOR}",
+   "desenho": {
+    "nome": "pessoa",
+    "largura": 110
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} 2 MILHÕES DE DÓLARES NUM TRUST\n- BENEFICIÁRIOS: {laranja:OS FILHOS}\n- TITULAR NO BRASIL: {vermelho:A INSTITUIDORA}\n- ATÉ A {laranja:DISTRIBUIÇÃO} OU O {laranja:FALECIMENTO}\n- {ciano:LEI 14.754, ART. 10}\n- {ciano:REGRA:} QUEM ADMINISTRA NÃO É QUEM DECLARA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r46f_2_caseiro.png",
+   "semente": 4652,
+   "titulo": "O CASEIRO DO POMAR",
+   "colunas": [
+    {
+     "titulo": "O CASEIRO",
+     "desenho": "pessoa",
+     "rotulos": [
+      "CUIDA",
+      "DO POMAR"
+     ],
+     "texto": "- DONO → {verde:INSTITUIDOR (SETTLOR)}\n- CASEIRO → {laranja:TRUSTEE}\n- HERDEIROS → {laranja:BENEFICIÁRIOS}\n- CADERNO → {laranja:TRUST DEED}\n- CARTA → {laranja:LETTER OF WISHES}"
+    },
+    {
+     "titulo": "O PRESENTE",
+     "desenho": "estrela",
+     "rotulos": [
+      "A",
+      "PASSAGEM"
+     ],
+     "texto": "- EM VIDA → {verde:DOAÇÃO}\n- NO FALECIMENTO → {laranja:CAUSA MORTIS}\n- O QUE VIER {laranja:PRIMEIRO}\n- FRUTAS → {laranja:DO DONO DO DIA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:TRUSTEE:} ADMINISTRA COM {laranja:DEVER FIDUCIÁRIO} · PARA O FISCO, {vermelho:NÃO É O TITULAR}",
+    "{ciano:INFORMAÇÕES:} INSTITUIDOR OU BENEFICIÁRIO {laranja:PEDEM AO TRUSTEE} RECURSOS E DADOS PARA O IMPOSTO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} CASEIRO É EMPREGADO · O TRUST É {laranja:CONTRATO DE LEI ESTRANGEIRA}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r46f_3_trust.png",
+   "semente": 4653,
+   "titulo": "TRUSTS NO EXTERIOR",
+   "topo": "{ciano:LEI 14.754, ARTS. 10 A 12:} CONTRATO REGIDO POR {laranja:LEI ESTRANGEIRA} · COMPLEMENTO DO TEMA OFFSHORE",
+   "colunas": [
+    {
+     "titulo": "OS PERSONAGENS (ART. 12)",
+     "texto": "- INSTITUIDOR: {laranja:ENTREGA OS BENS}\n- TRUSTEE: {laranja:ADMINISTRA}\n- BENEFICIÁRIO: {laranja:RECEBE}\n- ESCRITURA: AS REGRAS\n- CARTA DE DESEJOS: AS VONTADES"
+    },
+    {
+     "titulo": "O TITULAR (ART. 10)",
+     "texto": "- ATÉ A PASSAGEM: {verde:INSTITUIDOR}\n- DEPOIS: {verde:BENEFICIÁRIO}\n- RENDIMENTOS: {laranja:REGRA DO TITULAR}\n- CONTROLADA NO TRUST:\n- {laranja:REGRAS DE CONTROLADAS}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:OBRIGAÇÃO (P&R 001):} TRUST EM SEU NOME EM {laranja:31/12} → {vermelho:DECLARAÇÃO ANUAL OBRIGATÓRIA}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r46f_4_distribuicao.png",
+   "semente": 4654,
+   "titulo": "QUEM DECLARA OS JUROS?",
+   "dados": "- TRUST COM APLICAÇÕES NO EXTERIOR (HIPOTÉTICO)\n- JUROS RECEBIDOS AO LONGO DO ANO\n- INSTITUIDORA VIVA · BENEFICIÁRIO: O FILHO\n- REGRAS DE APLICAÇÕES DA R45\n- A ÚNICA DIFERENÇA: HOUVE DISTRIBUIÇÃO?",
+   "cenarios": [
+    {
+     "titulo": "SEM DISTRIBUIÇÃO",
+     "passos": "BENS DA MÃE\nJUROS DO ANO INTEIRO\nNA DECLARAÇÃO DELA",
+     "resultado": "TITULAR: A MÃE"
+    },
+    {
+     "titulo": "DISTRIBUI EM JUNHO",
+     "passos": "JUNHO: DOAÇÃO\nATÉ JUNHO: MÃE\nDEPOIS: FILHO",
+     "resultado": "TITULAR: O FILHO"
+    }
+   ],
+   "conclusao": {
+    "texto": "OS RENDIMENTOS SEGUEM {laranja:QUEM É O TITULAR NA DATA} · A PASSAGEM EM VIDA É {verde:DOAÇÃO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r46g_1_momento.png",
+   "semente": 4661,
+   "titulo": "MESMA ALÍQUOTA, MESMO RESULTADO?",
+   "mitos": [
+    "15% = 15%, DÁ NA MESMA",
+    "SÓ A ALÍQUOTA IMPORTA"
+   ],
+   "verdade": "O {laranja:MOMENTO} DO IMPOSTO {verde:MUDA O RESULTADO}",
+   "desenho": {
+    "nome": "ampulheta",
+    "largura": 100
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} 1 MILHÃO NO MESMO ETF, 5 ANOS\n- DIRETO: 15% {verde:SÓ NA VENDA}\n- OFFSHORE DO REGIME ANUAL: 15% {vermelho:TODO 31/12}\n- MESMA ALÍQUOTA, {laranja:DATAS DIFERENTES}\n- IMPOSTO ADIADO {verde:CONTINUA RENDENDO}\n- {ciano:REGRA:} PERGUNTE QUANDO, NÃO SÓ QUANTO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r46g_2_mapa.png",
+   "semente": 4662,
+   "titulo": "O MAPA DO TERRENO",
+   "colunas": [
+    {
+     "titulo": "O MAPA DO TERRENO",
+     "desenho": "placa",
+     "rotulos": [
+      "QUANDO",
+      "PESA"
+     ],
+     "texto": "- POMAR ABERTO → {verde:NA COLHEITA}\n- GALPÃO FECHADO → {laranja:TODO 31/12}\n- GALPÃO-FÁBRICA → {laranja:NA SAÍDA}\n- GALPÃO DE VIDRO → {verde:NA COLHEITA}\n- TRUST → {laranja:REGRA DO TITULAR}"
+    },
+    {
+     "titulo": "CASEIRO E BALANÇA",
+     "desenho": "balanca",
+     "rotulos": [
+      "15%",
+      "SOBRE O GANHO"
+     ],
+     "texto": "- CASEIRO → {laranja:TRUST: VALE O TITULAR}\n- BALANÇA → {laranja:15% NA MAIORIA}\n- CÂMBIO DO CAPITAL → {vermelho:15% A 22,5%}\n- DIA DA PESAGEM → {verde:É O QUE MUDA}\n- QUANTO E QUANDO → {verde:OLHE OS DOIS}"
+    }
+   ],
+   "faixas": [
+    "{ciano:IMPOSTO PAGO MAIS CEDO:} SAI DA CARTEIRA E {vermelho:PARA DE RENDER}",
+    "{ciano:IMPOSTO PAGO NO FIM:} FICA NA CARTEIRA E {verde:RENDE JUNTO} ATÉ A VENDA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} FRUTA PESADA CEDO NÃO PERDE NADA · {laranja:IMPOSTO PAGO CEDO DEIXA DE RENDER}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r46g_3_quadro.png",
+   "semente": 4663,
+   "titulo": "ATIVOS × OFFSHORE: O QUADRO",
+   "topo": "{ciano:CINCO ESTRUTURAS:} {laranja:15%} NA MAIORIA · O QUE AS SEPARA É {laranja:O QUE SE DECLARA} E {laranja:QUANDO}",
+   "colunas": [
+    {
+     "titulo": "O QUE SE DECLARA",
+     "texto": "- DIRETO: {laranja:CADA APLICAÇÃO}\n- ANUAL: {laranja:GRUPO 03 + GRUPO 05}\n- FÁBRICA: A PARTICIPAÇÃO\n- VIDRO: {laranja:CADA BEM}\n- TRUST: {laranja:PELO TITULAR}"
+    },
+    {
+     "titulo": "QUANDO NASCE",
+     "texto": "- DIRETO: {verde:NA COLHEITA}\n- ANUAL: {vermelho:TODO 31/12}\n- FÁBRICA: NA {laranja:DISPONIBILIZAÇÃO}\n- VIDRO: COMO O DIRETO\n- TRUST: {laranja:REGRA DO TITULAR}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:CÂMBIO DO CAPITAL NA OPACA (ART. 7º):} {laranja:GANHO DE CAPITAL}, {vermelho:15% A 22,5%}, NA SAÍDA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r46g_4_conta.png",
+   "semente": 4664,
+   "titulo": "DIRETO OU OFFSHORE?",
+   "dados": "- {ciano:R$ 1.000.000} POR 5 ANOS (HIPOTÉTICO)\n- ETF QUE NÃO DISTRIBUI, 8% AO ANO\n- CÂMBIO CONSTANTE, SEM CUSTOS\n- IMPOSTO DA OFFSHORE PAGO COM DISTRIBUIÇÃO\n- A ÚNICA DIFERENÇA: O MOMENTO DO IMPOSTO",
+   "cenarios": [
+    {
+     "titulo": "SÓ NA VENDA",
+     "passos": "FV: 1.469.328,08\nIR: 70.399,21\n6,94% LÍQUIDOS AO ANO",
+     "resultado": "1.398.928,87"
+    },
+    {
+     "titulo": "TODO 31/12",
+     "passos": "6,80% AO ANO\nIR: 68.734,00\nEM 5 PARCELAS",
+     "resultado": "1.389.492,68"
+    }
+   ],
+   "conclusao": {
+    "texto": "DIRETO: {verde:9.436,18 A MAIS}, MESMO PAGANDO MAIS IMPOSTO · 5 PEGADINHAS (FALSAS): SÓ PAGA AO DISTRIBUIR · PAGA 2 VEZES · TODA CONTROLADA NO ANUAL · VIDRO REVOGÁVEL · BENS DO TRUSTEE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
