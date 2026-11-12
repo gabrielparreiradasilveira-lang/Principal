@@ -1,0 +1,486 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "molde": "mito_verdade",
+   "saida": "r47a_1_inss-guarda-dinheiro.png",
+   "semente": 4701,
+   "titulo": "O INSS GUARDA O SEU DINHEIRO?",
+   "mitos": [
+    "UMA CONTA NO MEU NOME",
+    "DEVOLVE TUDO DEPOIS"
+   ],
+   "verdade": "{verde:REPARTIÇÃO SIMPLES}, COM {laranja:TETO}",
+   "desenho": {
+    "nome": "caixa_dagua",
+    "largura": 130
+   },
+   "apoio": "- {ciano:PORTARIA INTERMINISTERIAL MPS/MF 13, DE 09/01/2026:} TETO DE {laranja:R$ 8.475,55}\n- TETO DE 2025: R$ 8.157,41 · REAJUSTE DOS BENEFÍCIOS: {verde:3,90%}\n- PISO DO SALÁRIO DE CONTRIBUIÇÃO: R$ 1.621,00 (O SALÁRIO MÍNIMO)\n- {ciano:VALE PARA:} EMPREGADO, DOMÉSTICO E AVULSO, NAS FAIXAS DE 7,5% A 14%\n- {ciano:REGRA:} REPARTIÇÃO SIMPLES, {vermelho:SEM CAPITALIZAÇÃO INDIVIDUAL}"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r47a_2_caixa-dagua.png",
+   "semente": 4702,
+   "titulo": "A CAIXA D'ÁGUA DO PRÉDIO",
+   "colunas": [
+    {
+     "titulo": "QUEM SOBE COM BALDES",
+     "desenho": "caixa_dagua",
+     "rotulos": [
+      "ATIVOS",
+      "TODO MÊS"
+     ],
+     "texto": "- MORADOR QUE TRABALHA → {laranja:SEGURADO ATIVO}\n- BALDE → {laranja:CONTRIBUIÇÃO MENSAL}\n- ANDAR MAIS ALTO, BALDE MAIOR → {laranja:FAIXA DE 14%}\n- CAIXA ÚNICA → {verde:NADA SEPARADO POR NOME}"
+    },
+    {
+     "titulo": "A TORNEIRA",
+     "desenho": "torneira",
+     "rotulos": [
+      "HOJE",
+      "COM LIMITE"
+     ],
+     "texto": "- TORNEIRA ABERTA → {verde:BENEFÍCIO PAGO NO MÊS}\n- REGISTRO → {vermelho:TETO DE R$ 8.475,55}\n- POUCOS BALDES, MUITAS TORNEIRAS → {vermelho:DÉFICIT}\n- CISTERNA PRÓPRIA → {laranja:COMPLEMENTAR (R48)}"
+    }
+   ],
+   "faixas": [
+    "{ciano:SUSTENTABILIDADE:} DEPENDE DE QUANTOS CONTRIBUEM × QUANTOS RECEBEM, E POR QUANTO TEMPO RECEBEM",
+    "{ciano:FRASE PARA O CLIENTE:} O INSS NÃO É UMA POUPANÇA COM O SEU NOME"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA CAIXA, VOCÊ VÊ A SUA ÁGUA · NO INSS, O BENEFÍCIO SAI DA {laranja:REGRA DE CÁLCULO}, NÃO DA SOMA DO QUE VOCÊ PÔS",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r47a_3_reparticao-contribuicao.png",
+   "semente": 4703,
+   "titulo": "REPARTIÇÃO E CONTRIBUIÇÃO",
+   "topo": "{ciano:2 SISTEMAS:} INSS = PÚBLICO E {laranja:OBRIGATÓRIO} · COMPLEMENTAR = {verde:FACULTATIVO}, POUPANÇA INDIVIDUAL DE LONGO PRAZO",
+   "colunas": [
+    {
+     "titulo": "AS FAIXAS DE 2026",
+     "texto": "- ATÉ R$ 1.621,00 → {laranja:7,5%}\n- R$ 1.621,01 A 2.902,84 → {laranja:9%}\n- R$ 2.902,85 A 4.354,27 → {laranja:12%}\n- R$ 4.354,28 A 8.475,55 → {laranja:14%}\n- ACIMA DO TETO → {verde:NADA}"
+    },
+    {
+     "titulo": "COMO SE APLICA",
+     "texto": "- FAIXA A FAIXA, COMO DEGRAUS (EC 103, ART. 28, § 1º)\n- PISO R$ 1.621,00 · TETO R$ 8.475,55\n- LIMITES DO SALÁRIO DE CONTRIBUIÇÃO E DE BENEFÍCIO\n- CONTRIBUIÇÃO MÁXIMA EM 2026: {laranja:R$ 988,09}\n- ALÍQUOTA EFETIVA {vermelho:<} ALÍQUOTA DA FAIXA"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} {vermelho:SEM CONTA INDIVIDUAL} · OS 14% {vermelho:NÃO} PEGAM O SALÁRIO INTEIRO · EQUILÍBRIO DEMOGRÁFICO E ECONÔMICO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r47a_4_faixa-a-faixa.png",
+   "semente": 4704,
+   "titulo": "QUANTO SAI DO CONTRACHEQUE?",
+   "dados": "- VALORES DE 2026 · SALÁRIOS HIPOTÉTICOS\n- 3 PRIMEIRAS FAIXAS: 121,58 + 115,37 + 174,17 = {ciano:R$ 411,11}\n- 4ª FAIXA: 14% SÓ SOBRE O QUE PASSA DE R$ 4.354,27\n- ACIMA DE R$ 8.475,55, NADA É COBRADO\n- A ÚNICA DIFERENÇA: O SALÁRIO",
+   "cenarios": [
+    {
+     "titulo": "SALÁRIO DE R$ 5.000",
+     "passos": "411,11 + 14% × 645,73\n= 411,11 + 90,40\nEFETIVA: 10,03%",
+     "resultado": "R$ 501,51"
+    },
+    {
+     "titulo": "SALÁRIO DE R$ 15.000",
+     "passos": "411,11 + 14% × 4.121,28\n= 411,11 + 576,98\nEFETIVA: 6,59%",
+     "resultado": "R$ 988,09"
+    }
+   ],
+   "conclusao": {
+    "texto": "O ERRO DE PROVA: 14% × 15.000 = {vermelho:R$ 2.100} · O CERTO É {verde:R$ 988,09}, O MÁXIMO DE 2026",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r47b_1_media-e-beneficio.png",
+   "semente": 4711,
+   "titulo": "APOSENTADORIA = MÉDIA?",
+   "mitos": [
+    "RECEBO A MÉDIA INTEIRA",
+    "QUEM GANHOU MAIS LEVA TUDO"
+   ],
+   "verdade": "{laranja:60%} DA MÉDIA + {verde:2 PONTOS} POR ANO",
+   "desenho": "torneira",
+   "apoio": "- {ciano:EC 103, ART. 26:} MÉDIA DE {laranja:100%} DOS SALÁRIOS DE CONTRIBUIÇÃO\n- PERÍODO: DE JULHO DE 1994 (OU DO INÍCIO) ATÉ HOJE, ATUALIZADO\n- MÉDIA LIMITADA AO TETO: {laranja:R$ 8.475,55} EM 2026\n- 2 PONTOS POR ANO ACIMA DE {ciano:20 (HOMEM)} OU {ciano:15 (MULHER)}\n- {ciano:VALE PARA:} A REGRA GERAL; HÁ DUAS EXCEÇÕES COM 100%"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r47b_2_regua-torneira.png",
+   "semente": 4712,
+   "titulo": "A RÉGUA DA TORNEIRA",
+   "colunas": [
+    {
+     "titulo": "O BALDE MEDIDO",
+     "desenho": "caixa_dagua",
+     "rotulos": [
+      "DESDE 1994",
+      "ATÉ O TETO"
+     ],
+     "texto": "- TODOS OS BALDES → {laranja:100% DOS SALÁRIOS}\n- BALDE ANTIGO CORRIGIDO → {laranja:ATUALIZAÇÃO}\n- REGISTRO → {vermelho:MÉDIA TRAVA NO TETO}\n- BALDE PEQUENO FORA → {verde:DESCARTE}"
+    },
+    {
+     "titulo": "A ABERTURA",
+     "desenho": "torneira",
+     "rotulos": [
+      "60%",
+      "+2/ANO"
+     ],
+     "texto": "- ABERTURA INICIAL → {laranja:60% DA MÉDIA}\n- CADA ANO EXTRA → {verde:+2 PONTOS}\n- ACIDENTE DE TRABALHO → {verde:100%}\n- PEDÁGIO DE 100% → {verde:100%}"
+    }
+   ],
+   "faixas": [
+    "{ciano:PARA CHEGAR A 100% DA MÉDIA:} 40 ANOS DE CONTRIBUIÇÃO (HOMEM) · 35 ANOS (MULHER)",
+    "{ciano:DESCARTE:} SÓ SE MANTIVER O TEMPO MÍNIMO; O TEMPO DESCARTADO {vermelho:NÃO GERA PONTOS}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NA PIA, QUALQUER ABERTURA · NO INSS, SÓ {laranja:DEGRAUS DE 2 PONTOS} POR ANO EXTRA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r47b_3_media-percentual.png",
+   "semente": 4713,
+   "titulo": "A MÉDIA E O PERCENTUAL",
+   "topo": "{ciano:2 PASSOS:} (1) MÉDIA DE 100%, LIMITADA AO TETO → (2) {laranja:60%} + {verde:2 PONTOS} POR ANO ACIMA DO MÍNIMO",
+   "colunas": [
+    {
+     "titulo": "PASSO 1 · A MÉDIA",
+     "texto": "- MÉDIA ARITMÉTICA SIMPLES\n- 100% DOS SALÁRIOS DESDE {laranja:07/1994}\n- VALORES {verde:ATUALIZADOS}\n- TETO: CONTRIBUIU SOBRE R$ 20 MIL → MÉDIA DE {vermelho:R$ 8.475,55}"
+    },
+    {
+     "titulo": "PASSO 2 · O PERCENTUAL",
+     "texto": "- HOMEM: 60% + 2 POR ANO ACIMA DE {laranja:20}\n- MULHER: 60% + 2 POR ANO ACIMA DE {laranja:15}\n- EX.: HOMEM, 35 ANOS → {verde:90%}\n- EXCEÇÕES: PEDÁGIO DE 100% · ACIDENTE OU DOENÇA DO TRABALHO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:É COMUM LER:} \"7,5% A 14% SOBRE O SALÁRIO BRUTO\" · {vermelho:ATENÇÃO:} ISSO É A {laranja:CONTRIBUIÇÃO}, NÃO O BENEFÍCIO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r47b_4_marcos-ana.png",
+   "semente": 4714,
+   "titulo": "QUANTO MARCOS E ANA RECEBEM?",
+   "dados": "- VALORES DE 2026 · MÉDIAS JÁ ATUALIZADAS (HIPOTÉTICO)\n- MARCOS: 35 ANOS DE CONTRIBUIÇÃO, MÉDIA DE {ciano:R$ 10.000}\n- ANA: 30 ANOS DE CONTRIBUIÇÃO, MÉDIA DE {ciano:R$ 6.000}\n- TETO: R$ 8.475,55 · RÉGUA: 60% + 2 POR ANO EXTRA\n- O QUE MUDA: A RÉGUA DE CADA UM",
+   "cenarios": [
+    {
+     "titulo": "MARCOS",
+     "passos": "60 + 2 × (35 − 20) = 90%\nMÉDIA TRAVADA NO TETO\n90% × 8.475,55",
+     "resultado": "R$ 7.628"
+    },
+    {
+     "titulo": "ANA",
+     "passos": "60 + 2 × (30 − 15) = 90%\n90% × 6.000\nRÉGUA DO HOMEM: 80%",
+     "resultado": "R$ 5.400"
+    }
+   ],
+   "conclusao": {
+    "texto": "PELA RÉGUA DO HOMEM, ANA TERIA {vermelho:R$ 4.800} · A RÉGUA DA MULHER RENDE {verde:+R$ 600} POR MÊS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r47c_1_mesma-regra.png",
+   "semente": 4721,
+   "titulo": "TODO MUNDO PELA MESMA REGRA?",
+   "mitos": [
+    "MESMA IDADE PARA TODOS",
+    "MESMO TEMPO MÍNIMO"
+   ],
+   "verdade": "DEPENDE DO {laranja:SEXO} E DA {verde:FILIAÇÃO}",
+   "desenho": {
+    "nome": "ampulheta",
+    "largura": 110
+   },
+   "apoio": "- {ciano:EC 103/2019:} PUBLICADA NO DOU EM {laranja:13/11/2019}, VIGENTE NA PUBLICAÇÃO\n- FILIADO DEPOIS: {ciano:62 ANOS + 15 (MULHER)} · {ciano:65 ANOS + 20 (HOMEM)}\n- FILIADO ATÉ A DATA: 5 REGRAS DE TRANSIÇÃO\n- PONTOS E IDADES DAS TRANSIÇÕES SOBEM {laranja:A CADA 1º DE JANEIRO}\n- {ciano:VALOR:} 60% DA MÉDIA + 2 POR ANO, SALVO OS PEDÁGIOS\n- {ciano:FORA DESTA AULA:} PROFESSORES, ESPECIAIS, PCD, SERVIDORES"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r47c_2_portas-transicao.png",
+   "semente": 4722,
+   "titulo": "QUANDO A TORNEIRA ABRE",
+   "colunas": [
+    {
+     "titulo": "MORADOR NOVO",
+     "desenho": "pessoa",
+     "rotulos": [
+      "DEPOIS DE",
+      "13/11/2019"
+     ],
+     "texto": "- UMA CHAVE SÓ → {laranja:REGRA PERMANENTE}\n- MULHER → {verde:62 ANOS + 15 DE BALDES}\n- HOMEM → {verde:65 ANOS + 20 DE BALDES}\n- SEM PORTA EXTRA → {vermelho:SEM TRANSIÇÃO}\n- FILIADO EM 2020 → {laranja:SÓ A PERMANENTE}"
+    },
+    {
+     "titulo": "MORADOR ANTIGO",
+     "desenho": "ampulheta",
+     "rotulos": [
+      "ATÉ",
+      "13/11/2019"
+     ],
+     "texto": "- PORTA DA IDADE → {laranja:62/65 + 15}\n- PORTA DOS PONTOS → {laranja:93/103 EM 2026}\n- PORTA QUE SOBE → {laranja:59,5/64,5 EM 2026}\n- PORTAS COM PEDÁGIO → {laranja:50% OU 100%}\n- PEDÁGIO DE 100% → {verde:100% DA MÉDIA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ESCOLHA:} ENTRE AS REGRAS JÁ CUMPRIDAS, VALE COMPARAR DATA E VALOR DO BENEFÍCIO",
+    "{ciano:PONTOS:} IDADE + TEMPO DE CONTRIBUIÇÃO, {laranja:CONTADOS EM DIAS}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} A CHAVE DO PRÉDIO SERVE A TODOS · NO INSS HÁ {laranja:REGRAS ESPECIAIS} FORA DESTA AULA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r47c_3_permanente-transicoes.png",
+   "semente": 4723,
+   "titulo": "AS REGRAS EM 2026",
+   "topo": "{ciano:CORTE:} FILIAÇÃO ATÉ OU DEPOIS DE {laranja:13/11/2019} · MULHER × HOMEM · VALORES DE {verde:2026}",
+   "colunas": [
+    {
+     "titulo": "PERMANENTE E IDADE",
+     "texto": "- {ciano:PERMANENTE (ART. 19):} 62 + 15 (M) · 65 + 20 (H)\n- {ciano:IDADE (ART. 18):} 62 (M, DESDE 2023) · 65 (H) · 15 ANOS\n- {ciano:PEDÁGIO 50% (ART. 17):} >28 (M) OU >33 (H) EM 2019\n- TEMPO QUE FALTAVA + METADE · {laranja:FATOR PREVIDENCIÁRIO}"
+    },
+    {
+     "titulo": "PONTOS, PROGRESSIVA E 100%",
+     "texto": "- {ciano:PONTOS (ART. 15):} 93 (M, 30 ANOS) · 103 (H, 35) → ATÉ 100/105\n- {ciano:PROGRESSIVA (ART. 16):} 59,5 (M) · 64,5 (H) → ATÉ 62/65\n- {ciano:PEDÁGIO 100% (ART. 20):} 57 (M) · 60 (H) + O DOBRO DO QUE FALTAVA\n- PEDÁGIO DE 100% PAGA {verde:100% DA MÉDIA}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:VALOR:} NAS DEMAIS REGRAS, {laranja:60% + 2 PONTOS POR ANO} · PONTOS SOBEM 1 POR ANO · IDADE PROGRESSIVA, 6 MESES",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r47c_4_mulher-homem.png",
+   "semente": 4724,
+   "titulo": "QUEM JÁ PODE SE APOSENTAR?",
+   "dados": "- DUAS PESSOAS FILIADAS ANTES DA REFORMA (HIPOTÉTICO)\n- EM 2026: {ciano:60 ANOS} DE IDADE E {ciano:33 ANOS} DE CONTRIBUIÇÃO\n- PONTOS EXIGIDOS EM 2026: 93 (MULHER) · 103 (HOMEM)\n- CONTRIBUIÇÃO SEM INTERRUPÇÃO\n- A ÚNICA DIFERENÇA: O SEXO",
+   "cenarios": [
+    {
+     "titulo": "MULHER",
+     "passos": "60 + 33 = 93 PONTOS\n93 − 93 = 0 → CUMPRIU\n60 + 2 × 18 = 96%",
+     "resultado": "JÁ, COM 96%"
+    },
+    {
+     "titulo": "HOMEM",
+     "passos": "93 − 103 = −10\nAINDA SEM 35 ANOS\nIDADE: 65 − 60 = 5",
+     "resultado": "EM 5 ANOS"
+    }
+   ],
+   "conclusao": {
+    "texto": "AOS 65, ELE TERÁ 38 ANOS DE CONTRIBUIÇÃO: 60 + 2 × 18 = {verde:96%} · MESMOS NÚMEROS, {laranja:DATAS DIFERENTES}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r47d_1_dois-inteiros.png",
+   "semente": 4731,
+   "titulo": "OS DOIS BENEFÍCIOS INTEIROS?",
+   "mitos": [
+    "APOSENTADORIA + PENSÃO CHEIA",
+    "DUAS PENSÕES DE CÔNJUGE"
+   ],
+   "verdade": "O MAIOR {verde:INTEIRO}, O MENOR {vermelho:COM REDUTOR}",
+   "desenho": "torneira_dupla",
+   "apoio": "- {ciano:EC 103, ART. 24:} REDUTOR NA ACUMULAÇÃO DESDE {laranja:13/11/2019}\n- REGULAMENTO: DECRETO 3.048/1999, ART. 167-A\n- SALÁRIO MÍNIMO DE 2026: {laranja:R$ 1.621,00}, BASE DAS FAIXAS\n- {ciano:NÃO VALE PARA:} QUEM JÁ TINHA DIREITO AOS DOIS ANTES DA REFORMA\n- {ciano:PROIBIDO:} 2 PENSÕES DE CÔNJUGE NO MESMO REGIME"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r47d_2_duas-torneiras.png",
+   "semente": 4732,
+   "titulo": "DUAS TORNEIRAS NO APARTAMENTO",
+   "colunas": [
+    {
+     "titulo": "A PENSÃO POR MORTE",
+     "desenho": "casa",
+     "rotulos": [
+      "50%",
+      "+10/DEPENDENTE"
+     ],
+     "texto": "- COTA FAMILIAR → {laranja:50% DO BENEFÍCIO}\n- CADA DEPENDENTE → {verde:+10 PONTOS}, ATÉ 100%\n- VIÚVA SEM FILHOS → {laranja:60%}\n- COTA QUE ACABA → {vermelho:NÃO PASSA AOS OUTROS}"
+    },
+    {
+     "titulo": "A SEGUNDA TORNEIRA",
+     "desenho": "torneira_dupla",
+     "rotulos": [
+      "INTEIRA",
+      "EM DEGRAUS"
+     ],
+     "texto": "- ATÉ 1 SALÁRIO MÍNIMO → {verde:100%}\n- DE 1 A 2 → {laranja:60%}\n- DE 2 A 3 → {laranja:40%} · DE 3 A 4 → {laranja:20%}\n- ACIMA DE 4 → {vermelho:10%}"
+    }
+   ],
+   "faixas": [
+    "{ciano:EXCEÇÃO DA COTA:} COM 5 OU MAIS DEPENDENTES, A PENSÃO FICA EM 100%",
+    "{ciano:ACUMULAÇÕES PERMITIDAS:} PENSÃO + APOSENTADORIA · PENSÕES DE REGIMES DIFERENTES"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O REGISTRO DA PIA VOCÊ FECHA QUANDO QUER · O REDUTOR É {laranja:AUTOMÁTICO}, PELAS FAIXAS DA EC 103",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r47d_3_pensao-redutor.png",
+   "semente": 4733,
+   "titulo": "PENSÃO, VEDAÇÃO E REDUTOR",
+   "topo": "{ciano:SOBREPOSIÇÃO DE BENEFÍCIOS:} O CASO MAIS COMUM É A {laranja:APOSENTADORIA} DA PESSOA + A {laranja:PENSÃO} DO CÔNJUGE",
+   "colunas": [
+    {
+     "titulo": "PENSÃO E VEDAÇÃO",
+     "texto": "- BASE: APOSENTADORIA DO SEGURADO (OU A QUE TERIA POR INCAPACIDADE)\n- 50% + 10 POR DEPENDENTE · TETO DE 100%\n- {vermelho:VEDADO:} 2 PENSÕES DE CÔNJUGE NO MESMO REGIME\n- PERMITIDO: PENSÃO + APOSENTADORIA"
+    },
+    {
+     "titulo": "O REDUTOR, EM 2026",
+     "texto": "- ATÉ R$ 1.621,00 → {verde:100%}\n- R$ 1.621,01 A 3.242,00 → {laranja:60%}\n- R$ 3.242,01 A 4.863,00 → {laranja:40%}\n- R$ 4.863,01 A 6.484,00 → {laranja:20%}\n- ACIMA DE R$ 6.484,00 → {vermelho:10%}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} VEDAÇÃO {vermelho:≠} REDUTOR · O MAIOR VEM {verde:INTEIRO} · DIREITO ADQUIRIDO ANTES DA REFORMA ESCAPA DO REDUTOR",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r47d_4_ana-redutor.png",
+   "semente": 4734,
+   "titulo": "QUANTO DA PENSÃO CHEGA A ANA?",
+   "dados": "- VALORES DE 2026 (HIPOTÉTICO) · SALÁRIO MÍNIMO: R$ 1.621,00\n- APOSENTADORIA DE ANA: {ciano:R$ 5.400} (O BENEFÍCIO MAIOR)\n- MARCOS RECEBIA R$ 7.628 · ANA É A ÚNICA DEPENDENTE\n- PENSÃO: 60% × 7.628 = {ciano:R$ 4.576,80}\n- A ÚNICA DIFERENÇA: O REDUTOR",
+   "cenarios": [
+    {
+     "titulo": "SEM REDUTOR",
+     "passos": "5.400 + 4.576,80\nO QUE O CASAL\nIMAGINAVA",
+     "resultado": "R$ 9.976,80"
+    },
+    {
+     "titulo": "COM REDUTOR",
+     "passos": "1.621 + 972,60 + 533,92\n= PENSÃO DE 3.127,52\n+ 5.400",
+     "resultado": "R$ 8.527,52"
+    }
+   ],
+   "conclusao": {
+    "texto": "O REDUTOR TIRA {vermelho:R$ 1.449,28 POR MÊS} · NO PLANEJAMENTO, USE O VALOR {verde:DEPOIS DO REDUTOR}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r47e_1_inss-garante.png",
+   "semente": 4741,
+   "titulo": "O INSS GARANTE O PADRÃO?",
+   "mitos": [
+    "QUEM GANHA BEM, RECEBE BEM",
+    "O INSS REPÕE A RENDA"
+   ],
+   "verdade": "CALCULE O {vermelho:GAP} E {verde:COMPLETE}",
+   "desenho": {
+    "nome": "prancheta",
+    "largura": 110
+   },
+   "apoio": "- {ciano:RAIO X 9ª EDIÇÃO (ANBIMA/DATAFOLHA, ABR/2026):} {laranja:60%} DOS NÃO APOSENTADOS CONTAM COM O INSS\n- 93% DOS JÁ APOSENTADOS DEPENDEM DO INSS\n- TETO DE 2026: {laranja:R$ 8.475,55} · MÉDIA E CONTRIBUIÇÃO PARAM NELE\n- RENDA DE R$ 20 MIL → INSS DE CERCA DE R$ 7.628: {vermelho:38%}\n- {ciano:GAP} = RENDA DESEJADA − INSS − OUTRAS RENDAS\n- {ciano:VALE PARA:} QUALQUER CLIENTE ACIMA DO TETO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r47e_2_planilha-cisterna.png",
+   "semente": 4742,
+   "titulo": "A PLANILHA E A CISTERNA",
+   "colunas": [
+    {
+     "titulo": "A PLANILHA DE CONSUMO",
+     "desenho": "prancheta",
+     "rotulos": [
+      "QUANTO",
+      "QUANDO"
+     ],
+     "texto": "- ÁGUA DESEJADA → {laranja:ESTILO DE VIDA}\n- QUANDO PARA DE SUBIR BALDES → {laranja:IDADE DE SAÍDA}\n- POÇO PRÓPRIO → {laranja:ALUGUÉIS, OUTRAS RENDAS}\n- O QUE FALTA → {vermelho:GAP}"
+    },
+    {
+     "titulo": "A CISTERNA PRÓPRIA",
+     "desenho": "cofrinho",
+     "rotulos": [
+      "ENCHE CEDO",
+      "RENDE"
+     ],
+     "texto": "- CISTERNA → {verde:PREVIDÊNCIA COMPLEMENTAR}\n- VOLUME NECESSÁRIO → {verde:RESERVA AOS 65}\n- BALDE DO MÊS → {verde:APORTE}\n- COMEÇO CEDO → {verde:BALDE MENOR}"
+    }
+   ],
+   "faixas": [
+    "{ciano:EM VALORES DE HOJE:} USE O JURO REAL, O QUE RENDE ACIMA DA INFLAÇÃO",
+    "{ciano:SEM JUROS:} R$ 7.372 × 300 MESES = R$ 2,2 MILHÕES · COM 0,4% REAL AO MÊS: {verde:R$ 1,29 MILHÃO}"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} A ÁGUA DA CISTERNA NÃO RENDE · A RESERVA {verde:RENDE JUROS} NA ACUMULAÇÃO E NA RENDA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r47e_3_gap-roteiro.png",
+   "semente": 4743,
+   "titulo": "DO ESTILO DE VIDA AO APORTE",
+   "topo": "{ciano:ANALISAR:} ESTILO DE VIDA · IDADE DE SAÍDA · OUTRAS RENDAS · {laranja:VALOR NECESSÁRIO DE PREVIDÊNCIA COMPLEMENTAR}",
+   "colunas": [
+    {
+     "titulo": "POR QUE O INSS NÃO BASTA",
+     "texto": "- BENEFÍCIO E MÉDIA {vermelho:TRAVAM NO TETO}\n- REGRA GERAL: 60% DA MÉDIA + 2 POR ANO\n- 100% DA MÉDIA: 40 ANOS (H) · 35 (M)\n- ACIMA DO TETO, A REPOSIÇÃO {vermelho:DESPENCA}"
+    },
+    {
+     "titulo": "O ROTEIRO DO GAP",
+     "texto": "- RENDA DESEJADA, EM VALORES DE HOJE\n- {vermelho:−} INSS ESPERADO (REGRA DO CLIENTE)\n- {vermelho:−} OUTRAS RENDAS (ALUGUEL)\n- {laranja:= GAP} → {verde:RESERVA} → {verde:APORTE}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} GAP {vermelho:≠} RESERVA · O GAP É POR MÊS; A RESERVA PAGA O GAP POR TODA A APOSENTADORIA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r47e_4_comecar-40-50.png",
+   "semente": 4744,
+   "titulo": "COMEÇAR AOS 40 OU AOS 50?",
+   "dados": "- MARCOS (HIPOTÉTICO): QUER {ciano:R$ 15.000} POR MÊS DOS 65 AOS 90\n- INSS ESPERADO: R$ 7.628 → {laranja:GAP DE R$ 7.372}\n- JURO REAL: 0,4% AO MÊS (CERCA DE 4,91% AO ANO)\n- RESERVA AOS 65: {laranja:R$ 1.286.568,78}\n- A ÚNICA DIFERENÇA: A IDADE DE COMEÇAR",
+   "cenarios": [
+    {
+     "titulo": "COMEÇA AOS 40",
+     "passos": "FV 1.286.568,78 · PV 0\nn 300 · i 0,4 → PMT\nTOTAL: R$ 667,7 MIL",
+     "resultado": "R$ 2.225,72/MÊS"
+    },
+    {
+     "titulo": "COMEÇA AOS 50",
+     "passos": "FV 1.286.568,78 · PV 0\nn 180 · i 0,4 → PMT\nTOTAL: R$ 881 MIL",
+     "resultado": "R$ 4.894,29/MÊS"
+    }
+   ],
+   "conclusao": {
+    "texto": "10 ANOS DE ATRASO = APORTE {vermelho:2,2 VEZES} MAIOR · 5 PEGADINHAS (FALSAS): CONTA INDIVIDUAL · 14% SOBRE TUDO · BENEFÍCIO = MÉDIA · MESMO TEMPO PARA OS 2 PONTOS · PENSÃO INTEIRA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
