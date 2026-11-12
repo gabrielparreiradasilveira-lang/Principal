@@ -1,0 +1,687 @@
+{
+ "padrao": {
+  "fundo": "preto"
+ },
+ "slides": [
+  {
+   "molde": "mito_verdade",
+   "saida": "r37a_1_resgate.png",
+   "semente": 3701,
+   "titulo": "O COTISTA RESGATA O FII?",
+   "mitos": [
+    "PEDE O RESGATE AO ADMINISTRADOR",
+    "FII É COMO FUNDO DE RENDA FIXA"
+   ],
+   "verdade": "{vermelho:SEM RESGATE}: VENDE NA BOLSA",
+   "desenho": {
+    "nome": "predio_andares",
+    "largura": 150
+   },
+   "apoio": "- {ciano:LEI 8.668, ART. 2º:} CONDOMÍNIO FECHADO, {vermelho:RESGATE PROIBIDO}\n- PRAZO DETERMINADO OU INDETERMINADO\n- {ciano:CVM 175, ANEXO III:} CLASSE EM {laranja:REGIME FECHADO}\n- NOME: \"FUNDO DE INVESTIMENTO IMOBILIÁRIO\"\n- LIQUIDEZ DEPENDE DE {laranja:HAVER COMPRADOR}\n- {ciano:REGRA:} PRECISA DO DINHEIRO? VENDA NO PREGÃO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r37a_2_predio.png",
+   "semente": 3702,
+   "titulo": "O PRÉDIO EM FRAÇÕES",
+   "colunas": [
+    {
+     "titulo": "VENDER A FRAÇÃO",
+     "desenho": "predio_andares",
+     "rotulos": [
+      "SEM",
+      "DEVOLUÇÃO"
+     ],
+     "texto": "- FRAÇÃO DO PRÉDIO → {verde:COTA}\n- ADMINISTRADORA NÃO DEVOLVE → {vermelho:SEM RESGATE}\n- VENDE A OUTRA PESSOA → {laranja:MERCADO SECUNDÁRIO}\n- PREÇO DO DIA → {laranja:OFERTA E PROCURA}"
+    },
+    {
+     "titulo": "A ESCRITURA",
+     "desenho": "prancheta",
+     "rotulos": [
+      "NO NOME DELA",
+      "NÃO É DELA"
+     ],
+     "texto": "- ESCRITURA NO NOME DELA → {laranja:PROPRIETÁRIO FIDUCIÁRIO}\n- CARIMBO \"NÃO É DELA\" → {verde:NÃO SE COMUNICA}\n- PAGAR COM UM IMÓVEL → {laranja:INTEGRALIZAÇÃO EM IMÓVEIS}\n- AVALIAÇÃO DO IMÓVEL → {verde:LAUDO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:PREÇO DA COTA:} RENDA ESPERADA · JUROS · VACÂNCIA · QUALIDADE DOS IMÓVEIS · MERCADO",
+    "{ciano:JUROS SOBEM:} OUTROS INVESTIMENTOS ATRAEM, E A COTA TENDE A CAIR"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} FRAÇÃO DE PRÉDIO EXIGE CARTÓRIO · A COTA SE VENDE {laranja:EM SEGUNDOS}, SE HOUVER COMPRADOR",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r37a_3_negociacao.png",
+   "semente": 3703,
+   "titulo": "FII: O QUE É E COMO SE NEGOCIA",
+   "topo": "{ciano:FII:} VEÍCULO COLETIVO EM {laranja:ATIVOS IMOBILIÁRIOS} · RENDA · DIVERSIFICAÇÃO · MAIS LIQUIDEZ QUE O IMÓVEL",
+   "colunas": [
+    {
+     "titulo": "REGIME DE COTAS",
+     "texto": "- {vermelho:CONDOMÍNIO FECHADO}\n- RESGATE {vermelho:PROIBIDO}\n- SAÍDA: {verde:VENDA NA BOLSA}\n- PRAZO DETERMINADO: LIQUIDAÇÃO NO FIM\n- ETF TEM RESGATE PELOS AGENTES; {vermelho:FII NÃO}"
+    },
+    {
+     "titulo": "SEGURANÇA DA ESTRUTURA",
+     "texto": "- IMÓVEIS NO NOME DO {laranja:ADMINISTRADOR}\n- {laranja:PROPRIETÁRIO FIDUCIÁRIO}\n- {verde:NÃO SE COMUNICAM} COM O PATRIMÔNIO DELE\n- INTEGRALIZAÇÃO EM DINHEIRO OU IMÓVEIS\n- IMÓVEIS EXIGEM {laranja:LAUDO}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} IMÓVEL DIRETO: ESCRITURA, CARTÓRIO, MESES · COTA DE FII: {verde:PREGÃO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r37a_4_pvp.png",
+   "semente": 3704,
+   "titulo": "DESÁGIO OU ÁGIO?",
+   "dados": "- PL DE {ciano:R$ 500 MILHÕES} · {ciano:5 MILHÕES} DE COTAS (HIPOTÉTICO)\n- VALOR PATRIMONIAL: {laranja:R$ 100} POR COTA\n- P/VP = PREÇO ÷ VALOR PATRIMONIAL\n- MÉTRICA DE MERCADO, NÃO DA NORMA\n- A ÚNICA DIFERENÇA: O PREÇO NA BOLSA",
+   "cenarios": [
+    {
+     "titulo": "COTA A R$ 92",
+     "passos": "92 ÷ 100 = 0,92\nR$ 0,92 POR R$ 1\nDE PATRIMÔNIO",
+     "resultado": "DESÁGIO 8%"
+    },
+    {
+     "titulo": "COTA A R$ 108",
+     "passos": "108 ÷ 100 = 1,08\nR$ 1,08 POR R$ 1\nDE PATRIMÔNIO",
+     "resultado": "ÁGIO 8%"
+    }
+   ],
+   "conclusao": {
+    "texto": "DESÁGIO {vermelho:≠} PECHINCHA · O MERCADO PODE ESTAR DESCONTANDO {laranja:VACÂNCIA} OU {laranja:CRÉDITO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r37b_1_aluguel-garantido.png",
+   "semente": 3711,
+   "titulo": "FII É ALUGUEL GARANTIDO?",
+   "mitos": [
+    "RENDIMENTO CERTO",
+    "A COTA NÃO OSCILA"
+   ],
+   "verdade": "RENDA E PREÇO {laranja:VARIAM}",
+   "desenho": {
+    "nome": "grafico_baixa",
+    "largura": 185
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} UM GALPÃO, UM ÚNICO INQUILINO\n- O INQUILINO SAI → {vermelho:A RENDA SOME}\n- RENDIMENTO VARIA: OCUPAÇÃO, INADIMPLÊNCIA, DESPESAS\n- COTA NA BOLSA {laranja:OSCILA TODO DIA}\n- FII {vermelho:NÃO TEM FGC}\n- VACÂNCIA E ATRASO RELEVANTES → {laranja:FATO RELEVANTE}\n- {ciano:4 RISCOS:} LIQUIDEZ · CRÉDITO · VACÂNCIA · COMPOSIÇÃO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r37b_2_da-errado.png",
+   "semente": 3712,
+   "titulo": "O QUE DÁ ERRADO NO PRÉDIO",
+   "colunas": [
+    {
+     "titulo": "SALA E INQUILINO",
+     "desenho": "casa",
+     "rotulos": [
+      "VAZIA",
+      "ATRASADO"
+     ],
+     "texto": "- SALA VAZIA → {vermelho:VACÂNCIA}\n- INQUILINO ATRASA → {vermelho:CRÉDITO}\n- DEVEDOR DO CRI ATRASA → {vermelho:CRÉDITO NO PAPEL}\n- RENDA CAI PARA TODOS → {laranja:MENOS RENDIMENTO}"
+    },
+    {
+     "titulo": "PRÉDIO E BALCÃO",
+     "desenho": "predio_andares",
+     "rotulos": [
+      "UM SÓ",
+      "SEM COMPRADOR"
+     ],
+     "texto": "- UM ÚNICO INQUILINO → {vermelho:COMPOSIÇÃO}\n- MESMA REGIÃO OU SETOR → {laranja:CONCENTRAÇÃO}\n- NINGUÉM QUER COMPRAR → {vermelho:LIQUIDEZ}\n- VENDE COM DESCONTO → {laranja:PREÇO PIOR}"
+    }
+   ],
+   "faixas": [
+    "{ciano:FATO RELEVANTE (ANEXO III, ART. 37):} VACÂNCIA E ATRASO DE RENDIMENTOS SIGNIFICATIVOS",
+    "{ciano:LIQUIDEZ:} PESA MAIS EM FUNDOS PEQUENOS E POUCO NEGOCIADOS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} A SALA VAZIA SE VÊ PELA JANELA · NO FII, {laranja:SÓ NOS RELATÓRIOS}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r37b_3_riscos.png",
+   "semente": 3713,
+   "titulo": "OS 4 RISCOS DO FII",
+   "topo": "{ciano:RISCOS:} {vermelho:LIQUIDEZ} · {vermelho:CRÉDITO} · {vermelho:VACÂNCIA} · {vermelho:COMPOSIÇÃO} · SEM FGC",
+   "colunas": [
+    {
+     "titulo": "ONDE PESA MAIS",
+     "texto": "- LIQUIDEZ: FUNDO {laranja:PEQUENO E POUCO NEGOCIADO}\n- CRÉDITO: {laranja:PAPEL} E POUCOS INQUILINOS\n- VACÂNCIA: {laranja:TIJOLO}\n- COMPOSIÇÃO: {laranja:UM IMÓVEL OU INQUILINO}"
+    },
+    {
+     "titulo": "NÃO CONFUNDA",
+     "texto": "- VACÂNCIA: IMÓVEL {laranja:VAZIO}\n- INADIMPLÊNCIA: OCUPADO, {vermelho:SEM PAGAR}\n- MUITOS IMÓVEIS NA MESMA REGIÃO:\n- VACÂNCIA BAIXA, {vermelho:CONCENTRAÇÃO ALTA}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:ANTES DE INDICAR:} VOLUME NEGOCIADO · Nº DE INQUILINOS · VACÂNCIA · SETOR E REGIÃO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r37b_4_vacancia.png",
+   "semente": 3714,
+   "titulo": "QUANTO CUSTAM DUAS SALAS VAZIAS?",
+   "dados": "- FII COM {ciano:10 SALAS} DE R$ 10.000 POR MÊS (HIPOTÉTICO)\n- {ciano:100.000 COTAS}\n- SEM DESPESAS, TODO O ALUGUEL DISTRIBUÍDO\n- UM INQUILINO ÚNICO NO PRÉDIO: SAÍDA ZERA A RENDA\n- A ÚNICA DIFERENÇA: A OCUPAÇÃO",
+   "cenarios": [
+    {
+     "titulo": "10 SALAS OCUPADAS",
+     "passos": "OCUPAÇÃO DE 100%\n10 × 10.000 = 100.000\n÷ 100.000 COTAS",
+     "resultado": "R$ 1,00/COTA"
+    },
+    {
+     "titulo": "2 SALAS VAZIAS",
+     "passos": "OCUPAÇÃO DE 80%\n8 × 10.000 = 80.000\n÷ 100.000 COTAS",
+     "resultado": "R$ 0,80/COTA"
+    }
+   ],
+   "conclusao": {
+    "texto": "VACÂNCIA DE 20% → RENDIMENTO {vermelho:20% MENOR} · A COTA DO CLIENTE É A MESMA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r37c_1_95-todo-mes.png",
+   "semente": 3721,
+   "titulo": "95% TODO MÊS?",
+   "mitos": [
+    "A LEI MANDA PAGAR TODO MÊS",
+    "CONTA O ALUGUEL CONTRATADO"
+   ],
+   "verdade": "95% DO CAIXA, {laranja:NO SEMESTRE}",
+   "desenho": {
+    "nome": "livro_caixa",
+    "largura": 150
+   },
+   "apoio": "- {ciano:LEI 8.668, ART. 10, PARÁGRAFO ÚNICO}\n- NO MÍNIMO {verde:95% DOS LUCROS} AUFERIDOS\n- {laranja:REGIME DE CAIXA}\n- BALANÇO OU BALANCETE {laranja:SEMESTRAL}: 30/6 E 31/12\n- MENSAL: {verde:POLÍTICA DE DISTRIBUIÇÃO} (ANEXO III, ART. 11, VI)\n- {ciano:REGRA:} RENDIMENTO SEM GARANTIA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r37c_2_aluguel-dividido.png",
+   "semente": 3722,
+   "titulo": "O ALUGUEL DIVIDIDO",
+   "colunas": [
+    {
+     "titulo": "O QUE ENTROU",
+     "desenho": "dinheiro",
+     "rotulos": [
+      "NO",
+      "CAIXA"
+     ],
+     "texto": "- ALUGUEL PAGO → {verde:ENTRA NA CONTA}\n- ALUGUEL SÓ CONTRATADO → {vermelho:NÃO ENTRA}\n- PAGOU DEPOIS → {laranja:ENTRA NO MÊS DO PAGAMENTO}\n- REGRA → {verde:REGIME DE CAIXA}\n- CONTRATO SEM PAGAMENTO → {vermelho:FORA DA CONTA}"
+    },
+    {
+     "titulo": "O SEMESTRE",
+     "desenho": "livro_caixa",
+     "rotulos": [
+      "30/6",
+      "31/12"
+     ],
+     "texto": "- FECHAMENTO A CADA 6 MESES → {laranja:BALANÇO SEMESTRAL}\n- MÍNIMO DISTRIBUÍDO → {verde:95%}\n- PAGAMENTO MENSAL → {laranja:ANTECIPAÇÃO}\n- QUEM DEFINE O MENSAL → {laranja:REGULAMENTO}\n- SEM GARANTIA → {vermelho:RENDA VARIA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:RENDIMENTO VARIA COM:} OCUPAÇÃO · REAJUSTES · INADIMPLÊNCIA · DESPESAS",
+    "{ciano:DIVIDEND YIELD:} RENDIMENTO ÷ PREÇO DA COTA · MÉTRICA DE MERCADO",
+    "{ciano:ANEXO III, ART. 11, VI:} A POLÍTICA DE DISTRIBUIÇÃO ESTÁ NO REGULAMENTO"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NO PRÉDIO, OS DONOS ESCOLHEM · NO FII, O PISO DE {laranja:95% É DA LEI}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r37c_3_regra-95.png",
+   "semente": 3723,
+   "titulo": "A REGRA DOS 95%",
+   "topo": "{ciano:MÍNIMO DE 95%} DOS LUCROS · {laranja:REGIME DE CAIXA} · BALANÇO {laranja:SEMESTRAL}",
+   "colunas": [
+    {
+     "titulo": "CAIXA × COMPETÊNCIA",
+     "texto": "- {verde:CAIXA}: O QUE ENTROU\n- {vermelho:COMPETÊNCIA}: O QUE FOI CONTRATADO\n- FII USA O {verde:CAIXA}\n- INQUILINO ATRASOU: {laranja:NÃO DISTRIBUI AINDA}"
+    },
+    {
+     "titulo": "DIVIDEND YIELD",
+     "texto": "- RENDIMENTO ÷ {laranja:PREÇO}\n- PREÇO CAI, RENDIMENTO IGUAL:\n- DY {laranja:SOBE}\n- FUNDO {vermelho:NÃO MELHOROU}\n- DY ALTO PODE SER {vermelho:ALERTA}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} 95% É NO {laranja:SEMESTRE} · O MENSAL É {verde:ESCOLHA DO REGULAMENTO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r37c_4_dy.png",
+   "semente": 3724,
+   "titulo": "QUANTO É O DIVIDEND YIELD?",
+   "dados": "- COTA A {ciano:R$ 100} · RENDIMENTO DE {ciano:R$ 0,85} POR MÊS (HIPOTÉTICO)\n- RENDIMENTO CONSTANTE E PREÇO ESTÁVEL\n- DY MENSAL: 0,85 ÷ 100 = {laranja:0,85%}\n- %T: PARTE SOBRE O TOTAL\n- A ÚNICA DIFERENÇA: REINVESTIR OU NÃO",
+   "cenarios": [
+    {
+     "titulo": "SEM REINVESTIR",
+     "passos": "0,85% × 12 MESES\nSOMA SIMPLES\nSEM JUROS SOBRE JUROS",
+     "resultado": "10,20% A.A."
+    },
+    {
+     "titulo": "REINVESTINDO",
+     "passos": "100 × 1,0085¹²\n= 110,69\nJUROS SOBRE JUROS",
+     "resultado": "10,69% A.A."
+    }
+   ],
+   "conclusao": {
+    "texto": "A DIFERENÇA É O {verde:REINVESTIMENTO} · E O DY USA O {laranja:PREÇO} DA COTA: SE O PREÇO CAI, O DY SOBE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r37d_1_taxa-saida.png",
+   "semente": 3731,
+   "titulo": "FII COBRA TAXA DE SAÍDA?",
+   "mitos": [
+    "SAÍDA PARA DESESTIMULAR GIRO",
+    "COMO OUTROS FUNDOS"
+   ],
+   "verdade": "SAÍDA {vermelho:PROIBIDA}, INGRESSO PODE",
+   "desenho": {
+    "nome": "placa",
+    "largura": 150
+   },
+   "apoio": "- {ciano:CVM 175, ANEXO III, ART. 11, § 1º}\n- TAXA DE INGRESSO: {verde:PERMITIDA}\n- TAXA DE SAÍDA: {vermelho:PROIBIDA}\n- PERFORMANCE: {verde:PERMITIDA} (ART. 33)\n- ADMINISTRAÇÃO E GESTÃO REDUZEM O {laranja:RENDIMENTO LÍQUIDO}\n- {ciano:REGRA:} QUEM SAI VENDE NA BOLSA, SEM TAXA DO FUNDO"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r37d_2_andar-novo.png",
+   "semente": 3732,
+   "titulo": "A CONTA E O ANDAR NOVO",
+   "colunas": [
+    {
+     "titulo": "A CONTA DO CONDOMÍNIO",
+     "desenho": "livro_caixa",
+     "rotulos": [
+      "ANTES",
+      "DE DIVIDIR"
+     ],
+     "texto": "- ADMINISTRADORA → {laranja:ADMINISTRAÇÃO}\n- QUEM CUIDA DOS CONTRATOS → {laranja:GESTÃO}\n- ELEVADOR E PINTURA → {laranja:MANUTENÇÃO}\n- AVALIAÇÃO DO PRÉDIO → {laranja:AVALIAÇÕES}"
+    },
+    {
+     "titulo": "O ANDAR NOVO",
+     "desenho": "predio_andares",
+     "rotulos": [
+      "DONOS",
+      "PRIMEIRO"
+     ],
+     "texto": "- ANDAR NOVO → {verde:NOVA EMISSÃO}\n- DONOS COMPRAM PRIMEIRO → {verde:PREFERÊNCIA}\n- QUEM DECIDE → {laranja:ASSEMBLEIA OU GESTOR}\n- VENDIDO BARATO → {vermelho:DILUIÇÃO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:BASE DA TAXA DE ADM:} VALOR DE MERCADO (COTA EM ÍNDICE DE LIQUIDEZ) OU PL, RENDIMENTO, RECEITA",
+    "{ciano:NOVA OFERTA:} SÓ DEPOIS DE ENCERRAR A ANTERIOR (CVM 175, ART. 26)"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O ANDAR NOVO DEPENDE DA PREFEITURA · A EMISSÃO, DA {laranja:ASSEMBLEIA OU DO GESTOR}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r37d_3_taxas-emissoes.png",
+   "semente": 3733,
+   "titulo": "TAXAS E NOVAS EMISSÕES",
+   "topo": "{ciano:TAXAS:} ADMINISTRAÇÃO · GESTÃO · PERFORMANCE (ÀS VEZES) · {verde:INGRESSO SIM} · {vermelho:SAÍDA NÃO}",
+   "colunas": [
+    {
+     "titulo": "QUEM APROVA A EMISSÃO",
+     "texto": "- REGRA: {laranja:ASSEMBLEIA} (ART. 70, III)\n- DEFINE SE HÁ {verde:PREFERÊNCIA}\n- OU O {laranja:GESTOR}, SE O REGULAMENTO\n- AUTORIZAR (ART. 48, § 2º, VII)\n- COM OU SEM PREFERÊNCIA"
+    },
+    {
+     "titulo": "COMO A OFERTA FUNCIONA",
+     "texto": "- SUBSCRIÇÃO PARCIAL COM {laranja:VALOR MÍNIMO}\n- MÍNIMO NÃO ATINGIDO: {vermelho:CANCELADA}\n- NOVA OFERTA SÓ APÓS A ANTERIOR\n- EMISSÃO ABAIXO DO VALOR PATRIMONIAL\n- PREJUDICA QUEM {vermelho:NÃO SUBSCREVE}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} INGRESSO = UMA VEZ, NA ENTRADA · ADMINISTRAÇÃO = {laranja:AO LONGO DO TEMPO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r37d_4_diluicao.png",
+   "semente": 3734,
+   "titulo": "QUEM É DILUÍDO?",
+   "dados": "- {ciano:100.000 COTAS} A {ciano:R$ 100} DE VALOR PATRIMONIAL (HIPOTÉTICO)\n- EMISSÃO DE {ciano:50.000 COTAS} A {vermelho:R$ 95}\n- COTISTA COM {ciano:300 COTAS}\n- SEM CUSTOS DA OFERTA\n- A ÚNICA DIFERENÇA: ANTES OU DEPOIS DA EMISSÃO",
+   "cenarios": [
+    {
+     "titulo": "ANTES DA EMISSÃO",
+     "passos": "100.000 × 100\nPL: 10 MILHÕES\nNADA MUDOU AINDA",
+     "resultado": "R$ 100,00"
+    },
+    {
+     "titulo": "DEPOIS DA EMISSÃO",
+     "passos": "10 MI + 4,75 MI\n÷ 150.000 COTAS\nTODAS AS COTAS CAEM",
+     "resultado": "R$ 98,33"
+    }
+   ],
+   "conclusao": {
+    "texto": "FATOR 0,5 → O COTISTA PODE SUBSCREVER {verde:150 COTAS} · QUEM NÃO SUBSCREVE É {vermelho:DILUÍDO}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r37e_1_cri-tijolo.png",
+   "semente": 3741,
+   "titulo": "CRI É TIJOLO?",
+   "mitos": [
+    "TUDO NO FII É IMÓVEL",
+    "CRI = FUNDO DE TIJOLO"
+   ],
+   "verdade": "> 2/3 EM TÍTULOS = {laranja:PAPEL}",
+   "desenho": {
+    "nome": "prancheta",
+    "largura": 150
+   },
+   "apoio": "- {ciano:ANBIMA, ANEXO COMPLEMENTAR VI, ART. 27}\n- {verde:TIJOLO}: > 2/3 EM IMÓVEIS E DIREITOS REAIS\n- {laranja:PAPEL}: > 2/3 EM TÍTULOS E VALORES MOBILIÁRIOS\n- {ciano:MULTIESTRATÉGIA}: NENHUM DOS DOIS PASSA DE 2/3\n- CRI = CERTIFICADO DE RECEBÍVEIS IMOBILIÁRIOS\n- {ciano:REGRA:} OLHE A CARTEIRA, NÃO O NOME"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r37e_2_dono-banco.png",
+   "semente": 3742,
+   "titulo": "DONO OU BANCO DO PRÉDIO",
+   "colunas": [
+    {
+     "titulo": "O DONO DO PRÉDIO",
+     "desenho": "predio_andares",
+     "rotulos": [
+      "ALUGUEL",
+      "OCUPAÇÃO"
+     ],
+     "texto": "- RECEBE ALUGUEL → {verde:TIJOLO}\n- SALA VAZIA DÓI → {vermelho:VACÂNCIA}\n- SHOPPING, LAJE, GALPÃO → {verde:IMÓVEIS FÍSICOS}\n- PRÉDIO EM OBRA → {laranja:DESENVOLVIMENTO}"
+    },
+    {
+     "titulo": "O BANCO DO PRÉDIO",
+     "desenho": "banco",
+     "rotulos": [
+      "JUROS",
+      "PARCELAS"
+     ],
+     "texto": "- RECEBE PARCELAS → {laranja:PAPEL}\n- DEVEDOR ATRASA → {vermelho:CRÉDITO}\n- JUROS E INFLAÇÃO → {laranja:CRI}\n- SÓ BONS DEVEDORES → {verde:CRI HIGH GRADE}"
+    }
+   ],
+   "faixas": [
+    "{ciano:GESTÃO:} DEFINIDA (IMÓVEIS NO REGULAMENTO) × ATIVA (SEM ESPECIFICAR OU BUSCA SUPERAR BENCHMARK)",
+    "{ciano:SEGMENTOS:} VAREJO · EDUCACIONAL · HOSPITAL · HOTEL · ESCRITÓRIOS · LOGÍSTICA · RESIDENCIAL · SHOPPINGS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} O BANCO REAL TEM O IMÓVEL EM GARANTIA · NO PAPEL, {laranja:DEPENDE DE CADA CRI}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r37e_3_classificacao.png",
+   "semente": 3743,
+   "titulo": "TIJOLO, PAPEL E MULTIESTRATÉGIA",
+   "topo": "{ciano:REGRA DOS 2/3 (ANBIMA):} TIJOLO EM IMÓVEIS · PAPEL EM TÍTULOS · {laranja:MULTIESTRATÉGIA} NO MEIO",
+   "colunas": [
+    {
+     "titulo": "TIJOLO",
+     "texto": "- {verde:DESENVOLVIMENTO}: EM CONSTRUÇÃO\n- {verde:RENDA}: PRONTOS PARA LOCAÇÃO\n- {verde:HÍBRIDO}\n- RENDA: OCUPAÇÃO E LOCAÇÃO\n- RISCO: {vermelho:VACÂNCIA} E INQUILINOS"
+    },
+    {
+     "titulo": "PAPEL",
+     "texto": "- {laranja:CRI}\n- {laranja:CRI HIGH GRADE}: GRAU DE INVESTIMENTO\n- {laranja:FUNDOS}: > 2/3 EM COTAS DE FII\n- {laranja:HÍBRIDO}\n- RISCO: {vermelho:CRÉDITO} E JUROS"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} > 2/3 EM COTAS DE OUTROS FIIS = {laranja:PAPEL (FUNDOS)}, NÃO TIJOLO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r37e_4_dois-tercos.png",
+   "semente": 3744,
+   "titulo": "TIJOLO OU MULTIESTRATÉGIA?",
+   "dados": "- DOIS FIIS COM PL DE {ciano:R$ 300 MILHÕES} (HIPOTÉTICO)\n- 2/3 DO PL = {laranja:R$ 200 MILHÕES} (66,67%)\n- %T: FATIA SOBRE O TOTAL\n- REGRA DA ANBIMA: MAIS DE 2/3\n- A ÚNICA DIFERENÇA: A COMPOSIÇÃO",
+   "cenarios": [
+    {
+     "titulo": "R$ 220 MI EM IMÓVEIS",
+     "passos": "220 ÷ 300 = 73,33%\nACIMA DE 66,67%\nPASSA DE 2/3",
+     "resultado": "TIJOLO"
+    },
+    {
+     "titulo": "R$ 150 MI + R$ 150 MI",
+     "passos": "IMÓVEIS: 50%\nCRIS: 50%\nNENHUM PASSA DE 2/3",
+     "resultado": "MULTIESTRATÉGIA"
+    }
+   ],
+   "conclusao": {
+    "texto": "NENHUM LADO ACIMA DE 2/3 → {laranja:MULTIESTRATÉGIA} · TIJOLO EXIGIRIA {verde:MAIS DE R$ 200 MI} EM IMÓVEIS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r37f_1_isencao.png",
+   "semente": 3751,
+   "titulo": "RENDIMENTO SEMPRE ISENTO?",
+   "mitos": [
+    "TODO COTISTA É ISENTO",
+    "BASTAM 50 COTISTAS"
+   ],
+   "verdade": "ISENÇÃO COM {laranja:4 CONDIÇÕES}",
+   "desenho": {
+    "nome": "check",
+    "largura": 185
+   },
+   "apoio": "- {ciano:LEI 11.033, ART. 3º (RED. LEI 14.754/2023)}\n- {ciano:EXEMPLO HIPOTÉTICO:} PESSOA FÍSICA COM {vermelho:12% DAS COTAS}\n- FUNDO SÓ EM BOLSA, 5 MIL COTISTAS: {verde:FUNDO OK}\n- O COTISTA PASSA DE 10% → {vermelho:PERDE A ISENÇÃO}\n- OS OUTROS COTISTAS {verde:CONTINUAM ISENTOS}\n- PESSOA JURÍDICA: {vermelho:20% NA FONTE}, SEMPRE\n- {ciano:REGRA:} A ISENÇÃO OLHA O FUNDO E O COTISTA"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r37f_2_pequenos-donos.png",
+   "semente": 3752,
+   "titulo": "O BENEFÍCIO DOS PEQUENOS DONOS",
+   "colunas": [
+    {
+     "titulo": "AS CONDIÇÕES",
+     "desenho": "prancheta",
+     "rotulos": [
+      "PRÉDIO",
+      "DONO"
+     ],
+     "texto": "- BALCÃO PÚBLICO → {verde:SÓ BOLSA OU BALCÃO ORGANIZADO}\n- MUITOS DONOS → {verde:≥ 100 COTISTAS}\n- DONO NÃO MUITO GRANDE → {verde:< 10%}\n- FAMÍLIA NÃO CONCENTRA → {verde:LIGADOS < 30%}"
+    },
+    {
+     "titulo": "QUEM FICA DE FORA",
+     "desenho": "xis",
+     "rotulos": [
+      "DONO",
+      "GRANDE"
+     ],
+     "texto": "- DONO COM 10% OU MAIS → {vermelho:SEM ISENÇÃO}\n- EMPRESA DONA → {vermelho:20% NA FONTE}\n- PRÉDIO COM 80 DONOS → {vermelho:SEM ISENÇÃO}\n- ABAIXO DE 100 → {laranja:30 DIAS PARA VOLTAR}"
+    }
+   ],
+   "faixas": [
+    "{ciano:FUNDO NOVO:} 180 DIAS, DA 1ª INTEGRALIZAÇÃO, PARA CHEGAR A 100 COTISTAS",
+    "{ciano:LEI 15.270/2025:} RENDIMENTO DE FII EM BOLSA COM ≥ 100 COTISTAS FICA FORA DA TRIBUTAÇÃO MÍNIMA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} NO PRÉDIO, A REGRA SERIA MUNICIPAL · NO FII, É {laranja:LEI FEDERAL DO IR}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r37f_3_rendimentos.png",
+   "semente": 3753,
+   "titulo": "TRIBUTAÇÃO DOS RENDIMENTOS",
+   "topo": "{ciano:PESSOA FÍSICA:} {verde:ISENTA} NA FONTE E NA DECLARAÇÃO, SE CUMPRIDAS AS 4 CONDIÇÕES · {ciano:PJ:} {vermelho:20%}",
+   "colunas": [
+    {
+     "titulo": "AS 4 CONDIÇÕES",
+     "texto": "- 1. NEGOCIAÇÃO {laranja:EXCLUSIVA EM BOLSA}\n- OU BALCÃO ORGANIZADO\n- 2. NO MÍNIMO {laranja:100 COTISTAS}\n- 3. COTISTA COM {laranja:MENOS DE 10%}\n- 4. LIGADOS COM {laranja:MENOS DE 30%}"
+    },
+    {
+     "titulo": "NOTÍCIAS RECENTES",
+     "texto": "- {ciano:MP 1.303/2025}: {vermelho:PERDEU A VALIDADE}\n- (OUT/2025, SEM VOTAÇÃO)\n- {ciano:LEI 15.270/2025}: TRIBUTAÇÃO MÍNIMA\n- ACIMA DE {laranja:R$ 600 MIL} POR ANO\n- FII EM BOLSA E 100 COTISTAS: {verde:FORA DA BASE}"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:É COMUM LER:} \"BASTAM 50 COTISTAS\" · {vermelho:ATENÇÃO:} DESDE A LEI 14.754/2023, {laranja:SÃO 100}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r37f_4_quem-perde.png",
+   "semente": 3754,
+   "titulo": "QUEM PERDE A ISENÇÃO?",
+   "dados": "- DOIS FIIS SÓ EM BOLSA, COM MAIS DE 100 COTISTAS (HIPOTÉTICO)\n- RENDIMENTO DE {ciano:R$ 0,85} POR COTA NO MÊS\n- CADA COTISTA TEM {ciano:1.000 COTAS}\n- SEM PESSOAS LIGADAS\n- A ÚNICA DIFERENÇA: A FATIA NO FUNDO",
+   "cenarios": [
+    {
+     "titulo": "1% DAS COTAS",
+     "passos": "1.000 × 0,85 = 850\nCONDIÇÕES CUMPRIDAS\nSEM RETENÇÃO",
+     "resultado": "R$ 850 ISENTOS"
+    },
+    {
+     "titulo": "12% DAS COTAS",
+     "passos": "1.000 × 0,85 = 850\nRETENÇÃO DE 20%: 170\n850 − 170",
+     "resultado": "R$ 680"
+    }
+   ],
+   "conclusao": {
+    "texto": "O FUNDO CUMPRE AS CONDIÇÕES · {vermelho:O COTISTA COM 10% OU MAIS, NÃO} · ELE DEIXA R$ 170 NA FONTE",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "mito_verdade",
+   "saida": "r37g_1_venda-20mil.png",
+   "semente": 3761,
+   "titulo": "VENDA ATÉ 20 MIL É ISENTA?",
+   "mitos": [
+    "COMO AS AÇÕES",
+    "VENDA PEQUENA NÃO PAGA"
+   ],
+   "verdade": "GANHO NA VENDA: {vermelho:20%}",
+   "desenho": {
+    "nome": "moeda",
+    "largura": 185
+   },
+   "apoio": "- {ciano:LEI 8.668, ART. 18:} 20% SOBRE O GANHO NA ALIENAÇÃO\n- REGRAS DE {laranja:RENDA VARIÁVEL}, APURAÇÃO MENSAL\n- {ciano:P&R IRPF 2026, Nº 707:} ISENÇÃO DE 20 MIL {vermelho:SÓ AÇÕES E OURO}\n- PREJUÍZO: {laranja:SÓ COM GANHO EM FII}\n- RETENÇÃO DE {laranja:0,005%} · {verde:SEM IOF}\n- {ciano:REGRA:} VENDEU COM LUCRO? APURE O IR DO MÊS"
+  },
+  {
+   "molde": "comparacao",
+   "saida": "r37g_2_aluguel-venda.png",
+   "semente": 3762,
+   "titulo": "ALUGUEL E VENDA DA FRAÇÃO",
+   "colunas": [
+    {
+     "titulo": "O ALUGUEL",
+     "desenho": "dinheiro",
+     "rotulos": [
+      "MENSAL",
+      "ISENTO"
+     ],
+     "texto": "- ALUGUEL DO MÊS → {verde:RENDIMENTO}\n- CONDIÇÕES CUMPRIDAS → {verde:ISENTO NA PF}\n- EMPRESA → {vermelho:20% NA FONTE}\n- TAXAS DO FUNDO → {laranja:JÁ DESCONTADAS}"
+    },
+    {
+     "titulo": "A VENDA DA FRAÇÃO",
+     "desenho": "balanca",
+     "rotulos": [
+      "LUCRO",
+      "PREJUÍZO"
+     ],
+     "texto": "- VENDEU COM LUCRO → {vermelho:20% SEMPRE}\n- VENDA PEQUENA → {vermelho:TAMBÉM PAGA}\n- VENDEU COM PREJUÍZO → {laranja:SÓ ABATE FII}\n- CORRETAGEM E EMOLUMENTOS → {laranja:REDUZEM O GANHO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:FII × AÇÕES (OPERAÇÃO COMUM):} 20% CONTRA 15% · SEM A ISENÇÃO DE 20 MIL NO FII",
+    "{ciano:0,005%:} RETIDOS PELA CORRETORA, DESCONTADOS DO IMPOSTO A PAGAR"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} IMÓVEL REAL TEM ISENÇÕES NA VENDA · COTA DE FII {laranja:NÃO TEM}",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "molde": "colunas",
+   "saida": "r37g_3_venda-custos.png",
+   "semente": 3763,
+   "titulo": "IMPOSTO NA VENDA E CUSTOS",
+   "topo": "{ciano:GANHO NA VENDA:} {vermelho:20%} PARA PF E PJ · REGRAS DE RENDA VARIÁVEL · PAGO PELO INVESTIDOR",
+   "colunas": [
+    {
+     "titulo": "AS REGRAS",
+     "texto": "- {vermelho:SEM} ISENÇÃO DE R$ 20 MIL\n- PREJUÍZO {laranja:SÓ COM FII}\n- {laranja:0,005%} RETIDOS NA FONTE\n- {verde:SEM IOF}\n- APURAÇÃO {laranja:MENSAL}"
+    },
+    {
+     "titulo": "OS CUSTOS",
+     "texto": "- {laranja:CORRETAGEM}\n- {laranja:EMOLUMENTOS}\n- NA COMPRA E NA VENDA\n- REDUZEM A BASE DO GANHO\n- TAXAS DO FUNDO: ANTES DO RENDIMENTO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:NA PROVA:} RENDIMENTO ISENTO E GANHO TRIBUTADO {verde:CONVIVEM} NO MESMO MÊS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "molde": "exercicio",
+   "saida": "r37g_4_isento-tributado.png",
+   "semente": 3764,
+   "titulo": "ISENTO OU TRIBUTADO?",
+   "dados": "- {ciano:1.000 COTAS} COMPRADAS A {ciano:R$ 95} (HIPOTÉTICO)\n- RENDIMENTO DE R$ 0,85 POR COTA NO MÊS\n- VENDA A {ciano:R$ 105} · CUSTOS DE R$ 40\n- FUNDO COM AS 4 CONDIÇÕES · UM NEGÓCIO SÓ\n- A ÚNICA DIFERENÇA: A ORIGEM DO DINHEIRO",
+   "cenarios": [
+    {
+     "titulo": "RENDIMENTO",
+     "passos": "1.000 × 0,85\nISENTO NA PF",
+     "resultado": "R$ 850"
+    },
+    {
+     "titulo": "VENDA",
+     "passos": "105.000 − 95.000 − 40\n= 9.960 × 20% = 1.992\n− 5,25 RETIDOS",
+     "resultado": "DARF R$ 1.986,75"
+    }
+   ],
+   "conclusao": {
+    "texto": "5 PEGADINHAS (FALSAS): RESGATE NO FII · 50 COTISTAS · VENDA ATÉ 20 MIL ISENTA · TAXA DE SAÍDA · 95% TODO MÊS",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  }
+ ]
+}
