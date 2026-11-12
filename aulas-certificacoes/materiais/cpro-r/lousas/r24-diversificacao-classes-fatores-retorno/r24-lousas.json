@@ -4,146 +4,362 @@
  },
  "slides": [
   {
-   "saida": "r24_1_muitos-ativos.png",
+   "saida": "r24a_1_muitos-ativos.png",
    "semente": 2401,
    "molde": "mito_verdade",
-   "titulo": "DIVERSIFICAR = TER MUITOS ATIVOS?",
+   "titulo": "MUITOS ATIVOS = DIVERSIFICADO?",
    "mitos": [
-    "MUITOS ATIVOS",
+    "DIVERSIFICAR = TER MUITOS ATIVOS",
     "QUANTIDADE PROTEGE"
    ],
-   "verdade": "RISCOS {laranja:DIFERENTES}",
+   "verdade": "COMBINAR O QUE REAGE {laranja:DIFERENTE}",
    "desenho": {
     "nome": "diversificacao",
-    "largura": 150
+    "largura": 190
    },
-   "apoio": "- {ciano:CASO REAL (MARÇO DE 2020):} IBOVESPA {vermelho:−29,9%} · DÓLAR (PTAX) {verde:+15,56%}\n- DÓLAR: DE 4,4987 PARA 5,1987 REAIS, ENTRE 28/02 E 31/03/2020\n- NAQUELE MÊS, AÇÃO BRASILEIRA E DÓLAR FORAM EM SENTIDOS OPOSTOS\n- 10 AÇÕES DO MESMO PAÍS = O MESMO FATOR DE RISCO\n- O QUE CONTA: {laranja:CORRELAÇÕES DISTINTAS}, NÃO A QUANTIDADE\n- {ciano:3 TEMAS:} DIVERSIFICAÇÃO · CLASSES E SUBCLASSES · FATORES DE RETORNO"
+   "apoio": "- {ciano:CASO REAL, MARÇO DE 2020:} IBOVESPA −29,9% · DÓLAR +15,56% (PTAX)\n- 10 AÇÕES BRASILEIRAS = 1 FATOR DE RISCO\n- AÇÃO + DÓLAR = FATORES DIFERENTES\n- {vermelho:FALSO:} \"DIVERSIFICAR É TER MUITOS ATIVOS\"\n- {vermelho:FALSO:} \"DIVERSIFICAR SEMPRE REDUZ O RETORNO\""
   },
   {
-   "saida": "r24_2_cadeados-e-comodos.png",
+   "saida": "r24a_2_dez-cadeados.png",
    "semente": 2402,
    "molde": "comparacao",
-   "titulo": "A CASA: CADEADOS E CÔMODOS",
+   "titulo": "DEZ CADEADOS NA MESMA PORTA",
    "colunas": [
     {
-     "titulo": "A PROTEÇÃO",
+     "titulo": "MESMA PROTEÇÃO",
      "desenho": "cadeado",
      "rotulos": [
       "PORTA",
       "JANELA"
      ],
-     "texto": "- 10 CADEADOS NA MESMA PORTA → {laranja:MUITOS ATIVOS IGUAIS}\n- PROTEÇÕES DIFERENTES → {laranja:DIVERSIFICAÇÃO}\n- CHUVA, VENTO, LADRÃO → {laranja:FATORES DE RISCO}\n- TELHADO NÃO BARRA LADRÃO → CADA ATIVO, UMA FUNÇÃO"
+     "texto": "- 10 CADEADOS NA PORTA → {vermelho:MUITOS ATIVOS IGUAIS}\n- JANELA ABERTA → {vermelho:RISCO DESCOBERTO}\n- MESMO RISCO COBERTO 10 VEZES → {vermelho:MESMO FATOR}"
     },
     {
-     "titulo": "A PLANTA",
-     "desenho": "planta_baixa",
+     "titulo": "PROTEÇÕES DIFERENTES",
+     "desenho": "casa",
      "rotulos": [
-      "CÔMODOS",
-      "MÓVEIS"
+      "RAIO",
+      "FOGO"
      ],
-     "texto": "- CÔMODOS → {verde:CLASSES DE ATIVOS}\n- MÓVEIS DO CÔMODO → {verde:SUBCLASSES}\n- PLANTA → {verde:ASSET ALLOCATION}\n- MARCA DO PISO → {verde:ESCOLHA DE ATIVOS}"
+     "texto": "- CADEADO, PARA-RAIOS, SEGURO → {verde:ATIVOS DIFERENTES}\n- CADA UM COBRE UM RISCO → {verde:FATORES DISTINTOS}\n- UM PROBLEMA NÃO ATINGE TUDO → {verde:COMPENSAÇÃO}"
     }
    ],
    "faixas": [
-    "{ciano:DIA DE COMPRAR O MATERIAL:} MARKET TIMING → EFEITO PEQUENO, ACERTO RARO",
-    "{ciano:ORDEM DA OBRA:} PRIMEIRO A PLANTA, DEPOIS O ACABAMENTO"
+    "{ciano:CONTA DE PROTEÇÃO:} O QUE IMPORTA É QUANTOS RISCOS ESTÃO COBERTOS, NÃO QUANTOS CADEADOS",
+    "{ciano:NA CARTEIRA:} 2 ATIVOS BEM COMBINADOS PROTEGEM MAIS QUE 10 PARECIDOS"
    ],
    "destaque": {
-    "texto": "{vermelho:ONDE QUEBRA:} PAREDE NÃO COMPENSA PAREDE · ATIVOS SE COMPENSAM, E A CORRELAÇÃO ENTRE ELES NÃO É FIXA",
+    "texto": "{vermelho:ONDE QUEBRA:} CADEADO E SEGURO NÃO SE COMPENSAM EM VALOR · ATIVOS, SIM: A RELAÇÃO É MEDIDA PELA {laranja:CORRELAÇÃO}, QUE MUDA COM O TEMPO",
     "cor": "branco",
     "moldura": "vermelho"
    }
   },
   {
-   "saida": "r24_3_conteudo-1.png",
+   "saida": "r24a_3_conteudo-1.png",
    "semente": 2403,
    "molde": "colunas",
-   "titulo": "O PODER DA DIVERSIFICAÇÃO (1/3)",
-   "topo": "{ciano:DIVERSIFICAÇÃO:} CONCEITO CENTRAL DA {laranja:TEORIA MODERNA DE PORTFÓLIOS} · REDUZ O RISCO TOTAL SEM NECESSARIAMENTE REDUZIR O RETORNO",
+   "titulo": "O PODER DA DIVERSIFICAÇÃO (1/2)",
+   "topo": "{ciano:DIVERSIFICAR:} COMBINAR ATIVOS DE COMPORTAMENTOS DIFERENTES · {laranja:MENOS RISCO TOTAL} SEM NECESSARIAMENTE MENOS RETORNO",
    "colunas": [
     {
-     "titulo": "CORRELAÇÃO",
-     "texto": "- {vermelho:+1:} ANDAM JUNTOS, SEM GANHO\n- ENTRE −1 E +1: HÁ GANHO DE DIVERSIFICAÇÃO\n- {verde:−1:} OPOSTOS, GANHO MÁXIMO\n- QUANTO MENOR A CORRELAÇÃO, MAIOR A REDUÇÃO DE RISCO"
+     "titulo": "O MECANISMO",
+     "texto": "- {laranja:CORRELAÇÃO:} QUANTO 2 ATIVOS ANDAM JUNTOS\n- CORRELAÇÃO IMPERFEITA → A QUEDA DE UM É COMPENSADA PELO OUTRO\n- CONCEITO CENTRAL DA TEORIA MODERNA DE PORTFÓLIOS\n- FÓRMULA COM PESOS: R59"
     },
     {
-     "titulo": "NÃO É DIVERSIFICAR",
-     "texto": "- 20 AÇÕES DO MESMO SETOR\n- 5 FUNDOS COM OS MESMOS ATIVOS\n- VÁRIOS CDBs DO MESMO BANCO\n- MUITOS ATIVOS, UM SÓ FATOR DE RISCO"
+     "titulo": "2 EXEMPLOS",
+     "texto": "- BOLSA EM ANO RUIM → RENDA FIXA PODE SEGURAR\n- BRASIL EM ANO RUIM → EXTERIOR PODE AJUDAR\n- {ciano:MARÇO DE 2020:} BOLSA CAIU, DÓLAR SUBIU\n- \"PODE\": A COMPENSAÇÃO NÃO É GARANTIDA"
     }
    ],
    "destaque": {
-    "texto": "{ciano:NA PROVA:} DIVERSIFICAÇÃO = MECANISMO DE {laranja:CONTROLE DE RISCO} · NÃO GARANTE GANHO E NÃO ELIMINA TODO O RISCO: O RISCO DE MERCADO PERMANECE",
+    "texto": "DIVERSIFICAÇÃO = {laranja:MECANISMO DE CONTROLE DE RISCO} · O ALVO É A OSCILAÇÃO DA CARTEIRA, NÃO UM RETORNO MAIOR",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r24_3_conteudo-2.png",
+   "saida": "r24a_3_conteudo-2.png",
    "semente": 2404,
    "molde": "colunas",
-   "titulo": "CLASSES E SUBCLASSES (2/3)",
-   "topo": "{ciano:CLASSE DE ATIVOS:} GRANDE GRUPO DE INVESTIMENTOS COM RISCO E RETORNO {laranja:SEMELHANTES} · {ciano:SUBCLASSE:} O RECORTE DENTRO DA CLASSE",
+   "titulo": "O QUE NÃO É DIVERSIFICAR (2/2)",
+   "topo": "DIVERSIFICAR EXIGE {laranja:CORRELAÇÕES DISTINTAS} E {laranja:FATORES DE RISCO DIFERENTES} · QUANTIDADE SOZINHA NÃO RESOLVE",
    "colunas": [
     {
-     "titulo": "FIXA E VARIÁVEL",
-     "texto": "- {laranja:RENDA FIXA:} PÓS-FIXADA · PREFIXADA · INDEXADA À INFLAÇÃO\n- EXEMPLO: TESOURO SELIC, PREFIXADO E IPCA+\n- {laranja:RENDA VARIÁVEL:} AÇÕES POR SETOR OU REGIÃO\n- EXEMPLO: BANCOS, ENERGIA, VAREJO"
+     "titulo": "O ALERTA",
+     "texto": "- MUITOS ATIVOS ≠ DIVERSIFICAÇÃO\n- PULVERIZAR: DIVIDIR EM MUITOS PEDAÇOS\n- DIVERSIFICAR: PEDAÇOS QUE SE COMPORTAM DIFERENTE\n- PERGUNTA-CHAVE: A QUE FATOR DE RISCO ESTE ATIVO RESPONDE?"
     },
     {
-     "titulo": "IMÓVEIS E EXTERIOR",
-     "texto": "- {laranja:IMOBILIÁRIOS:} FUNDOS IMOBILIÁRIOS POR SEGMENTO\n- EXEMPLO: LAJES, GALPÕES, SHOPPINGS\n- {laranja:EXTERIOR:} POR MOEDA OU POR MERCADO\n- EXEMPLO: DÓLAR, EURO · EUA, EUROPA"
+     "titulo": "EXEMPLOS DE ERRO",
+     "texto": "- 10 FUNDOS DE AÇÕES COM AS MESMAS EMPRESAS\n- 30 AÇÕES DE BANCOS BRASILEIROS\n- MESMO SETOR, MESMO PAÍS\n- 10 NOMES, {vermelho:1 RISCO}"
     }
    ],
    "destaque": {
-    "texto": "{vermelho:PEGADINHA:} PREFIXADO E IPCA+ SÃO {laranja:SUBCLASSES} DA RENDA FIXA, NÃO CLASSES · {ciano:PARA QUE SERVE:} ENXERGAR ONDE ESTÁ O RISCO E CONTROLAR O PESO DE CADA GRUPO",
+    "texto": "{ciano:CASO-LIMITE:} CORRELAÇÃO PERFEITA E POSITIVA → SOBEM E CAEM JUNTOS → {vermelho:SEM GANHO} DE DIVERSIFICAÇÃO: RISCO = MÉDIA PONDERADA",
     "cor": "branco",
     "moldura": "amarelo"
    }
   },
   {
-   "saida": "r24_3_conteudo-3.png",
+   "saida": "r24a_4_x-e-y.png",
    "semente": 2405,
-   "molde": "colunas",
-   "titulo": "FATORES DE RETORNO NO LONGO PRAZO (3/3)",
-   "topo": "{ciano:ESTUDO DE 1986 (BRINSON, HOOD E BEEBOWER):} 91 FUNDOS DE PENSÃO DOS EUA · DADOS TRIMESTRAIS, 1974 A 1983 · R-QUADRADO MÉDIO DE {laranja:93,6%} COM A POLÍTICA DE ALOCAÇÃO",
-   "colunas": [
-    {
-     "titulo": "ALLOCATION",
-     "texto": "- QUANTO EM CADA CLASSE\n- MAIOR PARTE DA VARIABILIDADE\n- {verde:PESA MAIS}"
-    },
-    {
-     "titulo": "TIMING",
-     "texto": "- A HORA DE ENTRAR E DE SAIR\n- IMPACTO LIMITADO\n- {vermelho:DIFÍCIL DE REPETIR}"
-    },
-    {
-     "titulo": "ESCOLHA",
-     "texto": "- QUAL ATIVO DENTRO DA CLASSE\n- PODE AGREGAR VALOR\n- {laranja:DENTRO DA ALOCAÇÃO}"
-    }
-   ],
-   "destaque": {
-    "texto": "{vermelho:CUIDADO:} 93,6% É SOBRE A {laranja:OSCILAÇÃO} DOS RETORNOS NO TEMPO, NÃO SOBRE O NÍVEL DO RETORNO · {ciano:HIERARQUIA:} ESTRUTURA E DISCIPLINA PRIMEIRO",
-    "cor": "branco",
-    "moldura": "amarelo"
-   }
-  },
-  {
-   "saida": "r24_4_dois-ativos.png",
-   "semente": 2406,
    "molde": "exercicio",
    "titulo": "DOIS ATIVOS QUE SE COMPENSAM",
-   "dados": "- HIPOTÉTICO: RETORNOS DE 4 ANOS, EM %\n- ATIVO X: +20 · −10 · +20 · −10\n- ATIVO Y: −10 · +20 · −10 · +20\n- X E Y: MÉDIA DE {ciano:5%} E DESVIO PADRÃO DE {ciano:17,32%}\n- A ÚNICA DIFERENÇA: A COMPOSIÇÃO DA CARTEIRA",
+   "dados": "- RETORNOS ANUAIS HIPOTÉTICOS, 4 ANOS\n- {ciano:ATIVO X:} +20 · −10 · +20 · −10\n- {ciano:ATIVO Y:} −10 · +20 · −10 · +20\n- MÉDIA: g x̄ · DESVIO PADRÃO: g s\n- CARTEIRA: 50% X + 50% Y",
    "cenarios": [
     {
      "titulo": "100% EM X",
-     "passos": "ANOS: 20, −10, 20, −10\nMÉDIA: 5%\nDESVIO PADRÃO: 17,32%",
-     "resultado": "RISCO DE 17,32%"
+     "passos": "MÉDIA: 5% AO ANO\nDESVIO PADRÃO: 17,32\nY SOZINHO: IGUAL",
+     "resultado": "RISCO: 17,32"
     },
     {
      "titulo": "50% X + 50% Y",
-     "passos": "TODO ANO: 10 − 5 = 5\nMÉDIA: 5%\nDESVIO PADRÃO: 0%",
-     "resultado": "RISCO ZERO"
+     "passos": "0,5 × 20 + 0,5 × (−10) = 5\nTODO ANO: 5%\nMÉDIA: 5% AO ANO",
+     "resultado": "RISCO: 0,00"
     }
    ],
    "conclusao": {
-    "texto": "MESMO RETORNO MÉDIO, {verde:RISCO MENOR} · CASO EXTREMO: CORRELAÇÃO {laranja:−1} · COM CORRELAÇÃO ENTRE −1 E +1, O RISCO CAI, MAS NÃO CHEGA A ZERO",
+    "texto": "MESMO RETORNO MÉDIO, {laranja:RISCO ZERO} · FORAM SÓ 2 ATIVOS: VALE A COMBINAÇÃO · CASO EXTREMO: CORRELAÇÃO PERFEITAMENTE NEGATIVA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r24b_1_renda-fixa-igual.png",
+   "semente": 2406,
+   "molde": "mito_verdade",
+   "titulo": "RENDA FIXA É TUDO IGUAL?",
+   "mitos": [
+    "40% EM RENDA FIXA DIZ O RISCO",
+    "MESMA CLASSE, MESMO RISCO"
+   ],
+   "verdade": "A {laranja:SUBCLASSE} MUDA O RISCO",
+   "desenho": {
+    "nome": "gangorra",
+    "largura": 190
+   },
+   "apoio": "- {ciano:EXEMPLO HIPOTÉTICO:} 2 CLIENTES, AMBOS COM 40% EM RENDA FIXA\n- {ciano:CLIENTE 1:} PÓS-FIXADOS → ACOMPANHAM OS JUROS\n- {ciano:CLIENTE 2:} PREFIXADOS LONGOS → PERDEM VALOR NA ALTA\n- CLASSE: RISCO E RETORNO SEMELHANTES\n- SUBCLASSE: REFINA A ALOCAÇÃO\n- {vermelho:FALSO:} \"PREFIXADO E IPCA+ SÃO CLASSES DIFERENTES\""
+  },
+  {
+   "saida": "r24b_2_comodos-e-moveis.png",
+   "semente": 2407,
+   "molde": "comparacao",
+   "titulo": "CÔMODOS E MÓVEIS",
+   "colunas": [
+    {
+     "titulo": "OS CÔMODOS",
+     "desenho": "planta_baixa",
+     "rotulos": [
+      "QUARTO",
+      "SALA"
+     ],
+     "texto": "- QUARTO, COZINHA, SALA, GARAGEM → {laranja:CLASSES}\n- CADA CÔMODO, UMA FUNÇÃO → {laranja:RISCO E RETORNO PARECIDOS}\n- 3 QUARTOS → 40% EM RENDA FIXA"
+    },
+    {
+     "titulo": "OS MÓVEIS",
+     "desenho": "casa",
+     "rotulos": [
+      "CAMA",
+      "FOGÃO"
+     ],
+     "texto": "- CAMA DE CASAL OU BELICHE → {verde:SUBCLASSES}\n- FOGÃO A GÁS OU ELÉTRICO → {verde:PÓS, PRÉ, INFLAÇÃO}\n- SABER O QUE HÁ DENTRO → {verde:CONTROLE DO RISCO}"
+    }
+   ],
+   "faixas": [
+    "{ciano:INVENTÁRIO EM 2 NÍVEIS:} PRIMEIRO OS CÔMODOS; DEPOIS, O QUE HÁ EM CADA UM",
+    "{ciano:DESPENSA E DEPÓSITO:} ALÉM DOS 4 CÔMODOS, HÁ CAIXA E ALTERNATIVOS"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} MÓVEL NÃO MUDA A FUNÇÃO DO CÔMODO · SUBCLASSE {laranja:MUDA BASTANTE} O RISCO DA CLASSE NA CARTEIRA",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r24b_3_conteudo-1.png",
+   "semente": 2408,
+   "molde": "colunas",
+   "titulo": "CLASSES E SUBCLASSES (1/2)",
+   "topo": "{ciano:CLASSE DE ATIVOS:} GRANDE GRUPO DE INVESTIMENTOS COM {laranja:RISCO E RETORNO SEMELHANTES} · 4 EXEMPLOS: RF · RV · IMOBILIÁRIOS · EXTERIOR",
+   "colunas": [
+    {
+     "titulo": "RENDA FIXA",
+     "texto": "- {laranja:PÓS-FIXADA:} SEGUE A TAXA DE JUROS\n- {laranja:PREFIXADA:} TAXA TRAVADA NA COMPRA\n- {laranja:INDEXADA À INFLAÇÃO:} ÍNDICE + JURO REAL\n- REAÇÕES DIFERENTES AOS JUROS"
+    },
+    {
+     "titulo": "RENDA VARIÁVEL",
+     "texto": "- AÇÕES POR {laranja:SETOR}\n- AÇÕES POR {laranja:REGIÃO}\n- EX.: BANCOS, ENERGIA, CONSUMO\n- EX.: BRASIL, EUA, EMERGENTES"
+    }
+   ],
+   "destaque": {
+    "texto": "{vermelho:CLASSE ≠ SUBCLASSE:} PREFIXADO E INDEXADO À INFLAÇÃO SÃO SUBCLASSES DA {laranja:MESMA CLASSE}: RENDA FIXA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r24b_3_conteudo-2.png",
+   "semente": 2409,
+   "molde": "colunas",
+   "titulo": "CLASSES E SUBCLASSES (2/2)",
+   "topo": "CLASSES E SUBCLASSES BEM DEFINIDAS → {laranja:MELHOR GESTÃO DO RISCO} · RELATÓRIO EM 2 NÍVEIS",
+   "colunas": [
+    {
+     "titulo": "IMOBILIÁRIOS E EXTERIOR",
+     "texto": "- {laranja:IMOBILIÁRIOS:} FUNDOS POR SEGMENTO\n- LAJES · LOGÍSTICA · SHOPPING\n- {laranja:EXTERIOR:} POR MOEDA OU MERCADO\n- FII EM BOLSA CONTINUA NA CLASSE IMOBILIÁRIA"
+    },
+    {
+     "titulo": "NA PRÁTICA",
+     "texto": "- {laranja:ALTERNATIVOS:} FATIA SEPARADA NA ANÁLISE DA CARTEIRA\n- {laranja:CAIXA:} LIQUIDEZ IMEDIATA\n- NÍVEL 1: % POR CLASSE\n- NÍVEL 2: % POR SUBCLASSE"
+    }
+   ],
+   "destaque": {
+    "texto": "\"40% EM RENDA FIXA\" É POUCO: PÓS-FIXADO E PREFIXADO LONGO TÊM RISCOS BEM DIFERENTES → SUBCLASSE DÁ {laranja:MAIS CONTROLE}",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r24b_4_mesma-classe.png",
+   "semente": 2410,
+   "molde": "exercicio",
+   "titulo": "MESMA CLASSE, DUAS SUBCLASSES",
+   "dados": "- 2 CARTEIRAS DE {ciano:R$ 500.000} (HIPOTÉTICAS)\n- 40% EM RENDA FIXA = R$ 200.000\n- JUROS DE MERCADO: 12% → 14% AO ANO\n- PREFIXADO: 5 ANOS, SEM CUPOM\n- ALTA INSTANTÂNEA, SEM IMPOSTO",
+   "cenarios": [
+    {
+     "titulo": "PÓS-FIXADO",
+     "passos": "ACOMPANHA A TAXA\nVALOR QUASE NÃO CAI\nRENDE PELA TAXA NOVA",
+     "resultado": "PERDA: QUASE ZERO"
+    },
+    {
+     "titulo": "PREFIXADO",
+     "passos": "PREÇO A 12%: 567,43\nPREÇO A 14%: 519,37\nVARIAÇÃO: −8,47%",
+     "resultado": "PERDA: 16.940"
+    }
+   ],
+   "conclusao": {
+    "texto": "MESMO PERCENTUAL NA CLASSE, RISCO DIFERENTE · 8,47% DE 200.000 = {laranja:16.940} · ATÉ O VENCIMENTO, O PREFIXADO PAGA A TAXA CONTRATADA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r24c_1_hora-certa.png",
+   "semente": 2411,
+   "molde": "mito_verdade",
+   "titulo": "ACERTAR A HORA É O SEGREDO?",
+   "mitos": [
+    "GANHA QUEM ACERTA A HORA",
+    "O SEGREDO É O MOMENTO"
+   ],
+   "verdade": "PESA MAIS A {laranja:DIVISÃO} DO PATRIMÔNIO",
+   "desenho": {
+    "nome": "alvo",
+    "largura": 140
+   },
+   "apoio": "- {ciano:CASO REAL:} BRINSON, HOOD E BEEBOWER (1986) · 91 FUNDOS DE PENSÃO DOS EUA\n- PERÍODO: 1974 A 1983 · RETORNOS TRIMESTRAIS\n- {ciano:3 FATORES:} ASSET ALLOCATION · MARKET TIMING · ESCOLHA DE ATIVOS\n- {vermelho:FALSO:} \"MARKET TIMING É O PRINCIPAL FATOR DE RETORNO\"\n- {vermelho:FALSO:} \"A ALOCAÇÃO EXPLICA 93,6% DO RETORNO\""
+  },
+  {
+   "saida": "r24c_2_planta-piso-compra.png",
+   "semente": 2412,
+   "molde": "comparacao",
+   "titulo": "PLANTA, PISO E DIA DA COMPRA",
+   "colunas": [
+    {
+     "titulo": "A PLANTA",
+     "desenho": "planta_baixa",
+     "rotulos": [
+      "CÔMODOS",
+      "TAMANHO"
+     ],
+     "texto": "- PLANTA → {laranja:ASSET ALLOCATION}\n- DEFINE COMO A CASA SERÁ → {laranja:MAIOR PESO}\n- PLANTA ERRADA NÃO SE CONSERTA COM ACABAMENTO"
+    },
+    {
+     "titulo": "PISO E COMPRA",
+     "desenho": "dinheiro",
+     "rotulos": [
+      "MARCA",
+      "DIA"
+     ],
+     "texto": "- MARCA DO PISO → {verde:ESCOLHA DE ATIVOS}\n- AJUDA NO ESPAÇO DA PLANTA → {verde:DENTRO DA ALOCAÇÃO}\n- DIA MAIS BARATO DA COMPRA → {vermelho:MARKET TIMING}\n- DIFÍCIL DE REPETIR → {vermelho:POUCA CONSISTÊNCIA}"
+    }
+   ],
+   "faixas": [
+    "{ciano:ORDEM DA OBRA:} PRIMEIRO A PLANTA, DEPOIS O PISO, POR ÚLTIMO O DIA DA COMPRA",
+    "{ciano:ORÇAMENTO DE ATENÇÃO:} A MAIOR PARTE DO TEMPO DO PROFISSIONAL VAI PARA A PLANTA"
+   ],
+   "destaque": {
+    "texto": "{vermelho:ONDE QUEBRA:} A PLANTA DE UMA OBRA É FEITA UMA VEZ · A ALOCAÇÃO DA CARTEIRA É {laranja:MANTIDA E REBALANCEADA} POR ANOS",
+    "cor": "branco",
+    "moldura": "vermelho"
+   }
+  },
+  {
+   "saida": "r24c_3_conteudo-1.png",
+   "semente": 2413,
+   "molde": "colunas",
+   "titulo": "OS 3 FATORES DE RETORNO (1/2)",
+   "topo": "NO LONGO PRAZO, 3 FATORES INFLUENCIAM O RETORNO DA CARTEIRA · HÁ UMA {laranja:HIERARQUIA} ENTRE ELES",
+   "colunas": [
+    {
+     "titulo": "ASSET ALLOCATION",
+     "texto": "- {verde:MAIOR PARTE} DA VARIABILIDADE DOS RESULTADOS\n- QUANTO EM CADA CLASSE\n- 1º NA HIERARQUIA"
+    },
+    {
+     "titulo": "MARKET TIMING",
+     "texto": "- PREVER A HORA DE ENTRAR E SAIR\n- IMPACTO {vermelho:LIMITADO}\n- DIFÍCIL COM CONSISTÊNCIA\n- ≠ ALOCAÇÃO TÁTICA"
+    },
+    {
+     "titulo": "ESCOLHA DE ATIVOS",
+     "texto": "- QUAL ATIVO EM CADA CLASSE\n- PODE AGREGAR VALOR\n- {laranja:DENTRO DOS LIMITES} DA ALOCAÇÃO"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:TÁTICA × TIMING:} A TÁTICA AJUSTA PESOS AOS POUCOS, COM ANÁLISE · O TIMING AGRESSIVO APOSTA NA HORA CERTA",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r24c_3_conteudo-2.png",
+   "semente": 2414,
+   "molde": "colunas",
+   "titulo": "O ESTUDO DE 1986 (2/2)",
+   "topo": "{ciano:BRINSON, HOOD E BEEBOWER:} \"DETERMINANTS OF PORTFOLIO PERFORMANCE\" · FINANCIAL ANALYSTS JOURNAL, 1986",
+   "colunas": [
+    {
+     "titulo": "O QUE MEDIU",
+     "texto": "- 91 GRANDES FUNDOS DE PENSÃO DOS EUA\n- 1974 A 1983 · DADOS TRIMESTRAIS\n- POLÍTICA DE ALOCAÇÃO: {laranja:93,6%} DA VARIAÇÃO DOS RETORNOS, EM MÉDIA\n- FAIXA ENTRE OS FUNDOS: 75,5% A 98,6%"
+    },
+    {
+     "titulo": "COMO LER",
+     "texto": "- {verde:É:} VARIAÇÃO DOS RETORNOS AO LONGO DO TEMPO\n- {vermelho:NÃO É:} 93,6% DO RETORNO\n- {vermelho:NÃO É:} DIFERENÇA ENTRE UM FUNDO E OUTRO\n- {vermelho:NÃO É:} MÉRITO DA ESCOLHA DE ATIVOS OU DO TIMING"
+    }
+   ],
+   "destaque": {
+    "texto": "{ciano:CONCLUSÃO:} {laranja:ESTRUTURA E DISCIPLINA} ANTES DE OPORTUNISMO · CONVERSA COM O CLIENTE: CLASSE → PRODUTO → MOMENTO",
+    "cor": "branco",
+    "moldura": "amarelo"
+   }
+  },
+  {
+   "saida": "r24c_4_escolha-ou-alocacao.png",
+   "semente": 2415,
+   "molde": "exercicio",
+   "titulo": "O QUE MEXE MAIS NA CARTEIRA?",
+   "dados": "- NÚMEROS HIPOTÉTICOS (NÃO SÃO DO ESTUDO)\n- ANO BOM: AÇÕES +20% · ANO RUIM: AÇÕES −15%\n- RENDA FIXA: +10% NOS DOIS ANOS\n- PARTIDA: 30% AÇÕES → 13% NO ANO BOM\n- SEM CUSTOS E SEM IMPOSTO",
+   "cenarios": [
+    {
+     "titulo": "MUDA A ESCOLHA",
+     "passos": "AÇÕES RENDEM 22%, NÃO 20%\n0,30 × 22 + 0,70 × 10\n= 13,6% NO ANO BOM",
+     "resultado": "+0,6 PONTO"
+    },
+    {
+     "titulo": "MUDA A ALOCAÇÃO",
+     "passos": "70% EM AÇÕES\nANO BOM: 17% · RUIM: −7,5%\nCOM 30%: 13% E 2,5%",
+     "resultado": "OSCILA 24,5 PONTOS"
+    }
+   ],
+   "conclusao": {
+    "texto": "COM 30% EM AÇÕES, A CARTEIRA OSCILA 10,5 PONTOS; COM 70%, {laranja:24,5 PONTOS} · A ALOCAÇÃO DEFINE O SOBE E DESCE AO LONGO DO TEMPO",
     "cor": "branco",
     "moldura": "amarelo"
    }
