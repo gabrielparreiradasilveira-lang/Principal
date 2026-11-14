@@ -79,11 +79,72 @@ def codigo_de(nome: str):
     return ""
 
 
-def main():
+LOUSA_RE = re.compile(r"^(r\d{1,2}[a-i]?(?:-(?:\d+|hp))?[a-h]?)_", re.I)
+
+
+def pastas_de_lousas(arquivos):
+    """Uma linha por pasta materiais/<cert>/lousas/<rNN-tema>/, com os vídeos que as lousas cobrem.
+
+    As lousas são PNG nomeadas pelo vídeo do cronograma: r10a_1_x.png → vídeo R10A,
+    r50f-1_1_x.png → vídeo R50F-1, r53_01_x.png → aula de vídeo único R53."""
+    pastas = {}
+    for p in arquivos:
+        partes = p.parts
+        if len(partes) == 5 and partes[0] == "materiais" and partes[2] == "lousas":
+            pastas.setdefault(Path(*partes[:4]), []).append(p)
     linhas = []
-    for p in sorted(Path(f) for f in git("ls-files").splitlines()):
+    for pasta, arqs in sorted(pastas.items()):
+        cert = CERT_NOME.get(pasta.parts[1], pasta.parts[1])
+        chave = pasta.name
+        mm = re.match(r"r(\d{1,2}[a-i]?(?:-hp)?)", chave, re.I)
+        codigo = "R" + mm.group(1).upper() if mm else ""
+        pngs = [a for a in arqs if a.suffix == ".png"]
+        videos = {}
+        for a in pngs:
+            mv = LOUSA_RE.match(a.name)
+            if mv:
+                v = mv.group(1).upper()
+                videos[v] = videos.get(v, 0) + 1
+        spec = next((a for a in arqs if a.name.endswith("-lousas.json")), None)
+        slides = json.loads(spec.read_text(encoding="utf-8")).get("slides", []) if spec else []
+        cabeca = " ".join([s.get("titulo", "") for s in slides[:1]] +
+                          [e.get("texto", "") for s in slides[:1] for e in s.get("elementos", [])
+                           if e.get("tipo") == "titulo"]).replace(" ", " ")
+        m = ITEM_RE.search(cabeca)
+        item = m.group(0) if m else ""
+        validos = PD_ITENS.get(cert, set())
+        itens = sorted({".".join(i.split(".")[:2]) for i in ITEM_RE.findall(cabeca)} & validos,
+                       key=lambda i: [int(n) for n in i.split(".")])
+        datas = git("log", "--format=%cs", "--", pasta.as_posix()).split()
+        linhas.append({
+            "cert": cert,
+            "tipo": "Lousas (PNG)",
+            "codigo": codigo,
+            "item": item,
+            "itens": " ".join(itens),
+            "modulo": item[:1],
+            "titulo": f"Lousas {codigo} · {len(pngs)} lousas · {chave[len(codigo):].strip('-').replace('-', ' ')}",
+            "duracao_min": None,
+            "palavras": None,
+            "pendencias": 0,
+            "lousas": len(pngs),
+            "videos": " ".join(sorted(videos)),
+            "ultimo_commit": datas[0] if datas else None,
+            "commits": len(datas),
+            "caminho": f"{PREFIXO}/{pasta.as_posix()}",
+            "link": f"{REPO_URL}/tree/{BRANCH}/{PREFIXO}/{pasta.as_posix()}",
+        })
+    return linhas
+
+
+def main():
+    arquivos = sorted(Path(f) for f in git("ls-files").splitlines())
+    linhas = pastas_de_lousas(arquivos)
+    for p in arquivos:
         if p.suffix not in {".md", ".pdf", ".pptx"}:
             continue
+        if len(p.parts) >= 3 and p.parts[0] == "materiais" and p.parts[2] == "lousas":
+            continue  # já contadas por pasta em pastas_de_lousas
         cls = classificar(p)
         if not cls:
             continue
