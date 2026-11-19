@@ -33,3 +33,7 @@ yarn-error.log*
 # Temporary files
 *.tmp
 .claude/settings.local.json
+
+# Sistema de conteúdo pessoal: fica fora do Git enquanto o repositório for público.
+# Remover esta linha quando o repositório estiver privado.
+meu-sistema/
